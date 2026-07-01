@@ -226,6 +226,39 @@ def fetch_huggingface() -> list[dict]:
 
 # ─── 新增信源 ──────────────────────────────────────────────────────────
 
+def _extract_image(item) -> str:
+    """从 RSS item 中提取图片 URL，支持多种格式"""
+    img_tags = []
+    # 方法1: media:thumbnail
+    for child in item:
+        tag = child.tag.split("}")[-1] if "}" in child.tag else child.tag
+        ns = child.tag.split("}")[0].strip("{") if "}" in child.tag else ""
+        if tag == "thumbnail" and "media" in ns.lower():
+            url = child.get("url", "")
+            if url and url.startswith("https"):
+                return url
+        if tag == "content" and "media" in ns.lower():
+            url = child.get("url", "")
+            if url and url.startswith("https") and child.get("medium") == "image":
+                return url
+    # 方法2: enclosure
+    enc = item.find("enclosure")
+    if enc is not None:
+        url = enc.get("url", "")
+        if url and url.startswith("https"):
+            return url
+    # 方法3: 从 description 的 HTML 中提取 img
+    desc = item.findtext("description") or ""
+    if desc:
+        m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', desc)
+        if m:
+            url = m.group(1)
+            if url.startswith("http://"):
+                url = "https://" + url[7:]
+            return url
+    return ""
+
+
 def fetch_rss_news(feeds: dict[str, str], limit: int = 5) -> list[dict]:
     items = []
     for name, url in feeds.items():
@@ -243,12 +276,14 @@ def fetch_rss_news(feeds: dict[str, str], limit: int = 5) -> list[dict]:
                 desc = clean_html(item.findtext("description") or "")
                 if not title:
                     continue
+                image = _extract_image(item)
                 items.append({
                     "id": f"rss_{hashlib.md5((name + title).encode()).hexdigest()[:12]}",
                     "source": name,
                     "title": title,
                     "url": link,
                     "summary": desc,
+                    "image": image,
                 })
             log(f"  {name}: ok")
         except Exception as e:
@@ -266,7 +301,12 @@ def fetch_36kr() -> list[dict]:
         for item in root.findall(".//item")[:5]:
             title = (item.findtext("title") or "").strip()
             link = item.findtext("link") or ""
-            desc = clean_html(item.findtext("description") or "")
+            raw_desc = item.findtext("description") or ""
+            desc = clean_html(raw_desc)
+            image = ""
+            m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', raw_desc)
+            if m:
+                image = m.group(1)
             if not title:
                 continue
             items.append({
@@ -275,6 +315,7 @@ def fetch_36kr() -> list[dict]:
                 "title": title,
                 "url": link,
                 "summary": desc,
+                "image": image,
             })
         log(f"  36氪: {len(items)} 条")
     except Exception as e:
@@ -441,6 +482,75 @@ def build_prompt(session_type: str, items: list[dict]) -> tuple[str, str]:
     return system_prompt, user_prompt
 
 
+# ─── HTML 构建（早报带图版） ─────────────────────────────────────────
+
+COUNTRY_EMOJIS = {
+    "BBC": "🇬🇧", "France24": "🇫🇷", "TASS Russia": "🇷🇺",
+    "中国日报": "🇨🇳", "纽约时报": "🇺🇸", "36氪": "🇨🇳",
+}
+
+
+SOURCE_LABELS = {
+    "BBC": "BBC 英国", "France24": "France24 法国", "TASS Russia": "TASS 俄罗斯",
+    "中国日报": "中国日报", "纽约时报": "纽约时报", "36氪": "36氪",
+}
+
+
+def build_morning_html(items: list[dict], now_str: str) -> str:
+    by_source = {}
+    for it in items:
+        by_source.setdefault(it["source"], []).append(it)
+
+    html_parts = [
+        "<div style='font-family:-apple-system,sans-serif;padding:10px;color:#222'>",
+        f"<h2 style='margin:0'>🌅 全球早报</h2>",
+        f"<p style='color:#888;font-size:14px;margin:5px 0 15px'>{now_str}</p>",
+        "<hr style='border:1px solid #eee'>",
+    ]
+
+    for src, src_items in sorted(by_source.items()):
+        emoji = COUNTRY_EMOJIS.get(src, "🌐")
+        label = SOURCE_LABELS.get(src, src)
+        html_parts.append(f"<h3 style='margin:15px 0 8px'>{emoji} {label}</h3>")
+
+        for it in src_items:
+            title = it.get("title", "")
+            url = it.get("url", "")
+            summary = it.get("summary", "")[:150]
+            image = it.get("image", "")
+
+            html_parts.append(
+                f"<div style='margin-bottom:18px;padding-bottom:12px;"
+                f"border-bottom:1px solid #f0f0f0'>"
+            )
+            if url:
+                html_parts.append(
+                    f"<a href='{url}' style='color:#1a73e8;text-decoration:none;"
+                    f"font-size:15px;font-weight:600'>{title}</a>"
+                )
+            else:
+                html_parts.append(
+                    f"<span style='font-size:15px;font-weight:600'>{title}</span>"
+                )
+            if summary:
+                html_parts.append(
+                    f"<p style='color:#555;font-size:13px;margin:4px 0'>{summary}</p>"
+                )
+            if image:
+                html_parts.append(
+                    f"<img src='{image}' style='max-width:100%;height:auto;"
+                    f"border-radius:6px;margin:4px 0' loading='lazy'>"
+                )
+            html_parts.append("</div>")
+
+    html_parts.append(
+        f"<p style='color:#bbb;font-size:11px;text-align:center;margin-top:15px'>"
+        f"Powered by DeepSeek | 每日三报</p>"
+    )
+    html_parts.append("</div>")
+    return "\n".join(html_parts)
+
+
 # ─── DeepSeek ──────────────────────────────────────────────────────────
 
 def call_deepseek(system_prompt: str, user_prompt: str) -> Optional[str]:
@@ -474,7 +584,7 @@ def call_deepseek(system_prompt: str, user_prompt: str) -> Optional[str]:
 
 # ─── 推送 ──────────────────────────────────────────────────────────────
 
-def send_pushplus(message: str) -> bool:
+def send_pushplus(message: str, is_html: bool = False) -> bool:
     if not PUSHPLUS_TOKEN:
         return False
     try:
@@ -482,7 +592,7 @@ def send_pushplus(message: str) -> bool:
             "token": PUSHPLUS_TOKEN,
             "title": f"前沿日报 {datetime.now(TZ_CST).strftime('%H:%M')}",
             "content": message,
-            "template": "txt",
+            "template": "html" if is_html else "txt",
         }, timeout=15)
         if resp.status_code == 200 and resp.json().get("code") == 200:
             log("  PushPlus 推送成功")
@@ -511,7 +621,7 @@ def send_email(message: str) -> bool:
     return False
 
 
-def send_telegram(message: str):
+def send_telegram(message: str, is_html: bool = False):
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
         try:
             resp = _session.post(
@@ -527,7 +637,7 @@ def send_telegram(message: str):
         except Exception as e:
             log(f"  Telegram: {e}")
 
-    if PUSHPLUS_TOKEN and send_pushplus(message):
+    if PUSHPLUS_TOKEN and send_pushplus(message, is_html):
         return
     if all([SMTP_USER, SMTP_PASS, SMTP_TO]) and send_email(message):
         return
@@ -581,11 +691,24 @@ def main():
         save_state(state)
         return
 
+    sources_count = len(set(it["source"] for it in new_items))
+
+    if session == "morning":
+        log(">>> 构建图文早报...")
+        html = build_morning_html(new_items, now_str)
+        header = (
+            f"📅 {now_str}\n"
+            f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
+        )
+        send_telegram(header + html, is_html=True)
+        save_state(state)
+        log("✓ 完成")
+        return
+
     log(">>> 调用 DeepSeek...")
     sys_prompt, usr_prompt = build_prompt(config["prompt_type"], new_items)
     report = call_deepseek(sys_prompt, usr_prompt)
 
-    sources_count = len(set(it["source"] for it in new_items))
     if report:
         msg = (
             f"{config['label']}\n"
