@@ -1,10 +1,10 @@
-name: AI前沿日报
+name: AI News Daily
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 北京时间 10:00
-    - cron: '0 6 * * *'   # 北京时间 14:00
-    - cron: '0 13 * * *'  # 北京时间 21:00
+    - cron: '0 2 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 13 * * *'
   workflow_dispatch:
 
 permissions:
