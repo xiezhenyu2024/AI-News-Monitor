@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AI前沿日报 - 多源AI新闻抓取 + DeepSeek摘要翻译"""
+"""前沿日报 - 多领域新闻抓取 + DeepSeek摘要 + PushPlus推送"""
 
 import json
 import os
@@ -18,12 +18,9 @@ import requests
 # ─── 配置 ──────────────────────────────────────────────────────────────
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_MODEL = "deepseek-chat"
-
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
-
 PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
-
 SMTP_HOST = os.environ.get("SMTP_HOST", "smtp.qq.com")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
 SMTP_USER = os.environ.get("SMTP_USER", "")
@@ -33,9 +30,8 @@ SMTP_TO = os.environ.get("SMTP_TO", "")
 STATE_FILE = "state.json"
 TZ_CST = timezone(timedelta(hours=8))
 
-# 全局 session 复用 TCP 连接
 _session = requests.Session()
-_session.headers.update({"User-Agent": "AI-News-Monitor/1.0"})
+_session.headers.update({"User-Agent": "News-Daily/1.0"})
 _adapter = requests.adapters.HTTPAdapter(pool_connections=20, pool_maxsize=20)
 _session.mount("https://", _adapter)
 _session.mount("http://", _adapter)
@@ -44,15 +40,13 @@ _session.mount("http://", _adapter)
 # ─── 工具函数 ──────────────────────────────────────────────────────────
 
 def log(msg: str):
-    ts = datetime.now(TZ_CST).strftime("%H:%M:%S")
-    print(f"[{ts}] {msg}", flush=True)
+    print(f"[{datetime.now(TZ_CST).strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
 def check_network() -> bool:
     for url in ("https://www.google.com", "https://api.github.com"):
         try:
-            _session.get(url, timeout=5)
-            return True
+            _session.get(url, timeout=5); return True
         except requests.RequestException:
             continue
     return False
@@ -63,7 +57,7 @@ def load_state() -> dict:
         try:
             with open(STATE_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except (json.JSONDecodeError, IOError):
+        except Exception:
             return {}
     return {}
 
@@ -71,10 +65,7 @@ def load_state() -> dict:
 def save_state(state: dict):
     serializable = {}
     for k, v in state.items():
-        if isinstance(v, set):
-            serializable[k] = list(v)
-        else:
-            serializable[k] = v
+        serializable[k] = list(v) if isinstance(v, set) else v
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(serializable, f, ensure_ascii=False)
 
@@ -82,8 +73,7 @@ def save_state(state: dict):
 def is_new(source: str, item_id: str, state: dict) -> bool:
     seen = state.setdefault(source, set())
     if isinstance(seen, list):
-        seen = set(seen)
-        state[source] = seen
+        seen = set(seen); state[source] = seen
     if item_id in seen:
         return False
     seen.add(item_id)
@@ -91,25 +81,29 @@ def is_new(source: str, item_id: str, state: dict) -> bool:
 
 
 def clean_html(text: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text[:500]
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()[:500]
+
+
+def get_session() -> str:
+    hour = datetime.now(TZ_CST).hour
+    if hour == 7: return "morning"
+    if hour == 14: return "afternoon"
+    if hour == 22: return "evening"
+    return "afternoon"
 
 
 # ─── 数据源 ────────────────────────────────────────────────────────────
 
-def fetch_reddit() -> list[dict]:
+def fetch_reddit(subreddits: list[str], limit: int = 5) -> list[dict]:
     items = []
-    subreddits = ["LocalLLaMA", "MachineLearning", "artificial"]
     for sub in subreddits:
         try:
-            url = f"https://www.reddit.com/r/{sub}/hot.json?limit=5"
-            resp = _session.get(url, timeout=15)
+            resp = _session.get(
+                f"https://www.reddit.com/r/{sub}/hot.json?limit={limit}", timeout=15
+            )
             if resp.status_code != 200:
-                log(f"  Reddit r/{sub}: {resp.status_code}")
                 continue
-            data = resp.json()
-            for post in data.get("data", {}).get("children", []):
+            for post in resp.json().get("data", {}).get("children", []):
                 p = post["data"]
                 items.append({
                     "id": f"reddit_{p['id']}",
@@ -117,9 +111,6 @@ def fetch_reddit() -> list[dict]:
                     "title": p.get("title", ""),
                     "url": f"https://reddit.com{p.get('permalink', '')}",
                     "summary": clean_html(p.get("selftext", "") or p.get("url", "")),
-                    "score": p.get("score", 0),
-                    "author": p.get("author", ""),
-                    "time": str(p.get("created_utc", "")),
                 })
             log(f"  Reddit r/{sub}: ok")
         except Exception as e:
@@ -127,101 +118,77 @@ def fetch_reddit() -> list[dict]:
     return items
 
 
-def _fetch_hn_story(sid: int) -> Optional[dict]:
-    try:
-        resp = _session.get(
-            f"https://hacker-news.firebaseio.com/v0/item/{sid}.json",
-            timeout=8,
-        )
-        if resp.status_code != 200:
-            return None
-        story = resp.json()
-        if not story or story.get("type") != "story":
-            return None
-        title = (story.get("title", "") or "").lower()
-        text = (story.get("text", "") or "")[:300].lower()
-        ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm",
-                       "gpt", "neural", "deep learning", "transformer", "openai",
-                       "anthropic", "google", "meta", "llama", "gemma", "mistral",
-                       "claude", "chatgpt", "diffusion", "rlhf", "rag", "agent",
-                       "fine-tun", "open source", "model", "dataset"]
-        if not any(kw in (title + " " + text) for kw in ai_keywords):
-            return None
-        return {
-            "id": f"hn_{sid}",
-            "source": "Hacker News",
-            "title": story.get("title", ""),
-            "url": story.get("url", f"https://news.ycombinator.com/item?id={sid}"),
-            "summary": clean_html(story.get("text", "") or ""),
-            "score": story.get("score", 0),
-            "author": story.get("by", ""),
-            "time": str(story.get("time", "")),
-        }
-    except Exception:
-        return None
-
-
-def fetch_hackernews() -> list[dict]:
+def fetch_hackernews_all(top_n: int = 20) -> list[dict]:
+    items = []
     try:
         resp = _session.get(
             "https://hacker-news.firebaseio.com/v0/topstories.json", timeout=15
         )
         if resp.status_code != 200:
-            log(f"  Hacker News: {resp.status_code}")
-            return []
-        story_ids = resp.json()[:30]
+            return items
+        ids = resp.json()[:top_n]
         with ThreadPoolExecutor(max_workers=10) as pool:
-            futures = {pool.submit(_fetch_hn_story, sid): sid for sid in story_ids}
-            results = []
-            for f in as_completed(futures):
+            def get_one(sid):
+                try:
+                    r = _session.get(
+                        f"https://hacker-news.firebaseio.com/v0/item/{sid}.json",
+                        timeout=8
+                    )
+                    if r.status_code != 200:
+                        return None
+                    s = r.json()
+                    if not s or s.get("type") != "story":
+                        return None
+                    return {
+                        "id": f"hn_{sid}",
+                        "source": "Hacker News",
+                        "title": s.get("title", ""),
+                        "url": s.get("url", f"https://news.ycombinator.com/item?id={sid}"),
+                        "summary": clean_html((s.get("text", "") or "")[:300]),
+                    }
+                except Exception:
+                    return None
+            for f in as_completed({pool.submit(get_one, sid): sid for sid in ids}):
                 r = f.result()
                 if r:
-                    results.append(r)
-                    if len(results) >= 5:
-                        break
-        log(f"  Hacker News: {len(results)} 条AI相关")
-        return results
+                    items.append(r)
+        log(f"  Hacker News: {len(items)} 条")
     except Exception as e:
         log(f"  Hacker News: {e}")
-        return []
+    return items
 
 
-def fetch_arxiv() -> list[dict]:
+def fetch_arxiv(categories: list[str], max_results: int = 5) -> list[dict]:
     items = []
-    categories = ["cs.AI", "cs.LG", "cs.CL"]
     for cat in categories:
         try:
-            url = (f"http://export.arxiv.org/api/query"
-                   f"?search_query=cat:{cat}"
-                   f"&sortBy=submittedDate&sortOrder=descending&max_results=5")
-            resp = _session.get(url, timeout=20)
+            resp = _session.get(
+                f"http://export.arxiv.org/api/query?search_query=cat:{cat}"
+                f"&sortBy=submittedDate&sortOrder=descending&max_results={max_results}",
+                timeout=20,
+            )
             if resp.status_code != 200:
                 continue
             root = ElementTree.fromstring(resp.content)
-            ns = {"atom": "http://www.w3.org/2005/Atom",
-                  "arxiv": "http://arxiv.org/schemas/atom"}
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
             for entry in root.findall("atom:entry", ns):
-                arxiv_id = entry.find("atom:id", ns).text.strip()
+                eid = entry.find("atom:id", ns).text.strip()
                 title = (entry.find("atom:title", ns).text or "").strip()
-                summary = clean_html(
-                    (entry.find("atom:summary", ns).text or "").strip()
-                )[:300]
+                summary = clean_html((entry.find("atom:summary", ns).text or "").strip())[:300]
                 authors = ", ".join(
                     a.find("atom:name", ns).text
                     for a in entry.findall("atom:author", ns)[:3]
                     if a.find("atom:name", ns) is not None
                 )
                 link = entry.find("atom:link[@rel='alternate']", ns)
-                paper_url = link.get("href", "") if link is not None else ""
+                url = link.get("href", "") if link is not None else ""
                 items.append({
-                    "id": f"arxiv_{hashlib.md5(arxiv_id.encode()).hexdigest()[:12]}",
+                    "id": f"arxiv_{hashlib.md5(eid.encode()).hexdigest()[:12]}",
                     "source": f"ArXiv {cat}",
                     "title": title,
-                    "url": paper_url,
+                    "url": url,
                     "summary": summary,
-                    "score": 0,
                     "author": authors,
-                    "time": "",
                 })
             log(f"  ArXiv {cat}: ok")
         except Exception as e:
@@ -232,30 +199,24 @@ def fetch_arxiv() -> list[dict]:
 def fetch_huggingface() -> list[dict]:
     items = []
     try:
-        resp = _session.get(
-            "https://huggingface.co/api/daily_papers", timeout=15
-        )
+        resp = _session.get("https://huggingface.co/api/daily_papers", timeout=15)
         if resp.status_code != 200:
-            log(f"  Hugging Face: {resp.status_code}")
             return items
         papers = resp.json()
         if isinstance(papers, dict):
             papers = papers.get("papers", [])
         for paper in papers[:5]:
-            paper_id = paper.get("id", paper.get("paperId", ""))
+            pid = paper.get("id", paper.get("paperId", ""))
             title = paper.get("title", "")
             if not title:
                 continue
             items.append({
-                "id": f"hf_{hashlib.md5(paper_id.encode()).hexdigest()[:12]}",
+                "id": f"hf_{hashlib.md5(pid.encode()).hexdigest()[:12]}",
                 "source": "Hugging Face",
                 "title": title,
                 "url": paper.get("url", paper.get("link", "")
-                                 or f"https://huggingface.co/papers/{paper_id}"),
-                "summary": paper.get("summary", paper.get("abstract", ""))[:300],
-                "score": paper.get("upvotes", paper.get("score", 0)),
-                "author": paper.get("author", paper.get("authors", "")),
-                "time": "",
+                                 or f"https://huggingface.co/papers/{pid}"),
+                "summary": (paper.get("summary", paper.get("abstract", "")) or "")[:300],
             })
         log(f"  Hugging Face: {len(items)} 条")
     except Exception as e:
@@ -263,7 +224,228 @@ def fetch_huggingface() -> list[dict]:
     return items
 
 
-# ─── LLM 处理 ──────────────────────────────────────────────────────────
+# ─── 新增信源 ──────────────────────────────────────────────────────────
+
+def fetch_rss_news(feeds: dict[str, str], limit: int = 5) -> list[dict]:
+    items = []
+    for name, url in feeds.items():
+        try:
+            resp = _session.get(url, timeout=15)
+            if resp.status_code != 200:
+                continue
+            root = ElementTree.fromstring(resp.content)
+            channel = root.find("channel")
+            if channel is None:
+                continue
+            for item in channel.findall("item")[:limit]:
+                title = (item.findtext("title") or "").strip()
+                link = item.findtext("link") or ""
+                desc = clean_html(item.findtext("description") or "")
+                if not title:
+                    continue
+                items.append({
+                    "id": f"rss_{hashlib.md5((name + title).encode()).hexdigest()[:12]}",
+                    "source": name,
+                    "title": title,
+                    "url": link,
+                    "summary": desc,
+                })
+            log(f"  {name}: ok")
+        except Exception as e:
+            log(f"  {name}: {e}")
+    return items
+
+
+def fetch_36kr() -> list[dict]:
+    items = []
+    try:
+        resp = _session.get("https://36kr.com/feed", timeout=15)
+        if resp.status_code != 200:
+            return items
+        root = ElementTree.fromstring(resp.content)
+        for item in root.findall(".//item")[:5]:
+            title = (item.findtext("title") or "").strip()
+            link = item.findtext("link") or ""
+            desc = clean_html(item.findtext("description") or "")
+            if not title:
+                continue
+            items.append({
+                "id": f"36kr_{hashlib.md5(title.encode()).hexdigest()[:12]}",
+                "source": "36氪",
+                "title": title,
+                "url": link,
+                "summary": desc,
+            })
+        log(f"  36氪: {len(items)} 条")
+    except Exception as e:
+        log(f"  36氪: {e}")
+    return items
+
+
+def fetch_github_trending(days: int = 7) -> list[dict]:
+    items = []
+    try:
+        since = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+        resp = _session.get(
+            "https://api.github.com/search/repositories",
+            params={"q": f"created:>{since}", "sort": "stars", "order": "desc", "per_page": 10},
+            timeout=15,
+            headers={"Accept": "application/vnd.github.v3+json"},
+        )
+        if resp.status_code != 200:
+            log(f"  GitHub Trending: {resp.status_code}")
+            return items
+        for repo in resp.json().get("items", []):
+            items.append({
+                "id": f"gh_{repo['id']}",
+                "source": "GitHub Trending",
+                "title": f"{repo['full_name']} - {repo.get('description', '') or '无描述'}",
+                "url": repo["html_url"],
+                "summary": f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}",
+            })
+        log(f"  GitHub Trending: {len(items)} 条")
+    except Exception as e:
+        log(f"  GitHub Trending: {e}")
+    return items
+
+
+def fetch_v2ex() -> list[dict]:
+    items = []
+    try:
+        resp = _session.get("https://www.v2ex.com/api/v2/topics/hot", timeout=15,
+                            headers={"User-Agent": "curl/7.0"})
+        if resp.status_code != 200:
+            return items
+        for topic in resp.json()[:5]:
+            items.append({
+                "id": f"v2ex_{topic['id']}",
+                "source": "V2EX",
+                "title": topic.get("title", ""),
+                "url": f"https://www.v2ex.com/t/{topic['id']}",
+                "summary": topic.get("content", "")[:200] if topic.get("content") else "",
+            })
+        log(f"  V2EX: {len(items)} 条")
+    except Exception as e:
+        log(f"  V2EX: {e}")
+    return items
+
+
+# ─── 会话调度 ──────────────────────────────────────────────────────────
+
+SESSION_CONFIG = {
+    "morning": {
+        "label": "🌅 全球早报",
+        "prompt_type": "general",
+        "sources_list": [
+            ("BBC 世界新闻", lambda: fetch_rss_news({
+                "BBC": "https://feeds.bbci.co.uk/news/world/rss.xml",
+                "France24": "https://www.france24.com/en/rss",
+                "TASS Russia": "https://tass.com/rss/v2.xml",
+                "中国日报": "https://www.chinadaily.com.cn/rss/world_rss.xml",
+                "纽约时报": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            })),
+            ("中文热点", lambda: ThreadPoolExecutor(max_workers=2).submit(
+                lambda: None
+            ).result() or (
+                fetch_36kr() + fetch_v2ex()
+            )),
+            ("Reddit 全球讨论", lambda: fetch_reddit(["worldnews", "news"], 5)),
+        ],
+    },
+    "afternoon": {
+        "label": "☀️ 午间技术",
+        "prompt_type": "tech",
+        "sources_list": [
+            ("AI前沿", lambda: (
+                fetch_arxiv(["cs.AI", "cs.LG", "cs.CL"], 5)
+                + fetch_huggingface()
+            )),
+            ("开发者讨论", lambda: fetch_hackernews_all(30)),
+            ("开源项目", lambda: fetch_github_trending(7)),
+        ],
+    },
+    "evening": {
+        "label": "🌙 晚间速览",
+        "prompt_type": "general",
+        "sources_list": [
+            ("游戏圈", lambda: fetch_reddit(["gaming", "Games"], 5)),
+            ("数理生综合", lambda: fetch_arxiv(
+                ["physics.gen-ph", "math.GM", "q-bio.GN"], 5
+            )),
+            ("科技新闻", lambda: fetch_hackernews_all(20)),
+        ],
+    },
+}
+
+
+DEEPSEEK_PROMPTS = {
+    "general": {
+        "system": """你是"前沿日报"的科普编辑，面向零基础普通读者。
+
+写作要求：
+1. 禁止使用任何专业术语，必须转化成大白话
+2. 每条讲清楚：发生了什么事 → 为什么重要 → 跟普通人有什么关系
+3. 像讲故事一样，先抛出一个场景再展开
+4. 每段50-100字，简短有力
+5. 每条标注来源""",
+        "user": """以下是本时段收集的资讯：
+
+{raw}
+
+请改写成零基础能看懂的科普简报，格式：
+🔥 **今日要闻**（最重要的2-3条）
+• 每条约100字，讲清楚"出了什么事 + 为什么重要 + 跟普通人有什么关系"
+
+📄 **其他速览**（简略提及）""",
+    },
+    "tech": {
+        "system": """你是"前沿日报"的技术编辑，面向有编程/技术基础的读者。
+
+写作要求：
+1. 可以使用专业术语，但首次出现时简单解释一下
+2. 重点讲清楚：这是什么技术 → 解决什么问题 → 跟现有方案比怎么样
+3. 开源项目要提到语言、Star数、核心功能
+4. 技术新闻要有技术深度，不要稀释成大白话
+5. 每条标注来源""",
+        "user": """以下是本时段收集的技术资讯：
+
+{raw}
+
+请整理成技术简报，格式：
+🔥 **技术头条**（最重要的2-3条）
+• 重点讲技术本身、解决的问题、对比现有方案
+
+📦 **开源项目**（GitHub热门）
+• 项目名 + 语言 + Star数 + 核心功能一句话
+
+📄 **其他值得关注**""",
+    },
+}
+
+
+def build_prompt(session_type: str, items: list[dict]) -> tuple[str, str]:
+    by_source = {}
+    for it in items:
+        by_source.setdefault(it["source"], []).append(it)
+    sections = []
+    for src, src_items in sorted(by_source.items()):
+        sections.append(f"=== {src} ===")
+        for it in src_items:
+            sections.append(f"- {it['title']}")
+            if it.get("summary"):
+                sections.append(f"  详情: {it['summary'][:200]}")
+            if it.get("url"):
+                sections.append(f"  URL: {it['url']}")
+        sections.append("")
+    raw = "\n".join(sections)
+
+    prompts = DEEPSEEK_PROMPTS.get(session_type, DEEPSEEK_PROMPTS["general"])
+    system_prompt = prompts["system"]
+    user_prompt = prompts["user"].format(raw=raw)
+    return system_prompt, user_prompt
+
+
+# ─── DeepSeek ──────────────────────────────────────────────────────────
 
 def call_deepseek(system_prompt: str, user_prompt: str) -> Optional[str]:
     if not DEEPSEEK_API_KEY:
@@ -272,10 +454,7 @@ def call_deepseek(system_prompt: str, user_prompt: str) -> Optional[str]:
     try:
         resp = _session.post(
             "https://api.deepseek.com/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-                "Content-Type": "application/json",
-            },
+            headers={"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"},
             json={
                 "model": DEEPSEEK_MODEL,
                 "messages": [
@@ -288,103 +467,42 @@ def call_deepseek(system_prompt: str, user_prompt: str) -> Optional[str]:
             timeout=60,
         )
         if resp.status_code != 200:
-            log(f"  DeepSeek API: {resp.status_code} {resp.text[:200]}")
+            log(f"  DeepSeek: {resp.status_code} {resp.text[:200]}")
             return None
-        result = resp.json()
-        content = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+        content = resp.json().get("choices", [{}])[0].get("message", {}).get("content", "")
         return content.strip()
     except Exception as e:
-        log(f"  DeepSeek API: {e}")
+        log(f"  DeepSeek: {e}")
         return None
-
-
-def process_items(all_items: list[dict]) -> Optional[str]:
-    if not all_items:
-        return None
-
-    by_source = {}
-    for item in all_items:
-        by_source.setdefault(item["source"], []).append(item)
-
-    sections = []
-    for src, src_items in sorted(by_source.items()):
-        sections.append(f"=== {src} ===")
-        for it in src_items:
-            line = f"- {it['title']}"
-            if it["summary"]:
-                line += f"\n  摘要: {it['summary'][:200]}"
-            if it["url"]:
-                line += f"\n  URL: {it['url']}"
-            sections.append(line)
-        sections.append("")
-
-    raw_text = "\n".join(sections)
-
-    system_prompt = """你是"AI前沿日报"的科普编辑。你的读者是对AI完全不了解的普通人。
-
-写作要求：
-1. **禁止使用任何专业术语**（LLM、元认知、MoE、RLHF、transformer等一律不许出现）
-   - 把"LLM"写成"AI大模型"或"聊天机器人"
-   - 把"强化学习"写成"让AI通过试错自学"
-   - 把"元认知"写成"让AI学会反思自己"
-   - 其他术语同理，必须转化为大白话
-2. **每条新闻讲清楚五件事**：
-   - 研究人员发现了什么问题 -> 他们怎么解决的 -> 这事能干什么 -> 牛在哪儿 -> 大家吵什么
-3. **像讲故事一样**：先抛出一个普通人能理解的场景或问题，再引出研究内容
-4. **每段50-100字**，简洁但不简陋
-5. 每条来源附上数据来源标签"""
-
-    user_prompt = f"""以下是 {datetime.now(TZ_CST).strftime('%Y-%m-%d %H:%M')} 从各平台收集的AI相关资讯：
-
-{raw_text}
-
-请改写成零基础也能看懂的科普简报。整体分成两大块：
-
-🔥 **今日看点**（最重要的2-3条）
-每条讲清楚：出了什么事 → 跟普通人有什么关系 → 有什么争议
-
-📄 **其他值得一看**（简略提及）
-
-记住：你的读者不知道任何AI术语，你需要当个翻译者，把"论文语言"翻译成"人话"。"""
-
-    log(f"  发送给 DeepSeek ({len(raw_text)} 字符)...")
-    result = call_deepseek(system_prompt, user_prompt)
-    if result:
-        log(f"  DeepSeek 返回 {len(result)} 字符")
-    return result
 
 
 # ─── 推送 ──────────────────────────────────────────────────────────────
 
-def send_pushplus(message: str):
+def send_pushplus(message: str) -> bool:
     if not PUSHPLUS_TOKEN:
         return False
     try:
         resp = _session.post("https://www.pushplus.plus/send", json={
             "token": PUSHPLUS_TOKEN,
-            "title": f"AI前沿日报 {datetime.now(TZ_CST).strftime('%H:%M')}",
+            "title": f"前沿日报 {datetime.now(TZ_CST).strftime('%H:%M')}",
             "content": message,
             "template": "txt",
         }, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("code") == 200:
-                log("  PushPlus 推送成功")
-                return True
-            log(f"  PushPlus 返回异常: {data}")
-        else:
-            log(f"  PushPlus 推送失败: {resp.status_code}")
+        if resp.status_code == 200 and resp.json().get("code") == 200:
+            log("  PushPlus 推送成功")
+            return True
+        log(f"  PushPlus 返回异常: {resp.json()}")
     except Exception as e:
-        log(f"  PushPlus 推送异常: {e}")
+        log(f"  PushPlus: {e}")
     return False
 
 
 def send_email(message: str) -> bool:
-    if not SMTP_USER or not SMTP_PASS or not SMTP_TO:
+    if not all([SMTP_USER, SMTP_PASS, SMTP_TO]):
         return False
     try:
         msg = MIMEText(message, "plain", "utf-8")
-        msg["Subject"] = f"AI前沿日报 {datetime.now(TZ_CST).strftime('%m-%d %H:%M')}"
+        msg["Subject"] = f"前沿日报 {datetime.now(TZ_CST).strftime('%m-%d %H:%M')}"
         msg["From"] = SMTP_USER
         msg["To"] = SMTP_TO
         with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, timeout=15) as s:
@@ -393,45 +511,37 @@ def send_email(message: str) -> bool:
         log("  QQ邮箱 推送成功")
         return True
     except Exception as e:
-        log(f"  QQ邮箱 推送失败: {e}")
+        log(f"  QQ邮箱: {e}")
     return False
 
 
 def send_telegram(message: str):
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
         try:
-            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-            resp = _session.post(url, json={
-                "chat_id": TELEGRAM_CHAT_ID,
-                "text": message,
-                "parse_mode": "Markdown",
-                "disable_web_page_preview": True,
-            }, timeout=15)
+            resp = _session.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json={"chat_id": TELEGRAM_CHAT_ID, "text": message,
+                       "parse_mode": "Markdown", "disable_web_page_preview": True},
+                timeout=15,
+            )
             if resp.status_code == 200:
                 log("  Telegram 推送成功")
                 return
-            log(f"  Telegram 推送失败: {resp.status_code} {resp.text[:200]}")
+            log(f"  Telegram: {resp.status_code} {resp.text[:200]}")
         except Exception as e:
-            log(f"  Telegram 推送异常: {e}")
+            log(f"  Telegram: {e}")
 
-    if PUSHPLUS_TOKEN:
-        log("  [回退] 尝试 PushPlus 推送...")
-        if send_pushplus(message):
-            return
+    if PUSHPLUS_TOKEN and send_pushplus(message):
+        return
+    if all([SMTP_USER, SMTP_PASS, SMTP_TO]) and send_email(message):
+        return
 
-    if SMTP_USER and SMTP_PASS and SMTP_TO:
-        log("  [回退] 尝试 QQ邮箱 推送...")
-        if send_email(message):
-            return
-
-    log("  [跳过] 未配置推送通道，以下为结果预览")
-    safe_msg = message.encode("utf-8", errors="replace").decode(
+    log("  [跳过] 未配置推送，以下为预览")
+    safe = message.encode("utf-8", errors="replace").decode(
         sys.stdout.encoding or "utf-8", errors="replace"
     )
     try:
-        print("\n" + "=" * 50)
-        print(safe_msg)
-        print("=" * 50 + "\n")
+        print("\n" + "=" * 50 + "\n" + safe + "\n" + "=" * 50 + "\n")
     except Exception:
         log(f"  (预览长度: {len(message)} 字符)")
 
@@ -439,72 +549,65 @@ def send_telegram(message: str):
 # ─── 主流程 ────────────────────────────────────────────────────────────
 
 def main():
+    session = get_session()
+    config = SESSION_CONFIG[session]
+    now_str = datetime.now(TZ_CST).strftime("%Y-%m-%d %H:%M")
+
     log("=" * 40)
-    log(f"AI前沿日报 - 开始抓取")
-    log(f"时间: {datetime.now(TZ_CST).strftime('%Y-%m-%d %H:%M')}")
+    log(f"{config['label']} - {now_str}")
 
     if not check_network():
-        log("无网络连接，跳过本次抓取")
+        log("无网络连接，跳过")
         sys.exit(0)
 
     state = load_state()
-    log("  已加载状态记录")
 
-    # 并行抓取所有信源
     all_items = []
-    sources = {
-        "Reddit": fetch_reddit,
-        "Hacker News": fetch_hackernews,
-        "ArXiv": fetch_arxiv,
-        "Hugging Face": fetch_huggingface,
-    }
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        fut_map = {pool.submit(fn): name for name, fn in sources.items()}
-        for f in as_completed(fut_map):
-            name = fut_map[f]
-            try:
-                items = f.result()
-                log(f"  [{name}] {len(items)} 条")
-                all_items.extend(items)
-            except Exception as e:
-                log(f"  [{name}] 异常: {e}")
+    for src_name, src_fn in config["sources_list"]:
+        log(f">>> {src_name}...")
+        try:
+            items = src_fn()
+            log(f"  [{src_name}] {len(items)} 条")
+            all_items.extend(items)
+        except Exception as e:
+            log(f"  [{src_name}] 异常: {e}")
 
     if not all_items:
-        log("未获取到任何内容")
+        log("未获取到内容")
         save_state(state)
         return
-
-    log(f"共获取 {len(all_items)} 条原始内容")
 
     new_items = [it for it in all_items if is_new(it["source"], it["id"], state)]
-    log(f"其中 {len(new_items)} 条是新内容")
+    log(f"共 {len(all_items)} 条, 新内容 {len(new_items)} 条")
 
     if not new_items:
-        log("没有新内容需要处理")
+        log("无新内容")
         save_state(state)
         return
 
-    log(">>> 正在调用 DeepSeek 生成简报...")
-    report = process_items(new_items)
+    log(">>> 调用 DeepSeek...")
+    sys_prompt, usr_prompt = build_prompt(config["prompt_type"], new_items)
+    report = call_deepseek(sys_prompt, usr_prompt)
 
+    sources_count = len(set(it["source"] for it in new_items))
     if report:
-        header = (
-            f"🤖 AI前沿日报\n"
-            f"📅 {datetime.now(TZ_CST).strftime('%Y-%m-%d %H:%M')}\n"
-            f"📊 {len(set(it['source'] for it in new_items))} 个信源 | {len(new_items)} 条\n"
+        msg = (
+            f"{config['label']}\n"
+            f"📅 {now_str}\n"
+            f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
             f"{'─' * 40}\n"
+            f"{report}\n\n"
+            f"{'—' * 30}\nPowered by DeepSeek"
         )
-        full_msg = header + report + "\n\n—" * 15 + "\nPowered by DeepSeek | 每日三报"
-        send_telegram(full_msg)
+        send_telegram(msg)
     else:
-        log("DeepSeek 未返回结果，直接推送原始内容")
-        raw = f"AI前沿日报 (原始)\n{datetime.now(TZ_CST).strftime('%Y-%m-%d %H:%M')}\n\n"
+        log("DeepSeek 未返回，推送原始内容")
+        raw = f"{config['label']} (原始)\n{now_str}\n\n"
         for it in new_items[:10]:
             raw += f"• [{it['source']}] {it['title']}\n  {it['url']}\n"
         send_telegram(raw)
 
     save_state(state)
-    log("状态已保存")
     log("✓ 完成")
 
 
