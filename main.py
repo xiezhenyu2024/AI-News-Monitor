@@ -344,11 +344,7 @@ SESSION_CONFIG = {
                 "中国日报": "https://www.chinadaily.com.cn/rss/world_rss.xml",
                 "纽约时报": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
             })),
-            ("中文热点", lambda: ThreadPoolExecutor(max_workers=2).submit(
-                lambda: None
-            ).result() or (
-                fetch_36kr() + fetch_v2ex()
-            )),
+            ("中文热点", lambda: fetch_36kr() + fetch_v2ex()),
             ("Reddit 全球讨论", lambda: fetch_reddit(["worldnews", "news"], 5)),
         ],
     },
