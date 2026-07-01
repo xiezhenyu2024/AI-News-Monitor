@@ -20,6 +20,8 @@ DEEPSEEK_MODEL = "deepseek-chat"
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
+PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
+
 STATE_FILE = "state.json"
 TZ_CST = timezone(timedelta(hours=8))
 
@@ -337,33 +339,61 @@ def process_items(all_items: list[dict]) -> Optional[str]:
 
 # ─── 推送 ──────────────────────────────────────────────────────────────
 
-def send_telegram(message: str):
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        log("  [跳过] 未配置 Telegram，以下为结果预览")
-        safe_msg = message.encode("utf-8", errors="replace").decode(
-            sys.stdout.encoding or "utf-8", errors="replace"
-        )
-        try:
-            print("\n" + "=" * 50)
-            print(safe_msg)
-            print("=" * 50 + "\n")
-        except Exception:
-            log(f"  (预览长度: {len(message)} 字符)")
-        return
+def send_pushplus(message: str):
+    if not PUSHPLUS_TOKEN:
+        return False
     try:
-        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-        resp = _session.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": message,
-            "parse_mode": "Markdown",
-            "disable_web_page_preview": True,
+        resp = _session.post("https://www.pushplus.plus/send", json={
+            "token": PUSHPLUS_TOKEN,
+            "title": f"AI前沿日报 {datetime.now(TZ_CST).strftime('%H:%M')}",
+            "content": message,
+            "template": "txt",
         }, timeout=15)
         if resp.status_code == 200:
-            log("  Telegram 推送成功")
+            data = resp.json()
+            if data.get("code") == 200:
+                log("  PushPlus 推送成功")
+                return True
+            log(f"  PushPlus 返回异常: {data}")
         else:
-            log(f"  Telegram 推送失败: {resp.status_code} {resp.text[:200]}")
+            log(f"  PushPlus 推送失败: {resp.status_code}")
     except Exception as e:
-        log(f"  Telegram 推送异常: {e}")
+        log(f"  PushPlus 推送异常: {e}")
+    return False
+
+
+def send_telegram(message: str):
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+        try:
+            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+            resp = _session.post(url, json={
+                "chat_id": TELEGRAM_CHAT_ID,
+                "text": message,
+                "parse_mode": "Markdown",
+                "disable_web_page_preview": True,
+            }, timeout=15)
+            if resp.status_code == 200:
+                log("  Telegram 推送成功")
+                return
+            log(f"  Telegram 推送失败: {resp.status_code} {resp.text[:200]}")
+        except Exception as e:
+            log(f"  Telegram 推送异常: {e}")
+
+    if PUSHPLUS_TOKEN:
+        log("  [回退] 尝试 PushPlus 推送...")
+        if send_pushplus(message):
+            return
+
+    log("  [跳过] 未配置推送通道，以下为结果预览")
+    safe_msg = message.encode("utf-8", errors="replace").decode(
+        sys.stdout.encoding or "utf-8", errors="replace"
+    )
+    try:
+        print("\n" + "=" * 50)
+        print(safe_msg)
+        print("=" * 50 + "\n")
+    except Exception:
+        log(f"  (预览长度: {len(message)} 字符)")
 
 
 # ─── 主流程 ────────────────────────────────────────────────────────────
