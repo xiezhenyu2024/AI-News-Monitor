@@ -6,6 +6,8 @@ import os
 import sys
 import hashlib
 import re
+import smtplib
+from email.mime.text import MIMEText
 from datetime import datetime, timezone, timedelta
 from xml.etree import ElementTree
 from typing import Optional
@@ -21,6 +23,12 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
+
+SMTP_HOST = os.environ.get("SMTP_HOST", "smtp.qq.com")
+SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
+SMTP_USER = os.environ.get("SMTP_USER", "")
+SMTP_PASS = os.environ.get("SMTP_PASS", "")
+SMTP_TO = os.environ.get("SMTP_TO", "")
 
 STATE_FILE = "state.json"
 TZ_CST = timezone(timedelta(hours=8))
@@ -362,6 +370,24 @@ def send_pushplus(message: str):
     return False
 
 
+def send_email(message: str) -> bool:
+    if not SMTP_USER or not SMTP_PASS or not SMTP_TO:
+        return False
+    try:
+        msg = MIMEText(message, "plain", "utf-8")
+        msg["Subject"] = f"AI前沿日报 {datetime.now(TZ_CST).strftime('%m-%d %H:%M')}"
+        msg["From"] = SMTP_USER
+        msg["To"] = SMTP_TO
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, timeout=15) as s:
+            s.login(SMTP_USER, SMTP_PASS)
+            s.send_message(msg)
+        log("  QQ邮箱 推送成功")
+        return True
+    except Exception as e:
+        log(f"  QQ邮箱 推送失败: {e}")
+    return False
+
+
 def send_telegram(message: str):
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
         try:
@@ -382,6 +408,11 @@ def send_telegram(message: str):
     if PUSHPLUS_TOKEN:
         log("  [回退] 尝试 PushPlus 推送...")
         if send_pushplus(message):
+            return
+
+    if SMTP_USER and SMTP_PASS and SMTP_TO:
+        log("  [回退] 尝试 QQ邮箱 推送...")
+        if send_email(message):
             return
 
     log("  [跳过] 未配置推送通道，以下为结果预览")
