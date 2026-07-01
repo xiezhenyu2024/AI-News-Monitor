@@ -496,58 +496,40 @@ SOURCE_LABELS = {
 }
 
 
-def build_morning_html(items: list[dict], now_str: str) -> str:
+def build_morning_html(deepseek_text: str, items: list[dict], now_str: str) -> str:
     by_source = {}
     for it in items:
         by_source.setdefault(it["source"], []).append(it)
+
+    safe_text = deepseek_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    text_html = safe_text.replace("\n", "<br>")
 
     html_parts = [
         "<div style='font-family:-apple-system,sans-serif;padding:10px;color:#222'>",
         f"<h2 style='margin:0'>🌅 全球早报</h2>",
         f"<p style='color:#888;font-size:14px;margin:5px 0 15px'>{now_str}</p>",
         "<hr style='border:1px solid #eee'>",
+        f"<div style='font-size:14px;line-height:1.7'>{text_html}</div>",
+        "<hr style='border:1px solid #eee'>",
     ]
 
     for src, src_items in sorted(by_source.items()):
+        images = [it.get("image", "") for it in src_items if it.get("image")]
+        if not images:
+            continue
         emoji = COUNTRY_EMOJIS.get(src, "🌐")
         label = SOURCE_LABELS.get(src, src)
         html_parts.append(f"<h3 style='margin:15px 0 8px'>{emoji} {label}</h3>")
-
-        for it in src_items:
-            title = it.get("title", "")
-            url = it.get("url", "")
-            summary = it.get("summary", "")[:150]
-            image = it.get("image", "")
-
+        for img_url in images[:3]:
             html_parts.append(
-                f"<div style='margin-bottom:18px;padding-bottom:12px;"
-                f"border-bottom:1px solid #f0f0f0'>"
+                f"<img src='{img_url}' style='max-width:100%;height:auto;"
+                f"border-radius:6px;margin:6px 0' loading='lazy'>"
             )
-            if url:
-                html_parts.append(
-                    f"<a href='{url}' style='color:#1a73e8;text-decoration:none;"
-                    f"font-size:15px;font-weight:600'>{title}</a>"
-                )
-            else:
-                html_parts.append(
-                    f"<span style='font-size:15px;font-weight:600'>{title}</span>"
-                )
-            if summary:
-                html_parts.append(
-                    f"<p style='color:#555;font-size:13px;margin:4px 0'>{summary}</p>"
-                )
-            if image:
-                html_parts.append(
-                    f"<img src='{image}' style='max-width:100%;height:auto;"
-                    f"border-radius:6px;margin:4px 0' loading='lazy'>"
-                )
-            html_parts.append("</div>")
 
     html_parts.append(
         f"<p style='color:#bbb;font-size:11px;text-align:center;margin-top:15px'>"
-        f"Powered by DeepSeek | 每日三报</p>"
+        f"Powered by DeepSeek | 每日三报</p></div>"
     )
-    html_parts.append("</div>")
     return "\n".join(html_parts)
 
 
@@ -693,32 +675,29 @@ def main():
 
     sources_count = len(set(it["source"] for it in new_items))
 
-    if session == "morning":
-        log(">>> 构建图文早报...")
-        html = build_morning_html(new_items, now_str)
-        header = (
-            f"📅 {now_str}\n"
-            f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
-        )
-        send_telegram(header + html, is_html=True)
-        save_state(state)
-        log("✓ 完成")
-        return
-
     log(">>> 调用 DeepSeek...")
     sys_prompt, usr_prompt = build_prompt(config["prompt_type"], new_items)
     report = call_deepseek(sys_prompt, usr_prompt)
 
     if report:
-        msg = (
-            f"{config['label']}\n"
-            f"📅 {now_str}\n"
-            f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
-            f"{'─' * 40}\n"
-            f"{report}\n\n"
-            f"{'—' * 30}\nPowered by DeepSeek"
-        )
-        send_telegram(msg)
+        if session == "morning":
+            log(">>> 构建图文早报...")
+            html = build_morning_html(report, new_items, now_str)
+            header = (
+                f"📅 {now_str}\n"
+                f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
+            )
+            send_telegram(header + html, is_html=True)
+        else:
+            msg = (
+                f"{config['label']}\n"
+                f"📅 {now_str}\n"
+                f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
+                f"{'─' * 40}\n"
+                f"{report}\n\n"
+                f"{'—' * 30}\nPowered by DeepSeek"
+            )
+            send_telegram(msg)
     else:
         log("DeepSeek 未返回，推送原始内容")
         raw = f"{config['label']} (原始)\n{now_str}\n\n"
