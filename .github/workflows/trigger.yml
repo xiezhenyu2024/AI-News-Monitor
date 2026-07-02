@@ -7,6 +7,11 @@ on:
 
 permissions:
   actions: write
+  contents: read
+
+concurrency:
+  group: news-daily
+  cancel-in-progress: false
 
 jobs:
   trigger:
@@ -19,16 +24,16 @@ jobs:
           H=$(TZ='Asia/Shanghai' date +%H)
           M=$(TZ='Asia/Shanghai' date +%M)
 
-          # 早上 7:17 → 触发早报（窗口：7:05~7:30）
-          if [ "$H" = "07" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+          # 早上 7:00~8:30 之间触发早报
+          if [ "$H" = "07" ] || { [ "$H" = "08" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: morning"
-          # 下午 14:17 → 触发午报（窗口：14:05~14:30）
-          elif [ "$H" = "14" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+          # 下午 14:00~15:30 之间触发午报
+          elif [ "$H" = "14" ] || { [ "$H" = "15" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: afternoon"
-          # 晚上 22:17 → 触发晚报（窗口：22:05~22:30）
-          elif [ "$H" = "22" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+          # 晚上 22:00~23:30 之间触发晚报
+          elif [ "$H" = "22" ] || { [ "$H" = "23" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: evening"
           else
