@@ -384,6 +384,88 @@ def fetch_v2ex() -> list[dict]:
     return items
 
 
+# ─── 博主评测信源 ──────────────────────────────────────────────────────
+
+def fetch_juejin() -> list[dict]:
+    """掘金 - 中国开发者AI实测评测"""
+    items = []
+    try:
+        resp = _session.get(
+            "https://api.juejin.cn/content_api/v1/content/article_rank",
+            params={"category_id": "6809637773935378440", "type": "hot"},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            for art in resp.json().get("data", [])[:8]:
+                info = art.get("content", {})
+                title = info.get("title", "") or info.get("content", "")[:80]
+                if not title:
+                    continue
+                items.append({
+                    "id": f"juejin_{info.get('content_id', '')}",
+                    "source": "掘金",
+                    "title": title.strip(),
+                    "url": f"https://juejin.cn/post/{info.get('content_id', '')}",
+                    "summary": (info.get("brief", "") or "")[:200],
+                    "author": info.get("user_name", ""),
+                })
+        log(f"  掘金: {len(items)} 条")
+    except Exception as e:
+        log(f"  掘金: {e}")
+    return items
+
+
+def fetch_oschina() -> list[dict]:
+    """开源中国 - 中国开发者实战文章"""
+    items = []
+    try:
+        resp = _session.get("https://www.oschina.net/news/rss", timeout=15)
+        if resp.status_code == 200:
+            root = ElementTree.fromstring(resp.content)
+            for item in root.findall(".//item")[:5]:
+                title = (item.findtext("title") or "").strip()
+                link = item.findtext("link") or ""
+                desc = clean_html(item.findtext("description") or "")[:200]
+                if not title:
+                    continue
+                items.append({
+                    "id": f"oschina_{hashlib.md5(title.encode()).hexdigest()[:12]}",
+                    "source": "开源中国",
+                    "title": title,
+                    "url": link,
+                    "summary": desc,
+                })
+        log(f"  开源中国: {len(items)} 条")
+    except Exception as e:
+        log(f"  开源中国: {e}")
+    return items
+
+
+def fetch_devto() -> list[dict]:
+    """Dev.to - 海外开发者AI评测"""
+    items = []
+    try:
+        resp = _session.get(
+            "https://dev.to/api/articles",
+            params={"tag": "ai", "per_page": 8, "state": "rising"},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            for art in resp.json():
+                items.append({
+                    "id": f"devto_{art['id']}",
+                    "source": "Dev.to",
+                    "title": art.get("title", ""),
+                    "url": art.get("url", ""),
+                    "summary": clean_html((art.get("description") or "")[:200]),
+                    "author": art.get("user", {}).get("name", ""),
+                })
+        log(f"  Dev.to: {len(items)} 条")
+    except Exception as e:
+        log(f"  Dev.to: {e}")
+    return items
+
+
 # ─── 会话调度 ──────────────────────────────────────────────────────────
 
 SESSION_CONFIG = {
@@ -411,6 +493,8 @@ SESSION_CONFIG = {
                 + fetch_huggingface()
             )),
             ("开发者讨论", lambda: fetch_hackernews_all(30, ai_only=True)),
+            ("中文博主评测", lambda: fetch_juejin() + fetch_oschina()),
+            ("海外博主评测", lambda: fetch_devto()),
             ("开源项目", lambda: fetch_github_trending(7)),
         ],
     },
@@ -459,35 +543,53 @@ DEEPSEEK_PROMPTS = {
 - 直接输出，不要开场白""",
     },
     "afternoon": {
-        "system": """你是技术日报编辑。面向有基础的技术读者，用通俗语言解释。
+        "system": """你是午间技术日报编辑。每次输出必须使用完全相同的固定格式。
 
-固定格式要求：
-1. 每条以【来源名称】开头
-2. 每段必须包含三块内容：
-   a) 技术突破：什么东西，解决了什么问题，效果怎么样
-   b) 争议点：行业内对这件事有什么不同看法，支持什么反对什么
-   c) 公司动态：如果是公司发布，跟竞争对手比怎么样
-3. 智能体（Agent）相关的内容要单独说明：谁家的智能体、能做到什么、适配了什么场景
-4. 各家大模型公司的对比要说清楚：OpenAI/Anthropic/Google/Meta/Mistral 等各家的最新模型，能力各有什么侧重
-5. 专业术语可以保留，但要简单解释
-6. 不写开场白、不写结束语
+整体结构（三段）：
+【前言】→ 蓝色总结
+【来源名称】→ 博主/技术内容
+【后记】→ 一句话收尾
+
+每段规则：
+1. 第一条必须是【前言】：用简洁的话总结今天AI圈最值得关注的趋势和争议。100-400字，不用术语，像跟朋友聊天一样自然。
+2. 每条以【来源名称】开头（如【AI前沿】【掘金】【开源中国】【Dev.to】【Hacker News】【GitHub Trending】）
+3. 每条必须包含以下信息（有则写，无则跳过）：
+   a) 技术内容：什么东西，解决了什么问题
+   b) 发展阶段：标注【商用中/科研阶段/企业内测】
+   c) 谁在干：哪个组织/公司/博主，简单介绍一下他们的背景和动机
+   d) 基层体验：如果来源是博主（掘金/Dev.to/开源中国），引用博主本人的第一手使用感受
+   e) 争议点：行业内有什么不同看法
+4. 智能体（Agent）相关要单独说明
+5. 各家大模型对比要说清楚
+6. 最后一条必须是【后记】：一句话收尾
 
 输出示例：
-【AI前沿】
-DeepMind 提出了一个新的强化学习方法，让AI智能体在复杂任务中的成功率提升了40%。
-争议：有人认为这种方法太吃算力，实用性存疑；支持方则认为这是通往通用智能体的必经之路。
-公司方面：Anthropic 的 Claude 最新版本在编程任务上超越了 GPT-4o，但推理速度更慢。Meta 开源的 Llama 模型则因为社区适配多，成为了自部署的首选。
+【前言】
+今天AI圈最热闹的是Anthropic发布了新版Claude，编程能力又上了一个台阶。但争议也随之而来——有人觉得这是真进步，有人说只是包装得好。同时开源社区也不平静，Meta的Llama新变种在本地部署上有了突破。
 
-【GitHub Trending】
-CrewAI 发布了 v0.8，支持多智能体协作完成任务。每个智能体可以有自己的角色和目标，像一个小团队一样分工合作。
-对比：相比 AutoGPT，CrewAI 更强调角色分工和任务编排，适合复杂工作流。""",
-        "user": """请将以下技术资讯整理成午间技术简报：
+【AI前沿】
+DeepMind提出了新的强化学习方法，让AI在复杂任务中成功率达到95%。
+发展阶段：科研阶段
+谁在干：DeepMind（Google旗下AI实验室，全球顶级）
+基层体验：暂无可引用来源
+争议点：有人认为该方法算力消耗过大，实用性存疑
+
+【掘金】
+一位中国开发者实测了GPT-5.5和Claude Opus在代码生成上的对比。
+发展阶段：商用中
+谁在干：该博主是某大厂后端工程师
+基层体验："Claude生成的代码结构更清晰，但GPT在调试复杂Bug时更准。"
+争议点：社区对谁才是"编程第一"争论不休
+
+【后记】
+今天的AI世界，一边是巨头拼模型，一边是开发者用脚投票。""",
+        "user": """请将以下技术资讯整理成午间技术日报：
 
 {raw}
 
-每条必须包含：技术突破 + 争议点 + 公司/模型对比（如有相关）。
-智能体相关要重点说明。
-直接输出，不要开场白。""",
+严格遵守固定格式：开头【前言】→ 中间分段【来源名称】→ 结尾【后记】。
+每条包含：技术内容 + 发展阶段 + 谁在干 + 基层体验（有则写）+ 争议点（有则写）。
+直接输出，不要额外说明。""",
     },
     "evening": {
         "system": """你是科普晚报编辑。面向零基础读者。
