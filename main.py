@@ -88,7 +88,7 @@ def get_session() -> str:
     hour = datetime.now(TZ_CST).hour
     if 6 <= hour <= 8: return "morning"
     if 13 <= hour <= 15: return "afternoon"
-    if 18 <= hour <= 20: return "evening"
+    if 21 <= hour <= 22: return "evening"
     return "afternoon"
 
 
