@@ -86,9 +86,9 @@ def clean_html(text: str) -> str:
 
 def get_session() -> str:
     hour = datetime.now(TZ_CST).hour
-    if hour == 7: return "morning"
-    if hour == 14: return "afternoon"
-    if hour == 19: return "evening"
+    if 6 <= hour <= 8: return "morning"
+    if 13 <= hour <= 15: return "afternoon"
+    if 18 <= hour <= 20: return "evening"
     return "afternoon"
 
 
