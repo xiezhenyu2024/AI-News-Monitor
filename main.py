@@ -578,12 +578,11 @@ SESSION_CONFIG = {
         "label": "🌙 晚间速览",
         "prompt_type": "evening",
         "sources_list": [
-            ("游戏圈", lambda: fetch_reddit(["gaming", "Games"], 5)),
-            ("文学趣闻", lambda: fetch_reddit(["books", "philosophy"], 3)),
             ("数理生综合", lambda: fetch_arxiv(
                 ["physics.gen-ph", "q-bio.GN"], 5
             )),
-            ("科技新闻", lambda: fetch_hackernews_all(20)),
+            ("综合资讯", lambda: fetch_hackernews_all(25)),
+            ("36氪", lambda: fetch_36kr()),
         ],
     },
 }
