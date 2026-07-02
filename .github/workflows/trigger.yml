@@ -32,8 +32,8 @@ jobs:
           elif [ "$H" = "14" ] || { [ "$H" = "15" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: afternoon"
-          # 晚上 22:00~23:30 之间触发晚报
-          elif [ "$H" = "22" ] || { [ "$H" = "23" ] && [ "$M" -le 30 ]; }; then
+          # 晚上 19:00~20:30 之间触发晚报
+          elif [ "$H" = "19" ] || { [ "$H" = "20" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: evening"
           else
