@@ -1,0 +1,36 @@
+name: Time Trigger
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check time and trigger main workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          H=$(TZ='Asia/Shanghai' date +%H)
+          M=$(TZ='Asia/Shanghai' date +%M)
+
+          # 早上 7:17 → 触发早报（窗口：7:05~7:30）
+          if [ "$H" = "07" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+            gh workflow run "News Daily"
+            echo "Triggered: morning"
+          # 下午 14:17 → 触发午报（窗口：14:05~14:30）
+          elif [ "$H" = "14" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+            gh workflow run "News Daily"
+            echo "Triggered: afternoon"
+          # 晚上 22:17 → 触发晚报（窗口：22:05~22:30）
+          elif [ "$H" = "22" ] && [ "$M" -ge 5 ] && [ "$M" -le 30 ]; then
+            gh workflow run "News Daily"
+            echo "Triggered: evening"
+          else
+            echo "Not trigger time: ${H}:${M}"
+          fi
