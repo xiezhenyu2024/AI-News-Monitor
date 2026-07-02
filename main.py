@@ -118,8 +118,15 @@ def fetch_reddit(subreddits: list[str], limit: int = 5) -> list[dict]:
     return items
 
 
-def fetch_hackernews_all(top_n: int = 20) -> list[dict]:
+def fetch_hackernews_all(top_n: int = 20, ai_only: bool = False) -> list[dict]:
     items = []
+    ai_keywords = ["ai", "artificial intelligence", "machine learning", "llm",
+                   "gpt", "neural", "deep learning", "transformer", "openai",
+                   "anthropic", "google", "meta", "llama", "gemma", "mistral",
+                   "claude", "chatgpt", "diffusion", "rlhf", "rag", "agent",
+                   "fine-tun", "model", "dataset", "copilot", "gemini",
+                   "open source ai", "local ai", "mixture of experts",
+                   "sora", "midjourney", "stable diffusion"]
     try:
         resp = _session.get(
             "https://hacker-news.firebaseio.com/v0/topstories.json", timeout=15
@@ -139,6 +146,10 @@ def fetch_hackernews_all(top_n: int = 20) -> list[dict]:
                     s = r.json()
                     if not s or s.get("type") != "story":
                         return None
+                    title = (s.get("title", "") or "").lower()
+                    text = ((s.get("text", "") or "")[:300]).lower()
+                    if ai_only and not any(kw in (title + " " + text) for kw in ai_keywords):
+                        return None
                     return {
                         "id": f"hn_{sid}",
                         "source": "Hacker News",
@@ -152,6 +163,8 @@ def fetch_hackernews_all(top_n: int = 20) -> list[dict]:
                 r = f.result()
                 if r:
                     items.append(r)
+                    if ai_only and len(items) >= 8:
+                        break
         log(f"  Hacker News: {len(items)} 条")
     except Exception as e:
         log(f"  Hacker News: {e}")
@@ -391,13 +404,13 @@ SESSION_CONFIG = {
     },
     "afternoon": {
         "label": "☀️ 午间技术",
-        "prompt_type": "tech",
+        "prompt_type": "afternoon",
         "sources_list": [
             ("AI前沿", lambda: (
                 fetch_arxiv(["cs.AI", "cs.LG", "cs.CL"], 5)
                 + fetch_huggingface()
             )),
-            ("开发者讨论", lambda: fetch_hackernews_all(30)),
+            ("开发者讨论", lambda: fetch_hackernews_all(30, ai_only=True)),
             ("开源项目", lambda: fetch_github_trending(7)),
         ],
     },
@@ -446,29 +459,35 @@ DEEPSEEK_PROMPTS = {
 - 直接输出，不要开场白""",
     },
     "afternoon": {
-        "system": """你是技术日报编辑。面向有基础的技术读者，但要用通俗语言解释。
+        "system": """你是技术日报编辑。面向有基础的技术读者，用通俗语言解释。
 
 固定格式要求：
 1. 每条以【来源名称】开头
-2. 每段2-3句，先讲是什么，再讲为什么重要
-3. 专业术语可以保留，但要简单解释
-4. 不写开场白、不写结束语
+2. 每段必须包含三块内容：
+   a) 技术突破：什么东西，解决了什么问题，效果怎么样
+   b) 争议点：行业内对这件事有什么不同看法，支持什么反对什么
+   c) 公司动态：如果是公司发布，跟竞争对手比怎么样
+3. 智能体（Agent）相关的内容要单独说明：谁家的智能体、能做到什么、适配了什么场景
+4. 各家大模型公司的对比要说清楚：OpenAI/Anthropic/Google/Meta/Mistral 等各家的最新模型，能力各有什么侧重
+5. 专业术语可以保留，但要简单解释
+6. 不写开场白、不写结束语
 
 输出示例：
-【ArXiv】
-新研究提出了一种让AI模型学会"反思自己"的方法。传统AI只能给出答案，但现在可以通过元反馈训练让模型知道自己的答案靠不靠谱。
+【AI前沿】
+DeepMind 提出了一个新的强化学习方法，让AI智能体在复杂任务中的成功率提升了40%。
+争议：有人认为这种方法太吃算力，实用性存疑；支持方则认为这是通往通用智能体的必经之路。
+公司方面：Anthropic 的 Claude 最新版本在编程任务上超越了 GPT-4o，但推理速度更慢。Meta 开源的 Llama 模型则因为社区适配多，成为了自部署的首选。
 
 【GitHub Trending】
-ollama/ollama 发布了新版本，本地运行大模型更方便了。⭐ 120k+，Go语言。""",
-        "user": """请将以下技术资讯整理成技术简报：
+CrewAI 发布了 v0.8，支持多智能体协作完成任务。每个智能体可以有自己的角色和目标，像一个小团队一样分工合作。
+对比：相比 AutoGPT，CrewAI 更强调角色分工和任务编排，适合复杂工作流。""",
+        "user": """请将以下技术资讯整理成午间技术简报：
 
 {raw}
 
-规则：
-- 每段以【来源名称】开头
-- 先讲技术本身，再讲解决什么问题
-- 专业术语要附带简单解释
-- 直接输出，不要开场白""",
+每条必须包含：技术突破 + 争议点 + 公司/模型对比（如有相关）。
+智能体相关要重点说明。
+直接输出，不要开场白。""",
     },
     "evening": {
         "system": """你是科普晚报编辑。面向零基础读者。
