@@ -1005,7 +1005,7 @@ def main():
         if tracking_text:
             full_report += "\n\n" + tracking_text
 
-        has_images = any(it.get("image") for it in new_items)
+        has_images = session == "morning" and any(it.get("image") for it in new_items)
         if has_images:
             log(">>> 构建图文版...")
             html = build_html_with_images(full_report, new_items, session, now_str)
