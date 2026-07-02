@@ -376,7 +376,7 @@ def fetch_v2ex() -> list[dict]:
 SESSION_CONFIG = {
     "morning": {
         "label": "🌅 全球早报",
-        "prompt_type": "general",
+        "prompt_type": "morning",
         "sources_list": [
             ("BBC 世界新闻", lambda: fetch_rss_news({
                 "BBC": "https://feeds.bbci.co.uk/news/world/rss.xml",
@@ -403,7 +403,7 @@ SESSION_CONFIG = {
     },
     "evening": {
         "label": "🌙 晚间速览",
-        "prompt_type": "general",
+        "prompt_type": "evening",
         "sources_list": [
             ("游戏圈", lambda: fetch_reddit(["gaming", "Games"], 5)),
             ("数理生综合", lambda: fetch_arxiv(
@@ -416,46 +416,84 @@ SESSION_CONFIG = {
 
 
 DEEPSEEK_PROMPTS = {
-    "general": {
-        "system": """你是"前沿日报"的科普编辑，面向零基础普通读者。
+    "morning": {
+        "system": """你是全球早报编辑。每次输出必须使用完全相同的固定格式。
 
-写作要求：
-1. 禁止使用任何专业术语，必须转化成大白话
-2. 每条讲清楚：发生了什么事 → 为什么重要 → 跟普通人有什么关系
-3. 像讲故事一样，先抛出一个场景再展开
-4. 每段50-100字，简短有力
-5. 每条标注来源""",
-        "user": """以下是本时段收集的资讯：
+固定格式要求：
+1. 每条新闻以【来源名称】开头
+2. 每段只写1-2句话（30-60字），简洁明了
+3. 不写开场白、不写结束语
+4. 不涉及AI/科技/大模型内容
+5. 每条必须有【来源名称】标头
+
+输出示例：
+【BBC】
+委内瑞拉7.2级地震已致2295人死亡，全国哀悼7天。
+
+【France24】
+美伊多哈间接谈判取得进展，双方同意建立热线通道。
+
+【36氪】
+某公司完成数亿元融资，用于新产品研发。""",
+        "user": """请将以下全球资讯按【来源名称】分段整理：
 
 {raw}
 
-请改写成零基础能看懂的科普简报，格式：
-🔥 **今日要闻**（最重要的2-3条）
-• 每条约100字，讲清楚"出了什么事 + 为什么重要 + 跟普通人有什么关系"
-
-📄 **其他速览**（简略提及）""",
+规则：
+- 每段以【来源名称】开头
+- 每段写1-2句中文总结
+- 禁止AI/科技内容
+- 直接输出，不要开场白""",
     },
-    "tech": {
-        "system": """你是"前沿日报"的技术编辑，面向有编程/技术基础的读者。
+    "afternoon": {
+        "system": """你是技术日报编辑。面向有基础的技术读者，但要用通俗语言解释。
 
-写作要求：
-1. 可以使用专业术语，但首次出现时简单解释一下
-2. 重点讲清楚：这是什么技术 → 解决什么问题 → 跟现有方案比怎么样
-3. 开源项目要提到语言、Star数、核心功能
-4. 技术新闻要有技术深度，不要稀释成大白话
-5. 每条标注来源""",
-        "user": """以下是本时段收集的技术资讯：
+固定格式要求：
+1. 每条以【来源名称】开头
+2. 每段2-3句，先讲是什么，再讲为什么重要
+3. 专业术语可以保留，但要简单解释
+4. 不写开场白、不写结束语
+
+输出示例：
+【ArXiv】
+新研究提出了一种让AI模型学会"反思自己"的方法。传统AI只能给出答案，但现在可以通过元反馈训练让模型知道自己的答案靠不靠谱。
+
+【GitHub Trending】
+ollama/ollama 发布了新版本，本地运行大模型更方便了。⭐ 120k+，Go语言。""",
+        "user": """请将以下技术资讯整理成技术简报：
 
 {raw}
 
-请整理成技术简报，格式：
-🔥 **技术头条**（最重要的2-3条）
-• 重点讲技术本身、解决的问题、对比现有方案
+规则：
+- 每段以【来源名称】开头
+- 先讲技术本身，再讲解决什么问题
+- 专业术语要附带简单解释
+- 直接输出，不要开场白""",
+    },
+    "evening": {
+        "system": """你是科普晚报编辑。面向零基础读者。
 
-📦 **开源项目**（GitHub热门）
-• 项目名 + 语言 + Star数 + 核心功能一句话
+固定格式要求：
+1. 每条以【来源名称】开头
+2. 每段1-2句，讲清楚"出了什么事 + 为什么有趣"
+3. 禁止专业术语，必须用大白话
+4. 像聊天一样自然
+5. 不写开场白、不写结束语
 
-📄 **其他值得关注**""",
+输出示例：
+【游戏圈】
+《黑神话：悟空》发布新DLC预告，明年春节上线。玩家评价：这次的美术比本体还惊艳。
+
+【物理】
+科学家在实验室中造出了一种全新的"时间晶体"，能让原子像时钟一样周期性排列。这可能改变我们对时间的理解。""",
+        "user": """请将以下资讯整理成科普晚报：
+
+{raw}
+
+规则：
+- 每段以【来源名称】开头
+- 用大白话讲故事
+- 直接输出，不要开场白""",
     },
 }
 
@@ -476,61 +514,85 @@ def build_prompt(session_type: str, items: list[dict]) -> tuple[str, str]:
         sections.append("")
     raw = "\n".join(sections)
 
-    prompts = DEEPSEEK_PROMPTS.get(session_type, DEEPSEEK_PROMPTS["general"])
+    prompts = DEEPSEEK_PROMPTS.get(session_type, DEEPSEEK_PROMPTS["evening"])
     system_prompt = prompts["system"]
     user_prompt = prompts["user"].format(raw=raw)
     return system_prompt, user_prompt
 
 
-# ─── HTML 构建（早报带图版） ─────────────────────────────────────────
+# ─── HTML 构建（按来源分段+插图片） ─────────────────────────────────
 
 COUNTRY_EMOJIS = {
     "BBC": "🇬🇧", "France24": "🇫🇷", "TASS Russia": "🇷🇺",
     "中国日报": "🇨🇳", "纽约时报": "🇺🇸", "36氪": "🇨🇳",
+    "Hacker News": "🌐", "ArXiv": "📄", "Hugging Face": "🤗",
+    "GitHub Trending": "⭐", "Reddit": "💬", "V2EX": "💬",
 }
-
 
 SOURCE_LABELS = {
     "BBC": "BBC 英国", "France24": "France24 法国", "TASS Russia": "TASS 俄罗斯",
     "中国日报": "中国日报", "纽约时报": "纽约时报", "36氪": "36氪",
+    "V2EX": "V2EX", "Reddit": "Reddit",
 }
 
 
-def build_morning_html(deepseek_text: str, items: list[dict], now_str: str) -> str:
-    by_source = {}
+def parse_source_sections(text: str) -> list[tuple[str, str]]:
+    """从 DeepSeek 输出中解析 【来源名称】 段落"""
+    pattern = r'【([^】]+)】\s*(.*?)(?=\n【|$)'
+    matches = re.findall(pattern, text.strip(), re.DOTALL)
+    if matches:
+        return [(s.strip(), c.strip()) for s, c in matches]
+    return []
+
+
+def build_html_with_images(deepseek_text: str, items: list[dict],
+                            session: str, now_str: str) -> str:
+    label_map = {"morning": "🌅 全球早报", "afternoon": "☀️ 午间技术", "evening": "🌙 晚间速览"}
+    title = label_map.get(session, "前沿日报")
+
+    # 按来源整理图片
+    images_by_source = {}
     for it in items:
-        by_source.setdefault(it["source"], []).append(it)
+        img = it.get("image", "")
+        if img:
+            images_by_source.setdefault(it["source"], []).append(img)
 
-    safe_text = deepseek_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    text_html = safe_text.replace("\n", "<br>")
+    # 解析 DeepSeek 输出
+    sections = parse_source_sections(deepseek_text)
 
-    html_parts = [
-        "<div style='font-family:-apple-system,sans-serif;padding:10px;color:#222'>",
-        f"<h2 style='margin:0'>🌅 全球早报</h2>",
-        f"<p style='color:#888;font-size:14px;margin:5px 0 15px'>{now_str}</p>",
-        "<hr style='border:1px solid #eee'>",
-        f"<div style='font-size:14px;line-height:1.7'>{text_html}</div>",
-        "<hr style='border:1px solid #eee'>",
-    ]
+    html = [f"<div style='font-family:-apple-system,sans-serif;padding:10px;color:#222;max-width:600px'>"]
+    html.append(f"<h2 style='margin:0;font-size:20px'>{title}</h2>")
+    html.append(f"<p style='color:#888;font-size:13px;margin:4px 0 12px'>{now_str}</p>")
+    html.append("<hr style='border:1px solid #eee'>")
 
-    for src, src_items in sorted(by_source.items()):
-        images = [it.get("image", "") for it in src_items if it.get("image")]
-        if not images:
-            continue
-        emoji = COUNTRY_EMOJIS.get(src, "🌐")
-        label = SOURCE_LABELS.get(src, src)
-        html_parts.append(f"<h3 style='margin:15px 0 8px'>{emoji} {label}</h3>")
-        for img_url in images[:3]:
-            html_parts.append(
-                f"<img src='{img_url}' style='max-width:100%;height:auto;"
-                f"border-radius:6px;margin:6px 0' loading='lazy'>"
+    if sections:
+        for src_name, content in sections:
+            escaped = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            lines = escaped.replace("\n", "<br>")
+            emoji = COUNTRY_EMOJIS.get(src_name, "📌")
+            html.append(
+                f"<div style='margin-bottom:14px;padding-bottom:10px;"
+                f"border-bottom:1px solid #f0f0f0'>"
             )
+            html.append(f"<p style='margin:0 0 4px;font-size:14px;line-height:1.6'>{lines}</p>")
+            # 插入该来源的图片
+            imgs = images_by_source.get(src_name, [])
+            for img_url in imgs[:2]:
+                html.append(
+                    f"<img src='{img_url}' style='max-width:100%;height:auto;"
+                    f"border-radius:6px;margin:4px 0' loading='lazy'>"
+                )
+            html.append("</div>")
+    else:
+        # 回退：如果解析不到【来源】，直接用全文
+        safe = deepseek_text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        html.append(f"<p style='font-size:14px;line-height:1.6'>{safe.replace(chr(10), '<br>')}</p>")
 
-    html_parts.append(
+    html.append(
         f"<p style='color:#bbb;font-size:11px;text-align:center;margin-top:15px'>"
-        f"Powered by DeepSeek | 每日三报</p></div>"
+        f"Powered by DeepSeek</p></div>"
     )
-    return "\n".join(html_parts)
+    return "\n".join(html)
 
 
 # ─── DeepSeek ──────────────────────────────────────────────────────────
@@ -680,13 +742,11 @@ def main():
     report = call_deepseek(sys_prompt, usr_prompt)
 
     if report:
-        if session == "morning":
-            log(">>> 构建图文早报...")
-            html = build_morning_html(report, new_items, now_str)
-            header = (
-                f"📅 {now_str}\n"
-                f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
-            )
+        has_images = any(it.get("image") for it in new_items)
+        if has_images:
+            log(">>> 构建图文版...")
+            html = build_html_with_images(report, new_items, session, now_str)
+            header = f"📊 {sources_count} 个信源 | {len(new_items)} 条\n"
             send_telegram(header + html, is_html=True)
         else:
             msg = (
