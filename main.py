@@ -338,25 +338,40 @@ def fetch_36kr() -> list[dict]:
 
 def fetch_github_trending(days: int = 7) -> list[dict]:
     items = []
+    seen_ids = set()
     try:
-        since = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-        resp = _session.get(
-            "https://api.github.com/search/repositories",
-            params={"q": f"created:>{since}", "sort": "stars", "order": "desc", "per_page": 10},
-            timeout=15,
-            headers={"Accept": "application/vnd.github.v3+json"},
-        )
-        if resp.status_code != 200:
-            log(f"  GitHub Trending: {resp.status_code}")
-            return items
-        for repo in resp.json().get("items", []):
-            items.append({
-                "id": f"gh_{repo['id']}",
-                "source": "GitHub Trending",
-                "title": f"{repo['full_name']} - {repo.get('description', '') or '无描述'}",
-                "url": repo["html_url"],
-                "summary": f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}",
-            })
+        # 查法1：最近7天新项目，按Star排序（已有）
+        since_7d = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+        # 查法2：最近30天Star>200的项目，按Star排序（发现增长快的）
+        since_30d = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+
+        queries = [
+            (f"created:>{since_7d}", 10, "新项目"),
+            (f"created:>{since_30d} stars:>200", 10, "增长快"),
+        ]
+
+        for q, per_page, tag in queries:
+            resp = _session.get(
+                "https://api.github.com/search/repositories",
+                params={"q": q, "sort": "stars", "order": "desc", "per_page": per_page},
+                timeout=15,
+                headers={"Accept": "application/vnd.github.v3+json"},
+            )
+            if resp.status_code != 200:
+                log(f"  GitHub Trending({tag}): {resp.status_code}")
+                continue
+            for repo in resp.json().get("items", []):
+                rid = repo["id"]
+                if rid in seen_ids:
+                    continue
+                seen_ids.add(rid)
+                items.append({
+                    "id": f"gh_{rid}",
+                    "source": "GitHub Trending",
+                    "title": f"{repo['full_name']} - {repo.get('description', '') or '无描述'}",
+                    "url": repo["html_url"],
+                    "summary": f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}",
+                })
         log(f"  GitHub Trending: {len(items)} 条")
     except Exception as e:
         log(f"  GitHub Trending: {e}")
