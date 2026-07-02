@@ -36,6 +36,7 @@ jobs:
 
       - run: |
           if [ ! -f state.json ]; then echo "{}" > state.json; fi
+          if [ ! -f tracked.json ]; then echo "[]" > tracked.json; fi
 
       - name: Run
         env:
@@ -48,6 +49,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: news-state
-          path: state.json
+          path: |
+            state.json
+            tracked.json
           overwrite: true
           retention-days: 1
