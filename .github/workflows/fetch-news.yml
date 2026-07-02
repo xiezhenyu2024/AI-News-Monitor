@@ -1,10 +1,6 @@
 name: News Daily
 
 on:
-  schedule:
-    - cron: '17 23 * * *'   # 北京时间 07:17
-    - cron: '17 6 * * *'    # 北京时间 14:17
-    - cron: '17 14 * * *'   # 北京时间 22:17
   workflow_dispatch:
 
 permissions:
