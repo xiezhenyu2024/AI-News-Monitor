@@ -90,11 +90,7 @@ def clean_html(text: str) -> str:
 
 
 def get_session() -> str:
-    hour = datetime.now(TZ_CST).hour
-    if 6 <= hour <= 8: return "morning"
-    if 13 <= hour <= 15: return "afternoon"
-    if 21 <= hour <= 22: return "evening"
-    return "afternoon"
+    return "evening"  # 临时
 
 
 DEFAULT_SUBJECTS = {
@@ -361,6 +357,17 @@ def _extract_image(item) -> str:
             if url.startswith("http://"):
                 url = "https://" + url[7:]
             return url
+    # 方法4: 从 content:encoded 中提取 img
+    for child in item:
+        tag = child.tag.split("}")[-1] if "}" in child.tag else child.tag
+        if tag == "encoded":
+            enc_text = child.text or ""
+            m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', enc_text)
+            if m:
+                url = m.group(1)
+                if url.startswith("http://"):
+                    url = "https://" + url[7:]
+                return url
     return ""
 
 
@@ -1159,7 +1166,7 @@ def main():
         # 去掉数据更新部分，只推送正文
         clean_report = report.split("【数据更新】")[0].strip()
 
-        has_images = session == "morning" and any(it.get("image") for it in new_items)
+        has_images = session in ("morning", "evening") and any(it.get("image") for it in new_items)
         if has_images:
             log(">>> 构建图文版...")
             html = build_html_with_images(clean_report, new_items, session, now_str)
