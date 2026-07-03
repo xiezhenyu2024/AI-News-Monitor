@@ -37,6 +37,10 @@ jobs:
       - run: |
           if [ ! -f state.json ]; then echo "{}" > state.json; fi
           if [ ! -f tracked.json ]; then echo "[]" > tracked.json; fi
+          if [ ! -f judgments.json ]; then echo "[]" > judgments.json; fi
+          if [ ! -f subjects.json ]; then echo "{}" > subjects.json; fi
+          if [ ! -f trends.json ]; then echo "[]" > trends.json; fi
+          if [ ! -f causality.json ]; then echo "[]" > causality.json; fi
 
       - name: Run
         env:
@@ -52,5 +56,9 @@ jobs:
           path: |
             state.json
             tracked.json
+            judgments.json
+            subjects.json
+            trends.json
+            causality.json
           overwrite: true
           retention-days: 1
