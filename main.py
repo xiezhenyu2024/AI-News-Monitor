@@ -90,11 +90,7 @@ def clean_html(text: str) -> str:
 
 
 def get_session() -> str:
-    hour = datetime.now(TZ_CST).hour
-    if 6 <= hour <= 8: return "morning"
-    if 13 <= hour <= 15: return "afternoon"
-    if 21 <= hour <= 22: return "evening"
-    return "afternoon"
+    return "evening"  # 临时
 
 
 DEFAULT_SUBJECTS = {
@@ -901,6 +897,24 @@ def build_html_with_images(deepseek_text: str, items: list[dict],
         if img:
             images_by_source.setdefault(it["source"], []).append(img)
 
+    # 晚间主题→信源映射（DeepSeek输出的是主题名，但图片关联的是信源名）
+    EVENING_SOURCE_MAP = {
+        "音乐推荐": ["Pitchfork"],
+        "艺术发现": ["Open Culture"],
+        "哲学研究": ["Aeon", "Daily Nous"],
+        "文学动态": ["卫报书籍", "伦敦书评"],
+        "动物保护": ["Mongabay", "卫报野生动物"],
+    }
+
+    def get_images(section_name: str) -> list:
+        if session == "evening":
+            sources = EVENING_SOURCE_MAP.get(section_name, [])
+            imgs = []
+            for s in sources:
+                imgs.extend(images_by_source.get(s, []))
+            return imgs[:2]
+        return images_by_source.get(section_name, [])[:2]
+
     # 解析 DeepSeek 输出
     sections = parse_source_sections(deepseek_text)
 
@@ -920,7 +934,7 @@ def build_html_with_images(deepseek_text: str, items: list[dict],
             )
             html.append(f"<p style='margin:0 0 4px;font-size:14px;line-height:1.6'>{lines}</p>")
             # 插入该来源的图片
-            imgs = images_by_source.get(src_name, [])
+            imgs = get_images(src_name)
             for img_url in imgs[:2]:
                 html.append(
                     f"<img src='{img_url}' style='max-width:100%;height:auto;"
