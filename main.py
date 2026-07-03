@@ -1069,9 +1069,6 @@ def main():
     if report:
         # 更新追踪状态
         tracked = build_tracking_report(tracked, new_items)[1]
-        full_report = report
-        if tracking_text:
-            full_report += "\n\n" + tracking_text
 
         has_images = session == "morning" and any(it.get("image") for it in new_items)
         if has_images:
