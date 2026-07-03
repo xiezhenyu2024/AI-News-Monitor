@@ -1,8 +1,6 @@
 name: Time Trigger
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -24,16 +22,13 @@ jobs:
           H=$(TZ='Asia/Shanghai' date +%H)
           M=$(TZ='Asia/Shanghai' date +%M)
 
-          # 早上 7:00~8:30 之间触发早报
           if [ "$H" = "07" ] || { [ "$H" = "08" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: morning"
-          # 下午 14:00~15:30 之间触发午报
           elif [ "$H" = "14" ] || { [ "$H" = "15" ] && [ "$M" -le 30 ]; }; then
             gh workflow run "News Daily"
             echo "Triggered: afternoon"
-          # 晚上 21:00~22:30 之间触发晚报
-          elif [ "$H" = "21" ] || { [ "$H" = "22" ] && [ "$M" -le 30 ]; }; then
+          elif [ "$H" = "21" ] || { [ "$H" = "22" ] && [ "$M" -le 30 ]; ]; then
             gh workflow run "News Daily"
             echo "Triggered: evening"
           else
