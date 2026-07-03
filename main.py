@@ -1188,7 +1188,7 @@ def main():
         # 去掉数据更新部分，只推送正文
         clean_report = report.split("【数据更新】")[0].strip()
 
-        has_images = session in ("morning", "evening") and any(it.get("image") for it in new_items)
+        has_images = session == "morning" and any(it.get("image") for it in new_items)
         if has_images:
             log(">>> 构建图文版...")
             html = build_html_with_images(clean_report, new_items, session, now_str)
