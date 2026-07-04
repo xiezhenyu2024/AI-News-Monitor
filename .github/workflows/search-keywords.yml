@@ -1,0 +1,37 @@
+name: 搜索关键词
+
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: '关键词（用逗号分隔，如：Ponytail, self-learning）'
+        required: true
+        type: string
+      session:
+        description: '搜索范围'
+        required: true
+        type: choice
+        options:
+          - all（全部信源）
+          - morning（早报：全球新闻+中文热点）
+          - afternoon（午报：开发者讨论+开源项目）
+          - evening（晚报：综合资讯）
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run keyword search
+        env:
+          SEARCH_KEYWORDS: ${{ inputs.keywords }}
+          SEARCH_SESSION: ${{ inputs.session }}
+        run: python search_keywords.py
