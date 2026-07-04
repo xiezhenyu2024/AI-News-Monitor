@@ -1,0 +1,81 @@
+name: 添加追踪
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: '追踪标题'
+        required: true
+        type: string
+      keywords:
+        description: '关键词（逗号分隔）'
+        required: true
+        type: string
+      session:
+        description: '所属时段'
+        required: true
+        type: choice
+        options:
+          - morning（早报）
+          - afternoon（午报）
+          - evening（晚报）
+          - all（全部时段）
+      status:
+        description: '当前状态描述'
+        required: false
+        type: string
+        default: '暂无'
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Add tracking item
+        env:
+          TITLE: ${{ inputs.title }}
+          KEYWORDS: ${{ inputs.keywords }}
+          SESSION: ${{ inputs.session }}
+          STATUS: ${{ inputs.status }}
+        run: |
+          python -c "
+          import json, os
+          kw = [k.strip() for k in os.environ['KEYWORDS'].split(',') if k.strip()]
+          sid = os.environ['SESSION'].split('（')[0]
+          new = {
+            'title': os.environ['TITLE'],
+            'keywords': kw,
+            'last_text': os.environ['STATUS'],
+            'date': __import__('datetime').datetime.now(
+              __import__('datetime').timezone(__import__('datetime').timedelta(hours=8))
+            ).strftime('%m-%d'),
+            'session': sid,
+          }
+          if os.path.exists('tracked.json'):
+            with open('tracked.json', 'r') as f:
+              data = json.load(f)
+          else:
+            data = []
+          data.append(new)
+          with open('tracked.json', 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+          print(f'已添加追踪：{new[\"title\"]}')
+          print(f'关键词：{kw}')
+          print(f'所属时段：{sid}')
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "tracker-bot@users.noreply.github.com"
+          git add tracked.json
+          git diff --cached --quiet || git commit -m "feat: add tracking - ${{ inputs.title }}"
+          git push
