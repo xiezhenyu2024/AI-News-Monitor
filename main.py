@@ -899,7 +899,7 @@ SOURCE_LABELS = {
 }
 
 
-def parse_source_sections(text: str) -> list[tuple[str, str]]:
+    """parse source sections from DeepSeek output"""
     """parse source sections from DeepSeek output"""
     pattern = r'【([^】]+)】\s*(.*?)(?=\n【|$)'
     matches = re.findall(pattern, text.strip(), re.DOTALL)
@@ -1078,7 +1078,7 @@ def send_telegram(message: str, is_html: bool = False):
 
 
 def parse_data_update(report: str) -> dict:
-    """从 DeepSeek 输出中解析【数据更新】JSON"""
+    """parse data update JSON from DeepSeek output"""
     import re
     m = re.search(r'【数据更新】\s*(\{.*\})', report, re.DOTALL)
     if not m:
