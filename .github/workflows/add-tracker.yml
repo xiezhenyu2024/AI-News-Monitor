@@ -48,7 +48,7 @@ jobs:
         run: |
           python -c "
           import json, os
-          kw = [k.strip() for k in os.environ['KEYWORDS'].split(',') if k.strip()]
+          kw = [k.strip() for k in os.environ['KEYWORDS'].replace('，', ',').split(',') if k.strip()]
           sid = os.environ['SESSION'].split('（')[0]
           new = {
             'title': os.environ['TITLE'],
