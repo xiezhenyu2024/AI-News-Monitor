@@ -896,7 +896,7 @@ SOURCE_LABELS = {
 
 
 def parse_source_sections(text: str) -> list[tuple[str, str]]:
-    """从 DeepSeek 输出中解析 【来源名称】 段落"""
+    """parse source sections from DeepSeek output"""
     pattern = r'【([^】]+)】\s*(.*?)(?=\n【|$)'
     matches = re.findall(pattern, text.strip(), re.DOTALL)
     if matches:
