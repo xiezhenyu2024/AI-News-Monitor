@@ -164,9 +164,13 @@ def fetch_devto() -> list[dict]:
 
 SOURCES = {
     "all": [
-        ("BBC 等全球新闻", lambda: fetch_rss_news({
+        ("全球新闻", lambda: fetch_rss_news({
             "BBC": "https://feeds.bbci.co.uk/news/world/rss.xml",
             "France24": "https://www.france24.com/en/rss",
+            "TASS Russia": "https://tass.com/rss/v2.xml",
+            "中国日报": "https://www.chinadaily.com.cn/rss/world_rss.xml",
+            "纽约时报": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "卫报": "https://www.theguardian.com/world/rss",
         })),
         ("中文科技", lambda: fetch_36kr() + fetch_juejin()),
         ("开发者讨论", lambda: fetch_hackernews(20) + fetch_devto()),
@@ -176,6 +180,10 @@ SOURCES = {
         ("全球新闻", lambda: fetch_rss_news({
             "BBC": "https://feeds.bbci.co.uk/news/world/rss.xml",
             "France24": "https://www.france24.com/en/rss",
+            "TASS Russia": "https://tass.com/rss/v2.xml",
+            "中国日报": "https://www.chinadaily.com.cn/rss/world_rss.xml",
+            "纽约时报": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "卫报": "https://www.theguardian.com/world/rss",
         })),
         ("中文热点", lambda: fetch_36kr()),
     ],
