@@ -90,7 +90,11 @@ def clean_html(text: str) -> str:
 
 
 def get_session() -> str:
-    return "morning"  # 临时测试
+    hour = datetime.now(TZ_CST).hour
+    if 6 <= hour <= 8: return "morning"
+    if 13 <= hour <= 15: return "afternoon"
+    if 21 <= hour <= 22: return "evening"
+    return "afternoon"
 
 
 DEFAULT_SUBJECTS = {
@@ -896,7 +900,7 @@ SOURCE_LABELS = {
 
 
 def parse_source_sections(text: str) -> list[tuple[str, str]]:
-    """parse source sections from DeepSeek output"""
+    """从 DeepSeek 输出中解析 【来源名称】 段落"""
     pattern = r'【([^】]+)】\s*(.*?)(?=\n【|$)'
     matches = re.findall(pattern, text.strip(), re.DOTALL)
     if matches:
