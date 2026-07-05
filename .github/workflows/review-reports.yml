@@ -1,0 +1,50 @@
+name: 审核日报
+
+on:
+  workflow_dispatch:
+    inputs:
+      session:
+        description: '要审核的时段'
+        required: true
+        type: choice
+        options:
+          - morning（早报）
+          - afternoon（午报）
+          - evening（晚报）
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run main to generate report
+        id: run
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: python main.py 2>&1 | tee output.log
+
+      - name: Save report for review
+        run: |
+          # 提取 DeepSeek 生成的报告内容到文件
+          grep -A 9999 ">>> 调用 DeepSeek" output.log | head -20 > report_content.txt || echo "no report found" > report_content.txt
+          echo "Report content saved"
+
+      - name: Multi-agent review
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          REVIEW_FILE: report_content.txt
+        run: python review_news.py
