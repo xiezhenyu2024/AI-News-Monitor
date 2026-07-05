@@ -813,6 +813,7 @@ AI编程工具在进化，开发者也在摸索最好的用法。
   "subjects": {"Anthropic": {"action":"发布新版Claude，编程能力提升","date":"2026-07-05","pending":"等待更多用户实测反馈"}},
   "causality": [{"chain":"模型推理能力提升 → 编程Agent更可靠 → 开发者更依赖Agent","nodes":["模型升级","Agent可靠性提升","开发者采纳"]}],
   "trends": [{"theme":"AI编程工具进入效率优化阶段","importance":5,"evidence":"多个开发者自发分享workflow优化经验","grassroots":"开发者从'能不能用'转向'怎么用好'"}]
+}""",
         "user": """请将以下技术资讯整理成午间技术日报：
 
 {raw}
