@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   fetch:
@@ -57,4 +57,13 @@ jobs:
             trends.json
             causality.json
           overwrite: true
-          retention-days: 1
+          retention-days: 90
+
+      - name: Commit trends data to repo
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@noreply.github.com"
+          git add trends.json
+          git diff --cached --quiet || git commit -m "chore: update trends data"
+          git push
+
