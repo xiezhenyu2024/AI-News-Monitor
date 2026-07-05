@@ -1219,6 +1219,11 @@ def main():
                 f"{'—' * 30}\nPowered by DeepSeek"
             )
             send_telegram(msg)
+
+        # 保存报告供审核
+        if clean_report:
+            with open("last_report.txt", "w", encoding="utf-8") as f:
+                f.write(f"{config['label']}\n{now_str}\n{sources_count}个信源|{len(new_items)}条\n{'─'*40}\n{clean_report}")
     else:
         log("DeepSeek 未返回，推送原始内容")
         raw = f"{config['label']} (原始)\n{now_str}\n\n"
