@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "theme": "AI Agent安全与攻击面",
+    "importance": 5,
+    "evidence": "ArXiv今日发表多篇关于Agent安全、遗忘、监控的论文",
+    "grassroots": "开发者开始关注Agent持久化状态的安全风险",
+    "date": "2026-07-05"
+  },
+  {
+    "theme": "模型推理效率优化",
+    "importance": 4,
+    "evidence": "token-diet降低31%账单、DSpark提速85%、DeepSpec开源投机解码框架",
+    "grassroots": "开发者主动使用工具优化Token消耗",
+    "date": "2026-07-05"
+  },
+  {
+    "theme": "多Agent编排与协同",
+    "importance": 5,
+    "evidence": "Omnigent 6280星、loop-engineering 5780星、多Agent辩论研究",
+    "grassroots": "开发者尝试构建子Agent体系，但发现大部分无用",
+    "date": "2026-07-05"
+  },
+  {
+    "theme": "模型提供商降本与用户体验的冲突",
+    "importance": 5,
+    "evidence": "GPT-5.5 Codex Token聚类、Anthropic封号",
+    "grassroots": "用户感知到明显的性能退化，开始寻找替代方案",
+    "date": "2026-07-05"
+  }
+]
