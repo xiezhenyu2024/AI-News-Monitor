@@ -26,5 +26,26 @@
     "evidence": "GPT-5.5 Codex Token聚类、Anthropic封号",
     "grassroots": "用户感知到明显的性能退化，开始寻找替代方案",
     "date": "2026-07-05"
+  },
+  {
+    "theme": "AI Agent安全研究密集爆发",
+    "importance": 5,
+    "evidence": "今日ArXiv同时出现分布式攻击、在线安全监控、遗忘测试平台等多篇安全相关论文",
+    "grassroots": "Dev.to上开发者分享PII脱敏和RAG投毒实验，显示社区对安全的实际关注",
+    "date": "2026-07-06"
+  },
+  {
+    "theme": "AI编程工具进入效率优化阶段",
+    "importance": 5,
+    "evidence": "token-diet实现31%降本、DeepSpec优化推测解码、DSpark提速85%",
+    "grassroots": "开发者从'能不能用'转向'怎么用好'，分享workflow优化经验",
+    "date": "2026-07-06"
+  },
+  {
+    "theme": "多Agent协作与安全成为并行研究热点",
+    "importance": 4,
+    "evidence": "Omnigent框架、多Agent辩论研究、分布式攻击研究同时出现",
+    "grassroots": "HN讨论中开发者关注Agent间的协作与安全边界",
+    "date": "2026-07-06"
   }
 ]
