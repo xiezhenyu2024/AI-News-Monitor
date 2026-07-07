@@ -171,13 +171,12 @@ def build_tracking_report(tracked: list[dict], items: list[dict], append_mode: b
         if new_finds:
             has_any = True
             latest = new_finds[0]
-            if not append_mode:
-                report_parts.append(
-                    f"\n【{t['title']}】\n"
-                    f"上次（{t.get('date', '?')}）：{last_text}\n"
-                    f"最新今日：{latest['title']}\n"
-                    f"来源：{latest['source']} {latest.get('url', '')}"
-                )
+            report_parts.append(
+                f"\n【{t['title']}】\n"
+                f"上次（{t.get('date', '?')}）：{last_text}\n"
+                f"最新今日：{latest['title']}\n"
+                f"来源：{latest['source']} {latest.get('url', '')}"
+            )
             t["last_text"] = latest["title"][:150]
             t["date"] = datetime.now(TZ_CST).strftime("%m-%d")
         elif not append_mode:
@@ -192,6 +191,8 @@ def build_tracking_report(tracked: list[dict], items: list[dict], append_mode: b
         if not append_mode:
             report_parts.append("\n所有追踪条目暂无新进展。")
         log("[追踪诊断] 无任何条目命中")
+        if append_mode:
+            return "", updated
     else:
         hit_count = sum(1 for t in tracked if any(
             kw.lower() in (it.get("title","")+" "+it.get("summary","")).lower()
