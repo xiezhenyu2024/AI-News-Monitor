@@ -141,8 +141,9 @@ def save_tracked(tracked: list[dict]):
         json.dump(tracked, f, ensure_ascii=False)
 
 
-def build_tracking_report(tracked: list[dict], items: list[dict]) -> tuple[str, list[dict]]:
-    """检查追踪条目是否有新进展，返回（追踪报道文本，更新后的追踪列表）"""
+def build_tracking_report(tracked: list[dict], items: list[dict], append_mode: bool = False) -> tuple[str, list[dict]]:
+    """检查追踪条目是否有新进展，返回（追踪报道文本，更新后的追踪列表）
+    append_mode=True 时只输出有新进展的条目（供追加到推送时使用）"""
     log(f"[追踪诊断] 追踪条目数: {len(tracked)}, 待检新闻数: {len(items)}")
     if not tracked:
         log("[追踪诊断] 追踪列表为空，跳过")
@@ -170,15 +171,16 @@ def build_tracking_report(tracked: list[dict], items: list[dict]) -> tuple[str, 
         if new_finds:
             has_any = True
             latest = new_finds[0]
-            report_parts.append(
-                f"\n【{t['title']}】\n"
-                f"上次（{t.get('date', '?')}）：{last_text}\n"
-                f"最新今日：{latest['title']}\n"
-                f"来源：{latest['source']} {latest.get('url', '')}"
-            )
+            if not append_mode:
+                report_parts.append(
+                    f"\n【{t['title']}】\n"
+                    f"上次（{t.get('date', '?')}）：{last_text}\n"
+                    f"最新今日：{latest['title']}\n"
+                    f"来源：{latest['source']} {latest.get('url', '')}"
+                )
             t["last_text"] = latest["title"][:150]
             t["date"] = datetime.now(TZ_CST).strftime("%m-%d")
-        else:
+        elif not append_mode:
             report_parts.append(
                 f"\n【{t['title']}】\n"
                 f"上次（{t.get('date', '?')}）：{last_text}\n"
@@ -187,8 +189,15 @@ def build_tracking_report(tracked: list[dict], items: list[dict]) -> tuple[str, 
         updated.append(t)
 
     if not has_any:
-        report_parts.append("\n所有追踪条目暂无新进展。")
+        if not append_mode:
+            report_parts.append("\n所有追踪条目暂无新进展。")
         log("[追踪诊断] 无任何条目命中")
+    else:
+        hit_count = sum(1 for t in tracked if any(
+            kw.lower() in (it.get("title","")+" "+it.get("summary","")).lower()
+            for kw in t.get("keywords",[]) for it in items
+        ))
+        log(f"[追踪诊断] {hit_count} 个条目有命中")
 
     result = "\n".join(report_parts)
     log(f"[追踪诊断] 最终追踪文本长度: {len(result)} 字符")
@@ -1296,7 +1305,9 @@ def main():
 
     if report:
         # 更新追踪状态并获取追踪报道文本
-        track_text, tracked = build_tracking_report(tracked, new_items)
+        track_text, tracked = build_tracking_report(tracked, new_items, append_mode=True)
+        # 拆出只有命中的条目文本（append_mode=True 时只输出命中的条目）
+        track_hits = track_text.strip() if "📡" in track_text else ""
 
         # 解析【数据更新】
         data = parse_data_update(report)
@@ -1308,10 +1319,10 @@ def main():
 
         # 去掉数据更新部分，只推送正文；再追加追踪报道（强制确保追踪出现在推送中）
         clean_report = report.split("【数据更新】")[0].strip()
-        if track_text and "📡 **跟踪报道**" not in clean_report:
-            clean_report += "\n\n" + track_text
-            log(f"[追踪] 已将追踪报道追加到推送（{len(track_text)}字符）")
-        elif track_text:
+        if track_hits and "📡 **跟踪报道**" not in clean_report:
+            clean_report += "\n\n" + track_hits
+            log(f"[追踪] 已将追踪报道追加到推送（{len(track_hits)}字符, 仅命中条目）")
+        elif track_hits:
             log("[追踪] 追踪报道已由模型包含在正文中，跳过追加")
 
         has_images = session == "morning" and any(it.get("image") for it in new_items)
