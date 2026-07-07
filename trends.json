@@ -47,5 +47,26 @@
     "evidence": "Omnigent框架、多Agent辩论研究、分布式攻击研究同时出现",
     "grassroots": "HN讨论中开发者关注Agent间的协作与安全边界",
     "date": "2026-07-06"
+  },
+  {
+    "theme": "AI成本加速崩塌，从‘稀缺品’走向‘大宗商品’",
+    "importance": 5,
+    "evidence": "GLM 5.2低价发布、token-diet等成本优化工具涌现、HN上‘AI像电力一样便宜’讨论",
+    "grassroots": "开发者开始主动寻找降本方案，而非被动接受定价",
+    "date": "2026-07-07"
+  },
+  {
+    "theme": "小模型+Agent编排成为务实落地新范式",
+    "importance": 4,
+    "evidence": "IEEE Spectrum报道、shadcn/improve分层审计工作流、Omnigent多Agent框架",
+    "grassroots": "开发者从‘哪个模型最强’转向‘怎么用便宜模型搭好系统’",
+    "date": "2026-07-07"
+  },
+  {
+    "theme": "平台方关闭智能体功能，开发者生态面临信任危机",
+    "importance": 4,
+    "evidence": "豆包和千问同时关闭、掘金用户抱怨‘自动化全废了’",
+    "grassroots": "开发者开始反思对单一平台的依赖，转向开源方案",
+    "date": "2026-07-07"
   }
 ]
