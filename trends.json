@@ -68,5 +68,26 @@
     "evidence": "豆包和千问同时关闭、掘金用户抱怨‘自动化全废了’",
     "grassroots": "开发者开始反思对单一平台的依赖，转向开源方案",
     "date": "2026-07-07"
+  },
+  {
+    "theme": "AI编程工具进入‘模型+Agent’双轮驱动阶段",
+    "importance": 5,
+    "evidence": "GPT-5.6与Fable 5正面竞争，多个Agent编排框架（Omnigent、loop-engineering）星数快速增长，开发者从‘哪个模型强’转向‘哪个组合省token’",
+    "grassroots": "HN用户reassess_blind：‘我在Codex和Claude之间像乒乓球一样来回切换’；Dev.to用户分享mcp2cli节省96-99% token",
+    "date": "2026-07-08"
+  },
+  {
+    "theme": "云平台AI Agent生态面临信任危机",
+    "importance": 4,
+    "evidence": "豆包和千问同时关闭智能体，Anthropic大面积封号，用户自动化工作流中断",
+    "grassroots": "掘金用户：‘3个自动化全废了’；‘连大V都忍不了开喷了’",
+    "date": "2026-07-08"
+  },
+  {
+    "theme": "开源/本地优先AI工具加速崛起",
+    "importance": 4,
+    "evidence": "Rowboat（Claude Desktop替代品）、local-llm（本地LLM指南）、Omnigent（多Agent编排）等项目活跃",
+    "grassroots": "开发者开始主动搜索‘迁移方案’和‘本地替代方案’",
+    "date": "2026-07-08"
   }
 ]
