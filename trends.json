@@ -110,5 +110,26 @@
     "evidence": "GLM 5.2在Databricks基准测试中表现突出，DeepSpec开源推测解码代码库",
     "grassroots": "HN讨论中多位开发者确认开源模型已具备竞争力",
     "date": "2026-07-09"
+  },
+  {
+    "theme": "AI商业合规风险集中爆发",
+    "importance": 5,
+    "evidence": "Apple诉OpenAI、Claude Code封禁中国用户、豆包千问关停智能体，三大事件同日发生",
+    "grassroots": "开发者开始重新评估对单一AI平台的依赖风险",
+    "date": "2026-07-11"
+  },
+  {
+    "theme": "AI数学推理能力进入实证阶段",
+    "importance": 5,
+    "evidence": "GPT-5.6首次证明公开数学猜想，从反例到证明的跨越",
+    "grassroots": "HN用户既兴奋又谨慎，关注证明的严谨性和可复现性",
+    "date": "2026-07-11"
+  },
+  {
+    "theme": "智能体平台从开放走向封闭",
+    "importance": 4,
+    "evidence": "豆包和千问同日关停智能体功能，用户被迫迁移",
+    "grassroots": "掘金用户大量讨论迁移方案，对平台信任度下降",
+    "date": "2026-07-11"
   }
 ]
