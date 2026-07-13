@@ -152,5 +152,26 @@
     "evidence": "开发者用Claude Haiku+记忆系统以1/640成本达到顶级模型效果",
     "grassroots": "开发者开始探索成本更优的替代方案",
     "date": "2026-07-12"
+  },
+  {
+    "theme": "AI编程工具进入成本精细化阶段",
+    "importance": 5,
+    "evidence": "多个开发者自发对比token开销、构建成本监控工具、分享优化经验",
+    "grassroots": "开发者从'能用就行'转向'算清楚每分钱花在哪'",
+    "date": "2026-07-13"
+  },
+  {
+    "theme": "AI生成内容标识成为社区治理焦点",
+    "importance": 4,
+    "evidence": "HN上关于添加AI标记的讨论热度极高，管理员和用户观点分歧明显",
+    "grassroots": "用户既希望识别AI内容，又担心标记机制被滥用",
+    "date": "2026-07-13"
+  },
+  {
+    "theme": "多Agent编排从概念走向实战",
+    "importance": 4,
+    "evidence": "Agora拍卖式任务分配、VEXAIoT自主漏洞挖掘等论文出现，Dev.to有开发者分享编排经验",
+    "grassroots": "开发者开始探索如何让多个Agent协同工作而非单打独斗",
+    "date": "2026-07-13"
   }
 ]
