@@ -173,5 +173,26 @@
     "evidence": "Agora拍卖式任务分配、VEXAIoT自主漏洞挖掘等论文出现，Dev.to有开发者分享编排经验",
     "grassroots": "开发者开始探索如何让多个Agent协同工作而非单打独斗",
     "date": "2026-07-13"
+  },
+  {
+    "theme": "AI编程工具进入‘选型优化’阶段",
+    "importance": 5,
+    "evidence": "掘金出现多篇Claude Code/Cursor/Codex对比文章，Dev.to有workflow分享",
+    "grassroots": "开发者从‘哪个工具能用’转向‘哪个工具更适合什么任务’",
+    "date": "2026-07-14"
+  },
+  {
+    "theme": "LLM元认知研究成为学术热点",
+    "importance": 4,
+    "evidence": "今日ArXiv出现系统综述论文，提出研究框架",
+    "grassroots": "暂无基层声音，但学术界关注度上升",
+    "date": "2026-07-14"
+  },
+  {
+    "theme": "端侧语音识别竞争加剧",
+    "importance": 4,
+    "evidence": "Apple发布流式API，HN用户积极讨论和集成",
+    "grassroots": "开发者已在Home Assistant等场景实际使用，反馈正面",
+    "date": "2026-07-14"
   }
 ]
