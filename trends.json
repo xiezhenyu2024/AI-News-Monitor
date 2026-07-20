@@ -215,5 +215,33 @@
     "evidence": "$100 AI Music Video评测结果普遍负面，用户认为缺乏艺术价值",
     "grassroots": "HN用户从哲学和艺术角度批评AI生成内容，认为'艺术本质上是人类的'",
     "date": "2026-07-17"
+  },
+  {
+    "theme": "AI工具链全面Rust化",
+    "importance": 5,
+    "evidence": "Claude Code/Bun从Zig迁移至Rust；colibri纯C实现；多个Rust新项目涌现",
+    "grassroots": "HN用户激烈讨论'为何不直接Rust'，开发者社区对Rust接受度极高",
+    "date": "2026-07-20"
+  },
+  {
+    "theme": "多智能体系统从经验走向理论",
+    "importance": 5,
+    "evidence": "信息瓶颈理论首次量化MAS vs SAS的优劣条件",
+    "grassroots": "暂无基层声音，但学术界关注度极高",
+    "date": "2026-07-20"
+  },
+  {
+    "theme": "AI数学突破加速，但集中在美国模型",
+    "importance": 4,
+    "evidence": "Claude Fable生成雅可比猜想反例；HN用户指出所有突破均来自Anthropic和OpenAI",
+    "grassroots": "开发者关注AI数学能力，但质疑其是否只是'清扫已有文献'",
+    "date": "2026-07-20"
+  },
+  {
+    "theme": "中国AI芯片软件栈开源破局",
+    "importance": 5,
+    "evidence": "平头哥SAIL对标CUDA全线开源",
+    "grassroots": "暂无基层声音，但WAIC 2026上反响热烈",
+    "date": "2026-07-20"
   }
 ]
