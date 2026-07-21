@@ -90,11 +90,7 @@ def clean_html(text: str) -> str:
 
 
 def get_session() -> str:
-    hour = datetime.now(TZ_CST).hour
-    if 6 <= hour <= 8: return "morning"
-    if 13 <= hour <= 15: return "afternoon"
-    if 21 <= hour <= 22: return "evening"
-    return "afternoon"
+    return "morning"  # 测试用
 
 
 DEFAULT_SUBJECTS = {
