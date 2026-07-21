@@ -90,7 +90,7 @@ def clean_html(text: str) -> str:
 
 
 def get_session() -> str:
-    return "morning"  # 测试用
+    return "afternoon"  # 测试用
 
 
 DEFAULT_SUBJECTS = {
