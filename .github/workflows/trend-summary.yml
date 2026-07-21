@@ -1,0 +1,49 @@
+name: Trend Summary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 1 * *'    # 每月1日 09:00 CST (01:00 UTC)
+    - cron: '0 1 15 * *'   # 每月15日 09:00 CST
+
+concurrency:
+  group: trend-summary
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Download trends data
+        uses: actions/download-artifact@v4
+        with:
+          name: news-state
+          path: .
+        continue-on-error: true
+
+      - run: |
+          if [ ! -f trends.json ]; then echo "[]" > trends.json; fi
+          echo "Trends entries: $(python3 -c 'import json; print(len(json.load(open(\"trends.json\"))))')"
+
+      - name: Generate trend report
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: python trend_summary.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trend-report
+          path: trend_report.txt
+          retention-days: 90
