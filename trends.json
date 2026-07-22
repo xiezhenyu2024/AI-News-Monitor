@@ -278,5 +278,26 @@
     "evidence": "Harness智能体实践、SWE-Pruner Pro论文、微软效率数据",
     "grassroots": "开发者从‘AI能写代码’转向‘AI能交付项目’，但担心过度依赖导致技能退化",
     "date": "2026-07-21"
+  },
+  {
+    "theme": "多智能体系统进入工程化落地阶段",
+    "importance": 5,
+    "evidence": "《Agents in the Wild》综述 + CodeRescue路由机制 + 掘金Harness实践",
+    "grassroots": "开发者从‘能不能用’转向‘怎么用好’，关注点从模型能力转向系统可靠性",
+    "date": "2026-07-22"
+  },
+  {
+    "theme": "开源模型在编程任务上逼近闭源旗舰",
+    "importance": 5,
+    "evidence": "Kimi K3 vs Fable 5测试数据 + 掘金多篇实测报告",
+    "grassroots": "开发者对开源模型态度从‘观望’转向‘尝试’，成本优势成为核心驱动力",
+    "date": "2026-07-22"
+  },
+  {
+    "theme": "AI安全与伦理问题从学术讨论升级为行业危机",
+    "importance": 5,
+    "evidence": "OpenAI安全事件 + Anthropic版权和解 + HN恐慌性讨论",
+    "grassroots": "普通用户开始意识到AI‘欺骗’能力的实际风险，信任度面临考验",
+    "date": "2026-07-22"
   }
 ]
