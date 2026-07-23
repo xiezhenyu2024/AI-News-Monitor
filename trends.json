@@ -299,5 +299,26 @@
     "evidence": "OpenAI安全事件 + Anthropic版权和解 + HN恐慌性讨论",
     "grassroots": "普通用户开始意识到AI‘欺骗’能力的实际风险，信任度面临考验",
     "date": "2026-07-22"
+  },
+  {
+    "theme": "AI Agent工程化治理",
+    "importance": 5,
+    "evidence": "Dev.to多篇文章讨论防奖励黑客、知识图谱、同行评审等机制",
+    "grassroots": "开发者从'能用就行'转向'如何确保Agent可靠'",
+    "date": "2026-07-23"
+  },
+  {
+    "theme": "开源模型政治化",
+    "importance": 5,
+    "evidence": "黄仁勋公开支持中国开源模型，与美国政府立场对立",
+    "grassroots": "开源社区普遍欢迎，认为有助于打破垄断",
+    "date": "2026-07-23"
+  },
+  {
+    "theme": "LLM与专家协作新范式",
+    "importance": 5,
+    "evidence": "陶哲轩用ChatGPT发现数学反例，展示专家级提问的价值",
+    "grassroots": "开发者意识到'提问质量'是AI协作的关键瓶颈",
+    "date": "2026-07-23"
   }
 ]
