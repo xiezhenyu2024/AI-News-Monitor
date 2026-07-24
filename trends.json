@@ -320,5 +320,26 @@
     "evidence": "陶哲轩用ChatGPT发现数学反例，展示专家级提问的价值",
     "grassroots": "开发者意识到'提问质量'是AI协作的关键瓶颈",
     "date": "2026-07-23"
+  },
+  {
+    "theme": "Agent工程从模型循环走向Harness工程",
+    "importance": 5,
+    "evidence": "多篇论文、开源项目、开发者讨论聚焦Harness工程，OpenForgeRL、grok-build等项目星数快速增长",
+    "grassroots": "开发者从'模型能不能用'转向'怎么让Agent可靠落地'",
+    "date": "2026-07-24"
+  },
+  {
+    "theme": "多模态模型进入统一理解与生成阶段",
+    "importance": 4,
+    "evidence": "Flux3发布，支持文本/图像/视频/音频统一处理，3D感知VLM论文出现",
+    "grassroots": "用户期待更自然的跨模态交互体验",
+    "date": "2026-07-24"
+  },
+  {
+    "theme": "国产AI模型在性价比上突围",
+    "importance": 4,
+    "evidence": "Kimi K3在掘金引发多篇真实体验讨论，评价为'很强但还有不足'",
+    "grassroots": "开发者愿意为性价比尝试国产模型，但对稳定性有更高要求",
+    "date": "2026-07-24"
   }
 ]
