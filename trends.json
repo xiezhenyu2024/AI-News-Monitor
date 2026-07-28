@@ -362,5 +362,19 @@
     "evidence": "xAI开源Grok Build，与Claude Code、Codex等形成竞争",
     "grassroots": "开发者开始对比不同框架的体验和扩展性",
     "date": "2026-07-27"
+  },
+  {
+    "theme": "AI编程工具与基础模型开源化加速",
+    "importance": 5,
+    "evidence": "Kimi K3、Grok Build、colibri等多个重量级项目同日开源或发布",
+    "grassroots": "开发者积极尝试Kimi K3并分享体验，同时讨论开放模型与闭源模型的优劣",
+    "date": "2026-07-28"
+  },
+  {
+    "theme": "低成本微调在垂直领域展现竞争力",
+    "importance": 4,
+    "evidence": "$500 RL微调9B模型在目录审查任务上超越前沿模型",
+    "grassroots": "开发者对低成本、高效率的微调方案表现出浓厚兴趣",
+    "date": "2026-07-28"
   }
 ]
