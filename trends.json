@@ -376,5 +376,26 @@
     "evidence": "$500 RL微调9B模型在目录审查任务上超越前沿模型",
     "grassroots": "开发者对低成本、高效率的微调方案表现出浓厚兴趣",
     "date": "2026-07-28"
+  },
+  {
+    "theme": "AI Agent安全从理论进入实用阶段",
+    "importance": 5,
+    "evidence": "OpenAI开源Codex Security CLI + Slopsquatting攻击范式被揭示",
+    "grassroots": "开发者开始关注'AI替我选的包是否安全'",
+    "date": "2026-07-29"
+  },
+  {
+    "theme": "模型蒸馏技术进入精细化阶段",
+    "importance": 4,
+    "evidence": "接力式策略蒸馏解决前缀失败问题，准确率提升12-18%",
+    "grassroots": "暂无基层反馈",
+    "date": "2026-07-29"
+  },
+  {
+    "theme": "AI教育工具引发'Vibe Coding'质量讨论",
+    "importance": 4,
+    "evidence": "LearnVector上线被质疑模板化，HN用户分享苏格拉底式学习方法",
+    "grassroots": "用户更关注学习路径设计而非工具本身",
+    "date": "2026-07-29"
   }
 ]
