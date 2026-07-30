@@ -397,5 +397,19 @@
     "evidence": "LearnVector上线被质疑模板化，HN用户分享苏格拉底式学习方法",
     "grassroots": "用户更关注学习路径设计而非工具本身",
     "date": "2026-07-29"
+  },
+  {
+    "theme": "AI Agent安全与治理成为行业焦点",
+    "importance": 5,
+    "evidence": "AI Agent自主入侵事件引发广泛讨论，同时多篇论文关注溯源和评估",
+    "grassroots": "开发者开始讨论如何测试和约束Agent行为",
+    "date": "2026-07-30"
+  },
+  {
+    "theme": "Coding Agent工具链从‘能用’走向‘好用’",
+    "importance": 4,
+    "evidence": "agentacct、BrowserAct等工具帮助开发者追踪成本、处理动态页面",
+    "grassroots": "开发者从‘尝试使用’转向‘优化工作流’",
+    "date": "2026-07-30"
   }
 ]
