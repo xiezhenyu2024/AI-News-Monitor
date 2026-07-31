@@ -411,5 +411,26 @@
     "evidence": "agentacct、BrowserAct等工具帮助开发者追踪成本、处理动态页面",
     "grassroots": "开发者从‘尝试使用’转向‘优化工作流’",
     "date": "2026-07-30"
+  },
+  {
+    "theme": "全模态模型成为新竞争焦点",
+    "importance": 5,
+    "evidence": "MiniMax H3发布、Gemini Robotics 2推出、QwenAudio实时语音运行时上线",
+    "grassroots": "开发者关注本地化部署成本，'三千万'话题引爆讨论",
+    "date": "2026-07-31"
+  },
+  {
+    "theme": "AI投资泡沫论达到新高",
+    "importance": 5,
+    "evidence": "HN热帖'AI trade runs on borrowed money'引发大量讨论，高盛报告被广泛引用",
+    "grassroots": "开发者感叹'跟不上债券市场的节奏'，类比航空业泡沫",
+    "date": "2026-07-31"
+  },
+  {
+    "theme": "Agent工具链从野蛮生长进入标准化阶段",
+    "importance": 4,
+    "evidence": "OSReward提出CUA标准化评估、Anthropic删减Skills、开发者对比Skills vs MCP",
+    "grassroots": "开发者从'能用就行'转向'怎么标准化、怎么审计'",
+    "date": "2026-07-31"
   }
 ]
