@@ -432,5 +432,33 @@
     "evidence": "OSReward提出CUA标准化评估、Anthropic删减Skills、开发者对比Skills vs MCP",
     "grassroots": "开发者从'能用就行'转向'怎么标准化、怎么审计'",
     "date": "2026-07-31"
+  },
+  {
+    "theme": "AI Agent从单机走向多人协作",
+    "importance": 5,
+    "evidence": "qm多人Agent框架发布、HN深度讨论作用域管理、开发者分享Agent自主约会议经历",
+    "grassroots": "'我给了Agent一个Slack频道，它开始自己和其他Agent约会议'——HN用户luciana1u",
+    "date": "2026-08-01"
+  },
+  {
+    "theme": "大模型价格战进入'架构优化驱动'阶段",
+    "importance": 5,
+    "evidence": "OpenAI降价80%称源于自身优化、DeepSeek-V4-Flash仅重做后训练即大幅提升Agent能力",
+    "grassroots": "掘金用户计算Kimi K3本地部署成本后'老板涨红脸沉默不语'",
+    "date": "2026-08-01"
+  },
+  {
+    "theme": "Agent评估与安全审计成为新基础设施",
+    "importance": 4,
+    "evidence": "OSReward提出CUA标准化评估、AISPA系统提示词审计、OpenAI发布codex-security",
+    "grassroots": "开发者反馈'Agent评估比模型评估难得多'——Dev.to",
+    "date": "2026-08-01"
+  },
+  {
+    "theme": "开源模型本地化部署需求激增",
+    "importance": 4,
+    "evidence": "Kimi K3开源+deltafin单设备运行方案、掘金热议本地部署成本",
+    "grassroots": "'三千万足矣'——掘金用户计算Kimi K3本地部署成本",
+    "date": "2026-08-01"
   }
 ]
