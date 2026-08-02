@@ -460,5 +460,26 @@
     "evidence": "Kimi K3开源+deltafin单设备运行方案、掘金热议本地部署成本",
     "grassroots": "'三千万足矣'——掘金用户计算Kimi K3本地部署成本",
     "date": "2026-08-01"
+  },
+  {
+    "theme": "开源大模型本地化部署",
+    "importance": 5,
+    "evidence": "Kimi K3开源后24小时内出现多个部署方案，GitHub趋势榜前10占3席",
+    "grassroots": "开发者算账后老板沉默，成本仍是核心门槛",
+    "date": "2026-08-02"
+  },
+  {
+    "theme": "Agent评估体系重构",
+    "importance": 4,
+    "evidence": "Dev.to多篇高赞文章讨论评估失真问题，OSReward论文提出标准化评估",
+    "grassroots": "开发者直言'池化比较测的是调度器'",
+    "date": "2026-08-02"
+  },
+  {
+    "theme": "小模型专用任务崛起",
+    "importance": 4,
+    "evidence": "125M模型在医疗脱敏任务上比14B模型快40倍",
+    "grassroots": "数据不出机器的隐私优势成为关键卖点",
+    "date": "2026-08-02"
   }
 ]
