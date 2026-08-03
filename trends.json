@@ -481,5 +481,26 @@
     "evidence": "125M模型在医疗脱敏任务上比14B模型快40倍",
     "grassroots": "数据不出机器的隐私优势成为关键卖点",
     "date": "2026-08-02"
+  },
+  {
+    "theme": "中国开源大模型Max级冲锋",
+    "importance": 5,
+    "evidence": "Qwen3.8-Max开源2.4万亿参数权重，MiniMax H3直接开源33B全模态",
+    "grassroots": "HN用户预测中国将成为SOTA领导者",
+    "date": "2026-08-03"
+  },
+  {
+    "theme": "Agent基础设施研究密集爆发",
+    "importance": 4,
+    "evidence": "TokTier、ResKV、ExtractBench、AgentHPOBench多篇论文同日发布",
+    "grassroots": "开发者自建Agent评估框架发现真实Agent打破预期",
+    "date": "2026-08-03"
+  },
+  {
+    "theme": "AI安全从应用层升级为基础设施问题",
+    "importance": 4,
+    "evidence": "Dev.to热议Agent聊天记录是攻击面，OpenAI超级PAC被曝用AI新闻攻击批评者",
+    "grassroots": "开发者开始关注Prompt注入的基础设施风险",
+    "date": "2026-08-03"
   }
 ]
