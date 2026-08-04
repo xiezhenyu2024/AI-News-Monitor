@@ -502,5 +502,26 @@
     "evidence": "Dev.to热议Agent聊天记录是攻击面，OpenAI超级PAC被曝用AI新闻攻击批评者",
     "grassroots": "开发者开始关注Prompt注入的基础设施风险",
     "date": "2026-08-03"
+  },
+  {
+    "theme": "边缘端大模型推理成为现实",
+    "importance": 5,
+    "evidence": "Kimi K3单CPU推理+Gemma 4在MacBook上2GB内存运行",
+    "grassroots": "开发者反馈'便携设备跑大模型'从噱头变成可复现的现实",
+    "date": "2026-08-04"
+  },
+  {
+    "theme": "Agent工具链进入边界反思期",
+    "importance": 4,
+    "evidence": "多篇Dev.to文章讨论Agent权限边界与代码审查标准",
+    "grassroots": "开发者普遍认可Agent效率，但对'边界'和'审查责任'感到不安",
+    "date": "2026-08-04"
+  },
+  {
+    "theme": "文本生成范式可能从离散token转向连续潜空间",
+    "importance": 4,
+    "evidence": "AURORA-LM和GradCuit两篇论文同日发布",
+    "grassroots": "暂无基层反馈，学术界讨论中",
+    "date": "2026-08-04"
   }
 ]
