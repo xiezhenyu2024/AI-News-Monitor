@@ -523,5 +523,26 @@
     "evidence": "AURORA-LM和GradCuit两篇论文同日发布",
     "grassroots": "暂无基层反馈，学术界讨论中",
     "date": "2026-08-04"
+  },
+  {
+    "theme": "推理时扩展成为LLM能力提升的核心路径",
+    "importance": 5,
+    "evidence": "ArXiv同日两篇论文系统研究TTS，涵盖评测框架与训练方法",
+    "grassroots": "开发者关注推理时扩展的算力成本，期待更高效的实现",
+    "date": "2026-08-05"
+  },
+  {
+    "theme": "端侧大模型推理进入实用化前夜",
+    "importance": 4,
+    "evidence": "Kimi-K3单CPU运行与Gemma 4在MacBook上2GB内存推理同日出现",
+    "grassroots": "开发者反馈本地部署延迟更低、数据可控，但速度仍是瓶颈",
+    "date": "2026-08-05"
+  },
+  {
+    "theme": "AI编程Agent从'能用'转向'用好'",
+    "importance": 4,
+    "evidence": "开发者开始审计Agent的待办清单、自建终端助手、优化多Agent协作",
+    "grassroots": "开发者关注Agent的状态管理、安全边界与效率优化",
+    "date": "2026-08-05"
   }
 ]
