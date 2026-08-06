@@ -544,5 +544,26 @@
     "evidence": "开发者开始审计Agent的待办清单、自建终端助手、优化多Agent协作",
     "grassroots": "开发者关注Agent的状态管理、安全边界与效率优化",
     "date": "2026-08-05"
+  },
+  {
+    "theme": "长程推理Agent Runtime成为AI新基建",
+    "importance": 5,
+    "evidence": "ArXiv同日4篇相关论文，GitHub多个Agent harness项目上榜",
+    "grassroots": "开发者开始探索跨模型Agent组合与持久运行工作流",
+    "date": "2026-08-06"
+  },
+  {
+    "theme": "模型商品化与专用化并行",
+    "importance": 4,
+    "evidence": "Neon以100倍成本优势击败GPT-5.6 Sol，HN热议'大厂模型商业上难以为继'",
+    "grassroots": "开发者倾向'用正确的工具做正确的事'，而非依赖单一通用模型",
+    "date": "2026-08-06"
+  },
+  {
+    "theme": "AI基础设施稳定性与人才争夺成新战场",
+    "importance": 4,
+    "evidence": "DeepSeek涨价、Google DeepMind人事地震同日发生",
+    "grassroots": "开发者担忧API涨价影响成本，HN用户对Google AI前景悲观",
+    "date": "2026-08-06"
   }
 ]
