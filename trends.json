@@ -565,5 +565,26 @@
     "evidence": "DeepSeek涨价、Google DeepMind人事地震同日发生",
     "grassroots": "开发者担忧API涨价影响成本，HN用户对Google AI前景悲观",
     "date": "2026-08-06"
+  },
+  {
+    "theme": "AI信任机制成为研究热点",
+    "importance": 5,
+    "evidence": "多篇论文聚焦选择性信任、Agent评估成本压缩",
+    "grassroots": "开发者讨论中频繁出现'该信AI多少'的反思",
+    "date": "2026-08-07"
+  },
+  {
+    "theme": "模型硬件化趋势初现",
+    "importance": 4,
+    "evidence": "AMD收购Taalas将模型蚀刻进硅片",
+    "grassroots": "开发者担忧模型迭代与硬件固化之间的矛盾",
+    "date": "2026-08-07"
+  },
+  {
+    "theme": "AI Coding工具进入'规则化'阶段",
+    "importance": 4,
+    "evidence": "开发者用134条规则替代权限弹窗，Kiro Crew实现自动化运维",
+    "grassroots": "从'AI能写代码'转向'AI如何被治理'",
+    "date": "2026-08-07"
   }
 ]
