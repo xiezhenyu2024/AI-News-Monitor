@@ -607,5 +607,26 @@
     "evidence": "DeepSeek-V4-Flash正式版发布、Kimi-K3开源、OpenAI免费开放Luna",
     "grassroots": "掘金用户反馈'Codex接入DeepSeek-V4-Flash丝滑的一批'",
     "date": "2026-08-08"
+  },
+  {
+    "theme": "Agent评估与安全成为行业焦点",
+    "importance": 5,
+    "evidence": "AV-AIVAT降本74倍、MCP拦截器上线、OpenAI发布codex-security，三个独立信源同日指向同一方向",
+    "grassroots": "开发者开始关注Agent的'可管性'而非仅'可用性'",
+    "date": "2026-08-09"
+  },
+  {
+    "theme": "开源Agent基础设施竞争白热化",
+    "importance": 4,
+    "evidence": "xAI grok-build 24K星、吴恩达openworker 13K星、小米MiMo-Code 11K星同日出现在GitHub Trending",
+    "grassroots": "开发者面临选择困难：Agent框架太多，标准未定",
+    "date": "2026-08-09"
+  },
+  {
+    "theme": "大模型价格战进入调整期",
+    "importance": 4,
+    "evidence": "DeepSeek宣布涨价、OpenAI免费无限用Luna，两种策略分化",
+    "grassroots": "开发者开始重新评估模型选型，价格不再是唯一考量",
+    "date": "2026-08-09"
   }
 ]
