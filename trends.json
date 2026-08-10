@@ -628,5 +628,26 @@
     "evidence": "DeepSeek宣布涨价、OpenAI免费无限用Luna，两种策略分化",
     "grassroots": "开发者开始重新评估模型选型，价格不再是唯一考量",
     "date": "2026-08-09"
+  },
+  {
+    "theme": "智能体安全从可选项变为必选项",
+    "importance": 5,
+    "evidence": "Claude Code Auto模式争议、Agent Skill安全框架、MCP安全缺口、OpenAI发布codex-security同日密集出现",
+    "grassroots": "开发者从'能用就行'转向追问'安全边界在哪'",
+    "date": "2026-08-10"
+  },
+  {
+    "theme": "多模型混合编排成为主流实践",
+    "importance": 4,
+    "evidence": "Codex接入DeepSeek-V4-Flash获好评，Omnigent多Agent编排框架持续受关注",
+    "grassroots": "开发者不再绑定单一模型，按场景选最优组合",
+    "date": "2026-08-10"
+  },
+  {
+    "theme": "Agent技能生态爆发但安全滞后",
+    "importance": 4,
+    "evidence": "GitHub Trending涌现大量Skill项目（human-writing、open-kimi-ppt、claude-red等），同时安全讨论同步升温",
+    "grassroots": "开发者一边尝鲜Skill，一边担忧供应链安全",
+    "date": "2026-08-10"
   }
 ]
