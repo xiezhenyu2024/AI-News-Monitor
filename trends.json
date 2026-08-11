@@ -649,5 +649,26 @@
     "evidence": "GitHub Trending涌现大量Skill项目（human-writing、open-kimi-ppt、claude-red等），同时安全讨论同步升温",
     "grassroots": "开发者一边尝鲜Skill，一边担忧供应链安全",
     "date": "2026-08-10"
+  },
+  {
+    "theme": "开源vs闭源路线之争升级为意识形态对抗",
+    "importance": 5,
+    "evidence": "扎克伯格8000字宣言+Meta发布30B开源模型，直接攻击闭源对手",
+    "grassroots": "开发者社区分裂，有人认为30B是开倒车，有人认为本地化是刚需",
+    "date": "2026-08-11"
+  },
+  {
+    "theme": "微型Agent模型崛起，端侧AI落地加速",
+    "importance": 4,
+    "evidence": "Needle2仅14MB实现工具调用，HN讨论热烈，多位开发者看好层级式架构",
+    "grassroots": "开发者实测能完成简单指令，但复杂任务仍不可靠",
+    "date": "2026-08-11"
+  },
+  {
+    "theme": "AI可解释性从'事后解释'转向'内建可解释'",
+    "importance": 4,
+    "evidence": "多篇ArXiv论文聚焦特征发现与可解释模型训练",
+    "grassroots": "暂无基层反馈，纯科研阶段",
+    "date": "2026-08-11"
   }
 ]
