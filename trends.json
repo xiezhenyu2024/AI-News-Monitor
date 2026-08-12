@@ -670,5 +670,26 @@
     "evidence": "多篇ArXiv论文聚焦特征发现与可解释模型训练",
     "grassroots": "暂无基层反馈，纯科研阶段",
     "date": "2026-08-11"
+  },
+  {
+    "theme": "AI Agent从'生成'走向'操作'",
+    "importance": 5,
+    "evidence": "phone-harness（控制手机）、WorldClaw（3D世界生成）、Codex自动剪视频等多项目同日出现",
+    "grassroots": "开发者从'让AI写代码'转向'让AI干活'，关注点从模型能力转向工具链整合",
+    "date": "2026-08-12"
+  },
+  {
+    "theme": "推理轨迹成为AI安全新战场",
+    "importance": 5,
+    "evidence": "'Stealing Reasoning Traces'研究引爆HN讨论",
+    "grassroots": "开发者对'窃取'的伦理判断分裂——有人认为'付了token钱就是我的'，有人认为这是对模型提供商的攻击",
+    "date": "2026-08-12"
+  },
+  {
+    "theme": "AI伦理岗位的生存困境",
+    "importance": 4,
+    "evidence": "OpenAI伦理负责人一年内离职且无继任者",
+    "grassroots": "HN用户普遍悲观，认为'伦理部门只是公关噱头'的结构性问题无解",
+    "date": "2026-08-12"
   }
 ]
