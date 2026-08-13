@@ -691,5 +691,26 @@
     "evidence": "OpenAI伦理负责人一年内离职且无继任者",
     "grassroots": "HN用户普遍悲观，认为'伦理部门只是公关噱头'的结构性问题无解",
     "date": "2026-08-12"
+  },
+  {
+    "theme": "AI竞争进入性价比与Agent能力双线作战",
+    "importance": 5,
+    "evidence": "DeepSeek V4 Pro强化Agent、微软低价模型、开源Agent工具爆发",
+    "grassroots": "开发者从'哪个模型强'转向'哪个方案便宜且好用'",
+    "date": "2026-08-13"
+  },
+  {
+    "theme": "Agent从对话走向硬件控制",
+    "importance": 4,
+    "evidence": "phone-harness让Agent控制手机、img2threejs图生3D、qm多人Agent协作",
+    "grassroots": "开发者开始探索Agent在物理世界和复杂工作流中的应用",
+    "date": "2026-08-13"
+  },
+  {
+    "theme": "基础设施可靠性成为AI时代焦点",
+    "importance": 4,
+    "evidence": "Tailscale SQLite bug追踪成HN头条，引发对基础设施依赖的讨论",
+    "grassroots": "开发者感叹'SQLite的bug能上头条说明它多可靠'",
+    "date": "2026-08-13"
   }
 ]
