@@ -712,5 +712,26 @@
     "evidence": "Tailscale SQLite bug追踪成HN头条，引发对基础设施依赖的讨论",
     "grassroots": "开发者感叹'SQLite的bug能上头条说明它多可靠'",
     "date": "2026-08-13"
+  },
+  {
+    "theme": "开源模型与闭源差距急剧缩小",
+    "importance": 5,
+    "evidence": "GLM-5.3、Kimi-K3接连发布，HN用户称'仅以微弱差距落后'",
+    "grassroots": "开发者开始认真考虑从OpenAI迁移到开源模型",
+    "date": "2026-08-14"
+  },
+  {
+    "theme": "Agent工具链进入平台化阶段",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源71.8k星，社区插件生态快速涌现",
+    "grassroots": "开发者从'用哪个Agent'转向'如何编排Agent生态'",
+    "date": "2026-08-14"
+  },
+  {
+    "theme": "AI成本治理成为新议题",
+    "importance": 4,
+    "evidence": "Dev.to文章《Nobody audits their OpenAI invoice》引发共鸣，DeepSeek同步涨价",
+    "grassroots": "开发者开始关注LLM账单审计和成本优化",
+    "date": "2026-08-14"
   }
 ]
