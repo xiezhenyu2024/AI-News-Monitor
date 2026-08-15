@@ -733,5 +733,26 @@
     "evidence": "Dev.to文章《Nobody audits their OpenAI invoice》引发共鸣，DeepSeek同步涨价",
     "grassroots": "开发者开始关注LLM账单审计和成本优化",
     "date": "2026-08-14"
+  },
+  {
+    "theme": "Agent可靠性工程成为新战场",
+    "importance": 5,
+    "evidence": "QuoteBench论文、Vero形式化验证、开发者自建工具门卫、HN测试自动化讨论",
+    "grassroots": "开发者从'Agent能不能用'转向'Agent怎么才可信'，开始自建安全层和审计机制",
+    "date": "2026-08-15"
+  },
+  {
+    "theme": "开源模型后训练军备竞赛",
+    "importance": 4,
+    "evidence": "GLM-5.3靠后训练提升、DFM Mimir用合规数据达前沿性能",
+    "grassroots": "掘金用户对比GLM-5.3与闭源模型，讨论涨价与性价比",
+    "date": "2026-08-15"
+  },
+  {
+    "theme": "隐私计算与AI结合引发争议",
+    "importance": 4,
+    "evidence": "谷歌FHE实用化博客引发HN激烈讨论",
+    "grassroots": "研究者质疑10³开销不实用，怀疑是经费包装",
+    "date": "2026-08-15"
   }
 ]
