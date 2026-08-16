@@ -754,5 +754,26 @@
     "evidence": "谷歌FHE实用化博客引发HN激烈讨论",
     "grassroots": "研究者质疑10³开销不实用，怀疑是经费包装",
     "date": "2026-08-15"
+  },
+  {
+    "theme": "Agent基础设施竞赛白热化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 119k星+生态矩阵、Anthropic多Agent研究、吴恩达openworker、yc-software/qm同日上榜",
+    "grassroots": "开发者从'用哪个模型'转向'用哪个框架编排Agent'",
+    "date": "2026-08-16"
+  },
+  {
+    "theme": "Agent可验证性成为新焦点",
+    "importance": 4,
+    "evidence": "QuoteBench、Vero、ProofRun同日出现，均指向Agent输出可靠性验证",
+    "grassroots": "开发者开始讨论'如何单元测试Agent技能'，反映对Agent可靠性的焦虑",
+    "date": "2026-08-16"
+  },
+  {
+    "theme": "开源模型小参数化竞争",
+    "importance": 4,
+    "evidence": "DFM Mimir 1B参数宣称前沿性能、Kimi-K3、MiniMax-H3同日发布",
+    "grassroots": "社区对'小模型+合规数据'叙事既兴奋又持观望态度",
+    "date": "2026-08-16"
   }
 ]
