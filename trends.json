@@ -775,5 +775,26 @@
     "evidence": "DFM Mimir 1B参数宣称前沿性能、Kimi-K3、MiniMax-H3同日发布",
     "grassroots": "社区对'小模型+合规数据'叙事既兴奋又持观望态度",
     "date": "2026-08-16"
+  },
+  {
+    "theme": "AI开发框架插件生态化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源后GitHub衍生项目超5个，星标合计超17万",
+    "grassroots": "开发者自发产出2万字保姆级教程，社区热情极高",
+    "date": "2026-08-17"
+  },
+  {
+    "theme": "AI内容溯源与反溯源军备竞赛",
+    "importance": 4,
+    "evidence": "水印移除工具GitHub星标1.2万+，与Anthropic签署透明度准则同期发生",
+    "grassroots": "开发者认为当前溯源机制'形同虚设'",
+    "date": "2026-08-17"
+  },
+  {
+    "theme": "AI Agent安全信任机制受关注",
+    "importance": 4,
+    "evidence": "开发者故意构建说谎MCP服务器测试AI防御，发现AI盲目信任工具声明",
+    "grassroots": "'AI应该学会质疑工具，而不是盲从'",
+    "date": "2026-08-17"
   }
 ]
