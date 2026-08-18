@@ -796,5 +796,33 @@
     "evidence": "开发者故意构建说谎MCP服务器测试AI防御，发现AI盲目信任工具声明",
     "grassroots": "'AI应该学会质疑工具，而不是盲从'",
     "date": "2026-08-17"
+  },
+  {
+    "theme": "AI Agent插件生态进入爆发期",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源即获15.3万星，配套插件一周内涌现桌面端、路由、UI、TUI等完整生态",
+    "grassroots": "掘金开发者称'安装配置教程很详细，上手门槛低'，社区热情高涨",
+    "date": "2026-08-18"
+  },
+  {
+    "theme": "AI编码基础设施面临承载压力",
+    "importance": 4,
+    "evidence": "GitHub宕机7小时，开源中国分析指向AI编码流量激增",
+    "grassroots": "开发者反馈无法推送代码、CI/CD中断，影响面广",
+    "date": "2026-08-18"
+  },
+  {
+    "theme": "大模型价格战白热化",
+    "importance": 4,
+    "evidence": "OpenAI GPT-5.6 Sol降价50%，HN用户称'逐底竞争但我喜欢'",
+    "grassroots": "用户netsec_burn实测后表示'从Claude转过来，太喜欢了'",
+    "date": "2026-08-18"
+  },
+  {
+    "theme": "AI监管与开源社区的对抗加剧",
+    "importance": 4,
+    "evidence": "欧盟水印法案生效，GitHub出现去水印工具（1.37万星）",
+    "grassroots": "开发者Sean Goedecke断言'文本水印永远可以被轻松移除'",
+    "date": "2026-08-18"
   }
 ]
