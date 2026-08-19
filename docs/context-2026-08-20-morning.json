@@ -1,0 +1,358 @@
+{
+  "key": "2026-08-20-morning",
+  "date": "2026-08-20",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "title": "美国国债首次突破40万亿美元大关",
+      "entities": [
+        {
+          "name": "美国国债",
+          "explain": "美国政府为筹集资金向投资者发行的债券，总额反映国家累计借款规模"
+        }
+      ],
+      "summary": "美国财政部数据显示，总公共债务在周二达到40.05万亿美元，首次突破40万亿美元，超出此前预测。债务增长源于借贷增加、利息成本上升和长期义务扩大，凸显美国财政可持续性面临严峻挑战。",
+      "relevant": "美国国债规模是全球金融市场的核心指标，突破40万亿可能加剧通胀压力和利率波动，影响全球经济稳定。"
+    },
+    {
+      "title": "以色列确认士兵向杀害5岁女孩欣德·拉贾布的汽车开枪，启动刑事调查",
+      "entities": [
+        {
+          "name": "欣德·拉贾布",
+          "explain": "一名在加沙冲突中遇难的5岁巴勒斯坦女孩，其死亡引发国际关注"
+        }
+      ],
+      "summary": "以色列军方承认其士兵向一辆载有欣德·拉贾布的汽车开火，女孩最初幸存并呼救，但最终与6名亲属一同遇难。军方已就此事展开刑事调查，这是对加沙平民伤亡事件罕见承认责任。",
+      "relevant": "此事件是加沙冲突中平民伤亡的标志性案例，可能加剧国际社会对以色列军事行动的谴责。"
+    },
+    {
+      "title": "澳大利亚因以色列不追究杀害援助人员责任而表示'愤怒'",
+      "entities": [
+        {
+          "name": "佐米·弗兰科姆",
+          "explain": "在加沙遇难的澳大利亚援助人员，其死亡引发外交争端"
+        }
+      ],
+      "summary": "澳大利亚外长表示将召见以色列大使，抗议以色列决定不起诉杀害援助人员佐米·弗兰科姆的相关人员。澳方称这一决定是对死者的'侮辱'，反映两国关系因加沙冲突持续紧张。",
+      "relevant": "此事件凸显国际社会对以色列在加沙行动问责机制的质疑，可能影响澳大利亚与以色列的外交关系。"
+    },
+    {
+      "title": "特朗普威胁对帮助伊朗的国家实施经济惩罚",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "时任美国总统，以强硬外交政策著称"
+        }
+      ],
+      "summary": "美国总统特朗普周三警告称，将对任何支持伊朗或向其提供'生命线'的国家实施经济后果，但未明确具体措施。分析人士指出，伊朗已承受数十年制裁，面对新压力更可能升级对抗而非屈服。",
+      "relevant": "此举可能重塑中东地缘政治格局，影响全球能源市场和伊朗核问题谈判进程。"
+    },
+    {
+      "title": "乌克兰被解职国防部长呼吁举行总统选举，与泽连斯基决裂",
+      "entities": [
+        {
+          "name": "米哈伊洛·费多罗夫",
+          "explain": "乌克兰前国防部长，被解职后公开挑战现任政府"
+        },
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰现任总统，自2022年以来实施戒严令暂停选举"
+        }
+      ],
+      "summary": "上月被解职的乌克兰前国防部长费多罗夫公开呼吁举行总统选举，称俄罗斯不应决定乌克兰人何时选择政府。乌克兰自2022年2月起实施戒严令，选举因此暂停，此举标志其与泽连斯基的公开决裂。",
+      "relevant": "选举争议可能动摇乌克兰战时政治团结，影响西方盟友对乌支持力度。"
+    },
+    {
+      "title": "以色列为高度敏感的约旦河西岸定居点项目开放投标",
+      "entities": [
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦被占领土，以色列在此建设定居点长期遭国际谴责"
+        }
+      ],
+      "summary": "以色列启动耶路撒冷东部地区的定居点建设投标，该区域若建成将把约旦河西岸一分为二。此类项目长期受到国际社会谴责，被视为破坏两国方案的关键障碍。",
+      "relevant": "定居点扩张可能进一步激化巴以冲突，破坏中东和平进程。"
+    },
+    {
+      "title": "韩国应美国要求缩短与美联合军演",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "时任美国总统，宣布计划缩减与韩国的军事演习"
+        },
+        {
+          "name": "金正恩",
+          "explain": "朝鲜最高领导人，特朗普称与其关系'非常好'"
+        }
+      ],
+      "summary": "韩国宣布缩短与美国的联合军事演习，称应华盛顿请求。此前特朗普宣布计划缩减军演，理由是朝鲜领导人金正恩关系良好。此举可能改变美韩同盟的军事姿态。",
+      "relevant": "军演调整可能影响朝鲜半岛安全平衡，并引发盟友对美安全承诺的疑虑。"
+    },
+    {
+      "title": "中非共和国金矿坍塌致100多人死亡",
+      "entities": [
+        {
+          "name": "中非共和国",
+          "explain": "非洲中部国家，经济落后，矿业事故频发"
+        }
+      ],
+      "summary": "中非共和国靠近喀麦隆边境的赞博耶村一座金矿周二坍塌，当地矿业协会官员称已致100多人死亡，青年委员会成员表示死亡人数可能进一步上升。事故暴露当地矿业安全监管严重缺失。",
+      "relevant": "此类事故凸显非洲矿业安全和人道主义危机，可能引发国际关注和援助需求。"
+    },
+    {
+      "title": "哈里王子和梅根计划在退出王室六年后返回英国",
+      "entities": [
+        {
+          "name": "哈里王子",
+          "explain": "英国王室成员，2020年与妻子梅根退出王室职责移居美国"
+        },
+        {
+          "name": "梅根",
+          "explain": "哈里王子的妻子，美国前演员"
+        }
+      ],
+      "summary": "据英国媒体报道，哈里王子和梅根计划在退出王室职责六年后返回英国定居，预计月底离开美国，住在伦敦以外地区。此举标志这对夫妇与王室关系可能缓和。",
+      "relevant": "哈里夫妇回归可能重塑英国王室公众形象，引发对王室内部关系的重新讨论。"
+    },
+    {
+      "title": "中国为阿尔及利亚发射首颗阿拉伯国家通信卫星",
+      "entities": [
+        {
+          "name": "阿尔及利亚",
+          "explain": "北非阿拉伯国家，此次获得中国制造的通信卫星"
+        }
+      ],
+      "summary": "中国周一为阿尔及利亚发射了一颗通信卫星，这是中国制造的此类航天器首次'出口'至阿拉伯国家。此举显示中国在航天领域的国际合作扩展，并增强与阿拉伯世界的联系。",
+      "relevant": "中国航天出口突破显示其技术竞争力提升，可能改变全球航天市场格局。"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_09e1d18240e6",
+      "source": "BBC",
+      "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
+      "summary": "The five-year-old Palestinian girl initially survived the attack and pleaded for help but her body was recovered later with those of six of her relatives.",
+      "image": ""
+    },
+    {
+      "id": "rss_71b44714b6ab",
+      "source": "BBC",
+      "title": "Australia 'outraged' after Israeli decision not to prosecute over killing of aid worker in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o?at_medium=RSS&at_campaign=rss",
+      "summary": "Foreign minister says she will summon Israeli ambassador over 'insulting' Zomi Frankcom decision.",
+      "image": ""
+    },
+    {
+      "id": "rss_396586ba377a",
+      "source": "BBC",
+      "title": "Sacked Ukrainian defence minister calls for presidential election",
+      "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+      "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+      "image": ""
+    },
+    {
+      "id": "rss_84a4e95ad6e8",
+      "source": "BBC",
+      "title": "Israel opens up bids for highly-sensitive West Bank settlement project",
+      "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+      "summary": "Israeli plans to build on the area east of Jerusalem - which would divide the occupied West Bank in two - have long been internationally condemned.",
+      "image": ""
+    },
+    {
+      "id": "rss_929c0d06cf73",
+      "source": "BBC",
+      "title": "South Korea shortens war games with US, citing Washington request",
+      "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Trump announced plans to curtail joint military exercises with South Korea, citing a \"very good\" relationship with North Korea's Kim Jong Un.",
+      "image": ""
+    },
+    {
+      "id": "rss_c7984f009849",
+      "source": "France24",
+      "title": "Middle East live: Trump threatens economic punishment on 'any country' helping Iran",
+      "url": "https://www.france24.com/en/middle-east/20260819-middle-east-live-trump-threatens-economic-punishment-on-any-country-helping-iran",
+      "summary": "⁠US President ​Donald Trump on Wednesday ​warned of economic consequences against any country that ​supported ‌Tehran or ⁠provided \"any type of lifeline ‌to Iran.\" He ​did not specify ​what specific ​steps Washington would take against such ​a country and did not list any country by name. Follow our liveblog for the latest updates.",
+      "image": "https://s.france24.com/media/display/6c8169ec-9b32-11f1-8fb3-005056bf30b7/w:1024/p:16x9/e0f965597c05995bf4c65a81497058de714040c8.jpg"
+    },
+    {
+      "id": "rss_4c760c13d437",
+      "source": "France24",
+      "title": "Prince Harry and Meghan to move back to UK six years after royal exit",
+      "url": "https://www.france24.com/en/europe/20260819-prince-harry-meghan-move-back-uk-six-years-after-royal-exit",
+      "summary": "Prince Harry and his wife Meghan plan to move back to Britain six years after stepping down as working royals, British media reported on Wednesday. The couple are expected to leave the United States by month-end and live outside London, while their two children have reportedly enrolled in a British school.",
+      "image": "https://s.france24.com/media/display/8ddbf824-7c96-11f1-8a72-005056bf30b7/w:1024/p:16x9/000-A7PE6F8.jpg"
+    },
+    {
+      "id": "rss_f3b0393d38ec",
+      "source": "France24",
+      "title": "US national debt exceeds $40 trillion for first time amid rising borrowing",
+      "url": "https://www.france24.com/en/economy/20260819-us-national-debt-exceeds-40-trillion-for-first-time-amid-rising-borrowing",
+      "summary": "The US gross national debt surpassed $40 trillion for the first time, Treasury data showed on Wednesday, exceeding earlier forecasts as borrowing, interest costs and long-term obligations rose. Total public debt reached $40.05 trillion on Tuesday, above a Congressional Budget Office forecast of $39.4 trillion by end-fiscal 2026.",
+      "image": "https://s.france24.com/media/display/2bee9ffc-9c19-11f1-bc18-005056a90284/w:1024/p:16x9/AP25097664868373.jpg"
+    },
+    {
+      "id": "rss_21b2153fd8a3",
+      "source": "France24",
+      "title": "Angélique Kidjo makes Hollywood history as first Black African on Walk of Fame",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260819-ang%C3%A9lique-kidjo-makes-hollywood-history-as-first-black-african-on-walk-of-fame",
+      "summary": "Beninese music icon Angélique Kidjo celebrates her global legacy with a star on the Hollywood Walk of Fame, the first dedicated to a Black African. In Nigeria, the town of Ogijo has more lead-recycling factories than anywhere else in Africa, supplying the American auto industry at a heavy cost to nearby communities. Meanwhile, in Ivory Coast, the Basilica of Our Lady of Peace is the world’s largest basilica and beneath its immense dome, temperatures can fall to just 22°C.",
+      "image": "https://s.france24.com/media/display/f7ab0b72-9c13-11f1-8ea2-005056bfb2b6/w:1024/p:16x9/capture-4543918776a861e6374a096-82504542.jpg"
+    },
+    {
+      "id": "rss_5a830fbdbef6",
+      "source": "France24",
+      "title": "Central African Republic gold mine collapse kills more than 100",
+      "url": "https://www.france24.com/en/africa/20260819-more-than-100-killed-central-african-republic-gold-mine-collapse",
+      "summary": "A gold mine collapse in the Central African Republican village of Zamboye near the Cameroon border on Tuesday killed more than 100 people, an official at a local mining association said. A member of the local youth council said the death toll would likely rise as more people were pulled from the rubble.",
+      "image": "https://s.france24.com/media/display/176a61f8-9c03-11f1-850f-005056a90284/w:1024/p:16x9/000-13X6XE.jpg"
+    },
+    {
+      "id": "rss_8a7487bafd90",
+      "source": "TASS Russia",
+      "title": "Over 30 shelling attacks by Ukrainian troops reported in DPR in past day",
+      "url": "https://tass.com/defense/2175377",
+      "summary": "Five houses, six civilian infrastructure facilities, several trucks, passenger cars and other vehicles were damaged",
+      "image": ""
+    },
+    {
+      "id": "rss_b5d7cd019a63",
+      "source": "TASS Russia",
+      "title": "Some EU countries whipping up Russophobic hysteria to delegitimize elections — diplomat",
+      "url": "https://tass.com/politics/2175375",
+      "summary": "Maria Zakharova said it was not ruled out that such media campaigns might complicate the situation around the voting",
+      "image": ""
+    },
+    {
+      "id": "rss_b0759cc6c510",
+      "source": "TASS Russia",
+      "title": "Trump says he is only US president to establish contact with Kim",
+      "url": "https://tass.com/world/2175373",
+      "summary": "The US president added that Japan, South Korea, and other nations are \"a lot safer if I'm president than somebody else is president\"",
+      "image": ""
+    },
+    {
+      "id": "rss_0674103d5d5f",
+      "source": "TASS Russia",
+      "title": "Cuba wants to become BRICS’ full-fledged member — embassy",
+      "url": "https://tass.com/world/2175369",
+      "summary": "According to the embassy, this step is a top priority for the country amid the unprecedented escalation of the US economic war against it",
+      "image": ""
+    },
+    {
+      "id": "rss_cd5518a62ccf",
+      "source": "TASS Russia",
+      "title": "Date for new Russia-US contacts on removing ‘irritants’ being agreed upon — diplomat",
+      "url": "https://tass.com/politics/2175361",
+      "summary": "Maria Zakharova added that Russia is ready to cooperate with the US partners \"to move toward substantive discussions on the issues that are of priority for us\"",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_923cc0d56a20",
+      "source": "纽约时报",
+      "title": "Trump, With Limited Options in Iran, Tries Economic Pressure — Again",
+      "url": "https://www.nytimes.com/2026/08/19/world/europe/iran-trump-economic-sanctions-leverage.html",
+      "summary": "Iran has survived decades of sanctions. Faced with more, it is likely to escalate rather than surrender, analysts said.",
+      "image": ""
+    },
+    {
+      "id": "rss_676bd66cb5e9",
+      "source": "纽约时报",
+      "title": "Ukraine’s Ex-Defense Minister Calls for Election, Cementing Break With Zelensky",
+      "url": "https://www.nytimes.com/2026/08/19/world/europe/ukraine-fedorov-zelensky-elections.html",
+      "summary": "Mykhailo Fedorov, a popular young leader who was fired last month, said Russia should not be allowed to dictate when Ukrainians can choose their next government.",
+      "image": ""
+    },
+    {
+      "id": "rss_4e4a88b0086b",
+      "source": "纽约时报",
+      "title": "Trump and Canada’s Carney Seem to Make Progress on a Tariff Deal, but Questions Linger",
+      "url": "https://www.nytimes.com/2026/08/19/world/canada/trump-canada-tariffs-carney-deal-trade.html",
+      "summary": "After a deadline extension, the latest U.S. tariff threats seemed headed toward resolution on Wednesday, but questions lingered about what Canada would give up, and what it would get in exchange.",
+      "image": ""
+    },
+    {
+      "id": "rss_82c2d69e2248",
+      "source": "纽约时报",
+      "title": "U.A.E. Announces Halt to Trade With Iran Amid Trump’s Push To Isolate Tehran",
+      "url": "https://www.nytimes.com/2026/08/19/world/middleeast/uae-cuts-trade-ties-iran-missiles.html",
+      "summary": "The Emirates has long been a major trading hub for Iran, and analysts say it has been key to Iranian efforts to evade international sanctions, which Emirati officials deny.",
+      "image": ""
+    },
+    {
+      "id": "rss_994a00a9e164",
+      "source": "纽约时报",
+      "title": "Israel Opens Criminal Investigation Into Killings of Hind Rajab and Gaza Medical Workers",
+      "url": "https://www.nytimes.com/2026/08/19/world/middleeast/israel-criminal-investigation-hind-rajab-gaza-workers.html",
+      "summary": "Two high-profile cases that had spurred international condemnation of the country’s conduct in Gaza were transferred to the military police. Such investigations have rarely led to convictions.",
+      "image": ""
+    },
+    {
+      "id": "rss_659187a96193",
+      "source": "卫报",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash",
+      "summary": "Officials say all seven people onboard killed, including Telemundo executive and Ecuador intelligence chief Seven people, including five Americans, were killed when a safari helicopter crashed on Wednesday morning in a remote part of northern Kenya, according to local police and the state department. Among the dead were an executive with Telemundo, the US-based Spanish-language network owned by NBC Universal, and the director of Ecuador’s national intelligence service. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_1f27c1c8483b",
+      "source": "卫报",
+      "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
+      "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn",
+      "summary": "Madrid government changes stance after previously saying anyone who entered territory illegally would be sent back Europe live – latest updates The Spanish government has U-turned and said it will allow 500 migrant children in Ceuta to relocate to the mainland. The majority of the estimated 70,000 people who crossed into Ceuta – a Spanish territory on the coast of north Africa – on 30 July have returned to Morocco. However, under Spanish law, the state has a duty of care to young, unaccompanied ",
+      "image": ""
+    },
+    {
+      "id": "rss_badd55240217",
+      "source": "卫报",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history",
+      "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+      "summary": "At least 2,325 people have died from the virus, according to official data, with outbreak on track to be biggest in history The Ebola outbreak in the Democratic Republic of the Congo is now the deadliest in the country’s history, with at least 2,325 people dead, according to government data, surpassing the toll from the 2018-20 outbreak. The DRC’s public health institute said confirmed cases had risen to 4,945, including 101 detected in the previous 24 hours. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_6666dcf3ad56",
+      "source": "卫报",
+      "title": "Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered",
+      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
+      "summary": "Eighteen children among the people killed after ferry capsized on Lake Kariba Twenty-two more bodies have been recovered after a boat accident in Zimbabwe, taking the death toll to 68, police said on Saturday. The ferry capsized on Tuesday on Lake Kariba , on the border with Zambia. An investigation has suggested it was overloaded when it turned over during heavy winds. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_80a5880bc4fe",
+      "source": "卫报",
+      "title": "Moroccan police arrest more than 100 people attempting to enter Ceuta",
+      "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+      "summary": "Border security tightened after social media posts call for another mass crossing into Spain’s north African territory Moroccan police have arrested 111 people as they tried to enter Spain’s north African territory of Ceuta, amid ⁠tightened security on both sides after social media posts ​called for another mass crossing. The attempted crossing on Saturday came two weeks after more than 72,000 migrants surged into Ceuta , causing tensions within the EU and prompting anti-immigration rhetoric amo",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-20 07:30"
+}
