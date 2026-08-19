@@ -1,0 +1,676 @@
+{
+  "key": "2026-08-20-afternoon",
+  "date": "2026-08-20",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 10,
+  "cards": [
+    {
+      "title": "研究揭示自我改进AI代理的脆弱性：方差、任务顺序与规格不足是关键问题",
+      "entities": [
+        {
+          "name": "自我改进AI代理",
+          "explain": "能够从在线任务流中学习并通过维护文本记忆库随时间提升性能的AI系统"
+        },
+        {
+          "name": "文本记忆库",
+          "explain": "AI代理用来存储和检索过往经验信息的文本形式数据库"
+        }
+      ],
+      "summary": "该研究探讨了基于记忆的自我改进AI代理的可靠性问题。研究发现这些代理的性能受任务顺序、方差和规格不足等因素影响，存在显著脆弱性。这挑战了当前对自我改进AI系统稳定性的乐观假设。",
+      "relevant": "自我改进AI是通往通用人工智能的关键路径，其可靠性问题直接关系到AI系统在真实环境中的安全部署。"
+    },
+    {
+      "title": "多代理AI系统在放射学报告结构化与质控中展现潜力，经独立放射科医生评估",
+      "entities": [
+        {
+          "name": "多代理AI系统",
+          "explain": "由多个AI代理协作完成复杂任务的系统，每个代理负责特定子任务"
+        },
+        {
+          "name": "放射学报告",
+          "explain": "医生对CT等医学影像检查结果进行解读后撰写的专业报告"
+        }
+      ],
+      "summary": "研究开发并评估了一个本地部署的多代理AI系统，用于放射学报告的结构化和质量保证。该系统在638份CT报告中进行了回顾性测试，覆盖胸部、腹部等部位，经独立放射科医生评估验证了其有效性。",
+      "relevant": "医疗AI落地是重要方向，多代理协作方式为提升医疗文档处理效率和准确性提供了新思路。"
+    },
+    {
+      "title": "TokEval发布：首个全面的语言模型分词器评估套件",
+      "entities": [
+        {
+          "name": "分词器",
+          "explain": "将文本分割成模型可处理的基本单元（token）的组件，是语言模型的基础部分"
+        },
+        {
+          "name": "评估套件",
+          "explain": "一套标准化的测试工具和基准，用于系统评估某个组件或系统的性能"
+        }
+      ],
+      "summary": "TokEval是一个专门用于评估语言模型分词器的套件。研究指出分词器的设计选择直接影响模型能力，但通常缺乏充分评估。该套件旨在填补这一空白，帮助研究者更好地理解和选择分词器。",
+      "relevant": "分词器是语言模型的基础组件，其优化可显著提升模型性能，对AI研究和应用都有广泛影响。"
+    },
+    {
+      "title": "PTXBench推出：利用架构特定PTX指令优化GPU内核的LLM基准",
+      "entities": [
+        {
+          "name": "PTX",
+          "explain": "NVIDIA GPU的并行线程执行指令集，是CUDA代码的中间表示形式"
+        },
+        {
+          "name": "GPU内核",
+          "explain": "在GPU上执行的并行计算函数，是高性能计算的核心组件"
+        }
+      ],
+      "summary": "PTXBench是一个新基准，用于评估和适配大语言模型使用架构特定的PTX指令进行GPU内核优化。该基准衡量功能正确性、目标指令执行情况等指标，旨在推动LLM在底层硬件优化中的应用。",
+      "relevant": "将LLM应用于GPU内核优化是AI与高性能计算交叉领域的前沿方向，有望大幅提升计算效率。"
+    },
+    {
+      "title": "StagedWorkspace：为知识工作AI代理设计的版本化工作空间",
+      "entities": [
+        {
+          "name": "知识工作AI代理",
+          "explain": "能够创建和修改代码、文档、表格等数字产物的AI系统"
+        },
+        {
+          "name": "版本化工作空间",
+          "explain": "记录和管理文件修改历史的工作环境，类似代码版本控制系统的概念"
+        }
+      ],
+      "summary": "StagedWorkspace提出了一种为知识工作AI代理设计的版本化工作空间。该方案解决了代理在搜索、编辑和修改数字产物时面临的一致性和追踪问题，为AI代理的知识工作提供了更可靠的基础设施。",
+      "relevant": "随着AI代理越来越多地参与知识工作，版本化工作空间是确保其产出可靠性和可追溯性的关键基础设施。"
+    },
+    {
+      "title": "HLSR提出混合实时预测选择性动态车辆重路由方案，应对城市交通拥堵",
+      "entities": [
+        {
+          "name": "HLSR",
+          "explain": "一种混合实时预测选择性动态车辆重路由方法，用于实时避开交通拥堵"
+        },
+        {
+          "name": "动态车辆重路由",
+          "explain": "根据实时交通状况动态调整车辆行驶路线的技术"
+        }
+      ],
+      "summary": "HLSR是一种针对城市交通拥堵的实时解决方案。与需要所有车辆同时重规划的全网络方案不同，该方法采用混合策略，选择性对部分车辆进行动态重路由，在保持效果的同时降低了计算和通信开销。",
+      "relevant": "城市交通拥堵是全球性问题，该研究为智能交通系统提供了更实用的实时重路由方案。"
+    },
+    {
+      "title": "研究提出能力中心的数据设计方法，推动通用图像生成模型发展",
+      "entities": [
+        {
+          "name": "通用图像生成",
+          "explain": "能够生成多种类型图像（如人物、风景、物体等）的AI模型，而非仅针对单一任务"
+        },
+        {
+          "name": "数据设计",
+          "explain": "系统性地规划和组织训练数据的方法，包括数据规模、质量、平衡和重新标注等"
+        }
+      ],
+      "summary": "该研究提出了一种以能力为中心的数据设计方法，用于通用图像生成模型。传统方法通常孤立地优化各任务数据集，而新方法强调从能力演化的角度进行数据设计，以支持更全面的图像生成能力。",
+      "relevant": "数据是AI模型的基础，能力中心的数据设计方法有望显著提升通用图像生成模型的性能和应用范围。"
+    },
+    {
+      "title": "Chain-of-Experience提出持续学习框架，让LLM在推理中不断改进",
+      "entities": [
+        {
+          "name": "Chain-of-Experience",
+          "explain": "一种让大语言模型在测试时通过迭代经验学习来持续改进的方法"
+        },
+        {
+          "name": "持续学习",
+          "explain": "AI系统在部署后仍能不断从新经验中学习提升的能力"
+        }
+      ],
+      "summary": "Chain-of-Experience研究了大语言模型如何在测试时通过迭代经验学习来提升性能。与传统的静态评估不同，该方法让模型在推理过程中持续积累经验并改进，模拟了人类从经验中学习的方式。",
+      "relevant": "该研究挑战了传统LLM评估范式，为开发能持续进化的AI系统提供了新思路。"
+    },
+    {
+      "title": "研究揭示语言的两个参数：叙事引发的语义可塑性与相位敏感解释",
+      "entities": [
+        {
+          "name": "语义可塑性",
+          "explain": "语言含义随上下文和叙事环境变化而改变的特性"
+        },
+        {
+          "name": "相位敏感解释",
+          "explain": "对语言的理解依赖于其在整体叙事中的位置和阶段"
+        }
+      ],
+      "summary": "该研究提出语言具有两个参数：词共现频率反映的关联强度，以及叙事引发的语义可塑性。研究认为传统的词嵌入和注意力机制将所有作者混合统计，忽略了叙事上下文对语义的影响，提出了新的语言理解框架。",
+      "relevant": "该研究可能改变我们对语言模型语义表示的理解，对NLP基础研究有重要启示。"
+    },
+    {
+      "title": "研究提出贝叶斯更新与遗憾的精确对应关系，统一学习理论框架",
+      "entities": [
+        {
+          "name": "贝叶斯更新",
+          "explain": "根据新证据更新概率估计的数学方法，是统计推断的基础"
+        },
+        {
+          "name": "指数权重遗憾",
+          "explain": "在线学习算法中衡量预测效果与最优策略差距的指标"
+        }
+      ],
+      "summary": "该研究通过一个两人零和博弈游戏，建立了贝叶斯更新与指数权重遗憾之间的精确数学对应关系。这一发现统一了贝叶斯推断和在线学习两大理论框架，为理解学习算法提供了新的视角。",
+      "relevant": "该理论突破可能推动机器学习理论的发展，为设计更优的学习算法提供数学基础。"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_f294c42a17df",
+      "source": "ArXiv cs.AI",
+      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+      "url": "https://arxiv.org/abs/2608.18076v1",
+      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterog",
+      "author": "Xingjian Wang, Zhao Wang, Taihang Hu"
+    },
+    {
+      "id": "arxiv_7c864ab6a3d8",
+      "source": "ArXiv cs.AI",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
+      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+    },
+    {
+      "id": "arxiv_350e3dfbc21a",
+      "source": "ArXiv cs.AI",
+      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "url": "https://arxiv.org/abs/2608.18058v1",
+      "summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We stu",
+      "author": "Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev"
+    },
+    {
+      "id": "arxiv_02f8d90e23f9",
+      "source": "ArXiv cs.AI",
+      "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
+      "url": "https://arxiv.org/abs/2608.18056v1",
+      "summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybr",
+      "author": "Xiao Wang, Shun Ren Yang, Hui Nien Hung"
+    },
+    {
+      "id": "arxiv_500d85131b8a",
+      "source": "ArXiv cs.AI",
+      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+      "url": "https://arxiv.org/abs/2608.18050v1",
+      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to",
+      "author": "Yining Hua, Hongbin Na, Yifan Zhou"
+    },
+    {
+      "id": "arxiv_7c864ab6a3d8",
+      "source": "ArXiv cs.LG",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
+      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+    },
+    {
+      "id": "arxiv_54207366005f",
+      "source": "ArXiv cs.LG",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "url": "https://arxiv.org/abs/2608.18062v1",
+      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce",
+      "author": "Clara Meister"
+    },
+    {
+      "id": "arxiv_cff311b006ee",
+      "source": "ArXiv cs.LG",
+      "title": "The concentration game: Bayesian updating, regret, and information",
+      "url": "https://arxiv.org/abs/2608.18061v1",
+      "summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal",
+      "author": "Akshay Balsubramani"
+    },
+    {
+      "id": "arxiv_3614bd09bd8d",
+      "source": "ArXiv cs.LG",
+      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+      "url": "https://arxiv.org/abs/2608.18055v1",
+      "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not ",
+      "author": "Veronika Spieker, Wenqi Huang, Cemre Ariyurek"
+    },
+    {
+      "id": "arxiv_f9268325fb2b",
+      "source": "ArXiv cs.LG",
+      "title": "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization",
+      "url": "https://arxiv.org/abs/2608.18040v1",
+      "summary": "Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive. While much work has focused on efficient solvers and samplers, comparatively little attention has been paid to selecting the sampling timesteps themselv",
+      "author": "Travis Zhang, Christian Belardi, Justin Lovelace"
+    },
+    {
+      "id": "arxiv_43190149ed0d",
+      "source": "ArXiv cs.CL",
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "url": "https://arxiv.org/abs/2608.18072v1",
+      "summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radio",
+      "author": "Iryna Hartsock, Cesar Lam, Christopher Otteni"
+    },
+    {
+      "id": "arxiv_7c864ab6a3d8",
+      "source": "ArXiv cs.CL",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "url": "https://arxiv.org/abs/2608.18066v1",
+      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
+      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+    },
+    {
+      "id": "arxiv_54207366005f",
+      "source": "ArXiv cs.CL",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "url": "https://arxiv.org/abs/2608.18062v1",
+      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce",
+      "author": "Clara Meister"
+    },
+    {
+      "id": "arxiv_bf1b2a3b7591",
+      "source": "ArXiv cs.CL",
+      "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+      "url": "https://arxiv.org/abs/2608.18041v1",
+      "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learne",
+      "author": "Hollis Robbins"
+    },
+    {
+      "id": "arxiv_5edef55af046",
+      "source": "ArXiv cs.CL",
+      "title": "Chain-of-Experience for Continual LLM Improvement",
+      "url": "https://arxiv.org/abs/2608.18027v1",
+      "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience",
+      "author": "Haoqin Tu, Yunhao Fang, Yizhong Wang"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
+      "url": "https://huggingface.co/papers/",
+      "summary": "We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specific PTX for GPU kernel optimization. PTXBench measures functional correctness, whether selected target instructions execute at runtime, and speedup over frontier libraries across GEMM"
+    },
+    {
+      "id": "devto_4427144",
+      "source": "Dev.to",
+      "title": "Hacktoberfest 2026: AI belongs to everyone",
+      "url": "https://blog.mlh.com/hacktoberfest-2026-ai-belongs-to-everyone-3jl8",
+      "summary": "We have some news we're excited to share today: Major League Hacking (MLH) and DEV are partnering...",
+      "author": "Jess Lee"
+    },
+    {
+      "id": "devto_4434336",
+      "source": "Dev.to",
+      "title": "I Write Less Code Than I Used To. That May Be the Point.",
+      "url": "https://dev.to/marcosomma/i-write-less-code-than-i-used-to-that-may-be-the-point-3kk",
+      "summary": "Over the last year, my day-to-day job has changed in a way I am still trying to understand. I am...",
+      "author": "marcosomma"
+    },
+    {
+      "id": "devto_4435427",
+      "source": "Dev.to",
+      "title": "Greatness Is Forged by Limitation",
+      "url": "https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20",
+      "summary": "Can't believe I spent 2 weeks writing this. Last week, I gave a talk at a Cursor community event...",
+      "author": "Adam - The Developer ✨"
+    },
+    {
+      "id": "devto_4433876",
+      "source": "Dev.to",
+      "title": "I Tested 5 AI Engines On My Own Sites. None Agreed.",
+      "url": "https://dev.to/dannwaneri/i-tested-5-ai-engines-on-my-own-sites-none-agreed-4013",
+      "summary": "In July I wrote that my open-source LLM visibility checker tested Claude only and that multi-model...",
+      "author": "Daniel Nwaneri"
+    },
+    {
+      "id": "devto_4436132",
+      "source": "Dev.to",
+      "title": "My AI said the PDF was empty. The PDF was not empty.",
+      "url": "https://dev.to/andrewavery7/my-ai-said-the-pdf-was-empty-the-pdf-was-not-empty-1b1l",
+      "summary": "I asked Claude Code to pull the key dates out of a PDF I had saved from a webpage. It came back...",
+      "author": "Andrew Avery"
+    },
+    {
+      "id": "devto_4430490",
+      "source": "Dev.to",
+      "title": "My QUIC transport had never once been executed. Here's what happened when I ran it.",
+      "url": "https://dev.to/copyleftdev/my-quic-transport-had-never-once-been-executed-heres-what-happened-when-i-ran-it-24ge",
+      "summary": "I built a plant-inspired coordination protocol, wrote 500 lines of real QUIC networking for it, and never actually turned it on. Wiring it up found three latent bugs in twenty minutes — and then taugh",
+      "author": "Don Johnson"
+    },
+    {
+      "id": "devto_4122966",
+      "source": "Dev.to",
+      "title": "Sandboxed Code Evaluation for AI-Generated Outputs — How I Built SafeCode Arena",
+      "url": "https://dev.to/flipslidersand/sandboxed-code-evaluation-for-ai-generated-outputs-how-i-built-safecode-arena-1468",
+      "summary": "AI code verification with \"AI\"",
+      "author": "flipslidersand"
+    },
+    {
+      "id": "devto_4405699",
+      "source": "Dev.to",
+      "title": "Agent Memory: Everything It Remembers Has the Same Authority, and That Is the Bug",
+      "url": "https://dev.to/izgorodin/your-agent-doesnt-need-more-memory-it-needs-to-know-what-its-allowed-to-believe-22j7",
+      "summary": "Every team that wires long-term memory into a coding agent hits the same wall about three weeks in....",
+      "author": "Edward Izgorodin"
+    },
+    {
+      "id": "juejin_7673390412729614390",
+      "source": "掘金",
+      "title": "DeepSeek 昨晚刚开源了 Harness：附万少的2 万字保姆级教程",
+      "url": "https://juejin.cn/post/7673390412729614390",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673506180661428259",
+      "source": "掘金",
+      "title": "Deepseek harness 安装配置保姆教程",
+      "url": "https://juejin.cn/post/7673506180661428259",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673348268143132710",
+      "source": "掘金",
+      "title": "Deepseek涨价了，前后对比，竟然差这么多",
+      "url": "https://juejin.cn/post/7673348268143132710",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673062292059062322",
+      "source": "掘金",
+      "title": "采购同事随口提了句比价，我用 TextIn xParse + WorkBuddy 做了个采购决策助手",
+      "url": "https://juejin.cn/post/7673062292059062322",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673875524200808494",
+      "source": "掘金",
+      "title": "让 AI Coding Agent 直接访问 CAD 文档：GitMCP 实战指南",
+      "url": "https://juejin.cn/post/7673875524200808494",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674372498315460658",
+      "source": "掘金",
+      "title": "AI写长篇小说为什么30章必崩",
+      "url": "https://juejin.cn/post/7674372498315460658",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673978658780332083",
+      "source": "掘金",
+      "title": "给 DeepSeek Harness 装个\"应用商店\"：一条命令，595 个插件随你逛",
+      "url": "https://juejin.cn/post/7673978658780332083",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674101873055662120",
+      "source": "掘金",
+      "title": "DeepSeek Harness 插件推荐：4 款开源神器让写代码直接起飞",
+      "url": "https://juejin.cn/post/7674101873055662120",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "oschina_8ef8e9b46622",
+      "source": "开源中国",
+      "title": "算力互联、调度协同、生态共创｜开源中国携手超智算科技、共绩科技达成战略合作",
+      "url": "https://www.oschina.net/news/502010",
+      "summary": "国务院《AI+行动意见》强调加强智能算力互联互通和供需匹配。工信部《算力互联互通行动计划》和&quot;毫秒用算&quot;专项行动提出&quot;盘活存量、精准对接、弹性供给&quot;，推动算力从&quot;重硬件囤积&quot;转向&quot;重高效调度&quot;。超智算科技（S·AIDC）与共绩科技、开源中国就算力资源共享、算网平台建设、弹性算力协同、技术与商业信息共享、用户生态等..."
+    },
+    {
+      "id": "oschina_d2d8fdf96e9a",
+      "source": "开源中国",
+      "title": "GLM-5.3 拿下 AA 评测 60 分，将前沿模型的单任务成本打到了最低",
+      "url": "https://www.oschina.net/news/502007",
+      "summary": "智谱今日凌晨上线了 GLM-5.3 API。在 Artificial Analysis Intelligence Index 评测中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 同处全球前沿区间，与 Kimi K3 并列开源模型第一。三个主攻方向：复杂编码、防御性网络安全、长程任务处理。 但最值得关注的数据不是分数。智谱官方发布的「智能—成本」散点图上，GLM-5..."
+    },
+    {
+      "id": "oschina_fb971369e95e",
+      "source": "开源中国",
+      "title": "再也不用登录罗技账号，9.1k star 的 Rust 开源替代品接管了 HID++",
+      "url": "https://www.oschina.net/news/502006",
+      "summary": "罗技鼠标用户跟 Options+ 之间关系，大概就跟 Windows 用户跟预装杀毒软件的关系差不多——能用，但永远在后台浪费资源、弹窗提醒你登录、默默收集遥测数据。 一个叫 OpenLogi 的项目现在给出了选择：用 Rust 重写的原生替代品，GitHub 9.1k star，MIT/Apache 2.0 双许可，420 个 fork，790 次提交。不需要账号，不收集数..."
+    },
+    {
+      "id": "oschina_6b5ba4f61c10",
+      "source": "开源中国",
+      "title": "Hugging Face 夏季开源报告：中国模型在前沿碾压，但下载量靠的是小模型",
+      "url": "https://www.oschina.net/news/502004/huggingface-state-of-open-models-summer-2026",
+      "summary": "Hugging Face 发布了 2026 年夏季开源模型观察报告，覆盖 1 月到 8 月的数据，包含六个核心发现，内容如下。 第一，中国实验室跳过梯度，直接往前沿冲。 2026 年几乎每个月，中国实验室发布的最大开源模型都超过美国。中国月均天花板在 754B 到 2.78T 参数之间，而美国在 7 个月里有 5 个月不超过 130B。小米、蚂蚁、美团..."
+    },
+    {
+      "id": "oschina_a6e6bb32eb8c",
+      "source": "开源中国",
+      "title": "几乎没人再关注 Web 标准了：5000 个网站只有 2.6% 完全符合规范",
+      "url": "https://www.oschina.net/news/502003/almost-nobody-pays-attention-to-web-standards-anymore",
+      "summary": "法国独立开发者 Théo Ducreux 干了件让人坐不住的事：他爬了 Tranco 排名前 5000 的网站，拿 html-validate 和 csstree-validator 逐个跑了一遍。结果比想象中更难看。 在成功抓取到可读内容的 2656 个网站中，87.2% 存在至少一处 HTML 规范违规。完全干净的 HTML 只有 12.8%，如果连 best-practice 警告也算上，那"
+    },
+    {
+      "id": "hn_comment_49362670",
+      "source": "HN讨论",
+      "title": "xur17 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "It&#x27;s fun to see habhub in an article. ~10 years ago a group of friends and I launched 2 weather balloons for fun with a GPS logger, APRS transmitter, and a few sensors, and then retrieved it afterwards. I have a bunch of memorable experiences from it, including: 1. Under inflating the first balloon because our helium provider was closed, and instead buying lower pressure &quot;party&quot; balloon containers (and not realizing until too late that lower pressure meant more helium left in the ",
+      "author": "xur17"
+    },
+    {
+      "id": "hn_comment_49361804",
+      "source": "HN讨论",
+      "title": "iamnothere 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "The part where he gets contacted over the hit-and-run reads like the curl guy’s experience with people investigating “hacking”. I wonder how often this happens outside of software? Do fence manufacturers get emails asking to identify the culprit when someone crashes through a fence?",
+      "author": "iamnothere"
+    },
+    {
+      "id": "hn_comment_49362378",
+      "source": "HN讨论",
+      "title": "m-i-l 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "In the UK a few decades ago, if you found a radiosonde from a weather balloon, it would have instructions on how to claim a recovery fee if you returned it for reuse. Sadly I never found one, but I knew this because my dad was a geophysicist and we lived at the time on a Scottish island which was one of the UK&#x27;s launch spots. Looks like the recovery fee was stopped a long time ago, when the devices became cheap enough to be effectively disposable.",
+      "author": "m-i-l"
+    },
+    {
+      "id": "hn_comment_49361475",
+      "source": "HN讨论",
+      "title": "martianvoid 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "Slightly unrelated but I have no idea how wind speed predictions are made up high in the altitudes, is it just interpolation of data that are get from various radiosonoids across various timestamps and finding a regular or seasonal pattern?",
+      "author": "martianvoid"
+    },
+    {
+      "id": "hn_comment_49363196",
+      "source": "HN讨论",
+      "title": "ilaksh 在「Microgpt in pure C hits 10M tps on Apple」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49347477",
+      "summary": "This is not an LLM obviously \n, it&#x27;s just for generating random names. But interesting to think of the possibilities of truly tiny language models if there were connected together.",
+      "author": "ilaksh"
+    },
+    {
+      "id": "hn_comment_49362863",
+      "source": "HN讨论",
+      "title": "throwa356262 在「Microgpt in pure C hits 10M tps on Apple」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49347477",
+      "summary": "And the 5 years old AMD Ryzen 5 5600H is doing 7M? Am I reading this right? Then I  need to try this on Strix Halo",
+      "author": "throwa356262"
+    },
+    {
+      "id": "hn_comment_49363130",
+      "source": "HN讨论",
+      "title": "fwip 在「Microgpt in pure C hits 10M tps on Apple」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49347477",
+      "summary": "Model is 4K parameters - I don&#x27;t know enough about that size of model to know if this impressive or not.",
+      "author": "fwip"
+    },
+    {
+      "id": "hn_49359425",
+      "source": "Hacker News",
+      "title": "Air Theremin – a browser theremin you play by waving at your webcam",
+      "url": "https://theremin.bizibah.com/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49360015",
+      "source": "Hacker News",
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49363710",
+      "source": "Hacker News",
+      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+      "url": "https://github.com/onecli/onecli",
+      "summary": "Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox"
+    },
+    {
+      "id": "hn_49360242",
+      "source": "Hacker News",
+      "title": "Devices with GrapheneOS support should be available in 2027",
+      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "summary": ""
+    },
+    {
+      "id": "hn_49347477",
+      "source": "Hacker News",
+      "title": "Microgpt in pure C hits 10M tps on Apple m5",
+      "url": "https://github.com/vixhal-baraiya/microgpt-c",
+      "summary": ""
+    },
+    {
+      "id": "hn_49300272",
+      "source": "Hacker News",
+      "title": "Activation Energy is a good model for a lot of things",
+      "url": "https://homosabiens.substack.com/p/activation-energy-is-a-good-model",
+      "summary": ""
+    },
+    {
+      "id": "hn_49362728",
+      "source": "Hacker News",
+      "title": "Mathematics in the Age of AI",
+      "url": "https://arxiv.org/abs/2608.16753",
+      "summary": ""
+    },
+    {
+      "id": "hn_49306415",
+      "source": "Hacker News",
+      "title": "Show HN: Nikon F100 Film Camera Repair Notes",
+      "url": "https://github.com/enthdegree/f100",
+      "summary": ""
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "⭐ 166163 | 🍴 17692 | TypeScript"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "summary": "⭐ 15016 | 🍴 707 | TypeScript"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "⭐ 9990 | 🍴 1468 | Python"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "⭐ 6271 | 🍴 112 | PowerShell"
+    },
+    {
+      "id": "gh_1334245678",
+      "source": "GitHub Trending",
+      "title": "xiaobright/dsh-anchored-standard - Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "summary": "⭐ 3632 | 🍴 108 | JavaScript"
+    },
+    {
+      "id": "gh_1336933337",
+      "source": "GitHub Trending",
+      "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "summary": "⭐ 2662 | 🍴 304 | TypeScript"
+    },
+    {
+      "id": "gh_1332959628",
+      "source": "GitHub Trending",
+      "title": "cordiverse/paper - A Programming Paradigm for Spatiotemporal Composability",
+      "url": "https://github.com/cordiverse/paper",
+      "summary": "⭐ 2381 | 🍴 100 | None"
+    },
+    {
+      "id": "gh_1333111893",
+      "source": "GitHub Trending",
+      "title": "ccch1mneyyy/dsh-TUI - DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "summary": "⭐ 2068 | 🍴 92 | TypeScript"
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "⭐ 1916 | 🍴 87 | None"
+    },
+    {
+      "id": "gh_1333170396",
+      "source": "GitHub Trending",
+      "title": "xoreaxeaxeax/skitter-creek-bath-salts - Unlocking _everything_ on the CPU with DRAM scrambling",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "summary": "⭐ 1845 | 🍴 148 | C"
+    },
+    {
+      "id": "gh_1322012299",
+      "source": "GitHub Trending",
+      "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "summary": "⭐ 17190 | 🍴 986 | Rust"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "⭐ 15076 | 🍴 1676 | Python"
+    },
+    {
+      "id": "gh_1316527318",
+      "source": "GitHub Trending",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "⭐ 13934 | 🍴 1654 | TypeScript"
+    },
+    {
+      "id": "gh_1318768894",
+      "source": "GitHub Trending",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "⭐ 8646 | 🍴 1037 | TypeScript"
+    },
+    {
+      "id": "gh_1313576395",
+      "source": "GitHub Trending",
+      "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "summary": "⭐ 8527 | 🍴 675 | None"
+    },
+    {
+      "id": "gh_1317041031",
+      "source": "GitHub Trending",
+      "title": "MiniMax-AI/MiniMax-H3 - 无描述",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "summary": "⭐ 6377 | 🍴 389 | Python"
+    }
+  ],
+  "generated_at": "2026-08-20 00:35"
+}

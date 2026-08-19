@@ -845,5 +845,26 @@
     "evidence": "watermarks-remover（去水印）与Zero Trust for AI Outputs（输出消毒）同日登榜",
     "grassroots": "安全工程师开始将LLM输出视为不可信输入处理",
     "date": "2026-08-19"
+  },
+  {
+    "theme": "AI Agent从'单点工具'走向'插件生态平台'",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 16.6万星，GitHub Trending前十占五席，桌面端/TUI/路由套件/应用商店等周边生态一夜涌现",
+    "grassroots": "掘金开发者连夜写保姆级教程，'一条命令595个插件随你逛'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "自我改进Agent的可靠性成为学术界与工业界共同焦点",
+    "importance": 4,
+    "evidence": "ArXiv三领域同时收录脆弱性论文，Dev.to开发者讨论记忆权威性Bug，与DeepSeek Agent招聘、MiMo-Code协同进化形成呼应",
+    "grassroots": "开发者反馈'Agent记住的所有内容拥有同等权威性，这就是Bug'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "中国开源模型'参数碾压但下载量靠小模型'的错位",
+    "importance": 4,
+    "evidence": "HF夏季报告：中国月均最大开源模型754B-2.78T参数，美国5/7个月不超130B；但下载量主力是小模型",
+    "grassroots": "掘金用户关注'DeepSeek涨价了，前后对比差很多'，成本敏感度极高",
+    "date": "2026-08-20"
   }
 ]
