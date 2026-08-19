@@ -60,11 +60,11 @@ jobs:
           overwrite: true
           retention-days: 90
 
-      - name: Commit trends + docs to repo
+      - name: Commit trends data to repo
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@noreply.github.com"
-          git add trends.json docs/
-          git diff --cached --quiet || git commit -m "chore: update trends + report archive"
+          git add trends.json
+          git diff --cached --quiet || git commit -m "chore: update trends data"
           git push
 
