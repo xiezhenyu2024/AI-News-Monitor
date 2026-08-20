@@ -105,8 +105,8 @@ def chat(system: str, msgs: list[dict]) -> str:
     body = json.dumps({
         "model": DEEPSEEK_MODEL,
         "messages": [{"role": "system", "content": system}] + msgs,
-        "temperature": 0.3,
-        "max_tokens": 2000,
+        "temperature": 0.7,
+        "max_tokens": 4000,
     }).encode()
     req = urllib.request.Request(
         "https://api.deepseek.com/v1/chat/completions", data=body,
@@ -118,7 +118,7 @@ def chat(system: str, msgs: list[dict]) -> str:
 
 
 def answer_question(ctx: dict, question: str, history: list) -> str:
-    items = ctx.get("items", [])[:40]
+    items = ctx.get("items", [])
     cards = ctx.get("cards", [])
     full_text = "\n".join(
         f"[{it['source']}] {it['title']}\n  详情: {it.get('summary','')}\n  URL: {it.get('url','')}"
@@ -137,11 +137,12 @@ def answer_question(ctx: dict, question: str, history: list) -> str:
 要求：
 1. 先定位问题涉及的新闻（用户可能说"第三条""那家公司"等指代）
 2. 基于全文回答，引用具体内容
-3. 回答简洁直接，不超过200字
+3. 回答完整清晰、结构分明，适当展开分析（一般300-600字），但不要重复罗列
 4. 出现专有名词或新概念时，用一句话解释
 5. 当天资料不足以回答时，明确说"当天资料中没有相关信息"，再基于通用知识补充并注明"以下为通用知识，非当天新闻内容"
-6. 支持连续追问：结合上文问句理解指代"""
-    msgs = [{"role": m["role"], "content": m["content"]} for m in (history or [])[-8:]]
+6. 支持连续追问：结合上文问句理解指代
+7. 如果问题适合给出结论或观点，可以给出你的判断，并说明依据"""
+    msgs = [{"role": m["role"], "content": m["content"]} for m in (history or [])[-20:]]
     msgs.append({"role": "user", "content": question})
     return chat(system, msgs)
 
@@ -399,7 +400,7 @@ async function ask(){
   addMsg('user',q);
   document.getElementById('q').value='';
   const key=ctx.key;
-  const history=[...document.querySelectorAll('#msgs .msg')].slice(-8).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:m.textContent}));
+  const history=[...document.querySelectorAll('#msgs .msg')].slice(-40).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:m.textContent}));
   try{
     const r=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
