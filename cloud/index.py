@@ -51,24 +51,50 @@ def list_contexts() -> list[dict]:
     if cached is not None:
         return cached
     keys = []
-    try:
-        data = json.loads(http_get(API_BASE, headers={"User-Agent": "newsqa"}))
-        for item in data:
-            name = item.get("name", "")
-            if name.startswith("context-") and name.endswith(".json"):
-                keys.append(name[8:-5])
-    except Exception as e:
-        log(f"list_contexts: {e}")
-    result = [{"key": k, "label": k} for k in keys]
+    for attempt in range(3):
+        try:
+            data = json.loads(http_get(API_BASE, headers={"User-Agent": "newsqa"}, timeout=15))
+            for item in data:
+                name = item.get("name", "")
+                if name.startswith("context-") and name.endswith(".json"):
+                    keys.append(name[8:-5])
+            break
+        except Exception as e:
+            log(f"list_contexts attempt {attempt+1}: {e}")
+    result = [{"key": k, "label": k} for k in sorted(keys, reverse=True)]
     cache_set("ctx_list", result)
     return result
 
 
 def load_context(key: str) -> dict:
+    """多源重试 + /tmp 缓存：先 raw.githubusercontent，失败切 GitHub API（base64）"""
+    cached = cache_get(f"ctx_{key}", ttl=3600)
+    if cached is not None:
+        return cached
+    errs = []
+    # 源1: raw
     try:
-        return json.loads(http_get(f"{RAW_BASE}/context-{key}.json", timeout=20))
+        data = json.loads(http_get(f"{RAW_BASE}/context-{key}.json", timeout=15))
+        cache_set(f"ctx_{key}", data)
+        return data
     except Exception as e:
-        raise RuntimeError(f"加载 {key} 失败: {e}")
+        errs.append(f"raw: {e}")
+    # 源2: GitHub contents API（api.github.com 国内可达）
+    try:
+        import base64 as b64
+        data = json.loads(http_get(
+            f"{API_BASE}/context-{key}.json",
+            headers={"User-Agent": "newsqa", "Accept": "application/vnd.github.v3+json"},
+            timeout=15))
+        content = data.get("content", "")
+        if data.get("encoding") == "base64" and content:
+            ctx = json.loads(b64.b64decode(content).decode("utf-8"))
+            cache_set(f"ctx_{key}", ctx)
+            return ctx
+        raise RuntimeError("contents API 返回异常")
+    except Exception as e:
+        errs.append(f"api: {e}")
+    raise RuntimeError(f"加载 {key} 失败: {'; '.join(errs)}")
 
 
 # ─── DeepSeek ───────────────────────────────────────────────────────────
@@ -319,25 +345,39 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
 </div>
 <script>
 let ctx = null;
+function showCards(msg){ document.getElementById('cards').innerHTML = '<div class="loading">' + msg + '</div>'; }
 async function loadList(){
-  const r = await fetch('/api/list');
-  const list = await r.json();
-  const sel = document.getElementById('pick');
-  sel.innerHTML = list.map(e => `<option value="${e.key}">${e.label}</option>`).join('');
-  if (list.length){ await loadCtx(); }
+  showCards('加载中…');
+  try{
+    const r = await fetch('/api/list', {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const list = await r.json();
+    const sel = document.getElementById('pick');
+    sel.innerHTML = list.map(e => `<option value="${e.key}">${e.label}</option>`).join('');
+    if (list.length){ await loadCtx(); }
+    else { showCards('暂无新闻数据，请等下一期日报生成'); }
+  }catch(e){
+    showCards('加载列表失败: ' + e.message + '，请刷新重试');
+  }
 }
 async function loadCtx(){
   const key = document.getElementById('pick').value;
   if (!key) return;
-  const r = await fetch('/api/context?key=' + key);
-  ctx = await r.json();
-  document.getElementById('cards').innerHTML =
-    '<div class="loading">' + ctx.cards.length + ' 张卡片已加载，点「问这条」或直接提问</div>' +
-    ctx.cards.map((c,i)=>{
-      const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
-      const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
-      return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
-    }).join('');
+  showCards('加载卡片中…');
+  try{
+    const r = await fetch('/api/context?key=' + key, {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    ctx = await r.json();
+    if(!ctx.cards || !ctx.cards.length){ showCards('该期无卡片数据'); return; }
+    document.getElementById('cards').innerHTML =
+      ctx.cards.map((c,i)=>{
+        const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
+        const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
+        return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
+      }).join('');
+  }catch(e){
+    showCards('加载卡片失败: ' + e.message + '，请刷新重试');
+  }
 }
 function askAbout(n){ document.getElementById('q').value='第'+n+'条：'; }
 function switchTab(t){
@@ -351,11 +391,16 @@ async function doSearch(){
   if(!kw) return;
   const box = document.getElementById('sres');
   box.innerHTML = '搜索中…';
-  const r = await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({keyword:kw})});
-  const d = await r.json();
-  box.innerHTML = d.cards.length
-    ? d.cards.map((c,i)=>`<div class="card"><h3>#${i+1} ${c.title}</h3><p>${c.summary}</p><p style="color:#888">来源：<a href="${c.url||'#'}">${c.url||''}</a></p></div>`).join('')
-    : '未找到相关内容';
+  try{
+    const r = await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({keyword:kw})});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    box.innerHTML = d.cards.length
+      ? d.cards.map((c,i)=>`<div class="card"><h3>#${i+1} ${c.title}</h3><p>${c.summary}</p><p style="color:#888">来源：<a href="${c.url||'#'}">${c.url||''}</a></p></div>`).join('')
+      : '未找到相关内容';
+  }catch(e){
+    box.innerHTML = '搜索失败: ' + e.message;
+  }
 }
 function addMsg(role,text){
   const d=document.createElement('div');
@@ -365,14 +410,20 @@ function addMsg(role,text){
 }
 async function ask(){
   const q=document.getElementById('q').value.trim();
-  if(!q||!ctx) return;
+  if(!q){ addMsg('ai','请输入问题'); return; }
+  if(!ctx){ addMsg('ai','卡片数据尚未加载完成，请等待上方卡片显示后再提问，或点击「搜索补充」获取新内容'); return; }
   addMsg('user',q);
   document.getElementById('q').value='';
   const key=ctx.key;
   const history=[...document.querySelectorAll('#msgs .msg')].slice(-8).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:m.textContent}));
-  const r=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
-  const d=await r.json();
-  addMsg('ai',d.answer||'（无回答）');
+  try{
+    const r=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const d=await r.json();
+    addMsg('ai',d.answer||'（无回答）');
+  }catch(e){
+    addMsg('ai','提问失败: ' + e.message + '，请稍后重试');
+  }
 }
 loadList();
 </script>
@@ -383,16 +434,23 @@ loadList();
 
 def route_request(method: str, path: str, query: dict, body_raw: str):
     """核心路由逻辑，返回 (status_code, headers, body_bytes)"""
+    NO_CACHE = {"Cache-Control": "no-store, no-cache, must-revalidate", "Pragma": "no-cache"}
     if method == "GET":
         if path in ("/", "/index.html"):
-            return 200, {"Content-Type": "text/html; charset=utf-8"}, PAGE.encode("utf-8")
+            h = dict(NO_CACHE)
+            h["Content-Type"] = "text/html; charset=utf-8"
+            return 200, h, PAGE.encode("utf-8")
         if path == "/api/list":
+            h = dict(NO_CACHE)
+            h["Content-Type"] = "application/json; charset=utf-8"
             data = json.dumps(list_contexts(), ensure_ascii=False).encode("utf-8")
-            return 200, {"Content-Type": "application/json; charset=utf-8"}, data
+            return 200, h, data
         if path == "/api/context":
+            h = dict(NO_CACHE)
+            h["Content-Type"] = "application/json; charset=utf-8"
             key = (query or {}).get("key", "")
             data = json.dumps(load_context(key), ensure_ascii=False).encode("utf-8")
-            return 200, {"Content-Type": "application/json; charset=utf-8"}, data
+            return 200, h, data
         return 404, {"Content-Type": "application/json"}, b'{"error":"not found"}'
     elif method == "POST":
         try:
