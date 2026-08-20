@@ -1124,11 +1124,12 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
     if not items:
         return []
     raw = "\n".join(
-        f"[{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:250]}\n  URL: {it.get('url','')}"
-        for it in items[:max_items]
+        f"#{i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:250]}\n  URL: {it.get('url','')}"
+        for i, it in enumerate(items[:max_items])
     )
     sys_prompt = """你是新闻摘要卡片生成器。从提供的新闻中选出最重要的8-10条，为每条生成一张结构化卡片，输出JSON数组，格式：
 [{
+  "item_id": 新闻编号（必须对应输入中的#编号，如#3对应3）,
   "title": "一句话标题，说清楚发生了什么",
   "entities": [{"name": "公司/人物/术语名", "explain": "一句话通俗解释它是什么"}],
   "summary": "2-4句核心摘要，50-150字，说清事件本身和结果",
@@ -1137,6 +1138,7 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
 
 要求：
 - 只选8-10条最重要的，按重要性排序，其余不选
+- item_id 必须准确对应输入新闻的编号，方便后续查找原文
 - 关键实体必须自动识别并解释，不得出现"某公司"而不说明它是什么
 - 解释要通俗，面向不了解该领域的读者
 - 摘要保持信息密度，不要废话套话
@@ -1148,7 +1150,18 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
     try:
         m = re.search(r"\[.*\]", res, re.DOTALL)
         cards = json.loads(m.group(0)) if m else []
-        return cards[:10] if isinstance(cards, list) else []
+        if not isinstance(cards, list):
+            return []
+        # 把对应新闻原文挂到卡片上（item_id -> items 索引）
+        for c in cards[:10]:
+            iid = c.get("item_id")
+            if isinstance(iid, int) and 1 <= iid <= len(items[:max_items]):
+                src = items[iid - 1]
+                c["source_text"] = src.get("summary", "")[:1000]
+                c["source_title"] = src.get("title", "")
+                c["source_url"] = src.get("url", "")
+                c["source_name"] = src.get("source", "")
+        return cards[:10]
     except Exception as e:
         log(f"  卡片解析失败: {e}")
         return []
