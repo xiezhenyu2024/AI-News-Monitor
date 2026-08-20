@@ -866,5 +866,26 @@
     "evidence": "HF夏季报告：中国月均最大开源模型754B-2.78T参数，美国5/7个月不超130B；但下载量主力是小模型",
     "grassroots": "掘金用户关注'DeepSeek涨价了，前后对比差很多'，成本敏感度极高",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "DeepSeek Harness插件生态爆发",
+    "importance": 5,
+    "evidence": "GitHub Trending前20中7个与DSH相关，掘金多篇保姆级教程",
+    "grassroots": "开发者从'装DSH'转向'装插件市场、配路由、换皮肤'，生态雏形已现",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "开源模型性价比碾压",
+    "importance": 5,
+    "evidence": "GLM-5.3以最低单任务成本达到60分AA评测，与Kimi K3并列开源第一",
+    "grassroots": "开发者反馈'性价比离谱，但复杂场景偶有幻觉'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "Agent记忆管理成为核心痛点",
+    "importance": 4,
+    "evidence": "ArXiv论文揭示自我改进Agent脆弱性，Dev.to热文讨论记忆权威性Bug",
+    "grassroots": "开发者表示'三周后必踩记忆坑'",
+    "date": "2026-08-20"
   }
 ]
