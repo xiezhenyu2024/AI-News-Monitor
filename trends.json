@@ -908,5 +908,26 @@
     "evidence": "SPADE自对弈框架、Open-MOPD多教师蒸馏、Group-Calibrated OPD三篇论文同日发布",
     "grassroots": "暂无基层反馈，处于科研早期",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "Agent插件生态平台化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness主仓库169k星，周边桌面端15k星、插件市场、精选列表同日上榜GitHub Trending",
+    "grassroots": "掘金上出现大量保姆级教程，开发者从'怎么用'转向'怎么开发插件'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "多智能体强化学习成为推理突破新方向",
+    "importance": 4,
+    "evidence": "Co-RL和SPADE两篇论文同日发布，均指向多智能体/自我对弈的推理能力涌现",
+    "grassroots": "暂无基层反馈，仍处于学术验证阶段",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "AI错误性质引发社会讨论",
+    "importance": 5,
+    "evidence": "AI医疗记录错误新闻登顶HN，讨论焦点从'错误率对比'转向'幻觉错误的不可预测性'",
+    "grassroots": "开发者指出AI幻觉错误与人类常规错误性质不同，需要不同监管框架",
+    "date": "2026-08-20"
   }
 ]
