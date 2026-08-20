@@ -929,5 +929,26 @@
     "evidence": "AI医疗记录错误新闻登顶HN，讨论焦点从'错误率对比'转向'幻觉错误的不可预测性'",
     "grassroots": "开发者指出AI幻觉错误与人类常规错误性质不同，需要不同监管框架",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "Agent基础设施层竞争白热化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源即引爆生态，多款配套工具同日登榜",
+    "grassroots": "掘金用户称'一条命令装595个插件'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "AI安全边界问题集中爆发",
+    "importance": 5,
+    "evidence": "AI医疗scribe出错、Copilot Autofix引入CI/CD漏洞同日被报道",
+    "grassroots": "HN用户质疑'医生居然不用审核AI转录内容'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "多Agent协同进化成为研究共识",
+    "importance": 4,
+    "evidence": "SPADE、Co-RL、Open-MOPD三篇论文同日聚焦多Agent自博弈/协同",
+    "grassroots": "暂无",
+    "date": "2026-08-20"
   }
 ]

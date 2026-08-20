@@ -176,9 +176,10 @@ async function ask(){
   addMsg('user', q, true);
   document.getElementById('q').value = '';
   const key = curCard.ctxKey;
-  const history = curMsgs.slice(-40).map(m=>({role:m.role, content:m.content}));
+  const card_idx = curCard.idx;
+  const history = curMsgs.slice(-12).map(m=>({role:m.role, content:(m.content||'').slice(0,800)}));
   try{
-    const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
+    const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     addMsg('ai', d.answer || '（无回答）', true);
