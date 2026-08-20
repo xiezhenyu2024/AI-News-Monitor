@@ -1452,6 +1452,7 @@ async function openChat(idx){
     `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
   // 恢复该卡历史
   curMsgs = await loadThread(threadId(curCard.ctxKey, curCard.idx));
+  curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
   const box = document.getElementById('msgs');
   box.innerHTML = '';
   curMsgs.forEach(m=>addMsg(m.role, m.content, false));
@@ -1469,7 +1470,8 @@ function addMsg(role, text, save){
   document.getElementById('msgs').appendChild(d);
   document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
   if(save && curCard){
-    curMsgs.push({role, content:text});
+    const apiRole = role === 'ai' ? 'assistant' : role;
+    curMsgs.push({role: apiRole, content:text});
     saveThread(threadId(curCard.ctxKey, curCard.idx), curMsgs);
   }
 }
@@ -1481,7 +1483,7 @@ async function ask(){
   document.getElementById('q').value = '';
   const key = curCard.ctxKey;
   const card_idx = curCard.idx;
-  const history = curMsgs.slice(-12).map(m=>({role:m.role, content:(m.content||'').slice(0,800)}));
+  const history = curMsgs.slice(-12).map(m=>({role:(m.role==='ai'?'assistant':m.role), content:(m.content||'').slice(0,800)}));
   // 思考中气泡
   busy = true;
   const thinkEl = document.createElement('div');
