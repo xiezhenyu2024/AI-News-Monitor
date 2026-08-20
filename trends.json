@@ -950,5 +950,26 @@
     "evidence": "SPADE、Co-RL、Open-MOPD三篇论文同日聚焦多Agent自博弈/协同",
     "grassroots": "暂无",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "AI Agent进入插件化生态阶段",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源后一周内涌现桌面端、插件市场、橙皮书等衍生项目",
+    "grassroots": "开发者反馈'一条命令装595个插件'体验流畅，但质量参差",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "AI自动化信任边界成为焦点",
+    "importance": 5,
+    "evidence": "AI医疗scribe失误引发HN大规模讨论，开发者分享AI读PDF报错案例",
+    "grassroots": "开发者开始反思'自动化偏见'，呼吁设计人工复核机制",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "开源生态与商业控制的张力加剧",
+    "importance": 4,
+    "evidence": "Google收紧Android源码获取，社区反弹强烈",
+    "grassroots": "开发者调侃'再过几年只能邮寄打印件了'",
+    "date": "2026-08-20"
   }
 ]
