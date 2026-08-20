@@ -459,6 +459,10 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
         h = dict(CORS)
         h.update(NO_CACHE)
         return 200, h, b""
+    # HEAD：与 GET 同路由但无 body（运营商代理/浏览器探测用）
+    if method == "HEAD":
+        code, h, body = route_request("GET", path, query, body_raw)
+        return code, h, b""
     if method == "GET":
         if path in ("/", "/index.html"):
             h = dict(NO_CACHE)
@@ -553,6 +557,7 @@ def main_handler(event, context):
 
     method = event.get("httpMethod", "GET")
     path = event.get("path", "/")
+    log(f"REQ: method={method!r} path={path!r}")
     query = event.get("queryStringParameters") or event.get("queryString") or {}
     if isinstance(query, str):
         query = {k: v[0] for k, v in urllib.parse.parse_qs(query).items()}
