@@ -1332,6 +1332,8 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .msg{margin:8px 0;padding:10px 12px;border-radius:8px;font-size:14px;line-height:1.7;white-space:pre-wrap;max-width:92%}
 .user{background:#0b57d0;color:#fff;margin-left:auto;border-bottom-right-radius:2px}
 .ai{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.06);border-bottom-left-radius:2px}
+.thinking{color:#888;font-style:italic;animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
 .inputrow{display:flex;gap:8px;padding:10px 14px;background:#fff;border-top:1px solid #eee}
 input{flex:1;padding:10px;font-size:14px;border:1px solid #ddd;border-radius:8px}
 button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:none;border-radius:8px;cursor:pointer}
@@ -1371,6 +1373,7 @@ const API = "https://1471673999-3ypqvp16ev.ap-guangzhou.tencentscf.com";
 let ctx = null;          // 当前期 context
 let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
+let busy = false;        // 是否正在请求中
 
 // ── IndexedDB：每卡独立对话历史，保留2年 ──
 let db = null;
@@ -1473,18 +1476,43 @@ function addMsg(role, text, save){
 async function ask(){
   const q = document.getElementById('q').value.trim();
   if(!q || !curCard){ return; }
+  if(busy){ return; }
   addMsg('user', q, true);
   document.getElementById('q').value = '';
   const key = curCard.ctxKey;
   const card_idx = curCard.idx;
   const history = curMsgs.slice(-12).map(m=>({role:m.role, content:(m.content||'').slice(0,800)}));
+  // 思考中气泡
+  busy = true;
+  const thinkEl = document.createElement('div');
+  thinkEl.className = 'msg ai thinking';
+  thinkEl.textContent = '🤔 正在思考…';
+  document.getElementById('msgs').appendChild(thinkEl);
+  document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
   try{
     const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
-    addMsg('ai', d.answer || '（无回答）', true);
+    thinkEl.remove();
+    // 打字机效果逐字显示
+    const aiEl = document.createElement('div');
+    aiEl.className = 'msg ai';
+    document.getElementById('msgs').appendChild(aiEl);
+    const full = d.answer || '（无回答）';
+    curMsgs.push({role:'assistant', content: full});
+    saveThread(threadId(curCard.ctxKey, curCard.idx), curMsgs);
+    let i = 0;
+    const CHUNK = 3;
+    const timer = setInterval(()=>{
+      i += CHUNK;
+      aiEl.textContent = full.slice(0, i);
+      document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
+      if(i >= full.length){ clearInterval(timer); busy = false; }
+    }, 16);
   }catch(e){
+    thinkEl.remove();
     addMsg('ai', '提问失败: ' + e.message + '，网络不稳定时请稍后重试', true);
+    busy = false;
   }
 }
 
