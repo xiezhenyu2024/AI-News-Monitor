@@ -451,23 +451,35 @@ loadList();
 def route_request(method: str, path: str, query: dict, body_raw: str):
     """核心路由逻辑，返回 (status_code, headers, body_bytes)"""
     NO_CACHE = {"Cache-Control": "no-store, no-cache, must-revalidate", "Pragma": "no-cache"}
+    CORS = {"Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With"}
+    # OPTIONS 预检：直接放行（解决手机浏览器跨域/转码问题）
+    if method == "OPTIONS":
+        h = dict(CORS)
+        h.update(NO_CACHE)
+        return 200, h, b""
     if method == "GET":
         if path in ("/", "/index.html"):
             h = dict(NO_CACHE)
+            h.update(CORS)
             h["Content-Type"] = "text/html; charset=utf-8"
             return 200, h, PAGE.encode("utf-8")
         if path == "/api/list":
             h = dict(NO_CACHE)
+            h.update(CORS)
             h["Content-Type"] = "application/json; charset=utf-8"
             data = json.dumps(list_contexts(), ensure_ascii=False).encode("utf-8")
             return 200, h, data
         if path == "/api/context":
             h = dict(NO_CACHE)
+            h.update(CORS)
             h["Content-Type"] = "application/json; charset=utf-8"
             key = (query or {}).get("key", "")
             data = json.dumps(load_context(key), ensure_ascii=False).encode("utf-8")
             return 200, h, data
-        return 404, {"Content-Type": "application/json"}, b'{"error":"not found"}'
+        h = dict(CORS)
+        return 404, h, b'{"error":"not found"}'
     elif method == "POST":
         try:
             data = json.loads(body_raw or "{}")
@@ -476,18 +488,25 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
                 ctx = load_context(key)
                 ans = answer_question(ctx, data.get("question", ""), data.get("history", []))
                 out = json.dumps({"answer": ans}, ensure_ascii=False).encode("utf-8")
-                return 200, {"Content-Type": "application/json; charset=utf-8"}, out
+                h = dict(CORS)
+                h["Content-Type"] = "application/json; charset=utf-8"
+                return 200, h, out
             if path == "/api/search":
                 kw = data.get("keyword", "")
                 results = search_sources(kw)
                 cards = build_search_cards(kw, results) if results else []
                 out = json.dumps({"cards": cards}, ensure_ascii=False).encode("utf-8")
-                return 200, {"Content-Type": "application/json; charset=utf-8"}, out
-            return 404, {"Content-Type": "application/json"}, b'{"error":"not found"}'
+                h = dict(CORS)
+                h["Content-Type"] = "application/json; charset=utf-8"
+                return 200, h, out
+            h = dict(CORS)
+            return 404, h, b'{"error":"not found"}'
         except Exception as e:
             out = json.dumps({"answer": f"错误: {e}"}, ensure_ascii=False).encode("utf-8")
-            return 500, {"Content-Type": "application/json"}, out
-    return 405, {"Content-Type": "application/json"}, b'{"error":"method not allowed"}'
+            h = dict(CORS)
+            return 500, h, out
+    h = dict(CORS)
+    return 405, h, b'{"error":"method not allowed"}'
 
 
 class Handler(BaseHTTPRequestHandler):
