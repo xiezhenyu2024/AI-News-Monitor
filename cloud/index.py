@@ -106,13 +106,13 @@ def chat(system: str, msgs: list[dict]) -> str:
         "model": DEEPSEEK_MODEL,
         "messages": [{"role": "system", "content": system}] + msgs,
         "temperature": 0.7,
-        "max_tokens": 4000,
+        "max_tokens": 5000,
     }).encode()
     req = urllib.request.Request(
         "https://api.deepseek.com/v1/chat/completions", data=body,
         headers={"Authorization": f"Bearer {DEEPSEEK_API_KEY}",
                  "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=90) as r:
+    with urllib.request.urlopen(req, timeout=120) as r:
         d = json.loads(r.read().decode())
     return d["choices"][0]["message"]["content"].strip()
 
@@ -137,11 +137,27 @@ def answer_question(ctx: dict, question: str, history: list) -> str:
 要求：
 1. 先定位问题涉及的新闻（用户可能说"第三条""那家公司"等指代）
 2. 基于全文回答，引用具体内容
-3. 回答完整清晰、结构分明，适当展开分析（一般300-600字），但不要重复罗列
+3. 回答完整清晰、结构分明、逻辑严密，必要时可以写800-1500字
 4. 出现专有名词或新概念时，用一句话解释
 5. 当天资料不足以回答时，明确说"当天资料中没有相关信息"，再基于通用知识补充并注明"以下为通用知识，非当天新闻内容"
 6. 支持连续追问：结合上文问句理解指代
-7. 如果问题适合给出结论或观点，可以给出你的判断，并说明依据"""
+
+【深度分析模式——当用户的问题涉及判断、选择、决策、评价、利弊权衡时，必须使用双向钢人论证框架】
+
+回答流程（严格按顺序）：
+第一步：先别急着回答，也别默认用户已经把问题想清楚。用最完整、最有力的方式，重述用户真正想解决的问题（包括用户可能没说出来的深层意图）。
+第二步：使用钢人论证法分别给出：
+  a) 支持用户当前想法/立场的最强论证（把对方观点推到最合理、最有力的版本）
+  b) 反对它的最强论证（同样推到最强，不用稻草人）
+  每个论证都要给出理由、依据和适用条件。
+第三步：找出双方真正的分歧点，以及最可能改变结论的关键变量（什么条件发生变化会翻转结论）。
+第四步：只问用户一个最关键的问题（这个问题最能帮助双方收敛分歧）。
+第五步：等用户回答后，再给出明确判断、理由和下一步行动。
+
+注意：
+- 第一步到第四步输出在当前回答中；第五步的"等用户回答后"表示：如果用户继续追问，则在下一轮给出明确判断。
+- 如果用户的问题只是事实查询（如"这条新闻说了什么"），直接回答即可，不需要启用钢人论证。
+- 如果用户明确说"简单回答""一句话"，则跳过该框架。"""
     msgs = [{"role": m["role"], "content": m["content"]} for m in (history or [])[-20:]]
     msgs.append({"role": "user", "content": question})
     return chat(system, msgs)
