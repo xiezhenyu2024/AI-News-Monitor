@@ -1157,8 +1157,10 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
             iid = c.get("item_id")
             if isinstance(iid, int) and 1 <= iid <= len(items[:max_items]):
                 src = items[iid - 1]
-                c["source_text"] = src.get("summary", "")[:1000]
-                c["source_title"] = src.get("title", "")
+                src_sum = src.get("summary", "") or ""
+                src_title = src.get("title", "") or ""
+                c["source_text"] = (src_title + "。" + src_sum)[:1200]
+                c["source_title"] = src_title
                 c["source_url"] = src.get("url", "")
                 c["source_name"] = src.get("source", "")
         return cards[:10]
