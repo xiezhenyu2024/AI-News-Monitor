@@ -117,29 +117,44 @@ def chat(system: str, msgs: list[dict]) -> str:
     return d["choices"][0]["message"]["content"].strip()
 
 
-def answer_question(ctx: dict, question: str, history: list) -> str:
-    items = ctx.get("items", [])[:25]  # 限制新闻条数，防止超出模型上下文
+def answer_question(ctx: dict, question: str, history: list, card_idx: int = None) -> str:
     cards = ctx.get("cards", [])
-    full_text = "\n".join(
-        f"[{it['source']}] {it['title']}\n  详情: {it.get('summary','')[:200]}\n  URL: {it.get('url','')}"
-        for it in items)
-    cards_text = "\n".join(
-        f"#{i+1} {c.get('title','')}\n  关键实体: {json.dumps(c.get('entities',[]), ensure_ascii=False)}\n  摘要: {c.get('summary','')}"
-        for i, c in enumerate(cards))
-    system = f"""你是新闻问答助手。用户基于当天新闻提问，你必须基于以下"当天新闻全文"回答，不要泛泛而谈。
 
-【当天新闻全文】
+    # 只加载当前对话卡片的背景资料（不再加载全部新闻）
+    if card_idx is not None and 0 <= card_idx < len(cards):
+        card = cards[card_idx]
+        src_text = card.get("source_text", "")
+        src_title = card.get("source_title", "")
+        src_url = card.get("source_url", "")
+        src_name = card.get("source_name", "")
+        if src_text:
+            full_text = (f"来源: {src_name}\n"
+                         f"标题: {src_title}\n"
+                         f"原文摘要: {src_text[:1000]}\n"
+                         f"URL: {src_url}")
+        else:
+            full_text = f"（该卡片暂无附加原文，仅卡片摘要可用）\n标题: {card.get('title','')}\n摘要: {card.get('summary','')}"
+        cards_text = (f"#1 {card.get('title','')}\n"
+                      f"  关键实体: {json.dumps(card.get('entities',[]), ensure_ascii=False)}\n"
+                      f"  摘要: {card.get('summary','')}")
+    else:
+        full_text = "（未指定卡片）"
+        cards_text = "（无）"
+
+    system = f"""你是新闻问答助手。用户正在阅读一张新闻卡片，并针对这条新闻提问。你必须基于以下"该新闻的原文资料"回答，不要泛泛而谈。
+
+【该新闻的背景资料】
 {full_text}
 
-【当天摘要卡片】
+【该新闻的摘要卡片】
 {cards_text}
 
 要求：
-1. 先定位问题涉及的新闻（用户可能说"第三条""那家公司"等指代）
-2. 基于全文回答，引用具体内容
+1. 回答围绕这张卡片对应的新闻展开（用户说"这条新闻""这件事""这家公司"都指当前这张卡片）
+2. 基于资料回答，引用具体内容
 3. 回答完整清晰、结构分明、逻辑严密，必要时可以写800-1500字
 4. 出现专有名词或新概念时，用一句话解释
-5. 当天资料不足以回答时，明确说"当天资料中没有相关信息"，再基于通用知识补充并注明"以下为通用知识，非当天新闻内容"
+5. 资料不足以回答时，明确说"该新闻资料中没有相关信息"，再基于通用知识补充并注明"以下为通用知识，非该新闻内容"
 6. 支持连续追问：结合上文问句理解指代
 
 【深度分析模式——当用户的问题涉及判断、选择、决策、评价、利弊权衡时，必须使用双向钢人论证框架】
@@ -417,13 +432,14 @@ function addMsg(role,text){
 async function ask(){
   const q=document.getElementById('q').value.trim();
   if(!q){ addMsg('ai','请输入问题'); return; }
-  if(!ctx){ addMsg('ai','请先选择上方日期'); return; }
+  if(!curCard){ addMsg('ai','请先选择一张卡片'); return; }
   addMsg('user',q);
   document.getElementById('q').value='';
-  const key=ctx.key;
+  const key=curCard.ctxKey;
+  const card_idx=curCard.idx;
   const history=[...document.querySelectorAll('#msgs .msg')].slice(-12).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:(m.textContent||'').slice(0,800)}));
   try{
-    const r=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
+    const r=await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d=await r.json();
     addMsg('ai',d.answer||'（无回答）');
@@ -511,7 +527,9 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
             if path in ("/ask", "/api/ask"):
                 key = data.get("key", "")
                 ctx = load_context(key)
-                ans = answer_question(ctx, data.get("question", ""), data.get("history", []))
+                ans = answer_question(ctx, data.get("question", ""),
+                                      data.get("history", []),
+                                      data.get("card_idx"))
                 out = json.dumps({"answer": ans}, ensure_ascii=False).encode("utf-8")
                 h = dict(CORS)
                 h["Content-Type"] = "application/json; charset=utf-8"
