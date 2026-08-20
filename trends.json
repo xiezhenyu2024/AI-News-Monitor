@@ -971,5 +971,26 @@
     "evidence": "Google收紧Android源码获取，社区反弹强烈",
     "grassroots": "开发者调侃'再过几年只能邮寄打印件了'",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "DeepSeek Harness生态爆发，Agent框架进入'插件化'竞争阶段",
+    "importance": 5,
+    "evidence": "GitHub Trending前20中8个与DeepSeek Harness相关，掘金同日涌现多篇教程",
+    "grassroots": "开发者从'怎么用Agent'转向'怎么给Agent装插件'，生态思维正在形成",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "AI安全事件频发，从代码生成到医疗记录均现信任危机",
+    "importance": 5,
+    "evidence": "Copilot Autofix漏洞攻破Snowflake、AI医疗记录员出错致患者受伤",
+    "grassroots": "开发者呼吁'不要盲目信任AI输出'，自动化偏见成为共识性风险",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "多智能体强化学习与自博弈成为推理能力提升的新前沿",
+    "importance": 4,
+    "evidence": "SPADE与Co-RL两篇论文同日发布，均聚焦多智能体/自博弈范式",
+    "grassroots": "暂无基层声音，仍处于学术探索阶段",
+    "date": "2026-08-20"
   }
 ]
