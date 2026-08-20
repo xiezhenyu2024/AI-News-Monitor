@@ -348,35 +348,51 @@ let ctx = null;
 function showCards(msg){ document.getElementById('cards').innerHTML = '<div class="loading">' + msg + '</div>'; }
 async function loadList(){
   showCards('加载中…');
-  try{
-    const r = await fetch('/api/list', {cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP ' + r.status);
-    const list = await r.json();
-    const sel = document.getElementById('pick');
-    sel.innerHTML = list.map(e => `<option value="${e.key}">${e.label}</option>`).join('');
-    if (list.length){ await loadCtx(); }
-    else { showCards('暂无新闻数据，请等下一期日报生成'); }
-  }catch(e){
-    showCards('加载列表失败: ' + e.message + '，请刷新重试');
+  for(let attempt=1; attempt<=3; attempt++){
+    try{
+      const r = await fetch('/api/list', {cache:'no-store'});
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      const list = await r.json();
+      const sel = document.getElementById('pick');
+      sel.innerHTML = list.map(e => `<option value="${e.key}">${e.label}</option>`).join('');
+      if (list.length){ await loadCtx(); }
+      else { showCards('暂无新闻数据，请等下一期日报生成'); }
+      return;
+    }catch(e){
+      if(attempt < 3){
+        showCards('加载列表失败(' + attempt + '/3): ' + e.message + '，' + (attempt*3) + '秒后自动重试…');
+        await new Promise(r => setTimeout(r, attempt*3000));
+      } else {
+        showCards('加载列表失败: ' + e.message + '，请检查网络后刷新重试');
+      }
+    }
   }
 }
 async function loadCtx(){
   const key = document.getElementById('pick').value;
   if (!key) return;
   showCards('加载卡片中…');
-  try{
-    const r = await fetch('/api/context?key=' + key, {cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP ' + r.status);
-    ctx = await r.json();
-    if(!ctx.cards || !ctx.cards.length){ showCards('该期无卡片数据'); return; }
-    document.getElementById('cards').innerHTML =
-      ctx.cards.map((c,i)=>{
-        const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
-        const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
-        return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
-      }).join('');
-  }catch(e){
-    showCards('加载卡片失败: ' + e.message + '，请刷新重试');
+  for(let attempt=1; attempt<=3; attempt++){
+    try{
+      const r = await fetch('/api/context?key=' + key, {cache:'no-store'});
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      ctx = await r.json();
+      if(!ctx.cards || !ctx.cards.length){ showCards('该期无卡片数据'); return; }
+      document.getElementById('cards').innerHTML =
+        ctx.cards.map((c,i)=>{
+          const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
+          const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
+          return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
+        }).join('');
+      return;
+    }catch(e){
+      if(attempt < 3){
+        showCards('加载卡片失败(' + attempt + '/3): ' + e.message + '，' + (attempt*3) + '秒后自动重试…');
+        await new Promise(r => setTimeout(r, attempt*3000));
+      } else {
+        showCards('加载卡片失败: ' + e.message + '，请检查网络后刷新重试');
+      }
+    }
   }
 }
 function askAbout(n){ document.getElementById('q').value='第'+n+'条：'; }
