@@ -286,7 +286,7 @@ def build_search_cards(keyword: str, results: list) -> list:
 
 # ─── 网页 ───────────────────────────────────────────────────────────────
 
-PAGE = """<!DOCTYPE html>
+PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh">
 <head>
 <meta charset="utf-8">
@@ -320,7 +320,7 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
 <body>
 <div class="top">
   <h2>📰 新闻问答</h2>
-  <select id="pick" onchange="loadCtx()"></select>
+  <select id="pick" onchange="switchCtx()"></select>
 </div>
 <div class="tab">
   <button id="tabCards" class="on" onclick="switchTab('cards')">今日卡片</button>
@@ -344,57 +344,25 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
   </div>
 </div>
 <script>
+const CONTEXTS = __CONTEXTS__;
 let ctx = null;
-function showCards(msg){ document.getElementById('cards').innerHTML = '<div class="loading">' + msg + '</div>'; }
-async function loadList(){
-  showCards('加载中…');
-  for(let attempt=1; attempt<=3; attempt++){
-    try{
-      const r = await fetch('/list', {cache:'no-store'});
-      if(!r.ok) throw new Error('HTTP ' + r.status);
-      const list = await r.json();
-      const sel = document.getElementById('pick');
-      sel.innerHTML = list.map(e => `<option value="${e.key}">${e.label}</option>`).join('');
-      if (list.length){ await loadCtx(); }
-      else { showCards('暂无新闻数据，请等下一期日报生成'); }
-      return;
-    }catch(e){
-      if(attempt < 3){
-        showCards('加载列表失败(' + attempt + '/3): ' + e.message + '，' + (attempt*3) + '秒后自动重试…');
-        await new Promise(r => setTimeout(r, attempt*3000));
-      } else {
-        showCards('加载列表失败: ' + e.message + '，请检查网络后刷新重试');
-      }
-    }
-  }
+
+function renderCards(){
+  if(!ctx || !ctx.cards || !ctx.cards.length){ document.getElementById('cards').innerHTML='<div class="loading">该期无卡片数据</div>'; return; }
+  document.getElementById('cards').innerHTML =
+    ctx.cards.map((c,i)=>{
+      const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
+      const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
+      return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
+    }).join('');
 }
-async function loadCtx(){
+
+function switchCtx(){
   const key = document.getElementById('pick').value;
-  if (!key) return;
-  showCards('加载卡片中…');
-  for(let attempt=1; attempt<=3; attempt++){
-    try{
-      const r = await fetch('/ctx?key=' + key, {cache:'no-store'});
-      if(!r.ok) throw new Error('HTTP ' + r.status);
-      ctx = await r.json();
-      if(!ctx.cards || !ctx.cards.length){ showCards('该期无卡片数据'); return; }
-      document.getElementById('cards').innerHTML =
-        ctx.cards.map((c,i)=>{
-          const ents=(c.entities||[]).map(e=>`<p><b>${e.name}</b>：${e.explain}</p>`).join('');
-          const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${c.relevant}</p>`:'';
-          return `<div class="card"><h3>#${i+1} ${c.title}</h3>${ents}<p>${c.summary}</p>${rel}<button class="ask" onclick="askAbout(${i+1})">问这条</button></div>`;
-        }).join('');
-      return;
-    }catch(e){
-      if(attempt < 3){
-        showCards('加载卡片失败(' + attempt + '/3): ' + e.message + '，' + (attempt*3) + '秒后自动重试…');
-        await new Promise(r => setTimeout(r, attempt*3000));
-      } else {
-        showCards('加载卡片失败: ' + e.message + '，请检查网络后刷新重试');
-      }
-    }
-  }
+  ctx = CONTEXTS[key] || null;
+  renderCards();
 }
+
 function askAbout(n){ document.getElementById('q').value='第'+n+'条：'; }
 function switchTab(t){
   document.getElementById('cards').style.display = t==='cards' ? '' : 'none';
@@ -415,7 +383,7 @@ async function doSearch(){
       ? d.cards.map((c,i)=>`<div class="card"><h3>#${i+1} ${c.title}</h3><p>${c.summary}</p><p style="color:#888">来源：<a href="${c.url||'#'}">${c.url||''}</a></p></div>`).join('')
       : '未找到相关内容';
   }catch(e){
-    box.innerHTML = '搜索失败: ' + e.message;
+    box.innerHTML = '搜索失败: ' + e.message + '（网络不稳定时请稍后重试）';
   }
 }
 function addMsg(role,text){
@@ -427,7 +395,7 @@ function addMsg(role,text){
 async function ask(){
   const q=document.getElementById('q').value.trim();
   if(!q){ addMsg('ai','请输入问题'); return; }
-  if(!ctx){ addMsg('ai','卡片数据尚未加载完成，请等待上方卡片显示后再提问，或点击「搜索补充」获取新内容'); return; }
+  if(!ctx){ addMsg('ai','请先选择上方日期'); return; }
   addMsg('user',q);
   document.getElementById('q').value='';
   const key=ctx.key;
@@ -438,15 +406,46 @@ async function ask(){
     const d=await r.json();
     addMsg('ai',d.answer||'（无回答）');
   }catch(e){
-    addMsg('ai','提问失败: ' + e.message + '，请稍后重试');
+    addMsg('ai','提问失败: ' + e.message + '，网络不稳定时请稍后重试');
   }
 }
-loadList();
+
+(function init(){
+  const sel = document.getElementById('pick');
+  const keys = Object.keys(CONTEXTS);
+  sel.innerHTML = keys.map(k=>`<option value="${k}">${CONTEXTS[k].label||k}</option>`).join('');
+  if(keys.length){
+    switchCtx();
+  } else {
+    document.getElementById('cards').innerHTML='<div class="loading">暂无新闻数据，请等下一期日报生成</div>';
+  }
+})();
 </script>
 </body></html>"""
 
 
 # ─── HTTP 服务 ──────────────────────────────────────────────────────────
+
+def build_page() -> str:
+    """构建页面：把最新几期卡片数据直接内嵌进 HTML（打开即显示，零接口请求）"""
+    try:
+        contexts = {}
+        for item in list_contexts()[:5]:
+            try:
+                ctx = load_context(item["key"])
+                contexts[item["key"]] = {
+                    "key": item["key"],
+                    "label": item.get("label", item["key"]),
+                    "cards": ctx.get("cards", []),
+                }
+            except Exception:
+                continue
+    except Exception:
+        contexts = {}
+    payload = json.dumps(contexts, ensure_ascii=False)
+    payload_escaped = payload.replace("</", "<\\/")
+    return PAGE_TEMPLATE.replace("__CONTEXTS__", payload_escaped)
+
 
 def route_request(method: str, path: str, query: dict, body_raw: str):
     """核心路由逻辑，返回 (status_code, headers, body_bytes)"""
@@ -468,7 +467,7 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
             h = dict(NO_CACHE)
             h.update(CORS)
             h["Content-Type"] = "text/html; charset=utf-8"
-            return 200, h, PAGE.encode("utf-8")
+            return 200, h, build_page().encode("utf-8")
         if path in ("/list", "/api/list"):
             h = dict(NO_CACHE)
             h.update(CORS)
