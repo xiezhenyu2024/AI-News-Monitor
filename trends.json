@@ -992,5 +992,26 @@
     "evidence": "SPADE与Co-RL两篇论文同日发布，均聚焦多智能体/自博弈范式",
     "grassroots": "暂无基层声音，仍处于学术探索阶段",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "AI Agent自我进化：自博弈与多智能体协同成为新焦点",
+    "importance": 5,
+    "evidence": "SPADE和Co-RL两篇论文同日发布，均指向'多样性驱动的自我进化'",
+    "grassroots": "开发者社区对'AI自己训练自己'的讨论热度上升",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "DeepSeek Harness生态爆发，Agent开发进入'插件化'时代",
+    "importance": 5,
+    "evidence": "GitHub Trending前20中6个与DSH生态相关，掘金多篇教程",
+    "grassroots": "开发者反馈'一条命令装595个插件，逛都逛不完'",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "AI安全从'人类写代码有漏洞'转向'AI写代码引入漏洞'",
+    "importance": 4,
+    "evidence": "Wiz Research攻破Snowflake事件中漏洞由Copilot Autofix引入",
+    "grassroots": "开发者讨论'AI写的代码谁来审计'",
+    "date": "2026-08-20"
   }
 ]

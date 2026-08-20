@@ -7,19 +7,19 @@
   "cards": [
     {
       "item_id": 1,
-      "title": "SPADE框架通过自适应合成环境实现语言代理的持续自我改进",
+      "title": "SPADE框架提出自适应合成环境，让语言智能体通过自我对弈持续进化",
       "entities": [
         {
           "name": "SPADE",
-          "explain": "一种让AI通过自我对弈在动态生成的环境中不断学习新技能的训练框架"
+          "explain": "一种新的训练框架，让AI在自动生成的环境中自我对弈，不断产生新目标来提升能力"
         },
         {
-          "name": "语言代理",
-          "explain": "能够理解和执行自然语言指令的AI系统，如聊天机器人或自动化助手"
+          "name": "语言智能体",
+          "explain": "能理解并执行语言指令的AI系统，如聊天机器人或自动化助手"
         }
       ],
-      "summary": "SPADE提出了一种新的训练框架，让语言代理在自适应生成的合成环境中进行自我对弈，从而不断产生多样化的新目标。与传统静态或冻结验证器的方法不同，SPADE能够动态调整目标分布，使代理持续学习新技能。该方法有望解决AI系统在固定任务集上训练后能力停滞的问题。",
-      "relevant": "持续学习是AI领域的关键挑战，SPADE为构建能不断自我进化的智能体提供了新思路",
+      "summary": "SPADE框架通过自我对弈在自适应合成环境中生成多样化目标，解决现有训练环境池目标分布固定的问题。该框架允许语言智能体不断生成新任务并自我挑战，实现持续自我改进。研究展示了这种方法在提升智能体泛化能力上的潜力。",
+      "relevant": "为AI持续学习和自我进化提供了新范式，可能推动通用人工智能发展",
       "source_text": "SPADE: Self-Play in Adaptive Synthetic Executable Environments。Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self",
       "source_title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
       "source_url": "https://arxiv.org/abs/2608.19197v1",
@@ -27,23 +27,23 @@
     },
     {
       "item_id": 2,
-      "title": "ADEPT框架利用强化学习实现机器人灵巧操作技能的模拟到现实迁移",
+      "title": "ADEPT框架实现机器人灵巧操作的大规模强化学习训练",
       "entities": [
         {
           "name": "ADEPT",
-          "explain": "一种大规模强化学习框架，用于训练机器人完成精细的手部操作任务"
+          "explain": "一种加速机器人灵巧操作的训练框架，结合预训练和强化学习"
         },
         {
           "name": "sim-to-real",
-          "explain": "将在模拟环境中训练的技能迁移到真实机器人上的技术"
+          "explain": "将模拟环境中学到的技能迁移到真实机器人上的技术"
         },
         {
           "name": "强化学习",
-          "explain": "一种通过试错和奖励机制训练AI做出决策的机器学习方法"
+          "explain": "AI通过试错和奖励机制学习最优策略的机器学习方法"
         }
       ],
-      "summary": "ADEPT是一个大规模强化学习框架，专门用于训练高自由度机器人完成长时程灵巧操作任务。该框架通过预训练和后续训练两个阶段，学习可在模拟和现实之间迁移的技能。实验表明ADEPT能有效提升机器人执行复杂操作的能力，为机器人灵巧操作领域提供了新的训练范式。",
-      "relevant": "机器人灵巧操作是自动化领域的前沿方向，ADEPT的sim-to-real方法有望加速机器人技术落地",
+      "summary": "ADEPT框架通过预训练和强化学习结合，在多种高自由度机器人上实现可迁移的灵巧操作技能。该框架能解决长时程任务，并成功将模拟训练成果迁移到真实机器人。研究展示了大规模强化学习在机器人领域的应用前景。",
+      "relevant": "推动机器人灵巧操作技术发展，对智能制造和自动化有重要影响",
       "source_text": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning。We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT ",
       "source_title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
       "source_url": "https://arxiv.org/abs/2608.19182v1",
@@ -51,19 +51,19 @@
     },
     {
       "item_id": 3,
-      "title": "新方法通过分组校准蒸馏提升长上下文推理能力",
+      "title": "新型组校准蒸馏方法提升长上下文推理能力",
       "entities": [
         {
           "name": "On-policy distillation",
-          "explain": "一种让小型模型（学生）从大型模型（教师）的输出中学习的技术"
+          "explain": "一种AI训练方法，让学生模型基于自身输出向更强的教师模型学习"
         },
         {
           "name": "长上下文任务",
-          "explain": "需要处理和理解大量文本信息的任务，如长文档问答或复杂推理"
+          "explain": "需要处理和理解大量文本信息的AI任务，如长文档分析"
         }
       ],
-      "summary": "研究者提出了一种分组校准的在线策略蒸馏方法，用于改进长上下文推理任务中的知识迁移。传统方法在长上下文中可能偏向局部合理的回答而忽略全局证据分布，新方法通过分组校准策略解决了这一问题。实验显示该方法能显著提升学生模型在长上下文推理任务上的表现。",
-      "relevant": "长上下文推理是大语言模型的核心能力，该研究为提升模型推理质量提供了新方法",
+      "summary": "研究指出传统on-policy蒸馏在长上下文任务中可能偏好局部合理但遗漏关键证据的响应。提出的组校准方法通过分组校准教师指导，确保学生模型在长上下文中保持全局一致性。实验证明该方法显著提升了推理质量。",
+      "relevant": "改进AI长文本理解能力，对复杂文档处理和信息检索有重要意义",
       "source_text": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning。On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constr",
       "source_title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
       "source_url": "https://arxiv.org/abs/2608.19181v1",
@@ -71,19 +71,19 @@
     },
     {
       "item_id": 5,
-      "title": "可解释AI模型预测2026年夏季中国中部将出现干旱",
+      "title": "可解释AI成功预测2026年夏季中国中部干旱",
       "entities": [
         {
           "name": "可解释AI",
-          "explain": "能够解释其决策过程和原因的AI系统，而非黑箱模型"
+          "explain": "能解释自己决策原因的AI系统，让人类理解其判断依据"
         },
         {
-          "name": "季节性降水异常",
-          "explain": "某个季节的降雨量与历史平均水平的显著偏差"
+          "name": "大气环流",
+          "explain": "大气层中大规模空气流动模式，影响天气和气候"
         }
       ],
-      "summary": "研究者开发了一个深度学习模型，通过翻译大气环流预测来预测季节性降水异常。该模型成功预测2026年夏季中国中部将出现干旱，且其预测过程具有可解释性。这一方法比传统动力学模型更可靠，为气候预测提供了新的工具。",
-      "relevant": "准确的气候预测对农业和灾害预防至关重要，可解释AI为气候科学提供了新视角",
+      "summary": "研究团队利用深度学习模型将大气环流预测转化为降水预测，成功预测2026年夏季中国中部将出现干旱。该模型具有可解释性，能清晰展示预测依据。这一成果展示了AI在气候预测领域的实用价值。",
+      "relevant": "为气候灾害预警提供新工具，对农业和防灾减灾有直接应用价值",
       "source_text": "Interpretable AI predicts a 2026 summer dry anomaly in central China。Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions init",
       "source_title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
       "source_url": "https://arxiv.org/abs/2608.19163v1",
@@ -91,19 +91,19 @@
     },
     {
       "item_id": 7,
-      "title": "Lévy注意力机制为不规则时间序列预测提供不确定性估计",
+      "title": "Lévy注意力机制实现连续时间序列预测的不确定性量化",
       "entities": [
         {
           "name": "Lévy注意力",
-          "explain": "一种基于Lévy过程的注意力机制，能同时给出预测结果和置信度"
+          "explain": "一种新的注意力机制，能同时给出预测结果和置信度"
         },
         {
           "name": "不规则采样时间序列",
-          "explain": "数据点时间间隔不固定的时间序列，如医疗记录或传感器数据"
+          "explain": "数据点时间间隔不固定的时间序列，如医疗监测数据"
         }
       ],
-      "summary": "研究者提出Lévy注意力机制，使深度学习模型在处理不规则采样的时间序列时，不仅能给出预测结果，还能提供每个预测的不确定性估计。该方法通过随机公式化注意力层，在不增加计算成本的情况下实现了这一功能。实验表明该方法在多个数据集上表现优异。",
-      "relevant": "不确定性估计对高风险决策至关重要，该方法为时间序列预测提供了更可靠的置信度",
+      "summary": "研究提出Lévy注意力机制，让深度模型在处理不规则采样时间序列时能同时输出预测和不确定性估计。该方法通过随机公式化注意力层，在任意连续时间点提供预测置信度。实验显示该方法在保持精度的同时有效量化了不确定性。",
+      "relevant": "提升AI在医疗、金融等高风险领域预测的可靠性",
       "source_text": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention。Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also re",
       "source_title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
       "source_url": "https://arxiv.org/abs/2608.19171v1",
@@ -111,19 +111,19 @@
     },
     {
       "item_id": 8,
-      "title": "研究首次实测单个训练样本对预训练模型的贡献",
+      "title": "研究首次精确测量单个训练样本对预训练模型的影响",
       "entities": [
         {
           "name": "反事实实验",
-          "explain": "通过改变一个条件来观察结果变化的实验方法"
+          "explain": "通过改变一个条件观察结果变化的实验方法"
         },
         {
           "name": "预训练",
-          "explain": "在大规模数据上训练AI模型的初始阶段，通常计算成本极高"
+          "explain": "在大规模数据上预先训练AI模型的基础阶段"
         }
       ],
-      "summary": "研究者通过24次完整的预训练反事实实验，首次直接测量了单个训练样本对最终模型的影响。传统方法只能估计这种影响，而该研究通过两次仅差一个样本的完整预训练运行实现了精确测量。结果显示单个样本的影响比预期更复杂，挑战了现有理论假设。",
-      "relevant": "理解训练数据的影响对数据治理和模型可解释性具有重要意义",
+      "summary": "研究团队通过24次完整的预训练反事实实验，首次精确测量了单个训练样本对最终模型的影响。结果显示单个样本的影响可测量但有限，且在不同训练中表现一致。这项研究为理解训练数据价值提供了实证基础。",
+      "relevant": "对理解AI训练数据价值和数据筛选策略有重要理论意义",
       "source_text": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training。A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M param",
       "source_title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
       "source_url": "https://arxiv.org/abs/2608.19168v1",
@@ -135,15 +135,15 @@
       "entities": [
         {
           "name": "神经音频编解码器",
-          "explain": "使用神经网络将音频压缩为离散表示的技术，用于音频生成和传输"
+          "explain": "用神经网络压缩和重建音频的技术，如音频生成模型的基础组件"
         },
         {
-          "name": "RVQ",
-          "explain": "残差向量量化，一种将连续信号转换为离散代码的压缩技术"
+          "name": "残差向量量化",
+          "explain": "一种音频压缩技术，通过多层量化减少信息损失"
         }
       ],
-      "summary": "研究者提出了一种基于几何迭代检索的方法，用于从粗粒度音频编解码器token重建高质量音频。该方法通过迭代检索和几何约束优化，显著提升了重建音频的质量。实验表明该方法优于现有基线，为音频生成领域提供了新的解决方案。",
-      "relevant": "高质量音频重建是语音合成和音乐生成的关键技术，该方法有望提升音频AI应用体验",
+      "summary": "研究提出几何迭代检索方法，解决神经音频编解码器从粗粒度token重建高质量音频的难题。该方法通过迭代检索优化重建过程，显著提升了音频质量。这项技术对音频生成和压缩领域有重要应用价值。",
+      "relevant": "提升AI音频生成质量，对音乐、语音合成等应用有直接影响",
       "source_text": "Geometric Iterative Retrieval for Neural Audio Codec Resynthesis。Neural audio codecs based on Residual Vector Quantization (RVQ) have become the dominant discrete representation for token-based general audio generation, yet resynthesizing high-quality audio from coarse codec tokens remains an open problem and bounds the fidelity of every system that generates the",
       "source_title": "Geometric Iterative Retrieval for Neural Audio Codec Resynthesis",
       "source_url": "https://arxiv.org/abs/2608.19141v1",
@@ -151,19 +151,19 @@
     },
     {
       "item_id": 13,
-      "title": "ChildSafeAds挑战赛聚焦儿童YouTube视频中的商业内容检测",
+      "title": "ChildSafeAds挑战赛：检测面向儿童的YouTube视频中的商业内容",
       "entities": [
         {
-          "name": "ChildSafeAds",
-          "explain": "一个检测面向儿童YouTube视频中商业内容的共享任务"
+          "name": "SponsorBlock",
+          "explain": "开源众包浏览器插件，用于标记和跳过视频中的赞助内容"
         },
         {
-          "name": "SponsorBlock",
-          "explain": "一个开源众包浏览器插件，用于标记和跳过视频中的赞助内容"
+          "name": "YouTube",
+          "explain": "全球最大的视频分享平台"
         }
       ],
-      "summary": "ChildSafeAds共享任务发布了包含3,360个视频、939个频道的数据集，用于检测可能触达儿童和青少年的YouTube视频中的商业内容。每个实例都包含提交给SponsorBlock的片段，为研究者提供了丰富的标注数据。该任务旨在保护儿童免受不当商业内容影响。",
-      "relevant": "儿童在线安全是重要社会议题，该数据集为自动检测商业内容提供了研究基础",
+      "summary": "ChildSafeAds共享任务发布包含3,360个视频的数据集，旨在检测面向儿童和青少年的YouTube视频中的商业内容。该任务利用SponsorBlock众包数据，为保护儿童免受不当商业推广提供技术支持。",
+      "relevant": "保护儿童网络安全，对广告监管和内容审核有重要社会意义",
       "source_text": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos。ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so ",
       "source_title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
       "source_url": "https://arxiv.org/abs/2608.19165v1",
@@ -171,19 +171,19 @@
     },
     {
       "item_id": 15,
-      "title": "Open-MOPD框架解决多教师蒸馏中的能力不平衡问题",
+      "title": "Open-MOPD框架解决多教师蒸馏中的能力失衡问题",
       "entities": [
         {
           "name": "多教师蒸馏",
-          "explain": "让多个专业领域的AI模型共同指导一个通用模型学习的技术"
+          "explain": "让一个学生模型同时向多个专业教师模型学习的训练方法"
         },
         {
-          "name": "能力不平衡",
-          "explain": "不同领域专家在指导通用模型时贡献不均衡的问题"
+          "name": "能力失衡",
+          "explain": "模型在不同领域或任务上表现不一致的现象"
         }
       ],
-      "summary": "研究者提出了Open-MOPD框架，用于诊断和修复多教师在线策略蒸馏中的能力不平衡问题。该框架通过分析各领域专家的贡献，动态调整蒸馏策略，使通用学生模型能更均衡地学习各领域技能。实验表明该方法显著提升了多领域任务的整体表现。",
-      "relevant": "多领域通用AI是重要发展方向，该研究解决了多教师蒸馏中的关键瓶颈",
+      "summary": "研究诊断了多教师on-policy蒸馏中能力失衡的问题，并提出Open-MOPD框架进行修复。该框架通过动态调整教师权重，确保学生模型均衡掌握各领域能力。实验证明该方法显著提升了多领域泛化性能。",
+      "relevant": "提升AI多任务学习能力，对构建通用智能体有重要价值",
       "source_text": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation。Multi-teacher on-policy distillation (M-OPD) has emerged as a promising paradigm for consolidating domain-specialized reinforcement learning (RL) experts into a single generalist student via dense, token-level reward supervision. Despite its practical success, the optimization dynamics governing mul",
       "source_title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
       "source_url": "https://arxiv.org/abs/2608.19098v1",
@@ -191,19 +191,19 @@
     },
     {
       "item_id": 16,
-      "title": "Co-RL方法通过多智能体协作实现无监督推理能力涌现",
+      "title": "Co-RL方法让多智能体强化学习自然涌现推理能力",
       "entities": [
         {
-          "name": "Co-RL",
-          "explain": "一种通过多智能体强化学习让AI自发产生推理能力的方法"
+          "name": "多智能体强化学习",
+          "explain": "多个AI智能体在共享环境中通过交互学习的强化学习方法"
         },
         {
-          "name": "多智能体强化学习",
-          "explain": "多个AI代理在共享环境中通过互动学习协作或竞争的技术"
+          "name": "涌现",
+          "explain": "复杂行为从简单规则交互中自然产生的现象"
         }
       ],
-      "summary": "Co-RL方法通过让多个AI代理在多样化群体中协作，实现了无需外部监督的推理能力涌现。传统强化学习方法依赖可验证的奖励信号，而Co-RL通过代理间的互动和多样性，自发产生了推理能力。该方法为减少对人工标注的依赖提供了新途径。",
-      "relevant": "减少对监督信号的依赖是AI研究的重要方向，Co-RL展示了无监督推理的潜力",
+      "summary": "Co-RL方法通过多样化智能体群体的协作，让推理能力在无监督条件下自然涌现。该方法减少了对人工标注奖励的依赖，在语言和视觉语言模型上均取得显著效果。研究展示了多智能体协作在提升AI推理能力上的潜力。",
+      "relevant": "为减少AI训练对人工标注的依赖提供新思路，推动通用AI发展",
       "source_text": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL。Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce ",
       "source_title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
       "source_url": "https://huggingface.co/papers/",
@@ -502,46 +502,6 @@
       "summary": "Nick 的八岁女儿想制作电子游戏。她不满足于只是玩游戏——她想创造世界。 于是 Nick 给她做了一个&quot;可以制作游戏的游戏&quot;：一个由文字、图片和一门微型脚本语言组成的多人世界。女儿可以在里面拆解一切，看看它们是如何运作的。 他把这个项目叫做 Canon，灵感来自互联网早期那些文字 MUD。 三十年前的 HyperCard Nick 讲这..."
     },
     {
-      "id": "hn_comment_49370569",
-      "source": "HN讨论",
-      "title": "kioleanu 在「Error by AI scribe during medical appoin」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49294441",
-      "summary": "I am shocked by the comments in this thread ranging from “yeah but humans also make mistakes” to “yeah but  how  many mistakes does an AI do compared to a human”. Neither of those is the point here. We have doctors that have employed AI as a software to help them and that software is flawed. I am a software developer and if I write some piece of medical software with bugs that are so blatant in it, I&#x27;d see hell up to potentially being sued into oblivion",
-      "author": "kioleanu"
-    },
-    {
-      "id": "hn_comment_49370886",
-      "source": "HN讨论",
-      "title": "HaloZero 在「Error by AI scribe during medical appoin」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49294441",
-      "summary": "Any doctors in the room, I&#x27;m curious, would this kind of thing show up in an after visit summary report? I&#x27;ve seen that my doctor sends them but they seem AI generated and curious if it&#x27;s just a summary of the transcript they made.",
-      "author": "HaloZero"
-    },
-    {
-      "id": "hn_comment_49370723",
-      "source": "HN讨论",
-      "title": "tanelih 在「Error by AI scribe during medical appoin」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49294441",
-      "summary": "&gt; There&#x27;s evidence that for the first few weeks of using AI, [people] check things pretty carefully and then at a point they stop checking because they assume it will be right. I think this is an issue people often overlook &#x2F; does not get enough weight in the discussion. I do wonder that, when such profound technologies (such as AI, social media) are rolled out, should they be subjected to studies from the &quot;human perspective&quot; for a longer period of time. However, this migh",
-      "author": "tanelih"
-    },
-    {
-      "id": "hn_comment_49370451",
-      "source": "HN讨论",
-      "title": "pizzly 在「Error by AI scribe during medical appoin」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49294441",
-      "summary": "The other side is that I have witnessed doctors making mistakes personally on medical files. They are overworked and only see you for 15 minutes and in a rush to kick you out and so of course they make errors. It would be interesting to compare whether transcription software or humans make the most mistakes. Guessing the answer will be very nuanced such as transcription software failing for accents not trained on, how over worked the clinic is etc.",
-      "author": "pizzly"
-    },
-    {
-      "id": "hn_comment_49370707",
-      "source": "HN讨论",
-      "title": "hypfer 在「Error by AI scribe during medical appoin」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49294441",
-      "summary": "I would be curious as to which (kind of) model they&#x27;ve used there, how the tooling and prompts and all look like, etc. I bet that to make the business case viable (or rather profitable), it&#x27;s probably something small and cheap. Bigger and better models don&#x27;t come with any guarantees as to correctness either, but they do push down the probability of something as wrong as this happening by orders of magnitude. That and processes. Even a smol dumb model can throw a report at both par",
-      "author": "hypfer"
-    },
-    {
       "id": "hn_comment_49370866",
       "source": "HN讨论",
       "title": "smelendez 在「Why Microsoft Entertainment Pack had a s」下的评论",
@@ -590,11 +550,44 @@
       "author": "cdrnsf"
     },
     {
-      "id": "hn_49294441",
-      "source": "Hacker News",
-      "title": "Error by AI scribe during medical appointment leaves patient devastated",
-      "url": "https://www.abc.net.au/news/2026-08-14/ai-medical-scribe-error-leaves-patient-devastated/107031672",
-      "summary": ""
+      "id": "hn_comment_49364238",
+      "source": "HN讨论",
+      "title": "monitron 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "This was fascinating, thank you. I expected to read about legal threats against the folks collecting this data and am glad that those didn&#x27;t materialize. Also I only realized after finishing the article what a breath of fresh air it was to read something that came straight from another human&#x27;s brain without LLM intermediation. Thank you to the author for that too.",
+      "author": "monitron"
+    },
+    {
+      "id": "hn_comment_49362670",
+      "source": "HN讨论",
+      "title": "xur17 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "It&#x27;s fun to see habhub in an article. ~10 years ago a group of friends and I launched 2 weather balloons for fun with a GPS logger, APRS transmitter, and a few sensors, and then retrieved it afterwards. I have a bunch of memorable experiences from it, including: 1. Under inflating the first balloon because our helium provider was closed, and instead buying lower pressure &quot;party&quot; balloon containers (and not realizing until too late that lower pressure meant more helium left in the ",
+      "author": "xur17"
+    },
+    {
+      "id": "hn_comment_49363706",
+      "source": "HN讨论",
+      "title": "Firefishy 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "I am part of the team which runs the OpenStreetMap.org infrastructure, we also get a lot of weird and wonderful requests &#x2F; emails. .mil, .gov, .edu and GeoTLD variants. I should really do a write-up sometime.",
+      "author": "Firefishy"
+    },
+    {
+      "id": "hn_comment_49364844",
+      "source": "HN讨论",
+      "title": "wongarsu 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "&quot;Our transmitters shut down after a certain period of time, at the latest when the battery capacity is exhausted. This is due, among other things, to strategic considerations.&quot; Among other things. And this was the most sane part of Meteolabor&#x27;s email",
+      "author": "wongarsu"
+    },
+    {
+      "id": "hn_comment_49361804",
+      "source": "HN讨论",
+      "title": "iamnothere 在「A joke domain purchase turned in geopoli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49360015",
+      "summary": "The part where he gets contacted over the hit-and-run reads like the curl guy’s experience with people investigating “hacking”. I wonder how often this happens outside of software? Do fence manufacturers get emails asking to identify the culprit when someone crashes through a fence?",
+      "author": "iamnothere"
     },
     {
       "id": "hn_49367350",
@@ -632,13 +625,6 @@
       "summary": ""
     },
     {
-      "id": "hn_49362728",
-      "source": "Hacker News",
-      "title": "Mathematics in the age of AI",
-      "url": "https://arxiv.org/abs/2608.16753",
-      "summary": ""
-    },
-    {
       "id": "hn_49363710",
       "source": "Hacker News",
       "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
@@ -646,11 +632,25 @@
       "summary": "Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox"
     },
     {
+      "id": "hn_49362728",
+      "source": "Hacker News",
+      "title": "Mathematics in the age of AI",
+      "url": "https://arxiv.org/abs/2608.16753",
+      "summary": ""
+    },
+    {
+      "id": "hn_49363668",
+      "source": "Hacker News",
+      "title": "Extensible Software in the age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "summary": ""
+    },
+    {
       "id": "gh_1334586481",
       "source": "GitHub Trending",
       "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
       "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "summary": "⭐ 6357 | 🍴 114 | PowerShell"
+      "summary": "⭐ 6359 | 🍴 114 | PowerShell"
     },
     {
       "id": "gh_1334245678",
@@ -664,21 +664,21 @@
       "source": "GitHub Trending",
       "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
       "url": "https://github.com/yetone/cumora",
-      "summary": "⭐ 2723 | 🍴 315 | TypeScript"
+      "summary": "⭐ 2724 | 🍴 315 | TypeScript"
     },
     {
       "id": "gh_1338470635",
       "source": "GitHub Trending",
       "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
       "url": "https://github.com/s1dashu/ip-as-logo-skill",
-      "summary": "⭐ 2367 | 🍴 106 | None"
+      "summary": "⭐ 2373 | 🍴 107 | None"
     },
     {
       "id": "gh_1333807290",
       "source": "GitHub Trending",
       "title": "dsh-market/dsh-market - The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
       "url": "https://github.com/dsh-market/dsh-market",
-      "summary": "⭐ 1317 | 🍴 79 | TypeScript"
+      "summary": "⭐ 1321 | 🍴 79 | TypeScript"
     },
     {
       "id": "gh_1337089243",
@@ -692,7 +692,7 @@
       "source": "GitHub Trending",
       "title": "ZSvirt/zsvirt - Core IaaS engine and cloud infrastructure foundation of ZSvirt",
       "url": "https://github.com/ZSvirt/zsvirt",
-      "summary": "⭐ 1092 | 🍴 155 | Java"
+      "summary": "⭐ 1093 | 🍴 155 | Java"
     },
     {
       "id": "gh_1333742677",
@@ -720,28 +720,28 @@
       "source": "GitHub Trending",
       "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "⭐ 169393 | 🍴 18168 | TypeScript"
+      "summary": "⭐ 169446 | 🍴 18177 | TypeScript"
     },
     {
       "id": "gh_1322012299",
       "source": "GitHub Trending",
       "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
       "url": "https://github.com/firecrawl/anydoc",
-      "summary": "⭐ 17324 | 🍴 994 | Rust"
+      "summary": "⭐ 17326 | 🍴 995 | Rust"
     },
     {
       "id": "gh_1333321333",
       "source": "GitHub Trending",
       "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "summary": "⭐ 15638 | 🍴 747 | TypeScript"
+      "summary": "⭐ 15652 | 🍴 747 | TypeScript"
     },
     {
       "id": "gh_1331135699",
       "source": "GitHub Trending",
       "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "summary": "⭐ 15453 | 🍴 1743 | Python"
+      "summary": "⭐ 15456 | 🍴 1743 | Python"
     },
     {
       "id": "gh_1316527318",
@@ -755,14 +755,14 @@
       "source": "GitHub Trending",
       "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "summary": "⭐ 10219 | 🍴 1504 | Python"
+      "summary": "⭐ 10228 | 🍴 1505 | Python"
     },
     {
       "id": "gh_1318768894",
       "source": "GitHub Trending",
       "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "url": "https://github.com/trycompai/crm",
-      "summary": "⭐ 8687 | 🍴 1041 | TypeScript"
+      "summary": "⭐ 8687 | 🍴 1043 | TypeScript"
     },
     {
       "id": "gh_1313576395",
@@ -776,8 +776,8 @@
       "source": "GitHub Trending",
       "title": "MiniMax-AI/MiniMax-H3 - 无描述",
       "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "summary": "⭐ 6413 | 🍴 393 | Python"
+      "summary": "⭐ 6414 | 🍴 393 | Python"
     }
   ],
-  "generated_at": "2026-08-20 14:00"
+  "generated_at": "2026-08-20 14:08"
 }
