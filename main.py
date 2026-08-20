@@ -1277,21 +1277,147 @@ def save_docs(now_str: str, session: str, label: str, cards: list,
     with open(f"docs/context-{key}.json", "w", encoding="utf-8") as f:
         json.dump(ctx, f, ensure_ascii=False, indent=2)
 
-    # 重建 index.html
+    # 重建 index.html（完整应用页：卡片浏览 + 追问 + 搜索）
     entries = sorted(
         f.replace("report-", "").replace(".html", "")
         for f in os.listdir("docs") if f.startswith("report-") and f.endswith(".html")
     )
-    links = "".join(
-        f"<li><a href='report-{e}.html'>卡片版</a> · <a href='long-{e}.html'>长文版</a></li>"
-        for e in reversed(entries)
-    )
+    keys_json = json.dumps(list(reversed(entries)), ensure_ascii=False)
     index = f"""<!DOCTYPE html>
-<html lang="zh"><head><meta charset="utf-8"><title>新闻存档</title>
-<style>body{{font-family:-apple-system,'Microsoft YaHei',sans-serif;max-width:700px;margin:0 auto;padding:16px}}
-li{{margin:6px 0}}</style></head>
-<body><h2>📰 新闻存档</h2><ul>{links}</ul>
-<p style='color:#888;font-size:13px'>每期含卡片版和长文版，问答服务见手机端</p></body></html>"""
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>新闻问答</title>
+<style>
+*{{box-sizing:border-box}}
+body{{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;max-width:820px;margin:0 auto;padding:14px;background:#f7f7f8;color:#222}}
+.top{{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}}
+h2{{margin:0;font-size:18px}}
+select{{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;border-radius:8px;background:#fff}}
+.tab{{display:flex;gap:6px;margin-bottom:12px}}
+.tab button{{flex:1;padding:9px;font-size:14px;border:1px solid #ddd;border-radius:8px;background:#fff;cursor:pointer}}
+.tab button.on{{background:#0b57d0;color:#fff;border-color:#0b57d0}}
+.card{{background:#fff;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.08)}}
+.card h3{{margin:0 0 6px;font-size:15px}}
+.card p{{font-size:13px;line-height:1.7;margin:4px 0}}
+.card .ask{{margin-top:8px;font-size:12px;color:#0b57d0;background:#eef3fd;border:none;border-radius:6px;padding:5px 10px;cursor:pointer}}
+.chat{{background:#fff;border-radius:10px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-top:14px}}
+.msg{{margin:8px 0;padding:10px 12px;border-radius:8px;font-size:14px;line-height:1.7;white-space:pre-wrap}}
+.user{{background:#0b57d0;color:#fff;margin-left:40px}}
+.ai{{background:#f4f6fa;margin-right:40px}}
+.inputrow{{display:flex;gap:8px;margin-top:10px}}
+input{{flex:1;padding:10px;font-size:14px;border:1px solid #ddd;border-radius:8px}}
+button{{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:none;border-radius:8px;cursor:pointer}}
+.hint{{color:#888;font-size:12px;margin:4px 0 10px}}
+.loading{{color:#888;font-size:13px;text-align:center;padding:20px}}
+</style>
+</head>
+<body>
+<div class="top">
+  <h2>📰 新闻问答</h2>
+  <select id="pick" onchange="loadCtx()"></select>
+</div>
+<div class="tab">
+  <button id="tabCards" class="on" onclick="switchTab('cards')">今日卡片</button>
+  <button id="tabSearch" onclick="switchTab('search')">搜索补充</button>
+</div>
+<div id="cards"></div>
+<div id="search" style="display:none">
+  <div class="inputrow">
+    <input id="skw" placeholder="输入关键词，从新闻源搜索新内容">
+    <button onclick="doSearch()">搜索</button>
+  </div>
+  <div id="sres" class="hint" style="margin-top:10px"></div>
+</div>
+<div class="chat">
+  <b>💬 追问</b>
+  <p class="hint">基于当天全部新闻原文回答，点卡片「问这条」快速提问。</p>
+  <div id="msgs"></div>
+  <div class="inputrow">
+    <input id="q" placeholder="输入问题，如：第三条新闻里那家公司是做什么的？" onkeydown="if(event.key==='Enter')ask()">
+    <button onclick="ask()">提问</button>
+  </div>
+</div>
+<script>
+const KEYS = {keys_json};
+const API = "https://1471673999-3ypqvp16ev.ap-guangzhou.tencentscf.com";
+let ctx = null;
+function showCards(msg){{ document.getElementById('cards').innerHTML = '<div class="loading">' + msg + '</div>'; }}
+async function loadCtx(){{
+  const key = document.getElementById('pick').value;
+  if(!key) return;
+  showCards('加载中…');
+  try{{
+    const r = await fetch('context-' + key + '.json', {{cache:'no-store'}});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    ctx = await r.json();
+    if(!ctx.cards || !ctx.cards.length){{ showCards('该期无卡片数据'); return; }}
+    document.getElementById('cards').innerHTML =
+      ctx.cards.map((c,i)=>{{
+        const ents=(c.entities||[]).map(e=>`<p><b>${{e.name}}</b>：${{e.explain}}</p>`).join('');
+        const rel=c.relevant?`<p style="color:#0b57d0">与你相关：${{c.relevant}}</p>`:'';
+        return `<div class="card"><h3>#${{i+1}} ${{c.title}}</h3>${{ents}}<p>${{c.summary}}</p>${{rel}}<button class="ask" onclick="askAbout(${{i+1}})">问这条</button></div>`;
+      }}).join('');
+  }}catch(e){{
+    showCards('加载失败: ' + e.message);
+  }}
+}}
+function askAbout(n){{ document.getElementById('q').value='第'+n+'条：'; }}
+function switchTab(t){{
+  document.getElementById('cards').style.display = t==='cards' ? '' : 'none';
+  document.getElementById('search').style.display = t==='search' ? '' : 'none';
+  document.getElementById('tabCards').className = t==='cards' ? 'on' : '';
+  document.getElementById('tabSearch').className = t==='search' ? 'on' : '';
+}}
+async function doSearch(){{
+  const kw = document.getElementById('skw').value.trim();
+  if(!kw) return;
+  const box = document.getElementById('sres');
+  box.innerHTML = '搜索中…';
+  try{{
+    const r = await fetch(API + '/search',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{keyword:kw}})}});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    box.innerHTML = d.cards.length
+      ? d.cards.map((c,i)=>`<div class="card"><h3>#${{i+1}} ${{c.title}}</h3><p>${{c.summary}}</p><p style="color:#888">来源：<a href="${{c.url||'#'}}">${{c.url||''}}</a></p></div>`).join('')
+      : '未找到相关内容';
+  }}catch(e){{
+    box.innerHTML = '搜索失败: ' + e.message + '（网络不稳定时请稍后重试）';
+  }}
+}}
+function addMsg(role,text){{
+  const d=document.createElement('div');
+  d.className='msg '+role;
+  d.textContent=text;
+  document.getElementById('msgs').appendChild(d);
+}}
+async function ask(){{
+  const q=document.getElementById('q').value.trim();
+  if(!q){{ addMsg('ai','请输入问题'); return; }}
+  if(!ctx){{ addMsg('ai','请先选择上方日期'); return; }}
+  addMsg('user',q);
+  document.getElementById('q').value='';
+  const key=ctx.key;
+  const history=[...document.querySelectorAll('#msgs .msg')].slice(-8).map(m=>({{role:m.classList.contains('user')?'user':'assistant',content:m.textContent}}));
+  try{{
+    const r=await fetch(API + '/ask',{{method:'POST',headers:{{'Content-Type':'application/json'}},body:JSON.stringify({{key,question:q,history}})}});
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const d=await r.json();
+    addMsg('ai',d.answer||'（无回答）');
+  }}catch(e){{
+    addMsg('ai','提问失败: ' + e.message + '，网络不稳定时请稍后重试');
+  }}
+}}
+(function init(){{
+  const sel = document.getElementById('pick');
+  sel.innerHTML = KEYS.map(k=>`<option value="${{k}}">${{k}}</option>`).join('');
+  if(KEYS.length){{ loadCtx(); }}
+  else {{ showCards('暂无新闻数据，请等下一期日报生成'); }}
+}})();
+</script>
+</body></html>"""
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(index)
     log(f"  已存档: docs/report-{key}.html + long-{key}.html + context-{key}.json")
