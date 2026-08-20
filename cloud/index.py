@@ -118,10 +118,10 @@ def chat(system: str, msgs: list[dict]) -> str:
 
 
 def answer_question(ctx: dict, question: str, history: list) -> str:
-    items = ctx.get("items", [])
+    items = ctx.get("items", [])[:25]  # 限制新闻条数，防止超出模型上下文
     cards = ctx.get("cards", [])
     full_text = "\n".join(
-        f"[{it['source']}] {it['title']}\n  详情: {it.get('summary','')}\n  URL: {it.get('url','')}"
+        f"[{it['source']}] {it['title']}\n  详情: {it.get('summary','')[:200]}\n  URL: {it.get('url','')}"
         for it in items)
     cards_text = "\n".join(
         f"#{i+1} {c.get('title','')}\n  关键实体: {json.dumps(c.get('entities',[]), ensure_ascii=False)}\n  摘要: {c.get('summary','')}"
@@ -158,8 +158,13 @@ def answer_question(ctx: dict, question: str, history: list) -> str:
 - 第一步到第四步输出在当前回答中；第五步的"等用户回答后"表示：如果用户继续追问，则在下一轮给出明确判断。
 - 如果用户的问题只是事实查询（如"这条新闻说了什么"），直接回答即可，不需要启用钢人论证。
 - 如果用户明确说"简单回答""一句话"，则跳过该框架。"""
-    msgs = [{"role": m["role"], "content": m["content"]} for m in (history or [])[-20:]]
-    msgs.append({"role": "user", "content": question})
+    msgs = []
+    for m in (history or [])[-6:]:  # 只带最近6轮
+        content = m.get("content", "")
+        if len(content) > 800:  # 每条历史截断，防止请求体超限
+            content = content[:800] + "…（已截断）"
+        msgs.append({"role": m["role"], "content": content})
+    msgs.append({"role": "user", "content": question[:1000]})
     return chat(system, msgs)
 
 
@@ -416,7 +421,7 @@ async function ask(){
   addMsg('user',q);
   document.getElementById('q').value='';
   const key=ctx.key;
-  const history=[...document.querySelectorAll('#msgs .msg')].slice(-40).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:m.textContent}));
+  const history=[...document.querySelectorAll('#msgs .msg')].slice(-12).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:(m.textContent||'').slice(0,800)}));
   try{
     const r=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
