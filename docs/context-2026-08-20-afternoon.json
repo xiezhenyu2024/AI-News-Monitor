@@ -6,253 +6,287 @@
   "source_count": 10,
   "cards": [
     {
-      "title": "研究揭示自我改进AI代理的脆弱性：方差、任务顺序与规范不足是关键问题",
+      "title": "AI科学家OmniScientist发布：全能模态、全能学科的AI科研助手",
       "entities": [
         {
-          "name": "自我改进AI代理",
-          "explain": "能够从在线任务流中学习并通过维护文本记忆库随时间提升能力的AI系统"
+          "name": "OmniScientist",
+          "explain": "一个能够自动完成科研全流程的AI系统，从提出假设到撰写论文"
         },
         {
-          "name": "文本记忆库",
-          "explain": "AI代理存储和检索过往经验信息的文本形式数据库"
+          "name": "基础模型",
+          "explain": "大规模预训练的AI模型，如GPT、BERT等，是AI应用的核心技术底座"
         }
       ],
-      "summary": "该研究探讨了基于记忆的自我改进AI代理的可靠性问题，发现这些系统在方差、任务顺序和规范不足方面存在显著脆弱性。研究指出，尽管这类代理在文献中展现出潜力，但其性能可能因任务顺序变化而大幅波动，且缺乏明确的规范约束可能导致不可预测的行为。",
-      "relevant": "自我改进AI是通往通用人工智能的关键路径，理解其脆弱性对构建可靠AI系统至关重要。"
+      "summary": "OmniScientist是一个全能模态、全能学科的AI科学家系统，能够自动化完成从假设生成、代码执行到论文撰写的完整科研流程。该系统的发布标志着AI在科研自动化领域迈出了重要一步，有望大幅提升科研效率。",
+      "relevant": "AI科研自动化是当前AI领域最前沿的方向之一，OmniScientist代表了这一领域的最新突破，对科研工作者和AI开发者都具有重要参考价值。"
     },
     {
-      "title": "多代理AI系统在放射科报告结构化与质控中展现潜力，独立放射科医生评估验证",
+      "title": "SPADE框架发布：让AI通过自我对弈实现持续自我提升",
       "entities": [
         {
-          "name": "多代理AI系统",
-          "explain": "由多个AI代理协同工作完成复杂任务的系统，每个代理负责特定子任务"
+          "name": "SPADE",
+          "explain": "一种让AI通过自我对弈生成多样化目标来持续提升能力的训练框架"
         },
         {
-          "name": "CT检查",
-          "explain": "计算机断层扫描，一种利用X射线生成人体横断面图像的医学影像技术"
+          "name": "语言智能体",
+          "explain": "能够理解和生成自然语言的AI系统，如ChatGPT等"
         }
       ],
-      "summary": "研究开发并评估了一个本地部署的多代理AI系统，用于放射科报告的结构化和质量保证。该回顾性研究包含638份胸部、腹部等CT检查报告，独立放射科医生对系统输出进行了评估，结果显示该系统在报告结构化方面表现良好，有望提升放射科工作效率和报告质量。",
-      "relevant": "医疗AI落地是当前热点，多代理系统在临床文档处理中的应用具有实际价值。"
+      "summary": "SPADE提出了一种新的训练框架，让语言智能体通过自我对弈在自适应合成环境中生成多样化目标，从而突破现有训练环境池目标分布固定的局限。这一方法有望实现AI的持续自我改进。",
+      "relevant": "持续自我提升是AI领域追求的重要目标，SPADE为解决这一难题提供了新思路，对AI训练方法的发展具有重要影响。"
     },
     {
-      "title": "TokEval发布：首个全面的语言模型分词器评估套件",
+      "title": "ADEPT框架发布：强化学习加速机器人灵巧操作技能学习",
       "entities": [
         {
-          "name": "分词器",
-          "explain": "将文本分割成模型可处理的基本单元（如单词或子词）的组件，是语言模型的基础部分"
+          "name": "ADEPT",
+          "explain": "一种通过预训练和后训练加速机器人灵巧操作学习的强化学习框架"
         },
         {
-          "name": "语言模型",
-          "explain": "基于深度学习的人工智能模型，能够理解和生成人类语言"
+          "name": "强化学习",
+          "explain": "一种让AI通过试错和奖励机制学习决策的机器学习方法"
+        },
+        {
+          "name": "模拟到现实迁移",
+          "explain": "将在模拟环境中训练的技能迁移到真实机器人上的技术"
         }
       ],
-      "summary": "TokEval是一个专门用于评估语言模型分词器的套件，填补了该领域缺乏系统评估工具的空白。研究指出，分词器的设计选择直接影响模型能力，但通常仅被最小化评估。该套件旨在帮助研究者理解分词器属性对模型性能的具体影响，从而优化分词策略。",
-      "relevant": "分词器是语言模型的基础组件，其优化可直接影响模型性能和效率。"
+      "summary": "ADEPT是一个大规模强化学习框架，用于学习可在模拟和现实间迁移的机器人灵巧操作技能。该框架支持高自由度机器人完成长时程任务，有望加速机器人从模拟训练到实际应用的转化。",
+      "relevant": "机器人灵巧操作是机器人技术的核心难题，ADEPT为这一领域提供了新的解决方案，对智能制造和自动化具有重要价值。"
     },
     {
-      "title": "SkillForge：通过自蒸馏让AI代理掌握项目特定知识，提升代码问题解决能力",
+      "title": "AI预测中国中部2026年夏季干旱，可解释性模型助力气候预警",
       "entities": [
         {
-          "name": "自蒸馏",
-          "explain": "一种让模型从自身输出中学习的技术，用于提取和强化特定知识"
+          "name": "深度学习模型",
+          "explain": "一种通过多层神经网络学习数据模式的AI技术"
         },
         {
-          "name": "代码仓库",
-          "explain": "存储和管理软件源代码的中央位置，通常包含多个项目文件和历史版本"
+          "name": "大气环流",
+          "explain": "大气层中大规模空气流动的规律，是影响天气和气候的重要因素"
         }
       ],
-      "summary": "SkillForge提出了一种新方法，使基于大语言模型的AI代理能够通过自蒸馏学习项目特定知识，从而更有效地解决特定代码仓库中的问题。现有代理常因缺乏项目背景知识而难以处理特定仓库的issue，SkillForge通过自我提炼机制增强了代理的项目理解能力。",
-      "relevant": "提升AI在真实软件开发场景中的实用性，对自动化编程和代码维护有重要意义。"
+      "summary": "研究人员开发了一种可解释的深度学习模型，通过将大气环流预测转化为降水预测，成功预测了中国中部地区2026年夏季将出现干旱。该模型比传统动力模型在降水预测上更具可靠性。",
+      "relevant": "气候预测对农业生产和灾害预防至关重要，这项研究展示了AI在气候预测领域的应用潜力，具有重要的社会价值。"
     },
     {
-      "title": "StagedWorkspace：为知识工作AI代理设计的版本化工作空间",
+      "title": "Lévy Attention提出：为不规则时间序列预测提供不确定性估计",
       "entities": [
         {
-          "name": "知识工作",
-          "explain": "涉及创造、处理和修改信息的工作，如编写代码、撰写文档、制作报告等"
+          "name": "Lévy Attention",
+          "explain": "一种新的注意力机制，能够为不规则采样时间序列的预测提供不确定性估计"
         },
         {
-          "name": "版本化",
-          "explain": "对文件或内容的不同版本进行管理和追踪，便于回溯和协作"
+          "name": "时间序列",
+          "explain": "按时间顺序排列的数据点序列，如股票价格、气象数据等"
         }
       ],
-      "summary": "StagedWorkspace为执行知识工作的AI代理提供了一个版本化的工作空间，解决了代理在搜索、编辑和修改数字工件（如代码、文档、表格）时面临的视图不一致问题。该设计使代理能够更有效地管理和追踪其工作成果，提升知识工作的质量和可追溯性。",
-      "relevant": "随着AI代理越来越多地参与知识工作，版本化管理成为确保工作质量和协作效率的关键。"
+      "summary": "Lévy Attention提出了一种新的注意力机制，能够为不规则采样的时间序列预测提供单次前向传播的不确定性估计。这一方法填补了现有模型在预测可信度报告方面的空白。",
+      "relevant": "不确定性估计是AI系统可靠性的关键，这一研究对金融、医疗等高风险领域的时间序列预测具有重要应用价值。"
     },
     {
-      "title": "HLSR提出混合实时预测选择性动态车辆重路由方案，缓解城市交通拥堵",
+      "title": "研究揭示：单个训练样本对AI模型的影响可被精确测量",
       "entities": [
         {
-          "name": "动态车辆重路由",
-          "explain": "根据实时交通状况动态调整车辆行驶路线的技术，以避开拥堵路段"
+          "name": "反事实实验",
+          "explain": "通过改变一个条件来观察结果变化的实验方法"
         },
         {
-          "name": "实时交通预测",
-          "explain": "利用历史数据和实时信息预测未来一段时间内的交通流量和拥堵情况"
+          "name": "预训练",
+          "explain": "在大规模数据上训练AI模型的基础阶段"
         }
       ],
-      "summary": "HLSR方案针对城市交通拥堵问题，提出了一种混合实时预测选择性动态车辆重路由方法。与假设所有车辆都重新规划路线的传统方法不同，HLSR通过选择性重路由部分车辆，在保持网络效率的同时降低了计算和通信成本，为实际部署提供了可行方案。",
-      "relevant": "城市交通拥堵是普遍难题，该研究为智能交通管理提供了更实用的技术路径。"
+      "summary": "研究人员通过24次完整的预训练反事实实验，精确测量了单个训练样本对最终模型的影响。这一研究打破了以往只能估计样本贡献的局限，为理解AI训练过程提供了新的视角。",
+      "relevant": "理解训练数据对模型的影响是AI可解释性和数据治理的重要课题，这项研究为数据影响分析提供了新的方法论。"
     },
     {
-      "title": "研究提出叙事诱导语义可塑性与相位敏感解释，揭示语言的双参数特性",
+      "title": "Open-MOPD提出：解决多教师知识蒸馏中的能力不平衡问题",
       "entities": [
         {
-          "name": "词嵌入",
-          "explain": "将词语映射为高维向量以捕捉语义关系的技术，是NLP的基础方法"
+          "name": "知识蒸馏",
+          "explain": "将大型AI模型的知识转移到小型模型的技术"
         },
         {
-          "name": "注意力权重",
-          "explain": "模型在处理序列时分配给不同位置信息的权重，用于突出重要部分"
+          "name": "多教师蒸馏",
+          "explain": "使用多个专业AI模型共同训练一个通用模型的方法"
         }
       ],
-      "summary": "该研究提出语言具有两个参数：振幅（通过词共现频率估计的关联强度）和相位（受叙事上下文影响的语义可塑性）。研究认为，传统的词嵌入和注意力机制仅捕捉了振幅，忽略了叙事诱导的语义变化，这一发现可能改变对语言理解和生成模型的认知。",
-      "relevant": "对语言本质的新理解可能推动NLP模型设计的根本性变革。"
+      "summary": "Open-MOPD研究了多教师在线策略蒸馏中能力不平衡的问题，并提出了诊断和修复方法。该研究旨在将多个领域专家模型整合为一个通用模型，同时避免能力失衡。",
+      "relevant": "模型整合是AI领域的重要研究方向，Open-MOPD为构建更均衡的通用AI模型提供了新的解决方案。"
     },
     {
-      "title": "Chain-of-Experience：让大语言模型通过推理时交互持续学习改进",
+      "title": "ChildSafeAds共享任务发布：检测儿童视频中的商业内容",
       "entities": [
         {
-          "name": "大语言模型",
-          "explain": "基于海量文本训练的大型神经网络模型，能理解和生成自然语言"
+          "name": "ChildSafeAds",
+          "explain": "一个检测YouTube儿童视频中商业内容的共享任务"
         },
         {
-          "name": "推理时交互",
-          "explain": "模型在回答问题时与用户或环境进行多轮交互，而非一次性给出答案"
+          "name": "SponsorBlock",
+          "explain": "一个开源的众包浏览器插件，用于标记视频中的赞助内容"
         }
       ],
-      "summary": "Chain-of-Experience研究了大语言模型如何在测试时通过迭代经验学习来改进表现。与传统评估忽略模型交互学习能力不同，该研究探索了模型在推理过程中从经验中学习的方法，为提升LLM的适应性和持续改进能力提供了新思路。",
-      "relevant": "该研究挑战了传统LLM评估范式，对开发更智能、更适应性的AI系统有重要启示。"
+      "summary": "ChildSafeAds共享任务发布了包含3,360个视频的数据集，旨在检测可能触达儿童和青少年的YouTube视频中的商业内容。该任务利用SponsorBlock的众包数据，为儿童内容安全提供技术支持。",
+      "relevant": "儿童网络安全是重要的社会议题，这项研究为保护儿童免受不当商业内容影响提供了AI解决方案。"
+    },
+    {
+      "title": "Hacktoberfest 2026启动：AI属于每个人",
+      "entities": [
+        {
+          "name": "Hacktoberfest",
+          "explain": "每年十月举行的开源贡献活动，鼓励开发者参与开源项目"
+        },
+        {
+          "name": "MLH",
+          "explain": "Major League Hacking，一个支持学生开发者社区的组织"
+        }
+      ],
+      "summary": "Hacktoberfest 2026由MLH和DEV合作启动，主题为'AI属于每个人'。活动旨在鼓励开发者参与AI相关的开源项目，推动AI技术的普及和民主化。",
+      "relevant": "开源社区是AI技术发展的重要推动力，这一活动将促进AI技术的普及和社区参与。"
+    },
+    {
+      "title": "研究提出：用几何迭代检索提升神经音频编解码器音质",
+      "entities": [
+        {
+          "name": "神经音频编解码器",
+          "explain": "使用AI技术压缩和重建音频的系统，如音频生成模型"
+        },
+        {
+          "name": "残差向量量化",
+          "explain": "一种将音频信号压缩为离散代码的技术，是音频生成的基础"
+        }
+      ],
+      "summary": "研究人员提出了一种几何迭代检索方法，用于提升从粗粒度编解码器令牌重建高质量音频的效果。该方法解决了神经音频编解码器在音频重建中的质量瓶颈。",
+      "relevant": "高质量音频生成是AI音频应用的关键，这项研究对语音合成、音乐生成等领域具有重要价值。"
     }
   ],
   "items": [
     {
-      "id": "arxiv_f294c42a17df",
+      "id": "arxiv_047a0dfc0567",
       "source": "ArXiv cs.AI",
-      "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
-      "url": "https://arxiv.org/abs/2608.18076v1",
-      "summary": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterog",
-      "author": "Xingjian Wang, Zhao Wang, Taihang Hu"
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "url": "https://arxiv.org/abs/2608.19197v1",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self",
+      "author": "Bo Liu, Simon Yu, Yiding Jiang"
     },
     {
-      "id": "arxiv_7c864ab6a3d8",
+      "id": "arxiv_3d968bafd091",
       "source": "ArXiv cs.AI",
-      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-      "url": "https://arxiv.org/abs/2608.18066v1",
-      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
-      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.19182v1",
+      "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT ",
+      "author": "Jayjun Lee, Jessica Yin, Asif Rana"
     },
     {
-      "id": "arxiv_350e3dfbc21a",
+      "id": "arxiv_1f8ff3d31fdc",
       "source": "ArXiv cs.AI",
-      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
-      "url": "https://arxiv.org/abs/2608.18058v1",
-      "summary": "Autonomous LLM agents that converse on a user's behalf are an emerging design pattern in matching platforms, yet their viability depends on a condition rarely examined: users must accept not only delegating conversation to an agent, but also receiving agent-mediated communication from others. We stu",
-      "author": "Daria Leshchikova, Valentina V. Kuskova, Dmitry Zaytsev"
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2608.19181v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constr",
+      "author": "Zhu Zhang, Jixun Wang, Xiaoang Xu"
     },
     {
-      "id": "arxiv_02f8d90e23f9",
+      "id": "arxiv_ca577e3a6db8",
       "source": "ArXiv cs.AI",
-      "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
-      "url": "https://arxiv.org/abs/2608.18056v1",
-      "summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybr",
-      "author": "Xiao Wang, Shun Ren Yang, Hui Nien Hung"
+      "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+      "url": "https://arxiv.org/abs/2608.19174v1",
+      "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-h",
+      "author": "Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang"
     },
     {
-      "id": "arxiv_500d85131b8a",
+      "id": "arxiv_ad682fc53be2",
       "source": "ArXiv cs.AI",
-      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
-      "url": "https://arxiv.org/abs/2608.18050v1",
-      "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to",
-      "author": "Yining Hua, Hongbin Na, Yifan Zhou"
+      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+      "url": "https://arxiv.org/abs/2608.19163v1",
+      "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions init",
+      "author": "Anran Wang, Wen Shi, Yong Luo"
     },
     {
-      "id": "arxiv_7c864ab6a3d8",
+      "id": "arxiv_1f8ff3d31fdc",
       "source": "ArXiv cs.LG",
-      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-      "url": "https://arxiv.org/abs/2608.18066v1",
-      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
-      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2608.19181v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constr",
+      "author": "Zhu Zhang, Jixun Wang, Xiaoang Xu"
     },
     {
-      "id": "arxiv_54207366005f",
+      "id": "arxiv_b669b79d7268",
       "source": "ArXiv cs.LG",
-      "title": "TokEval: A Tokenizer Evaluation Suite",
-      "url": "https://arxiv.org/abs/2608.18062v1",
-      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce",
-      "author": "Clara Meister"
+      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "url": "https://arxiv.org/abs/2608.19171v1",
+      "summary": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also re",
+      "author": "Sotirios P. Chatzis, Loukas Papadoulas"
     },
     {
-      "id": "arxiv_cff311b006ee",
+      "id": "arxiv_af1f16498b21",
       "source": "ArXiv cs.LG",
-      "title": "The concentration game: Bayesian updating, regret, and information",
-      "url": "https://arxiv.org/abs/2608.18061v1",
-      "summary": "We give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal",
-      "author": "Akshay Balsubramani"
+      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+      "url": "https://arxiv.org/abs/2608.19168v1",
+      "summary": "A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M param",
+      "author": "Zachary Speck, Asa Shepard"
     },
     {
-      "id": "arxiv_3614bd09bd8d",
+      "id": "arxiv_46af7435c03d",
       "source": "ArXiv cs.LG",
-      "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
-      "url": "https://arxiv.org/abs/2608.18055v1",
-      "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not ",
-      "author": "Veronika Spieker, Wenqi Huang, Cemre Ariyurek"
+      "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+      "url": "https://arxiv.org/abs/2608.19151v1",
+      "summary": "We study stochastic control of multivariate Hawkes-driven stochastic differential equations with machine learning algorithms in a non-Markovian setting. Due to the path dependence of the memory of the Hawkes intensity, this problem does not fall within classical stochastic control theory outside par",
+      "author": "Tomasz R. Bielecki, Thibaut Mastrolia, Haoze Yan"
     },
     {
-      "id": "arxiv_f9268325fb2b",
+      "id": "arxiv_c671aac01e4f",
       "source": "ArXiv cs.LG",
-      "title": "Optimize Your Sampling: Tuned Diffusion Sampling with Bayesian Optimization",
-      "url": "https://arxiv.org/abs/2608.18040v1",
-      "summary": "Sampling from a diffusion model typically requires many forward passes through a large neural network, making generation computationally expensive. While much work has focused on efficient solvers and samplers, comparatively little attention has been paid to selecting the sampling timesteps themselv",
-      "author": "Travis Zhang, Christian Belardi, Justin Lovelace"
+      "title": "Geometric Iterative Retrieval for Neural Audio Codec Resynthesis",
+      "url": "https://arxiv.org/abs/2608.19141v1",
+      "summary": "Neural audio codecs based on Residual Vector Quantization (RVQ) have become the dominant discrete representation for token-based general audio generation, yet resynthesizing high-quality audio from coarse codec tokens remains an open problem and bounds the fidelity of every system that generates the",
+      "author": "Leo Schmidt-Traub, Frédéric Berdoz, Luca A. Lanzendörfer"
     },
     {
-      "id": "arxiv_43190149ed0d",
+      "id": "arxiv_047a0dfc0567",
       "source": "ArXiv cs.CL",
-      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
-      "url": "https://arxiv.org/abs/2608.18072v1",
-      "summary": "Purpose: To develop and evaluate a locally deployed multi-agent AI system for radiology report structuring and quality assurance. Materials and Methods: This retrospective study included 638 radiology reports from CT examinations of the chest, abdomen, and pelvis dictated by 15 board-certified radio",
-      "author": "Iryna Hartsock, Cesar Lam, Christopher Otteni"
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "url": "https://arxiv.org/abs/2608.19197v1",
+      "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self",
+      "author": "Bo Liu, Simon Yu, Yiding Jiang"
     },
     {
-      "id": "arxiv_7c864ab6a3d8",
+      "id": "arxiv_1f8ff3d31fdc",
       "source": "ArXiv cs.CL",
-      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-      "url": "https://arxiv.org/abs/2608.18066v1",
-      "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a",
-      "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun"
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2608.19181v1",
+      "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constr",
+      "author": "Zhu Zhang, Jixun Wang, Xiaoang Xu"
     },
     {
-      "id": "arxiv_54207366005f",
+      "id": "arxiv_d869ed6f34cc",
       "source": "ArXiv cs.CL",
-      "title": "TokEval: A Tokenizer Evaluation Suite",
-      "url": "https://arxiv.org/abs/2608.18062v1",
-      "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce",
-      "author": "Clara Meister"
+      "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+      "url": "https://arxiv.org/abs/2608.19165v1",
+      "summary": "ChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so ",
+      "author": "Thales Bertaglia, Catalina Goanta, Gerasimos Spanakis"
     },
     {
-      "id": "arxiv_bf1b2a3b7591",
+      "id": "arxiv_66530f9a5d8e",
       "source": "ArXiv cs.CL",
-      "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
-      "url": "https://arxiv.org/abs/2608.18041v1",
-      "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learne",
-      "author": "Hollis Robbins"
+      "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+      "url": "https://arxiv.org/abs/2608.19133v1",
+      "summary": "We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit com",
+      "author": "Steven Morse, Daniel Runfola, Trenton W. Ford"
     },
     {
-      "id": "arxiv_5edef55af046",
+      "id": "arxiv_075593ca56e7",
       "source": "ArXiv cs.CL",
-      "title": "Chain-of-Experience for Continual LLM Improvement",
-      "url": "https://arxiv.org/abs/2608.18027v1",
-      "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience",
-      "author": "Haoqin Tu, Yunhao Fang, Yizhong Wang"
+      "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2608.19098v1",
+      "summary": "Multi-teacher on-policy distillation (M-OPD) has emerged as a promising paradigm for consolidating domain-specialized reinforcement learning (RL) experts into a single generalist student via dense, token-level reward supervision. Despite its practical success, the optimization dynamics governing mul",
+      "author": "Huan-ang Gao, Haohan Chi, Yong Yan"
     },
     {
       "id": "hf_d41d8cd98f00",
       "source": "Hugging Face",
-      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
       "url": "https://huggingface.co/papers/",
-      "summary": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution, yet they often struggle to resolve issues in a specific repository because they lack project-specific knowledge. Existing self-evolving approaches acquire such knowledge from repo"
+      "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend"
     },
     {
       "id": "devto_4435427",
@@ -261,14 +295,6 @@
       "url": "https://dev.to/adamthedeveloper/greatness-is-forged-by-limitation-e20",
       "summary": "Can't believe I spent 2 weeks writing this. Last week, I gave a talk at a Cursor community event...",
       "author": "Adam - The Developer ✨"
-    },
-    {
-      "id": "devto_4437475",
-      "source": "Dev.to",
-      "title": "You Don't Need a Ministry of Truth to Build a Memory Hole",
-      "url": "https://dev.to/kenwalger/you-dont-need-a-ministry-of-truth-to-build-a-memory-hole-3kaf",
-      "summary": "What happens when a thousand independent sources turn out to have one parent? A while back I went...",
-      "author": "Ken W Alger"
     },
     {
       "id": "devto_4436921",
@@ -285,6 +311,14 @@
       "url": "https://blog.mlh.com/hacktoberfest-2026-ai-belongs-to-everyone-3jl8",
       "summary": "We have some news we're excited to share today: Major League Hacking (MLH) and DEV are partnering...",
       "author": "Jess Lee"
+    },
+    {
+      "id": "devto_4437475",
+      "source": "Dev.to",
+      "title": "You Don't Need a Ministry of Truth to Build a Memory Hole",
+      "url": "https://dev.to/kenwalger/you-dont-need-a-ministry-of-truth-to-build-a-memory-hole-3kaf",
+      "summary": "What happens when a thousand independent sources turn out to have one parent? A while back I went...",
+      "author": "Ken W Alger"
     },
     {
       "id": "devto_4437122",
@@ -383,39 +417,39 @@
       "author": ""
     },
     {
-      "id": "oschina_ef287f2da243",
+      "id": "oschina_e022024bb001",
       "source": "开源中国",
-      "title": "Bun 1.4 迟迟未至：一场高调 Rust 重写背后的现实考验",
-      "url": "https://www.oschina.net/news/502012",
-      "summary": "2022年，Bun以惊人的速度和性能横空出世，迅速成为JavaScript生态中最受瞩目的新星之一。它用Zig语言构建，承诺更快的启动、更低的内存占用、更完整的工具链。无数开发者从Node.js转向它，把它当作日常开发的默认选择。三年多过去，Bun的故事却走到了一个令人意外的拐点：1.4版本的Rust重写，原本被寄予厚望，如今却成了..."
+      "title": "GitHub Copilot 的自动修复把 Snowflake 的 Jira 搞穿了",
+      "url": "https://www.oschina.net/news/502024/wiz-red-agent-snowflake-copilot-cicd-bug",
+      "summary": "Wiz Research 的红队 Agent 搞了个大新闻：它用完全自主的方式，通过 GitHub Actions 模板注入漏洞，拿下了 Snowflake 的内部 Jira 实例。 更让人不安的是，这个漏洞的引入者不是人类开发者，而是 GitHub Copilot 的 Autofix 功能。 攻击链条 Snowflake 的某个仓库里有一个 GitHub Actions workflow，用 i"
     },
     {
-      "id": "oschina_763298e65437",
+      "id": "oschina_83845ff83bba",
       "source": "开源中国",
-      "title": "AI 换台电脑就失忆？我们自己写了个开源项目解决它",
-      "url": "https://www.oschina.net/news/502011",
-      "summary": "大家好，我们是 agentctxsync（Agent Context Sync）的作者，道荣和露。这个项目最近开源了，写篇文章介绍一下，顺便记录一下做这个东西的过程。 起因很简单，我们俩都是 AI 工具的重度用户，Hermes、Codex、opencode 换着用。用得越多，越被一个问题困扰：AI 的记忆是&quot;绑设备&quot;的。 白天在公司电脑上跟 AI 聊了一下午，上..."
+      "title": "杨植麟玩摇滚有啥用啊？",
+      "url": "https://www.oschina.net/news/502021",
+      "summary": "「大哥你玩摇滚，你玩他有啥用啊？」 搁在十年前摇滚乐队排练室里的杨植麟身上，答案也许是真没啥用。他玩摇滚只玩到了校园歌手大赛最佳原创歌曲奖。 🔗zrfanzy.github.io/splay 近日有网友翻出网易云音乐上一支名为 Splay 的早年校园摇滚乐队。乐队组建于 2013 年，成员均为清华大学计算机系学生，乐队名取自数据结构..."
     },
     {
-      "id": "oschina_8ef8e9b46622",
+      "id": "oschina_1d8c32528d19",
       "source": "开源中国",
-      "title": "算力互联、调度协同、生态共创｜开源中国携手超智算科技、共绩科技达成战略合作",
-      "url": "https://www.oschina.net/news/502010",
-      "summary": "国务院《AI+行动意见》强调加强智能算力互联互通和供需匹配。工信部《算力互联互通行动计划》和&quot;毫秒用算&quot;专项行动提出&quot;盘活存量、精准对接、弹性供给&quot;，推动算力从&quot;重硬件囤积&quot;转向&quot;重高效调度&quot;。超智算科技（S·AIDC）与共绩科技、开源中国就算力资源共享、算网平台建设、弹性算力协同、技术与商业信息共享、用户生态等..."
+      "title": "谷歌将 Pixel 内核源码获取方式从 Git tags 改成了“填表等几周”",
+      "url": "https://www.oschina.net/news/502020",
+      "summary": "GrapheneOS 团队在 Mastodon 上爆了一个猛料：Google 不再把 Pixel 的内核和驱动源码通过 Git tags 推送到 AOSP 了。想要这些代码？填表，等几周，然后收到一个 Google Drive 链接。 这个变化直接影响了所有基于 AOSP 的第三方 ROM——包括 GrapheneOS 自己。 GrapheneOS 在社交媒体的账号说得直白：&quot;Googl"
     },
     {
-      "id": "oschina_d2d8fdf96e9a",
+      "id": "oschina_a1dd82d2998a",
       "source": "开源中国",
-      "title": "GLM-5.3 拿下 AA 评测 60 分，将前沿模型的单任务成本打到了最低",
-      "url": "https://www.oschina.net/news/502007",
-      "summary": "智谱今日凌晨上线了 GLM-5.3 API。在 Artificial Analysis Intelligence Index 评测中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 同处全球前沿区间，与 Kimi K3 并列开源模型第一。三个主攻方向：复杂编码、防御性网络安全、长程任务处理。 但最值得关注的数据不是分数。智谱官方发布的「智能—成本」散点图上，GLM-5..."
+      "title": "PostgreSQL for Everything？PG 到底能不能替代 Kafka、Elasticsearch、Redis、MongoDB",
+      "url": "https://www.oschina.net/news/502019/postgresql-for-everything",
+      "summary": "&quot;PostgreSQL 能替代 Kafka、Elasticsearch、Redis、MongoDB、Clickhouse……&quot;这个说法每隔一阵就会在社区引发激辩。今天 Raphael Bauer 的一篇《PostgreSQL for Everything》又把它炸了出来。 Bauer 的论点很直接：PG 的生态扩展已经覆盖了绝大部分专用数据系统的功能——全文搜索替代 Solr/"
     },
     {
-      "id": "oschina_fb971369e95e",
+      "id": "oschina_5fab508dabdc",
       "source": "开源中国",
-      "title": "再也不用登录罗技账号，9.1k star 的 Rust 开源替代品接管了 HID++",
-      "url": "https://www.oschina.net/news/502006",
-      "summary": "罗技鼠标用户跟 Options+ 之间关系，大概就跟 Windows 用户跟预装杀毒软件的关系差不多——能用，但永远在后台浪费资源、弹窗提醒你登录、默默收集遥测数据。 一个叫 OpenLogi 的项目现在给出了选择：用 Rust 重写的原生替代品，GitHub 9.1k star，MIT/Apache 2.0 双许可，420 个 fork，790 次提交。不需要账号，不收集数..."
+      "title": "程序员为 8 岁女儿创建了一个游戏引擎，教她写代码",
+      "url": "https://www.oschina.net/news/502018",
+      "summary": "Nick 的八岁女儿想制作电子游戏。她不满足于只是玩游戏——她想创造世界。 于是 Nick 给她做了一个&quot;可以制作游戏的游戏&quot;：一个由文字、图片和一门微型脚本语言组成的多人世界。女儿可以在里面拆解一切，看看它们是如何运作的。 他把这个项目叫做 Canon，灵感来自互联网早期那些文字 MUD。 三十年前的 HyperCard Nick 讲这..."
     },
     {
       "id": "hn_comment_49367035",
@@ -458,6 +492,30 @@
       "author": "cdrnsf"
     },
     {
+      "id": "hn_comment_49370350",
+      "source": "HN讨论",
+      "title": "jamiequint 在「Error by AI scribe during medical appoin」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49294441",
+      "summary": "The important question with any AI-related news story is what is the counterfactual. Sure, it sucks if your self driving car gets in a crash or your AI scribe incorrectly transcribes something to your medical record. This is news now. What isn&#x27;t news is humans getting into crashes or doctors making poor medical decisions as a result of low quality or missing notes.",
+      "author": "jamiequint"
+    },
+    {
+      "id": "hn_comment_49370325",
+      "source": "HN讨论",
+      "title": "superkuh 在「Error by AI scribe during medical appoin」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49294441",
+      "summary": "A friend recently had a drug test added to their blood draw for an unrelated health check at a hospital. When she questioned the nurse about it turned out the doctors make notes that are transcribed by AI. And in this case the AI had mistakenly transcribed that she was on fentanyl patches. &quot;the nurse who was trying to be very nice said in a less sweet tone that the doctor is supposed to review the notes so this does not happen. And that she is very glad I caught it and the doctor will be gl",
+      "author": "superkuh"
+    },
+    {
+      "id": "hn_comment_49294610",
+      "source": "HN讨论",
+      "title": "newsomix9xl 在「Error by AI scribe during medical appoin」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49294441",
+      "summary": "Not only did the AI apparently hallucinate psilocybin consumption, but the doctor then hallucinated internal bleeding as a risk, which is not a known risk of such mushrooms. But this seems a bit click baity. You can challenge your medical record, and presumably an AI transcription service would be in there. Unless .au is special in that way.",
+      "author": "newsomix9xl"
+    },
+    {
       "id": "hn_comment_49364238",
       "source": "HN讨论",
       "title": "monitron 在「A joke domain purchase turned in geopoli」下的评论",
@@ -490,19 +548,12 @@
       "author": "wongarsu"
     },
     {
-      "id": "hn_comment_49364668",
+      "id": "hn_comment_49361804",
       "source": "HN讨论",
-      "title": "giancarlostoro 在「A joke domain purchase turned in geopoli」下的评论",
+      "title": "iamnothere 在「A joke domain purchase turned in geopoli」下的评论",
       "url": "https://news.ycombinator.com/item?id=49360015",
-      "summary": "Back in the late 2000s when I was just becoming an adult, but still talking to people younger than me on the web, I knew this kid who was maybe 16, he bought a very offensive domain, we were big on 4chan shenanigans (I&#x27;ll let you imagine the worst thing). I had to intervene when I realized and point out to him, that his first and last name can be looked up by anyone, anywhere, and his address. He started to panic and I forget what we even did, but I think I immediately told him to just chan",
-      "author": "giancarlostoro"
-    },
-    {
-      "id": "hn_49360015",
-      "source": "Hacker News",
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "summary": ""
+      "summary": "The part where he gets contacted over the hit-and-run reads like the curl guy’s experience with people investigating “hacking”. I wonder how often this happens outside of software? Do fence manufacturers get emails asking to identify the culprit when someone crashes through a fence?",
+      "author": "iamnothere"
     },
     {
       "id": "hn_49364745",
@@ -512,11 +563,32 @@
       "summary": ""
     },
     {
-      "id": "hn_49368828",
+      "id": "hn_49360015",
       "source": "Hacker News",
-      "title": "Universality of Gradient Descent Neural Network Training",
-      "url": "https://arxiv.org/abs/2007.13664",
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
       "summary": ""
+    },
+    {
+      "id": "hn_49294441",
+      "source": "Hacker News",
+      "title": "Error by AI scribe during medical appointment leaves patient devastated",
+      "url": "https://www.abc.net.au/news/2026-08-14/ai-medical-scribe-error-leaves-patient-devastated/107031672",
+      "summary": ""
+    },
+    {
+      "id": "hn_49367350",
+      "source": "Hacker News",
+      "title": "Feature Request: Support AGENTS.md",
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "summary": ""
+    },
+    {
+      "id": "hn_49363710",
+      "source": "Hacker News",
+      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+      "url": "https://github.com/onecli/onecli",
+      "summary": "Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox"
     },
     {
       "id": "hn_49353339",
@@ -533,13 +605,6 @@
       "summary": ""
     },
     {
-      "id": "hn_49363668",
-      "source": "Hacker News",
-      "title": "Extensible Software in the age of LLMs",
-      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-      "summary": ""
-    },
-    {
       "id": "hn_49359425",
       "source": "Hacker News",
       "title": "Air Theremin – A browser theremin you play by waving at your webcam",
@@ -547,145 +612,138 @@
       "summary": ""
     },
     {
-      "id": "hn_49350031",
-      "source": "Hacker News",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
-      "summary": ""
-    },
-    {
       "id": "gh_1334586481",
       "source": "GitHub Trending",
       "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
       "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "summary": "⭐ 6316 | 🍴 114 | PowerShell"
+      "summary": "⭐ 6345 | 🍴 114 | PowerShell"
     },
     {
       "id": "gh_1334245678",
       "source": "GitHub Trending",
       "title": "xiaobright/dsh-anchored-standard - Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
       "url": "https://github.com/xiaobright/dsh-anchored-standard",
-      "summary": "⭐ 3640 | 🍴 109 | JavaScript"
+      "summary": "⭐ 3641 | 🍴 109 | JavaScript"
     },
     {
       "id": "gh_1336933337",
       "source": "GitHub Trending",
       "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
       "url": "https://github.com/yetone/cumora",
-      "summary": "⭐ 2700 | 🍴 309 | TypeScript"
+      "summary": "⭐ 2716 | 🍴 314 | TypeScript"
     },
     {
       "id": "gh_1338470635",
       "source": "GitHub Trending",
       "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
       "url": "https://github.com/s1dashu/ip-as-logo-skill",
-      "summary": "⭐ 2146 | 🍴 98 | None"
+      "summary": "⭐ 2279 | 🍴 104 | None"
     },
     {
       "id": "gh_1333807290",
       "source": "GitHub Trending",
       "title": "dsh-market/dsh-market - The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
       "url": "https://github.com/dsh-market/dsh-market",
-      "summary": "⭐ 1268 | 🍴 77 | TypeScript"
+      "summary": "⭐ 1305 | 🍴 79 | TypeScript"
     },
     {
       "id": "gh_1337089243",
       "source": "GitHub Trending",
       "title": "cinderline/northcinder - Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
       "url": "https://github.com/cinderline/northcinder",
-      "summary": "⭐ 1193 | 🍴 4 | JavaScript"
+      "summary": "⭐ 1193 | 🍴 5 | JavaScript"
     },
     {
       "id": "gh_1333742677",
       "source": "GitHub Trending",
       "title": "alchaincyf/deepseek-harness-orange-book - DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
       "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-      "summary": "⭐ 1080 | 🍴 96 | HTML"
+      "summary": "⭐ 1087 | 🍴 96 | HTML"
     },
     {
       "id": "gh_1333884889",
       "source": "GitHub Trending",
       "title": "ZSvirt/zsvirt - Core IaaS engine and cloud infrastructure foundation of ZSvirt",
       "url": "https://github.com/ZSvirt/zsvirt",
-      "summary": "⭐ 1073 | 🍴 155 | Java"
+      "summary": "⭐ 1083 | 🍴 155 | Java"
     },
     {
       "id": "gh_1335867536",
       "source": "GitHub Trending",
       "title": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report - DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Flash/Pro).",
       "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-      "summary": "⭐ 1019 | 🍴 66 | None"
+      "summary": "⭐ 1023 | 🍴 67 | None"
     },
     {
       "id": "gh_1334373503",
       "source": "GitHub Trending",
       "title": "zouyuxuan122/Deepseek-Harness-EAC - DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
       "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
-      "summary": "⭐ 960 | 🍴 29 | JavaScript"
+      "summary": "⭐ 971 | 🍴 29 | JavaScript"
     },
     {
       "id": "gh_1333065091",
       "source": "GitHub Trending",
       "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "⭐ 167945 | 🍴 17957 | TypeScript"
+      "summary": "⭐ 168943 | 🍴 18107 | TypeScript"
     },
     {
       "id": "gh_1322012299",
       "source": "GitHub Trending",
       "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
       "url": "https://github.com/firecrawl/anydoc",
-      "summary": "⭐ 17269 | 🍴 993 | Rust"
-    },
-    {
-      "id": "gh_1331135699",
-      "source": "GitHub Trending",
-      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "summary": "⭐ 15351 | 🍴 1726 | Python"
+      "summary": "⭐ 17302 | 🍴 993 | Rust"
     },
     {
       "id": "gh_1333321333",
       "source": "GitHub Trending",
       "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "summary": "⭐ 15299 | 🍴 727 | TypeScript"
+      "summary": "⭐ 15541 | 🍴 741 | TypeScript"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "⭐ 15403 | 🍴 1737 | Python"
     },
     {
       "id": "gh_1316527318",
       "source": "GitHub Trending",
       "title": "yc-software/qm - Multiplayer agent harness for work.",
       "url": "https://github.com/yc-software/qm",
-      "summary": "⭐ 13952 | 🍴 1659 | TypeScript"
+      "summary": "⭐ 13960 | 🍴 1660 | TypeScript"
     },
     {
       "id": "gh_1333175049",
       "source": "GitHub Trending",
       "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "summary": "⭐ 10092 | 🍴 1486 | Python"
+      "summary": "⭐ 10179 | 🍴 1497 | Python"
     },
     {
       "id": "gh_1318768894",
       "source": "GitHub Trending",
       "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "url": "https://github.com/trycompai/crm",
-      "summary": "⭐ 8680 | 🍴 1041 | TypeScript"
+      "summary": "⭐ 8687 | 🍴 1041 | TypeScript"
     },
     {
       "id": "gh_1313576395",
       "source": "GitHub Trending",
       "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
       "url": "https://github.com/MoonshotAI/Kimi-K3",
-      "summary": "⭐ 8535 | 🍴 675 | None"
+      "summary": "⭐ 8536 | 🍴 675 | None"
     },
     {
       "id": "gh_1317041031",
       "source": "GitHub Trending",
       "title": "MiniMax-AI/MiniMax-H3 - 无描述",
       "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "summary": "⭐ 6396 | 🍴 391 | Python"
+      "summary": "⭐ 6406 | 🍴 392 | Python"
     }
   ],
-  "generated_at": "2026-08-20 10:06"
+  "generated_at": "2026-08-20 12:21"
 }

@@ -887,5 +887,26 @@
     "evidence": "ArXiv论文揭示自我改进Agent脆弱性，Dev.to热文讨论记忆权威性Bug",
     "grassroots": "开发者表示'三周后必踩记忆坑'",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "AI Agent安全风险进入'AI攻击AI'新阶段",
+    "importance": 5,
+    "evidence": "Wiz红队Agent自主利用Copilot Autofix引入的漏洞攻破Snowflake，形成完整AI攻击链",
+    "grassroots": "HN讨论聚焦'反事实'思维：AI错误vs人类错误率对比，但AI医疗记录错误已造成实际伤害",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "DeepSeek Harness生态爆发，AI编程工具进入平台化竞争",
+    "importance": 5,
+    "evidence": "GitHub星标16.8万，595个插件市场，多篇保姆级教程刷屏掘金",
+    "grassroots": "开发者从'哪个模型强'转向'哪个生态好用'，插件丰富度成为新选择标准",
+    "date": "2026-08-20"
+  },
+  {
+    "theme": "智能体自进化与多教师蒸馏成为研究热点",
+    "importance": 4,
+    "evidence": "SPADE自对弈框架、Open-MOPD多教师蒸馏、Group-Calibrated OPD三篇论文同日发布",
+    "grassroots": "暂无基层反馈，处于科研早期",
+    "date": "2026-08-20"
   }
 ]
