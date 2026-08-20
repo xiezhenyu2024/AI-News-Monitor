@@ -350,7 +350,7 @@ async function loadList(){
   showCards('加载中…');
   for(let attempt=1; attempt<=3; attempt++){
     try{
-      const r = await fetch('/api/list', {cache:'no-store'});
+      const r = await fetch('/list', {cache:'no-store'});
       if(!r.ok) throw new Error('HTTP ' + r.status);
       const list = await r.json();
       const sel = document.getElementById('pick');
@@ -374,7 +374,7 @@ async function loadCtx(){
   showCards('加载卡片中…');
   for(let attempt=1; attempt<=3; attempt++){
     try{
-      const r = await fetch('/api/context?key=' + key, {cache:'no-store'});
+      const r = await fetch('/ctx?key=' + key, {cache:'no-store'});
       if(!r.ok) throw new Error('HTTP ' + r.status);
       ctx = await r.json();
       if(!ctx.cards || !ctx.cards.length){ showCards('该期无卡片数据'); return; }
@@ -408,7 +408,7 @@ async function doSearch(){
   const box = document.getElementById('sres');
   box.innerHTML = '搜索中…';
   try{
-    const r = await fetch('/api/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({keyword:kw})});
+    const r = await fetch('/search',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({keyword:kw})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     box.innerHTML = d.cards.length
@@ -433,7 +433,7 @@ async function ask(){
   const key=ctx.key;
   const history=[...document.querySelectorAll('#msgs .msg')].slice(-8).map(m=>({role:m.classList.contains('user')?'user':'assistant',content:m.textContent}));
   try{
-    const r=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
+    const r=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d=await r.json();
     addMsg('ai',d.answer||'（无回答）');
@@ -469,13 +469,13 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
             h.update(CORS)
             h["Content-Type"] = "text/html; charset=utf-8"
             return 200, h, PAGE.encode("utf-8")
-        if path == "/api/list":
+        if path in ("/list", "/api/list"):
             h = dict(NO_CACHE)
             h.update(CORS)
             h["Content-Type"] = "application/json; charset=utf-8"
             data = json.dumps(list_contexts(), ensure_ascii=False).encode("utf-8")
             return 200, h, data
-        if path == "/api/context":
+        if path in ("/ctx", "/api/context"):
             h = dict(NO_CACHE)
             h.update(CORS)
             h["Content-Type"] = "application/json; charset=utf-8"
@@ -487,7 +487,7 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
     elif method == "POST":
         try:
             data = json.loads(body_raw or "{}")
-            if path == "/api/ask":
+            if path in ("/ask", "/api/ask"):
                 key = data.get("key", "")
                 ctx = load_context(key)
                 ans = answer_question(ctx, data.get("question", ""), data.get("history", []))
@@ -495,7 +495,7 @@ def route_request(method: str, path: str, query: dict, body_raw: str):
                 h = dict(CORS)
                 h["Content-Type"] = "application/json; charset=utf-8"
                 return 200, h, out
-            if path == "/api/search":
+            if path in ("/search", "/api/search"):
                 kw = data.get("keyword", "")
                 results = search_sources(kw)
                 cards = build_search_cards(kw, results) if results else []
