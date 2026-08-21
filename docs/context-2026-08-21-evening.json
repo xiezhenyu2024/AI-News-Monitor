@@ -1,0 +1,380 @@
+{
+  "key": "2026-08-21-evening",
+  "date": "2026-08-21",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 19,
+      "title": "亚洲遭遇创纪录热浪，健康影响严重",
+      "entities": [
+        {
+          "name": "El Niño",
+          "explain": "厄尔尼诺现象，指太平洋东部海水异常升温，常导致全球气候异常，如极端高温和干旱"
+        }
+      ],
+      "summary": "本月亚洲大范围地区遭遇创纪录热浪，导致死亡和热相关疾病。专家指出今年极端天气与厄尔尼诺现象有关，可能是最强之一。热浪对老年人、户外工作者等脆弱群体健康构成严重威胁，各国需加强应对措施。",
+      "relevant": "气候变化加剧极端天气，直接影响数亿人健康，是当前全球最紧迫的环境与公共卫生议题。",
+      "source_text": "Six things to know about Asia’s heatwave and the health impacts。SEOUL — A record-breaking heatwave swept through a broad swath of Asia earlier this month, causing deaths and heat-related illnesses. This year’s extreme weather has been linked to El Niño, which, according to weather experts, could be one of the strongest ever recorded. The “super” El Niño, which officially arrived in June, is expected to [&#8230;]",
+      "source_title": "Six things to know about Asia’s heatwave and the health impacts",
+      "source_url": "https://news.mongabay.com/2026/08/six-things-to-know-about-asias-heatwave-and-the-health-impacts/",
+      "source_name": "Mongabay"
+    },
+    {
+      "item_id": 18,
+      "title": "科学家呼吁连接全球迁徙海鸟的飞行路线",
+      "entities": [
+        {
+          "name": "北极燕鸥",
+          "explain": "一种小型海鸟，每年从南极迁徙到北极繁殖，飞行距离超过8万公里，是地球上迁徙距离最长的动物"
+        }
+      ],
+      "summary": "北极燕鸥每年迁徙超过8万公里，是地球上迁徙距离最长的生物。然而，人类活动导致栖息地破碎化，威胁海鸟迁徙路线。科学家呼吁跨国合作，建立连接各大洲的迁徙通道网络，以保护这些脆弱物种。",
+      "relevant": "生物多样性保护是全球性挑战，迁徙物种的保护需要国际协作，此议题对生态平衡至关重要。",
+      "source_text": "Reconnecting the skies: Linking flyways for migratory seabirds across continents。Arctic terns make the longest migration of any creature on Earth, with some Sterna paradisaea clocking more than 80,000 kilometers (49,709 miles) a year, flying from the Southern Ocean to their breeding grounds in the Arctic — and back. For a tiny bird, weighing less than an iPhone, it&#8217;s an astounding feat. South polar skuas [&#8230;]",
+      "source_title": "Reconnecting the skies: Linking flyways for migratory seabirds across continents",
+      "source_url": "https://news.mongabay.com/2026/08/reconnecting-the-skies-linking-flyways-for-migratory-seabirds-across-continents/",
+      "source_name": "Mongabay"
+    },
+    {
+      "item_id": 7,
+      "title": "荷兰国立博物馆数字化84万件艺术品，含伦勃朗和维米尔名作",
+      "entities": [
+        {
+          "name": "荷兰国立博物馆",
+          "explain": "位于阿姆斯特丹的荷兰国家艺术博物馆，收藏大量荷兰黄金时代绘画作品"
+        },
+        {
+          "name": "伦勃朗",
+          "explain": "17世纪荷兰最著名的画家之一，以光影运用和肖像画著称"
+        },
+        {
+          "name": "维米尔",
+          "explain": "17世纪荷兰画家，以描绘日常生活场景的细腻光影闻名"
+        }
+      ],
+      "summary": "荷兰国立博物馆已完成84万件艺术品的数字化工作，包括伦勃朗和维米尔等大师的杰作。公众可通过网络免费浏览高清图像，极大降低了艺术欣赏的门槛。此举在疫情期间尤其凸显艺术的重要性，为全球博物馆数字化树立了标杆。",
+      "relevant": "艺术数字化让文化遗产触手可及，促进全球文化教育平等，是文化传播领域的重要里程碑。",
+      "source_text": "The Rijksmuseum in Amsterdam Has Digitized 840,000 Works of Art, Including Great Works by Rembrandt and Vermeer。Art may seem inessential to those who make the big decisions in times of crisis. But it never seemed more necessary to artists working in the time of plague. So it was 366 years ago when Rembrandt painted a portrait of his son, Titus, in a monk’s robe in 1660. Eight years later, Titus was [&#8230;]",
+      "source_title": "The Rijksmuseum in Amsterdam Has Digitized 840,000 Works of Art, Including Great Works by Rembrandt and Vermeer",
+      "source_url": "https://www.openculture.com/2026/08/the-rijksmuseum-in-amsterdam-has-digitized-818000-works-of-art.html",
+      "source_name": "Open Culture"
+    },
+    {
+      "item_id": 6,
+      "title": "NASA曾邀安迪·沃霍尔等350位艺术家记录太空计划",
+      "entities": [
+        {
+          "name": "NASA",
+          "explain": "美国国家航空航天局，负责美国太空探索和科学研究"
+        },
+        {
+          "name": "安迪·沃霍尔",
+          "explain": "20世纪美国波普艺术代表人物，以商业图像和名人肖像创作闻名"
+        }
+      ],
+      "summary": "20世纪60年代初，NASA邀请包括安迪·沃霍尔、安妮·莱博维茨和诺曼·洛克威尔在内的350多位艺术家，用视觉艺术记录美国太空计划。这一举措反映了太空探索与艺术文化的深度交融，也推动了太空图像在大众中的流行。",
+      "relevant": "太空探索不仅是科学成就，也是文化现象，艺术与科技的跨界合作至今仍具启发意义。",
+      "source_text": "NASA Enlists Andy Warhol, Annie Leibovitz, Norman Rockwell & 350 Other Artists to Visually Document America’s Space Program。It’s hard to imagine that the&#160;space-crazed general public needed any help getting worked up about astronauts and NASA in the early ’60s. Perhaps the wild popularity of space-related imagery was in part what motivated NASA administrator James Webb to create the&#160;NASA Art Program&#160;in 1962. Although the program’s handpicked artists weren’t edited or censored in any [&#8230;]",
+      "source_title": "NASA Enlists Andy Warhol, Annie Leibovitz, Norman Rockwell & 350 Other Artists to Visually Document America’s Space Program",
+      "source_url": "https://www.openculture.com/2026/08/nasa-enlists-artists-to-visually-document-americas-space-program.html",
+      "source_name": "Open Culture"
+    },
+    {
+      "item_id": 8,
+      "title": "卡尔·荣格《红书》神秘艺术插图公开亮相",
+      "entities": [
+        {
+          "name": "卡尔·荣格",
+          "explain": "瑞士心理学家，分析心理学创始人，提出集体无意识和原型理论"
+        },
+        {
+          "name": "《红书》",
+          "explain": "荣格记录自己梦境和幻想的私人手稿，内含大量精美插图，被视为理解其思想的关键文献"
+        }
+      ],
+      "summary": "心理学家卡尔·荣格的《红书》完整英译本已出版，书中包含大量神秘而精美的插图，展现了他对潜意识探索的视觉表达。近年来该书多次展览，引发公众对荣格思想与艺术结合的广泛关注。",
+      "relevant": "《红书》是心理学与艺术交汇的独特作品，为理解人类心灵深处提供了珍贵视角。",
+      "source_text": "The Visionary Mystical Art of Carl Jung: See Illustrated Pages from The Red Book。Carl Jung’s Liber Novus, better known as The Red Book, has come to light in a complete English translation, published by Norton in a 2009 facsimile edition and a smaller “reader’s edition” in 2012. The years since have seen several exhibitions of the book, which “could pass for a Bible rendered by a medieval monk,” [&#8230;]",
+      "source_title": "The Visionary Mystical Art of Carl Jung: See Illustrated Pages from The Red Book",
+      "source_url": "https://www.openculture.com/2026/07/visionary-mystical-art-of-carl-jung.html",
+      "source_name": "Open Culture"
+    },
+    {
+      "item_id": 9,
+      "title": "女性从小被训练限制食欲，认知代价巨大",
+      "entities": [
+        {
+          "name": "食欲",
+          "explain": "对食物的生理和心理需求，受社会文化和性别规范影响"
+        }
+      ],
+      "summary": "文章指出，女性从童年起就被社会训练限制食欲，这种压抑不仅影响身体健康，还带来巨大的认知代价。饥饿状态会削弱专注力、判断力和情绪稳定性，使女性更容易被忽视和边缘化。作者呼吁重新审视性别化的饮食规范。",
+      "relevant": "揭示性别不平等在饮食文化中的隐性表现，对女性健康和社会地位有深远影响。",
+      "source_text": "The fog of hunger。From childhood, women are trained to restrict their appetite. And there’s a huge, hidden, cognitive price to pay for it - by Sarah Berg Read on Aeon",
+      "source_title": "The fog of hunger",
+      "source_url": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
+      "source_name": "Aeon"
+    },
+    {
+      "item_id": 11,
+      "title": "亚马逊安多克族：森林中最美的生物也最危险",
+      "entities": [
+        {
+          "name": "安多克族",
+          "explain": "生活在亚马逊雨林的土著民族，保留着独特的传统信仰和生态知识"
+        }
+      ],
+      "summary": "亚马逊安多克族对森林中的海豚等美丽生物怀有敬畏和恐惧，认为它们具有诱惑和危险的力量。这种传统观念反映了人类与自然关系的复杂性，也提醒现代人重新认识生物多样性的深层意义。",
+      "relevant": "土著知识为生态保护提供独特视角，挑战西方对自然的工具化理解。",
+      "source_text": "Dolphins and other lovers。The Andoque of the Amazon know what we have forgotten: the forest’s most beautiful creatures are also its most dangerous - by Eliran Arazi Read on Aeon",
+      "source_title": "Dolphins and other lovers",
+      "source_url": "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin",
+      "source_name": "Aeon"
+    },
+    {
+      "item_id": 16,
+      "title": "蕾切尔·卡斯克新作《M的一生》被疑影射娜塔莉·波特曼",
+      "entities": [
+        {
+          "name": "蕾切尔·卡斯克",
+          "explain": "英国当代著名小说家，以自传体小说和女性主题创作闻名"
+        },
+        {
+          "name": "娜塔莉·波特曼",
+          "explain": "美国好莱坞女演员，童星出道，曾获奥斯卡奖"
+        }
+      ],
+      "summary": "蕾切尔·卡斯克的新小说《M的一生》讲述一位作家与一位女演员的友谊，探讨成名后的代价和真实与虚构的界限。由于主角经历与娜塔莉·波特曼相似，引发读者猜测。评论认为小说巧妙模糊了虚构与现实的边界。",
+      "relevant": "文学与现实的互文引发公众兴趣，也反映当代社会对名人隐私和身份建构的持续关注。",
+      "source_text": "Life of M by Rachel Cusk review – is this story of a film star based on Natalie Portman?。A teasing tale of the friendship between a writer and an actor explores the fallout from fame, and the blurring between pretence and reality M is a celebrated film actor. A&nbsp;star since childhood, now the face of a major fashion brand, she has been famous all her life. That her career closely resembles Natalie Portman’s has been gleefully seized upon by the press, something Rachel Cusk must surely have anticipated: in the novel, M’s first film has its sex scenes cut at her mother’s insistence",
+      "source_title": "Life of M by Rachel Cusk review – is this story of a film star based on Natalie Portman?",
+      "source_url": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman",
+      "source_name": "卫报书籍"
+    },
+    {
+      "item_id": 12,
+      "title": "学术哲学界发起跨性别身份调查",
+      "entities": [
+        {
+          "name": "跨性别",
+          "explain": "指性别认同与出生时被指定的性别不同的人群"
+        }
+      ],
+      "summary": "一项针对学术哲学界跨性别和非二元哲学家的调查正在展开，旨在了解他们在加拿大、英国和美国的政策争议中的处境。这些政策涉及性别肯定医疗、公共厕所和竞技体育的准入，许多跨性别哲学家感到自身权益受到威胁。",
+      "relevant": "跨性别议题是当前社会争论焦点，学术界的参与为政策辩论提供了重要视角。",
+      "source_text": "Academic Philosophy and Trans Identity Survey (guest post)。&#8220;State, provincial, and national policymakers in Canada, the UK, and US have pursued controversial proposals regulating access to gender affirming care, public bathrooms, and competitive sports&#8230; Many trans and nonbinary philosophers find themselves forced to make difficult decisions about where to apply for graduate school or jobs, without reliable information about conditions on the ground.&#8221; Obtaining information about that is one of the aims of the &#8220;Academic Philosophy ",
+      "source_title": "Academic Philosophy and Trans Identity Survey (guest post)",
+      "source_url": "https://dailynous.com/2026/08/20/academic-philosophy-and-trans-identity-survey-guest-post/",
+      "source_name": "Daily Nous"
+    },
+    {
+      "item_id": 20,
+      "title": "泰国新发现蜥蜴物种，以《龙之家族》角色命名",
+      "entities": [
+        {
+          "name": "角蜥",
+          "explain": "一类头部有角状突起的蜥蜴，常见于热带森林"
+        },
+        {
+          "name": "《龙之家族》",
+          "explain": "热门美剧《权力的游戏》前传，讲述龙族内战故事"
+        }
+      ],
+      "summary": "研究人员在泰国西部高海拔常绿林中发现一种新的角蜥物种，命名为Syrax山角龙（Acanthosaura syrax），灵感来自《龙之家族》中的龙。这一发现丰富了生物多样性记录，也展示了流行文化与科学命名的有趣结合。",
+      "relevant": "新物种发现凸显热带生态系统的未知性，流行文化命名有助于吸引公众关注生物保护。",
+      "source_text": "This tiny Thai lizard shares its name with a ‘House of the Dragon’ beast。Researchers have described a new-to-science species of horned lizard from the high-elevation, evergreen forests of western Thailand. The lizard, named the Syrax mountain horned dragon, or Acanthosaura syrax, in a recent study, was discovered in Mae Wong National Park. The species name syrax refers to the yellow dragon ridden by Queen Rhaenyra Targaryen in the [&#8230;]",
+      "source_title": "This tiny Thai lizard shares its name with a ‘House of the Dragon’ beast",
+      "source_url": "https://news.mongabay.com/short-article/2026/08/this-tiny-thai-lizard-shares-its-name-with-a-house-of-the-dragon-beast/",
+      "source_name": "Mongabay"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_b76ebd8ac2e0",
+      "source": "Pitchfork",
+      "title": "Herzsprung",
+      "url": "https://pitchfork.com/reviews/albums/gb-herzsprung/",
+      "summary": "Like fellow Rhythmic Music Conservatory alum ML Buch, the Danish musician recontextualizes hoary sounds in surprising ways, flipping ’80s AOR and jazz fusion into sleek, mysterious art rock.",
+      "image": ""
+    },
+    {
+      "id": "rss_4d1c6a12299a",
+      "source": "Pitchfork",
+      "title": "Say a Prayer to the Gods of Getting Going",
+      "url": "https://pitchfork.com/reviews/albums/squirrel-flower-say-a-prayer-to-the-gods-of-getting-going/",
+      "summary": "On her fourth record of tender, twangy indie rock, Ella Williams probes the capacity of the open road to cure anything that ails the heart.",
+      "image": ""
+    },
+    {
+      "id": "rss_eca54a02051c",
+      "source": "Pitchfork",
+      "title": "9 months & 50 hours",
+      "url": "https://pitchfork.com/reviews/albums/fred-again-latin-mafia-9-months-and-50-hours/",
+      "summary": "The British DJ and Mexican alt-pop band livestreamed the production of their new joint mixtape, which highlights a shared interest in freeform music shaped by real-time experience.",
+      "image": ""
+    },
+    {
+      "id": "rss_0ad0331a77f2",
+      "source": "Pitchfork",
+      "title": "Faith EP",
+      "url": "https://pitchfork.com/reviews/albums/faith-leazae-faith-ep/",
+      "summary": "The Sacramento rapper’s 16-minute EP is tailor-made for viral engagement, but her outlandish hooks and motivational energy ensure it’s strong enough to stand on its own.",
+      "image": ""
+    },
+    {
+      "id": "rss_b061cc4c855a",
+      "source": "Pitchfork",
+      "title": "Big World",
+      "url": "https://pitchfork.com/reviews/albums/hovvdy-big-world/",
+      "summary": "Reflecting candidly on aging, forgiveness, and self-improvement, the indie-pop duo returns with a charming new album that takes the world in stride.",
+      "image": ""
+    },
+    {
+      "id": "rss_90464b69baa8",
+      "source": "Open Culture",
+      "title": "NASA Enlists Andy Warhol, Annie Leibovitz, Norman Rockwell & 350 Other Artists to Visually Document America’s Space Program",
+      "url": "https://www.openculture.com/2026/08/nasa-enlists-artists-to-visually-document-americas-space-program.html",
+      "summary": "It’s hard to imagine that the&#160;space-crazed general public needed any help getting worked up about astronauts and NASA in the early ’60s. Perhaps the wild popularity of space-related imagery was in part what motivated NASA administrator James Webb to create the&#160;NASA Art Program&#160;in 1962. Although the program’s handpicked artists weren’t edited or censored in any [&#8230;]",
+      "image": "https://cdn8.openculture.com/2019/08/08181603/NASAartWArhol.jpg"
+    },
+    {
+      "id": "rss_c823c6b127eb",
+      "source": "Open Culture",
+      "title": "The Rijksmuseum in Amsterdam Has Digitized 840,000 Works of Art, Including Great Works by Rembrandt and Vermeer",
+      "url": "https://www.openculture.com/2026/08/the-rijksmuseum-in-amsterdam-has-digitized-818000-works-of-art.html",
+      "summary": "Art may seem inessential to those who make the big decisions in times of crisis. But it never seemed more necessary to artists working in the time of plague. So it was 366 years ago when Rembrandt painted a portrait of his son, Titus, in a monk’s robe in 1660. Eight years later, Titus was [&#8230;]",
+      "image": "https://cdn8.openculture.com/2021/01/06081105/titus-scaled.jpg"
+    },
+    {
+      "id": "rss_49b1fccbadf5",
+      "source": "Open Culture",
+      "title": "The Visionary Mystical Art of Carl Jung: See Illustrated Pages from The Red Book",
+      "url": "https://www.openculture.com/2026/07/visionary-mystical-art-of-carl-jung.html",
+      "summary": "Carl Jung’s Liber Novus, better known as The Red Book, has come to light in a complete English translation, published by Norton in a 2009 facsimile edition and a smaller “reader’s edition” in 2012. The years since have seen several exhibitions of the book, which “could pass for a Bible rendered by a medieval monk,” [&#8230;]",
+      "image": "https://cdn8.openculture.com/2020/01/27213208/TheRedBook-LEFAP-Catalog2.jpg"
+    },
+    {
+      "id": "rss_c33bf5df460d",
+      "source": "Aeon",
+      "title": "The fog of hunger",
+      "url": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
+      "summary": "From childhood, women are trained to restrict their appetite. And there’s a huge, hidden, cognitive price to pay for it - by Sarah Berg Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/8faddae4-306f-4e06-81c2-183366800391/essay-v2-nyc34743.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_1bee7c6bcb75",
+      "source": "Aeon",
+      "title": "A vocabulary for the future: touch",
+      "url": "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch",
+      "summary": "A mesmerising blend of words and images make touch a doorway into the deepest questions in physics and philosophy - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/82a196ab-9e8c-4452-8c6d-319f97c0246d/a-vocabulary-for-the-future-touch-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_2429ee0c17a9",
+      "source": "Aeon",
+      "title": "Dolphins and other lovers",
+      "url": "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin",
+      "summary": "The Andoque of the Amazon know what we have forgotten: the forest’s most beautiful creatures are also its most dangerous - by Eliran Arazi Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/feb30884-154c-41ba-a04f-79e7037a973a/cj_aeon_boto.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_28e6dbf121f2",
+      "source": "Daily Nous",
+      "title": "Academic Philosophy and Trans Identity Survey (guest post)",
+      "url": "https://dailynous.com/2026/08/20/academic-philosophy-and-trans-identity-survey-guest-post/",
+      "summary": "&#8220;State, provincial, and national policymakers in Canada, the UK, and US have pursued controversial proposals regulating access to gender affirming care, public bathrooms, and competitive sports&#8230; Many trans and nonbinary philosophers find themselves forced to make difficult decisions about where to apply for graduate school or jobs, without reliable information about conditions on the ground.&#8221; Obtaining information about that is one of the aims of the &#8220;Academic Philosophy ",
+      "image": "https://dailynous.com/wp-content/uploads/2026/08/phi-dotted.png"
+    },
+    {
+      "id": "rss_339ebb3988e3",
+      "source": "Daily Nous",
+      "title": "Revisiting “Slow Philosophy”",
+      "url": "https://dailynous.com/2026/08/19/revisiting-slow-philosophy/",
+      "summary": "Over a decade ago, Jennifer Whiting (Pittsburgh) asked us to seriously consider an idea of Annette Baier&#8216;s regarding tenure and promotion decisions. Recent technological developments speak in favor of revisiting it. Initially, Baier&#8217;s proposal was meant to address how pregnancy and childcare may interfere with or delay the research productivity of women, and hence unfairly affect tenure decisions. Baier put the proposal this way: &#8220;One possibility, perhaps the best solution, wou",
+      "image": "https://dailynous.com/wp-content/uploads/2026/08/slothtortoise3.png"
+    },
+    {
+      "id": "rss_a28d1f419493",
+      "source": "Daily Nous",
+      "title": "Mini-Heap",
+      "url": "https://dailynous.com/2026/08/18/mini-heap-724/",
+      "summary": "Recent additions to the Heap of Links&#8230; A free online pamphlet with 25 pieces of valuable advice for your college students &#8212; &#8220;The College Success Rulebook&#8221; by Nathan Nobis “When I asked [the students] how they were managing to keep up with the brisk pace of the reading assignments, one of them candidly said, ‘Well, it really helps that you’re so into it.&#8217;” &#8212; Matt Dinan on the importance of the teacher&#8217;s passion “I don’t mean to suggest that Wilson is wron",
+      "image": "https://dailynous.com/wp-content/uploads/2022/01/miniheap-7-darkmode-compatible-1024x622.png"
+    },
+    {
+      "id": "rss_857ede870e74",
+      "source": "卫报书籍",
+      "title": "Alice Roberts: ‘By the time I’d finished Richard Dawkins I’d left faith behind’",
+      "url": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind",
+      "summary": "The TV presenter and author on the evolutionary biologists who inspired her, the genius of George Eliot – and fun with Frog and Toad My earliest reading memory The first books I remember were from The Village with Three Corners series Sheila K McCullagh. I loved the – literally – colourful characters, like Johnny Yellow Hat. I was reading with my Grandma, in her garden perhaps, sitting on a small patio, surrounded by bright begonias and busy lizzies. My favourite book growing up Arnold Lobel’s w",
+      "image": ""
+    },
+    {
+      "id": "rss_827214e2a0d7",
+      "source": "卫报书籍",
+      "title": "Life of M by Rachel Cusk review – is this story of a film star based on Natalie Portman?",
+      "url": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman",
+      "summary": "A teasing tale of the friendship between a writer and an actor explores the fallout from fame, and the blurring between pretence and reality M is a celebrated film actor. A&nbsp;star since childhood, now the face of a major fashion brand, she has been famous all her life. That her career closely resembles Natalie Portman’s has been gleefully seized upon by the press, something Rachel Cusk must surely have anticipated: in the novel, M’s first film has its sex scenes cut at her mother’s insistence",
+      "image": ""
+    },
+    {
+      "id": "rss_2c8aed8df7cd",
+      "source": "卫报书籍",
+      "title": "The best recent translated fiction – review roundup",
+      "url": "https://www.theguardian.com/books/2026/aug/21/the-best-recent-translated-fiction-review-roundup",
+      "summary": "The Red Book of Farewells by Pirkko Saisio; Short Circuit by Wolf Haas; Cosmos by Lucia Odoom; The Fallen Trees Are Also the Forest by Alejandra Kamiya The Red Book of Farewells by Pirkko Saisio, translated by Mia Spangenberg, Penguin Classics (£14.99) Following Lowest Common Denominator and Backlight, this book completes Finnish author Saisio’s autofictional trilogy. It covers her young adulthood in the 1970s, where she comes out as lesbian (“The electricity doesn’t go out. The Richter scale re",
+      "image": ""
+    },
+    {
+      "id": "rss_27d783343c8a",
+      "source": "Mongabay",
+      "title": "Reconnecting the skies: Linking flyways for migratory seabirds across continents",
+      "url": "https://news.mongabay.com/2026/08/reconnecting-the-skies-linking-flyways-for-migratory-seabirds-across-continents/",
+      "summary": "Arctic terns make the longest migration of any creature on Earth, with some Sterna paradisaea clocking more than 80,000 kilometers (49,709 miles) a year, flying from the Southern Ocean to their breeding grounds in the Arctic — and back. For a tiny bird, weighing less than an iPhone, it&#8217;s an astounding feat. South polar skuas [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/20133036/banner-in-the-sea-and-in-the-skies-768x512.jpg"
+    },
+    {
+      "id": "rss_12b93bcc03db",
+      "source": "Mongabay",
+      "title": "Six things to know about Asia’s heatwave and the health impacts",
+      "url": "https://news.mongabay.com/2026/08/six-things-to-know-about-asias-heatwave-and-the-health-impacts/",
+      "summary": "SEOUL — A record-breaking heatwave swept through a broad swath of Asia earlier this month, causing deaths and heat-related illnesses. This year’s extreme weather has been linked to El Niño, which, according to weather experts, could be one of the strongest ever recorded. The “super” El Niño, which officially arrived in June, is expected to [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/21095040/banner-portable-electric-fan-768x512.jpg"
+    },
+    {
+      "id": "rss_e9f9fd74fe5f",
+      "source": "Mongabay",
+      "title": "This tiny Thai lizard shares its name with a ‘House of the Dragon’ beast",
+      "url": "https://news.mongabay.com/short-article/2026/08/this-tiny-thai-lizard-shares-its-name-with-a-house-of-the-dragon-beast/",
+      "summary": "Researchers have described a new-to-science species of horned lizard from the high-elevation, evergreen forests of western Thailand. The lizard, named the Syrax mountain horned dragon, or Acanthosaura syrax, in a recent study, was discovered in Mae Wong National Park. The species name syrax refers to the yellow dragon ridden by Queen Rhaenyra Targaryen in the [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/21085251/Low-Res_oo_1731690-e1787302426411.jpg"
+    },
+    {
+      "id": "rss_8c178f55a77d",
+      "source": "卫报野生动物",
+      "title": "Rewilded land remains green amid drought-stricken English countryside, images show",
+      "url": "https://www.theguardian.com/environment/2026/aug/21/somerset-rewilding-holnicote-estate-wetlands-rivers-resilience",
+      "summary": "National Trust’s Holnicote estate says restored wetlands and rivers offer proof of resilience to drought, wildfires and flooding Aerial footage of an estate in Somerset has revealed the benefits of rewilding land in the face of extreme weather brought about by the climate crisis. The area of the National Trust’s Holnicote estate where rivers have been returned to their natural courses and wetlands have been restored have remained green and lush during the five heatwaves across the summer. In con",
+      "image": ""
+    },
+    {
+      "id": "rss_d70466f076b0",
+      "source": "卫报野生动物",
+      "title": "Thousands of little penguins being vaccinated against H5 bird flu in Victoria – video",
+      "url": "https://www.theguardian.com/world/video/2026/aug/21/thousands-of-little-penguins-being-vaccinated-against-h5-bird-flu-in-victoria-video",
+      "summary": "Victoria has begun vaccinating about 5,000 little penguins at Phillip Island and St Kilda to protect them against the deadly H5 bird flu, in what is believed to be the world’s largest vaccination program involving wild birds. While vaccinating wild birds against the disease was challenging, the fact that the penguins returned home every night to Phillip Island and St Kilda made it possible to deliver the two doses necessary over a two-week period First Australian death of little penguin with H5 ",
+      "image": ""
+    },
+    {
+      "id": "rss_2e54c347c287",
+      "source": "卫报野生动物",
+      "title": "Python named Jodie Foster first snake to receive pioneering cancer treatment",
+      "url": "https://www.theguardian.com/world/2026/aug/21/python-jodie-foster-snake-cancer-electrochemotherapy",
+      "summary": "Chester zoo resident, 23, ‘back to her usual feisty self’ after electrochemotherapy for tumour in her jaw A 15ft (4.5-metre) python is believed to be the first snake in the world to be given a pioneering, life-saving cancer treatment normally used on humans. The 50kg reticulated python, named Jodie Foster after the Hollywood star, has just turned 23 and lives at Chester zoo. Keepers first became concerned that she may be unwell when she began eating less and spending more time inactive in her ha",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-21 21:40"
+}
