@@ -137,6 +137,31 @@ function playChime(){
   }catch(e){}
 }
 
+// ── 等待耗时统计（localStorage 持久化，隐私模式降级） ──
+let latencyHist = null;
+function loadLatency(){
+  if(latencyHist) return latencyHist;
+  try{
+    latencyHist = JSON.parse(localStorage.getItem('newsqa_latency_hist') || '[]');
+    if(!Array.isArray(latencyHist)) latencyHist = [];
+  }catch(e){ latencyHist = []; }
+  return latencyHist;
+}
+function avgLatency(){
+  const h = loadLatency();
+  if(!h.length) return null;
+  const recent = h.slice(-5);
+  return Math.round(recent.reduce((a,b)=>a+b,0) / recent.length);
+}
+function recordLatency(sec){
+  try{
+    const h = loadLatency();
+    h.push(sec);
+    if(h.length > 20) h.splice(0, h.length - 20);
+    localStorage.setItem('newsqa_latency_hist', JSON.stringify(h));
+  }catch(e){}
+}
+
 function setMode(m){
   qaMode = m;
   document.getElementById('modeLight').className = m==='light' ? 'on' : '';
@@ -331,17 +356,27 @@ async function ask(){
   const sendBtn = document.getElementById('sendBtn');
   sendBtn.classList.add('sending');
   playTone(1400, 0.06, 'triangle', 0.05);
-  // 思考中气泡
+  // 思考中气泡 + 实时等待计时
   const thinkEl = document.createElement('div');
   thinkEl.className = 'msg ai thinking';
   thinkEl.textContent = '🤔 正在思考…';
   document.getElementById('msgs').appendChild(thinkEl);
   document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
+  const waitStart = Date.now();
+  const avg = avgLatency();
+  const waitTimer = setInterval(()=>{
+    const sec = Math.round((Date.now() - waitStart) / 1000);
+    thinkEl.textContent = '🤔 正在思考… 已等待 ' + sec + ' 秒'
+      + (avg ? '（上次平均约 ' + avg + ' 秒）' : '');
+    document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
+  }, 1000);
   try{
     const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx,mode:qaMode})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     thinkEl.remove();
+    clearInterval(waitTimer);
+    recordLatency(Math.round((Date.now() - waitStart) / 1000));
     // 打字机效果逐字显示
     const aiEl = document.createElement('div');
     aiEl.className = 'msg ai';
@@ -359,6 +394,7 @@ async function ask(){
     }, 16);
   }catch(e){
     thinkEl.remove();
+    clearInterval(waitTimer);
     addMsg('ai', '提问失败: ' + e.message + '，网络不稳定时请稍后重试', true);
     busy = false;
     sendBtn.classList.remove('sending');

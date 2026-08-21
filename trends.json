@@ -1118,5 +1118,26 @@
     "evidence": "工具投毒（OpenAPI隐藏指令）与恶意Rust crate（Arrayref）同日曝光",
     "grassroots": "开发者开始关注Agent调用链路的供应链安全，而非仅关注模型本身",
     "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent插件生态平台化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 17.7万Star，595个插件一键安装，桌面端解决方案出现",
+    "grassroots": "开发者反馈'一条命令装595个插件'，插件生态成为Agent落地关键",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "企业AI落地从规模转向效率",
+    "importance": 5,
+    "evidence": "美团公开反思'全员养虾'，Bloomberg报告显示中美AI差距缩小",
+    "grassroots": "内部员工反馈'烧钱但认知收获有限'，行业开始质疑盲目AI化",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI规划能力成为瓶颈",
+    "importance": 4,
+    "evidence": "157个Agent计划实测显示问题在规划而非执行，AI4AI-Bench基准发布",
+    "grassroots": "开发者感叹'我造了一台展示规划缺陷的机器'",
+    "date": "2026-08-21"
   }
 ]
