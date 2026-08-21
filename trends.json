@@ -1034,5 +1034,26 @@
     "evidence": "水印移除工具GitHub超1.7万星，EU裁定版权不保护AI生成内容",
     "grassroots": "开发者认为'移除水印的工具和添加水印的工具一样多，军备竞赛已经开始'",
     "date": "2026-08-21"
+  },
+  {
+    "theme": "AI Agent从单点工具走向系统生态",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 17.5万Star+插件商店、cumora Agent团队协作、OpenBot独立电脑Agent同日爆发",
+    "grassroots": "开发者从'哪个模型强'转向'怎么编排Agent更高效'，掘金教程刷屏",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "大厂AI投入进入ROI审视期",
+    "importance": 4,
+    "evidence": "美团公开复盘算力浪费，GitHub宕机暴露基础设施脆弱性",
+    "grassroots": "一线员工反馈'会用AI但用不出价值'，与高层'规模换认知'的预期存在落差",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI安全从'攻击测试'走向'系统性治理'",
+    "importance": 4,
+    "evidence": "ConceptGuard遗忘基准发布、prompt注入测试失效案例、EU裁定AI生成内容不受版权保护",
+    "grassroots": "开发者发现安全测试与真实攻击脱节，对Agent安全性的信任度下降",
+    "date": "2026-08-21"
   }
 ]
