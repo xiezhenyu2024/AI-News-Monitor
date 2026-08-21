@@ -1055,5 +1055,26 @@
     "evidence": "ConceptGuard遗忘基准发布、prompt注入测试失效案例、EU裁定AI生成内容不受版权保护",
     "grassroots": "开发者发现安全测试与真实攻击脱节，对Agent安全性的信任度下降",
     "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent插件生态成为竞争主战场",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 17.6万星、插件商店上线、多篇掘金教程涌现",
+    "grassroots": "开发者从'选模型'转向'选生态'，插件丰富度成为采用关键",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI Agent从单打独斗走向团队协作",
+    "importance": 4,
+    "evidence": "cumora、OpenBot、多Agent路由框架同日出现",
+    "grassroots": "开发者开始探索多Agent分工协作，而非依赖单个Agent完成所有任务",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI训练数据获取方式引发伦理争议",
+    "importance": 4,
+    "evidence": "AI公司销毁实体书事件发酵，watermarks-remover工具爆火",
+    "grassroots": "开发者对AI数据来源的伦理关注度上升，溯源与反溯源工具同时涌现",
+    "date": "2026-08-21"
   }
 ]

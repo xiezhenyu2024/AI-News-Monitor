@@ -6,20 +6,40 @@
   "source_count": 10,
   "cards": [
     {
-      "item_id": 4,
-      "title": "AI4AI-Bench发布：首个评估AI自我改进能力的基准测试",
+      "item_id": 1,
+      "title": "G-CARL框架：为患者定制医疗报告解读的AI新方法",
       "entities": [
         {
-          "name": "AI4AI-Bench",
-          "explain": "一个用于测试AI系统能否改进自身训练算法的基准测试平台"
+          "name": "G-CARL",
+          "explain": "一种新的AI训练框架，通过核对清单对齐奖励学习，让AI能生成既准确又通俗的医疗报告解读。"
         },
         {
-          "name": "递归自我改进(RSI)",
-          "explain": "AI系统改进产生自己的训练过程，使下一代系统继承改进的能力"
+          "name": "医疗报告解读",
+          "explain": "将复杂的医学检查结果转化为患者能理解的语言，同时保持医学准确性。"
         }
       ],
-      "summary": "AI4AI-Bench是首个专门评估大语言模型代理在算法设计中进行递归自我改进能力的基准测试。该基准测试关注AI系统能否优化自身的训练算法，从而让下一代系统继承改进。这为衡量AI自我进化能力提供了标准化方法。",
-      "relevant": "递归自我改进是通向通用人工智能的关键路径，该基准测试为评估这一能力提供了重要工具。",
+      "summary": "G-CARL框架旨在解决医疗报告个性化解读的难题，它同时考虑医学事实性和患者沟通的上下文依赖性。该方法通过核对清单对齐的奖励学习，让AI在生成解读时既基于证据又适应患者需求。这有望提升患者对医疗信息的理解，改善医患沟通。",
+      "relevant": "医疗AI领域的重要进展，直接关系到患者体验和医疗信息可及性。",
+      "source_text": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation。Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these",
+      "source_title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "source_url": "https://arxiv.org/abs/2608.20331v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 4,
+      "title": "AI4AI-Bench基准测试：评估AI自我改进能力的新标准",
+      "entities": [
+        {
+          "name": "递归自我改进",
+          "explain": "AI系统改进自身训练算法的能力，使下一代AI更强大。"
+        },
+        {
+          "name": "基准测试",
+          "explain": "用于标准化评估AI性能的测试集或方法。"
+        }
+      ],
+      "summary": "AI4AI-Bench是一个新的基准测试，专门评估大语言模型在算法设计中的递归自我改进能力。它测试AI是否能改进训练算法本身，从而提升下一代AI的性能。该基准为衡量AI的自我进化潜力提供了标准化方法，对AI安全和发展有重要意义。",
+      "relevant": "触及AI自我进化的核心问题，对AI安全和发展方向有深远影响。",
       "source_text": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement。Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subs",
       "source_title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "source_url": "https://arxiv.org/abs/2608.20318v1",
@@ -27,59 +47,39 @@
     },
     {
       "item_id": 11,
-      "title": "ConceptGuard发布：首个评估大语言模型上下文敏感遗忘能力的基准",
+      "title": "ConceptGuard基准：评估大模型上下文敏感的知识遗忘能力",
       "entities": [
         {
-          "name": "ConceptGuard",
-          "explain": "一个用于测试大语言模型能否在特定上下文中选择性遗忘知识的基准测试"
+          "name": "知识遗忘",
+          "explain": "让AI模型忘记特定有害或敏感知识的技术，类似人类的选择性记忆。"
         },
         {
-          "name": "大语言模型遗忘",
-          "explain": "从AI模型中移除有害或敏感知识的技术，类似人类选择性遗忘"
+          "name": "上下文敏感",
+          "explain": "根据使用场景决定是否遗忘，而非一刀切地删除所有相关知识。"
         }
       ],
-      "summary": "ConceptGuard是首个评估大语言模型上下文敏感遗忘能力的基准测试。现有方法依赖不相交的遗忘和保留数据集，无法全面评估这一能力。ConceptGuard填补了这一空白，为AI安全研究提供了更完整的评估框架。",
-      "relevant": "随着AI模型规模扩大，如何安全移除有害知识成为关键安全问题，该基准为这一领域提供了重要评估工具。",
+      "summary": "ConceptGuard是一个新基准，用于评估大语言模型在上下文敏感场景下的知识遗忘能力。现有方法通常简单地将知识分为遗忘和保留两类，但ConceptGuard强调遗忘应依赖具体上下文。该基准为AI安全中的知识移除提供了更全面的评估工具。",
+      "relevant": "AI安全领域的关键问题，帮助确保模型在移除有害知识时保持其他能力。",
       "source_text": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models。Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and mea",
       "source_title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
       "source_url": "https://arxiv.org/abs/2608.20338v1",
       "source_name": "ArXiv cs.CL"
     },
     {
-      "item_id": 1,
-      "title": "G-CARL提出新方法：让AI用通俗语言解读医学报告",
-      "entities": [
-        {
-          "name": "G-CARL",
-          "explain": "一种基于检查清单对齐的奖励学习方法，用于医学报告解读"
-        },
-        {
-          "name": "奖励学习",
-          "explain": "通过反馈信号训练AI系统做出正确决策的机器学习方法"
-        }
-      ],
-      "summary": "G-CARL提出了一种面向患者的医学报告个性化解读方法。该方法通过检查清单对齐的奖励学习，同时保证医学事实的准确性和沟通的通俗性，解决了现有医学视觉语言模型在患者沟通方面的不足。",
-      "relevant": "医学报告解读是患者理解自身健康状况的重要需求，该研究有望改善医患沟通效率。",
-      "source_text": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation。Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these",
-      "source_title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-      "source_url": "https://arxiv.org/abs/2608.20331v1",
-      "source_name": "ArXiv cs.AI"
-    },
-    {
       "item_id": 5,
-      "title": "Pandora's Box提出AI模型路由新方法：高效分配查询以降低成本",
+      "title": "AI模型路由新方法：在成本与价值间寻求最优分配",
       "entities": [
         {
           "name": "模型路由",
-          "explain": "将查询分配给最合适的AI模型处理的技术，类似快递分拣系统"
+          "explain": "将查询分配给最合适的AI模型，以平衡质量和成本。"
         },
         {
-          "name": "异构AI系统",
-          "explain": "由多个不同模型、架构组成的AI系统，各有所长"
+          "name": "价值估计",
+          "explain": "评估每个模型对特定查询的潜在价值，以决定路由策略。"
         }
       ],
-      "summary": "该研究提出了一种高效的AI模型路由方法，在异构AI系统中动态分配查询到最合适的模型。该方法在评估模型价值时考虑成本因素，在保证质量的同时降低整体运行成本。",
-      "relevant": "随着AI模型种类增多，如何高效利用多个模型成为降低成本的关键技术。",
+      "summary": "这项研究提出了一种高效的AI模型路由方法，在多个模型组成的异构系统中，通过估计每个模型对查询的价值来分配任务。该方法旨在以最低成本获得最高质量的回答，同时处理价值估计的不确定性。这对于构建经济高效的AI服务具有重要意义。",
+      "relevant": "随着AI模型增多，如何高效利用多个模型成为实际部署的关键问题。",
       "source_text": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation。Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but th",
       "source_title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
       "source_url": "https://arxiv.org/abs/2608.20316v1",
@@ -87,19 +87,19 @@
     },
     {
       "item_id": 10,
-      "title": "可解释Transformer模型用于电子健康记录预测，兼顾准确性和可解释性",
+      "title": "可解释Transformer模型：用于结构化电子健康记录的临床预测",
       "entities": [
         {
-          "name": "Transformer模型",
-          "explain": "一种深度学习架构，擅长处理序列数据，如文本和时间序列"
+          "name": "Transformer",
+          "explain": "一种深度学习模型架构，擅长处理序列数据，如文本或时间序列。"
         },
         {
-          "name": "电子健康记录(EHR)",
-          "explain": "患者医疗信息的数字化记录，包括诊断、用药、检验结果等"
+          "name": "电子健康记录",
+          "explain": "数字化存储的患者医疗信息，包括诊断、用药、检验结果等。"
         }
       ],
-      "summary": "该研究提出了一种可解释的Transformer模型，用于结构化电子健康记录的临床预测任务。该模型同时强调定量实验室信息和输入医疗事件的可解释性，在保持预测准确性的同时让医生理解模型决策依据。",
-      "relevant": "医疗AI的可解释性对临床决策至关重要，该研究推动了可解释医疗AI的发展。",
+      "summary": "该研究提出了一种可解释的Transformer模型，用于结构化电子健康记录的临床预测。模型强调定量实验室信息的重要性，并注重对输入医疗事件的解释性。这有助于医生理解AI预测的依据，提高临床决策的信任度。",
+      "relevant": "医疗AI的可解释性对临床采纳至关重要，此研究推进了该领域。",
       "source_text": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records。Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR t",
       "source_title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
       "source_url": "https://arxiv.org/abs/2608.20315v1",
@@ -107,19 +107,19 @@
     },
     {
       "item_id": 3,
-      "title": "从计算机使用痕迹中提取任务模型，助力AI代理理解人类工作流程",
+      "title": "从计算机使用痕迹中提取任务模型：让AI学习人类工作流程",
       "entities": [
         {
           "name": "计算机使用痕迹",
-          "explain": "用户操作电脑时被动记录的截图、鼠标和键盘操作数据"
+          "explain": "用户使用电脑时被动记录的屏幕截图和鼠标键盘操作。"
         },
         {
           "name": "任务模型",
-          "explain": "描述如何完成特定任务的符号化、可审计的流程模型"
+          "explain": "描述如何完成特定任务的符号化、可审计的流程模型。"
         }
       ],
-      "summary": "该研究提出从自然计算机使用痕迹中提取符号化任务模型的方法。这些模型可审计、可复用，能帮助计算机使用代理理解人类日常工作流程。随着AI代理进入工作场景，这类模型的重要性日益凸显。",
-      "relevant": "为AI代理理解人类工作流程提供了新方法，有助于提升AI自动化办公能力。",
+      "summary": "这项研究探索如何从自然记录的用户计算机操作痕迹中，提取符号化、可审计的任务模型。这些模型有助于理解日常工作的执行方式，并支持计算机使用代理（如自动化助手）的开发和改进。该研究为AI理解人类工作流程提供了新途径。",
+      "relevant": "随着AI代理普及，理解人类工作流程对自动化至关重要。",
       "source_text": "Inducing Task Models from Computer-Use Traces。Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks ",
       "source_title": "Inducing Task Models from Computer-Use Traces",
       "source_url": "https://arxiv.org/abs/2608.20319v1",
@@ -127,19 +127,19 @@
     },
     {
       "item_id": 7,
-      "title": "TCP_α提出新方法：控制置信度估计，提升音乐信息检索可靠性",
+      "title": "TCP_α方法：提升音乐信息检索的置信度估计可靠性",
       "entities": [
         {
-          "name": "TCP_α",
-          "explain": "一种用于控制置信度估计的机器学习方法，α是控制参数"
+          "name": "置信度估计",
+          "explain": "AI模型对自身预测正确性的信心程度，用于判断何时可以信任预测。"
         },
         {
           "name": "音乐信息检索",
-          "explain": "从音乐数据中提取信息的技术，如识别歌曲、流派分类等"
+          "explain": "从音乐数据中提取信息的技术，如识别歌曲、流派分类等。"
         }
       ],
-      "summary": "TCP_α提出了一种边际控制的置信度估计方法，用于音乐信息检索任务。深度神经网络常对错误预测给出高置信度，该方法通过训练后处理模型提供更可靠的置信度信号，帮助用户判断何时可以信任预测结果。",
-      "relevant": "为音乐信息检索系统提供了更可靠的置信度评估，提升AI系统的可信度。",
+      "summary": "TCP_α是一种新的置信度估计方法，旨在解决深度神经网络在音乐信息检索中过度自信的问题。该方法通过训练后处理模型来校准置信度，使用户能更可靠地判断预测的可信度。这对于提升音乐推荐和检索系统的实用性有直接帮助。",
+      "relevant": "解决AI模型过度自信问题，提升音乐信息检索系统的可靠性。",
       "source_text": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval。Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classi",
       "source_title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
       "source_url": "https://arxiv.org/abs/2608.20326v1",
@@ -147,23 +147,23 @@
     },
     {
       "item_id": 8,
-      "title": "三种射频技术对比：FMCW雷达、IR-UWB和Wi-Fi在卧室人体监测中的表现",
+      "title": "三种雷达技术对比：用于卧室人体活动监测和睡眠中断检测",
       "entities": [
         {
           "name": "FMCW雷达",
-          "explain": "调频连续波雷达，通过发射连续调频信号探测目标"
+          "explain": "调频连续波雷达，通过连续调频信号测量距离和速度。"
         },
         {
           "name": "IR-UWB",
-          "explain": "脉冲无线电超宽带，通过极短脉冲信号进行高精度测距"
+          "explain": "脉冲无线电超宽带雷达，利用极短脉冲进行高精度测距。"
         },
         {
-          "name": "Wi-Fi感知",
-          "explain": "利用Wi-Fi信号变化检测人体活动的技术"
+          "name": "Wi-Fi雷达",
+          "explain": "利用现有Wi-Fi信号变化来感知人体活动，无需额外设备。"
         }
       ],
-      "summary": "该研究对比了天花板安装的FMCW雷达、IR-UWB和Wi-Fi三种射频技术在卧室人体活动监测和睡眠中断检测中的表现。研究评估了不同技术的优缺点，为无接触式健康监测系统的技术选型提供了参考。",
-      "relevant": "无接触式健康监测是智慧医疗的重要方向，该对比研究为实际应用提供了技术选择依据。",
+      "summary": "该研究对比了天花板安装的FMCW、IR-UWB和Wi-Fi雷达在卧室人体活动监测和睡眠中断检测中的性能。研究评估了不同射频技术在无接触健康监测中的适用性，为选择合适的技术方案提供了数据支持。这对于智能家居和远程医疗有应用价值。",
+      "relevant": "无接触健康监测技术对比，为智能家居和医疗应用提供选型参考。",
       "source_text": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection。Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment condition",
       "source_title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
       "source_url": "https://arxiv.org/abs/2608.20322v1",
@@ -171,39 +171,39 @@
     },
     {
       "item_id": 16,
-      "title": "Repo0发布：设计驱动的零到全代码生成框架",
+      "title": "Chain-of-Experience：让大语言模型在推理时持续学习改进",
       "entities": [
         {
-          "name": "Repo0",
-          "explain": "一个能从头生成完整代码仓库的AI代理框架"
+          "name": "推理时学习",
+          "explain": "AI在回答问题过程中，通过交互经验实时改进，而非仅靠训练。"
         },
         {
-          "name": "零到全代码生成",
-          "explain": "从零开始构建整个代码仓库，包括架构设计和所有文件"
+          "name": "持续学习",
+          "explain": "AI系统在部署后仍能不断从新经验中学习的能力。"
         }
       ],
-      "summary": "Repo0提出了一种设计驱动的零到全代码生成方法，让AI代理从零构建完整代码仓库。现有系统大多假设预定义的仓库架构，而Repo0突破了这一限制，让代理自主设计并生成整个项目结构。",
-      "relevant": "为AI代码生成提供了新范式，有望大幅提升软件开发自动化水平。",
-      "source_text": "Repo0: Design-Driven Zero-to-All Code Generation。Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language ",
-      "source_title": "Repo0: Design-Driven Zero-to-All Code Generation",
+      "summary": "Chain-of-Experience研究大语言模型如何在测试时通过迭代经验进行学习。传统评估忽略模型的推理时改进能力，而该研究探索模型如何从交互中积累经验并提升表现。这为开发能持续适应新环境的AI系统提供了新思路。",
+      "relevant": "推动AI从静态模型向动态学习系统演进，提升实际应用适应性。",
+      "source_text": "Chain-of-Experience for Continual LLM Improvement。Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience",
+      "source_title": "Chain-of-Experience for Continual LLM Improvement",
       "source_url": "https://huggingface.co/papers/",
       "source_name": "Hugging Face"
     },
     {
-      "item_id": 18,
-      "title": "开发者反思：AI代理并非鲁莽，而是无法预见操作影响范围",
+      "item_id": 19,
+      "title": "AI代理的盲区：为何它看不到操作的潜在影响范围",
       "entities": [
         {
-          "name": "Claude Code",
-          "explain": "Anthropic开发的AI编程助手，可自动编写和修改代码"
+          "name": "AI代理",
+          "explain": "能自主执行任务的AI系统，如自动编写代码或管理基础设施。"
         },
         {
-          "name": "Ansible",
-          "explain": "一种IT自动化工具，用于配置管理和应用部署"
+          "name": "爆炸半径",
+          "explain": "一个操作可能引发的连锁反应和影响范围，此处指AI操作的风险边界。"
         }
       ],
-      "summary": "一位开发者分享使用Claude Code三个月的心得，指出AI代理并非鲁莽行事，而是缺乏对操作影响范围的预见能力。他通过实际案例说明，AI代理在修改代码时难以评估变更对系统其他部分的影响。",
-      "relevant": "揭示了AI编程工具的实际局限，对改进AI代理的安全性和可靠性有参考价值。",
+      "summary": "作者基于三个月使用Claude Code的经验，指出AI代理（如自动编程助手）的问题不在于鲁莽，而是无法预见其操作的潜在影响范围。文章探讨了AI在执行任务时缺乏对系统整体影响的理解，可能导致意外后果。这引发了对AI代理安全性的思考。",
+      "relevant": "AI代理的实际应用经验，揭示其安全性和可靠性挑战。",
       "source_text": "Your agent isn't reckless. It just can't see the blast radius.。I've been running Claude Code as a daily driver for about three months now. It writes Ansible I'd...",
       "source_title": "Your agent isn't reckless. It just can't see the blast radius.",
       "source_url": "https://dev.to/rabih_jabr_29/your-agent-isnt-reckless-it-just-cant-see-the-blast-radius-1lkj",
@@ -334,9 +334,9 @@
     {
       "id": "hf_d41d8cd98f00",
       "source": "Hugging Face",
-      "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+      "title": "Chain-of-Experience for Continual LLM Improvement",
       "url": "https://huggingface.co/papers/",
-      "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language "
+      "summary": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience"
     },
     {
       "id": "devto_4435427",
@@ -347,14 +347,6 @@
       "author": "Adam - The Developer ✨"
     },
     {
-      "id": "devto_4446977",
-      "source": "Dev.to",
-      "title": "Your agent isn't reckless. It just can't see the blast radius.",
-      "url": "https://dev.to/rabih_jabr_29/your-agent-isnt-reckless-it-just-cant-see-the-blast-radius-1lkj",
-      "summary": "I've been running Claude Code as a daily driver for about three months now. It writes Ansible I'd...",
-      "author": "Rabih Jabr"
-    },
-    {
       "id": "devto_4372640",
       "source": "Dev.to",
       "title": "Breaking the Multimodal Barrier: Exploring Gemini Omni and My Time with GDG Calabar",
@@ -363,20 +355,12 @@
       "author": "Gbemisola Esho"
     },
     {
-      "id": "devto_4439349",
+      "id": "devto_4446977",
       "source": "Dev.to",
-      "title": "I wrote a test for prompt injection. It passed while the attack worked.",
-      "url": "https://dev.to/mk023/i-wrote-a-test-for-prompt-injection-it-passed-while-the-attack-worked-kc9",
-      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry. I maintain a small...",
-      "author": "Marco"
-    },
-    {
-      "id": "devto_4448182",
-      "source": "Dev.to",
-      "title": "Your Memory API Is Lying to Your Agent",
-      "url": "https://dev.to/kenwalger/your-memory-api-is-lying-to-your-agent-252h",
-      "summary": "The memory store may know the truth. The interface may be throwing it away. This piece grew out of a...",
-      "author": "Ken W Alger"
+      "title": "Your agent isn't reckless. It just can't see the blast radius.",
+      "url": "https://dev.to/rabih_jabr_29/your-agent-isnt-reckless-it-just-cant-see-the-blast-radius-1lkj",
+      "summary": "I've been running Claude Code as a daily driver for about three months now. It writes Ansible I'd...",
+      "author": "Rabih Jabr"
     },
     {
       "id": "devto_4442305",
@@ -403,12 +387,20 @@
       "author": "Ryan Carniato"
     },
     {
-      "id": "juejin_7673506180661428259",
-      "source": "掘金",
-      "title": "Deepseek harness 安装配置保姆教程",
-      "url": "https://juejin.cn/post/7673506180661428259",
-      "summary": "",
-      "author": ""
+      "id": "devto_4448182",
+      "source": "Dev.to",
+      "title": "Your Memory API Is Lying to Your Agent",
+      "url": "https://dev.to/kenwalger/your-memory-api-is-lying-to-your-agent-252h",
+      "summary": "The memory store may know the truth. The interface may be throwing it away. This piece grew out of a...",
+      "author": "Ken W Alger"
+    },
+    {
+      "id": "devto_4448809",
+      "source": "Dev.to",
+      "title": "I Ran 157 Agent Plans Against a Real LLM. The Problem Wasn't Execution. It Was Planning.",
+      "url": "https://dev.to/debashish_ghosal/i-ran-157-agent-plans-against-a-real-llm-the-problem-wasnt-execution-it-was-planning-163j",
+      "summary": "I thought I was building a better planning engine. What I actually built was a machine for showing...",
+      "author": "Debashish Ghosal"
     },
     {
       "id": "juejin_7673875524200808494",
@@ -435,6 +427,14 @@
       "author": ""
     },
     {
+      "id": "juejin_7675346841392070707",
+      "source": "掘金",
+      "title": "我一路问 WorkBuddy，用腾讯云 OCR Skills 在几分钟内完成了投标审查",
+      "url": "https://juejin.cn/post/7675346841392070707",
+      "summary": "",
+      "author": ""
+    },
+    {
       "id": "juejin_7673978658780332083",
       "source": "掘金",
       "title": "给 DeepSeek Harness 装个\"应用商店\"：一条命令，595 个插件随你逛",
@@ -443,10 +443,10 @@
       "author": ""
     },
     {
-      "id": "juejin_7675346841392070707",
+      "id": "juejin_7674826322239258662",
       "source": "掘金",
-      "title": "我一路问 WorkBuddy，用腾讯云 OCR Skills 在几分钟内完成了投标审查",
-      "url": "https://juejin.cn/post/7675346841392070707",
+      "title": "开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透",
+      "url": "https://juejin.cn/post/7674826322239258662",
       "summary": "",
       "author": ""
     },
@@ -459,10 +459,10 @@
       "author": ""
     },
     {
-      "id": "juejin_7674826322239258662",
+      "id": "juejin_7674574367976341567",
       "source": "掘金",
-      "title": "开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透",
-      "url": "https://juejin.cn/post/7674826322239258662",
+      "title": "本地跑一个 Qwen 3.8，你将拥有一个 Opus 4.6",
+      "url": "https://juejin.cn/post/7674574367976341567",
       "summary": "",
       "author": ""
     },
@@ -502,20 +502,36 @@
       "summary": "8 月 17 日，GitHub 宕机了 7 小时 47 分钟。影响范围不只是 github.com 打不开。认证系统瘫痪、Actions 中断、Pull Request 和 Issue 不可用、Copilot 也挂了。 官方事后分析了故障原因：负载均衡配置错误触发了客户端的重试风暴。故障发生时，负载均衡的错误配置导致部分请求处理不当，客户端在收到错误响应后发起大量..."
     },
     {
+      "id": "hn_comment_49383752",
+      "source": "HN讨论",
+      "title": "xioxox 在「Captain Zilog」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49329919",
+      "summary": "Some background information:  https:&#x2F;&#x2F;offthebeatenpanel.blogspot.com&#x2F;2013&#x2F;08&#x2F;unusual-heroe...",
+      "author": "xioxox"
+    },
+    {
+      "id": "hn_comment_49383623",
+      "source": "HN讨论",
+      "title": "RustyRussell 在「Captain Zilog」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49329919",
+      "summary": "I was confused. But yes, that same Zilog Corporation as the Z80. They also did... action comics as promotional material? The final page, containing disclaimers (presumably from their standard spec sheets?) disclaiming any inaccuracy and warning &quot;Not for use in life support&quot; is adding, not removing, my confusion.",
+      "author": "RustyRussell"
+    },
+    {
+      "id": "hn_comment_49383732",
+      "source": "HN讨论",
+      "title": "ButlerianJihad 在「Captain Zilog」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49329919",
+      "summary": "When I worked at this place in the mid-90s, I came into possession of a physical copy of the second issue. Here’s the first:  https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;CaptainInternetAndCERFBoyNumber1...  Be forewarned, soujourner: the jokes  herein are corny as hell, and you may not understand if you were not the sort of neckbeard who attended Usenix LISA.",
+      "author": "ButlerianJihad"
+    },
+    {
       "id": "hn_comment_49383354",
       "source": "HN讨论",
       "title": "ezfe 在「AI companies destroy physical books – le」下的评论",
       "url": "https://news.ycombinator.com/item?id=49383026",
       "summary": "I dislike these AI companies but let&#x27;s be clear here: the copyright holders are the ones locking these books up. If they don&#x27;t want to print more copies, then they could release the copyright on them. Instead, they enforce the copyright and force AI companies to shred books they want to ingest. edit: Also, an AI company would only ever care to purchase, scan, destroy a book once. Presumably many books have more than one copy.",
       "author": "ezfe"
-    },
-    {
-      "id": "hn_comment_49383406",
-      "source": "HN讨论",
-      "title": "xvxvx 在「AI companies destroy physical books – le」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49383026",
-      "summary": "Pretty funny that they just took Anna’s archive and ingested it. As for the story: they make it sound like AI companies are buying up all existing copies of rare books and stealing the knowledge, which isn’t the case, as far as I know.",
-      "author": "xvxvx"
     },
     {
       "id": "hn_comment_49383415",
@@ -526,33 +542,41 @@
       "author": "HedonicEscal8r"
     },
     {
-      "id": "hn_comment_49383422",
+      "id": "hn_comment_49383697",
       "source": "HN讨论",
-      "title": "shakna 在「AI companies destroy physical books – le」下的评论",
+      "title": "silcoon 在「AI companies destroy physical books – le」下的评论",
       "url": "https://news.ycombinator.com/item?id=49383026",
-      "summary": "I wholeheartedly believe the AI controversy on destroying books is being stirred up by the companies themselves. Copyright law requires you destroy a book, if you format shift it. If you digitise, you need to ensure its not a &quot;copy&quot; but that your one license went with the book. So... If enough people complain, they get to pressure for copyright changes. Which will just so happen to have massive carveouts to let them do whatever they want.",
-      "author": "shakna"
+      "summary": "As much as I hate piracy in a sector in financial crisis like book publishing (because Anna’s project is piracy), I hate even more what these large AI companies are doing: privatizing human knowledge. On one side, there’s copyright law, which exists to support the work of creative people. “Information wants to be free” is bullshit spread by people who have never spent a minute in their lives trying to create something themselves. Artists need some form of reward. On the other side, buying and de",
+      "author": "silcoon"
     },
     {
-      "id": "hn_comment_49383443",
+      "id": "hn_comment_49383406",
       "source": "HN讨论",
-      "title": "landgenoot 在「AI companies destroy physical books – le」下的评论",
+      "title": "xvxvx 在「AI companies destroy physical books – le」下的评论",
       "url": "https://news.ycombinator.com/item?id=49383026",
-      "summary": "Isn&#x27;t this a matter of regulation? I&#x27;m not sure about US, but in EU you have old houses&#x2F;buildings that are protected. Sure, you can buy them, but you can&#x27;t modify or destroy them (being cultural heritage).",
-      "author": "landgenoot"
+      "summary": "Pretty funny that they just took Anna’s archive and ingested it. As for the story: they make it sound like AI companies are buying up all existing copies of rare books and stealing the knowledge, which isn’t the case, as far as I know.",
+      "author": "xvxvx"
     },
     {
-      "id": "hn_49373456",
-      "source": "Hacker News",
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "summary": "I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes&#x2F;sec on an iPhone 15). The idea is basically GitHub Copilot or Tabnine, except instead of prompting it with code, you prompt it by playing a few notes on a MIDI piano. The model then continues wh"
+      "id": "hn_comment_49383526",
+      "source": "HN讨论",
+      "title": "glimshe 在「AI companies destroy physical books – le」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49383026",
+      "summary": "The very first paragraph is fascinating: &quot;Several AI companies are acquiring large quantities of secondhand books through intermediaries, scanning and destroying them, all to obtain training data “untouched by machines” from before 2022.&quot; Is the corpus of human knowledge useful for high quality AI training now essentially frozen in time? Also, how useful old books really are for AI training besides helping AI acquire knowledge about history?",
+      "author": "glimshe"
     },
     {
-      "id": "hn_49375996",
+      "id": "hn_49374269",
       "source": "Hacker News",
-      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-      "url": "https://github.com/zachahn/vomit",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "summary": "https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on... <a href=\"https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#"
+    },
+    {
+      "id": "hn_49329919",
+      "source": "Hacker News",
+      "title": "Captain Zilog",
+      "url": "https://www.zilog.com/captain_zilog/",
       "summary": ""
     },
     {
@@ -563,18 +587,18 @@
       "summary": ""
     },
     {
+      "id": "hn_49375996",
+      "source": "Hacker News",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "summary": ""
+    },
+    {
       "id": "hn_49378768",
       "source": "Hacker News",
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
       "url": "https://www.danielvaughn.dev/posts/huzzah/",
       "summary": "Hello everyone. I&#x27;ve been working on this experimental editor called Huzzah. I&#x27;ve been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They&#x27;re great, but I&#x27;m finding it more and mo"
-    },
-    {
-      "id": "hn_49374269",
-      "source": "Hacker News",
-      "title": "Malicious Rust crate Arrayref runs a build-time payload",
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-      "summary": "https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on... <a href=\"https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#"
     },
     {
       "id": "hn_49375719",
@@ -584,17 +608,17 @@
       "summary": ""
     },
     {
-      "id": "hn_49382614",
+      "id": "hn_49379550",
       "source": "Hacker News",
-      "title": "Artificial Intelligence Policy",
-      "url": "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
       "summary": ""
     },
     {
-      "id": "hn_49382041",
+      "id": "hn_49374287",
       "source": "Hacker News",
-      "title": "Copyright does not protect AI-generated content in EU",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://arxiv.org/abs/2608.00146",
       "summary": ""
     },
     {
@@ -602,21 +626,21 @@
       "source": "GitHub Trending",
       "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
       "url": "https://github.com/s1dashu/ip-as-logo-skill",
-      "summary": "⭐ 3202 | 🍴 157 | None"
+      "summary": "⭐ 3221 | 🍴 157 | None"
     },
     {
       "id": "gh_1336933337",
       "source": "GitHub Trending",
       "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
       "url": "https://github.com/yetone/cumora",
-      "summary": "⭐ 2786 | 🍴 331 | TypeScript"
+      "summary": "⭐ 2789 | 🍴 331 | TypeScript"
     },
     {
       "id": "gh_1336502227",
       "source": "GitHub Trending",
       "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "url": "https://github.com/CopilotKit/OpenBot",
-      "summary": "⭐ 1717 | 🍴 180 | TypeScript"
+      "summary": "⭐ 1746 | 🍴 181 | TypeScript"
     },
     {
       "id": "gh_1337089243",
@@ -644,7 +668,7 @@
       "source": "GitHub Trending",
       "title": "vvxw/deploy-vercel - Install Command：npm install",
       "url": "https://github.com/vvxw/deploy-vercel",
-      "summary": "⭐ 834 | 🍴 176 | JavaScript"
+      "summary": "⭐ 847 | 🍴 181 | JavaScript"
     },
     {
       "id": "gh_1341259811",
@@ -658,42 +682,42 @@
       "source": "GitHub Trending",
       "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
       "url": "https://github.com/wang2122/sprix-sage-router",
-      "summary": "⭐ 679 | 🍴 11 | Python"
+      "summary": "⭐ 779 | 🍴 11 | Python"
     },
     {
       "id": "gh_1338671045",
       "source": "GitHub Trending",
       "title": "DenisSergeevitch/desktop-fly - A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
       "url": "https://github.com/DenisSergeevitch/desktop-fly",
-      "summary": "⭐ 642 | 🍴 38 | Swift"
+      "summary": "⭐ 643 | 🍴 38 | Swift"
     },
     {
       "id": "gh_1333065091",
       "source": "GitHub Trending",
       "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "⭐ 175736 | 🍴 19042 | TypeScript"
+      "summary": "⭐ 176082 | 🍴 19085 | TypeScript"
     },
     {
       "id": "gh_1322012299",
       "source": "GitHub Trending",
       "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
       "url": "https://github.com/firecrawl/anydoc",
-      "summary": "⭐ 17574 | 🍴 1009 | Rust"
+      "summary": "⭐ 17594 | 🍴 1011 | Rust"
     },
     {
       "id": "gh_1333321333",
       "source": "GitHub Trending",
       "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "summary": "⭐ 16701 | 🍴 796 | TypeScript"
+      "summary": "⭐ 16755 | 🍴 800 | TypeScript"
     },
     {
       "id": "gh_1331135699",
       "source": "GitHub Trending",
       "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "summary": "⭐ 16131 | 🍴 1837 | Python"
+      "summary": "⭐ 16149 | 🍴 1837 | Python"
     },
     {
       "id": "gh_1316527318",
@@ -707,36 +731,36 @@
       "source": "GitHub Trending",
       "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "summary": "⭐ 10746 | 🍴 1612 | Python"
+      "summary": "⭐ 10775 | 🍴 1619 | Python"
     },
     {
       "id": "gh_1318768894",
       "source": "GitHub Trending",
       "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "url": "https://github.com/trycompai/crm",
-      "summary": "⭐ 8734 | 🍴 1051 | TypeScript"
+      "summary": "⭐ 8737 | 🍴 1051 | TypeScript"
     },
     {
       "id": "gh_1313576395",
       "source": "GitHub Trending",
       "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
       "url": "https://github.com/MoonshotAI/Kimi-K3",
-      "summary": "⭐ 8553 | 🍴 678 | None"
+      "summary": "⭐ 8554 | 🍴 678 | None"
     },
     {
       "id": "gh_1317041031",
       "source": "GitHub Trending",
       "title": "MiniMax-AI/MiniMax-H3 - 无描述",
       "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "summary": "⭐ 6548 | 🍴 400 | Python"
+      "summary": "⭐ 6555 | 🍴 400 | Python"
     },
     {
       "id": "gh_1334586481",
       "source": "GitHub Trending",
       "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
       "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "summary": "⭐ 6472 | 🍴 119 | PowerShell"
+      "summary": "⭐ 6482 | 🍴 119 | PowerShell"
     }
   ],
-  "generated_at": "2026-08-21 11:38"
+  "generated_at": "2026-08-21 12:53"
 }
