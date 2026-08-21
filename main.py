@@ -1332,11 +1332,14 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .msg{margin:8px 0;padding:10px 12px;border-radius:8px;font-size:14px;line-height:1.7;white-space:pre-wrap;max-width:92%}
 .user{background:#0b57d0;color:#fff;margin-left:auto;border-bottom-right-radius:2px}
 .ai{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.06);border-bottom-left-radius:2px}
-.thinking{color:#888;font-style:italic;animation:pulse 1.2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+.thinking{color:#888;font-style:italic}
+.thinking::after{content:'';animation:dots 1.2s steps(4,end) infinite}
+@keyframes dots{0%{content:''}25%{content:'•'}50%{content:'••'}75%{content:'•••'}}
 .inputrow{display:flex;gap:8px;padding:10px 14px;background:#fff;border-top:1px solid #eee}
 input{flex:1;padding:10px;font-size:14px;border:1px solid #ddd;border-radius:8px}
-button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:none;border-radius:8px;cursor:pointer}
+button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:none;border-radius:8px;cursor:pointer;transition:transform .1s,opacity .15s}
+button:active{transform:scale(.93)}
+button.sending{opacity:.6;pointer-events:none}
 .hint{color:#888;font-size:12px;margin:4px 0 10px}
 .sbar{margin-bottom:12px}
 .dtabs{display:flex;gap:6px;margin-bottom:12px}
@@ -1349,7 +1352,8 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
 .sitem .stime{font-size:12px;color:#888;margin-left:auto}
 .sgroup{font-size:13px;color:#888;margin:12px 0 8px;font-weight:600}
 .modebar{display:flex;gap:6px;padding:8px 14px;background:#f0f4fb;border-bottom:1px solid #eee}
-.modebar button{flex:1;padding:7px;font-size:13px;border:1px solid #ccd;border-radius:8px;background:#fff;cursor:pointer;color:#333}
+.modebar button{flex:1;padding:7px;font-size:13px;border:1px solid #ccd;border-radius:8px;background:#fff;cursor:pointer;color:#333;transition:background .2s,color .2s,transform .1s}
+.modebar button:active{transform:scale(.95)}
 .modebar button.on{background:#0b57d0;color:#fff;border-color:#0b57d0}
 </style>
 </head>
@@ -1384,7 +1388,7 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
   <div id="msgs"></div>
   <div class="inputrow">
     <input id="q" placeholder="问这条新闻…" onkeydown="if(event.key==='Enter')ask()">
-    <button onclick="ask()">发送</button>
+    <button id="sendBtn" onclick="ask()">发送</button>
   </div>
 </div>
 
@@ -1396,6 +1400,21 @@ let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
 let busy = false;        // 是否正在请求中
 let qaMode = 'light';    // light=免费GLM  deep=DeepSeek+钢人论证
+
+// ── 声音反馈（Web Audio 合成，零依赖，静默降级） ──
+let audioCtx = null;
+function playTone(freq, dur, type='sine', vol=0.06){
+  try{
+    if(!audioCtx){ audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
+    if(audioCtx.state==='suspended'){ audioCtx.resume(); }
+    const o = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    o.type = type; o.frequency.value = freq;
+    g.gain.value = vol;
+    o.connect(g); g.connect(audioCtx.destination);
+    o.start(); o.stop(audioCtx.currentTime + dur);
+  }catch(e){}
+}
 
 function setMode(m){
   qaMode = m;
@@ -1532,25 +1551,38 @@ async function openChat(idx){
   if(!ctx || !ctx.cards[idx]) return;
   curCard = {ctxKey: ctx.key, idx};
   const c = ctx.cards[idx];
-  document.getElementById('home').style.display = 'none';
-  document.getElementById('chat').style.display = 'flex';
-  document.getElementById('ctitle').textContent = (idx+1) + '/' + ctx.cards.length + ' · ' + ctx.key;
-  const ents = (c.entities||[]).map(e=>`<div class="ent"><b>${esc(e.name)}</b>：${esc(e.explain)}</div>`).join('');
-  const rel = c.relevant ? `<p class="rel">与你相关：${esc(c.relevant)}</p>` : '';
-  document.getElementById('cardinfo').innerHTML =
-    `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
-  // 恢复该卡历史
-  curMsgs = await loadThread(threadId(curCard.ctxKey, curCard.idx));
-  curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
-  const box = document.getElementById('msgs');
-  box.innerHTML = '';
-  curMsgs.forEach(m=>addMsg(m.role, m.content, false));
-  box.scrollTop = box.scrollHeight;
+  const doSwitch = async ()=>{
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('chat').style.display = 'flex';
+    document.getElementById('ctitle').textContent = (idx+1) + '/' + ctx.cards.length + ' · ' + ctx.key;
+    const ents = (c.entities||[]).map(e=>`<div class="ent"><b>${esc(e.name)}</b>：${esc(e.explain)}</div>`).join('');
+    const rel = c.relevant ? `<p class="rel">与你相关：${esc(c.relevant)}</p>` : '';
+    document.getElementById('cardinfo').innerHTML =
+      `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
+    curMsgs = await loadThread(threadId(curCard.ctxKey, curCard.idx));
+    curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
+    const box = document.getElementById('msgs');
+    box.innerHTML = '';
+    curMsgs.forEach(m=>addMsg(m.role, m.content, false));
+    box.scrollTop = box.scrollHeight;
+  };
+  if(document.startViewTransition){
+    document.startViewTransition(doSwitch);
+  } else {
+    await doSwitch();
+  }
 }
 function goHome(){
-  document.getElementById('chat').style.display = 'none';
-  document.getElementById('home').style.display = '';
-  curCard = null;
+  const doSwitch = ()=>{
+    document.getElementById('chat').style.display = 'none';
+    document.getElementById('home').style.display = '';
+    curCard = null;
+  };
+  if(document.startViewTransition){
+    document.startViewTransition(doSwitch);
+  } else {
+    doSwitch();
+  }
 }
 function addMsg(role, text, save){
   const d = document.createElement('div');
@@ -1573,8 +1605,12 @@ async function ask(){
   const key = curCard.ctxKey;
   const card_idx = curCard.idx;
   const history = curMsgs.slice(-12).map(m=>({role:(m.role==='ai'?'assistant':m.role), content:(m.content||'').slice(0,800)}));
-  // 思考中气泡
+  // 发送按钮状态 + 提示音
   busy = true;
+  const sendBtn = document.getElementById('sendBtn');
+  sendBtn.classList.add('sending');
+  playTone(660, 0.08, 'square', 0.04);
+  // 思考中气泡
   const thinkEl = document.createElement('div');
   thinkEl.className = 'msg ai thinking';
   thinkEl.textContent = '🤔 正在思考…';
@@ -1598,12 +1634,13 @@ async function ask(){
       i += CHUNK;
       aiEl.textContent = full.slice(0, i);
       document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
-      if(i >= full.length){ clearInterval(timer); busy = false; }
+      if(i >= full.length){ clearInterval(timer); busy = false; sendBtn.classList.remove('sending'); playTone(880, 0.15, 'sine', 0.06); }
     }, 16);
   }catch(e){
     thinkEl.remove();
     addMsg('ai', '提问失败: ' + e.message + '，网络不稳定时请稍后重试', true);
     busy = false;
+    sendBtn.classList.remove('sending');
   }
 }
 
