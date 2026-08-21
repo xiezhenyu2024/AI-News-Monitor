@@ -1407,12 +1407,33 @@ function playTone(freq, dur, type='sine', vol=0.06){
   try{
     if(!audioCtx){ audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
     if(audioCtx.state==='suspended'){ audioCtx.resume(); }
+    const t0 = audioCtx.currentTime;
     const o = audioCtx.createOscillator();
     const g = audioCtx.createGain();
     o.type = type; o.frequency.value = freq;
-    g.gain.value = vol;
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(vol, t0 + 0.005);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
     o.connect(g); g.connect(audioCtx.destination);
-    o.start(); o.stop(audioCtx.currentTime + dur);
+    o.start(t0); o.stop(t0 + dur + 0.05);
+  }catch(e){}
+}
+function playChime(){
+  try{
+    if(!audioCtx){ audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }
+    if(audioCtx.state==='suspended'){ audioCtx.resume(); }
+    const t0 = audioCtx.currentTime;
+    const g = audioCtx.createGain();
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(0.06, t0 + 0.005);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.35);
+    g.connect(audioCtx.destination);
+    [1046, 1568].forEach(f=>{
+      const o = audioCtx.createOscillator();
+      o.type = 'sine'; o.frequency.value = f;
+      o.connect(g);
+      o.start(t0); o.stop(t0 + 0.4);
+    });
   }catch(e){}
 }
 
@@ -1609,7 +1630,7 @@ async function ask(){
   busy = true;
   const sendBtn = document.getElementById('sendBtn');
   sendBtn.classList.add('sending');
-  playTone(660, 0.08, 'square', 0.04);
+  playTone(1400, 0.06, 'triangle', 0.05);
   // 思考中气泡
   const thinkEl = document.createElement('div');
   thinkEl.className = 'msg ai thinking';
@@ -1634,7 +1655,7 @@ async function ask(){
       i += CHUNK;
       aiEl.textContent = full.slice(0, i);
       document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
-      if(i >= full.length){ clearInterval(timer); busy = false; sendBtn.classList.remove('sending'); playTone(880, 0.15, 'sine', 0.06); }
+      if(i >= full.length){ clearInterval(timer); busy = false; sendBtn.classList.remove('sending'); playChime(); }
     }, 16);
   }catch(e){
     thinkEl.remove();
