@@ -1339,14 +1339,28 @@ input{flex:1;padding:10px;font-size:14px;border:1px solid #ddd;border-radius:8px
 button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:none;border-radius:8px;cursor:pointer}
 .hint{color:#888;font-size:12px;margin:4px 0 10px}
 .sbar{margin-bottom:12px}
+.dtabs{display:flex;gap:6px;margin-bottom:12px}
+.dtabs button{flex:1;padding:9px;font-size:14px;border:1px solid #ddd;border-radius:8px;background:#fff;cursor:pointer;color:#333}
+.dtabs button.on{background:#0b57d0;color:#fff;border-color:#0b57d0}
+.slist{margin-bottom:12px}
+.sitem{display:flex;align-items:center;gap:10px;background:#fff;border-radius:10px;padding:11px 14px;margin-bottom:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);cursor:pointer}
+.sitem .sdot{width:8px;height:8px;border-radius:50%;background:#0b57d0;flex-shrink:0}
+.sitem .sname{font-size:14px;font-weight:600;color:#222}
+.sitem .stime{font-size:12px;color:#888;margin-left:auto}
+.sgroup{font-size:13px;color:#888;margin:12px 0 8px;font-weight:600}
 </style>
 </head>
 <body>
 <div id="home">
   <div class="top">
     <h2>📰 新闻问答</h2>
-    <select id="pick" onchange="loadGrid()"></select>
   </div>
+  <div class="dtabs">
+    <button id="tabToday" class="on" onclick="switchDayTab('today')">今日</button>
+    <button id="tabHist" onclick="switchDayTab('hist')">历史</button>
+  </div>
+  <div id="listToday" class="slist"></div>
+  <div id="listHist" class="slist" style="display:none"></div>
   <div class="sbar">
     <input id="skw" placeholder="🔍 搜索新闻（输入关键词补充查询）" onkeydown="if(event.key==='Enter')doSearch()">
   </div>
@@ -1416,10 +1430,71 @@ function saveThread(id, msgs){
   };
 }
 
-// ── 主页：两列网格 ──
-async function loadGrid(){
-  const key = document.getElementById('pick').value;
-  if(!key) return;
+// ── 主页：今日/历史 双栏 + 卡片网格 ──
+const SESSION_LABEL = {morning:'☀️ 早报', afternoon:'🕐 午报', evening:'🌙 晚报'};
+const SESSION_TIME = {morning:'07:30', afternoon:'14:00', evening:'21:40'};
+let curKey = null;
+
+function sessionInfo(key){
+  // key 格式: YYYY-MM-DD-session
+  const idx = key.lastIndexOf('-');
+  const session = key.slice(idx+1);
+  const date = key.slice(0, idx);
+  return {date, session};
+}
+
+function todayStr(){
+  const d = new Date();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return d.getFullYear() + '-' + m + '-' + day;
+}
+
+function renderSessionLists(){
+  const today = todayStr();
+  const todayKeys = KEYS.filter(k=>k.startsWith(today));
+  const histKeys = KEYS.filter(k=>!k.startsWith(today));
+
+  // 今日栏
+  const tl = document.getElementById('listToday');
+  if(todayKeys.length){
+    tl.innerHTML = todayKeys.map(k=>{
+      const {session} = sessionInfo(k);
+      return `<div class="sitem" onclick="pickKey('${k}')"><span class="sdot"></span><span class="sname">${SESSION_LABEL[session]||k}</span><span class="stime">${SESSION_TIME[session]||''}</span></div>`;
+    }).join('');
+  } else {
+    tl.innerHTML = '<div class="hint">今日暂无报告，请查看历史或等待推送</div>';
+  }
+
+  // 历史栏：按日期分组
+  const groups = {};
+  histKeys.forEach(k=>{
+    const {date, session} = sessionInfo(k);
+    (groups[date] = groups[date] || []).push({k, session});
+  });
+  const dates = Object.keys(groups).sort().reverse();
+  const hl = document.getElementById('listHist');
+  if(dates.length){
+    hl.innerHTML = dates.map(d=>{
+      const items = groups[d].map(({k, session})=>
+        `<div class="sitem" onclick="pickKey('${k}')"><span class="sdot"></span><span class="sname">${SESSION_LABEL[session]||session}</span><span class="stime">${SESSION_TIME[session]||''}</span></div>`
+      ).join('');
+      return `<div class="sgroup">${d}</div>${items}`;
+    }).join('');
+  } else {
+    hl.innerHTML = '<div class="hint">暂无历史记录</div>';
+  }
+}
+
+function switchDayTab(tab){
+  document.getElementById('tabToday').className = tab==='today' ? 'on' : '';
+  document.getElementById('tabHist').className = tab==='hist' ? 'on' : '';
+  document.getElementById('listToday').style.display = tab==='today' ? '' : 'none';
+  document.getElementById('listHist').style.display = tab==='hist' ? '' : 'none';
+}
+
+async function pickKey(key){
+  curKey = key;
   const box = document.getElementById('grid');
   box.innerHTML = '<div class="loading">加载中…</div>';
   try{
@@ -1538,10 +1613,16 @@ async function doSearch(){
 
 (async function init(){
   await openDB();
-  const sel = document.getElementById('pick');
-  sel.innerHTML = KEYS.map(k=>`<option value="${k}">${k}</option>`).join('');
-  if(KEYS.length) loadGrid();
-  else document.getElementById('grid').innerHTML = '<div class="loading">暂无新闻数据，请等下一期日报生成</div>';
+  if(KEYS.length){
+    renderSessionLists();
+    // 默认选中今日最新一期
+    const today = todayStr();
+    const todayKeys = KEYS.filter(k=>k.startsWith(today));
+    const target = todayKeys.length ? todayKeys[todayKeys.length-1] : KEYS[0];
+    pickKey(target);
+  } else {
+    document.getElementById('grid').innerHTML = '<div class="loading">暂无新闻数据，请等下一期日报生成</div>';
+  }
 })();
 </script>
 </body></html>"""
