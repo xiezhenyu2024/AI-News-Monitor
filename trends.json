@@ -1076,5 +1076,26 @@
     "evidence": "AI公司销毁实体书事件发酵，watermarks-remover工具爆火",
     "grassroots": "开发者对AI数据来源的伦理关注度上升，溯源与反溯源工具同时涌现",
     "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent平台生态化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness两天9.5万Star，595个插件，桌面端方案同步爆发",
+    "grassroots": "开发者称'一条命令逛应用商店'，插件生态降低Agent使用门槛",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI投入产出比反思",
+    "importance": 5,
+    "evidence": "美团8万人日耗千万算力未带来生产力提升，高管公开复盘",
+    "grassroots": "员工反馈'钱烧出去了，但没看到生产力质变'",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent安全与可信度",
+    "importance": 4,
+    "evidence": "多篇论文聚焦模型作弊、遗忘、过度自信，开发者讨论Agent'爆炸半径'",
+    "grassroots": "开发者开始为Agent设定安全边界，而非盲目信任",
+    "date": "2026-08-21"
   }
 ]
