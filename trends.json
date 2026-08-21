@@ -1013,5 +1013,26 @@
     "evidence": "Wiz Research攻破Snowflake事件中漏洞由Copilot Autofix引入",
     "grassroots": "开发者讨论'AI写的代码谁来审计'",
     "date": "2026-08-20"
+  },
+  {
+    "theme": "Agent基础设施进入生态爆发期",
+    "importance": 5,
+    "evidence": "DeepSeek Harness一周17.5万星，插件市场、桌面端、精选列表同步涌现",
+    "grassroots": "开发者从'怎么装'转向'装哪些插件'，安装门槛已大幅降低",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent安全与可靠性成为核心议题",
+    "importance": 5,
+    "evidence": "Dev.to多篇实战文章讨论Agent边界问题，供应链攻击与GitHub宕机同日曝光",
+    "grassroots": "开发者普遍认为Agent不是鲁莽而是'看不见爆炸半径'，需要更细粒度的控制机制",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "AI内容溯源攻防战升级",
+    "importance": 4,
+    "evidence": "水印移除工具GitHub超1.7万星，EU裁定版权不保护AI生成内容",
+    "grassroots": "开发者认为'移除水印的工具和添加水印的工具一样多，军备竞赛已经开始'",
+    "date": "2026-08-21"
   }
 ]
