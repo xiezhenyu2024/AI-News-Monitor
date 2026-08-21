@@ -1348,6 +1348,9 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
 .sitem .sname{font-size:14px;font-weight:600;color:#222}
 .sitem .stime{font-size:12px;color:#888;margin-left:auto}
 .sgroup{font-size:13px;color:#888;margin:12px 0 8px;font-weight:600}
+.modebar{display:flex;gap:6px;padding:8px 14px;background:#f0f4fb;border-bottom:1px solid #eee}
+.modebar button{flex:1;padding:7px;font-size:13px;border:1px solid #ccd;border-radius:8px;background:#fff;cursor:pointer;color:#333}
+.modebar button.on{background:#0b57d0;color:#fff;border-color:#0b57d0}
 </style>
 </head>
 <body>
@@ -1373,6 +1376,10 @@ button{padding:10px 18px;font-size:14px;background:#0b57d0;color:#fff;border:non
     <button onclick="goHome()">←</button>
     <span class="ctitle" id="ctitle"></span>
   </div>
+  <div class="modebar">
+    <button id="modeLight" class="on" onclick="setMode('light')">💡 轻度</button>
+    <button id="modeDeep" onclick="setMode('deep')">🧠 深度</button>
+  </div>
   <div class="cardinfo" id="cardinfo"></div>
   <div id="msgs"></div>
   <div class="inputrow">
@@ -1388,6 +1395,13 @@ let ctx = null;          // 当前期 context
 let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
 let busy = false;        // 是否正在请求中
+let qaMode = 'light';    // light=免费GLM  deep=DeepSeek+钢人论证
+
+function setMode(m){
+  qaMode = m;
+  document.getElementById('modeLight').className = m==='light' ? 'on' : '';
+  document.getElementById('modeDeep').className = m==='deep' ? 'on' : '';
+}
 
 // ── IndexedDB：每卡独立对话历史，保留2年 ──
 let db = null;
@@ -1567,7 +1581,7 @@ async function ask(){
   document.getElementById('msgs').appendChild(thinkEl);
   document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
   try{
-    const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx})});
+    const r = await fetch(API + '/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key,question:q,history,card_idx,mode:qaMode})});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
     thinkEl.remove();
