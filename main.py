@@ -273,7 +273,7 @@ def fetch_hackernews_all(top_n: int = 20, ai_only: bool = False) -> list[dict]:
                         "source": "Hacker News",
                         "title": s.get("title", ""),
                         "url": s.get("url", f"https://news.ycombinator.com/item?id={sid}"),
-                        "summary": clean_html((s.get("text", "") or "")[:300]),
+                        "summary": clean_html((s.get("text", "") or "")[:1500]),
                     }
                 except Exception:
                     return None
@@ -328,7 +328,7 @@ def fetch_hackernews_comments(top_n: int = 10) -> list[dict]:
                     if not comment or comment.get("type") != "comment":
                         continue
                     text = comment.get("text", "") or ""
-                    text_clean = re.sub(r"<[^>]+>", " ", text).strip()[:500]
+                    text_clean = re.sub(r"<[^>]+>", " ", text).strip()[:1500]
                     if len(text_clean) < 30:
                         continue
                     author = comment.get("by", "anonymous")
@@ -364,7 +364,7 @@ def fetch_arxiv(categories: list[str], max_results: int = 5) -> list[dict]:
             for entry in root.findall("atom:entry", ns):
                 eid = entry.find("atom:id", ns).text.strip()
                 title = (entry.find("atom:title", ns).text or "").strip()
-                summary = clean_html((entry.find("atom:summary", ns).text or "").strip())[:300]
+                summary = clean_html((entry.find("atom:summary", ns).text or "").strip())[:1500]
                 authors = ", ".join(
                     a.find("atom:name", ns).text
                     for a in entry.findall("atom:author", ns)[:3]
@@ -406,7 +406,7 @@ def fetch_huggingface() -> list[dict]:
                 "title": title,
                 "url": paper.get("url", paper.get("link", "")
                                  or f"https://huggingface.co/papers/{pid}"),
-                "summary": (paper.get("summary", paper.get("abstract", "")) or "")[:300],
+                "summary": (paper.get("summary", paper.get("abstract", "")) or "")[:1500],
             })
         log(f"  Hugging Face: {len(items)} 条")
     except Exception as e:
@@ -579,7 +579,7 @@ def fetch_v2ex() -> list[dict]:
                 "source": "V2EX",
                 "title": topic.get("title", ""),
                 "url": f"https://www.v2ex.com/t/{topic['id']}",
-                "summary": topic.get("content", "")[:200] if topic.get("content") else "",
+                "summary": topic.get("content", "")[:800] if topic.get("content") else "",
             })
         log(f"  V2EX: {len(items)} 条")
     except Exception as e:
@@ -609,7 +609,7 @@ def fetch_juejin() -> list[dict]:
                     "source": "掘金",
                     "title": title.strip(),
                     "url": f"https://juejin.cn/post/{info.get('content_id', '')}",
-                    "summary": (info.get("brief", "") or "")[:200],
+                    "summary": (info.get("brief", "") or "")[:800],
                     "author": info.get("user_name", ""),
                 })
         log(f"  掘金: {len(items)} 条")
@@ -628,7 +628,7 @@ def fetch_oschina() -> list[dict]:
             for item in root.findall(".//item")[:5]:
                 title = (item.findtext("title") or "").strip()
                 link = item.findtext("link") or ""
-                desc = clean_html(item.findtext("description") or "")[:200]
+                desc = clean_html(item.findtext("description") or "")[:800]
                 if not title:
                     continue
                 items.append({
@@ -660,7 +660,7 @@ def fetch_devto() -> list[dict]:
                     "source": "Dev.to",
                     "title": art.get("title", ""),
                     "url": art.get("url", ""),
-                    "summary": clean_html((art.get("description") or "")[:200]),
+                    "summary": clean_html((art.get("description") or "")[:800]),
                     "author": art.get("user", {}).get("name", ""),
                 })
         log(f"  Dev.to: {len(items)} 条")
@@ -968,7 +968,7 @@ def build_prompt(session_type: str, items: list[dict],
         for it in src_items:
             sections.append(f"- {it['title']}")
             if it.get("summary"):
-                sections.append(f"  详情: {it['summary'][:200]}")
+                sections.append(f"  详情: {it['summary'][:800]}")
             if it.get("url"):
                 sections.append(f"  URL: {it['url']}")
             if it.get("author"):
@@ -1124,7 +1124,7 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
     if not items:
         return []
     raw = "\n".join(
-        f"#{i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:250]}\n  URL: {it.get('url','')}"
+        f"#{i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
         for i, it in enumerate(items[:max_items])
     )
     sys_prompt = """你是新闻摘要卡片生成器。从提供的新闻中选出最重要的8-10条，为每条生成一张结构化卡片，输出JSON数组，格式：
@@ -1159,7 +1159,7 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
                 src = items[iid - 1]
                 src_sum = src.get("summary", "") or ""
                 src_title = src.get("title", "") or ""
-                c["source_text"] = (src_title + "。" + src_sum)[:1200]
+                c["source_text"] = (src_title + "。" + src_sum)[:2500]
                 c["source_title"] = src_title
                 c["source_url"] = src.get("url", "")
                 c["source_name"] = src.get("source", "")
