@@ -1097,5 +1097,26 @@
     "evidence": "多篇论文聚焦模型作弊、遗忘、过度自信，开发者讨论Agent'爆炸半径'",
     "grassroots": "开发者开始为Agent设定安全边界，而非盲目信任",
     "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent工具生态进入爆发期，但生产力落地仍是难题",
+    "importance": 5,
+    "evidence": "DeepSeek Harness 17.7万Star与美团'全员养虾'反思同日出现，形成鲜明对比",
+    "grassroots": "开发者一边热情拥抱新工具，一边在实战中摸索'怎么用好'而非'能不能用'",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "中美AI差距缩小从口号变为数据事实",
+    "importance": 5,
+    "evidence": "Bloomberg专题报道，Kimi K3在综合基准上追平美国顶尖模型",
+    "grassroots": "开发者反馈Kimi K3在中文场景表现突出，但生态与工程化仍有差距",
+    "date": "2026-08-21"
+  },
+  {
+    "theme": "Agent安全成为新兴威胁面",
+    "importance": 4,
+    "evidence": "工具投毒（OpenAPI隐藏指令）与恶意Rust crate（Arrayref）同日曝光",
+    "grassroots": "开发者开始关注Agent调用链路的供应链安全，而非仅关注模型本身",
+    "date": "2026-08-21"
   }
 ]

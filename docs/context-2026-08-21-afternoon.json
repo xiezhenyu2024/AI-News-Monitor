@@ -3,167 +3,167 @@
   "date": "2026-08-21",
   "session": "afternoon",
   "label": "☀️ 午间技术",
-  "source_count": 10,
+  "source_count": 9,
   "cards": [
     {
       "item_id": 4,
-      "title": "AI4AI-Bench：首个用于评估大语言模型在算法设计领域递归自我改进能力的基准测试",
+      "title": "AI4AI-Bench：首个评估AI自我改进能力的基准测试发布",
       "entities": [
         {
-          "name": "递归自我改进",
-          "explain": "AI系统改进自身训练算法的能力，使下一代系统继承改进成果"
+          "name": "递归自我改进(RSI)",
+          "explain": "AI系统改进自身训练算法的能力，让下一代AI继承改进成果"
         },
         {
-          "name": "大语言模型",
-          "explain": "基于海量文本训练的人工智能模型，能理解和生成自然语言"
+          "name": "LLM Agent",
+          "explain": "基于大语言模型的智能体，能自主执行任务并做出决策"
         }
       ],
-      "summary": "该研究提出AI4AI-Bench基准，专门评估大语言模型在算法设计中的递归自我改进能力。通过测试模型能否改进训练算法本身，衡量AI系统自我进化的潜力。这一基准为衡量AI自我改进能力提供了标准化方法。",
-      "relevant": "递归自我改进是通向通用人工智能的关键路径，该基准为评估AI自我进化能力提供了重要工具。",
+      "summary": "AI4AI-Bench是首个专门评估大语言模型智能体在算法设计中进行递归自我改进能力的基准测试。该基准测试关注AI系统能否改进产生AI系统的训练算法，使下一代系统继承改进。研究团队设计了相关任务来测试智能体在算法设计上的创新能力。",
+      "relevant": "递归自我改进是通向通用人工智能的关键路径，该基准为评估和推动AI自我进化能力提供了重要工具。",
       "source_text": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement。Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subs",
       "source_title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
       "source_url": "https://arxiv.org/abs/2608.20318v1",
       "source_name": "ArXiv cs.AI"
     },
     {
-      "item_id": 11,
-      "title": "ConceptGuard：首个评估大语言模型上下文敏感遗忘能力的基准测试",
-      "entities": [
-        {
-          "name": "大语言模型",
-          "explain": "基于海量文本训练的人工智能模型，能理解和生成自然语言"
-        },
-        {
-          "name": "遗忘",
-          "explain": "从模型中移除特定知识或能力的技术，用于保护隐私和消除有害内容"
-        }
-      ],
-      "summary": "现有的大语言模型遗忘方法无法全面评估其能力，ConceptGuard基准填补了这一空白。该基准测试模型在上下文相关场景下的遗忘效果，确保模型在特定情境下遗忘知识，同时在其他情境下保留有用信息。",
-      "relevant": "随着AI模型广泛应用，如何安全地移除敏感知识成为重要议题，该基准为评估遗忘技术提供了更全面的方法。",
-      "source_text": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models。Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and mea",
-      "source_title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-      "source_url": "https://arxiv.org/abs/2608.20338v1",
-      "source_name": "ArXiv cs.CL"
-    },
-    {
       "item_id": 1,
-      "title": "G-CARL：面向患者的医学报告个性化解读新方法",
+      "title": "G-CARL：面向患者的医疗报告个性化解读新方法",
       "entities": [
         {
-          "name": "医学报告解读",
-          "explain": "将专业医疗报告转化为患者能理解的语言，同时保持医学准确性"
+          "name": "G-CARL",
+          "explain": "一种基于检查清单对齐的奖励学习方法，用于医疗报告解读"
         },
         {
           "name": "奖励学习",
-          "explain": "通过反馈信号训练AI模型，使其输出符合预期目标"
+          "explain": "通过反馈信号训练AI模型的方法，让模型学会生成符合期望的输出"
         }
       ],
-      "summary": "G-CARL提出一种基于清单对齐的奖励学习方法，用于生成既符合医学事实又适合患者理解的报告解读。该方法通过将解读内容与医学证据清单对齐，确保解读的准确性和个性化。",
-      "relevant": "帮助患者理解复杂的医学报告，提升医患沟通效率，是AI在医疗领域的重要应用。",
+      "summary": "G-CARL提出了一种面向患者的医疗报告个性化解读方法，兼顾医学事实准确性和患者沟通的上下文相关性。该方法通过检查清单对齐的奖励学习机制，解决了现有医疗视觉语言模型在个性化解读方面的不足。",
+      "relevant": "医疗报告解读是医患沟通的重要环节，该方法有望提升患者对医疗信息的理解和就医体验。",
       "source_text": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation。Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these",
       "source_title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
       "source_url": "https://arxiv.org/abs/2608.20331v1",
       "source_name": "ArXiv cs.AI"
     },
     {
+      "item_id": 11,
+      "title": "ConceptGuard：首个评估大模型上下文敏感遗忘能力的基准",
+      "entities": [
+        {
+          "name": "大语言模型遗忘",
+          "explain": "从训练好的大模型中移除特定有害或敏感知识的技术"
+        },
+        {
+          "name": "上下文敏感遗忘",
+          "explain": "根据使用场景灵活决定是否遗忘知识，而非一刀切删除"
+        }
+      ],
+      "summary": "ConceptGuard是首个评估大语言模型上下文敏感遗忘能力的基准测试。现有遗忘方法和基准依赖分离的遗忘集和保留集，无法全面评估模型在复杂上下文中的遗忘能力。该基准填补了这一空白，为更精细的模型遗忘技术提供了评估标准。",
+      "relevant": "随着大模型广泛应用，如何安全移除有害知识同时保留有用信息成为关键挑战，该基准推动遗忘技术向更精细化发展。",
+      "source_text": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models。Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and mea",
+      "source_title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2608.20338v1",
+      "source_name": "ArXiv cs.CL"
+    },
+    {
       "item_id": 5,
-      "title": "Pandora's AI Model Routing Box：多模型系统的高效路由分配新框架",
+      "title": "Pandora's AI模型路由：高效分配多模型系统查询的新框架",
       "entities": [
         {
           "name": "模型路由",
-          "explain": "在多个AI模型之间智能分配查询，选择最合适的模型处理任务"
+          "explain": "将查询分配给最合适的AI模型处理的技术，以平衡质量和成本"
         },
         {
-          "name": "价值估计",
-          "explain": "评估不同模型处理特定任务的效果和成本"
+          "name": "异构AI系统",
+          "explain": "由多个不同架构、不同能力的AI模型组成的系统"
         }
       ],
-      "summary": "该研究提出一种高效的多模型路由分配框架，在考虑价值估计成本的前提下，将查询分配给最合适的模型。通过平衡质量与成本，实现AI系统整体性能的优化。",
-      "relevant": "随着AI模型多样化，如何高效利用多个模型成为关键问题，该框架为多模型系统提供了优化方案。",
+      "summary": "该研究提出Pandora's AI模型路由框架，解决异构AI系统中查询分配的成本效益问题。路由需要估计每个模型对查询的价值，但精确估计成本高昂，该框架在价值估计成本和路由效率之间取得平衡。",
+      "relevant": "多模型系统是当前AI部署的主流趋势，高效路由策略能显著降低运营成本并提升服务质量。",
       "source_text": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation。Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but th",
       "source_title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
       "source_url": "https://arxiv.org/abs/2608.20316v1",
       "source_name": "ArXiv cs.AI"
     },
     {
-      "item_id": 10,
-      "title": "可解释Transformer模型：面向结构化电子健康记录的临床预测新方法",
-      "entities": [
-        {
-          "name": "Transformer",
-          "explain": "一种深度学习模型架构，擅长处理序列数据，广泛用于自然语言处理"
-        },
-        {
-          "name": "电子健康记录",
-          "explain": "患者医疗信息的数字化记录，包括诊断、用药、检验结果等"
-        }
-      ],
-      "summary": "该研究提出一种可解释的Transformer模型，用于结构化电子健康记录的临床预测。模型同时强调定量实验室信息和输入医疗事件的可解释性，为临床决策提供更可靠的AI支持。",
-      "relevant": "可解释性是医疗AI落地的重要前提，该研究为临床预测模型的可信应用提供了新思路。",
-      "source_text": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records。Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR t",
-      "source_title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
-      "source_url": "https://arxiv.org/abs/2608.20315v1",
-      "source_name": "ArXiv cs.LG"
-    },
-    {
-      "item_id": 16,
-      "title": "ASR模型基准优化问题研究：公开基准可能误导模型性能评估",
-      "entities": [
-        {
-          "name": "ASR",
-          "explain": "自动语音识别，将语音转换为文字的技术"
-        },
-        {
-          "name": "基准优化",
-          "explain": "模型针对特定测试集进行优化，导致在真实场景中性能下降"
-        }
-      ],
-      "summary": "该研究探讨了自动语音识别模型在公开基准上的优化问题，指出模型可能在基准测试上表现优异，但在真实世界数据上泛化能力不足。研究旨在量化这种基准优化的程度和影响。",
-      "relevant": "揭示AI模型评估中的潜在陷阱，对确保模型在真实场景中的可靠性具有重要意义。",
-      "source_text": "Towards Quantifying Benchmark Optimization in ASR Models。Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchma",
-      "source_title": "Towards Quantifying Benchmark Optimization in ASR Models",
-      "source_url": "https://huggingface.co/papers/",
-      "source_name": "Hugging Face"
-    },
-    {
       "item_id": 3,
-      "title": "从计算机使用痕迹中提取任务模型：为AI代理提供可审计的工作流程",
+      "title": "从计算机使用痕迹中自动提取任务模型的新方法",
       "entities": [
         {
           "name": "计算机使用痕迹",
-          "explain": "用户操作电脑时被动记录的截图、鼠标和键盘操作数据"
+          "explain": "用户操作电脑时被动记录的截图、鼠标和键盘操作等数据"
         },
         {
-          "name": "AI代理",
-          "explain": "能自主执行任务的AI系统，如自动操作软件的智能助手"
+          "name": "任务模型",
+          "explain": "描述工作流程的符号化、可审计、可复用的模型"
         }
       ],
-      "summary": "该研究提出从自然计算机使用痕迹中提取符号化、可审计、可复用的任务模型。这些模型有助于理解日常工作的执行方式，为计算机使用代理提供更可靠的工作流程参考。",
-      "relevant": "为AI代理提供可解释、可审计的工作流程模型，是提升AI自动化能力的重要基础。",
+      "summary": "该研究提出从自然计算机使用痕迹中自动提取符号化任务模型的方法。这些痕迹包括被动记录的截图和鼠标键盘操作，可用于构建可审计、可复用的工作流程模型。随着计算机使用智能体的普及，这类模型的重要性日益凸显。",
+      "relevant": "自动提取任务模型有助于理解人类工作流程，为计算机使用智能体的开发和流程优化提供基础。",
       "source_text": "Inducing Task Models from Computer-Use Traces。Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks ",
       "source_title": "Inducing Task Models from Computer-Use Traces",
       "source_url": "https://arxiv.org/abs/2608.20319v1",
       "source_name": "ArXiv cs.AI"
     },
     {
+      "item_id": 10,
+      "title": "可解释Transformer模型用于结构化电子健康记录预测",
+      "entities": [
+        {
+          "name": "电子健康记录(EHR)",
+          "explain": "患者医疗信息的电子化记录，包括诊断、用药、检验结果等"
+        },
+        {
+          "name": "Transformer",
+          "explain": "一种基于自注意力机制的深度学习架构，广泛用于自然语言处理"
+        }
+      ],
+      "summary": "该研究提出一种可解释的Transformer模型，用于结构化电子健康记录的临床预测任务。与现有方法不同，该模型同时强调定量实验室信息和输入医疗事件的可解释性，为临床决策提供更可靠的AI支持。",
+      "relevant": "可解释性是医疗AI落地的关键要求，该研究推动预测模型在临床场景中的可信应用。",
+      "source_text": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records。Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR t",
+      "source_title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+      "source_url": "https://arxiv.org/abs/2608.20315v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 7,
+      "title": "TCP_α：为音乐信息检索提供可靠的置信度估计",
+      "entities": [
+        {
+          "name": "音乐信息检索(MIR)",
+          "explain": "从音乐数据中提取信息的领域，如音乐分类、推荐等"
+        },
+        {
+          "name": "置信度估计",
+          "explain": "模型对自身预测正确性的评估，帮助用户判断何时可以信任预测"
+        }
+      ],
+      "summary": "TCP_α提出了一种边际控制的置信度估计方法，解决深度神经网络在音乐信息检索中过度自信的问题。该方法通过事后置信度估计，为用户提供可靠的预测可信度信号，帮助判断何时可以信任模型的预测结果。",
+      "relevant": "可靠的置信度估计是AI系统实际应用的关键，该研究提升了音乐信息检索系统的可信度。",
+      "source_text": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval。Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classi",
+      "source_title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "source_url": "https://arxiv.org/abs/2608.20326v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
       "item_id": 8,
-      "title": "三种射频技术对比：用于卧室人体活动监测和睡眠中断检测",
+      "title": "三种雷达技术用于卧室人体活动监测和睡眠中断检测的比较研究",
       "entities": [
         {
           "name": "FMCW雷达",
-          "explain": "调频连续波雷达，通过频率变化测量距离和速度"
+          "explain": "调频连续波雷达，通过连续调频信号测量距离和速度"
         },
         {
           "name": "IR-UWB",
-          "explain": "脉冲无线电超宽带技术，通过短脉冲实现高精度定位"
+          "explain": "脉冲无线电超宽带雷达，利用极短脉冲进行高精度测距"
         },
         {
           "name": "Wi-Fi感知",
-          "explain": "利用Wi-Fi信号变化检测人体活动，无需额外设备"
+          "explain": "利用Wi-Fi信号变化来感知人体活动，无需额外硬件"
         }
       ],
-      "summary": "该研究对比了天花板安装的FMCW雷达、IR-UWB和Wi-Fi感知三种射频技术在卧室人体活动监测和睡眠中断检测中的表现。研究评估了不同技术的优缺点，为无接触式健康监测提供技术选择参考。",
-      "relevant": "无接触式健康监测是智慧医疗的重要方向，该研究为选择合适的技术方案提供了实证依据。",
+      "summary": "该研究系统比较了天花板安装的FMCW雷达、IR-UWB雷达和Wi-Fi感知三种射频技术在卧室人体活动监测和睡眠中断检测中的表现。研究填补了不同射频技术在医疗监测场景中缺乏直接对比的空白。",
+      "relevant": "非接触式健康监测是智慧医疗的重要方向，该比较研究为技术选型提供了实证依据。",
       "source_text": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection。Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment condition",
       "source_title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
       "source_url": "https://arxiv.org/abs/2608.20322v1",
@@ -171,43 +171,43 @@
     },
     {
       "item_id": 2,
-      "title": "三代理智能体工作流：实现出行行为数据采集与预测一体化",
+      "title": "三智能体工作流：实现主动数据收集与天气敏感需求预测",
       "entities": [
         {
-          "name": "代理智能体",
-          "explain": "能自主执行任务的AI系统，本研究中指负责不同环节的AI模块"
+          "name": "智能体工作流",
+          "explain": "多个AI智能体协作完成复杂任务的流程设计"
         },
         {
           "name": "出行行为建模",
-          "explain": "通过数据分析预测人们的出行模式和需求"
+          "explain": "通过数据分析和建模来理解和预测人们的出行模式"
         }
       ],
-      "summary": "该研究提出一种三代理工作流，将对话式数据采集、出行行为建模和天气敏感需求预测整合为一个自动化流程。这种方法克服了传统研究中数据采集和预测建模分离的问题，提高了整体效率。",
-      "relevant": "为智慧城市和交通规划提供了更高效的数据采集与预测一体化解决方案。",
+      "summary": "该研究提出一种三智能体工作流，整合对话式数据收集、出行行为建模和天气敏感需求预测。传统方法将数据收集和预测建模分开开发，该研究通过智能体协作实现端到端的集成，提升了预测的准确性和效率。",
+      "relevant": "智能交通系统需要精准的需求预测，该研究展示了多智能体协作在交通领域的应用潜力。",
       "source_text": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction。Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction",
       "source_title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
       "source_url": "https://arxiv.org/abs/2608.20320v1",
       "source_name": "ArXiv cs.AI"
     },
     {
-      "item_id": 7,
-      "title": "TCP_α：为音乐信息检索提供可靠的置信度估计方法",
+      "item_id": 16,
+      "title": "NARU基准：评估AI对日本超长视频叙事演变和文化细微差别的理解",
       "entities": [
         {
-          "name": "置信度估计",
-          "explain": "评估AI模型预测结果可信程度的技术"
+          "name": "超长视频理解",
+          "explain": "理解时长很长的视频内容，包括叙事发展和隐含的社会意义"
         },
         {
-          "name": "音乐信息检索",
-          "explain": "从音乐数据中提取信息的技术，如识别歌曲、流派分类等"
+          "name": "文化细微差别",
+          "explain": "特定文化背景下隐含的、需要背景知识才能理解的含义"
         }
       ],
-      "summary": "深度神经网络在音乐信息检索中常表现出过度自信，该研究提出TCP_α方法，通过边缘控制的置信度估计，为音乐信息检索提供更可靠的预测可信度信号。该方法帮助用户判断何时可以信任模型预测。",
-      "relevant": "提高AI系统在音乐领域的可靠性，为用户提供更可信的预测信号。",
-      "source_text": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval。Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classi",
-      "source_title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
-      "source_url": "https://arxiv.org/abs/2608.20326v1",
-      "source_name": "ArXiv cs.LG"
+      "summary": "NARU是首个评估AI对日本超长视频叙事演变和文化细微差别理解能力的基准。现有基准很少评估这些能力，该基准填补了这一空白，为长视频理解研究提供了新的评估维度。",
+      "relevant": "长视频理解是AI从短视频走向完整叙事理解的关键一步，该基准推动跨文化视频理解研究。",
+      "source_text": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video。Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in high-context, non-Eng",
+      "source_title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face"
     }
   ],
   "items": [
@@ -334,9 +334,9 @@
     {
       "id": "hf_d41d8cd98f00",
       "source": "Hugging Face",
-      "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+      "title": "NARU: A Benchmark for NARrative Evolution and Cultural Nuance Understanding in Japanese Extreme Long Video",
       "url": "https://huggingface.co/papers/",
-      "summary": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchma"
+      "summary": "Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in high-context, non-Eng"
     },
     {
       "id": "devto_4435427",
@@ -363,12 +363,12 @@
       "author": "Rabih Jabr"
     },
     {
-      "id": "devto_4449890",
+      "id": "devto_4418983",
       "source": "Dev.to",
-      "title": "Most Developers Test Their Code. Why Don't They Test Their AI?",
-      "url": "https://dev.to/jaideepparashar/most-developers-test-their-code-why-dont-they-test-their-ai-1kp3",
-      "summary": "Here's something I've been thinking about while building AI systems: Developers are obsessed with...",
-      "author": "Jaideep Parashar"
+      "title": "The Reasoning Ledger: Remembering Decisions, Not Just Data",
+      "url": "https://dev.to/kenwalger/the-reasoning-ledger-remembering-decisions-not-just-data-56gm",
+      "summary": "Part 4 of the Building the AI Memory Stack series After finishing the previous article, I looked at...",
+      "author": "Ken W Alger"
     },
     {
       "id": "devto_4442305",
@@ -377,14 +377,6 @@
       "url": "https://dev.to/aftabkh4n/blazormemory-10-is-out-ten-months-14-packages-and-what-i-got-wrong-along-the-way-1548",
       "summary": "I started BlazorMemory in January because I wanted an AI chat assistant in Blazor that remembered...",
       "author": "Aftab Bashir"
-    },
-    {
-      "id": "devto_4436921",
-      "source": "Dev.to",
-      "title": "My AI Content Journey",
-      "url": "https://dev.to/playfulprogramming/my-ai-content-journey-1b8p",
-      "summary": "I apologize ahead of time, what follows has no tooling applied to it. No grammar checks, no AI, and...",
-      "author": "Ryan Carniato"
     },
     {
       "id": "devto_4437475",
@@ -401,6 +393,14 @@
       "url": "https://dev.to/debashish_ghosal/i-ran-157-agent-plans-against-a-real-llm-the-problem-wasnt-execution-it-was-planning-163j",
       "summary": "I thought I was building a better planning engine. What I actually built was a machine for showing...",
       "author": "Debashish Ghosal"
+    },
+    {
+      "id": "devto_4450921",
+      "source": "Dev.to",
+      "title": "Tool Poisoning: How a Hidden Instruction in Your OpenAPI Spec Can Hijack an AI Agent",
+      "url": "https://dev.to/merlonix/tool-poisoning-how-a-hidden-instruction-in-your-openapi-spec-can-hijack-an-ai-agent-291g",
+      "summary": "A hidden instruction smuggled into an OpenAPI summary or description is invisible to a human skimming the spec but read verbatim by the agent deciding how to call the tool. Here is how tool poisoning",
+      "author": "Merlonix"
     },
     {
       "id": "juejin_7673875524200808494",
@@ -467,6 +467,27 @@
       "author": ""
     },
     {
+      "id": "oschina_3d0441856b17",
+      "source": "开源中国",
+      "title": "百万奖金怎么拿？这有一份上海开源大赛攻略",
+      "url": "https://www.oschina.net/news/502061",
+      "summary": "由开源中国主办的 2026 上海开源软件应用创新大赛已正式启动报名，作为上海市的年度重磅技术赛事，本次大赛总奖池累计 100 万元，面向全国征集开源项目，无论是企业团队、高校学生还是个人开发者，都可以报名参赛。 这篇攻略把大赛从报名到总决赛的关键信息一次讲清楚，帮你判断项目怎么报、材料怎么交、评审看什么、什么..."
+    },
+    {
+      "id": "oschina_b6644cab3e43",
+      "source": "开源中国",
+      "title": "中美 AI 差距正在消失。不是预测，是正在发生的事。",
+      "url": "https://www.oschina.net/news/502059/2026-us-china-ai-race",
+      "summary": "Bloomberg Businessweek 8 月 20 日发了一篇数据量极大的专题报道，标题直白：US Lead in the AI Race With China Is Rapidly Narrowing。文章拉了十几张图表，从模型能力、成本、下载量、区域市场份额等维度做了对比。 几个关键数据： Moonshot 的 Kimi K3 在 Artificial Analysis 综合基准上追平"
+    },
+    {
+      "id": "oschina_e631a946d096",
+      "source": "开源中国",
+      "title": "禅道开源版 22.5 发布，编辑器中@人员后增加消息通知，完善多处用户体验",
+      "url": "https://www.oschina.net/news/502055",
+      "summary": "大家好， 禅道开源版22.5发布！本次发布 在编辑器中@人员后增加了消息通知功能，便于干系人第一时间收到消息提醒。 优化了测试用例与用例库用例版本同步时的操作提示，提升操作指引的清晰度，降低误操作风险。 放开外部人员设置为成员的限制，开启列出外部用户后，外部人员可以正常设置到需要协作的对象中。 同时完善多处..."
+    },
+    {
       "id": "oschina_bb6a5bd4a1c7",
       "source": "开源中国",
       "title": "FydeOS v23 发布，全新的开源安卓子系统，远程桌面与VNC能力一起升级",
@@ -479,58 +500,6 @@
       "title": "美团高管反思「全员养虾」，8 万人日耗千万算力没带来生产力提升",
       "url": "https://www.oschina.net/news/502051",
       "summary": "美团核心本地商业 CEO 王莆中最近做了一次公开复盘，话题是内部那场轰轰烈烈的 AI 运动——「全员养虾」。 「养虾」是美团内部的戏称。今年 2 到 3 月，美团十万员工中约八万人放开使用 AI Agent，token 不设上限。公司希望用规模换认知，快速完成组织级 AI 扫盲。 效果确实立竿见影——每天算力账单上千万元。 钱烧出去..."
-    },
-    {
-      "id": "oschina_143003a20f6a",
-      "source": "开源中国",
-      "title": "演出前一晚机器人集体拖拍，宇树团队通宵重写代码保住王力宏演唱会",
-      "url": "https://www.oschina.net/news/502049",
-      "summary": "宇树科技上市答谢午宴上，王力宏讲了一段往事。 2025 年 12 月，他的成都演唱会，6 台宇树 G1 人形机器人要上台伴舞《火力全开》。这是全球首次机器人群体舞蹈演出。准备期几个月。编舞老师绑上动作捕捉器，几千个动作逐帧输入到机器人关节里。彩排时一切正常——机器人跳得很完美。 然后出问题了。 王力宏原话是：&quot;一开..."
-    },
-    {
-      "id": "oschina_87ba1d464b55",
-      "source": "开源中国",
-      "title": "AIGCPanel v2.2.0 一句话让图片动起来，AIGCPanel 把视频生成装进了桌面",
-      "url": "https://www.oschina.net/news/502048",
-      "summary": "以前做一条 AI 视频，要凑齐画面、声音、动作三样东西。现在，你只需要一句话，或一张图。 AIGCPanel 是一款一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑。v2.2.0 在工具页直接加入了「文生视频」和「图生视频」两个入口：输入文字描述就能生成视频，上传一张图片加几句描述，画面就自己动起来。配合结果文..."
-    },
-    {
-      "id": "oschina_9343e6594adf",
-      "source": "开源中国",
-      "title": "AI 正吞噬一切，开源基础软件如何求生？",
-      "url": "https://my.oschina.net/u/4487475/blog/19745346",
-      "summary": "“大模型时代 SaaS 可以没有了，但数据不能没有。”"
-    },
-    {
-      "id": "hn_comment_49383752",
-      "source": "HN讨论",
-      "title": "xioxox 在「Captain Zilog」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49329919",
-      "summary": "Some background information:  https:&#x2F;&#x2F;offthebeatenpanel.blogspot.com&#x2F;2013&#x2F;08&#x2F;unusual-heroe...",
-      "author": "xioxox"
-    },
-    {
-      "id": "hn_comment_49383623",
-      "source": "HN讨论",
-      "title": "RustyRussell 在「Captain Zilog」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49329919",
-      "summary": "I was confused. But yes, that same Zilog Corporation as the Z80. They also did... action comics as promotional material? The final page, containing disclaimers (presumably from their standard spec sheets?) disclaiming any inaccuracy and warning &quot;Not for use in life support&quot; is adding, not removing, my confusion.",
-      "author": "RustyRussell"
-    },
-    {
-      "id": "hn_comment_49383732",
-      "source": "HN讨论",
-      "title": "ButlerianJihad 在「Captain Zilog」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49329919",
-      "summary": "When I worked at this place in the mid-90s, I came into possession of a physical copy of the second issue. Here’s the first:  https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;CaptainInternetAndCERFBoyNumber1...  Be forewarned, soujourner: the jokes  herein are corny as hell, and you may not understand if you were not the sort of neckbeard who attended Usenix LISA.",
-      "author": "ButlerianJihad"
-    },
-    {
-      "id": "hn_49383026",
-      "source": "Hacker News",
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "summary": ""
     },
     {
       "id": "hn_49374269",
@@ -547,13 +516,6 @@
       "summary": "Hello everyone. I&#x27;ve been working on this experimental editor called Huzzah. I&#x27;ve been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They&#x27;re great, but I&#x27;m finding it more and mo"
     },
     {
-      "id": "hn_49329919",
-      "source": "Hacker News",
-      "title": "Captain Zilog",
-      "url": "https://www.zilog.com/captain_zilog/",
-      "summary": ""
-    },
-    {
       "id": "hn_49375996",
       "source": "Hacker News",
       "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
@@ -561,53 +523,67 @@
       "summary": ""
     },
     {
-      "id": "hn_49375719",
+      "id": "hn_49329919",
       "source": "Hacker News",
-      "title": "Anti-AI fonts are useless and harmful",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+      "title": "Captain Zilog",
+      "url": "https://www.zilog.com/captain_zilog/",
       "summary": ""
     },
     {
-      "id": "hn_49379550",
+      "id": "hn_49384113",
       "source": "Hacker News",
-      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "title": "Seed: Minimal, self-modifying agent harness",
+      "url": "https://github.com/vivekhaldar/seed",
       "summary": ""
     },
     {
-      "id": "hn_49374635",
+      "id": "hn_49384477",
       "source": "Hacker News",
-      "title": "Every Model Cheats",
-      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/",
-      "summary": "https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2607.21763"
+      "title": "Show HN: Argentic – An L402 Lightning toll booth for AI scraping agents",
+      "url": "https://Argentic.network",
+      "summary": ""
+    },
+    {
+      "id": "hn_49320866",
+      "source": "Hacker News",
+      "title": "The case against a C alternative (2022)",
+      "url": "https://c3.handmade.network/blog/p/8486-the_case_against_a_c_alternative",
+      "summary": ""
+    },
+    {
+      "id": "hn_49383026",
+      "source": "Hacker News",
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "summary": ""
     },
     {
       "id": "gh_1338470635",
       "source": "GitHub Trending",
       "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
       "url": "https://github.com/s1dashu/ip-as-logo-skill",
-      "summary": "⭐ 3249 | 🍴 160 | None"
+      "summary": "⭐ 3318 | 🍴 161 | None"
     },
     {
       "id": "gh_1336933337",
       "source": "GitHub Trending",
       "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
       "url": "https://github.com/yetone/cumora",
-      "summary": "⭐ 2791 | 🍴 334 | TypeScript"
+      "summary": "⭐ 2816 | 🍴 336 | TypeScript"
     },
     {
       "id": "gh_1336502227",
       "source": "GitHub Trending",
       "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "url": "https://github.com/CopilotKit/OpenBot",
-      "summary": "⭐ 1771 | 🍴 184 | TypeScript"
+      "summary": "⭐ 1852 | 🍴 193 | TypeScript"
     },
     {
       "id": "gh_1337089243",
       "source": "GitHub Trending",
       "title": "cinderline/northcinder - Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
       "url": "https://github.com/cinderline/northcinder",
-      "summary": "⭐ 1200 | 🍴 5 | JavaScript"
+      "summary": "⭐ 1203 | 🍴 5 | JavaScript"
     },
     {
       "id": "gh_1335867536",
@@ -621,21 +597,21 @@
       "source": "GitHub Trending",
       "title": "Leutenegger/watermarks-remover - Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files",
       "url": "https://github.com/Leutenegger/watermarks-remover",
-      "summary": "⭐ 926 | 🍴 95 | Python"
+      "summary": "⭐ 928 | 🍴 95 | Python"
     },
     {
       "id": "gh_1337955304",
       "source": "GitHub Trending",
       "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
       "url": "https://github.com/wang2122/sprix-sage-router",
-      "summary": "⭐ 889 | 🍴 12 | Python"
+      "summary": "⭐ 926 | 🍴 12 | Python"
     },
     {
       "id": "gh_1338435811",
       "source": "GitHub Trending",
       "title": "vvxw/deploy-vercel - Install Command：npm install",
       "url": "https://github.com/vvxw/deploy-vercel",
-      "summary": "⭐ 852 | 🍴 184 | JavaScript"
+      "summary": "⭐ 891 | 🍴 193 | JavaScript"
     },
     {
       "id": "gh_1341259811",
@@ -649,78 +625,78 @@
       "source": "GitHub Trending",
       "title": "DenisSergeevitch/desktop-fly - A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
       "url": "https://github.com/DenisSergeevitch/desktop-fly",
-      "summary": "⭐ 648 | 🍴 38 | Swift"
+      "summary": "⭐ 655 | 🍴 38 | Swift"
     },
     {
       "id": "gh_1333065091",
       "source": "GitHub Trending",
       "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "⭐ 176396 | 🍴 19135 | TypeScript"
+      "summary": "⭐ 177661 | 🍴 19324 | TypeScript"
     },
     {
       "id": "gh_1322012299",
       "source": "GitHub Trending",
       "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
       "url": "https://github.com/firecrawl/anydoc",
-      "summary": "⭐ 17614 | 🍴 1013 | Rust"
+      "summary": "⭐ 17658 | 🍴 1016 | Rust"
     },
     {
       "id": "gh_1333321333",
       "source": "GitHub Trending",
       "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "summary": "⭐ 16827 | 🍴 805 | TypeScript"
+      "summary": "⭐ 17063 | 🍴 817 | TypeScript"
     },
     {
       "id": "gh_1331135699",
       "source": "GitHub Trending",
       "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "summary": "⭐ 16171 | 🍴 1841 | Python"
+      "summary": "⭐ 16262 | 🍴 1852 | Python"
     },
     {
       "id": "gh_1316527318",
       "source": "GitHub Trending",
       "title": "yc-software/qm - Multiplayer agent harness for work.",
       "url": "https://github.com/yc-software/qm",
-      "summary": "⭐ 14016 | 🍴 1669 | TypeScript"
+      "summary": "⭐ 14021 | 🍴 1670 | TypeScript"
     },
     {
       "id": "gh_1333175049",
       "source": "GitHub Trending",
       "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "summary": "⭐ 10805 | 🍴 1624 | Python"
+      "summary": "⭐ 10918 | 🍴 1650 | Python"
     },
     {
       "id": "gh_1318768894",
       "source": "GitHub Trending",
       "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "url": "https://github.com/trycompai/crm",
-      "summary": "⭐ 8738 | 🍴 1051 | TypeScript"
+      "summary": "⭐ 8742 | 🍴 1052 | TypeScript"
     },
     {
       "id": "gh_1313576395",
       "source": "GitHub Trending",
       "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
       "url": "https://github.com/MoonshotAI/Kimi-K3",
-      "summary": "⭐ 8556 | 🍴 678 | None"
+      "summary": "⭐ 8555 | 🍴 679 | None"
     },
     {
       "id": "gh_1317041031",
       "source": "GitHub Trending",
       "title": "MiniMax-AI/MiniMax-H3 - 无描述",
       "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "summary": "⭐ 6560 | 🍴 401 | Python"
+      "summary": "⭐ 6578 | 🍴 402 | Python"
     },
     {
       "id": "gh_1334586481",
       "source": "GitHub Trending",
       "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
       "url": "https://github.com/yjh051108/dsh-routing-suite",
-      "summary": "⭐ 6485 | 🍴 119 | PowerShell"
+      "summary": "⭐ 6499 | 🍴 121 | PowerShell"
     }
   ],
-  "generated_at": "2026-08-21 14:00"
+  "generated_at": "2026-08-21 16:52"
 }
