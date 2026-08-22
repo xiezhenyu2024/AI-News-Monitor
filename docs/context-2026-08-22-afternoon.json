@@ -1,0 +1,652 @@
+{
+  "key": "2026-08-22-afternoon",
+  "date": "2026-08-22",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 9,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "新任务PMRI：让AI用证据和通俗语言解读医学报告",
+      "entities": [
+        {
+          "name": "PMRI",
+          "explain": "Patient-oriented Medical Report Interpretation，面向患者的医学报告解读任务，要求AI既能基于医学证据又用通俗语言解释报告"
+        },
+        {
+          "name": "多模态生成任务",
+          "explain": "需要同时处理图像和文本等多种信息并生成输出的AI任务，这里指结合医学影像和报告文本"
+        }
+      ],
+      "summary": "研究者提出PMRI这一新型开放多模态生成任务，要求模型在解读医学报告时兼顾证据支撑的医学事实性和面向患者的沟通语境。现有医学视觉语言任务未能同时满足这两点，该任务填补了这一空白，推动AI在医疗沟通中的应用。",
+      "relevant": "医疗AI正从辅助诊断走向患者沟通，该任务直接回应患者对个性化报告解读的迫切需求，有望改善医患信息不对称。",
+      "source_text": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation。Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical report",
+      "source_title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "source_url": "https://arxiv.org/abs/2608.20331v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 4,
+      "title": "AI4AI-Bench：首个专门测试AI能否自我改进训练算法的基准",
+      "entities": [
+        {
+          "name": "递归自我改进",
+          "explain": "AI系统改进生成自身的过程（如训练算法），使下一代系统继承改进，形成循环提升"
+        },
+        {
+          "name": "训练算法",
+          "explain": "决定AI如何从数据中学习的规则和流程，改进它可提升所有后续AI的性能"
+        }
+      ],
+      "summary": "AI4AI-Bench是首个专门评估大语言模型代理设计训练算法能力的基准，聚焦递归自我改进的核心问题：AI能否优化产生自己的过程。现有基准未隔离这一能力，该基准填补空白，为验证RSI可行性提供标准测试。",
+      "relevant": "递归自我改进是通向超级智能的关键路径，该基准为评估这一能力提供了首个标准化工具，对AI安全和发展方向有深远影响。",
+      "source_text": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement。Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
+      "source_title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "source_url": "https://arxiv.org/abs/2608.20318v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 11,
+      "title": "ConceptGuard：新基准测试大模型在复杂语境下的知识遗忘能力",
+      "entities": [
+        {
+          "name": "大语言模型遗忘",
+          "explain": "从已训练的大模型中选择性移除有害或敏感知识，同时保留有益信息的技术"
+        },
+        {
+          "name": "上下文敏感遗忘",
+          "explain": "在特定语境下消除有害行为，但在其他语境保留良性用途，比简单删除事实更精细"
+        }
+      ],
+      "summary": "ConceptGuard基准针对大语言模型遗忘能力的评估缺陷，现有方法用独立事实的简单回忆测试，无法捕捉在复杂语境中消除有害行为同时保留良性用途的关键需求。该基准提供更全面的评估框架，推动遗忘技术向实际应用发展。",
+      "relevant": "随着大模型广泛应用，安全移除有害知识成为合规刚需，该基准为衡量遗忘效果提供更真实的标准，直接关系AI安全部署。",
+      "source_text": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models。Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and benefi",
+      "source_title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2608.20338v1",
+      "source_name": "ArXiv cs.CL"
+    },
+    {
+      "item_id": 16,
+      "title": "FlowEvo：让AI代理在推理时自我进化，工作流与技能协同成长",
+      "entities": [
+        {
+          "name": "FlowEvo",
+          "explain": "一种无需额外训练的新框架，让AI代理在运行时将成功的工作流编译为可复用技能并存储"
+        },
+        {
+          "name": "技能库",
+          "explain": "存储可执行AI技能的集合，代理可从中检索并直接执行或用于构建新工作流"
+        },
+        {
+          "name": "负迁移",
+          "explain": "使用某些技能反而降低AI性能的现象，FlowEvo会抑制这类技能"
+        }
+      ],
+      "summary": "FlowEvo提出训练无关框架，让工作流和技能在推理时协同进化：成功工作流被编译为可调用技能存入持久库，通过直接执行或作为上下文构建新流程，并追踪技能效用抑制负迁移。在ALFWorld等5个基准上达到最高准确率，ALFWorld上85.6%超最强基线26.4个百分点。",
+      "relevant": "该框架让AI代理从每次任务中积累经验，无需重训练即可持续提升，大幅提高推理效率和适应性，是智能体自我改进的实用方案。",
+      "source_text": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills。Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills that cause negative transfer. Using a shared GPT-4o-mini backbone, FlowEvo achieves the highest accuracy among 8 baselines on the full standard splits of ALFWorld, HumanEval, MBPP, GSM8K, and MATH-500. On ALFWorld, it reaches 85.6%, 26.4 points above the strongest baseline, while using roughly one third as many tokens. Across 10 base models spanning 7B to 671B parameters, FlowEvo outperforms ExpeL in 49 of 50 model-dataset comparisons. Code is available at https://github.com/DEFENSE-SEU/FlowEvo.",
+      "source_title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face"
+    },
+    {
+      "item_id": 5,
+      "title": "潘多拉路由：在价值评估成本下高效分配AI模型查询",
+      "entities": [
+        {
+          "name": "模型路由",
+          "explain": "将查询分配给多个AI模型中最合适的一个，以平衡质量和成本"
+        },
+        {
+          "name": "价值估计",
+          "explain": "预测每个模型对特定查询的预期回报，但精确估计本身有计算成本"
+        }
+      ],
+      "summary": "研究提出Pandora's AI Model Routing Box框架，解决异构AI系统中路由查询时价值估计成本高的问题。廉价估计器快但噪声大，精确估计器准但成本高，该框架在两者间优化分配，提升整体效率。",
+      "relevant": "多模型AI系统日益普及，高效路由能显著降低推理成本并提升质量，对大规模AI服务的经济性至关重要。",
+      "source_text": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation。Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
+      "source_title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "source_url": "https://arxiv.org/abs/2608.20316v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 10,
+      "title": "BERT-LER：可解释的Transformer模型预测结构化电子病历",
+      "entities": [
+        {
+          "name": "BERT-LER",
+          "explain": "基于BERT架构的模型，专门处理编码的电子病历时间线，将实验室结果编码为离散标记"
+        },
+        {
+          "name": "电子病历",
+          "explain": "数字化存储的患者医疗记录，包括诊断、用药、检验结果等，是医疗AI的核心数据源"
+        }
+      ],
+      "summary": "研究提出BERT-LER，一种BERT风格模型，在7500万患者的去标识化电子病历上预训练和微调，将实验室检验结果编码为离散标记并保留百分位分级信息。该模型同时强调定量检验信息和输入医疗事件的可解释性，填补了结构化EHR预测模型在这两方面的空白。",
+      "relevant": "电子病历预测是医疗AI的核心应用，该模型在保持高预测性能的同时提供可解释性，有助于临床医生信任和采用AI辅助决策。",
+      "source_text": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records。Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that encodes laboratory test results as discrete tokens while retaining graded information through percentil",
+      "source_title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+      "source_url": "https://arxiv.org/abs/2608.20315v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 8,
+      "title": "天花板安装雷达对比研究：FMCW、IR-UWB与Wi-Fi监测睡眠中断",
+      "entities": [
+        {
+          "name": "FMCW雷达",
+          "explain": "调频连续波雷达，通过连续发射调频信号测量距离和速度，常用于人体感知"
+        },
+        {
+          "name": "IR-UWB",
+          "explain": "脉冲无线电超宽带，用极短脉冲实现高精度测距，适合室内人体监测"
+        },
+        {
+          "name": "Wi-Fi感知",
+          "explain": "利用现有Wi-Fi信号变化来检测人体活动，无需额外硬件"
+        }
+      ],
+      "summary": "研究首次在相同部署条件下比较FMCW雷达、IR-UWB和Wi-Fi三种射频技术用于卧室人体活动监测和睡眠中断检测。现有研究因硬件、数据集和方法差异难以对比，且天花板安装雷达的实际性能研究不足，该研究填补这一空白。",
+      "relevant": "非接触式健康监测是智慧医疗的重要方向，该对比研究为选择最适合卧室场景的射频技术提供实证依据，推动实际部署。",
+      "source_text": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection。Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addition, the performance of ceiling-mounted radars, despite their practical deployment and cost advanta",
+      "source_title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "source_url": "https://arxiv.org/abs/2608.20322v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 7,
+      "title": "TCPα：带边际控制的置信度估计提升音乐信息检索可靠性",
+      "entities": [
+        {
+          "name": "置信度估计",
+          "explain": "让AI模型判断自己预测的可靠程度，帮助用户决定何时信任预测"
+        },
+        {
+          "name": "音乐信息检索",
+          "explain": "从音乐数据中提取信息的技术，如识别流派、情绪或相似度"
+        }
+      ],
+      "summary": "研究提出TCPα方法，用于音乐信息检索中的后验置信度估计。现有方法对正确和错误预测分配重叠的置信度值，且决策边界附近的错误难以区分，TCPα通过边际控制解决这一歧义，提升可靠性。",
+      "relevant": "深度模型普遍过度自信，可靠的置信度信号对用户信任AI预测至关重要，该方法可推广到其他高风险决策领域。",
+      "source_text": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval。Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer from inherent ambiguity: they assign overlapping confidence values to correct and incorrect predictions, while errors near the decision boundary receive confide",
+      "source_title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "source_url": "https://arxiv.org/abs/2608.20326v1",
+      "source_name": "ArXiv cs.LG"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_ecf3deca2ced",
+      "source": "ArXiv cs.AI",
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "url": "https://arxiv.org/abs/2608.20331v1",
+      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical report",
+      "author": "Shiao Xie, Siyu Chen, Jianwei Lv"
+    },
+    {
+      "id": "arxiv_e7f963f24ae9",
+      "source": "ArXiv cs.AI",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "url": "https://arxiv.org/abs/2608.20320v1",
+      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations",
+      "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli"
+    },
+    {
+      "id": "arxiv_36984c3fe87f",
+      "source": "ArXiv cs.AI",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "url": "https://arxiv.org/abs/2608.20319v1",
+      "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world wor",
+      "author": "Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen"
+    },
+    {
+      "id": "arxiv_7cdaecad9a0f",
+      "source": "ArXiv cs.AI",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
+      "author": "Yizhe Chi, Wenyi Li, Deyao Hong"
+    },
+    {
+      "id": "arxiv_a453d84d9063",
+      "source": "ArXiv cs.AI",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "url": "https://arxiv.org/abs/2608.20316v1",
+      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
+      "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot"
+    },
+    {
+      "id": "arxiv_3caa6fbba195",
+      "source": "ArXiv cs.LG",
+      "title": "Information on trajectories: martingales and random times",
+      "url": "https://arxiv.org/abs/2608.20337v1",
+      "summary": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step conditional divergences. The discarded slack has an exact form in each of three geometries: a Gibbs til",
+      "author": "Akshay Balsubramani"
+    },
+    {
+      "id": "arxiv_96c2dbaec0e3",
+      "source": "ArXiv cs.LG",
+      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "url": "https://arxiv.org/abs/2608.20326v1",
+      "summary": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer from inherent ambiguity: they assign overlapping confidence values to correct and incorrect predictions, while errors near the decision boundary receive confide",
+      "author": "Parampreet Singh, Anushka Singh, Sumit Kumar"
+    },
+    {
+      "id": "arxiv_d5df4a6bff83",
+      "source": "ArXiv cs.LG",
+      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "url": "https://arxiv.org/abs/2608.20322v1",
+      "summary": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addition, the performance of ceiling-mounted radars, despite their practical deployment and cost advanta",
+      "author": "Anton Lambrecht, Reda El Hail, Xianjun Jiao"
+    },
+    {
+      "id": "arxiv_7cdaecad9a0f",
+      "source": "ArXiv cs.LG",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
+      "author": "Yizhe Chi, Wenyi Li, Deyao Hong"
+    },
+    {
+      "id": "arxiv_8627d24d5dc6",
+      "source": "ArXiv cs.LG",
+      "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+      "url": "https://arxiv.org/abs/2608.20315v1",
+      "summary": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that encodes laboratory test results as discrete tokens while retaining graded information through percentil",
+      "author": "Jun Ni Du, Lukas Adamek, Maxim Kryukov"
+    },
+    {
+      "id": "arxiv_ffa717aad6cf",
+      "source": "ArXiv cs.CL",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20338v1",
+      "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and benefi",
+      "author": "Sahil Kale, Ian Harris"
+    },
+    {
+      "id": "arxiv_ecf3deca2ced",
+      "source": "ArXiv cs.CL",
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "url": "https://arxiv.org/abs/2608.20331v1",
+      "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical report",
+      "author": "Shiao Xie, Siyu Chen, Jianwei Lv"
+    },
+    {
+      "id": "arxiv_e7f963f24ae9",
+      "source": "ArXiv cs.CL",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "url": "https://arxiv.org/abs/2608.20320v1",
+      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations",
+      "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli"
+    },
+    {
+      "id": "arxiv_36984c3fe87f",
+      "source": "ArXiv cs.CL",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "url": "https://arxiv.org/abs/2608.20319v1",
+      "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world wor",
+      "author": "Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen"
+    },
+    {
+      "id": "arxiv_7cdaecad9a0f",
+      "source": "ArXiv cs.CL",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
+      "author": "Yizhe Chi, Wenyi Li, Deyao Hong"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills that cause negative transfer. Using a shared GPT-4o-mini backbone, FlowEvo achieves the highest accuracy among 8 baselines on the full standard splits of ALFWorld, HumanEval, MBPP, GSM8K, and MATH-500. On ALFWorld, it reaches 85.6%, 26.4 points above the strongest baseline, while using roughly one third as many tokens. Across 10 base models spanning 7B to 671B parameters, FlowEvo outperforms ExpeL in 49 of 50 model-dataset comparisons. Code is available at https://github.com/DEFENSE-SEU/FlowEvo."
+    },
+    {
+      "id": "devto_4448948",
+      "source": "Dev.to",
+      "title": "I Told My LLM Critic to Be Adversarial. It Started Blocking Plans for Being 'Not Thorough Enough.'",
+      "url": "https://dev.to/debashish_ghosal/i-told-my-llm-critic-to-be-adversarial-it-started-blocking-plans-for-being-not-thorough-enough-172",
+      "summary": "This is article 2 in a series about building PlannerCritic, an open-source engine where one LLM...",
+      "author": "Debashish Ghosal"
+    },
+    {
+      "id": "devto_4456150",
+      "source": "Dev.to",
+      "title": "My first website said \"Don't commit without context.\" I never committed it at all.",
+      "url": "https://dev.to/earlgreyhot1701d/my-first-website-said-dont-commit-without-context-i-never-committed-it-at-all-5d57",
+      "summary": "The renewal notice came and I decided to let it go. threadkeeper.io was my first idea and my first...",
+      "author": "Earl Grey"
+    },
+    {
+      "id": "devto_4451484",
+      "source": "Dev.to",
+      "title": "I Built a Personal AI That Actually Knows My Projects (RAG + Ollama, Zero Cloud)",
+      "url": "https://dev.to/samhartley_dev/i-built-a-personal-ai-that-actually-knows-my-projects-rag-ollama-zero-cloud-51do",
+      "summary": "How I stopped explaining my codebase to AI every session — by building a local RAG system that remembers everything.",
+      "author": "Sam Hartley"
+    },
+    {
+      "id": "devto_4457745",
+      "source": "Dev.to",
+      "title": "Missed calls, missed revenue: the local-first phone assistant I'm building",
+      "url": "https://dev.to/hannune/missed-calls-missed-revenue-the-local-first-phone-assistant-im-building-2086",
+      "summary": "Previous posts in this series covered the infrastructure: running three AI models sequentially on one...",
+      "author": "Tae Kim"
+    },
+    {
+      "id": "devto_4423863",
+      "source": "Dev.to",
+      "title": "The best argument against my MCP server came from Anthropic",
+      "url": "https://dev.to/heinrichneb/the-best-argument-against-my-mcp-server-came-from-anthropic-p1m",
+      "summary": "Building in public You know the risk before you start. Everyone tells you: do not build something...",
+      "author": "Heinrich Neb"
+    },
+    {
+      "id": "devto_4453754",
+      "source": "Dev.to",
+      "title": "The Best Engineering Teams Use AI and Junior Developers Differently",
+      "url": "https://dev.to/thomaslanghorst/the-best-engineering-teams-use-ai-and-junior-developers-differently-1eo3",
+      "summary": "Over the past year, I've watched a lot of engineering teams go through the same adoption pattern with...",
+      "author": "thomaslanghorst"
+    },
+    {
+      "id": "devto_4458339",
+      "source": "Dev.to",
+      "title": "Problem Engineering: Why Defining the Problem Matters More Than Your Prompt",
+      "url": "https://dev.to/billahdotdev/problem-engineering-why-defining-the-problem-matters-more-than-your-prompt-5696",
+      "summary": "Why prompt tricks fail in production: an architectural guide to replacing prompt engineering with...",
+      "author": "Masum Billah"
+    },
+    {
+      "id": "devto_4458382",
+      "source": "Dev.to",
+      "title": "The Great AI Mirage: Are We Buying Innovation or Just Badges?",
+      "url": "https://dev.to/gaurav101/the-great-ai-mirage-are-we-buying-innovation-or-just-badges-1cnn",
+      "summary": "Everywhere you look, the narrative is the same: innovation begins and ends with AI/ML. Companies are...",
+      "author": "Gaurav Kumar Singh"
+    },
+    {
+      "id": "juejin_7675273747710001206",
+      "source": "掘金",
+      "title": "DeepSeek Harness 值得安装的 15 款插件",
+      "url": "https://juejin.cn/post/7675273747710001206",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7675346841392070707",
+      "source": "掘金",
+      "title": "我一路问 WorkBuddy，用腾讯云 OCR Skills 在几分钟内完成了投标审查",
+      "url": "https://juejin.cn/post/7675346841392070707",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673875524200808494",
+      "source": "掘金",
+      "title": "让 AI Coding Agent 直接访问 CAD 文档：GitMCP 实战指南",
+      "url": "https://juejin.cn/post/7673875524200808494",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674372498315460658",
+      "source": "掘金",
+      "title": "AI写长篇小说为什么30章必崩",
+      "url": "https://juejin.cn/post/7674372498315460658",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7673978658780332083",
+      "source": "掘金",
+      "title": "给 DeepSeek Harness 装个\"应用商店\"：一条命令，595 个插件随你逛",
+      "url": "https://juejin.cn/post/7673978658780332083",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674826322239258662",
+      "source": "掘金",
+      "title": "开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透",
+      "url": "https://juejin.cn/post/7674826322239258662",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674101873055662120",
+      "source": "掘金",
+      "title": "DeepSeek Harness 插件推荐：4 款开源神器让写代码直接起飞",
+      "url": "https://juejin.cn/post/7674101873055662120",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674574367976341567",
+      "source": "掘金",
+      "title": "本地跑一个 Qwen 3.8，你将拥有一个 Opus 4.6",
+      "url": "https://juejin.cn/post/7674574367976341567",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "oschina_954ca8b26a39",
+      "source": "开源中国",
+      "title": "开源连接器网关 OpenConnector：让 AI Agent 安全调用 1000+ SaaS 服务",
+      "url": "https://www.oschina.net/news/502067/oomol-lab-open-connector",
+      "summary": "Open-Connector 是一个面向 AI Agent 和应用开发者的开源连接器网关。项目旨在解决 AI Agent 接入外部 SaaS 服务时普遍存在的认证管理、权限控制、接口适配和运行审计等问题。 OpenConnector 可以将用户已经使用的应用账号连接到统一运行时，并向 Agent 暴露标准化的 Actions。项目目前提供覆盖 GitHub、Gmail、Notion、..."
+    },
+    {
+      "id": "oschina_fe7080cbd2d9",
+      "source": "开源中国",
+      "title": ":fire: SolonCode 是不是国产化替代 ClaudeCode 的优选？",
+      "url": "https://www.oschina.net/news/502066",
+      "summary": "安全审计、代码脱敏、数据本地化，是国内企业换掉 ClaudeCode（或任何海外 AI 编码助手）的三条真实理由。但「能换」和「换得舒服」之间，还隔着很多具体细节——安装、配置、模型选择、代码理解能力、与既有工程线的兼容性，一项项都比较清楚，才能判断谁才是「最优」。 本文不喊口号，逐条对照，结论在最后。 二、Sol..."
+    },
+    {
+      "id": "oschina_a6cf5dfb75ce",
+      "source": "开源中国",
+      "title": "DeepSeek V4-Flash 补上视觉能力，多模态 Agent 接近 Opus 4.8",
+      "url": "https://www.oschina.net/news/502065",
+      "summary": "DeepSeek 今天给 V4-Flash 补上了视觉能力。 新模型叫 DeepSeek-V4-Flash-Vision-Exp，一个实验性质的版本，已通过 deepseek-v4-flash-vision-exp 这个 model id 在 DeepSeek API 平台上开放调用。 纯文本不降级，视觉大幅跃升 最关键的指标：在纯文本能力（Agent、推理、世界知识等）上，Vision-Exp 与 V4-Flash 正式版..."
+    },
+    {
+      "id": "oschina_fa6d99c0732e",
+      "source": "开源中国",
+      "title": "Hikyuu 2.8.2 发布，超高速开源量化交易框架",
+      "url": "https://www.oschina.net/news/502063",
+      "summary": "Hikyuu Quant Framework 基于 C++/Python 的超高速量化交易框架，同时可基于策略部件进行资产重用，快速累积策略资产 2.8.2 版本主要更新 :rocket: 新增特性 新增指标：RSRS_BETA、RSRS_BULL、ADX、ADX2 feat(indicator): 添加origin-id用于缓存身份标识，提升指标计算缓存准确性 feat(draw): 更新热力图和柱状图标题以包..."
+    },
+    {
+      "id": "oschina_3d0441856b17",
+      "source": "开源中国",
+      "title": "百万奖金怎么拿？这有一份上海开源大赛攻略",
+      "url": "https://www.oschina.net/news/502061",
+      "summary": "由开源中国主办的 2026 上海开源软件应用创新大赛已正式启动报名，作为上海市的年度重磅技术赛事，本次大赛总奖池累计 100 万元，面向全国征集开源项目，无论是企业团队、高校学生还是个人开发者，都可以报名参赛。 这篇攻略把大赛从报名到总决赛的关键信息一次讲清楚，帮你判断项目怎么报、材料怎么交、评审看什么、什么..."
+    },
+    {
+      "id": "hn_49357530",
+      "source": "Hacker News",
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "summary": "https:&#x2F;&#x2F;archive.is&#x2F;w1eng https:&#x2F;&#x2F;papers.ssrn.com&#x2F;sol3&#x2F;papers.cfm?abstract_id=6868618"
+    },
+    {
+      "id": "hn_49394827",
+      "source": "Hacker News",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard&#x2F;UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow&#x2F;go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools &amp; tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work. W"
+    },
+    {
+      "id": "hn_49389952",
+      "source": "Hacker News",
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49380303",
+      "source": "Hacker News",
+      "title": "Early-life stress leaves a 'scar' inside brain cells in mice",
+      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49388752",
+      "source": "Hacker News",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "summary": ""
+    },
+    {
+      "id": "hn_49386699",
+      "source": "Hacker News",
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "summary": ""
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "⭐ 3532 | 🍴 173 | None"
+    },
+    {
+      "id": "gh_1336933337",
+      "source": "GitHub Trending",
+      "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "summary": "⭐ 2877 | 🍴 346 | TypeScript"
+    },
+    {
+      "id": "gh_1336502227",
+      "source": "GitHub Trending",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "⭐ 2172 | 🍴 235 | TypeScript"
+    },
+    {
+      "id": "gh_1337089243",
+      "source": "GitHub Trending",
+      "title": "cinderline/northcinder - Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+      "url": "https://github.com/cinderline/northcinder",
+      "summary": "⭐ 1203 | 🍴 5 | JavaScript"
+    },
+    {
+      "id": "gh_1337955304",
+      "source": "GitHub Trending",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "⭐ 1072 | 🍴 12 | Python"
+    },
+    {
+      "id": "gh_1335867536",
+      "source": "GitHub Trending",
+      "title": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report - DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Flash/Pro).",
+      "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
+      "summary": "⭐ 1036 | 🍴 67 | None"
+    },
+    {
+      "id": "gh_1338435811",
+      "source": "GitHub Trending",
+      "title": "vvxw/deploy-vercel - Install Command：npm install",
+      "url": "https://github.com/vvxw/deploy-vercel",
+      "summary": "⭐ 1024 | 🍴 206 | JavaScript"
+    },
+    {
+      "id": "gh_1339730061",
+      "source": "GitHub Trending",
+      "title": "Leutenegger/watermarks-remover - Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files",
+      "url": "https://github.com/Leutenegger/watermarks-remover",
+      "summary": "⭐ 930 | 🍴 95 | Python"
+    },
+    {
+      "id": "gh_1341259811",
+      "source": "GitHub Trending",
+      "title": "Leutenegger/vanity-eth - Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWit, Native SegWit, Taproot, and ETH (EIP-55).",
+      "url": "https://github.com/Leutenegger/vanity-eth",
+      "summary": "⭐ 803 | 🍴 91 | Python"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "⭐ 784 | 🍴 80 | HTML"
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "⭐ 182223 | 🍴 19997 | TypeScript"
+    },
+    {
+      "id": "gh_1322012299",
+      "source": "GitHub Trending",
+      "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "summary": "⭐ 17801 | 🍴 1026 | Rust"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "summary": "⭐ 17763 | 🍴 865 | TypeScript"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "⭐ 16706 | 🍴 1921 | Python"
+    },
+    {
+      "id": "gh_1316527318",
+      "source": "GitHub Trending",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "⭐ 14049 | 🍴 1680 | TypeScript"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "⭐ 11243 | 🍴 1718 | Python"
+    },
+    {
+      "id": "gh_1318768894",
+      "source": "GitHub Trending",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "⭐ 8784 | 🍴 1065 | TypeScript"
+    },
+    {
+      "id": "gh_1313576395",
+      "source": "GitHub Trending",
+      "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "summary": "⭐ 8570 | 🍴 679 | None"
+    },
+    {
+      "id": "gh_1317041031",
+      "source": "GitHub Trending",
+      "title": "MiniMax-AI/MiniMax-H3 - 无描述",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "summary": "⭐ 6653 | 🍴 410 | Python"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "⭐ 6583 | 🍴 124 | PowerShell"
+    }
+  ],
+  "generated_at": "2026-08-22 14:00"
+}
