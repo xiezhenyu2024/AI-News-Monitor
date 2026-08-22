@@ -1,0 +1,460 @@
+{
+  "key": "2026-08-23-morning",
+  "date": "2026-08-23",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "加拿大总理卡尼称特朗普新关税是“误判”，贸易谈判破裂后宣布报复性关税",
+      "entities": [
+        {
+          "name": "马克·卡尼",
+          "explain": "加拿大现任总理，此前曾任英国央行行长"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，其关税政策引发美加贸易争端"
+        },
+        {
+          "name": "报复性关税",
+          "explain": "一国针对另一国加征关税而采取的对应反制措施"
+        }
+      ],
+      "summary": "加拿大总理卡尼在美加贸易谈判破裂后，称特朗普的新关税是“误判”，并“不情愿地”宣布对美实施报复性关税。卡尼指责美国发动贸易战，此举标志着两国贸易关系进一步恶化。",
+      "relevant": "美加贸易战升级将影响北美经济稳定和全球供应链，对两国消费者和企业都有直接影响。",
+      "source_text": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse。Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "source_title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 2,
+      "title": "卡尼面临关键考验：退出特朗普协议后需说服加拿大民众",
+      "entities": [
+        {
+          "name": "卡尼",
+          "explain": "加拿大总理，决定退出与美国的贸易谈判"
+        },
+        {
+          "name": "白宫",
+          "explain": "美国总统官邸，常代指美国政府"
+        }
+      ],
+      "summary": "加拿大总理卡尼在退出与白宫的贸易谈判后，面临向国内民众证明这一冒险决定值得的挑战。他需要说服加拿大人，拒绝特朗普的协议将带来更好的结果，而非经济代价。",
+      "relevant": "卡尼的政治前途和加拿大经济走向都取决于此次谈判破裂后的应对策略。",
+      "source_text": "Carney faces crucial test after walking away from Trump's deal。The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences.",
+      "source_title": "Carney faces crucial test after walking away from Trump's deal",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 3,
+      "title": "TikTok同意支付4亿美元和解美国儿童隐私诉讼，创同类案件纪录",
+      "entities": [
+        {
+          "name": "TikTok",
+          "explain": "字节跳动旗下的短视频社交平台，在全球拥有大量用户"
+        },
+        {
+          "name": "字节跳动",
+          "explain": "TikTok的母公司，中国科技企业"
+        },
+        {
+          "name": "儿童隐私",
+          "explain": "涉及13岁以下未成年人个人信息保护的法律问题"
+        }
+      ],
+      "summary": "TikTok及其母公司字节跳动同意支付4亿美元，以和解一项2024年的诉讼。该诉讼指控TikTok在未经同意的情况下收集了数百万13岁以下用户的“大量数据”。这是美国历史上最大的儿童隐私和解案之一。",
+      "relevant": "此案凸显科技平台在儿童数据保护方面的法律风险，可能推动行业加强隐私合规。",
+      "source_text": "TikTok to pay $400m to US in one of largest child privacy settlements。The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "source_title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 4,
+      "title": "缅甸一寺院遭空袭致14人死亡，救援人员称现场遭两次打击",
+      "entities": [
+        {
+          "name": "缅甸",
+          "explain": "东南亚国家，近期国内冲突持续"
+        },
+        {
+          "name": "寺院",
+          "explain": "佛教僧侣修行和信众聚集的场所，在缅甸具有重要宗教意义"
+        }
+      ],
+      "summary": "缅甸一座寺院在平民聚集参加冥想静修时遭到空袭，造成14人死亡。救援人员表示，该地点被击中两次。事件加剧了缅甸国内冲突的人道主义危机。",
+      "relevant": "空袭平民宗教场所严重违反国际人道法，反映缅甸冲突的残酷性。",
+      "source_text": "Fourteen killed in strike on Myanmar monastery。A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+      "source_title": "Fourteen killed in strike on Myanmar monastery",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 5,
+      "title": "乌克兰商场遭俄军袭击致16死130伤，泽连斯基谴责“卑劣”行径",
+      "entities": [
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰现任总统，在俄乌冲突中领导国家抵抗"
+        },
+        {
+          "name": "俄军",
+          "explain": "俄罗斯武装力量，在乌克兰境内进行军事行动"
+        }
+      ],
+      "summary": "乌克兰一购物中心遭俄罗斯导弹袭击，已致16人死亡、130人受伤，其中包括儿童，仍有4人失踪。总统泽连斯基谴责此次袭击“卑劣”，救援工作仍在进行中。",
+      "relevant": "针对平民设施的袭击加剧了俄乌冲突的人道灾难，国际社会反应强烈。",
+      "source_text": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike。Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
+      "source_title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "source_url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 10,
+      "title": "法国将向乌克兰交付拦截导弹，应对俄罗斯新一轮空袭",
+      "entities": [
+        {
+          "name": "马克龙",
+          "explain": "法国总统，宣布向乌克兰提供军事援助"
+        },
+        {
+          "name": "拦截导弹",
+          "explain": "用于击落来袭导弹或飞机的防御性武器"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，正与俄罗斯进行战争"
+        }
+      ],
+      "summary": "在俄罗斯新一轮致命空袭后，法国总统马克龙宣布将向乌克兰交付新的拦截导弹，以补充乌方日益短缺的防空能力。此前一天，俄乌双方继续交火。",
+      "relevant": "西方国家对乌克兰的军事援助直接影响俄乌战局走向，法国此举显示欧洲持续支持乌克兰。",
+      "source_text": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes。This Saturday saw a continued exchange of fire between Kyiv and Moscow. French President Emmanuel Macron announced Paris would deliver new interceptor missiles to Ukraine, whose air defences are running short after the latest round of deadly Russian attacks. Details from the ground by FRANCE 24 correspondent in Ukraine, Emmanuelle Chaze.",
+      "source_title": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+      "source_url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 9,
+      "title": "102名资深外交官敦促西方干预约旦河西岸，指控以色列“种族清洗”",
+      "entities": [
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦领土的一部分，目前被以色列占领"
+        },
+        {
+          "name": "种族清洗",
+          "explain": "指通过暴力手段迫使某一种族或民族群体离开特定地区的系统性行为"
+        },
+        {
+          "name": "巴勒斯坦",
+          "explain": "中东地区的一个国家实体，与以色列存在长期冲突"
+        }
+      ],
+      "summary": "102名英法前资深外交官联合敦促两国政府采取行动，维护巴勒斯坦领土上的国际法，指责以色列试图“摧毁”巴勒斯坦建国的可能性。他们呼吁西方在约旦河西岸问题上采取更强硬立场。",
+      "relevant": "这一罕见的外交官集体发声可能影响西方国家对以色列政策的舆论和决策。",
+      "source_text": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'。Dozens of former senior French and UK diplomats on Saturday urged their governments to work together to uphold international law in the Palestinian territories, accusing Israel of seeking to \"destroy\" any prospect of a viable Palestinian state. Analysis by Matthew-Mary Caruchet, FRANCE 24 international affairs editor.",
+      "source_title": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
+      "source_url": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 7,
+      "title": "巴黎附近枫丹白露森林大火后重新开放，80%区域恢复通行",
+      "entities": [
+        {
+          "name": "枫丹白露森林",
+          "explain": "位于巴黎东南部的著名自然保护区，是法国人喜爱的徒步和休闲胜地"
+        }
+      ],
+      "summary": "上个月遭野火烧毁约2000公顷的枫丹白露森林于周六重新向公众开放，80%的区域已恢复通行，但仍有五分之一因安全风险保持关闭。",
+      "relevant": "森林大火对法国自然遗产和旅游业造成影响，重新开放是恢复的重要一步。",
+      "source_text": "Fontainebleau forest near Paris reopens after devastating wildfire。Fontainebleau forest reopened to the public Saturday, with 80 percent of the popular Paris-area nature reserve accessible again after a wildfire scorched around 2,000 hectares last month. A fifth of the forest remains closed because of safety risks.",
+      "source_title": "Fontainebleau forest near Paris reopens after devastating wildfire",
+      "source_url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 8,
+      "title": "因凡蒂诺无视FIFA副主席请求，坚持出席加勒比青年锦标赛",
+      "entities": [
+        {
+          "name": "詹尼·因凡蒂诺",
+          "explain": "国际足联（FIFA）主席，正面临出售世界杯未来利润计划的压力"
+        },
+        {
+          "name": "FIFA",
+          "explain": "国际足球联合会，全球足球运动的管理机构"
+        },
+        {
+          "name": "维克多·蒙塔利亚尼",
+          "explain": "FIFA副主席，曾请求因凡蒂诺不要出席该活动"
+        }
+      ],
+      "summary": "尽管FIFA副主席蒙塔利亚尼请求其回避，主席因凡蒂诺仍罕见地公开出现在加勒比地区的一场青年锦标赛上。他正因向私人投资者出售世界杯未来利润的失败计划而面临压力。",
+      "relevant": "因凡蒂诺的争议性财务计划可能动摇FIFA治理结构，此次公开露面显示其权力斗争。",
+      "source_text": "Infantino defies FIFA vice president's request to stay away from Caribbean youth tournament。FIFA president Gianni Infantino made a rare public appearance in the Caribbean despite a request from vice president Victor Montagliani to abstain as pressure mounts over his failed plan to sell future World Cup profits to private investors.",
+      "source_title": "Infantino defies FIFA vice president's request to stay away from Caribbean youth tournament",
+      "source_url": "https://www.france24.com/en/sport/20260822-infantino-defies-fifa-vice-president-s-request-to-stay-away-from-caribbean-youth-tournament",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 18,
+      "title": "中俄印三国外长会晤，同意维护亚太地区安全与经济架构",
+      "entities": [
+        {
+          "name": "中国",
+          "explain": "亚洲大国，本次三边会晤的参与国之一"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "横跨欧亚的大国，本次三边会晤的参与国之一"
+        },
+        {
+          "name": "印度",
+          "explain": "南亚大国，本次三边会晤的参与国之一"
+        },
+        {
+          "name": "亚太地区",
+          "explain": "亚洲及太平洋沿岸地区的统称，地缘政治重要区域"
+        }
+      ],
+      "summary": "中国、俄罗斯和印度三国外长举行第15次三边会晤，会后发表联合声明，同意共同维护亚太地区的安全和经济架构。三国在地区事务上达成一定共识。",
+      "relevant": "中俄印三国的协调立场对亚太地缘政治格局有重要影响，尤其在当前国际局势紧张的背景下。",
+      "source_text": "Chinese, Russian and Indian ministers meet。China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "source_title": "Chinese, Russian and Indian ministers meet",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "source_name": "中国日报"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_287cea837599",
+      "source": "BBC",
+      "title": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
+      "image": ""
+    },
+    {
+      "id": "rss_3522ad35b60d",
+      "source": "BBC",
+      "title": "Carney faces crucial test after walking away from Trump's deal",
+      "url": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences.",
+      "image": ""
+    },
+    {
+      "id": "rss_c170a397cf79",
+      "source": "BBC",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "image": ""
+    },
+    {
+      "id": "rss_6fd6dfc79cce",
+      "source": "BBC",
+      "title": "Fourteen killed in strike on Myanmar monastery",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
+      "summary": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+      "image": ""
+    },
+    {
+      "id": "rss_36e93024518c",
+      "source": "BBC",
+      "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
+      "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
+      "image": ""
+    },
+    {
+      "id": "rss_5811de8be9ef",
+      "source": "France24",
+      "title": "Togo says it has 'serious' evidence against detained French filmmakers",
+      "url": "https://www.france24.com/en/africa/20260822-togo-says-it-has-serious-evidence-against-detained-french-filmmakers",
+      "summary": "Togo’s government said Saturday it had “serious and corroborative evidence” against two French documentary filmmakers arrested last month alongside their Togolese fixer. The three men deny charges of making “false declarations”.",
+      "image": "https://s.france24.com/media/display/44bf936a-9c0a-11f1-85f4-005056bfb2b6/w:1024/p:16x9/RSF-2.jpg"
+    },
+    {
+      "id": "rss_744941ddd40a",
+      "source": "France24",
+      "title": "Fontainebleau forest near Paris reopens after devastating wildfire",
+      "url": "https://www.france24.com/en/france/20260822-fontainebleau-forest-reopens-after-devastating-wildfire",
+      "summary": "Fontainebleau forest reopened to the public Saturday, with 80 percent of the popular Paris-area nature reserve accessible again after a wildfire scorched around 2,000 hectares last month. A fifth of the forest remains closed because of safety risks.",
+      "image": "https://s.france24.com/media/display/bef3069a-9e34-11f1-8f41-005056a97e36/w:1024/p:16x9/af8f01569ece06f8862a09c8e6b6ad82ce5525cf.jpg"
+    },
+    {
+      "id": "rss_e98e3116d04d",
+      "source": "France24",
+      "title": "Infantino defies FIFA vice president's request to stay away from Caribbean youth tournament",
+      "url": "https://www.france24.com/en/sport/20260822-infantino-defies-fifa-vice-president-s-request-to-stay-away-from-caribbean-youth-tournament",
+      "summary": "FIFA president Gianni Infantino made a rare public appearance in the Caribbean despite a request from vice president Victor Montagliani to abstain as pressure mounts over his failed plan to sell future World Cup profits to private investors.",
+      "image": "https://s.france24.com/media/display/9d9b094a-9270-11f1-aa16-005056bfb2b6/w:1024/p:16x9/AP26195685219789.jpg"
+    },
+    {
+      "id": "rss_89b401f952d9",
+      "source": "France24",
+      "title": "102 senior diplomats urge West Bank action against Israeli 'ethnic cleansing'",
+      "url": "https://www.france24.com/en/102-senior-diplomats-urge-west-bank-action-against-israeli-ethnic-cleansing",
+      "summary": "Dozens of former senior French and UK diplomats on Saturday urged their governments to work together to uphold international law in the Palestinian territories, accusing Israel of seeking to \"destroy\" any prospect of a viable Palestinian state. Analysis by Matthew-Mary Caruchet, FRANCE 24 international affairs editor.",
+      "image": "https://s.france24.com/media/display/0cd99772-9e38-11f1-be40-005056a97e36/w:1024/p:16x9/EN-20260822-160322-160755-CS.jpg"
+    },
+    {
+      "id": "rss_c0318d4da766",
+      "source": "France24",
+      "title": "France to deliver interceptor missiles to Ukraine after fresh wave of Russian strikes",
+      "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes",
+      "summary": "This Saturday saw a continued exchange of fire between Kyiv and Moscow. French President Emmanuel Macron announced Paris would deliver new interceptor missiles to Ukraine, whose air defences are running short after the latest round of deadly Russian attacks. Details from the ground by FRANCE 24 correspondent in Ukraine, Emmanuelle Chaze.",
+      "image": "https://s.france24.com/media/display/eff79bb4-9e2c-11f1-ae5b-005056bfb2b6/w:1024/p:16x9/2026-08-20T045902Z-509998178-RC2Z1NAE1OUJ-RTRMADP-3-UKRAINE-CRISIS-ATTACK-KYIV.jpg"
+    },
+    {
+      "id": "rss_44eade5dd0bc",
+      "source": "TASS Russia",
+      "title": "Seven people injured in earthquake in Tokyo area",
+      "url": "https://tass.com/emergencies/2176555",
+      "summary": "The victims suffered mostly bruises, the fire service reported",
+      "image": ""
+    },
+    {
+      "id": "rss_c784653a607d",
+      "source": "TASS Russia",
+      "title": "Small aircraft crashes into water near beach in Florida — police",
+      "url": "https://tass.com/emergencies/2176553",
+      "summary": "The sole occupant of the plane was taken to hospital",
+      "image": ""
+    },
+    {
+      "id": "rss_02d9125ea1c3",
+      "source": "TASS Russia",
+      "title": "Iranians not fighting for Hezbollah in southern Lebanon — official",
+      "url": "https://tass.com/world/2176551",
+      "summary": "Mahmoud Qamati, deputy head of the Hezbollah political council, also condemned the Lebanese government’s intention to disarm all illegal groups in the country",
+      "image": ""
+    },
+    {
+      "id": "rss_f065c19ed9ad",
+      "source": "TASS Russia",
+      "title": "Ukraine attacks Donetsk People’s Republic eight times in 24 hours, wounding two people",
+      "url": "https://tass.com/defense/2176549",
+      "summary": "Six residential buildings, a car, and three civilian infrastructure facilities were damaged",
+      "image": ""
+    },
+    {
+      "id": "rss_8d0aed6c1aee",
+      "source": "TASS Russia",
+      "title": "American rapper Lil Pump says loves Putin",
+      "url": "https://tass.com/society/2176547",
+      "summary": "\"God bless Putin,\" the rapper said after his concert in Moscow",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_c2cd977ce6e0",
+      "source": "纽约时报",
+      "title": "Carney Slams U.S.-Canada Trade Proposal and Vows Retaliation",
+      "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html",
+      "summary": "Prime Minister Mark Carney gave a powerful speech to Canadians on Saturday morning, hours after ordering negotiators to suspend U.S. trade talks despite President Trump’s punishing tariffs.",
+      "image": ""
+    },
+    {
+      "id": "rss_19eb0734b5fb",
+      "source": "纽约时报",
+      "title": "How Two British Historians Made a Smash Hit Podcast",
+      "url": "https://www.nytimes.com/2026/08/22/world/europe/rest-is-history-podcast-sandbrook-holland.html",
+      "summary": "They took on topics as diverse as fall of the Aztecs, the French Revolution, the assassination of Abraham Lincoln, and history’s greatest monkeys. The rest is history.",
+      "image": ""
+    },
+    {
+      "id": "rss_429857933ac0",
+      "source": "纽约时报",
+      "title": "Close and Loving, or Oppressive? A Novelist Takes Aim at Italian Families.",
+      "url": "https://www.nytimes.com/2026/08/22/world/europe/italian-families-novel-anniversary-bajani.html",
+      "summary": "Many Italians see themselves in Andrea Bajani’s latest novel, a portrayal of the family as a “little totalitarian system” shaped by psychological and physical violence.",
+      "image": ""
+    },
+    {
+      "id": "rss_ebfc5eee7f2f",
+      "source": "纽约时报",
+      "title": "What Does Harry and Meghan’s Return to England Mean for Their Children?",
+      "url": "https://www.nytimes.com/2026/08/22/world/europe/harry-meghan-children-schools.html",
+      "summary": "One effect of moving back is that Archie and Lilibet now have the opportunity to be schooled as Britons. Here’s what that might look like.",
+      "image": ""
+    },
+    {
+      "id": "rss_20290db1fea3",
+      "source": "纽约时报",
+      "title": "Carney Stands Up to Trump in U.S.-Canada Trade War",
+      "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-trump-canada-tariffs.html",
+      "summary": "Canada’s prime minister walked away from what he thought was a bad trade deal with the United States. Many Canadians are behind him, but it will be costly.",
+      "image": ""
+    },
+    {
+      "id": "rss_856cbfece2f9",
+      "source": "卫报",
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
+      "summary": "Agreement is among largest third-country deportations driven by Trump administration’s immigration crackdown Twenty deportees from the United States arrived in Liberia on Thursday, as part of a new agreement that will see the west African country receive as many as 1,200 people under the Trump administration ’s immigration crackdown. The group arrived at the Roberts international airport outside the capital, Monrovia. The Liberia-US agreement is one of the largest third-country deportation arran",
+      "image": ""
+    },
+    {
+      "id": "rss_0f99375c14d4",
+      "source": "卫报",
+      "title": "More than 100 dead after goldmine collapses in Central African Republic",
+      "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic",
+      "summary": "The collapse was caused by a landslide, while local officials say the death toll is likely to rise as recovery efforts continue More than 100 people have died after an artisanal goldmine at a small village in western Central African Republic (CAR) caved in due to a landslide, local officials and aid workers said on Wednesday. The landslide happened on Tuesday afternoon in the village of Zamboye, about 50km (31 miles) from the town of Baboua and close to the border of Cameroon. Footage on social ",
+      "image": ""
+    },
+    {
+      "id": "rss_659187a96193",
+      "source": "卫报",
+      "title": "Five Americans among seven killed in safari helicopter crash in Kenya",
+      "url": "https://www.theguardian.com/world/2026/aug/19/kenya-helicopter-safari-crash",
+      "summary": "Officials say all seven people onboard killed, including Telemundo executive and Ecuador intelligence chief Seven people, including five Americans, were killed when a safari helicopter crashed on Wednesday morning in a remote part of northern Kenya, according to local police and the state department. Among the dead were an executive with Telemundo, the US-based Spanish-language network owned by NBC Universal, and the director of Ecuador’s national intelligence service. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_1f27c1c8483b",
+      "source": "卫报",
+      "title": "Spain to allow 500 children in Ceuta to go to mainland in immigration U-turn",
+      "url": "https://www.theguardian.com/world/2026/aug/19/spain-allows-500-migrant-minors-in-ceuta-to-relocate-to-the-mainland-in-u-turn",
+      "summary": "Madrid government changes stance after previously saying anyone who entered territory illegally would be sent back Europe live – latest updates The Spanish government has U-turned and said it will allow 500 migrant children in Ceuta to relocate to the mainland. The majority of the estimated 70,000 people who crossed into Ceuta – a Spanish territory on the coast of north Africa – on 30 July have returned to Morocco. However, under Spanish law, the state has a duty of care to young, unaccompanied ",
+      "image": ""
+    },
+    {
+      "id": "rss_badd55240217",
+      "source": "卫报",
+      "title": "Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history",
+      "url": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+      "summary": "At least 2,325 people have died from the virus, according to official data, with outbreak on track to be biggest in history The Ebola outbreak in the Democratic Republic of the Congo is now the deadliest in the country’s history, with at least 2,325 people dead, according to government data, surpassing the toll from the 2018-20 outbreak. The DRC’s public health institute said confirmed cases had risen to 4,945, including 101 detected in the previous 24 hours. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-23 07:30"
+}
