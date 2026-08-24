@@ -24,7 +24,7 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .chatbar{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
 .chatbar button{background:none;border:none;font-size:20px;cursor:pointer;color:#0b57d0;padding:4px 8px}
 .chatbar .ctitle{font-size:13px;color:#888;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.cardinfo{padding:12px 14px;background:#fff;border-bottom:1px solid #eee;max-height:38dvh;overflow-y:auto}
+.cardinfo{padding:12px 14px;background:#fff;border-bottom:1px solid #eee;max-height:38dvh;overflow-y:auto;view-transition-name:card-active}
 .cardinfo h3{margin:0 0 6px;font-size:15px}
 .cardinfo p{font-size:12px;line-height:1.6;margin:4px 0}
 .cardinfo .ent{font-size:12px;color:#444;background:#f4f6fa;border-radius:6px;padding:6px 10px;margin:4px 0}
@@ -138,6 +138,22 @@ function playChime(){
       o.start(t0); o.stop(t0 + 0.4);
     });
   }catch(e){}
+}
+
+// ── 真实音效文件（CC0，uisfx soft 包） ──
+const SFX_URLS = {
+  press: 'sounds/press.mp3',
+  complete: 'sounds/complete.mp3',
+  open: 'sounds/open.mp3',
+  swipe: 'sounds/swipe.mp3'
+};
+function playSfx(name, fallback){
+  try{
+    const a = new Audio(SFX_URLS[name]);
+    a.volume = (name === 'swipe') ? 0.35 : 0.5;
+    const p = a.play();
+    if(p && p.catch){ p.catch(()=>{ if(fallback) fallback(); }); }
+  }catch(e){ if(fallback) fallback(); }
 }
 
 // ── 等待耗时统计（localStorage 持久化，隐私模式降级） ──
@@ -298,6 +314,15 @@ function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').repla
 // ── 对话页 ──
 async function openChat(idx, skipVT){
   if(!ctx || !ctx.cards[idx]) return;
+  // 方案A：点击进入时给点击的网格卡片设共享元素名（浏览器做"生长"动画）
+  // 滑动切换（skipVT）不设名，避免残留
+  if(!skipVT){
+    const cards = document.querySelectorAll('#grid .gcard');
+    if(cards[idx]){
+      cards.forEach(el=>el.style.viewTransitionName = '');
+      cards[idx].style.viewTransitionName = 'card-active';
+    }
+  }
   curCard = {ctxKey: ctx.key, idx};
   const c = ctx.cards[idx];
   const doSwitch = async ()=>{
@@ -316,7 +341,11 @@ async function openChat(idx, skipVT){
     box.scrollTop = box.scrollHeight;
   };
   if(document.startViewTransition && !skipVT){
-    document.startViewTransition(doSwitch);
+    playSfx('open');
+    const vt = document.startViewTransition(doSwitch);
+    vt.finished.then(()=>{
+      document.querySelectorAll('#grid .gcard').forEach(el=>el.style.viewTransitionName = '');
+    }).catch(()=>{});
   } else {
     await doSwitch();
   }
@@ -325,10 +354,19 @@ function goHome(){
   const doSwitch = ()=>{
     document.getElementById('chat').style.display = 'none';
     document.getElementById('home').style.display = '';
+    // 方案A：返回主页时给刚才点的那张卡片设共享元素名（卡片缩回原位）
+    const cards = document.querySelectorAll('#grid .gcard');
+    if(curCard && cards[curCard.idx]){
+      cards.forEach(el=>el.style.viewTransitionName = '');
+      cards[curCard.idx].style.viewTransitionName = 'card-active';
+    }
     curCard = null;
   };
   if(document.startViewTransition){
-    document.startViewTransition(doSwitch);
+    const vt = document.startViewTransition(doSwitch);
+    vt.finished.then(()=>{
+      document.querySelectorAll('#grid .gcard').forEach(el=>el.style.viewTransitionName = '');
+    }).catch(()=>{});
   } else {
     doSwitch();
   }
@@ -397,6 +435,7 @@ function finishSwipe(dir){
   wrap.style.transform = 'translateX(' + (dir === -1 ? '-100%' : '100%') + ')';
   setTimeout(async ()=>{
     await openChat(newIdx, true);
+    playSfx('swipe');
     wrap.style.transition = 'none';
     wrap.style.transform = 'translateX(' + (dir === -1 ? '100%' : '-100%') + ')';
     void wrap.offsetWidth;
@@ -433,7 +472,7 @@ async function ask(){
   pendingCards[askKey] = true;
   const sendBtn = document.getElementById('sendBtn');
   sendBtn.classList.add('sending');
-  playTone(1400, 0.06, 'triangle', 0.05);
+  playSfx('press', ()=>playTone(1400, 0.06, 'triangle', 0.05));
   // 思考中气泡 + 实时等待计时
   const thinkEl = document.createElement('div');
   thinkEl.className = 'msg ai thinking';
@@ -472,7 +511,7 @@ async function ask(){
         i += CHUNK;
         aiEl.textContent = full.slice(0, i);
         document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
-        if(i >= full.length){ clearInterval(timer); delete pendingCards[askKey]; sendBtn.classList.remove('sending'); playChime(); }
+        if(i >= full.length){ clearInterval(timer); delete pendingCards[askKey]; sendBtn.classList.remove('sending'); playSfx('complete', ()=>playChime()); }
       }, 16);
     } else {
       delete pendingCards[askKey];
