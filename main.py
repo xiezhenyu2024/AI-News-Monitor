@@ -1612,6 +1612,14 @@ async function pickKey(key){
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 // ── 对话页 ──
+async function renderMsgs(ctxKey, idx){
+  curMsgs = await loadThread(threadId(ctxKey, idx));
+  curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
+  const box = document.getElementById('msgs');
+  box.innerHTML = '';
+  curMsgs.forEach(m=>addMsg(m.role, m.content, false));
+  box.scrollTop = box.scrollHeight;
+}
 async function openChat(idx, skipVT){
   if(!ctx || !ctx.cards[idx]) return;
   // 方案A：点击进入时给点击的网格卡片设共享元素名（浏览器做"生长"动画）
@@ -1625,7 +1633,8 @@ async function openChat(idx, skipVT){
   }
   curCard = {ctxKey: ctx.key, idx};
   const c = ctx.cards[idx];
-  const doSwitch = async ()=>{
+  // 纯同步：只做显示切换 + 填标题/摘要（不含 await，过渡动画立即播放）
+  const doSwitch = ()=>{
     document.getElementById('home').style.display = 'none';
     document.getElementById('chat').style.display = 'flex';
     document.getElementById('ctitle').textContent = (idx+1) + '/' + ctx.cards.length + ' · ' + ctx.key;
@@ -1633,12 +1642,6 @@ async function openChat(idx, skipVT){
     const rel = c.relevant ? `<p class="rel">与你相关：${esc(c.relevant)}</p>` : '';
     document.getElementById('cardinfo').innerHTML =
       `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
-    curMsgs = await loadThread(threadId(ctx.key, idx));
-    curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
-    const box = document.getElementById('msgs');
-    box.innerHTML = '';
-    curMsgs.forEach(m=>addMsg(m.role, m.content, false));
-    box.scrollTop = box.scrollHeight;
   };
   if(document.startViewTransition && !skipVT){
     playSfx('open');
@@ -1646,8 +1649,11 @@ async function openChat(idx, skipVT){
     vt.finished.then(()=>{
       document.querySelectorAll('#grid .gcard').forEach(el=>el.style.viewTransitionName = '');
     }).catch(()=>{});
+    // 历史消息在动画期间并行加载，不阻塞过渡
+    renderMsgs(ctx.key, idx);
   } else {
-    await doSwitch();
+    doSwitch();
+    await renderMsgs(ctx.key, idx);
   }
 }
 function goHome(){
