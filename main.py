@@ -1608,7 +1608,7 @@ async function openChat(idx, skipVT){
     const rel = c.relevant ? `<p class="rel">与你相关：${esc(c.relevant)}</p>` : '';
     document.getElementById('cardinfo').innerHTML =
       `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
-    curMsgs = await loadThread(threadId(curCard.ctxKey, curCard.idx));
+    curMsgs = await loadThread(threadId(ctx.key, idx));
     curMsgs = curMsgs.map(m=>({role:(m.role==='ai'?'assistant':m.role), content:m.content}));
     const box = document.getElementById('msgs');
     box.innerHTML = '';
@@ -1636,6 +1636,7 @@ function goHome(){
 
 // ── 卡片滑动切换（手机端，拖拽跟手+吸附） ──
 let swipe = null;
+let swiping = false;    // 切换动画进行中，防并发重入
 function initSwipe(){
   const wrap = document.getElementById('swipeWrap');
   if(!wrap) return;
@@ -1666,6 +1667,7 @@ function initSwipe(){
   }, {passive:true});
   wrap.addEventListener('touchend', ()=>{
     if(!swipe) return;
+    if(swiping){ swipe = null; return; }   // 切换动画进行中，忽略新滑动
     const dx = swipe.dx;
     const active = swipe.active;
     const vel = Math.abs(dx) / Math.max(1, Date.now() - swipe.t0);
@@ -1686,18 +1688,21 @@ function initSwipe(){
   }, {passive:true});
 }
 function finishSwipe(dir){
+  if(swiping) return;
+  swiping = true;
   const wrap = document.getElementById('swipeWrap');
   const curIdx = curCard ? curCard.idx : 0;
   const newIdx = curIdx + (dir === -1 ? 1 : -1);
   wrap.style.transition = 'transform 0.25s ease';
   wrap.style.transform = 'translateX(' + (dir === -1 ? '-100%' : '100%') + ')';
-  setTimeout(()=>{
-    openChat(newIdx, true);
+  setTimeout(async ()=>{
+    await openChat(newIdx, true);
     wrap.style.transition = 'none';
     wrap.style.transform = 'translateX(' + (dir === -1 ? '100%' : '-100%') + ')';
     void wrap.offsetWidth;
     wrap.style.transition = 'transform 0.25s ease';
     wrap.style.transform = 'translateX(0)';
+    swiping = false;
   }, 260);
 }
 function addMsg(role, text, save){
