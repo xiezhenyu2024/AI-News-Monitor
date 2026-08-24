@@ -1202,5 +1202,26 @@
     "evidence": "掘金多篇文章讨论本地Qwen 3.8替代云端API，认为代码补全等场景已接近商业旗舰水平",
     "grassroots": "'这个本地模型，让我token自由了'",
     "date": "2026-08-24"
+  },
+  {
+    "theme": "AI公司竞争从模型能力转向分发与定价策略",
+    "importance": 5,
+    "evidence": "Anthropic最强模型Fable因定价策略陷入用户流失困境，DeepSeek靠开放生态两天9.5万Star",
+    "grassroots": "用户直言'模型再好，用不上等于没有'，价格敏感度成为关键决策因素",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "Agent开发进入'拼乐高'时代，插件生态成为护城河",
+    "importance": 5,
+    "evidence": "DeepSeek Harness插件生态爆发，开发者称'把Agent开发变成了拼乐高'",
+    "grassroots": "开发者从'能不能用'转向'怎么组合插件更高效'",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "AI成本控制成为企业采用的核心痛点",
+    "importance": 4,
+    "evidence": "Codex CLI缓存绕过导致4天$1386账单，85%为无效写入",
+    "grassroots": "开发者开始关注工具链集成的成本陷阱，而非仅看模型标价",
+    "date": "2026-08-24"
   }
 ]

@@ -11,15 +11,19 @@
       "entities": [
         {
           "name": "牛顿法",
-          "explain": "一种经典的优化算法，利用函数的二阶导数信息来快速找到最小值点"
+          "explain": "一种经典的数学优化算法，通过利用函数的二阶导数（曲率信息）来快速找到最小值点。"
         },
         {
           "name": "Lipschitz连续Hessian",
-          "explain": "一种数学条件，保证函数的二阶导数变化不会过于剧烈，是算法分析中的常见假设"
+          "explain": "一个数学条件，保证函数的二阶导数变化不会太剧烈，是许多优化算法分析中的标准假设。"
+        },
+        {
+          "name": "收敛率",
+          "explain": "衡量算法逼近最优解速度的指标，O(1/k^3)表示经过k次迭代后误差以k的三次方速度衰减。"
         }
       ],
-      "summary": "研究者提出一种新的直接加速牛顿法，用于最小化具有Lipschitz连续Hessian的凸函数。该算法仅使用原始变量，每次迭代只需一次线性求解，通过简单的预定参数选择，实现了O(1/k^3)的全局收敛率。这是该问题类别中首个仅依赖单次线性求解就达到此收敛率的二阶方法。",
-      "relevant": "该成果在优化算法领域具有理论突破意义，为大规模机器学习模型训练提供了更高效的二阶优化工具。",
+      "summary": "研究者提出一种新的直接加速牛顿法，用于最小化具有Lipschitz连续Hessian的凸函数。该算法仅使用原始变量，每次迭代只需一次线性求解，通过简单的预定参数选择，实现了全局O(1/k^3)收敛率。这是该问题类别中首个仅依赖单次线性求解就达到此速率的二阶方法。",
+      "relevant": "该成果显著提升了牛顿法的计算效率，对大规模优化问题（如机器学习模型训练）具有重要应用价值。",
       "source_text": "Primal Acceleration of Newton's Method。We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear syste",
       "source_title": "Primal Acceleration of Newton's Method",
       "source_url": "https://arxiv.org/abs/2608.21359v1",
@@ -27,19 +31,23 @@
     },
     {
       "item_id": 2,
-      "title": "VIALS基准发布：评估AI在生命科学视觉工件解读中的能力",
+      "title": "VIALS基准：面向生命科学领域视觉工件解读的VQA新基准",
       "entities": [
         {
-          "name": "VIALS",
-          "explain": "一个视觉问答基准，包含161个生命科学领域的视觉解读任务"
+          "name": "VQA",
+          "explain": "视觉问答，让AI根据图像内容回答自然语言问题的任务。"
         },
         {
-          "name": "视觉问答",
-          "explain": "一种AI任务，模型需要根据图像内容回答自然语言问题"
+          "name": "凝胶电泳图",
+          "explain": "生命科学实验中用于分离和检测生物大分子（如DNA、蛋白质）的常用图像。"
+        },
+        {
+          "name": "流式细胞术图",
+          "explain": "用于分析细胞物理和化学特性的技术生成的图表，常用于免疫学和血液学。"
         }
       ],
-      "summary": "VIALS是一个针对生命科学工作流程的视觉问答基准，包含161个解读任务，涵盖凝胶印迹、显微镜图像、质粒图谱等专业工件。与现有基准不同，VIALS聚焦于生物技术行业实验流程中的实际工件，而非出版物中的精美图表。该基准旨在评估前沿视觉语言模型在专业场景下的表现。",
-      "relevant": "该基准填补了生命科学领域AI视觉解读评估的空白，对推动AI在生物技术研发中的应用具有重要意义。",
+      "summary": "VIALS是一个新的视觉问答基准，包含161个专业生命科学工作流中的视觉工件解读任务，如凝胶电泳图、显微镜图像、质粒图谱等。与现有基准不同，它聚焦于生物技术行业实验流程中的实际工件，而非出版物中的精美图表。该基准旨在评估前沿视觉语言模型在专业领域的表现。",
+      "relevant": "为评估AI在生命科学专业领域的视觉理解能力提供了更贴近实际应用的测试平台。",
       "source_text": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences。In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language",
       "source_title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
       "source_url": "https://arxiv.org/abs/2608.21357v1",
@@ -47,19 +55,19 @@
     },
     {
       "item_id": 3,
-      "title": "生成式AI颠覆机器验证：一人可安全指挥AI代理舰队",
+      "title": "生成式AI颠覆机器验证：一人可安全指挥大规模自主机器工作",
       "entities": [
         {
           "name": "机器验证",
-          "explain": "通过自动化工具证明软件或硬件系统正确性的过程，传统上成本高昂"
+          "explain": "通过自动化工具检查软件或硬件系统是否满足特定规格或正确性的过程。"
         },
         {
           "name": "AI代理",
-          "explain": "能够自主执行任务的人工智能程序，可独立完成从编码到验证的多个步骤"
+          "explain": "能够自主执行任务的人工智能程序，可以理解指令、做出决策并采取行动。"
         }
       ],
-      "summary": "研究者报告称，生成式AI彻底改变了机器验证的成本结构：在AI速度下，验证不仅经济可行，而且对生产力至关重要。在五周内，一名研究人员通过消费级AI订阅，指挥一小队AI代理从应用代码到验证的完整流程，展示了AI作为不可腐蚀的裁判，使单人安全地指挥大规模自主机器工作成为可能。",
-      "relevant": "该成果可能彻底改变软件开发和验证的范式，大幅降低验证成本，提高AI代理系统的可靠性和安全性。",
+      "summary": "该研究指出，生成式AI彻底改变了机器验证的成本效益关系：在AI速度下，机器验证不仅经济可行，而且对生产力至关重要。它作为不可腐蚀的裁判，使一个人能够安全地指挥大规模自主机器工作。研究者在五周内，仅凭消费级AI订阅，指挥一小队AI代理从应用代码到验证完成整个流程。",
+      "relevant": "展示了AI在自动化软件开发中的巨大潜力，可能改变未来软件工程的生产模式。",
       "source_text": "AI with Authority, from Application to Silicon。For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on consumer AI subscriptions directed a small fleet of AI agents from application code, through a verifi",
       "source_title": "AI with Authority, from Application to Silicon",
       "source_url": "https://arxiv.org/abs/2608.21356v1",
@@ -71,15 +79,19 @@
       "entities": [
         {
           "name": "ASR",
-          "explain": "自动语音识别，将语音转换为文本的技术"
+          "explain": "自动语音识别，将人类语音转换为文本的技术。"
         },
         {
           "name": "上下文偏置",
-          "explain": "在语音识别中，利用用户提供的特定短语或词汇来提升识别准确率的技术"
+          "explain": "在语音识别中，利用用户提供的特定词汇或短语（如联系人姓名、歌曲名）来提高识别准确率的技术。"
+        },
+        {
+          "name": "流式推理",
+          "explain": "在语音输入的同时实时进行识别，而不是等整段语音结束后再处理。"
         }
       ],
-      "summary": "TurboBias 2.0是一个面向生产环境的ASR上下文偏置框架，解决了现有方法在流式推理、高效批处理解码、用户特定上下文列表和低运行时开销方面的不足。该框架在保持识别准确率的同时，满足了现代生产ASR系统的严格延迟要求，为实际部署提供了更实用的解决方案。",
-      "relevant": "该框架直接回应了ASR系统在生产环境中的实际需求，对提升语音助手、会议转录等应用的用户体验有直接价值。",
+      "summary": "TurboBias 2.0是一个面向生产环境的语音识别上下文偏置框架，解决了现有方法在流式推理、高效批处理解码、用户特定上下文列表和低运行时开销方面的不足。该框架在保持高识别准确率的同时，满足了现代生产ASR系统的实际需求。",
+      "relevant": "对提升语音助手、实时字幕等实际应用中的用户体验具有重要意义。",
       "source_text": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems。Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
       "source_title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
       "source_url": "https://arxiv.org/abs/2608.21343v1",
@@ -87,19 +99,23 @@
     },
     {
       "item_id": 5,
-      "title": "解剖信息神经网络：将解剖先验嵌入损失函数和架构",
+      "title": "解剖信息神经网络：将解剖学先验嵌入损失函数与架构",
       "entities": [
         {
-          "name": "解剖信息神经网络",
-          "explain": "一种将解剖学知识作为约束条件嵌入深度学习模型的新方法"
+          "name": "解剖学先验",
+          "explain": "关于人体解剖结构的已知知识，如器官位置、血管走向等，用于约束模型输出。"
+        },
+        {
+          "name": "物理信息神经网络",
+          "explain": "一种将物理定律作为约束嵌入神经网络训练的方法，此处类比用于解剖学。"
         },
         {
           "name": "SE(3)",
-          "explain": "三维空间中的特殊欧几里得群，描述物体的旋转和平移变换"
+          "explain": "三维空间中的旋转和平移变换群，用于描述物体的刚体运动。"
         }
       ],
-      "summary": "研究者提出解剖信息神经网络（AINN），将软解剖先验作为损失函数中的惩罚项，硬解剖先验嵌入网络架构。该方法类比物理信息神经网络，使模型能生成解剖学上合理的预测。论文还提出了导丝诱导的主动脉髂动脉变形的SE(3)公式化，展示了该方法在医学图像分析中的应用潜力。",
-      "relevant": "该方法解决了深度学习模型在解剖学预测中可能产生不合理结果的问题，对医学影像分析和手术规划具有重要价值。",
+      "summary": "研究者提出解剖信息神经网络（AINN），将软解剖先验作为损失函数中的惩罚项（如将肾移植动脉起源于髂动脉视为意外而非不可能），硬解剖先验（如连续性）则嵌入网络架构。该方法在数据稀缺时能提高模型的解剖学合理性和泛化能力，并以导丝诱导的主动脉髂动脉变形为例进行了SE(3)公式化验证。",
+      "relevant": "为医学图像分析等数据稀缺领域提供了更可靠的深度学习建模方法。",
       "source_text": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation。Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a renal transplant artery off the iliac instead of the aorta as unexpected rather than impossible), in direct analogy to a physics-informed neural network, and hard anatomic priors (e.g., continuity of t",
       "source_title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
       "source_url": "https://arxiv.org/abs/2608.21332v1",
@@ -107,19 +123,19 @@
     },
     {
       "item_id": 7,
-      "title": "PerturbRx：学习治疗条件下的潜在转换以预测患者药物反应",
+      "title": "PerturbRx：学习治疗条件下的潜在状态转移以预测患者药物反应",
       "entities": [
         {
-          "name": "PerturbRx",
-          "explain": "一种治疗条件化的表示学习框架，用于预测癌症患者的药物反应"
+          "name": "肿瘤异质性",
+          "explain": "不同肿瘤细胞或不同患者之间的肿瘤在基因、表型等方面存在差异，导致对治疗反应不同。"
         },
         {
-          "name": "肿瘤异质性",
-          "explain": "不同肿瘤细胞或不同患者之间在分子和表型上的差异，是癌症治疗困难的原因之一"
+          "name": "潜在状态转移",
+          "explain": "在机器学习中，指数据在潜在空间中的状态变化，此处模拟药物干预下的分子变化。"
         }
       ],
-      "summary": "PerturbRx提出一种治疗条件化的表示学习框架，通过学习干预诱导的潜在状态转换来预测患者对药物的反应。该框架训练药物和剂量条件化的转换模型，将预处理分子谱和药物表征结合，显式建模治疗下的分子变化。这一方法有望改善癌症治疗反应预测的准确性。",
-      "relevant": "该研究针对癌症治疗中的个性化用药需求，通过建模治疗引起的分子变化，为精准医疗提供了新的预测工具。",
+      "summary": "PerturbRx是一个治疗条件下的表示学习框架，通过学习药物和剂量条件下的潜在状态转移，将其作为患者-药物反应特征。该方法显式建模了治疗下的分子变化，而非仅从治疗前的分子谱和药物表征预测反应，在数据稀缺和肿瘤异质性条件下提高了预测准确性。",
+      "relevant": "为个性化癌症治疗提供了更精准的预测工具，有助于优化用药方案。",
       "source_text": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction。Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned tra",
       "source_title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
       "source_url": "https://arxiv.org/abs/2608.21349v1",
@@ -127,19 +143,19 @@
     },
     {
       "item_id": 8,
-      "title": "研究证明：顺序预测中精确真实验证与完整性不可兼得",
+      "title": "研究揭示：顺序预测中精确真实性校准与完备性不可兼得",
       "entities": [
         {
           "name": "校准",
-          "explain": "预测模型的概率输出需要与实际结果频率一致，即预测为70%的事件应实际发生70%"
+          "explain": "概率预测的可靠性，即预测概率为70%的事件，实际发生频率应接近70%。"
         },
         {
-          "name": "真实验证",
-          "explain": "一种校准度量，要求预测者无法通过虚假报告来获得更好的评分"
+          "name": "真实性",
+          "explain": "预测者无法通过谎报概率来提高自身收益的性质，是激励相容的核心。"
         }
       ],
-      "summary": "研究者解决了Haghtalab等人提出的开放问题，证明在顺序二元预测中，精确真实验证与完整性和可靠性不相容。这意味着无法设计一个既完全诚实又完整的校准度量。该结果为在线预测和机器学习中的校准理论提供了重要的负面结果。",
-      "relevant": "该理论结果对在线预测系统的设计和评估有重要影响，为理解校准度量的局限性提供了关键见解。",
+      "summary": "该研究解决了Haghtalab等人提出的开放问题：在顺序二元预测中，精确的真实性校准度量是否与完备性和可靠性兼容。研究者给出了否定答案，证明精确真实性与完备性不可兼得，为在线预测的校准度量设计提供了重要的理论边界。",
+      "relevant": "对设计可靠的在线预测系统（如天气预报、金融预测）具有理论指导意义。",
       "source_text": "Truthful Calibration Measures for Sequential Prediction。Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is compatible with completeness and soundness. We resolve this question negatively for sequential binary prediction: exact truthfulness is incompatible with completeness",
       "source_title": "Truthful Calibration Measures for Sequential Prediction",
       "source_url": "https://arxiv.org/abs/2608.21348v1",
@@ -151,15 +167,15 @@
       "entities": [
         {
           "name": "自精炼",
-          "explain": "一种LLM改进范式，包括生成、批判和修订三个阶段"
+          "explain": "一种提升大语言模型输出质量的方法，通常包括生成、批判、修订三个阶段。"
         },
         {
-          "name": "LLM",
-          "explain": "大型语言模型，如GPT、Claude等，能够理解和生成自然语言"
+          "name": "模型容量",
+          "explain": "指模型的大小和复杂度，通常与参数数量相关，影响其处理能力。"
         }
       ],
-      "summary": "该研究系统探讨了自精炼流水线中模型大小对各阶段的影响。自精炼通常包括生成、批判和修订三个阶段，但现有方法往往将模型大小视为实现细节而非研究对象。研究发现，不同阶段对模型容量的需求不同，合理分配容量可以避免资源浪费，提高整体效率。",
-      "relevant": "该研究为LLM代理系统的资源优化提供了指导，有助于降低推理成本并提升自精炼效果。",
+      "summary": "该研究系统探讨了自精炼流水线中生成、批判、修订三个阶段对模型大小的不同需求。现有方法通常将模型大小视为实现细节，可能导致资源浪费。研究揭示了各阶段的最佳模型容量配置，为高效利用资源提供了指导。",
+      "relevant": "有助于优化大语言模型部署的资源分配，降低成本并提高效率。",
       "source_text": "Asymmetric Capacity Allocation in Self-Refinement Pipelines。Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective ",
       "source_title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
       "source_url": "https://arxiv.org/abs/2608.21345v1",
@@ -167,19 +183,19 @@
     },
     {
       "item_id": 12,
-      "title": "Move by Move：测量和引导LLM如何进行心理治疗",
+      "title": "新研究：测量并引导LLM如何进行心理治疗",
       "entities": [
         {
-          "name": "MULTI-60",
-          "explain": "一个包含60种心理治疗干预措施的清单，用于分类治疗师的行为"
+          "name": "LLM",
+          "explain": "大语言模型，如GPT系列，能够生成和理解自然语言的人工智能模型。"
         },
         {
-          "name": "本体论",
-          "explain": "一种对概念进行分类和组织的系统，这里指对治疗动作的分类体系"
+          "name": "MULTI-60",
+          "explain": "一个用于评估心理治疗师干预措施的分类体系，包含多种治疗性动作。"
         }
       ],
-      "summary": "研究者引入了一个包含十种治疗动作的本体论，基于MULTI-60清单，通过五名持证心理学家的标注活动验证，并使用法官方法扩展。将该本体论应用于真实咨询记录和模型主导的会话，研究者发现LLM在心理治疗中的行为模式与人类治疗师存在差异，为理解和改进AI心理支持提供了工具。",
-      "relevant": "随着越来越多用户向LLM寻求情感支持，该研究为评估和改善AI心理治疗的质量提供了重要框架。",
+      "summary": "该研究引入了一个包含十种治疗性动作的本体论，基于MULTI-60清单，经五位持证心理学家验证，并采用与专家一致性匹配的评判方法进行扩展。将该本体论应用于真实咨询记录和模型主导的会话，研究者能够测量LLM在心理治疗中的行为模式。",
+      "relevant": "随着越来越多用户向AI寻求情感支持，理解并引导LLM的心理治疗行为至关重要。",
       "source_text": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy。Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five licensed psychologists, and scaled with a judge-based approach that matches expert agreement. Applying it to real counseling transcripts and model-led sessions, we co",
       "source_title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
       "source_url": "https://arxiv.org/abs/2608.21325v1",
@@ -187,19 +203,19 @@
     },
     {
       "item_id": 14,
-      "title": "记忆增强解锁高效链式思维推理",
+      "title": "记忆增强解锁高效思维链推理",
       "entities": [
         {
-          "name": "链式思维",
-          "explain": "一种让LLM逐步推理以解决复杂任务的技术，但会产生冗长的推理过程"
+          "name": "思维链",
+          "explain": "一种让大语言模型通过生成中间推理步骤来解决复杂问题的技术。"
         },
         {
-          "name": "上下文-生成替代定律",
-          "explain": "该研究提出的原理，认为显式推理上下文可以替代部分解码时的生成"
+          "name": "上下文-生成替换定律",
+          "explain": "该研究提出的原则，认为显式的推理上下文可以替代部分解码时的生成。"
         }
       ],
-      "summary": "该研究提出记忆增强链式思维（Memory-Augmented CoT）方法，通过形式化上下文-生成替代定律，在压缩推理链的同时保持逻辑连贯性。该方法利用记忆机制存储关键推理步骤，减少解码时的生成长度，从而降低推理开销，同时保持任务性能。",
-      "relevant": "该方法解决了LLM推理成本高的问题，为在资源受限环境中部署复杂推理模型提供了实用方案。",
+      "summary": "该研究正式化了思维链压缩中的权衡，提出“上下文-生成替换定律”，并基于此原理提出记忆增强思维链（Memory-Augmented CoT）方法。该方法通过记忆增强来缩短冗长的推理过程，同时保持逻辑连贯性和性能，显著降低了推理开销。",
+      "relevant": "为降低大语言模型推理成本提供了新思路，对实际部署具有重要意义。",
       "source_text": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning。Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this trade-off as the \\textit{Context-Generation Substitution Law}, where explicit reasoning context substitutes for part of decode-time generation. Based on this principle, we propose \\textit{Memory-Augm",
       "source_title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
       "source_url": "https://arxiv.org/abs/2608.21265v1",
@@ -514,6 +530,14 @@
       "author": "a1371"
     },
     {
+      "id": "hn_comment_49415146",
+      "source": "HN讨论",
+      "title": "nl 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "Wow the sentiment here is so negative. I&#x27;m on the $200 plan (work pays) and I also have the $20 OpenAI plan (I pay) and keep a balance on OpenRouter. There is  nothing  as good as Fable, not even close. I recently had it run a 18 hour autonomous rebuild of a project (moving from Spark to Pandas for performance&#x2F;data size trade off issues). It orchestrated Opus sub-agents flawlessly for 18 hours. It even did a great job of managing the number of agents to keep them within the 5 hour budgets (I think I had to restart it twice). After 18 hours I ran a &#x2F;simplify, &#x2F;code-review, &#x2F;simplify cycle which went for another 6 hours. 2 billion tokens (mix of Opus and Fable), 24 hours of continuous coding and a bug free outcome. It would have cost $2000 at API prices and worth every cent. Fable&#x27;s ability to keep other models on track while working on these long horizon goals is so much better than anything else. Far from neutered, I&#x27;ve never had a cyber refusal, and Fable&#x27;s English is actually readable (unlike Opus 5). As an aside: while I hate reading Opus 5 English it still is a noticeably better model than Sol in my experience. But I could handle losing Opus5 is I got Sol instead. But there is nothing even close to Fable.",
+      "author": "nl"
+    },
+    {
       "id": "hn_comment_49412107",
       "source": "HN讨论",
       "title": "bentt 在「Anthropic's best AI model struggles to a」下的评论",
@@ -522,60 +546,12 @@
       "author": "bentt"
     },
     {
-      "id": "hn_comment_49415121",
-      "source": "HN讨论",
-      "title": "Frannky 在「Anthropic's best AI model struggles to a」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49411102",
-      "summary": "Omp + 0x alpha is free via openrouter and opencode go",
-      "author": "Frannky"
-    },
-    {
       "id": "hn_comment_49414151",
       "source": "HN讨论",
       "title": "matheusmoreira 在「Anthropic's best AI model struggles to a」下的评论",
       "url": "https://news.ycombinator.com/item?id=49411102",
       "summary": "Mythos? That&#x27;s only for super special corporations, you need not apply. Fable? Can&#x27;t even look at it wrong without running into cybersecurity lockouts. And even if you get past this, it&#x27;s limited to &lt;50% usage. It took me a month to complete a Fable review on my project. So stingy. Even with OpenAI&#x27;s recent usage troubles, they&#x27;re still so much better than Anthropic it&#x27;s not even funny. Re-ran the code review with Sol as a benchmark and it turns out Sol&#x27;s performance is within 70%-90% of Fable&#x27;s. Anthropic&#x27;s still got the best model, but what does it matter if I can barely use it?",
       "author": "matheusmoreira"
-    },
-    {
-      "id": "hn_comment_49411956",
-      "source": "HN讨论",
-      "title": "OptionOfT 在「My agent.md to improve LLM-assisted code」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49410932",
-      "summary": "A bunch of these should be enforce with linting, that way people who still hand-craft code get the same kind of feedback, e.g. Always use {}, even on a one-line &quot;if&quot; statement. &amp; Keep function names short. Less than 30 characters. Then this one really is a pattern that creates a lot of churn: - Add a small, to the point, comment to explain  what  the block does and  why . Use examples when possible. Propose ASCII drawings to explain complete systems. The what _is_ the code.",
-      "author": "OptionOfT"
-    },
-    {
-      "id": "hn_comment_49414328",
-      "source": "HN讨论",
-      "title": "andai 在「My agent.md to improve LLM-assisted code」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49410932",
-      "summary": "&gt; - Keep function names short. Less than 30 characters. Recently I asked GPT to port a browser game to Rust. It voluntered this gem: draw_image_with_html_image_element_and_sw_and_sh_and_dx_and_dy_and_dw_and_dh(...) I thought it was smoking some good stuff, but it turned out, that is actually the name of the function!  https:&#x2F;&#x2F;docs.rs&#x2F;web-sys&#x2F;latest&#x2F;web_sys&#x2F;struct.CanvasRenderin...",
-      "author": "andai"
-    },
-    {
-      "id": "hn_comment_49412316",
-      "source": "HN讨论",
-      "title": "YuechenLi 在「My agent.md to improve LLM-assisted code」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49410932",
-      "summary": "Since we are sharing our AGENTS.md, I thought I&#x27;d share my own, because most of the time, this is pretty much all you need for LLMs to write good code, everything else can be added per project:\n----\n*Convergence rule*\nEvery substantial task must end in exactly one of three states: A. Success\nThe intended capability works in the real path and the real motivating case materially improves. B. Meaningful progression\nThe capability is not complete, but one genuine blocker is removed and the next blocker is isolated with evidence. C. Honest stop\nFurther work would require overbroad scope expansion, excessive debt, brittle patching, or tangled logic. Stop and report the reason with concrete evidence. Do not continue producing patches once the work stops converging. Do not confuse activity with progress. A failed attempt is only acceptable if it leaves behind a narrower problem, stronger evidence, or a justified stop. Any partial work must leave the codebase in a cleaner, more legible, and more diagnosable state than before.\n---- A lot of the article&#x27;s AGENTS.md just feel like telling the LLM agents either something they already know (for example, most of the time they know to use exhaustive switch&#x2F;match statements instead of &quot;arrow anti-pattern&quot;) or seems actively harmful (&quot;keep function names short&quot; seems arbitrary and may cause the LLMs to write weird abbreviations for functions that are harder to read and review.",
-      "author": "YuechenLi"
-    },
-    {
-      "id": "hn_comment_49413589",
-      "source": "HN讨论",
-      "title": "Supermancho 在「My agent.md to improve LLM-assisted code」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49410932",
-      "summary": "It&#x27;s interesting to read these things. I would describe this as 13 code writing rules (interpreted to be at least 16 - Starting with reduce code indentation) plus a commit message instruction set which I chose to ignore - because it&#x27;s style-specific and not interesting to me. 8 or 9 of these rules are not necessary. Basic CS is not something I have needed to ask agents, I use, to follow. eg Explaining that you need explicit interfaces is not a necessary instruction, nor is leveraging early return. Unclear instructions are of limited utility. What &quot;Let the reader of the code breathe&quot; or &quot;reduce code indentation&quot; means is subjective and will rarely be effective. Maybe the training for the language being used has gaps, which others do not. If you want to measure, ask it to output a string when it applies a rule. You&#x27;ll figure out what works, what doesn&#x27;t and how often, quickly. There&#x27;s 3 or 4 style choices included. The rest are not something I would use, but we all get burned by different things so I get it.",
-      "author": "Supermancho"
-    },
-    {
-      "id": "hn_comment_49411946",
-      "source": "HN讨论",
-      "title": "getnormality 在「My agent.md to improve LLM-assisted code」下的评论",
-      "url": "https://news.ycombinator.com/item?id=49410932",
-      "summary": "This is a problem that people mostly have to solve themselves. Like, I&#x27;ve been working with Claude for almost a year now and I have never once seen it write &quot;Arrow Anti-Pattern&quot; code. That, and much of the rest, would be fluff in my projects. Agent instructions are best learned from experience project-by-project.",
-      "author": "getnormality"
     },
     {
       "id": "hn_comment_49413550",
@@ -618,10 +594,64 @@
       "author": "sam_lowry_"
     },
     {
+      "id": "hn_comment_49411956",
+      "source": "HN讨论",
+      "title": "OptionOfT 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "A bunch of these should be enforce with linting, that way people who still hand-craft code get the same kind of feedback, e.g. Always use {}, even on a one-line &quot;if&quot; statement. &amp; Keep function names short. Less than 30 characters. Then this one really is a pattern that creates a lot of churn: - Add a small, to the point, comment to explain  what  the block does and  why . Use examples when possible. Propose ASCII drawings to explain complete systems. The what _is_ the code.",
+      "author": "OptionOfT"
+    },
+    {
+      "id": "hn_comment_49414328",
+      "source": "HN讨论",
+      "title": "andai 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "&gt; - Keep function names short. Less than 30 characters. Recently I asked GPT to port a browser game to Rust. It voluntered this gem: draw_image_with_html_image_element_and_sw_and_sh_and_dx_and_dy_and_dw_and_dh(...) I thought it was smoking some good stuff, but it turned out, that is actually the name of the function!  https:&#x2F;&#x2F;docs.rs&#x2F;web-sys&#x2F;latest&#x2F;web_sys&#x2F;struct.CanvasRenderin...",
+      "author": "andai"
+    },
+    {
+      "id": "hn_comment_49412316",
+      "source": "HN讨论",
+      "title": "YuechenLi 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "Since we are sharing our AGENTS.md, I thought I&#x27;d share my own, because most of the time, this is pretty much all you need for LLMs to write good code, everything else can be added per project:\n----\n*Convergence rule*\nEvery substantial task must end in exactly one of three states: A. Success\nThe intended capability works in the real path and the real motivating case materially improves. B. Meaningful progression\nThe capability is not complete, but one genuine blocker is removed and the next blocker is isolated with evidence. C. Honest stop\nFurther work would require overbroad scope expansion, excessive debt, brittle patching, or tangled logic. Stop and report the reason with concrete evidence. Do not continue producing patches once the work stops converging. Do not confuse activity with progress. A failed attempt is only acceptable if it leaves behind a narrower problem, stronger evidence, or a justified stop. Any partial work must leave the codebase in a cleaner, more legible, and more diagnosable state than before.\n---- A lot of the article&#x27;s AGENTS.md just feel like telling the LLM agents either something they already know (for example, most of the time they know to use exhaustive switch&#x2F;match statements instead of &quot;arrow anti-pattern&quot;) or seems actively harmful (&quot;keep function names short&quot; seems arbitrary and may cause the LLMs to write weird abbreviations for functions that are harder to read and review.",
+      "author": "YuechenLi"
+    },
+    {
+      "id": "hn_comment_49413589",
+      "source": "HN讨论",
+      "title": "Supermancho 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "It&#x27;s interesting to read these things. I would describe this as 13 code writing rules (interpreted to be at least 16 - Starting with reduce code indentation) plus a commit message instruction set which I chose to ignore - because it&#x27;s style-specific and not interesting to me. 8 or 9 of these rules are not necessary. Basic CS is not something I have needed to ask agents, I use, to follow. eg Explaining that you need explicit interfaces is not a necessary instruction, nor is leveraging early return. Unclear instructions are of limited utility. What &quot;Let the reader of the code breathe&quot; or &quot;reduce code indentation&quot; means is subjective and will rarely be effective. Maybe the training for the language being used has gaps, which others do not. If you want to measure, ask it to output a string when it applies a rule. You&#x27;ll figure out what works, what doesn&#x27;t and how often, quickly. There&#x27;s 3 or 4 style choices included. The rest are not something I would use, but we all get burned by different things so I get it.",
+      "author": "Supermancho"
+    },
+    {
+      "id": "hn_comment_49411946",
+      "source": "HN讨论",
+      "title": "getnormality 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "This is a problem that people mostly have to solve themselves. Like, I&#x27;ve been working with Claude for almost a year now and I have never once seen it write &quot;Arrow Anti-Pattern&quot; code. That, and much of the rest, would be fluff in my projects. Agent instructions are best learned from experience project-by-project.",
+      "author": "getnormality"
+    },
+    {
+      "id": "hn_49412328",
+      "source": "Hacker News",
+      "title": "Rural Village in Spain Is Welcoming Digital Nomads with Open Arms",
+      "url": "https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms",
+      "summary": ""
+    },
+    {
       "id": "hn_49411102",
       "source": "Hacker News",
       "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
       "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "summary": ""
+    },
+    {
+      "id": "hn_49410932",
+      "source": "Hacker News",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
       "summary": ""
     },
     {
@@ -639,13 +669,6 @@
       "summary": ""
     },
     {
-      "id": "hn_49413561",
-      "source": "Hacker News",
-      "title": "I built a low-latency AI companion that plays Skyrim with me",
-      "url": "https://pantel.is/projects/ai-gaming-companion/",
-      "summary": ""
-    },
-    {
       "id": "hn_49409473",
       "source": "Hacker News",
       "title": "How Complex Systems Fail (1998)",
@@ -653,17 +676,10 @@
       "summary": ""
     },
     {
-      "id": "hn_49410932",
+      "id": "hn_49413561",
       "source": "Hacker News",
-      "title": "My agent.md to improve LLM-assisted code quality",
-      "url": "https://fabiensanglard.net/agent.md/index.html",
-      "summary": ""
-    },
-    {
-      "id": "hn_49412328",
-      "source": "Hacker News",
-      "title": "Rural Village in Spain Is Welcoming Digital Nomads with Open Arms",
-      "url": "https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms",
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "url": "https://pantel.is/projects/ai-gaming-companion/",
       "summary": ""
     },
     {
@@ -678,14 +694,14 @@
       "source": "GitHub Trending",
       "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
       "url": "https://github.com/s1dashu/ip-as-logo-skill",
-      "summary": "⭐ 3955 | 🍴 191 | None"
+      "summary": "⭐ 3957 | 🍴 191 | None"
     },
     {
       "id": "gh_1341759590",
       "source": "GitHub Trending",
       "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
       "url": "https://github.com/MengTo/threeui",
-      "summary": "⭐ 3047 | 🍴 304 | HTML"
+      "summary": "⭐ 3051 | 🍴 304 | HTML"
     },
     {
       "id": "gh_1337955304",
@@ -706,7 +722,7 @@
       "source": "GitHub Trending",
       "title": "duty1g/x64dbg-mcp-server - x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
       "url": "https://github.com/duty1g/x64dbg-mcp-server",
-      "summary": "⭐ 968 | 🍴 97 | Zig"
+      "summary": "⭐ 969 | 🍴 97 | Zig"
     },
     {
       "id": "gh_1344223757",
@@ -720,7 +736,7 @@
       "source": "GitHub Trending",
       "title": "MeteorNOX/DeepSeek-Balance-Whale-Widget - DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
       "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
-      "summary": "⭐ 748 | 🍴 31 | JavaScript"
+      "summary": "⭐ 751 | 🍴 31 | JavaScript"
     },
     {
       "id": "gh_1338671045",
@@ -734,7 +750,7 @@
       "source": "GitHub Trending",
       "title": "cclank/lanshu-create-ai-presenter-video - Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
       "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
-      "summary": "⭐ 701 | 🍴 116 | Python"
+      "summary": "⭐ 702 | 🍴 117 | Python"
     },
     {
       "id": "gh_1338563299",
@@ -748,14 +764,14 @@
       "source": "GitHub Trending",
       "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "⭐ 188907 | 🍴 21041 | TypeScript"
+      "summary": "⭐ 188933 | 🍴 21043 | TypeScript"
     },
     {
       "id": "gh_1333321333",
       "source": "GitHub Trending",
       "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "summary": "⭐ 19149 | 🍴 936 | TypeScript"
+      "summary": "⭐ 19152 | 🍴 936 | TypeScript"
     },
     {
       "id": "gh_1322012299",
@@ -769,7 +785,7 @@
       "source": "GitHub Trending",
       "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "summary": "⭐ 17513 | 🍴 2016 | Python"
+      "summary": "⭐ 17516 | 🍴 2016 | Python"
     },
     {
       "id": "gh_1316527318",
@@ -783,7 +799,7 @@
       "source": "GitHub Trending",
       "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "summary": "⭐ 11961 | 🍴 1899 | Python"
+      "summary": "⭐ 11965 | 🍴 1899 | Python"
     },
     {
       "id": "gh_1318768894",
@@ -804,7 +820,7 @@
       "source": "GitHub Trending",
       "title": "MiniMax-AI/MiniMax-H3 - 无描述",
       "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "summary": "⭐ 6838 | 🍴 431 | Python"
+      "summary": "⭐ 6842 | 🍴 432 | Python"
     },
     {
       "id": "gh_1334586481",
@@ -814,5 +830,5 @@
       "summary": "⭐ 6720 | 🍴 130 | PowerShell"
     }
   ],
-  "generated_at": "2026-08-24 12:13"
+  "generated_at": "2026-08-24 12:23"
 }
