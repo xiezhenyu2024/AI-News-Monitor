@@ -1223,5 +1223,26 @@
     "evidence": "Codex CLI缓存绕过导致4天$1386账单，85%为无效写入",
     "grassroots": "开发者开始关注工具链集成的成本陷阱，而非仅看模型标价",
     "date": "2026-08-24"
+  },
+  {
+    "theme": "Agent开发范式从'写框架'转向'拼插件'",
+    "importance": 5,
+    "evidence": "DeepSeek Harness两天9.5万Star，掘金社区大量'拼乐高'式开发文章",
+    "grassroots": "开发者反馈'DSH把Agent开发变成了拼乐高'，大幅降低门槛",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "AI商业化与用户体验的矛盾加剧",
+    "importance": 4,
+    "evidence": "Anthropic Fable定价策略引发用户强烈不满，HN讨论区情绪激烈",
+    "grassroots": "用户希望'AI像电一样'稳定可用，而非频繁调整的计费实验",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "AI Agent从单工具走向多Agent协作",
+    "importance": 4,
+    "evidence": "Dev.to多篇真实工作流文章、Omnigent等编排框架持续获得关注",
+    "grassroots": "开发者开始分享多Agent协作的真实经验，而非概念演示",
+    "date": "2026-08-24"
   }
 ]
