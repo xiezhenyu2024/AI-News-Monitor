@@ -1,0 +1,448 @@
+{
+  "key": "2026-08-25-morning",
+  "date": "2026-08-25",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 6,
+      "title": "特朗普政府拟吊销寻求庇护外国人的签证，或成美国史上最大规模签证撤销",
+      "entities": [
+        {
+          "name": "特朗普政府",
+          "explain": "美国前总统唐纳德·特朗普领导的行政当局，当前执政的美国政府"
+        },
+        {
+          "name": "非移民签证",
+          "explain": "允许外国人临时进入美国（如旅游、工作或学习）的签证，不授予永久居留权"
+        },
+        {
+          "name": "庇护",
+          "explain": "因担心在本国受迫害而向其他国家申请保护的法律程序"
+        }
+      ],
+      "summary": "特朗普政府宣布计划吊销已申请或正在寻求美国庇护的外国人所持有的非移民签证。据美联社报道，此举可能影响多达20万人，若实施将成为美国历史上最大规模的签证撤销行动。该政策旨在收紧移民管控，但引发法律和人权争议。",
+      "relevant": "这是美国移民政策的重大转变，可能影响数十万人的合法身份，并引发国际社会对美国移民体系和人权记录的关注。",
+      "source_text": "Trump administration to revoke visas of foreigners seeking asylum in US, officials say。President Donald Trump’s administration said on Monday it plans to revoke non-immigrant visas held by foreigners who applied for or are seeking asylum in the United States. The move could affect up to 200,000 people, the Associated Press reported, potentially making it the largest mass visa revocation in US history.",
+      "source_title": "Trump administration to revoke visas of foreigners seeking asylum in US, officials say",
+      "source_url": "https://www.france24.com/en/americas/20260824-trump-administration-revoke-visas-foreigners-seeking-asylum",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 1,
+      "title": "美国财长宣布对伊朗发动“史上最大金融攻势”，全面切断经济联系",
+      "entities": [
+        {
+          "name": "斯科特·贝森特",
+          "explain": "美国现任财政部长，负责经济政策和金融制裁"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，长期与美国关系紧张，因核计划等问题受到国际制裁"
+        }
+      ],
+      "summary": "美国财政部长斯科特·贝森特表示，美国将切断与伊朗的所有经济联系，并对任何与伊朗有金融合作的国家实施孤立。他称这是针对伊朗的“史上最大金融攻势”，旨在通过经济压力迫使伊朗改变行为。此举标志着美国对伊制裁进一步升级。",
+      "relevant": "美国对伊朗的全面金融制裁将严重影响全球能源市场和国际贸易，并可能加剧中东地缘政治紧张局势。",
+      "source_text": "Iran faces 'greatest financial offensive ever', says US treasury secretary。Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+      "source_title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "source_url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 19,
+      "title": "AI自主无人机杀害三名乌克兰士兵，预示无人化战争新纪元",
+      "entities": [
+        {
+          "name": "Nvidia芯片",
+          "explain": "美国英伟达公司生产的图形处理器，常用于人工智能计算，此处指无人机搭载的AI计算硬件"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，自2022年起与俄罗斯处于战争状态"
+        }
+      ],
+      "summary": "乌克兰官员称，一架搭载Nvidia芯片的俄罗斯无人机在完全由人工智能引导的情况下发动攻击，导致三名乌克兰士兵死亡。这是已知首次AI完全自主决定杀伤目标的实战案例，引发对自主武器系统伦理和失控风险的担忧。",
+      "relevant": "AI自主武器的实战应用标志着军事技术的转折点，可能引发全球军备竞赛和国际法对自主武器的监管讨论。",
+      "source_text": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.。An attack by what Ukrainian officials said was a Russian drone with an Nvidia chip presages a dystopian future of weaponry untethered to humans.",
+      "source_title": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "source_url": "https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html",
+      "source_name": "纽约时报"
+    },
+    {
+      "item_id": 3,
+      "title": "乌克兰袭击俄罗斯第二大在线零售商Ozon仓库，多地遭打击",
+      "entities": [
+        {
+          "name": "Ozon",
+          "explain": "俄罗斯第二大在线零售平台，类似亚马逊，在俄电商市场占据重要地位"
+        },
+        {
+          "name": "达吉斯坦",
+          "explain": "俄罗斯南部的一个共和国，位于高加索地区"
+        },
+        {
+          "name": "克拉斯诺达尔",
+          "explain": "俄罗斯南部城市，靠近黑海，是重要物流枢纽"
+        }
+      ],
+      "summary": "乌克兰在夜间发动袭击，打击了俄罗斯在线零售商Ozon位于南部地区（包括达吉斯坦和克拉斯诺达尔）的多个仓库。Ozon证实其设施遭到破坏，但未透露具体损失。此次袭击是乌克兰对俄后方基础设施的又一次精准打击。",
+      "relevant": "对Ozon仓库的袭击显示乌克兰将军事行动扩展到俄罗斯经济基础设施，可能影响俄国内供应链和民众生活。",
+      "source_text": "Russia's second-biggest online retailer targeted in Ukrainian strikes。Ozon says its warehouses across southern Russia, including in Dagestan and Krasnodar, were hit in the overnight strikes.",
+      "source_title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+      "source_url": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 8,
+      "title": "以色列总理内塔尼亚胡称伊朗试图暗杀其子，未提供证据",
+      "entities": [
+        {
+          "name": "本雅明·内塔尼亚胡",
+          "explain": "以色列总理，以色列长期执政的政治人物"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，与以色列长期敌对，双方多次发生冲突"
+        }
+      ],
+      "summary": "以色列总理内塔尼亚胡在接受第14频道采访时表示，伊朗曾试图暗杀他的两个儿子之一，但没有提供证据或细节。他是在讨论10月27日大选前的安全安排时提及此事。伊朗方面尚未回应。",
+      "relevant": "若属实，这将是伊朗对以色列高层个人的直接攻击，可能进一步加剧两国间的紧张关系，影响中东安全格局。",
+      "source_text": "Israel's Netanyahu says Iran tried to assassinate one of his sons。Israeli Prime Minister Benjamin Netanyahu said on Monday that Iran had attempted to assassinate one of his two sons, without providing evidence or further details. “Iran tried to kill one of my sons,” Netanyahu told Israel’s Channel 14, as he discussed security arrangements ahead of the October 27 election.",
+      "source_title": "Israel's Netanyahu says Iran tried to assassinate one of his sons",
+      "source_url": "https://www.france24.com/en/middle-east/20260824-israel-netanyahu-says-iran-tried-kill-son",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 7,
+      "title": "法国奥德省遭龙卷风袭击，41人受伤约300栋房屋受损",
+      "entities": [
+        {
+          "name": "奥德省",
+          "explain": "法国西南部的一个省份，以乡村和葡萄园闻名"
+        },
+        {
+          "name": "环西班牙自行车赛",
+          "explain": "世界顶级公路自行车赛事之一，每年在西班牙举行，部分赛段经过法国"
+        }
+      ],
+      "summary": "一场龙卷风袭击了法国西南部奥德省的波马村，造成41人受伤，约300栋房屋受损。风暴掀翻屋顶，导致电力中断和交通混乱，当局被迫取消了环西班牙自行车赛的一个赛段。救援工作正在进行。",
+      "relevant": "极端天气事件频发，此次龙卷风造成的人员伤亡和财产损失凸显了气候变化对欧洲的影响。",
+      "source_text": "Tornado devastates village in southwestern France’s Aude region。A tornado tore through the southwestern French village of Pomas on Monday, injuring 41 people and damaging about 300 homes, authorities said. The storm ripped roofs from buildings as severe weather battered the region, causing power outages and transport disruption and forcing officials to cancel a Vuelta a Espana cycling stage.",
+      "source_title": "Tornado devastates village in southwestern France’s Aude region",
+      "source_url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 2,
+      "title": "英国首相伯纳姆誓言支持乌克兰，无视俄罗斯“无耻威胁”",
+      "entities": [
+        {
+          "name": "伯纳姆",
+          "explain": "英国现任首相，领导英国政府"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，正在与俄罗斯进行战争"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "乌克兰战争的另一方，对英国支持乌克兰表示不满"
+        }
+      ],
+      "summary": "英国首相伯纳姆表示将继续支持乌克兰，尽管俄罗斯就乌克兰使用英国无人机发出“后果”警告。莫斯科称乌克兰使用英国制造的无人机进行攻击，但伯纳姆拒绝退缩，强调英国对乌克兰主权的承诺。",
+      "relevant": "英国对乌克兰的持续支持可能加剧与俄罗斯的直接对抗，影响欧洲安全局势和北约与俄罗斯的关系。",
+      "source_text": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia。It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "source_title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+      "source_url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 10,
+      "title": "英法“重新宣布”对乌反导弹技术，专家称“数年无法上线”",
+      "entities": [
+        {
+          "name": "弗兰克·莱德维奇",
+          "explain": "前英国军事情报官，现为朴茨茅斯大学战略学高级讲师"
+        },
+        {
+          "name": "反导弹技术",
+          "explain": "用于拦截和摧毁敌方导弹的防御系统，如爱国者导弹系统"
+        }
+      ],
+      "summary": "英国和法国再次宣布向乌克兰提供反导弹技术，但军事专家弗兰克·莱德维奇指出，这些承诺主要是政治象征，相关系统“数年都无法上线”。他警告称，乌克兰最紧迫的问题是防空，需要能拦截俄罗斯弹道导弹和高超音速导弹的拦截器，而目前乌克兰仍暴露在攻击之下。",
+      "relevant": "西方对乌军事援助的实际效果受到质疑，乌克兰防空能力不足可能影响战争走向。",
+      "source_text": "UK, France ‘re-announce’ anti-missile technology for Ukraine: ‘None will be online for years’。Annette Young is pleased to welcome Dr. Frank Ledwidge, former military intelligence officer and Senior Lecturer in Strategy at Portsmouth University. According to Dr. Ledwidge, the latest European commitments to Ukraine are merely politically symbolic. He warns that the coalition is failing to address Kyiv's most urgent problem: air defence. Ukraine needs interceptors capable of defeating Russian ballistic and hypersonic missiles, The war-torn country remains exposed to attacks on its defence i",
+      "source_title": "UK, France ‘re-announce’ anti-missile technology for Ukraine: ‘None will be online for years’",
+      "source_url": "https://www.france24.com/en/video/20260824-uk-france-re-announce-anti-missile-technology-for-ukraine-none-will-be-online-for-years",
+      "source_name": "France24"
+    },
+    {
+      "item_id": 4,
+      "title": "以色列警告对加沙风筝“强力回应”，哈马斯称系儿童所为",
+      "entities": [
+        {
+          "name": "哈马斯",
+          "explain": "控制加沙地带的巴勒斯坦伊斯兰政治和军事组织"
+        },
+        {
+          "name": "加沙",
+          "explain": "巴勒斯坦沿海地区，长期受以色列封锁，与以色列冲突不断"
+        }
+      ],
+      "summary": "以色列警告将对从加沙飞入其边境社区的风筝进行“强力”回应，哈马斯则称这些风筝是由加沙儿童放飞的。以色列边境社区近期多次发现风筝，可能携带燃烧物或用于侦察。双方紧张局势再度升级。",
+      "relevant": "加沙边境的微小事件可能引发更大规模冲突，反映以巴之间持续的高压对峙状态。",
+      "source_text": "Israel warns of 'forceful' response to kites flown from Gaza。Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza.",
+      "source_title": "Israel warns of 'forceful' response to kites flown from Gaza",
+      "source_url": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC"
+    },
+    {
+      "item_id": 16,
+      "title": "中国为阿尔及利亚发射首颗阿拉伯国家通信卫星，实现出口突破",
+      "entities": [
+        {
+          "name": "阿尔及利亚",
+          "explain": "北非阿拉伯国家，非洲面积最大的国家"
+        },
+        {
+          "name": "通信卫星",
+          "explain": "用于无线电通信中继的人造卫星，可提供电视、互联网和电话服务"
+        }
+      ],
+      "summary": "中国周一为阿尔及利亚发射了一颗通信卫星，这是中国制造的通信卫星首次出口到阿拉伯国家。此次发射标志着中国航天在国际商业发射市场的进一步拓展，也加强了中阿在航天领域的合作。",
+      "relevant": "中国航天出口的突破有助于提升其在国际航天市场的竞争力，并深化与阿拉伯国家的战略合作。",
+      "source_text": "Satellite lofted for first Arab country。A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "source_title": "Satellite lofted for first Arab country",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "source_name": "中国日报"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_3246f082c7f7",
+      "source": "BBC",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "summary": "Scott Bessent says the US will sever all economic ties with the country and that any nation partnering with Iran financially will also be isolated.",
+      "image": ""
+    },
+    {
+      "id": "rss_2134ed095243",
+      "source": "BBC",
+      "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
+      "url": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after Moscow warned of \"consequences\" over the reported use of British drones by Ukraine.",
+      "image": ""
+    },
+    {
+      "id": "rss_05181b477fb9",
+      "source": "BBC",
+      "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
+      "url": "https://www.bbc.co.uk/news/articles/cg598yvrzpro?at_medium=RSS&at_campaign=rss",
+      "summary": "Ozon says its warehouses across southern Russia, including in Dagestan and Krasnodar, were hit in the overnight strikes.",
+      "image": ""
+    },
+    {
+      "id": "rss_91e981cee6f3",
+      "source": "BBC",
+      "title": "Israel warns of 'forceful' response to kites flown from Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c5y58g2dp3xo?at_medium=RSS&at_campaign=rss",
+      "summary": "Hamas says the kites found in Israeli border communities in recent days were launched by children in Gaza.",
+      "image": ""
+    },
+    {
+      "id": "rss_ae920cbd736e",
+      "source": "BBC",
+      "title": "King of Norway's health has worsened, palace says",
+      "url": "https://www.bbc.co.uk/news/articles/c36lnekj659o?at_medium=RSS&at_campaign=rss",
+      "summary": "Norway's King Harald remains in hospital receiving antibiotics for a bloodstream bacterial infection.",
+      "image": ""
+    },
+    {
+      "id": "rss_cab7526787ac",
+      "source": "France24",
+      "title": "Trump administration to revoke visas of foreigners seeking asylum in US, officials say",
+      "url": "https://www.france24.com/en/americas/20260824-trump-administration-revoke-visas-foreigners-seeking-asylum",
+      "summary": "President Donald Trump’s administration said on Monday it plans to revoke non-immigrant visas held by foreigners who applied for or are seeking asylum in the United States. The move could affect up to 200,000 people, the Associated Press reported, potentially making it the largest mass visa revocation in US history.",
+      "image": "https://s.france24.com/media/display/8069f74e-9f2e-11f1-bbcf-005056a90284/w:1024/p:16x9/71ef5231e98ab11a4b6cb91c727ec5b618113787.jpg"
+    },
+    {
+      "id": "rss_d95870f934b5",
+      "source": "France24",
+      "title": "Tornado devastates village in southwestern France’s Aude region",
+      "url": "https://www.france24.com/en/france/20260824-tornado-devastates-village-southwestern-france-aude-region",
+      "summary": "A tornado tore through the southwestern French village of Pomas on Monday, injuring 41 people and damaging about 300 homes, authorities said. The storm ripped roofs from buildings as severe weather battered the region, causing power outages and transport disruption and forcing officials to cancel a Vuelta a Espana cycling stage.",
+      "image": "https://s.france24.com/media/display/0fbb48e8-a007-11f1-9683-005056a97e36/w:1024/p:16x9/c2a4e67979d314a26bb09ef766339d52937ed548.jpg"
+    },
+    {
+      "id": "rss_3e7c5ce39ae6",
+      "source": "France24",
+      "title": "Israel's Netanyahu says Iran tried to assassinate one of his sons",
+      "url": "https://www.france24.com/en/middle-east/20260824-israel-netanyahu-says-iran-tried-kill-son",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu said on Monday that Iran had attempted to assassinate one of his two sons, without providing evidence or further details. “Iran tried to kill one of my sons,” Netanyahu told Israel’s Channel 14, as he discussed security arrangements ahead of the October 27 election.",
+      "image": "https://s.france24.com/media/display/b473bf6c-9d84-11f1-a6cf-005056a90284/w:1024/p:16x9/2026-08-10T111823Z-2133718736-RC2IULATYH0L-RTRMADP-3-ISRAEL-PALESTINIANS-GAZA-PLAN.jpg"
+    },
+    {
+      "id": "rss_486a0eb6f377",
+      "source": "France24",
+      "title": "Zambia shuts down court system",
+      "url": "https://www.france24.com/en/zambia-shuts-down-court-system",
+      "summary": "In tonight's programme, rights groups and the law association demand an explanation as Zambia completely shuts down its court system. Also in Guinea, rescuers are still trying to unearth victims of a deadly landfill collapse. Nigeria wishes Ogogo on his way, the veteran star of the Nollywood screen is buried berfore heart broken crowds in his hometown after passing away from cancer.",
+      "image": "https://s.france24.com/media/display/d3874b96-9ff8-11f1-8347-005056a97e36/w:1024/p:16x9/DN196399-A-01-20260818-01.jpg"
+    },
+    {
+      "id": "rss_6644ce0ed508",
+      "source": "France24",
+      "title": "UK, France ‘re-announce’ anti-missile technology for Ukraine: ‘None will be online for years’",
+      "url": "https://www.france24.com/en/video/20260824-uk-france-re-announce-anti-missile-technology-for-ukraine-none-will-be-online-for-years",
+      "summary": "Annette Young is pleased to welcome Dr. Frank Ledwidge, former military intelligence officer and Senior Lecturer in Strategy at Portsmouth University. According to Dr. Ledwidge, the latest European commitments to Ukraine are merely politically symbolic. He warns that the coalition is failing to address Kyiv's most urgent problem: air defence. Ukraine needs interceptors capable of defeating Russian ballistic and hypersonic missiles, The war-torn country remains exposed to attacks on its defence i",
+      "image": "https://s.france24.com/media/display/7a764970-9fe5-11f1-9b94-005056a90284/w:1024/p:16x9/EN-20260824-180053-180818-CS.jpg"
+    },
+    {
+      "id": "rss_404b45cf7e61",
+      "source": "TASS Russia",
+      "title": "German foreign minister acknowledges funding shortfall for military aid to Ukraine",
+      "url": "https://tass.com/world/2177219",
+      "summary": "Johann Wadephul said he had discussed the matter in detail with Ukraine's new defense minister",
+      "image": ""
+    },
+    {
+      "id": "rss_84cdf7b9893c",
+      "source": "TASS Russia",
+      "title": "US ready to help facilitate Russia-Ukraine talks — deputy envoy to UN",
+      "url": "https://tass.com/world/2177217",
+      "summary": "Dan Negrea also called on Russia and Ukraine to return to the negotiating table",
+      "image": ""
+    },
+    {
+      "id": "rss_96e2b17c6e40",
+      "source": "TASS Russia",
+      "title": "European countries arm Ukraine, encourage rejection of Minsk accords — envoy to UN",
+      "url": "https://tass.com/politics/2177209",
+      "summary": "Vasily Nebenzya noted that these countries \"watched with delight and eager anticipation,\" looking forward to Russia's \"strategic defeat\"",
+      "image": ""
+    },
+    {
+      "id": "rss_b01f6f29bef7",
+      "source": "TASS Russia",
+      "title": "Russian planes drops almost 800 tons of water of wildfire hotspots in Serbia in four days",
+      "url": "https://tass.com/emergencies/2177189",
+      "summary": "Serbian emergency specialists noted the high efficiency of Russian aerial operations",
+      "image": ""
+    },
+    {
+      "id": "rss_ca0f70684649",
+      "source": "TASS Russia",
+      "title": "Iran was prepared for US sanctions, has plan to address them — minister",
+      "url": "https://tass.com/world/2177187",
+      "summary": "The country's government had planned in advance how to counter US sanctions",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_fcbc5bdbc1b4",
+      "source": "纽约时报",
+      "title": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html",
+      "summary": "An attack by what Ukrainian officials said was a Russian drone with an Nvidia chip presages a dystopian future of weaponry untethered to humans.",
+      "image": ""
+    },
+    {
+      "id": "rss_6ec037e57d13",
+      "source": "纽约时报",
+      "title": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops",
+      "url": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-cafe-closures.html",
+      "summary": "In recent weeks, the police have closed dozens of cafes, often citing laws that stipulate women must veil in public. Experts say the closures are part of an effort to control public space.",
+      "image": ""
+    },
+    {
+      "id": "rss_459996f958b2",
+      "source": "纽约时报",
+      "title": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
+      "url": "https://www.nytimes.com/2026/08/24/world/americas/argentina-oil-patagonia-milei.html",
+      "summary": "Thousands of Argentines are flocking to a remote stretch of Patagonia, seeking work with only backpacks, tents and the hope that they and their country can turn around their fortunes.",
+      "image": ""
+    },
+    {
+      "id": "rss_9b96f2a1fc06",
+      "source": "纽约时报",
+      "title": "As El Niño Dries Indonesia, Wildfires Intensify",
+      "url": "https://www.nytimes.com/2026/08/24/world/asia/indonesia-el-nino-borneo-fire.html",
+      "summary": "The unusual weather pattern and dried out peatlands, a kind of wetland, have been behind some of the country’s worst fire seasons. This year could be one.",
+      "image": ""
+    },
+    {
+      "id": "rss_17392072515c",
+      "source": "纽约时报",
+      "title": "UK Prime Minister Burnham Arrives in Ukraine as Russia Amps Up Warnings",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
+      "summary": "In his first foreign trip since taking office, the British prime minister pledged to stand by Kyiv despite new warnings of potential consequences.",
+      "image": ""
+    },
+    {
+      "id": "rss_74659465c9ed",
+      "source": "卫报",
+      "title": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
+      "summary": "Spokesperson for Duke of Sussex says he remains an ‘active and avid supporter’ of African Parks’ mission The Duke of Sussex has stepped down from the board of a major African wildlife charity that had been at the centre of a human rights controversy. Prince Harry’s spokesperson confirmed he was no longer a trustee of African Parks , which admitted last year that human rights abuses were committed by its rangers in the Republic of the Congo. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_520e745f963f",
+      "source": "卫报",
+      "title": "Video shows hundreds held captive after Nigeria mosque kidnapping",
+      "url": "https://www.theguardian.com/world/2026/aug/24/video-shows-hundreds-held-captive-after-nigeria-mosque-kidnapping",
+      "summary": "Gunmen ‌attacked worshippers in Dekara village on Friday taking women, children and older people An armed group has posted a video showing what ⁠residents said were about ⁠600 women, children and ​older people abducted in an attack on a mosque in Nigeria’s north-central Niger State last week. The video, posted on Facebook and WhatsApp, ⁠showed large groups of people seated in a forested area surrounded by armed men. Several children could be heard crying in the background. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_ba01cceab212",
+      "source": "卫报",
+      "title": "Children make up half of mpox cases in Guinea-Bissau as epidemic spreads",
+      "url": "https://www.theguardian.com/global-development/2026/aug/24/children-half-mpox-disease-cases-guinea-bissau-epidemic-spreads-west-africa",
+      "summary": "West African country reports 46 suspected cases in outbreak declared in July, amid fears virus may be spreading undetected More than half of the mpox cases reported in Guinea-Bissau have been among children, local authorities have said, almost two months since the country announced an epidemic. A national outbreak was declared on 4 July, just over a week after a 27-year-old woman became the first confirmed case of mpox in the west African country. Since then, there have been seven confirmed case",
+      "image": ""
+    },
+    {
+      "id": "rss_7d3587cd2ee2",
+      "source": "卫报",
+      "title": "Landslide at waste mound in Guinea capital kills 30, government says",
+      "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+      "summary": "Dump site in Conakry, which minister had just promised to move, collapsed after heavy rain in west African state A ⁠landslide at a huge waste dump in Guinea’s capital has killed 30 people, the government said on Sunday, after heavy rains overnight prompted it to ⁠collapse, engulfing nearby tents and shacks. The incident occurred less than a week after the government announced plans to close the ⁠site and relocate the waste because of the threat it posed, especially during the rainy season, which",
+      "image": ""
+    },
+    {
+      "id": "rss_856cbfece2f9",
+      "source": "卫报",
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
+      "summary": "Agreement is among largest third-country deportations driven by Trump administration’s immigration crackdown Twenty deportees from the United States arrived in Liberia on Thursday, as part of a new agreement that will see the west African country receive as many as 1,200 people under the Trump administration ’s immigration crackdown. The group arrived at the Roberts international airport outside the capital, Monrovia. The Liberia-US agreement is one of the largest third-country deportation arran",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-25 07:30"
+}
