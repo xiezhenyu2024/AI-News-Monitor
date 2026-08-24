@@ -341,7 +341,7 @@ function initSwipe(){
   if(!wrap) return;
   wrap.addEventListener('touchstart', (e)=>{
     const t = e.touches[0];
-    swipe = {sx:t.clientX, sy:t.clientY, dx:0, dy:0, locked:false, active:false};
+    swipe = {sx:t.clientX, sy:t.clientY, dx:0, dy:0, locked:false, active:false, t0:Date.now()};
   }, {passive:true});
   wrap.addEventListener('touchmove', (e)=>{
     if(!swipe) return;
@@ -353,14 +353,14 @@ function initSwipe(){
       else return;
     }
     if(!swipe.active){
-      if(Math.abs(swipe.dx) < 15) return;
+      if(Math.abs(swipe.dx) < 10) return;
       swipe.active = true;
       wrap.style.transition = 'none';
     }
-    let disp = swipe.dx * 0.6;
+    let disp = swipe.dx;
     if(!curCard) return;
     if((curCard.idx === 0 && disp > 0) || (curCard.idx === ctx.cards.length-1 && disp < 0)){
-      disp = swipe.dx * 0.2;
+      disp = swipe.dx * 0.85;
     }
     wrap.style.transform = 'translateX(' + disp + 'px)';
   }, {passive:true});
@@ -368,11 +368,13 @@ function initSwipe(){
     if(!swipe) return;
     const dx = swipe.dx;
     const active = swipe.active;
+    const vel = Math.abs(dx) / Math.max(1, Date.now() - swipe.t0);
     swipe = null;
     if(!active || !curCard) return;
-    const threshold = Math.max(80, window.innerWidth * 0.25);
-    const goNext = dx < -threshold;
-    const goPrev = dx > threshold;
+    const threshold = Math.max(60, window.innerWidth * 0.25);
+    const flick = (Math.abs(dx) > 40 && vel > 0.5);
+    const goNext = dx < -threshold || (flick && dx < -40);
+    const goPrev = dx > threshold || (flick && dx > 40);
     if(goNext && curCard.idx < ctx.cards.length-1){
       finishSwipe(-1);
     } else if(goPrev && curCard.idx > 0){

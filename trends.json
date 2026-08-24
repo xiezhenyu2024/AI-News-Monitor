@@ -1181,5 +1181,26 @@
     "evidence": "ArXiv论文报告一人五周指挥Agent舰队完成应用到芯片全流程",
     "grassroots": "开发者用'一个目录'作为多Agent共享任务管理器，验收标准'证据或未完成'",
     "date": "2026-08-24"
+  },
+  {
+    "theme": "Agent开发基础设施成为最大风口",
+    "importance": 5,
+    "evidence": "DeepSeek Harness两天9.5万Star，周边生态（桌面端、插件列表、路由套件）同步爆发，掘金社区大量实战教程",
+    "grassroots": "开发者反馈'插件化设计让Agent开发门槛大幅降低，但生态尚在早期'",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "商业闭源模型定价困境加剧",
+    "importance": 5,
+    "evidence": "Anthropic Fable因高价+限流遭开发者集体吐槽，FT报道其难以吸引用户，开发者转投OpenAI或开源模型",
+    "grassroots": "'Anthropic仍拥有最强模型，但用不起等于没有'",
+    "date": "2026-08-24"
+  },
+  {
+    "theme": "本地模型'够用论'兴起",
+    "importance": 4,
+    "evidence": "掘金多篇文章讨论本地Qwen 3.8替代云端API，认为代码补全等场景已接近商业旗舰水平",
+    "grassroots": "'这个本地模型，让我token自由了'",
+    "date": "2026-08-24"
   }
 ]
