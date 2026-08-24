@@ -1,0 +1,858 @@
+{
+  "key": "2026-08-24-afternoon",
+  "date": "2026-08-24",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 10,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "新加速牛顿法实现O(1/k^3)全局收敛率，仅需单次线性求解",
+      "entities": [
+        {
+          "name": "牛顿法",
+          "explain": "一种经典优化算法，利用函数的二阶导数（Hessian矩阵）来加速收敛，常用于机器学习和数值计算。"
+        },
+        {
+          "name": "Hessian矩阵",
+          "explain": "函数二阶偏导数组成的矩阵，描述函数曲率，牛顿法用它来指导搜索方向。"
+        },
+        {
+          "name": "收敛率",
+          "explain": "衡量优化算法逼近最优解速度的指标，O(1/k^3)表示迭代k次后误差以k的三次方速度衰减。"
+        }
+      ],
+      "summary": "研究者提出一种新的直接加速牛顿法，用于最小化具有Lipschitz连续Hessian的凸函数。该算法仅使用原始变量，每轮迭代只需一次线性求解，通过简单预设参数即可达到O(1/k^3)的全局收敛率。这是该问题类别中首个仅依赖单次线性系统求解即达到此速率的一阶方法。",
+      "relevant": "该成果显著提升了二阶优化方法的效率，对大规模机器学习和科学计算中的凸优化问题具有重要应用价值。",
+      "source_text": "Primal Acceleration of Newton's Method。We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear syste",
+      "source_title": "Primal Acceleration of Newton's Method",
+      "source_url": "https://arxiv.org/abs/2608.21359v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 2,
+      "title": "VIALS基准发布：面向生命科学视觉工件解读的161项任务",
+      "entities": [
+        {
+          "name": "视觉问答",
+          "explain": "让AI根据图像内容回答问题的任务，需要理解视觉信息和语言问题。"
+        },
+        {
+          "name": "生命科学",
+          "explain": "研究生物体及其生命过程的科学领域，包括生物学、医学、生物技术等。"
+        },
+        {
+          "name": "视觉工件",
+          "explain": "实验中产生的图像数据，如凝胶电泳图、显微镜图像、质粒图谱等，科学家需解读这些图像来指导研究。"
+        }
+      ],
+      "summary": "VIALS是一个新的视觉问答基准，包含161项任务，覆盖生物技术行业实验流程中常见的各类视觉工件解读，如凝胶印迹、显微镜图像和质粒图谱等。与现有基准不同，它聚焦于实际工作流中的原始图像而非出版物中的精修图，旨在测试前沿视觉语言模型在真实科研场景中的表现。",
+      "relevant": "该基准填补了AI在专业生命科学工作流中视觉解读能力的评估空白，对推动AI辅助科研具有重要价值。",
+      "source_text": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences。In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language",
+      "source_title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "source_url": "https://arxiv.org/abs/2608.21357v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 3,
+      "title": "生成式AI颠覆机器验证：一人五周指挥AI智能体完成全栈开发",
+      "entities": [
+        {
+          "name": "机器验证",
+          "explain": "用计算机程序自动证明软件或硬件正确性的技术，传统上成本高昂。"
+        },
+        {
+          "name": "AI智能体",
+          "explain": "能够自主执行任务的人工智能程序，可独立完成代码编写、测试等操作。"
+        },
+        {
+          "name": "消费级AI订阅",
+          "explain": "面向个人用户的AI服务订阅，如ChatGPT Plus等，价格相对低廉。"
+        }
+      ],
+      "summary": "研究者报告称，生成式AI将机器验证从昂贵开销转变为经济高效的生产力工具。在五周内，一名研究员通过消费级AI订阅指挥一小队AI智能体，从应用代码到验证全流程自主工作，展示了AI验证作为“不可腐败的裁判”使单人安全指挥大规模自主机器工作成为可能。",
+      "relevant": "这一成果可能改变软件开发范式，大幅降低验证成本，提升AI自主工作的可靠性和安全性。",
+      "source_text": "AI with Authority, from Application to Silicon。For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on consumer AI subscriptions directed a small fleet of AI agents from application code, through a verifi",
+      "source_title": "AI with Authority, from Application to Silicon",
+      "source_url": "https://arxiv.org/abs/2608.21356v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 4,
+      "title": "TurboBias 2.0：面向生产环境的流式上下文偏置ASR框架",
+      "entities": [
+        {
+          "name": "自动语音识别",
+          "explain": "将人类语音转换为文字的技术，广泛应用于语音助手、会议转录等场景。"
+        },
+        {
+          "name": "上下文偏置",
+          "explain": "在语音识别中优先识别用户指定的特定词汇或短语，如人名、地名等。"
+        },
+        {
+          "name": "流式推理",
+          "explain": "边接收语音边实时输出识别结果，而非等待完整语音输入后再处理。"
+        }
+      ],
+      "summary": "TurboBias 2.0是一个面向生产环境的语音识别上下文偏置框架，解决了现有方法在流式推理、高效批处理解码、用户特定上下文列表和低运行时开销等方面的不足。该框架在保持高识别准确率的同时，满足了现代生产级ASR系统的实际需求。",
+      "relevant": "该框架直接回应了语音助手等产品对实时、个性化识别的需求，具有明确的工业应用价值。",
+      "source_text": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems。Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
+      "source_title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "source_url": "https://arxiv.org/abs/2608.21343v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 5,
+      "title": "解剖信息神经网络：将解剖先验编码进损失函数与架构",
+      "entities": [
+        {
+          "name": "解剖先验",
+          "explain": "关于人体解剖结构的已知知识，如血管走向、器官位置等，用于约束模型输出。"
+        },
+        {
+          "name": "物理信息神经网络",
+          "explain": "一种将物理定律作为约束加入神经网络的训练方法，提高模型的物理合理性。"
+        },
+        {
+          "name": "SE(3)变换",
+          "explain": "三维空间中的旋转和平移变换，用于描述物体在空间中的运动。"
+        }
+      ],
+      "summary": "研究者提出解剖信息神经网络（AINN），将软解剖先验作为损失函数中的惩罚项，硬解剖先验则通过架构约束实现。以导丝诱导的主动脉髂动脉变形为例，他们用SE(3)公式化该问题，使模型在数据稀缺时仍能生成解剖学上合理的预测。",
+      "relevant": "该方法提升了深度学习模型在医学图像分析中的解剖合理性，对临床诊断和治疗规划有重要意义。",
+      "source_text": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation。Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a renal transplant artery off the iliac instead of the aorta as unexpected rather than impossible), in direct analogy to a physics-informed neural network, and hard anatomic priors (e.g., continuity of t",
+      "source_title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "source_url": "https://arxiv.org/abs/2608.21332v1",
+      "source_name": "ArXiv cs.AI"
+    },
+    {
+      "item_id": 7,
+      "title": "PerturbRx：学习治疗条件下的潜在转换预测患者药物反应",
+      "entities": [
+        {
+          "name": "肿瘤异质性",
+          "explain": "不同肿瘤细胞或不同患者肿瘤之间的分子特征差异，导致对同一药物反应不同。"
+        },
+        {
+          "name": "潜在转换",
+          "explain": "模型学习到的数据在潜在空间中的状态变化，用于捕捉治疗干预的效果。"
+        },
+        {
+          "name": "表示学习",
+          "explain": "自动学习数据的有用特征表示，无需人工设计特征。"
+        }
+      ],
+      "summary": "PerturbRx提出一种治疗条件下的表示学习框架，通过建模药物和剂量诱导的潜在状态转换来预测患者对癌症治疗的反应。该方法在训练时显式学习干预引起的分子变化，并将其作为患者-药物反应的特征，克服了数据稀缺和肿瘤异质性的挑战。",
+      "relevant": "精准医疗需要预测个体患者对特定药物的反应，该框架有望提高癌症治疗方案的个性化水平。",
+      "source_text": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction。Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned tra",
+      "source_title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "source_url": "https://arxiv.org/abs/2608.21349v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 8,
+      "title": "研究证明：顺序预测中精确真实性校准与完备性不可兼得",
+      "entities": [
+        {
+          "name": "校准",
+          "explain": "预测概率与实际发生频率的一致性，如预测70%下雨，实际应70%下雨。"
+        },
+        {
+          "name": "真实性",
+          "explain": "预测者无法通过谎报概率获得更高收益的性质，确保报告真实反映其信念。"
+        },
+        {
+          "name": "完备性",
+          "explain": "校准度量能识别所有错误校准预测的性质。"
+        }
+      ],
+      "summary": "研究者解决了Haghtalab等人提出的开放问题，证明在顺序二元预测中，精确真实性校准度量与完备性、可靠性不相容。这意味着不存在一个校准度量能同时满足所有理想性质，为在线预测的校准理论划定了边界。",
+      "relevant": "该结果为预测市场、天气预报等需要可靠概率报告的领域提供了理论指导，影响校准方法的设计。",
+      "source_text": "Truthful Calibration Measures for Sequential Prediction。Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is compatible with completeness and soundness. We resolve this question negatively for sequential binary prediction: exact truthfulness is incompatible with completeness",
+      "source_title": "Truthful Calibration Measures for Sequential Prediction",
+      "source_url": "https://arxiv.org/abs/2608.21348v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 9,
+      "title": "自精炼流水线中的非对称容量分配研究",
+      "entities": [
+        {
+          "name": "自精炼",
+          "explain": "大语言模型通过生成、批判、修订三个阶段迭代改进输出的方法。"
+        },
+        {
+          "name": "模型容量",
+          "explain": "模型的大小和复杂度，通常与参数量相关，影响计算资源和性能。"
+        },
+        {
+          "name": "LLM智能体",
+          "explain": "基于大语言模型的自主代理，能执行多步骤任务，自精炼是其核心机制。"
+        }
+      ],
+      "summary": "研究系统探讨了自精炼流水线中生成、批判、修订三个阶段对模型容量的不同需求。发现现有方法将模型大小视为实现细节而非研究对象，可能导致资源浪费。研究提出非对称容量分配策略，在不同阶段使用不同大小的模型以优化资源利用。",
+      "relevant": "该研究为LLM智能体的高效部署提供了指导，有助于降低推理成本同时保持输出质量。",
+      "source_text": "Asymmetric Capacity Allocation in Self-Refinement Pipelines。Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective ",
+      "source_title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "source_url": "https://arxiv.org/abs/2608.21345v1",
+      "source_name": "ArXiv cs.LG"
+    },
+    {
+      "item_id": 12,
+      "title": "Move by Move：测量和引导LLM如何进行心理治疗",
+      "entities": [
+        {
+          "name": "大语言模型",
+          "explain": "基于深度学习的大规模语言模型，如GPT系列，能生成和理解自然语言。"
+        },
+        {
+          "name": "心理治疗",
+          "explain": "通过专业对话帮助患者解决心理问题的过程，如认知行为疗法。"
+        },
+        {
+          "name": "MULTI-60",
+          "explain": "一个包含60种心理治疗技术类别的分类体系，用于标注治疗对话。"
+        }
+      ],
+      "summary": "研究者引入了一个包含十种治疗动作的本体论，基于MULTI-60清单构建，并通过五名持证心理学家的标注验证。将该本体应用于真实咨询记录和模型主导的会话，他们发现LLM在心理治疗中的行为模式，并探索了如何引导模型更有效地进行心理支持。",
+      "relevant": "随着越来越多用户向AI寻求情感支持，理解并改进LLM的心理治疗能力对心理健康服务具有重要意义。",
+      "source_text": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy。Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five licensed psychologists, and scaled with a judge-based approach that matches expert agreement. Applying it to real counseling transcripts and model-led sessions, we co",
+      "source_title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "source_url": "https://arxiv.org/abs/2608.21325v1",
+      "source_name": "ArXiv cs.CL"
+    },
+    {
+      "item_id": 14,
+      "title": "记忆增强解锁高效思维链推理",
+      "entities": [
+        {
+          "name": "思维链",
+          "explain": "让大语言模型在回答前先展示推理步骤的技术，能显著提升复杂任务表现。"
+        },
+        {
+          "name": "推理开销",
+          "explain": "模型生成推理过程所需的计算资源和时间，冗长的推理链会增加成本。"
+        },
+        {
+          "name": "上下文生成替代定律",
+          "explain": "研究者提出的原理：显式的推理上下文可以替代部分解码时的生成过程。"
+        }
+      ],
+      "summary": "研究者形式化了思维链压缩中的权衡，提出“上下文生成替代定律”，并基于此开发了记忆增强思维链方法。该方法通过记忆模块存储和复用推理上下文，在保持推理连贯性的同时显著减少生成长度，降低推理开销。",
+      "relevant": "该研究为降低LLM推理成本提供了新思路，对大规模部署经济高效的推理系统有实际意义。",
+      "source_text": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning。Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this trade-off as the \\textit{Context-Generation Substitution Law}, where explicit reasoning context substitutes for part of decode-time generation. Based on this principle, we propose \\textit{Memory-Augm",
+      "source_title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "source_url": "https://arxiv.org/abs/2608.21265v1",
+      "source_name": "ArXiv cs.CL"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_dd96e7ee9fa7",
+      "source": "ArXiv cs.AI",
+      "title": "Primal Acceleration of Newton's Method",
+      "url": "https://arxiv.org/abs/2608.21359v1",
+      "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear syste",
+      "author": "Nikita Doikov"
+    },
+    {
+      "id": "arxiv_85d47cd2de46",
+      "source": "ArXiv cs.AI",
+      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "url": "https://arxiv.org/abs/2608.21357v1",
+      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language",
+      "author": "Elaine Lau, Thanuka Udumulla, Lee Izhaki-Tavor"
+    },
+    {
+      "id": "arxiv_646f856a8066",
+      "source": "ArXiv cs.AI",
+      "title": "AI with Authority, from Application to Silicon",
+      "url": "https://arxiv.org/abs/2608.21356v1",
+      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on consumer AI subscriptions directed a small fleet of AI agents from application code, through a verifi",
+      "author": "Jason Hickey"
+    },
+    {
+      "id": "arxiv_eb9fcd1cbd61",
+      "source": "ArXiv cs.AI",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "url": "https://arxiv.org/abs/2608.21343v1",
+      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
+      "author": "Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko"
+    },
+    {
+      "id": "arxiv_1e01af0c51d2",
+      "source": "ArXiv cs.AI",
+      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "url": "https://arxiv.org/abs/2608.21332v1",
+      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a renal transplant artery off the iliac instead of the aorta as unexpected rather than impossible), in direct analogy to a physics-informed neural network, and hard anatomic priors (e.g., continuity of t",
+      "author": "David P. Stonko"
+    },
+    {
+      "id": "arxiv_dd96e7ee9fa7",
+      "source": "ArXiv cs.LG",
+      "title": "Primal Acceleration of Newton's Method",
+      "url": "https://arxiv.org/abs/2608.21359v1",
+      "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear syste",
+      "author": "Nikita Doikov"
+    },
+    {
+      "id": "arxiv_78ee75a2ffb0",
+      "source": "ArXiv cs.LG",
+      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "url": "https://arxiv.org/abs/2608.21349v1",
+      "summary": "Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned tra",
+      "author": "Yoshitaka Inoue, Minoh Jeong, Alfred Hero"
+    },
+    {
+      "id": "arxiv_acf7e2456659",
+      "source": "ArXiv cs.LG",
+      "title": "Truthful Calibration Measures for Sequential Prediction",
+      "url": "https://arxiv.org/abs/2608.21348v1",
+      "summary": "Calibration requires probabilistic reports to be conditionally unbiased and reliably interpretable as probabilities. A calibration measure assigns numerical error to miscalibrated reports. Haghtalab et al. (2024) proposed an approximately truthful calibration measure for online prediction, leaving open whether exact truthfulness is compatible with completeness and soundness. We resolve this question negatively for sequential binary prediction: exact truthfulness is incompatible with completeness",
+      "author": "Anagha Gokul, Jason Hartline, Lunjia Hu"
+    },
+    {
+      "id": "arxiv_e0cdeca84ba3",
+      "source": "ArXiv cs.LG",
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "url": "https://arxiv.org/abs/2608.21345v1",
+      "summary": "Self-refinement, typically structured as generation, critique, and revision, is a widely adopted paradigm for improving LLM generation and serves as a core mechanism in many LLM agents. While the three stages involve different cognitive demands, most existing approaches conveniently treat the model size as an implementation detail rather than a subject of study, which may lead to a waste of resources. Little work has systematically examined how model size affects each stage or whether effective ",
+      "author": "Zhuoyi Yang, Ian G. Harris, Salar Hashemitaheri"
+    },
+    {
+      "id": "arxiv_eb9fcd1cbd61",
+      "source": "ArXiv cs.LG",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "url": "https://arxiv.org/abs/2608.21343v1",
+      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
+      "author": "Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko"
+    },
+    {
+      "id": "arxiv_eb9fcd1cbd61",
+      "source": "ArXiv cs.CL",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "url": "https://arxiv.org/abs/2608.21343v1",
+      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
+      "author": "Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko"
+    },
+    {
+      "id": "arxiv_06079573c81b",
+      "source": "ArXiv cs.CL",
+      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "url": "https://arxiv.org/abs/2608.21325v1",
+      "summary": "Users increasingly turn to large language models for emotional support, yet little is known about how these models actually conduct a psychotherapy interaction. We introduce an ontology of ten therapeutic moves: compact, function-based categories grounded in the MULTI-60 inventory, validated through an annotation campaign with five licensed psychologists, and scaled with a judge-based approach that matches expert agreement. Applying it to real counseling transcripts and model-led sessions, we co",
+      "author": "Afonso Baldo, Hugo Pitorro, Areti Vassilopoulos"
+    },
+    {
+      "id": "arxiv_4ae65b38e2ea",
+      "source": "ArXiv cs.CL",
+      "title": "Prompt-Model Interaction Reaches the Fixed Points: A deterministic, task-free structural readout -- and the factorizations of it that failed",
+      "url": "https://arxiv.org/abs/2608.21315v1",
+      "summary": "That a prompt's effect is not a property of the prompt is established: prompts optimised for one model degrade on another, and rankings reorder under neutral reformatting. That evidence is about task accuracy, which cannot say whether the interaction is a fact about task machinery or about the conditional distribution itself. We ask on a readout with no task in it: the fixed-point structure of the short-window argmax map x_{t+1} = argmax_x p(x | x_{t-1}, x_t), censused from 96 starts. It is dete",
+      "author": "Nicolás Vera Zúñiga"
+    },
+    {
+      "id": "arxiv_03d1b546a0a6",
+      "source": "ArXiv cs.CL",
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "url": "https://arxiv.org/abs/2608.21265v1",
+      "summary": "Large language models often rely on Chain-of-Thought (CoT) reasoning to solve complex tasks, but verbose reasoning traces introduce substantial inference overhead. CoT compression shortens generation, yet aggressive compression may disrupt logical coherence and degrade performance. We formalize this trade-off as the \\textit{Context-Generation Substitution Law}, where explicit reasoning context substitutes for part of decode-time generation. Based on this principle, we propose \\textit{Memory-Augm",
+      "author": "Simeng Zhang, Yilong Chen, Wenyuan Zhang"
+    },
+    {
+      "id": "arxiv_50d85340bb5d",
+      "source": "ArXiv cs.CL",
+      "title": "EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering",
+      "url": "https://arxiv.org/abs/2608.21252v1",
+      "summary": "Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their performance degrades when chunk boundaries separate entities from supporting evidence or when a question requires multi-hop reasoning across the corpus. We propose EnSI-RAG (Entity-Structure-Indexed ",
+      "author": "Xuanyu Meng, Jiashuo Sun, Jash Rajesh Parekh"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Agents learn to act through interaction with environments, yet the environments used for training are often manually constructed or synthesized around predefined tasks and benchmarks. This task-centric paradigm makes it difficult to scale environments that reflect realistic and evolving workflows where diverse tasks can naturally emerge from the underlying world. We introduce AgentMercury, a scalable framework for synthesizing executable environments from high-level business scenarios. Rather than constructing an environment for a specific task, AgentMercury first instantiates a persistent world with entities, services, tools, state, and executable cross-service invariants, from which diverse tasks and interaction trajectories can subsequently emerge. We construct 4,783 executable environments spanning 14 industries and 50 countries, and use them as training substrates for reinforcement learning. Despite being generated without targeting the evaluation benchmarks, policies trained on these business-oriented environments improve substantially on both enterprise workflows and out-of-domain benchmarks spanning reasoning, coding, scientific computing, and tool use. In our experiments, Qwen3.5-4B improves from 12.3 to 15.7 on EnterpriseOps-GYM and from 45.9 to 56.0 on AIME26 after training on AgentMercury environments. We further show that the construction process itself can be learned: fine-tuning Qwen3.5-35B-A3B on construction traces increases executable-world authoring success"
+    },
+    {
+      "id": "devto_4469743",
+      "source": "Dev.to",
+      "title": "I built a robot that applies for jobs. The hard part was proving it worked.",
+      "url": "https://dev.to/whateverneveranywhere/i-built-a-robot-that-applies-for-jobs-the-hard-part-was-proving-it-worked-2e2a",
+      "summary": "Twelve real experiments, eight hours, zero landed. The bug was in the instrument, not the robot.",
+      "author": "Ava Bagherzadeh"
+    },
+    {
+      "id": "devto_4467326",
+      "source": "Dev.to",
+      "title": "I Was Learning PyTorch, Then I Accidentally Started Building My Own AI Training Framework",
+      "url": "https://dev.to/puneetkumar2010/i-was-learning-pytorch-then-i-accidentally-started-building-my-own-ai-training-framework-55a9",
+      "summary": "Honestly, Tensorless was not supposed to become this big. I was learning PyTorch. I wanted to...",
+      "author": "Puneet-Kumar2010"
+    },
+    {
+      "id": "devto_4471072",
+      "source": "Dev.to",
+      "title": "7 Signs You're Over-Engineering Your AI App (and How to Stop)",
+      "url": "https://dev.to/james_anderson_h/7-signs-youre-over-engineering-your-ai-app-and-how-to-stop-4gb",
+      "summary": "There's a very specific kind of AI project that looks incredibly impressive in the architecture...",
+      "author": "James Anderson"
+    },
+    {
+      "id": "devto_4470961",
+      "source": "Dev.to",
+      "title": "NVIDIA Turned a 30% Model Into a 100% Agent. Here's How to Build the Same Harness in Java",
+      "url": "https://dev.to/jamilxt/nvidia-turned-a-30-model-into-a-100-agent-heres-how-to-build-the-same-harness-in-java-1b43",
+      "summary": "Last Friday, NVIDIA's research team published a result that should change how every backend team...",
+      "author": "jamilxt"
+    },
+    {
+      "id": "devto_4470537",
+      "source": "Dev.to",
+      "title": "Shopify just gave millions of stores WebMCP tools for free — here's what it does, and what it doesn't",
+      "url": "https://dev.to/r0bertini/shopify-just-gave-millions-of-stores-webmcp-tools-for-free-heres-what-it-does-and-what-it-1cln",
+      "summary": "Quietly, in a developer changelog rather than a keynote, Shopify did something that moves the \"should...",
+      "author": "Robert"
+    },
+    {
+      "id": "devto_4457313",
+      "source": "Dev.to",
+      "title": "Building a Secure Self-Hosted Observability Pipeline for an AI Evaluation Platform",
+      "url": "https://dev.to/starkprince/building-a-secure-self-hosted-observability-pipeline-for-an-ai-evaluation-platform-53b0",
+      "summary": "When building an AI evaluation platform, it is tempting to begin with dashboards, models, and scoring...",
+      "author": "Prince Raj"
+    },
+    {
+      "id": "devto_4470887",
+      "source": "Dev.to",
+      "title": "A personal context layer, part 2: Memory is not history",
+      "url": "https://dev.to/hunter0/a-personal-context-layer-part-2-memory-is-not-history-44oa",
+      "summary": "Memory is not the same as recorded history. In humans, our memories change based on the strength of...",
+      "author": "hunter"
+    },
+    {
+      "id": "devto_4469998",
+      "source": "Dev.to",
+      "title": "One directory is the task manager my agents share",
+      "url": "https://dev.to/alkisyuv/one-directory-is-the-task-manager-my-agents-share-4ecc",
+      "summary": "A queue of plain markdown files coordinating humans and machine agents, with acceptance tests and evidence-or-it-is-not-done.",
+      "author": "Alkis Yuv"
+    },
+    {
+      "id": "juejin_7675273747710001206",
+      "source": "掘金",
+      "title": "DeepSeek Harness 值得安装的 15 款插件",
+      "url": "https://juejin.cn/post/7675273747710001206",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674826322239258662",
+      "source": "掘金",
+      "title": "开源两天 9.5 万 Star！DeepSeek Harness 到底是个啥？小白安装到实战一篇讲透",
+      "url": "https://juejin.cn/post/7674826322239258662",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7676709710489419786",
+      "source": "掘金",
+      "title": "这个本地模型，让我 token 自由了",
+      "url": "https://juejin.cn/post/7676709710489419786",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7675412802417639462",
+      "source": "掘金",
+      "title": "爽用 DeepSeek V4 Flash、GLM-5.2、Qwen3.8 Max、GPT 5.6 Luna，OpenCode 太香了！",
+      "url": "https://juejin.cn/post/7675412802417639462",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674574367976341567",
+      "source": "掘金",
+      "title": "本地跑一个 Qwen 3.8，你将拥有一个 Opus 4.6",
+      "url": "https://juejin.cn/post/7674574367976341567",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7675538244907221001",
+      "source": "掘金",
+      "title": "我把 DeepSeek Harness 跑了一遍，终于知道它和 Codex 差在哪了",
+      "url": "https://juejin.cn/post/7675538244907221001",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7675947280080879667",
+      "source": "掘金",
+      "title": "从失业到出书：我一个人靠 AI 搭起了一家小公司",
+      "url": "https://juejin.cn/post/7675947280080879667",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "juejin_7674145872716513280",
+      "source": "掘金",
+      "title": "LangChain 们的丧钟？DeepSeek 把 Agent 开发变成了拼乐高",
+      "url": "https://juejin.cn/post/7674145872716513280",
+      "summary": "",
+      "author": ""
+    },
+    {
+      "id": "oschina_1899155c3a5b",
+      "source": "开源中国",
+      "title": "给智能体的记忆力打分，openKylin 命题公布",
+      "url": "https://www.oschina.net/news/502088",
+      "summary": "2026 年，大模型智能体正从实验室走进办公、研发和个人助理场景，能不能长期、稳定、可控地记住用户信息，成了影响智能体可用性的关键。偏好、路径、模板这类稳定信息要记住；临时信息、敏感信息、风险指令又得排除。记不住，每次对话都从头开始；记太死，不该留的信息又会一直留在系统里。 2026 上海开源软件应用创新大..."
+    },
+    {
+      "id": "oschina_d19fcf8dbe76",
+      "source": "开源中国",
+      "title": "Hugging Face 寻求出售，估值或达 130 亿美元",
+      "url": "https://www.oschina.net/news/502087/hugging-face-could-be-acquired-13-billion",
+      "summary": "Hugging Face 正在探索出售，估值可能达到 130 亿美元。 据 Business Insider 独家报道，Hugging Face 已聘请银行评估买家意向，目前尚未达成协议。公司上一次估值是 2023 年的 45 亿美元（PitchBook 数据），如果交易达成，估值将翻近三倍。 不是模型厂商，但比模型厂商更值钱 Hugging Face 不造大模型。它的核心价值在..."
+    },
+    {
+      "id": "oschina_701aa3e9a317",
+      "source": "开源中国",
+      "title": "Codex CLI 的 Bedrock 接入绕过了 GPT-5.6 缓存，4 天花掉 1386 美元，85% 是白写的",
+      "url": "https://www.oschina.net/news/502085",
+      "summary": "GitHub 上有个 Issue 值得关注。 一位开发者在使用 Codex CLI 的 Amazon Bedrock 原生 provider 接入 GPT-5.6 Sol 时，发现 4 天花掉了约 1386 美元，其中85% 花在了 prompt cache write 上，而不是真正的推理使用。 事情是这样的：Codex 在工作时会维护一个 prompt_cache_key，这个 key 用来标记可以复用的缓存前缀。但..."
+    },
+    {
+      "id": "oschina_637b10582bc7",
+      "source": "开源中国",
+      "title": ":fire:Star 6.3k 支持 AI 工作流引擎 FlowLong 1.2.6 发布",
+      "url": "https://www.oschina.net/news/502081",
+      "summary": "开源地址：https://gitee.com/aizuda/flowlong 开源地址：https://github.com/aizuda/flowlong 官网文档：https://flowlong.aizuda.com 更新日志： feat: 新增支持无节点条件执行能力 feat: 升级 mybatis-plus 依赖 3.5.17 版本 feat: 新增重审已结束的流程实例恢复实例并将当前任务退回发起人暂存待审 opt: 优化临时节点..."
+    },
+    {
+      "id": "oschina_e631a946d096",
+      "source": "开源中国",
+      "title": "禅道开源版 22.5 发布，编辑器中@人员后增加消息通知，完善多处用户体验",
+      "url": "https://www.oschina.net/news/502076",
+      "summary": "大家好， 禅道开源版22.5发布！本次发布 在编辑器中@人员后增加了消息通知功能，便于干系人第一时间收到消息提醒。 优化了测试用例与用例库用例版本同步时的操作提示，提升操作指引的清晰度，降低误操作风险。 放开外部人员设置为成员的限制，开启列出外部用户后，外部人员可以正常设置到需要协作的对象中。 同时完善多处..."
+    },
+    {
+      "id": "hn_comment_49411353",
+      "source": "HN讨论",
+      "title": "pmontra 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "http:&#x2F;&#x2F;archive.today&#x2F;ZLojz",
+      "author": "pmontra"
+    },
+    {
+      "id": "hn_comment_49413750",
+      "source": "HN讨论",
+      "title": "a1371 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "Where Anthropic f&#x27;ed up was treating their monetization the way they treat model training. Turns out that success in experimentation is not transferrable. They have tried to find the highest that the market pays for sota models; however, on the consumer side, this is just too confusing and unsettling: &quot;You can only use Fable for a week as a part of your plan&quot;\n&quot;Be ready! You have to start paying per token!&quot;\n&quot;Nevermind! we extended it for a couple more weeks&quot;\n&quot;Wait, now it&#x27;s up to half your usage&quot;\n&quot;Ok, now its...&quot; Most people want to not care. We want our AI like electricity -- Kind of just there no matter how easy&#x2F;hard is for the supply. You don&#x27;t want your electricity company to be on the brink of cutting you off any second. That&#x27;s Anthropic. You don&#x27;t feel they want to give you a dependable service for an, albeit premium, price. It&#x27;s a constant bargaining game. That forces people to look beyond the walled garden. There, they find models that are fine... and without the shenanigans.",
+      "author": "a1371"
+    },
+    {
+      "id": "hn_comment_49412107",
+      "source": "HN讨论",
+      "title": "bentt 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "They&#x27;ve put themselves in a corner. Fable was too good and they gave it away with the $20 plan. It had to be a big step from Opus 4.8 to show progress, and Opus 4.8 is GREAT at coding in many different domains. But they&#x27;re getting killed on token cost. They have to get people paying more for tokens. So then they put Fable in the $200 plan and release Opus 5. I&#x27;m suspicious of Opus 5. It is mostly worse than 4.8. It _seems_ like they nerfed it to create more distance between it and Fable. So what have most of us done? Stayed on Opus 4.8. The statistics bear this out. 4.8 still dominates. Now they&#x27;re stuck. If they take 4.8 away, everyone will riot. If they make Opus 5.x better than 4.8, they disincentivize everyone from moving to Fable and most importantly, paying more. Really, all they can do is take the L for now and just let 4.8 be the apex of the $20 pro plan for the foreseeable future while they work like hell to make Fable THAT much better that it earns the $200 to $infinity that they really want everyone to pay.",
+      "author": "bentt"
+    },
+    {
+      "id": "hn_comment_49414151",
+      "source": "HN讨论",
+      "title": "matheusmoreira 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "Mythos? That&#x27;s only for super special corporations, you need not apply. Fable? Can&#x27;t even look at it wrong without running into cybersecurity lockouts. And even if you get past this, it&#x27;s limited to &lt;50% usage. It took me a month to complete a Fable review on my project. So stingy. Even with OpenAI&#x27;s recent usage troubles, they&#x27;re still so much better than Anthropic it&#x27;s not even funny. Re-ran the code review with Sol as a benchmark and it turns out Sol&#x27;s performance is within 70%-90% of Fable&#x27;s. Anthropic&#x27;s still got the best model, but what does it matter if I can barely use it?",
+      "author": "matheusmoreira"
+    },
+    {
+      "id": "hn_comment_49413682",
+      "source": "HN讨论",
+      "title": "Zigurd 在「Anthropic's best AI model struggles to a」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411102",
+      "summary": "For many coders including myself, LLM based coding agents work well enough to be useful, and in some cases worth paying for. What I don&#x27;t see is vast areas of industry finding $10s to $100s of billions of value in LLMs. There&#x27;s no lint or compiler that can check for correctly constructed contracts. So LLMs, which should be useful to law firms, incur a lot more manual checking of their work than coding agents. Less formal document production in other industries is likely to have less structure. That might not matter in some settings but I&#x27;m having trouble thinking of an example off the top of my head.",
+      "author": "Zigurd"
+    },
+    {
+      "id": "hn_comment_49413550",
+      "source": "HN讨论",
+      "title": "an0malous 在「Google Workspace thinks my domain is an 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411717",
+      "summary": "My business Workspace account got suspended recently, no reason given, can’t even login to contact support. I’m a solo user so I only had one admin account and that was the one locked out. There was just one text field to submit an appeal, so I did. I never got any email confirmation or tracking number for my appeal, it’s been a week now with no contact from Google. This happened about a week after they charged my credit card for the subscription. I’m now in the process of switching to Fastmail. Google doesn’t give a shit about anything besides for their golden goose, I would encourage everyone to move away from their services before they just screw you with no warning or recourse just because they can.",
+      "author": "an0malous"
+    },
+    {
+      "id": "hn_comment_49413102",
+      "source": "HN讨论",
+      "title": "dmd 在「Google Workspace thinks my domain is an 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411717",
+      "summary": "I get this sort of thing  constantly  because my domain, 3e.org, which I have had for 30 years, is apparently impossible. It&#x27;s either too short to be real, or starts with a number (obviously impossible). And like the author, 90% of the time I can just disable their front-end validation and go on my merry way.",
+      "author": "dmd"
+    },
+    {
+      "id": "hn_comment_49413064",
+      "source": "HN讨论",
+      "title": "ivan_gammel 在「Google Workspace thinks my domain is an 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411717",
+      "summary": "Smells like „product engineering“. So a product or an engineering lead gets a task to reduce risks of specific abuse by preventing someone from sending email from yahoo or web.de clone. As a quick solution they add this filter without „overthinking“ it. The impact is low, a few customers in a million, so its stupidity gets unnoticed and, once first complaint reaches them, quietly deprioritized to death. Removing it is cheap: the justification for taking that work is likely the show stopper. Google is an old large corp that hires and fires at a scale. Owning removal of abuse filter to increase revenue by Planck-sized amount is an impossible thing.",
+      "author": "ivan_gammel"
+    },
+    {
+      "id": "hn_comment_49413394",
+      "source": "HN讨论",
+      "title": "TLDRisk 在「Google Workspace thinks my domain is an 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411717",
+      "summary": "&gt; Just for context, this is a premium domain with a very high premium renewal fee, no history of abuse obviously. The registry premium domains on the new TLDs have several issues.  The biggest IMO is a lack of price protection.  Non-premium domains at least get the cohort based protection from section 2.10c of the registry agreement. So, in addition to being treated as a 2nd rate domain, there’s nothing stopping the registry from cranking up the price if a domain gets popular.  I don’t think it’s ever happened, but have never found contractual terms that forbid it. I made a website about it a while ago after a registry reclassified one of my domains from standard to premium.  https:&#x2F;&#x2F;tldrisk.com&#x2F;beyond-basics&#x2F;premium-domains&#x2F;",
+      "author": "TLDRisk"
+    },
+    {
+      "id": "hn_comment_49412842",
+      "source": "HN讨论",
+      "title": "sam_lowry_ 在「Google Workspace thinks my domain is an 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49411717",
+      "summary": "The end is really hilarious. Google had a stupid frontend-only validation, it seems.",
+      "author": "sam_lowry_"
+    },
+    {
+      "id": "hn_comment_49411956",
+      "source": "HN讨论",
+      "title": "OptionOfT 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "A bunch of these should be enforce with linting, that way people who still hand-craft code get the same kind of feedback, e.g. Always use {}, even on a one-line &quot;if&quot; statement. &amp; Keep function names short. Less than 30 characters. Then this one really is a pattern that creates a lot of churn: - Add a small, to the point, comment to explain  what  the block does and  why . Use examples when possible. Propose ASCII drawings to explain complete systems. The what _is_ the code.",
+      "author": "OptionOfT"
+    },
+    {
+      "id": "hn_comment_49414328",
+      "source": "HN讨论",
+      "title": "andai 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "&gt; - Keep function names short. Less than 30 characters. Recently I asked GPT to port a browser game to Rust. It voluntered this gem: draw_image_with_html_image_element_and_sw_and_sh_and_dx_and_dy_and_dw_and_dh(...) I thought it was smoking some good stuff, but it turned out, that is actually the name of the function!  https:&#x2F;&#x2F;docs.rs&#x2F;web-sys&#x2F;latest&#x2F;web_sys&#x2F;struct.CanvasRenderin...",
+      "author": "andai"
+    },
+    {
+      "id": "hn_comment_49412316",
+      "source": "HN讨论",
+      "title": "YuechenLi 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "Since we are sharing our AGENTS.md, I thought I&#x27;d share my own, because most of the time, this is pretty much all you need for LLMs to write good code, everything else can be added per project:\n----\n*Convergence rule*\nEvery substantial task must end in exactly one of three states: A. Success\nThe intended capability works in the real path and the real motivating case materially improves. B. Meaningful progression\nThe capability is not complete, but one genuine blocker is removed and the next blocker is isolated with evidence. C. Honest stop\nFurther work would require overbroad scope expansion, excessive debt, brittle patching, or tangled logic. Stop and report the reason with concrete evidence. Do not continue producing patches once the work stops converging. Do not confuse activity with progress. A failed attempt is only acceptable if it leaves behind a narrower problem, stronger evidence, or a justified stop. Any partial work must leave the codebase in a cleaner, more legible, and more diagnosable state than before.\n---- A lot of the article&#x27;s AGENTS.md just feel like telling the LLM agents either something they already know (for example, most of the time they know to use exhaustive switch&#x2F;match statements instead of &quot;arrow anti-pattern&quot;) or seems actively harmful (&quot;keep function names short&quot; seems arbitrary and may cause the LLMs to write weird abbreviations for functions that are harder to read and review.",
+      "author": "YuechenLi"
+    },
+    {
+      "id": "hn_comment_49413589",
+      "source": "HN讨论",
+      "title": "Supermancho 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "It&#x27;s interesting to read these things. I would describe this as 13 code writing rules (interpreted to be at least 16 - Starting with reduce code indentation) plus a commit message instruction set which I chose to ignore - because it&#x27;s style-specific and not interesting to me. 8 or 9 of these rules are not necessary. Basic CS is not something I have needed to ask agents, I use, to follow. eg Explaining that you need explicit interfaces is not a necessary instruction, nor is leveraging early return. Unclear instructions are of limited utility. What &quot;Let the reader of the code breathe&quot; or &quot;reduce code indentation&quot; means is subjective and will rarely be effective. Maybe the training for the language being used has gaps, which others do not. If you want to measure, ask it to output a string when it applies a rule. You&#x27;ll figure out what works, what doesn&#x27;t and how often, quickly. There&#x27;s 3 or 4 style choices included. The rest are not something I would use, but we all get burned by different things so I get it.",
+      "author": "Supermancho"
+    },
+    {
+      "id": "hn_comment_49411946",
+      "source": "HN讨论",
+      "title": "getnormality 在「My agent.md to improve LLM-assisted code」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49410932",
+      "summary": "This is a problem that people mostly have to solve themselves. Like, I&#x27;ve been working with Claude for almost a year now and I have never once seen it write &quot;Arrow Anti-Pattern&quot; code. That, and much of the rest, would be fluff in my projects. Agent instructions are best learned from experience project-by-project.",
+      "author": "getnormality"
+    },
+    {
+      "id": "hn_49412909",
+      "source": "Hacker News",
+      "title": "Implementation of GPT-2 in pure CMake",
+      "url": "https://github.com/AlpinDale/gpt2.cmake",
+      "summary": ""
+    },
+    {
+      "id": "hn_49412328",
+      "source": "Hacker News",
+      "title": "Rural Village in Spain Is Welcoming Digital Nomads with Open Arms",
+      "url": "https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms",
+      "summary": ""
+    },
+    {
+      "id": "hn_49411102",
+      "source": "Hacker News",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "summary": ""
+    },
+    {
+      "id": "hn_49411717",
+      "source": "Hacker News",
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49410932",
+      "source": "Hacker News",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "summary": ""
+    },
+    {
+      "id": "hn_49409473",
+      "source": "Hacker News",
+      "title": "How Complex Systems Fail (1998)",
+      "url": "https://how.complexsystems.fail/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49411020",
+      "source": "Hacker News",
+      "title": "Explain it to me like I'm ten",
+      "url": "https://timharford.com/2026/08/explain-it-to-me-like-im-ten/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49411024",
+      "source": "Hacker News",
+      "title": "AI and Infrastructure Engineering",
+      "url": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering/",
+      "summary": ""
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "⭐ 3950 | 🍴 191 | None"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "⭐ 3020 | 🍴 299 | HTML"
+    },
+    {
+      "id": "gh_1337955304",
+      "source": "GitHub Trending",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "⭐ 1463 | 🍴 23 | Python"
+    },
+    {
+      "id": "gh_1338435811",
+      "source": "GitHub Trending",
+      "title": "vvxw/deploy-vercel - Install Command：npm install",
+      "url": "https://github.com/vvxw/deploy-vercel",
+      "summary": "⭐ 1227 | 🍴 259 | JavaScript"
+    },
+    {
+      "id": "gh_1342886503",
+      "source": "GitHub Trending",
+      "title": "duty1g/x64dbg-mcp-server - x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "summary": "⭐ 958 | 🍴 96 | Zig"
+    },
+    {
+      "id": "gh_1344223757",
+      "source": "GitHub Trending",
+      "title": "ShadowAqueduct/watermark-remover - Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+      "url": "https://github.com/ShadowAqueduct/watermark-remover",
+      "summary": "⭐ 760 | 🍴 72 | Python"
+    },
+    {
+      "id": "gh_1337920628",
+      "source": "GitHub Trending",
+      "title": "MeteorNOX/DeepSeek-Balance-Whale-Widget - DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
+      "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "summary": "⭐ 748 | 🍴 31 | JavaScript"
+    },
+    {
+      "id": "gh_1338671045",
+      "source": "GitHub Trending",
+      "title": "DenisSergeevitch/desktop-fly - A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "summary": "⭐ 706 | 🍴 43 | Swift"
+    },
+    {
+      "id": "gh_1340743476",
+      "source": "GitHub Trending",
+      "title": "cclank/lanshu-create-ai-presenter-video - Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+      "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+      "summary": "⭐ 695 | 🍴 115 | Python"
+    },
+    {
+      "id": "gh_1338563299",
+      "source": "GitHub Trending",
+      "title": "amirh00sain/SpiderPanel - 无描述",
+      "url": "https://github.com/amirh00sain/SpiderPanel",
+      "summary": "⭐ 614 | 🍴 2001 | Python"
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "⭐ 188785 | 🍴 21021 | TypeScript"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/deepseek-harness-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "summary": "⭐ 19119 | 🍴 932 | TypeScript"
+    },
+    {
+      "id": "gh_1322012299",
+      "source": "GitHub Trending",
+      "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "summary": "⭐ 18115 | 🍴 1045 | Rust"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "⭐ 17501 | 🍴 2014 | Python"
+    },
+    {
+      "id": "gh_1316527318",
+      "source": "GitHub Trending",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "⭐ 14115 | 🍴 1690 | TypeScript"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "⭐ 11942 | 🍴 1895 | Python"
+    },
+    {
+      "id": "gh_1318768894",
+      "source": "GitHub Trending",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "⭐ 8856 | 🍴 1082 | TypeScript"
+    },
+    {
+      "id": "gh_1313576395",
+      "source": "GitHub Trending",
+      "title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "summary": "⭐ 8593 | 🍴 689 | None"
+    },
+    {
+      "id": "gh_1317041031",
+      "source": "GitHub Trending",
+      "title": "MiniMax-AI/MiniMax-H3 - 无描述",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "summary": "⭐ 6836 | 🍴 431 | Python"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "⭐ 6719 | 🍴 130 | PowerShell"
+    }
+  ],
+  "generated_at": "2026-08-24 11:35"
+}

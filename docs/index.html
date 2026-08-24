@@ -10,6 +10,7 @@
 body{font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;max-width:820px;margin:0 auto;background:#f7f7f8;color:#222}
 #home{padding:14px}
 #chat{display:none;height:100dvh;flex-direction:column}
+#swipeWrap{display:flex;flex-direction:column;flex:1;min-height:0;touch-action:pan-y;will-change:transform}
 .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
 h2{margin:0;font-size:18px}
 select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;border-radius:8px;background:#fff}
@@ -76,16 +77,18 @@ button.sending{opacity:.6;pointer-events:none}
 </div>
 
 <div id="chat">
-  <div class="chatbar">
-    <button onclick="goHome()">←</button>
-    <span class="ctitle" id="ctitle"></span>
+  <div id="swipeWrap">
+    <div class="chatbar">
+      <button onclick="goHome()">←</button>
+      <span class="ctitle" id="ctitle"></span>
+    </div>
+    <div class="modebar">
+      <button id="modeLight" class="on" onclick="setMode('light')">💡 轻度</button>
+      <button id="modeDeep" onclick="setMode('deep')">🧠 深度</button>
+    </div>
+    <div class="cardinfo" id="cardinfo"></div>
+    <div id="msgs"></div>
   </div>
-  <div class="modebar">
-    <button id="modeLight" class="on" onclick="setMode('light')">💡 轻度</button>
-    <button id="modeDeep" onclick="setMode('deep')">🧠 深度</button>
-  </div>
-  <div class="cardinfo" id="cardinfo"></div>
-  <div id="msgs"></div>
   <div class="inputrow">
     <input id="q" placeholder="问这条新闻…" onkeydown="if(event.key==='Enter')ask()">
     <button id="sendBtn" onclick="ask()">发送</button>
@@ -93,12 +96,12 @@ button.sending{opacity:.6;pointer-events:none}
 </div>
 
 <script>
-const KEYS = ["2026-08-24-morning", "2026-08-23-morning", "2026-08-23-evening", "2026-08-23-afternoon", "2026-08-22-morning", "2026-08-22-evening", "2026-08-22-afternoon", "2026-08-21-morning", "2026-08-21-evening", "2026-08-21-afternoon", "2026-08-20-morning", "2026-08-20-evening", "2026-08-20-afternoon"];
+const KEYS = ["2026-08-24-morning", "2026-08-24-afternoon", "2026-08-23-morning", "2026-08-23-evening", "2026-08-23-afternoon", "2026-08-22-morning", "2026-08-22-evening", "2026-08-22-afternoon", "2026-08-21-morning", "2026-08-21-evening", "2026-08-21-afternoon", "2026-08-20-morning", "2026-08-20-evening", "2026-08-20-afternoon"];
 const API = "https://1471673999-3ypqvp16ev.ap-guangzhou.tencentscf.com";
 let ctx = null;          // 当前期 context
 let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
-let busy = false;        // 是否正在请求中
+let pendingCards = {};   // 正在请求中的卡片: key=ctxKey_idx -> true
 let qaMode = 'light';    // light=免费GLM  deep=DeepSeek+钢人论证
 
 // ── 声音反馈（Web Audio 合成，零依赖，静默降级） ──
@@ -293,7 +296,7 @@ async function pickKey(key){
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 // ── 对话页 ──
-async function openChat(idx){
+async function openChat(idx, skipVT){
   if(!ctx || !ctx.cards[idx]) return;
   curCard = {ctxKey: ctx.key, idx};
   const c = ctx.cards[idx];
@@ -312,7 +315,7 @@ async function openChat(idx){
     curMsgs.forEach(m=>addMsg(m.role, m.content, false));
     box.scrollTop = box.scrollHeight;
   };
-  if(document.startViewTransition){
+  if(document.startViewTransition && !skipVT){
     document.startViewTransition(doSwitch);
   } else {
     await doSwitch();
@@ -330,6 +333,71 @@ function goHome(){
     doSwitch();
   }
 }
+
+// ── 卡片滑动切换（手机端，拖拽跟手+吸附） ──
+let swipe = null;
+function initSwipe(){
+  const wrap = document.getElementById('swipeWrap');
+  if(!wrap) return;
+  wrap.addEventListener('touchstart', (e)=>{
+    const t = e.touches[0];
+    swipe = {sx:t.clientX, sy:t.clientY, dx:0, dy:0, locked:false, active:false};
+  }, {passive:true});
+  wrap.addEventListener('touchmove', (e)=>{
+    if(!swipe) return;
+    const t = e.touches[0];
+    swipe.dx = t.clientX - swipe.sx;
+    swipe.dy = t.clientY - swipe.sy;
+    if(!swipe.locked){
+      if(Math.abs(swipe.dx) > Math.abs(swipe.dy)) swipe.locked = true;
+      else return;
+    }
+    if(!swipe.active){
+      if(Math.abs(swipe.dx) < 15) return;
+      swipe.active = true;
+      wrap.style.transition = 'none';
+    }
+    let disp = swipe.dx * 0.6;
+    if(!curCard) return;
+    if((curCard.idx === 0 && disp > 0) || (curCard.idx === ctx.cards.length-1 && disp < 0)){
+      disp = swipe.dx * 0.2;
+    }
+    wrap.style.transform = 'translateX(' + disp + 'px)';
+  }, {passive:true});
+  wrap.addEventListener('touchend', ()=>{
+    if(!swipe) return;
+    const dx = swipe.dx;
+    const active = swipe.active;
+    swipe = null;
+    if(!active || !curCard) return;
+    const threshold = Math.max(80, window.innerWidth * 0.25);
+    const goNext = dx < -threshold;
+    const goPrev = dx > threshold;
+    if(goNext && curCard.idx < ctx.cards.length-1){
+      finishSwipe(-1);
+    } else if(goPrev && curCard.idx > 0){
+      finishSwipe(1);
+    } else {
+      wrap.style.transition = 'transform 0.3s ease';
+      wrap.style.transform = 'translateX(0)';
+    }
+  }, {passive:true});
+}
+function finishSwipe(dir){
+  const wrap = document.getElementById('swipeWrap');
+  const curIdx = curCard ? curCard.idx : 0;
+  const newIdx = curIdx + (dir === -1 ? 1 : -1);
+  wrap.style.transition = 'transform 0.25s ease';
+  wrap.style.transform = 'translateX(' + (dir === -1 ? '-100%' : '100%') + ')';
+  setTimeout(()=>{
+    openChat(newIdx, true);
+    wrap.style.transition = 'none';
+    wrap.style.transform = 'translateX(' + (dir === -1 ? '100%' : '-100%') + ')';
+    void wrap.offsetWidth;
+    wrap.style.transition = 'transform 0.25s ease';
+    wrap.style.transform = 'translateX(0)';
+  }, 260);
+}
 function addMsg(role, text, save){
   const d = document.createElement('div');
   d.className = 'msg ' + role;
@@ -345,14 +413,17 @@ function addMsg(role, text, save){
 async function ask(){
   const q = document.getElementById('q').value.trim();
   if(!q || !curCard){ return; }
-  if(busy){ return; }
+  const askKey = curCard.ctxKey + '_' + curCard.idx;
+  if(pendingCards[askKey]){ return; }   // 同一张卡不重复提问
+  const reqCtxKey = curCard.ctxKey;     // 捕获发起时的卡片标识（滑走后 curCard 会变）
+  const reqIdx = curCard.idx;
   addMsg('user', q, true);
   document.getElementById('q').value = '';
   const key = curCard.ctxKey;
   const card_idx = curCard.idx;
   const history = curMsgs.slice(-12).map(m=>({role:(m.role==='ai'?'assistant':m.role), content:(m.content||'').slice(0,800)}));
   // 发送按钮状态 + 提示音
-  busy = true;
+  pendingCards[askKey] = true;
   const sendBtn = document.getElementById('sendBtn');
   sendBtn.classList.add('sending');
   playTone(1400, 0.06, 'triangle', 0.05);
@@ -377,27 +448,36 @@ async function ask(){
     thinkEl.remove();
     clearInterval(waitTimer);
     recordLatency(Math.round((Date.now() - waitStart) / 1000));
-    // 打字机效果逐字显示
-    const aiEl = document.createElement('div');
-    aiEl.className = 'msg ai';
-    document.getElementById('msgs').appendChild(aiEl);
+    const stillHere = (curCard && curCard.ctxKey === reqCtxKey && curCard.idx === reqIdx);
     const full = d.answer || '（无回答）';
-    curMsgs.push({role:'assistant', content: full});
-    saveThread(threadId(curCard.ctxKey, curCard.idx), curMsgs);
-    let i = 0;
-    const CHUNK = 3;
-    const timer = setInterval(()=>{
-      i += CHUNK;
-      aiEl.textContent = full.slice(0, i);
-      document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
-      if(i >= full.length){ clearInterval(timer); busy = false; sendBtn.classList.remove('sending'); playChime(); }
-    }, 16);
+    // 无论是否还在当前卡，都写入该卡历史（用捕获的 reqCtxKey/reqIdx）
+    const savedMsgs = (await loadThread(threadId(reqCtxKey, reqIdx))) || [];
+    savedMsgs.push({role:'assistant', content: full});
+    saveThread(threadId(reqCtxKey, reqIdx), savedMsgs);
+    if(stillHere){
+      // 打字机效果逐字显示
+      const aiEl = document.createElement('div');
+      aiEl.className = 'msg ai';
+      document.getElementById('msgs').appendChild(aiEl);
+      let i = 0;
+      const CHUNK = 3;
+      const timer = setInterval(()=>{
+        i += CHUNK;
+        aiEl.textContent = full.slice(0, i);
+        document.getElementById('msgs').scrollTop = document.getElementById('msgs').scrollHeight;
+        if(i >= full.length){ clearInterval(timer); delete pendingCards[askKey]; sendBtn.classList.remove('sending'); playChime(); }
+      }, 16);
+    } else {
+      delete pendingCards[askKey];
+    }
   }catch(e){
     thinkEl.remove();
     clearInterval(waitTimer);
-    addMsg('ai', '提问失败: ' + e.message + '，网络不稳定时请稍后重试', true);
-    busy = false;
-    sendBtn.classList.remove('sending');
+    if(curCard && curCard.ctxKey === reqCtxKey && curCard.idx === reqIdx){
+      addMsg('ai', '提问失败: ' + e.message + '，网络不稳定时请稍后重试', true);
+      sendBtn.classList.remove('sending');
+    }
+    delete pendingCards[askKey];
   }
 }
 
@@ -421,6 +501,7 @@ async function doSearch(){
 
 (async function init(){
   await openDB();
+  initSwipe();
   if(KEYS.length){
     renderSessionLists();
     // 默认选中今日最新一期
