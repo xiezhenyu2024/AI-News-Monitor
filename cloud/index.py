@@ -324,7 +324,13 @@ def build_search_cards(keyword: str, results: list) -> list:
     try:
         m = re.search(r"\[.*\]", res, re.DOTALL)
         cards = json.loads(m.group(0)) if m else []
-        return cards if isinstance(cards, list) else []
+        if isinstance(cards, list):
+            # 确保所有字段都存在
+            for card in cards:
+                card.setdefault("context", "")
+                card.setdefault("source_analysis", "")
+                card.setdefault("social_impact", "")
+            return cards
     except Exception:
         return []
 

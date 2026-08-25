@@ -1301,6 +1301,11 @@ def _gen_cards_for_batch(ranked_batch: list) -> list:
         m = re.search(r"\[.*\]", res, re.DOTALL)
         batch_cards = json.loads(m.group(0)) if m else []
         if isinstance(batch_cards, list):
+            # 确保所有字段都存在
+            for card in batch_cards:
+                card.setdefault("context", "")
+                card.setdefault("source_analysis", "")
+                card.setdefault("social_impact", "")
             return batch_cards
     except Exception as e:
         log(f"  卡片批次解析失败: {e}")
