@@ -1321,5 +1321,26 @@
     "evidence": "微软隐形水印事件引发HN热议，两个去水印开源项目同日登榜",
     "grassroots": "用户对本地生成内容也被追踪表示强烈不满",
     "date": "2026-08-25"
+  },
+  {
+    "theme": "评测真实性革命：从'过测试'到'验迁移'",
+    "importance": 5,
+    "evidence": "SWE Refactor Bench揭露Agent假迁移漏洞，ARC-AGI-3在harness加持下从13%到100%",
+    "grassroots": "开发者开始质疑现有基准的可信度，'harness比模型更重要'的声音渐起",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "本地AI隐私暗门",
+    "importance": 5,
+    "evidence": "MS Paint/Photos被曝对本地生成图片嵌入不可关闭的GUID水印",
+    "grassroots": "用户报告误触发水印，开发者建议弃用大厂本地工具转投开源",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "Agentic推理经济性成为新战场",
+    "importance": 4,
+    "evidence": "NVIDIA以30倍能效为卖点发布Vera Rubin，OpenAI以性价比推GPT-5.6进Kiro",
+    "grassroots": "开发者关注点从'哪个模型强'转向'哪个方案跑得起'",
+    "date": "2026-08-25"
   }
 ]

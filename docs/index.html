@@ -20,6 +20,7 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .gcard p{margin:0;font-size:11px;line-height:1.5;color:#555;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .gcard .tag{display:inline-block;margin-top:6px;font-size:10px;color:#0b57d0;background:#eef3fd;border-radius:4px;padding:2px 6px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .loading{color:#888;font-size:13px;text-align:center;padding:30px}
+.group-title{font-size:14px;font-weight:600;color:#333;margin:14px 0 8px;padding:6px 10px;background:#f0f3fa;border-radius:8px}
 #pager{display:flex;justify-content:center;align-items:center;gap:12px;margin:14px 0}
 #pager button{padding:6px 16px;font-size:13px;border:1px solid #ddd;border-radius:8px;background:#fff;color:#0b57d0;cursor:pointer}
 #pager button:disabled{opacity:.35;cursor:default}
@@ -323,11 +324,20 @@ function renderGridPage(){
   const start = curPage * PAGE_SIZE;
   const pageCards = ctx.cards.slice(start, start + PAGE_SIZE);
   if(!pageCards.length){ curPage = 0; return renderGridPage(); }
+  const GROUP_LABEL = {industry:'🔥 行业大事', community:'💬 社区脉搏'};
+  let lastGroup = (start > 0) ? ctx.cards[start-1].group : null;
   box.innerHTML = pageCards.map((c,j)=>{
     const gi = start + j;   // 全局索引（供 openChat/滑动使用）
+    const group = c.group || (ctx.cards.slice(0, start+j).some(x=>x.group==='community') ? 'community' : 'industry');
+    // 板块标题：组变化时插入
+    let titleHtml = '';
+    if(group !== lastGroup && GROUP_LABEL[group]){
+      titleHtml = `<div class="group-title">${GROUP_LABEL[group]}</div>`;
+    }
+    lastGroup = group;
     const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
     const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
-    return `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
+    return titleHtml + `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
   }).join('');
   const total = ctx.cards.length;
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
