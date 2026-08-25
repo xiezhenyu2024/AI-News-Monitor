@@ -85,8 +85,8 @@ def is_new(source: str, item_id: str, state: dict) -> bool:
     return True
 
 
-def clean_html(text: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()[:500]
+def clean_html(text: str, limit: int = 500) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text)).strip()[:limit]
 
 
 def get_session() -> str:
@@ -273,7 +273,7 @@ def fetch_hackernews_all(top_n: int = 20, ai_only: bool = False) -> list[dict]:
                         "source": "Hacker News",
                         "title": s.get("title", ""),
                         "url": s.get("url", f"https://news.ycombinator.com/item?id={sid}"),
-                        "summary": clean_html((s.get("text", "") or "")[:1500]),
+                        "summary": clean_html((s.get("text", "") or ""), limit=1500),
                     }
                 except Exception:
                     return None
@@ -364,7 +364,7 @@ def fetch_arxiv(categories: list[str], max_results: int = 5) -> list[dict]:
             for entry in root.findall("atom:entry", ns):
                 eid = entry.find("atom:id", ns).text.strip()
                 title = (entry.find("atom:title", ns).text or "").strip()
-                summary = clean_html((entry.find("atom:summary", ns).text or "").strip())[:1500]
+                summary = clean_html((entry.find("atom:summary", ns).text or "").strip(), limit=1500)
                 authors = ", ".join(
                     a.find("atom:name", ns).text
                     for a in entry.findall("atom:author", ns)[:3]
@@ -474,7 +474,7 @@ def fetch_rss_news(feeds: dict[str, str], limit: int = 5) -> list[dict]:
             for item in channel.findall("item")[:limit]:
                 title = (item.findtext("title") or "").strip()
                 link = item.findtext("link") or ""
-                desc = clean_html(item.findtext("description") or "")
+                desc = clean_html(item.findtext("description") or "", limit=2000)
                 if not title:
                     continue
                 image = _extract_image(item)
@@ -503,7 +503,7 @@ def fetch_36kr() -> list[dict]:
             title = (item.findtext("title") or "").strip()
             link = item.findtext("link") or ""
             raw_desc = item.findtext("description") or ""
-            desc = clean_html(raw_desc)
+            desc = clean_html(raw_desc, limit=2000)
             image = ""
             m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', raw_desc)
             if m:
@@ -590,7 +590,8 @@ def fetch_v2ex() -> list[dict]:
 # ─── 博主评测信源 ──────────────────────────────────────────────────────
 
 def fetch_juejin() -> list[dict]:
-    """掘金 - 中国开发者AI实测评测"""
+    """掘金 - 中国开发者AI实测评测
+    2026-08 掘金内容榜API失效（brief字段已为空），已停用。"""
     items = []
     try:
         resp = _session.get(
@@ -628,7 +629,7 @@ def fetch_oschina() -> list[dict]:
             for item in root.findall(".//item")[:5]:
                 title = (item.findtext("title") or "").strip()
                 link = item.findtext("link") or ""
-                desc = clean_html(item.findtext("description") or "")[:800]
+                desc = clean_html(item.findtext("description") or "", limit=800)
                 if not title:
                     continue
                 items.append({
@@ -660,7 +661,7 @@ def fetch_devto() -> list[dict]:
                     "source": "Dev.to",
                     "title": art.get("title", ""),
                     "url": art.get("url", ""),
-                    "summary": clean_html((art.get("description") or "")[:800]),
+                    "summary": clean_html(art.get("description") or "", limit=800),
                     "author": art.get("user", {}).get("name", ""),
                 })
         log(f"  Dev.to: {len(items)} 条")
@@ -696,7 +697,17 @@ SESSION_CONFIG = {
                 fetch_arxiv(["cs.AI", "cs.LG", "cs.CL"], 5)
                 + fetch_huggingface()
             )),
-            ("实战速报", lambda: fetch_devto() + fetch_juejin() + fetch_oschina() + fetch_hackernews_comments(10)),
+            ("AI官方+权威媒体", lambda: fetch_rss_news({
+                "OpenAI": "https://openai.com/news/rss.xml",
+                "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+                "机器之心": "https://www.jiqizhixin.com/rss",
+                "量子位": "https://www.qbitai.com/feed",
+                "NVIDIA": "https://blogs.nvidia.com/feed/",
+                "MIT科技评论AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+                "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",
+                "HF Blog": "https://huggingface.co/blog/feed.xml",
+            }, limit=3)),
+            ("实战速报", lambda: fetch_devto() + fetch_oschina() + fetch_hackernews_comments(10)),
             ("开发者讨论", lambda: fetch_hackernews_all(30, ai_only=True)),
             ("开源项目", lambda: fetch_github_trending(7)),
         ],
@@ -1119,15 +1130,43 @@ def build_html_with_images(deepseek_text: str, items: list[dict],
 
 # ─── 摘要卡片 + 网页存档 ───────────────────────────────────────────────
 
-def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
-    """调用 DeepSeek 从新闻中选最重要的8-10条生成结构化摘要卡片"""
+def enrich_cards_fulltext(cards: list, max_chars: int = 2500):
+    """访问每张卡片的原文URL抓正文，成功且明显更长才替换 source_text，否则保留原值。"""
+    import trafilatura
+    def fetch_one(c):
+        url = c.get("source_url", "")
+        if not url or not url.startswith("http"):
+            return
+        try:
+            html = trafilatura.fetch_url(url)
+            if not html:
+                return
+            text = trafilatura.extract(html, include_comments=False, include_tables=False) or ""
+            text = re.sub(r"\s+", " ", text).strip()
+            if len(text) > len(c.get("source_text", "") or "") + 200:
+                c["source_text"] = text[:max_chars]
+        except Exception:
+            pass
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        list(pool.map(fetch_one, cards))
+    ok = sum(1 for c in cards if len(c.get("source_text", "") or "") > 1000)
+    log(f"  正文抓取: {ok}/{len(cards)} 张卡获得千字以上正文")
+
+
+def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
+    """分批调用 DeepSeek 为每条新闻生成摘要卡片，按重要性排序，覆盖前 max_items 条"""
     if not items:
         return []
-    raw = "\n".join(
-        f"#{i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
-        for i, it in enumerate(items[:max_items])
-    )
-    sys_prompt = """你是新闻摘要卡片生成器。从提供的新闻中选出最重要的8-10条，为每条生成一张结构化卡片，输出JSON数组，格式：
+    selected = items[:max_items]
+    all_cards = []
+    BATCH = 15
+    for start in range(0, len(selected), BATCH):
+        batch = selected[start:start + BATCH]
+        raw = "\n".join(
+            f"#{start+i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
+            for i, it in enumerate(batch)
+        )
+        sys_prompt = """你是新闻摘要卡片生成器。为以下每条新闻生成一张结构化卡片，按重要性从高到低排序，输出JSON数组，格式：
 [{
   "item_id": 新闻编号（必须对应输入中的#编号，如#3对应3）,
   "title": "一句话标题，说清楚发生了什么",
@@ -1137,36 +1176,35 @@ def build_summary_cards(items: list[dict], max_items: int = 20) -> list:
 }]
 
 要求：
-- 只选8-10条最重要的，按重要性排序，其余不选
+- 为输入的每条新闻都生成一张卡片，按重要性从高到低排序
 - item_id 必须准确对应输入新闻的编号，方便后续查找原文
 - 关键实体必须自动识别并解释，不得出现"某公司"而不说明它是什么
 - 解释要通俗，面向不了解该领域的读者
 - 摘要保持信息密度，不要废话套话
 - 只输出JSON数组，不要输出其他任何内容"""
-    user_prompt = f"请从以下新闻中选出最重要的8-10条并生成摘要卡片：\n\n{raw}"
-    res = call_deepseek(sys_prompt, user_prompt)
-    if not res:
-        return []
-    try:
-        m = re.search(r"\[.*\]", res, re.DOTALL)
-        cards = json.loads(m.group(0)) if m else []
-        if not isinstance(cards, list):
-            return []
-        # 把对应新闻原文挂到卡片上（item_id -> items 索引）
-        for c in cards[:10]:
-            iid = c.get("item_id")
-            if isinstance(iid, int) and 1 <= iid <= len(items[:max_items]):
-                src = items[iid - 1]
-                src_sum = src.get("summary", "") or ""
-                src_title = src.get("title", "") or ""
-                c["source_text"] = (src_title + "。" + src_sum)[:2500]
-                c["source_title"] = src_title
-                c["source_url"] = src.get("url", "")
-                c["source_name"] = src.get("source", "")
-        return cards[:10]
-    except Exception as e:
-        log(f"  卡片解析失败: {e}")
-        return []
+        user_prompt = f"请为以下新闻生成摘要卡片：\n\n{raw}"
+        res = call_deepseek(sys_prompt, user_prompt)
+        if not res:
+            continue
+        try:
+            m = re.search(r"\[.*\]", res, re.DOTALL)
+            batch_cards = json.loads(m.group(0)) if m else []
+            if isinstance(batch_cards, list):
+                all_cards.extend(batch_cards)
+        except Exception as e:
+            log(f"  卡片批次{start // BATCH + 1}解析失败: {e}")
+    # 把对应新闻原文挂到卡片上（item_id 为全局编号 -> selected 索引）
+    for c in all_cards:
+        iid = c.get("item_id")
+        if isinstance(iid, int) and 1 <= iid <= len(selected):
+            src = selected[iid - 1]
+            src_sum = src.get("summary", "") or ""
+            src_title = src.get("title", "") or ""
+            c["source_text"] = (src_title + "。" + src_sum)[:2500]
+            c["source_title"] = src_title
+            c["source_url"] = src.get("url", "")
+            c["source_name"] = src.get("source", "")
+    return all_cards
 
 
 def build_cards_html(now_str: str, label: str, cards: list,
@@ -1320,6 +1358,10 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .gcard p{margin:0;font-size:11px;line-height:1.5;color:#555;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .gcard .tag{display:inline-block;margin-top:6px;font-size:10px;color:#0b57d0;background:#eef3fd;border-radius:4px;padding:2px 6px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .loading{color:#888;font-size:13px;text-align:center;padding:30px}
+#pager{display:flex;justify-content:center;align-items:center;gap:12px;margin:14px 0}
+#pager button{padding:6px 16px;font-size:13px;border:1px solid #ddd;border-radius:8px;background:#fff;color:#0b57d0;cursor:pointer}
+#pager button:disabled{opacity:.35;cursor:default}
+#pager span{font-size:12px;color:#888}
 /* 对话页 */
 .chatbar{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
 .chatbar button{background:none;border:none;font-size:20px;cursor:pointer;color:#0b57d0;padding:4px 8px}
@@ -1374,6 +1416,11 @@ button.sending{opacity:.6;pointer-events:none}
   </div>
   <div id="sres" class="hint"></div>
   <div id="grid" class="grid"></div>
+  <div id="pager">
+    <button id="prevPage" onclick="goPage(-1)">上一页</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage" onclick="goPage(1)">下一页</button>
+  </div>
 </div>
 
 <div id="chat">
@@ -1403,6 +1450,8 @@ let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
 let pendingCards = {};   // 正在请求中的卡片: key=ctxKey_idx -> true
 let qaMode = 'light';    // light=免费GLM  deep=DeepSeek+钢人论证
+let curPage = 0;         // 主页卡片分页
+const PAGE_SIZE = 10;
 
 // ── 声音反馈（Web Audio 合成，零依赖，静默降级） ──
 let audioCtx = null;
@@ -1593,21 +1642,42 @@ function switchDayTab(tab){
 
 async function pickKey(key){
   curKey = key;
+  curPage = 0;   // 切换期数分页归零
   const box = document.getElementById('grid');
   box.innerHTML = '<div class="loading">加载中…</div>';
   try{
     const r = await fetch('context-' + key + '.json', {cache:'no-store'});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     ctx = await r.json();
-    if(!ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">该期无卡片数据</div>'; return; }
-    box.innerHTML = ctx.cards.map((c,i)=>{
-      const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
-      const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
-      return `<div class="gcard" onclick="openChat(${i})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
-    }).join('');
+    if(!ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">该期无卡片数据</div>'; renderGridPage(); return; }
+    renderGridPage();
   }catch(e){
     box.innerHTML = '<div class="loading">加载失败: ' + esc(e.message) + '</div>';
   }
+}
+function renderGridPage(){
+  const box = document.getElementById('grid');
+  if(!ctx || !ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">无卡片数据</div>'; document.getElementById('pager').style.display = 'none'; return; }
+  const start = curPage * PAGE_SIZE;
+  const pageCards = ctx.cards.slice(start, start + PAGE_SIZE);
+  if(!pageCards.length){ curPage = 0; return renderGridPage(); }
+  box.innerHTML = pageCards.map((c,j)=>{
+    const gi = start + j;   // 全局索引（供 openChat/滑动使用）
+    const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
+    const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
+    return `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
+  }).join('');
+  const total = ctx.cards.length;
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  document.getElementById('pager').style.display = total > PAGE_SIZE ? '' : 'none';
+  document.getElementById('pageInfo').textContent = `第${curPage+1}/${pages}页 · 共${total}条`;
+  document.getElementById('prevPage').disabled = curPage <= 0;
+  document.getElementById('nextPage').disabled = curPage >= pages - 1;
+}
+function goPage(dir){
+  curPage += dir;
+  renderGridPage();
+  window.scrollTo(0, 0);
 }
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
@@ -1625,10 +1695,12 @@ async function openChat(idx, skipVT){
   // 方案A：点击进入时给点击的网格卡片设共享元素名（浏览器做"生长"动画）
   // 滑动切换（skipVT）不设名，避免残留
   if(!skipVT){
+    // 按 data-gi 全局索引找当前页渲染出的那张卡片（分页后网格内只有本页10张）
+    const target = document.querySelector(`#grid .gcard[data-gi="${idx}"]`);
     const cards = document.querySelectorAll('#grid .gcard');
-    if(cards[idx]){
-      cards.forEach(el=>el.style.viewTransitionName = '');
-      cards[idx].style.viewTransitionName = 'card-active';
+    cards.forEach(el=>el.style.viewTransitionName = '');
+    if(target){
+      target.style.viewTransitionName = 'card-active';
     }
   }
   curCard = {ctxKey: ctx.key, idx};
@@ -1662,9 +1734,12 @@ function goHome(){
     document.getElementById('home').style.display = '';
     // 方案A：返回主页时给刚才点的那张卡片设共享元素名（卡片缩回原位）
     const cards = document.querySelectorAll('#grid .gcard');
-    if(curCard && cards[curCard.idx]){
-      cards.forEach(el=>el.style.viewTransitionName = '');
-      cards[curCard.idx].style.viewTransitionName = 'card-active';
+    cards.forEach(el=>el.style.viewTransitionName = '');
+    if(curCard){
+      const target = document.querySelector(`#grid .gcard[data-gi="${curCard.idx}"]`);
+      if(target){
+        target.style.viewTransitionName = 'card-active';
+      }
     }
     curCard = null;
   };
@@ -2144,13 +2219,16 @@ def main():
             with open("last_report.txt", "w", encoding="utf-8") as f:
                 f.write(f"{config['label']}\n{now_str}\n{sources_count}个信源|{len(new_items)}条\n{'─'*40}\n{clean_report}")
 
-        # 生成摘要卡片（第二次独立调用 DeepSeek，选8-10条最重要）
+        # 生成摘要卡片（第二次独立调用 DeepSeek，覆盖前30条最重要）
         log(">>> 生成摘要卡片...")
         cards = build_summary_cards(new_items)
         log(f"  卡片数: {len(cards)}")
+        # 访问原文URL抓正文，增强问答上下文
         if cards:
-            # 微信推送卡片（替代长文推送到微信）
-            card_msg = build_cards_push_text(config["label"], now_str, cards, sources_count)
+            enrich_cards_fulltext(cards)
+        if cards:
+            # 微信推送卡片（仅推前10条，避免推送过长；网页可翻页看全部）
+            card_msg = build_cards_push_text(config["label"], now_str, cards[:10], sources_count)
             send_pushplus(card_msg)
             log("  卡片已推送到微信")
 
