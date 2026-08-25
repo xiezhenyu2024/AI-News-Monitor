@@ -1286,5 +1286,26 @@
     "evidence": "LLM撰写福利申诉导致公共服务承压的论文引发热议",
     "grassroots": "HN用户：'LLM只是揭示了有多少系统故意让申请变得困难'",
     "date": "2026-08-25"
+  },
+  {
+    "theme": "Agent基础设施军备竞赛",
+    "importance": 5,
+    "evidence": "DeepSeek Harness生态爆发（192k星）、NVIDIA为Agentic负载专门优化硬件、微软发布Agent Lightning v1.0",
+    "grassroots": "开发者从'哪个模型强'转向'哪个Harness稳'，插件生态成为新战场",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "AI可信度与安全争议升温",
+    "importance": 4,
+    "evidence": "微软隐形水印争议、LLM控制宿主机的安全研究、Prompt注入防护实践",
+    "grassroots": "用户开始关注'AI生成内容的所有权和隐私'，而不仅是'效果好不好'",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "AI基准测试范式面临重构",
+    "importance": 4,
+    "evidence": "Harness将模型成绩从13%拉到100%、多篇论文质疑现有评测方法",
+    "grassroots": "开发者普遍感觉'评测分数和实际体验脱节'，呼吁更贴近真实任务的评测",
+    "date": "2026-08-25"
   }
 ]
