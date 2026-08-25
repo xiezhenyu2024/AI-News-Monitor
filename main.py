@@ -1302,8 +1302,9 @@ def _gen_cards_for_batch(ranked_batch: list) -> list:
     return []
 
 
-def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
-    """先按重要性全局排序，再分批调用 DeepSeek 生成摘要卡片；批次失败自动降级为单条逐条重试"""
+def build_summary_cards(items: list[dict], max_items: int = 40, max_cards: int = 30) -> list:
+    """先按重要性全局排序，再分批调用 DeepSeek 生成摘要卡片，最后按 max_cards 截断；
+    批次失败自动降级为单条逐条重试。max_items=输入条数上限（需大于 max_cards 才能排序择优）。"""
     if not items:
         return []
     selected = items[:max_items]
@@ -1336,7 +1337,8 @@ def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
             c["source_title"] = src_title
             c["source_url"] = src.get("url", "")
             c["source_name"] = src.get("source", "")
-    return all_cards
+    # 按重要性（ranked 顺序）截断到 max_cards 张
+    return all_cards[:max_cards]
 
 
 def build_cards_html(now_str: str, label: str, cards: list,
@@ -2374,7 +2376,7 @@ def main():
         community_items = [it for it in new_items if _is_community(it)]
         cards = []
         if industry_items:
-            ind_cards = build_summary_cards(industry_items, max_items=20)
+            ind_cards = build_summary_cards(industry_items, max_items=60, max_cards=20)
             # ArXiv 降权：最多保留 5 张（科研阶段的未投入使用，少推荐）
             arxiv_n = 0
             filtered = []
@@ -2388,7 +2390,7 @@ def main():
             ind_cards = filtered
             cards.extend(ind_cards)
         if community_items:
-            com_cards = build_summary_cards(community_items, max_items=10)
+            com_cards = build_summary_cards(community_items, max_items=60, max_cards=10)
             for c in com_cards:
                 c["group"] = "community"
             cards.extend(com_cards)
