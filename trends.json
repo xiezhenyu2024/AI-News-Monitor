@@ -1,12 +1,5 @@
 [
   {
-    "theme": "AI Agent安全与攻击面",
-    "importance": 5,
-    "evidence": "ArXiv今日发表多篇关于Agent安全、遗忘、监控的论文",
-    "grassroots": "开发者开始关注Agent持久化状态的安全风险",
-    "date": "2026-07-05"
-  },
-  {
     "theme": "模型推理效率优化",
     "importance": 4,
     "evidence": "token-diet降低31%账单、DSpark提速85%、DeepSpec开源投机解码框架",
@@ -1383,6 +1376,27 @@
     "importance": 4,
     "evidence": "Kimi K3（2.78万亿参数）开源，社区用C99在单CPU 8GB内存跑推理",
     "grassroots": "开发者惊叹'2.78万亿参数在8GB内存跑'，但质疑实际速度",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "Agent Harness成为竞争焦点，从模型军备转向框架生态",
+    "importance": 5,
+    "evidence": "DeepSeek开源dsh、NVIDIA为Agentic推专用芯片、HN热议Harness评测缺失",
+    "grassroots": "开发者提问'有没有客观指标测试Harness？现在太多了没法一个个试'",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "AI溯源水印与反水印的军备竞赛开始",
+    "importance": 4,
+    "evidence": "微软Paint水印事件 + watermarks-remover工具同日出现",
+    "grassroots": "HN用户：'这就像打印机追踪点，是对抗互联网匿名性的武器'",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "Agent评测标准面临重构",
+    "importance": 4,
+    "evidence": "SWE Refactor Bench揭示现有基准的'盲区'，提出迁移审计新协议",
+    "grassroots": "Dev.to文章：'模型考了30分，Harness考了100分——你benchmark的是哪个？'",
     "date": "2026-08-25"
   }
 ]
