@@ -524,6 +524,15 @@ def fetch_36kr() -> list[dict]:
     return items
 
 
+def _github_headers(accept: str = "application/vnd.github.v3+json") -> dict:
+    """GitHub API 请求头：CI 环境用 GITHUB_TOKEN 认证（突破数据中心 IP 限流），本地无 token 降级无认证"""
+    h = {"Accept": accept}
+    tok = os.environ.get("GITHUB_TOKEN", "").strip()
+    if tok:
+        h["Authorization"] = f"Bearer {tok}"
+    return h
+
+
 def _fetch_repo_readme(full_name: str, max_chars: int = 800) -> str:
     """抓取 GitHub 仓库 README 前 max_chars 字符，失败返回空串"""
     import base64 as _b64
@@ -531,7 +540,7 @@ def _fetch_repo_readme(full_name: str, max_chars: int = 800) -> str:
         rr = _session.get(
             f"https://api.github.com/repos/{full_name}/readme",
             timeout=10,
-            headers={"Accept": "application/vnd.github.v3+json"},
+            headers=_github_headers(),
         )
         if rr.status_code == 200:
             content = rr.json().get("content", "")
@@ -552,7 +561,7 @@ def fetch_github_trending(days: int = 7) -> list[dict]:
             "https://api.github.com/search/repositories",
             params={"q": f"created:>{since} stars:>500", "sort": "stars", "order": "desc", "per_page": 10},
             timeout=15,
-            headers={"Accept": "application/vnd.github.v3+json"},
+            headers=_github_headers(),
         )
         if resp.status_code != 200:
             log(f"  GitHub Trending: {resp.status_code}")
@@ -596,7 +605,7 @@ def fetch_github_ai() -> list[dict]:
                 "sort": "stars", "order": "desc", "per_page": 10,
             },
             timeout=15,
-            headers={"Accept": "application/vnd.github.v3+json"},
+            headers=_github_headers(),
         )
         if resp.status_code != 200:
             log(f"  GitHub AI项目: {resp.status_code}")
