@@ -1188,25 +1188,15 @@ def rank_items_by_importance(items: list) -> list:
         return []
 
 
-def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
-    """先按重要性全局排序，再分批调用 DeepSeek 为每条新闻生成摘要卡片，返回按重要性降序的卡片列表"""
-    if not items:
+def _gen_cards_for_batch(ranked_batch: list) -> list:
+    """为一批 (原始编号, 条目) 生成卡片，返回卡片列表；失败或空返回空列表。"""
+    if not ranked_batch:
         return []
-    selected = items[:max_items]
-    order = rank_items_by_importance(selected)
-    if not order:
-        order = list(range(1, len(selected) + 1))  # 排序失败回退原顺序
-    ranked = [(oid, selected[oid - 1]) for oid in order]  # (原始编号, 条目)
-    all_cards = []
-    BATCH = 15
-    for start in range(0, len(ranked), BATCH):
-        batch = ranked[start:start + BATCH]
-        batch_no = start // BATCH + 1
-        raw = "\n".join(
-            f"#{oid} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
-            for oid, it in batch
-        )
-        sys_prompt = """你是新闻摘要卡片生成器。为以下每条新闻生成一张结构化卡片，按重要性从高到低排序，输出JSON数组，格式：
+    raw = "\n".join(
+        f"#{oid} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
+        for oid, it in ranked_batch
+    )
+    sys_prompt = """你是新闻摘要卡片生成器。为以下每条新闻生成一张结构化卡片，按重要性从高到低排序，输出JSON数组，格式：
 [{
   "item_id": 新闻编号（必须对应输入中的#编号，如#3对应3）,
   "title": "一句话标题，说清楚发生了什么",
@@ -1222,17 +1212,42 @@ def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
 - 解释要通俗，面向不了解该领域的读者
 - 摘要保持信息密度，不要废话套话
 - 只输出JSON数组，不要输出其他任何内容"""
-        user_prompt = f"请为以下新闻生成摘要卡片：\n\n{raw}"
-        res = call_deepseek(sys_prompt, user_prompt)
-        if not res:
+    res = call_deepseek(sys_prompt, f"请为以下新闻生成摘要卡片：\n\n{raw}")
+    if not res:
+        return []
+    try:
+        m = re.search(r"\[.*\]", res, re.DOTALL)
+        batch_cards = json.loads(m.group(0)) if m else []
+        if isinstance(batch_cards, list):
+            return batch_cards
+    except Exception as e:
+        log(f"  卡片批次解析失败: {e}")
+    return []
+
+
+def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
+    """先按重要性全局排序，再分批调用 DeepSeek 生成摘要卡片；批次失败自动降级为单条逐条重试"""
+    if not items:
+        return []
+    selected = items[:max_items]
+    order = rank_items_by_importance(selected)
+    if not order:
+        order = list(range(1, len(selected) + 1))  # 排序失败回退原顺序
+    ranked = [(oid, selected[oid - 1]) for oid in order]  # (原始编号, 条目)
+    all_cards = []
+    BATCH = 8
+    for start in range(0, len(ranked), BATCH):
+        batch = ranked[start:start + BATCH]
+        cards = _gen_cards_for_batch(batch)
+        if cards:
+            all_cards.extend(cards)
             continue
-        try:
-            m = re.search(r"\[.*\]", res, re.DOTALL)
-            batch_cards = json.loads(m.group(0)) if m else []
-            if isinstance(batch_cards, list):
-                all_cards.extend(batch_cards)
-        except Exception as e:
-            log(f"  卡片批次{batch_no}解析失败: {e}")
+        # 批次失败：拆成单条逐条重试，保证覆盖率不因一次超时整批丢失
+        log(f"  批次{start // BATCH + 1}失败，降级为逐条生成 {len(batch)} 条")
+        for oid, it in batch:
+            single = _gen_cards_for_batch([(oid, it)])
+            if single:
+                all_cards.extend(single)
     # 把对应新闻原文挂到卡片上（item_id 为原始编号 -> selected 索引）
     for c in all_cards:
         iid = c.get("item_id")
