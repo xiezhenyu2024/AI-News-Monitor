@@ -1153,18 +1153,58 @@ def enrich_cards_fulltext(cards: list, max_chars: int = 2500):
     log(f"  正文抓取: {ok}/{len(cards)} 张卡获得千字以上正文")
 
 
+def rank_items_by_importance(items: list) -> list:
+    """轻量 DeepSeek 调用：仅按标题为新闻重要性排序，返回原始编号(item_id)降序数组。失败返回空列表。"""
+    if not items:
+        return []
+    raw = "\n".join(
+        f"#{i+1} [{it.get('source','')}] {it.get('title','')}"
+        for i, it in enumerate(items)
+    )
+    sys = """你是新闻主编。请为以下新闻按"对AI从业者与科技读者的重要性"从高到低排序。
+只输出一个JSON数组，元素为新闻编号（#后的数字），按重要性降序排列。必须包含全部编号、不重复。
+示例输出：[3,1,5,2,4]"""
+    res = call_deepseek(sys, f"请为以下新闻按重要性排序：\n\n{raw}")
+    if not res:
+        return []
+    try:
+        m = re.search(r"\[.*\]", res, re.DOTALL)
+        order = json.loads(m.group(0)) if m else []
+        order = [int(x) for x in order if isinstance(x, (int, float))]
+        seen = set()
+        result = []
+        for x in order:
+            if 1 <= x <= len(items) and x not in seen:
+                seen.add(x)
+                result.append(x)
+        # 补全遗漏编号，保证全集
+        for x in range(1, len(items) + 1):
+            if x not in seen:
+                seen.add(x)
+                result.append(x)
+        return result
+    except Exception as e:
+        log(f"  重要性排序失败: {e}")
+        return []
+
+
 def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
-    """分批调用 DeepSeek 为每条新闻生成摘要卡片，按重要性排序，覆盖前 max_items 条"""
+    """先按重要性全局排序，再分批调用 DeepSeek 为每条新闻生成摘要卡片，返回按重要性降序的卡片列表"""
     if not items:
         return []
     selected = items[:max_items]
+    order = rank_items_by_importance(selected)
+    if not order:
+        order = list(range(1, len(selected) + 1))  # 排序失败回退原顺序
+    ranked = [(oid, selected[oid - 1]) for oid in order]  # (原始编号, 条目)
     all_cards = []
     BATCH = 15
-    for start in range(0, len(selected), BATCH):
-        batch = selected[start:start + BATCH]
+    for start in range(0, len(ranked), BATCH):
+        batch = ranked[start:start + BATCH]
+        batch_no = start // BATCH + 1
         raw = "\n".join(
-            f"#{start+i+1} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
-            for i, it in enumerate(batch)
+            f"#{oid} [{it['source']}] {it['title']}\n  摘要: {it.get('summary','')[:1000]}\n  URL: {it.get('url','')}"
+            for oid, it in batch
         )
         sys_prompt = """你是新闻摘要卡片生成器。为以下每条新闻生成一张结构化卡片，按重要性从高到低排序，输出JSON数组，格式：
 [{
@@ -1192,8 +1232,8 @@ def build_summary_cards(items: list[dict], max_items: int = 30) -> list:
             if isinstance(batch_cards, list):
                 all_cards.extend(batch_cards)
         except Exception as e:
-            log(f"  卡片批次{start // BATCH + 1}解析失败: {e}")
-    # 把对应新闻原文挂到卡片上（item_id 为全局编号 -> selected 索引）
+            log(f"  卡片批次{batch_no}解析失败: {e}")
+    # 把对应新闻原文挂到卡片上（item_id 为原始编号 -> selected 索引）
     for c in all_cards:
         iid = c.get("item_id")
         if isinstance(iid, int) and 1 <= iid <= len(selected):
