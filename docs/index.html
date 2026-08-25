@@ -20,6 +20,10 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .gcard p{margin:0;font-size:11px;line-height:1.5;color:#555;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .gcard .tag{display:inline-block;margin-top:6px;font-size:10px;color:#0b57d0;background:#eef3fd;border-radius:4px;padding:2px 6px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .loading{color:#888;font-size:13px;text-align:center;padding:30px}
+#pager{display:flex;justify-content:center;align-items:center;gap:12px;margin:14px 0}
+#pager button{padding:6px 16px;font-size:13px;border:1px solid #ddd;border-radius:8px;background:#fff;color:#0b57d0;cursor:pointer}
+#pager button:disabled{opacity:.35;cursor:default}
+#pager span{font-size:12px;color:#888}
 /* 对话页 */
 .chatbar{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
 .chatbar button{background:none;border:none;font-size:20px;cursor:pointer;color:#0b57d0;padding:4px 8px}
@@ -74,6 +78,11 @@ button.sending{opacity:.6;pointer-events:none}
   </div>
   <div id="sres" class="hint"></div>
   <div id="grid" class="grid"></div>
+  <div id="pager">
+    <button id="prevPage" onclick="goPage(-1)">上一页</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage" onclick="goPage(1)">下一页</button>
+  </div>
 </div>
 
 <div id="chat">
@@ -103,6 +112,8 @@ let curCard = null;      // 当前对话的卡片 {ctxKey, idx}
 let curMsgs = [];        // 当前卡对话历史
 let pendingCards = {};   // 正在请求中的卡片: key=ctxKey_idx -> true
 let qaMode = 'light';    // light=免费GLM  deep=DeepSeek+钢人论证
+let curPage = 0;         // 主页卡片分页
+const PAGE_SIZE = 10;
 
 // ── 声音反馈（Web Audio 合成，零依赖，静默降级） ──
 let audioCtx = null;
@@ -293,21 +304,42 @@ function switchDayTab(tab){
 
 async function pickKey(key){
   curKey = key;
+  curPage = 0;   // 切换期数分页归零
   const box = document.getElementById('grid');
   box.innerHTML = '<div class="loading">加载中…</div>';
   try{
     const r = await fetch('context-' + key + '.json', {cache:'no-store'});
     if(!r.ok) throw new Error('HTTP ' + r.status);
     ctx = await r.json();
-    if(!ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">该期无卡片数据</div>'; return; }
-    box.innerHTML = ctx.cards.map((c,i)=>{
-      const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
-      const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
-      return `<div class="gcard" onclick="openChat(${i})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
-    }).join('');
+    if(!ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">该期无卡片数据</div>'; renderGridPage(); return; }
+    renderGridPage();
   }catch(e){
     box.innerHTML = '<div class="loading">加载失败: ' + esc(e.message) + '</div>';
   }
+}
+function renderGridPage(){
+  const box = document.getElementById('grid');
+  if(!ctx || !ctx.cards || !ctx.cards.length){ box.innerHTML = '<div class="loading">无卡片数据</div>'; document.getElementById('pager').style.display = 'none'; return; }
+  const start = curPage * PAGE_SIZE;
+  const pageCards = ctx.cards.slice(start, start + PAGE_SIZE);
+  if(!pageCards.length){ curPage = 0; return renderGridPage(); }
+  box.innerHTML = pageCards.map((c,j)=>{
+    const gi = start + j;   // 全局索引（供 openChat/滑动使用）
+    const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
+    const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
+    return `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
+  }).join('');
+  const total = ctx.cards.length;
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  document.getElementById('pager').style.display = total > PAGE_SIZE ? '' : 'none';
+  document.getElementById('pageInfo').textContent = `第${curPage+1}/${pages}页 · 共${total}条`;
+  document.getElementById('prevPage').disabled = curPage <= 0;
+  document.getElementById('nextPage').disabled = curPage >= pages - 1;
+}
+function goPage(dir){
+  curPage += dir;
+  renderGridPage();
+  window.scrollTo(0, 0);
 }
 function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
@@ -325,10 +357,12 @@ async function openChat(idx, skipVT){
   // 方案A：点击进入时给点击的网格卡片设共享元素名（浏览器做"生长"动画）
   // 滑动切换（skipVT）不设名，避免残留
   if(!skipVT){
+    // 按 data-gi 全局索引找当前页渲染出的那张卡片（分页后网格内只有本页10张）
+    const target = document.querySelector(`#grid .gcard[data-gi="${idx}"]`);
     const cards = document.querySelectorAll('#grid .gcard');
-    if(cards[idx]){
-      cards.forEach(el=>el.style.viewTransitionName = '');
-      cards[idx].style.viewTransitionName = 'card-active';
+    cards.forEach(el=>el.style.viewTransitionName = '');
+    if(target){
+      target.style.viewTransitionName = 'card-active';
     }
   }
   curCard = {ctxKey: ctx.key, idx};
@@ -362,9 +396,12 @@ function goHome(){
     document.getElementById('home').style.display = '';
     // 方案A：返回主页时给刚才点的那张卡片设共享元素名（卡片缩回原位）
     const cards = document.querySelectorAll('#grid .gcard');
-    if(curCard && cards[curCard.idx]){
-      cards.forEach(el=>el.style.viewTransitionName = '');
-      cards[curCard.idx].style.viewTransitionName = 'card-active';
+    cards.forEach(el=>el.style.viewTransitionName = '');
+    if(curCard){
+      const target = document.querySelector(`#grid .gcard[data-gi="${curCard.idx}"]`);
+      if(target){
+        target.style.viewTransitionName = 'card-active';
+      }
     }
     curCard = null;
   };
