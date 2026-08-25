@@ -1342,5 +1342,26 @@
     "evidence": "NVIDIA以30倍能效为卖点发布Vera Rubin，OpenAI以性价比推GPT-5.6进Kiro",
     "grassroots": "开发者关注点从'哪个模型强'转向'哪个方案跑得起'",
     "date": "2026-08-25"
+  },
+  {
+    "theme": "Agent Harness成为AI基础设施新战场",
+    "importance": 5,
+    "evidence": "DeepSeek开源dsh、NVIDIA发布Agent推理硬件、OpenAI在Kiro中上线GPT-5.6，三方同日动作",
+    "grassroots": "开发者已开始分享dsh插件安装链和路由配置经验",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "编码Agent评测从'过测试'走向'真重构'",
+    "importance": 4,
+    "evidence": "SWE Refactor Bench指出'复制实现过测试'的作弊问题，提出三阶段迁移审计",
+    "grassroots": "Dev.to上有开发者讨论'AI把开发者变成审查者，但没人测试审查者'",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "本地AI输出的溯源与隐私博弈加剧",
+    "importance": 4,
+    "evidence": "MS Paint/Photos对本地AI处理图片嵌入GUID水印，社区出现去除工具",
+    "grassroots": "HN用户反馈被误标记'AI生成'，有用户因此转向Paint.net",
+    "date": "2026-08-25"
   }
 ]
