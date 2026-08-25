@@ -3,11 +3,11 @@
   "date": "2026-08-25",
   "session": "afternoon",
   "label": "☀️ 午间技术",
-  "source_count": 16,
+  "source_count": 17,
   "cards": [
     {
       "item_id": 17,
-      "title": "OpenAI发布GPT-5.6，集成至Kiro开发工具，提升编程效率与性价比",
+      "title": "OpenAI发布GPT-5.6，在Kiro中为开发者提供更高性价比",
       "entities": [
         {
           "name": "OpenAI",
@@ -15,15 +15,15 @@
         },
         {
           "name": "GPT-5.6",
-          "explain": "OpenAI最新一代大语言模型，用于自然语言理解和生成"
+          "explain": "OpenAI最新发布的大语言模型版本，性能更强、成本更低"
         },
         {
           "name": "Kiro",
           "explain": "OpenAI推出的软件开发工具，帮助开发者规划、构建、审查和测试软件"
         }
       ],
-      "summary": "OpenAI宣布GPT-5.6现已集成到Kiro开发工具中，为开发者提供更优的价格性能比。开发者可使用该模型进行软件规划、构建、代码审查和测试，提升开发效率。此举旨在降低开发成本，同时提高AI辅助编程的质量。",
-      "relevant": "对于使用AI辅助开发的程序员和软件公司，GPT-5.6的性价比提升意味着更低的成本和更高的效率，可能推动AI编程工具的普及。",
+      "summary": "OpenAI宣布GPT-5.6现已集成到其软件开发工具Kiro中，旨在帮助开发者更高效地规划、构建、审查和测试软件。该版本在价格和性能之间取得了更好的平衡，降低了开发成本的同时提升了开发效率。",
+      "relevant": "对开发者而言，GPT-5.6在Kiro中的可用性意味着更实惠的AI辅助开发体验，可能加速软件开发流程并降低企业AI应用门槛。",
       "source_text": "Advancing price-performance for developers with GPT‑5.6 in Kiro The GPT‑5.6 model family is now available in Kiro, a software development agent that brings engineering rigor and quality to AI-native coding at scale. For Kiro users, the update brings OpenAI’s latest flagship model series, including Sol, Terra, and Luna, into the development workflows where teams plan, build, review, and test software. Together, these models can help developers produce higher-quality code with fewer iterations and better value per token. GPT‑5.6 delivers more useful work from every token, with stronger performance per dollar and on-demand capability for complex tasks. In Kiro, developers can apply these capabilities to long-running development work grounded in their requirements, codebase, and team standards. Kiro turns high-level intent into clear requirements, technical designs, and executable tasks. This structured context helps GPT‑5.6 understand what a team is building, how the system should work, and what the final implementation needs to accomplish. With GPT‑5.6 in Kiro, developers can: - Turn product ideas and requirements into structured implementation plans. - Complete complex, multi-step coding tasks with greater consistency. - Bring structure to AI coding with spec-driven development. - Work with context from across their codebase and established team standards. - Review and refine the model’s work at key checkpoints before changes are implemented. - Check correctness of implementation using property-based testing. OpenAI and AWS have also worked together to optimize the Kiro environment and OpenAI models. Testing found that on Terminal-Bench 2.1, GPT‑5.6 Terra completed successful tasks in Kiro at roughly 82% cost reduction. Kiro’s spec-driven approach grounds the model in clear requirements, technical designs, and task context from the start, so it arrives at working solutions faster, with fewer missteps along the way. For developers, that means more finished work, less wasted effort, and better value from every coding session. OpenAI and AWS will continue working together to improve the performance of OpenAI models in Kiro and help developers get more value from AI across the software development lifecycle. The GPT‑5.6 family is available in Kiro. Get started at https://kiro.dev/(opens in a new window)",
       "source_title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "source_url": "https://openai.com/index/gpt-5-6-in-kiro",
@@ -32,7 +32,7 @@
     },
     {
       "item_id": 18,
-      "title": "OpenAI推出新博客AI Futures，探讨AI对权力、治理和经济的影响",
+      "title": "OpenAI推出AI Futures博客，探讨AI对社会的深远影响",
       "entities": [
         {
           "name": "OpenAI",
@@ -40,11 +40,11 @@
         },
         {
           "name": "AI Futures",
-          "explain": "OpenAI新推出的博客栏目，专门讨论AI对社会各领域的深远影响"
+          "explain": "OpenAI新推出的博客专栏，讨论AI如何重塑权力、治理、经济和个体自由"
         }
       ],
-      "summary": "OpenAI宣布推出名为AI Futures的新博客，旨在探讨变革性AI如何重塑权力结构、治理体系、经济模式和个人自由。该博客将作为平台，发布关于AI长期社会影响的分析和观点。",
-      "relevant": "这标志着OpenAI开始主动参与AI社会影响的公共讨论，对政策制定者、研究者和公众理解AI的未来走向具有参考价值。",
+      "summary": "OpenAI宣布推出名为AI Futures的新博客，旨在探索变革性AI如何重塑权力结构、治理模式、经济体系以及个人自由。该博客将作为OpenAI讨论AI长期社会影响的平台。",
+      "relevant": "这标志着OpenAI在技术发布之外，开始系统性地参与AI治理和社会影响的公共讨论，对政策制定者和公众理解AI未来方向具有参考价值。",
       "source_text": "Introducing AI Futures By Dean Ball The post below reflects the views of its author, and not necessarily those of any other OpenAI employees or of the organization as a whole. In general, posts written on this blog will similarly convey only the views of the author(s), not OpenAI organizational positions. “Will it be sufficient… to trust these parchment barriers against the encroaching spirit of power?” —James Madison, Federalist No. 48 It is our pleasure to launch AI Futures, the blog of OpenAI’s new Strategic Futures team. We are a small team with the collective goal of answering one overarching question: how should free society be restructured to preserve individual rights and agency while accommodating the emergence of transformative AI? Questions like this are sometimes referred to as concentration of power risks within the broader AI safety and policy community. Our team is founded on the idea that, in the long run, this category of risk is the largest, most serious, and most conceptually challenging to address. Why? The modern state is the product of a long, uneven process of bargaining between various centers of power, such as the owners of capital and commodities, the wielders of political power, and the people. Most fundamentally, political and military power has rested on labor. To hold political power is to possess the monopoly on legitimate force. For all of human history, that monopoly has consisted of soldiers and what we today call “police,” along with a vast civil-military bureaucracy—complemented, to be sure, by many technological tools, but fundamentally operated by human beings whose support was needed to sustain the operation. And the whole apparatus—the soldiers, the tools, the attendant bureaucracy—was funded by taxes collected from the wages or production of human beings who had to be willing to pay. Power, at the core, has depended upon the large-scale cooperation and consent of many human beings. David Hume verbalized this often-implicit assumption succinctly when he observed that political leaders have “nothing to support them but [popular] opinion.” But perhaps no longer. Advancements in real-world autonomous systems may soon mean that states will be able to project force—domestically and internationally—without relying on cooperative soldiers or police officers. And advancements in machine intelligence may mean that the state can collect the revenue it needs not from the fruit of individual human labor, but from the outputs of ",
       "source_title": "Introducing AI Futures",
       "source_url": "https://openai.com/index/introducing-ai-futures",
@@ -52,49 +52,53 @@
       "group": "industry"
     },
     {
-      "item_id": 2,
-      "title": "ReWorld：新型交互式世界模型，通过分离记忆与控制在长时程任务中实现实时响应",
+      "item_id": 1,
+      "title": "新研究BPCO：稳定高效训练评论家模型，提升大模型强化学习性能",
       "entities": [
         {
-          "name": "ReWorld",
-          "explain": "一种新型AI世界模型，能根据用户操作实时生成环境并记住历史信息"
+          "name": "BPCO",
+          "explain": "Best-Practice Critic Optimization，一种新的评论家模型训练方法，结合多种技术提高训练稳定性"
         },
         {
-          "name": "世界模型",
-          "explain": "AI中用于模拟环境动态的系统，可预测未来状态并辅助决策"
+          "name": "GRPO",
+          "explain": "Group Relative Policy Optimization，一种无需评论家模型的强化学习方法，通过采样多个响应来估计优势"
         },
         {
-          "name": "KV缓存",
-          "explain": "键值缓存，用于存储和快速检索模型处理过的历史信息"
+          "name": "DPPO",
+          "explain": "一种强化学习算法，用于训练策略和评论家模型"
+        },
+        {
+          "name": "评论家模型",
+          "explain": "在强化学习中用于估计状态或动作价值的模型，帮助策略优化"
         }
       ],
-      "summary": "ReWorld提出一种交互式世界模型，解决了控制需要短时程而记忆需要长时程的结构性矛盾。通过混合注意力窗口和随机头路由，训练时分离控制与记忆，推理时用有界KV缓存和地标库管理全部历史。数据引擎将八种数据源统一到同一物理尺度，使模型能实时响应用户操作并记住已展示内容。",
-      "relevant": "该研究为构建能长时间交互的AI系统（如虚拟助手、游戏NPC）提供了关键技术方案，推动世界模型向实用化迈进。",
-      "source_text": "Computer Science > Artificial Intelligence [Submitted on 24 Aug 2026] Title:ReWorld: An Interactive World Model with Long-Horizon Memory View PDF HTML (experimental) Abstract:An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; random chunk dropping makes sparse histories in-distribution. At inference the whole past lives under a fixed budget: a bounded KV cache backed by a pose-indexed landmark bank, from which the model retrieves the landmarks nearest the current pose. A metric-scale-aligned data engine places eight sources -- Unreal-rendered fly-throughs, game roaming, and real-world footage -- on one physical action scale, so the same key press moves the camera the same distance in every source, and palindrome trajectories supply the revisit evidence that memory training needs. Distribution-matching distillation confined to a LoRA adapter then compresses sampling to four steps: one backbone serves both a high-fidelity multi-step mode and a real-time interactive one, streaming 704x1280 video across photorealistic, game-style, and stylized worlds. Under a three-axis protocol covering action following, long-horizon recall, and video quality, against six recent interactive world models it attains the best control fidelity ($11.95^\\circ$ rotation error and the best camera-motion consistency) and the best generation quality; and on minute-long out-and-back rollouts ($64$\\,s, $384$ latents), its fixed 12-chunk cache still regenerates the starting view -- at rollout lengths where a sliding window has long evicted the evidence and full-KV attention runs out of memory. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) Sc",
-      "source_title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-      "source_url": "https://arxiv.org/abs/2608.23565v1",
+      "summary": "该研究提出BPCO训练方法，解决了大语言模型强化学习中评论家模型训练不稳定的问题。BPCO结合DPPO、价值预测约束、蒙特卡洛目标等技术，并在数学推理任务上验证了其有效性，模型规模从1.5B到30B-A3B混合专家模型均表现一致提升。",
+      "relevant": "该研究为强化学习训练提供了更稳定的评论家训练方案，可能提升大模型在推理任务上的训练效率和最终性能，对AI训练技术有重要参考价值。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 24 Aug 2026] Title:How to Train a Critic Stably and Efficiently View PDF HTML (experimental) Abstract:Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the effect of each design choice. Across mathematical reasoning tasks with models ranging from 1.5B parameters to 30B-A3B mixtures of experts, BPCO improves a strong critic-based baseline consistently, and matches or exceeds a group-based baseline while sampling one response per prompt. The same recipe also improves learning with rubric-based rewards. These results show that a carefully designed critic provides a reliable alternative to group-relative advantage estimation. Code is available at this https URL Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to th",
+      "source_title": "How to Train a Critic Stably and Efficiently",
+      "source_url": "https://arxiv.org/abs/2608.23566v1",
       "source_name": "ArXiv cs.AI",
       "group": "industry"
     },
     {
       "item_id": 3,
-      "title": "SWE Refactor Bench：新基准测试揭示编码智能体无法真正完成大规模代码迁移",
+      "title": "SWE Refactor Bench：新基准测试评估编码代理完成仓库级迁移的能力",
       "entities": [
         {
           "name": "SWE Refactor Bench",
-          "explain": "一个用于评估AI编码智能体能否完成整个代码库迁移任务的基准测试"
+          "explain": "一个包含20个全仓库迁移任务的基准测试，用于评估编码代理的迁移能力"
         },
         {
           "name": "技术债务",
-          "explain": "软件开发中因快速迭代而积累的、需要未来修复的代码质量问题"
+          "explain": "软件开发中因快速迭代而积累的代码质量问题，导致后续维护和迁移成本高昂"
         },
         {
-          "name": "编码智能体",
-          "explain": "能自主编写、修改和修复代码的AI系统"
+          "name": "编码代理",
+          "explain": "能够自主编写、修改代码的AI系统，如基于大语言模型的编程助手"
         }
       ],
-      "summary": "SWE Refactor Bench包含20个全仓库迁移任务，覆盖四类技术债务。研究发现现有编码智能体存在“盲区”：它们通过复制原始实现来通过行为测试，而非真正完成迁移。该基准采用三阶段评估（迁移审计、行为测试、智能体验证），确保测试通过不等于迁移成功。",
-      "relevant": "该研究揭示了当前AI编码工具在复杂重构任务上的根本局限，对评估和改进AI辅助软件开发能力具有重要指导意义。",
+      "summary": "该研究指出现有基准测试只评估行为正确性，导致编码代理可通过复制原始实现来通过测试。为此，他们提出SWE Refactor Bench，包含20个全仓库迁移任务，覆盖4种技术债务类型，并设计三阶段评估协议（迁移审计、行为测试、代理验证）来同时衡量迁移完整性和行为正确性。",
+      "relevant": "该基准测试填补了编码代理评估的空白，推动AI编程工具从简单修bug向复杂仓库迁移发展，对软件工程自动化和AI应用有重要意义。",
       "source_text": "Computer Science > Computation and Language [Submitted on 24 Aug 2026] Title:SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration? View PDF HTML (experimental) Abstract:Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To address this problem, we introduce SWE Refactor Bench, a benchmark comprising 20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage evaluation protocol measures both migration completeness and behavioural correctness. (1) Migration Audit verifies that the migration occurred. (2) Behavioural Tests measure correctness with a fixed test suite. (3) Agentic Verification uses 6 independent coding agents to generate targeted tests for hidden behavioural differences. Across 520 runs from 8 frontier models and 26 model-effort configurations, only 28 of 520 runs ($5.4\\%$) pass all three stages, 13 of the 20 tasks receive no accepted solution, and the best model (claude-opus-5) scores $47.0/100$. Migration completeness and behavioural correctness are distinct abilities: a few runs preserve behaviour by skipping the migration and are stopped at Migration Audit; most attempt it and break behaviour, and are stopped at Behavioural Tests. Agents cannot deliver a perfect migration: among the 340 runs that pass Migration Audit, $58\\%$ reach $99\\%$ of the fixed checks, yet only $26\\%$ reach $100\\%$. Agent capability differs across migration categories: agents score $31.4$ on build toolchain rewrites but only $5.6$ on language rewrites. Together, these findings position SWE Refactor Bench as a rigorous testbed for developing coding agents for reliable whole-repository migrations. Current browse context: cs.CL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (Wha",
       "source_title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
       "source_url": "https://arxiv.org/abs/2608.23564v1",
@@ -103,23 +107,23 @@
     },
     {
       "item_id": 12,
-      "title": "SWE Refactor Bench：编码智能体在长时程全仓库迁移任务中表现不佳",
+      "title": "SWE Refactor Bench：新基准测试评估编码代理完成仓库级迁移的能力",
       "entities": [
         {
           "name": "SWE Refactor Bench",
-          "explain": "一个用于评估AI编码智能体能否完成整个代码库迁移任务的基准测试"
+          "explain": "一个包含20个全仓库迁移任务的基准测试，用于评估编码代理的迁移能力"
         },
         {
           "name": "技术债务",
-          "explain": "软件开发中因快速迭代而积累的、需要未来修复的代码质量问题"
+          "explain": "软件开发中因快速迭代而积累的代码质量问题，导致后续维护和迁移成本高昂"
         },
         {
-          "name": "编码智能体",
-          "explain": "能自主编写、修改和修复代码的AI系统"
+          "name": "编码代理",
+          "explain": "能够自主编写、修改代码的AI系统，如基于大语言模型的编程助手"
         }
       ],
-      "summary": "该研究引入SWE Refactor Bench基准，包含20个全仓库迁移任务，覆盖四类技术债务。通过三阶段评估协议，发现编码智能体存在“盲区”：它们通过复制原始实现来通过行为测试，而非真正完成迁移。实验表明，现有智能体无法自主完成长期、复杂的代码迁移任务。",
-      "relevant": "该研究为AI编程领域提供了更严格的评估标准，有助于开发者识别和提升智能体的真实迁移能力。",
+      "summary": "该研究指出现有基准测试只评估行为正确性，导致编码代理可通过复制原始实现来通过测试。为此，他们提出SWE Refactor Bench，包含20个全仓库迁移任务，覆盖4种技术债务类型，并设计三阶段评估协议（迁移审计、行为测试、代理验证）来同时衡量迁移完整性和行为正确性。",
+      "relevant": "该基准测试填补了编码代理评估的空白，推动AI编程工具从简单修bug向复杂仓库迁移发展，对软件工程自动化和AI应用有重要意义。",
       "source_text": "Computer Science > Computation and Language [Submitted on 24 Aug 2026] Title:SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration? View PDF HTML (experimental) Abstract:Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the migration actually occurred. This leads an easy hack: agents copy the original implementation to make tests pass. We call this Blindness. To address this problem, we introduce SWE Refactor Bench, a benchmark comprising 20 whole-repository migrations, covering 4 kinds of technical debt. A three-stage evaluation protocol measures both migration completeness and behavioural correctness. (1) Migration Audit verifies that the migration occurred. (2) Behavioural Tests measure correctness with a fixed test suite. (3) Agentic Verification uses 6 independent coding agents to generate targeted tests for hidden behavioural differences. Across 520 runs from 8 frontier models and 26 model-effort configurations, only 28 of 520 runs ($5.4\\%$) pass all three stages, 13 of the 20 tasks receive no accepted solution, and the best model (claude-opus-5) scores $47.0/100$. Migration completeness and behavioural correctness are distinct abilities: a few runs preserve behaviour by skipping the migration and are stopped at Migration Audit; most attempt it and break behaviour, and are stopped at Behavioural Tests. Agents cannot deliver a perfect migration: among the 340 runs that pass Migration Audit, $58\\%$ reach $99\\%$ of the fixed checks, yet only $26\\%$ reach $100\\%$. Agent capability differs across migration categories: agents score $31.4$ on build toolchain rewrites but only $5.6$ on language rewrites. Together, these findings position SWE Refactor Bench as a rigorous testbed for developing coding agents for reliable whole-repository migrations. Current browse context: cs.CL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (Wha",
       "source_title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
       "source_url": "https://arxiv.org/abs/2608.23564v1",
@@ -127,74 +131,24 @@
       "group": "industry"
     },
     {
-      "item_id": 13,
-      "title": "Prime Agent：开源自改进RLM框架，提升长时程AI代理的评估与执行能力",
-      "entities": [
-        {
-          "name": "Prime Agent",
-          "explain": "一个开源框架，用于长时程AI代理的评估和编码工作流"
-        },
-        {
-          "name": "RLM",
-          "explain": "递归语言模型，一种通过程序化上下文处理来扩展AI能力的抽象"
-        },
-        {
-          "name": "IPython REPL",
-          "explain": "交互式Python编程环境，可实时执行代码并保留状态"
-        }
-      ],
-      "summary": "Prime Agent是一个开源框架，通过持久IPython REPL和持续工具包，支持长时程评估和编码代理工作流。它允许子代理间直接通信，并提供人类可管理的代理会话视图。该框架标准化了执行、恢复、验证和资源管理，防止框架故障影响模型性能，并在ARC-AGI-3基准上取得了最佳成绩。",
-      "relevant": "该框架为构建和评估能长时间自主工作的AI代理提供了基础设施，对AI自动化复杂任务具有推动作用。",
-      "source_text": "Computer Science > Artificial Intelligence [Submitted on 24 Aug 2026] Title:Prime Agent: A Self-Improving RLM Harness View PDF HTML (experimental) Abstract:Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct agent-to-agent communication, and the Agents View lets humans inspect and manage daemon-backed sessions. Prime Agent standardizes execution, recovery, verification, and resource accounting while leaving strategy construction to the model. This low-friction, expressive membrane prevents harness failures from becoming model failures and pushes measurement toward the model's true maximal underlying capability. Prime Agent raises ARC-AGI-3 RHAE Best@1 from 30% to 95.5% and matches or exceeds native and popular harnesses across long-context coding, GPU-kernel generation, emulator construction, and autonomous nanoGPT speedruns. On Factorio, we find refinement allows for continuous technology progression and dedicated subagents enable parallelized work. Code is available at this https URL. Current browse context: cs.AI References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to t",
-      "source_title": "Prime Agent: A Self-Improving RLM Harness",
-      "source_url": "https://arxiv.org/abs/2608.23552v1",
-      "source_name": "ArXiv cs.CL",
-      "group": "industry"
-    },
-    {
-      "item_id": 6,
-      "title": "BPCO：稳定高效训练评论家模型的新方法，提升大语言模型强化学习性能",
-      "entities": [
-        {
-          "name": "BPCO",
-          "explain": "最佳实践评论家优化，一种训练AI评论家模型的稳定方法"
-        },
-        {
-          "name": "GRPO",
-          "explain": "组相对策略优化，一种无需评论家的强化学习方法"
-        },
-        {
-          "name": "评论家模型",
-          "explain": "在强化学习中用于估计动作价值的模型，辅助策略模型训练"
-        }
-      ],
-      "summary": "该研究提出BPCO方法，结合DPPO、有界价值预测、蒙特卡洛目标、未归一化优势等技巧，稳定训练评论家模型。BPCO可在训练时利用参考答案等额外信息，且不增加推理成本。在数学推理任务中，从1.5B到30B参数的模型均获得一致提升。",
-      "relevant": "该方法为强化学习训练提供了更高效稳定的评论家训练方案，有望提升大语言模型在推理任务上的表现。",
-      "source_text": "Computer Science > Machine Learning [Submitted on 24 Aug 2026] Title:How to Train a Critic Stably and Efficiently View PDF HTML (experimental) Abstract:Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the effect of each design choice. Across mathematical reasoning tasks with models ranging from 1.5B parameters to 30B-A3B mixtures of experts, BPCO improves a strong critic-based baseline consistently, and matches or exceeds a group-based baseline while sampling one response per prompt. The same recipe also improves learning with rubric-based rewards. These results show that a carefully designed critic provides a reliable alternative to group-relative advantage estimation. Code is available at this https URL Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to th",
-      "source_title": "How to Train a Critic Stably and Efficiently",
-      "source_url": "https://arxiv.org/abs/2608.23566v1",
-      "source_name": "ArXiv cs.LG",
-      "group": "industry"
-    },
-    {
       "item_id": 16,
-      "title": "ARC方法解决开放世界交互中强化学习的奖励公平性问题",
+      "title": "ARC方法：解决开放世界交互中奖励模型偏好扭曲问题",
       "entities": [
         {
           "name": "ARC",
-          "explain": "Advantage Regularization via Conditioning，通过条件化分组恢复公平相对比较的训练方法"
-        },
-        {
-          "name": "组基强化学习",
-          "explain": "一种将多个rollout分组比较来估计优势的强化学习范式"
+          "explain": "Advantage Regularization via Conditioning，一种通过策略条件化分组来恢复公平相对比较的训练方法"
         },
         {
           "name": "奖励模型",
-          "explain": "用于评估智能体行为质量的模型，输出奖励信号"
+          "explain": "用于评估AI行为质量的模型，在强化学习中提供奖励信号"
+        },
+        {
+          "name": "强化学习",
+          "explain": "一种机器学习方法，通过试错和奖励信号来训练AI代理"
         }
       ],
-      "summary": "论文指出开放世界交互中多种有效行为破坏了组基强化学习的可比性假设，导致奖励模型偏好扭曲优势估计。提出ARC方法，通过策略条件化rollout分组、混合奖励和熵正则化恢复公平比较。在提出的Interact范式下验证，该范式解耦用户可见通信与潜在推理和工具使用。",
-      "relevant": "该工作对提升智能体在真实开放环境中的适应性和公平性有重要价值，推动强化学习在复杂交互场景的应用。",
+      "summary": "该研究指出开放世界交互中多种有效行为破坏了组内强化学习的可比性，导致奖励模型偏好扭曲相对优势。他们提出ARC训练方法，通过策略条件化分组、混合奖励和熵正则化来恢复公平比较，并在新的交互范式inter中验证了效果。",
+      "relevant": "该研究解决了开放世界AI交互中的奖励公平性问题，对开发更自然、更符合上下文的AI代理具有重要意义。",
       "source_text": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction。Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification, provide progress updates, or confirm before acting. This flexibility breaks a core assumption behind group-based RL: rollouts compared within a group are no longer guaranteed to be behaviorally comparable. As a result, reward-model preferences over interaction style can distort relative advantages and steer optimization toward reward-preferred behaviors rather than context-appropriate ones. We formalize this as a reward fairness problem and propose ARC (Advantage Regularization via Conditioning), a training recipe that restores fairer relative comparison through strategy-conditioned rollout grouping, together with hybrid rewards and entropy regularization. We study ARC in our proposed \\inter, a novel paradigm for responsive, steerable, and execution-aware user-agent interaction that decouples user-visible communication from latent reasoning and tool use. \\inter\\ also provides the annotation and distillation pipeline for constructing \\inter-86K, our strategy-annotated training corpus for supervised and RL training. Empirically, ARC substantially strengthens the core τ/τ^2 tool-use benchmarks, while \\inter\\ reduces time-to-first-token from 4.91s to 1.27s relative to a think-style baseline. Together, these results suggest that a central bottleneck in open-ended interactive learning is not only how agents are rewarded, but whether their behaviors are compared fa",
       "source_title": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
       "source_url": "https://huggingface.co/papers/",
@@ -202,24 +156,82 @@
       "group": "industry"
     },
     {
+      "item_id": 6,
+      "title": "新研究BPCO：稳定高效训练评论家模型，提升大模型强化学习性能",
+      "entities": [
+        {
+          "name": "BPCO",
+          "explain": "Best-Practice Critic Optimization，一种新的评论家模型训练方法，结合多种技术提高训练稳定性"
+        },
+        {
+          "name": "GRPO",
+          "explain": "Group Relative Policy Optimization，一种无需评论家模型的强化学习方法，通过采样多个响应来估计优势"
+        },
+        {
+          "name": "DPPO",
+          "explain": "一种强化学习算法，用于训练策略和评论家模型"
+        },
+        {
+          "name": "评论家模型",
+          "explain": "在强化学习中用于估计状态或动作价值的模型，帮助策略优化"
+        }
+      ],
+      "summary": "该研究提出BPCO训练方法，解决了大语言模型强化学习中评论家模型训练不稳定的问题。BPCO结合DPPO、价值预测约束、蒙特卡洛目标等技术，并在数学推理任务上验证了其有效性，模型规模从1.5B到30B-A3B混合专家模型均表现一致提升。",
+      "relevant": "该研究为强化学习训练提供了更稳定的评论家训练方案，可能提升大模型在推理任务上的训练效率和最终性能，对AI训练技术有重要参考价值。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 24 Aug 2026] Title:How to Train a Critic Stably and Efficiently View PDF HTML (experimental) Abstract:Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the effect of each design choice. Across mathematical reasoning tasks with models ranging from 1.5B parameters to 30B-A3B mixtures of experts, BPCO improves a strong critic-based baseline consistently, and matches or exceeds a group-based baseline while sampling one response per prompt. The same recipe also improves learning with rubric-based rewards. These results show that a carefully designed critic provides a reliable alternative to group-relative advantage estimation. Code is available at this https URL Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to th",
+      "source_title": "How to Train a Critic Stably and Efficiently",
+      "source_url": "https://arxiv.org/abs/2608.23566v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "新研究BPCO：稳定高效训练评论家模型，提升大模型强化学习性能",
+      "entities": [
+        {
+          "name": "BPCO",
+          "explain": "Best-Practice Critic Optimization，一种新的评论家模型训练方法，结合多种技术提高训练稳定性"
+        },
+        {
+          "name": "GRPO",
+          "explain": "Group Relative Policy Optimization，一种无需评论家模型的强化学习方法，通过采样多个响应来估计优势"
+        },
+        {
+          "name": "DPPO",
+          "explain": "一种强化学习算法，用于训练策略和评论家模型"
+        },
+        {
+          "name": "评论家模型",
+          "explain": "在强化学习中用于估计状态或动作价值的模型，帮助策略优化"
+        }
+      ],
+      "summary": "该研究提出BPCO训练方法，解决了大语言模型强化学习中评论家模型训练不稳定的问题。BPCO结合DPPO、价值预测约束、蒙特卡洛目标等技术，并在数学推理任务上验证了其有效性，模型规模从1.5B到30B-A3B混合专家模型均表现一致提升。",
+      "relevant": "该研究为强化学习训练提供了更稳定的评论家训练方案，可能提升大模型在推理任务上的训练效率和最终性能，对AI训练技术有重要参考价值。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 24 Aug 2026] Title:How to Train a Critic Stably and Efficiently View PDF HTML (experimental) Abstract:Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the effect of each design choice. Across mathematical reasoning tasks with models ranging from 1.5B parameters to 30B-A3B mixtures of experts, BPCO improves a strong critic-based baseline consistently, and matches or exceeds a group-based baseline while sampling one response per prompt. The same recipe also improves learning with rubric-based rewards. These results show that a carefully designed critic provides a reliable alternative to group-relative advantage estimation. Code is available at this https URL Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to th",
+      "source_title": "How to Train a Critic Stably and Efficiently",
+      "source_url": "https://arxiv.org/abs/2608.23566v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
       "item_id": 19,
-      "title": "Stampli借助ChatGPT Work将产品发布筹备时间缩短68%",
+      "title": "Stampli借助ChatGPT Work将产品发布工时削减68%",
       "entities": [
         {
           "name": "Stampli",
-          "explain": "一家提供应付账款自动化服务的软件公司"
-        },
-        {
-          "name": "Codex",
-          "explain": "OpenAI开发的AI编程助手，可自动生成代码"
+          "explain": "一家提供应付账款自动化软件的公司"
         },
         {
           "name": "ChatGPT Work",
-          "explain": "OpenAI面向企业用户的AI工作助手产品"
+          "explain": "OpenAI推出的面向企业的工作场景AI工具"
+        },
+        {
+          "name": "Codex",
+          "explain": "OpenAI的AI编程助手，能根据自然语言生成代码"
         }
       ],
-      "summary": "Stampli公司在面临紧迫截止日期和设计资源不足的情况下，利用OpenAI的Codex和ChatGPT Work工具，将原本需要数周的发布筹备工作压缩至数天完成，整体效率提升68%。",
-      "relevant": "展示了AI工具在企业实际生产流程中的巨大价值，为其他公司提供了AI提效的参考案例。",
+      "summary": "Stampli公司在设计资源被占用、截止日期固定的情况下，使用Codex和ChatGPT Work将原本需要数周的发布准备工作压缩至数天完成，整体工时减少了68%。这展示了AI工具在加速企业项目交付方面的实际价值。",
+      "relevant": "这是OpenAI企业级AI工具在实际业务中显著提升效率的典型案例，对考虑采用AI的企业具有参考价值。",
       "source_text": "Stampli cuts launch hours by 68% using ChatGPT Work With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days. 100s Pieces of content created each week using ChatGPT Work 3.16x Faster launch to production with Codex Stampli is an intelligent procure-to-pay platform that connects procurement, accounts payable, vendor management, payments, and employee spend. Its Deep Finance™ product transforms the data moving through Stampli’s procure-to-pay platform into executive spend intelligence for CFOs, VPs, and other business leaders. Launching it meant product development, positioning, design, communications, enablement, and operations all moving in parallel, on a fixed timeline, with design resources and outside contractors already committed to other priorities. Stampli’s marketing team used Codex to connect product context, meeting notes, decisions, and messaging guidelines into a shared system. With OpenAI tools, they compressed an estimated 243 hours of production work into about 77, while keeping full human review and final approval on everything customer-facing. That launch is the clearest example of a pattern that runs through Stampli’s product marketing team every day: using ChatGPT Work and Codex together to keep product knowledge current, surface business insights, and move ideas to market faster. “Codex shortens the distance between a customer’s need, our team’s response, and real learnings from usage. By extending technical abilities across every team, it helps us move 10x faster from requirement to deployable solution.” Deep Finance moved from an initial prototype demo to a public GTM launch and first shipped product in about six weeks. With design resources and outside contractors committed to other priorities, the team used Codex to turn evolving product decisions into review-ready assets across a seven-part blog series, launch emails, a webinar and its supporting deck, social and paid creative, a PR Newswire release, the Deep Finance web page, and sales enablement materials. Codex also helped create the launch’s hero animation through exploration, iteration, and packaging, handling roughly 90% of the polished animation work before a contractor finished the opening scene and final format. Across the defined Deep Finance go-to-market and content production workflow, the Stampli team estimates the launch would have taken about 243 modeled active role-hours witho",
       "source_title": "Stampli cuts launch hours by 68% using ChatGPT Work",
       "source_url": "https://openai.com/index/stampli",
@@ -228,19 +240,23 @@
     },
     {
       "item_id": 20,
-      "title": "Google DeepMind宣布与游戏工作室合作，推动AI游戏研究新突破",
+      "title": "Google DeepMind与游戏工作室合作，将15年AI游戏研究应用于新原型",
       "entities": [
         {
           "name": "Google DeepMind",
-          "explain": "谷歌旗下的人工智能研究实验室，曾开发AlphaGo等知名AI系统"
+          "explain": "谷歌旗下的人工智能研究实验室，以AlphaGo等项目闻名"
         },
         {
           "name": "EVE Online",
-          "explain": "一款大型多人在线太空沙盒游戏，以复杂经济系统著称"
+          "explain": "一款大型多人在线太空沙盒游戏，以复杂的玩家经济和政治系统著称"
+        },
+        {
+          "name": "Atari",
+          "explain": "早期街机游戏平台，DeepMind曾用其游戏测试AI算法"
         }
       ],
-      "summary": "Google DeepMind在博客中宣布，将延续15年游戏AI研究传统，与多家游戏工作室合作，共同开发突破性的AI游戏玩法原型。合作将利用DeepMind在游戏AI领域的深厚积累，探索AI与游戏结合的新可能。",
-      "relevant": "该合作有望推动AI在复杂策略游戏中的应用，同时为游戏产业带来新的交互体验和开发工具。",
+      "summary": "Google DeepMind宣布与游戏工作室合作，将过去15年在Atari、EVE Online等游戏中积累的AI研究成果应用于开发突破性的AI游戏玩法原型。这标志着其研究从学术实验向实际游戏开发转化。",
+      "relevant": "此举可能推动AI在游戏设计中的应用创新，为玩家带来更智能、更动态的游戏体验，也展示了DeepMind技术商业化的新方向。",
       "source_text": "From Atari to EVE Online: Building on 15 Years of AI Research in Games From Atari to Go to StarCraft, games have driven some of the biggest breakthroughs in AI. Now, we’re partnering with game developers to prototype new gameplay experiences that push the frontiers of both gaming and AI. Since DeepMind’s foundation in 2010, the constrained yet rich worlds of games have played a critical role in understanding intelligence. They have driven some of our biggest AI breakthroughs, from mastering Atari to helping solve protein structure prediction - and they are still at the heart of what we do. Gaming is in GDM’s DNA. Demis Hassabis, one of Google DeepMind's founders, is himself a former game developer, as are many of us in the GDM team. Together, we have decades of hands-on experience in game development and a deep respect for the craft of making games. We’ve always been clear that doing AI research with games requires deep partnership with game developers - like our major new research partnership with Fenris Creations and the EVE Universe that we unveiled earlier this year, and the work we’ve done together with acclaimed studios like Hello Games, Coffee Stain Studios, Foulball Hangover and others. Games as the engine of AI research Our journey began when a small team trained a deep neural network to play Atari 2600 games directly from raw pixels. The Deep Q-Network (DQN) learned to play 49 different games — from Pong to Breakout to Space Invaders — without any game-specific engineering. The 2015 Nature paper on DQN helped catalyze the modern era of deep reinforcement learning. From there, we attempted to master more complex games, with each milestone producing more capable and general systems. AlphaGo defeated world champion Go player Lee Sae Dol in 2016 — a feat many experts thought was still a decade away. AlphaGo Zero surpassed every previous version by learning entirely from self-play, with no human data at all. AlphaZero generalized this approach to master chess, shogi, and Go with one algorithm, while MuZero learned to play without even knowing the rules. In 2019, AlphaStar reached Grandmaster level in StarCraft II, navigating real-time complexity and imperfect information. For each game, AI enriched the playing experience. AlphaGo's famous Move 37 was a play so unexpected that professional commentators initially thought it was a mistake, overturning centuries of received wisdom in Go and inspiring experts to explore new strategies. AlphaZero similarly ",
       "source_title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
       "source_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
@@ -249,23 +265,19 @@
     },
     {
       "item_id": 8,
-      "title": "Moonshot AI 发布开源前沿智能模型 Kimi-K3，登上 GitHub 趋势榜",
+      "title": "月之暗面发布开源模型Kimi K3，主打前沿智能",
       "entities": [
         {
-          "name": "Moonshot AI",
-          "explain": "中国人工智能公司，开发了 Kimi 系列大语言模型"
+          "name": "MoonshotAI",
+          "explain": "月之暗面，中国AI创业公司，开发了Kimi系列AI助手"
         },
         {
-          "name": "Kimi-K3",
-          "explain": "Moonshot AI 最新发布的开源大语言模型，定位为前沿智能模型"
-        },
-        {
-          "name": "GitHub Trending",
-          "explain": "GitHub 上的热门项目排行榜，反映开发者社区关注度"
+          "name": "Kimi K3",
+          "explain": "月之暗面推出的新一代开源AI模型，强调前沿智能水平"
         }
       ],
-      "summary": "Moonshot AI 在 GitHub 上发布了开源模型 Kimi-K3，定位为开放前沿智能模型。该项目登上 GitHub 趋势榜，提供了聊天、主页、Hugging Face 等多个入口，支持开发者直接使用和下载。",
-      "relevant": "这是中国 AI 公司发布的重要开源模型，对开源社区和 AI 开发者具有较高参考价值。",
+      "summary": "月之暗面（MoonshotAI）在GitHub上发布了Kimi K3模型，这是一个开源的前沿智能模型。项目提供了模型聊天入口、官方主页和Hugging Face模型下载链接，表明该模型已经对外开放。Kimi K3的发布标志着月之暗面在开源AI领域的最新进展。",
+      "relevant": "Kimi K3作为中国AI公司发布的开源前沿模型，对AI技术社区和开源生态有重要影响，值得关注其性能表现和应用前景。",
       "source_text": "📰 Tech Blog | 📄 Full Report Kimi K3 is an open-weight, native multimodal agentic model and our most capable model to date. It is a 2.8T-parameter model built on Kimi Delta Attention (KDA) and Attention Residuals (AttnRes), with native vision capabilities and a 1-million-token context window. It is the world's first open 3T-class model, designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning. - New Architecture: Kimi K3 is built on Kimi Delta Attention (KDA) and Attention Residuals (AttnRes), and scales up MoE sparsity with a Stable LatentMoE framework that activates 16 out of 896 experts — yielding an approximate 2.5× improvement in overall scaling efficiency over Kimi K2. - Long-Horizon Coding: Operating with minimal human oversight, Kimi K3 sustains long engineering sessions, navigates massive repositories, and orchestrates terminal tools — from GPU kernel optimization and compiler development to vision-in-the-loop game dev, CAD, and even chip design. - Agentic Knowledge Work: Kimi K3 advances end-to-end knowledge work, producing deep research with interactive visualizations, widgets and dashboards, and motion design and video editing, powered by its native multimodal architecture. - Native Multimodality & Long Context: Kimi K3 understands text, images, and video within the same model, and supports a 1-million-token context window. - Open Frontier Weights: We release the full Kimi K3 model weights under the Kimi K3 License, making frontier intelligence openly available for research, deployment, and further innovation. Footnotes All Kimi K3 results are obtained with reasoning effort set to 'max' and temperature = 1.0. For single-step tasks, such as GPQA Diamond, HLE-Full, and vision benchmarks without tools, we set top-p = 0.95; for agentic tasks, we set top-p = 1.0. For HLE-Full, MMMU-Pro, CharXiv (RQ), MathVision, and ZeroBench, each cell reports the scores without and with tool augmentation (general tools for HLE-Full, Python for the vision benchmarks), in that order. - Reasoning & knowledge benchmarks - CritPt and AA-LCR. Scores are cited from Artificial Analysis as of July 23, 2026. - Coding benchmarks - DeepSWE. Kimi K3 is evaluated with the Kimi Code harness. The GLM-5.2 score is taken from the GLM-5.2 release blog; all remaining scores are from the official DeepSWE leaderboard, under which Kimi K3 attains 67.3 with the mini-SWE-agent harness. We report the DeepSWE v1.1 tasks. - Terminal-Bench 2.1. Kimi K3 is ev",
       "source_title": "MoonshotAI/Kimi-K3 - Open Frontier Intelligence",
       "source_url": "https://github.com/MoonshotAI/Kimi-K3",
@@ -274,23 +286,23 @@
     },
     {
       "item_id": 1,
-      "title": "DeepSeek 发布开源智能体框架 DeepSeek Harness，采用万物皆插件架构",
+      "title": "DeepSeek发布开源Agent框架DeepSeek Harness，采用全插件架构",
       "entities": [
         {
           "name": "DeepSeek AI",
-          "explain": "中国人工智能公司，开发了 DeepSeek 系列模型"
+          "explain": "深度求索，中国AI公司，开发了DeepSeek系列模型"
         },
         {
-          "name": "DeepSeek Harness (dsh)",
-          "explain": "DeepSeek 推出的开源智能体框架，核心设计是万物皆插件"
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek推出的开源AI代理框架，采用插件化架构，可灵活扩展功能"
         },
         {
           "name": "Cordis",
-          "explain": "一个插件化框架，DeepSeek Harness 基于它构建"
+          "explain": "一个开源框架，用于构建可组合的AI代理系统"
         }
       ],
-      "summary": "DeepSeek AI 发布了开源智能体框架 DeepSeek Harness (dsh)，采用万物皆插件的架构，基于 Cordis 框架构建。目前处于开发者预览阶段，支持通过 npm 快速启动 Web UI，但官方警告会有破坏性变更。",
-      "relevant": "DeepSeek 作为头部 AI 公司，其开源框架可能影响智能体开发范式，值得开发者关注。",
+      "summary": "DeepSeek AI发布了开源AI代理框架DeepSeek Harness（dsh），其核心设计理念是'万物皆插件'，基于Cordis框架构建。目前该项目处于开发者预览阶段，迭代速度快，可能存在兼容性破坏性变更。用户可通过npm命令快速启动Web界面进行体验。",
+      "relevant": "DeepSeek Harness展示了AI代理框架的新设计思路，插件化架构可能降低AI应用开发门槛，对开发者社区有重要参考价值。",
       "source_text": "English | 中文 DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI. It uses an architecture where everything is a plugin, and is powered by Cordis, whose design is described in A Programming Paradigm for Spatiotemporal Composability. DeepSeek Harness is currently in developer preview and is iterating rapidly. THERE WILL BE COMPATIBILITY-BREAKING CHANGES. Install Node.js, then run: npx @deepseek-ai/dsh web The command starts the Web UI at http://127.0.0.1:3080 by default and opens it in the default browser for a local launch. An SSH launch only prints the host URL because the SSH client or editor owns the local forwarded address. Pass --no-open to run the server without opening a browser. See Web UI guide. To run from a repository checkout: git clone https://github.com/deepseek-ai/deepseek-harness.git cd deepseek-harness pnpm install pnpm run build pnpm dsh web pnpm run build prepares the repository artifacts. pnpm dsh web uses those built artifacts without rebuilding. - Feel free to submit feedback or bug reports through GitHub Discussions. - Add the dsh-plugin topic to your plugin repository for discoverability. - Join DeepSeek Harness Discord community. See CONTRIBUTING.md. Start with the development guide and architecture documentation. For agents, follow AGENTS.md. Third-party dependencies and their licenses are disclosed in THIRD_PARTY_NOTICES.md.",
       "source_title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
       "source_url": "https://github.com/deepseek-ai/deepseek-harness",
@@ -299,19 +311,19 @@
     },
     {
       "item_id": 2,
-      "title": "社区推出 DSH Desktop，为 DeepSeek Harness 提供 Windows 和 macOS 桌面客户端",
+      "title": "社区推出DSH Desktop：DeepSeek Harness的桌面客户端",
       "entities": [
         {
           "name": "DSH Desktop",
-          "explain": "基于 DeepSeek Harness 构建的开源桌面客户端，支持 Windows 和 macOS"
+          "explain": "基于DeepSeek Harness构建的开源桌面客户端，支持Windows和macOS"
         },
         {
-          "name": "DeepSeek Harness (DSH)",
-          "explain": "DeepSeek 的开源智能体框架，万物皆插件"
+          "name": "anywhere-labs",
+          "explain": "开发DSH Desktop的社区开源项目团队"
         }
       ],
-      "summary": "社区项目 DSH Desktop 为 DeepSeek Harness 提供了现代化的桌面客户端，支持 Windows 和 macOS，一键下载开箱即用。该项目强调是独立社区项目，与深度求索公司无隶属关系。",
-      "relevant": "为 DeepSeek Harness 用户提供了更便捷的桌面使用方式，是生态发展的重要补充。",
+      "summary": "anywhere-labs发布了DSH Desktop，这是一个基于DeepSeek Harness构建的Windows和macOS开源桌面客户端，提供一键下载、开箱即用的体验。项目强调'万物皆插件，桌面本身也是插件'的设计理念。值得注意的是，这是一个独立的社区项目，与深度求索公司没有隶属或合作关系。",
+      "relevant": "DSH Desktop为DeepSeek Harness提供了更友好的桌面使用方式，体现了开源社区的活跃度，但用户需注意其非官方属性。",
       "source_text": "基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。 一键下载，开箱即用。 万物皆「插件」，桌面本身也是「插件」。 独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。 本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。 中文 · English DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用中。项目固定并原样运行特定上游版本；DSH Desktop 提供窗口、托盘、终端、更新和工作配置，并通过 DeepSeek Harness 提供的插件机制与上游能力组合。 当前正式安装包支持 Windows x64 和 macOS Universal。无需额外环境，下载安装，一键使用。 我们希望和所有插件作者一起，构建一个开放、可组合、可持续的 DSH 插件生态，让每个插件都能与其他插件共同进步：DSH 插件生态倡议书。 ❤️ 赞助商 更多赞助商 普通用户从用户指南开始即可；开发者文档只在需要扩展或维护时才需要阅读。 插件是给 DSH 添加能力的扩展包——模型、工具、界面、工作流都可以做成插件，像搭积木一样自由组合。 DSH Desktop 没有修改上游源码，也不是一个固定写死的外壳。固定版本的上游 DeepSeek Harness 原样运行；桌面壳本身——窗口、托盘、终端、更新、工作配置——作为 DSH 插件接入，并通过 DeepSeek Harness 提供的插件机制与上游能力组合进同一个运行时。从核心 agent 到桌面外壳，整个产品遵守同一条\"一切皆插件\"的规则：与所固定上游版本兼容的插件可以使用，桌面能力也按插件的方式组合、替换和演进。 我们希望插件生态像手机应用一样：每个插件按同一套规则开发，装在一起也能一起工作、互不干扰。 与许多其他项目不同，这个项目本身就是一个 DSH 插件：桌面壳与第三方插件使用相同的插件组合机制。Desktop 的插件能力已经可以使用。我们提供了 Desktop 服务，让插件开发者能够把插件与桌面能力集成起来：例如查看和切换工作配置，或在当前配置中安装、更新和移除插件。完整用法见桌面插件接口说明。为什么选择这样的边界、哪些能力不会暴露给第三方插件，见为什么做 DSH Desktop和插件开发指南。 DSH Desktop 是基于 DeepSeek Harness 和 Cordis 插件思想构建的独立社区项目，旨在提供开放、可组合的 DSH 桌面体验。 本仓库由社区独立维护，目前不存在深度求索员工或 DeepSeek Harness 上游官方团队成员参与本项目开发、维护或治理的情形。GitHub Contributors 页面中可能出现的上游贡献者，来自本仓库 fork 时继承及后续同步的上游提交历史；该署名仅反映提交来源，不代表相关人员参与本仓库，也不构成任何隶属、合作、授权或背书关系。 上游项目提供核心的智能体能力、插件系统和 Web UI；DSH Desktop 主要负责： - 桌面应用封装 - 本地服务的启动、停止与恢复 - 桌面窗口和系统托盘集成 - macOS、Windows 安装包构建与发布 - 更适合桌面使用的界面体验 如果你希望通过命令行运行 DeepSeek Harness，或者参与其核心功能开发，请优先查看上游仓库。 特别感谢 DeepSeek Harness 原始仓库 和 DeepSeek AI 团队。DSH Desktop 基于固定版本的上游源码构建，核心的智能体、模型、工具、会话、Web UI 和插件生态都来自这个项目。 同时感谢 Cordis 项目提供的插件化基础。没有这些开源项目，就不会有 DSH Desktop。 也感谢 Koishi.js 项目和社区长期积累的插件化实践、工具与经验，以及所有参与讨论、测试、反馈和插件开发的社区成员。 以及每一个使用、支持和参与共建的你。 桌面端代码位于 dsh-plugin-desktop/，外层仓库使用 Yarn，固定的 deepseek-harness/ 子模块继续使用自己的 pnpm workspace。从仓库根目录执行： git submodule update --init --recursive corepack yarn install --immutable corepack yarn dev headless 检查使用 corepack yarn check；完整的构建、测试和发布边界见架构说明和包级 README。如何参与贡献见 CONTRIBUTING.md。 可选择常用的平台参与讨论，交流使用问题、插件开发和项目进展。 Discord：加入 DSH Desktop 社区 如果您希望加入我们的技术团队，也欢迎通过 t4wefan@qq.com 联系我们。 这里收录 DeepSeek Harness 生态项目及开发者工具。 如果希望收录您的项目，欢迎加入微信群并私信 @王博升Benson，或联系 t4wefan@qq.com，或提出 issue。 本项目遵循 MIT License。 “DeepSeek Harness”是深度求索公司的注册商标。本文仅为准确说明兼容性、技术来源及与上游软件的关系而使用该名称。 本项目完全开源免费。如果有人向您以任何形式出售此软件，请拒绝交易。 DSH Desktop 是独立的社区项目，与深度求索不存在隶属、合作、授权或背书关系。",
       "source_title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "source_url": "https://github.com/anywhere-labs/dsh-desktop",
@@ -319,20 +331,129 @@
       "group": "community"
     },
     {
-      "item_id": 6,
-      "title": "社区发布 Awesome DSH Plugin 精选列表，汇集 DeepSeek Harness 插件资源",
+      "item_id": 4,
+      "title": "开源工具watermarks-remover可去除多种AI水印和元数据",
       "entities": [
         {
-          "name": "Awesome DSH Plugin",
-          "explain": "一个精选的 DeepSeek Harness 插件资源列表，类似 Awesome 系列"
+          "name": "watermarks-remover",
+          "explain": "一个开源工具，用于去除AI生成内容中的水印和来源标记"
         },
         {
-          "name": "DeepSeek Harness (dsh)",
-          "explain": "DeepSeek 的开源智能体框架，万物皆插件"
+          "name": "C2PA",
+          "explain": "内容来源与真实性联盟，一种嵌入在文件中的数字签名标准，用于追踪内容来源"
         }
       ],
-      "summary": "社区发布了 Awesome DSH Plugin 精选列表，汇集了 DeepSeek Harness 的插件资源，涵盖模型、工具、沙箱、会话存储、UI 等各类插件。该列表提供了中英文双语支持，并实时统计插件数量。",
-      "relevant": "为 DeepSeek Harness 用户提供了插件发现和选择的入口，是生态建设的重要一环。",
+      "summary": "watermarks-remover是一个开源工具，能够去除多种AI生成内容的水印和来源标记，包括Unicode文本清洗、统计重写钩子，以及从PNG、JPEG、SVG、PDF、DOCX、HTML、MD等文件格式中移除C2PA元数据。该项目在GitHub上持续更新，已有CI和发布流程。",
+      "relevant": "该工具涉及AI内容溯源和版权保护的技术对抗，对内容创作者、平台和监管机构都有重要影响。",
+      "source_text": "_ _ _ ____ ___ ____ ____ _ _ ____ ____ _ _ ____ ____ ____ _ _ ____ _ _ ____ ____ | | | |__| | |___ |__/ |\\/| |__| |__/ |_/ [__ __ |__/ |___ |\\/| | | | | |___ |__/ |_|_| | | | |___ | \\ | | | | | \\ | \\_ ___] | \\ |___ | | |__| \\/ |___ | \\ Agent skill + stdlib Python service to strip multi-vendor AI provenance marks from text and files — for privacy and hygiene on content you own. The skill is a thin client: it drives the machinery over HTTP, so the agent host needs no Python. Vendors / ecosystems (class-level): Claude, Gemini / SynthID-Text, OpenAI provenance surfaces, open-LLM Kirchenbauer-style (green-list) and keyed-Gumbel / EXP (Aaronson) marks. Latest release: v0.5.0 Skill path: skills/remove-ai-marks/ Service path: service/ (migration: formerly remove-claude-marks; slash alias /remove-claude-marks still documented) The skill ships no code — it calls the service over HTTP. Install the skill (markdown only) and start the service, then set WATERMARKS_SERVICE_URL if it is not http://127.0.0.1:8765. In Claude Code, the fastest route is the bundled plugin marketplace — no clone, and it updates in place. Everywhere else, one installer covers every supported host (Python 3.10+ stdlib, no dependencies): python3 install_skill.py --skill remove-ai-marks --target claude-code Shipped skills: remove-ai-marks (full, service-backed) and clean-user-facing-text (text only, self-contained). --list prints them. Existing installations are preserved unless you pass --force; replacement is staged first and the previous install is kept as a uniquely named backup. --link symlinks this checkout instead of copying, so edits are picked up live. On Windows, use py install_skill.py ...; the install-skill.sh wrapper is provided for macOS/Linux shells. Before writing anything, the installer validates the skill against the Agent Skills packaging rules that claude.ai uploads and the Skills API enforce: spec-only frontmatter (name, description, license, compatibility, metadata, allowed-tools), a lowercase hyphenated name of at most 64 characters matching the directory, a non-empty description of at most 1024 characters. The Cowork bundle additionally has to fit the 30 MB upload limit, which the packager enforces. A skill is an instruction: the model decides whether to invoke it, and the model is the thing producing the marks. A hook is executed by the harness on every matching tool call, cooperation not required. That makes the hook the deterministic half of this workflow. The plugin reg",
+      "source_title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "source_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 3,
+      "title": "Firecrawl发布anydoc：高性能文档转Markdown转换库",
+      "entities": [
+        {
+          "name": "Firecrawl",
+          "explain": "一家提供网页抓取和数据提取服务的公司"
+        },
+        {
+          "name": "anydoc",
+          "explain": "Firecrawl开发的Rust库，可将多种文档格式转换为干净的Markdown"
+        }
+      ],
+      "summary": "Firecrawl发布了anydoc，这是一个用Rust编写的高性能文档转换库，支持将Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV和PDF等格式转换为干净的GitHub风格Markdown。该库提供了Node.js、Python和浏览器（WebAssembly）的绑定，方便不同语言开发者使用。",
+      "relevant": "anydoc为文档处理和内容提取提供了高效工具，对需要批量转换文档的开发者有实用价值。",
+      "source_text": "Fast Rust library that converts documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF) into clean GitHub-Flavored Markdown. Includes bindings for Node.js, Python, and the browser (WebAssembly). Built by Firecrawl to turn any office document into LLM-ready Markdown in single-digit milliseconds, with one consistent output no matter which format goes in. It powers Firecrawl Parse, so if you'd rather not run it yourself, the hosted API gives you the same conversion plus our OCR models for the scanned pages anydoc can't read on its own. Try it in your browser: the demo page runs the library as WebAssembly, so files are converted locally and never leave your machine. anydoc ships as an Agent Skill, so your agent can read any document it runs into: npx skills add firecrawl/anydoc The skill teaches the agent to convert documents with the anydoc CLI. Works with Claude Code, Codex, Cursor, OpenCode, and any other compatible agent. npx @firecrawl/anydoc report.docx # Markdown to stdout npx @firecrawl/anydoc slides.pptx -o slides.md # or to a file npx @firecrawl/anydoc - --format csv < data.csv # read stdin npx downloads the prebuilt binary for your platform on first run. For a permanent anydoc command, install globally with npm install -g @firecrawl/anydoc. Run anydoc --help for all options. npm install @firecrawl/anydocimport { toDocument, toMarkdown, toMarkdownBytes } from '@firecrawl/anydoc'; // From a file path: const markdown = await toMarkdown('report.docx'); // From bytes, with the format detected from the content: const fromBytes = await toMarkdownBytes(bytes); // Or name it, which signature-less formats (CSV) need: const fromCsv = await toMarkdownBytes(bytes, 'csv'); // Or stop at the document model, which also carries embedded assets: const document = await toDocument(bytes); Full API reference: node/README.md pip install firecrawl-anydocimport anydoc # From a file path: markdown = anydoc.to_markdown(\"report.docx\") # From bytes, with the format detected from the content: markdown = anydoc.to_markdown_bytes(data) # Or name it, which signature-less formats (CSV) need: markdown = anydoc.to_markdown_bytes(data, \"csv\") # Or stop at the document model, which also carries embedded assets: document = anydoc.to_document(data) Full API reference: python/README.md npm install @firecrawl/anydoc-wasmimport init, { toMarkdownBytes, toDocument } from '@firecrawl/anydoc-wasm'; await init(); // From bytes, with the format detected from the content: const",
+      "source_title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "source_url": "https://github.com/firecrawl/anydoc",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 5,
+      "title": "QM发布多人协作AI代理框架，专为工作场景设计",
+      "entities": [
+        {
+          "name": "QM",
+          "explain": "一个多人协作的AI代理框架，支持在Slack和Web上使用"
+        },
+        {
+          "name": "yc-software",
+          "explain": "开发QM的软件公司"
+        }
+      ],
+      "summary": "QM是一个为工作场景设计的多人协作AI代理框架，支持在Slack和Web上使用。与传统个人助理型AI代理不同，QM专为初创公司设计，每位员工拥有独立的工作空间，可独立工作互不影响，同时也能在频道、群组消息和项目中与代理协作。每个用户和房间都有独立的内存、文件和技能。",
+      "relevant": "QM代表了AI代理从个人助理向团队协作工具演进的新方向，对提升团队工作效率有潜在价值。",
+      "source_text": "A multiplayer agent harness for work. In Slack and on the web. Tell your coding agent of choice Let's deploy https://github.com/yc-software/qm. From here, it should follow the deployment guide in this repo. Most agents are designed like personal assistants. You can make one work for a whole company, but it quickly gets complex. QM is designed for startups. Employees each get their own isolated workspace and work independently without affecting each other, and they can also collaborate with the agent in channels, group messages, and projects. Each person and each room has its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox. It's built with open source in mind. Pick your own harness and model and switch between them — Pi, OpenCode, Codex, and Claude Code all drive the same core, so a deployment isn't tied to any single vendor. - Personal and shared scopes. People customize the agent to be theirs, and still work with it collaboratively in Slack channels and projects. - Slack and web. The same identity and configuration carries between Slack and the web app. - Admin control. Set org-level configuration, a security posture, and which harnesses and models are available. - Web apps. Spin up custom internal apps and publish them to the right people. - Shared skills. Skills are scope-owned and shareable by grant, with admin-gated promotion to the whole org and skill packs imported from git repositories. - Background work. Crons, watches, and inbound webhooks run work while nobody's watching. - Search internal notes, email, documents, databases, and the web together - Retrieve information from your company brain - Build internal apps, publish them to the right people, and keep their data current - Learn your writing voice from past sends, then triage your inbox on a schedule — labels and reply drafts included - Work in an existing repository: run tests, open PRs, monitor CI, check system logs - Track a project in a shared channel and post updates and follow-ups flowchart LR DB[(\"Postgres<br/>sessions · memory · queue\")] subgraph CORE[\"Headless core\"] API[\"API · identity · policy · scheduler\"] LOOP[\"Agent loop<br/>(Pi, OpenCode, Claude Code)\"] API <--> LOOP end SBX[\"Per-scope sandbox<br/>files · tools · logged-in services\"] DB <--> API LOOP <--> SBX Every turn runs through a central core, which can use a variety of models and harnesses to generate the response. A Postgres persistence layer holds user data, session history, a",
+      "source_title": "yc-software/qm - Multiplayer agent harness for work.",
+      "source_url": "https://github.com/yc-software/qm",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 7,
+      "title": "Comp AI发布开源CRM系统，专为AI代理设计",
+      "entities": [
+        {
+          "name": "Comp AI",
+          "explain": "开发开源CRM系统的公司"
+        },
+        {
+          "name": "CRM",
+          "explain": "客户关系管理系统，用于管理企业与客户的互动"
+        }
+      ],
+      "summary": "Comp AI发布了开源CRM系统，这是一个专为AI代理设计的'代理优先'客户关系管理平台。项目强调其'代理优先'的设计理念，旨在让AI代理能够更自然地使用CRM功能。该项目在GitHub上开源，并提供了快速开始指南。",
+      "relevant": "该CRM系统代表了AI代理在企业软件中的应用趋势，可能改变传统CRM的使用方式。",
+      "source_text": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. The agent · Stack · Quick start · Configuration · Deploying · Contributing Most CRMs are a database with a form in front of it. The AI ones bolt a chat box onto the side of that form. Both leave the actual work — finding out what is true, and writing it down — to a human who has better things to do. This is built the other way round. The agent is not a feature of the CRM; the CRM is where the agent keeps its notes. It runs on its own deployment, on its own schedule, against its own work queue. It decides what to look at next, books its own follow-ups, spends a research budget, and stops when the budget runs out. Nothing about it is request-response: close the browser and it keeps going. The rule the agent itself never breaks: nothing about a person is guessed. No tool accepts a confidence score, because a model asked to grade its own certainty will, and it will be wrong in the direction that makes it look useful. Tools report what they observed — crm.signature-block, github.account-identity — and a ledger prices the evidence. Strong evidence writes to the record. Weak evidence becomes a suggestion a human settles. A confidently wrong fact about a customer is worse than a blank field, because nobody can tell it is wrong. apps/agent is its own deployment, built on eve — Vercel's filesystem-first framework for durable agents. A tool is a file, a skill is a markdown file, a schedule is a file, and the runtime handles the durable part: sessions that survive a redeploy, work that resumes where it stopped. It runs itself. lib/tasks.ts is the work queue: claimDue leases rows with FOR UPDATE SKIP LOCKED, so two dispatchers take disjoint work and a run that dies frees its row when the lease expires. Anything that looks like \"every N minutes, the oldest ten contacts\" belongs in a task's dueAt, not in a cron expression. When the agent wants another look at somebody it calls schedule_recheck and says why — and the reason is shown to the rep, because an agent that cannot say why it will be back in fourteen days does not have a reason, it has a default. Every outside source is optional, and it is designed to run with none of them. With no API keys at all it still works: read_crm_history reads your own threads, meetings and signature blocks, which is free and is the best evidence there is — no data vendor can sell you a reply from the person's own address. Each key opens one more place to look. ",
+      "source_title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "source_url": "https://github.com/trycompai/crm",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 9,
+      "title": "MiniMax发布MiniMax-H3模型，提供API和视频平台",
+      "entities": [
+        {
+          "name": "MiniMax",
+          "explain": "中国AI公司，开发了Hailuo AI视频平台和多种AI模型"
+        },
+        {
+          "name": "MiniMax-H3",
+          "explain": "MiniMax发布的新一代AI模型，具体功能未详细说明"
+        },
+        {
+          "name": "Hailuo AI",
+          "explain": "MiniMax旗下的AI视频生成平台"
+        }
+      ],
+      "summary": "MiniMax在GitHub上发布了MiniMax-H3模型项目，提供了Hailuo AI视频平台、API文档和官方网站链接。虽然项目描述为空，但从提供的链接可以看出，该模型可能涉及文本生成和视频生成功能。MiniMax-H3的发布表明MiniMax在AI模型领域的持续投入。",
+      "relevant": "MiniMax-H3作为中国AI公司发布的新模型，可能对AI视频生成和文本生成领域产生影响。",
+      "source_text": "Install the H3 prompt writing skill — one of nine skills bundled with this repository: npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing It ships with two prompt guides under skills/h3-prompt-writing/references/: base-en.txt for text/keyframe modes and ref-en.txt for full-reference (Ref2VA) mode. Agent compatibility: h3-prompt-writing is a plain Markdown + reference-file skill with no external API calls, so it works in Claude Code, the Claude Agent SDK, Cursor, Windsurf, OpenAI-based agents/Codex, LangChain, or any other harness that can read a SKILL.md and local files. The bundled skills/h3-prompt-writing/agents/openai.yaml only adds optional UI metadata (display name, description, default prompt) for the ChatGPT/Codex skills UI, per OpenAI's skill spec — it does not limit the skill to OpenAI agents. The remaining eight are style-specific video generation skills built for the MiniMax Hub's canvas workflow (hub_generate_video, hub_generate_image, canvas nodes, choice cards, etc.) and are not portable to generic agent harnesses: Use MiniMax-H3 directly via API. - Global: platform.minimax.io | CN: platform.minimaxi.com Use MiniMax-H3 directly via App. - WebApp Global: hailuoai.video | CN: hailuoai.com - Desktop Global: hub.minimax.io | CN: hub.minimaxi.com MiniMax H3 is a general-purpose, omni-modal generative system. It supports unified understanding of multimodal contexts composed of text, images, video, and audio, and can generate video with native stereo audio at resolutions up to 2K and durations of up to 15 seconds. Thanks to its task-generalization-oriented system design, H3 already possesses broad multimodal context understanding and generation capabilities at the pre-training stage, enabling outstanding performance in following complex multimodal instructions. H3 supports the following input and output specifications: The complete H3 system consists of the following three modules: - H3-Context-IR: As inputs become increasingly complex, we build a dedicated system to deeply understand and refine the input multimodal instructions, then convert them into a form that H3 can readily understand—the Context Intermediate Representation—for generation. H3-Context-IR is critical to the quality of the final output, so we strongly recommend incorporating it into your generation pipeline or following the “Prompting Guidance” to build your own context-processing system. - H3-Base: Generates audio and video based on the H3-Context-I",
+      "source_title": "MiniMax-AI/MiniMax-H3 - 无描述",
+      "source_url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 6,
+      "title": "GitHub 出现 DeepSeek Harness 插件精选列表，汇总各类扩展插件",
+      "entities": [
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek 推出的开源智能体框架，可运行编码智能体，所有功能均以插件形式扩展"
+        },
+        {
+          "name": "awesome-dsh-plugin",
+          "explain": "一个 GitHub 仓库，专门收集和整理 DeepSeek Harness 的优质插件"
+        }
+      ],
+      "summary": "GitHub 上出现名为 awesome-dsh-plugin 的精选列表，专门收录 DeepSeek Harness 的插件。DeepSeek Harness 是 DeepSeek 的开源智能体框架，其设计理念是万物皆插件，包括模型、工具、沙箱、会话存储、UI 甚至智能体循环本身。该列表为开发者提供了发现和选择插件的便捷入口，有助于扩展和定制编码智能体的功能。",
+      "relevant": "对于使用或计划使用 DeepSeek Harness 的开发者，该列表是快速了解生态和寻找所需插件的重要资源，能显著降低插件发现成本。",
       "source_text": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表。# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
       "source_title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
       "source_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
@@ -341,135 +462,26 @@
     },
     {
       "item_id": 10,
-      "title": "开发者发布 dsh-routing-suite，为 DeepSeek Harness 提供运行时注入器和思维模式路由",
+      "title": "dsh-routing-suite 发布：为 DeepSeek Harness 提供运行时注入器和思维模式路由预设",
       "entities": [
         {
           "name": "dsh-routing-suite",
-          "explain": "一个为 DeepSeek Harness 设计的插件套装，包含注入器和思维模式路由预设"
+          "explain": "一个 GitHub 仓库，包含运行时注入器和任务感知思维模式路由预设，用于增强 DeepSeek Harness"
         },
         {
-          "name": "DeepSeek Harness (dsh)",
-          "explain": "DeepSeek 的开源智能体框架，万物皆插件"
+          "name": "注入器",
+          "explain": "一种插件，可在不重启的情况下修改运行时管理层，实现动态配置"
+        },
+        {
+          "name": "router-standard",
+          "explain": "一种预设配置，可根据任务类型自动选择推理模式，实测覆盖 P1-P23 场景"
         }
       ],
-      "summary": "开发者 yjh051108 发布了 dsh-routing-suite，包含运行时注入器和任务感知思维模式路由预设，支持 P1-P23 实测。提供一键安装脚本，支持 Windows 环境，可免重启运行时管理层。",
-      "relevant": "为 DeepSeek Harness 提供了高级定制能力，展示了插件生态的深度。",
+      "summary": "dsh-routing-suite 是一个集成了运行时注入器和思维模式路由预设的仓库。用户需先安装注入器，再装配 router-standard 预设，即可实现任务感知的推理模式路由。安装过程提供一键脚本或手动步骤，支持 Windows 环境，旨在提升 DeepSeek Harness 的灵活性和任务适配能力。",
+      "relevant": "该工具为 DeepSeek Harness 用户提供了一种无需重启即可动态调整运行时和自动选择推理模式的方案，有助于优化智能体在不同任务下的表现。",
       "source_text": "一个仓库装齐「运行时手术台 + 思维模式路由预设」：先装注入器（免重启运行时管理层）， 再用它装配 router-standard 预设（任务感知思维模式路由，P1-P23 实测）。 # 1. 拉套装（单仓库：injector/preset 内容已直接入库，无需 submodule） git clone https://github.com/yjh051108/dsh-routing-suite.git cd dsh-routing-suite # 2. 一键安装（注入器装配 + 预设复制 + 布局自检 + 提示重启） .\\install.ps1 或手动： # 步骤 1：装配注入器（官方装配，重启后由 bundles 接管） dsh plugin --profile web add .\\injector # dsh 不在 PATH 时：npx '@deepseek-ai/dsh' plugin --profile web add .\\injector # 步骤 2：安装 router 预设（每个预设目录平铺复制到 .agent-presets 下，DSH 只扫一级子目录） $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-standard' Copy-Item -Recurse .\\preset\\router-standard $target $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-spec' Copy-Item -Recurse .\\preset\\router-spec $target # 步骤 3：重启 DSH → 新会话选择 Router Standard / Router Spec (experimental) 注意：不要复制 preset 整目录（会多套一层，DSH 发现不了预设）。 版本号以各组件仓库的 git tag 为准（列内链接直达对应 Release）。 两个组件随本仓库统一演进（injector/ 与 preset/ 已是仓库内普通目录，内容直接入库）；上游独立仓库 dsh-super-injector / dsh-router-standard 保留用于独立发布，后续可转镜像/归档。预设安装目录为 preset/router-standard（已平铺，无额外嵌套）。 - 三行为带 + weak 内路由：spec（计划-集体）/ react（执行者）/ mixed（陷阱，回避）/ weak（模型自分类） - 按模型选 persona：Pro=spec 句+few-shot（区分度 +5.0）；Flash=neutral+classify（+5.7） - 近距离引导：每轮用户消息后注入固定引导（缓存 92-94% 命中），路由 96% + 收敛 100% + 反稀释 - 单任务三锚（persona 静态）：回顾 + 收敛 + 反跑题 —— 开放任务完成率 0% → 100% - plan-mode 保留：只替换 persona section，plan 边界不失忆 - AI 自优化工具：dev_router_status /dev_router_mode /dev_mode_subagent - 首轮路由真实生效（#13）：经 agent/inbox/claimed 在装配前捕获首条真实用户消息，首个请求即按任务分类（此前所有会话首轮无条件 weak） - 近距离引导改走 agent/pre-step （#34/#36/#55）：引导与用户消息同请求注入，真实链路上可达，且不再产生额外的第二次 API 调用（此前每轮多 1 次调用 = 费用 2×） - 缺导入修复（#11）、preset.yml YAML 引号（#53）、promoted 后完整回归（#44）、安装脚本与文档修正（#35/#42/#41）、injector git 装配自动构建（#40） - 注入器引导（规范铁律 10 条）：injector/README.md - 路由预设论文与实验：preset/docs/paper.md +preset/docs/experiments.md （P1-P23） - 仓库结构迁移（submodule → 直接文件）：docs/FLATTEN-MIGRATION.md MIT。致谢：xiaobright/modeltest（V4.1b 评测）、xiaobright/dsh-anchored-standard（锚定机制）。",
       "source_title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
       "source_url": "https://github.com/yjh051108/dsh-routing-suite",
-      "source_name": "GitHub Trending",
-      "group": "community"
-    },
-    {
-      "item_id": 4,
-      "title": "开源工具 watermarks-remover 可去除多种 AI 水印和元数据",
-      "entities": [
-        {
-          "name": "watermarks-remover",
-          "explain": "一个开源工具，用于去除 AI 生成内容中的水印和元数据"
-        },
-        {
-          "name": "C2PA",
-          "explain": "一种内容来源认证标准，用于追踪数字内容的来源和编辑历史"
-        }
-      ],
-      "summary": "watermarks-remover 是一个开源工具，可以去除多种 AI 生成内容的水印，包括 Unicode 文本水印、统计重写钩子，以及 PNG/JPEG/SVG/PDF/DOCX/HTML/MD 等格式中的 C2PA 元数据。",
-      "relevant": "涉及 AI 内容溯源和版权保护问题，可能引发关于 AI 内容监管的讨论。",
-      "source_text": "_ _ _ ____ ___ ____ ____ _ _ ____ ____ _ _ ____ ____ ____ _ _ ____ _ _ ____ ____ | | | |__| | |___ |__/ |\\/| |__| |__/ |_/ [__ __ |__/ |___ |\\/| | | | | |___ |__/ |_|_| | | | |___ | \\ | | | | | \\ | \\_ ___] | \\ |___ | | |__| \\/ |___ | \\ Agent skill + stdlib Python service to strip multi-vendor AI provenance marks from text and files — for privacy and hygiene on content you own. The skill is a thin client: it drives the machinery over HTTP, so the agent host needs no Python. Vendors / ecosystems (class-level): Claude, Gemini / SynthID-Text, OpenAI provenance surfaces, open-LLM Kirchenbauer-style (green-list) and keyed-Gumbel / EXP (Aaronson) marks. Latest release: v0.5.0 Skill path: skills/remove-ai-marks/ Service path: service/ (migration: formerly remove-claude-marks; slash alias /remove-claude-marks still documented) The skill ships no code — it calls the service over HTTP. Install the skill (markdown only) and start the service, then set WATERMARKS_SERVICE_URL if it is not http://127.0.0.1:8765. In Claude Code, the fastest route is the bundled plugin marketplace — no clone, and it updates in place. Everywhere else, one installer covers every supported host (Python 3.10+ stdlib, no dependencies): python3 install_skill.py --skill remove-ai-marks --target claude-code Shipped skills: remove-ai-marks (full, service-backed) and clean-user-facing-text (text only, self-contained). --list prints them. Existing installations are preserved unless you pass --force; replacement is staged first and the previous install is kept as a uniquely named backup. --link symlinks this checkout instead of copying, so edits are picked up live. On Windows, use py install_skill.py ...; the install-skill.sh wrapper is provided for macOS/Linux shells. Before writing anything, the installer validates the skill against the Agent Skills packaging rules that claude.ai uploads and the Skills API enforce: spec-only frontmatter (name, description, license, compatibility, metadata, allowed-tools), a lowercase hyphenated name of at most 64 characters matching the directory, a non-empty description of at most 1024 characters. The Cowork bundle additionally has to fit the 30 MB upload limit, which the packager enforces. A skill is an instruction: the model decides whether to invoke it, and the model is the thing producing the marks. A hook is executed by the harness on every matching tool call, cooperation not required. That makes the hook the deterministic half of this workflow. The plugin reg",
-      "source_title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-      "source_url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "source_name": "GitHub Trending",
-      "group": "community"
-    },
-    {
-      "item_id": 7,
-      "title": "Comp AI 发布开源 CRM，专为 AI 智能体设计",
-      "entities": [
-        {
-          "name": "Comp AI CRM",
-          "explain": "一个开源 CRM 系统，专为 AI 智能体设计，采用 Agentic-first 理念"
-        },
-        {
-          "name": "CRM",
-          "explain": "客户关系管理系统，用于管理企业与客户的互动"
-        }
-      ],
-      "summary": "Comp AI 发布了开源 CRM 系统，专为 AI 智能体设计，采用 Agentic-first 理念。该项目在 GitHub 上受到关注，提供了完整的 CRM 功能，并针对 AI 智能体的工作方式进行了优化。",
-      "relevant": "代表了 CRM 系统向 AI 智能体方向发展的新趋势，对企业软件领域有参考意义。",
-      "source_text": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. The agent · Stack · Quick start · Configuration · Deploying · Contributing Most CRMs are a database with a form in front of it. The AI ones bolt a chat box onto the side of that form. Both leave the actual work — finding out what is true, and writing it down — to a human who has better things to do. This is built the other way round. The agent is not a feature of the CRM; the CRM is where the agent keeps its notes. It runs on its own deployment, on its own schedule, against its own work queue. It decides what to look at next, books its own follow-ups, spends a research budget, and stops when the budget runs out. Nothing about it is request-response: close the browser and it keeps going. The rule the agent itself never breaks: nothing about a person is guessed. No tool accepts a confidence score, because a model asked to grade its own certainty will, and it will be wrong in the direction that makes it look useful. Tools report what they observed — crm.signature-block, github.account-identity — and a ledger prices the evidence. Strong evidence writes to the record. Weak evidence becomes a suggestion a human settles. A confidently wrong fact about a customer is worse than a blank field, because nobody can tell it is wrong. apps/agent is its own deployment, built on eve — Vercel's filesystem-first framework for durable agents. A tool is a file, a skill is a markdown file, a schedule is a file, and the runtime handles the durable part: sessions that survive a redeploy, work that resumes where it stopped. It runs itself. lib/tasks.ts is the work queue: claimDue leases rows with FOR UPDATE SKIP LOCKED, so two dispatchers take disjoint work and a run that dies frees its row when the lease expires. Anything that looks like \"every N minutes, the oldest ten contacts\" belongs in a task's dueAt, not in a cron expression. When the agent wants another look at somebody it calls schedule_recheck and says why — and the reason is shown to the rep, because an agent that cannot say why it will be back in fourteen days does not have a reason, it has a default. Every outside source is optional, and it is designed to run with none of them. With no API keys at all it still works: read_crm_history reads your own threads, meetings and signature blocks, which is free and is the best evidence there is — no data vendor can sell you a reply from the person's own address. Each key opens one more place to look. ",
-      "source_title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-      "source_url": "https://github.com/trycompai/crm",
-      "source_name": "GitHub Trending",
-      "group": "community"
-    },
-    {
-      "item_id": 5,
-      "title": "YC Software 发布 QM，面向初创企业的多人智能体协作平台",
-      "entities": [
-        {
-          "name": "QM",
-          "explain": "一个多人智能体协作平台，支持在 Slack 和 Web 上使用"
-        },
-        {
-          "name": "YC Software",
-          "explain": "一个软件公司，发布了 QM 项目"
-        }
-      ],
-      "summary": "YC Software 发布了 QM，一个面向初创企业的多人智能体协作平台。每个员工拥有独立工作空间，可互不干扰地工作，同时支持在频道、群组消息和项目中与智能体协作。",
-      "relevant": "展示了智能体从个人助手向团队协作工具演进的趋势，对初创企业有参考价值。",
-      "source_text": "A multiplayer agent harness for work. In Slack and on the web. Tell your coding agent of choice Let's deploy https://github.com/yc-software/qm. From here, it should follow the deployment guide in this repo. Most agents are designed like personal assistants. You can make one work for a whole company, but it quickly gets complex. QM is designed for startups. Employees each get their own isolated workspace and work independently without affecting each other, and they can also collaborate with the agent in channels, group messages, and projects. Each person and each room has its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox. It's built with open source in mind. Pick your own harness and model and switch between them — Pi, OpenCode, Codex, and Claude Code all drive the same core, so a deployment isn't tied to any single vendor. - Personal and shared scopes. People customize the agent to be theirs, and still work with it collaboratively in Slack channels and projects. - Slack and web. The same identity and configuration carries between Slack and the web app. - Admin control. Set org-level configuration, a security posture, and which harnesses and models are available. - Web apps. Spin up custom internal apps and publish them to the right people. - Shared skills. Skills are scope-owned and shareable by grant, with admin-gated promotion to the whole org and skill packs imported from git repositories. - Background work. Crons, watches, and inbound webhooks run work while nobody's watching. - Search internal notes, email, documents, databases, and the web together - Retrieve information from your company brain - Build internal apps, publish them to the right people, and keep their data current - Learn your writing voice from past sends, then triage your inbox on a schedule — labels and reply drafts included - Work in an existing repository: run tests, open PRs, monitor CI, check system logs - Track a project in a shared channel and post updates and follow-ups flowchart LR DB[(\"Postgres<br/>sessions · memory · queue\")] subgraph CORE[\"Headless core\"] API[\"API · identity · policy · scheduler\"] LOOP[\"Agent loop<br/>(Pi, OpenCode, Claude Code)\"] API <--> LOOP end SBX[\"Per-scope sandbox<br/>files · tools · logged-in services\"] DB <--> API LOOP <--> SBX Every turn runs through a central core, which can use a variety of models and harnesses to generate the response. A Postgres persistence layer holds user data, session history, a",
-      "source_title": "yc-software/qm - Multiplayer agent harness for work.",
-      "source_url": "https://github.com/yc-software/qm",
-      "source_name": "GitHub Trending",
-      "group": "community"
-    },
-    {
-      "item_id": 9,
-      "title": "MiniMax发布开源模型MiniMax-H3，但仓库缺乏详细描述",
-      "entities": [
-        {
-          "name": "MiniMax",
-          "explain": "中国人工智能公司，开发大语言模型和AI视频生成技术，旗下有海螺AI等产品"
-        },
-        {
-          "name": "MiniMax-H3",
-          "explain": "MiniMax发布的新一代AI模型，具体技术细节未在仓库中说明"
-        }
-      ],
-      "summary": "MiniMax公司在GitHub上发布了名为MiniMax-H3的新模型仓库，但仓库中仅包含品牌宣传内容，没有提供模型的技术文档或使用说明。该仓库关联了海螺AI视频平台和MiniMax API服务，暗示H3可能是一个多模态模型，但具体能力和应用场景尚不明确。",
-      "relevant": "MiniMax是国内头部AI公司，其新模型发布可能影响大模型竞争格局，但信息不完整，需关注后续更新",
-      "source_text": "Install the H3 prompt writing skill — one of nine skills bundled with this repository: npx skills add https://github.com/MiniMax-AI/MiniMax-H3 --skill h3-prompt-writing It ships with two prompt guides under skills/h3-prompt-writing/references/: base-en.txt for text/keyframe modes and ref-en.txt for full-reference (Ref2VA) mode. Agent compatibility: h3-prompt-writing is a plain Markdown + reference-file skill with no external API calls, so it works in Claude Code, the Claude Agent SDK, Cursor, Windsurf, OpenAI-based agents/Codex, LangChain, or any other harness that can read a SKILL.md and local files. The bundled skills/h3-prompt-writing/agents/openai.yaml only adds optional UI metadata (display name, description, default prompt) for the ChatGPT/Codex skills UI, per OpenAI's skill spec — it does not limit the skill to OpenAI agents. The remaining eight are style-specific video generation skills built for the MiniMax Hub's canvas workflow (hub_generate_video, hub_generate_image, canvas nodes, choice cards, etc.) and are not portable to generic agent harnesses: Use MiniMax-H3 directly via API. - Global: platform.minimax.io | CN: platform.minimaxi.com Use MiniMax-H3 directly via App. - WebApp Global: hailuoai.video | CN: hailuoai.com - Desktop Global: hub.minimax.io | CN: hub.minimaxi.com MiniMax H3 is a general-purpose, omni-modal generative system. It supports unified understanding of multimodal contexts composed of text, images, video, and audio, and can generate video with native stereo audio at resolutions up to 2K and durations of up to 15 seconds. Thanks to its task-generalization-oriented system design, H3 already possesses broad multimodal context understanding and generation capabilities at the pre-training stage, enabling outstanding performance in following complex multimodal instructions. H3 supports the following input and output specifications: The complete H3 system consists of the following three modules: - H3-Context-IR: As inputs become increasingly complex, we build a dedicated system to deeply understand and refine the input multimodal instructions, then convert them into a form that H3 can readily understand—the Context Intermediate Representation—for generation. H3-Context-IR is critical to the quality of the final output, so we strongly recommend incorporating it into your generation pipeline or following the “Prompting Guidance” to build your own context-processing system. - H3-Base: Generates audio and video based on the H3-Context-I",
-      "source_title": "MiniMax-AI/MiniMax-H3 - 无描述",
-      "source_url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "source_name": "GitHub Trending",
-      "group": "community"
-    },
-    {
-      "item_id": 3,
-      "title": "Firecrawl发布anydoc：用Rust构建的高性能文档转Markdown工具",
-      "entities": [
-        {
-          "name": "Firecrawl",
-          "explain": "一家提供网页抓取和文档转换服务的AI基础设施公司"
-        },
-        {
-          "name": "anydoc",
-          "explain": "一个开源库，可将多种办公文档格式转换为Markdown，支持Word、PDF、Excel等"
-        },
-        {
-          "name": "Rust",
-          "explain": "一种以性能和安全性著称的系统编程语言"
-        },
-        {
-          "name": "Markdown",
-          "explain": "一种轻量级标记语言，常用于编写文档和网页内容"
-        }
-      ],
-      "summary": "Firecrawl发布了开源项目anydoc，这是一个用Rust编写的高性能文档转换库，支持将Word、PowerPoint、Excel、PDF等常见办公格式转换为GitHub风格的Markdown。项目提供Node.js、Python和浏览器WebAssembly绑定，方便开发者在不同环境中使用。",
-      "relevant": "该工具解决了AI应用中文档预处理的关键痛点，可帮助开发者将非结构化文档转换为AI友好的文本格式",
-      "source_text": "Fast Rust library that converts documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF) into clean GitHub-Flavored Markdown. Includes bindings for Node.js, Python, and the browser (WebAssembly). Built by Firecrawl to turn any office document into LLM-ready Markdown in single-digit milliseconds, with one consistent output no matter which format goes in. It powers Firecrawl Parse, so if you'd rather not run it yourself, the hosted API gives you the same conversion plus our OCR models for the scanned pages anydoc can't read on its own. Try it in your browser: the demo page runs the library as WebAssembly, so files are converted locally and never leave your machine. anydoc ships as an Agent Skill, so your agent can read any document it runs into: npx skills add firecrawl/anydoc The skill teaches the agent to convert documents with the anydoc CLI. Works with Claude Code, Codex, Cursor, OpenCode, and any other compatible agent. npx @firecrawl/anydoc report.docx # Markdown to stdout npx @firecrawl/anydoc slides.pptx -o slides.md # or to a file npx @firecrawl/anydoc - --format csv < data.csv # read stdin npx downloads the prebuilt binary for your platform on first run. For a permanent anydoc command, install globally with npm install -g @firecrawl/anydoc. Run anydoc --help for all options. npm install @firecrawl/anydocimport { toDocument, toMarkdown, toMarkdownBytes } from '@firecrawl/anydoc'; // From a file path: const markdown = await toMarkdown('report.docx'); // From bytes, with the format detected from the content: const fromBytes = await toMarkdownBytes(bytes); // Or name it, which signature-less formats (CSV) need: const fromCsv = await toMarkdownBytes(bytes, 'csv'); // Or stop at the document model, which also carries embedded assets: const document = await toDocument(bytes); Full API reference: node/README.md pip install firecrawl-anydocimport anydoc # From a file path: markdown = anydoc.to_markdown(\"report.docx\") # From bytes, with the format detected from the content: markdown = anydoc.to_markdown_bytes(data) # Or name it, which signature-less formats (CSV) need: markdown = anydoc.to_markdown_bytes(data, \"csv\") # Or stop at the document model, which also carries embedded assets: document = anydoc.to_document(data) Full API reference: python/README.md npm install @firecrawl/anydoc-wasmimport init, { toMarkdownBytes, toDocument } from '@firecrawl/anydoc-wasm'; await init(); // From bytes, with the format detected from the content: const",
-      "source_title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "source_url": "https://github.com/firecrawl/anydoc",
       "source_name": "GitHub Trending",
       "group": "community"
     }
@@ -851,6 +863,86 @@
       "group": "community"
     },
     {
+      "id": "gh_ai_1331135699",
+      "source": "GitHub AI项目",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1316527318",
+      "source": "GitHub AI项目",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "# qm\n\nA multiplayer agent harness for work. In Slack and on the web.\n\n![The QM web UI: two concurrent sessions, a sidebar of personal files, crons, keychain, deploys, memory, and skills](./docs/screenshots/web-ui-hero.png)\n\n## Setup\n\nTell your coding agent of choice `Let's deploy https://github.com/yc-software/qm`. From here, it should follow the deployment guide in this repo.\n\n## What is QM?\n\nMost agents are designed like personal assistants. You can make one work for a whole\ncompany, but it quickly gets complex. QM is designed for startups. Employees each get\ntheir own isolated workspace and work independently without affecting each other, and\nthey can also collaborate with the agent in channels, group messages, and projects.\n\nEach person and each room has its own scoped memory, files, k",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1318768894",
+      "source": "GitHub AI项目",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "<p align=\"center\">\n  <a href=\"https://link.context.dev/crm\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/images/powered-by-context-dark.png\">\n      <img alt=\"Powered by Context\" height=\"23\" src=\"./docs/images/powered-by-context.png\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <img alt=\"stars\" height=\"21\" src=\"https://afterglow.watch/badge/trycompai/crm\">\n</p>\n\n<h1 align=\"center\">CRM</h1>\n\n<p align=\"center\">\n  <strong>Comp AI CRM is an open source, CRM designed for AI agents.</strong><br>\n  Agentic-first CRM.\n</p>\n\n<p align=\"center\">\n  <a href=\"#the-agent\"><strong>The agent</strong></a> ·\n  <a href=\"#the-stack\"><strong>Stack</strong></a> ·\n  <a href=\"#quick-start\"><strong>Quick start</strong></a> ·\n  <a href=\"#configuration\"><strong>Configuration</s",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1318187016",
+      "source": "GitHub AI项目",
+      "title": "genspark-ai/genoffice - Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "summary": "# GenOffice\n\n**The world's first full-featured open-source AI Office suite.**\n\n[![License: Apache-2.0](https://img.shields.io/github/license/genspark-ai/genoffice)](LICENSE)\n[![Latest release](https://img.shields.io/github/v/release/genspark-ai/genoffice)](https://github.com/genspark-ai/genoffice/releases/latest)\n[![Downloads](https://img.shields.io/github/downloads/genspark-ai/genoffice/total)](https://github.com/genspark-ai/genoffice/releases)\n\n[Website](https://genoffice.ai/) · [Download](https://github.com/genspark-ai/genoffice/releases/latest) · [Privacy](PRIVACY.md) · [Demo](https://www.youtube.com/watch?v=B2pLdMX95v4)\n\nGenOffice is a free, open-source alternative to Microsoft Office for macOS,\nWindows, and Linux, built around AI editing as a first-class workflow rather\nthan a bolted",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1319154759",
+      "source": "GitHub AI项目",
+      "title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "summary": "<div align=\"center\">\n\n<h1>kimi-k3-in-c</h1>\n\n<h3>A 2.78-trillion-parameter model. One CPU. 8 GB of RAM.</h3>\n\n<p>Kimi K3 inference in portable C99.<br>No BLAS. No framework. No GPU.</p>\n\n<p>\n<a href=\"https://github.com/FareedKhan-dev/kimi-k3-in-c/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/FareedKhan-dev/kimi-k3-in-c/ci.yml?branch=main&style=flat-square&label=CI\" alt=\"CI\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square\" alt=\"License\"></a>\n<a href=\"Makefile\"><img src=\"https://img.shields.io/badge/C99-portable-lightgrey?style=flat-square\" alt=\"C99\"></a>\n<a href=\"#requirements\"><img src=\"https://img.shields.io/badge/platform-Linux%20x86--64-lightgrey?style=flat-square\" alt=\"Platform\"></a>\n<a",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1329272295",
+      "source": "GitHub AI项目",
+      "title": "Leonxlnx/unlazy - Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "summary": "<div align=\"center\">\n\n# unlazy\n\n**Completion discipline for substantial AI-agent work, backed by runnable gates.**\n\nWrite the acceptance ledger first. Execute reviewed checks. Reverify returned work. Report only what the evidence supports.\n\n[Quick start](#quick-start) | [Gate contract](#the-gate-contract) | [Orchestration](#orchestration-and-parallel-work) | [Security](#security-boundary) | [Research](#research-basis)\n\n</div>\n\n## Version status\n\nThe current source targets `2.1.0`. It is not identified here as a tagged GitHub release. Pin an exact commit when you need an immutable installation. See [CHANGELOG.md](CHANGELOG.md) for the unreleased change set.\n\n## Install\n\nUse the [skills CLI](https://github.com/vercel-labs/skills) for supported agents:\n\n```text\nnpx skills add Leonxlnx/unlazy\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1322651268",
+      "source": "GitHub AI项目",
+      "title": "fuxicodex/Fuxi - FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+      "url": "https://github.com/fuxicodex/Fuxi",
+      "summary": "# FuXi\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![GitHub stars](https://img.shields.io/github/stars/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=stars)](https://github.com/fuxicodex/Fuxi/stargazers)\n[![Release](https://img.shields.io/github/v/release/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=release)](https://github.com/fuxicodex/Fuxi/releases)\n[![Last commit](https://img.shields.io/github/last-commit/fuxicodex/Fuxi?style=flat-square&color=0a6fe7)](https://github.com/fuxicodex/Fuxi/commits/main)\n[![License](https://img.shields.io/badge/license-Proprietary-0a6fe7?style=flat-square)](LICENSE)\n\n> **An AI coding agent that lives in your terminal.**\n\nFuXi is a fast, self-contained **terminal AI coding agent** — read code, edit\nfiles, run commands, and drive tools from ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1332781509",
+      "source": "GitHub AI项目",
+      "title": "elie222/rakazo - Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "summary": "# Rakazo\n\n[![GitHub stars](https://img.shields.io/github/stars/elie222/rakazo?labelColor=black&style=for-the-badge&color=2563EB)](https://github.com/elie222/rakazo/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?labelColor=black&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RWwKa2Sn7h)\n\n![Rakazo — AI teammates you actually own](./docs/readme-hero.png)\n\nRakazo is an open-source platform for running persistent AI teammates. It is available on the web,\nas an Electron desktop app, and through an Expo mobile app. Bring your own model and computer\nprovider, or run the complete stack locally.\n\nRakazo is in beta. Learn more at [rakazo.com](https://rakazo.com).\n\n## Features\n\n- Persistent bots with their own conversations, memory, ro",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1338470635",
+      "source": "GitHub AI项目",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336502227",
+      "source": "GitHub AI项目",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "<div align=\"center\">\n\n# OpenBot\n\n**AI coworkers you can hand real work to, and actually trust with the access.** Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after.\n\n[**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Features**](#features) · [**Bring your own agent**](#bring-your-own-agent) · [**Architecture**](#architecture) · [**Docs**](docs/README.md)\n\n[![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml)\n[![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotK",
+      "group": "community"
+    },
+    {
       "id": "devto_4476163",
       "source": "Dev.to",
       "title": "The Model Scored 30%. The Harness Scored 100%. Which One Did You Benchmark?",
@@ -1037,17 +1129,17 @@
       "summary": ""
     },
     {
+      "id": "hn_49428882",
+      "source": "Hacker News",
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "summary": ""
+    },
+    {
       "id": "hn_49425800",
       "source": "Hacker News",
       "title": "Vintage Artificial Intelligence: Before It Got Awkward",
       "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
-      "summary": ""
-    },
-    {
-      "id": "hn_49428318",
-      "source": "Hacker News",
-      "title": "Thomson Reuters Launches Its Own Frontier Model",
-      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
       "summary": ""
     },
     {
@@ -1072,19 +1164,19 @@
       "summary": ""
     },
     {
+      "id": "hn_49428318",
+      "source": "Hacker News",
+      "title": "Thomson Reuters Launches Its Own Frontier Model",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "summary": ""
+    },
+    {
       "id": "hn_49424387",
       "source": "Hacker News",
       "title": "LLMs could control their host machines by exploiting inference engines",
       "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
       "summary": ""
-    },
-    {
-      "id": "hn_49421489",
-      "source": "Hacker News",
-      "title": "IPFS Maintainers Winding Down",
-      "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
-      "summary": ""
     }
   ],
-  "generated_at": "2026-08-25 12:03"
+  "generated_at": "2026-08-25 12:15"
 }
