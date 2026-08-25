@@ -593,34 +593,38 @@ def fetch_github_trending(days: int = 7) -> list[dict]:
 
 
 def fetch_github_ai() -> list[dict]:
-    """AI 使用相关的快速增星项目（社区脉搏）：关键词 ai/llm/agent/mcp/gpt/claude/rag"""
+    """AI 使用相关的快速增星项目（社区脉搏）：多关键词分别查询后合并去重，绕开 GitHub OR 语法限制"""
     items = []
     seen_ids = set()
     try:
         since = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-        resp = _session.get(
-            "https://api.github.com/search/repositories",
-            params={
-                "q": f"created:>{since} stars:>500 (ai OR llm OR agent OR mcp OR gpt OR claude OR rag)",
-                "sort": "stars", "order": "desc", "per_page": 10,
-            },
-            timeout=15,
-            headers=_github_headers(),
-        )
-        if resp.status_code != 200:
-            log(f"  GitHub AI项目: {resp.status_code}")
-            return items
-        repos = resp.json().get("items", [])
+        keywords = ["ai", "llm", "agent", "mcp", "gpt", "claude", "rag"]
+        fetched = []  # (repo, keyword)
+        for kw in keywords:
+            resp = _session.get(
+                "https://api.github.com/search/repositories",
+                params={
+                    "q": f"created:>{since} stars:>500 {kw}",
+                    "sort": "stars", "order": "desc", "per_page": 4,
+                },
+                timeout=15,
+                headers=_github_headers(),
+            )
+            if resp.status_code != 200:
+                log(f"  GitHub AI项目({kw}): {resp.status_code}")
+                continue
+            for repo in resp.json().get("items", []):
+                if repo["id"] not in seen_ids:
+                    seen_ids.add(repo["id"])
+                    fetched.append(repo)
+            if len(fetched) >= 10:
+                break
         def build_one(repo):
-            rid = repo["id"]
-            if rid in seen_ids:
-                return None
-            seen_ids.add(rid)
             full_name = repo["full_name"]
             readme = _fetch_repo_readme(full_name)
             summary = readme or f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}"
             return {
-                "id": f"gh_ai_{rid}",
+                "id": f"gh_ai_{repo['id']}",
                 "source": "GitHub AI项目",
                 "title": f"{full_name} - {repo.get('description', '') or '无描述'}",
                 "url": repo["html_url"],
@@ -628,7 +632,7 @@ def fetch_github_ai() -> list[dict]:
                 "group": "community",
             }
         with ThreadPoolExecutor(max_workers=6) as pool:
-            results = list(pool.map(build_one, repos))
+            results = list(pool.map(build_one, fetched[:10]))
         items = [r for r in results if r]
         log(f"  GitHub AI项目: {len(items)} 条")
     except Exception as e:
