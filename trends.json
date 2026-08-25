@@ -1363,5 +1363,26 @@
     "evidence": "MS Paint/Photos对本地AI处理图片嵌入GUID水印，社区出现去除工具",
     "grassroots": "HN用户反馈被误标记'AI生成'，有用户因此转向Paint.net",
     "date": "2026-08-25"
+  },
+  {
+    "theme": "Agent Harness成为AI竞争主战场",
+    "importance": 5,
+    "evidence": "DeepSeek开源DSH、OpenAI GPT-5.6进Kiro、NVIDIA Vera Rubin针对Agent优化、HN热议harness分数虚高",
+    "grassroots": "开发者开始比较不同harness的实际效果，有人质疑'测的是模型还是框架'",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "AI内容溯源与隐私博弈加剧",
+    "importance": 4,
+    "evidence": "微软Paint/Photos隐形水印曝光，GitHub出现水印移除工具",
+    "grassroots": "用户反馈被误标为AI生成，隐私派与溯源派激烈争论",
+    "date": "2026-08-25"
+  },
+  {
+    "theme": "开源模型进入'超大参数+边缘部署'双轨",
+    "importance": 4,
+    "evidence": "Kimi K3（2.78万亿参数）开源，社区用C99在单CPU 8GB内存跑推理",
+    "grassroots": "开发者惊叹'2.78万亿参数在8GB内存跑'，但质疑实际速度",
+    "date": "2026-08-25"
   }
 ]
