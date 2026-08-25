@@ -1279,7 +1279,10 @@ def _gen_cards_for_batch(ranked_batch: list) -> list:
   "title": "一句话标题，说清楚发生了什么",
   "entities": [{"name": "公司/人物/术语名", "explain": "一句话通俗解释它是什么"}],
   "summary": "2-4句核心摘要，50-150字，说清事件本身和结果",
-  "relevant": "这条新闻为什么值得关注（可为空字符串）"
+  "relevant": "这条新闻为什么值得关注（可为空字符串）",
+  "context": "事件前提：发生了什么、为什么发生、背景是什么（1-2句）",
+  "source_analysis": "信源背景：这条消息是谁报道的、报道方的立场倾向（可为空字符串）",
+  "social_impact": "社会观察：事件涉及的数据、影响范围（可为空字符串）"
 }]
 
 要求：
@@ -1288,6 +1291,8 @@ def _gen_cards_for_batch(ranked_batch: list) -> list:
 - 关键实体必须自动识别并解释，不得出现"某公司"而不说明它是什么
 - 解释要通俗，面向不了解该领域的读者
 - 摘要保持信息密度，不要废话套话
+- context 字段必须交代清楚事件的前提（发生了什么、为什么发生），让读者不需要查资料就能理解
+- 如果原文有报道方立场倾向或数据信息，分别写入 source_analysis 和 social_impact
 - 只输出JSON数组，不要输出其他任何内容"""
     res = call_deepseek(sys_prompt, f"请为以下新闻生成摘要卡片：\n\n{raw}")
     if not res:
@@ -1400,8 +1405,14 @@ def build_cards_push_text(label: str, now_str: str, cards: list,
             for e in ents:
                 lines.append(f"· {e.get('name','')}：{e.get('explain','')}")
         lines.append(f"摘要：{c.get('summary', '')}")
+        if c.get("context"):
+            lines.append(f"背景：{c.get('context')}")
         if c.get("relevant"):
             lines.append(f"与你相关：{c.get('relevant')}")
+        if c.get("source_analysis"):
+            lines.append(f"来源分析：{c.get('source_analysis')}")
+        if c.get("social_impact"):
+            lines.append(f"社会观察：{c.get('social_impact')}")
     lines.append("\n" + "─" * 30 + "\n完整长文+追问：打开网页存档")
     return "\n".join(lines)
 
@@ -1856,8 +1867,11 @@ async function openChat(idx, skipVT){
     document.getElementById('ctitle').textContent = (idx+1) + '/' + ctx.cards.length + ' · ' + ctx.key;
     const ents = (c.entities||[]).map(e=>`<div class="ent"><b>${esc(e.name)}</b>：${esc(e.explain)}</div>`).join('');
     const rel = c.relevant ? `<p class="rel">与你相关：${esc(c.relevant)}</p>` : '';
+    const ctxInfo = c.context ? `<p style="color:#555;font-size:11px">背景：${esc(c.context)}</p>` : '';
+    const src = c.source_analysis ? `<p style="color:#888;font-size:11px">来源分析：${esc(c.source_analysis)}</p>` : '';
+    const soc = c.social_impact ? `<p style="color:#888;font-size:11px">社会观察：${esc(c.social_impact)}</p>` : '';
     document.getElementById('cardinfo').innerHTML =
-      `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}`;
+      `<h3>#${idx+1} ${esc(c.title)}</h3>${ents}<p>${esc(c.summary)}</p>${rel}${ctxInfo}${src}${soc}`;
   };
   if(document.startViewTransition && !skipVT){
     playSfx('open');

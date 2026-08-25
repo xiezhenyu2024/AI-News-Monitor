@@ -137,6 +137,14 @@ def answer_question(ctx: dict, question: str, history: list, card_idx: int = Non
         cards_text = (f"#1 {card.get('title','')}\n"
                       f"  关键实体: {json.dumps(card.get('entities',[]), ensure_ascii=False)}\n"
                       f"  摘要: {card.get('summary','')}")
+        if card.get('context'):
+            cards_text += f"\n  背景: {card['context']}"
+        if card.get('relevant'):
+            cards_text += f"\n  与你相关: {card['relevant']}"
+        if card.get('source_analysis'):
+            cards_text += f"\n  来源分析: {card['source_analysis']}"
+        if card.get('social_impact'):
+            cards_text += f"\n  社会观察: {card['social_impact']}"
     else:
         full_text = "（未指定卡片）"
         cards_text = "（无）"
@@ -309,8 +317,8 @@ def build_search_cards(keyword: str, results: list) -> list:
     raw = "\n".join(f"[{r['source']}] {r['title']}\n  {r['summary']}\n  {r['url']}"
                     for r in results)
     system = """你是新闻整理助手。把搜索结果整理成2-5张卡片，输出JSON数组：
-[{"title":"一句话标题","entities":[{"name":"实体","explain":"一句话解释"}],"summary":"2-4句摘要","relevant":"为何值得关注","url":"来源链接"}]
-要求：关键实体必须解释；只输出JSON数组。"""
+[{"title":"一句话标题","entities":[{"name":"实体","explain":"一句话解释"}],"summary":"2-4句摘要","relevant":"为何值得关注","url":"来源链接","context":"事件前提：发生了什么、为什么发生","source_analysis":"信源背景：报道方的立场倾向","social_impact":"社会观察：事件涉及的数据、影响范围"}]
+要求：关键实体必须解释；context必须交代事件前提；如果原文有报道方立场或数据信息，分别写入source_analysis和social_impact；只输出JSON数组。"""
     res = chat(system, [{"role": "user",
                          "content": f"搜索词：{keyword}\n\n搜索结果：\n{raw}"}])
     try:
