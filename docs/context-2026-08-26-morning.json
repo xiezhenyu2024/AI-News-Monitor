@@ -1,0 +1,752 @@
+{
+  "key": "2026-08-26-morning",
+  "date": "2026-08-26",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 20,
+      "title": "美国对伊朗经济施压可能引发军事冲突，专家警告风险",
+      "entities": [
+        {
+          "name": "伊朗",
+          "explain": "中东国家，盛产石油，与美国长期对立"
+        },
+        {
+          "name": "美国",
+          "explain": "世界超级大国，主导国际制裁和经济政策"
+        }
+      ],
+      "summary": "美国试图通过经济制裁而非军事打击来遏制伊朗，但专家警告此举可能适得其反，激化紧张局势。伊朗领导人誓言在石油资源丰富的海湾地区进行报复，增加冲突风险。",
+      "relevant": "美伊关系直接影响全球油价和地缘政治稳定，经济施压可能引发军事升级，对全球市场和安全格局有重大影响。",
+      "context": "美国长期对伊朗实施制裁，近期因伊朗核问题升级，美国转向经济施压，但伊朗威胁报复，局势紧张。",
+      "source_analysis": "《纽约时报》是美国主流媒体，报道倾向自由派，常对政府政策持批判态度，本文反映专家对经济施压策略的质疑。",
+      "social_impact": "涉及全球石油供应和海湾地区安全，若冲突升级，可能影响全球能源价格和国际贸易。",
+      "source_text": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy。Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf.",
+      "source_title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "source_url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "中国批评美国对伊朗及贸易伙伴的新制裁为'非法'",
+      "entities": [
+        {
+          "name": "中国",
+          "explain": "世界第二大经济体，伊朗石油的主要买家"
+        },
+        {
+          "name": "美国",
+          "explain": "实施制裁的国家，试图孤立与伊朗有贸易往来的国家"
+        },
+        {
+          "name": "伊朗",
+          "explain": "受制裁国家，石油出口依赖中国等买家"
+        }
+      ],
+      "summary": "美国威胁对继续与伊朗做生意的国家实施制裁，中国对此表示反对，称制裁'非法'。伊朗大部分石油出口至中国，此举直接影响中国能源进口和贸易关系。",
+      "relevant": "中美关系紧张加剧，制裁可能影响全球能源贸易和中国经济，凸显大国博弈。",
+      "context": "美国为施压伊朗，威胁制裁其贸易伙伴，中国作为伊朗石油主要买家，成为制裁目标，引发外交冲突。",
+      "source_analysis": "BBC是英国公共广播机构，报道相对中立，但本文聚焦中国反应，可能反映国际社会对美国制裁的批评。",
+      "social_impact": "涉及中国能源安全，若制裁实施，可能推高油价并影响全球供应链。",
+      "source_text": "China hits out at 'illegal' new US sanctions on Iran and trading partners - Published China has vowed to protect its interests after the US announced plans to widen economic sanctions against Iran and its trading partners, which include Beijing. Foreign ministry spokesman Lin Jian said China was firmly opposed to what it called \"illegal unilateral sanctions\" and would take \"all necessary measures\" to safeguard its rights. This came after US Treasury Secretary Scott Bessent announced the new measures on Monday, warning any nation financially partnering with Iran would be isolated. China is the biggest buyer of Iranian oil, although the trade has declined under the US blockade of Iran's ports. Lin said: \"Cooperation between China and Iran has always been conducted within the framework of international law and should not be interfered with or disrupted.\" Bessent described the plans for sanctions as \"the single greatest financial offensive ever\" against Iran, warning banks and businesses would share in Iran's isolation if they refused to cut ties with the country. He declined to focus on specific nations, but said US President Donald Trump would be phoning world leaders \"with specific requests to cease their interactions with the regime\". However, responding to a question about Chinese banks, Bessent said he wanted to make clear \"no one was above the reach of US sanctions\". The announcement comes ahead of planned talks between Trump and Chinese President Xi Jinping next month. Washington is likely to be wary of potential retaliation from Beijing, which processes the majority of the world's rare earths and other critical minerals, crucial in the manufacture of many high-tech products. Beijing has already tightened export controls on rare earths as part of previous trade negotiations with the US. China's response followed Iranian Economy Minister Ali Madanizadeh saying Tehran was \"fully prepared\" for the wider sanctions, which he said would lead to \"another defeat\" for the US. \"The government is and was ready and has a two-year plan to manage these events,\" he told state television. \"We also have our own tools and know how to play the game,\" he said, adding Tehran had been \"waiting for these plans for a long time\". - Iran says it is 'fully prepared' to counter widened US economic sanctions - Published15 hours ago The US has dubbed its latest sanctions \"Operation Economic Outcast\" and described them as an \"economic D-Day\" against Iran. It comes almost six months ",
+      "source_title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "source_url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "加拿大对美国商品征收高达50%的报复性关税，贸易战升级",
+      "entities": [
+        {
+          "name": "加拿大",
+          "explain": "美国邻国，主要贸易伙伴，经济依赖对美出口"
+        },
+        {
+          "name": "美国",
+          "explain": "加拿大最大贸易伙伴，近期加征关税引发报复"
+        }
+      ],
+      "summary": "加拿大宣布对美国商品实施'对等'报复性关税，税率最高达50%，涉及钢铁、家具、金枪鱼和化妆品等商品。这是美加贸易战的最新升级，双方互不相让。",
+      "relevant": "美加贸易战影响北美经济一体化，关税推高消费者成本，可能波及全球供应链。",
+      "context": "美国此前对加拿大商品加征关税，加拿大以'对等'原则回应，导致贸易摩擦持续升级。",
+      "source_analysis": "BBC报道，作为国际媒体，立场相对中立，但强调'升级'，可能反映贸易战对双方经济的负面影响。",
+      "social_impact": "关税影响两国消费者和企业，可能引发物价上涨和就业变动，北美贸易关系紧张。",
+      "source_text": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50% - Published Canada has announced counter-tariffs as high as 50% on a range of US goods in retaliation to the latest wave of levies on Canadian imports imposed by President Donald Trump last weekend. The Canadian tariffs will apply to nearly C$28bn ($20bn; £15bn) worth of American products, ranging from steel to furniture, fresh tuna and cotton T-shirts, officials announced on Tuesday. The list of targeted products is designed to match Canadian goods hit by the US. The Canadian levies are set to come into effect on 8 September. It is the latest escalation after US-Canada trade talks collapsed late last week, with each side accusing the other of making last-minute demands that were unreasonable. Finance Minister François-Philippe Champagne said that Canada's retaliation is in response to 50% tariffs imposed by the Trump administration on a range of Canadian goods after trade talks fell apart on Friday. \"Those tariffs will have real consequences for Canadian workers, businesses and communities across our nation,\" he said. \"Canada must respond.\" Champagne characterised Canada's retaliation as \"proportionate\" and \"strategic\". He added that Canada will also offer businesses and workers impacted by US tariffs an additional C$7.5bn for support programmes designed to minimise job losses and keep companies afloat. Placing taxes on trade between what are historically two of the world's closest trading partners will undoubtedly lead to pain on both sides of the border. Supply chains which have been developed over decades are set to see increased trading costs due the latest tariff announcements made from both the US and Canada, ultimately hitting businesses of all sizes and consumers through potentially higher prices. Polls suggest the majority of Canadians support their government in holding firm against the US. But some questions remain on exactly why trade talks fell apart, with the Conservative opposition asking that the full text of the draft deal with the US be released. Businesses have also expressed concerns about the impact of a prolonged trade war with Canada's largest trading partner. The White House released a statement after Canada announced its counter-tariffs, saying that the US was prepared to offer Canada \"the most preferential market access of any country on Earth\" in recent trade talks. \"Instead of partnership, Canada chose unreasonable demands, walk-backs, and flat-out re",
+      "source_title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "油价连续两日下跌，因美国转向制裁伊朗而非军事打击",
+      "entities": [
+        {
+          "name": "油价",
+          "explain": "全球原油价格，受地缘政治影响波动"
+        },
+        {
+          "name": "美国",
+          "explain": "通过制裁施压伊朗，避免军事冲突"
+        },
+        {
+          "name": "伊朗",
+          "explain": "石油出口国，受制裁影响供应"
+        }
+      ],
+      "summary": "油价周二连续第二日下跌，因交易商认为美国对伊朗军事打击风险降低，转而威胁更广泛经济制裁。美国财长贝森特宣布对伊朗'经济D-Day'，但未提供时间表或细节。",
+      "relevant": "油价波动影响全球经济，美国政策转向缓解短期供应担忧，但制裁不确定性仍存。",
+      "context": "美国此前威胁军事打击伊朗，现转向经济制裁，市场预期供应中断风险下降，导致油价回落。",
+      "source_analysis": "France24是法国国际媒体，报道聚焦经济影响，立场相对中立，引用美国官员声明。",
+      "social_impact": "油价下跌降低通胀压力，但制裁可能长期影响伊朗石油出口，全球市场需关注后续政策。",
+      "source_text": "Oil prices fall for second day as US shifts from Iran strikes to sanctions Oil prices fell for a second straight day on Tuesday as traders saw a reduced risk of renewed US military strikes on Iran after Washington instead threatened broader economic sanctions. Treasury Secretary Scott Bessent declared an “economic D-Day” against Tehran but gave no timeline or details on countries that could face penalties. Oil prices fell for a second day on Tuesday as tradersjudged the risk of renewed military strikes on Iran to have receded, after the United States instead threatened broader economic sanctions. Although Treasury Secretary Scott Bessent said the White House was declaring an \"economic D-Day\" against Iran and its trade partners, the US gave no timeline for its new sanctions and did not name any other countries it would punish. The measures were softer than analysts had expected and were accompanied by renewed shuttle diplomacy, with key Pakistani mediators reporting positive talks with Iran's president on Monday. Pakistan Interior Minister Mohsin Naqvi reported \"a very positive and productive meeting,\" saying on X he believes the \"momentum will help pave the way for further progress and lasting peace in the region.\" Read moreUS economic D-Day sanctions: 'Repeated bombing attacks across Iran failed to change the calculus' The news helped calm oil markets, with prices falling more than three percent and the international benchmark Brent back below $90 a barrel, following weeks of rising prices caused by deadlock in talks to reopen the Strait of Hormuz. Wall Street stocks finished solidly higher, with the broad-based S&P 500 advancing 0.3 percent. But FHN Financial's Chris Low warned that markets seemed to be shrugging off the US-Canada trade war, with Canada unveiling counter-tariffs on US goods ranging between 15 and 50 percent. \"There may be a mistaken belief that because there were already tariffs in place, that it won't make much difference,\" Low said. \"But that is a mistake because the tariffs imposed over the weekend are much broader and much bigger than the tariffs that were there before.\" Major European markets closed higher, aside from Paris, which slipped back slightly in late trading. \"European stock markets rebounded early Tuesday with some relief evident from the lack of any material increase in the economic pressure on Iran,\" said Neil Wilson, investor strategist at Saxo UK. Markets were also boosted by German data showing the country's second-q",
+      "source_title": "Oil prices fall for second day as US shifts from Iran strikes to sanctions",
+      "source_url": "https://www.france24.com/en/economy/20260825-oil-prices-fall-us-iran-strikes-sanctions",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "美国不计划对伊朗新打击，可能转向制裁和海上封锁",
+      "entities": [
+        {
+          "name": "美国",
+          "explain": "决策者，调整对伊朗策略"
+        },
+        {
+          "name": "伊朗",
+          "explain": "受制裁国家，面临经济压力"
+        },
+        {
+          "name": "Axios",
+          "explain": "美国新闻网站，报道内部消息"
+        }
+      ],
+      "summary": "据Axios报道，美国不计划对伊朗发动新军事打击，而是聚焦通过制裁和海上封锁施加经济压力。此举旨在避免军事升级，但可能加剧伊朗经济困境。",
+      "relevant": "美国政策转向影响中东局势，制裁和封锁可能引发伊朗报复，影响全球航运和油价。",
+      "context": "美国此前考虑军事选项，现转向经济施压，反映政府内部权衡，但伊朗控制霍尔木兹海峡，封锁风险高。",
+      "source_analysis": "TASS是俄罗斯官方媒体，报道引用Axios，可能反映俄罗斯视角，强调美国政策转向。",
+      "social_impact": "海上封锁可能影响全球石油运输，霍尔木兹海峡是重要通道，若实施，油价或大幅波动。",
+      "source_text": "WASHINGTON, August 26. /TASS/. The United States is not planning new attacks on Iran any time soon as it will focus on other means of pressure on Tehran, including using sanctions, US Secretary of State Marco Rubio told top diplomats from a number of countries, according to Axios. \"Rubio made clear that the US isn't planning a return to major combat operations,\" but \"he didn't rule out strikes if Iran attacks first,\" the news website reported on Tuesday. Instead, US officials told Axios, Washington will focus on putting more economic pressure on Iran through the sanctions and naval blockade, as well as \"moving ever-increasing amounts of oil out of the Strait of Hormuz.\" This is expected to be the Trump administration’s policy at least until after the November 3 midterm elections, a US official said. The United States is currently not negotiating with Iran as it believes that \"the pressure could drive the Iranians back to the table,\" Axios quoted a US official as saying.",
+      "source_title": "US not planning new strikes on Iran, may focus on other means of pressure instead — Axios",
+      "source_url": "https://tass.com/world/2177679",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "伊朗将与阿曼就霍尔木兹海峡管理举行60天谈判",
+      "entities": [
+        {
+          "name": "伊朗",
+          "explain": "控制霍尔木兹海峡的国家，威胁关闭水道"
+        },
+        {
+          "name": "阿曼",
+          "explain": "海湾国家，与伊朗接壤，调解海峡问题"
+        },
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "全球最重要的石油运输通道，连接波斯湾和印度洋"
+        }
+      ],
+      "summary": "伊朗副外长确认，伊朗将与阿曼在60天内就霍尔木兹海峡管理举行谈判，并重申海峡仍关闭，伊朗完全控制该区域。此举可能加剧全球能源供应担忧。",
+      "relevant": "霍尔木兹海峡占全球石油运输约20%，关闭或管理变化直接影响油价和能源安全。",
+      "context": "伊朗此前威胁关闭海峡以回应美国制裁，现提出谈判，但坚持控制权，局势仍紧张。",
+      "source_analysis": "TASS是俄罗斯官方媒体，报道伊朗官员声明，可能反映俄罗斯对中东局势的关注。",
+      "social_impact": "海峡关闭或限制通行将推高油价，影响全球能源市场，谈判结果至关重要。",
+      "source_text": "RABAT, August 26. /TASS/. Iran and Oman will discuss a specific approach to managing ship traffic through the Strait of Hormuz within up to two months, Kazem Gharibabadi, Iran’s Deputy Foreign Minister for Legal and International Affairs, announced. \"We will hold negotiations regarding future agreements on how to manage the Strait of Hormuz within 30 to 60 days,\" Gharibabadi said. Also, he added, the sides will have to agree a new permanent route. The Iranian diplomat confirmed that the waterway will remain closed and that Iran has full control of the area. He also dismissed a remark from US President Donald Trump saying that all mines have been removed from the Strait as empty words.",
+      "source_title": "Iran to hold talks on managing Hormuz with Oman within a timeframe of 60 days — diplomat",
+      "source_url": "https://tass.com/world/2177675",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "乌克兰西方坦克因无人机威胁几乎无法使用",
+      "entities": [
+        {
+          "name": "乌克兰",
+          "explain": "与俄罗斯交战的国家，依赖西方军事援助"
+        },
+        {
+          "name": "西方坦克",
+          "explain": "如德国豹2、英国挑战者等，乌克兰曾大力请求的武器"
+        },
+        {
+          "name": "无人机",
+          "explain": "现代战争中广泛使用的空中武器，可低成本摧毁坦克"
+        }
+      ],
+      "summary": "乌克兰曾请求西方提供昂贵坦克，但如今这些坦克因无人机威胁几乎无法使用。无人机在战场上高效摧毁坦克，使其价值大打折扣，凸显现代战争技术变革。",
+      "relevant": "反映现代战争中无人机对传统装甲的颠覆，影响军事援助策略和未来武器研发。",
+      "context": "乌克兰在俄乌冲突中急需重型武器，但无人机普及改变了战场平衡，坦克易受攻击。",
+      "source_analysis": "《纽约时报》报道，作为美国主流媒体，可能反映西方军事援助的实效评估，立场相对中立。",
+      "social_impact": "影响乌克兰防御能力，可能促使军事战略调整，对全球军备发展有启示。",
+      "source_text": "What Happened to the Coveted Western Tanks Sent to Ukraine?。Ukraine pleaded for the expensive weapons, and ultimately got them, but drones have rendered them almost unusable.",
+      "source_title": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
+      "source_url": "https://www.nytimes.com/2026/08/25/world/europe/ukraine-russia-tanks.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "中俄印外长会晤，同意维护亚太地区安全与经济架构",
+      "entities": [
+        {
+          "name": "中国",
+          "explain": "亚洲大国，推动多边合作"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "欧亚大国，与中国和印度有战略关系"
+        },
+        {
+          "name": "印度",
+          "explain": "南亚大国，参与地区安全对话"
+        }
+      ],
+      "summary": "中国、俄罗斯和印度外长举行第15次三边会晤，同意维护亚太地区安全与经济架构。联合声明强调区域稳定，但未提及具体措施。",
+      "relevant": "中俄印合作影响亚太地缘政治平衡，可能制衡美国影响力，但三国利益分歧需关注。",
+      "context": "三国定期举行外长会晤，旨在协调区域事务，此次会议在亚太安全局势变化背景下召开。",
+      "source_analysis": "《中国日报》是中国官方媒体，报道立场亲中，强调合作成果，可能淡化分歧。",
+      "social_impact": "涉及亚太安全格局，三国合作可能影响区域经济和安全机制，但实际效果待观察。",
+      "source_text": "Chinese, Russian and Indian ministers meet。China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "source_title": "Chinese, Russian and Indian ministers meet",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "尼日利亚清真寺袭击事件后，视频显示数百人被劫持为人质",
+      "entities": [
+        {
+          "name": "尼日利亚",
+          "explain": "非洲人口最多的国家，位于西非，此次事件发生在该国中北部尼日尔州。"
+        },
+        {
+          "name": "清真寺",
+          "explain": "伊斯兰教信徒进行礼拜等宗教活动的场所。"
+        }
+      ],
+      "summary": "上周五，枪手袭击了尼日利亚尼日尔州德卡拉村的一座清真寺，绑架了约600名妇女、儿童和老人。一个武装组织在Facebook和WhatsApp上发布了视频，显示大量人质被围坐在森林地区，周围有武装分子看守，背景中可听到儿童哭泣。",
+      "relevant": "这是尼日利亚近年来规模最大的绑架事件之一，凸显了该国北部地区日益严峻的安全形势和恐怖主义威胁。",
+      "context": "尼日利亚北部长期面临武装团伙和极端组织的安全挑战，绑架勒索已成为这些团伙获取资金的重要手段。此次袭击针对宗教场所，表明安全危机正在进一步恶化。",
+      "source_analysis": "该报道来自英国《卫报》，是国际主流媒体，报道基于当地居民和武装组织发布的视频，立场相对中立。",
+      "social_impact": "事件涉及约600名平民被绑架，规模巨大，将引发国际社会对尼日利亚及萨赫勒地区安全局势的进一步关注，并可能对当地社会稳定和人道主义状况造成严重影响。",
+      "source_text": "An armed group has posted a video showing what residents said were about 600 women, children and older people abducted in an attack on a mosque in Nigeria’s north-central Niger State last week. The video, posted on Facebook and WhatsApp, showed large groups of people seated in a forested area surrounded by armed men. Several children could be heard crying in the background. Mass kidnappings for ransom have become common in parts of north-western and north-central Nigeria, where heavily armed gangs frequently raid villages, schools and highways and hold them until paid large sums of money. The violence was previously focused in the north of the country, but gunmen have increasingly moved south. The video surfaced two days after the latest kidnapping, when gunmen attacked worshippers at the mosque in Dekara village during Friday prayers, taking people away in what residents said were simultaneous raids on several communities. In the video, a gunman speaking in Hausa addressed families of the captives and urged them to identify relatives among the people in the footage. “These are all your people. We are showing you this video so that you can identify your family members, your fathers, mothers, children and relatives,” the gunman said. Reuters could not verify the exact date or the location where the video was filmed. However, no older version of the video was found posted online before Sunday. Four residents said they were able to confirm the identities of some of those seized. “The people in the video are from Dekara. I’ve identified 13 people that I know,” Ibrahim Abubakar said. Another resident, Abdulmutallib Muqaddas Dindi, said those who appeared in the video had been seized during the prayers. “We have identified our elders, relatives, and some of us have seen their wives and children in the video,” he said. Police and state authorities did not respond to requests for comment on Monday. Police had earlier confirmed an attack on worshippers in the area but said they could not verify the number of people abducted. Jamilu Ibrahim, another resident, appealed to the federal and state authorities to secure the release of the captives, pointing out the number of mothers with infants and children among those shown in the footage.",
+      "source_title": "Video shows hundreds held captive after Nigeria mosque kidnapping",
+      "source_url": "https://www.theguardian.com/world/2026/aug/24/video-shows-hundreds-held-captive-after-nigeria-mosque-kidnapping",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 27,
+      "title": "几内亚首都科纳克里垃圾山因暴雨坍塌，已致30人死亡",
+      "entities": [
+        {
+          "name": "几内亚",
+          "explain": "位于西非的国家，首都为科纳克里。"
+        },
+        {
+          "name": "科纳克里",
+          "explain": "几内亚首都和最大城市，位于大西洋沿岸。"
+        }
+      ],
+      "summary": "几内亚首都科纳克里一座大型垃圾填埋场在连夜暴雨后发生滑坡，掩埋了附近的帐篷和棚屋，政府确认已造成30人死亡。事故发生前不到一周，政府刚宣布因安全隐患计划关闭该场地并转移垃圾。",
+      "relevant": "这起悲剧暴露了西非城市在快速城市化过程中基础设施和规划严重滞后的问题，以及雨季灾害对贫困人口的致命威胁。",
+      "context": "科纳克里这座垃圾山长期存在，对周边居民构成威胁。政府虽已意识到风险并计划搬迁，但行动滞后于灾害发生。西非许多城市在雨季常因排水不畅和建筑脆弱而遭受洪水和滑坡灾害。",
+      "source_analysis": "该报道来自英国《卫报》，报道基于几内亚政府声明和现场情况，立场客观。",
+      "social_impact": "事件造成至少30人死亡，受害者多为居住在垃圾场附近的贫困居民。这凸显了西非城市贫困人口面临的环境和居住安全风险，以及政府在应对城市环境灾害方面的能力不足。",
+      "source_text": "A landslide at a huge waste dump in Guinea’s capital has killed 30 people, the government said on Sunday, after heavy rains overnight prompted it to collapse, engulfing nearby tents and shacks. The incident occurred less than a week after the government announced plans to close the site and relocate the waste because of the threat it posed, especially during the rainy season, which causes landslides and fatal flash floods each year in crowded, underdeveloped cities across parts of West Africa. The landslide took place at about 2am (3am UK time) in the Gbessia commune of Conakry, according to a government statement. The death toll was 30, with six people seriously injured and 16 more lightly injured, the statement said. Rescue workers were using excavators and other tools to clear the site of the landslide, which witnesses said was large enough to bury an apartment building along with more precarious dwellings. One woman, Cire Diallo, told reporters at the scene that her five children were killed. “I have lost all my children. All I can do is put my trust in God,” she said. Guinea holds the world’s largest bauxite reserves and richest untapped iron ore deposit at Simandou, where a massive mining project was launched in November. But the west African country has poor infrastructure and widespread poverty, with 3.7 million of its 15.1 million people living on less than $4.20 a day, according to a World Bank report published in April. On Thursday Guinea’s minister of territorial administration, Djénabou Touré Camara, announced that the government was closing the landfill because it was unsafe and said the waste was to be relocated outside Conakry. The prime minister, Amadou Oury Bah, visited the landfill on Sunday to assess the damage and supervise the response, the government statement said, adding that people should “remain calm, show solidarity, and strictly follow the instructions of rescue services and the competent authorities”.",
+      "source_title": "Landslide at waste mound in Guinea capital kills 30, government says",
+      "source_url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "几内亚比绍猴痘疫情扩散，疑似病例中儿童占半数",
+      "entities": [
+        {
+          "name": "猴痘",
+          "explain": "一种病毒性人畜共患病，症状包括发热、皮疹等，可通过密切接触传播。"
+        },
+        {
+          "name": "几内亚比绍",
+          "explain": "位于西非的一个沿海小国。"
+        }
+      ],
+      "summary": "几内亚比绍自7月宣布猴痘疫情以来，已报告7例确诊病例和46例疑似病例，其中一半患者是儿童，有16名儿童年龄在4岁以下。当地卫生部门担忧病毒可能已在社区中未被察觉地传播。",
+      "relevant": "儿童在猴痘病例中占比过高，表明疫情可能对弱势群体造成更严重影响，且该国检测和应对能力可能不足，存在疫情扩散风险。",
+      "context": "几内亚比绍于7月4日宣布全国进入猴痘疫情状态，此前一名27岁女性成为该国首例确诊病例。该国医疗卫生系统较为薄弱，疫情监测和防控能力有限。",
+      "source_analysis": "该报道来自英国《卫报》，报道基于几内亚比绍当地卫生部门的数据，立场客观。",
+      "social_impact": "猴痘疫情在几内亚比绍的传播，特别是对儿童的影响，可能给该国本已脆弱的医疗系统带来更大压力，并引发国际社会对西非地区公共卫生安全的担忧。",
+      "source_text": "More than half of the mpox cases reported in Guinea-Bissau have been among children, local authorities have said, almost two months since the country announced an epidemic. A national outbreak was declared on 4 July, just over a week after a 27-year-old woman became the first confirmed case of mpox in the west African country. Since then, there have been seven confirmed cases and 46 suspected cases. Half of those patients have been children, with 16 under the age of four. In a statement on Thursday, Unicef warned that because the country’s health surveillance systems were fragile, the virus is probably spreading undetected, leaving even more children at risk. Sandra Martins, the country’s deputy representative for Unicef, said: “This is the first time mpox cases have been reported in Guinea-Bissau, making even a small outbreak a major public health event.” Mpox is an infectious viral disease that can be transmitted through close contact. There have been more than 2,000 mpox-related deaths among tens of thousands of cases recorded across east, central and west Africa since January 2024. Health workers say the Clade variants are consistent with viruses circulating in neighbouring countries, meaning that a risk of cross‑border transmission in the region remains strong. The vast majority of confirmed cases are in the Bissau autonomous sector, where the capital is, while one case is in the nearby Biombo area. No deaths have been reported to date. Dr Magda Robalo, a former health minister who led the country’s Covid-19 response, said that to eliminate the “biggest gaps in the health system right now”, increased surveillance would have to be prioritised and frontline capacity reinforced. “Even though the numbers are small, new cases have appeared intermittently over several weeks, which means transmission is ongoing,” said Robalo, who is also co-founder of the Institute for Global Health and Development and former director of communicable diseases for the World Health Organization. The outbreak comes as the country grapples with infrastructure challenges and the aftermath of the suspension of last November’s presidential election by the military, which remains in power. There was no electricity throughout Thursday in Bissau for instance because of petrol scarcity since the weekend. Many public health laboratories in the region lack equipment to deal with epidemics but have institutional knowledge from handling other crises. In Guinea-Bissau, that is no different ",
+      "source_title": "Children make up half of suspected mpox cases in Guinea-Bissau as epidemic spreads",
+      "source_url": "https://www.theguardian.com/global-development/2026/aug/24/children-half-mpox-disease-cases-guinea-bissau-epidemic-spreads-west-africa",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "全球打击西非网络犯罪行动，大规模逮捕嫌疑人",
+      "entities": [
+        {
+          "name": "西非",
+          "explain": "非洲西部的一个地理区域，包括尼日利亚、加纳、南非等多个国家。"
+        },
+        {
+          "name": "网络犯罪",
+          "explain": "利用计算机和网络进行的违法犯罪活动，如诈骗、盗窃信息等。"
+        }
+      ],
+      "summary": "一项全球执法行动对西非网络犯罪网络进行了打击，其中在南非逮捕了39名涉嫌参与婚恋和投资诈骗的人员。此次行动旨在瓦解这些跨国犯罪团伙。",
+      "relevant": "西非网络犯罪已成为全球性威胁，此次大规模国际执法合作展示了各国联手打击此类犯罪的决心和行动力。",
+      "context": "西非地区，特别是尼日利亚等国，已成为网络诈骗的高发地，犯罪团伙通过婚恋、投资等骗局在全球范围内实施诈骗。此次行动是国际社会对此类犯罪的一次集中回应。",
+      "source_analysis": "该报道来自英国广播公司（BBC），是国际主流媒体，报道基于执法机构信息，立场中立。",
+      "social_impact": "此次行动逮捕了数十名嫌疑人，涉及跨国诈骗网络，对保护全球潜在受害者、震慑网络犯罪有积极作用，也反映了网络犯罪问题的严重性和跨国合作的必要性。",
+      "source_text": "Mass arrests in global crackdown on West African cyber-crime networks - Published Fifty-eight people linked to organised West African cyber-crime groups have been arrested in an operation across 22 countries and six continents. Dubbed \"Operation Jackal IV\", it was co-ordinated by the global policing agency Interpol, targeting those behind romance and investment scams. It also identified 263 suspects. Interpol said it was a response to the escalating global threat posed by these criminal networks - such as the feared Nigerian Black Axe group - believed to be behind a \"significant share\" of cyber-enabled financial fraud. The operation also allowed analysis of emerging trends such as how these groups use sextortion to target minors, with victims as young as 14. - The ultra-violent cult that became a global mafia - Published13 December 2021 Operation Jackal IV - which took place between November 2025 and June 2026 - investigated how the groups laundered money and how financial fraud cyber crimes, such as cryptocurrency and email compromise fraud, were conducted. Scams often targeted \"retirees in English-speaking countries\", Interpol said. \"By following illicit financial flows across borders, we are attacking the very lifeblood of organised crime and making it increasingly difficult for criminal networks to profit from their activities,\" Tomonobu Kaya, director of Interpol's financial crime centre, said in a statement. \"Operation Jackal IV demonstrates the power of international co-operation.\" During the operation, Interpol helped with cross-border co-ordination and intelligence sharing. It also provided support and specialised training for money-laundering investigations with the participating countries. Interpol said many aspects of Jackal IV remained under investigation but preliminary outcomes included arrests in Argentina, Italy, Romania and South Africa. In South Africa, seven sites linked to a syndicate involved in romance and investment scams were raided. The policing agency was on scene in Johannesburg to support local authorities during the raids. South African police made 39 arrests, seized $2.67m (£1.96m) and blocked 257 bank accounts. As well as cyber-enabled fraud, the West African networks also participated in other serious and violent crimes, Interpol said. Operation Jackal IV is one of multiple \"Jackal\" police operations that have taken place since 2022. In 2024, Jackal III led to the arrests of 300 people linked to Black Axe and other affiliat",
+      "source_title": "Mass arrests in global crackdown on West African cyber-crime networks",
+      "source_url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 28,
+      "title": "美国依据特朗普协议将首批20名移民驱逐至利比里亚，总计将达1200人",
+      "entities": [
+        {
+          "name": "特朗普政府",
+          "explain": "指美国前总统唐纳德·特朗普领导的政府，以其强硬的移民政策著称。"
+        },
+        {
+          "name": "利比里亚",
+          "explain": "位于西非的国家，与美国有历史联系，是此次美国驱逐移民的目的地。"
+        }
+      ],
+      "summary": "周四，20名被美国驱逐的移民抵达利比里亚，这是美利两国新协议下的首批遣返。该协议是特朗普政府移民打击行动的一部分，预计将向利比里亚遣送多达1200人，是美国推动的最大规模第三方国家遣返协议之一。",
+      "relevant": "这是特朗普政府强硬移民政策的又一具体体现，涉及大规模跨国遣返，对利比里亚的社会接收能力和美利双边关系都将产生影响。",
+      "context": "特朗普重返白宫后，推行了更为严格的移民政策，包括扩大对无证移民的拘留和驱逐。与利比里亚达成的协议是其寻求将移民遣送至第三国策略的一部分。",
+      "source_analysis": "该报道来自英国《卫报》，报道基于现场观察和官方信息，对特朗普政府的移民政策持批评态度。",
+      "social_impact": "该协议涉及1200人的大规模遣返，将考验利比里亚的接收和安置能力。同时，这也反映了美国移民政策的收紧趋势及其对国际关系和移民人权的影响。",
+      "source_text": "Twenty deportees from the United States arrived in Liberia on Thursday, as part of a new agreement that will see the west African country receive as many as 1,200 people under the Trump administration’s immigration crackdown. The group arrived at the Roberts international airport outside the capital, Monrovia. The Liberia-US agreement is one of the largest third-country deportation arrangements pursued by the administration since Trump returned to office last year. The Liberian information minister, Jerolinmek Piah said the 1,200 deportees will include African nationals as well as nationals from North America, South America and the Caribbean. During a briefing on Tuesday, Liberia’s justice minister, Natu Oswald Tweh, said that the majority of the deportees had committed migration-related violations and offenses, and that they could seek asylum in the west African country if they wished. The US has agreed to extend visitor visas for Liberians from 12 to 36 months and pledged $124m in assistance as part of the arrangement. Under a series of often-secret agreements, the Trump administration has deported thousands of people to nearly two dozen countries that are not their own, advocates say, with about 10 of them in Africa. A new report by Refugees International and Human Rights First say the Trump administration has reached deals with at least 35 countries and has sent roughly 23,000 people to 26 of them as of early August, and makes the Liberia agreement the largest single arrangement so far. Immigration lawyers have said the Trump administration uses deportations to third countries as a legal loophole to indirectly force asylum seekers back to their home countries. In many cases, migrants are deported to countries they have never been to or where they face safety risks and are left with little choice other than to return to the home countries they were fleeing from. A February report by Senate foreign relations committee Democrats found the Trump administration had paid more than $32m to five governments, several with poor human rights records, to accept about 300 third-country deportees – including $1.1m per person to Rwanda for seven deportees, and $7.5m to Equatorial Guinea for 29, a sum exceeding all US aid to that country over the previous eight years. The report found more than 80% of those sent to third countries had since returned home anyway, often at further cost to taxpayers, and cited cases where deportees with US court-ordered protections were ",
+      "source_title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "source_url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "美媒报道：CIA局长秘密访问莫斯科进行会谈",
+      "entities": [
+        {
+          "name": "CIA",
+          "explain": "美国中央情报局，是美国主要的情报机构，负责对外情报和秘密行动。"
+        },
+        {
+          "name": "莫斯科",
+          "explain": "俄罗斯首都，是俄罗斯的政治和经济中心。"
+        }
+      ],
+      "summary": "据美国媒体报道，美国中央情报局局长已前往莫斯科进行未公开宣布的会谈。航班追踪数据证实，一架美国军用飞机周二从美国经拉脱维亚飞抵俄罗斯。",
+      "relevant": "在美俄关系紧张的背景下，CIA局长秘密访俄可能涉及高层情报沟通或敏感议题，其具体内容和成果备受关注。",
+      "context": "美俄两国在多个地缘政治问题上存在严重分歧，双边关系处于低谷。此次未公开的访问可能旨在建立紧急沟通渠道或讨论特定议题。",
+      "source_analysis": "该报道来自英国广播公司（BBC），引用了美国媒体的报道和航班追踪数据，信源为间接信息，立场相对中立。",
+      "social_impact": "此次访问的具体议题和成果尚不明确，但可能对美俄关系产生微妙影响，并引发外界对两国秘密外交的猜测。",
+      "source_text": "CIA chief travels to Moscow for unannounced talks, US media reports - Published The head of the US Central Intelligence Agency (CIA) has travelled to Moscow for unannounced talks, the BBC's US news partner CBS has reported. John Ratcliffe reportedly arrived in the Russian capital earlier on Tuesday. Neither Washington or Moscow have confirmed the nature of the visit or who he was due to meet. In-person talks between high-level American and Russian officials are rare. Flight tracking data confirmed a large US military aircraft travelled to Russia from the US via Latvia on Tuesday. It departed later on Tuesday. BBC News has contacted the CIA, the White House and Pentagon for comment. Footage posted on social media showed the C-17 transport plane approaching Moscow's Vnukovo international airport. It departed Riga airport at 05:50 GMT and appeared to have landed in the Russian capital at around 07:04 GMT, according to data from FlightRadar24. It returned to Riga shortly before 17:00 GMT. Footage on social media also purported to show a diplomatic motorcade travelling through Moscow. Ahead of the trip, the US told Ukraine that a senior delegation would be travelling to Moscow and asked Kyiv to suspend strikes until they had left, a senior Ukrainian official told CBS. The trip is thought to be Ratcliffe's first trip to Russia as CIA director, although he has maintained contact with his intelligence counterparts in Moscow. John Foreman, who served as a British military attaché to Moscow between 2019 and 2022, told Radio 4's PM programme that the visit could be focused on \"escalation management\" given speculation recent drone activity in Germany could be linked to Russia. He said: \"The Americans don't normally send such a high ranking official to Moscow unannounced at short notice unless something is up.\" Foreman said the trip could also concern the release of US detainees currently being held in Russia. Ratcliffe played a role in negotiations for the release of Russian-American citizen Ksenia Karelina, who was jailed in Russia for over a year after being accused of providing support to Ukraine. The CIA was also involved in a 2024 prisoner swap deal with Russia that saw the release of Wall Street Journal reporter Evan Gershkovich, as well as former US marine Paul Whelan and Russian-American journalist Alsu Kurmasheva. The US has had strained relations with Russia since it launched a full-scale invasion of Ukraine in 2022. Since then, Russia has been isolated on t",
+      "source_title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "source_url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "美国主导的加沙和平委员会警告哈马斯停止包括放风筝在内的军事活动",
+      "entities": [
+        {
+          "name": "加沙",
+          "explain": "巴勒斯坦的一个沿海地区，长期处于以色列封锁和冲突状态。"
+        },
+        {
+          "name": "哈马斯",
+          "explain": "巴勒斯坦的一个伊斯兰政治和军事组织，控制着加沙地带。"
+        },
+        {
+          "name": "和平委员会",
+          "explain": "由美国主导成立的、负责监督加沙和平计划执行的机构。"
+        }
+      ],
+      "summary": "美国主导的加沙和平委员会周二警告哈马斯，要求其停止包括放飞风筝在内的军事活动，此前以色列威胁要进行报复性打击。委员会官员同时表示，以色列也必须遵守停火协议，将军事行动限制在应对“真实和迫在眉睫的威胁”上。",
+      "relevant": "该事件反映了加沙停火协议的脆弱性，以及美国在斡旋巴以冲突中面临的复杂挑战。",
+      "context": "加沙地带在经历冲突后达成停火协议，由美国主导的和平委员会负责监督执行。哈马斯被指继续从事军事活动，而以色列则威胁采取报复行动，双方均面临遵守协议的压力。",
+      "source_analysis": "该报道来自法国24电视台，引用了和平委员会官员的声明，立场相对中立。",
+      "social_impact": "停火协议的执行情况直接关系到加沙地带的人道主义状况和地区稳定。此次警告表明和平进程依然脆弱，任何一方违约都可能导致冲突再起。",
+      "source_text": "US-led Gaza peace board warns Hamas over kites after Israeli threat The US-led board overseeing the Gaza peace plan warned Hamas on Tuesday to halt militant activity, including flying kites, after Israel threatened retaliatory strikes. A Board of Peace official said Israel must also respect the ceasefire, limiting military action to responses to “genuine and imminent threats.” The US-led board supervising a Gaza peace plan on Tuesday warned Hamas against flying kites, after Israel threatened retaliatory strikes. \"All militant activity in Gaza must stop, including the flying of kites. We have conveyed this message directly through the established mechanism,\" an official on President Donald Trump's \"Board of Peace\" said on condition of anonymity. \"Israel, too, must comply with the ceasefire. Military action cannot extend beyond responding to genuine and imminent threats,\" the official said. Prime Minister Benjamin Netanyahu on Sunday warned Hamas that Israel would step up operations in Gaza if it launches kites, drones or balloons. Read moreTrump's Board of Peace reassures Israel after objections on Gaza pullout plan The threat came after a series of kites reportedly were found across the Gaza border in southern Israel, communities traumatised by the Hamas-led attacks of October 7, 2023. The episode revived memories of incendiary kites and balloons once launched from Gaza. The latest kites are not known to have had any explosives, although Israeli media reported at least one with a political message. Hamas political bureau member Basem Naim voiced outrage at the warning on kites conveyed via the Board of Peace. \"What audacity! Is it conceivable that attempts to appease the war criminal Netanyahu have led them to describe innocent children's activities as armed activities, while Netanyahu continues to kill and destroy daily despite the agreement?\" The United Nations earlier Tuesday described the Israeli threats over the kites as unacceptable. \"On the threat of expulsion due to children's kite flying, I hope we can all agree that this is outrageous,\" UN rights office spokeswoman Ravina Shamdasani told reporters in Geneva. Read moreWhat we know about the Hamas disarmament deal announced by Trump The Board of Peace was put in place by Trump to oversee a ceasefire declared in October in the bloody conflict in Gaza. Since then, Israel has expanded slightly further into Gaza and kept up strikes, which have killed 1,288 Palestinians, according to health authorities ",
+      "source_title": "US-led Gaza peace board warns Hamas over kites after Israeli threat",
+      "source_url": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "以色列议员在西岸用大锤砸毁巴勒斯坦纪念碑，军方被指袖手旁观",
+      "entities": [
+        {
+          "name": "以色列",
+          "explain": "中东国家，与巴勒斯坦存在长期冲突。"
+        },
+        {
+          "name": "西岸",
+          "explain": "约旦河西岸地区，是巴勒斯坦领土的一部分，目前部分由以色列控制。"
+        },
+        {
+          "name": "兹维·苏科特",
+          "explain": "以色列一名极右翼议员，此次事件的直接实施者。"
+        }
+      ],
+      "summary": "视频显示，以色列议员兹维·苏科特在西岸用大锤攻击一座巴勒斯坦纪念碑，而以色列士兵在旁观看。以色列军方回应称，士兵已阻止了拆除行为。",
+      "relevant": "此事件凸显了约旦河西岸的紧张局势和以色列内部极右翼势力的行动，可能加剧巴以冲突并引发国际谴责。",
+      "context": "约旦河西岸的巴勒斯坦土地和财产频繁受到以色列定居者和极端分子的侵扰。此次事件中，一名以色列议员公开破坏巴勒斯坦象征物，而军方在场却未及时干预，引发争议。",
+      "source_analysis": "该报道来自《纽约时报》，报道基于现场视频和军方声明，立场相对中立。",
+      "social_impact": "事件可能激化巴勒斯坦民众的愤怒情绪，加剧地区不稳定。同时，以色列军方和政府的反应将受到国际社会关注，可能影响其国际形象。",
+      "source_text": "Israeli Lawmaker Smashes Palestinian Monument in West Bank。Videos showed Israeli troops standing by as Zvi Sukkot attacked the monument with a sledgehammer. The military said soldiers had stopped the demolition.",
+      "source_title": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
+      "source_url": "https://www.nytimes.com/2026/08/25/world/middleeast/israel-lawmaker-palestinian-monument.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "美国乡村音乐传奇人物多莉·帕顿去世，享年80岁",
+      "entities": [
+        {
+          "name": "多莉·帕顿",
+          "explain": "美国著名乡村音乐歌手、词曲作者、演员和慈善家，以《Jolene》等经典歌曲闻名，是乡村音乐史上最具影响力的女性之一"
+        },
+        {
+          "name": "格莱美奖",
+          "explain": "美国音乐界最高荣誉奖项，由美国国家录音艺术与科学学院颁发，表彰音乐领域的杰出成就"
+        }
+      ],
+      "summary": "美国乡村音乐标志性人物多莉·帕顿于周二去世，享年80岁。她在60年音乐生涯中发行了49张录音室专辑，拥有26首乡村音乐冠军单曲，获得10座格莱美奖和13座乡村音乐学院奖，是乡村音乐史上最成功的女性艺术家之一。",
+      "relevant": "多莉·帕顿不仅是音乐巨星，更是跨越几代人的文化偶像，她的去世标志着一个时代的结束，引发全球乐迷的哀悼。",
+      "context": "多莉·帕顿自1960年代出道以来，凭借独特的嗓音和创作才华成为乡村音乐界的常青树，同时涉足影视和商业领域，并长期从事慈善事业。",
+      "source_analysis": "法国24电视台报道，该媒体为法国国际公共广播机构，报道较为客观中立，侧重于事实陈述和生平回顾。",
+      "social_impact": "多莉·帕顿的粉丝遍布全球，她的音乐作品销量超过1亿张，其去世消息在社交媒体上引发大量悼念，成为全球文化热点事件。",
+      "source_text": "Beloved US country music icon Dolly Parton dies at 80 US singer-songwriter, actress, businesswoman and philanthropist Dolly Parton died on Tuesday at the age of 80, her family said in a statement. The prolific songwriter released 49 studio albums, more than 100 compilation and collorabative albums, won 10 Grammys and 13 Academy of Country Music awards, and racked up 26 number one country hits during her six decades in the American music scene. In her six decades recording and defining country music, she was so much more. The American singer-songwriter, actress, businesswoman and philanthropist didn't seem to mind being mistaken for a ditzy blonde all too eager to play up her looks, after growing up poor in rural Tennessee. But Parton, who died Tuesday at age 80, was an immense and gifted talent who started writing serious music, what she called \"sad-ass songs\" about heartbreak and tragedy, at the tender age of 10. By her own reckoning, she has penned 3,000 tunes in all, including enduring country standards like 1973's \"Jolene\" and the iconic ballad \"I Will Always Love You\", which became an international smash for Whitney Houston. To display this content from , you must enable advertisement tracking and audience measurement. The \"queen of country music\" released 49 studio albums and more than 100 compilation and collaboration albums over a decades-long career that saw her sell more than 100 million records and top the charts more than any woman in the genre. At the height of her fame, she reached number one on the pop charts too, with songs like \"Islands in the Stream\", and starred in Hollywood blockbusters \"9 to 5\", for which she sang the insuppressible title track, and \"Steel Magnolias\". To display this content from , you must enable advertisement tracking and audience measurement. Dolly essentially wrote the book on how a woman can rule the airwaves in a male-dominated industry, ultimately becoming an American treasure whose songs were covered by the likes of Shania Twain, Sinead O'Connor and the White Stripes. Her eye-popping hourglass figure, gravity-defying hairdos and wigs, and take-me-on-a-hayride appeal were unavoidable parts of her persona. But she did not sweep sexism aside so much as defiantly play against it using her own rules, capitalising on her homespun endearment and business savvy to rack up one of the largest fortunes of any American stage performer. And she embraced the flash and glitter that came with stardom. \"I love makeup, I love cl",
+      "source_title": "Beloved US country music icon Dolly Parton dies at 80",
+      "source_url": "https://www.france24.com/en/americas/20260825-us-country-music-legend-dolly-parton-dies-at",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "研究显示NFL退役球员脑部疾病发病率高于此前认知",
+      "entities": [
+        {
+          "name": "NFL",
+          "explain": "美国国家橄榄球联盟，北美最受欢迎的职业体育联盟之一，以高强度身体对抗著称"
+        },
+        {
+          "name": "慢性创伤性脑病",
+          "explain": "一种因反复头部撞击导致的退行性脑部疾病，常见于橄榄球运动员、拳击手等长期遭受头部创伤的人群，症状包括记忆力衰退、情绪波动和认知障碍"
+        }
+      ],
+      "summary": "一项新研究发现，2016年至2021年间去世的NFL退役球员中，至少有四分之一患有慢性创伤性脑病，而实际比例可能更高。这一发现进一步证实了橄榄球运动与脑部损伤之间的关联。",
+      "relevant": "该研究再次引发关于橄榄球运动安全性的讨论，对NFL的球员保护政策和公众对这项运动的看法产生重要影响。",
+      "context": "慢性创伤性脑病在NFL球员中的高发率此前已被多次证实，但这项新研究基于更大样本量，提供了更精确的患病率数据，凸显了橄榄球运动长期健康风险的严重性。",
+      "source_analysis": "英国广播公司报道，该媒体为英国公共广播机构，报道通常客观严谨，注重数据支撑和多方观点平衡。",
+      "social_impact": "研究涉及数百名退役球员的健康数据，可能影响NFL的伤病赔偿政策，并促使更多球员和家属重新评估橄榄球运动的长期风险。",
+      "source_text": "Brain disease in dead NFL players 'higher than previously shown' - Published As many as 97.7% of NFL players who died between 2016 and 2021 could have had brain disease related to repeated blows to the head, a new study says. Researchers looked at 878 former players who died during that period, with 235 having donated their brains to research. Of those, 215 were found to have chronic traumatic encephalopathy (CTE), a degenerative brain disease which can only be diagnosed after death. The study, published in the British Medical Journal, external, also found dementia was common among brain donors. \"We and others have shown that in NFL players, specifically, there is about a four times higher rate of death from neurodegenerative disease than the general population,\" said the report's lead author Daniel Daneshvar, an associate professor at Harvard Medical School. \"These findings indicate that NFL players have a higher prevalence of CTE at death than has been previously shown in multiple community based studies.\" Researchers calculated a \"conservative minimum\" of CTE prevalence among those who died in the six-year period to be 24.5% - rising to a \"maximum\" 97.7%. They have urged the NFL to take prevention measures to reduce repetitive head impacts across all levels of the sport. - NFL admits football-brain disease link - Published15 March 2016 - New research finds link between head impacts & CTE - Published27 July 2022 \"The bulk of the head impacts that these former NFL players experienced didn't occur at the NFL level,\" Danshvar said. \"They occurred at the collegiate level and at the high school level and in many cases the youth level. And all of those cumulative hits to the head added up to result in an increased risk.\" An NFL spokesperson said: \"The NFL continuously strives to make the game of football safer, including by implementing strategies to reduce concussions and head impacts. \"The NFL remains committed to ensuring that the NFL community has access to a robust - and expanding - set of resources to enhance their physical and mental well being. \"We encourage former players to utilise these resources to identify and seek treatment when they are concerned about their health.\" CTE among American football players has been a growing issue in recent years. A 2011 Collective Bargaining Agreement for the NFL limited the number of contact practices. Following a long-running class action, in 2016 the NFL agreed a $1bn (£700m) settlement with more than 5,000 form",
+      "source_title": "Brain disease in dead NFL players 'higher than previously shown'",
+      "source_url": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "叙利亚库尔德武装宣布解散，正式并入政府军",
+      "entities": [
+        {
+          "name": "叙利亚民主力量",
+          "explain": "由库尔德人主导的叙利亚武装联盟，曾在美国支持下对抗极端组织“伊斯兰国”，控制叙利亚东北部大片地区"
+        },
+        {
+          "name": "马兹卢姆·阿卜迪",
+          "explain": "叙利亚民主力量总司令，库尔德武装的核心领导人，长期主导叙利亚东北部事务"
+        },
+        {
+          "name": "艾哈迈德·沙拉",
+          "explain": "叙利亚现任总统，2024年底推翻阿萨德政权后上台，致力于统一叙利亚各派武装力量"
+        }
+      ],
+      "summary": "叙利亚民主力量总司令马兹卢姆·阿卜迪周二在大马士革总统府发表电视讲话，宣布该组织正式解散，其成员已并入叙利亚政府军。这一决定被视为叙利亚总统艾哈迈德·沙拉的重大政治胜利，标志着叙利亚武装力量统一进程迈出关键一步。",
+      "relevant": "叙利亚民主力量的解散是叙利亚战后政治格局的重大转折，直接影响叙利亚东北部库尔德人自治问题以及美国在该地区的军事存在。",
+      "context": "叙利亚民主力量曾是美国在叙利亚打击“伊斯兰国”的核心盟友，控制着叙利亚东北部产油区。阿萨德政权倒台后，新政府推动各派武装整合，库尔德武装在失去外部支持后被迫接受并入政府军的安排。",
+      "source_analysis": "法国24电视台报道，该媒体为法国国际公共广播机构，对中东事务报道较为全面，立场相对中立。",
+      "social_impact": "该事件涉及叙利亚数万名库尔德武装人员的去向，以及叙利亚东北部数百万居民的政治未来，可能改变中东地缘政治格局。",
+      "source_text": "Syrian Kurdish leader announces SDF dissolution after its integration into army Mazloum Abdi, the commander-in-chief of the Syrian Kurdish-led Syrian Democratic Forces (SDF) on Tuesday announced the dissolution of the group in a televised speech from the presidential palace in Damascus. The dissolution followed the integration of SDF fighters into the Syrian military, said Abdi, and represented a major victory for Syrian President Ahmed al-Sharaa. The leader of the Kurdish-led Syrian Democratic Forces (SDF), the Washington-backed group at the forefront of the battle against the Islamic State (IS) group, announced their dissolution on Tuesday under a deal with the government. After being Syria's most highly-trained and organised paramilitary force for years, Washington promptly dropped the SDF in favour of the new US-friendly authorities in Damascus after the ousting of longtime ruler Bashar al-Assad in late 2024. Read moreExclusive: In Syria's Kurdish-majority city Kobane, postwar integration efforts get under way The forces' leader, Mazloum Abdi, declared their dissolution in a televised speech at the presidential palace in Damascus. \"We announce today the end of the mission of the Syrian Democratic Forces and declare, with full responsibility, their dissolution as an independent military force,\" he said. Abdi explained that the announcement followed \"the completion of the process of integrating our forces into the brigades of the Syrian army\". The SDF was formed in 2015 at the instigation of the United States, which was impressed by the Kurdish fighters who had defeated the IS group in Kobane in the north and was seeking a reliable partner in the ongoing battle against the jihadists. The group went on to spearhead the battle against IS group, which was defeated territorially in Syria four years later. Read morePressured by Damascus to integrate into the state, what does the future hold for Syria’s Kurds? 'Circumstances have changed' \"Since the creation of the SDF, its fighters have shouldered a heavy responsibility during one of the most difficult periods\" for Syria, Abdi said in his address. \"They liberated many Syrian cities and towns, first from the Baathist regime, then from the terrorism of Daesh,\" he continued, using the Arabic acronym for the IS group. \"The circumstances have changed today and the country has entered a new phase characterised by peace and participation.\" The SDF amassed around 100,000 fighters at its peak, both Kurds and Arabs, an",
+      "source_title": "Syrian Kurdish leader announces SDF dissolution after its integration into army",
+      "source_url": "https://www.france24.com/en/middle-east/20260825-syrian-kurdish-leader-dissolves-force-that-spearheaded-jihadist-fight",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "逃离伊朗的基督徒难民被特朗普政府驱逐后获加拿大庇护",
+      "entities": [
+        {
+          "name": "阿特米斯·加塞姆扎德",
+          "explain": "一名因宗教信仰逃离伊朗的基督徒，在特朗普政府的移民政策下被驱逐至巴拿马"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，其任内推行严格的移民政策，包括大规模驱逐非法移民和难民"
+        }
+      ],
+      "summary": "因宗教迫害逃离伊朗的基督徒阿特米斯·加塞姆扎德，在特朗普政府的移民打击行动中被驱逐至巴拿马，如今加拿大已批准其庇护申请。这一案例凸显了美国移民政策的严苛性以及难民在寻求安全过程中的艰难处境。",
+      "relevant": "该事件反映了美国移民政策的争议性，以及宗教难民在国际庇护体系中的脆弱地位，引发对难民权利和人道主义政策的讨论。",
+      "context": "加塞姆扎德因信仰基督教在伊朗面临迫害，逃往美国寻求庇护，但特朗普政府实施严格的移民限制政策，将其驱逐至巴拿马，而非其原籍国。",
+      "source_analysis": "《纽约时报》报道，该报为美国主流自由派媒体，报道立场倾向于批评特朗普政府的移民政策，关注难民权益。",
+      "social_impact": "该案例涉及美国、巴拿马和加拿大三国的难民政策，可能影响公众对美国移民政策的看法，并引发对宗教难民保护机制的关注。",
+      "source_text": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home。Artemis Ghasemzadeh, who had escaped religious persecution, was deported to Panama under Trump’s immigration crackdown. Now, Canada has given her asylum.",
+      "source_title": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
+      "source_url": "https://www.nytimes.com/2026/08/25/world/middleeast/artemis-ghasemzadeh-iran-christian-us-deported-canada-asylum.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_14c1c88f42ca",
+      "source": "BBC",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
+      "image": ""
+    },
+    {
+      "id": "rss_62387c55f121",
+      "source": "BBC",
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
+      "image": ""
+    },
+    {
+      "id": "rss_85653c2382a5",
+      "source": "BBC",
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+      "summary": "Flight tracking data confirms an American military aircraft travelled to Russia from the US via Latvia on Tuesday.",
+      "image": ""
+    },
+    {
+      "id": "rss_b38163d3cec0",
+      "source": "BBC",
+      "title": "Mass arrests in global crackdown on West African cyber-crime networks",
+      "url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The operation included the arrest of 39 people in South Africa for romance and investment scams.",
+      "image": ""
+    },
+    {
+      "id": "rss_ce15515ce189",
+      "source": "BBC",
+      "title": "Brain disease in dead NFL players 'higher than previously shown'",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/cew9l95kyp0o?at_medium=RSS&at_campaign=rss",
+      "summary": "A new study says at least one in four ex-NFL players who died between 2016 and 2021 had a degenerative brain disease but the true figure could be much higher.",
+      "image": ""
+    },
+    {
+      "id": "rss_36e307052b6c",
+      "source": "France24",
+      "title": "Oil prices fall for second day as US shifts from Iran strikes to sanctions",
+      "url": "https://www.france24.com/en/economy/20260825-oil-prices-fall-us-iran-strikes-sanctions",
+      "summary": "Oil prices fell for a second straight day on Tuesday as traders saw a reduced risk of renewed US military strikes on Iran after Washington instead threatened broader economic sanctions. Treasury Secretary Scott Bessent declared an “economic D-Day” against Tehran but gave no timeline or details on countries that could face penalties.",
+      "image": "https://s.france24.com/media/display/09952d96-8cb4-11f1-af9c-005056bf30b7/w:1024/p:16x9/45fe4137c0614ac638d52ac3e376094d81e29d25.jpg"
+    },
+    {
+      "id": "rss_080336512a1a",
+      "source": "France24",
+      "title": "US-led Gaza peace board warns Hamas over kites after Israeli threat",
+      "url": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat",
+      "summary": "The US-led board overseeing the Gaza peace plan warned Hamas on Tuesday to halt militant activity, including flying kites, after Israel threatened retaliatory strikes. A Board of Peace official said Israel must also respect the ceasefire, limiting military action to responses to “genuine and imminent threats.”",
+      "image": "https://s.france24.com/media/display/71071d0c-a0ca-11f1-bdf3-005056bfb2b6/w:1024/p:16x9/ES-20260825-121107-121253-CS.jpg"
+    },
+    {
+      "id": "rss_515f46834a76",
+      "source": "France24",
+      "title": "Mawlid cancelled in Tigray",
+      "url": "https://www.france24.com/en/mawlid-cancelled-in-tigray",
+      "summary": "In tonight's programme, the United States on Monday called for beefed-up U.N. sanctions against the warring parties in Sudan. Also, Muslims celebrate Mawlid across Africa but festivities were cancelled in Tigray because of recent drone attacks. And finally in the Kenyan village of Cheporor, a recent discovery of gold sent thousands of amateur prospectors rushing to the area.",
+      "image": "https://s.france24.com/media/display/a6478f68-a0c2-11f1-87b7-005056bf30b7/w:1024/p:16x9/DN196400-A-01-20260818-01.jpg"
+    },
+    {
+      "id": "rss_a560e6d1cec6",
+      "source": "France24",
+      "title": "Syrian Kurdish leader announces SDF dissolution after its integration into army",
+      "url": "https://www.france24.com/en/middle-east/20260825-syrian-kurdish-leader-dissolves-force-that-spearheaded-jihadist-fight",
+      "summary": "Mazloum Abdi, the commander-in-chief of the Syrian Kurdish-led Syrian Democratic Forces (SDF) on Tuesday announced the dissolution of the group in a televised speech from the presidential palace in Damascus. The dissolution followed the integration of SDF fighters into the Syrian military, said Abdi, and represented a major victory for Syrian President Ahmed al-Sharaa.",
+      "image": "https://s.france24.com/media/display/4fd5df24-9cd8-11f1-b755-005056a90284/w:1024/p:16x9/1bcd16013745a91828d87da7a5826951d0aaf12a.jpg"
+    },
+    {
+      "id": "rss_54dce481925d",
+      "source": "France24",
+      "title": "Beloved US country music icon Dolly Parton dies at 80",
+      "url": "https://www.france24.com/en/americas/20260825-us-country-music-legend-dolly-parton-dies-at",
+      "summary": "US singer-songwriter, actress, businesswoman and philanthropist Dolly Parton died on Tuesday at the age of 80, her family said in a statement. The prolific songwriter released 49 studio albums, more than 100 compilation and collorabative albums, won 10 Grammys and 13 Academy of Country Music awards, and racked up 26 number one country hits during her six decades in the American music scene.",
+      "image": "https://s.france24.com/media/display/37f06366-a0b1-11f1-b125-005056bfb2b6/w:1024/p:16x9/b1eafd7dce9336939880e6ee32dd960e7e66b898.jpg"
+    },
+    {
+      "id": "rss_ffecc2a6f525",
+      "source": "TASS Russia",
+      "title": "Russia’s Andreeva/Rublev reach US Open mixed doubles semifinals",
+      "url": "https://tass.com/sports/2177681",
+      "summary": "They will face the Czech duo of Karolina Muchova and Jakub Mensik",
+      "image": ""
+    },
+    {
+      "id": "rss_94a273a66614",
+      "source": "TASS Russia",
+      "title": "US not planning new strikes on Iran, may focus on other means of pressure instead — Axios",
+      "url": "https://tass.com/world/2177679",
+      "summary": "According to the news portal, Washington will focus on putting more economic pressure on Iran through the sanctions and naval blockade",
+      "image": ""
+    },
+    {
+      "id": "rss_5234b873c889",
+      "source": "TASS Russia",
+      "title": "One civilian killed, eight others injured in Ukrainian attacks on DPR during past day",
+      "url": "https://tass.com/politics/2177677",
+      "summary": "Six civilian infrastructure facilities, three residential buildings, a shuttle bus, and trucks were damaged in the attacks",
+      "image": ""
+    },
+    {
+      "id": "rss_5b24e0dd6479",
+      "source": "TASS Russia",
+      "title": "Iran to hold talks on managing Hormuz with Oman within a timeframe of 60 days — diplomat",
+      "url": "https://tass.com/world/2177675",
+      "summary": "Iran’s Deputy Foreign Minister for Legal and International Affairs Kazem Gharibabad confirmed that the waterway will remain closed and that Iran has full control of the area",
+      "image": ""
+    },
+    {
+      "id": "rss_7bf829be177e",
+      "source": "TASS Russia",
+      "title": "Shnaider/Ruud reach quarter finals vs. Andreeva/Rublev at US Open",
+      "url": "https://tass.com/sports/2177673",
+      "summary": "The 2026 US Open is the fourth and final Grand Slam event of the year, with the main draw of the singles running from August 30 through September 13",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_3a43f8848083",
+      "source": "纽约时报",
+      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+      "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
+      "summary": "Canada said the higher levies, on items from aluminum foil to dishwashers to fish, would help protect workers, producers and manufacturers harmed by new Trump tariffs.",
+      "image": ""
+    },
+    {
+      "id": "rss_621abdc1a972",
+      "source": "纽约时报",
+      "title": "Iran May Have Little to Lose as U.S. Tries to Squeeze Its Economy",
+      "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-economy-sanctions.html",
+      "summary": "Experts warn that a campaign aimed at avoiding military escalation could instead provoke it, as Iranian leaders vow retaliation across the oil-rich Gulf.",
+      "image": ""
+    },
+    {
+      "id": "rss_2a07dfec9b66",
+      "source": "纽约时报",
+      "title": "Christian Convert Who Fled Iran and Was Deported By Trump Finds New Home",
+      "url": "https://www.nytimes.com/2026/08/25/world/middleeast/artemis-ghasemzadeh-iran-christian-us-deported-canada-asylum.html",
+      "summary": "Artemis Ghasemzadeh, who had escaped religious persecution, was deported to Panama under Trump’s immigration crackdown. Now, Canada has given her asylum.",
+      "image": ""
+    },
+    {
+      "id": "rss_c7f5e3f6b617",
+      "source": "纽约时报",
+      "title": "What Happened to the Coveted Western Tanks Sent to Ukraine?",
+      "url": "https://www.nytimes.com/2026/08/25/world/europe/ukraine-russia-tanks.html",
+      "summary": "Ukraine pleaded for the expensive weapons, and ultimately got them, but drones have rendered them almost unusable.",
+      "image": ""
+    },
+    {
+      "id": "rss_1132568cd110",
+      "source": "纽约时报",
+      "title": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
+      "url": "https://www.nytimes.com/2026/08/25/world/middleeast/israel-lawmaker-palestinian-monument.html",
+      "summary": "Videos showed Israeli troops standing by as Zvi Sukkot attacked the monument with a sledgehammer. The military said soldiers had stopped the demolition.",
+      "image": ""
+    },
+    {
+      "id": "rss_74659465c9ed",
+      "source": "卫报",
+      "title": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
+      "summary": "Spokesperson for Duke of Sussex says he remains an ‘active and avid supporter’ of African Parks’ mission The Duke of Sussex has stepped down from the board of a major African wildlife charity that had been at the centre of a human rights controversy. Prince Harry’s spokesperson confirmed he was no longer a trustee of African Parks , which admitted last year that human rights abuses were committed by its rangers in the Republic of the Congo. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_520e745f963f",
+      "source": "卫报",
+      "title": "Video shows hundreds held captive after Nigeria mosque kidnapping",
+      "url": "https://www.theguardian.com/world/2026/aug/24/video-shows-hundreds-held-captive-after-nigeria-mosque-kidnapping",
+      "summary": "Gunmen ‌attacked worshippers in Dekara village on Friday taking women, children and older people An armed group has posted a video showing what ⁠residents said were about ⁠600 women, children and ​older people abducted in an attack on a mosque in Nigeria’s north-central Niger State last week. The video, posted on Facebook and WhatsApp, ⁠showed large groups of people seated in a forested area surrounded by armed men. Several children could be heard crying in the background. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_957677f34f79",
+      "source": "卫报",
+      "title": "Children make up half of suspected mpox cases in Guinea-Bissau as epidemic spreads",
+      "url": "https://www.theguardian.com/global-development/2026/aug/24/children-half-mpox-disease-cases-guinea-bissau-epidemic-spreads-west-africa",
+      "summary": "West African country reports 46 suspected cases in outbreak declared in July, amid fears virus may be spreading undetected More than half of the mpox cases reported in Guinea-Bissau have been among children, local authorities have said, almost two months since the country announced an epidemic. A national outbreak was declared on 4 July, just over a week after a 27-year-old woman became the first confirmed case of mpox in the west African country. Since then, there have been seven confirmed cases and 46 suspected cases. Half of those patients have been children, with 16 under the age of four. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_7d3587cd2ee2",
+      "source": "卫报",
+      "title": "Landslide at waste mound in Guinea capital kills 30, government says",
+      "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+      "summary": "Dump site in Conakry, which minister had just promised to move, collapsed after heavy rain in west African state A ⁠landslide at a huge waste dump in Guinea’s capital has killed 30 people, the government said on Sunday, after heavy rains overnight prompted it to ⁠collapse, engulfing nearby tents and shacks. The incident occurred less than a week after the government announced plans to close the ⁠site and relocate the waste because of the threat it posed, especially during the rainy season, which causes landslides and fatal flash ⁠floods each year in crowded, underdeveloped cities across parts of West Africa. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_856cbfece2f9",
+      "source": "卫报",
+      "title": "US deports 20 people to Liberia, the first of 1,200 migrants under Trump deal",
+      "url": "https://www.theguardian.com/us-news/2026/aug/20/liberia-deportation-agreement",
+      "summary": "Agreement is among largest third-country deportations driven by Trump administration’s immigration crackdown Twenty deportees from the United States arrived in Liberia on Thursday, as part of a new agreement that will see the west African country receive as many as 1,200 people under the Trump administration ’s immigration crackdown. The group arrived at the Roberts international airport outside the capital, Monrovia. The Liberia-US agreement is one of the largest third-country deportation arrangements pursued by the administration since Trump returned to office last year. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-26 07:30"
+}
