@@ -524,45 +524,106 @@ def fetch_36kr() -> list[dict]:
     return items
 
 
+def _fetch_repo_readme(full_name: str, max_chars: int = 800) -> str:
+    """抓取 GitHub 仓库 README 前 max_chars 字符，失败返回空串"""
+    import base64 as _b64
+    try:
+        rr = _session.get(
+            f"https://api.github.com/repos/{full_name}/readme",
+            timeout=10,
+            headers={"Accept": "application/vnd.github.v3+json"},
+        )
+        if rr.status_code == 200:
+            content = rr.json().get("content", "")
+            if content:
+                return _b64.b64decode(content).decode("utf-8", errors="replace")[:max_chars]
+    except Exception:
+        pass
+    return ""
+
+
 def fetch_github_trending(days: int = 7) -> list[dict]:
+    """最近30天创建且 500+ star 的快速增星项目，抓 README 前800字符做摘要（社区脉搏）"""
     items = []
     seen_ids = set()
     try:
-        # 查法1：最近7天新项目，按Star排序（已有）
-        since_7d = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
-        # 查法2：最近30天Star>200的项目，按Star排序（发现增长快的）
-        since_30d = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-
-        queries = [
-            (f"created:>{since_7d}", 10, "新项目"),
-            (f"created:>{since_30d} stars:>200", 10, "增长快"),
-        ]
-
-        for q, per_page, tag in queries:
-            resp = _session.get(
-                "https://api.github.com/search/repositories",
-                params={"q": q, "sort": "stars", "order": "desc", "per_page": per_page},
-                timeout=15,
-                headers={"Accept": "application/vnd.github.v3+json"},
-            )
-            if resp.status_code != 200:
-                log(f"  GitHub Trending({tag}): {resp.status_code}")
-                continue
-            for repo in resp.json().get("items", []):
-                rid = repo["id"]
-                if rid in seen_ids:
-                    continue
-                seen_ids.add(rid)
-                items.append({
-                    "id": f"gh_{rid}",
-                    "source": "GitHub Trending",
-                    "title": f"{repo['full_name']} - {repo.get('description', '') or '无描述'}",
-                    "url": repo["html_url"],
-                    "summary": f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}",
-                })
+        since = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        resp = _session.get(
+            "https://api.github.com/search/repositories",
+            params={"q": f"created:>{since} stars:>500", "sort": "stars", "order": "desc", "per_page": 10},
+            timeout=15,
+            headers={"Accept": "application/vnd.github.v3+json"},
+        )
+        if resp.status_code != 200:
+            log(f"  GitHub Trending: {resp.status_code}")
+            return items
+        repos = resp.json().get("items", [])
+        def build_one(repo):
+            rid = repo["id"]
+            if rid in seen_ids:
+                return None
+            seen_ids.add(rid)
+            full_name = repo["full_name"]
+            readme = _fetch_repo_readme(full_name)
+            summary = readme or f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}"
+            return {
+                "id": f"gh_{rid}",
+                "source": "GitHub Trending",
+                "title": f"{full_name} - {repo.get('description', '') or '无描述'}",
+                "url": repo["html_url"],
+                "summary": summary,
+                "group": "community",
+            }
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            results = list(pool.map(build_one, repos))
+        items = [r for r in results if r]
         log(f"  GitHub Trending: {len(items)} 条")
     except Exception as e:
         log(f"  GitHub Trending: {e}")
+    return items
+
+
+def fetch_github_ai() -> list[dict]:
+    """AI 使用相关的快速增星项目（社区脉搏）：关键词 ai/llm/agent/mcp/gpt/claude/rag"""
+    items = []
+    seen_ids = set()
+    try:
+        since = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        resp = _session.get(
+            "https://api.github.com/search/repositories",
+            params={
+                "q": f"created:>{since} stars:>500 (ai OR llm OR agent OR mcp OR gpt OR claude OR rag)",
+                "sort": "stars", "order": "desc", "per_page": 10,
+            },
+            timeout=15,
+            headers={"Accept": "application/vnd.github.v3+json"},
+        )
+        if resp.status_code != 200:
+            log(f"  GitHub AI项目: {resp.status_code}")
+            return items
+        repos = resp.json().get("items", [])
+        def build_one(repo):
+            rid = repo["id"]
+            if rid in seen_ids:
+                return None
+            seen_ids.add(rid)
+            full_name = repo["full_name"]
+            readme = _fetch_repo_readme(full_name)
+            summary = readme or f"⭐ {repo['stargazers_count']} | 🍴 {repo['forks_count']} | {repo.get('language', '未知')}"
+            return {
+                "id": f"gh_ai_{rid}",
+                "source": "GitHub AI项目",
+                "title": f"{full_name} - {repo.get('description', '') or '无描述'}",
+                "url": repo["html_url"],
+                "summary": summary,
+                "group": "community",
+            }
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            results = list(pool.map(build_one, repos))
+        items = [r for r in results if r]
+        log(f"  GitHub AI项目: {len(items)} 条")
+    except Exception as e:
+        log(f"  GitHub AI项目: {e}")
     return items
 
 
@@ -693,6 +754,7 @@ SESSION_CONFIG = {
         "label": "☀️ 午间技术",
         "prompt_type": "afternoon",
         "sources_list": [
+            # ── 板块A：行业大事 ──
             ("AI前沿", lambda: (
                 fetch_arxiv(["cs.AI", "cs.LG", "cs.CL"], 5)
                 + fetch_huggingface()
@@ -707,9 +769,11 @@ SESSION_CONFIG = {
                 "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",
                 "HF Blog": "https://huggingface.co/blog/feed.xml",
             }, limit=3)),
+            # ── 板块B：社区脉搏 ──
+            ("GitHub快速增星", lambda: fetch_github_trending(7)),
+            ("GitHub AI项目", lambda: fetch_github_ai()),
             ("实战速报", lambda: fetch_devto() + fetch_oschina() + fetch_hackernews_comments(10)),
             ("开发者讨论", lambda: fetch_hackernews_all(30, ai_only=True)),
-            ("开源项目", lambda: fetch_github_trending(7)),
         ],
     },
     "evening": {
@@ -1413,6 +1477,7 @@ select{flex:1;min-width:180px;padding:8px;font-size:14px;border:1px solid #ddd;b
 .gcard p{margin:0;font-size:11px;line-height:1.5;color:#555;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .gcard .tag{display:inline-block;margin-top:6px;font-size:10px;color:#0b57d0;background:#eef3fd;border-radius:4px;padding:2px 6px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .loading{color:#888;font-size:13px;text-align:center;padding:30px}
+.group-title{font-size:14px;font-weight:600;color:#333;margin:14px 0 8px;padding:6px 10px;background:#f0f3fa;border-radius:8px}
 #pager{display:flex;justify-content:center;align-items:center;gap:12px;margin:14px 0}
 #pager button{padding:6px 16px;font-size:13px;border:1px solid #ddd;border-radius:8px;background:#fff;color:#0b57d0;cursor:pointer}
 #pager button:disabled{opacity:.35;cursor:default}
@@ -1716,11 +1781,20 @@ function renderGridPage(){
   const start = curPage * PAGE_SIZE;
   const pageCards = ctx.cards.slice(start, start + PAGE_SIZE);
   if(!pageCards.length){ curPage = 0; return renderGridPage(); }
+  const GROUP_LABEL = {industry:'🔥 行业大事', community:'💬 社区脉搏'};
+  let lastGroup = (start > 0) ? ctx.cards[start-1].group : null;
   box.innerHTML = pageCards.map((c,j)=>{
     const gi = start + j;   // 全局索引（供 openChat/滑动使用）
+    const group = c.group || (ctx.cards.slice(0, start+j).some(x=>x.group==='community') ? 'community' : 'industry');
+    // 板块标题：组变化时插入
+    let titleHtml = '';
+    if(group !== lastGroup && GROUP_LABEL[group]){
+      titleHtml = `<div class="group-title">${GROUP_LABEL[group]}</div>`;
+    }
+    lastGroup = group;
     const tag = (c.entities && c.entities[0]) ? c.entities[0].name : (c.relevant || '');
     const tagTxt = tag ? '<span class="tag">' + esc(tag) + '</span>' : '';
-    return `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
+    return titleHtml + `<div class="gcard" data-gi="${gi}" onclick="openChat(${gi})"><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${tagTxt}</div>`;
   }).join('');
   const total = ctx.cards.length;
   const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
@@ -2274,10 +2348,38 @@ def main():
             with open("last_report.txt", "w", encoding="utf-8") as f:
                 f.write(f"{config['label']}\n{now_str}\n{sources_count}个信源|{len(new_items)}条\n{'─'*40}\n{clean_report}")
 
-        # 生成摘要卡片（第二次独立调用 DeepSeek，覆盖前30条最重要）
+        # 生成摘要卡片（双板块：行业大事 + 社区脉搏，分开生成保证社区必有席位）
         log(">>> 生成摘要卡片...")
-        cards = build_summary_cards(new_items)
-        log(f"  卡片数: {len(cards)}")
+        # 社区信源名单（用于归类无 group 字段的 item）
+        COMMUNITY_SOURCES = ("GitHub Trending", "GitHub AI项目", "HN讨论", "Hacker News",
+                             "Dev.to", "开源中国", "V2EX")
+        def _is_community(it):
+            if it.get("group") == "community":
+                return True
+            return it.get("source", "") in COMMUNITY_SOURCES
+        industry_items = [it for it in new_items if not _is_community(it)]
+        community_items = [it for it in new_items if _is_community(it)]
+        cards = []
+        if industry_items:
+            ind_cards = build_summary_cards(industry_items, max_items=20)
+            # ArXiv 降权：最多保留 5 张（科研阶段的未投入使用，少推荐）
+            arxiv_n = 0
+            filtered = []
+            for c in ind_cards:
+                if c.get("source_name", "").startswith("ArXiv"):
+                    if arxiv_n >= 5:
+                        continue
+                    arxiv_n += 1
+                c["group"] = "industry"
+                filtered.append(c)
+            ind_cards = filtered
+            cards.extend(ind_cards)
+        if community_items:
+            com_cards = build_summary_cards(community_items, max_items=10)
+            for c in com_cards:
+                c["group"] = "community"
+            cards.extend(com_cards)
+        log(f"  卡片数: {len(cards)}（行业 {sum(1 for c in cards if c.get('group')=='industry')} / 社区 {sum(1 for c in cards if c.get('group')=='community')}）")
         # 访问原文URL抓正文，增强问答上下文
         if cards:
             enrich_cards_fulltext(cards)
