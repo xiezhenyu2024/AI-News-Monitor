@@ -1,0 +1,1390 @@
+{
+  "key": "2026-08-26-afternoon",
+  "date": "2026-08-26",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "新架构Recuris通过递归记忆进化，在35/37项基准测试中提升任务成功率",
+      "entities": [
+        {
+          "name": "Recuris",
+          "explain": "一种新型AI架构，通过递归地更新记忆来提升AI在复杂任务中的表现"
+        },
+        {
+          "name": "GPT-5.6 Sol",
+          "explain": "OpenAI开发的前沿AI模型，在特定基准测试中表现优异"
+        },
+        {
+          "name": "Claude Opus",
+          "explain": "Anthropic开发的前沿AI模型，在特定基准测试中表现优异"
+        },
+        {
+          "name": "tau-bench",
+          "explain": "一个用于评估AI智能体在真实世界任务中表现的基准测试"
+        }
+      ],
+      "summary": "Recuris是一种递归经验-工作记忆架构，通过工作记忆跟踪任务进度并指导技能选择，将执行转化为结构化证据来定位失败。该架构在四个长时程基准测试和十个模型上，在37个完成的模型-基准对中提升了35个任务成功率，将前沿模型推向SOTA水平，在tau-bench上为GPT-5.6 Sol和Claude Opus分别增加了17.8和15.6个百分点。",
+      "relevant": "该研究解决了递归自我改进（RSI）在长时程任务中的难题，显著提升了前沿AI模型的任务成功率，对AI智能体的自主性和泛化能力有重要影响。",
+      "context": "递归自我改进（RSI）在长时程任务中一直难以实现，因为任务历史过长会模糊任务状态并导致技能调用错位。Recuris通过将工作记忆与经验记忆耦合，使技能选择基于当前需求而非完整历史，从而解决了这一问题。",
+      "source_analysis": "论文发布在ArXiv预印本平台，属于学术研究，通常经过同行评审前公开，研究方法和结果具有可验证性。",
+      "social_impact": "该研究在多个基准测试中展示了显著的性能提升，可能推动AI智能体在复杂、长期任务中的实际应用，如自动化工作流程和复杂问题解决。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 25 Aug 2026] Title:Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses View PDF HTML (experimental) Abstract:Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop. Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of the 37 completed model-benchmark pairs, carrying frontier models to SOTA-level task success: on tau-bench it adds +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5, taking Opus 5 to 87.9%, and +16.6/+13.5 points on Qwen3.6-27B/35B on SkillFlow. The advantage widens as the interaction horizon grows, to +32.2 points on the longest tasks, and common long-horizon failures fall by up to 80%. These results position recursively evolving memory as a scalable foundation for RSI, enabling agents to continuously transform accumulated experience into increasingly effective long-horizon behavior. Code: this https URL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs ha",
+      "source_title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "source_url": "https://arxiv.org/abs/2608.24876v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "SPO++算法通过流对齐策略优化，提升异步智能体强化学习效率",
+      "entities": [
+        {
+          "name": "SPO++",
+          "explain": "一种新的强化学习算法，用于训练AI智能体在异步环境中更高效地学习"
+        },
+        {
+          "name": "ALFWorld",
+          "explain": "一个用于评估AI智能体在虚拟家庭环境中执行任务能力的基准测试"
+        },
+        {
+          "name": "Math-TIR",
+          "explain": "一个用于评估AI智能体解决数学问题能力的基准测试"
+        }
+      ],
+      "summary": "SPO++是一种流对齐策略优化算法，解决了单流策略优化（SPO）中轨迹中心化与动作令牌加权损失不匹配的问题。通过标准化终端结果优势并组织提示证据，SPO++在ALFWorld和Math-TIR基准测试中，在两个模型规模上均优于SPO，提升了在线学习效率。",
+      "relevant": "该研究改进了异步智能体强化学习的效率，对于训练在复杂工具使用环境中工作的AI智能体具有重要意义。",
+      "context": "组相对强化学习需要等待同一提示的兄弟轨迹，这在长且多变的工具使用轨迹中成本高昂。SPO通过持久提示级价值估计消除了这种依赖，但存在轨迹中心化与动作令牌加权损失不匹配的问题。SPO++通过标准化终端结果优势解决了这一缺陷。",
+      "source_analysis": "论文发布在ArXiv预印本平台，属于学术研究，通常经过同行评审前公开，研究方法和结果具有可验证性。",
+      "social_impact": "该算法在多个基准测试中展示了性能提升，可能加速AI智能体在需要复杂工具使用和决策的任务中的训练和应用。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 25 Aug 2026] Title:SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL View PDF HTML (experimental) Abstract:Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per trajectory before optimizing a token-mean actor loss. We show that trajectory centering generally does not center the token-weighted quantity consumed by the actor, and fix the mismatch by standardizing terminal-outcome advantages under the action-token measure. We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO. A paired ablation identifies action-token-measure normalization as the strongest tested component. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "source_url": "https://arxiv.org/abs/2608.24870v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "LAION发布1000万小时开放视频数据集LAION-BVD，推动多模态预训练",
+      "entities": [
+        {
+          "name": "LAION-BVD",
+          "explain": "一个大型开放视频数据集，包含1000万小时的视频数据，用于多模态AI模型训练"
+        },
+        {
+          "name": "CommonCrawl",
+          "explain": "一个非营利组织，提供大规模网页爬取数据，常用于构建AI训练数据集"
+        }
+      ],
+      "summary": "LAION-BVD是一个包含1.3B平台特定视频URL和8000万下载视频（总时长1000万小时）的大型开放视频数据集。该数据集专为视频、音频和图像多模态预训练设计，通过内容感知场景检测提取片段并合成字幕。基于该数据训练的模型在标准视频-文本和音频-文本基准上表现优异，且性能随规模提升。",
+      "relevant": "该数据集显著扩展了开放视频数据的规模，为多模态AI研究提供了宝贵资源，可能推动视频理解和生成模型的进步。",
+      "context": "多模态预训练需要大规模、多样化的视频数据，但现有开放数据集规模有限。LAION-BVD通过从CommonCrawl收集URL并下载视频，构建了迄今为止最大的开放视频数据集之一。",
+      "source_analysis": "论文发布在ArXiv预印本平台，属于学术研究，通常经过同行评审前公开，研究方法和结果具有可验证性。",
+      "social_impact": "该数据集将向研究社区开放，可能促进多模态AI模型的创新和应用，如视频检索、视频生成和音频理解等。",
+      "source_text": "Computer Science > Computer Vision and Pattern Recognition [Submitted on 25 Aug 2026] Title:LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training View PDF Abstract:We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the video, audio, and image modalities. Using content-aware scene detection, we extract clips for which we synthetically generate video and audio captions. Models trained on these data achieve competitive performance on standard video-text and audio-text benchmarks, with consistent improvements as training or model scale increases. Additionally, we explore video frames as an alternative source of image-text data by extracting scene-changing frames. These frames exhibit a visual distribution distinct from standard web image corpora, and models trained on this dataset achieve strong image-text retrieval performance. We release LAION-BVD to the research community. It significantly expands open access to multimodal videos at an unprecedented scale. Submission history From: Andreas Hochlehnert [view email] [v1] Tue, 25 Aug 2026 17:34:19 UTC (1,321 KB) Current browse context: cs.CV References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "source_url": "https://arxiv.org/abs/2608.24845v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "新诊断工具ZID揭示FID评估指标的隐藏缺陷，提供更全面的生成模型评估",
+      "entities": [
+        {
+          "name": "FID",
+          "explain": "Fréchet Inception Distance，一种常用的生成模型评估指标，通过比较特征分布来打分"
+        },
+        {
+          "name": "KID",
+          "explain": "Kernel Inception Distance，另一种生成模型评估指标，基于核方法比较分布"
+        },
+        {
+          "name": "ZID",
+          "explain": "一种新的诊断工具，通过多个标准化指标全面评估生成模型的分布偏差"
+        }
+      ],
+      "summary": "研究指出FID和KID等标量指标无法捕捉分布差异，且无法区分欠分散和过分散。为此，研究者提出ZID（Z-resolved Integrated Diagnostic），结合六个标准化位置和分散敏感指标，提供更全面的生成模型评估。在ImageNet上，仅优化匹配参考均值和协方差的不可识别图像获得FID 24.7，远优于真实图像的58.6，凸显了FID的局限性。",
+      "relevant": "该研究揭示了常用生成模型评估指标的严重缺陷，并提出了更全面的诊断工具，对生成模型的可靠评估和改进具有重要意义。",
+      "context": "生成模型通常使用FID和KID等标量指标进行排名，但这些指标只总结前两阶矩，可能遗漏分布差异，且无法指示分散变化的方向。ZID通过多指标组合解决了这些问题。",
+      "source_analysis": "论文发布在ArXiv预印本平台，属于学术研究，通常经过同行评审前公开，研究方法和结果具有可验证性。",
+      "social_impact": "该研究可能改变生成模型的评估标准，促进更可靠、更全面的模型比较和开发，影响图像生成、视频生成等领域。",
+      "source_text": "Statistics > Machine Learning [Submitted on 25 Aug 2026] Title:What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation View PDF HTML (experimental) Abstract:Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported scalar gap alone is not a calibrated test against sampling variation. FID's moment restriction has concrete consequences: on ImageNet, visually unrecognizable images optimized only to match the reference Inception mean and covariance obtain FID $24.7$ versus $58.6$ for held-out real images (lower is better). Moreover, FID and KID are scalar discrepancies that are unchanged when the two samples are exchanged and therefore do not encode the direction of a dispersion change: under-dispersion, as can occur in mode collapse, versus over-dispersion. We introduce \\textbf{ZID} (\\emph{Z-resolved Integrated Diagnostic}), which combines six standardized location- and dispersion-sensitive arms from a rank graph (RISE) and Gaussian kernels (GPK at two bandwidths). Rather than asking one scalar to serve incompatible roles, ZID reports three linked outputs: an index for ranking departure magnitude, a permutation $p$-value for testing distributional equality, and a signed dispersion readout for diagnosis. In controlled experiments, ZID detects a broad range of departures, and its score tracks increasing severity along the corresponding sweeps, including cases in which FID is flat or reversed. On DiT-XL/2 and SiT-XL/2 guidance sweeps, ZID detects departure from real data, and its signed readout labels the high-guidance diversity collapse as under-dispersion. Current browse context: stat.ML References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collab",
+      "source_title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+      "source_url": "https://arxiv.org/abs/2608.24881v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "新方法Bellman校准改善离线强化学习中的边际重要性加权估计",
+      "entities": [
+        {
+          "name": "Bellman校准",
+          "explain": "一种新的后处理方法，通过单调变换减少离线强化学习中的分布不平衡问题"
+        },
+        {
+          "name": "FORE",
+          "explain": "拟合占用率评估，一种用于校正占用率估计的方法"
+        }
+      ],
+      "summary": "研究者提出等距Bellman校准，一种一维、模型无关的后处理方法，通过应用非递减变换来减少边际重要性加权估计中的占用平衡违规。该方法在保持初始占用率估计排名信息的同时，校正其规模和形状，为超参数调整、模型选择和早停提供了直接监督验证损失。",
+      "relevant": "该研究解决了离线强化学习中边际重要性加权估计的分布不平衡问题，提高了评估目标策略的准确性，对离线RL的实际应用有重要意义。",
+      "context": "边际重要性加权通过重加权离线状态-动作样本来评估目标策略，但现有估计器可能因函数类近似、正则化或优化不完整而留下占用平衡违规。Bellman校准通过一维单调变换减少这些违规。",
+      "source_analysis": "论文发布在ArXiv预印本平台，属于学术研究，通常经过同行评审前公开，研究方法和结果具有可验证性。",
+      "social_impact": "该方法可能提高离线强化学习在现实世界应用中的可靠性，如机器人控制、推荐系统等，减少对在线交互的依赖。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 25 Aug 2026] Title:Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning View PDF HTML (experimental) Abstract:Marginalized importance weighting evaluates a target policy by reweighting offline state-action samples with its discounted occupancy ratio, characterized by an adjoint Bellman equation. Existing minimax, primal-dual, and fitted fixed-point estimators can leave residual occupancy-balance violations because of function-class approximation, regularization, or incomplete optimization. These violations are difficult to diagnose and reduce because the objectives generally lack a direct supervised validation loss for hyperparameter tuning, model selection, and early stopping. We introduce isotonic Bellman calibration, a one-dimensional, model-agnostic post-processing method that reduces these violations while preserving the ranking information in any initial occupancy-ratio estimate. The method corrects the estimate's scale and shape by applying fitted occupancy-ratio evaluation (FORE) over a one-dimensional class of nondecreasing transformations. We characterize Bellman calibration as a conditional fixed-point property equivalent to occupancy-balance against every test function of the calibrated ratio. More generally, we derive a calibration-refinement bound showing that any fitted ratio with small calibration error performs nearly as well as the best post-processing based on its fitted values. For isotonic Bellman calibration, we establish finite-sample calibration guarantees and a KL oracle inequality relative to the best monotone transformation of the initial estimate. Consequently, isotonic Bellman calibration achieves small calibration error and KL risk within statistical error of the best monotone correction, with guarantees for downstream target-occupancy functionals, including policy-value estimation. Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Infl",
+      "source_title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "source_url": "https://arxiv.org/abs/2608.24858v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "OpenAI发布自研推理芯片Jalapeño，称推理速度与能效行业领先",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT等产品"
+        },
+        {
+          "name": "Jalapeño",
+          "explain": "OpenAI自研的AI推理芯片，用于加速模型运行"
+        }
+      ],
+      "summary": "OpenAI公布了其定制推理芯片Jalapeño的首批测试结果，宣称该芯片在AI推理任务中实现了更快的速度和更高的能效，同时具备更高的吞吐量和更低的延迟，尤其针对现代大模型进行了优化。这一成果标志着OpenAI在硬件自研领域迈出关键一步。",
+      "relevant": "这是OpenAI首次公开自研芯片性能数据，表明其正试图摆脱对英伟达等外部芯片供应商的依赖，可能重塑AI算力市场格局。",
+      "context": "随着AI模型规模扩大，推理成本成为主要瓶颈。OpenAI此前已宣布与博通合作开发定制芯片，Jalapeño是这一战略的首个公开成果，旨在降低推理成本并提升服务效率。",
+      "source_analysis": "消息来自OpenAI官方博客，属于公司自我宣传，可能强调正面数据，但具体测试环境和对比基准未完全披露。",
+      "social_impact": "若Jalapeño性能属实，可能降低AI应用成本，推动更多中小型企业采用大模型，同时加剧AI芯片领域的竞争。",
+      "source_text": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference Since announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly. Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two. For customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows. Our mission is to ensure that artificial general intelligence benefits all of humanity. These gains will help make increasingly capable AI more affordable and more broadly available. OpenAI models also accelerated Jalapeño’s development. Earlier generations helped the team design and bring up the chip, while our latest models are accelerating how we optimize and program it. Jalapeño’s performance extends across GPT‑OSS 120B, DeepSeek R1, and Kimi K2.5 1T, showing that the architecture works across models developed both inside and outside OpenAI. Across all three, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance. Jalapeño is also evidence of a broader full-stack advantage. OpenAI can design models, products, serving software, chips, memory, networking, and systems together, using what we learn from real workloads to improve every layer of the stack. Jalapeño is working first-party silicon with measured results, and it is the beginning of a multigenerational platform. In the months ahead, we will ramp Jalapeño to deliver faster, more capable, and more efficient products for our customers. We evaluate performance at a matched user experience, measuring how much useful AI work each system can complete per unit of power while meeting the latency customers and interactive agents require. This matters especially for agents, which need to complete many steps in sequence, so delays can compound across an entire task. To understand how Jalapeño performs in practice, we tested it on InferenceX, a public benchmark from SemiAnalysis that measures the full process of serving an AI request. We compared Jalapeño with leading commercially available AI systems across the ",
+      "source_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "source_url": "https://openai.com/index/jalapeno-first-results",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "OpenAI CFO发文阐述“全栈”战略：芯片、算力、模型与产品协同驱动智能普及",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT等产品"
+        },
+        {
+          "name": "Sarah Friar",
+          "explain": "OpenAI首席财务官，负责公司财务与战略"
+        }
+      ],
+      "summary": "OpenAI首席财务官Sarah Friar发表文章，指出芯片、计算、模型和产品四个层面的技术进步正在相互叠加，使得AI能够以更大规模、更低成本提供更实用的智能服务。她强调这种“全栈”协同是OpenAI的核心竞争力。",
+      "relevant": "此文是OpenAI高层罕见地系统阐述其技术战略，有助于外界理解其从芯片到应用的垂直整合逻辑，以及未来产品定价和算力布局方向。",
+      "context": "AI行业竞争激烈，OpenAI面临来自Anthropic、Google等对手的压力，同时需要向投资者证明其技术护城河和商业可持续性。",
+      "source_analysis": "消息来自OpenAI官方博客，属于公司战略宣传，旨在向投资者和公众传递信心，可能弱化潜在风险。",
+      "social_impact": "该战略若成功，可能加速AI在各行业的渗透，但垂直整合也可能引发对市场垄断和数据集中化的担忧。",
+      "source_text": "Progress in AI compounds fastest when the entire system improves together. That is how I think about OpenAI’s compute strategy: one integrated system spanning data centers and chips, frontier models, our developer platform, consumer and enterprise products, and AI-native devices, with each layer strengthening the next. Better software makes hardware more productive. Hardware designed for our workloads improves speed and efficiency. More capable models unlock better products, which generate more demand, usage, and learning. Those signals flow back through the system and help us improve it again. Today, we shared the first measured performance results from Jalapeño, OpenAI’s first custom inference chip. On InferenceX, a public benchmark using GPT‑OSS 120B, Jalapeño delivered more peak throughput per kilowatt and lower token latency than the commercial systems in the comparison. It also performed strongly on DeepSeek R1 and Kimi K2, showing that its gains extend across model families. Jalapeño gives us greater control over how our models run and over the economics of serving them. By developing the model, serving software, chip, memory, and network together, we can improve throughput, latency, energy efficiency, and cost as one system. It creates a credible first-party path alongside the accelerators we use from other partners, expanding our ability to match each workload to the strongest system at the right economics. We now have working first-party silicon with measured results, and future generations are already underway. Different workloads place different demands on the system. Frontier training, high-volume inference, and always-on agents have different requirements across chips, software, networks, power, and latency. Our goal is to stay on the Pareto frontier: continually seeking the strongest mix of capability, speed, reliability, efficiency, and cost for each workload. Different chips and providers lead on different dimensions, and the frontier keeps moving. Our portfolio gives us the range to meet those needs. Microsoft’s compute and NVIDIA’s chips have been foundational to OpenAI’s growth. Today, our portfolio also includes AWS, AMD, Broadcom, Cerebras, CoreWeave, Oracle, SB Energy and SoftBank. Each brings different strengths across cloud infrastructure, accelerated computing, low-latency inference, data-center development, and energy delivery. We actively manage this portfolio for both capability and economics. We use premium systems where capab",
+      "source_title": "The full stack behind abundant intelligence",
+      "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind发布手语转文字模型SL2T，为听障用户提供实时翻译功能",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究实验室，开发了AlphaGo等系统"
+        },
+        {
+          "name": "SL2T",
+          "explain": "Sign-Language-to-Text，手语转文字模型，可将手语动作实时转换为文字"
+        }
+      ],
+      "summary": "Google DeepMind推出突破性的手语转文字（SL2T）模型，并已集成到面向聋人和听障用户的新功能中。该模型能够实时将手语翻译为文本，旨在打破沟通障碍，提升听障群体的数字可及性。",
+      "relevant": "这是AI在无障碍领域的重要应用，直接改善全球数亿听障人士的日常生活，也展示了多模态AI技术的实际社会价值。",
+      "context": "手语识别一直是AI难点，因为手语依赖手势、表情和身体语言，且不同地区差异大。DeepMind此前在语音和视觉模型上的积累为SL2T提供了基础。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于产品发布宣传，可能强调技术突破而简化实际部署中的局限性。",
+      "social_impact": "该技术有望广泛应用于视频会议、教育、公共服务等领域，但需注意不同手语变体的覆盖度和隐私问题。",
+      "source_text": "Putting sign language AI into users’ hands Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users. AI's ability to process spoken languages has advanced rapidly over recent decades, enabling automatic translation, dictation, and conversational interfaces that feel effortless to hearing users. Yet this technological revolution has not reached the world’s more than 200 sign languages — and the estimated 70 million Deaf and hard of hearing people who use them. Today, we’re introducing a massively multilingual sign-language-to-text (SL2T) translation model that marks a breakthrough in quality and generality. With it, we are bringing sign language AI out of the lab and into consumer products for the first time: SL2T powers sign-to-text dictation in Gboard and Live Transcribe on Pixel 11, starting with American Sign Language (ASL) to English. More devices are coming soon, and additional languages will follow. Similarly to how hearing users can use dictation to speak instead of typing, this feature enables Deaf users to sign to their phone anywhere they’d normally type. You can sign to search the web, draft messages or documents, and ask Gemini to solve queries or execute tasks. In Live Transcribe, you can sign responses in conversations instead of having to type back and forth. According to our testers, signing in ASL is faster, more natural, and more delightful than typing in English. Why sign languages matter Sign languages are the primary languages of Deaf communities around the world and the cornerstone of Deaf cultural identity. There is great diversity among deaf people in terms of their level of proficiency in signing, speaking, reading, and writing, so it is important to support access in all modalities. Deaf people can benefit from sign language processing in the same way that hearing people benefit from spoken language processing, plus the technology opens new possibilities for bridging the communication gap between Deaf and hearing communities. Despite this opportunity for positive social impact, progress in sign language AI has been slow — both because building AI for sign languages presents complex challenges and because widespread misconceptions exist about how the languages themselves work. Compared to spoken language transcription, sign language translation presents two core challenges. First, transcribing speech is a matter of performing a sequential mapping from so",
+      "source_title": "Putting sign language AI into users’ hands",
+      "source_url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "Google DeepMind发布Gemini 3.7 Flash模型，主打快速响应能力",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究实验室"
+        },
+        {
+          "name": "Gemini 3.7 Flash",
+          "explain": "谷歌最新发布的轻量级AI模型，强调低延迟和高效推理"
+        }
+      ],
+      "summary": "Google DeepMind正式推出Gemini 3.7 Flash，这是其Gemini系列的最新版本，专注于提供更快的响应速度和更高的效率，适合需要实时交互的应用场景。具体技术细节和性能数据尚未完全公开。",
+      "relevant": "Gemini 3.7 Flash的发布显示谷歌在轻量级模型上的竞争布局，直接对标OpenAI的GPT-4o mini等产品，可能影响AI应用开发者的选型。",
+      "context": "大模型部署成本高、响应慢，轻量级模型成为行业趋势。谷歌此前已推出Gemini Flash系列，3.7版本是迭代更新。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于产品发布公告，内容简短，缺乏详细基准测试数据。",
+      "social_impact": "更快的模型响应将提升聊天机器人、实时翻译等应用的体验，但轻量级模型可能在复杂任务上表现较弱。",
+      "source_text": "Introducing Gemini 3.7 Flash Today, we’re building on the progress of our widely used Flash series by introducing Gemini 3.7 Flash, our most intelligent workhorse model yet for coding and agents. This release comes just three weeks after Gemini 3.6 Flash, and is a direct result of developer feedback and algorithmic innovations that we look forward to bringing to future models. 3.7 Flash delivers substantial improvements across software engineering, knowledge work, and web development workflows — with an introductory price of half the original 3.6 Flash cost per million tokens. Better intelligence for complex workflows 3.7 Flash shows strong gains over 3.6 Flash in coding tasks like debugging and issue resolution. It also achieves higher first-pass code accuracy and has improved performance in generating production-ready code as seen in FrontierCode 1.1 Main (43.6% vs 34.4%) and DeepSWE v1.1 (65.3% vs 49.0%). In web development, 3.7 Flash generates more functional layouts and feature-complete apps in fewer prompts. For UI generation, the model shows high design adherence and parity based on a reference input, whether it’s a screenshot, an image, or a full design system. It outperforms 3.6 Flash on Arena.ai’s WebDev Arena with an Elo score of 1588 vs 1538. For knowledge-dense fields like finance, law, and biosciences, 3.7 Flash delivers improved reasoning and accuracy. It significantly outperforms 3.6 Flash on the GDP.pdf benchmark (34.0% vs 22.0%), an eval for testing a model’s ability to process complex documents. It also surpasses 3.6 Flash in AutomationBench, demonstrating it can more effectively complete real-world business workflows (30.4% vs 17.0%). Better developer experience and price Gemini 3.7 Flash delivers a noticeably improved developer experience over 3.6 Flash. It better adapts to roadblocks, clarifies intent when needed, and follows instructions with greater fidelity. It thinks more diligently, putting in more effort into multi-step planning and tool calls. A more disciplined execution means less manual oversight and fewer retries across engineering workflows. 3.7 Flash is available through the end of the year at an introductory price 1 of $0.75/1M input tokens and $3.75/1M output tokens. This price combined with the enhanced model performance enables developers and customers to scale production-ready agents cost effectively. Early customer feedback is highlighting 3.7 Flash’s performance and precision, achieving results that are significant",
+      "source_title": "Introducing Gemini 3.7 Flash",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "Google DeepMind与游戏工作室合作，将15年游戏AI研究应用于新原型",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究实验室"
+        },
+        {
+          "name": "EVE Online",
+          "explain": "一款大型多人在线太空沙盒游戏，以复杂经济系统著称"
+        }
+      ],
+      "summary": "Google DeepMind宣布与多家游戏工作室合作，将其15年来在游戏AI领域的研究成果（从Atari到EVE Online）应用于开发突破性的AI游戏玩法原型。合作旨在探索AI如何提升游戏体验和NPC智能。",
+      "relevant": "游戏是AI研究的重要试验场，DeepMind此举可能推动AI在游戏产业的实际落地，同时为通用AI研究提供新场景。",
+      "context": "DeepMind自2013年起用游戏训练AI，如AlphaGo和AlphaStar，积累了强化学习经验。此次合作是将研究成果商业化的重要一步。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于合作宣传，可能夸大AI在游戏中的实际效果。",
+      "social_impact": "AI驱动的游戏NPC可能让游戏更沉浸，但也可能引发关于AI取代游戏设计师的担忧。",
+      "source_text": "From Atari to EVE Online: Building on 15 Years of AI Research in Games From Atari to Go to StarCraft, games have driven some of the biggest breakthroughs in AI. Now, we’re partnering with game developers to prototype new gameplay experiences that push the frontiers of both gaming and AI. Since DeepMind’s foundation in 2010, the constrained yet rich worlds of games have played a critical role in understanding intelligence. They have driven some of our biggest AI breakthroughs, from mastering Atari to helping solve protein structure prediction - and they are still at the heart of what we do. Gaming is in GDM’s DNA. Demis Hassabis, one of Google DeepMind's founders, is himself a former game developer, as are many of us in the GDM team. Together, we have decades of hands-on experience in game development and a deep respect for the craft of making games. We’ve always been clear that doing AI research with games requires deep partnership with game developers - like our major new research partnership with Fenris Creations and the EVE Universe that we unveiled earlier this year, and the work we’ve done together with acclaimed studios like Hello Games, Coffee Stain Studios, Foulball Hangover and others. Games as the engine of AI research Our journey began when a small team trained a deep neural network to play Atari 2600 games directly from raw pixels. The Deep Q-Network (DQN) learned to play 49 different games — from Pong to Breakout to Space Invaders — without any game-specific engineering. The 2015 Nature paper on DQN helped catalyze the modern era of deep reinforcement learning. From there, we attempted to master more complex games, with each milestone producing more capable and general systems. AlphaGo defeated world champion Go player Lee Sae Dol in 2016 — a feat many experts thought was still a decade away. AlphaGo Zero surpassed every previous version by learning entirely from self-play, with no human data at all. AlphaZero generalized this approach to master chess, shogi, and Go with one algorithm, while MuZero learned to play without even knowing the rules. In 2019, AlphaStar reached Grandmaster level in StarCraft II, navigating real-time complexity and imperfect information. For each game, AI enriched the playing experience. AlphaGo's famous Move 37 was a play so unexpected that professional commentators initially thought it was a mistake, overturning centuries of received wisdom in Go and inspiring experts to explore new strategies. AlphaZero similarly ",
+      "source_title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "source_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Game2World引擎发布：自动去除游戏UI，利用真实游戏视频训练世界模型",
+      "entities": [
+        {
+          "name": "Game2World",
+          "explain": "一个由AI生成的游戏视频数据集，包含9.6万对合成视频和1079个真实游戏片段"
+        },
+        {
+          "name": "G2WEngine",
+          "explain": "一个全栈框架，可自动从游戏视频中提取UI资产并合成干净的背景视频"
+        }
+      ],
+      "summary": "研究人员推出Game2World引擎，该引擎能自动识别并移除游戏视频中的界面元素，生成干净的训练数据，用于训练视频世界模型。他们构建了包含9.6万对合成视频和1079个真实游戏片段的数据集，并提出了GameC基准来评估模型性能。",
+      "relevant": "游戏视频是训练世界模型的丰富数据源，但UI干扰一直是难题。该工作解决了这一瓶颈，可能加速视频生成和世界模型的发展。",
+      "context": "视频世界模型旨在让AI理解物理世界动态，游戏提供低成本、多样化的训练环境。但原始游戏画面包含血条、地图等UI，会误导模型学习。",
+      "source_analysis": "消息来自Hugging Face论文页面，属于学术研究发布，由第三方研究者提交，相对中立。",
+      "social_impact": "该技术可降低世界模型训练成本，推动自动驾驶、机器人等领域发展，但需注意游戏数据与真实世界的差异。",
+      "source_text": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training。Video games provide a scalable source of training data for video world models, offering diverse environments, complex interactions, and abundant in-the-wild gameplay videos. However, raw gameplay footage entangles the game world with screen-space interfaces, introducing game-specific biases and irrelevant dynamics that hinder world-model training. To address this problem, we introduce GameUI-Taxonomy and G2WEngine, a full-stack framework that formalizes gameplay UI grounding and removal. G2WEngine automatically extracts reusable UI assets from real gameplay videos and synthesizes temporally coherent UI overlays on clean footage. Using this engine, we construct Game2World, comprising 96K synthetic paired videos with precise reconstruction targets and 1,079 in-the-wild clips from 303 games for realistic evaluation. Its asset library contains 5,132 verified UI elements across 21 taxonomy categories, collected from 1,010 representative gameplay frames. Based on Game2World, we propose GameCleaner, a mask-free gameplay UI removal model that combines multimodal semantic understanding with video editing capabilities. Unlike mask-based methods, GameCleaner directly identifies and removes diverse HUD elements while preserving the underlying scene content and temporal dynamics. In a controlled pilot, world models trained on UI-free gameplay improve overall VideoReward by 6.83% over those trained on UI-overlaid data. On UI-removal evaluation, GameCleaner achieves an average AAR of 95.36 ",
+      "source_title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "蚂蚁国际发布时序AI预测大模型鹰序TST 2.0，获世界权威测评第一名",
+      "entities": [
+        {
+          "name": "蚂蚁国际",
+          "explain": "蚂蚁集团旗下的国际化业务部门，提供跨境支付和数字金融服务"
+        },
+        {
+          "name": "鹰序TST",
+          "explain": "蚂蚁国际自研的时间序列预测AI大模型，用于金融等领域的数据预测"
+        },
+        {
+          "name": "时间序列基础模型",
+          "explain": "一种AI模型，专门分析按时间顺序排列的数据（如股价、天气），预测未来趋势"
+        }
+      ],
+      "summary": "蚂蚁国际正式发布自研时序AI预测大模型“鹰序TST”2.0版，该模型在世界权威测评中排名第一。新版本从通用预测能力向金融应用深化，标志着时间序列基础模型在金融领域的落地迈出重要一步。",
+      "relevant": "这是中国AI模型在金融时序预测领域取得国际领先的里程碑事件，展示了国产大模型在垂直行业的应用潜力。",
+      "context": "时间序列预测是金融、气象、能源等领域的关键技术，蚂蚁国际此前已推出TST 1.0版本，此次2.0升级聚焦金融场景优化，旨在提升预测精度和行业适配性。",
+      "source_analysis": "量子位是专注AI与科技领域的中国媒体，报道偏向技术进展和产业应用，立场中立。",
+      "social_impact": "该模型在权威测评中排名第一，可能吸引更多金融机构采用国产AI预测工具，推动金融行业智能化转型。",
+      "source_text": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用 蚂蚁国际日前正式发布自研时序AI预测大模型“鹰序TST”2.0版。 蚂蚁国际日前正式发布自研时序AI预测大模型“鹰序TST”（FalconTST，Time-Series Transformer）2.0版。“鹰序TST”2.0在全球权威基准测试中取得最优成绩（SOTA），平均绝对比例误差（MASE）降至0.666，超越多家全球顶尖科技公司的时间序列预测模型。该模型专为跨境支付外汇风险管理打造，并将拓展至电商供应链需求预测、航空运营管理等更多行业场景。 目前，巴克莱银行、花旗银行、德意志银行、渣打银行等大型金融机构已将“鹰序TST”2.0应用于现金流预测与外汇管理，提升流动性风险敞口的预测能力。“鹰序TST”2.0的预测准确率已稳定超过93%，具备向物流、航空、电商等金融以外行业拓展的应用能力。 2025年以来，Amazon Chronos-2、Google TimesFM 2.5、Salesforce Moirai 2.0和IBM FlowState相继把多变量、长上下文、概率预测、跨采样率适配等能力推向前台；与此同时，金融市场的低信噪比、机制切换、厚尾风险和跨市场联动，使通用榜单优势很难直接转化为稳定的金融预测收益。蚂蚁国际Falcon TST的演进具有代表性：2025年先在外汇敞口和资金管理中完成业务验证，2026年又以Falcon-2.0强化单变量预测效率，以Falcon-X补足异构多变量关系建模，Falcon TST 2.0是“通用时序基础能力+金融流程验证”的专用化尝试，持续迭代和稳定进步展现了蚂蚁国际在AI+金融领域的先锋力量。 一、金融时间序列正在检验通用基础模型的真实能力 通用时间序列基础模型已经具备明显的跨数据集迁移能力。Salesforce AI Research于2024年11月发布的GIFT-Eval基准覆盖28个数据集、超过14.4万条时间序列和1.77亿个测试数据点，并配套约2300亿个不与测试集重叠的预训练数据点。该基准推动行业从“一个数据集训练一个模型”转向“预训练一次、跨任务零样本预测”。Google TimesFM、Amazon Chronos、Salesforce Moirai等模型随后快速升级，核心目标已从单一预测精度扩展到跨频率、跨变量和不确定性输出。 金融市场对通用模型提出了更苛刻的检验。金融收益率通常具有低信噪比、厚尾、波动率聚集和机制切换等特征，日内行情、日度收盘、利率曲线和宏观数据还存在频率不一致、节假日错位和缺失值。曼彻斯特大学、伦敦大学学院等研究者2025年11月发布的大规模金融实证工作论文发现，直接使用现成预训练TSFM进行零样本预测和常规微调，整体效果较弱；在金融数据上重新预训练后，预测表现和经济收益明显改善。该结果说明，通用预训练提供了有价值的时间模式先验，但金融领域仍高度依赖训练分布与目标任务的匹配。 金融TSFM的价值应与“稳定产生交易收益”区分开来。2026年6月一项针对5只美国高流动性股票的独立研究比较TimeGPT、TimesFM 2.5、Moirai 2.0、Chronos和Chronos-2等模型，TSFM拿下10个任务中的8个最优结果，但相对随机游走基准的增益总体较小，只有少数任务通过显著性检验，且META的两个任务仍由本地监督训练的iTransformer胜出。金融机构因此更适合把TSFM视作可迁移的预测底座和开发效率工具，再通过领域数据、滚动回测和风险约束完成二次验证。 二、主流TSFM已转向多变量、长上下文和概率预测 Chronos-2把Amazon的技术路线从单变量预测推进到通用上下文学习。Amazon于2025年10月20日发布120M参数的Chronos-2，原生支持单变量、多变量和协变量条件预测，并通过Group Attention在相关序列之间共享上下文信息。需要区分的是，初代Chronos确实采用“缩放和量化后转为离散Token、再以语言模型交叉熵训练”的路线；Chronos-2已经引入新的组注意力和通用上下文学习机制，不能简单沿用“数值分桶导致尾部精度受限”来评价新版本。Amazon公布的“超过90%胜率”指Chronos-2相对Chronos-Bolt的头对头比较，并非GIFT-Eval总榜胜率。Chronos-Bolt的“最高250倍推理加速、20倍内存节省”同样是相对初代同规模Chronos的对比结果。 TimesFM 2.5用更小参数量换取更长上下文和连续分位数预测。Google Research于2025年9月15日发布TimesFM 2.5，将模型规模从2.0版的500M降至200M，上下文长度从2048扩展至最高16384，并增加可选的30M连续分位数预测头，最长支持1000步分位数预测。其后，Google在2025年10月恢复XReg协变量支持，2026年3月增加Agent技能接口，4月加入基于LoRA的微调示例。因此，“2.5版在2026年一次性加入分位数、LoRA和Agent”的说法并不准确，模型发布与生态增强分属不同时间节点。 Moirai 2.0证明时间序列基础模型并不需要持续堆大参数。Salesforce于2025年8月8日发布Moirai 2.0，将早期Moirai的Masked Encoder改为Decoder-Only Transformer，并把训练目标改为分位数损失和多Token预测，同时增加缺失值信息嵌入、随机Patch掩码和数据质量过滤。Salesforce公布的小型版本约11.4M参数，相比此前Moirai Large参数量缩小约96%、推理速度提高44%，当时在GIFT-Eval无测试数据泄漏模型中取得领先MASE。其意义在于，TSFM竞争正在从“更大”转向“更合适的数据、目标函数和训练策略”。 FlowState用状态空间模型回应Transformer对采样频率变化适应不足的问",
+      "source_title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
+      "source_url": "https://www.qbitai.com/2026/08/479631.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "中国具身智能创业公司在WRC乒乓球局爆火，展示全栈技术方案",
+      "entities": [
+        {
+          "name": "WRC",
+          "explain": "世界机器人大会（World Robot Conference），全球机器人领域的重要展会"
+        },
+        {
+          "name": "具身智能",
+          "explain": "将AI嵌入物理机器人身体，使其能感知、决策并与环境交互的技术方向"
+        },
+        {
+          "name": "全栈",
+          "explain": "指覆盖从硬件到软件、从算法到系统的完整技术链条"
+        }
+      ],
+      "summary": "在WRC上，一家中国具身智能创业公司的乒乓球机器人表演爆火，现场人气爆满。该公司展示了球技丝滑的机器人，并砸出了一套全栈新解法，涵盖硬件、算法和系统集成，引发行业关注。",
+      "relevant": "具身智能是中国AI战略的重点方向，该公司的全栈方案展示了中国在机器人技术上的领先实力，可能推动人形机器人商业化进程。",
+      "context": "中国在具身智能领域已处于全球领先地位，WRC是展示最新成果的重要平台，乒乓球对机器人的实时反应和运动控制要求极高，是检验技术实力的绝佳场景。",
+      "source_analysis": "量子位报道，聚焦中国AI创业公司，立场积极，突出技术亮点。",
+      "social_impact": "乒乓球机器人爆火可能吸引更多资本和人才进入具身智能赛道，加速机器人走进日常生活的进程。",
+      "source_text": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法 球技丝滑、现场爆满 听雨 发自 凹非寺 量子位 | 公众号 QbitAI 机器人也开始打乒乓球了！ 这一次，球台直接搬到了世界机器人大会（WRC）现场。 超维动力的展台前，一台全尺寸人形机器人盯着飞来的乒乓球挥拍、转腰，再根据落点迅速调整动作。 几轮打下来，展台周围很快围满了观众。 球台旁边，另一套更大的系统也被摆上了展台。 全尺寸人形机器人KAI Bot、高自由度灵巧手KAI Hand、数采头环KAI Halo、KAI World Model，以及覆盖数据和训练流程的KAI Embodied AI Infra。 从硬件、模型到数据采集和Infra，这一整套全栈具身智能系统，统统被搬到了现场。 这套布局很容易让人想到Figure。作为全球估值最高的具身智能公司之一，Figure几乎是这一轮人形机器人热潮中最受关注的明星公司。 它真正得到资本认可的，不只是造出了一台人形机器人，而是同时押注本体、模型和真实场景。 自己造机器人，自己训练Helix模型，再把机器人送进宝马工厂，让真实任务产生的数据回到模型里，Figure打通了从本体、模型到真实场景与数据回流的全栈链路。 同样，超维动力走的也是全栈路线。 这家成立约一年的中国公司，已经把整机、灵巧手、数据采集设备、世界模型与训练Infra同时摆到了桌面上。 但这些拼图为什么必须同时存在，又如何真正咬合成一套持续进化的系统？ 答案就藏在超维动力选择的全栈路线里。 具身领域，全栈路线正在成为共识 过去几年，人形机器人最容易出圈的方式，是完成一个足够炫的动作。 会跑、会跳、会叠衣服，一段几十秒的视频就能收获流量。 但现在，大家已经不只看Demo了。 机器人完成一次任务，只能说明这个任务被做出来了。能否在不同环境、不同本体上稳定复现，才决定它有没有机会成为产品。 放眼全球，头部玩家虽然起点不同，却都在补齐自己的全栈能力。 Figure从「本体+大模型」切入，一边自研Helix VLA模型，一边让机器人进入宝马工厂，在真实任务中积累经验，再把数据反哺模型。 Tesla Optimus的底牌，则是特斯拉的垂直整合能力。 FSD积累的算法经验、成熟的供应链，再加上自家工厂提供的落地场景，让它能够同时推进本体研发、模型训练与规模制造。 Physical Intelligence（π）从模型侧出发，专攻通用具身基础模型，试图让同一套模型适配不同机器人，为形态各异的本体提供通用操作能力。 路线各不相同，目标却越来越一致：把本体、模型、数据与真实场景接进同一条迭代链路。 而超维动力的选择，则是同时布局硬件本体、具身大模型、高质量数据采集和底座Infra。 超维动力联合创始人、香港大学计算与数据科学学院教授罗平，对此有一个很直观的解释： 语言模型的用户是普通人，而具身大小脑的用户是机器人。 两类模型面对的是完全不同的反馈，语言模型输出的是Token，具身模型输出的却是机器人下一秒的动作。一次错误不只是答案不准确，还可能变成抓取失败、碰撞或者失去平衡。 这也决定了，具身智能不能只在互联网数据里学习。模型需要真实世界的动作数据，也需要在机器人本体上反复训练和验证。 数据进入模型，模型驱动本体，本体执行后的结果再回到训练系统。缺少任何一环，闭环都会断掉。 从这个角度看，全栈并非企业想把业务做得更宽，而是具身智能进入真实世界后的必然要求。 硬件、模型、数据，如何咬成一个闭环？ 超维动力的全栈能力，最终需要落到具体产品上。 它真正想解决的问题，并非造出一台机器人，而是如何让人类经验更顺畅地变成机器人能力。 先造一副能承接人类数据的身体 超维动力推出的全尺寸人形整机KAI Bot，身高173cm、体重70kg，全身拥有117个自由度。 其全身近80%的区域覆盖触觉皮肤，集成约18000个触觉触点，理论上可感知0.1N以上的轻微触碰。 这些参数的意义，并非只是让机器人的动作看起来更像人。 更重要的原因在于，机器人训练越来越依赖人类示范数据。但如果人需要靠肩、腰和手才能完成的动作，而机器人在结构上根本做不出来，再多数据也无法直接映射到本体。 动作重定向时，每缺一个关键自由度，模型就要多做一层妥协。 罗平表示，机器人本体越接近人的身体结构，就越容易从第一人称数据中学习人的操作方式。 人类社会中的桌椅、工具和空间同样按照人的身体设计。高拟人不是为了外观，而是为了降低机器人复用人类经验的门槛。 这也是KAI Bot追求高自由度的核心逻辑：自由度不是为了堆参数，它实际上决定了模型能不能把学到的动作完整执行出来。 手部则承担最精细的物理交互。独立销售的KAI Hand拥有37个自由度，其中20个主动自由度、1个被动自由度和16个柔顺自由度，指尖力超过30N。 持续抓握10分钟后，整手最高温度不超过人体体温。 高自由度提供动作空间，柔顺结构负责缓冲碰撞，力量和热管理则决定它能否长时间工作。 四者合起来，才是一双真正为具身模型准备的手。 从SMASH看KAI World Model，机器人如何理解并预测真实世界 如果说KAI Bot和KAI Hand回答了身体是否够用，那么KAI World Model要解决的，就是机器人如何理解物理世界，并预测自己的动作会带来什么结果。 罗平将它比作一个实时生成的VR世界：人在生成环境中用双手操作物体，模型根据人的动作和第一视角画面生成后续状态，产生的数据再用于训练人形机器人。 这条路线并未押注单一技术。团队同时探索JEPA式路线、3D方法和视频生成，将其概括为4D世界建模。 但生成一个可交互环境只是起点，世界模型最终还要回到真实世界，接受速度、碰撞和本体差异的检验。 SMASH人形机器人乒乓球系统，正是KAI World Model能力的一次直观呈现。 乒乓球速度快、旋转多变、落点随机，机器人无法只靠预设动作完成任务。它必须持续观察环境、预测来球，并根据预测结果实时调整下一步动作。 具体来看，SMASH并非让一个大模",
+      "source_title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+      "source_url": "https://www.qbitai.com/2026/08/478860.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
+      "entities": [
+        {
+          "name": "豆包工作",
+          "explain": "字节跳动推出的AI办公助手，基于豆包大模型，用于企业工作场景"
+        },
+        {
+          "name": "飞书",
+          "explain": "字节跳动旗下的企业协作办公平台，类似钉钉或企业微信"
+        },
+        {
+          "name": "Agent",
+          "explain": "AI智能体，能自主执行任务、与系统交互的AI程序"
+        }
+      ],
+      "summary": "量子位对「豆包工作」与飞书的组合进行了深度实测，认为这是目前最接近企业Agent终局的答案。该组合将AI助手深度集成到办公流程中，展示了企业级AI应用的成熟形态。",
+      "relevant": "企业Agent是AI落地的重要方向，字节跳动的这一组合可能定义未来办公AI的标准，对企业和竞争对手都有参考价值。",
+      "context": "随着大模型发展，企业办公场景成为AI应用的热点，字节跳动将豆包工作与飞书结合，旨在打造一站式智能办公体验，此前已有多个企业AI产品但尚未形成统一标准。",
+      "source_analysis": "量子位实测报道，立场中立，基于实际体验给出评价。",
+      "social_impact": "该组合的成熟度可能推动更多企业采用AI办公工具，提升工作效率，同时加剧办公软件市场的竞争。",
+      "source_text": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案 shui jiang shuai xian sha 听雨 发自 凹非寺 量子位 | 公众号 QbitAI 今天，「豆包工作」作为面向生产力场景的Agent产品正式发布。 福利也一起安排上了：现在下载豆包工作电脑版，就能免费领取30天订阅权益，老订阅用户直接顺延30天。 深度实测后，我们最直白的结论是： 它与飞书的深度打通，给出了目前Agent进入组织的一份最佳答案。 当主流办公Agent都会处理文件、调用工具、生成网页，基础能力越来越接近时，真正拉开差距的，可能就在于谁更了解一家公司的真实工作： 项目群里聊过什么，会议上定了什么，多维表格记录到哪一步，以及每个人能查看和操作哪些数据。 这些企业上下文，正在成为办公Agent的下一场比赛。 飞书恰好沉淀了这些信息。豆包工作接入飞书后，不再需要每次从头认识一遍公司，它可以沿着团队已有的讨论、数据和工作流继续往下干。 所以这次实测，我们不仅想知道豆包工作能不能把活干完，也想看看： 当Agent开始读懂一家公司的上下文，工作会发生什么变化？ 你想让Agent做的，豆包工作都能做 打开豆包工作，我的第一反应是： 啊？这还是豆包吗？怎么连Logo都换了？！ 是的，豆包工作采用全新的Logo、独立应用。 不过界面还是经典的三栏布局。左侧管理任务，中间查看执行过程，右侧预览和编辑成果。 比较特别的是，它支持飞书账号一键登录。 如果你用过Codex、Claude Cowork或其他办公Agent，上手基本没有门槛。 你只管说清目标，剩下的任务拆解和工具调用，豆包工作会自己安排。 第一项任务，我们让它读取桌面上的品牌资料，制作三张宣传图、一支15秒视频和一个交互网页。 我没有逐个上传文件，也没有指定任何工具，一切让豆包工作自行发挥。 也就不到10分钟吧，它就把三份作业一起交了回来： 从结果来看，图片、视频和网页都围绕同一套品牌信息生成，视觉风格也能保持一致。 网页还可以继续编辑和发布，圈哪改哪，相当方便。 第二个Case，我们把难度往上调了一档： 只给一份采购任务书，让豆包工作自行寻找3套办公电脑方案，为100台设备完成采购比选。 它会自己基于视觉操作浏览器搜索供应商，进入商品页和动态配置器核对信息。 最终，豆包工作按照相同的配置和服务标准重新核算报价，计算单台完整投入，再生成对比表与交互式看板。 无法从公开网页确认的批量价格、库存和交期，它也没有强行补齐，而是标记为「待询价」或「估算」。 从视觉浏览器操作、公开信息核验，到表格分析和交互式网页搭建，豆包工作哐哐哐全干了。 两轮实测下来，其实结论已经很明确了： 主流办公Agent能干的活，豆包工作都能接得住。 甚至，一些细节还有额外惊喜！ 比如视觉浏览器遇到页面打不开，会主动返回搜索结果，换个入口继续核验；对国内网站和内容平台的适配也更加顺手。 人不在电脑旁，还可以用手机远程安排和验收任务。 数据采集、批量处理这类重活，也能交给云电脑在后台继续运行。 但测到这里，一个新问题也随之浮现出来： 当处理文件、操作浏览器和搭建网页逐渐成为标准能力，办公Agent真正的差距，还会出现在哪里？ 企业上下文，正在成为Agent的分水岭 Agent的能力趋同，几乎成为了必然趋势。 模型能换，工具能接，Agent Harness工程也在快速开源。今天你多会一招，同行过几天就能补上。 因此，企业Agent的比赛已经进入了下半场。上半场比谁更会干活，下半场则比谁更懂组织。 前段时间OpenClaw走红后，一个很有意思的场面出现了：大家前脚把Agent装好，后脚就忙着往飞书里接。 而飞书也迅速推出官方插件和CLI，开放消息、文档和多维表格等能力。 大家纷纷选择飞书，原因并不复杂。 一家公司的聊天、文档、会议、业务数据和协作关系，都沉淀在这里。Agent想要理解企业上下文，飞书几乎成了绕不开的入口。 但「接入飞书」和「原生打通飞书」，体验仍有差别。 OpenClaw和其他CLI Agent通常需要安装插件、创建应用，再单独配置身份与权限。 相比之下，豆包工作支持飞书企业账号直接登录，可谓近水楼台先得月——Agent从一开始就在同一套组织身份和权限体系中。 实测之后，我觉得真的太爽了………… 就拿我们编辑部来说，大家几乎每天都会在群里讨论具身智能行业的最新信息。 一会儿有人甩来一条机器人新消息，一会儿有人补充公司背景，聊着聊着又拐到技术路线和行业争议。 信息很多，也很有用。 但等到真正做选题时，问题来了： 刚才是谁提的？最后决定跟进哪个？那条关键信息又被刷到哪里去了？ 想找回来，只能吭哧吭哧爬楼。 这一次，我们用飞书企业账号登录豆包工作，让它直接读取编辑部近期围绕世界机器人大会和具身智能展开的群聊。 很快，豆包工作就找到了飞书里相关群聊记录以及云文档，并开始梳理其中的线索。 之前群里总结的几个重点，它都准确提取了出来；它还把线索分成「本周重点」「持续观察」和「观察池」，补上负责人和待核实项。 就连被Pass掉的选题，原因也写清楚了。 随后，豆包工作把结果同步到多维表格，一份可以继续筛选、补充和协作的「具身智能选题雷达」就有了。 最爽的地方在于，整个过程中不用重新上传聊天记录，也不用解释编辑部此前讨论过什么，豆包工作自己就帮你整理好了。 能省掉的苦活，显然不只「群聊爬楼」这一项。 豆包工作还能从群聊、任务和审批中梳理跨部门项目进度，判断能否按时上线、风险卡在哪里。 【此处无法插入视频，遗憾……可到量子位公众号查看～】 到了销售和运营场景，它还可以读取飞书表格，分析目标差距或内容表现，生成可视化报告，再把下一步建议直接发回对应的工作群。 【此处无法插入视频，遗憾……可到量子位公众号查看～】 总结、分析、建任务、找人推进，一路都在飞书里完成。 这才是「企业上下文」最直观的价值： Agent终于不用每天重新入职了。 One More Thing 当基础能力逐渐趋同，Agent的下一场比赛，比的是谁更懂",
+      "source_title": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
+      "source_url": "https://www.qbitai.com/2026/08/479348.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "NVIDIA在Gamescom宣布RTX Spark支持多款3A大作，EA、育碧等加入",
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "explain": "全球领先的图形处理器（GPU）和AI计算公司"
+        },
+        {
+          "name": "RTX Spark",
+          "explain": "NVIDIA推出的新一代RTX游戏平台，主打光线追踪和AI增强画质"
+        },
+        {
+          "name": "Gamescom",
+          "explain": "欧洲最大的游戏展会，每年在德国科隆举办"
+        },
+        {
+          "name": "EA",
+          "explain": "美国艺电公司，全球知名游戏发行商，出品《FIFA》《战地》等"
+        },
+        {
+          "name": "Ubisoft",
+          "explain": "法国育碧公司，知名游戏开发商，出品《刺客信条》等"
+        }
+      ],
+      "summary": "NVIDIA在德国科隆Gamescom展会上宣布，RTX Spark将支持多款3A级PC游戏，EA、Embark和育碧等发行商加入。新平台还引入反作弊技术和增强画质功能，为游戏玩家带来下一代RTX体验。",
+      "relevant": "RTX Spark是NVIDIA游戏业务的重要布局，获得主流发行商支持意味着其生态正在扩大，可能影响PC游戏硬件市场格局。",
+      "context": "NVIDIA持续推动RTX技术普及，RTX Spark作为新平台需要游戏厂商适配，Gamescom是宣布合作的最佳时机，此前NVIDIA已与多家厂商合作优化游戏性能。",
+      "source_analysis": "NVIDIA官方博客，立场偏向宣传自家产品，但信息可靠。",
+      "social_impact": "多款3A大作支持RTX Spark将提升玩家游戏体验，可能带动RTX显卡销量，并推动光线追踪技术成为行业标准。",
+      "source_text": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to NVIDIA RTX Spark ahead of its launch this fall. They join the publishers that announced RTX Spark support at COMPUTEX in May, including KRAFTON, NetEase, Riot Games and XBOX. NVIDIA is working closely with game developers and ecosystem partners to ensure today’s top PC games — including EA’s EA SPORTS F1 25 and Apex Legends, Ubisoft’s Anno 117: Pax Romana and Embark Studios’ ARC Raiders and THE FINALS — run seamlessly on RTX Spark devices. “We’re excited to bring Anno 117: Pax Romana to a new generation of RTX-powered PCs,” said Stéphane Jankowski, Ubisoft executive producer of Anno 117 : Pax Romana. “Our teams build the game to be seen wide: full districts, long sightlines, thousands of details at once. Seeing RTX Spark hold that level of fidelity from a single chip is genuinely impressive.” RTX Spark reinvents personal computing, bringing personal AI agents, advanced content creation and high-performance gaming together in a platform engineered from the ground up for the next wave of Windows PCs. For gamers, RTX Spark combines Windows devices with NVIDIA RTX technologies, including DLSS and Reflex. Bringing Anti-Cheat to RTX Spark Supporting modern PC gaming goes beyond running the game itself. Many of today’s biggest online games rely on sophisticated anti-cheat technologies, to enable fair play across the multiple platforms these games run on. NVIDIA has been working with EA to bring native EA Javelin Anticheat support to RTX Spark, including for EA’s biggest multiplayer games, such as EA SPORTS F1 25. RTX Spark launches this fall. RTX Delivers Next-Generation Gaming RTX Spark is just one part of NVIDIA’s lineup of gaming announcements at Gamescom, including: - DLSS 4.5 Ray Reconstruction is available now, featuring NVIDIA’s latest second-generation transformer model to deliver even higher image quality in ray- and path-traced content. It replaces traditional denoisers with an NVIDIA supercomputer-trained AI network to reconstruct higher-quality pixels in the parts of a ray-traced frame where rays were not sampled. - Path tracing comes to CONTROL Resonant and 007 First Light to deliver new levels of visual fidelity. - NVIDIA ACE technolog",
+      "source_title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+      "source_url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "开源项目用纯C99在单CPU上运行2.78万亿参数Kimi K3模型，仅需8.24GB内存",
+      "entities": [
+        {
+          "name": "Kimi K3",
+          "explain": "一款拥有2.78万亿参数的超大规模AI语言模型，参数越多通常能力越强，但计算资源需求也越高。"
+        },
+        {
+          "name": "C99",
+          "explain": "一种广泛使用的C语言编程标准，以其可移植性和高效性著称。"
+        },
+        {
+          "name": "BLAS",
+          "explain": "基础线性代数子程序库，常用于加速矩阵运算，是许多AI框架的底层依赖。"
+        }
+      ],
+      "summary": "GitHub用户FareedKhan-dev发布了一个名为kimi-k3-in-c的开源项目，声称能在单颗CPU和8.24GB内存环境下运行拥有2.78万亿参数的Kimi K3模型。该项目使用纯C99编写，不依赖BLAS、深度学习框架或GPU，实现了极低的硬件门槛。这展示了在资源受限环境下运行超大模型的可行性，可能推动AI推理的普及化。",
+      "relevant": "该项目的成功若被验证，将颠覆AI模型运行需要昂贵GPU的传统认知，对AI民主化和边缘计算有重大意义。",
+      "context": "大型AI模型通常需要多块高端GPU和大量内存才能运行，这限制了其应用场景。此项目试图通过极致的代码优化，让超大模型在普通CPU上也能运行。",
+      "source_analysis": "信息来源于GitHub Trending，由项目作者自行发布，可能存在夸大宣传的成分，需独立验证其性能声明。",
+      "social_impact": "若该技术成熟，可大幅降低AI推理成本，使中小企业和个人开发者也能使用超大模型，加速AI应用创新。",
+      "source_text": "Kimi K3 inference in portable C99. No BLAS. No framework. No GPU. The same 2.78-trillion-parameter model, the same answer, on whatever machine you own. More memory only buys speed: Same short prompt at every size, and the output is byte-identical from the smallest machine to the largest; only the clock changes. One machine, 124 cores, fast NVMe drive: the first three rows still read the model from disk each step, so a slower drive is slower there, while the 128 GB+ row keeps everything in memory and no longer waits on the disk. On that same machine v1.0.0 made the math per token about 8× lighter, a follow-up question in a chat 3.9× faster, and long prompts about half as costly. (A token is roughly a short word-piece; the two runnable demos below are the original captures on a slower drive, so their clock reads a little higher.) Full data in docs/data/. I am open to AI research roles and PhD positions. CV. $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset laptop \\ --tok ~/k3model --prompt \"The capital of France is\" --gen 8 --incremental --- generated text --- Paris.\", + \"The Eiffel ---------------------- 8 tokens in 261.5 s, 32.69 s/token average PEAK RSS for the whole run: 8.24 GB Slow, and answering correctly, in 8.24 GB, from a checkpoint of 1.56 TB. This is a base model, so what follows \" Paris.\" is a continuation rather than a reply; there is no chat template. Give it more memory and the answer does not change, only the clock: $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset server \\ --tok ~/k3model --prompt \"def fibonacci(n):\" --gen 28 --incremental --- generated text --- if n <= 1: return n else: return fibonacci(n-1) + fibonacci ---------------------- 28 tokens in 299.3 s, 10.69 s/token average PEAK RSS for the whole run: 127.92 GB Every figure in this document comes from the measurement output in docs/data/. The dense trunk stays in memory to whatever depth you choose and streams the rest; the 1.45 TB of routed experts are never resident, and are multiplied straight out of their packed 4-bit form. The consequence is that the same model runs in 8 GB and in 224 GB and produces byte-identical output at every budget between. Four decisions about where bytes live take it from a cluster to a laptop, and the answer at the bottom is the same as the answer at the top: Part II builds every box in both diagrams from scratch, one component at a time. - Requirements - Quick start: clone, build and verify in about a minute, with no model - Full setup: the whole pat",
+      "source_title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "source_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 15,
+      "title": "GitHub AI项目：纯C99实现2.78万亿参数Kimi K3模型单CPU推理",
+      "entities": [
+        {
+          "name": "Kimi K3",
+          "explain": "一款拥有2.78万亿参数的超大规模AI语言模型，参数越多通常能力越强，但计算资源需求也越高。"
+        },
+        {
+          "name": "C99",
+          "explain": "一种广泛使用的C语言编程标准，以其可移植性和高效性著称。"
+        },
+        {
+          "name": "BLAS",
+          "explain": "基础线性代数子程序库，常用于加速矩阵运算，是许多AI框架的底层依赖。"
+        }
+      ],
+      "summary": "该项目在GitHub AI项目类别中再次出现，强调其用纯C99编写，无需BLAS、框架或GPU，即可在单CPU和8.24GB内存下运行2.78万亿参数的Kimi K3模型。这被认为是AI推理领域的一项技术突破，可能改变大型模型的部署方式。",
+      "relevant": "该项目的重复上榜表明其关注度极高，其技术方案可能成为未来AI推理优化的新方向。",
+      "context": "大型AI模型通常需要多块高端GPU和大量内存才能运行，这限制了其应用场景。此项目试图通过极致的代码优化，让超大模型在普通CPU上也能运行。",
+      "source_analysis": "信息来源于GitHub AI项目分类，由项目作者自行发布，可能存在夸大宣传的成分，需独立验证其性能声明。",
+      "social_impact": "若该技术成熟，可大幅降低AI推理成本，使中小企业和个人开发者也能使用超大模型，加速AI应用创新。",
+      "source_text": "Kimi K3 inference in portable C99. No BLAS. No framework. No GPU. The same 2.78-trillion-parameter model, the same answer, on whatever machine you own. More memory only buys speed: Same short prompt at every size, and the output is byte-identical from the smallest machine to the largest; only the clock changes. One machine, 124 cores, fast NVMe drive: the first three rows still read the model from disk each step, so a slower drive is slower there, while the 128 GB+ row keeps everything in memory and no longer waits on the disk. On that same machine v1.0.0 made the math per token about 8× lighter, a follow-up question in a chat 3.9× faster, and long prompts about half as costly. (A token is roughly a short word-piece; the two runnable demos below are the original captures on a slower drive, so their clock reads a little higher.) Full data in docs/data/. I am open to AI research roles and PhD positions. CV. $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset laptop \\ --tok ~/k3model --prompt \"The capital of France is\" --gen 8 --incremental --- generated text --- Paris.\", + \"The Eiffel ---------------------- 8 tokens in 261.5 s, 32.69 s/token average PEAK RSS for the whole run: 8.24 GB Slow, and answering correctly, in 8.24 GB, from a checkpoint of 1.56 TB. This is a base model, so what follows \" Paris.\" is a continuation rather than a reply; there is no chat template. Give it more memory and the answer does not change, only the clock: $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset server \\ --tok ~/k3model --prompt \"def fibonacci(n):\" --gen 28 --incremental --- generated text --- if n <= 1: return n else: return fibonacci(n-1) + fibonacci ---------------------- 28 tokens in 299.3 s, 10.69 s/token average PEAK RSS for the whole run: 127.92 GB Every figure in this document comes from the measurement output in docs/data/. The dense trunk stays in memory to whatever depth you choose and streams the rest; the 1.45 TB of routed experts are never resident, and are multiplied straight out of their packed 4-bit form. The consequence is that the same model runs in 8 GB and in 224 GB and produces byte-identical output at every budget between. Four decisions about where bytes live take it from a cluster to a laptop, and the answer at the bottom is the same as the answer at the top: Part II builds every box in both diagrams from scratch, one component at a time. - Requirements - Quick start: clone, build and verify in about a minute, with no model - Full setup: the whole pat",
+      "source_title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "source_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 4,
+      "title": "开源工具watermarks-remover可移除多种AI生成内容的水印和元数据",
+      "entities": [
+        {
+          "name": "C2PA",
+          "explain": "内容来源与真实性联盟，制定了一套标准，用于在数字内容中嵌入来源和编辑历史信息，以验证内容真实性。"
+        },
+        {
+          "name": "AI provenance marks",
+          "explain": "AI生成内容中嵌入的标记，用于标识其由AI生成，可能包括元数据、水印等。"
+        }
+      ],
+      "summary": "GitHub用户guillaumemeyer发布了watermarks-remover工具，能够移除多种AI生成内容中的来源标记，包括Unicode文本清洗、统计重写钩子，以及从PNG、JPEG、SVG、PDF、DOCX、HTML、MD等文件中剥离C2PA元数据。该工具旨在帮助用户去除AI生成内容的溯源信息。",
+      "relevant": "该工具引发了对AI内容溯源和版权保护的担忧，可能被滥用，但也反映了用户对隐私和内容控制的需求。",
+      "context": "随着AI生成内容的普及，许多平台和工具开始嵌入水印和元数据以标识AI来源，但这也引发了关于隐私和内容自由度的讨论。",
+      "source_analysis": "信息来源于GitHub Trending，由项目作者自行发布，其目的和立场需结合项目文档进一步分析。",
+      "social_impact": "该工具可能被用于规避AI内容检测，对内容审核和版权保护构成挑战，同时也可能引发关于AI内容透明度的新讨论。",
+      "source_text": "_ _ _ ____ ___ ____ ____ _ _ ____ ____ _ _ ____ ____ ____ _ _ ____ _ _ ____ ____ | | | |__| | |___ |__/ |\\/| |__| |__/ |_/ [__ __ |__/ |___ |\\/| | | | | |___ |__/ |_|_| | | | |___ | \\ | | | | | \\ | \\_ ___] | \\ |___ | | |__| \\/ |___ | \\ Agent skill + stdlib Python service to strip multi-vendor AI provenance marks from text and files — for privacy and hygiene on content you own. The skill is a thin client: it drives the machinery over HTTP, so the agent host needs no Python. Vendors / ecosystems (class-level): Claude, Gemini / SynthID-Text, OpenAI provenance surfaces, open-LLM Kirchenbauer-style (green-list) and keyed-Gumbel / EXP (Aaronson) marks. Latest release: v0.5.0 Skill path: skills/remove-ai-marks/ Service path: service/ (migration: formerly remove-claude-marks; slash alias /remove-claude-marks still documented) The skill ships no code — it calls the service over HTTP. Install the skill (markdown only) and start the service, then set WATERMARKS_SERVICE_URL if it is not http://127.0.0.1:8765. In Claude Code, the fastest route is the bundled plugin marketplace — no clone, and it updates in place. Everywhere else, one installer covers every supported host (Python 3.10+ stdlib, no dependencies): python3 install_skill.py --skill remove-ai-marks --target claude-code Shipped skills: remove-ai-marks (full, service-backed) and clean-user-facing-text (text only, self-contained). --list prints them. Existing installations are preserved unless you pass --force; replacement is staged first and the previous install is kept as a uniquely named backup. --link symlinks this checkout instead of copying, so edits are picked up live. On Windows, use py install_skill.py ...; the install-skill.sh wrapper is provided for macOS/Linux shells. Before writing anything, the installer validates the skill against the Agent Skills packaging rules that claude.ai uploads and the Skills API enforce: spec-only frontmatter (name, description, license, compatibility, metadata, allowed-tools), a lowercase hyphenated name of at most 64 characters matching the directory, a non-empty description of at most 1024 characters. The Cowork bundle additionally has to fit the 30 MB upload limit, which the packager enforces. A skill is an instruction: the model decides whether to invoke it, and the model is the thing producing the marks. A hook is executed by the harness on every matching tool call, cooperation not required. That makes the hook the deterministic half of this workflow. The plugin reg",
+      "source_title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "source_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 11,
+      "title": "GitHub AI项目：watermarks-remover可剥离多供应商AI溯源标记",
+      "entities": [
+        {
+          "name": "C2PA",
+          "explain": "内容来源与真实性联盟，制定了一套标准，用于在数字内容中嵌入来源和编辑历史信息，以验证内容真实性。"
+        },
+        {
+          "name": "AI provenance marks",
+          "explain": "AI生成内容中嵌入的标记，用于标识其由AI生成，可能包括元数据、水印等。"
+        }
+      ],
+      "summary": "该工具在GitHub AI项目类别中再次出现，强调其能移除多种AI生成内容中的溯源标记，包括Unicode文本清洗、统计重写钩子，以及从多种文件格式中剥离C2PA元数据。这引发了关于AI内容溯源和版权保护的讨论。",
+      "relevant": "该工具可能被用于规避AI内容检测，对内容审核和版权保护构成挑战，同时也可能引发关于AI内容透明度的新讨论。",
+      "context": "随着AI生成内容的普及，许多平台和工具开始嵌入水印和元数据以标识AI来源，但这也引发了关于隐私和内容自由度的讨论。",
+      "source_analysis": "信息来源于GitHub AI项目分类，由项目作者自行发布，其目的和立场需结合项目文档进一步分析。",
+      "social_impact": "该工具可能被用于规避AI内容检测，对内容审核和版权保护构成挑战，同时也可能引发关于AI内容透明度的新讨论。",
+      "source_text": "_ _ _ ____ ___ ____ ____ _ _ ____ ____ _ _ ____ ____ ____ _ _ ____ _ _ ____ ____ | | | |__| | |___ |__/ |\\/| |__| |__/ |_/ [__ __ |__/ |___ |\\/| | | | | |___ |__/ |_|_| | | | |___ | \\ | | | | | \\ | \\_ ___] | \\ |___ | | |__| \\/ |___ | \\ Agent skill + stdlib Python service to strip multi-vendor AI provenance marks from text and files — for privacy and hygiene on content you own. The skill is a thin client: it drives the machinery over HTTP, so the agent host needs no Python. Vendors / ecosystems (class-level): Claude, Gemini / SynthID-Text, OpenAI provenance surfaces, open-LLM Kirchenbauer-style (green-list) and keyed-Gumbel / EXP (Aaronson) marks. Latest release: v0.5.0 Skill path: skills/remove-ai-marks/ Service path: service/ (migration: formerly remove-claude-marks; slash alias /remove-claude-marks still documented) The skill ships no code — it calls the service over HTTP. Install the skill (markdown only) and start the service, then set WATERMARKS_SERVICE_URL if it is not http://127.0.0.1:8765. In Claude Code, the fastest route is the bundled plugin marketplace — no clone, and it updates in place. Everywhere else, one installer covers every supported host (Python 3.10+ stdlib, no dependencies): python3 install_skill.py --skill remove-ai-marks --target claude-code Shipped skills: remove-ai-marks (full, service-backed) and clean-user-facing-text (text only, self-contained). --list prints them. Existing installations are preserved unless you pass --force; replacement is staged first and the previous install is kept as a uniquely named backup. --link symlinks this checkout instead of copying, so edits are picked up live. On Windows, use py install_skill.py ...; the install-skill.sh wrapper is provided for macOS/Linux shells. Before writing anything, the installer validates the skill against the Agent Skills packaging rules that claude.ai uploads and the Skills API enforce: spec-only frontmatter (name, description, license, compatibility, metadata, allowed-tools), a lowercase hyphenated name of at most 64 characters matching the directory, a non-empty description of at most 1024 characters. The Cowork bundle additionally has to fit the 30 MB upload limit, which the packager enforces. A skill is an instruction: the model decides whether to invoke it, and the model is the thing producing the marks. A hook is executed by the harness on every matching tool call, cooperation not required. That makes the hook the deterministic half of this workflow. The plugin reg",
+      "source_title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "source_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 1,
+      "title": "DeepSeek发布开源智能体框架DeepSeek Harness，采用全插件化架构",
+      "entities": [
+        {
+          "name": "DeepSeek",
+          "explain": "中国的人工智能公司，开发了多个知名的大语言模型，如DeepSeek-V3。"
+        },
+        {
+          "name": "Cordis",
+          "explain": "一个开源框架，用于构建可组合的、模块化的系统，是DeepSeek Harness的底层架构。"
+        },
+        {
+          "name": "Agent Harness",
+          "explain": "一种智能体运行环境，为AI智能体提供工具、内存和交互界面等基础设施。"
+        }
+      ],
+      "summary": "DeepSeek AI发布了开源智能体框架DeepSeek Harness（dsh），其核心设计理念是“万物皆插件”，所有组件包括模型、工具、沙箱、存储、UI甚至智能体循环本身都可作为插件扩展。该框架基于Cordis构建，目前处于开发者预览阶段，可通过npm安装并启动Web界面。",
+      "relevant": "DeepSeek Harness的全插件化架构可能为AI智能体开发提供更高的灵活性和可扩展性，是AI应用开发领域的重要进展。",
+      "context": "AI智能体开发需要集成多种组件，传统框架往往耦合度高、扩展困难。DeepSeek Harness试图通过插件化设计解决这一问题。",
+      "source_analysis": "信息来源于GitHub Trending，由DeepSeek官方发布，具有较高的权威性。",
+      "social_impact": "该框架的发布可能降低AI智能体开发门槛，促进更多开发者参与AI应用创新，推动AI生态繁荣。",
+      "source_text": "English | 中文 DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI. It uses an architecture where everything is a plugin, and is powered by Cordis, whose design is described in A Programming Paradigm for Spatiotemporal Composability. DeepSeek Harness is currently in developer preview and is iterating rapidly. THERE WILL BE COMPATIBILITY-BREAKING CHANGES. Install Node.js, then run: npx @deepseek-ai/dsh web The command starts the Web UI at http://127.0.0.1:3080 by default and opens it in the default browser for a local launch. An SSH launch only prints the host URL because the SSH client or editor owns the local forwarded address. Pass --no-open to run the server without opening a browser. See Web UI guide. To run from a repository checkout: git clone https://github.com/deepseek-ai/deepseek-harness.git cd deepseek-harness pnpm install pnpm run build pnpm dsh web pnpm run build prepares the repository artifacts. pnpm dsh web uses those built artifacts without rebuilding. - Feel free to submit feedback or bug reports through GitHub Discussions. - Add the dsh-plugin topic to your plugin repository for discoverability. - Join DeepSeek Harness Discord community. See CONTRIBUTING.md. Start with the development guide and architecture documentation. For agents, follow AGENTS.md. Third-party dependencies and their licenses are disclosed in THIRD_PARTY_NOTICES.md.",
+      "source_title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "source_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 2,
+      "title": "社区推出DSH Desktop，为DeepSeek Harness提供Windows和macOS桌面客户端",
+      "entities": [
+        {
+          "name": "DSH Desktop",
+          "explain": "一个基于DeepSeek Harness构建的开源桌面客户端，提供图形化界面。"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek AI发布的开源智能体框架，采用全插件化架构。"
+        }
+      ],
+      "summary": "社区项目anywhere-labs/dsh-desktop发布了基于DeepSeek Harness构建的Windows和macOS桌面客户端，提供一键下载、开箱即用的体验。该项目强调“万物皆插件，桌面本身也是插件”，但声明是独立的社区项目，与DeepSeek官方无隶属或合作关系。",
+      "relevant": "该桌面客户端降低了DeepSeek Harness的使用门槛，可能吸引更多非技术用户尝试AI智能体开发。",
+      "context": "DeepSeek Harness目前主要通过命令行和Web界面使用，桌面客户端可以提供更友好的用户体验。",
+      "source_analysis": "信息来源于GitHub Trending，由社区开发者发布，并明确声明与官方无关，其质量和安全性需用户自行评估。",
+      "social_impact": "该客户端可能促进DeepSeek Harness的普及，但社区项目的维护和更新存在不确定性。",
+      "source_text": "基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。 一键下载，开箱即用。 万物皆「插件」，桌面本身也是「插件」。 独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。 本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。 中文 · English DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用中。项目固定并原样运行特定上游版本；DSH Desktop 提供窗口、托盘、终端、更新和工作配置，并通过 DeepSeek Harness 提供的插件机制与上游能力组合。 当前正式安装包支持 Windows x64 和 macOS Universal。无需额外环境，下载安装，一键使用。 我们希望和所有插件作者一起，构建一个开放、可组合、可持续的 DSH 插件生态，让每个插件都能与其他插件共同进步：DSH 插件生态倡议书。 ❤️ 赞助商 更多赞助商 普通用户从用户指南开始即可；开发者文档只在需要扩展或维护时才需要阅读。 每个尚未初始化的 profile 正常首次启动时，会先显示由 Desktop 自己提供的原生 Setup Wizard。它可以设置窗口模式与系统材质、插件市场、通知、是否用系统默认浏览器自动打开，以及 Web 访问范围；也可以直接跳过。向导完成或跳过以前，Host 和主 DSH 窗口都不会启动。完成或跳过状态按 profile 分别记录；显式恢复启动仍优先进入恢复助手。 Web 服务默认仅监听本机回环地址。开启“用浏览器打开”后，Desktop 会在 Web 服务实际就绪时交给系统默认浏览器打开；这个选项不会改变网络暴露范围。“桌面设置”会在选项下显示实际的本机 URL。局域网访问是一个独立的可选设置，开启后还会显示当前可用的局域网 URL。 危险： 向局域网开放不提供鉴权；所有与你处于同一局域网的人都能直接打开 DSH 并操作你的电脑。请只在完全信任的网络中谨慎开启。 自动更新的固定版本检查请求会在 X-DSH-Desktop-Installation-Id header 中携带一个由本机生成并持久保存的随机 UUID；它不是从硬件信息推导出的标识。安装包下载请求及其下载重定向不会携带这个 header。 插件是给 DSH 添加能力的扩展包——模型、工具、界面、工作流都可以做成插件，像搭积木一样自由组合。 DSH Desktop 没有修改上游源码，也不是一个固定写死的外壳。固定版本的上游 DeepSeek Harness 原样运行；桌面壳本身——窗口、托盘、终端、更新、工作配置——作为 DSH 插件接入，并通过 DeepSeek Harness 提供的插件机制与上游能力组合进同一个运行时。从核心 agent 到桌面外壳，整个产品遵守同一条\"一切皆插件\"的规则：与所固定上游版本兼容的插件可以使用，桌面能力也按插件的方式组合、替换和演进。 我们希望插件生态像手机应用一样：每个插件按同一套规则开发，装在一起也能一起工作、互不干扰。 与许多其他项目不同，这个项目本身就是一个 DSH 插件：桌面壳与第三方插件使用相同的插件组合机制。Desktop 的插件能力已经可以使用。我们提供了 Desktop 服务，让插件开发者能够把插件与桌面能力集成起来：例如查看和切换工作配置，或在当前配置中安装、更新和移除插件。完整用法见桌面插件接口说明。为什么选择这样的边界、哪些能力不会暴露给第三方插件，见为什么做 DSH Desktop和插件开发指南。 DSH Desktop 是基于 DeepSeek Harness 和 Cordis 插件思想构建的独立社区项目，旨在提供开放、可组合的 DSH 桌面体验。 本仓库由社区独立维护，目前不存在深度求索员工或 DeepSeek Harness 上游官方团队成员参与本项目开发、维护或治理的情形。GitHub Contributors 页面中可能出现的上游贡献者，来自本仓库 fork 时继承及后续同步的上游提交历史；该署名仅反映提交来源，不代表相关人员参与本仓库，也不构成任何隶属、合作、授权或背书关系。 上游项目提供核心的智能体能力、插件系统和 Web UI；DSH Desktop 主要负责： - 桌面应用封装 - 本地服务的启动、停止与恢复 - 桌面窗口和系统托盘集成 - macOS、Windows 安装包构建与发布 - 更适合桌面使用的界面体验 如果你希望通过命令行运行 DeepSeek Harness，或者参与其核心功能开发，请优先查看上游仓库。 特别感谢 DeepSeek Harness 原始仓库 和 DeepSeek AI 团队。DSH Desktop 基于固定版本的上游源码构建，核心的智能体、模型、工具、会话、Web UI 和插件生态都来自这个项目。 同时感谢 Cordis 项目提供的插件化基础。没有这些开源项目，就不会有 DSH Desktop。 也感谢 Koishi.js 项目和社区长期积累的插件化实践、工具与经验，以及所有参与讨论、测试、反馈和插件开发的社区成员。 以及每一个使用、支持和参与共建的你。 桌面端代码位于 dsh-plugin-desktop/，外层仓库使用 Yarn，固定的 deepseek-harness/ 子模块继续使用自己的 pnpm workspace。从仓库根目录执行： git submodule update --init --recursive corepack yarn install --immutable corepack yarn dev headless 检查使用 corepack yarn check；完整的构建、测试和发布边界见架构说明和包级 README。如何参与贡献见 ",
+      "source_title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "source_url": "https://github.com/anywhere-labs/dsh-desktop",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 6,
+      "title": "社区发布DeepSeek Harness插件精选列表，收录大量可用插件",
+      "entities": [
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek AI发布的开源智能体框架，采用全插件化架构。"
+        },
+        {
+          "name": "Awesome List",
+          "explain": "GitHub上的一种精选资源列表，通常用于收集和整理特定主题的优秀项目。"
+        }
+      ],
+      "summary": "GitHub用户awesome-dsh-plugin发布了DeepSeek Harness（dsh）的插件精选列表，收录了模型、工具、沙箱、存储、UI等多种类型的插件。该列表旨在帮助用户发现和选择适合的插件，扩展dsh的功能。",
+      "relevant": "该列表的发布表明DeepSeek Harness的插件生态正在形成，有助于用户快速上手和扩展功能。",
+      "context": "DeepSeek Harness采用全插件化架构，插件是其核心扩展机制，一个丰富的插件生态对框架的成功至关重要。",
+      "source_analysis": "信息来源于GitHub Trending，由社区维护，其收录标准和质量需用户自行判断。",
+      "social_impact": "该列表可能促进DeepSeek Harness生态的繁荣，吸引更多开发者贡献插件，形成良性循环。",
+      "source_text": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表。# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
+      "source_title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "source_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 9,
+      "title": "社区发布dsh-routing-suite，为DeepSeek Harness提供运行时注入器和思维模式路由预设",
+      "entities": [
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek AI发布的开源智能体框架，采用全插件化架构。"
+        },
+        {
+          "name": "注入器",
+          "explain": "一种工具，用于在运行时动态修改或增强程序的功能，无需重启。"
+        },
+        {
+          "name": "思维模式路由",
+          "explain": "一种机制，根据任务类型自动选择不同的推理模式，以优化性能和效果。"
+        }
+      ],
+      "summary": "GitHub用户yjh051108发布了dsh-routing-suite，包含一个运行时注入器和任务感知的思维模式路由预设。该工具包声称能免重启地管理运行时，并根据任务自动选择推理模式，实测覆盖P1-P23任务。",
+      "relevant": "该工具包可能提升DeepSeek Harness的灵活性和性能，但需注意其与官方框架的兼容性。",
+      "context": "DeepSeek Harness采用插件化架构，但运行时管理和任务优化仍需额外工具支持。",
+      "source_analysis": "信息来源于GitHub Trending，由社区开发者发布，其技术声明需用户自行验证。",
+      "social_impact": "该工具包可能促进DeepSeek Harness的社区生态发展，但需注意其与官方框架的兼容性。",
+      "source_text": "一个仓库装齐「运行时手术台 + 思维模式路由预设」：先装注入器（免重启运行时管理层）， 再用它装配 router-standard 预设（任务感知思维模式路由，P1-P23 实测）。 # 1. 拉套装（单仓库：injector/preset 内容已直接入库，无需 submodule） git clone https://github.com/yjh051108/dsh-routing-suite.git cd dsh-routing-suite # 2. 一键安装（注入器装配 + 预设复制 + 布局自检 + 提示重启） .\\install.ps1 或手动： # 步骤 1：装配注入器（官方装配，重启后由 bundles 接管） dsh plugin --profile web add .\\injector # dsh 不在 PATH 时：npx '@deepseek-ai/dsh' plugin --profile web add .\\injector # 步骤 2：安装 router 预设（每个预设目录平铺复制到 .agent-presets 下，DSH 只扫一级子目录） $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-standard' Copy-Item -Recurse .\\preset\\router-standard $target $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-spec' Copy-Item -Recurse .\\preset\\router-spec $target # 步骤 3：重启 DSH → 新会话选择 Router Standard / Router Spec (experimental) 注意：不要复制 preset 整目录（会多套一层，DSH 发现不了预设）。 版本号以各组件仓库的 git tag 为准（列内链接直达对应 Release）。 两个组件随本仓库统一演进（injector/ 与 preset/ 已是仓库内普通目录，内容直接入库）；上游独立仓库 dsh-super-injector / dsh-router-standard 保留用于独立发布，后续可转镜像/归档。预设安装目录为 preset/router-standard（已平铺，无额外嵌套）。 - 三行为带 + weak 内路由：spec（计划-集体）/ react（执行者）/ mixed（陷阱，回避）/ weak（模型自分类） - 按模型选 persona：Pro=spec 句+few-shot（区分度 +5.0）；Flash=neutral+classify（+5.7） - 近距离引导：每轮用户消息后注入固定引导（缓存 92-94% 命中），路由 96% + 收敛 100% + 反稀释 - 单任务三锚（persona 静态）：回顾 + 收敛 + 反跑题 —— 开放任务完成率 0% → 100% - plan-mode 保留：只替换 persona section，plan 边界不失忆 - AI 自优化工具：dev_router_status /dev_router_mode /dev_mode_subagent - 首轮路由真实生效（#13）：经 agent/inbox/claimed 在装配前捕获首条真实用户消息，首个请求即按任务分类（此前所有会话首轮无条件 weak） - 近距离引导改走 agent/pre-step （#34/#36/#55）：引导与用户消息同请求注入，真实链路上可达，且不再产生额外的第二次 API 调用（此前每轮多 1 次调用 = 费用 2×） - 缺导入修复（#11）、preset.yml YAML 引号（#53）、promoted 后完整回归（#44）、安装脚本与文档修正（#35/#42/#41）、injector git 装配自动构建（#40） - 注入器引导（规范铁律 10 条）：injector/README.md - 路由预设论文与实验：preset/docs/paper.md +preset/docs/experiments.md （P1-P23） - 仓库结构迁移（submodule → 直接文件）：docs/FLATTEN-MIGRATION.md MIT。致谢：xiaobright/modeltest（V4.1b 评测）、xiaobright/dsh-anchored-standard（锚定机制）。",
+      "source_title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "source_url": "https://github.com/yjh051108/dsh-routing-suite",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 5,
+      "title": "yc-software/qm 发布：面向初创企业的多人协作 AI 代理工作平台",
+      "entities": [
+        {
+          "name": "yc-software/qm",
+          "explain": "一个开源项目，为团队提供多人协作的 AI 代理工作环境，支持在 Slack 和网页上使用。"
+        },
+        {
+          "name": "AI 代理 (Agent)",
+          "explain": "一种能自主执行任务的人工智能程序，如编写代码、处理文件等。"
+        },
+        {
+          "name": "Slack",
+          "explain": "一款流行的团队沟通和协作工具。"
+        }
+      ],
+      "summary": "yc-software/qm 是一个专为初创公司设计的多人 AI 代理工作平台。它允许每位员工拥有独立的工作空间，同时支持在频道和群组中与 AI 代理协作。每个用户和房间都有独立的内存和文件系统，旨在解决传统个人助理式 AI 代理在团队协作中的复杂性。",
+      "relevant": "该平台代表了 AI 代理从个人工具向团队协作基础设施的演进，对初创企业提升工作效率有潜在价值。",
+      "context": "当前多数 AI 代理被设计为个人助理，难以直接用于整个公司。qm 项目旨在解决这一痛点，为团队协作提供专门设计。",
+      "source_analysis": "来源为 GitHub 仓库，是项目官方发布，信息具有第一手性。",
+      "social_impact": "该项目在 GitHub Trending 上受到关注，反映了开发者社区对团队级 AI 协作工具的兴趣。",
+      "source_text": "A multiplayer agent harness for work. In Slack and on the web. Tell your coding agent of choice Let's deploy https://github.com/yc-software/qm. From here, it should follow the deployment guide in this repo. Most agents are designed like personal assistants. You can make one work for a whole company, but it quickly gets complex. QM is designed for startups. Employees each get their own isolated workspace and work independently without affecting each other, and they can also collaborate with the agent in channels, group messages, and projects. Each person and each room has its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox. It's built with open source in mind. Pick your own harness and model and switch between them — Pi, OpenCode, Codex, and Claude Code all drive the same core, so a deployment isn't tied to any single vendor. - Personal and shared scopes. People customize the agent to be theirs, and still work with it collaboratively in Slack channels and projects. - Slack and web. The same identity and configuration carries between Slack and the web app. - Admin control. Set org-level configuration, a security posture, and which harnesses and models are available. - Web apps. Spin up custom internal apps and publish them to the right people. - Shared skills. Skills are scope-owned and shareable by grant, with admin-gated promotion to the whole org and skill packs imported from git repositories. - Background work. Crons, watches, and inbound webhooks run work while nobody's watching. - Search internal notes, email, documents, databases, and the web together - Retrieve information from your company brain - Build internal apps, publish them to the right people, and keep their data current - Learn your writing voice from past sends, then triage your inbox on a schedule — labels and reply drafts included - Work in an existing repository: run tests, open PRs, monitor CI, check system logs - Track a project in a shared channel and post updates and follow-ups flowchart LR DB[(\"Postgres<br/>sessions · memory · queue\")] subgraph CORE[\"Headless core\"] API[\"API · identity · policy · scheduler\"] LOOP[\"Agent loop<br/>(Pi, OpenCode, Claude Code)\"] API <--> LOOP end SBX[\"Per-scope sandbox<br/>files · tools · logged-in services\"] DB <--> API LOOP <--> SBX Every turn runs through a central core, which can use a variety of models and harnesses to generate the response. A Postgres persistence layer holds user data, session history, a",
+      "source_title": "yc-software/qm - Multiplayer agent harness for work.",
+      "source_url": "https://github.com/yc-software/qm",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 7,
+      "title": "trycompai/crm 发布：专为 AI 代理设计的开源 CRM 系统",
+      "entities": [
+        {
+          "name": "trycompai/crm",
+          "explain": "一个开源客户关系管理（CRM）系统，特别为 AI 代理设计，强调“代理优先”。"
+        },
+        {
+          "name": "CRM",
+          "explain": "客户关系管理系统，用于管理公司与客户之间的互动和数据。"
+        },
+        {
+          "name": "AI 代理 (Agent)",
+          "explain": "一种能自主执行任务的人工智能程序，如自动回复客户、管理销售流程等。"
+        }
+      ],
+      "summary": "Comp AI CRM 是一个开源、专为 AI 代理设计的 CRM 系统，采用“代理优先”的理念。它旨在让 AI 代理能更高效地处理客户关系管理任务，项目在 GitHub 上受到关注。",
+      "relevant": "该产品代表了 CRM 软件向 AI 原生方向发展的趋势，可能改变企业客户管理的方式。",
+      "context": "随着 AI 代理能力增强，传统软件需要适配 AI 操作。此项目是 CRM 领域对“代理优先”理念的实践。",
+      "source_analysis": "来源为 GitHub 仓库，是项目官方发布，信息具有第一手性。",
+      "social_impact": "项目在 GitHub Trending 上出现，表明开发者社区对 AI 原生应用的兴趣。",
+      "source_text": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM. The agent · Stack · Quick start · Configuration · Deploying · Contributing Most CRMs are a database with a form in front of it. The AI ones bolt a chat box onto the side of that form. Both leave the actual work — finding out what is true, and writing it down — to a human who has better things to do. This is built the other way round. The agent is not a feature of the CRM; the CRM is where the agent keeps its notes. It runs on its own deployment, on its own schedule, against its own work queue. It decides what to look at next, books its own follow-ups, spends a research budget, and stops when the budget runs out. Nothing about it is request-response: close the browser and it keeps going. The rule the agent itself never breaks: nothing about a person is guessed. No tool accepts a confidence score, because a model asked to grade its own certainty will, and it will be wrong in the direction that makes it look useful. Tools report what they observed — crm.signature-block, github.account-identity — and a ledger prices the evidence. Strong evidence writes to the record. Weak evidence becomes a suggestion a human settles. A confidently wrong fact about a customer is worse than a blank field, because nobody can tell it is wrong. apps/agent is its own deployment, built on eve — Vercel's filesystem-first framework for durable agents. A tool is a file, a skill is a markdown file, a schedule is a file, and the runtime handles the durable part: sessions that survive a redeploy, work that resumes where it stopped. It runs itself. lib/tasks.ts is the work queue: claimDue leases rows with FOR UPDATE SKIP LOCKED, so two dispatchers take disjoint work and a run that dies frees its row when the lease expires. Anything that looks like \"every N minutes, the oldest ten contacts\" belongs in a task's dueAt, not in a cron expression. When the agent wants another look at somebody it calls schedule_recheck and says why — and the reason is shown to the rep, because an agent that cannot say why it will be back in fourteen days does not have a reason, it has a default. Every outside source is optional, and it is designed to run with none of them. With no API keys at all it still works: read_crm_history reads your own threads, meetings and signature blocks, which is free and is the best evidence there is — no data vendor can sell you a reply from the person's own address. Each key opens one more place to look. ",
+      "source_title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "source_url": "https://github.com/trycompai/crm",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_1c7d841d95b1",
+      "source": "ArXiv cs.AI",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.24876v1",
+      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop. Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of the 37 completed model-benchmark pairs, carrying frontier models to SOTA-level task success: on tau-bench it adds +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5, taking Opus 5 to 87.9%, and +16.6/+13.5 points on Qwen3.6-27B/35B on SkillFlow. The advantage widens as the interaction horizon grows, to +32.2 points on the longest tasks, and common long-horizon failures fall by up to 80%. These results position recursively evolving memory as a scalable foundation for RSI, enabling agents to continuously transform accumulated experience into increasingly effective long-horizon behavior. Code: https://github.com/Gen-Verse/Recuris",
+      "author": "Zhaochen Yu, Yingcheng Wu, Zhenfei Yin"
+    },
+    {
+      "id": "arxiv_dad2b9f06830",
+      "source": "ArXiv cs.AI",
+      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "url": "https://arxiv.org/abs/2608.24870v1",
+      "summary": "Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per trajectory before optimizing a token-mean actor loss. We show that trajectory centering generally does not center the token-weighted quantity consumed by the actor, and fix the mismatch by standardizing terminal-outcome advantages under the action-token measure. We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO. A paired ablation identifies action-token-measure normalization as the strongest tested component.",
+      "author": "Kai Ruan, Jinghao Lin, Qianshan Wei"
+    },
+    {
+      "id": "arxiv_4ff527b7a77e",
+      "source": "ArXiv cs.AI",
+      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2608.24846v1",
+      "summary": "Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they cannot answer multi-hop questions when the required facts are split across vertically partitioned silos. In this paper, we propose FedV-KGQA, a framework for multi-hop reasoning over knowledge graphs in which organizations share entities but own disjoint sets of relations. Our approach combines local graph enrichment and knowledge graph embeddings to ensure raw triples and relation parameters never leave each silo, establishing a structural data boundary without requiring centralized graph access. We further introduce a topic entity anchoring mechanism that grounds questions in the correct graph neighborhood without any runtime inter-silo communication. We evaluate 12 model configurations across three benchmarks and show that FedV-KGQA performs strongly, remains close to centralized performance, generalizes to 3-hop reasoning, and is robust to embedding perturbations.",
+      "author": "Md Saikat Islam Khan Bappy, Oshani Seneviratne"
+    },
+    {
+      "id": "arxiv_7a7f177e9e69",
+      "source": "ArXiv cs.AI",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "url": "https://arxiv.org/abs/2608.24845v1",
+      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the video, audio, and image modalities. Using content-aware scene detection, we extract clips for which we synthetically generate video and audio captions. Models trained on these data achieve competitive performance on standard video-text and audio-text benchmarks, with consistent improvements as training or model scale increases. Additionally, we explore video frames as an alternative source of image-text data by extracting scene-changing frames. These frames exhibit a visual distribution distinct from standard web image corpora, and models trained on this dataset achieve strong image-text retrieval performance. We release LAION-BVD to the research community. It significantly expands open access to multimodal videos at an unprecedented scale.",
+      "author": "Andreas Hochlehnert, Marianna Nezhurina, Mehdi Cherti"
+    },
+    {
+      "id": "arxiv_dfa6972e13ed",
+      "source": "ArXiv cs.AI",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "url": "https://arxiv.org/abs/2608.24842v1",
+      "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they can retrieve, not whether retrieved information affects their judgments. We identify a retrieval-integration gap in long-context financial analysis. Holding focal-firm information fixed and varying only unrelated context from 2,000 to 128,000 tokens, we find that a risk disclosure's influence on investment judgments falls to the experimental noise floor even as direct retrieval remains accurate. The pattern replicates across model families and judgment tasks and in experiments removing real disclosures from actual 10-K filings. More capable models postpone but do not eliminate the gap. Causal memory interventions show that compressed summaries and source-text lookup jointly transmit disclosures into judgments. Workflow architecture determines whether this transmission succeeds: chunk-and-summarize pipelines evict relevant information, whereas a targeted, structured restatement adjacent to the decision restores its influence. AI analyst performance is therefore jointly determined by model capability and workflow architecture. Retrieval-based evaluations can certify systems whose investment judgments ignore information they demonstrably retrieved.",
+      "author": "Miao Liu, Zhizhe Liu"
+    },
+    {
+      "id": "arxiv_0b57e2270e49",
+      "source": "ArXiv cs.LG",
+      "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+      "url": "https://arxiv.org/abs/2608.24881v1",
+      "summary": "Generative models are commonly ranked by Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), yet FID's first-two-moment summary can miss distributional differences, and a reported scalar gap alone is not a calibrated test against sampling variation. FID's moment restriction has concrete consequences: on ImageNet, visually unrecognizable images optimized only to match the reference Inception mean and covariance obtain FID $24.7$ versus $58.6$ for held-out real images (lower is better). Moreover, FID and KID are scalar discrepancies that are unchanged when the two samples are exchanged and therefore do not encode the direction of a dispersion change: under-dispersion, as can occur in mode collapse, versus over-dispersion. We introduce \\textbf{ZID} (\\emph{Z-resolved Integrated Diagnostic}), which combines six standardized location- and dispersion-sensitive arms from a rank graph (RISE) and Gaussian kernels (GPK at two bandwidths). Rather than asking one scalar to serve incompatible roles, ZID reports three linked outputs: an index for ranking departure magnitude, a permutation $p$-value for testing distributional equality, and a signed dispersion readout for diagnosis. In controlled experiments, ZID detects a broad range of departures, and its score tracks increasing severity along the corresponding sweeps, including cases in which FID is flat or reversed. On DiT-XL/2 and SiT-XL/2 guidance sweeps, ZID detects departure from real data, and its signed readout lab",
+      "author": "Hao Chen"
+    },
+    {
+      "id": "arxiv_d042cceff05c",
+      "source": "ArXiv cs.LG",
+      "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+      "url": "https://arxiv.org/abs/2608.24865v1",
+      "summary": "Lipschitz constants are a standard way to quantify the sensitivity of neural networks to small input perturbations, but computing them is difficult even for shallow ReLU networks. We study this problem for two-layer input-convex neural networks (ICNNs), a restricted architecture where nonnegative output weights enforce convexity. Computing the $L_p$-Lipschitz constant for these networks is equivalent to maximizing the dual norm over a zonotope. While $L_1$- and $L_\\infty$-norm maximization on zonotopes admit fixed-parameter and polynomial-time algorithms, respectively, the parameterized complexity of the remaining $L_p$-norms was open. We prove that, for every fixed $p\\in (1,\\infty)\\cap \\mathbb{Q}$, maximizing the $L_p$-norm over a zonotope in $\\mathbb{R}^d$ is W[1]-hard with respect to the dimension $d$. Moreover, our hardness results imply that brute-force enumeration algorithms are essentially optimal for this problem under the Exponential Time Hypothesis. By duality, the same hardness results hold for computing the $L_p$-Lipschitz constant of two-layer ReLU ICNNs. Our proof first establishes the result for the $L_2$-norm and then transfers the construction to arbitrary fixed $p\\in (1,\\infty)\\cap\\mathbb{Q}$ using a suitable Taylor approximation. These results resolve the corresponding questions regarding the parameterized complexity status for zonotope norm maximization and two-layer ICNN Lipschitz constants. Our paper resolves an open problem posted at COLT'25. There are ",
+      "author": "Aritra Das, Vincent Froese, Moritz Grillo"
+    },
+    {
+      "id": "arxiv_79f66dc9167c",
+      "source": "ArXiv cs.LG",
+      "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+      "url": "https://arxiv.org/abs/2608.24859v1",
+      "summary": "Multi-task vehicle routing problem (VRP) solvers seek to handle multiple VRP variants within a single unified model, avoiding the need to train a separate model for every variant. In spite of recent progress, current approaches remain limited on two fronts. On the training side, reinforcement learning suffers from reward-scale disparities and shrinking advantage signals as policies improve, whereas preference optimization stagnates once sampled tours become near-identical and thus fundamentally limited by the quality of the policy's own generated solutions, leaving both paradigms with weak supervision as training progresses. On the architecture side, existing fully shared encoders entangle constraint-dependent representations across heterogeneous variants, which limits generalization. We address these gaps with two model-agnostic contributions. First, we propose Preference Optimization with Locally Augmented Refinement (POLAR), a novel training algorithm that applies a local search refinement pass to the best decoded tour before forming preference pairs, yielding much more informative pairwise margins. Second, a Progressive Layered Extraction (PLE) encoder routes each encoder layer through one shared expert and a set of task-specific experts via a gating mechanism, progressively separating common routing structure from constraint-specific encodings. Through extensive experiments on various VRP variants, we show that POLAR and PLE together elevate the current state-of-the-art ",
+      "author": "Arthur Corrêa, Paulo Nascimento, Samuel Moniz"
+    },
+    {
+      "id": "arxiv_ec1b57402db7",
+      "source": "ArXiv cs.LG",
+      "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.24858v1",
+      "summary": "Marginalized importance weighting evaluates a target policy by reweighting offline state-action samples with its discounted occupancy ratio, characterized by an adjoint Bellman equation. Existing minimax, primal-dual, and fitted fixed-point estimators can leave residual occupancy-balance violations because of function-class approximation, regularization, or incomplete optimization. These violations are difficult to diagnose and reduce because the objectives generally lack a direct supervised validation loss for hyperparameter tuning, model selection, and early stopping. We introduce isotonic Bellman calibration, a one-dimensional, model-agnostic post-processing method that reduces these violations while preserving the ranking information in any initial occupancy-ratio estimate. The method corrects the estimate's scale and shape by applying fitted occupancy-ratio evaluation (FORE) over a one-dimensional class of nondecreasing transformations. We characterize Bellman calibration as a conditional fixed-point property equivalent to occupancy-balance against every test function of the calibrated ratio. More generally, we derive a calibration-refinement bound showing that any fitted ratio with small calibration error performs nearly as well as the best post-processing based on its fitted values. For isotonic Bellman calibration, we establish finite-sample calibration guarantees and a KL oracle inequality relative to the best monotone transformation of the initial estimate. Conseque",
+      "author": "Lars van der Laan, Nathan Kallus"
+    },
+    {
+      "id": "arxiv_7a7f177e9e69",
+      "source": "ArXiv cs.LG",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "url": "https://arxiv.org/abs/2608.24845v1",
+      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the video, audio, and image modalities. Using content-aware scene detection, we extract clips for which we synthetically generate video and audio captions. Models trained on these data achieve competitive performance on standard video-text and audio-text benchmarks, with consistent improvements as training or model scale increases. Additionally, we explore video frames as an alternative source of image-text data by extracting scene-changing frames. These frames exhibit a visual distribution distinct from standard web image corpora, and models trained on this dataset achieve strong image-text retrieval performance. We release LAION-BVD to the research community. It significantly expands open access to multimodal videos at an unprecedented scale.",
+      "author": "Andreas Hochlehnert, Marianna Nezhurina, Mehdi Cherti"
+    },
+    {
+      "id": "arxiv_1c7d841d95b1",
+      "source": "ArXiv cs.CL",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.24876v1",
+      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop. Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of the 37 completed model-benchmark pairs, carrying frontier models to SOTA-level task success: on tau-bench it adds +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5, taking Opus 5 to 87.9%, and +16.6/+13.5 points on Qwen3.6-27B/35B on SkillFlow. The advantage widens as the interaction horizon grows, to +32.2 points on the longest tasks, and common long-horizon failures fall by up to 80%. These results position recursively evolving memory as a scalable foundation for RSI, enabling agents to continuously transform accumulated experience into increasingly effective long-horizon behavior. Code: https://github.com/Gen-Verse/Recuris",
+      "author": "Zhaochen Yu, Yingcheng Wu, Zhenfei Yin"
+    },
+    {
+      "id": "arxiv_82586a7d50d3",
+      "source": "ArXiv cs.CL",
+      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "url": "https://arxiv.org/abs/2608.24848v1",
+      "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets typically contain only a few thousand trajectories drawn from a fixed and narrow set of websites, and even recent automated synthesis pipelines stay bound to predefined site lists or tutorial sources, so the number of distinct websites the agent ever sees barely grows. We present BrowserForge, a framework that generates web interaction data at scale by driving many browser sandboxes in parallel over the open web. BrowserForge couples three components: an open-web sourcing stage that exposes the agent to hundreds of thousands of real, openly reachable websites; a sandbox cluster manager that schedules hundreds of concurrent browsers with high utilization; and a Proposer-Solver dual-agent loop that turns a raw page into an executable task and then collects a verified trajectory for it. A rule-plus-model cleaning pipeline removes failed runs and rewrites the surviving reasoning into a single unified chain-of-thought style. Page structure such as the accessibility tree is used only as a synthesis-time signal; the agent we train and release acts purely from the screenshot. The resulting corpus contains 203,238 trajectories, each collected from a distinct website, larger and more diverse than ",
+      "author": "Fei Tang, Huawen Shen, Zhiqiong Lu"
+    },
+    {
+      "id": "arxiv_dfa6972e13ed",
+      "source": "ArXiv cs.CL",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "url": "https://arxiv.org/abs/2608.24842v1",
+      "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they can retrieve, not whether retrieved information affects their judgments. We identify a retrieval-integration gap in long-context financial analysis. Holding focal-firm information fixed and varying only unrelated context from 2,000 to 128,000 tokens, we find that a risk disclosure's influence on investment judgments falls to the experimental noise floor even as direct retrieval remains accurate. The pattern replicates across model families and judgment tasks and in experiments removing real disclosures from actual 10-K filings. More capable models postpone but do not eliminate the gap. Causal memory interventions show that compressed summaries and source-text lookup jointly transmit disclosures into judgments. Workflow architecture determines whether this transmission succeeds: chunk-and-summarize pipelines evict relevant information, whereas a targeted, structured restatement adjacent to the decision restores its influence. AI analyst performance is therefore jointly determined by model capability and workflow architecture. Retrieval-based evaluations can certify systems whose investment judgments ignore information they demonstrably retrieved.",
+      "author": "Miao Liu, Zhizhe Liu"
+    },
+    {
+      "id": "arxiv_747d8e1f3a57",
+      "source": "ArXiv cs.CL",
+      "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+      "url": "https://arxiv.org/abs/2608.24809v1",
+      "summary": "We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers with a recency-aware random walk. This makes the candidate set, the reason each paper is kept, and the stopping condition explicit and fixed before inference. On LitSearch and one further benchmarks over a 500K-paper arXiv corpus, Crase outperforms deep research agents built on proprietary models by up to 3$\\times$ recall@50 at roughly a third of the cost.",
+      "author": "Rima Hazra, Sayan Layek, Somnath Banerjee"
+    },
+    {
+      "id": "arxiv_1dbe20c46df2",
+      "source": "ArXiv cs.CL",
+      "title": "Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text",
+      "url": "https://arxiv.org/abs/2608.24780v1",
+      "summary": "Distinguishing machine-generated text (MGT) from human-written text (HWT) becomes increasingly important due to potential misuse. However, most supervised detectors often degrade out-of-domain (OOD) and require large, diverse training sets. In this work, we analyze the linearity and quality of MGT representations and show that simple linear probes outperform a wide range of detectors while being substantially more sample-efficient. We first show that MGT and HWT latent representations are linearly separable in low-dimensional space, and provide a plausible explanation for this separability through systematic differences in their representation quality. Motivated by these insights, we train two variants of simple linear probes and evaluate them across 4 benchmarks against 16 baselines. Probes consistently improve OOD detection (+11 AUC), requiring solely ${<}100$ samples to reach near-peak performance. We show that this transferability arises because probes recover a shared latent MGT direction that generalizes across diverse settings. Finally, we demonstrate that probing vectors capture a continuous spectrum of ``machineness'', highlighting their potential for fine-grained estimation of AI-edited text. Overall, our work provides insights into latent-space differences between MGT and HWT and demonstrates the potential of linear probes as as robust and sample-efficient MGT detectors. We release our code on~\\href{https://github.com/gerritq/mgt_probes}{github}.",
+      "author": "Gerrit Quaremba, Hanqi Yan, Elizabeth Black"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Video games provide a scalable source of training data for video world models, offering diverse environments, complex interactions, and abundant in-the-wild gameplay videos. However, raw gameplay footage entangles the game world with screen-space interfaces, introducing game-specific biases and irrelevant dynamics that hinder world-model training. To address this problem, we introduce GameUI-Taxonomy and G2WEngine, a full-stack framework that formalizes gameplay UI grounding and removal. G2WEngine automatically extracts reusable UI assets from real gameplay videos and synthesizes temporally coherent UI overlays on clean footage. Using this engine, we construct Game2World, comprising 96K synthetic paired videos with precise reconstruction targets and 1,079 in-the-wild clips from 303 games for realistic evaluation. Its asset library contains 5,132 verified UI elements across 21 taxonomy categories, collected from 1,010 representative gameplay frames. Based on Game2World, we propose GameCleaner, a mask-free gameplay UI removal model that combines multimodal semantic understanding with video editing capabilities. Unlike mask-based methods, GameCleaner directly identifies and removes diverse HUD elements while preserving the underlying scene content and temporal dynamics. In a controlled pilot, world models trained on UI-free gameplay improve overall VideoReward by 6.83% over those trained on UI-overlaid data. On UI-removal evaluation, GameCleaner achieves an average AAR of 95.36 "
+    },
+    {
+      "id": "rss_ff15f6179221",
+      "source": "OpenAI",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "image": ""
+    },
+    {
+      "id": "rss_078ca1cbb97d",
+      "source": "OpenAI",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "image": ""
+    },
+    {
+      "id": "rss_5edcac4ac71e",
+      "source": "OpenAI",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "image": ""
+    },
+    {
+      "id": "rss_55b1326cc871",
+      "source": "Google DeepMind",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "image": ""
+    },
+    {
+      "id": "rss_42f25c0578b6",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_9b26c469edea",
+      "source": "Google DeepMind",
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "image": ""
+    },
+    {
+      "id": "rss_bd4837b9b582",
+      "source": "量子位",
+      "title": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
+      "url": "https://www.qbitai.com/2026/08/479631.html",
+      "summary": "蚂蚁国际日前正式发布自研时序AI预测大模型“鹰序TST”2.0版。",
+      "image": ""
+    },
+    {
+      "id": "rss_0c9276b96dbf",
+      "source": "量子位",
+      "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+      "url": "https://www.qbitai.com/2026/08/478860.html",
+      "summary": "球技丝滑、现场爆满",
+      "image": ""
+    },
+    {
+      "id": "rss_591b38ab31ca",
+      "source": "量子位",
+      "title": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
+      "url": "https://www.qbitai.com/2026/08/479348.html",
+      "summary": "shui jiang shuai xian sha",
+      "image": ""
+    },
+    {
+      "id": "rss_f629d3d53d3d",
+      "source": "NVIDIA",
+      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+      "summary": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to NVIDIA RTX Spark ahead of its launch [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Gamescom-RTX-Spark-Body-1-1680x945.jpeg"
+    },
+    {
+      "id": "rss_bc71acdbd14a",
+      "source": "NVIDIA",
+      "title": "How XPUs Meet a World-Class AI Factory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collection of individual accelerators. Hyperscalers and AI-native companies building custom XPUs must consider [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/nvlink-thought-leadership-graph-1920x1080-1-1680x945.jpg"
+    },
+    {
+      "id": "rss_bf0b13f2ae53",
+      "source": "NVIDIA",
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "summary": "The next era of AI inference won’t be defined by a single breakthrough chip, network or system. It’ll be defined by how every layer of the AI factory works together. That’s why NVIDIA is extending Vera Rubin NVL72 with fast token generation for agentic systems. Announced today, the NVIDIA Vera Rubin rack-scale system NVIDIA Groq [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/DSCF9931-2-scaled.jpeg"
+    },
+    {
+      "id": "rss_d8cfb3eb31fb",
+      "source": "MIT科技评论AI",
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/map.jpg?w=840"
+    },
+    {
+      "id": "rss_67495f34d381",
+      "source": "MIT科技评论AI",
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_20a1136fe419",
+      "source": "MIT科技评论AI",
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/2_Mobile.jpg?w=840"
+    },
+    {
+      "id": "rss_da039604bb68",
+      "source": "TechCrunch AI",
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "image": ""
+    },
+    {
+      "id": "rss_eddde100e942",
+      "source": "TechCrunch AI",
+      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+      "image": ""
+    },
+    {
+      "id": "rss_dd73e8e43ef5",
+      "source": "TechCrunch AI",
+      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "summary": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "image": ""
+    },
+    {
+      "id": "rss_adbdc906077f",
+      "source": "HF Blog",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_95fdc981fce3",
+      "source": "HF Blog",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_47cb4d011597",
+      "source": "HF Blog",
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "# DeepSeek Harness\n\nEnglish | [中文](README.zh.md)\n\nDeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).\n\nIt uses an architecture where **everything is a plugin**, and is powered by [Cordis](https://github.com/cordiverse/cordis), whose design is described in [_A Programming Paradigm for Spatiotemporal Composability_](https://github.com/cordiverse/paper).\n\n## Developer preview\n\nDeepSeek Harness is currently in _developer preview_ and is iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**\n\n## Run\n\n### Run from `npm`\n\nInstall `Node.js`, then run:\n\n```sh\nnpx @deepseek-ai/dsh web\n```\n\nThe command starts the Web UI at `http://127.0.0.1:3080` by default and opens it in the default browser for a local launch. An SSH launch only p",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop",
+      "summary": "<h1 align=\"center\">DSH Desktop</h1>\n\n<p align=\"center\">\n  <strong>基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。</strong><br>\n  一键下载，开箱即用。<br>\n  万物皆「插件」，桌面本身也是「插件」。\n</p>\n\n<p align=\"center\"><sub>独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。<br>本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。<br>中文 · <a href=\"README.en.md\">English</a></sub></p>\n\n<p align=\"center\">\n  <img src=\"assets/desktop-hero-zh.png\" alt=\"DSH Desktop：基于 DeepSeek Harness 构建的开源桌面客户端\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/anywhere-labs/deepseek-harness-desktop/releases/latest\"><img src=\"https://img.shields.io/github/v/release/anywhere-labs/deepseek-harness-desktop?style=flat&amp;label=release&amp;color=4D6BFE\" alt=\"Latest release\"></a>\n  <a href=\"https://github.co",
+      "group": "community"
+    },
+    {
+      "id": "gh_1322012299",
+      "source": "GitHub Trending",
+      "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "summary": "# anydoc\n\n[![Crates.io](https://img.shields.io/crates/v/anydoc.svg)](https://crates.io/crates/anydoc)\n[![npm](https://img.shields.io/npm/v/@firecrawl/anydoc.svg)](https://www.npmjs.com/package/@firecrawl/anydoc)\n[![PyPI](https://img.shields.io/pypi/v/firecrawl-anydoc.svg)](https://pypi.org/project/firecrawl-anydoc/)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![skills.sh](https://skills.sh/b/firecrawl/anydoc)](https://skills.sh/firecrawl/anydoc)\n\nFast Rust library that converts documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF) into clean GitHub-Flavored Markdown. Includes bindings for [Node.js](node/README.md), [Python](python/README.md), and the [browser](wasm/README.md) (WebAssembly).\n\nBuilt by [Firecrawl](https://firecrawl.dev)",
+      "group": "community"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_1316527318",
+      "source": "GitHub Trending",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "# qm\n\nA multiplayer agent harness for work. In Slack and on the web.\n\n![The QM web UI: two concurrent sessions, a sidebar of personal files, crons, keychain, deploys, memory, and skills](./docs/screenshots/web-ui-hero.png)\n\n## Setup\n\nTell your coding agent of choice `Let's deploy https://github.com/yc-software/qm`. From here, it should follow the deployment guide in this repo.\n\n## What is QM?\n\nMost agents are designed like personal assistants. You can make one work for a whole\ncompany, but it quickly gets complex. QM is designed for startups. Employees each get\ntheir own isolated workspace and work independently without affecting each other, and\nthey can also collaborate with the agent in channels, group messages, and projects.\n\nEach person and each room has its own scoped memory, files, k",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1318768894",
+      "source": "GitHub Trending",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "<p align=\"center\">\n  <a href=\"https://link.context.dev/crm\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/images/powered-by-context-dark.png\">\n      <img alt=\"Powered by Context\" height=\"23\" src=\"./docs/images/powered-by-context.png\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <img alt=\"stars\" height=\"21\" src=\"https://afterglow.watch/badge/trycompai/crm\">\n</p>\n\n<h1 align=\"center\">CRM</h1>\n\n<p align=\"center\">\n  <strong>Comp AI CRM is an open source, CRM designed for AI agents.</strong><br>\n  Agentic-first CRM.\n</p>\n\n<p align=\"center\">\n  <a href=\"#the-agent\"><strong>The agent</strong></a> ·\n  <a href=\"#the-stack\"><strong>Stack</strong></a> ·\n  <a href=\"#quick-start\"><strong>Quick start</strong></a> ·\n  <a href=\"#configuration\"><strong>Configuration</s",
+      "group": "community"
+    },
+    {
+      "id": "gh_1317041031",
+      "source": "GitHub Trending",
+      "title": "MiniMax-AI/MiniMax-H3 - 无描述",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "summary": "<div align=\"center\">\n  <img width=\"100%\" src=\"assets/minimax-h3-header.gif\" alt=\"MiniMax H3\">\n</div>\n\n<p align=\"center\">\n  <a href=\"https://hailuoai.video\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Hailuo%20AI-FF6C37?logo=minimax&logoColor=white\" alt=\"Hailuo AI\"></a>\n  <a href=\"https://platform.minimax.io/docs/guides/text-generation\" target=\"_blank\"><img src=\"https://img.shields.io/badge/API-FF6C37?logo=minimax&logoColor=white\" alt=\"API\"></a>\n  <a href=\"https://www.minimax.io\" target=\"_blank\"><img src=\"https://img.shields.io/badge/MiniMax%20Website-FF6C37?logo=minimax&logoColor=white\" alt=\"MiniMax Website\"></a>\n  <a href=\"https://github.com/MiniMax-AI/MiniMax-H3\" target=\"_blank\"><img src=\"https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white\" alt=\"GitHub\"></a>",
+      "group": "community"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "# dsh-routing-suite — 注入器 × 思维模式路由 套装\n\n一个仓库装齐「运行时手术台 + 思维模式路由预设」：先装注入器（免重启运行时管理层），\n再用它装配 router-standard 预设（任务感知思维模式路由，P1-P23 实测）。\n\n[中文](README.md) | [English](README.en.md)\n\n## 安装链（三步）\n\n```powershell\n# 1. 拉套装（单仓库：injector/preset 内容已直接入库，无需 submodule）\ngit clone https://github.com/yjh051108/dsh-routing-suite.git\ncd dsh-routing-suite\n\n# 2. 一键安装（注入器装配 + 预设复制 + 布局自检 + 提示重启）\n.\\install.ps1\n```\n\n或手动：\n\n```powershell\n# 步骤 1：装配注入器（官方装配，重启后由 bundles 接管）\ndsh plugin --profile web add .\\injector\n# dsh 不在 PATH 时：npx '@deepseek-ai/dsh' plugin --profile web add .\\injector\n\n# 步骤 2：安装 router 预设（每个预设目录平铺复制到 .agent-presets 下，DSH 只扫一级子目录）\n$target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-standard'\nCopy-Item -Recurse .\\preset\\router-standard $target\n\n$target = Join-Path $env:USERPROFILE '.dsh\\.age",
+      "group": "community"
+    },
+    {
+      "id": "gh_1319154759",
+      "source": "GitHub Trending",
+      "title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "summary": "<div align=\"center\">\n\n<h1>kimi-k3-in-c</h1>\n\n<h3>A 2.78-trillion-parameter model. One CPU. 8 GB of RAM.</h3>\n\n<p>Kimi K3 inference in portable C99.<br>No BLAS. No framework. No GPU.</p>\n\n<p>\n<a href=\"https://github.com/FareedKhan-dev/kimi-k3-in-c/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/FareedKhan-dev/kimi-k3-in-c/ci.yml?branch=main&style=flat-square&label=CI\" alt=\"CI\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square\" alt=\"License\"></a>\n<a href=\"Makefile\"><img src=\"https://img.shields.io/badge/C99-portable-lightgrey?style=flat-square\" alt=\"C99\"></a>\n<a href=\"#requirements\"><img src=\"https://img.shields.io/badge/platform-Linux%20x86--64-lightgrey?style=flat-square\" alt=\"Platform\"></a>\n<a",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1331135699",
+      "source": "GitHub AI项目",
+      "title": "guillaumemeyer/watermarks-remover - Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1316527318",
+      "source": "GitHub AI项目",
+      "title": "yc-software/qm - Multiplayer agent harness for work.",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "# qm\n\nA multiplayer agent harness for work. In Slack and on the web.\n\n![The QM web UI: two concurrent sessions, a sidebar of personal files, crons, keychain, deploys, memory, and skills](./docs/screenshots/web-ui-hero.png)\n\n## Setup\n\nTell your coding agent of choice `Let's deploy https://github.com/yc-software/qm`. From here, it should follow the deployment guide in this repo.\n\n## What is QM?\n\nMost agents are designed like personal assistants. You can make one work for a whole\ncompany, but it quickly gets complex. QM is designed for startups. Employees each get\ntheir own isolated workspace and work independently without affecting each other, and\nthey can also collaborate with the agent in channels, group messages, and projects.\n\nEach person and each room has its own scoped memory, files, k",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1318768894",
+      "source": "GitHub AI项目",
+      "title": "trycompai/crm - Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
+      "url": "https://github.com/trycompai/crm",
+      "summary": "<p align=\"center\">\n  <a href=\"https://link.context.dev/crm\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/images/powered-by-context-dark.png\">\n      <img alt=\"Powered by Context\" height=\"23\" src=\"./docs/images/powered-by-context.png\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <img alt=\"stars\" height=\"21\" src=\"https://afterglow.watch/badge/trycompai/crm\">\n</p>\n\n<h1 align=\"center\">CRM</h1>\n\n<p align=\"center\">\n  <strong>Comp AI CRM is an open source, CRM designed for AI agents.</strong><br>\n  Agentic-first CRM.\n</p>\n\n<p align=\"center\">\n  <a href=\"#the-agent\"><strong>The agent</strong></a> ·\n  <a href=\"#the-stack\"><strong>Stack</strong></a> ·\n  <a href=\"#quick-start\"><strong>Quick start</strong></a> ·\n  <a href=\"#configuration\"><strong>Configuration</s",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1318187016",
+      "source": "GitHub AI项目",
+      "title": "genspark-ai/genoffice - Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "summary": "# GenOffice\n\n**The world's first full-featured open-source AI Office suite.**\n\n[![License: Apache-2.0](https://img.shields.io/github/license/genspark-ai/genoffice)](LICENSE)\n[![Latest release](https://img.shields.io/github/v/release/genspark-ai/genoffice)](https://github.com/genspark-ai/genoffice/releases/latest)\n[![Downloads](https://img.shields.io/github/downloads/genspark-ai/genoffice/total)](https://github.com/genspark-ai/genoffice/releases)\n\n[Website](https://genoffice.ai/) · [Download](https://github.com/genspark-ai/genoffice/releases/latest) · [Privacy](PRIVACY.md) · [Demo](https://www.youtube.com/watch?v=B2pLdMX95v4)\n\nGenOffice is a free, open-source alternative to Microsoft Office for macOS,\nWindows, and Linux, built around AI editing as a first-class workflow rather\nthan a bolted",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1319154759",
+      "source": "GitHub AI项目",
+      "title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "summary": "<div align=\"center\">\n\n<h1>kimi-k3-in-c</h1>\n\n<h3>A 2.78-trillion-parameter model. One CPU. 8 GB of RAM.</h3>\n\n<p>Kimi K3 inference in portable C99.<br>No BLAS. No framework. No GPU.</p>\n\n<p>\n<a href=\"https://github.com/FareedKhan-dev/kimi-k3-in-c/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/FareedKhan-dev/kimi-k3-in-c/ci.yml?branch=main&style=flat-square&label=CI\" alt=\"CI\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square\" alt=\"License\"></a>\n<a href=\"Makefile\"><img src=\"https://img.shields.io/badge/C99-portable-lightgrey?style=flat-square\" alt=\"C99\"></a>\n<a href=\"#requirements\"><img src=\"https://img.shields.io/badge/platform-Linux%20x86--64-lightgrey?style=flat-square\" alt=\"Platform\"></a>\n<a",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1329272295",
+      "source": "GitHub AI项目",
+      "title": "Leonxlnx/unlazy - Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "summary": "<div align=\"center\">\n\n# unlazy\n\n**Completion discipline for substantial AI-agent work, backed by runnable gates.**\n\nWrite the acceptance ledger first. Execute reviewed checks. Reverify returned work. Report only what the evidence supports.\n\n[Quick start](#quick-start) | [Gate contract](#the-gate-contract) | [Orchestration](#orchestration-and-parallel-work) | [Security](#security-boundary) | [Research](#research-basis)\n\n</div>\n\n## Version status\n\nThe current source targets `2.1.0`. It is not identified here as a tagged GitHub release. Pin an exact commit when you need an immutable installation. See [CHANGELOG.md](CHANGELOG.md) for the unreleased change set.\n\n## Install\n\nUse the [skills CLI](https://github.com/vercel-labs/skills) for supported agents:\n\n```text\nnpx skills add Leonxlnx/unlazy\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1322651268",
+      "source": "GitHub AI项目",
+      "title": "fuxicodex/Fuxi - FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+      "url": "https://github.com/fuxicodex/Fuxi",
+      "summary": "# FuXi\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![GitHub stars](https://img.shields.io/github/stars/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=stars)](https://github.com/fuxicodex/Fuxi/stargazers)\n[![Release](https://img.shields.io/github/v/release/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=release)](https://github.com/fuxicodex/Fuxi/releases)\n[![Last commit](https://img.shields.io/github/last-commit/fuxicodex/Fuxi?style=flat-square&color=0a6fe7)](https://github.com/fuxicodex/Fuxi/commits/main)\n[![License](https://img.shields.io/badge/license-Proprietary-0a6fe7?style=flat-square)](LICENSE)\n\n> **An AI coding agent that lives in your terminal.**\n\nFuXi is a fast, self-contained **terminal AI coding agent** — read code, edit\nfiles, run commands, and drive tools from ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1332781509",
+      "source": "GitHub AI项目",
+      "title": "elie222/rakazo - Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "summary": "# Rakazo\n\n[![GitHub stars](https://img.shields.io/github/stars/elie222/rakazo?labelColor=black&style=for-the-badge&color=2563EB)](https://github.com/elie222/rakazo/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?labelColor=black&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RWwKa2Sn7h)\n\n![Rakazo — AI teammates you actually own](./docs/readme-hero.png)\n\nRakazo is an open-source platform for running persistent AI teammates. It is available on the web,\nas an Electron desktop app, and through an Expo mobile app. Bring your own model and computer\nprovider, or run the complete stack locally.\n\nRakazo is in beta. Learn more at [rakazo.com](https://rakazo.com).\n\n## Features\n\n- Persistent bots with their own conversations, memory, ro",
+      "group": "community"
+    },
+    {
+      "id": "devto_4485862",
+      "source": "Dev.to",
+      "title": "What Do You Do While AI Codes?",
+      "url": "https://dev.to/anchildress1/what-do-you-do-while-ai-codes-k8k",
+      "summary": "AI coding agents leave you with 5-to-20-minute gaps all day. Five real ways I fill them — and the one \"quick\" habit that makes you the bottleneck.",
+      "author": "Ashley Childress"
+    },
+    {
+      "id": "devto_4480470",
+      "source": "Dev.to",
+      "title": "The Retrieval Checklist I Wish I'd Had Before Shipping RAG",
+      "url": "https://dev.to/james_anderson_h/the-retrieval-checklist-i-wish-id-had-before-shipping-rag-2j5a",
+      "summary": "The first time my RAG system gave a confidently wrong answer, I did what everyone does: I blamed the...",
+      "author": "James Anderson"
+    },
+    {
+      "id": "devto_4479046",
+      "source": "Dev.to",
+      "title": "AI promoted every developer to reviewer. Nobody tested the reviewer.",
+      "url": "https://dev.to/heinrichneb/ai-promoted-every-developer-to-reviewer-nobody-tested-the-reviewer-m4h",
+      "summary": "I wanted to disagree with 'AI made me a worse reviewer' from Michael Amachree (@dev_michael) ....",
+      "author": "Heinrich Neb"
+    },
+    {
+      "id": "devto_4480479",
+      "source": "Dev.to",
+      "title": "Build a Full-Stack Music Station with OpenRouter, Amazon Bedrock, and Nuxt",
+      "url": "https://dev.to/aws/build-a-full-stack-music-station-with-openrouter-amazon-bedrock-and-nuxt-5fh4",
+      "summary": "Have you ever been coding and then gotten into that flow state? You know where hours pass by , and it...",
+      "author": "Erik Hanchett"
+    },
+    {
+      "id": "devto_4489434",
+      "source": "Dev.to",
+      "title": "The Question That Picked My Model Didn't Survive Five Reruns",
+      "url": "https://dev.to/ramses203/the-question-that-picked-my-model-didnt-survive-five-reruns-5cfk",
+      "summary": "Eleven hours after the model-comparison post went up, a reader named Vinh Nguyen left a comment that...",
+      "author": "John Green"
+    },
+    {
+      "id": "devto_4487381",
+      "source": "Dev.to",
+      "title": "Every AI email tool has the same bug. It is not a bug in the model.",
+      "url": "https://dev.to/k08200/every-ai-email-tool-has-the-same-bug-it-is-not-a-bug-in-the-model-5f14",
+      "summary": "Every AI email product shipped in the last two years has the same architecture, and it is the wrong...",
+      "author": "yongrean"
+    },
+    {
+      "id": "devto_4486269",
+      "source": "Dev.to",
+      "title": "The M5 Ultra Mac Studio: I Did the Math So You Don't Have To",
+      "url": "https://dev.to/arshtechpro/the-m5-ultra-mac-studio-i-did-the-math-so-you-dont-have-to-2g10",
+      "summary": "Apple announced the new Mac Studio this morning — M5 Max and the first-ever M5 Ultra. Pre-orders are...",
+      "author": "ArshTechPro"
+    },
+    {
+      "id": "devto_4488037",
+      "source": "Dev.to",
+      "title": "Weir - deterministic unit tests for AI agents (no LLM)",
+      "url": "https://dev.to/idogol24/your-evals-pass-and-your-agent-is-broken-stop-asking-an-llm-whether-your-llm-misbehaved-26e9",
+      "summary": "Your agent's logs can say \"success\" while the run was quietly hijacked - untrusted content at step 2...",
+      "author": "IdoGol24"
+    },
+    {
+      "id": "oschina_f8f6bddf5264",
+      "source": "开源中国",
+      "title": "扎心：Anthropic 最贵的模型，企业几乎不用",
+      "url": "https://www.oschina.net/news/502129",
+      "summary": "《金融时报》拿到了一份数据，然后提了一个让 Anthropic 在 IPO 之前很难堪的问题：你的最强模型到底有没有人用？ 根据支付服务集团 Ramp 收集的 7 万家公司支出数据，Anthropic 最贵的模型 Fable 5 发布两个多月后，企业支出占比仅稳定在 11% 左右。旧款、更便宜的模型吃掉了其余 89%。 这不是小样本。7 万家公司的支出..."
+    },
+    {
+      "id": "oschina_08a14534f562",
+      "source": "开源中国",
+      "title": "苦等四年，JPEG XL 终于要进 Mozilla 和 Chrome 浏览器了",
+      "url": "https://www.oschina.net/news/502128",
+      "summary": "Mozilla 和 Google 在同一天发出了 intent to ship。Firefox 157 和 Chrome 将默认启用 JPEG XL 解码支持。对 Web 开发者来说，这是四年来最好的图像格式新闻。 “Intent to Ship” 是 Web 标准开发流程的重要环节，特指浏览器引擎在发布新 CSS/HTML 特性前的公开声明阶段。旨在征求社区反馈、评估兼容性风险，避免破坏 ..."
+    },
+    {
+      "id": "oschina_6b5340057985",
+      "source": "开源中国",
+      "title": "gtk-zlang v0.7.14.0发布，基于 zlang 编程语言的 GTK 封装包装库",
+      "url": "https://www.oschina.net/news/502127",
+      "summary": "目录 一、gtk-zlang简介 二、更新日志 一、gtk-zlang介绍 gtk-zlang是基于zlang编程语言的GTK封装包装库，打造跨平台的开源GUI技术栈，让开发者快速开发跨平台的桌面应用软件。 二、底层优势 zlang编程语言是一门原创自研、支持中文编程、融合和创新语法设计并保持简洁高效、开箱即用、跨平台+高性能的编程语言； GTK是一..."
+    },
+    {
+      "id": "oschina_dbf36bf51930",
+      "source": "开源中国",
+      "title": "zlang v0.12.2.0 发布，支持中文编程、支持Web开发/桌面应用开发的国产全自研编程语言",
+      "url": "https://www.oschina.net/news/502126",
+      "summary": "目录 一、zlang简介 二、更新日志 三、技术专栏 3.1. 《zlang不需要getter、setter八股文》 3.2. 《构造和解析二进制数据包》 zlang是一门完全国产自研的、追求干净观感的、基于对象克隆、支持中文编程的编程语言： 完全从底层开始编写，语言引擎（词法 / 语法分析等）、对象库等均未基于 / 采用任何已有语言进行改造、包..."
+    },
+    {
+      "id": "oschina_58d91fa69272",
+      "source": "开源中国",
+      "title": "告别背命令：Pragmatic AI Shell 把自然语言带进日常终端操作",
+      "url": "https://www.oschina.net/news/502123",
+      "summary": "用自然语言驱动终端，Pragmatic AI Shell 让运维排障&quot;说话就行&quot; 还在为记不住 lsof、awk、find 的参数写法头疼？还在 ps + netstat + 文档之间来回切换？Pragmatic AI Shell（smartcli） 试图改变这一切——你只需要用自然语言描述意图，它替你生成命令，安全过滤后确认执行，全程可审计。 一句话介绍 你说人话，它出命令..."
+    },
+    {
+      "id": "hn_comment_49439562",
+      "source": "HN讨论",
+      "title": "mchusma 在「OpenAI Jalapeño: Better than Nvidia Blac」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49434378",
+      "summary": "I think they talked about this being general purpose chip but I would think that Anthropic&#x2F;OpenAI are at the scale now they could bake LLM weights into chips themselves. For example, GPT Sol baked into a custom chip run for $100M that runs 10x as fast and 10x as cheap should pay for itself as long as the chip is useful for long enough. While 2 years ago nothing was useful more than 1 year long, there are many older models in use now (e.g. Haiku 4.5, GPT-OSS 120b), and I expect this trend to continue. I know this is what Taalas was doing (acquired by AMD), here was their demo,  https:&#x2F;&#x2F;chatjimmy.ai&#x2F;  which is based on Llama 3.1 8B. It feels like this should start to happen soon.",
+      "author": "mchusma"
+    },
+    {
+      "id": "hn_comment_49444538",
+      "source": "HN讨论",
+      "title": "g00afthrowaway 在「OpenAI Jalapeño: Better than Nvidia Blac」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49434378",
+      "summary": "Funny semi analysis has credibility here of all places. The founder is well-known in the hardware circle to be a black-market information trader. It works like this: 1. Founder befriends undergrad interns&#x2F;graduate student interns, buys them gifts, invite them to dinner&#x2F;yacht&#x2F;house&#x2F;vc parties etc, or pays them to write articles\n2. Founder extracts insider information out of these interns\n3. Founder  sells  this information to companies paying &quot;consulting&quot; fees",
+      "author": "g00afthrowaway"
+    },
+    {
+      "id": "hn_comment_49440476",
+      "source": "HN讨论",
+      "title": "corford 在「OpenAI Jalapeño: Better than Nvidia Blac」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49434378",
+      "summary": "These nascent inference chip efforts are reminding me of the early 3dfx &#x2F; riva &#x2F; mach &#x2F; powervr days. Will be interesting to see if inference chips are here to stay and, if so, who the eventual dominant player(s) will be",
+      "author": "corford"
+    },
+    {
+      "id": "hn_comment_49438715",
+      "source": "HN讨论",
+      "title": "epistasis 在「OpenAI Jalapeño: Better than Nvidia Blac」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49434378",
+      "summary": "It&#x27;s so funny to see FP4.... I remember 20 years ago being asked what sort of HPC we needed in genomics, and the answer was basically, &quot;lower precision, faster&quot; for the stuff I was working on. But FP4 is, well, almost comical. One thing not on that comparison table: die size. If I&#x27;m understanding that correctly, it&#x27;s about the same as the Rubin, but at 1&#x2F;3 the number of NVFP4 PFLOPs. (The text disagrees with the table, I&#x27;m taking the table as truth, perhaps that&#x27;s wrong...)",
+      "author": "epistasis"
+    },
+    {
+      "id": "hn_comment_49439076",
+      "source": "HN讨论",
+      "title": "fraboniface 在「OpenAI Jalapeño: Better than Nvidia Blac」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49434378",
+      "summary": "I hadn&#x27;t seen the token&#x2F;Joules comparison with human speech before. Humans are still 22x more efficient, which is not that far considering the rate of progress in this area.",
+      "author": "fraboniface"
+    },
+    {
+      "id": "hn_comment_49444556",
+      "source": "HN讨论",
+      "title": "avaer 在「Students prefer Gemini over ChatGPT and 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49443871",
+      "summary": "&gt; How to use Gemini for a college essay Given that this is increasingly the go-to for a college degree, college needs to rethink its cirricula and place in the world. Or at least get rid of the essay. Lest it become a place where student and teacher ais go to play pay-to-win social deduction video games.",
+      "author": "avaer"
+    },
+    {
+      "id": "hn_comment_49444567",
+      "source": "HN讨论",
+      "title": "demibabs 在「Students prefer Gemini over ChatGPT and 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49443871",
+      "summary": "Author, that doesn’t mean you need to get Gemini to write your article.",
+      "author": "demibabs"
+    },
+    {
+      "id": "hn_comment_49444443",
+      "source": "HN讨论",
+      "title": "John7878781 在「Students prefer Gemini over ChatGPT and 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49443871",
+      "summary": "In my experience, Gemini excels at explaining new concepts clearly and intuitively. Much more so than other models.",
+      "author": "John7878781"
+    },
+    {
+      "id": "hn_comment_49444247",
+      "source": "HN讨论",
+      "title": "gherkinnn 在「Students prefer Gemini over ChatGPT and 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49443871",
+      "summary": "Anything is better than the current crop of Claudes, its prose has become painful.",
+      "author": "gherkinnn"
+    },
+    {
+      "id": "hn_comment_49444429",
+      "source": "HN讨论",
+      "title": "mial 在「Students prefer Gemini over ChatGPT and 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49443871",
+      "summary": "From my own tests, the best model for writing complex, nuanced prose is Opus 4.6. All the next versions are impossible to coax into good writing. Gemini is OK, GPT ok but requires significant prompt tuning.",
+      "author": "mial"
+    },
+    {
+      "id": "hn_comment_49444296",
+      "source": "HN讨论",
+      "title": "ppljudge 在「Maiao: Gerrit-style code review workflow」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49441666",
+      "summary": "This sounds intriguing. Additionally, I wanted the community to evolve our approach to providing PR feedback. One of the unintended consequences was that it became a tool for people to exploit their workers.",
+      "author": "ppljudge"
+    },
+    {
+      "id": "hn_comment_49443651",
+      "source": "HN讨论",
+      "title": "dolmen 在「Maiao: Gerrit-style code review workflow」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49441666",
+      "summary": "The repo seems to move from &quot;adevinta&quot; (a well known company in the EU tech) to &quot;runetes&quot;. Anyone to tell us the story?",
+      "author": "dolmen"
+    },
+    {
+      "id": "hn_comment_49444451",
+      "source": "HN讨论",
+      "title": "globular-toast 在「Maiao: Gerrit-style code review workflow」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49441666",
+      "summary": "IME juniors struggle with making single commits in the first place. What I usually see is a scatter brained approach with more &quot;fix&quot; commits than anything else. This doesn&#x27;t help with that, does it?",
+      "author": "globular-toast"
+    },
+    {
+      "id": "hn_comment_49443640",
+      "source": "HN讨论",
+      "title": "Kinrany 在「Maiao: Gerrit-style code review workflow」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49441666",
+      "summary": "Is it compatible with jujutsu?",
+      "author": "Kinrany"
+    },
+    {
+      "id": "hn_comment_49443124",
+      "source": "HN讨论",
+      "title": "NamlchakKhandro 在「Maiao: Gerrit-style code review workflow」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49441666",
+      "summary": "Who is creating a separate PR for each commit on their feature&#x2F;fix branch? sounds like crazy town. I just dont understand why someone would operate like this. Lets assume you&#x27;re squash merging your feature branchs to your local main, then you&#x27;re raising the them as prs. why would you do this?",
+      "author": "NamlchakKhandro"
+    },
+    {
+      "id": "hn_49443523",
+      "source": "Hacker News",
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "summary": ""
+    },
+    {
+      "id": "hn_49434378",
+      "source": "Hacker News",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "summary": "https:&#x2F;&#x2F;www.bloomberg.com&#x2F;news&#x2F;articles&#x2F;2026-08-25&#x2F;openai-cl... , https:&#x2F;&#x2F;archive.ph&#x2F;yCTrr"
+    },
+    {
+      "id": "hn_49443871",
+      "source": "Hacker News",
+      "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+      "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+      "summary": ""
+    },
+    {
+      "id": "hn_49441666",
+      "source": "Hacker News",
+      "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+      "url": "https://github.com/runetes/maiao",
+      "summary": ""
+    },
+    {
+      "id": "hn_49441375",
+      "source": "Hacker News",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "summary": "I&#x27;m a master&#x27;s engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn&#x27;t want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you open a tab, write LaTeX, get your PDF and the files stay all in one folder on my disk. TeXbrain is a static site with no backend. pdfTeX is compiled to WebAssembly (SwiftLaTeX) and runs in your browser. The editor can read and write your project folder through the File System Access API, so you can use git, any local TeX install, local AI Agents, or any other editor on the same files. Git is built in through isomorphic-git for anyone who would rather not touch a terminal and clone, branch, commit, push or pull via commands. No account is needed, no analytics, and everything works offline after the first load. Try it out: https:&#x2F;&#x2F;tex.swimmingbrain.dev&#x2F; (Chromium browsers get direct folder access, while Firefox or Safari fall back to a virtual filesystem) Or for self-hosting&#x2F;contributing: https:&#x2F;&#x2F;github.com&#x2F;swimmingbrain&#x2F;texbrain (MIT, the pdfTeX engine is EPL 2.0 &#x2F; GPL 2.0 and is listed in the THIRD_PARTY_LICENSES file). The part I&#x27;m most proud of getting to work is the package loading. The engine itself is only 1.8 MB. When it asks for a file it doesn&#x27;t have"
+    },
+    {
+      "id": "hn_49437049",
+      "source": "Hacker News",
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "url": "https://github.com/jeffhajewski/latticedb",
+      "summary": "We have been using graph DBs more and more at work. I found them painful to work with locally and decided to try and build something better."
+    },
+    {
+      "id": "hn_49438052",
+      "source": "Hacker News",
+      "title": "Dolly Parton has died",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "summary": "https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;entertainment&#x2F;dolly-parton-de... https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;08&#x2F;25&#x2F;arts&#x2F;music&#x2F;dolly-parton-d... , https:&#x2F;&#x2F;archive.ph&#x2F;w4vsE https:&#x2F;&#x2F;www.hollywoodreporter.com&#x2F;music&#x2F;music-news&#x2F;dolly-par..."
+    },
+    {
+      "id": "hn_49435675",
+      "source": "Hacker News",
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "summary": "Found that you can actually run a 35B Qwen model on a Pi with very impressive intelligence and stability. Built connectors for car ODB to read all about car internals, and manufacturer&#x27;s cloud service for stuff like changing AC or opening&#x2F; locking doors. Gave it info such as the full car manual. And then hooked it up with my other agents in our discussion room! So now it can answer car questions such as &quot;when should I add oil and what kind of oil?&quot; and help you fully offline, and when online talk with the agent family that includes all the most powerful models so they know how the car is, plan new features and develop itself with them. For example, if car breaks and can&#x27;t move the car agent informs my agent family and they can already look for a suitable train ticket without me needing to check things or do something."
+    }
+  ],
+  "generated_at": "2026-08-26 14:00"
+}

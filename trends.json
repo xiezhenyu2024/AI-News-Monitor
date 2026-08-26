@@ -1,33 +1,5 @@
 [
   {
-    "theme": "模型推理效率优化",
-    "importance": 4,
-    "evidence": "token-diet降低31%账单、DSpark提速85%、DeepSpec开源投机解码框架",
-    "grassroots": "开发者主动使用工具优化Token消耗",
-    "date": "2026-07-05"
-  },
-  {
-    "theme": "多Agent编排与协同",
-    "importance": 5,
-    "evidence": "Omnigent 6280星、loop-engineering 5780星、多Agent辩论研究",
-    "grassroots": "开发者尝试构建子Agent体系，但发现大部分无用",
-    "date": "2026-07-05"
-  },
-  {
-    "theme": "模型提供商降本与用户体验的冲突",
-    "importance": 5,
-    "evidence": "GPT-5.5 Codex Token聚类、Anthropic封号",
-    "grassroots": "用户感知到明显的性能退化，开始寻找替代方案",
-    "date": "2026-07-05"
-  },
-  {
-    "theme": "AI Agent安全研究密集爆发",
-    "importance": 5,
-    "evidence": "今日ArXiv同时出现分布式攻击、在线安全监控、遗忘测试平台等多篇安全相关论文",
-    "grassroots": "Dev.to上开发者分享PII脱敏和RAG投毒实验，显示社区对安全的实际关注",
-    "date": "2026-07-06"
-  },
-  {
     "theme": "AI编程工具进入效率优化阶段",
     "importance": 5,
     "evidence": "token-diet实现31%降本、DeepSpec优化推测解码、DSpark提速85%",
@@ -1398,5 +1370,33 @@
     "evidence": "SWE Refactor Bench揭示现有基准的'盲区'，提出迁移审计新协议",
     "grassroots": "Dev.to文章：'模型考了30分，Harness考了100分——你benchmark的是哪个？'",
     "date": "2026-08-25"
+  },
+  {
+    "theme": "AI推理芯片军备竞赛",
+    "importance": 5,
+    "evidence": "OpenAI发布Jalapeño对标NVIDIA Blackwell，NVIDIA同日宣布Vera Rubin扩展+Groq 3 LPX量产",
+    "grassroots": "HN用户将竞争比作早期显卡混战，关注最终主导者",
+    "date": "2026-08-26"
+  },
+  {
+    "theme": "Agent Harness插件化生态爆发",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源即引爆社区，桌面端/路由套件/插件精选列表同日涌现",
+    "grassroots": "开发者实测P1-P23任务感知路由，qm提供多人协作工作区",
+    "date": "2026-08-26"
+  },
+  {
+    "theme": "AI编程从'能用'到'用好'",
+    "importance": 4,
+    "evidence": "开发者自发分享AI空档期管理、RAG检查清单、确定性Agent测试等效率优化经验",
+    "grassroots": "开发者从'能不能用'转向'怎么用好'，审查成为新瓶颈",
+    "date": "2026-08-26"
+  },
+  {
+    "theme": "长上下文可靠性危机",
+    "importance": 4,
+    "evidence": "ArXiv论文证明检索≠判断，128K上下文下风险披露影响力跌至噪声底",
+    "grassroots": "RAG开发者开始系统性排查检索链路而非责怪模型",
+    "date": "2026-08-26"
   }
 ]
