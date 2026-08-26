@@ -1,0 +1,748 @@
+{
+  "key": "2026-08-27-morning",
+  "date": "2026-08-27",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 6,
+      "title": "美国FDA批准新药Rasonque治疗晚期胰腺癌，试验显示生存率翻倍",
+      "entities": [
+        {
+          "name": "FDA",
+          "explain": "美国食品药品监督管理局，负责批准药品在美国上市销售的政府机构"
+        },
+        {
+          "name": "Revolution Medicines",
+          "explain": "一家美国生物制药公司，专注于开发针对癌症的创新药物"
+        },
+        {
+          "name": "Rasonque",
+          "explain": "一种每日口服一次的靶向药物，用于治疗晚期胰腺癌"
+        }
+      ],
+      "summary": "美国FDA批准了Revolution Medicines公司研发的Rasonque用于治疗晚期胰腺癌，为转移性患者提供了新的治疗选择。一项大型临床试验显示，这种每日口服一次的药物使患者生存率翻倍，为其他治疗手段无效的患者带来了新希望。",
+      "relevant": "胰腺癌是致死率极高的癌症，新药获批为患者提供了新的治疗选择，具有重大医学意义。",
+      "context": "胰腺癌被称为'癌中之王'，传统治疗手段效果有限，患者生存率极低。Rasonque的获批是基于一项大型临床试验的积极结果，该试验证明其能显著延长患者生存期。",
+      "source_analysis": "France24是法国国际广播电台，报道较为客观，主要引用官方公告和试验数据。",
+      "social_impact": "胰腺癌5年生存率不足10%，Rasonque的获批可能改变这一现状，为全球数百万患者带来希望。",
+      "source_text": "FDA approves new drug Rasonque to treat advanced pancreatic cancer The US FDA on Wednesday approved Revolution Medicines' Rasonque for advanced pancreatic cancer, opening a new treatment option for patients with metastatic disease. A large trial found the once-daily pill doubled survival rates, offering fresh hope for people who have exhausted other treatments. The US FDA has approved Revolution Medicines' groundbreaking pancreatic cancer drug after it was shown to double the survival rate of patients with advanced disease in a large trial, offering new hope to those with the deadly cancer. The once-daily pill, to be called Rasonque, was approved for metastatic pancreatic cancer in patients who have received prior treatment or cannot receive combination chemotherapy. The drug is designed to block several forms of the RAS protein, which helps drive tumour growth in many pancreatic cancers. Revolution said the drug is now available in the United States at $39,800 for a 30-day supply. The company added that it would make assistance available as well. When Revolution announced the trial results in April for the drug, it set off a firestorm of demand. The FDA quickly granted early access to it under its compassionate use programme, which allows patients with serious or life-threatening conditions to get experimental treatments outside clinical trials prior to authorisation by the regulator. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. The treatment has already offered some patients with early access to the drug a reprieve from the toll of chemotherapy. Barbara Andes, 88, of Fullerton, California, who began taking it in July after a year of chemotherapy, said the pill allowed her to resume regular activities and caused far less nausea and fatigue. \"It's going to open this door now commercially for so many, many more people who are suffering,\" Andes said. \"It's a godsend.\" Speedy review The drug was part of the Food and Drug Administration's new expedited review process, designed to shrink timelines to as little as one to two months from the usual 10 to 12. \"This approval validates more than a decade of work aimed at pancreatic cancer, primarily RAS-driven disease, and one of the most difficult challenges in medicine, cancer biology, and drug discovery,\" Revolut",
+      "source_title": "FDA approves new drug Rasonque to treat advanced pancreatic cancer",
+      "source_url": "https://www.france24.com/en/americas/20260826-fda-approves-new-drug-rasonque-to-treat-advanced-pancreatic-cancer",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "BBC报道：美国批准胰腺癌突破性新药daraxonrasib，专家称'游戏规则改变者'",
+      "entities": [
+        {
+          "name": "daraxonrasib",
+          "explain": "一种针对胰腺癌的靶向药物，通过抑制特定基因突变来阻止癌细胞生长"
+        },
+        {
+          "name": "BBC",
+          "explain": "英国广播公司，全球知名的新闻媒体"
+        }
+      ],
+      "summary": "BBC报道称，美国药品监管机构批准了胰腺癌新药daraxonrasib，专家将其誉为'游戏规则改变者'。这种药物针对胰腺癌的特定基因突变，为这种最致命的癌症之一提供了新的治疗手段。",
+      "relevant": "胰腺癌治疗长期缺乏有效药物，daraxonrasib的批准可能显著改善患者预后。",
+      "context": "胰腺癌是全球最致命的癌症之一，多数患者确诊时已处于晚期，传统化疗效果有限。daraxonrasib是一种靶向药物，针对胰腺癌中常见的基因突变，临床试验显示其能显著延长患者生存期。",
+      "source_analysis": "BBC作为国际主流媒体，报道较为客观，引用了专家评价和官方信息。",
+      "social_impact": "胰腺癌每年导致全球约46万人死亡，daraxonrasib的获批可能为患者带来新的生存希望。",
+      "source_text": "US drug agency approves breakthrough treatment for pancreatic cancer - Published The US Food and Drug Administration has approved a treatment for pancreatic cancer that, in clinical trials, nearly doubled the overall survival time for patients. The drug, daraxonrasib, sold under the brand name Rasonque and manufactured by Revolution Medicines, appears to be a breakthrough in treating one of the world's deadliest cancers. A late-stage clinical trial with 500 patients found those who took the daily pill had an average survival time of 13.2 months, compared to 6.6 months for those on chemotherapy. The FDA said the drug provided a \"critical new option for patients facing an extraordinarily difficult and historically hard-to-treat cancer\". Daraxonrasib helps prevent the spread of cancer by locking onto and shutting off the mutated KRAS gene, which is in more than 90% of pancreatic tumours and spurs cancer growth. Each year, roughly 67,000 people in the US are diagnosed with pancreatic cancer, which has the highest mortality rate of all major cancers, according to the American Cancer Society.. Pancreatic cancer is often spotted late and is notoriously difficult to treat. More than half of those with pancreatic cancer die within three months of diagnosis. In 2025, the FDA granted the drug a \"Breakthrough Therapy\" designation, given to treatments for serious conditions that warrant an expedited review. The agency then approved the drug six months ahead of the regulatory deadline because it \"showed unprecedented results in an area of high unmet need\", said Angelo de Claro, director of the the agency's Oncology Center of Excellence. The most common side effects of the treatment were rash, diarrhoea, nausea, fatigue and vomiting, the FDA said. About 44% of patients on daraxonrasib experienced severe side effects, compared to 57.5% treated with chemotherapy in the trial. Former US Senator Ben Sasse, who announced in December he had been diagnosed with Stage 4 pancreatic cancer, is in a clinical trial for the drug and has said it has helped shrink his tumours. Related topics - Published4 hours ago",
+      "source_title": "US drug agency approves breakthrough treatment for pancreatic cancer",
+      "source_url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "乌克兰最强大武器：指挥无人机军队的Delta软件系统",
+      "entities": [
+        {
+          "name": "Delta系统",
+          "explain": "乌克兰开发的战场管理系统，整合情报数据并指挥无人机作战"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，目前与俄罗斯处于战争状态"
+        }
+      ],
+      "summary": "纽约时报报道，乌克兰的Delta战场管理系统成为其最强大的武器之一。该系统整合战场数据识别目标，创建数英里宽的'杀伤区'，被广泛认为帮助乌克兰将俄军推进几乎遏制在停滞状态。",
+      "relevant": "Delta系统展示了现代战争中软件和无人机技术的重要性，可能改变未来战争形态。",
+      "context": "自2022年俄乌战争爆发以来，乌克兰面临军事劣势，但通过技术创新和无人机战术，成功抵抗了俄军进攻。Delta系统是这一战略的核心组成部分。",
+      "source_analysis": "纽约时报是美国主流媒体，报道基于实地调查和军事专家分析，立场相对中立。",
+      "social_impact": "Delta系统的成功应用可能推动全球军事技术变革，各国将更加重视软件在战争中的作用。",
+      "source_text": "Ukraine’s Most Potent Weapon: The Software Orchestrating Its Drone Army。The Delta system pulls together battlefield data to identify targets, creating a miles-wide “kill zone.” The technology is credited with helping to cut Russian advances to a near standstill.",
+      "source_title": "Ukraine’s Most Potent Weapon: The Software Orchestrating Its Drone Army",
+      "source_url": "https://www.nytimes.com/2026/08/26/world/europe/ukraine-delta-battlefield-management.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "美国威胁制裁伊朗黄金、加密货币、航空等产业，扩大制裁范围",
+      "entities": [
+        {
+          "name": "伊朗",
+          "explain": "中东国家，长期与美国存在政治和军事对立"
+        },
+        {
+          "name": "美国制裁",
+          "explain": "美国对其他国家实施的贸易和金融限制措施"
+        }
+      ],
+      "summary": "美国威胁对任何与伊朗黄金、数字资产、航空、航运和科技产业有往来的国家或实体实施制裁。这一举措扩大了美国对伊朗的制裁范围，从传统的石油领域扩展到更多经济领域。",
+      "relevant": "美国扩大对伊朗制裁可能影响全球贸易和金融市场，特别是加密货币和黄金市场。",
+      "context": "美国长期对伊朗实施经济制裁，以施压其核计划和地区行为。此次制裁范围扩大，旨在进一步削弱伊朗经济，但可能引发国际社会反弹。",
+      "source_analysis": "纽约时报报道，分析了制裁的潜在影响，立场相对中立。",
+      "social_impact": "制裁可能影响全球黄金和加密货币市场，以及航空和航运业，对伊朗经济造成更大压力。",
+      "source_text": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil。The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
+      "source_title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
+      "source_url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "加拿大宣布对美国商品实施最高50%的'对等'报复性关税",
+      "entities": [
+        {
+          "name": "加拿大",
+          "explain": "北美洲国家，美国的主要贸易伙伴"
+        },
+        {
+          "name": "美国",
+          "explain": "北美洲国家，全球最大经济体"
+        },
+        {
+          "name": "关税",
+          "explain": "对进口商品征收的税，用于保护本国产业或进行贸易谈判"
+        }
+      ],
+      "summary": "加拿大宣布对美国商品实施'对等'报复性关税，税率最高达50%。这是美加贸易战的最新升级，新关税将涵盖钢铁、家具、新鲜金枪鱼和化妆品等商品。",
+      "relevant": "美加贸易战升级可能影响两国经济，推高消费者价格，并波及全球供应链。",
+      "context": "美加贸易战持续升级，此前美国对加拿大商品加征关税，加拿大此次以'对等'关税回应，标志着两国贸易关系进一步恶化。",
+      "source_analysis": "BBC报道，基于官方声明，立场相对中立。",
+      "social_impact": "关税可能推高两国消费者价格，影响相关行业就业，并可能引发全球贸易紧张局势。",
+      "source_text": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50% - Published Canada has announced counter-tariffs as high as 50% on a range of US goods in retaliation to the latest wave of levies on Canadian imports imposed by President Donald Trump last weekend. The Canadian tariffs will apply to nearly C$28bn ($20bn; £15bn) worth of American products, ranging from steel to furniture, fresh tuna and cotton T-shirts, officials announced on Tuesday. The list of targeted products is designed to match Canadian goods hit by the US. The Canadian levies are set to come into effect on 8 September. It is the latest escalation after US-Canada trade talks collapsed late last week, with each side accusing the other of making last-minute demands that were unreasonable. Finance Minister François-Philippe Champagne said that Canada's retaliation is in response to 50% tariffs imposed by the Trump administration on a range of Canadian goods after trade talks fell apart on Friday. \"Those tariffs will have real consequences for Canadian workers, businesses and communities across our nation,\" he said. \"Canada must respond.\" Champagne characterised Canada's retaliation as \"proportionate\" and \"strategic\". He added that Canada will also offer businesses and workers impacted by US tariffs an additional C$7.5bn for support programmes designed to minimise job losses and keep companies afloat. Placing taxes on trade between what are historically two of the world's closest trading partners will undoubtedly lead to pain on both sides of the border. Supply chains which have been developed over decades are set to see increased trading costs due the latest tariff announcements made from both the US and Canada, ultimately hitting businesses of all sizes and consumers through potentially higher prices. Polls suggest the majority of Canadians support their government in holding firm against the US. But some questions remain on exactly why trade talks fell apart, with the Conservative opposition asking that the full text of the draft deal with the US be released. Businesses have also expressed concerns about the impact of a prolonged trade war with Canada's largest trading partner. The White House released a statement after Canada announced its counter-tariffs, saying that the US was prepared to offer Canada \"the most preferential market access of any country on Earth\" in recent trade talks. \"Instead of partnership, Canada chose unreasonable demands, walk-backs, and flat-out re",
+      "source_title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "尼泊尔和西藏洪水造成至少160人死亡，数百人失踪",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "南亚国家，位于喜马拉雅山脉南麓"
+        },
+        {
+          "name": "西藏",
+          "explain": "中国西南部地区，位于喜马拉雅山脉北麓"
+        }
+      ],
+      "summary": "尼泊尔和西藏之间的喜马拉雅河谷发生洪水，造成至少160人死亡，数百人失踪，包括外国游客。洪水冲毁了多个村庄，救援工作正在进行中。",
+      "relevant": "这是一起重大自然灾害，造成严重人员伤亡，需要国际关注和援助。",
+      "context": "喜马拉雅地区近期遭遇强降雨，引发山洪和泥石流，冲毁河谷村庄。该地区地形复杂，救援难度大。",
+      "source_analysis": "纽约时报实时更新报道，基于当地政府和救援机构信息。",
+      "social_impact": "洪水造成重大人员伤亡和财产损失，可能引发国际救援行动，并凸显气候变化对山区的影响。",
+      "source_text": "Live Updates: Hundreds Missing as Wall of Water Sweeps Away Villages in Nepal and Tibet。At least 160 people were killed when floods tore through a Himalayan river valley between Nepal and the Tibet region of China, the authorities said. Hundreds were missing, including foreign tourists.",
+      "source_title": "Live Updates: Hundreds Missing as Wall of Water Sweeps Away Villages in Nepal and Tibet",
+      "source_url": "https://www.nytimes.com/live/2026/08/26/world/nepal-floods",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "巴基斯坦首都医院火灾致14名新生儿死亡，引发政治争议",
+      "entities": [
+        {
+          "name": "巴基斯坦",
+          "explain": "南亚国家，首都为伊斯兰堡"
+        },
+        {
+          "name": "伊斯兰堡",
+          "explain": "巴基斯坦首都，该国政治中心"
+        }
+      ],
+      "summary": "巴基斯坦首都伊斯兰堡最大医院发生火灾，造成14名新生儿死亡。事件引发政治争议，反对派支持者在官员视察现场时高喊'停止杀害我们的孩子！'。",
+      "relevant": "医院火灾暴露了巴基斯坦医疗系统安全问题，并引发政治动荡。",
+      "context": "火灾发生在伊斯兰堡最大医院，具体原因尚在调查中。事件发生后，反对派利用此事攻击政府，凸显该国医疗基础设施的薄弱。",
+      "source_analysis": "纽约时报报道，包含现场目击和反对派反应，立场相对中立。",
+      "social_impact": "事件引发公众对医疗安全的关注，可能推动巴基斯坦政府加强医院安全监管。",
+      "source_text": "14 Newborns Die in Hospital Fire in Pakistan’s Capital。The fire broke out at Islamabad’s largest hospital and has become a political issue. Opposition supporters shouted, “Stop killing our children!” at an official visiting the scene.",
+      "source_title": "14 Newborns Die in Hospital Fire in Pakistan’s Capital",
+      "source_url": "https://www.nytimes.com/2026/08/26/world/asia/pakistan-islamabad-hospital-fire.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "俄媒：乌克兰军队过去一天炮击顿涅茨克人民共和国17次，致11名平民受伤",
+      "entities": [
+        {
+          "name": "顿涅茨克人民共和国",
+          "explain": "乌克兰东部亲俄武装控制地区，国际社会普遍不承认其独立地位"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，与俄罗斯处于战争状态"
+        }
+      ],
+      "summary": "俄罗斯塔斯社报道，乌克兰军队在过去一天内对顿涅茨克人民共和国人口稠密地区进行了17次炮击，造成11名平民受伤，其中包括2名儿童。",
+      "relevant": "该事件反映了俄乌冲突的持续，平民伤亡加剧了人道主义危机。",
+      "context": "俄乌战争持续，顿涅茨克地区是双方交火的前线。乌克兰和俄罗斯互相指责对方攻击平民目标。",
+      "source_analysis": "塔斯社是俄罗斯官方通讯社，报道立场亲俄，信息需谨慎对待。",
+      "social_impact": "平民伤亡凸显战争的人道主义代价，可能影响国际社会对冲突的立场。",
+      "source_text": "DONETSK, August 27. /TASS/. Ukrainian forces shelled populated areas of the Donetsk People’s Republic (DPR) 17 times over the past day, injuring 11 civilians, including two children, the department for documenting Ukrainian war crimes under the administration of the DPR head and government said. \"Seventeen armed attacks by Ukrainian armed formations were recorded <...> over the past day. Reports were received that 11 civilians, including two children, were injured. Additional information was received about two civilians injured on February 23 and April 13 in the populated area of Konstantinovka,\" the statement said. According to the department, Ukrainian forces fired 25 munitions. Eight residential buildings, 11 civilian infrastructure facilities, and passenger vehicles were damaged.",
+      "source_title": "Ukrainian forces shell DPR populated areas 17 times over past day",
+      "source_url": "https://tass.com/defense/2178091",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "特朗普加沙事务高官批评以色列危及停火协议",
+      "entities": [
+        {
+          "name": "Nickolay Mladenov",
+          "explain": "联合国前官员，现任和平委员会加沙事务高级代表，负责协调加沙停火事务"
+        },
+        {
+          "name": "Board of Peace",
+          "explain": "一个国际和平组织，负责调解地区冲突，此处指其加沙事务部门"
+        },
+        {
+          "name": "哈马斯",
+          "explain": "巴勒斯坦伊斯兰抵抗运动，控制加沙地带的武装组织"
+        }
+      ],
+      "summary": "特朗普任命的加沙事务高级代表Mladenov批评以色列在拒绝解除哈马斯武装计划后，继续对所谓哈马斯目标发动打击，认为此举危及停火协议。以色列方面则坚持其军事行动针对哈马斯武装分子。",
+      "relevant": "停火协议是加沙地区和平的关键，以色列的持续打击可能导致冲突升级，影响中东局势稳定。",
+      "context": "此前以色列拒绝了国际社会提出的解除哈马斯武装的计划，随后恢复了对加沙的军事打击，引发国际观察人士对停火前景的担忧。",
+      "source_analysis": "《纽约时报》为美国主流媒体，报道立场相对中立，但常反映美国官方及国际社会对中东问题的关注。",
+      "social_impact": "加沙停火协议若破裂，可能导致人道主义危机加剧，影响数百万平民安全。",
+      "source_text": "Trump’s Top Gaza Official Says Israel Is Jeopardizing the Cease-Fire。Nickolay Mladenov, the Board of Peace’s high representative for Gaza, criticized Israel for its ongoing strikes on what it says are Hamas targets, after it rejected a plan to disarm the group.",
+      "source_title": "Trump’s Top Gaza Official Says Israel Is Jeopardizing the Cease-Fire",
+      "source_url": "https://www.nytimes.com/2026/08/26/world/middleeast/trump-official-israel-jeopardizing-gaza-cease-fire.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "伊朗与阿曼谈判霍尔木兹海峡临时通航协议",
+      "entities": [
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "连接波斯湾和阿曼湾的狭窄水道，全球约20%石油运输经过此地，战略地位极其重要"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东大国，控制霍尔木兹海峡北岸，曾多次威胁封锁海峡"
+        },
+        {
+          "name": "阿曼",
+          "explain": "位于阿拉伯半岛东南端的国家，与伊朗隔海相望，常担任地区调解角色"
+        }
+      ],
+      "summary": "伊朗和阿曼正就霍尔木兹海峡临时通航协议进行谈判，计划建立\"临时走廊\"以恢复受控航运。双方已讨论框架，但导航权、管辖权、费用等问题仍存分歧，协议面临多重障碍。",
+      "relevant": "霍尔木兹海峡是全球能源运输命脉，任何通航安排的变化都会直接影响国际油价和全球供应链。",
+      "context": "此前该地区因伊朗与西方国家的紧张关系，航运安全受到威胁，此次谈判旨在通过临时协议缓解紧张局势。",
+      "source_analysis": "法国24电视台为法国国际媒体，报道相对中立，侧重国际事务分析。",
+      "social_impact": "全球每日约2000万桶石油经此海峡运输，协议若达成将稳定能源市场，若失败可能引发油价波动。",
+      "source_text": "Navigation, jurisdiction, costs: Iran, Oman attempt to hammer out Hormuz deal Iran and Oman are holding talks to try to reach an interim agreement for a controlled resumption of navigation in the Strait of Hormuz. The two countries have discussed a framework for a “temporary corridor” for shipping, according to a joint statement by the Iranian and Omani foreign ministries. But the plan faces several hurdles. Iran and Oman are negotiating the opening of a temporary shipping corridor and the clearance of mines in the blockaded Strait of Hormuz, which both nations border. They have yet to agree on the conditions for the waterway's reopening as the Middle East war nears the six-month mark, but talks are ongoing. Here's what we know about the latest negotiations between Tehran and Muscat. Why Oman? Both countries sit on the strait crucial for the global oil and gas trade, and are trying to define the terms of a controlled resumption of shipping, which has been paralysed by Tehran since the US-Israeli attacks that started the war in late February. Read moreWhy is France betting on Oman amid the Hormuz crisis? A US-Iran memorandum of understanding signed in mid-June provided for the reopening of the Strait of Hormuz, and left it up to Iran and Oman \"to define the future administration and maritime services\" in the waterway, in discussion with Gulf states and in line with international law. Read moreIslamabad MoU: Trump is back to square one, but the cards are now in Tehran’s favor But the deal, which was supposed to pave the way for talks on permanently ending the war, has since fallen apart. Is there any progress? In Tehran on Tuesday, the Iranian and Omani foreign ministers discussed a framework agreement that would establish a \"temporary corridor\" for shipping and a project to clear mines in the strait, according to a joint statement. Omani Foreign Minister Badr Albusaidi said on X after the talks that he hoped the new corridor and \"practical arrangements to restore safe navigation\" would be announced \"soon\". He added that \"future management of the strait and a permanent solution will follow in due course\". Iranian Deputy Foreign Minister Kazem Gharibabadi, in an interview with local media, explained the proposed arrangement would see ships entering the Gulf pass through Iranian waters, while those leaving would use Omani waters. He also said that if the plan with Oman was agreed upon, the two would have 30 to 60 days to hammer out a permanent route, adding th",
+      "source_title": "Navigation, jurisdiction, costs: Iran, Oman attempt to hammer out Hormuz deal",
+      "source_url": "https://www.france24.com/en/middle-east/20260826-navigation-jurisdiction-costs-iran-oman-attempt-to-hammer-out-hormuz-deal",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "巴基斯坦医院火灾致14名婴儿死亡，目击者称门被锁",
+      "entities": [
+        {
+          "name": "巴基斯坦",
+          "explain": "南亚国家，人口约2.4亿，医疗资源相对匮乏"
+        },
+        {
+          "name": "BBC",
+          "explain": "英国广播公司，国际知名新闻机构"
+        }
+      ],
+      "summary": "巴基斯坦一家医院发生火灾，造成14名婴儿死亡。目击者称事发时病房门被锁，但医院回应称门未上锁，而是由保安看守以保护婴儿安全。事件引发对医院安全管理的质疑。",
+      "relevant": "婴儿死亡事件暴露医院安全漏洞，可能引发巴基斯坦国内对医疗系统监管的讨论和改革。",
+      "context": "火灾发生在医院新生儿病房，具体起火原因尚在调查中，医院方面与目击者说法存在矛盾。",
+      "source_analysis": "BBC为英国公共媒体，报道通常注重事实核查，但现场信息依赖目击者陈述。",
+      "social_impact": "此类悲剧可能引发公众对医院消防安全的关注，促使政府加强医疗设施安全监管。",
+      "source_text": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say - Published It was just after dawn on Wednesday morning at a maternity ward in the Pakistani capital when a horrific blaze erupted. It would go on to kill 14 infants as parents say they waited hours for help to arrive. Hivsa Walid was near the room at the Pakistan Institute of Medical Sciences (PIMS) hospital with her sister-in-law, who had given birth days earlier. She initially heard a shout and thought a patient had died - but then she saw smoke. The pair fled with the baby, who is so small she does not yet have a name. \"We didn't even think about our belongings. We just grabbed the baby and rushed downstairs. \"Some patients had delivered their babies just that night. I don't even know how we managed to get down - it was all a blur.\" The fire broke out in an air-conditioning unit on the third floor of the mother and child unit at PIMS, one of the main state-run hospitals in Islamabad. Only one of the 15 babies present was saved. Khurram Mehmood, 40, told AFP news agency there was a long wait for rescue workers. \"I lost my daughter. She was only three days old,\" he said. Jaweria, the mother of another victim, told AFP news agency the door to the maternity ward was locked. \"For two hours I kept crying and wailing,\" she said. \"Police arrived after four hours and said they are here to investigate.\" \"Why did the doctors leave the children there?\" she asks. \"To hell with you, rescue team and police. Babies burnt to death there, but nobody could save them.\" Rana Imran Sikander, the hospital's executive director, told the BBC the ward's door was not locked but was manned. He cited the need to protect babies from being stolen, something that has happened before at government hospitals. Walid suggested PIMS's safety protocols were inadequate, despite it being a major hospital. \"There should have been fire extinguishers and protocols, but no one was doing anything - everyone was just running.\" The father of a baby who died told Reuters he had been visiting the ward for eight days and the building had \"no fire security, no proper exits\". \"All doors were closed, only one door was for us to visit our children. They kept the other doors locked because they feared we would come to see our children too often.\" Several eyewitnesses have claimed duty staff were not around. People had to \"break the door down\" and rescue teams were forced to smash the windows to control the flames, a witness who",
+      "source_title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "source_url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "尼泊尔洪灾死亡人数升至157人",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "南亚内陆国家，位于喜马拉雅山南麓，雨季常遭洪水和山体滑坡"
+        },
+        {
+          "name": "奇特旺地区",
+          "explain": "尼泊尔南部地区，此次洪灾中死亡人数最多"
+        }
+      ],
+      "summary": "尼泊尔近期遭遇严重洪灾，死亡人数已升至157人，其中南部奇特旺地区伤亡最为严重。救援工作仍在进行，但灾情已造成重大人员损失。",
+      "relevant": "洪灾造成重大人员伤亡，反映尼泊尔基础设施薄弱和防灾能力不足，需国际社会关注和援助。",
+      "context": "尼泊尔每年雨季（6-9月）常遭暴雨引发洪水和山体滑坡，此次灾情尤为严重。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道侧重事实陈述，数据来源为当地媒体。",
+      "social_impact": "洪灾导致大量家庭流离失所，可能引发次生健康危机，需紧急人道主义援助。",
+      "source_text": "NEW DELHI, August 27. /TASS/. The death toll from flooding that began in Nepal on the morning of August 26 has reached 157, the Ratopati news portal reported, citing police. According to the report, the highest number of fatalities was recorded in the Chitwan District in the south of the country, where 64 bodies were found. Forty-one people injured in the flooding are receiving treatment in hospitals. More than 3,300 police officers have been mobilized for search and rescue operations, the portal reported. Earlier reports put the death toll at 95. The flooding hit northern areas of Nepal on Wednesday morning. According to preliminary data, the flood wave was caused by a snow-and-rock avalanche near the Nepal-China border, approximately 20 kilometers northeast of the Rasuwagadhi border crossing.",
+      "source_title": "Death toll from Nepal flooding reaches 157",
+      "source_url": "https://tass.com/emergencies/2178097",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "猴痘疫情卷土重来并蔓延至新国家，儿童感染突出",
+      "entities": [
+        {
+          "name": "猴痘",
+          "explain": "一种病毒性人畜共患病，曾称猴痘，2022年后全球多地爆发，症状包括发热和皮疹"
+        },
+        {
+          "name": "几内亚比绍",
+          "explain": "西非国家，此次首次报告猴痘病例"
+        }
+      ],
+      "summary": "几内亚比绍首次报告猴痘疫情，标志着病毒蔓延至新国家。自2022年以来，全球已有145个国家报告近19万例实验室确诊病例，此次疫情中儿童感染尤为突出，防控形势严峻。",
+      "relevant": "猴痘疫情持续扩散且儿童易感，可能加重全球公共卫生负担，需加强国际协作防控。",
+      "context": "2022年和2024年猴痘曾两次被宣布为公共卫生紧急事件，此前疫情主要局限于少数非洲国家，现正快速蔓延。",
+      "source_analysis": "《卫报》为英国左翼主流媒体，报道侧重全球公共卫生议题，常引用官方数据。",
+      "social_impact": "儿童感染比例上升可能影响学校等公共场所防控政策，全球需加强疫苗和医疗资源分配。",
+      "source_text": "A man infected with mpox at a hospital in Burundi. Photograph: Tchandrou Nitanga/AFP/Getty ImagesView image in fullscreenA man infected with mpox at a hospital in Burundi. Photograph: Tchandrou Nitanga/AFP/Getty ImagesMpox is back – and in new countries. How can this outbreak be contained?The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affectedA fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed?Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic.What is mpox?Mpox is an infectious disease that typically starts with flu-like symptoms, including fever, chills and aching muscles. These are followed by a distinctive rash, beginning as raised spots that turn into blisters filled with fluid before forming scabs.View image in fullscreenA colourised electron microscope image shows Mpox virus particles, represented in green, found within infected cultured cells, represented in blue. The virus particles are in various stages of maturity, which accounts for their differences in shape. Photograph: APIt used to be called monkeypox, because the virus was first discovered in captive monkeys in 1958. But during an international outbreak in 2022, there were concerns that the name was fuelling racist and stigmatising language on and offline, prompting the World Health Organization (WHO) to recommend changing it to mpox.It is endemic to many parts of Africa, with outbreaks historically starting when people ate meat from infected wild animals. But in recent years it has spread beyond the usual areas, with sustained chains of human-to-human transmission. The Atlanta-based Centers for Disease Control and Prevention said this month that mpox was on course to become endemic in the US.Why is it spreading to new countries?There are, broadly, two types of mpox, known as “clades”. Clade I was once called the “Congo Basin clade” and clade II the “West African clade”.The latter sparked a major global outbreak in 2022 when it appeared to undergo some changes that allowed it to spread more efficiently from person to person. It is passed on via close contact – in that outbreak, mostly by sexual c",
+      "source_title": "Mpox is back – and in new countries. How can this outbreak be contained?",
+      "source_url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "国际原子能机构总干事称若当选联合国秘书长将与俄罗斯保持严肃关系",
+      "entities": [
+        {
+          "name": "格罗西",
+          "explain": "国际原子能机构（IAEA）现任总干事，正竞选联合国秘书长职位"
+        },
+        {
+          "name": "国际原子能机构",
+          "explain": "联合国下属机构，负责监督核能和平利用和核安全"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "联合国安理会常任理事国，核大国，与IAEA有密切合作"
+        }
+      ],
+      "summary": "国际原子能机构总干事格罗西表示，若当选联合国秘书长，将与俄罗斯保持严肃的工作关系。他称自己与俄方已建立了非常好的工作关系，暗示其具备协调大国关系的能力。",
+      "relevant": "联合国秘书长人选影响全球治理方向，格罗西的表态反映其外交立场，可能影响选举格局。",
+      "context": "联合国秘书长选举正在进行，格罗西作为候选人之一，需争取安理会常任理事国支持。",
+      "source_analysis": "塔斯社为俄罗斯官方媒体，报道可能侧重强调格罗西对俄友好态度，以影响俄方立场。",
+      "social_impact": "联合国秘书长的外交取向将影响国际事务协调，尤其在核不扩散和地区冲突问题上。",
+      "source_text": "WASHINGTON, August 27. /TASS/. International Atomic Energy Agency (IAEA) Director General Rafael Grossi told a TASS correspondent that he had developed a very good working relationship with Russia and that, if elected UN secretary-general, his relations with the country would be serious and professional. \"I work very well with Russia. I think there is a relationship of mutual respect. I have been honored meeting President [of Russia Vladimir] Putin several times, and Foreign Minister Sergey Lavrov, and [Head of Rosatom] Alexey Likhachev. We have excellent friends I respect a lot. So, I am sure that the work [if elected UN secretary-general], the working relationship [with Russia], will be a very serious and professional one,\" Grossi said.",
+      "source_title": "Grossi says relations with Russia would be serious if elected UN secretary-general",
+      "source_url": "https://tass.com/world/2178099",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "集安组织秘书长称亚美尼亚事实上未参与组织讨论",
+      "entities": [
+        {
+          "name": "集安组织",
+          "explain": "集体安全条约组织，由俄罗斯主导的军事同盟，成员包括亚美尼亚、白俄罗斯等国"
+        },
+        {
+          "name": "亚美尼亚",
+          "explain": "高加索地区国家，曾是集安组织成员，近年与俄罗斯关系紧张"
+        },
+        {
+          "name": "Taalatbek Masadykov",
+          "explain": "集安组织秘书长，负责组织日常事务"
+        }
+      ],
+      "summary": "集安组织秘书长Masadykov表示，亚美尼亚事实上已不参与组织讨论，且连续三年未缴纳会费。这表明亚美尼亚与集安组织的关系进一步疏远，可能面临被除名风险。",
+      "relevant": "亚美尼亚是集安组织重要成员，其疏远可能削弱俄罗斯在高加索地区的影响力，改变地区安全格局。",
+      "context": "亚美尼亚因纳卡冲突问题与俄罗斯产生分歧，近年来逐步转向西方，暂停参与集安组织活动。",
+      "source_analysis": "塔斯社为俄罗斯官方媒体，报道可能反映俄方对亚美尼亚不满，施压其明确立场。",
+      "social_impact": "亚美尼亚若退出集安组织，可能影响高加索地区军事平衡，加剧与阿塞拜疆的紧张关系。",
+      "source_text": "MOSCOW, August 27. /TASS/. Armenia is de facto not participating in discussions within the Collective Security Treaty Organization (CSTO), but de jure remains a member of the organization, CSTO Secretary General Taalatbek Masadykov said in an interview with TASS. \"You know, we have been discussing this issue for a long time. De facto, as of today, Armenia does not participate in discussions of issues within the CSTO. De facto, Armenia does not send its personnel or military servicemen to fill quota-based positions in the CSTO Secretariat, and for the third year now, Armenia has not paid its membership dues. But de jure, they remain members of the Collective Security Treaty Organization,\" he noted. According to the secretary general, Armenia has made a significant contribution to the development of the CSTO, and the Armenian people supported all initiatives put forward by the country’s leadership at various times. Earlier, Armenian Prime Minister Nikol Pashinyan said in parliament that he favored Armenia’s expulsion from the CSTO and would be pleased if that happened. According to him, this would free Yerevan from the dilemma of whether or not to withdraw from the organization.",
+      "source_title": "Armenia de facto not participating in CSTO discussions — secretary general",
+      "source_url": "https://tass.com/world/2178087",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "集安组织秘书长称亚美尼亚是否被除名由最高指挥官决定",
+      "entities": [
+        {
+          "name": "集安组织",
+          "explain": "集体安全条约组织，俄罗斯主导的军事同盟"
+        },
+        {
+          "name": "亚美尼亚",
+          "explain": "高加索国家，集安组织成员，近年与组织关系紧张"
+        },
+        {
+          "name": "Taalatbek Masadykov",
+          "explain": "集安组织秘书长"
+        }
+      ],
+      "summary": "集安组织秘书长Masadykov表示，亚美尼亚是否被除名需由组织最高指挥官决定，并需考虑所有情况和因素。此表态为亚美尼亚的去留留下悬念，显示组织内部仍在权衡。",
+      "relevant": "亚美尼亚的去留影响集安组织完整性，也反映俄罗斯与亚美尼亚关系的走向，对地区稳定有重要意义。",
+      "context": "亚美尼亚因未缴会费和不参与活动，面临被除名讨论，但组织高层尚未做出最终决定。",
+      "source_analysis": "塔斯社为俄罗斯官方媒体，报道可能意在传递俄方对亚美尼亚的耐心，同时保留施压空间。",
+      "social_impact": "若亚美尼亚被除名，可能引发其他成员效仿，削弱集安组织凝聚力，影响俄罗斯周边安全布局。",
+      "source_text": "MOSCOW, August 27. /TASS/. A decision on expelling Armenia from the Collective Security Treaty Organization (CSTO) is the prerogative of the supreme commanders of the member states, but all circumstances would have to be taken into account, CSTO Secretary General Taalatbek Masadykov said in an interview with TASS. \"The CSTO’s decision on whether or not to expel Armenia is a decision for the CSTO Collective Security Council, whose members are the supreme commanders of our member states. The decision is theirs. But I believe that all circumstances and factors should always be taken into account when making decisions,\" he noted.",
+      "source_title": "Armenia’s expulsion from CSTO up to supreme commanders — secretary general",
+      "source_url": "https://tass.com/world/2178093",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "《洛基恐怖秀》与《小丑回魂》主演蒂姆·克里去世，享年80岁",
+      "entities": [
+        {
+          "name": "蒂姆·克里",
+          "explain": "英国著名性格演员，以饰演浮夸反派角色闻名，代表作包括《洛基恐怖秀》中的弗兰克博士和《小丑回魂》中的小丑潘尼怀斯。"
+        },
+        {
+          "name": "《洛基恐怖秀》",
+          "explain": "1975年上映的邪典电影，融合恐怖、科幻和音乐剧元素，成为流行文化经典。"
+        },
+        {
+          "name": "《小丑回魂》",
+          "explain": "改编自斯蒂芬·金小说的恐怖电影，讲述小丑潘尼怀斯恐吓小镇儿童的故事。"
+        }
+      ],
+      "summary": "英国演员蒂姆·克里于周三去世，享年80岁。他以在1975年邪典电影《洛基恐怖秀》中饰演弗兰克博士一角而闻名，并在《小丑回魂》中塑造了经典小丑形象。其经纪人确认了这一消息，克里在舞台和银幕上留下了众多令人难忘的浮夸反派角色。",
+      "relevant": "蒂姆·克里是流行文化中的重要人物，其作品影响了几代观众，他的去世标志着一个时代的结束。",
+      "context": "蒂姆·克里是英国著名性格演员，职业生涯跨越数十年，塑造了多个标志性反派角色，深受影迷喜爱。",
+      "source_analysis": "法国24电视台报道，信源为其经纪人，属官方确认消息，报道立场中立。",
+      "social_impact": "克里去世消息引发全球影迷哀悼，社交媒体上涌现大量致敬，凸显其文化影响力。",
+      "source_text": "Tim Curry, star of 'The Rocky Horror Picture Show' and 'It', dies at 80 Tim Curry, the British character actor who created a gallery of flamboyant villains for stage and screen, most famously Dr. Frank-N-Furter in the 1975 cult classic \"The Rocky Horror Picture Show\", has died at the age of 80, his manager said on Wednesday. Tim Curry, the English actor best known for his star turn as Dr Frank-N-Furter in the cult classic musical film \"The Rocky Horror Picture Show,\" has died at the age of 80, his manager said Wednesday. Curry, who had struggled with his health for more than a decade after a debilitating stroke, died at his home in Los Angeles. A cause of death was not immediately given. The actor, who launched his career in London's West End theater district, first played the gender-bending mad scientist in \"Rocky Horror\" before reprising the role in the 1975 film, which is still a staple of midnight cinema showings more than 50 years later. Read moreRocky Horror gets a new Picture Show His other credits include the sinister clown Pennywise in a 1990 television miniseries version of Stephen King's \"It\" and films that included \"Charlie's Angels\" and \"Muppet Treasure Island\". An impressive theatrical resume that began in the 1960s saw him do turns at the Royal Court Theatre and the Citizens Theatre, taking on roles written by Shakespeare, Brecht and Tom Stoppard, among others. Curry was nominated for Tony and Olivier awards for his theater work in New York and London. One of his more memorable performances was on Broadway and in the West End as King Arthur in \"Monty Python's Spamalot\", the stage adaptation of \"Monty Python and the Holy Grail\". His slightly cartoonish good looks and an unparalleled ability both for camp and to vamp meant he was much in demand for roles that required a certain air of villainy. That was on display in \"Annie\" in 1982, when, as con artist Rooster Hannigan, he plots to kidnap the orphan girl. Three years later, in \"Clue\", he was the butler who corralled a country house full of murder suspects in the cinematic version of the board game. There were straighter roles, including opposite Sean Connery in \"The Hunt for Red October\", but his comedic talents shone brightest, even in small parts, like the Plaza Hotel concierge in \"Home Alone 2\". But it was Dr Frank-N-Furter, the \"sweet transvestite from Transsexual, Transylvania\", that defined his career. To display this content from , you must enable advertisement tracking and audience me",
+      "source_title": "Tim Curry, star of 'The Rocky Horror Picture Show' and 'It', dies at 80",
+      "source_url": "https://www.france24.com/en/culture/20260826-tim-curry-star-of-the-rocky-horror-picture-show-and-it-dies-at-80",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "法国宇航员索菲·阿德诺特从国际空间站讲述“奇迹”任务",
+      "entities": [
+        {
+          "name": "索菲·阿德诺特",
+          "explain": "法国宇航员，曾执行国际空间站任务，进行太空行走。"
+        },
+        {
+          "name": "国际空间站",
+          "explain": "在近地轨道运行的大型载人航天器，多国合作建设，用于科学实验和太空探索。"
+        }
+      ],
+      "summary": "法国宇航员索菲·阿德诺特在国际空间站接受法国24和RFI独家专访，称两次太空行走更换故障天线是“奇迹”，尽管遭遇机械故障仍圆满完成。她还描述了从轨道上看到的明显气候变化迹象，强调任务成功。",
+      "relevant": "这是罕见的太空独家采访，提供了宇航员在轨生活的第一手视角，并揭示了气候变化从太空可见的直观证据。",
+      "context": "阿德诺特执行国际空间站任务，期间进行太空行走维修设备，任务面临机械挑战但最终成功。",
+      "source_analysis": "法国24电视台和RFI联合独家报道，采访直接来自空间站，信源权威，立场中立。",
+      "social_impact": "采访展示了太空探索的成就和气候变化影响，可能提升公众对航天和环保的关注。",
+      "source_text": "Exclusive: French astronaut Sophie Adenot recounts her ‘miracle’ mission from orbiting ISS To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: In an exclusive interview with FRANCE 24 and RFI from the International Space Station, French astronaut Sophie Adenot hailed a \"mission accomplished\" after two spacewalks to replace a faulty antenna and called the operation \"a miracle\", given the mechanical setbacks. She also described the \"blatant\" signs of climate change she has seen from orbit. French astronaut Sophie Adenot gave an exclusive interview from 400 kilometres above the Earth the day after her second spacewalk. She spoke to Sylvain Rousseau of FRANCE 24 and Baptiste Coulon of RFI from the International Space Station (ISS). With her American crewmate Anil Menon, Adenot installed the new Space-to-Ground Antenna (SGANT) on Tuesday, August 25, in six and a half hours. The antenna allows the ISS to communicate with mission control in Houston, Texas. \"Psychologically, mentally, I feel great,\" she said. A miracle in orbit The outcome was far from certain. A week earlier, during the first spacewalk ever carried out by a French woman, stubborn bolts and connectors had prevented the pair from completing the swap. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. \"The airlock opened, and there it was\": from that first outing, Adenot recalls \"an intense joy\" mixed with \"apprehension\" – \"a leap into the unknown\". Regarding the technical troubles, \"we had every mechanical problem possible,\" she says. Hence the second spacewalk. \"We did feel some pressure,\" she says, adding that, \"It's actually a miracle that it only took two tries and not more.\" A 'transformational experience' From orbit, Adenot has also observed the effects of climate change: a France that was \"green\" at lift-off in February, then, once summer came, \"everything was grey and yellow, like a field of shorn wheat\"; clouds of smoke from the fires being carried by the wind; lakes drying up, and the Aral Sea shrinking \"very quickly\"; normally submerged islands visible beneath \"just a thin layer of water",
+      "source_title": "Exclusive: French astronaut Sophie Adenot recounts her ‘miracle’ mission from orbiting ISS",
+      "source_url": "https://www.france24.com/en/tv-shows/the-interview/20260826-exclusive-french-astronaut-sophie-adenot-recounts-her-miracle-mission-from-orbiting-iss",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "特朗普政府威胁若法院阻止翻修，将拆除肯尼迪中心",
+      "entities": [
+        {
+          "name": "肯尼迪中心",
+          "explain": "美国华盛顿特区的国家表演艺术中心，以纪念前总统肯尼迪命名。"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，曾对肯尼迪中心管理提出争议性干预。"
+        }
+      ],
+      "summary": "美国司法部威胁称，如果法院阻止翻修计划，将拆除肯尼迪中心。同时，司法部要求将特朗普的名字重新放回建筑上，该名字在6月因法院命令被移除。此举加剧了特朗普与法院之间的紧张关系。",
+      "relevant": "此事件反映了特朗普与司法系统的持续冲突，可能引发关于行政权力和文化遗产保护的争议。",
+      "context": "特朗普曾推动肯尼迪中心翻修并试图控制其管理，法院此前下令移除其名字，司法部现寻求逆转。",
+      "source_analysis": "BBC报道，信源为美国司法部声明，报道立场中立，但涉及政治敏感话题。",
+      "social_impact": "事件可能影响公众对特朗普政治遗产的看法，并引发对政府干预文化机构的讨论。",
+      "source_text": "Trump officials threaten Kennedy Center demolition if court blocks renovations - Published The Trump administration has threatened to demolish the Kennedy Center if planned renovations for the performing arts venue are not allowed to be carried out, court documents show. Attorneys from the justice department have also asked for President Donald Trump's name to be put back on the building after it was removed in June following a court order. \"An order blocking the Board from appropriately recognising President Trump,\" the lawyers argued, \"will cause donors to flee, financial contributions to dry up, and structural rehabilitation to stop\". The venue has been among the storied sites in Washington that Trump has sought to renovate since he returned to the White House in 2025. Trump's lawyers have argued that without the renovations the venue \"will deteriorate further into an unsafe, decrepit structure that will be required to be taken down\". They also called the venue \"embarrassing to the Nation's Capital\". After the \"decrepit structure\" is taken down, justice department attorney Brantley Mayers wrote, a determination of what to build on the site will follow, including the option of a large outdoor amphitheatre overlooking the Potomac River. The threat to demolish the building comes just weeks after the Kennedy Center board voted to add Trump's name back to the facade of the venue and to proceed with a two-year closure for proposed renovations. Many of the board members who voted are Trump allies who were appointed by the president. In late May, a US judge ruled that the president's name had been added to the venue unlawfully, as it cannot be renamed without congressional approval. The judge ordered that the name be removed, and so it was taken down in June. The case stemmed from a broader legal dispute over the renaming of the cultural institution, which US law designates as a memorial to President John F Kennedy. It is the latest in series of projects that Trump has taken on since returning to Washington. He has been renovating the reflecting pool on the National Mall, he wants to construct a 250-foot victory arch, has demolished the White House East Wing to build a ballroom, and has added his name to institutions such as the Kennedy Center and US Institute of Peace. Related topics - Published13 August - Published13 June",
+      "source_title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "source_url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "中国为阿尔及利亚发射首颗阿拉伯国家通信卫星",
+      "entities": [
+        {
+          "name": "阿尔及利亚",
+          "explain": "北非阿拉伯国家，此次卫星的购买方。"
+        },
+        {
+          "name": "通信卫星",
+          "explain": "用于传输电视、电话和互联网信号的人造卫星。"
+        }
+      ],
+      "summary": "周一，中国为阿尔及利亚发射了一颗通信卫星，这是中国制造的卫星首次出口到阿拉伯国家。此次发射标志着中国航天技术在国际市场上的突破，加强了中阿合作。",
+      "relevant": "这是中国航天出口的里程碑，显示中国在全球卫星市场的竞争力提升，对地缘政治有影响。",
+      "context": "中国近年来积极推动航天技术出口，阿尔及利亚成为首个购买中国通信卫星的阿拉伯国家。",
+      "source_analysis": "中国日报报道，作为中国官方媒体，报道立场积极，强调国家成就。",
+      "social_impact": "发射成功可能促进中国与阿拉伯国家的经济和技术合作，提升中国航天国际声誉。",
+      "source_text": "Satellite lofted for first Arab country。A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "source_title": "Satellite lofted for first Arab country",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_f10466541566",
+      "source": "BBC",
+      "title": "Heart, hope and a steely determination: Dolly Parton's musical legacy",
+      "url": "https://www.bbc.co.uk/news/articles/c74k8zwvez0o?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC music correspondent Mark Savage looks back on the legacy of the \"irreplaceable\" late singer.",
+      "image": ""
+    },
+    {
+      "id": "rss_3658ed0f6161",
+      "source": "BBC",
+      "title": "Door was locked at Pakistan hospital where fire killed 14 babies, witnesses say",
+      "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+      "summary": "The hospital tells the BBC the ward door was not locked but manned with security guards, to protect the babies.",
+      "image": ""
+    },
+    {
+      "id": "rss_b0fed4655d9b",
+      "source": "BBC",
+      "title": "Trump officials threaten Kennedy Center demolition if court blocks renovations",
+      "url": "https://www.bbc.co.uk/news/articles/c62mr97n936o?at_medium=RSS&at_campaign=rss",
+      "summary": "The justice department has also asked for Trump's name to be put back on the building after it was removed in June following a court order.",
+      "image": ""
+    },
+    {
+      "id": "rss_9119010410bd",
+      "source": "BBC",
+      "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
+      "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Experts have hailed the drug, daraxonrasib, as a game changer for one of the world's deadliest cancers.",
+      "image": ""
+    },
+    {
+      "id": "rss_14c1c88f42ca",
+      "source": "BBC",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "summary": "The latest escalation in an ongoing trade war between the US and Canada will see new levies on goods from steel to furniture, fresh tuna and makeup.",
+      "image": ""
+    },
+    {
+      "id": "rss_d979bcc5a37f",
+      "source": "France24",
+      "title": "FDA approves new drug Rasonque to treat advanced pancreatic cancer",
+      "url": "https://www.france24.com/en/americas/20260826-fda-approves-new-drug-rasonque-to-treat-advanced-pancreatic-cancer",
+      "summary": "The US FDA on Wednesday approved Revolution Medicines' Rasonque for advanced pancreatic cancer, opening a new treatment option for patients with metastatic disease. A large trial found the once-daily pill doubled survival rates, offering fresh hope for people who have exhausted other treatments.",
+      "image": "https://s.france24.com/media/display/664edb68-a19a-11f1-b828-005056a90284/w:1024/p:16x9/AP26238705740891.jpg"
+    },
+    {
+      "id": "rss_1e997b658713",
+      "source": "France24",
+      "title": "South-Africa kingpin and the corruption commission",
+      "url": "https://www.france24.com/en/south-africa-kingpin-and-the-corruption-commission",
+      "summary": "In tonight's programme, a three-day testimony of an alleged underworld kingpin exposed how deep the link between alleged criminals and high profile police officers is in South Africa. Also, in Tunisia grieving families lay their lost youth, all victims of a boat that went down in the Mediterranean Sea over the weekend. And finally in an era of mass production and electric machines, a young Kenyan fashion designer is taking a slower approach.",
+      "image": "https://s.france24.com/media/display/3b160aba-a18c-11f1-860c-005056bfb2b6/w:1024/p:16x9/DN196401-A-01-20260818-01.jpg"
+    },
+    {
+      "id": "rss_80cebe9c1a55",
+      "source": "France24",
+      "title": "Navigation, jurisdiction, costs: Iran, Oman attempt to hammer out Hormuz deal",
+      "url": "https://www.france24.com/en/middle-east/20260826-navigation-jurisdiction-costs-iran-oman-attempt-to-hammer-out-hormuz-deal",
+      "summary": "Iran and Oman are holding talks to try to reach an interim agreement for a controlled resumption of navigation in the Strait of Hormuz. The two countries have discussed a framework for a “temporary corridor” for shipping, according to a joint statement by the Iranian and Omani foreign ministries. But the plan faces several hurdles.",
+      "image": "https://s.france24.com/media/display/3748a8b2-a186-11f1-a403-005056bfb2b6/w:1024/p:16x9/AP26225375678305.jpg"
+    },
+    {
+      "id": "rss_7ad249d60148",
+      "source": "France24",
+      "title": "Tim Curry, star of 'The Rocky Horror Picture Show' and 'It', dies at 80",
+      "url": "https://www.france24.com/en/culture/20260826-tim-curry-star-of-the-rocky-horror-picture-show-and-it-dies-at-80",
+      "summary": "Tim Curry, the British character actor who created a gallery of flamboyant villains for stage and screen, most famously Dr. Frank-N-Furter in the 1975 cult classic \"The Rocky Horror Picture Show\", has died at the age of 80, his manager said on Wednesday.",
+      "image": "https://s.france24.com/media/display/e14eb7de-a186-11f1-be01-005056bfb2b6/w:1024/p:16x9/AP26238562022946.jpg"
+    },
+    {
+      "id": "rss_c6c5f5d21930",
+      "source": "France24",
+      "title": "Exclusive: French astronaut Sophie Adenot recounts her ‘miracle’ mission from orbiting ISS",
+      "url": "https://www.france24.com/en/tv-shows/the-interview/20260826-exclusive-french-astronaut-sophie-adenot-recounts-her-miracle-mission-from-orbiting-iss",
+      "summary": "In an exclusive interview with FRANCE 24 and RFI from the International Space Station, French astronaut Sophie Adenot hailed a \"mission accomplished\" after two spacewalks to replace a faulty antenna and called the operation \"a miracle\", given the mechanical setbacks. She also described the \"blatant\" signs of climate change she has seen from orbit.",
+      "image": "https://s.france24.com/media/display/3f1e8fd6-a157-11f1-acbd-005056bf30b7/w:1024/p:16x9/PHOTO-2.jpg"
+    },
+    {
+      "id": "rss_b67264ecfbb1",
+      "source": "TASS Russia",
+      "title": "Grossi says relations with Russia would be serious if elected UN secretary-general",
+      "url": "https://tass.com/world/2178099",
+      "summary": "The IAEA director general said he had developed a very good working relationship with Russia",
+      "image": ""
+    },
+    {
+      "id": "rss_3143a16be05f",
+      "source": "TASS Russia",
+      "title": "Death toll from Nepal flooding reaches 157",
+      "url": "https://tass.com/emergencies/2178097",
+      "summary": "According to a report by Ratopati, the highest number of fatalities was recorded in the Chitwan District in the south of the country",
+      "image": ""
+    },
+    {
+      "id": "rss_6782bb223c64",
+      "source": "TASS Russia",
+      "title": "Armenia’s expulsion from CSTO up to supreme commanders — secretary general",
+      "url": "https://tass.com/world/2178093",
+      "summary": "Taalatbek Masadykov added that all circumstances and factors should be taken into account",
+      "image": ""
+    },
+    {
+      "id": "rss_1faf7c9e56d9",
+      "source": "TASS Russia",
+      "title": "Ukrainian forces shell DPR populated areas 17 times over past day",
+      "url": "https://tass.com/defense/2178091",
+      "summary": "11 civilians, including two children, were injured",
+      "image": ""
+    },
+    {
+      "id": "rss_ac89e05c7ce2",
+      "source": "TASS Russia",
+      "title": "Armenia de facto not participating in CSTO discussions — secretary general",
+      "url": "https://tass.com/world/2178087",
+      "summary": "Taalatbek Masadykov said that Armenia also has not paid its membership fees for the third year now",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_003988f4df5e",
+      "source": "纽约时报",
+      "title": "Live Updates: Hundreds Missing as Wall of Water Sweeps Away Villages in Nepal and Tibet",
+      "url": "https://www.nytimes.com/live/2026/08/26/world/nepal-floods",
+      "summary": "At least 160 people were killed when floods tore through a Himalayan river valley between Nepal and the Tibet region of China, the authorities said. Hundreds were missing, including foreign tourists.",
+      "image": ""
+    },
+    {
+      "id": "rss_e9345367c016",
+      "source": "纽约时报",
+      "title": "Trump’s Top Gaza Official Says Israel Is Jeopardizing the Cease-Fire",
+      "url": "https://www.nytimes.com/2026/08/26/world/middleeast/trump-official-israel-jeopardizing-gaza-cease-fire.html",
+      "summary": "Nickolay Mladenov, the Board of Peace’s high representative for Gaza, criticized Israel for its ongoing strikes on what it says are Hamas targets, after it rejected a plan to disarm the group.",
+      "image": ""
+    },
+    {
+      "id": "rss_c427bd2cac1b",
+      "source": "纽约时报",
+      "title": "Gold, Flights, Cryptocurrency: U.S. Vows to Go After More Than Iran’s Oil",
+      "url": "https://www.nytimes.com/2026/08/25/world/middleeast/iran-us-sanctions-oil-gold.html",
+      "summary": "The United States threatened sanctions for any country or entity that engages with Iran’s gold, digital assets, aviation, shipping and tech industries. Here’s why that matters.",
+      "image": ""
+    },
+    {
+      "id": "rss_217daa576f22",
+      "source": "纽约时报",
+      "title": "Ukraine’s Most Potent Weapon: The Software Orchestrating Its Drone Army",
+      "url": "https://www.nytimes.com/2026/08/26/world/europe/ukraine-delta-battlefield-management.html",
+      "summary": "The Delta system pulls together battlefield data to identify targets, creating a miles-wide “kill zone.” The technology is credited with helping to cut Russian advances to a near standstill.",
+      "image": ""
+    },
+    {
+      "id": "rss_135035c06baa",
+      "source": "纽约时报",
+      "title": "14 Newborns Die in Hospital Fire in Pakistan’s Capital",
+      "url": "https://www.nytimes.com/2026/08/26/world/asia/pakistan-islamabad-hospital-fire.html",
+      "summary": "The fire broke out at Islamabad’s largest hospital and has become a political issue. Opposition supporters shouted, “Stop killing our children!” at an official visiting the scene.",
+      "image": ""
+    },
+    {
+      "id": "rss_a2191fd9c1f1",
+      "source": "卫报",
+      "title": "South African police arrest two Thai men for allegedly smuggling parrot eggs",
+      "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
+      "summary": "Bird eggs intercepted in homemade incubators at Johannesburg airport as officials try to halt wildlife trafficking South African police have arrested two Thai nationals in separate incidents for allegedly attempting to smuggle endangered parrot eggs out of the country as authorities try to stem the tide of wildlife trafficking. A 50-year-old Thai national was arrested at OR Tambo international airport in Johannesburg on 20 August, carrying 50 bird eggs in a homemade incubator in a hand-luggage bag, South Africa’s environment ministry said in a statement . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fba6530dd019",
+      "source": "卫报",
+      "title": "Mpox is back – and in new countries. How can this outbreak be contained?",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "summary": "The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affected A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed? Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_aac9aa8851ae",
+      "source": "卫报",
+      "title": "Moringa lattes and tigernut kebabs: the Ghanaians ‘taking back the power’ of their food",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/moringa-lattes-and-tigernut-kebabs-the-young-ghanaians-taking-back-the-power-of-their-food",
+      "summary": "In Ghana, a grassroots movement is championing nutritious, homegrown, climate-resilient produce, rather than western imports After three years at catering school in Accra, Abiro Wisdom was certain of one thing – he did not want to go into catering. At least not the route that he might be expected to take. His course had prepared students for working in international hotels, focusing on French, Italian and Mexican cuisine. The nutritious, homegrown food that Wisdom had eaten while growing up in Bolgatanga, northern Ghana, did not feature at all. “I didn’t see myself there,” he says of the big chain hotels. “I felt I wouldn’t be myself working there – I wouldn’t be able to talk about the food from where I come from.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_74659465c9ed",
+      "source": "卫报",
+      "title": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
+      "summary": "Spokesperson for Duke of Sussex says he remains an ‘active and avid supporter’ of African Parks’ mission The Duke of Sussex has stepped down from the board of a major African wildlife charity that had been at the centre of a human rights controversy. Prince Harry’s spokesperson confirmed he was no longer a trustee of African Parks , which admitted last year that human rights abuses were committed by its rangers in the Republic of the Congo. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_520e745f963f",
+      "source": "卫报",
+      "title": "Video shows hundreds held captive after Nigeria mosque kidnapping",
+      "url": "https://www.theguardian.com/world/2026/aug/24/video-shows-hundreds-held-captive-after-nigeria-mosque-kidnapping",
+      "summary": "Gunmen ‌attacked worshippers in Dekara village on Friday taking women, children and older people An armed group has posted a video showing what ⁠residents said were about ⁠600 women, children and ​older people abducted in an attack on a mosque in Nigeria’s north-central Niger State last week. The video, posted on Facebook and WhatsApp, ⁠showed large groups of people seated in a forested area surrounded by armed men. Several children could be heard crying in the background. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-27 07:30"
+}
