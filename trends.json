@@ -1,26 +1,5 @@
 [
   {
-    "theme": "AI编程工具进入效率优化阶段",
-    "importance": 5,
-    "evidence": "token-diet实现31%降本、DeepSpec优化推测解码、DSpark提速85%",
-    "grassroots": "开发者从'能不能用'转向'怎么用好'，分享workflow优化经验",
-    "date": "2026-07-06"
-  },
-  {
-    "theme": "多Agent协作与安全成为并行研究热点",
-    "importance": 4,
-    "evidence": "Omnigent框架、多Agent辩论研究、分布式攻击研究同时出现",
-    "grassroots": "HN讨论中开发者关注Agent间的协作与安全边界",
-    "date": "2026-07-06"
-  },
-  {
-    "theme": "AI成本加速崩塌，从‘稀缺品’走向‘大宗商品’",
-    "importance": 5,
-    "evidence": "GLM 5.2低价发布、token-diet等成本优化工具涌现、HN上‘AI像电力一样便宜’讨论",
-    "grassroots": "开发者开始主动寻找降本方案，而非被动接受定价",
-    "date": "2026-07-07"
-  },
-  {
     "theme": "小模型+Agent编排成为务实落地新范式",
     "importance": 4,
     "evidence": "IEEE Spectrum报道、shadcn/improve分层审计工作流、Omnigent多Agent框架",
@@ -1398,5 +1377,26 @@
     "evidence": "ArXiv论文证明检索≠判断，128K上下文下风险披露影响力跌至噪声底",
     "grassroots": "RAG开发者开始系统性排查检索链路而非责怪模型",
     "date": "2026-08-26"
+  },
+  {
+    "theme": "开源模型进入'极致性价比'竞争阶段",
+    "importance": 5,
+    "evidence": "Qwen3.8-Flash训练成本降9倍、GLM-5.3-Flash定价为闭源1/40，同日发布",
+    "grassroots": "开发者社区反应'价格打下来了，能力没缩水'，但质疑长尾能力仍有差距",
+    "date": "2026-08-27"
+  },
+  {
+    "theme": "AI基础设施垂直整合加速",
+    "importance": 5,
+    "evidence": "NVIDIA 130亿美元收购HF、Amazon三倍芯片订单、Anthropic 450亿算力大单同日出现",
+    "grassroots": "HF社区担忧中立性，开发者讨论'开源是否会被资本收编'",
+    "date": "2026-08-27"
+  },
+  {
+    "theme": "'组织级AI'从概念走向实践",
+    "importance": 4,
+    "evidence": "OpenExecutive开源AI CEO项目走红，HN讨论认为'这是不同于人级AI的新物种'",
+    "grassroots": "有CEO称已用AI高管替换C-suite，也有开发者认为'真正的机会是用AI取代管理层而非被取代'",
+    "date": "2026-08-27"
   }
 ]
