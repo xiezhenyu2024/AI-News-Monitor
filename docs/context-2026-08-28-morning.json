@@ -1,0 +1,728 @@
+{
+  "key": "2026-08-28-morning",
+  "date": "2026-08-28",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "科学家初步调查：尼泊尔-西藏致命洪水或由冰川崩塌引发",
+      "entities": [
+        {
+          "name": "冰川崩塌",
+          "explain": "冰川突然断裂或滑落，可能释放大量冰水和碎石，形成破坏性洪流。"
+        },
+        {
+          "name": "喜马拉雅冰川",
+          "explain": "位于亚洲喜马拉雅山脉的冰川，是全球重要的淡水储备，但正因气候变化加速融化。"
+        }
+      ],
+      "summary": "科学家初步调查认为，尼泊尔和西藏地区发生的毁灭性洪水很可能由冰川崩塌引发。这一事件凸显了喜马拉雅冰川因气候变暖而快速融化的问题，可能导致更多类似灾害。",
+      "relevant": "气候变化导致冰川融化，增加高山地区突发洪水风险，对全球生态和居民安全构成威胁。",
+      "context": "尼泊尔和西藏近期遭遇严重洪水，造成大量伤亡和失踪，科学家正调查其根本原因，初步指向冰川崩塌。",
+      "source_analysis": "BBC作为国际知名媒体，报道基于科学家初步调查，立场相对中立，注重科学依据。",
+      "social_impact": "洪水已导致数百人死亡，超过1400人失踪，影响范围广泛，救援工作仍在进行。",
+      "source_text": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say - Published Preliminary investigations have pointed to a collapsed glacier as the cause of the flash flood on the Nepal-Tibet border, highlighting the issue of rapidly melting Himalayan ice, scientists have told the BBC. Initial reports of an earthquake led many to believe that a tremor had caused a landslide, which in turn caused the flood that has killed at least 389 people. However, the US Geological Survey then clarified that the disaster was caused by a \"glacial collapse\", which is when a glacier or part of a glacier disintegrates. The impact of the collapsed glacier hitting the bottom of a valley was so powerful that it registered a magnitude of 5.2, according to USGS data and scientists who have analysed the event. Dr Simon Cook, a glacier expert with the University of Dundee, told the BBC his team had detected that the lower part of a glacier in Nepal near the Langtang Lirung peak - which is approximately 15km (9 miles) west of the site of the floods - had collapsed. He estimated that the glacier collapsed in a northwesterly direction and then travelled westwards downstream. An analysis , externalby the International Centre for Integrated Mountain Development (ICIMOD), an intergovernmental scientific institution, found there could have been \"an ice-rock avalanche originating from a high-altitude area\". This caused a \"large volume of ice and rock debris\" to enter the Lende Khola, a tributary of the Bhote Koshi river, which in turn generated a sudden surge in the river carrying water, sediment and large boulders downstream. The centre found that water levels in rivers downstream rose by between seven and nine metres within a span of 30 minutes, and several water monitoring stations were washed away or damaged. Mike Searle, a professor of earth sciences at Oxford University, said that this whole process - from landslide to flood - could have taken hours or even days. \"The sheer wave of debris suggests there could have been a landslide first; the water built up, dammed the river, and then it burst in one huge great flood,\" he told the BBC. The topography of the area could have also exacerbated the flood. Searle pointed out that Langtang Lirung sits on the crest of the high Himalayas and there are \"incredibly steep valleys\" on both sides of the mountain, which could have funnelled the water at higher speeds. It is still unclear what caused the glacier to collapse on Wednesday",
+      "source_title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
+      "source_url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "尼泊尔-西藏洪水救援持续：数百人遇难，超1400人失踪",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "南亚国家，位于喜马拉雅山脉南麓，此次洪水受灾严重。"
+        },
+        {
+          "name": "西藏",
+          "explain": "中国西南部自治区，此次洪水同样造成重大损失。"
+        }
+      ],
+      "summary": "尼泊尔和西藏地区遭遇严重洪水，官方称数百人遇难，超过1400人失踪。目击者描述，洪水和碎石在几分钟内冲毁村庄，救援人员正搜寻失踪者，并面临更多洪水威胁。",
+      "relevant": "灾害规模巨大，救援紧迫，且可能引发更多次生灾害，需国际关注和援助。",
+      "context": "洪水由强降雨或冰川崩塌引发，导致山洪暴发，摧毁村庄，造成大规模人员伤亡和失踪。",
+      "source_analysis": "纽约时报作为国际主流媒体，报道基于官方数据和目击者证词，提供实时更新，立场相对客观。",
+      "social_impact": "灾害已造成数百人死亡，1400多人失踪，影响数千居民，救援和灾后重建面临巨大挑战。",
+      "source_text": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods。Officials said hundreds were killed in Nepal and Tibet, and more than 1,400 people are missing. Stunned witnesses described a torrent of debris and water carrying away villages in minutes.",
+      "source_title": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
+      "source_url": "https://www.nytimes.com/live/2026/08/27/world/nepal-tibet-flash-floods",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "美军在欧洲面临‘超严重’爱国者导弹短缺，影响北约防御能力",
+      "entities": [
+        {
+          "name": "爱国者导弹",
+          "explain": "美国制造的先进防空导弹系统，用于拦截弹道导弹和飞机，是北约重要防御武器。"
+        },
+        {
+          "name": "北约",
+          "explain": "北大西洋公约组织，由美国主导的军事联盟，旨在集体防御。"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，与美国关系紧张，近期冲突导致美军导弹库存消耗。"
+        }
+      ],
+      "summary": "据美国和北约官员透露，美军在欧洲的爱国者导弹拦截器库存严重不足，因与伊朗的战争消耗了大量弹药。这一短缺引发对北约应对潜在俄罗斯导弹攻击能力的担忧，但官员称目前无迫在眉睫的威胁。",
+      "relevant": "导弹短缺可能削弱北约防御能力，影响欧洲安全格局，尤其在俄乌冲突背景下。",
+      "context": "美军在欧洲部署爱国者导弹用于防御，但近期与伊朗的军事冲突导致库存大幅下降，引发防御缺口。",
+      "source_analysis": "法国24报道基于美国和北约官员消息，立场偏向西方视角，强调防御挑战。",
+      "social_impact": "导弹库存不足可能影响北约成员国信心，增加地区安全不确定性。",
+      "source_text": "US military faces ‘beyond critical’ shortage of Patriot missiles in Europe The US military is running critically low on Patriot missile interceptors in Europe as the war with Iran drains stocks, according to US and NATO officials. The shortfall is raising concerns about NATO’s ability to counter a potential Russian ballistic missile attack, though officials said no such assault is imminent. The US military is experiencing a “beyond critical” shortage of advanced missile interceptors in Europe, largely driven by President Donald Trump’s war with Iran, a US defence official in Europe and a NATO official told The Associated Press, raising concerns about vulnerabilities in NATO countries to a potential Russian attack. The US defence official said the most concerning shortfall involves Patriot missile interceptors, which can shoot down Russia’s high-speed ballistic missiles. The NATO official confirmed the low inventories of Patriots among American and NATO forces in Europe. Both spoke on condition of anonymity to discuss sensitive military matters. In the event of a Russian ballistic missile assault on, for example, a military headquarters or power plant, NATO could be in a similar position to Patriot-starved Ukraine and be forced “to take punch after punch in the mouth,” the US defence official said. In Europe, the American military “definitely” does not have enough Patriots to stop any possible sustained ballistic missile attack and would have “very limited” capability to defend against a single ballistic missile strike or a stray Russian missile that goes off course, the US official said. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. It illustrates the cascading fallout from Trump’s decision to launch a war against Iran, a conflict that reaches the six-month mark on Friday. US missile stocks in Europe have been moved to the Middle East, where US and Gulf allies have fired off significant numbers of interceptors, including Patriots, to thwart Iran’s drones and missiles. Some of those attacks have killed and wounded American troops. Though a Russian ballistic missile attack against NATO countries is not imminently expected, CIA Director John Ratcliffe went to Moscow this week to warn Russia not to attack, The Wall Street Journal reported. Asked by reporters T",
+      "source_title": "US military faces ‘beyond critical’ shortage of Patriot missiles in Europe",
+      "source_url": "https://www.france24.com/en/americas/20260827-us-military-faces-beyond-critical-shortage-of-patriot-missiles-in-europe",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "赫尔松居民被敦促撤离，俄军袭击威胁电力和供暖",
+      "entities": [
+        {
+          "name": "赫尔松",
+          "explain": "乌克兰南部城市，位于第聂伯河畔，是俄乌冲突前线重要地区。"
+        },
+        {
+          "name": "地区州长",
+          "explain": "乌克兰赫尔松州行政长官，负责当地管理和居民安全。"
+        }
+      ],
+      "summary": "乌克兰赫尔松地区州长呼吁居民撤离，因俄军袭击损坏了当地供暖设施，可能导致长时间断电和供暖中断。袭击加剧了该地区的人道主义危机。",
+      "relevant": "俄乌冲突持续，平民基础设施遭袭，影响居民生活和人道状况。",
+      "context": "俄乌战争背景下，俄军持续攻击乌克兰基础设施，赫尔松作为前线城市，面临严重民生威胁。",
+      "source_analysis": "法国24报道，基于乌克兰官方声明，立场倾向乌克兰，强调俄军攻击影响。",
+      "social_impact": "袭击导致电力和供暖中断，居民生活困难，撤离行动可能造成大规模流离失所。",
+      "source_text": "Kherson residents urged to leave as Russian attacks threaten power and heating Regional governor Oleksandr Prokudin urged residents to leave the southern Ukrainian city of Kherson on Thursday as Russian strikes damaged a district heating plant and threatened prolonged power and heating outages. People in the southern Ukrainian city of Kherson were on Thursday urged to leave due to intensifying Russian attacks that risked cutting electricity and heating supplies for an extended period. \"I am once again addressing the residents of Kherson, especially families with children and elderly people: if you have the possibility ... please leave,\" regional governor Oleksandr Prokudin wrote on Telegram. Prokudin said there was an \"extremely difficult security situation\" in Kherson, which had about 280,000 inhabitants before the start of Russia's invasion in February 2022. \"The enemy is intensifying its attacks every day on the region's critical infrastructure,\" he added. \"Last night, Russian forces again attacked Kherson's district heating plant with glide bombs ... the facility sustained very serious damage. \"Kherson may find itself without electricity or heating not for hours or days but for a long period. Read moreUS military faces ‘beyond critical’ shortage of Patriot missiles in Europe \"Currently, there is no way to destroy these types of drones or the aerial bombs in any region of our country.\" Russia and Ukraine have for several months been ramping up their long-range strikes, increasingly targeting civilian infrastructure such as logistics warehouses and oil and port facilities. Civilian casualties are growing as a result. Last winter, the Russian army repeatedly struck Ukrainian power plants, plunging millions of people into cold and darkness. Kherson was under Russian control from March to November 2022. Russian forces are now positioned on the other side of the Dnipro river that borders it and regularly shell the city. (FRANCE 24 with AFP)",
+      "source_title": "Kherson residents urged to leave as Russian attacks threaten power and heating",
+      "source_url": "https://www.france24.com/en/europe/20260827-kherson-residents-urged-to-leave-as-russian-attacks-threaten-power-and-heating",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "无人机盲区：乌克兰战争在扎波罗热前线演变为近距离猫鼠游戏",
+      "entities": [
+        {
+          "name": "扎波罗热",
+          "explain": "乌克兰东南部地区，第聂伯河沿岸，俄乌冲突主要战场之一。"
+        },
+        {
+          "name": "水库盆地",
+          "explain": "大坝被毁后形成的广阔水域和植被区域，为双方提供隐蔽空间。"
+        }
+      ],
+      "summary": "俄军试图渗透扎波罗热地区一个被毁大坝形成的广阔水库盆地，乌克兰士兵则在近距离内进行猎杀。由于无人机难以侦察，战斗转为残酷的近距离对抗。",
+      "relevant": "展示俄乌战争前线真实战况，反映技术限制下战争的残酷性。",
+      "context": "三年前大坝被炸毁后，水库盆地成为天然屏障，双方在此展开隐蔽的近距离战斗。",
+      "source_analysis": "纽约时报报道，基于前线观察，立场相对中立，注重战场细节。",
+      "social_impact": "战斗导致双方伤亡，当地居民生活受严重影响，战争持续加剧地区不稳定。",
+      "source_text": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse。Russian troops are trying to infiltrate the vast, overgrown reservoir basin of a dam they blew up three years ago as Ukrainian soldiers hunt them at close quarters.",
+      "source_title": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
+      "source_url": "https://www.nytimes.com/2026/08/27/world/europe/ukraine-russia-war-zaporizhzhia-frontline-fighting.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "伊朗安全官员：若遭制裁，伊朗可能损害美国经济利益",
+      "entities": [
+        {
+          "name": "穆赫森·雷扎伊",
+          "explain": "伊朗高级安全官员，曾任伊斯兰革命卫队指挥官，现参与国家安全决策。"
+        },
+        {
+          "name": "制裁",
+          "explain": "美国对伊朗实施的经济和军事限制措施，旨在施压其政策。"
+        }
+      ],
+      "summary": "伊朗安全官员穆赫森·雷扎伊表示，若美国继续实施制裁，伊朗可能采取行动损害美国经济利益。他称华盛顿转向经济压力表明“军事解决冲突效果有限”。",
+      "relevant": "美伊紧张关系升级，可能影响全球经济和能源市场。",
+      "context": "美国近期对伊朗加强制裁，伊朗回应称将采取反制措施，双方冲突从军事转向经济领域。",
+      "source_analysis": "TASS俄罗斯通讯社报道，立场可能偏向伊朗或反美视角，强调美国施压无效。",
+      "social_impact": "美伊经济对抗可能推高油价，影响全球市场稳定。",
+      "source_text": "CAIRO, August 28. /TASS/. Iran could jeopardize US economic interests in the Middle East if Washington mounts its pressure of sanctions, Secretary of Iran’s Supreme National Security Council Mohsen Rezaei said. \"In the event of intensified US economic pressure on Iran, we will respond with countermeasures that will affect US interests in the region, \" he told Lebanon’s Al Manar television channel without specifying the nature of these measures. Rezaei added that, in his opinion, Washington’s shift toward economic pressure demonstrates that \"a military solution to the conflict produces limited results.\" The Axios portal reported on August 26 that Washington was not planning new attacks on Iran any time soon as it will focus on other means of pressure on Tehran, including sanctions. The United States and Israel began their war with Iran on February 28. In June, Washington and Tehran signed a memorandum of understanding providing for an immediate ceasefire on all fronts, including in Lebanon. However, the United States resumed major strikes on Iran overnight into July 8, accusing Tehran of violating the terms of the agreement concerning the Strait of Hormuz.",
+      "source_title": "Iran could harm US economic interests in response to sanctions — security official",
+      "source_url": "https://tass.com/world/2178611",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "拉夫罗夫：白宫对欧洲‘埋葬’安克雷奇言论保持沉默",
+      "entities": [
+        {
+          "name": "拉夫罗夫",
+          "explain": "俄罗斯外交部长，负责俄罗斯对外政策。"
+        },
+        {
+          "name": "安克雷奇",
+          "explain": "美国阿拉斯加州城市，此处可能指代某项国际协议或政策。"
+        },
+        {
+          "name": "弗拉基米尔·泽连斯基",
+          "explain": "乌克兰总统，领导乌克兰抵抗俄罗斯入侵。"
+        }
+      ],
+      "summary": "俄罗斯外长拉夫罗夫称，白宫对欧洲关于‘埋葬’安克雷奇的言论保持沉默，并指欧洲与泽连斯基为此游说了一年。此言论暗示西方内部对某些政策存在分歧。",
+      "relevant": "反映俄乌冲突中西方内部矛盾，可能影响国际外交格局。",
+      "context": "拉夫罗夫在回应欧洲某言论时，指责西方在安克雷奇问题上施压，并称白宫未回应。",
+      "source_analysis": "TASS俄罗斯通讯社报道，立场亲俄，强调西方内部分歧。",
+      "social_impact": "言论可能加剧西方与俄罗斯的紧张关系，影响外交谈判进程。",
+      "source_text": "MOSCOW, August 28. /TASS/. The White House has offered no response to Europe’s remarks about the burial of Anchorage, Russian Foreign Minister Sergey Lavrov told the RBC television channel in an interview. \"Immediately after Anchorage, the Europeans, alongside with Vladimir Zelensky, rushed to [US President] Donald Trump and hung onto his arms. Following their year-long lobbying effort, French President Emmanuel Macron proudly announced that they had ‘buried’ Anchorage, and that Trump is now with them,\" the top Russian diplomat said. \"I have no idea how the White House views this, but no response to these words has so far been heard from them.\"",
+      "source_title": "White House remains silent on Europe’s remarks about ‘burial’ of Anchorage — Lavrov",
+      "source_url": "https://tass.com/politics/2178613",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "俄外交官：乌克兰袭击公交车致至少43名俄罗斯人死亡",
+      "entities": [
+        {
+          "name": "罗迪翁·米罗什尼克",
+          "explain": "俄罗斯外交官，负责乌克兰事务，常发布冲突相关声明。"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "东欧国家，与俄罗斯处于战争状态，双方互相攻击。"
+        }
+      ],
+      "summary": "俄罗斯外交官罗迪翁·米罗什尼克称，自2026年初以来，乌克兰对公交车的袭击已导致至少43名俄罗斯人死亡，超过300人受伤，其中包括17名未成年人。",
+      "relevant": "俄乌冲突中平民伤亡持续增加，凸显战争人道主义危机。",
+      "context": "俄乌战争持续，双方互相攻击民用设施，导致大量平民伤亡。",
+      "source_analysis": "TASS俄罗斯通讯社报道，立场亲俄，强调乌克兰攻击行为。",
+      "social_impact": "平民伤亡数字显示冲突影响广泛，可能引发国际社会对战争罪行的关注。",
+      "source_text": "LUGANSK, August 28. /TASS/. A total of 43 Russian civilians, including three children, have been killed in Ukrainian strikes that targeted almost 170 buses, Russian Foreign Ministry Ambassador-at-Large Rodion Miroshnik has told TASS. \"As of August 27, Ukrainian armed groups attacked 167 buses since the start of 2026. A total of 329 people were wounded, including 17 minors, while 43 were killed, among them three children,\" he said.",
+      "source_title": "At least 43 Russians killed in Ukraine’s attacks on buses — diplomat",
+      "source_url": "https://tass.com/politics/2178609",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "尼泊尔-西藏边境洪水和山体滑坡已致数百人死亡或失踪",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "位于中国和印度之间的南亚国家，北邻中国西藏"
+        },
+        {
+          "name": "西藏",
+          "explain": "中国西南部的自治区，与尼泊尔接壤"
+        }
+      ],
+      "summary": "周三，尼泊尔和西藏边境地区发生严重洪水和山体滑坡，造成数百人死亡或失踪。BBC报道称，灾害导致大量人员伤亡，救援工作正在进行中。",
+      "relevant": "该事件涉及重大人员伤亡，凸显喜马拉雅山区自然灾害的严重性，可能引发国际关注和援助需求。",
+      "context": "尼泊尔和西藏边境地处喜马拉雅山脉，地形陡峭，雨季易发洪水和山体滑坡。此次灾害发生在周三，具体原因可能与强降雨有关。",
+      "source_analysis": "BBC为英国公共广播机构，报道通常客观中立，但可能侧重国际视角。",
+      "social_impact": "数百人死亡或失踪，灾害规模较大，可能影响当地居民生活和基础设施，需国际救援支持。",
+      "source_text": "What we know about deadly Nepal-Tibet floods - Published Massive landslides and flash floods on the Nepal-Tibet border have caused widespread damage and left hundreds dead or missing. Search and rescue operations are continuing after Wednesday's disaster. Chinese state media has said there are significant casualties, while Nepalese officials describe \"huge scale loss\". There are risks of more floods: a lake of rising water has formed at a site along the China-Nepal border - prompting fears it could burst its banks. Here is what we know so far. What caused the deadly landslide? Initial reports of an earthquake on the Nepal-Tibet border led many to believe that a tremor had caused a landslide, which in turn caused the devastating flood. However, the US Geological Survey has clarified that the disaster was caused by a \"glacial collapse\", which is when a glacier or part of a glacier disintegrates. The impact of the collapsed glacier hitting the bottom of a valley was so powerful that it registered a magnitude of 5.2, according to USGS data and scientists who have analysed the event. Debris flow from the collapse \"caused subsequent catastrophic impacts downstream\" the USGS said. Climate change is known to be driving faster glacier melt in the Hindu Kush Himalaya region and, as rescue efforts continue, scientists are trying to piece together the exact order of events. Simon Cook, senior lecturer in energy environment and security at the University of Dundee who specialises in glaciology, said \"climate change could have an impact\". Cook said his team had detected that the lower part of a glacier in Nepal near the Langtang Lirung peak - which is approximately 15km (9 miles) west of the site of the floods - had collapsed. He estimated that the glacier collapsed in a north-westerly direction and then travelled westwards downstream. He told the BBC \"permafrost is partially holding some mountainsides together, this permafrost is warming and thawing and degrading so you are going to get more landslides\". Mike Searle, professor of Earth sciences at Oxford University, said the glacier could have collapsed \"hours or days\" before the flooding hit Nepal and Tibet. He told the BBC: \"I think the sheer wave of debris suggests there was a landslide first, the water built up, (which) dammed the river, and then it burst in one huge great flood.\" One possibility is that water from rainfall or melting ice may have destabilised the ground or ice, triggering a chain reaction. Scienti",
+      "source_title": "What we know about deadly Nepal-Tibet floods",
+      "source_url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "法国总统候选人首场辩论激烈交锋，2027年大选竞争激烈",
+      "entities": [
+        {
+          "name": "埃马纽埃尔·马克龙",
+          "explain": "现任法国总统，已连任两届，无法再参选"
+        },
+        {
+          "name": "2027年法国大选",
+          "explain": "法国总统选举，定于2027年举行，选出新领导人"
+        }
+      ],
+      "summary": "周四，七位法国主要总统候选人在首场辩论中激烈交锋，距2027年大选仅八个月。现任总统马克龙因任期限制无法连任，选举竞争日益激烈。",
+      "relevant": "法国大选影响欧洲政治格局，首场辩论揭示候选人立场和政策分歧，对选民决策有重要影响。",
+      "context": "法国总统任期限制为两届，马克龙已任满，因此2027年选举将产生新总统。选举临近，候选人竞争加剧。",
+      "source_analysis": "France24为法国国际广播电台，报道可能偏向法国国内政治视角。",
+      "social_impact": "七位候选人参与辩论，显示选举竞争激烈，可能影响法国未来政策方向和欧盟关系。",
+      "source_text": "French presidential candidates clash at first debate before upcoming elections Seven of France's leading candidates locked horns on Thursday in their first debate, eight months ahead of an increasingly tight and crowded election to succeed President Emmanuel Macron. The debate comes less than eight months ahead of the 2027 election to choose France's new leader, with centrist incumbent Macron having served the maximum two consecutive terms. Seven of the leading candidates in the increasingly tight and crowded race to succeed President Emmanuel Macron clashed on Thursday in their first debate, eight months ahead of the election. The candidates, spanning the hard left to far right, agreed that France was facing economic trouble, at a debate organised by the country's employer's federation MEDEF. But at Paris's Roland Garros complex, more used to hosting clashes between top tennis stars than between politicians, they differed wildly over how to combat the country's problems. Read moreFrench MEP Glucksmann seeks to unite the left in bid for French presidency Marine Le Pen, seeking the presidency at her fourth attempt and riding high in the polls, announced her far-right National Rally (RN) party would present a 125 billion euro ($146 billion) cost-cutting plan and acknowledged there was a \"general consensus on the seriousness of the situation\". But hard-left leader Jean-Luc Mélenchon urged business leaders to \"raise wages\" to prevent France from \"falling into recession\" and slammed \"tax giveaways\" under Macron which he alleged equalled the sum of the entire deficit. Centrist hopeful Édouard Philippe, a former premier under Macron, accused Melenchon of seeking to \"burn\" France's debt and take steps that would \"result in France being shut out of the banking system\". 'Quite surprising' The debate comes less than eight months ahead of the 2027 election to choose France's new leader, with centrist incumbent Macron having served the maximum two consecutive terms. Given France's two-round election system, there is growing concern that a plethora of candidates on the centre, centre-left, centre-right and right could split the moderate vote in the first round. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. This could send Le Pen and Mélenchon, who like his far-right riv",
+      "source_title": "French presidential candidates clash at first debate before upcoming elections",
+      "source_url": "https://www.france24.com/en/france/20260827-french-presidential-candidates-clash-at-first-debate-before-upcoming-elections",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "特朗普签署行政令将安大略湖改名“美国湖”，加拿大总理反击",
+      "entities": [
+        {
+          "name": "唐纳德·特朗普",
+          "explain": "美国前总统，签署行政令"
+        },
+        {
+          "name": "马克·卡尼",
+          "explain": "加拿大总理，反对改名"
+        },
+        {
+          "name": "安大略湖",
+          "explain": "北美五大湖之一，位于美加边境"
+        }
+      ],
+      "summary": "美国总统特朗普周四签署行政令，将安大略湖更名为“美国湖”，加拿大总理卡尼反击，指出该名称有原住民起源。美加关系因此再起争端。",
+      "relevant": "改名事件反映美加紧张关系，涉及主权和文化认同，可能影响双边外交。",
+      "context": "特朗普政府近期对加拿大采取强硬措施，此次改名是美加争端的一部分，卡尼强调原住民历史。",
+      "source_analysis": "France24报道，可能提供国际视角，但未明确立场。",
+      "social_impact": "改名引发外交争议，可能影响美加贸易和安全合作，并引发原住民群体不满。",
+      "source_text": "Trump signs order to rename Lake Ontario to 'Lake America' as Carney pushes back US President Donald Trump on Thursday signed an executive order to update the name of Lake Ontario to \"Lake America\" in the country's geographic naming service. Canadian Prime Minister Mark Carney pushed back, citing the name's Indigenous origins, as the row between the neighbors roiled on. President Donald Trump said Thursday he is renaming Lake Ontario to be known as “Lake America” in the United States as he escalates his trade war with Canada. The Republican president signed an executive order directing the Interior Department to update the lake's name in the US geographic naming service. Trump cannot force Canada to follow his preferred naming convention, however. Canadian Prime Minister Mark Carney pushed back against Trump's order, citing the name's Indigenous origins, as the row between the neighbors roiled on. \"We know that America is changing. Their trading relationships, their foreign policies, their national monuments, their hydronyms,\" Carney said in a post on X. \"Canadians also know that naming reality means calling it Lake Ontario – then, now and always.\" Trump has been floating the idea of the name change in recent days as the US announced it was imposing 50% tariffs on $20 billion worth of Canadian goods over the weekend after talks between the countries broke down. Trump has been needling America’s northern neighbor since he returned to the White House last year, suggesting the ally with whom the US once had warm relations should instead be absorbed as the 51st state. Canada responded to Trump’s import taxes this week by imposing retaliatory tariffs on $20 billion worth of American goods, including steel, dairy products, appliances and farm equipment. Trump, who signed the order as he was sitting at the Resolute Desk in the Oval Office, had a large sign behind him propped on a stand with a map of the Great Lakes. Over Lake Ontario, in big red letters, the map read “Lake America\". To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. On the other side of the president was another map with the words, “MAKING THE GREAT LAKES EVEN GREATER.” Trump said as he was signing the order that he'd “notified all of the various people that we have to notify. So, we’ve done everythin",
+      "source_title": "Trump signs order to rename Lake Ontario to 'Lake America' as Carney pushes back",
+      "source_url": "https://www.france24.com/en/americas/20260827-trump-signs-order-to-rename-lake-ontario-to-lake-america-as-carney-pushes-back",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "俄罗斯制裁助长加拿大汽车盗窃泛滥，成最大销赃目的地",
+      "entities": [
+        {
+          "name": "俄罗斯",
+          "explain": "国家，因制裁成为加拿大被盗汽车最大目的地"
+        },
+        {
+          "name": "加拿大",
+          "explain": "国家，汽车盗窃问题严重"
+        }
+      ],
+      "summary": "俄罗斯成为加拿大被盗汽车的最大目的地，走私者满足黑市需求。纽约时报报道，制裁措施意外助长了汽车盗窃流行病。",
+      "relevant": "该新闻揭示制裁的意外后果，涉及跨国犯罪和贸易政策，对加拿大公共安全有直接影响。",
+      "context": "加拿大汽车盗窃率上升，部分车辆被走私至俄罗斯，因制裁导致黑市需求旺盛。",
+      "source_analysis": "纽约时报为美国主流媒体，报道可能侧重美国视角，但数据详实。",
+      "social_impact": "汽车盗窃影响加拿大车主和保险业，反映制裁政策对犯罪市场的意外影响。",
+      "source_text": "Russian Sanctions Are Fueling a Canadian Car Theft Epidemic。Russia is the largest destination for stolen Canadian cars. Smugglers are meeting the demand of a booming black market.",
+      "source_title": "Russian Sanctions Are Fueling a Canadian Car Theft Epidemic",
+      "source_url": "https://www.nytimes.com/2026/08/27/world/canada/canada-car-theft-russia-sanctions.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "猴痘疫情再现新国家，儿童受影响严重，如何控制？",
+      "entities": [
+        {
+          "name": "猴痘",
+          "explain": "一种病毒性传染病，旧称猴痘，可人传人"
+        },
+        {
+          "name": "几内亚比绍",
+          "explain": "西非国家，首次报告猴痘疫情"
+        }
+      ],
+      "summary": "几内亚比绍首次爆发猴痘疫情，病毒已传播至新国家。自2022年以来，全球145个国家报告近19万例确诊病例，儿童尤其受影响。",
+      "relevant": "猴痘疫情持续扩散，儿童高风险，需全球卫生应对，防止更大规模爆发。",
+      "context": "猴痘曾主要在非洲少数国家流行，2022年和2024年成为公共卫生紧急事件，现又出现新疫情。",
+      "source_analysis": "卫报为英国左翼媒体，报道可能侧重全球健康议题。",
+      "social_impact": "近19万例病例，儿童受影响，疫情可能加重医疗系统负担，需国际协作。",
+      "source_text": "A man infected with mpox at a hospital in Burundi. Photograph: Tchandrou Nitanga/AFP/Getty ImagesView image in fullscreenA man infected with mpox at a hospital in Burundi. Photograph: Tchandrou Nitanga/AFP/Getty ImagesMpox is back – and in new countries. How can this outbreak be contained?The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affectedA fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed?Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic.What is mpox?Mpox is an infectious disease that typically starts with flu-like symptoms, including fever, chills and aching muscles. These are followed by a distinctive rash, beginning as raised spots that turn into blisters filled with fluid before forming scabs.View image in fullscreenA colourised electron microscope image shows Mpox virus particles, represented in green, found within infected cultured cells, represented in blue. The virus particles are in various stages of maturity, which accounts for their differences in shape. Photograph: APIt used to be called monkeypox, because the virus was first discovered in captive monkeys in 1958. But during an international outbreak in 2022, there were concerns that the name was fuelling racist and stigmatising language on and offline, prompting the World Health Organization (WHO) to recommend changing it to mpox.It is endemic to many parts of Africa, with outbreaks historically starting when people ate meat from infected wild animals. But in recent years it has spread beyond the usual areas, with sustained chains of human-to-human transmission. The Atlanta-based Centers for Disease Control and Prevention said this month that mpox was on course to become endemic in the US.Why is it spreading to new countries?There are, broadly, two types of mpox, known as “clades”. Clade I was once called the “Congo Basin clade” and clade II the “West African clade”.The latter sparked a major global outbreak in 2022 when it appeared to undergo some changes that allowed it to spread more efficiently from person to person. It is passed on via close contact – in that outbreak, mostly by sexual c",
+      "source_title": "Mpox is back – and in new countries. How can this outbreak be contained?",
+      "source_url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "货船在罗马尼亚黑海专属经济区沉没，12人获救",
+      "entities": [
+        {
+          "name": "罗马尼亚",
+          "explain": "东欧国家，濒临黑海"
+        },
+        {
+          "name": "黑海",
+          "explain": "位于欧洲和亚洲之间的海域"
+        }
+      ],
+      "summary": "一艘货船在罗马尼亚黑海专属经济区沉没，海岸警卫队称船上12人全部获救。事故原因尚在调查中。",
+      "relevant": "沉船事件涉及海上安全，可能影响黑海航运，但人员安全获救降低了严重性。",
+      "context": "货船在罗马尼亚海域沉没，具体原因不明，救援行动成功。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，报道可能偏向俄罗斯视角。",
+      "social_impact": "12人获救，无伤亡报告，但事件提醒黑海航运风险。",
+      "source_text": "BUCHAREST, August 28. /TASS/. A commercial ship flying the flag of the Dominican Republic sank in Romania’s exclusive economic zone in the Black Sea following a shipboard fire, the Agerpress news agency reported. \"At around 7:00 p.m. local time [4:00 p.m. GMT] border police of the Romanian coast guard were informed by the Maritime Rescue Coordination Center in Constanta that a fire broke out aboard a commercial vessel. The ship was in Romania’s exclusive economic zone, approximately 20 nautical miles southeast from Sfantu Gheorghe,\" the coast guards said in a statement. \"In a rescue operation that continued until 9:00 p.m. local time [6:00 p.m. GMT] all 12 people on board the merchant ship were rescued,\" the statement said. Romanian President Nikusor Dan, who is currently on a visit to Moldova, told reporters in Chisinau that the ship had been struck but did not specify the origin or nature of the strike. \"An investigation will be carried out,\" he said.",
+      "source_title": "Merchant ship sinks in Romania’s exclusive economic zone in Black Sea",
+      "source_url": "https://tass.com/emergencies/2178615",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "中国为阿尔及利亚发射首颗阿拉伯国家通信卫星",
+      "entities": [
+        {
+          "name": "阿尔及利亚",
+          "explain": "北非阿拉伯国家，接收卫星"
+        },
+        {
+          "name": "中国",
+          "explain": "国家，制造并发射卫星"
+        }
+      ],
+      "summary": "中国周一为阿尔及利亚发射了一颗通信卫星，成为首个向阿拉伯国家出口的此类航天器。",
+      "relevant": "该事件显示中国航天技术出口能力，加强中阿合作，可能影响地区航天市场。",
+      "context": "中国航天工业发展，阿尔及利亚寻求提升通信能力，此次发射是商业合作。",
+      "source_analysis": "中国日报为官方媒体，报道可能强调中国成就。",
+      "social_impact": "卫星发射提升阿尔及利亚通信基础设施，促进中阿关系。",
+      "source_text": "Satellite lofted for first Arab country。A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "source_title": "Satellite lofted for first Arab country",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "中俄印外长会晤，同意维护亚太地区安全与经济架构",
+      "entities": [
+        {
+          "name": "中国",
+          "explain": "国家，参与三边会晤"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "国家，参与三边会晤"
+        },
+        {
+          "name": "印度",
+          "explain": "国家，参与三边会晤"
+        }
+      ],
+      "summary": "中国、俄罗斯和印度在第15次三边外长会晤后发表联合声明，同意维护亚太地区的安全和经济架构。",
+      "relevant": "中俄印合作影响亚太地缘政治，声明可能平衡美国影响力，对区域稳定有重要意义。",
+      "context": "三国定期举行外长会晤，此次会议聚焦区域安全和经济合作。",
+      "source_analysis": "中国日报为官方媒体，报道可能强调合作成果。",
+      "social_impact": "三国合作可能影响亚太安全格局，促进多边主义。",
+      "source_text": "Chinese, Russian and Indian ministers meet。China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "source_title": "Chinese, Russian and Indian ministers meet",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "波黑塞族战犯姆拉迪奇去世，终年84岁",
+      "entities": [
+        {
+          "name": "姆拉迪奇",
+          "explain": "前波黑塞族军队指挥官，因在1992-1995年波黑战争期间犯下种族灭绝等罪行被定罪"
+        },
+        {
+          "name": "波黑战争",
+          "explain": "1992年至1995年发生在波斯尼亚和黑塞哥维那的武装冲突，是前南斯拉夫解体过程中的一部分"
+        }
+      ],
+      "summary": "被判处终身监禁的波黑塞族战犯拉特科·姆拉迪奇在狱中去世，享年84岁。他于2017年因在前南斯拉夫战争期间犯下种族灭绝、战争罪和反人类罪被定罪，其中包括斯雷布雷尼察大屠杀。",
+      "relevant": "姆拉迪奇是20世纪末欧洲最严重的战争罪行之一的象征性人物，其死亡标志着历史正义进程中的一个重要节点。",
+      "context": "姆拉迪奇在1992-1995年波黑战争期间指挥塞族军队，被指控策划了斯雷布雷尼察大屠杀等暴行，造成数千平民死亡。他逃亡多年后于2011年被捕，2017年被联合国国际刑事法庭判处终身监禁。",
+      "source_analysis": "BBC作为英国公共广播机构，报道相对中立，侧重事实陈述。",
+      "social_impact": "斯雷布雷尼察大屠杀造成约8000名穆斯林男子和男孩死亡，是二战后欧洲最严重的种族灭绝事件。",
+      "source_text": "Convicted Bosnian Serb war criminal Mladić dies aged 84 - Published Convicted Bosnian Serb war criminal Ratko Mladić has died in a UN prison at The Hague aged 84. He was jailed for life in 2017 for genocide, war crimes and crimes against humanity during the wars in the former Yugoslavia in 1992-95. After the Bosnian war, he went on the run for 16 years until he was finally tracked down in rural Serbia in 2011 and put on trial in the Dutch city. The sentence for the man known as the \"Butcher of Bosnia\" was upheld on appeal by the UN court in 2021. He was being given palliative care in the hospital of the UN detention facility, where he died. In a statement confirming the death on Thursday, the UN Court said Dutch authorities have begun an investigation. It added that the court's top judge\"has ordered a full inquiry into the circumstances\" of Mladić's death. In May, the court rejected a bid for his release from jail as he was nearing the end of his life. The judge agreed his situation was \"dire\" but ruled that he was receiving \"comprehensive and compassionate treatment\" in prison. Mladić's lawyers said at the time that he had already been bedbound or in a wheelchair for a long time and later had suffered a suspected stroke that left him almost unable to speak. Mladić - who never recognised the UN court - had been held at The Hague detention facility since 2011. He commanded Bosnian Serb forces in the 1990s against the Bosnian Croat and Bosniak (Bosnian Muslim) armies. During the war his troops committed what became known as \"ethnic cleansing\" in Bosnia-Herzegovina in a bid to expel the non-Serbian population by force. They besieged the main city of Sarajevo with the deaths of more than 10,000 people, and carried out the massacre of 8,000 men and boys at Srebrenica. Hasan Hasanović , a Srebrenica survivor who lost his twin brother and father in the massacre, told the BBC World Service's Newshour programme that Mladić's death \"does not bring closure because the people who were killed in Srebrenica cannot come back\". \"His death is just a biological necessity, and it doesn't bring to an end the political project and military project that created that legacy of genocide. And we now live with the consequences of a divided country, genocide denial,\" said Hasanović, who now works at the Srebrenica memorial centre. However, Bosnian Serb separatist leader Milorad Dodik told Reuters news agency that Mladić \"was respected by Serbian people. As a commander he stood to de",
+      "source_title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+      "source_url": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "美国女子林赛·克兰西杀害子女案进入陪审团审议阶段",
+      "entities": [
+        {
+          "name": "林赛·克兰西",
+          "explain": "美国马萨诸塞州一名被控杀害自己三名子女的女性"
+        },
+        {
+          "name": "产后精神病",
+          "explain": "一种严重的产后心理健康疾病，可能导致产妇出现幻觉、妄想等症状，极少数情况下会引发伤害行为"
+        }
+      ],
+      "summary": "美国女子林赛·克兰西被控杀害三名子女的案件正在审理中，陪审团正在进行审议。检方认为她是有预谋地实施谋杀，而辩方则主张她当时患有产后精神病，无法控制自己的行为。",
+      "relevant": "此案引发公众对产后心理健康问题的广泛关注，也涉及法律对精神疾病被告的责任认定。",
+      "context": "2023年1月，林赛·克兰西在马萨诸塞州家中杀害了三个年幼的孩子，随后试图自杀未遂。案件的核心争议在于她作案时的精神状态。",
+      "source_analysis": "BBC报道，作为国际媒体，报道相对平衡，呈现了控辩双方观点。",
+      "social_impact": "案件引发美国社会对产后精神健康支持和法律责任的讨论，类似案件在美国司法实践中较为罕见。",
+      "source_text": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children - Published Warning: This story contains distressing details and discussion of attempted suicide The fate of US mother Lindsay Clancy is now in the hands of a Massachusetts jury, who must decide if she is guilty of first-degree murder - the intentional and premeditated killing of another person - in the deaths of her three children. For five weeks, the trial has gripped the country as Clancy's lawyers have argued that she was suffering from postpartum psychosis when she killed her children, who ranged in age from eight months to five years. Clancy does not deny killing her two sons and daughter. The prosecution argued she made a calculated decision to intentionally murder them. The jury could find Clancy guilty of first-degree murder, guilty of lesser charges, or not guilty. The jury of nine women and three men completed their first day of deliberations on Thursday. They will return on Friday. In the state of Massachusetts, a first-degree murder conviction carries a mandatory life in prison sentence without the possibility of parole. The jury could instead find Clancy guilty of second-degree murder - committed with malice or extreme recklessness, but without prior planning - or involuntary manslaughter - causing death because of extreme carelessness. Those convictions, too, would lead to some prison time. If Clancy is found not guilty by reason of insanity, then she will not be set free, but instead sent to a psychiatric hospital, where she possibly could remain for life. Attorneys for both sides made closing arguments on Thursday before the jury began deliberating. Kevin Reddington, Clancy's lawyer, repeated the defence's argument that she was experiencing postpartum psychosis when she killed the children with exercise bands at their home and then attempted to end her own life by jumping out of a window. Clancy was paralysed by the attempt and has attended the trial in a wheelchair. \"This young lady is not guilty of the killing of her children because she was suffering from a disease and defect,\" Reddington said, adding that he believed prosecutors were \"not going to be able to prove otherwise\". The UK's National Health Service (NHS) defines postpartum psychosis as a rare and serious mental health illness that can affect someone soon after having a baby, and which should be treated as a medical emergency. One of the more tense moments of the closing arguments came when ",
+      "source_title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
+      "source_url": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "挪威国王哈拉尔病情恶化，民众在皇宫前献花",
+      "entities": [
+        {
+          "name": "哈拉尔五世",
+          "explain": "挪威现任国王，1937年出生，是挪威历史上最年长的在位君主"
+        }
+      ],
+      "summary": "挪威国王哈拉尔五世的健康状况被描述为\"极其严重\"，家人已前往医院探望。民众自发在皇宫前献花表达关切和祝福。",
+      "relevant": "作为挪威国家象征，国王的健康状况牵动全国，也关系到王位继承等国家大事。",
+      "context": "89岁的哈拉尔五世近年来多次因健康问题住院，包括2024年因感染住院。此次病情恶化引发全国关注。",
+      "source_analysis": "BBC报道，作为国际媒体，报道客观中立。",
+      "social_impact": "挪威民众通过献花表达对君主的情感，反映了挪威社会对王室的支持度。",
+      "source_text": "Norwegians lay flowers at palace as King Harald's condition worsens - Published Norwegians have laid flowers in front of the palace in Oslo after the royal household said King Harald V's condition in hospital had become \"extremely serious\". His wife, Queen Sonja, and his son, Crown Prince Haakon, cancelled royal engagements to be at his bedside at Oslo University Hospital with other members of the family. They all stayed for several hours, and then during the evening Haakon was seen returning with Crown Princess Mette-Marit. The 89-year-old has been in hospital for 10 days receiving treatment for a rare blood condition, haemolytic anaemia. Late on Thursday afternoon the palace issued an update to say his condition was unchanged. Having been on the throne since 1991, King Harald is Europe's oldest head of state. Crown Prince Haakon, 53, the successor to the Norwegian throne, has been serving as regent while his father is on leave. King Harald has been treated in recent weeks with cortisone for haemolytic anaemia, a condition that causes the number of red blood cells in the body to be reduced, and leads to fatigue and shortness of breath. There was a sombre mood in Oslo as Norwegians followed the comings and goings of the royal family. Crowds milled around in Palace Square throughout the day as Norwegian public TV scrapped its schedule to cover the story. Although no-one in the royal family spoke, the message was clear that it had become an important moment to visit the king. Among those visiting the hospital were Crown Princess Mette-Marit who arrived with Haakon, as well as her son Marius Borg Høiby, who is under house arrest during his appeal against a conviction for rape. King Harald's sister, Princess Astrid, also visited the hospital, along with Haakon and Mette-Marit's children Princess Ingrid Alexandra and Prince Sverre Magnus. Prime Minister Jonas Gahr Støre cancelled a planned trip to Germany, where he was expected to meet Chancellor Friedrich Merz on Thursday. \"The whole nation is with us as we send warm thoughts to the king and the rest of the royal family,\" he said in a statement. The king has had multiple health problems in recent years which have forced him to scale back his royal duties. He was fitted with a pacemaker in 2024 after falling ill on holiday in Malaysia. The Norwegian royal family has already faced a challenging year in 2026. Crown Princess Mette-Marit received a lung transplant in June after she had been diagnosed with a rare fo",
+      "source_title": "Norwegians lay flowers at palace as King Harald's condition worsens",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "尼日利亚绑架产业成暴利生意，专家公布数据报告",
+      "entities": [
+        {
+          "name": "尼日利亚",
+          "explain": "非洲人口最多的国家，近年来绑架犯罪频发，成为严重的社会安全问题"
+        },
+        {
+          "name": "镰状细胞病",
+          "explain": "一种遗传性血液疾病，主要影响非洲裔人群，患者红细胞呈镰刀状，导致疼痛和器官损伤"
+        }
+      ],
+      "summary": "法国24电视台节目聚焦尼日利亚绑架产业的暴利问题，采访了发布相关数据报告的分析师。节目还报道了坦桑尼亚执政党将副总统开除党籍，以及塞内加尔推出首款非洲本土生产的镰状细胞病仿制药。",
+      "relevant": "尼日利亚绑架问题已成为影响国家安全和经济发展的重大挑战，非洲本土制药能力的提升也具有重要意义。",
+      "context": "尼日利亚绑架犯罪近年来呈上升趋势，从绑架富人到绑架普通民众，形成了一条黑色产业链。同时，非洲国家在医药领域长期依赖进口，本土制药能力薄弱。",
+      "source_analysis": "法国24是法国国际公共广播机构，报道视角偏向非洲事务，内容较为综合。",
+      "social_impact": "尼日利亚绑架产业涉及巨额资金流动，每年造成数十亿美元经济损失，并严重影响外资信心。",
+      "source_text": "Nigeria: the lucrative business of kidnappings Africa To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Modified: 15:10 min From the show Reading time 1 min In tonight's programme, we speak to a Lagos analyst behind a new report laying out the figures behind abductions. Also, Tanzania's ruling party kicks the vice-president out even after he announces his plans to step down next week. And finally in Senegal, the first African-manufactured generic drug to treat sickle cell disease is raising hopes of better treatment and reduced reliance on costly imported medicine. Advertising Related keywords",
+      "source_title": "Nigeria: the lucrative business of kidnappings",
+      "source_url": "https://www.france24.com/en/nigeria-the-lucrative-business-of-kidnappings",
+      "source_name": "France24",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_a9b8b7c56675",
+      "source": "BBC",
+      "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
+      "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Preliminary investigations by scientists have pointed to a collapsed glacier as the cause, highlighting the issue of rapidly melting Himalayan ice.",
+      "image": ""
+    },
+    {
+      "id": "rss_c0cddce833e8",
+      "source": "BBC",
+      "title": "What we know about deadly Nepal-Tibet floods",
+      "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet.",
+      "image": ""
+    },
+    {
+      "id": "rss_c0a6bba717e6",
+      "source": "BBC",
+      "title": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
+      "url": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&at_campaign=rss",
+      "summary": "He was jailed for life in 2017 for genocide, war crimes and crimes against humanity during the wars in the ex-Yugoslavia in 1992-95.",
+      "image": ""
+    },
+    {
+      "id": "rss_7ab0b625e1d4",
+      "source": "BBC",
+      "title": "Jury deliberating in trial of Lindsay Clancy, US woman accused of killing her children",
+      "url": "https://www.bbc.co.uk/news/articles/c33keeyyv70o?at_medium=RSS&at_campaign=rss",
+      "summary": "Prosecutors argued Clancy made a calculated decision to murder the children, while the defence argued that she was suffering from postpartum psychosis.",
+      "image": ""
+    },
+    {
+      "id": "rss_4977c68b586c",
+      "source": "BBC",
+      "title": "Norwegians lay flowers at palace as King Harald's condition worsens",
+      "url": "https://www.bbc.co.uk/news/articles/cqxvrnvrr5do?at_medium=RSS&at_campaign=rss",
+      "summary": "The 89-year-old's condition is described as \"extremely serious\" and members of his family have visited him in hospital.",
+      "image": ""
+    },
+    {
+      "id": "rss_1576820bb9cc",
+      "source": "France24",
+      "title": "Kherson residents urged to leave as Russian attacks threaten power and heating",
+      "url": "https://www.france24.com/en/europe/20260827-kherson-residents-urged-to-leave-as-russian-attacks-threaten-power-and-heating",
+      "summary": "Regional governor Oleksandr Prokudin urged residents to leave the southern Ukrainian city of Kherson on Thursday as Russian strikes damaged a district heating plant and threatened prolonged power and heating outages.",
+      "image": "https://s.france24.com/media/display/4792bdfe-a260-11f1-96c3-005056a90284/w:1024/p:16x9/AP25331581427912.jpg"
+    },
+    {
+      "id": "rss_aec1e52a2465",
+      "source": "France24",
+      "title": "US military faces ‘beyond critical’ shortage of Patriot missiles in Europe",
+      "url": "https://www.france24.com/en/americas/20260827-us-military-faces-beyond-critical-shortage-of-patriot-missiles-in-europe",
+      "summary": "The US military is running critically low on Patriot missile interceptors in Europe as the war with Iran drains stocks, according to US and NATO officials. The shortfall is raising concerns about NATO’s ability to counter a potential Russian ballistic missile attack, though officials said no such assault is imminent.",
+      "image": "https://s.france24.com/media/display/9fa3d084-8d1e-11f1-aa4f-005056bfb2b6/w:1024/p:16x9/AP23037440334200.jpg"
+    },
+    {
+      "id": "rss_85a086f8b0fb",
+      "source": "France24",
+      "title": "Nigeria: the lucrative business of kidnappings",
+      "url": "https://www.france24.com/en/nigeria-the-lucrative-business-of-kidnappings",
+      "summary": "In tonight's programme, we speak to a Lagos analyst behind a new report laying out the figures behind abductions. Also, Tanzania's ruling party kicks the vice-president out even after he announces his plans to step down next week. And finally in Senegal, the first African-manufactured generic drug to treat sickle cell disease is raising hopes of better treatment and reduced reliance on costly imported medicine.",
+      "image": "https://s.france24.com/media/display/03f7ef9e-a259-11f1-93a7-005056bf30b7/w:1024/p:16x9/capture-7572894136a90a3366a1f79-85679351.jpg"
+    },
+    {
+      "id": "rss_20e325efb0d3",
+      "source": "France24",
+      "title": "Trump signs order to rename Lake Ontario to 'Lake America' as Carney pushes back",
+      "url": "https://www.france24.com/en/americas/20260827-trump-signs-order-to-rename-lake-ontario-to-lake-america-as-carney-pushes-back",
+      "summary": "US President Donald Trump on Thursday signed an executive order to update the name of Lake Ontario to \"Lake America\" in the country's geographic naming service. Canadian Prime Minister Mark Carney pushed back, citing the name's Indigenous origins, as the row between the neighbors roiled on.",
+      "image": "https://s.france24.com/media/display/f98d9008-a254-11f1-8d70-005056bfb2b6/w:1024/p:16x9/AP26239645255623.jpg"
+    },
+    {
+      "id": "rss_e24d1ba875da",
+      "source": "France24",
+      "title": "French presidential candidates clash at first debate before upcoming elections",
+      "url": "https://www.france24.com/en/france/20260827-french-presidential-candidates-clash-at-first-debate-before-upcoming-elections",
+      "summary": "Seven of France's leading candidates locked horns on Thursday in their first debate, eight months ahead of an increasingly tight and crowded election to succeed President Emmanuel Macron. The debate comes less than eight months ahead of the 2027 election to choose France's new leader, with centrist incumbent Macron having served the maximum two consecutive terms.",
+      "image": "https://s.france24.com/media/display/33573c54-a23b-11f1-a340-005056a97e36/w:1024/p:16x9/000-C6NA2XX.jpg"
+    },
+    {
+      "id": "rss_593c6f5bd9d3",
+      "source": "TASS Russia",
+      "title": "Merchant ship sinks in Romania’s exclusive economic zone in Black Sea",
+      "url": "https://tass.com/emergencies/2178615",
+      "summary": "All 12 people on board were rescued, the coast guards said",
+      "image": ""
+    },
+    {
+      "id": "rss_2b9631bc7f94",
+      "source": "TASS Russia",
+      "title": "White House remains silent on Europe’s remarks about ‘burial’ of Anchorage — Lavrov",
+      "url": "https://tass.com/politics/2178613",
+      "summary": "The Russian foreign minister said that the Europeans, alongside with Vladimir Zelensky, made a year-long lobbying effort before these statements were made",
+      "image": ""
+    },
+    {
+      "id": "rss_6276b27f6216",
+      "source": "TASS Russia",
+      "title": "Iran could harm US economic interests in response to sanctions — security official",
+      "url": "https://tass.com/world/2178611",
+      "summary": "Mohsen Rezaei said that Washington’s shift toward economic pressure demonstrates that \"a military solution to the conflict produces limited results\"",
+      "image": ""
+    },
+    {
+      "id": "rss_2dff5a8f9e96",
+      "source": "TASS Russia",
+      "title": "At least 43 Russians killed in Ukraine’s attacks on buses — diplomat",
+      "url": "https://tass.com/politics/2178609",
+      "summary": "Rodion Miroshnik says more than 300 people were wounded, including 17 minors, since the start of 2026",
+      "image": ""
+    },
+    {
+      "id": "rss_605b6667618c",
+      "source": "TASS Russia",
+      "title": "Syrian president appoints Kurdish leader his adviser",
+      "url": "https://tass.com/world/2178607",
+      "summary": "Mazloum Abdi, the commander of the Syrian Democratic Forces, announced on August 25 that the military force will be dissolved and integrated with the Syrian army",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_aa3dcf82d9f4",
+      "source": "纽约时报",
+      "title": "Live Updates: Rescuers Search for Missing and Stranded Under Threat of More Floods",
+      "url": "https://www.nytimes.com/live/2026/08/27/world/nepal-tibet-flash-floods",
+      "summary": "Officials said hundreds were killed in Nepal and Tibet, and more than 1,400 people are missing. Stunned witnesses described a torrent of debris and water carrying away villages in minutes.",
+      "image": ""
+    },
+    {
+      "id": "rss_c02f2aab312b",
+      "source": "纽约时报",
+      "title": "Where Drones Cannot See, the Ukraine War Is a Deadly Game of Cat and Mouse",
+      "url": "https://www.nytimes.com/2026/08/27/world/europe/ukraine-russia-war-zaporizhzhia-frontline-fighting.html",
+      "summary": "Russian troops are trying to infiltrate the vast, overgrown reservoir basin of a dam they blew up three years ago as Ukrainian soldiers hunt them at close quarters.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4ce073af8",
+      "source": "纽约时报",
+      "title": "Russian Sanctions Are Fueling a Canadian Car Theft Epidemic",
+      "url": "https://www.nytimes.com/2026/08/27/world/canada/canada-car-theft-russia-sanctions.html",
+      "summary": "Russia is the largest destination for stolen Canadian cars. Smugglers are meeting the demand of a booming black market.",
+      "image": ""
+    },
+    {
+      "id": "rss_2ab352bef888",
+      "source": "纽约时报",
+      "title": "Greenlandic Women Will Finally Get Money for Forced Contraception",
+      "url": "https://www.nytimes.com/2026/08/27/world/europe/denmark-greenland-forced-contraception-compensation.html",
+      "summary": "For decades, Denmark implanted intrauterine devices in women in Greenland in an effort to keep down the island’s population. On Thursday, the government passed a compensation bill.",
+      "image": ""
+    },
+    {
+      "id": "rss_e5081f772655",
+      "source": "纽约时报",
+      "title": "Canada Hires U.S. Scholars From Harvard and Other Top Universities",
+      "url": "https://www.nytimes.com/2026/08/27/world/canada/canada-universities-hire-us-researchers.html",
+      "summary": "A crackdown on American academia by the Trump administration has handed Canadian universities a rare opportunity to lure some top researchers north.",
+      "image": ""
+    },
+    {
+      "id": "rss_87b7a53533ef",
+      "source": "卫报",
+      "title": "UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’",
+      "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
+      "summary": "Lawyers claim Eman el-Shazly, from Birmingham, was detained in effort to silence her sister, a critic of Sisi regime The UK Foreign Office has been asked to intervene to secure the release of a British-Egyptian woman who it is claimed has been arrested in Cairo because of her sister’s political activism. Eman el-Shazly, a 45-year-old based in Birmingham, was arrested on 16 August while visiting Egypt. Her lawyers say she has been detained in an attempt to silence her sister Mona, a relentless and harsh critic of the Egyptian government on her UK-based YouTube channel. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a2191fd9c1f1",
+      "source": "卫报",
+      "title": "South African police arrest two Thai men for allegedly smuggling parrot eggs",
+      "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
+      "summary": "Bird eggs intercepted in homemade incubators at Johannesburg airport as officials try to halt wildlife trafficking South African police have arrested two Thai nationals in separate incidents for allegedly attempting to smuggle endangered parrot eggs out of the country as authorities try to stem the tide of wildlife trafficking. A 50-year-old Thai national was arrested at OR Tambo international airport in Johannesburg on 20 August, carrying 50 bird eggs in a homemade incubator in a hand-luggage bag, South Africa’s environment ministry said in a statement . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fba6530dd019",
+      "source": "卫报",
+      "title": "Mpox is back – and in new countries. How can this outbreak be contained?",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "summary": "The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affected A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed? Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_aac9aa8851ae",
+      "source": "卫报",
+      "title": "Moringa lattes and tigernut kebabs: the Ghanaians ‘taking back the power’ of their food",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/moringa-lattes-and-tigernut-kebabs-the-young-ghanaians-taking-back-the-power-of-their-food",
+      "summary": "In Ghana, a grassroots movement is championing nutritious, homegrown, climate-resilient produce, rather than western imports After three years at catering school in Accra, Abiro Wisdom was certain of one thing – he did not want to go into catering. At least not the route that he might be expected to take. His course had prepared students for working in international hotels, focusing on French, Italian and Mexican cuisine. The nutritious, homegrown food that Wisdom had eaten while growing up in Bolgatanga, northern Ghana, did not feature at all. “I didn’t see myself there,” he says of the big chain hotels. “I felt I wouldn’t be myself working there – I wouldn’t be able to talk about the food from where I come from.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_74659465c9ed",
+      "source": "卫报",
+      "title": "Prince Harry quits board of wildlife charity after rangers’ human rights abuses",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/24/prince-harry-quits-board-wildlife-charity-african-parks-human-rights-abuses",
+      "summary": "Spokesperson for Duke of Sussex says he remains an ‘active and avid supporter’ of African Parks’ mission The Duke of Sussex has stepped down from the board of a major African wildlife charity that had been at the centre of a human rights controversy. Prince Harry’s spokesperson confirmed he was no longer a trustee of African Parks , which admitted last year that human rights abuses were committed by its rangers in the Republic of the Congo. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-28 07:30"
+}
