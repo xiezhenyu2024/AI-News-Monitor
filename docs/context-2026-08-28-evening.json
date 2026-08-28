@@ -1,0 +1,728 @@
+{
+  "key": "2026-08-28-evening",
+  "date": "2026-08-28",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 21,
+      "title": "特朗普政府废除美国森林保护法规，或加速400余种濒危物种灭绝",
+      "entities": [
+        {
+          "name": "特朗普政府",
+          "explain": "美国前总统唐纳德·特朗普领导的行政当局，以其放松环境监管的政策著称。"
+        },
+        {
+          "name": "roadless rule",
+          "explain": "克林顿时期颁布的‘无道路规则’，禁止在美国国家森林的原始区域修建新道路，以保护生态环境。"
+        },
+        {
+          "name": "Center for Biological Diversity",
+          "explain": "美国一个非营利环保组织，致力于保护濒危物种及其栖息地。"
+        }
+      ],
+      "summary": "特朗普政府决定废除克林顿时期的‘无道路规则’，这将使超过4500万英亩的国家森林面临道路建设、钻探和伐木的威胁。据生物多样性中心报告，此举可能危及740万英亩濒危物种栖息地和近1800英里的受保护河流，加速400多种濒危动植物的灭绝。",
+      "relevant": "这是美国环境政策的重大倒退，直接影响全球生物多样性保护，并可能引发国际社会对美国环境承诺的质疑。",
+      "context": "‘无道路规则’自2001年起保护美国国家森林中的原始区域，是濒危物种的重要庇护所。特朗普政府长期推动放松环境监管以促进资源开发，此次废除是该政策议程的一部分。",
+      "source_analysis": "报道来自《卫报》，该报以自由派立场著称，报道中引用了环保组织的数据，可能带有对特朗普政府政策的批评倾向。",
+      "social_impact": "涉及超过4500万英亩土地，相当于美国国家森林总面积的约五分之一，影响范围巨大，直接关系到数百种濒危物种的存续。",
+      "source_text": "More than 400 endangered animal and plant species could face accelerated extinction after the Donald Trump administration’s decision to rescind a rule that has protected old-growth forests for more than two decades. According to a new report from the Center for Biological Diversity, the rollback of the Bill Clinton-era “roadless rule” could put 7.4m acres of endangered-species habitat and nearly 1,800 miles of protected rivers and streams at risk, while opening more than 45m acres of national forests to roads, drilling and logging. The Trump administration moved last week to rescind the 2001 Roadless Area Conservation Rule, citing “outdated restrictions [that] have kept tens of millions of forested acres off-limits to the very treatments that improve forest health and reduce wildfire risk to our communities”. Conservationists have criticized the decision. “Our national forests are home to some of America’s most iconic animals, from grizzlies to hellbenders. These forests provide clean drinking water to countless communities. Bulldozing more roads through them will mean dirtier water, fragmented wildlife habitat and greater wildfire risk,” said Randi Spivak, public lands policy director at the Center for Biological Diversity. At-risk species include grizzly bears and gray wolves in the Rocky Mountains, wild salmon in the Pacific Northwest and Alaska, Mexican spotted owls and Gila trout in the south-west, as well as rare butterflies and wildflowers nationwide, according to the report. In the Rocky Mountains, 9.7m acres of roadless areas are at risk, including 2.9m acres of critical habitat and nearly 11,000 miles of streams home to 21 imperiled plant and animal species. Montana’s roadless areas also protect watersheds supplying drinking water to communities in Bozeman, the Flathead Valley and the Seeley-Swan Valley, the report found. In Alaska, the rollback threatens wild salmon in the 9.3m-acre Tongass national forest, which produces more wild salmon than any other national forest. The region’s $1bn-a-year commercial and sport fishing economy which accounts for one in 10 jobs in south-east Alaska may also be affected, the report noted. The Tongass also supplies drinking water to more than a dozen communities, including Sitka, where about 9,000 people rely on the Blue Lake Reservoir. Logging and road construction could introduce sediment and jeopardize the city’s federal waiver allowing it to avoid conventional water filtration. In the US south and south-eas",
+      "source_title": "Trump rollback of US forest protections could accelerate extinction of 400 endangered species",
+      "source_url": "https://www.theguardian.com/us-news/2026/aug/28/endangered-species-extinction-trump-forest-protections",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "学术界AI论文乱象引发‘私刑式’指控，专家呼吁谨慎对待",
+      "entities": [
+        {
+          "name": "Pangram",
+          "explain": "一种用于检测文本是否由AI生成的工具，目前被认为在检测技术方面暂时领先。"
+        },
+        {
+          "name": "AI",
+          "explain": "人工智能，指计算机系统模拟人类智能的技术，现被用于撰写学术论文。"
+        }
+      ],
+      "summary": "学术界正因AI撰写或辅助撰写的研究论文陷入混乱。各机构政策不一且不断变化，导致对AI使用的规范难以建立。在此背景下，一些‘私刑者’利用检测工具（如Pangram）对作者发起指控，但专家警告，在技术快速迭代和标准模糊的情况下，此类指控可能不准确且有害。",
+      "relevant": "AI写作的合法边界是当前学术界最紧迫的伦理问题之一，直接影响学术诚信和科研评价体系。",
+      "context": "AI技术发展迅速，大量AI生成内容涌入学术期刊，而出版商、大学和期刊的政策尚未统一，导致作者在是否使用AI、如何使用AI方面缺乏明确指导。",
+      "source_analysis": "来自Daily Nous，一个哲学学术新闻网站，文章以评论形式发表，反映了哲学界对学术伦理的关切。",
+      "social_impact": "涉及全球学术出版生态，影响所有科研人员的诚信评估，以及学术成果的可信度。",
+      "source_text": "Careful with those Accusations Academia is in turmoil regarding partially or wholly AI-written research. AI-written work is being submitted to journals, but it isn’t clear how much. Publisher, journal, university, and department policies are emerging and fluctuating. Technology develops, rendering recently enacted policies ambiguous, vague, or subject to unintended loopholes. With everything in flux, it’s impossible for norms to develop. There is no general sense of whether and what kind and what degree of AI use by authors is acceptable. Different policies across different institutions means that what may be problematic AI use in one place is acceptable AI use in another, and vice versa. Into this chaos steps forward the vigilantes. The vigilantes have always been there, but now they are newly armed and emboldened. In the everchanging and never ending race between the technology of deployment and the technology of detection, the latter seems to have a temporary lead in the form of Pangram. You can feed a text into Pangram and it will tell you its analysis of whether it is AI generated, and if so, what percentage of it is AI generated. Pangram claims to have a remarkably high detection and low false-positive rates, and cites studies by third parties to support these claims. Yet I have seen plenty of posts by friends and colleagues across social media showing false positives with some of their own work. So user beware. That said, even if Pangram’s claims about its accuracy are correct, it won’t always be helpful to simply know that a text is “AI generated.” This because there are two further problems. The first problem is ambiguity about what “N% AI generated” means. If someone asks Claude to write them a novel article about a philosophical problem, not even giving it a thesis to work with but asking it to come up with one itself, and that’s the extent of the human’s contribution, the resultant paper will get a “100% AI generated” evaluation. And if someone spends a year researching, writing, workshopping, and revising a paper, and then asks an AI to improve the writing style throughout the paper, the resultant paper will get a “100% AI generated” evaluation, too. Despite their same scores, though, these seem like cases that it might be plausible to treat quite differently. And of course, there are countless variations of AI-use between these extremes. The issue remains even for “0% AI generated” findings, for such a score might be given to both an article ",
+      "source_title": "Careful with those Accusations",
+      "source_url": "https://dailynous.com/2026/08/27/careful-with-those-accusations/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "邓迪大学哲学系在多方努力下获保留，但仅部分课程恢复招生",
+      "entities": [
+        {
+          "name": "邓迪大学",
+          "explain": "英国苏格兰的一所公立研究型大学，其哲学系规模较小但国际影响力大。"
+        },
+        {
+          "name": "哲学项目",
+          "explain": "大学中提供哲学专业教育的学术项目，面临被取消的风险。"
+        }
+      ],
+      "summary": "邓迪大学原计划取消哲学专业以削减成本，但在近6000人签署请愿书、学术组织声援及师生努力下，哲学系得以保留。不过，只有三个联合荣誉学位（艺术与哲学、英语与哲学、哲学与心理学）恢复招生，未来新项目仍在规划中。",
+      "relevant": "这是全球人文学科面临经费削减背景下的一次罕见胜利，展示了公众和学术共同体对基础学科价值的捍卫。",
+      "context": "邓迪大学因财政压力计划取消哲学专业，此举引发广泛反对，因为该系虽小但国际声誉高，其取消被视为人文学科危机的缩影。",
+      "source_analysis": "来自Daily Nous，该网站由美国哲学家创办，报道哲学界动态，对哲学项目保留持积极态度。",
+      "social_impact": "反映了全球高校人文学科经费紧缩的趋势，以及公众对人文教育价值的认可，可能影响其他大学的类似决策。",
+      "source_text": "Philosophy at Dundee Saved—In Part, For Now (guest post) “A small programme with a large international reach has bucked the trend of closures across the arts and humanities.” Over the summer, administration of the University of Dundee announced a plan to cut costs by, among other things, no longer offering students the option of majoring in philosophy. A campaign was launched to save the philosophy program there, and a petition in support of it garnered close to 6000 signatories. As a result of the petition, statements from academic organizations, and the efforts of faculty and students, philosophy at Dundee will continue, as the Philosophy Team at Dundee explains in the following guest post. Thanks to Oisin Keohane for keeping us informed. A Statement from the Philosophy Team at the University of Dundee Philosophy at Dundee will continue. Three joint honours degrees—Art and Philosophy, English and Philosophy, and Philosophy and Psychology—will carry on recruiting, and our plans to develop proposals for new undergraduate and postgraduate qualifications in Philosophy and AI have been approved, with support on record from Luciano Floridi and Shannon Vallor. Neither of those things were on the table in June when the proposal to suspend all named philosophy degrees was first announced. The ground shifted because of you. Nearly 6,000 people have signed our petition, including academics at 450 universities in 51 countries, from Harvard to Tokyo, Sydney to Stellenbosch. A small programme with a large international reach has bucked the trend of closures across the arts and humanities. The picture is not all good. The University still intends to suspend single honours Philosophy and multiple joint honours degrees, including Philosophy and Politics, Philosophy and Film, and History and Philosophy, without providing evidence of any clear financial rationale or assessment of the risks. Moreover, Philosophy staff remain at risk of redundancy, and the University is still seeking 154 cuts (in addition to the hundreds they made last year). We want to thank the people who made the difference. As well as Floridi and Vallor, Jack Reynolds and Katrina Mitcheson wrote personally to the University’s management. The British Philosophical Association, the Scots Philosophical Association, the American Philosophical Association, the Australasian Association of Philosophy, the International Federation of Philosophical Societies, the Australasian Society for Continental Philosophy, T",
+      "source_title": "Philosophy at Dundee Saved—In Part, For Now (guest post)",
+      "source_url": "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "跨性别哲学学者塔尔·梅·贝彻从加州州立大学洛杉矶分校转至滑铁卢大学",
+      "entities": [
+        {
+          "name": "塔尔·梅·贝彻",
+          "explain": "美国著名哲学家，专攻跨性别哲学和女性主义哲学，著有《超越人格》等作品。"
+        },
+        {
+          "name": "滑铁卢大学",
+          "explain": "加拿大顶尖研究型大学，位于安大略省，以其数学和计算机科学闻名。"
+        },
+        {
+          "name": "Eddie Goldenberg研究主席",
+          "explain": "加拿大一项资助计划，旨在为高校招募国际顶尖研究人员，提供高达10亿加元资金。"
+        }
+      ],
+      "summary": "跨性别哲学领域知名学者塔尔·梅·贝彻教授已从加州州立大学洛杉矶分校转至加拿大滑铁卢大学，担任新设立的Eddie Goldenberg研究主席，专注于性别暴力预防和跨性别社区韧性研究。该职位由加拿大政府资助的10亿加元研究主席计划支持。",
+      "relevant": "这是跨性别哲学领域的重要人事变动，显示加拿大对跨性别研究的重视，可能吸引更多该领域学者前往。",
+      "context": "贝彻教授是跨性别哲学的先驱，其著作《超越人格》是该领域的重要文献。滑铁卢大学新成立社会、政治和历史研究学院，旨在加强相关领域研究。",
+      "source_analysis": "来自Daily Nous，报道客观，主要提供人事变动信息，无显著立场倾向。",
+      "social_impact": "反映了学术界对跨性别议题的日益关注，以及加拿大在吸引国际人才方面的竞争力。",
+      "source_text": "Bettcher from Cal State LA to Waterloo。Talia Mae Bettcher, previously professor of philosophy at California State University, Los Angeles, has accepted a position at the University of Waterloo. Professor Bettcher is well-known for her work in trans philosophy and feminist philosophy. She is the author of Beyond Personhood: An Essay in Trans Philosophy (2024), among other works, which you can learn about here and here. At Waterloo, Bettcher will be the Eddie Goldenberg Research Chair in Gender-Based Violence Prevention and Trans Community Resilience in the Department of Philosophy in the university&#8217;s new School of Social, Political and Historical Research. (According to an announcement from the university, &#8220;the Eddie Goldenberg Research Chairs of Canada program [provides] up to $1 billion over 12 years to help Canadian post-secondary institutions recruit exceptional international researchers.) The post Bettcher from Cal State LA to Waterloo first appeared on Daily Nous .",
+      "source_title": "Bettcher from Cal State LA to Waterloo",
+      "source_url": "https://dailynous.com/2026/08/28/bettcher-from-cal-state-la-to-waterloo/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "H5禽流感首次感染海豚，南极研究站人员因‘心理风险’撤离",
+      "entities": [
+        {
+          "name": "H5禽流感",
+          "explain": "一种高致病性禽流感病毒，近年来在全球鸟类中传播，并开始感染哺乳动物。"
+        },
+        {
+          "name": "麦夸里岛",
+          "explain": "澳大利亚位于南大洋的亚南极岛屿，设有研究站。"
+        },
+        {
+          "name": "小蓝企鹅",
+          "explain": "世界上最小的企鹅物种，主要分布在澳大利亚和新西兰沿海。"
+        }
+      ],
+      "summary": "南澳大利亚州一只海豚死于H5禽流感，这是该病毒第二次感染本土哺乳动物。同时，塔斯马尼亚州金岛发现约100只小蓝企鹅死亡，但因尸体腐烂无法检测。此外，麦夸里岛研究站人员因‘心理社会风险’被撤离，可能与禽流感疫情带来的压力有关。",
+      "relevant": "H5禽流感跨物种传播能力增强，对野生动物和生态系统构成严重威胁，可能影响南极生态链。",
+      "context": "H5禽流感自2021年起在全球引发大规模鸟类死亡，并逐渐感染哺乳动物。此次海豚感染和企鹅死亡表明病毒在南半球进一步扩散，南极研究站人员撤离或与疫情应对压力有关。",
+      "source_analysis": "来自《卫报》，报道基于官方声明，客观呈现事实，无显著倾向。",
+      "social_impact": "涉及南极生态系统的脆弱性，以及病毒对野生动物和科研活动的双重影响，引发对生物安全的高度关注。",
+      "source_text": "A dolphin has died from H5 bird flu in South Australia, marking the second native mammal species known to have contracted the virus. On Friday afternoon, the Tasmanian government said it was assessing the discovery of about 100 dead little penguins on King Island but it was unable to test them for H5 bird flu due to their “decayed condition”. It comes as the federal government announced it would withdraw researchers from the sub-Antarctic Macquarie Island research station due to the “psychosocial risk” of witnessing potential mass seal deaths from H5N1 during the upcoming seal breeding season. The common dolphin was found recently deceased near Goolwa on South Australia’s Fleurieu Peninsula. State tests confirmed the animal was positive for H5N1, with samples sent to the Australian Centre for Disease Preparedness for further analysis. It follows two earlier detections in long-nosed fur seals in SA at Beachport and the Pages Islands and a case in a red fox – a feral pest species – near Port Adelaide. The federal government’s risk assessment rated common dolphins at high risk from bird flu, meaning they potentially face severe population declines where the virus takes hold. “While the detection in the common dolphin is a new development in Australia, there is evidence of dolphins and porpoises catching H5 bird flu overseas,” a spokesperson for SA’s Department of Primary Industries and Regions said. “Dolphins would not commonly eat birds but it is not unusual for them to sometimes interact.” In Tasmania, the state government said about 100 dead little penguins were found at Stokes Point, the southern tip of King Island, during wildlife monitoring activities. The government has labelled the deaths a mass mortality event but said the cause had not been established. The natural resources and environment department said the birds were not considered suitable for H5 bird flu testing due to their decayed condition. Brendon Clark, north-west regional manager for the state’s parks and wildlife service, said authorities were working to “assess the circumstances surrounding the discovery and determine whether any further management actions are required”. “Any loss of wildlife is concerning, and we recognise this discovery will be upsetting for residents, visitors and others who care deeply about Tasmania’s unique wildlife. “While assessments of the site have identified injuries on many of the birds, it is not possible to definitively determine the cause of death from t",
+      "source_title": "Dolphin dies from H5 bird flu in SA as researchers withdrawn from sub-Antarctic island over ‘psychosocial risk’",
+      "source_url": "https://www.theguardian.com/environment/2026/aug/28/dolphin-dies-from-h5-bird-flu-in-sa-as-researchers-withdrawn-from-sub-antarctic-island-over-psychosocial-risk",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "女性从小被训练抑制食欲，认知代价巨大",
+      "entities": [
+        {
+          "name": "Sarah Berg",
+          "explain": "本文作者，关注女性饮食与社会关系。"
+        }
+      ],
+      "summary": "文章指出，女性从童年起就被社会文化训练要限制自己的食欲，这种压抑不仅影响身体健康，还带来巨大的认知代价。作者认为，饥饿的女性更容易被忽视，而‘吃饱’的女性则更受重视，揭示了饮食与权力之间的深层联系。",
+      "relevant": "该文将女性饮食问题与社会认知联系起来，为理解性别不平等提供了新视角，可能引发关于女性自主权的讨论。",
+      "context": "社会对女性身材的刻板要求导致女性普遍节食，但很少有人关注这种限制对认知功能和社会地位的影响。",
+      "source_analysis": "来自Aeon，一个以哲学、科学和社会议题为主的在线杂志，文章带有女性主义视角。",
+      "social_impact": "涉及女性健康、社会偏见和性别权力结构，可能影响公众对女性饮食问题的认知。",
+      "source_text": "Listen to this essay 20 minute listen Here is something we have never quite said out loud: for a significant portion of the world’s women, hunger is not a temporary state. It is a cognitive condition. It flows beneath everything: the meeting, the conversation, the stream of thought that almost ran its course before something more insistent pulled it back. For many of us, the state of hunger was present since we were old enough to understand that our bodies were under review. I was 11. I was sitting beside a swimming pool that summer, the one before middle school started, trying to follow a conversation I kept losing. I had decided, with the particular certainty children sometimes develop about the rules of the world they are entering, that I would eat as little as possible before sixth grade. The plan involved a sleeve of SnackWell’s cookies per day: fat-free, engineered to taste like cardboard, manufactured specifically for women and girls who had been told that fat was the enemy and desire was something to be managed rather than answered. The SnackWell’s cookie was itself a cultural artefact, a product designed to help women comply with an instruction they had already internalised. It did not quiet the hunger, because hunger is not a preference. It is biology doing what biology does when a body is not fed, sending signals that push everything else aside. During the day, we swam, lay on the concrete, and talked about the coming year. My attention kept sliding away from the conversation. A thought would begin and dissolve into the same insistent loop: how long until dinner, how little I could manage when it arrived, whether anyone had noticed what my body was doing without my permission. I remember listening to a teammate tell a long story and realising I had not heard most of it. Something louder had taken the space the story needed. By the end of the week, my swimsuit hung loose at the shoulders. On the first day back at school, a friend’s mother stopped at the sight of me, looked me over the way you assess a renovation that has come out well, and said I had a ‘new figure’. She said it warmly, the way adults hand children gifts. An adult woman looked at my starved child’s body and offered approval as a kindness. I took it, absorbing the rules of the game before I could even name them: something had been taken from me, and something had been returned. The week spent partially elsewhere, the conversations half-heard, were just the labour required to keep m",
+      "source_title": "The fog of hunger",
+      "source_url": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "视频：触觉——通往物理学和哲学深层问题的‘门’",
+      "entities": [
+        {
+          "name": "Aeon Video",
+          "explain": "Aeon杂志的视频栏目，制作关于科学、哲学和文化的短片。"
+        }
+      ],
+      "summary": "Aeon Video发布了一部将文字与图像融合的短片，将触觉作为探索物理学和哲学深层问题的切入点。视频通过‘排斥是吸引的核心’这一悖论，展示了触觉如何揭示物质世界和人类感知的复杂性。",
+      "relevant": "该视频以艺术化的方式连接科学与哲学，为公众理解抽象概念提供了直观体验。",
+      "context": "触觉是人类最基础的感官之一，但常被忽视。视频旨在通过视觉和语言结合，引发对触觉本质的思考。",
+      "source_analysis": "来自Aeon，该平台以深度内容著称，视频风格偏学术和艺术化。",
+      "social_impact": "可能提升公众对感官哲学的兴趣，促进跨学科思考。",
+      "source_text": "A Vocabulary for the Future is a series by the Centre de Cultura Contemporània de Barcelona in which notable thinkers reflect on a word of their choosing and are paired with filmmakers who give their writing a visual interpretation. Together, they invite viewers to see familiar language anew, in the hope of laying the groundwork for a better tomorrow. In this instalment, the American theoretical physicist and feminist theorist Karen Barad muses on the nature of touch. Drawing partly on their essay ‘On Touching—The Inhuman That Therefore I Am’ (2012), Barad begins with a puzzle from classical physics: touch, strictly speaking, never happens, since what we feel as contact is only electromagnetic repulsion between atoms that never actually meet. Turning to quantum field theory, they reframe the question entirely. If matter has no stable, self-contained identity – if it is entangled with other matter from the very start – then touch is not a failed meeting between separate bodies, but something already constitutive of what matter is. Paired with visuals by the Barcelona-based digital artist Blanca Rego, the result is a mesmerising set of images that, alongside Barad’s words, turn something as ordinary as touch into a doorway into the deepest questions in physics and philosophy.",
+      "source_title": "A vocabulary for the future: touch",
+      "source_url": "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "大卫·鲍伊的智慧：关于艺术、宗教、技术和更多",
+      "entities": [
+        {
+          "name": "大卫·鲍伊",
+          "explain": "英国传奇音乐家、演员和文化偶像，以创新和多重身份著称。"
+        },
+        {
+          "name": "Ziggy Stardust",
+          "explain": "鲍伊在70年代初创造的虚构外星摇滚明星形象，是其最著名的角色之一。"
+        }
+      ],
+      "summary": "文章探讨了大卫·鲍伊作为文化偶像的智慧，指出他不仅是摇滚明星，更是通过Ziggy Stardust等角色对艺术、宗教和技术进行深刻思考的艺术家。鲍伊的多重人格反映了他对身份和现实的持续探索。",
+      "relevant": "鲍伊的思想对当代文化仍有影响，文章为理解其艺术遗产提供了哲学视角。",
+      "context": "鲍伊于2016年去世，但其作品和思想持续被讨论。文章基于其公开访谈和作品，提炼其观点。",
+      "source_analysis": "来自Open Culture，一个提供免费文化教育资源的网站，内容偏人文和艺术。",
+      "social_impact": "可能引发对鲍伊艺术哲学的重新关注，尤其对年轻一代的文化爱好者。",
+      "source_text": "It doesn’t quite ring true to call David Bowie a rock star. Ziggy Stardust, the neon synthetic-clad alien alter ego he both created and retired in the early seventies, was, of course, rock stardom outlandishly personified. But then, that was the concept of what turned out to be just one of many personae he deliberately crafted throughout the course of his career. That career was in music, primarily, but looking back on it today, more than a decade after Bowie’s death, it looks more like his medium was culture itself. That’s underscored by his interviews, clips from a variety of which appear in the new video above from YouTube channel T&H Inspiration. Most of T&H’s most popular videos add visuals to speeches by the popularizer of Eastern philosophy Alan Watts, who’s been featured here on Open Culture before. He and Bowie had more in common than it may seem at first, beginning with an Englishness that remained thoroughgoing no matter how far out they ventured into the world. Though Watts’ interest in Buddhism hardly needs stating, it’s worth remembering that he chose to be ordained as an Episcopalian priest rather than as a Buddhist monk. The young Bowie, for his part, very nearly took the latter path, studying under the late Lama Chime Rinpoche, who eventually told him he’d be better off going into the music business. Bowie did so, of course, but with a new “sense of transience and change, which actually became fundamental to my life and my approach to it,” as he put it decades later. That sense manifests even in his early work, but embracing and even pursuing impermanence — the impermanence of sounds, of fashions, of hit records, of life itself — also kept him from getting mired in the irrelevance or auto-kitsch that threatens every superstar. Given the belief that nothing lasts forever, “looking for the source of one’s own being becomes much more important,” as does attempting artistic or intellectual challenges at the very edge of one’s abilities. Alan Watts would probably have agreed. The bigger question is, did he ever hear “Changes”? Related Content: David Bowie on Why It’s Crazy to Make Art — and We Do It Anyway (1998) The Art Collection of David Bowie: An Introduction How Leonard Cohen & David Bowie Faced Death Through Their Art: A Look at Their Final Albums Based in Seoul, Colin Marshall writes and broadcasts on cities, language, and culture. He’s the author of the newsletter Books on Cities as well as the books 한국 요약 금지 (No Summarizing Korea) and ",
+      "source_title": "The Wisdom of David Bowie: On Art, Religion, Technology and More",
+      "source_url": "https://www.openculture.com/2026/08/the-wisdom-of-david-bowie-on-art-religion-technology-and-more.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "印尼婆罗洲社区项目在疫情期间显著降低森林砍伐率",
+      "entities": [
+        {
+          "name": "Mongabay",
+          "explain": "一家专注环境与自然保护报道的非营利新闻网站"
+        },
+        {
+          "name": "西加里曼丹省",
+          "explain": "印度尼西亚在婆罗洲岛上的一个省份，拥有大片热带雨林"
+        },
+        {
+          "name": "Lancet Planetary Health",
+          "explain": "《柳叶刀》旗下专注于星球健康与可持续发展的同行评审医学期刊"
+        }
+      ],
+      "summary": "一项发表在《柳叶刀-星球健康》上的同行评审研究发现，在COVID-19疫情期间，印尼西加里曼丹省那些获得保护组织提供医疗和生计支持的村庄，森林损失显著减少。这表明社会安全网在经济危机时期能有效保护森林资源。",
+      "relevant": "该研究为全球森林保护政策提供了新证据，证明社区支持项目不仅能改善民生，还能在危机中保护生态环境，对制定气候与生物多样性政策具有参考价值。",
+      "context": "COVID-19疫情导致全球经济衰退，许多地区因经济压力而加剧了对自然资源的开采，森林砍伐风险上升。此前研究多关注疫情对森林的负面影响，而这项研究首次系统评估了社区支持项目在危机中的缓冲作用。",
+      "source_analysis": "Mongabay是一家以环境报道见长的非营利新闻机构，立场偏向生态保护，报道通常基于科学研究，引用同行评审文献。",
+      "social_impact": "研究覆盖西加里曼丹省多个村庄，数据表明社区健康与生计支持项目可降低森林损失率，为‘社区主导的保护’模式提供了量化依据，可能影响国际援助和森林保护资金的分配。",
+      "source_text": "- As climate and economic shocks put pressure on tropical forests, a new study suggests support for rural communities could help protect forests while strengthening their ability to withstand crises. - Forest loss in protected areas of West Kalimantan on the Indonesian part of Borneo fell during the COVID-19 pandemic, with a larger decline in villages receiving health and livelihood support, the study finds. - The findings point to health care, alternative livelihoods and other social support as potential tools for easing pressure on forests and helping forest-dependent communities adapt to future economic and environmental shocks — although the study does not establish a direct cause-and-effect relationship. Villages in Indonesia’s West Kalimantan saw less forest loss during the COVID-19 pandemic when conservation groups provided health and livelihood support, a new study has found, suggesting social safety nets can help protect forests during economic crises. The peer-reviewed study, published last month in Lancet Planetary Health, suggests forest loss in West Kalimantan province on the Indonesian part of Borneo fell sharply during the pandemic, as weak timber demand and travel restrictions made logging less profitable and harder to carry out. At the same time, villages with access to alternative livelihoods and other support were less reliant on forests for income, the paper adds. The researchers say their study is among the first to combine household surveys with detailed satellite data to examine how the pandemic affected rural livelihoods and forest loss in the same communities, offering a closer look at how economic shocks and social support can influence pressure on tropical forests. “As the pandemic started, we expected economic hardships to cause illegal logging to increase again,” Skylar Hopkins, an assistant professor at North Carolina State University and the lead author for the new study, said in a statement. Mapping deforestation trends Before the pandemic, average forest loss was 52% lower in NGO-affiliated villages than in unaffiliated villages, the study finds. Indonesia has the world’s third-largest tropical forest area, a major store of biodiversity and carbon, long threatened by logging, agricultural expansion and fires. The researchers surveyed 10 villages in West Kalimantan in late 2021: six communities supported by the health and livelihood NGOs Alam Sehat Lestari (ASRI) and Yayasan Planet Indonesia (YPI) and four nearby communities",
+      "source_title": "Community programs linked to lower forest loss in Indonesia’s Borneo during COVID-19",
+      "source_url": "https://news.mongabay.com/2026/08/community-programs-linked-to-lower-forest-loss-in-indonesias-borneo-during-covid-19/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "新加坡重启射杀乌鸦行动引发野生动物管理争议",
+      "entities": [
+        {
+          "name": "新加坡",
+          "explain": "东南亚高度城市化的岛国，以严格的城市管理著称"
+        },
+        {
+          "name": "乌鸦",
+          "explain": "一种适应城市环境的鸟类，在新加坡数量过多，常攻击行人"
+        },
+        {
+          "name": "Robin Hicks",
+          "explain": "为Mongabay供稿的自由撰稿记者"
+        }
+      ],
+      "summary": "新加坡政府因公众投诉乌鸦袭击行人和骑行者，重启了射杀乌鸦的行动，此举在高度城市化的城邦国家引发了关于致命野生动物管理方式的激烈辩论。支持者认为需控制鸟害，反对者则质疑其有效性和伦理。",
+      "relevant": "该事件反映了全球城市化进程中野生动物与人类冲突的普遍难题，新加坡的应对策略可能成为其他城市的参考或警示案例。",
+      "context": "新加坡曾通过城市绿化吸引乌鸦，但乌鸦数量激增后开始骚扰居民。政府此前曾暂停射杀计划，因公众投诉增加而于2026年3月宣布恢复，引发动物保护组织和部分市民的反对。",
+      "source_analysis": "Mongabay报道，该媒体倾向生态保护视角，报道中引用了反对者的观点，但对政府决策的批评较为克制。",
+      "social_impact": "新加坡乌鸦数量估计超过20万只，射杀行动涉及公共安全与动物福利的平衡，在社交媒体上引发广泛讨论，也引起国际动物保护组织的关注。",
+      "source_text": "The resumption of a crow-shooting campaign in Singapore has revived intense debate over lethal wildlife management in the highly urbanized city-state. Government officials revived the culling program in response to public complaints about crow attacks on pedestrians and cyclists, reports contributor Robin Hicks for Mongabay. In a public statement in March announcing the resumption of crow shooting, National Development Minister Chee Hong Tat said that alternative measures such as trapping the birds, tree pruning, and removing nearly 9,000 nests in 2025 had proved insufficient. How Choon Beng, director of wildlife management at the National Parks Board, told Hicks that shooting, combined with other measures, would lead to a “gradual and sustained reduction” in crow numbers. But some experts say culling is merely a reactive measure that fails to address the underlying drivers of the bird boom. Albert Liu, assistant director for conservation at the nonprofit Nature Society Singapore, told Hicks that culling primarily serves “to show the public that something is being done” and “treats the symptoms, not the cause.” Ecologists point out that the hyperabundance of “nuisance” birds, such as house crows (Corvus splendens), Javan mynas (Acridotheres javanicus) and common pigeons (Columba livia), is driven entirely by human-made urban conditions. A global review of more than 400 studies found that most crow species grow more abundant as cities expand because urban areas provide plenty of food, nesting spots, and few predators. A Singapore-specific study from 2003 supports these findings. For example, crows often nest in the yellow flame trees (Peltophorum pterocarpum) common along Singapore’s streets, while pigeons and mynas can be found nesting on air-conditioning ledges and under sheltered walkways in public housing estates. Hawker centers in the city also provide easy access to leftover food, and many residents still feed the birds, even though it’s illegal. Ongoing forest clearance for public housing in parts of the country is projected to expand the urban environments where these highly adaptable birds thrive. “As long as we keep providing unlimited food and increasing numbers of nest sites, the population will grow,” John Marzluff, a professor of wildlife science at the University of Washington in the U.S., told Hicks. “This is not rocket science — it is plain biology.” Liyin Lim, founder of the community group Urban Birds Initiative, said if people don’t lear",
+      "source_title": "Singapore made a crow-friendly city. Now it wants to shoot them",
+      "source_url": "https://news.mongabay.com/short-article/2026/08/singapore-made-a-crow-friendly-city-now-it-wants-to-shoot-them/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "澳大利亚濒危东部袋鼬保护种群迎来新生幼崽",
+      "entities": [
+        {
+          "name": "东部袋鼬",
+          "explain": "澳大利亚特有的小型夜行性有袋食肉动物，外形类似鼬，身上有白斑，濒临灭绝"
+        },
+        {
+          "name": "joeys",
+          "explain": "袋鼬幼崽的英文俗称，指有袋类动物的幼崽"
+        },
+        {
+          "name": "悉尼",
+          "explain": "澳大利亚最大城市，报道中提到的新闻来源地"
+        }
+      ],
+      "summary": "澳大利亚濒危的东部袋鼬保护种群迎来了新出生的幼崽，这对该物种的保育工作是一个积极信号。东部袋鼬曾广泛分布于澳大利亚东部沿海，现因栖息地丧失和天敌威胁而数量锐减。",
+      "relevant": "东部袋鼬是澳大利亚标志性濒危物种，新生幼崽标志着保护繁殖项目的成功，为物种恢复带来希望，也凸显了本土有袋类动物面临的生存挑战。",
+      "context": "东部袋鼬曾广泛分布于澳大利亚东部，但因狐狸和猫的捕食、栖息地破坏而濒危。保护机构通过人工繁殖和建立保护种群来维持其基因多样性，此次新生幼崽是这一长期努力的结果。",
+      "source_analysis": "Mongabay报道，该媒体关注生物多样性保护，报道通常带有积极保育视角，引用保护机构数据。",
+      "social_impact": "东部袋鼬现存野生种群数量估计不足数千只，保护种群的成功繁殖为未来野放计划提供了可能，也提高了公众对澳大利亚本土濒危物种的关注。",
+      "source_text": "- The endangered eastern quolls are functionally extinct in the wild on the Australian mainland, but wild populations still survive in Tasmania. - In fox-free Tasmania, predation by cats is likely a driver of wild population decline. - Released captive-bred eastern quolls in Tasmania are now demonstrating successful interbreeding with wild populations. - Meanwhile, work to rewild eastern quolls on the mainland has seen captive-bred quolls released into predator-proof conservation reserves, with plans to scale up over the coming years. SYDNEY — The endangered eastern quoll, one of Australia’s species of quoll, is a nocturnal carnivorous marsupial that is small in stature with a ferret-like pointed face and a bushy tail. The mammal has two primary color variants: Light fawn and blackish-brown, with white spots on the body. Once so widespread along the eastern coastal fringe of Australia, the eastern quoll (Dasyurus viverrinus) was described as being in “plague abundance” and was occasionally kept as a pet and prized by farmers for its skills in hunting rodents. It was even called a native cat in the 1800s due to its resemblance in both size and hunting behavior to the domestic feline, brought by settlers from Europe. Despite its onetime abundance on the Australian mainland, by the 1960s the last known remaining eastern quoll population was lost. Disease, habitat loss, car strikes and predation by cats, dogs and invasive foxes led to the demise of the species. However, a taxidermied specimen of an eastern quoll emerged in 2016, purportedly originally picked up as roadkill in the Barrington Tops, northwest of Sydney, in 1989 and handed over to the National Parks and Wildlife Service nearly three decades later. This could mean that the species survived for decades longer than official records suggest. Although now considered extinct in the wild on the mainland, the eastern quoll has not been lost entirely. The southern Australian island of Tasmania, free of the predatory invasive foxes, is home to a number of wild populations of eastern quoll. The exact number of eastern quolls is not available, though the IUCN Red List estimates the population to be between 10,000 and 12,000 mature individuals. However, those numbers are from a 2014 assessment. They mainly lived in northern and eastern Tasmania, according to a 2023 study that used historical wildlife survey data and contemporary sightings. However, the research also revealed a dramatic drop in their population",
+      "source_title": "The conservation population of Australia’s endangered eastern quoll welcomes joeys",
+      "source_url": "https://news.mongabay.com/2026/08/the-conservation-population-of-australias-endangered-eastern-quoll-welcomes-joeys/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "本周野生动物精选：康沃尔沙袋鼠、疲惫负鼠与稀有蒙塔古鹞雏鸟",
+      "entities": [
+        {
+          "name": "康沃尔",
+          "explain": "英国西南部的一个郡，以海岸和乡村风光著称"
+        },
+        {
+          "name": "沙袋鼠",
+          "explain": "一种小型袋鼠，原产于澳大利亚，但在英国部分地区有野生种群"
+        },
+        {
+          "name": "蒙塔古鹞",
+          "explain": "一种稀有的猛禽，在欧洲和亚洲繁殖，英国数量极少"
+        }
+      ],
+      "summary": "《卫报》发布了本周全球最佳野生动物照片，包括在英国康沃尔发现的沙袋鼠、一只看起来疲惫的负鼠，以及罕见的蒙塔古鹞雏鸟。这些照片展示了世界各地野生动物的多样性和趣味瞬间。",
+      "relevant": "作为视觉新闻，这组照片为读者提供了欣赏自然之美的窗口，同时提醒人们关注野生动物保护，尤其是稀有物种如蒙塔古鹞的生存状况。",
+      "context": "《卫报》每周定期发布野生动物摄影集，汇集全球摄影师的作品，旨在展示自然界的精彩瞬间并唤起公众对生态保护的关注。",
+      "source_analysis": "《卫报》是英国主流自由派报纸，其环境报道通常带有生态保护倾向，摄影集注重艺术性与新闻性结合。",
+      "social_impact": "照片中出现的沙袋鼠在康沃尔属于外来物种，反映了非本土物种的扩散问题；蒙塔古鹞在英国繁殖数量极少，其雏鸟照片具有保育宣传意义。",
+      "source_text": "Skip to main content Skip to navigation Close dialogue 1 / 24 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us View image in fullscreen The week in wildlife Week in wildlife: a Cornish wallaby, a frazzled opossum and rare Montagu’s harrier chicks This week’s best wildlife photographs from around the world An alligator in Rio de Janeiro, Brazil. Photograph: Anadolu/Getty Pejman Faratin Fri 28 Aug 2026 02.00 EDT Share View image in fullscreen On the hop … this wallaby took a driver by surprise when it crossed the road in Liskeard, Cornwall. “I thought it was a German shepherd … then it got up and started bouncing towards the cattle market,” said Scot Weller. He pulled up alongside it and said: “Hello, you’re not from around here, are you?” No one is sure where it came from, but the RSPCA says wallabies are considered established in the wild in Britain as a result of escaping from captivity Photograph: Scot Weller/SWNS Share View image in fullscreen A manta ray glides through the clear water at Ras Mohamed marine national park on the Sinai peninsula, Egypt Photograph: Anadolu/Getty Share View image in fullscreen A Siberian chipmunk on Geumjeongsan mountain, South Korea. The stripy rodents, which look remarkably like their North American cousins, are native to Russia and the far east, but have spread ac",
+      "source_title": "Week in wildlife: a Cornish wallaby, a frazzled opossum and rare Montagu’s harrier chicks",
+      "source_url": "https://www.theguardian.com/environment/gallery/2026/aug/28/week-in-wildlife-cornish-wallaby-frazzled-opossum-rare-montagus-harrier-chicks",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "NASA曾邀安迪·沃霍尔、安妮·莱博维茨等350多位艺术家记录太空计划",
+      "entities": [
+        {
+          "name": "NASA",
+          "explain": "美国国家航空航天局，负责美国的太空探索计划"
+        },
+        {
+          "name": "安迪·沃霍尔",
+          "explain": "美国著名波普艺术家，以丝网印刷作品闻名"
+        },
+        {
+          "name": "安妮·莱博维茨",
+          "explain": "美国知名肖像摄影师，以名人摄影著称"
+        },
+        {
+          "name": "詹姆斯·韦伯",
+          "explain": "NASA第二任局长，1962年创立NASA艺术项目"
+        }
+      ],
+      "summary": "1962年，NASA局长詹姆斯·韦伯创立了NASA艺术项目，邀请包括安迪·沃霍尔、安妮·莱博维茨、诺曼·洛克威尔在内的350多位艺术家，以视觉方式记录美国的太空计划。艺术家们享有创作自由，不受审查，作品涵盖绘画、摄影等多种形式。",
+      "relevant": "这一历史项目展示了艺术与科学的跨界合作，为太空探索留下了独特的文化记录，也反映了60年代美国公众对太空的热情。",
+      "context": "20世纪60年代初，美国正处于太空竞赛高潮，公众对航天充满兴趣。NASA希望通过艺术家的视角，以更人文的方式呈现太空计划，而不仅仅是技术数据。",
+      "source_analysis": "Open Culture是一个分享文化教育资源的网站，报道偏向人文历史视角，内容基于历史档案整理。",
+      "social_impact": "该项目产出了大量艺术作品，成为美国太空遗产的一部分，影响了后世对太空探索的文化想象，也开创了政府机构与艺术家合作的先例。",
+      "source_text": "It’s hard to imagine that the space-crazed general public needed any help getting worked up about astronauts and NASA in the early ’60s. Perhaps the wild popularity of space-related imagery was in part what motivated NASA administrator James Webb to create the NASA Art Program in 1962. Although the program’s handpicked artists weren’t edited or censored in any way, they were briefed on how NASA hoped to be represented, and which emotions their creations were meant to capture—the excitement and uncertainty of exploring these frontiers. NASA was also careful to collect everything the artists produced while participating in the program, from sketches to finished work. In turn, the artists received unprecedented access to launch sites, key personnel, and major events such as Project Mercury and the Apollo 11 Mission. Hundreds of artists, including Andy Warhol, Norman Rockwell, and Laurie Anderson, have brought their unique sensibilities to the project. (Find NASA-inspired art by Warhol and Rockwell above.) (And hey, no shame if you mistakenly assumed Warhol’s 1987 Moonwalk 1 was created as a promo for MTV…) Jamie Wyeth’s 1964 watercolor Gemini Launch Pad includes a humble bicycle, the means by which technicians traveled back and forth between the launch pad and the reinforced-concrete blockhouse where they worked. Photographer Annie Leibovitz offers two views of NASA’s first female pilot and commander, Eileen Collins—with and without helmet. Postage stamp designer, Paul Calle, one of the inaugural group of participating artists, produced a stamp commemorating the Gemini 4 space capsule in celebration of NASA’s 9th anniversary. When the Apollo 11 astronauts suited up prior to blastoff on July 16, 1969, Calle was the only artist present. His quickly rendered felt-tip marker sketches lend a backstage element to the heroic iconography surrounding astronauts Armstrong, Aldrin and Collins. One of the items they carried with them on their journey was the engraved printing plate of Calle’s 1967 commemorative stamp. They hand-canceled a proof aboard the flight, on the assumption that post offices might be hard to come by on the moon. In 2016, NASA’s Jet Propulsion Laboratory enlisted a team of nine artists, designers, and illustrators to collaborate on 14 posters, a visual throwback to the ones the WPA created between 1938 and 1941 to spark public interest in the National Parks. You can see the results at the Exoplanet Travel Bureau. More recently, in 2024, NASA and th",
+      "source_title": "NASA Enlists Andy Warhol, Annie Leibovitz, Norman Rockwell & 350 Other Artists to Visually Document America’s Space Program",
+      "source_url": "https://www.openculture.com/2026/08/nasa-enlists-artists-to-visually-document-americas-space-program.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "包豪斯女性：著名艺术学校女学生与教师的先锋摄影",
+      "entities": [
+        {
+          "name": "包豪斯",
+          "explain": "1919年成立于德国魏玛的著名艺术与设计学校，对现代设计影响深远"
+        },
+        {
+          "name": "马塞尔·布劳耶",
+          "explain": "包豪斯著名设计师，以钢管家具设计闻名"
+        },
+        {
+          "name": "埃里希·康塞缪勒",
+          "explain": "包豪斯摄影师，拍摄了多幅记录学校生活的作品"
+        }
+      ],
+      "summary": "文章展示了包豪斯摄影师埃里希·康塞缪勒拍摄的历史照片，包括名为《马塞尔·布劳耶和他的后宫》的作品，记录了包豪斯学校中女性学生和教师的形象。这些照片展现了包豪斯女性在艺术和设计领域的先锋角色。",
+      "relevant": "包豪斯女性常被忽视，这组照片重新审视了她们在艺术史中的地位，也为研究现代设计教育中的性别问题提供了视觉资料。",
+      "context": "包豪斯学校虽倡导平等，但女性学生常被引导至纺织等‘女性化’领域。这些照片拍摄于1920年代，记录了当时女性在艺术学校中的真实状态，既有先锋性也有历史局限性。",
+      "source_analysis": "Open Culture网站，报道带有文化历史普及性质，引用历史照片和档案，视角偏学术但通俗。",
+      "social_impact": "照片中女性形象挑战了传统性别角色，为当代性别平等讨论提供了历史参照，也引发对包豪斯内部性别歧视的重新审视。",
+      "source_text": "Take a look at photos of Bush Tetras — a three-girl-one-guy No Wave/Post-Punk band from the early 1980s downtown Manhattan scene. Now, look at the photograph above, “Marcel Breuer and His Harem,” by Bauhaus photographer Erich Consemüller, taken sometime around 1927. Except for the fact that Breuer looks more like Ron Mael of Sparks sans mustache than drummer Dee Pop, one might mistake this for a photo of the punk band. This raises a few questions: did art students Bush Tetras look to the women of the Bauhaus for their style? Or did the women of the Bauhaus look to the future and see punk? The second scenario seems more likely since the women of the Bauhaus have not, until recently, been terribly well-known. I personally feel cheated after studying art and art history in college many years ago and only now getting introduced to several significant artists of the radical German art school founded by Walter Gropius. All of its famous exponents and art stars are men, but it seems the gender ratio of the Bauhaus was closer to that of the general population (as was, in many cases, that of the early punk and post-punk scenes). But we don’t tend to learn the names or see the work of these artists, and, in some cases, their work has been posthumously attributed to their male colleagues. Nor are we familiar with their progressive personal style, essential in the Bauhaus’s total approach to revolutionizing the arts, including fashion, as a way to liberate humanity from the dogmas of the past. How unfortunate that the memory of the Bauhaus, like the memory of punk, replicated the same old rules its artists broke. The school’s gender equality was radical, hence the photograph’s satirical title, which “expresses the precise opposite of what the photo itself shows,” notes the site Bauhaus Kooperation: “the modernity, emancipation, equality, or even superiority, of the women in it.” The “junior master” of the carpentry workshop, Breuer looks at the three artists to his left “skeptically, with his arms crossed,” as if to say, “ ‘These are ‘my’ women?!’ ” The artists of the “harem,” from left to right, are Breuer’s wife Martha Erps, Katt Both, and the photographer’s wife, Ruth Hollós, who “seems to be suppressing laughter as she looks towards the photographer (her husband).” Erich Consemüller, who taught architecture at the Bauhaus, had been tasked by Gropius with documenting the school and its life. Gropius partnered him with photographer Lucia Moholy, wife of László Mohol",
+      "source_title": "The Women of the Bauhaus: See Hip, Avant-Garde Photographs of Female Students & Instructors at the Famous Art School",
+      "source_url": "https://www.openculture.com/2026/08/women-of-the-bauhaus.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "Interpol新专辑《This Mirror Weighs a Ton》：沉重而令人沮丧",
+      "entities": [
+        {
+          "name": "Interpol",
+          "explain": "美国独立摇滚乐队，成立于1997年，以阴暗后朋克风格著称"
+        },
+        {
+          "name": "Andrew Wyatt",
+          "explain": "美国音乐制作人，曾与多位知名艺人合作，此次担任专辑制作人"
+        }
+      ],
+      "summary": "Pitchfork评论了Interpol的新专辑《This Mirror Weighs a Ton》，认为乐队在制作人Andrew Wyatt的协助下，呈现了一张强劲且符合其阴郁风格的专辑，但同时也带有一种令人沮丧的‘本可以更有趣’的遗憾感。",
+      "relevant": "Interpol是后朋克复兴的代表乐队，新专辑的质量直接影响乐迷期待，评论也反映了乐队当前创作状态。",
+      "context": "Interpol自2000年代走红后，作品风格一直保持阴暗、冷峻的基调。此次新专辑是乐队与制作人Andrew Wyatt的首次合作，乐迷和评论界关注其能否带来新突破。",
+      "source_analysis": "Pitchfork是权威独立音乐评论网站，以专业乐评著称，评分和评论对音乐市场有较大影响，立场偏向独立音乐审美。",
+      "social_impact": "Interpol的专辑销量和巡演受评论影响，Pitchfork的评分（未提及具体分数）可能影响乐迷购买意愿，但评论中‘更有趣的可能性’暗示乐队创作可能陷入瓶颈。",
+      "source_text": "Every four years, with the reliability of a reelection campaign, Interpol emerge with a new album that sounds remarkably like Interpol. They’re not the kind of band to wade through a murky psychedelia morass for an album-length fuck-you to casual fans, à la MGMT, or douse a long-awaited comeback LP in chintzy pop textures and copious Auto-Tune, like the Strokes just did. When Interpol make a record, they’re all business, and their business is being Interpol, brooding hooks and well-pressed suits and all. They may tweak the formula—the post-punk atmospherics, the alluringly charismatic baritone belonging to Paul Banks, the cryptic lyrics that connote dark emotions but are agile enough to be repurposed for goth tattoos or goofy memes. But they don’t toss it away. That reliability means you can count on them for consistency—aside from the dismal self-titled record, they’ve never made a bad one—but also means it can be tough to differentiate one post-Carlos Interpol album from another. Let’s see: There was the course-correction comeback that reintroduced Interpol as a three-piece, with Banks on bass. There was the surprisingly raw Dave Fridmann production that yielded some strong singles as the band settled into legacy status. There was the remotely written one that, uh, also had a bunch of Interpol songs on it. Now, after hunkering down with another new collaborator (prolific pop producer Andrew Wyatt, not to be confused with rock-dinosaur whisperer Andrew Watt) in their semi-estranged hometown of New York, Interpol return with another scheduled reset. No score yet, be the first to add. By all early signs, This Mirror Weighs a Ton promised a rebirth. It’s Interpol’s first album for Partisan, the thriving indie label that has lately attracted high-profile talent like Beth Orton and PJ Harvey. It’s their first to feature longtime touring bassist Brad Truax, now promoted to an official member. Early press included intriguing mentions of strings, woodwinds, and “experimental sound design” introduced by Wyatt. And its title track, released as a single, was surely the band’s most interesting song in more than a decade: Grainy and haunted, full of wobbly drum loops and gaseous synth clouds, it has a minimalist momentum and a command of empty space that gives Banks’ dour voice newfound authority. He sounds like a man brooding alone, coming unmoored: “All the kings are gone,” he sings, in between the celestial sighs delivered by his wife, fashion designer Juliet Seger",
+      "source_title": "This Mirror Weighs a Ton",
+      "source_url": "https://pitchfork.com/reviews/albums/interpol-this-mirror-weighs-a-ton/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "Jim James新专辑《Wowed Out》：十年最强个人作品",
+      "entities": [
+        {
+          "name": "Jim James",
+          "explain": "美国乐队My Morning Jacket的主唱和吉他手，也以个人名义发片"
+        },
+        {
+          "name": "My Morning Jacket",
+          "explain": "美国摇滚乐队，成立于1998年，风格融合摇滚、民谣和迷幻元素"
+        }
+      ],
+      "summary": "Pitchfork评论了My Morning Jacket主唱Jim James的最新个人专辑《Wowed Out》，认为他在专辑中表现得优雅而轻松，这是他十年来最出色的个人作品。评论对专辑给予高度评价。",
+      "relevant": "Jim James作为独立摇滚界的重要人物，其个人专辑的质量反映了他的创作状态，也影响乐迷对其乐队未来作品的期待。",
+      "context": "Jim James自2010年代开始发行个人专辑，风格多变，但此前作品评价不一。这张新专辑被认为回归了他的音乐本质，展现了他作为词曲作者的成熟。",
+      "source_analysis": "Pitchfork的评论，该媒体以独立音乐审美为主导，对艺术家的评价通常基于音乐创新性和情感表达。",
+      "social_impact": "‘十年最强’的评价可能提升专辑的销量和流媒体播放量，也可能带动Jim James的巡演热度，巩固他在独立乐坛的地位。",
+      "source_text": "How has Jim James not named an album Wowed Out already? With the classic rock fireworks and cosmic adventures of My Morning Jacket and his solo work alike, the phrase feels so apt that it could almost scan as self-parody. Yet James’ fifth solo album and first in eight years both plays into and thwarts expectations, his boundless voice suggesting it is, in fact, possible to hit capacity. Wielding an array of his wheelhouse sounds with acuity and warmth, James returns with an album whose maybe-goofy-maybe-pensive title allows him to dance between world-weariness and renewed awe, resulting in his best work in a decade. Wowed Out arrives somewhat out of nowhere, following a 2020s thus far spent with the revival of My Morning Jacket after the band nearly collapsed in on itself amid the grueling tours following 2015’s The Waterfall. During something of an unofficial hiatus, James was busy with solo material. Wowed Out originates from a vault of songs he originally worked on in the early ’10s with Brian Reitzell, the former Red Kross drummer, Air collaborator, and composer who provided music for several Sofia Coppola films. With much of the sketches destined for unrealized film scores, they sat untouched until James revisited them in the fall of last year. No score yet, be the first to add. The triumph of My Morning Jacket’s return was relative. For longtime fans, it was a joy to see the band resurrected, reportedly happier and healthier, still leaving scorched earth behind on any stage they visited. Yet the would-be comeback albums of 2021’s self-titled and 2025’s is felt more like ideas of what a My Morning Jacket album should be than My Morning Jacket albums that pushed the envelope the way their best work had. Though not without their highlights, the albums’ often streamlined production yielded a rote sense of attempted grandeur, gesturing at past highs rather than seeking new ones. On Wowed Out, James sounds unburdened even when singing about the weight of the modern world. He moves with subtlety and grace, perhaps liberated from the expectations of MMJ’s resurgence. Wowed Out is a predominantly mellow affair. James’ melodies seem to materialize and unspool, an unforced reclamation of the mystery that once permeated his writing. The now-familiar blend of folk, soul, and psychedelia dominates the album aesthetically, though James took spiritual cues from recordings of meditative organ performances by Alice Coltrane. There are moments on Wowed Out when a young",
+      "source_title": "Wowed Out",
+      "source_url": "https://pitchfork.com/reviews/albums/jim-james-wowed-out/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "梅格·梅森新作《苏菲，站在那里》书评：文学迷恋与真实作家客串的机智故事",
+      "entities": [
+        {
+          "name": "梅格·梅森",
+          "explain": "澳大利亚作家，以2020年悲喜剧小说《悲伤与狂喜》闻名。"
+        },
+        {
+          "name": "《悲伤与狂喜》",
+          "explain": "梅森2020年出版的畅销悲喜剧小说，探讨心理健康与婚姻。"
+        },
+        {
+          "name": "乔治·桑德斯",
+          "explain": "美国知名作家，以短篇小说闻名。"
+        },
+        {
+          "name": "安·帕切特",
+          "explain": "美国小说家，作品常探讨家庭与情感。"
+        },
+        {
+          "name": "米克·赫伦",
+          "explain": "英国犯罪小说作家，以“慢马”系列闻名。"
+        }
+      ],
+      "summary": "梅格·梅森新书《苏菲，站在那里》讲述一位心碎女性对著名作家的执迷。主角是文学节上的技术人员，隐形般的存在。书中出现乔治·桑德斯、安·帕切特等真实作家的客串描写，风格机智而感人。这是《悲伤与狂喜》的后续作品。",
+      "relevant": "梅森前作广受好评，新作备受期待。书中对真实作家的虚构描写引发文学界关注。",
+      "context": "梅森2020年出版《悲伤与狂喜》获得巨大成功，新作延续其标志性的机智与情感深度，聚焦文学圈边缘人物的视角。",
+      "source_analysis": "《卫报》书评版，英国主流自由派报纸，书评通常专业且具文学品味。",
+      "social_impact": "书中对文学节幕后场景的描写，揭示了出版业中技术人员被忽视的现状。",
+      "source_text": "The protagonist of Meg Mason’s new book, the follow-up to the 2020 tragicomedy Sorrow and Bliss, is an invisible woman. She might well be standing there but you won’t notice her. She’s a techie at literary festivals – the person who shuffles up to a famous writer a few minutes before their event and apologetically slides a microphone cable down their shirt while they’re making small talk with the chair or accepting a bottle of room-temperature mineral water from an anxious publicist. No man is a hero to his valet, and no writer is a hero to the technical staff lurking in the wings of a venue. Mason’s opening pages present a teasing but not quite libellous series of cameos from real writers: George Saunders deciding at an inconsiderately late stage to insist on swapping his headset for a lapel mic; Ann Patchett being frosty with a fan; Mick Herron accidentally stepping on someone’s foot and not apologising. Sophie lurks in the wings of her own life, too. She likes her job but she has much to be sad about. Not long ago, her husband brought their relationship to an end with oafish callousness (she was in the shower; he didn’t bother to take his earbuds out while he delivered the news), and with it her hope of becoming a mother. Now her beloved books are in storage in the garage of her old house and she’s living alone in a dingy rental flat owned by her husband: “The water in Sophie’s glass tasted like pipes. She felt very tired … The coffee table was actually a cable spool with ‘12 AWG’ spray-painted on the drum.” Mason’s prose is wan and witty, handling the admixture of pathos and bathos well; and her sinuous sentences capture the wavering movements of thought with less fuss and more laughs than, say, Virginia Woolf. As a bookish person, and one inhabiting a lightly metafictional narrative, Sophie is glumly aware of her literary analogues. There’s “a lot of sad girl fiction” on her Kindle. “Eleanor Oliphant,” she reflects. “That was the worst. Even though it was extremely well written and Sophie had recommended it to about 10 people when it first came out, in this moment, she wished she’d never heard of it and couldn’t recall the cheese scones and those cappuccinos Eleanor always ordered, the saddest of all the coffees.” Mason is brilliant, too, at describing the small but intense joys of everyday life – getting your scalp massaged at the hairdresser, for instance, or owning one really nicely designed pair of trousers. She’s likewise good at life’s routine h",
+      "source_title": "Sophie, Standing There by Meg Mason review – a tale of literary obsession, with cameos from real-life authors",
+      "source_url": "https://www.theguardian.com/books/2026/jul/28/sophie-standing-there-book-review-novel-author-meg-mason",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "伊曼纽尔·卡雷尔《集体农庄》书评：法国精英家族的复杂肖像",
+      "entities": [
+        {
+          "name": "伊曼纽尔·卡雷尔",
+          "explain": "法国著名作家，作品包括《宿敌》和《瑜伽》。"
+        },
+        {
+          "name": "法兰西学术院",
+          "explain": "法国权威学术机构，负责规范法语，其常任秘书地位崇高。"
+        },
+        {
+          "name": "埃马纽埃尔·马克龙",
+          "explain": "法国总统。"
+        },
+        {
+          "name": "伊莲娜·卡雷尔",
+          "explain": "作者的母亲，曾任法兰西学术院常任秘书，2023年去世。"
+        }
+      ],
+      "summary": "卡雷尔在母亲伊莲娜去世后，撰写400页回忆录致敬父母。伊莲娜曾任法兰西学术院常任秘书，马克龙出席其葬礼。书中揭示父母在纳粹、俄罗斯和法国学术背景下的非凡结合，也是作者对母亲生前禁止他写书的赎罪。",
+      "relevant": "卡雷尔是法国重要作家，此书涉及家庭秘密与历史创伤，兼具文学与历史价值。",
+      "context": "伊莲娜2023年去世，享年94岁。卡雷尔曾出版母亲禁止的书，造成母子隔阂，此书是和解之举。",
+      "source_analysis": "《卫报》书评，对法国文学有深入介绍，立场中立。",
+      "social_impact": "书中涉及法国精英阶层、二战历史及移民背景，引发对身份与家族记忆的讨论。",
+      "source_text": "When Emmanuel Carrère’s mother, Hélène, died in 2023, at the age of 94, President Macron spoke at her memorial. She had been “perpetual secretary” of the Académie Française, in effect its head, and 200 people gathered at Les Invalides in Paris to pay tribute. Emmanuel’s father, Louis, was there too, in a wheelchair, only half aware of what was going on. This 400-page memoir, translated into English by John Lambert, is a homage to both parents and the unlikely history that brought them together. It’s also an act of reparation towards Hélène, whom Emmanuel worshipped as a child but upset as an adult by publishing a book that she’d forbidden him to write. Hélène grew up in stateless poverty in Paris, the daughter of Georges Zourabichvili, whose parents had fled Georgia in 1921, and Nathalie von Pelken, who as a child had six governesses, one for each day excluding Sunday. Though “the magical world of the fallen Russian aristocracy” was the backdrop, conditions were tough, not least after Georges disappeared in 1944, murdered by partisans for alleged Nazi collaboration. Hélène was 15 at the time and unsuccessfully tried to hide the truth about George’s death from her younger brother, Nicolas. She was determined and highly ambitious. What she couldn’t excel at, she didn’t do. For a time she considered an acting career but found her metier as a Russian historian. It helped that she was charming and attractive, so much so that an Afghan pilot, on a flight from Tashkent to Paris via Tehran, first invited her to the cockpit, then landed the plane in Kabul in order to kidnap her. He kept her there for four days before a couple of US aid workers sneaked her away on a private plane. By then she was married to Louis, who worked for an insurance company and was often away on business trips. At home Hélène ruled the roost and let Emmanuel and his two sisters sleep around her bed, a setup she called “kolkhoz”, the name for collective farms in the USSR. There was no television or radio; the children were made to read. Her son’s reading was strenuous: from Jules Verne and Alexander Dumas, he moved on to Dostoevsky at 13. His mother brought out his softer side – whenever she went away he’d write long letters saying how “horribly” he missed her. He felt abandoned when she began receiving phone calls from a “Mr N” and had long furtive conversations with him. No less distraught, her husband threatened to kill himself. Hélène ended the affair to spare Louis but he “lost her love",
+      "source_title": "Kolkhoz by Emmanuel Carrère review – intricate portrait of an elite French family",
+      "source_url": "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "丹泽尔·库里与肯尼·比茨合作EP《ii》评论：六年后再联手，却似自动驾驶",
+      "entities": [
+        {
+          "name": "丹泽尔·库里",
+          "explain": "美国迈阿密说唱歌手，以快嘴和激进风格著称。"
+        },
+        {
+          "name": "肯尼·比茨",
+          "explain": "美国知名嘻哈制作人，本名肯尼斯·布鲁姆，曾为多位大牌歌手制作。"
+        }
+      ],
+      "summary": "丹泽尔·库里与制作人肯尼·比茨（现名肯尼斯·布鲁姆）时隔六年再次合作EP《ii》。评论认为，无论是说唱还是节拍，都显得机械、缺乏新意，仿佛在自动驾驶状态。",
+      "relevant": "两人首次合作EP曾获好评，此次回归备受期待，但表现平庸。",
+      "context": "2018年两人首次合作EP获得关注，此次是续作。",
+      "source_analysis": "Pitchfork，美国独立音乐评论网站，以专业乐评著称，评分严格。",
+      "social_impact": "无",
+      "source_text": "Most rappers and beatmakers who manage to stick around for more than a few years, build a dedicated following, and make a healthy living off of music eventually hit a wall. They may ask themselves, “Why am I still doing this?,” searching for the fire they had in their belly when barely anyone knew their name. Music becomes business and business can become tedious. In the background of ii, the long-awaited follow-up to 2020’s Unlocked, Denzel Curry and Kenny Beats—my fault, Kenneth Blume—are reckoning with the reality of the mid-career creative plateau. “I’m not doing this just to do it, I wanna win a Grammy off this hoe,” Curry said in an interview four years ago. “But it feel like I don’t get recognized for what I do, even though I’ve been doing this for a long time.” On “Gone Fishing,” the 31-year-old rapper takes stock of his career trajectory, wide-eyed and full of zeal. He gloats a lil’ bit like he tends to (his passion is “Christ-like,” since 16 he’s been “the zeitgeist”), but what sticks out is how indifferent he’s become about status or stature. “Fuck the best rapper shit, I’m tryna make (cha-ching),” Denzel Curry spits with a shrug. “A history of hits, but for you it’s not hitting.” For the 15 years he’s been around, it feels like the South Florida native has hardly been able to remove the chip on his shoulder, and despite the fact that he says it’s still there, things feel different now. Throughout ii, I can’t shake the feeling that Denzel Curry’s pursuit of contentment (and money) in lieu of industry plaudits has sunk him into creative stasis—his Southern-fried double-time flows and zany one-liners feel tame and predictable, circulating over beats that double down on that feeling. No score yet, be the first to add. Across raps about getting rich and staying rich, Denzel proves he’s still technically proficient, but he’s grown more subdued with time. On the first Unlocked tape with Blume, six years ago, he was growling and barking, channeling DMX cadences as his pitch modulated and distorted. He’s much less dynamic this time around, but I like his slippery, Twista-type staccato on “Product,” where he watches overhead for vultures fiending for a come-up. He’s fiercely illustrative (“See, you ride-givin’, slob-lickin’ leeches ain’t breechin’ my pod, pimpin’,” from “UPS”) and alliterative (“Dump until you’re duppy, don’t give a darn ‘bout a dang dollar,” from “Cold Night in Hell”) when he’s on his game, something like Dr. Seuss if he grew up listeni",
+      "source_title": "ii",
+      "source_url": "https://pitchfork.com/reviews/albums/denzel-curry-kenneth-blume-ii/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "野兽男孩成员迈克·D个人专辑《谢谢你》评论：反思性作品但缺乏亮点",
+      "entities": [
+        {
+          "name": "迈克·D",
+          "explain": "美国嘻哈组合野兽男孩成员，本名迈克尔·戴蒙德。"
+        },
+        {
+          "name": "野兽男孩",
+          "explain": "美国传奇嘻哈组合，活跃于80-2000年代，融合朋克与嘻哈。"
+        }
+      ],
+      "summary": "野兽男孩成员迈克·D推出个人专辑《谢谢你》，风格为狂乱、放克的故障嘻哈电子朋克，类似其混音作品。专辑基调反思，但评论认为没有一首歌真正出彩。",
+      "relevant": "这是迈克·D罕见的个人作品，展现其音乐多样性，但未能超越组合成就。",
+      "context": "野兽男孩2012年解散，成员各自发展。迈克·D以DJ和制作人身份活跃。",
+      "source_analysis": "Pitchfork乐评，对嘻哈音乐有专业见解。",
+      "social_impact": "无",
+      "source_text": "A Pagliacci in Pumas, erstwhile Beastie Boy Michael Diamond is hurting inside and ready to vent his truth. But how do you drop your “Sounds of Silence” when your medium is “The Sounds of Science,” a 47-year legacy of puckish punk-rap, ill communication, and party-rock anthems, a life lived as a beacon of inspiration to some of the best and worst music to ever exist? Well, as a wise man once said, “Be true to yourself and you will never fall.” You can’t say 60-year-old Rock and Roll Hall of Famer Mike D is faking the funk on Thank You, his first solo record since the cheeky 2000 obscurity Country Mike's Greatest Hits and the first new music from a Beastie Boy since the death of Adam “MCA” Yauch ended the group in 2012. A noisy, frenetic, glitch-rap-electro-punk blow-out, Thank You is certainly not some aging outlaw clinging to his former glory. “I need a Plan B, retired MC,” Mike D proudly exclaims on “What We Got.” No score yet, be the first to add. He’s still an eminent party starter even if his writing is leaning closer to Siouxsie Sioux than Schoolly D. “Make It Stop” is relentlessly upbeat despite lyrics like, “We all go for trauma/We fill our worlds with drama” and “Why’s it always stay the same/Why do I always feel the pain?” Gone are the the bugged-out cratedigger references and Spoonie Gee shoutouts that made Mike the essential element to the Beasties’ cool cred, but his voice still has that familiar everydude charm. He’s not trying to out-rap JID or anything, and he’s still delirious fun when he’s just doing funky gibberish. Honestly, Thank You just sounds like Mike D.A.D. wanted to get together and make some racket with his two adult children, Skyler and Davis Diamond. What’s the problem with that? Unfortunately, very little on this project coheres in any meaningful or crazy sniffable way. Thank You continues in the vein of the 2010s remixes Mike D did for artists like Uffie, Matt & Kim, Portugal. The Man, AWOLNATION, and Warpaint—which is to say off-kilter, tastefully blown-out, percussively busy but ultimately not especially memorable. It’s got the freewheeling energy of the lightly funky po-mo boho pastiches he made remixing Jon Spencer Blues Explosion, Moby, and Cibo Matto in the ’90s (not to mention the Beasties’ original 1983 breakout prank “Cooky Puss”) but there’s no real hooks to anchor anything. Mike has turned into what can be best described as a “confessional toaster,” getting the crowd hyped with introspection and reflection instead ",
+      "source_title": "Thank You",
+      "source_url": "https://pitchfork.com/reviews/albums/mike-d-thank-you/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_2039b784ec1b",
+      "source": "Pitchfork",
+      "title": "This Mirror Weighs a Ton",
+      "url": "https://pitchfork.com/reviews/albums/interpol-this-mirror-weighs-a-ton/",
+      "summary": "Working with producer Andrew Wyatt, the band turns in a strong and suitably dour album that nonetheless carries the frustrating tinge of more interesting possibilities.",
+      "image": ""
+    },
+    {
+      "id": "rss_d2bb37512d7b",
+      "source": "Pitchfork",
+      "title": "Wowed Out",
+      "url": "https://pitchfork.com/reviews/albums/jim-james-wowed-out/",
+      "summary": "The My Morning Jacket frontman sounds graceful and unburdened on his latest solo album. It’s his strongest work in a decade.",
+      "image": ""
+    },
+    {
+      "id": "rss_1b04b2db0486",
+      "source": "Pitchfork",
+      "title": "ii",
+      "url": "https://pitchfork.com/reviews/albums/denzel-curry-kenneth-blume-ii/",
+      "summary": "Six years after their first collaborative EP, the Miami rapper and the producer formerly known as Kenny Beats team up again, but both the rapping and the beats mostly feel stuck on autopilot.",
+      "image": ""
+    },
+    {
+      "id": "rss_15a230bb00cb",
+      "source": "Pitchfork",
+      "title": "Thank You",
+      "url": "https://pitchfork.com/reviews/albums/mike-d-thank-you/",
+      "summary": "The Beastie Boy strikes a reflective tone on a solo album made up of frenetic, funky glitch-rap-electro-punk beats reminiscent of his remixing work. Nothing quite sticks.",
+      "image": ""
+    },
+    {
+      "id": "rss_febf78c7ce74",
+      "source": "Pitchfork",
+      "title": "Still Coming Down",
+      "url": "https://pitchfork.com/reviews/albums/wild-pink-still-coming-down/",
+      "summary": "The sixth album from John Ross’ heartland indie project offers terse, literary tales of American detritus while exuding an unshowy charm.",
+      "image": ""
+    },
+    {
+      "id": "rss_9fe82ba86be3",
+      "source": "Open Culture",
+      "title": "The Wisdom of David Bowie: On Art, Religion, Technology and More",
+      "url": "https://www.openculture.com/2026/08/the-wisdom-of-david-bowie-on-art-religion-technology-and-more.html",
+      "summary": "It doesn’t quite ring true to call David Bowie a rock star. Ziggy Stardust, the neon synthetic-clad alien alter ego he both created and retired in the early seventies, was, of course, rock stardom outlandishly personified. But then, that was the concept of what turned out to be just one of many personae he deliberately [&#8230;]",
+      "image": "https://i.ytimg.com/vi/TFd1lbon7tw/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_17629ce30e90",
+      "source": "Open Culture",
+      "title": "The Women of the Bauhaus: See Hip, Avant-Garde Photographs of Female Students & Instructors at the Famous Art School",
+      "url": "https://www.openculture.com/2026/08/women-of-the-bauhaus.html",
+      "summary": "Take a look at photos of Bush Tetras — a three-girl-one-guy No Wave/Post-Punk band from the early 1980s downtown Manhattan scene. Now, look at the photograph above, “Marcel Breuer and His Harem,” by Bauhaus photographer Erich Consemüller, taken sometime around 1927. Except for the fact that Breuer looks more like Ron Mael of Sparks sans [&#8230;]",
+      "image": "https://cdn8.openculture.com/2022/08/02102740/unnamed.jpeg"
+    },
+    {
+      "id": "rss_90464b69baa8",
+      "source": "Open Culture",
+      "title": "NASA Enlists Andy Warhol, Annie Leibovitz, Norman Rockwell & 350 Other Artists to Visually Document America’s Space Program",
+      "url": "https://www.openculture.com/2026/08/nasa-enlists-artists-to-visually-document-americas-space-program.html",
+      "summary": "It’s hard to imagine that the&#160;space-crazed general public needed any help getting worked up about astronauts and NASA in the early ’60s. Perhaps the wild popularity of space-related imagery was in part what motivated NASA administrator James Webb to create the&#160;NASA Art Program&#160;in 1962. Although the program’s handpicked artists weren’t edited or censored in any [&#8230;]",
+      "image": "https://cdn8.openculture.com/2019/08/08181603/NASAartWArhol.jpg"
+    },
+    {
+      "id": "rss_c33bf5df460d",
+      "source": "Aeon",
+      "title": "The fog of hunger",
+      "url": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
+      "summary": "From childhood, women are trained to restrict their appetite. And there’s a huge, hidden, cognitive price to pay for it - by Sarah Berg Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/8faddae4-306f-4e06-81c2-183366800391/essay-v2-nyc34743.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_1bee7c6bcb75",
+      "source": "Aeon",
+      "title": "A vocabulary for the future: touch",
+      "url": "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch",
+      "summary": "A mesmerising blend of words and images make touch a doorway into the deepest questions in physics and philosophy - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/82a196ab-9e8c-4452-8c6d-319f97c0246d/a-vocabulary-for-the-future-touch-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_2429ee0c17a9",
+      "source": "Aeon",
+      "title": "Dolphins and other lovers",
+      "url": "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin",
+      "summary": "The Andoque of the Amazon know what we have forgotten: the forest’s most beautiful creatures are also its most dangerous - by Eliran Arazi Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/feb30884-154c-41ba-a04f-79e7037a973a/cj_aeon_boto.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_018ce2d93b87",
+      "source": "Daily Nous",
+      "title": "Philosophy at Dundee Saved—In Part, For Now (guest post)",
+      "url": "https://dailynous.com/2026/08/28/philosophy-at-dundee-saved-in-part-for-now-guest-post/",
+      "summary": "&#8220;A small programme with a large international reach has bucked the trend of closures across the arts and humanities.&#8221; Over the summer, administration of the University of Dundee announced a plan to cut costs by, among other things, no longer offering students the option of majoring in philosophy. A campaign was launched to save the philosophy program there, and a petition in support of it garnered close to 6000 signatories. As a result of the petition, statements from academic organizations, and the efforts of faculty and students, philosophy at Dundee will continue, as the Philosophy Team at Dundee explains in the following guest post. Thanks to Oisin Keohane for keeping us informed. A Statement from the Philosophy Team at the University of Dundee Philosophy at Dundee will continue. Three joint honours degrees&#8212;Art and Philosophy, English and Philosophy, and Philosophy and Psychology&#8212;will carry on recruiting, and our plans to develop proposals for new undergraduate and postgraduate qualifications in Philosophy and AI have been approved, with support on record from Luciano Floridi and Shannon Vallor. Neither of those things were on the table in June when the proposal to suspend all named philosophy degrees was first announced. The ground shifted because of you. Nearly 6,000 people have signed our petition, including academics at 450 universities in 51 countries, from Harvard to Tokyo, Sydney to Stellenbosch. A small programme with a large international reach has bucked the trend of closures across the arts and humanities. The picture is not all good. The University still intends to suspend single honours Philosophy and multiple joint honours degrees, including Philosophy and Politics, Philosophy and Film, and History and Philosophy, without providing evidence of any clear financial rationale or assessment of the risks. Moreover, Philosophy staff remain at risk of redundancy, and the University is still seeking 154 cuts (in addition to the hund",
+      "image": "https://dailynous.com/wp-content/uploads/2026/08/dundee-campus-2-1024x711.jpg"
+    },
+    {
+      "id": "rss_7506f859240d",
+      "source": "Daily Nous",
+      "title": "Bettcher from Cal State LA to Waterloo",
+      "url": "https://dailynous.com/2026/08/28/bettcher-from-cal-state-la-to-waterloo/",
+      "summary": "Talia Mae Bettcher, previously professor of philosophy at California State University, Los Angeles, has accepted a position at the University of Waterloo. Professor Bettcher is well-known for her work in trans philosophy and feminist philosophy. She is the author of Beyond Personhood: An Essay in Trans Philosophy (2024), among other works, which you can learn about here and here. At Waterloo, Bettcher will be the Eddie Goldenberg Research Chair in Gender-Based Violence Prevention and Trans Community Resilience in the Department of Philosophy in the university&#8217;s new School of Social, Political and Historical Research. (According to an announcement from the university, &#8220;the Eddie Goldenberg Research Chairs of Canada program [provides] up to $1 billion over 12 years to help Canadian post-secondary institutions recruit exceptional international researchers.) The post Bettcher from Cal State LA to Waterloo first appeared on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/08/bettcher-t-m-2026.png"
+    },
+    {
+      "id": "rss_d64995a367eb",
+      "source": "Daily Nous",
+      "title": "Careful with those Accusations",
+      "url": "https://dailynous.com/2026/08/27/careful-with-those-accusations/",
+      "summary": "Academia is in turmoil regarding partially or wholly AI-written research. AI-written work is being submitted to journals, but it isn&#8217;t clear how much. Publisher, journal, university, and department policies are emerging and fluctuating. Technology develops, rendering recently enacted policies ambiguous, vague, or subject to unintended loopholes. With everything in flux, it&#8217;s impossible for norms to develop. There is no general sense of whether and what kind and what degree of AI use by authors is acceptable. Different policies across different institutions means that what may be problematic AI use in one place is acceptable AI use in another, and vice versa. Into this chaos steps forward the vigilantes. The vigilantes have always been there, but now they are newly armed and emboldened. In the everchanging and never ending race between the technology of deployment and the technology of detection, the latter seems to have a temporary lead in the form of Pangram. You can feed a text into Pangram and it will tell you its analysis of whether it is AI generated, and if so, what percentage of it is AI generated. Pangram claims to have a remarkably high detection and low false-positive rates, and cites studies by third parties to support these claims. Yet I have seen plenty of posts by friends and colleagues across social media showing false positives with some of their own work. So user beware. That said, even if Pangram&#8217;s claims about its accuracy are correct, it won&#8217;t always be helpful to simply know that a text is &#8220;AI generated.&#8221; This because there are two further problems. The first problem is ambiguity about what &#8220;N% AI generated&#8221; means. If someone asks Claude to write them a novel article about a philosophical problem, not even giving it a thesis to work with but asking it to come up with one itself, and that&#8217;s the extent of the human&#8217;s contribution, the resultant paper will get a &#8220;100% AI generated&#8",
+      "image": "https://dailynous.com/wp-content/uploads/2026/08/ai-vigilante-1024x725.png"
+    },
+    {
+      "id": "rss_bd3f560dfa52",
+      "source": "卫报书籍",
+      "title": "Sophie, Standing There by Meg Mason review – a tale of literary obsession, with cameos from real-life authors",
+      "url": "https://www.theguardian.com/books/2026/jul/28/sophie-standing-there-book-review-novel-author-meg-mason",
+      "summary": "A heartbroken woman becomes fixated on a famous writer in this witty, touching follow-up to Sorrow and Bliss The protagonist of Meg Mason’s new book, the follow-up to the 2020 tragicomedy Sorrow and Bliss , is an invisible woman. She might well be standing there but you won’t notice her. She’s a techie at literary festivals – the person who shuffles up to a famous writer a few minutes before their event and apologetically slides a microphone cable down their shirt while they’re making small talk with the chair or accepting a bottle of room-temperature mineral water from an anxious publicist. No man is a hero to his valet, and no writer is a hero to the technical staff lurking in the wings of a venue. Mason’s opening pages present a teasing but not quite libellous series of cameos from real writers: George Saunders deciding at an inconsiderately late stage to insist on swapping his headset for a lapel mic; Ann Patchett being frosty with a fan; Mick Herron accidentally stepping on someone’s foot and not apologising. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5eb5a1b1b133",
+      "source": "卫报书籍",
+      "title": "Children’s books roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels",
+      "summary": "Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more Small Monster, Big Monster by Allan Sanders, Phaidon, £7.95 Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly zany, toddler-pleasing pairs of opposites. The Flying Machine of Dreams by Kate Wakeling , illustrated by Viviane Schwarz, Otter-Barry, £12.99 A delectable picture-book collaboration that perfectly distils the wonder of the everyday, from the textures of a leaf to a squishy-cushioned den. Wakeling’s irresistible poetry is richly heightened by Schwarz’s sweet, strange illustrations. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_7b20972484fc",
+      "source": "卫报书籍",
+      "title": "Kolkhoz by Emmanuel Carrère review – intricate portrait of an elite French family",
+      "url": "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family",
+      "summary": "The author of The Adversary and Yoga unearths a history that includes the Nazis, Russia, and the Académie Française When Emmanuel Carrère’s mother, Hélène, died in 2023, at the age of 94, President Macron spoke at her memorial. She had been “perpetual secretary” of the&nbsp;Académie Française, in effect its head, and 200 people gathered at Les Invalides in Paris to pay tribute. Emmanuel’s father, Louis, was there too, in a wheelchair, only half aware of&nbsp;what was going on. This 400-page memoir, translated into English by&nbsp;John Lambert, is a homage to both&nbsp;parents and the unlikely history that brought them together. It’s also an&nbsp;act of reparation towards Hélène, whom Emmanuel worshipped as a&nbsp;child but upset as an adult by publishing a book that she’d forbidden him to write. Hélène grew up in stateless poverty in Paris, the daughter of Georges Zourabichvili, whose parents had fled&nbsp;Georgia in 1921, and Nathalie von&nbsp;Pelken, who as a child had six governesses, one for each day excluding Sunday. Though “the magical world of the fallen Russian aristocracy” was the backdrop, conditions were tough, not least after&nbsp;Georges disappeared in 1944, murdered by partisans for alleged Nazi collaboration. Hélène was 15 at the time and unsuccessfully tried to hide the truth about George’s death from her younger brother, Nicolas. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_889925f75e0d",
+      "source": "Mongabay",
+      "title": "The conservation population of Australia’s endangered eastern quoll welcomes joeys",
+      "url": "https://news.mongabay.com/2026/08/the-conservation-population-of-australias-endangered-eastern-quoll-welcomes-joeys/",
+      "summary": "SYDNEY — The endangered eastern quoll, one of Australia’s species of quoll, is a nocturnal carnivorous marsupial that is small in stature with a ferret-like pointed face and a bushy tail. The mammal has two primary color variants: Light fawn and blackish-brown, with white spots on the body. Once so widespread along the eastern coastal [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/28015007/eastern-quolll-nighttime-768x512.jpeg"
+    },
+    {
+      "id": "rss_87b35aecbfc4",
+      "source": "Mongabay",
+      "title": "Singapore made a crow-friendly city. Now it wants to shoot them",
+      "url": "https://news.mongabay.com/short-article/2026/08/singapore-made-a-crow-friendly-city-now-it-wants-to-shoot-them/",
+      "summary": "The resumption of a crow-shooting campaign in Singapore has revived intense debate over lethal wildlife management in the highly urbanized city-state. Government officials revived the culling program in response to public complaints about crow attacks on pedestrians and cyclists, reports contributor Robin Hicks for Mongabay. In a public statement in March announcing the resumption of [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/28050402/Crow-poisoned-Sungei-Tengah-dorm-July-2026-1-768x512.jpg"
+    },
+    {
+      "id": "rss_bc4ad8750d46",
+      "source": "Mongabay",
+      "title": "Community programs linked to lower forest loss in Indonesia’s Borneo during COVID-19",
+      "url": "https://news.mongabay.com/2026/08/community-programs-linked-to-lower-forest-loss-in-indonesias-borneo-during-covid-19/",
+      "summary": "Villages in Indonesia’s West Kalimantan saw less forest loss during the COVID-19 pandemic when conservation groups provided health and livelihood support, a new study has found, suggesting social safety nets can help protect forests during economic crises. The peer-reviewed study, published last month in Lancet Planetary Health, suggests forest loss in West Kalimantan province on [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/12/12215106/kalbar_drone_190946a_sungai_utik-768x512.jpg"
+    },
+    {
+      "id": "rss_ba3193ee9807",
+      "source": "卫报野生动物",
+      "title": "Trump rollback of US forest protections could accelerate extinction of 400 endangered species",
+      "url": "https://www.theguardian.com/us-news/2026/aug/28/endangered-species-extinction-trump-forest-protections",
+      "summary": "Decision to rescind ‘roadless rule’ opens more than 45m acres of national forests to roads, drilling and logging More than 400 endangered animal and plant species could face accelerated extinction after the Donald Trump administration’s decision to rescind a rule that has protected old-growth forests for more than two decades. According to a new report from the Center for Biological Diversity, the rollback of the Bill Clinton-era “roadless rule” could put 7.4m acres of endangered-species habitat and nearly 1,800 miles of protected rivers and streams at risk, while opening more than 45m acres of national forests to roads, drilling and logging. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_448021f828b6",
+      "source": "卫报野生动物",
+      "title": "Dolphin dies from H5 bird flu in SA as researchers withdrawn from sub-Antarctic island over ‘psychosocial risk’",
+      "url": "https://www.theguardian.com/environment/2026/aug/28/dolphin-dies-from-h5-bird-flu-in-sa-as-researchers-withdrawn-from-sub-antarctic-island-over-psychosocial-risk",
+      "summary": "Expeditioners at research station on Macquarie Island will be evacuated over possible ‘psychological stress’, while 100 dead little penguins found on Tasmanian island Get our breaking news email , free app or daily news podcast A dolphin has died from H5 bird flu in South Australia, marking the second native mammal species known to have contracted the virus. On Friday afternoon, the Tasmanian government said it was assessing the discovery of about 100 dead little penguins on King Island but it was unable to test them for H5 bird flu due to their “decayed condition”. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a93ee16e5e58",
+      "source": "卫报野生动物",
+      "title": "Week in wildlife: a Cornish wallaby, a frazzled opossum and rare Montagu’s harrier chicks",
+      "url": "https://www.theguardian.com/environment/gallery/2026/aug/28/week-in-wildlife-cornish-wallaby-frazzled-opossum-rare-montagus-harrier-chicks",
+      "summary": "This week’s best wildlife photographs from around the world Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-28 21:40"
+}
