@@ -1,33 +1,5 @@
 [
   {
-    "theme": "小模型+Agent编排成为务实落地新范式",
-    "importance": 4,
-    "evidence": "IEEE Spectrum报道、shadcn/improve分层审计工作流、Omnigent多Agent框架",
-    "grassroots": "开发者从‘哪个模型最强’转向‘怎么用便宜模型搭好系统’",
-    "date": "2026-07-07"
-  },
-  {
-    "theme": "平台方关闭智能体功能，开发者生态面临信任危机",
-    "importance": 4,
-    "evidence": "豆包和千问同时关闭、掘金用户抱怨‘自动化全废了’",
-    "grassroots": "开发者开始反思对单一平台的依赖，转向开源方案",
-    "date": "2026-07-07"
-  },
-  {
-    "theme": "AI编程工具进入‘模型+Agent’双轮驱动阶段",
-    "importance": 5,
-    "evidence": "GPT-5.6与Fable 5正面竞争，多个Agent编排框架（Omnigent、loop-engineering）星数快速增长，开发者从‘哪个模型强’转向‘哪个组合省token’",
-    "grassroots": "HN用户reassess_blind：‘我在Codex和Claude之间像乒乓球一样来回切换’；Dev.to用户分享mcp2cli节省96-99% token",
-    "date": "2026-07-08"
-  },
-  {
-    "theme": "云平台AI Agent生态面临信任危机",
-    "importance": 4,
-    "evidence": "豆包和千问同时关闭智能体，Anthropic大面积封号，用户自动化工作流中断",
-    "grassroots": "掘金用户：‘3个自动化全废了’；‘连大V都忍不了开喷了’",
-    "date": "2026-07-08"
-  },
-  {
     "theme": "开源/本地优先AI工具加速崛起",
     "importance": 4,
     "evidence": "Rowboat（Claude Desktop替代品）、local-llm（本地LLM指南）、Omnigent（多Agent编排）等项目活跃",
@@ -1398,5 +1370,33 @@
     "evidence": "OpenExecutive开源AI CEO项目走红，HN讨论认为'这是不同于人级AI的新物种'",
     "grassroots": "有CEO称已用AI高管替换C-suite，也有开发者认为'真正的机会是用AI取代管理层而非被取代'",
     "date": "2026-08-27"
+  },
+  {
+    "theme": "Agent技能进化与经验复用",
+    "importance": 5,
+    "evidence": "WikiSkill、SWE-Prime、PILOT三篇论文同日出现，均聚焦Agent经验的高效利用",
+    "grassroots": "开发者开始用AGENTS.md注入个人启发式规则，让AI写出接近自己水平的代码",
+    "date": "2026-08-28"
+  },
+  {
+    "theme": "开源Harness生态爆发",
+    "importance": 5,
+    "evidence": "DeepSeek Harness发布即带动桌面端、插件列表、路由套件等配套生态",
+    "grassroots": "开发者从'用哪个Agent'转向'如何组装自己的Agent栈'",
+    "date": "2026-08-28"
+  },
+  {
+    "theme": "AI内容溯源攻防战",
+    "importance": 4,
+    "evidence": "watermarks-remover工具出现，与各国AI内容标识监管形成对抗",
+    "grassroots": "暂无直接基层反馈，但HN讨论中对AI内容信任度下降明显",
+    "date": "2026-08-28"
+  },
+  {
+    "theme": "开源社区信任危机",
+    "importance": 5,
+    "evidence": "HN热帖'请停止用AI淹没我们的开源项目'引发广泛共鸣，多位维护者表示将减少接受外部PR",
+    "grassroots": "维护者反映AI PR质量参差、贡献动机可疑，个人关系比代码质量更重要",
+    "date": "2026-08-28"
   }
 ]
