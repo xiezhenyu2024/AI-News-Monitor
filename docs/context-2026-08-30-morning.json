@@ -1,0 +1,708 @@
+{
+  "key": "2026-08-30-morning",
+  "date": "2026-08-30",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 6,
+      "title": "尼泊尔与中国边境洪灾失踪人数逼近3000，救援持续进行",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "位于南亚的内陆国家，北邻中国，经济较为落后，易受自然灾害影响"
+        },
+        {
+          "name": "France24",
+          "explain": "法国国际广播电视台，提供全球新闻，以法语和英语播出"
+        }
+      ],
+      "summary": "尼泊尔与中国边境地区发生严重洪灾，已造成至少682人死亡，其中尼泊尔675人、中国7人。目前仍有近3000人失踪，救援人员正在两国边境地区全力搜寻幸存者。洪水冲毁了多个村庄，灾情极为严重。",
+      "relevant": "这是近期全球最严重的自然灾害之一，造成大量人员伤亡和失踪，国际社会关注度高。",
+      "context": "本周早些时候，尼泊尔与中国边境地区因强降雨引发山洪和泥石流，多个村庄被完全淹没，导致大规模人员伤亡和失踪。",
+      "source_analysis": "France24是法国公共广播机构，报道相对中立，但侧重于国际视角。",
+      "social_impact": "失踪人数近3000人，已确认死亡682人，灾情影响范围广，救援难度大。",
+      "source_text": "Missing toll from Nepal, China flood nears 3,000 as race for survivors continues Rescuers in Nepal and China on Saturday continued to search for the nearly 3,000 people missing after devastating flooding along the border with China engulfed entire villages earlier this week. At least 682 bodies were recovered in both countries, including 675 in Nepal and seven in China. Rescuers in Nepal and China on Saturday battled to locate thousands of people missing days after a deadly, tsunami-like wall of water and debris swept through the Himalayan region, engulfing entire villages. Figures from both countries put the number of missing close to 3,000, with 682 bodies recovered – and reports of some dead possibly swept downstream as far away as India. In a breakthrough late Saturday, the Nepali army was able to insert a pipe into a tunnel at the Trishuli 3A hydroelectric site where workers are believed to be trapped. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. More than 100 workers may still be alive and trapped inside such tunnels, with rescue efforts focused on the Trishuli 3A and 3B sites. The US Geological Survey said a glacial collapse was behind the deadly torrent on Wednesday at the Nepal-Tibet border. While the exact cause of the collapse is unclear, climate change is causing glaciers to melt worldwide, increasing the risk of such disasters. \"The sudden glacial collapse and flash flood is a devastating reminder of how fragile these mountain environments can be\", UN climate chief Simon Steill said in a statement. \"We also know a warming climate, driven by humanity burning colossal amounts of coal, oil and gas, is making tragedies like this one, and so many others around the world, much more likely, frequent and severe, with vulnerable communities often hardest hit,\" he added. 'Nothing left' Survivors face an agonising wait to learn the fate of missing relatives, and the prospect of rebuilding their lives from nothing. \"All the settlements near the river were swept away,\" Buddhi Ram Dangol said in Nepal's Nuwakot district. \"There is nothing left.\" At an army base serving as a key rescue hub in Bidur, relatives crowded around lists of rescued people pasted on a wall. \"I have come here looking for my son,\" said Kalka Sharda, scanning the list in desperation. \"",
+      "source_title": "Missing toll from Nepal, China flood nears 3,000 as race for survivors continues",
+      "source_url": "https://www.france24.com/en/asia-pacific/20260829-missing-toll-from-nepal-china-flood-nears-3-000-as-race-for-survivors-continues",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "尼泊尔洪灾失踪人数达2400人，救援进入第四天，破坏规模巨大",
+      "entities": [
+        {
+          "name": "纽约时报",
+          "explain": "美国最具影响力的报纸之一，以深度报道和国际新闻著称"
+        }
+      ],
+      "summary": "尼泊尔洪灾救援进入第四天，失踪人数已攀升至2400人。随着救援工作的推进，灾害造成的破坏规模逐渐清晰，显示出这个脆弱国家将面临艰巨的灾后重建任务。",
+      "relevant": "揭示了尼泊尔作为发展中国家在应对重大自然灾害时的脆弱性和挑战。",
+      "context": "尼泊尔近期遭遇严重洪灾，大量人员失踪，救援工作持续进行，但破坏程度远超预期。",
+      "source_analysis": "纽约时报为美国主流媒体，报道详尽，立场相对中立，注重人文关怀。",
+      "social_impact": "失踪人数达2400人，灾后重建任务艰巨，对尼泊尔国家发展造成重大打击。",
+      "source_text": "Search Continues for 2,400 Missing in Nepal Floods Amid ‘Immense’ Devastation。As rescue efforts entered their fourth day, the scale of destruction came into focus, signaling a daunting recovery for the vulnerable nation.",
+      "source_title": "Search Continues for 2,400 Missing in Nepal Floods Amid ‘Immense’ Devastation",
+      "source_url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "尼泊尔军队钻探隧道，试图救援被洪水困在隧道中的900名工人",
+      "entities": [
+        {
+          "name": "尼泊尔军队",
+          "explain": "尼泊尔的国家武装力量，负责国防和国内救灾等任务"
+        }
+      ],
+      "summary": "尼泊尔军队正在钻探隧道，试图救援因洪水被困在水电站隧道内的约900名工人。救援行动在洪水发生后一天多才开始，引发了外界对救援及时性的质疑。",
+      "relevant": "事件涉及大规模工业设施被困人员，凸显了自然灾害对基础设施和工人安全的威胁。",
+      "context": "尼泊尔洪灾导致一处水电站隧道被淹，约900名工人被困，军方和私营救援力量正在联合展开救援。",
+      "source_analysis": "纽约时报报道，引用了军方官员、行业团体和私人救援人员的说法，信息较为全面。",
+      "social_impact": "被困工人数量庞大，救援难度极高，事件引发对工业安全标准的关注。",
+      "source_text": "Nepal Rescuers Bore Through Tunnels to Try to Reach 900 Workers Missing After Floods。The Nepal Army, which is leading rescue efforts, turned to the trapped workers more than a day after the flood, according to army officials, industry groups and private rescuers.",
+      "source_title": "Nepal Rescuers Bore Through Tunnels to Try to Reach 900 Workers Missing After Floods",
+      "source_url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "俄罗斯袭击基辅武器库致37人死亡，数百人疏散",
+      "entities": [
+        {
+          "name": "基辅",
+          "explain": "乌克兰首都，该国政治、经济和文化中心"
+        },
+        {
+          "name": "BBC",
+          "explain": "英国广播公司，世界知名的公共媒体，报道全球新闻"
+        }
+      ],
+      "summary": "俄罗斯对乌克兰首都基辅附近的一个武器库发动袭击，造成至少37人死亡，数百人被疏散。乌克兰已就武器库靠近居民区的储存问题展开调查。",
+      "relevant": "这是俄乌冲突中的重大事件，涉及平民伤亡和军事设施选址争议。",
+      "context": "俄乌冲突持续，俄罗斯对乌克兰军事目标发动袭击，但该武器库位于居民区附近，引发安全争议。",
+      "source_analysis": "BBC为英国公共媒体，报道相对客观，但可能受西方视角影响。",
+      "social_impact": "至少37人死亡，数百人疏散，事件引发对军事设施选址和居民安全的讨论。",
+      "source_text": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot - Published Thirty-seven people have died and almost 400 have been evacuated after a Russian drone strike hit a depot storing weapons for Ukraine's military near a residential area on the outskirts of Kyiv. The strike caused shells, mines and drones to detonate late on Friday, triggering a blast that damaged nearby properties including a care home for the elderly and disabled, President Volodymyr Zelensky said. He said the storage site \"definitely shouldn't have been there\" and that an investigation had been launched into \"terrible negligence on the part of those who stored explosive right next to people\". The attack is the second to hit a munitions depot near Kyiv in recent months, prompting renewed anger. Four children are among the 42 people injured in Friday night's explosion, according to regional head Tymur Tkachenko, with a rescue operation ongoing at the site, in the Bucha district, on Saturday. Russia's Ministry of Defence said in a statement that its forces had targeted \"an ammunition depot\" in Myla, a village to the west of the Ukrainian capital, holding \"components and launch boosters for FP-1/FP-2 long-range unmanned aerial vehicles\". The explosion damaged about 130 homes in the village. \"Everything is completely damaged,\" local resident Liubov Pavlenko, 45, told the BBC while inspecting her home around 200m from the ammunition warehouse. \"There are cracks all around the entire perimeter, and cracks around the windows. Basically, the structural integrity has been compromised,\" she added. \"I'm still kind of numb. I don't know… once I come around a little tomorrow, I'll probably have an even bigger breakdown.\" Zelensky said the decision to store explosives in the village was \"absolutely unacceptable\", adding: \"Criminal proceedings have been opened on charges of official negligence.\" The office of Ukraine's prosecutor general earlier said it was reviewing the \"legality of the placement and storage of explosive objects and materials\" near residential buildings in Myla. It said the \"actions of officials who made the relevant decisions\" would also be investigated. However, Zelensky earlier stated that \"there are regulations in place - ammunition cannot be stored near homes or other residential areas\", adding \"appropriate conclusions will certainly be drawn\". He referenced the strike on an ammunition warehouse in Vyshneve in July, which caused a secondary detonation that kille",
+      "source_title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "source_url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "俄袭击基辅武器库致37死，泽连斯基称该设施“绝不该在那里”",
+      "entities": [
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰现任总统，在俄乌冲突中领导国家抵抗俄罗斯"
+        }
+      ],
+      "summary": "俄罗斯袭击基辅附近一武器库，造成37人死亡。乌克兰总统泽连斯基表示，该武器库位于居民区附近，“绝不应该在那里”，暗示存在管理疏忽。",
+      "relevant": "事件涉及乌克兰高层对军事设施管理的批评，可能影响国内政治和军事部署。",
+      "context": "俄乌冲突中，俄罗斯袭击乌克兰军事目标，但该武器库选址不当，引发乌克兰内部问责。",
+      "source_analysis": "纽约时报报道，引用了泽连斯基的言论，立场偏向乌克兰。",
+      "social_impact": "37人死亡，事件引发对乌克兰军事管理疏忽的讨论。",
+      "source_text": "37 Killed After Russian Strike on Weapons Depot as Ukraine Blames Negligence。The depot, which was in a civilian area near Kyiv, “definitely shouldn’t have been there,” President Volodymyr Zelensky said.",
+      "source_title": "37 Killed After Russian Strike on Weapons Depot as Ukraine Blames Negligence",
+      "source_url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "中国西藏洪灾画面被屏蔽，受害者信息鲜为人知",
+      "entities": [
+        {
+          "name": "西藏",
+          "explain": "中国西南部自治区，地势高峻，易发生地质灾害"
+        }
+      ],
+      "summary": "据BBC报道，中国西藏地区发生致命山洪，但最震撼的现场画面未在中国国内公开，关于受害者的信息也极为有限。报道指出，中国对灾情信息进行了严格管控。",
+      "relevant": "事件涉及中国国内信息管控和灾害透明度问题，引发国际关注。",
+      "context": "西藏地区发生严重山洪，造成人员伤亡，但中国官方未公开详细灾情信息，与尼泊尔等地的报道形成对比。",
+      "source_analysis": "BBC报道，作为西方媒体，对中国信息管控持批评态度。",
+      "social_impact": "灾情信息不透明，受害者人数未知，引发外界对中国灾害应对机制的质疑。",
+      "source_text": "Footage of Tibet floods isn't being shown in China - and we know little about victims there - Published The dramatic footage was almost impossible to miss. A torrent of water tearing through Gyirong Port, one of the main border crossings between Nepal and Tibet, sweeping away all in its path as hundreds of people fled for their lives. The scenes, captured by CCTV cameras, quickly spread on social media and onto screens around the world. Except here, in China. Only a single still-frame shot has been broadcast so far by the country's state-run flagship news bulletin. It has also been difficult to find the video on China's heavily censored internet. It is just as hard to even find posts describing the flash flooding that has claimed hundreds of lives, with just as many still unaccounted for since Wednesday. Beijing has launched a massive rescue operation involving hundreds of emergency workers, which is continuing, and President Xi Jinping chaired an emergency meeting with officials to co-ordinate efforts. But when you compare the country's internet content to what much of the world has been seeing online these past few days, China's firewall becomes more visible than ever. Tibet, which Beijing annexed in the 1950s, had long resisted rule by the Chinese Communist Party. China has quashed protests over the years, sometimes violently, and has been accused of grave rights violations in the Buddhist region. It has labelled the exiled spiritual leader, the Dalai Lama, a separatist. That history means the very name Tibet draws China's censors. Beijing's sensitivities are especially apparent at times likes this. There have been daily updates on the missing and the dead, and Beijing has also been posting updates on the rescue operations, as well as the dangers posed by a barrier lake that has been at risk of overflowing. On Saturday, new footage from Chinese state media showed rescue teams wandering in a wasteland of mud and rock while calling out to anyone trapped. But there is little detail beyond that. There are no accounts from survivors in Tibet, and almost no user-generated footage showing the deadly moments or their aftermath. We are yet to hear from anxious families of those missing. Trying to contact people there is near-impossible during regular times. As a journalist who has covered North Korea, it has often been easier for me to contact interviewees in Pyongyang than it is in the Tibetan capital, Lhasa. On Thursday night, as global headlines led on the de",
+      "source_title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "伊朗战争满6个月，每位美国纳税人承担1100美元成本",
+      "entities": [
+        {
+          "name": "伊朗",
+          "explain": "中东国家，与美国长期存在地缘政治冲突"
+        },
+        {
+          "name": "唐纳德·特朗普",
+          "explain": "美国前总统，曾对伊朗采取强硬政策"
+        },
+        {
+          "name": "France24",
+          "explain": "法国国际广播电视台，提供全球新闻"
+        }
+      ],
+      "summary": "伊朗战争已持续6个月，据France24分析，战争成本相当于每位美国纳税人承担1100美元。伊朗领导层已团结在强硬派周围，准备与美国长期对抗，这与特朗普最初希望推翻伊朗政权的预期相去甚远。",
+      "relevant": "战争持续时间和成本远超预期，对美国财政和外交政策构成重大挑战。",
+      "context": "美国与伊朗爆发战争已半年，特朗普曾期望快速推翻伊朗政权，但战事陷入僵局，成本高昂。",
+      "source_analysis": "France24的分析文章，立场相对中立，但侧重于西方视角。",
+      "social_impact": "战争成本达每位美国纳税人1100美元，影响美国国内经济和社会。",
+      "source_text": "Iran war reaches 6-month mark: Conflict cost $1,100 per US taxpayer。After six months of war, Iran’s leadership has coalesced around a hard core of military generals and clerics long entrenched in the ruling theocracy. They are ready for a potentially long confrontation with the US and determined to prevent any unrest at home. It’s a far cry from US President Donald Trump’s initial hopes of toppling the Islamic Republic and his subsequent claims that “regime change” had brought more compromising officials to the fore. In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
+      "source_title": "Iran war reaches 6-month mark: Conflict cost $1,100 per US taxpayer",
+      "source_url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "乌克兰军队24小时内27次袭击顿涅茨克人民共和国定居点",
+      "entities": [
+        {
+          "name": "顿涅茨克人民共和国",
+          "explain": "乌克兰东部亲俄武装控制的自称独立的地区，国际社会未广泛承认"
+        },
+        {
+          "name": "TASS",
+          "explain": "俄罗斯国家通讯社，代表俄罗斯官方立场"
+        }
+      ],
+      "summary": "据俄罗斯塔斯社报道，乌克兰军队在过去24小时内对顿涅茨克人民共和国的定居点发动了27次袭击，损坏了6处民用基础设施、1栋住宅楼和1辆紧急情况部的油罐车。",
+      "relevant": "事件反映了俄乌冲突中双方对平民区域的持续攻击，加剧人道主义危机。",
+      "context": "俄乌冲突持续，双方在顿涅茨克地区激烈交火，乌克兰军队对亲俄控制区进行炮击。",
+      "source_analysis": "TASS为俄罗斯官方媒体，报道立场亲俄，可能夸大乌克兰方面的攻击。",
+      "social_impact": "民用设施和住宅受损，显示冲突对平民生活的影响。",
+      "source_text": "DONETSK, August 30. /TASS/. Ukrainian forces launched 27 attacks on settlements in the Donetsk People's Republic (DPR) in 24 hours, injuring one person, the DPR administration's office for documenting Ukrainian war crimes reported. \"The office recorded 27 attacks by Ukrainian armed formations, received information about one civilian being injured, and recorded a total of 27 various types of ammunition fired,\" the statement said. According to the office, 21 attacks were carried out in the Gorlovka direction, three in the Donetsk direction, two in the Volnovakha direction, and one in the Makeevka sector. The attacks damaged six civilian infrastructure facilities, a residential building, and a tanker truck belonging to the Emergencies Ministry.",
+      "source_title": "Ukrainian forces attack Donetsk People's Republic settlements 27 times over past day",
+      "source_url": "https://tass.com/politics/2179391",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "Meta美国和解协议或引发全球连锁反应，多国诉讼仍在进行",
+      "entities": [
+        {
+          "name": "Meta",
+          "explain": "美国科技巨头，Facebook、Instagram等社交平台的母公司"
+        },
+        {
+          "name": "Foxglove",
+          "explain": "英国非营利组织，专注于科技公司人权责任的法律倡导团体"
+        }
+      ],
+      "summary": "Meta在美国就内容审核问题达成和解，但该协议可能影响全球监管。与此同时，从肯尼亚到荷兰的独立诉讼仍在进行，包括埃塞俄比亚学者被杀案，其家属指控Facebook算法曾推广呼吁杀害他的帖子。和解条款可能成为其他国家政府寻求类似让步的参考。",
+      "relevant": "Meta作为全球最大社交平台之一，其和解协议可能重塑内容审核标准，影响数十亿用户的言论自由和平台责任，对科技行业监管具有风向标意义。",
+      "context": "Meta长期面临全球范围内关于其算法助长仇恨言论和暴力的指控，美国和解协议是应对这些压力的部分举措，但其他国家的法律行动仍在推进。",
+      "source_analysis": "卫报是英国左翼主流媒体，以调查性报道著称，常关注科技公司社会责任和人权议题，报道可能带有批评科技巨头的倾向。",
+      "social_impact": "案件涉及埃塞俄比亚内战期间学者被杀，凸显社交媒体算法在冲突地区可能加剧暴力，影响范围覆盖全球用户和弱势群体。",
+      "source_text": "In October 2021, Abrham Meareg’s father, a professor of chemistry in Ethiopia’s northern town of Bahir Dar, was shot at close range and died outside his family home. This was in the middle of the country’s civil war. For weeks, Facebook’s algorithm had actively promoted posts calling for the academic to be murdered, according to Meareg and Foxglove, a nonprofit organisation supporting Meareg’s lawsuit against the company in Kenya. These posts included photos of his father and his home address. Meareg filed the lawsuit in 2022. He said he repeatedly asked Facebook to remove the posts and the company did nothing. Nearly four years later, the case has still not been heard. Foxglove said Meta, Facebook’s parent company, had “fought tooth and nail to avoid responsibility”. Meareg said: “It’s a matter of numbers to them, a matter of statistics. It has been proven multiple times that our lives do not matter to them.” On Wednesday, Meta settled a lawsuit brought by 29 US states who argued it had designed addictive products that hooked young people. The social media company agreed to pay $18bn and to change certain features of its platform in the US. California’s attorney general said it was a victory that would make “a world of difference for children and their families”. But elsewhere in the world, in jurisdictions as far flung as Amsterdam and Nairobi, other claims have yet to be heard. Far bigger questions about the power of a single US technology company to shape politics and democracy everywhere on Earth are still to be answered. For the US, the settlement is a victory. A jury has done what the US Congress could not – put controls on a powerful tech company. As a part of the settlement, Meta has said it will set time limits on children’s use of its platforms Facebook and Instagram and block night-time usage. For Meta, the settlement is also a victory. Its share price rose in the hours after the deal was announced. Its CEO, Mark Zuckerberg, was not forced to testify. The sum it is to pay, while not meaningless, is far less than the states had sought – $200bn – or the amount Meta itself had suggested in a court filing it might have to pay, which was up to $1.4tn. For the rest of the world, however, the picture is more mixed. The limits Meta will put on its US platform are, in large part, similar to limits the UK and Australia have already achieved through regulation. There are certain concessions Meta has now made that other governments could also demand: for e",
+      "source_title": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
+      "source_url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "内塔尼亚胡谴责以色列定居者在西岸村庄的暴力行为",
+      "entities": [
+        {
+          "name": "内塔尼亚胡",
+          "explain": "以色列总理，国家最高行政首长"
+        },
+        {
+          "name": "西岸",
+          "explain": "约旦河西岸地区，巴勒斯坦领土，部分被以色列占领和定居"
+        }
+      ],
+      "summary": "以色列总理内塔尼亚胡周六谴责定居者在两个巴勒斯坦村庄的'犯罪行为'。此前，定居者曾封锁库斯拉村外巴勒斯坦房屋的物资供应，并在贾卢德袭击一户巴勒斯坦家庭和外国媒体团队。这是内塔尼亚胡罕见的公开批评，反映以色列内部对定居者暴力问题的分歧。",
+      "relevant": "定居者暴力是巴以冲突核心问题之一，内塔尼亚胡的谴责可能影响以色列国内政治和外交关系，对中东和平进程有直接关联。",
+      "context": "以色列定居者在西岸的暴力活动长期存在，但政府通常反应温和；此次内塔尼亚胡公开谴责，或因国际压力和事件严重性所致。",
+      "source_analysis": "France24是法国国际公共广播机构，报道通常平衡，但可能侧重国际视角和人权议题，对巴以问题持中立态度。",
+      "social_impact": "事件涉及巴勒斯坦平民安全和媒体自由，可能加剧地区紧张，影响国际社会对以色列政策的看法。",
+      "source_text": "Netanyahu condemns 'criminal acts of violence' by settlers in West Bank villages Israeli Prime Minister Benjamin Netanyahu on Saturday condemned what he called \"criminal acts of violence\" perpetrated by Israeli settlers in two Palestinian villages. Earlier in August, a group of settlers blocked supplies from entering Palestinian houses on the outskirts of Qusra and attacked a Palestinian family and a foreign media crew in nearby Jalud. Dozens of Israeli settlers attacked the Palestinian village of Qusra in the northern occupied West Bank on Saturday after nearly three weeks of tension in the area, drawing rare condemnation from Prime Minister Benjamin Netanyahu. Earlier in August, a group of settlers began blocking supplies from entering Palestinian houses on the outskirts of the village near Nablus, trapping residents inside and drawing unusually strong criticism from the US ambassador. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Weeks later, Israeli forces continue to operate in the area while settlers still roam the surrounding hills. On Saturday, Qusra residents and the military said dozens of settlers had descended on the village, throwing stones at residents and barricading themselves inside a house while Palestinians were inside. In nearby Jalud, settlers attacked a Palestinian family and a foreign media crew accompanying them, the Palestinian official news agency Wafa reported. \"I strongly condemn the criminal acts of violence committed in the villages of Qusra and Jalud by a handful of rioters who are violating the law, causing a grave injustice to the law-abiding Jewish community, interfering with the IDF in carrying out its missions, and harming Israel's standing in the world,\" Netanyahu said in a statement. In Qusra, resident Yussef Abdul Kareem Hassan said that a handful of villagers were doing work on a house on Saturday when they were approached by a small group of settlers. The settlers then called for backup and returned with dozens more, Hassan said, adding that they surrounded the Palestinians inside the house and began throwing stones. AFP footage of Qusra on Saturday showed dozens of Israeli forces deployed to the site. Read moreDriven by faith, Jewish activists stand up to settlers to protect West Bank Palestinians Soaring violence ",
+      "source_title": "Netanyahu condemns 'criminal acts of violence' by settlers in West Bank villages",
+      "source_url": "https://www.france24.com/en/middle-east/20260829-netanyahu-condemns-criminal-acts-of-violence-by-settlers-in-west-bank-villages",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "俄外交部称美国认真考虑在欧洲使用核武器",
+      "entities": [
+        {
+          "name": "俄罗斯外交部",
+          "explain": "俄罗斯联邦负责外交事务的政府部门"
+        },
+        {
+          "name": "安德烈·别洛乌索夫",
+          "explain": "俄罗斯高级官员，可能指国防部长或外交部官员，此处未明确职位"
+        }
+      ],
+      "summary": "俄罗斯外交部称，美国正认真考虑在欧洲使用核武器。别洛乌索夫表示，华盛顿推动讨论俄罗斯非战略核武器，是为了转移国际社会对美国在欧洲部署核武器威胁的注意力。这一指控加剧了俄美核紧张局势。",
+      "relevant": "核武器使用议题关乎全球安全，俄美相互指责可能升级为军备竞赛，对国际战略稳定构成重大风险。",
+      "context": "俄乌冲突背景下，俄罗斯多次指责美国在欧洲部署核武器，美国则关注俄罗斯非战略核武库，双方在核威慑问题上持续交锋。",
+      "source_analysis": "TASS是俄罗斯官方通讯社，报道立场亲俄，可能夸大美国威胁以服务国内宣传，需谨慎解读。",
+      "social_impact": "核战争风险影响全球民众安全感知，可能推动反核运动和外交斡旋，但短期内加剧地缘政治紧张。",
+      "source_text": "MOSCOW, August 29. /TASS/. US military strategists are seriously considering the possibility of using nuclear weapons in Europe, Russian Foreign Ministry special envoy Andrey Belousov said in an interview with RT. According to the diplomat, Washington’s efforts to initiate discussions on Russia’s non-strategic nuclear weapons serve to divert international attention from what he described as the threat posed by US nuclear weapons stationed in Europe, as well as Washington’s nuclear missile programs and plans. \"Speaking of this danger, it is impossible not to note that Washington’s insistence on initiating discussions at various multilateral disarmament forums on Russian non-strategic nuclear weapons, which do not threaten US territory, suggests that American military strategists are seriously considering the possibility of using nuclear weapons in the European theater of military operations,\" he said. \"Obtaining objective data on Russian non-strategic nuclear weapons through negotiations or discussions on strategic stability, the introduction of intrusive transparency measures, or their reduction - and especially their complete elimination - would increase the likelihood of a scenario involving the use of nuclear weapons by the US and its allies in Europe,\" Belousov added. The diplomat stressed that European countries should recognize the full danger of what he described as Washington’s purely practical approach to the territory of its allies.",
+      "source_title": "US seriously considers use of nuclear weapons in Europe — Russian MFA",
+      "source_url": "https://tass.com/politics/2179385",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "扎波罗热核电站人员正努力恢复外部供电",
+      "entities": [
+        {
+          "name": "扎波罗热核电站",
+          "explain": "乌克兰南部欧洲最大核电站，俄乌冲突中多次成为焦点"
+        },
+        {
+          "name": "叶夫根尼娅·亚希娜",
+          "explain": "扎波罗热核电站通讯主管，负责对外信息发布"
+        }
+      ],
+      "summary": "扎波罗热核电站通讯主管亚希娜表示，主要工作集中在恢复外部供电和确保所有系统稳定运行，以维持机组安全状态。这反映了核电站面临的持续供电挑战，可能影响核安全。",
+      "relevant": "核电站安全是国际关注焦点，供电中断可能导致冷却系统失效，引发核事故风险，对欧洲安全有重大影响。",
+      "context": "扎波罗热核电站自2022年被俄军控制后，多次遭遇炮击和断电，外部供电线路受损，核安全风险持续存在。",
+      "source_analysis": "TASS是俄罗斯官方媒体，报道可能强调俄方控制下的恢复努力，淡化乌克兰或国际原子能机构的关切。",
+      "social_impact": "核电站事故风险影响周边数百万居民，国际原子能机构持续监测，但地缘政治阻碍了有效解决方案。",
+      "source_text": "MELITOPOL, August 30. /TASS/. Personnel at the Zaporozhye Nuclear Power Plant (ZNPP) are focusing on restoring external power supply and ensuring stable operation of all systems while the plant runs on backup diesel generators, ZNPP Communications Director Yevgenia Yashina told TASS. \"The main efforts are currently focused on restoring external power supply and ensuring the stable operation of all systems needed to maintain the safe condition of the power units,\" she said. The ZNPP reported a complete loss of external power supply on August 20 after an automatic shutdown cut off its last functioning 330-kV power line, Ferrosplavnaya-1. Yashina previously told TASS that the damage to the power line was on the right bank of the Dnieper River, which is under Ukraine's control. The nuclear plant was switched to diesel generator operation. Personnel optimized generator use to conserve available fuel after Ukrainian forces' attacks disrupted fuel deliveries. On August 29, International Atomic Energy Agency Director General Rafael Grossi said the organization was seeking to establish another local ceasefire zone to accelerate repairs to the 330-kV Ferrosplavnaya-1 power line.",
+      "source_title": "ZNPP personnel work to restore external power supply",
+      "source_url": "https://tass.com/economy/2179389",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "法国民调预测勒庞将在2027年总统选举第二轮获胜",
+      "entities": [
+        {
+          "name": "勒庞",
+          "explain": "法国极右翼政党国民联盟领导人，多次参选总统"
+        },
+        {
+          "name": "马克龙",
+          "explain": "现任法国总统，因宪法限制无法连任第三届"
+        }
+      ],
+      "summary": "法国民调预测玛丽娜·勒庞将在2027年总统选举第二轮中获胜。马克龙因宪法两届任期限制无法参选，为勒庞创造机会。这一预测反映法国政治右转趋势，可能影响欧盟政策方向。",
+      "relevant": "法国是欧盟核心国家，勒庞若胜选可能改变欧洲一体化进程、移民政策和对外关系，对全球政治格局有深远影响。",
+      "context": "法国政治近年右倾，勒庞支持率上升，马克龙任期结束留下权力真空，民调显示她可能首次赢得大选。",
+      "source_analysis": "TASS是俄罗斯官方媒体，报道可能带有倾向性，强调法国极右翼崛起以凸显西方内部矛盾。",
+      "social_impact": "勒庞胜选可能引发欧盟内部动荡，影响移民、经济和气候政策，法国社会或将面临分裂加剧。",
+      "source_text": "PARIS, August 29. /TASS/. Marine Le Pen, the National Rally’s presidential candidate, could win France’s 2027 presidential runoff regardless of her opponent, according to a poll conducted by Elabe for BFMTV and La Tribune Dimanche. Among 1,500 French adults surveyed online from August 26-28, 52.5% said they would vote for Le Pen in the second round if she faced former Prime Minister Edouard Philippe, the candidate of the centrist Horizons party. Philippe is considered the most likely contender to advance to the runoff against the National Rally candidate and is seen as having the strongest chance of defeating her. Le Pen’s projected margin is wider against other potential opponents. She could win 57% of the vote against former Prime Minister Gabriel Attal, the Renaissance candidate, or against Raphael Glucksmann, leader of the center-left Place Publique party. In a runoff against Jean-Luc Melenchon, the candidate of the left-wing France Unbowed party, Le Pen could secure 69.5% of the vote, according to the poll. Le Pen also leads in the first round. The pollsters examined six scenarios involving different combinations of candidates and political forces. In all six, Le Pen comes first, with between 34% and 35.5% of the vote. Melenchon ranks third in three scenarios, with 14-14.5%, while placing second in the other three. Philippe comes second in every scenario in which he runs, with between 17% and 20.5%. If Attal remains in the race, however, he is projected to narrowly trail Melenchon, with 14.5%. The first round of France’s presidential election is scheduled for April 18, 2027. If no candidate wins more than 50% of the vote, the two leading candidates will advance to a runoff on May 2. President Emmanuel Macron will be ineligible to seek a third consecutive term in 2027 under France’s constitutional two-term limit.",
+      "source_title": "French poll predicts Le Pen's victory in 2027 presidential election runoff",
+      "source_url": "https://tass.com/world/2179383",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "卡尼获加拿大人支持对抗特朗普，但重启谈判面临挑战",
+      "entities": [
+        {
+          "name": "卡尼",
+          "explain": "加拿大总理，可能指马克·卡尼，前央行行长"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，曾发动对加拿大贸易战"
+        }
+      ],
+      "summary": "美加贸易战使加拿大民众团结在总理卡尼身后，支持他退出谈判的决定。但未来重启谈判时，卡尼将面临如何在维护国家利益和缓解经济压力之间平衡的难题。报道分析称，当前支持可能因经济代价而消退。",
+      "relevant": "美加贸易关系影响北美经济一体化，卡尼的决策将决定加拿大经济走向，对全球贸易格局有示范效应。",
+      "context": "特朗普政府时期对加拿大加征关税，引发贸易战，卡尼选择强硬立场，获得国内支持，但长期经济影响未知。",
+      "source_analysis": "纽约时报是美国主流自由派媒体，报道可能偏向自由国际主义，对特朗普政策持批评态度，对卡尼持同情视角。",
+      "social_impact": "贸易战影响两国消费者和企业，加拿大民众短期团结，但长期可能面临就业和物价压力，社会情绪或转变。",
+      "source_text": "Carney Has Canadians’ Support on Trump. Now Comes the Hard Part.。The U.S.-Canada trade war has galvanized Canadians behind their prime minister’s decision to walk away from negotiations. What happens when the time comes for talks to restart?",
+      "source_title": "Carney Has Canadians’ Support on Trump. Now Comes the Hard Part.",
+      "source_url": "https://www.nytimes.com/2026/08/29/world/canada/carney-trump-tariffs-trade.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "中国为阿尔及利亚发射首颗阿拉伯国家通信卫星",
+      "entities": [
+        {
+          "name": "阿尔及利亚",
+          "explain": "北非阿拉伯国家，此次卫星的购买方"
+        },
+        {
+          "name": "中国航天",
+          "explain": "中国航天科技集团等机构，负责卫星制造和发射"
+        }
+      ],
+      "summary": "中国周一为阿尔及利亚发射了一颗通信卫星，这是中国首次向阿拉伯国家出口此类航天器。此举标志着中国航天技术在国际市场的突破，加强了中阿合作，可能挑战传统航天大国地位。",
+      "relevant": "中国航天出口拓展至阿拉伯世界，显示技术实力提升，可能改变国际航天市场格局，对地缘政治有战略意义。",
+      "context": "中国近年来推动航天技术出口，阿尔及利亚寻求提升通信能力，双方合作基于经济和技术互补，此次发射是里程碑。",
+      "source_analysis": "中国日报是中国官方英文媒体，报道倾向正面宣传中国成就，可能强调合作共赢，淡化潜在政治影响。",
+      "social_impact": "卫星将改善阿尔及利亚通信基础设施，促进经济发展，同时增强中国在非洲和中东的影响力，引发国际关注。",
+      "source_text": "Satellite lofted for first Arab country。A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "source_title": "Satellite lofted for first Arab country",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "中俄印外长会晤同意维护亚太安全与经济架构",
+      "entities": [
+        {
+          "name": "中俄印",
+          "explain": "中国、俄罗斯、印度三国，均为金砖国家成员"
+        },
+        {
+          "name": "亚太地区",
+          "explain": "亚洲及太平洋地区，地缘政治和经济重要区域"
+        }
+      ],
+      "summary": "中国、俄罗斯和印度在第15次三边外长会晤后发表联合声明，同意维护亚太地区的安全和经济架构。会议旨在协调三国在区域事务中的立场，可能影响大国博弈格局。",
+      "relevant": "中俄印合作平衡美国在亚太的影响力，对区域安全和经济秩序有重要影响，三国关系动态值得关注。",
+      "context": "三国定期举行外长会晤，旨在加强战略协调，此次会议在亚太紧张局势下举行，强调维护区域稳定。",
+      "source_analysis": "中国日报是中国官方媒体，报道可能强调三国共识，淡化分歧，反映中国外交政策立场。",
+      "social_impact": "三国合作可能推动多极化，影响贸易和安全机制，但内部信任问题可能限制实际成果。",
+      "source_text": "Chinese, Russian and Indian ministers meet。China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "source_title": "Chinese, Russian and Indian ministers meet",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "尼泊尔-西藏边境洪灾已致682人死亡，近3000人失踪，救援面临溃堤风险",
+      "entities": [
+        {
+          "name": "尼泊尔-西藏边境",
+          "explain": "尼泊尔与中国西藏自治区交界的喜马拉雅山区，此次遭遇暴雨引发的山洪和山体滑坡"
+        },
+        {
+          "name": "FRANCE 24",
+          "explain": "法国国际广播电台，法国政府资助的全球新闻频道"
+        }
+      ],
+      "summary": "尼泊尔-西藏边境地区遭遇暴雨引发的山洪和山体滑坡，已确认682人死亡，近3000人仍失踪。救援行动因上游洪水形成的湖泊可能溃堤而面临极高风险，救援人员正在执行'极其危险的行动'。",
+      "relevant": "这是重大人道主义灾难，涉及大规模人员伤亡和持续救援风险，牵动国际社会关注。",
+      "context": "暴雨引发的山洪和山体滑坡袭击了尼泊尔与西藏交界的山区，洪水在上游形成堰塞湖，对下游救援人员和居民构成二次威胁。",
+      "source_analysis": "FRANCE 24是法国公共广播机构，报道立场相对中立，记者Shahzaib Wahlah现场报道。",
+      "social_impact": "已确认682人死亡，近3000人失踪，救援行动因溃堤风险受阻，影响范围覆盖边境山区多个社区。",
+      "source_text": "‘Extremely risky operations’: Rescuers work amid threat of river banks bursting。Nearly 3,000 people remained missing on Saturday, while 682 deaths had been confirmed after flash floods and landslides hit the Nepal-Tibet border. Rescue operations remain risky as a lake formed upstream by the floods threatens to burst its banks. FRANCE 24's Shahzaib Wahlah reports.",
+      "source_title": "‘Extremely risky operations’: Rescuers work amid threat of river banks bursting",
+      "source_url": "https://www.france24.com/en/extremely-risky-operations-rescuers-work-amid-threat-of-river-banks-bursting",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "右翼评论员米洛·扬诺普洛斯被美国驱逐出境，遣返英国",
+      "entities": [
+        {
+          "name": "米洛·扬诺普洛斯",
+          "explain": "英国出生的极右翼政治评论员，以挑衅性言论著称，自称'惹事精'"
+        },
+        {
+          "name": "ICE",
+          "explain": "美国移民和海关执法局，负责美国境内移民法的执行和遣返工作"
+        }
+      ],
+      "summary": "自称'惹事精'的右翼评论员米洛·扬诺普洛斯被美国移民和海关执法局（ICE）拘留后，已从美国被驱逐出境，遣返回英国。",
+      "relevant": "此事件涉及美国移民执法和言论自由边界，扬诺普洛斯是极具争议的公众人物，其被驱逐引发对言论自由与移民政策的讨论。",
+      "context": "扬诺普洛斯长期在美国活动，其挑衅性言论多次引发争议，此次被ICE拘留并驱逐，具体原因尚未完全披露。",
+      "source_analysis": "BBC是英国公共广播机构，报道相对中立，但作为英国媒体可能对英国公民被驱逐事件有特定关注角度。",
+      "social_impact": "事件引发关于言论自由、移民政策和极端言论的公众讨论，扬诺普洛斯的支持者与反对者反应两极。",
+      "source_text": "Right-wing commentator Milo Yiannopoulos deported from US to UK - Published British right-wing political commentator Milo Yiannopoulos has been deported from the United States after being detained by Immigration and Customs Enforcement (ICE). Yiannopoulos, 41, a former editor of Breitbart News and one time political aide to rapper Kanye West, was deported on Friday, according to the Department of Homeland Security (DHS). Yiannopoulos, \"an illegal alien from the United Kingdom\" had been sent \"back to his home country\", a DHS spokesperson said in a statement given to the BBC. The self-styled provocateur has called himself the \"most fabulous supervillain on the internet\" and advocated for stricter US immigration controls. His critics call him a purveyor of hate speech. Yiannopoulos, who grew up in Kent in the south of England, was arrested on 27 August after arriving at Louis Armstrong New Orleans International Airport. He flew into the US in May 2019 and \"chose to overstay his welcome in violation of our nation's laws\", the DHS said. He has previously cheered on ICE raids, last year calling for \"total legal immunity for ICE agents when they're on duty\". He wrote on social media in 2025: \"We have got to deport millions and millions of people. Without that, nothing else matters.\" Yiannopoulos also advocated \"on the spot deportation for anyone who can't prove they are in the US legally\" on social media. Yiannopoulos was an early supporter of Donald Trump during the 2016 election, headlining an event that year called Gays for Trump during the Republican National Convention. The commentator has since become a critic of the US president, but still voices support for his agenda. He wrote on X in March this year that Trump had \"lost his way, bought off by foreign interests\". Yiannopoulos has courted controversy with his comments on transgender people, Muslims, Black Lives Matter, feminists and gay people, even though he himself identified as gay. He now calls himself an \"ex-gay\". In 2020, he assisted West in the rapper's unsuccessful bid to become president. He also worked for Marjorie Taylor Greene, a former Republican congresswoman who fell out with Trump and became a fierce critic before resigning from office. Laura Loomer, a far-right commentator and Trump ally who has feuded with Yiannopoulos, took credit for his arrest by ICE, claiming on X on Friday night that his flight back to the UK had already departed. \"This subversive foreign agent is already out of the",
+      "source_title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "厄瓜多尔前总统莫雷诺因腐败案被判入狱",
+      "entities": [
+        {
+          "name": "莱宁·莫雷诺",
+          "explain": "厄瓜多尔前总统，2017年至2021年在任，现因腐败指控被判刑"
+        },
+        {
+          "name": "中国公司",
+          "explain": "被指控行贿以获得水电站建设合同的中国企业，具体名称未在报道中披露"
+        }
+      ],
+      "summary": "厄瓜多尔前总统莱宁·莫雷诺因腐败罪被判入狱，他被指控收受一家中国公司的贿赂，以确保该公司获得一座水电站的建设合同。莫雷诺否认所有指控。",
+      "relevant": "这是拉美国家反腐败的重要案例，涉及前总统级别的高官腐败，也牵涉中国企业在海外的商业行为。",
+      "context": "莫雷诺在2017年至2021年担任厄瓜多尔总统，卸任后因涉嫌在任期内收受贿赂、滥用职权而面临司法调查。",
+      "source_analysis": "BBC报道，作为国际主流媒体，报道相对客观，但未提供更多案件细节。",
+      "social_impact": "案件反映拉美地区反腐败斗争的持续深入，也引发对中国企业在海外投资合规性的关注。",
+      "source_text": "Former Ecuadorian president imprisoned for corruption - Published A former president of Ecuador has been sentenced to five years in prison after being found guilty of taking bribes. Lenín Moreno insisted he had not taken money from a Chinese firm which secured a contract to build a hydroelectric plant in the Latin American nation. The 73-year-old will serve his sentence under house arrest due to his age and disability, and has already indicated his intention to appeal against the verdict after a court in the capital, Quito, found him and 19 others guilty of corruption. Moreno, who was president between 2017 and 2021, is the third former Ecuadorian leader to be sentenced for corruption. Prosecutors alleged that that Sinohydro, which is owned by the Chinese state, paid a total of $76.1m (£56.2m) through shell companies to people involved in the deal to secure the construction of the Coca Codo Sinclair hydroelectric dam. Among those handed prison sentences were Moreno's wife, daughter and brother, as well as former plant managers, Sinohydro representatives and a Chinese ambassador to Ecuador. While Moreno himself was alleged to have received very little from the scheme, prosecutors said family members received tens of thousands of dollars. Those convicted of bribery will have to repay three times what they were given, while Moreno was barred from public office. He denied involvement in the alleged bribery scheme and instead blamed another former president, Rafael Correa, under whom he served as vice-president and who was sentenced to eight years in prison in a separate bribery case in 2020. Moreno argued that Correa had signed off on the Coca Codo Sinclair project, and that he had launched an investigation into issues with the construction when he had assumed the presidency. The Ecuadorian government launched legal proceedings against Sinohydro in 2021 due to cracks appearing in the dam and other technical failures. It reached a $400m settlement with the firm's owner earlier this year. The BBC has approached Sinohydro and the Chinese embassy in Ecuador for comment.",
+      "source_title": "Former Ecuadorian president imprisoned for corruption",
+      "source_url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "英国被敦促营救在开罗被捕的英籍埃及女性，其被捕疑因其姐妹批评埃及政府",
+      "entities": [
+        {
+          "name": "伊曼·沙兹利",
+          "explain": "45岁英籍埃及女性，居住在英国伯明翰，2026年8月16日在埃及探亲时被捕"
+        },
+        {
+          "name": "莫娜·沙兹利",
+          "explain": "伊曼的姐妹，在YouTube上运营频道，是埃及政府的激烈批评者"
+        },
+        {
+          "name": "塞西政权",
+          "explain": "埃及现任总统阿卜杜勒·法塔赫·塞西领导的政府，被批评压制异见"
+        }
+      ],
+      "summary": "英国外交部被要求介入，以营救一名英籍埃及女性伊曼·沙兹利。她于8月16日在开罗被捕，律师称其被捕是为了压制其姐妹莫娜在YouTube上批评埃及政府的声音。",
+      "relevant": "此事件涉及英国公民海外安全、埃及人权状况以及言论自由问题，可能影响英埃外交关系。",
+      "context": "伊曼·沙兹利从伯明翰前往埃及探亲时被捕，其姐妹莫娜在英国运营YouTube频道，长期严厉批评埃及政府，律师认为逮捕是'杀鸡儆猴'。",
+      "source_analysis": "《卫报》是英国左翼自由派媒体，对埃及人权问题持批评立场，报道倾向关注个人权利受侵犯。",
+      "social_impact": "事件凸显埃及对异见人士的打压，以及海外公民在母国面临的风险，引发英国社会对政府领事保护的关注。",
+      "source_text": "The UK Foreign Office has been asked to intervene to secure the release of a British-Egyptian woman who it is claimed has been arrested in Cairo because of her sister’s political activism. Eman el-Shazly, a 45-year-old based in Birmingham, was arrested on 16 August while visiting Egypt. Her lawyers say she has been detained in an attempt to silence her sister Mona, a relentless and harsh critic of the Egyptian government on her UK-based YouTube channel. Her two brothers have already spent three years in jail and, in May, were rearrested. They were previously held in pre-trial detention, facing charges of “promoting the ideas of a terrorist organisation on social media, as well as broadcasting false news harmful to state security”. The UK Foreign Office has confirmed to the husband of Eman that she is being held in the Ramadan rehabilitation centre and her case has been given the same file number as that of her two brothers, Hassan and Eid. The government of President Abdel Fatah al-Sisi has faced allegations that it frequently arrests relatives of political critics to put indirect pressure on the dissidents to end their overseas criticism of his rule or of state corruption. Much of Mona’s activism focuses on alleged cases of corruption inside the security services or public utilities, a highly sensitive subject in Egypt. Arfan Rashid, the lawyer acting for Eman’s husband with whom she has four children, says that unlike Mona his wife has never been involved in politics, and had gone to Cairo two months ago to look after her ill mother after the arrest of her two brothers. “There is ample evidence that Eman has been arrested to silence Mona,” Rashid said. He added that Eman had told the security officials she was no longer in contact with her sister, and that many family members had repeatedly asked her to stop her political activism in the UK, but to no effect. Mona confirmed to the Guardian that she had been asked to halt her activism by other family members, including to take down her YouTube videos. But she added: “I have done nothing wrong nor broken any law … I am a very strong woman, but it is very traumatic for me since 11 or 12 children are without their parents. It is a horrible situation, but the Egyptian government will not stop if I appear weak. The government is close to collapsing.” Rashid said the UK government had recognised the practice of “punishment by proxy” in Egypt in its country profile policy and information note published in March ",
+      "source_title": "UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’",
+      "source_url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
+      "source_name": "卫报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_424e65b46092",
+      "source": "BBC",
+      "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+      "summary": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
+      "image": ""
+    },
+    {
+      "id": "rss_7b56cea1d16e",
+      "source": "BBC",
+      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+      "summary": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+      "image": ""
+    },
+    {
+      "id": "rss_260e97fa9453",
+      "source": "BBC",
+      "title": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+      "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+      "image": ""
+    },
+    {
+      "id": "rss_eee9f0fac62a",
+      "source": "BBC",
+      "title": "Norway's new king remembers 'my dear father' in first speech",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy79wmv4jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Haakon VIII pays emotional tribute to his late father, Harald V, before outlining how he wishes to reign.",
+      "image": ""
+    },
+    {
+      "id": "rss_0957c193302e",
+      "source": "BBC",
+      "title": "Former Ecuadorian president imprisoned for corruption",
+      "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Lenín Moreno denies taking bribes from a Chinese firm to secure a contract to build a hydroelectric plant.",
+      "image": ""
+    },
+    {
+      "id": "rss_65ba7198e3b4",
+      "source": "France24",
+      "title": "Missing toll from Nepal, China flood nears 3,000 as race for survivors continues",
+      "url": "https://www.france24.com/en/asia-pacific/20260829-missing-toll-from-nepal-china-flood-nears-3-000-as-race-for-survivors-continues",
+      "summary": "Rescuers in Nepal and China on Saturday continued to search for the nearly 3,000 people missing after devastating flooding along the border with China engulfed entire villages earlier this week. At least 682 bodies were recovered in both countries, including 675 in Nepal and seven in China.",
+      "image": "https://s.france24.com/media/display/e22b113e-a3e3-11f1-b707-005056a90284/w:1024/p:16x9/000-C6TD3PQ.jpg"
+    },
+    {
+      "id": "rss_55161fc72124",
+      "source": "France24",
+      "title": "Netanyahu condemns 'criminal acts of violence' by settlers in West Bank villages",
+      "url": "https://www.france24.com/en/middle-east/20260829-netanyahu-condemns-criminal-acts-of-violence-by-settlers-in-west-bank-villages",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu on Saturday condemned what he called \"criminal acts of violence\" perpetrated by Israeli settlers in two Palestinian villages. Earlier in August, a group of settlers blocked supplies from entering Palestinian houses on the outskirts of Qusra and attacked a Palestinian family and a foreign media crew in nearby Jalud.",
+      "image": "https://s.france24.com/media/display/c2c9d0c8-a3d4-11f1-9dfa-005056a90284/w:1024/p:16x9/000-C6TD3PD.jpg"
+    },
+    {
+      "id": "rss_46da23be4df4",
+      "source": "France24",
+      "title": "'I am sure of myself': A look back at Dolly Parton's unspoken feminist legacy",
+      "url": "https://www.france24.com/en/americas/20260829-i-am-sure-of-myself-a-look-back-at-dolly-parton-s-unspoken-feminist-legacy",
+      "summary": "Beloved country star Dolly Parton was many things to her fans, including an actor, singer, philanthropist and entrepreneur. But after her death on Tuesday at the age of 80, some admirers are remembering her as something she never overtly claimed: feminist icon.",
+      "image": "https://s.france24.com/media/display/da06009a-a3b1-11f1-84a0-005056a90284/w:1024/p:16x9/AP23226848721521.jpg"
+    },
+    {
+      "id": "rss_31e77cebd02a",
+      "source": "France24",
+      "title": "Iran war reaches 6-month mark: Conflict cost $1,100 per US taxpayer",
+      "url": "https://www.france24.com/en/iran-war-reaches-6-month-mark-conflict-cost-1-100-per-us-taxpayer",
+      "summary": "After six months of war, Iran’s leadership has coalesced around a hard core of military generals and clerics long entrenched in the ruling theocracy. They are ready for a potentially long confrontation with the US and determined to prevent any unrest at home. It’s a far cry from US President Donald Trump’s initial hopes of toppling the Islamic Republic and his subsequent claims that “regime change” had brought more compromising officials to the fore. In an analysis, FRANCE 24's Philip Turle said the war had so far cost around 1,100 US dollars for each US taxpayer.",
+      "image": "https://s.france24.com/media/display/cce883aa-a3bc-11f1-934a-005056a97e36/w:1024/p:16x9/EN-20260829-170756-171246-CS.jpg"
+    },
+    {
+      "id": "rss_6b1454fa33cb",
+      "source": "France24",
+      "title": "‘Extremely risky operations’: Rescuers work amid threat of river banks bursting",
+      "url": "https://www.france24.com/en/extremely-risky-operations-rescuers-work-amid-threat-of-river-banks-bursting",
+      "summary": "Nearly 3,000 people remained missing on Saturday, while 682 deaths had been confirmed after flash floods and landslides hit the Nepal-Tibet border. Rescue operations remain risky as a lake formed upstream by the floods threatens to burst its banks. FRANCE 24's Shahzaib Wahlah reports.",
+      "image": "https://s.france24.com/media/display/015888a2-a3bc-11f1-82bf-005056bfb2b6/w:1024/p:16x9/EN-20260829-170217-170456-CS.jpg"
+    },
+    {
+      "id": "rss_f77cccc23776",
+      "source": "TASS Russia",
+      "title": "Ukrainian forces attack Donetsk People's Republic settlements 27 times over past day",
+      "url": "https://tass.com/politics/2179391",
+      "summary": "The attacks damaged six civilian infrastructure facilities, a residential building, and a tanker truck belonging to the Emergencies Ministry",
+      "image": ""
+    },
+    {
+      "id": "rss_7707129cb0a9",
+      "source": "TASS Russia",
+      "title": "ZNPP personnel work to restore external power supply",
+      "url": "https://tass.com/economy/2179389",
+      "summary": "The main efforts are currently focused on restoring external power supply and ensuring the stable operation of all systems needed to maintain the safe condition of the power units, ZNPP Communications Director Yevgenia Yashina",
+      "image": ""
+    },
+    {
+      "id": "rss_4ac1816f4fe5",
+      "source": "TASS Russia",
+      "title": "Putin says Russia holds world's second-largest coal reserves",
+      "url": "https://tass.com/politics/2179387",
+      "summary": "The Russian leader noted that coke, iron ore, and other minerals remain one of the foundations of the national economy today",
+      "image": ""
+    },
+    {
+      "id": "rss_5b33fa5ed669",
+      "source": "TASS Russia",
+      "title": "US seriously considers use of nuclear weapons in Europe — Russian MFA",
+      "url": "https://tass.com/politics/2179385",
+      "summary": "According to Andrey Belousov, Washington’s efforts to initiate discussions on Russia’s non-strategic nuclear weapons serve to divert international attention from what he described as the threat posed by US nuclear weapons stationed in Europe",
+      "image": ""
+    },
+    {
+      "id": "rss_37bc398e2460",
+      "source": "TASS Russia",
+      "title": "French poll predicts Le Pen's victory in 2027 presidential election runoff",
+      "url": "https://tass.com/world/2179383",
+      "summary": "President Emmanuel Macron will be ineligible to seek a third consecutive term in 2027 under France’s constitutional two-term limit",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_2679d756b479",
+      "source": "纽约时报",
+      "title": "Search Continues for 2,400 Missing in Nepal Floods Amid ‘Immense’ Devastation",
+      "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
+      "summary": "As rescue efforts entered their fourth day, the scale of destruction came into focus, signaling a daunting recovery for the vulnerable nation.",
+      "image": ""
+    },
+    {
+      "id": "rss_27acbc9141ce",
+      "source": "纽约时报",
+      "title": "37 Killed After Russian Strike on Weapons Depot as Ukraine Blames Negligence",
+      "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html",
+      "summary": "The depot, which was in a civilian area near Kyiv, “definitely shouldn’t have been there,” President Volodymyr Zelensky said.",
+      "image": ""
+    },
+    {
+      "id": "rss_017a447d72f1",
+      "source": "纽约时报",
+      "title": "Nepal Rescuers Bore Through Tunnels to Try to Reach 900 Workers Missing After Floods",
+      "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html",
+      "summary": "The Nepal Army, which is leading rescue efforts, turned to the trapped workers more than a day after the flood, according to army officials, industry groups and private rescuers.",
+      "image": ""
+    },
+    {
+      "id": "rss_cdff0bb98a4f",
+      "source": "纽约时报",
+      "title": "Carney Has Canadians’ Support on Trump. Now Comes the Hard Part.",
+      "url": "https://www.nytimes.com/2026/08/29/world/canada/carney-trump-tariffs-trade.html",
+      "summary": "The U.S.-Canada trade war has galvanized Canadians behind their prime minister’s decision to walk away from negotiations. What happens when the time comes for talks to restart?",
+      "image": ""
+    },
+    {
+      "id": "rss_47053de5a7fb",
+      "source": "纽约时报",
+      "title": "Thieves Smash Museum Case for Diamond Necklace Worth Millions in Vienna",
+      "url": "https://www.nytimes.com/2026/08/29/world/europe/diamond-necklace-theft-vienna.html",
+      "summary": "The theft of the precious object, once owned by an Egyptian queen and later sold to satisfy her creditors, was the latest in a string of high-profile museum losses.",
+      "image": ""
+    },
+    {
+      "id": "rss_4f59786e1630",
+      "source": "卫报",
+      "title": "Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid",
+      "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
+      "summary": "Police hunt two suspects after historic 200-carat piece is snatched from Austrian museum during opening hours Austrian police are hunting two men alleged to have stolen a 200-carat platinum necklace encrusted with 673 diamonds that was on loan to a museum in Vienna and once belonged to Egyptian royalty. Authorities in the capital released pictures of the suspects captured by security cameras during the heist at the Museum of Applied Arts (MAK), amid a rash of spectacular smash-and-grab thefts from European cultural institutions. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_3a324c0071a0",
+      "source": "卫报",
+      "title": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
+      "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+      "summary": "Other governments could seek similar concessions, while separate legal action is pending in places ranging from Kenya to the Netherlands In October 2021, Abrham Meareg’s father, a professor of chemistry in Ethiopia’s northern town of Bahir Dar, was shot at close range and died outside his family home. This was in the middle of the country’s civil war. For weeks, Facebook’s algorithm had actively promoted posts calling for the academic to be murdered, according to Meareg and Foxglove, a nonprofit organisation supporting Meareg’s lawsuit against the company in Kenya. These posts included photos of his father and his home address. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_87b7a53533ef",
+      "source": "卫报",
+      "title": "UK urged to help free British-Egyptian ‘arrested in Cairo over sister’s activism’",
+      "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
+      "summary": "Lawyers claim Eman el-Shazly, from Birmingham, was detained in effort to silence her sister, a critic of Sisi regime The UK Foreign Office has been asked to intervene to secure the release of a British-Egyptian woman who it is claimed has been arrested in Cairo because of her sister’s political activism. Eman el-Shazly, a 45-year-old based in Birmingham, was arrested on 16 August while visiting Egypt. Her lawyers say she has been detained in an attempt to silence her sister Mona, a relentless and harsh critic of the Egyptian government on her UK-based YouTube channel. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a2191fd9c1f1",
+      "source": "卫报",
+      "title": "South African police arrest two Thai men for allegedly smuggling parrot eggs",
+      "url": "https://www.theguardian.com/world/2026/aug/26/south-african-police-arrest-two-thai-men-smuggling-parrot-eggs",
+      "summary": "Bird eggs intercepted in homemade incubators at Johannesburg airport as officials try to halt wildlife trafficking South African police have arrested two Thai nationals in separate incidents for allegedly attempting to smuggle endangered parrot eggs out of the country as authorities try to stem the tide of wildlife trafficking. A 50-year-old Thai national was arrested at OR Tambo international airport in Johannesburg on 20 August, carrying 50 bird eggs in a homemade incubator in a hand-luggage bag, South Africa’s environment ministry said in a statement . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fba6530dd019",
+      "source": "卫报",
+      "title": "Mpox is back – and in new countries. How can this outbreak be contained?",
+      "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
+      "summary": "The public health emergencies in 2022 and 2024 saw the virus reported in 145 countries, but in the new cases children appear particularly affected A fresh outbreak of mpox in Guinea Bissau – the country’s first – means the virus formerly known as monkey pox is back in the headlines. So what has changed? Since 2022, there have been almost 190,000 lab-confirmed cases of mpox reported worldwide in 145 countries. Before then, outbreaks of mpox tended to be relatively small and in a handful of African countries, where the viral infection was known to be endemic. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-08-30 07:30"
+}
