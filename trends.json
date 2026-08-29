@@ -1,33 +1,5 @@
 [
   {
-    "theme": "开源/本地优先AI工具加速崛起",
-    "importance": 4,
-    "evidence": "Rowboat（Claude Desktop替代品）、local-llm（本地LLM指南）、Omnigent（多Agent编排）等项目活跃",
-    "grassroots": "开发者开始主动搜索‘迁移方案’和‘本地替代方案’",
-    "date": "2026-07-08"
-  },
-  {
-    "theme": "多智能体安全与效率成为核心议题",
-    "importance": 5,
-    "evidence": "同日出现Institutional Red-Teaming、Agon、Max Out GRPO Signal等多篇相关论文，以及Omnigent等编排工具",
-    "grassroots": "开发者讨论中频繁提及Agent框架差异和部署规则影响",
-    "date": "2026-07-09"
-  },
-  {
-    "theme": "AI编程工具进入效率优化与风险管控阶段",
-    "importance": 5,
-    "evidence": "Dev.to上出现Diff Debt概念、开发者分享Agent任务分配经验、掘金上筛选Claude Code Skills",
-    "grassroots": "开发者从'能不能用'转向'怎么用好、怎么安全地用'",
-    "date": "2026-07-09"
-  },
-  {
-    "theme": "开源模型在编码Agent领域快速追赶",
-    "importance": 4,
-    "evidence": "GLM 5.2在Databricks基准测试中表现突出，DeepSpec开源推测解码代码库",
-    "grassroots": "HN讨论中多位开发者确认开源模型已具备竞争力",
-    "date": "2026-07-09"
-  },
-  {
     "theme": "AI商业合规风险集中爆发",
     "importance": 5,
     "evidence": "Apple诉OpenAI、Claude Code封禁中国用户、豆包千问关停智能体，三大事件同日发生",
@@ -1398,5 +1370,33 @@
     "evidence": "HN热帖'请停止用AI淹没我们的开源项目'引发广泛共鸣，多位维护者表示将减少接受外部PR",
     "grassroots": "维护者反映AI PR质量参差、贡献动机可疑，个人关系比代码质量更重要",
     "date": "2026-08-28"
+  },
+  {
+    "theme": "AI编程工具阵营化",
+    "importance": 5,
+    "evidence": "OpenAI断供Cursor、Anthropic此前封禁xAI",
+    "grassroots": "HN用户表示'现在得站队了'，多模型切换价值被削弱",
+    "date": "2026-08-29"
+  },
+  {
+    "theme": "Agent框架平台化",
+    "importance": 5,
+    "evidence": "DeepSeek Harness插件生态快速成型，社区衍生项目密集出现",
+    "grassroots": "开发者开始用路由套件、注入器等进阶工具定制Agent行为",
+    "date": "2026-08-29"
+  },
+  {
+    "theme": "开源模型端侧化",
+    "importance": 4,
+    "evidence": "Kimi K3纯C移植单CPU运行、GLM-5.3开放权重",
+    "grassroots": "社区惊叹'无GPU跑万亿参数'，端侧推理门槛持续降低",
+    "date": "2026-08-29"
+  },
+  {
+    "theme": "AI自我改进加速",
+    "importance": 4,
+    "evidence": "Anthropic展示自我改进AI全基准提升",
+    "grassroots": "暂无，安全争议待发酵",
+    "date": "2026-08-29"
   }
 ]
