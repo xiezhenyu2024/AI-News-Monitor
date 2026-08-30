@@ -1,26 +1,5 @@
 [
   {
-    "theme": "AI商业合规风险集中爆发",
-    "importance": 5,
-    "evidence": "Apple诉OpenAI、Claude Code封禁中国用户、豆包千问关停智能体，三大事件同日发生",
-    "grassroots": "开发者开始重新评估对单一AI平台的依赖风险",
-    "date": "2026-07-11"
-  },
-  {
-    "theme": "AI数学推理能力进入实证阶段",
-    "importance": 5,
-    "evidence": "GPT-5.6首次证明公开数学猜想，从反例到证明的跨越",
-    "grassroots": "HN用户既兴奋又谨慎，关注证明的严谨性和可复现性",
-    "date": "2026-07-11"
-  },
-  {
-    "theme": "智能体平台从开放走向封闭",
-    "importance": 4,
-    "evidence": "豆包和千问同日关停智能体功能，用户被迫迁移",
-    "grassroots": "掘金用户大量讨论迁移方案，对平台信任度下降",
-    "date": "2026-07-11"
-  },
-  {
     "theme": "AI Agent进入长程记忆与多智能体协作时代",
     "importance": 5,
     "evidence": "今日多篇ArXiv论文聚焦Proactive Memory Agent、WebSwarm多智能体编排、UniClawBench基准",
@@ -1398,5 +1377,26 @@
     "evidence": "Anthropic展示自我改进AI全基准提升",
     "grassroots": "暂无，安全争议待发酵",
     "date": "2026-08-29"
+  },
+  {
+    "theme": "插件化Agent框架成为新基础设施",
+    "importance": 5,
+    "evidence": "DeepSeek Harness开源后社区衍生项目密集涌现，涵盖桌面端、路由、生态聚合",
+    "grassroots": "开发者反馈插件丰富但版本迭代快，兼容性跟进压力大",
+    "date": "2026-08-30"
+  },
+  {
+    "theme": "智能体技能进化与经验积累",
+    "importance": 4,
+    "evidence": "WikiSkill、RedEvoAgent等多篇论文同日发布，方向高度一致",
+    "grassroots": "开发者对Agent跨任务学习能力期待高，但担忧行为不可控",
+    "date": "2026-08-30"
+  },
+  {
+    "theme": "Agent安全治理从讨论走向行动",
+    "importance": 5,
+    "evidence": "OpenAI发布攻击事件复盘报告，MCP安全提醒在Dev.to引发共鸣",
+    "grassroots": "开发者开始实际验证Agent权限声明，而非信任文档",
+    "date": "2026-08-30"
   }
 ]

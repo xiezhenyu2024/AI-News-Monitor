@@ -1,0 +1,1175 @@
+{
+  "key": "2026-08-30-afternoon",
+  "date": "2026-08-30",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "WikiSkill框架：将AI代理经验编译为持久知识库，实现技能协同进化",
+      "entities": [
+        {
+          "name": "WikiSkill",
+          "explain": "一种新框架，让AI代理在完成任务的同时，将经验整理成可复用的知识库（wiki），并基于此持续改进自身技能。"
+        },
+        {
+          "name": "AI代理",
+          "explain": "能够自主感知环境、做出决策并执行任务的人工智能系统，如能自动写代码、订机票的AI。"
+        },
+        {
+          "name": "技能进化",
+          "explain": "AI代理通过不断学习和总结经验，自动改进和生成新技能的过程。"
+        }
+      ],
+      "summary": "WikiSkill提出一种新框架，将AI代理的原始执行经验、积累的知识和可执行的技能三者分离，并持续将经验整合进一个持久化的知识库（wiki）中，后续的技能更新可以基于此知识库进行。实验表明，WikiSkill在多个基准测试和模型上，性能优于现有的技能进化方法，且大多数情况下优于不使用技能的基线。研究发现，技能进化与模型规模扩大是互补的，更大的模型通常能从技能进化中获益更多。",
+      "relevant": "这项研究解决了AI代理技能进化中经验知识分散、难以系统复用的问题，为构建能持续自我提升的AI系统提供了新思路。",
+      "context": "当前AI代理通过从经验中自动发现技能来逐步适应环境，但指导技能发展的洞察通常分散在优化历史中，限制了跨迭代的系统性复用。WikiSkill旨在通过建立持久知识库来解决这一瓶颈。",
+      "source_analysis": "论文来自arXiv预印本平台，属于学术研究，通常经过同行评议前的初步审核，立场相对中立。",
+      "social_impact": "该研究可能推动AI代理在复杂任务（如软件开发、科学研究）中的自主性和适应性，减少人工干预，但具体影响范围尚待观察。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 27 Aug 2026] Title:WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution View PDF HTML (experimental) Abstract:Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent experience for developing reusable and transferable skills. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and s",
+      "source_title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "source_url": "https://arxiv.org/abs/2608.27454v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "SWE-Prime：通过多粒度数据筛选，用更少轨迹提升大模型软件问题解决能力",
+      "entities": [
+        {
+          "name": "SWE-Prime",
+          "explain": "一种新的数据筛选方法，用于从AI代理解决软件问题的轨迹数据中，挑选出高质量的部分来训练大模型。"
+        },
+        {
+          "name": "监督微调",
+          "explain": "一种常见的AI模型训练方法，使用标注好的数据（如正确的解题步骤）来调整模型，使其表现更好。"
+        },
+        {
+          "name": "轨迹",
+          "explain": "AI代理在解决一个任务时，从开始到结束所采取的一系列步骤和决策的记录。"
+        }
+      ],
+      "summary": "SWE-Prime提出一种多粒度、两阶段的监督微调数据筛选方法。第一阶段在轨迹层面，根据过程质量、结果质量和数据代表性进行筛选，选出高质量且具代表性的成功轨迹子集。第二阶段在片段层面，将连续步骤分组为语义片段进行选择。该方法旨在过滤掉成功轨迹中可能存在的无效、冗余或风险步骤，避免模型学习到不良的解决问题行为。",
+      "relevant": "该研究挑战了“成功轨迹即优质数据”的假设，为提升大模型在真实软件工程任务中的可靠性和效率提供了新方法。",
+      "context": "以往研究倾向于构建大规模AI代理轨迹数据集，并对成功轨迹进行监督微调。但成功轨迹可能包含噪声监督，导致模型模仿低效或有风险的行为。",
+      "source_analysis": "论文来自arXiv预印本平台，属于学术研究，立场中立。",
+      "social_impact": "该方法有望降低训练高性能AI编程助手的成本（需要更少数据），并提高其代码质量与安全性，对软件开发行业有潜在影响。",
+      "source_text": "Computer Science > Software Engineering [Submitted on 27 Aug 2026] Title:SWE-Prime: Fewer Trajectories, Better Performance View PDF HTML (experimental) Abstract:To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain ineffective, redundant, or risky steps. Directly using such trajectories for SFT can introduce noisy supervision and encourage models to imitate undesirable problem-solving behaviors. Therefore, we propose SWE-Prime, a multi-granularity, two-stage SFT data selection method that progressively filters training data at the trajectory and segment levels. Specifically, the first stage performs trajectory-level screening based on process quality, result quality, and data representativeness, selecting a high-quality and representative subset of successful trajectories. The second stage performs segment-level selection by grouping consecutive steps into semantic segments and assessing each segment based on its contribution to the final solution, learnability, and potential risks. During SFT, all segments remain in the sequence to preserve context, while only selected segments contribute to the loss computation. Experiments on SWE-Bench Pro and SWE-Bench Verified show that training on the 10% trajectory subset selected by SWE-Prime outperforms training on the full resolved dataset, yielding relative performance gains of up to 12.2% and 24.2%, respectively. Current browse context: cs.SE References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individu",
+      "source_title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "source_url": "https://arxiv.org/abs/2608.27449v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "MCR-Bench：首个面向真实多轮代码审查的基准测试集发布",
+      "entities": [
+        {
+          "name": "MCR-Bench",
+          "explain": "一个专门用于评估AI在真实多轮代码审查场景中表现的新基准测试集。"
+        },
+        {
+          "name": "代码审查",
+          "explain": "软件开发中，开发者之间互相检查代码，提出修改意见以提高代码质量的过程，通常需要多轮沟通。"
+        },
+        {
+          "name": "大语言模型",
+          "explain": "能够理解和生成人类语言的人工智能模型，如GPT系列，也可用于代码理解和生成。"
+        }
+      ],
+      "summary": "MCR-Bench是首个面向真实多轮代码审查的基准测试，覆盖五种常用编程语言，包含2,269个真实世界的多轮代码审查任务。每个任务都标注了细粒度的缺陷信息（如描述、类型、严重程度）和跨轮次的状态标签。该基准旨在弥补现有研究将代码审查简化为单轮静态决策的不足，更真实地反映审查过程的交互性和复杂性。",
+      "relevant": "该基准为评估和提升大语言模型在真实、复杂代码审查场景中的能力提供了重要工具，有助于开发更实用的AI辅助编程工具。",
+      "context": "真实世界的代码审查是开发者和审查者之间多轮迭代交互的过程，成本高昂。现有AI自动化代码审查研究大多将其简化为单轮任务，无法捕捉真实场景的复杂性。",
+      "source_analysis": "论文来自arXiv预印本平台，属于学术研究，立场中立。",
+      "social_impact": "该基准有望推动AI代码审查工具从“单次找错”向“多轮协作改进”发展，可能显著提高软件开发效率和代码质量。",
+      "source_text": "Computer Science > Software Engineering [Submitted on 27 Aug 2026] Title:From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench View PDF HTML (experimental) Abstract:In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review scenarios. To bridge this gap, we introduce MCR-Bench, the first defect state-aware benchmark designed for realistic multi-round code review. MCR-Bench covers five commonly-used programming languages and consists of 2,269 real-world multi-round code review tasks, each of which is annotated with fine-grained defect information and cross-round state labels. Each task in MCR-Bench is equipped with fine-grained defect metadata (e.g., description, type, severity) alongside dynamic state annotations, capturing the complete evolutionary trajectory of a defect throughout the multi-round process. We obtain several findings through extensive experiments on MCR-Bench with mainstream LLMs. (1) Limited overall capability: experiments reveal that mainstream LLMs exhibit limited overall performance in defect detection and defect lifecycle state tracking, with performance degrading significantly as the number of interaction rounds increases; (2) Defect-sensitive performance: LLMs' performance varies substantially across different defect types and severity levels, with semantically complex or low-salience defects being significantly more likely to be missed; (3) Underlying Failure Mechanisms: our in-depth error analysis dissects the distinct drivers of false positives and false negatives, revealing critical weaknesses such as cross-round temporal misalignment and inadequate long-range memory. Current browse context: cs.SE References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is Da",
+      "source_title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "source_url": "https://arxiv.org/abs/2608.27442v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "RedEvoAgent：具备经验驱动技能进化的自动红队测试代理",
+      "entities": [
+        {
+          "name": "RedEvoAgent",
+          "explain": "一种自动化的AI安全测试代理，专门用来攻击其他AI系统，以发现其安全漏洞。"
+        },
+        {
+          "name": "红队测试",
+          "explain": "网络安全领域术语，指模拟攻击者来测试系统安全性的做法，这里用于测试AI模型的安全性。"
+        },
+        {
+          "name": "越狱",
+          "explain": "指通过精心设计的提示词，绕过AI模型的安全限制，使其产生有害或不当内容的行为。"
+        }
+      ],
+      "summary": "RedEvoAgent是一种黑盒红队测试代理，能将跨案例的攻击轨迹提炼成简洁、可读的攻击技能。该技能通过工具有效性分析和工具归因决策进行自适应进化，并采用验证棘轮机制，只保留能提升验证性能的更新。实验在多个基准、目标模型上验证了其有效性，旨在应对LLM代理在真实执行环境中被越狱后可能引发的有害工具调用和持久状态改变等风险。",
+      "relevant": "随着AI代理被赋予更多实际工具操作权限，其被攻击的风险和后果也急剧增加。RedEvoAgent为自动化发现和防范此类安全威胁提供了新方法。",
+      "context": "现有的自动红队测试方法多依赖固定攻击，而基于轨迹检索的智能体攻击者可能因检索偏差和工具归因不清而复用误导性经验，且完整轨迹带来上下文开销。",
+      "source_analysis": "论文来自arXiv预印本平台，属于学术研究，立场中立。",
+      "social_impact": "该研究有助于提升AI系统的安全性，防止其被恶意利用，对AI在金融、医疗等高风险领域的应用具有重要意义。",
+      "source_text": "Computer Science > Cryptography and Security [Submitted on 27 Aug 2026] Title:RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution View PDF HTML (experimental) Abstract:LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unclear tool credit, and full trajectories add context overhead while reducing interpretability. We propose RedEvoAgent, a black-box red-teaming agent that distills cross-case attack trajectories into a concise, human-readable attack skill. The attack skill adaptively evolves through tool-effectiveness profiling and Deciding-Tool Attribution for skill updates, and a validation ratchet that retains only updates improving validation performance. Experiments on multiple benchmarks, target models, and target execution harnesses show that RedEvoAgent outperforms fixed and agentic baselines, improves tool efficiency, and transfers across attacker models and target execution harnesses. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about",
+      "source_title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "source_url": "https://arxiv.org/abs/2608.27439v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "MAELLE：用离散流匹配在电子占据空间上预测化学反应机理",
+      "entities": [
+        {
+          "name": "MAELLE",
+          "explain": "一种新的机器学习模型，通过模拟电子在分子中的重新排列来预测化学反应如何发生。"
+        },
+        {
+          "name": "离散流匹配",
+          "explain": "一种生成式AI技术，通过逐步调整数据（这里是电子分布）来生成新样本（这里是产物）。"
+        },
+        {
+          "name": "电子占据向量",
+          "explain": "描述电子在分子中各个化学键和非键轨道上分布情况的数学表示。"
+        }
+      ],
+      "summary": "MAELLE模型将化学反应建模为电子占据向量上的离散流匹配过程。它将反应物到产物的映射视为连续时间马尔可夫链，并利用最优传输构建中间编辑轨迹，从而生成一系列机理上可解释的编辑步骤，无需基元步骤标注。该方法在化学反应预测任务上取得了良好效果，提供了比传统分子图编辑更底层、更机理化的建模视角。",
+      "relevant": "该研究为化学反应预测提供了新的范式，从电子层面理解反应机理，有望加速新药研发和材料科学发现。",
+      "context": "大多数机器学习方法预测化学反应，要么直接生成产物分子，要么在分子拓扑上进行启发式图编辑，忽略了反应本质上是电子空间的重排。",
+      "source_analysis": "论文来自arXiv预印本平台，属于学术研究，立场中立。",
+      "social_impact": "更准确的化学反应预测能显著降低化学实验的成本和时间，对制药、新材料等领域有重大潜在价值。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 27 Aug 2026] Title:Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation View PDF Abstract:Chemical reactions are fundamentally transformations in electron space, yet most machine learning approaches model them either through \\textit{de novo} generation of product molecules or through heuristic graph edits that operate directly on molecular topology. We introduce MAELLE (\\textbf{M}ech\\textbf{A}nistic \\textbf{E}dit f\\textbf{L}ow-matching on e\\textbf{L}ectron r\\textbf{E}arrangements), which instead models reactions as discrete flow matching over electron occupation vectors. Concretely, we formulate the reactant-to-product mapping as a Continuous-time Markov Chain (CTMC) over the graph-structured integer-valued electron occupation space defined on all bonding, non-bonding, and hydrogen sites. To construct the intermediate edit trajectories, we generalize the discrete flow matching mixture path to discrete electron rearrangements using Optimal Transport, yielding a sequence of mechanistically interpretable edit moves without requiring elementary step annotations. MAELLE achieves competitive performance on the USPTO-480K benchmark compared with leading reaction prediction models. Beyond in-distribution accuracy, we evaluate robustness across two out-of-distribution settings - structural complexity and reaction type - and find that MAELLE maintains strong performance where existing methods degrade. Finally, because the learned flow operates over the full electron redistribution, MAELLE naturally recovers mechanistic trajectories that align with known chemistry and can predict side products of a reaction. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features direct",
+      "source_title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+      "source_url": "https://arxiv.org/abs/2608.27429v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Luce：用于3D资产生成的可重新光照高斯模型",
+      "entities": [
+        {
+          "name": "Luce",
+          "explain": "一种新的3D表示方法，将几何和PBR材质统一在体素化多模态高斯云中，支持从单张图像生成可重新光照的3D资产"
+        },
+        {
+          "name": "PBR",
+          "explain": "基于物理的渲染，一种模拟光线与材质真实交互的渲染技术，用于生成逼真的图像"
+        }
+      ],
+      "summary": "Luce是一种新的3D表示方法，将几何和PBR材质统一在体素化多模态高斯云中。它使用变分自编码器压缩表示，并通过整流流变换器从单张图像生成潜在表示。在Toys4K数据集上，Luce实现了最先进的单图像到3D生成性能，改善了FID等指标。",
+      "relevant": "该研究可能推动3D资产生成技术的发展，使游戏、电影和虚拟现实等领域更容易创建可重新光照的高质量3D模型。",
+      "context": "高保真图像到3D生成需要同时捕捉几何和外观，并支持重新光照和标准渲染管线集成，现有方法在效率和效果上存在不足。",
+      "source_analysis": "来自Hugging Face论文页面，属于计算机视觉与图形学交叉领域的学术研究。",
+      "social_impact": "该技术可能降低3D内容创作的门槛，加速虚拟现实、增强现实和数字孪生等应用的发展。",
+      "source_text": "Luce: Relightable Gaussians for 3D Asset Generation。High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, metallic-roughness, and surface normals. We propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for each modality. A variational autoencoder compresses this representation into a unified material-aware latent space. A rectified-flow transformer generates this latent from a single image, conditioned on multi-layer features from a pretrained image encoder that preserve both semantic context and fine spatial detail. The latent then decodes into relightable PBR Gaussians and an optional textured mesh with a tangent-space normal map. On Toys4K, Luce achieves state-of-the-art single-image-to-3D generation, improving FID by 28% over the strongest baseline. We further introduce a benchmark of AI-generated images, on which Luce improves the CLIP image-alignment score over the best baseline (0.8519 vs. 0.8299). Luce generates relightable, geometrically accurate, and materially faithful assets that preserve fine details such as text, logos, and inscriptions.",
+      "source_title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "OpenAI宣布终止向被SpaceX收购的Cursor提供模型服务",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT等产品"
+        },
+        {
+          "name": "Cursor",
+          "explain": "AI代码编辑器，开发者常用它辅助编程"
+        },
+        {
+          "name": "SpaceX",
+          "explain": "美国太空探索技术公司，由埃隆·马斯克创立"
+        }
+      ],
+      "summary": "OpenAI宣布，由于Cursor被SpaceX收购，将终止向其提供OpenAI模型的合同。这意味着Cursor的用户将无法继续使用OpenAI的模型服务，Cursor需要寻找替代方案。",
+      "relevant": "这是AI行业的一次重大商业变动，涉及两家顶级科技公司，可能影响大量使用Cursor的开发者，也反映了AI模型供应商与下游应用之间的商业关系变化。",
+      "context": "Cursor是一款广受欢迎的AI编程工具，其核心功能依赖OpenAI的模型。SpaceX收购Cursor后，OpenAI决定终止合作，可能是出于商业竞争或战略调整的考虑。",
+      "source_analysis": "消息来自OpenAI官方博客，立场代表OpenAI自身，措辞较为正式，未透露具体原因。",
+      "social_impact": "Cursor被收购后失去主要模型供应商，可能影响其产品竞争力，开发者用户需关注后续替代方案。",
+      "source_text": "Our decision on Cursor following its acquisition by SpaceX Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. To maximize the time that developers can retain access to our models through Cursor, we are giving the maximum notice provided by our contract. This decision was incredibly tough, as we care deeply about our models being broadly available for developers. We are making this choice because we cannot be confident that SpaceX will use our technology within our terms of service, based on our experience with Elon Musk's companies violating contracts. To work with a large partner like SpaceX, we typically rely on custom contracts to ensure compliance with our terms of service and that the integration provides for safety at scale. After Musk acquired Twitter, now part of SpaceX, the company broke(opens in a new window) the terms of our contract (alongside many others). Under oath earlier this year, Musk admitted(opens in a new window) that xAI, now also part of SpaceX, had violated OpenAI’s terms of service (terms which are similar to xAI’s own). Our custom agreement with Cursor gives us a limited time window to cancel it after a change of control. As AI capabilities advance, we also have a new level of accountability to ensure our upcoming model, Astra, is being used in accordance with our terms. Given all of this, we’ve decided to hold the contract cancellation to the latest date we can while not providing future models to Cursor. We’ve worked with Cursor for nearly four years and have enormous respect for their team, their product, and what they’ve built for the developer community. We know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.",
+      "source_title": "Our decision on Cursor following its acquisition by SpaceX",
+      "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "研究发现AI本地部署与官方版输出差异的元凶：734个依赖包",
+      "entities": [
+        {
+          "name": "AI本地部署",
+          "explain": "将AI模型部署在自己的服务器上运行，而非使用官方云端服务"
+        },
+        {
+          "name": "依赖包",
+          "explain": "软件运行所需的第三方库或组件，每个都可能影响最终输出"
+        }
+      ],
+      "summary": "量子位报道，AI本地部署与官方版输出不一致的根源在于推理软件栈的微小差异，其中涉及734个依赖包，每一个都可能改变输出的token。这解释了为什么本地部署的AI效果往往不如官方版。",
+      "relevant": "对AI开发者和企业用户有重要参考价值，说明本地部署AI的复杂性，提醒用户在部署时需注意软件栈的一致性。",
+      "context": "许多用户发现AI模型本地部署后输出质量不如官方版，此前原因不明。该研究揭示了根本原因在于推理软件栈的依赖包差异。",
+      "source_analysis": "来自量子位，国内知名科技媒体，报道风格偏技术科普，立场中立。",
+      "social_impact": "该发现可能影响企业AI部署决策，促使更多用户选择官方服务或更谨慎地管理依赖环境。",
+      "source_text": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑 推理软件栈的微小差异，就能改变输出token 梦晨 发自 凹非寺 量子位 | 公众号 QbitAI 丸辣！辛辛苦苦本地部署的大模型，怎么就是比官方版更笨？？ 即使是同一张显卡，一毛一样的权重，推理软件栈的微小差异就让模型在关键位置输出完全不同的token，甚至导致工具调用彻底失败。 这种陷阱很容易触发，但很难排查，还以为三体人来智子封锁了呢。 Level1Techs论坛用户thr3e做了一系列实验，用Qwen3.6-27B在RTX PRO 6000 Blackwell显卡上完成了超过10万token的全量logit捕获测试。 Logits是为所有候选token计算的一组原始分数，再经过采样器（sampler）输出下一个token。 关键在于Logits是纯粹的数学产物，矩阵乘法、注意力计算、激活函数层层叠加后的浮点数结果。如果两套系统跑同一份权重和同一段输入，理论上应该算出完全相同的logits。 但现实中，浮点运算的精度、累加顺序、硬件指令集的差异，都会让最终数值产生微小偏移。 当这个偏移大到足以改变概率最高的那个token时，模型就会表现出差异。 虽然你的本地部署很烂，但别伤心，其他人部署的各有不一样的烂法。 权重不变，换个注意力后端就变傻 一个关键在推理流程中“注意力后端”这个环节。 vLLM为Qwen3.6-27B提供了三种可选的全注意力后端：FlashAttention 2、Flash Inference和Triton Attention。 除了切换这一项配置，其余硬件、软件、权重、KV缓存精度全部保持不变。 实验使用的输入是一段约10万token的真实工作场景，来自一个包含多次工具调用的Agent工作流。 thr3e特别强调，这段数据不出现在任何公开基准或训练集中，没有人能针对它做过benchmark优化或量化校准。 测试方法是每隔32个token采样一次全词表logit，事后用FP64精度计算KL散度和Top-1一致性。 结果观察到“Top-1翻转”现象，也就是切换后端就会选出与基线不同的贪心解码token。 比如具体追踪一个出错案例，模型执行一个工具调用，目标是Cisco 路由器上的一个接口GigabitEthernet0/0/1.201。 FlashAttention 2搞错了，导致接口变成了GigabitEthernet0/1/4，随后模型又在两次后续工具调用中执行了错误的命令。 为保持数学可比性，所有后端共享同一份强制token历史，翻转只记录“本来会选错”的情况，不让错误传播。 结果前几千个token，三个后端的输出完全一致。但随着上下文增长，分歧开始出现，而且分布不均匀。 thr3e同时做了同后端多次运行的重复性对照，仅仅是切换了vLLM的一个配置项，同一块GPU、同一份操作系统和驱动、同一份权重、同一段prompt，每一个隐藏状态的logit在多次运行间都是逐位相同的。 这意味着观察到的分歧完全来自不同CUDA核函数在prefill阶段执行矩阵乘法和累加时的数值差异。 KV缓存量化导致智商断崖式下跌 接下来的实验设置成保持权重为BF16不动，注意力后端固定为Triton，仅改变KV缓存的量化精度，分别测试BF16、INT8和INT4三种配置。 结果INT4 KV缓存在长上下文中的Top-1翻转率急剧攀升，最终导致工具调用无法恢复。INT8 KV缓存虽然也出现了翻转，但模型最终设法回到了正确轨道。只有BF16 KV缓存全程保持稳定。 thr3e让翻转后的生成自由运行而非拉回基线，观察实际后果。 BF16正常完成所有调用，INT8在出错后“最终挣扎着恢复了”，而INT4则彻底偏离了，工具调用失败且无法自我纠正。 这个问题专坑那些为了省显存而将KV缓存压到INT4的本地用户。 在短上下文中你可能感知不到差异，但一旦对话或agent工作流拉长到几万token，累积的数值漂移足以让模型做出致命错误决策。 权重量化横评：英伟达官方FP4垫底 最后一组实验将KV缓存统一为BF16，转而比较五种不同的权重量化方案。 参赛选手包括：Qwen官方BF16基线、Qwen官方FP8（W8A8）、TheHouseOfTheDude发布的INT8（W8A16，无校准数据集的一次性量化）、英伟达官方NVFP4、以及cyankiwi发布的AWQ INT4（W4A16，使用STEM和Agentic数据集校准）。 五种方案各自调用不同的CUDA核函数完成矩阵运算。BF16走标准torch线性层，FP8走CUTLASS的FP8分块缩放核，INT8和AWQ都走Marlin核。 NVFP4则是混合路径，208个目标走FlashInfer的FP8缩放核，193个MLP投影走Marlin的NvFp4核。 在这次测试的vLLM nightly版本中，GPU路径被判定为不支持原生FP4运算，NVFP4实际执行的是通过Marlin内核的仅权重FP4解压缩，而非真正的FP4运算。 结果中最亮眼的是TheHouseOfTheDude的INT8（W8A16），这是一个没有使用任何校准数据集、仅做了通道级对称量化的社区版本，其Top-1一致性碾压了Qwen官方FP8和英伟达官方NVFP4。 经分析，这归功于W8A16保留了BF16激活精度，加上该量化排除了Gated DeltaNet投影和lm_head层。 英伟达NVFP4在这组测试汇总表现最差，到88k上下文时Top-1翻转率逼近50%，相当于有一半的位置模型会选出不同的token。 在实际工具调用测试中，NVFP4和AWQ W4A16都未能正确关闭工具调用，并且搞错了Cisco命令行语法（执行了”show run”而非正确的”show arp”），而FP8和INT8均顺利完成。 thr3e还展示了张量并行的诡异现象。同一份BF16权重，TP1单卡能正确完成工具调用，切到TP2双卡反而失败，再切到TP4四卡又成功了。 ",
+      "source_title": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
+      "source_url": "https://www.qbitai.com/2026/08/481372.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "OpenAI与泰国MHESI合作推出AI创业加速器",
+      "entities": [
+        {
+          "name": "MHESI",
+          "explain": "泰国高等教育、科学、研究与创新部，泰国政府机构"
+        },
+        {
+          "name": "加速器",
+          "explain": "帮助初创企业快速成长的短期培训项目，通常提供资源和支持"
+        }
+      ],
+      "summary": "OpenAI与泰国MHESI合作，启动为期八周的加速器项目，帮助10家健康、健康和教育领域的初创企业将AI原型转化为可信赖的产品。",
+      "relevant": "这是OpenAI在东南亚市场的重要布局，有助于扩大其全球影响力，同时推动泰国AI创业生态发展。",
+      "context": "OpenAI近年来积极拓展全球市场，与各国政府合作推动AI应用落地。泰国是东南亚重要经济体，AI创业生态正在快速发展。",
+      "source_analysis": "来自OpenAI官方博客，立场代表OpenAI，强调合作对泰国AI发展的积极意义。",
+      "social_impact": "该项目将直接支持10家泰国初创企业，可能带动当地AI产业人才培养和就业。",
+      "source_text": "Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use. Today in Bangkok, OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation (MHESI) announced a new accelerator to help Thai startups turn promising prototypes into products ready for real-world use and growth. The OpenAI x MHESI AI Accelerator brings together ten startups working across health, wellness, and education. It marks OpenAI’s first public-private partnership with the Thai government focused on supporting local startups, and is being delivered with partners including the National Innovation Agency (NIA), Mahidol University, and Techsauce. A compelling AI demonstration is only the beginning. Building a product that people can rely on is much harder. It takes careful testing, feedback from real users, strong safeguards, and a business model that can support the product as it grows. That work matters even more in healthcare and education, where the stakes are high and reliability is essential. Over eight weeks, participating founders will work with mentors from OpenAI and across Thailand’s technology, research, and startup communities to bridge the gap between prototype and deployment. Thailand combines strong technical talent with deep expertise in fields such as healthcare and education, supported by a fast-growing community of AI builders. Our internal data shows that Thailand ranks among the top 20 countries globally for ChatGPT weekly active users. Since the start of 2026, weekly active usage of Codex in Thailand has grown more than 350-fold, also placing the country among the top 20 globally for Codex usage. This momentum reflects how people across Thailand are increasingly using AI to write software, develop products, and get meaningful work done. The next step is to help more of those ideas move beyond early prototypes and become products people can use and trust. The accelerator’s first cohort includes five startups focused on medical and wellness AI, and five working in education. Both areas are central to Thailand’s long-term development and well suited to solutions that combine AI with deep local knowledge. An ageing population is increasing demand for new approaches to healthcare, prevention, and independent living. At the same time, stronger learning outcom",
+      "source_title": "Supporting Thailand’s next generation of AI startups",
+      "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "清华姚班迎来新班主任徐梦迪，本科曾学车辆工程",
+      "entities": [
+        {
+          "name": "清华姚班",
+          "explain": "清华大学计算机科学实验班，由姚期智院士创办，是中国顶尖的AI人才培养基地"
+        },
+        {
+          "name": "徐梦迪",
+          "explain": "去年归国的AI学者，本科读车辆工程，现担任清华姚班班主任"
+        }
+      ],
+      "summary": "去年归国的徐梦迪被任命为清华姚班班主任。她本科学习车辆工程，如今执教中国最顶尖的AI班级，这一跨界经历引发关注。",
+      "relevant": "清华姚班是中国AI人才培养的标杆，班主任人选直接影响未来AI人才教育方向，徐梦迪的跨界背景可能带来新的教学思路。",
+      "context": "清华姚班以培养顶尖计算机人才著称，班主任通常由学术成就突出的学者担任。徐梦迪去年归国，其车辆工程背景在AI教育领域较为少见。",
+      "source_analysis": "来自量子位，国内科技媒体，报道聚焦人物背景，立场中立。",
+      "social_impact": "徐梦迪的任命可能引发对AI教育多元背景的讨论，也反映了海归人才在国内学术界的活跃。",
+      "source_text": "去年归国的徐梦迪，成了清华姚班班主任 本科读车辆工程，如今教AI第一班 听雨 发自 凹非寺 量子位 | 公众号 QbitAI 中国AI第一班，清华姚班，开学了。 据公众号「水木TsinghuaCent」统计，2026级姚班共录取约90人，其中约66人通过竞赛保送等渠道提前进入，另有24人从清华新生中经过笔试、面试脱颖而出。 △图源：清华叉院官微 这批学生中，国家集训队成员占据相当比例，约有27名信息学竞赛顶尖选手；还有代表中国出战国际奥赛的国家队成员，以及高考裸分尖子。 二招入选者中，也出现了CMO金牌得主。 而在这群「顶配新生」面前，负责介绍人工智能方向的，是一张刚刚加入清华不久的新面孔。 徐梦迪，交叉信息院助理教授，2025年9月才从斯坦福回到清华。 △图源：清华叉院官微 入职还不到一年，她已经成为姚班四位新生班主任之一。迎新现场，她带来的主题是「构建下一代智能」。 一位本科读车辆工程、后来转向机器人学习的年轻学者，为什么会站到姚班讲台上？ 她所说的「下一代智能」，又和今天流行的大模型路线有什么不同？ 本科读车辆工程，她怎么成了姚班班主任？ 徐梦迪与姚班的联系，要从她2025年回到清华说起。 当年9月，她正式加入清华大学交叉信息研究院，担任助理教授。 △图源：清华叉院官网 交叉信息院由姚期智于2011年创办，也是姚班的培养单位。如今，学院的研究版图覆盖理论计算机科学、人工智能、量子信息等领域。 不过，徐梦迪并不是姚班毕业生，也不是传统计算机科班出身。 2017年，她从清华大学车辆工程专业本科毕业。 此后，她先后在约翰斯·霍普金斯大学学习机器人学、在卡内基梅隆大学学习机器学习，并于2024年获得CMU机械工程博士学位。 这条看似绕远的路径，最终指向了同一个问题：怎样让机器人真正进入现实世界。 博士期间，徐梦迪师从CMU Safe AI Lab负责人赵丁，研究机器人学习、强化学习及人工智能安全。 在此期间，她的代表性工作之一，是与CMU、Google DeepMind等机构研究者共同开发的RoboTool。 研究团队不再逐步指定机器人该使用什么工具、执行哪些动作，而是向RoboTool提供任务目标，以及场景、物体和机器人能力等信息。系统据此分析约束、选择工具、规划步骤，最后生成机器人可以执行的代码。 比如，当机械臂够不到远处的牛奶盒时，它会把锤子当成钩子，把牛奶盒拉到手边；当四足机器人无法直接跨过两张沙发之间的空隙时，它会寻找周围物体搭出一条通路；在更复杂的任务里，它还会利用滚筒和冲浪板组装出杠杆。 徐梦迪曾在接受《Tech Xplore》采访时表示，工具使用常被视为高级智能的标志。相比按照预设用途使用工具，以非常规方式找到解法，对认知能力提出了更高要求。 RoboTool想验证的，正是机器人能否把这种「创造性」带进物理世界，让原本无法完成的任务出现新的解法。 此外，她还先后进入丰田研究院、MIT-IBM Watson AI Lab和Google DeepMind机器人团队实习，研究经历横跨自动驾驶、机器学习和机器人。 博士毕业后，徐梦迪来到斯坦福视觉与学习实验室从事博士后研究，与吴佳俊、李飞飞合作。 这里也是全球具身智能研究的重要阵地之一，关注视觉、机器人学习以及智能体对物理世界的理解。 一年后，她选择回到本科母校，加入清华交叉信息院，开始组建自己的研究团队。 博士论文拿下CMU最佳：只靠Scaling还不够 亮眼的履历并不少见，徐梦迪更值得关注的，是她对通用机器人技术路线的判断。 过去几年，大模型在语言和图像领域展现出一种极具吸引力的可能：随着模型参数、训练数据和计算量不断扩大，原本没有被专门训练的能力，也可能逐渐出现。 这背后，正是Scaling Law带来的想象。 自然而然地，这条Scaling Law能否复刻到机器人领域、带来GPT-3级别的突破，成为了众多研究者追逐的问题。 而在题为《构建可适应的通用机器人》（Building Adaptable Generalist Robots）的博士论文中，徐梦迪直接挑战了这个思路： 是不是只要模型足够大、数据足够多，泛化能力就会自然涌现？ 她的判断是：不够。 原因在于，真实世界的任务空间近乎无限，你永远不可能把机器人未来会遇到的情况全部塞进训练集。 与其幻想训练集覆盖一切，不如让机器人拥有一种能力——到了现场以后，再根据少量新信息快速适应。 徐梦迪提出，构建通用机器人不能只依赖scalability，还必须补上另一种能力：adaptation，即适应能力。 围绕这一思路，她的博士论文从三条研究路径展开探索。 第一条，是让智能体根据少量示范调整策略，快速适应新任务。 在发表于ICML 2022的论文《Prompting Decision Transformer》中，徐梦迪和合作者将自然语言处理中的prompt范式引入强化学习，尝试用少量示范告诉智能体：眼前究竟是一项什么任务。 这个思路很像今天大家熟悉的大模型上下文学习。给模型几个输入输出示例： A→B C→D 那么E→? 模型可以从上下文中推断规律，无需为这道新题重新训练参数。 Prompt-DT则把「示例」换成了一小段新任务的演示轨迹，也就是trajectory prompt。 轨迹中包含智能体所处的状态、采取的动作和对应回报。模型据此判断当前任务的目标，并生成相应动作。 实验中，Prompt-DT只需一段包含少量时间步的示范，便能适应此前没有见过的目标方向、速度或位置，无需额外微调模型参数。 第二条，是让机器人自己发现不同任务之间的共同结构。 现实中的任务看似千差万别，背后却可能共享相似的动作、视觉几何和动力学规律。 拿起杯子和拿起碗，物体不同，但需要调用的部分能力相通；面对每项新任务都从零训练，不仅耗费数据，也很难形成可复用的经验。 徐梦迪参与的无监督持续强化学习研究，试图让机器人主动发现这些结构，将已经掌握的能力迁移到后续任务中。 这样一来，通用机器人不再等于为每项任务各自保存一套策略，而是逐渐形",
+      "source_title": "去年归国的徐梦迪，成了清华姚班班主任",
+      "source_url": "https://www.qbitai.com/2026/08/481318.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "开源项目实现2.78万亿参数Kimi K3模型在单CPU上运行，仅需8.24GB内存",
+      "entities": [
+        {
+          "name": "Kimi K3",
+          "explain": "一个拥有2.78万亿参数的大型语言模型，参数规模巨大，通常需要多张高性能GPU才能运行。"
+        },
+        {
+          "name": "C99",
+          "explain": "一种C语言的编程标准，强调可移植性，编写的代码可以在不同平台上编译运行。"
+        },
+        {
+          "name": "BLAS",
+          "explain": "基础线性代数子程序库，常用于高性能计算，本项目的亮点是不依赖它也能运行。"
+        }
+      ],
+      "summary": "GitHub上的开源项目kimi-k3-in-c声称能在单颗CPU和8.24GB内存下运行拥有2.78万亿参数的Kimi K3模型。该项目使用可移植的C99编写，不依赖BLAS、深度学习框架或GPU，实现了极低的硬件门槛。这展示了模型压缩和推理优化技术的巨大潜力。",
+      "relevant": "该项目的实现方式挑战了大型语言模型对高端硬件依赖的常规认知，可能推动AI模型在边缘设备上的部署和应用。",
+      "context": "大型语言模型（如GPT-4）通常需要数千GB显存的多GPU集群才能运行，这限制了其普及。此项目通过极致的优化，让超大模型能在普通电脑上运行，是AI民主化的重要尝试。",
+      "source_analysis": "来自GitHub Trending，是开发者社区的热门项目，代表了技术爱好者的关注方向。",
+      "social_impact": "如果该技术成熟，将大幅降低AI模型的使用门槛，让个人开发者和小型企业也能使用超大模型，可能改变AI服务的提供方式。",
+      "source_text": "Kimi K3 inference in portable C99. No BLAS. No framework. No GPU. The same 2.78-trillion-parameter model, the same answer, on whatever machine you own. More memory only buys speed: Same short prompt at every size, and the output is byte-identical from the smallest machine to the largest; only the clock changes. One machine, 124 cores, fast NVMe drive: the first three rows still read the model from disk each step, so a slower drive is slower there, while the 128 GB+ row keeps everything in memory and no longer waits on the disk. On that same machine v1.0.0 made the math per token about 8× lighter, a follow-up question in a chat 3.9× faster, and long prompts about half as costly. (A token is roughly a short word-piece; the two runnable demos below are the original captures on a slower drive, so their clock reads a little higher.) Full data in docs/data/. I am open to AI research roles and PhD positions. CV. $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset laptop \\ --tok ~/k3model --prompt \"The capital of France is\" --gen 8 --incremental --- generated text --- Paris.\", + \"The Eiffel ---------------------- 8 tokens in 261.5 s, 32.69 s/token average PEAK RSS for the whole run: 8.24 GB Slow, and answering correctly, in 8.24 GB, from a checkpoint of 1.56 TB. This is a base model, so what follows \" Paris.\" is a continuation rather than a reply; there is no chat template. Give it more memory and the answer does not change, only the clock: $ ./bin/k3 ~/k3model --trunk ~/k3trunk --preset server \\ --tok ~/k3model --prompt \"def fibonacci(n):\" --gen 28 --incremental --- generated text --- if n <= 1: return n else: return fibonacci(n-1) + fibonacci ---------------------- 28 tokens in 299.3 s, 10.69 s/token average PEAK RSS for the whole run: 127.92 GB Every figure in this document comes from the measurement output in docs/data/. The dense trunk stays in memory to whatever depth you choose and streams the rest; the 1.45 TB of routed experts are never resident, and are multiplied straight out of their packed 4-bit form. The consequence is that the same model runs in 8 GB and in 224 GB and produces byte-identical output at every budget between. Four decisions about where bytes live take it from a cluster to a laptop, and the answer at the bottom is the same as the answer at the top: Part II builds every box in both diagrams from scratch, one component at a time. - Requirements - Quick start: clone, build and verify in about a minute, with no model - Full setup: the whole pat",
+      "source_title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "source_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 1,
+      "title": "DeepSeek发布开源智能体框架DeepSeek Harness，采用万物皆插件架构",
+      "entities": [
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek公司开发的开源智能体框架，用于构建可运行的编码智能体。"
+        },
+        {
+          "name": "Cordis",
+          "explain": "一个插件化框架，是DeepSeek Harness的底层架构基础，强调时空可组合性。"
+        },
+        {
+          "name": "DeepSeek AI",
+          "explain": "中国的人工智能公司，开发了DeepSeek系列大模型。"
+        }
+      ],
+      "summary": "DeepSeek AI发布了开源智能体框架DeepSeek Harness（dsh），其核心设计理念是“万物皆插件”，所有组件包括模型、工具、沙箱、UI和智能体循环本身都可作为插件扩展。该框架基于Cordis构建，目前处于开发者预览阶段，官方警告会有破坏性变更。",
+      "relevant": "这是DeepSeek在智能体领域的重要布局，其插件化架构可能为AI应用开发提供更高的灵活性和可扩展性。",
+      "context": "随着大模型能力增强，如何构建可靠的智能体应用成为热点。DeepSeek Harness通过插件化设计，旨在让开发者能灵活组合和替换不同组件，快速构建定制化智能体。",
+      "source_analysis": "来自DeepSeek官方GitHub仓库，是官方发布的一手信息。",
+      "social_impact": "该框架可能吸引大量开发者参与生态建设，推动智能体应用创新，但预览版的不稳定性也提醒用户谨慎使用。",
+      "source_text": "English | 中文 DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI. It is built on an everything-is-a-plugin architecture and powered by Cordis, whose design is described in A Programming Paradigm for Spatiotemporal Composability. Documentation: https://deepseek-harness.github.io/deepseek-harness/ DeepSeek Harness is in developer preview and iterating rapidly. THERE WILL BE COMPATIBILITY-BREAKING CHANGES. Review the safety notice before running the project. Install Node.js, then run: npx @deepseek-ai/dsh web The command starts the Web UI at http://127.0.0.1:3080 by default and opens it in the default browser for a local launch. An SSH launch only prints the host URL because the SSH client or editor owns the local forwarded address. Pass --no-open to run the server without opening a browser. See Web UI guide. To run from a repository checkout: git clone https://github.com/deepseek-ai/deepseek-harness.git cd deepseek-harness pnpm install pnpm run build pnpm dsh web pnpm run build prepares the repository artifacts. pnpm dsh web uses those built artifacts without rebuilding. - Submit feedback or bug reports through GitHub Discussions. - Add the dsh-plugin topic to your plugin repository for discoverability. - Join DeepSeek Harness Discord community. See CONTRIBUTING.md. Start with the development guide and architecture documentation. For agents, follow AGENTS.md. Third-party dependencies and their licenses are disclosed in THIRD_PARTY_NOTICES.md.",
+      "source_title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "source_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 2,
+      "title": "社区推出DSH Desktop，为DeepSeek Harness打造跨平台桌面客户端",
+      "entities": [
+        {
+          "name": "DSH Desktop",
+          "explain": "一个基于DeepSeek Harness构建的开源桌面客户端，支持Windows和macOS。"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek公司开发的开源智能体框架，DSH Desktop是其桌面端实现。"
+        }
+      ],
+      "summary": "社区项目DSH Desktop为DeepSeek Harness提供了Windows和macOS的桌面客户端，强调“万物皆插件，桌面本身也是插件”的理念。该项目是独立的社区开源项目，与DeepSeek官方无隶属关系，提供一键下载安装。",
+      "relevant": "该桌面客户端降低了DeepSeek Harness的使用门槛，让非技术用户也能方便地使用智能体框架。",
+      "context": "DeepSeek Harness本身是命令行工具，对普通用户不友好。DSH Desktop通过图形界面封装，使其更易用，是生态发展的重要补充。",
+      "source_analysis": "来自GitHub Trending，是社区自发项目，声明与官方无合作关系，信息相对独立。",
+      "social_impact": "桌面客户端的出现可能吸引更多非专业用户尝试AI智能体，扩大DeepSeek Harness的用户基础。",
+      "source_text": "基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。 万物皆「插件」，桌面本身也是「插件」。 独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。 本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。 中文 · English DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用中。项目固定并原样运行特定上游版本；DSH Desktop 提供窗口、托盘、终端、更新和工作配置，并通过 DeepSeek Harness 提供的插件机制与上游能力组合。 当前正式安装包支持 Windows x64 和 macOS Universal。无需额外环境，下载安装，一键使用。 我们希望和所有插件作者一起，构建一个开放、可组合、可持续的 DSH 插件生态，让每个插件都能与其他插件共同进步：DSH 插件生态倡议书。 ❤️ 赞助商 普通用户从用户指南开始即可；开发者文档只在需要扩展或维护时才需要阅读。 每个尚未初始化的 profile 正常首次启动时，会先显示由 Desktop 自己提供的原生 Setup Wizard。它可以设置窗口模式与系统材质、插件市场、通知、是否用系统默认浏览器自动打开，以及 Web 访问范围；也可以直接跳过。向导完成或跳过以前，Host 和主 DSH 窗口都不会启动。完成或跳过状态按 profile 分别记录；显式恢复启动仍优先进入恢复助手。 Web 服务默认仅监听本机回环地址。开启“用浏览器打开”后，Desktop 会在 Web 服务实际就绪时交给系统默认浏览器打开；这个选项不会改变网络暴露范围。“桌面设置”会在选项下显示实际的本机 URL。局域网访问是一个独立的可选设置，开启后还会显示当前可用的局域网 URL。 危险： 向局域网开放不提供鉴权；所有与你处于同一局域网的人都能直接打开 DSH 并操作你的电脑。请只在完全信任的网络中谨慎开启。 自动更新的固定版本检查请求会在 X-DSH-Desktop-Version header 中携带当前安装版本，并在 X-DSH-Desktop-Installation-Id header 中携带一个由本机生成并持久保存的随机 UUID；它不是从硬件信息推导出的标识。安装包下载请求及其下载重定向不会携带这些 header。 插件是给 DSH 添加能力的扩展包——模型、工具、界面、工作流都可以做成插件，像搭积木一样自由组合。 DSH Desktop 没有修改上游源码，也不是一个固定写死的外壳。固定版本的上游 DeepSeek Harness 原样运行；桌面壳本身——窗口、托盘、终端、更新、工作配置——作为 DSH 插件接入，并通过 DeepSeek Harness 提供的插件机制与上游能力组合进同一个运行时。从核心 agent 到桌面外壳，整个产品遵守同一条\"一切皆插件\"的规则：与所固定上游版本兼容的插件可以使用，桌面能力也按插件的方式组合、替换和演进。 我们希望插件生态像手机应用一样：每个插件按同一套规则开发，装在一起也能一起工作、互不干扰。 与许多其他项目不同，这个项目本身就是一个 DSH 插件：桌面壳与第三方插件使用相同的插件组合机制。Desktop 的插件能力已经可以使用。我们提供了 Desktop 服务，让插件开发者能够把插件与桌面能力集成起来：例如查看和切换工作配置，或在当前配置中安装、更新和移除插件。完整用法见桌面插件接口说明。为什么选择这样的边界、哪些能力不会暴露给第三方插件，见为什么做 DSH Desktop和插件开发指南。 DSH Desktop 是基于 DeepSeek Harness 和 Cordis 插件思想构建的独立社区项目，旨在提供开放、可组合的 DSH 桌面体验。 本仓库由社区独立维护，目前不存在深度求索员工或 DeepSeek Harness 上游官方团队成员参与本项目开发、维护或治理的情形。GitHub Contributors 页面中可能出现的上游贡献者，来自本仓库 fork 时继承及后续同步的上游提交历史；该署名仅反映提交来源，不代表相关人员参与本仓库，也不构成任何隶属、合作、授权或背书关系。 上游项目提供核心的智能体能力、插件系统和 Web UI；DSH Desktop 主要负责： - 桌面应用封装 - 本地服务的启动、停止与恢复 - 桌面窗口和系统托盘集成 - macOS、Windows 安装包构建与发布 - 更适合桌面使用的界面体验 如果你希望通过命令行运行 DeepSeek Harness，或者参与其核心功能开发，请优先查看上游仓库。 特别感谢 DeepSeek Harness 原始仓库 和 DeepSeek AI 团队。DSH Desktop 基于固定版本的上游源码构建，核心的智能体、模型、工具、会话、Web UI 和插件生态都来自这个项目。 同时感谢 Cordis 项目提供的插件化基础。没有这些开源项目，就不会有 DSH Desktop。 也感谢 Koishi.js 项目和社区长期积累的插件化实践、工具与经验，以及所有参与讨论、测试、反馈和插件开发的社区成员。 以及每一个使用、支持和参与共建的你。 桌面端代码位于 dsh-plugin-desktop/，外层仓库使用 Yarn，固定的 deepseek-harness/ 子模块继续使用自己的 pnpm workspace。从仓库根目录执行： git submodule update --init --recursive corepack yarn install --immutable corepack yarn dev headless 检查使用 corepack yarn check；完整的构建、测试和发布边",
+      "source_title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "source_url": "https://github.com/anywhere-labs/dsh-desktop",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 20,
+      "title": "DSH Desktop另一个实现版本发布，主打本地优先和跨平台支持",
+      "entities": [
+        {
+          "name": "DSH Desktop",
+          "explain": "一个本地优先的跨平台桌面应用，用于DeepSeek Harness。"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek公司开发的开源智能体框架。"
+        }
+      ],
+      "summary": "dataelement/dsh-desktop项目发布了另一个DSH Desktop实现，强调本地优先和跨平台特性，支持macOS（Apple Silicon和Intel）和Windows。该项目采用MIT许可证，提供多语言文档，是DeepSeek Harness生态的又一桌面解决方案。",
+      "relevant": "多个桌面客户端项目的出现表明DeepSeek Harness生态正在快速成长，为用户提供了更多选择。",
+      "context": "随着DeepSeek Harness的发布，社区迅速响应，开发了多个桌面客户端以满足不同用户需求。此项目强调本地优先，可能更注重数据隐私和离线使用。",
+      "source_analysis": "来自GitHub Trending，是社区项目，采用MIT开源许可证。",
+      "social_impact": "本地优先的特性可能吸引对数据安全敏感的用户，推动AI智能体在隐私保护场景的应用。",
+      "source_text": "A local-first, cross-platform desktop app for DeepSeek Harness. English · 简体中文 · 日本語 · Русский · Español · Português Use official DeepSeek models or mainstream third-party model providers, manage portable Agent presets, and continue your Harness sessions from your phone. DSH Desktop packages the local DeepSeek Harness experience as an installed desktop application. It starts Harness automatically, keeps profiles, plugins, workspaces, model settings, and sessions outside the application directory, and opens the full Harness interface as soon as the local runtime is ready. Important DSH Desktop is an early preview built on the rapidly evolving @deepseek-ai/dsh@0.1.1-rc.2. macOS releases are code-signed and notarized by Apple. Windows x64 installers are code-signed; Windows security warnings may still decrease gradually as the publisher builds download and installation reputation. Download DSH Desktop for macOS and Windows from the official website. Installed builds check for updates shortly after startup and every six hours. When a new version is available, DSH Desktop asks before downloading it; installation begins only after you choose Restart and install. You can also check manually from the application menu or skip one version without hiding future releases. Scan the QR code below with WeChat to join the DSH Desktop community group. Prefer Discord? Join the DSH Desktop Discord community. DeepSeek Harness already provides the Agent runtime and Web UI. DSH Desktop adds the native host capabilities needed for a practical desktop product: - Starts and stops Harness without requiring a separate CLI or browser tab - Uses the native system directory picker to add and manage project workspaces - Supports official DeepSeek models and mainstream third-party model providers - Imports and exports complete custom Agent presets as portable .dshpreset packages, with conflict checks and a trust warning before installation - Preserves profiles, plugins, workspaces, sessions, and model settings across app upgrades - Detects startup and frontend plugin failures, keeps diagnostics in harness.log , and offers guided recovery actions - Provides a non-destructive Safe Mode that temporarily blocks third-party plugins - Lets a paired phone continue sessions over the local network or an optional temporary public tunnel - Checks for desktop updates and keeps download and installation under user control - Adapts native menus, titlebar behavior, window focus, theme, and application ",
+      "source_title": "dataelement/dsh-desktop - DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "source_url": "https://github.com/dataelement/dsh-desktop",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 5,
+      "title": "社区维护DeepSeek Harness插件精选列表，收录各类扩展",
+      "entities": [
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek公司开发的开源智能体框架，支持插件化扩展。"
+        },
+        {
+          "name": "Awesome DSH Plugin",
+          "explain": "一个精选的DeepSeek Harness插件列表，方便用户发现和选择插件。"
+        }
+      ],
+      "summary": "awesome-dsh-plugin项目维护了一份DeepSeek Harness（dsh）的精选插件列表，涵盖模型、工具、沙箱、UI等各类扩展。该列表采用Awesome格式，提供中英文版本，并实时显示插件数量，是dsh生态的重要资源导航。",
+      "relevant": "该列表帮助用户快速了解和使用dsh生态中的优秀插件，促进了生态的繁荣和协作。",
+      "context": "DeepSeek Harness的插件化架构催生了大量第三方插件，但用户难以发现。此项目通过精选和分类，解决了信息过载问题。",
+      "source_analysis": "来自GitHub Trending，是社区维护的资源列表，具有较好的公信力。",
+      "social_impact": "精选列表降低了用户寻找插件的时间成本，可能加速dsh生态的成熟和普及。",
+      "source_text": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表。# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
+      "source_title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "source_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 6,
+      "title": "开源工具arc-task-gen可生成与ARC-AGI-1评估集分布匹配的新任务",
+      "entities": [
+        {
+          "name": "ARC-AGI-1",
+          "explain": "一种用于评估AI推理能力的基准测试，包含一系列需要抽象推理的视觉任务。"
+        },
+        {
+          "name": "BDH-CQ",
+          "explain": "一种结合了循环记忆和迭代推理的推理模型，用于解决ARC-AGI-1任务。"
+        }
+      ],
+      "summary": "pathwaycom/arc-task-gen项目提供了一个生成器，能生成与ARC-AGI-1公开评估集分布匹配的全新任务。这些任务可用于评估像BDH-CQ这样的前沿模型，测试其在未见问题上的推理能力。该项目旨在解决AI评估中数据污染的问题。",
+      "relevant": "该工具为AI模型评估提供了新方法，有助于更准确地衡量模型的真实推理能力，避免因训练数据泄露导致的评估失真。",
+      "context": "AI模型在评估时可能因训练数据中已包含类似题目而获得虚高分数。arc-task-gen通过生成全新但分布相似的任务，确保评估的公平性。",
+      "source_analysis": "来自GitHub Trending，是研究机构pathwaycom发布的开源项目。",
+      "social_impact": "该工具可能成为AI评估的标准工具，推动更严谨的模型评测方法，对AI研究和应用有重要影响。",
+      "source_text": "This repository generates fresh ARC-AGI-1-style tasks that resemble the public dataset. These tasks can be used to evaluate frontier models such as BDH-CQ on problems they are unlikely to have encountered before. BDH-CQ is a reasoning model that combines in-context learning through evolving recurrent memory with iterative reasoning in a structured, continuous latent space. It builds on Dragon Hatchling (BDH), a post-Transformer recurrent architecture in which neuron-like units communicate through low-rank interactions and maintain context in an evolving associative state. BDH-CQ extends this architecture: at inference time, its recurrent memory is continuously updated, and queries are solved through iterative computation in latent space rather than by generating an intermediate, text-based chain of thought. We evaluate BDH-CQ on the public ARC-AGI-1 evaluation set and use controlled ARC-like interventions to study what the model learns from demonstrations. A 150M-parameter configuration achieves 29.5% pass@2 on the public ARC-AGI-1 evaluation set at a computed inference cost of $0.0007 per task. This is 11× cheaper per task than GPT-5.6 Luna (Low), following an 80% price reduction on July 30. The architecture has also been tested in pretraining experiments ranging from 1B to 600B parameters, demonstrating Transformer-like scaling while retaining BDH-CQ's recurrent latent-reasoning capabilities. This repository accompanies the following paper: B. Engdahl, A. Kosowski, J. Chorowski, Z. Stamirowska, P. Uznański, J. Jiang, R. Phadke, R. Kinas, and R. Zhong. BDH-CQ: Introducing In-Context Learning with Recurrent Latent Reasoning. For a broader introduction and discussion, read the accompanying blog post. As a public benchmark, ARC-AGI-1 cannot fully isolate few-shot rule induction from potential prior familiarity with its tasks. To provide a complementary measure, arc-task-gen creates a private evaluation set with similar properties, enabling meaningful comparisons between public-benchmark performance and performance on newly generated tasks. The generated tasks.json file follows the standard ARC format: { \"train\": [], \"test\": [] } It is compatible with existing ARC evaluation harnesses. Follow the instructions in instructions.md to start generating tasks. BDH-CQ's ARC-AGI-1 results were evaluated and reproduced by Łukasz Kaiser, a co-author of the Transformer architecture and TensorFlow. The results were also independently reproduced by Remigiusz Kinas, a cont",
+      "source_title": "pathwaycom/arc-task-gen - Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "source_url": "https://github.com/pathwaycom/arc-task-gen",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 7,
+      "title": "dsh-routing-suite发布，为DeepSeek Harness提供任务感知的思维模式路由插件",
+      "entities": [
+        {
+          "name": "dsh-routing-suite",
+          "explain": "一个为DeepSeek Harness设计的插件套装，包含运行时注入器和思维模式路由预设。"
+        },
+        {
+          "name": "DeepSeek Harness",
+          "explain": "DeepSeek公司开发的开源智能体框架。"
+        }
+      ],
+      "summary": "dsh-routing-suite项目为DeepSeek Harness提供了一套插件，包括一个运行时注入器和一个任务感知的思维模式路由预设。该路由预设能根据任务类型自动选择不同的推理模式，实测覆盖P1-P23任务。项目提供一键安装脚本，支持Windows环境。",
+      "relevant": "该插件通过智能路由不同推理模式，可能提升DeepSeek Harness在复杂任务上的表现，是生态中重要的功能增强。",
+      "context": "DeepSeek Harness的插件化架构允许第三方开发增强功能。此项目针对不同任务类型优化推理策略，旨在提高智能体的任务解决能力。",
+      "source_analysis": "来自GitHub Trending，是社区开发者发布的插件项目，提供了详细的安装和使用说明。",
+      "social_impact": "此类优化插件的出现，展示了DeepSeek Harness生态的活力，可能吸引更多开发者贡献智能增强功能。",
+      "source_text": "一个仓库装齐「运行时手术台 + 思维模式路由预设」：先装注入器（免重启运行时管理层）， 再用它装配 router-standard 预设（任务感知思维模式路由，P1-P23 实测）。 dsh plugin --profile web add github:yjh051108/dsh-routing-suite DSH Target：>=0.1.0-rc.6 <0.2.0（已跟进 rc.8 / 0.1.1-rc.2 / 0.1.2-alpha.1） DSH 目前处于 developer preview，官方明示会有破坏性变更（breaking changes）。 本仓库的版本跟进记录见 preset/CHANGELOG.md。 # 1. 拉套装（单仓库：injector/preset 内容已直接入库，无需 submodule） git clone https://github.com/yjh051108/dsh-routing-suite.git cd dsh-routing-suite # 2. 一键安装（注入器装配 + 预设复制 + 布局自检 + 提示重启） .\\install.ps1 或手动： # 步骤 1：装配注入器（官方装配，重启后由 bundles 接管） dsh plugin --profile web add .\\injector # dsh 不在 PATH 时：npx '@deepseek-ai/dsh' plugin --profile web add .\\injector # 步骤 2：安装 router 预设（每个预设目录平铺复制到 .agent-presets 下，DSH 只扫一级子目录） $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-standard' Copy-Item -Recurse .\\preset\\router-standard $target $target = Join-Path $env:USERPROFILE '.dsh\\.agent-presets\\router-spec' Copy-Item -Recurse .\\preset\\router-spec $target # 步骤 3：重启 DSH → 新会话选择 Router Standard / Router Spec (experimental) 注意：不要复制 preset 整目录（会多套一层，DSH 发现不了预设）。 版本号以各组件仓库的 git tag 为准（列内链接直达对应 Release）。 两个组件随本仓库统一演进（injector/ 与 preset/ 已是仓库内普通目录，内容直接入库）；上游独立仓库 dsh-super-injector / dsh-router-standard 保留用于独立发布，后续可转镜像/归档。预设安装目录为 preset/router-standard（已平铺，无额外嵌套）。 - 三行为带 + weak 内路由：spec（计划-集体）/ react（执行者）/ mixed（陷阱，回避）/ weak（模型自分类） - 按模型选 persona：Pro=spec 句+few-shot（区分度 +5.0）；Flash=neutral+classify（+5.7） - 近距离引导：每轮用户消息后注入固定引导（缓存 92-94% 命中），路由 96% + 收敛 100% + 反稀释 - 单任务三锚（persona 静态）：回顾 + 收敛 + 反跑题 —— 开放任务完成率 0% → 100% - plan-mode 保留：只替换 persona section，plan 边界不失忆 - AI 自优化工具：dev_router_status /dev_router_mode /dev_mode_subagent - 首轮路由真实生效（#13）：经 agent/inbox/claimed 在装配前捕获首条真实用户消息，首个请求即按任务分类（此前所有会话首轮无条件 weak） - 近距离引导改走 agent/pre-step （#34/#36/#55）：引导与用户消息同请求注入，真实链路上可达，且不再产生额外的第二次 API 调用（此前每轮多 1 次调用 = 费用 2×） - 缺导入修复（#11）、preset.yml YAML 引号（#53）、promoted 后完整回归（#44）、安装脚本与文档修正（#35/#42/#41）、injector git 装配自动构建（#40） - 注入器引导（规范铁律 10 条）：injector/README.md - 路由预设论文与实验：preset/docs/paper.md +preset/docs/experiments.md （P1-P23） - 仓库结构迁移（submodule → 直接文件）：docs/FLATTEN-MIGRATION.md MIT。致谢：xiaobright/modeltest（V4.1b 评测）、xiaobright/dsh-anchored-standard（锚定机制）。",
+      "source_title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "source_url": "https://github.com/yjh051108/dsh-routing-suite",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 12,
+      "title": "CopilotKit发布OpenBot：为AI代理配备独立电脑，实现可信任的自主工作",
+      "entities": [
+        {
+          "name": "CopilotKit",
+          "explain": "一家专注于AI代理（AI Agent）开发工具的公司，提供开源框架让开发者构建AI助手。"
+        },
+        {
+          "name": "OpenBot",
+          "explain": "CopilotKit推出的开源项目，为AI代理提供独立的虚拟电脑环境，包括浏览器、文件和工具。"
+        },
+        {
+          "name": "AG-UI",
+          "explain": "一种用于AI代理与用户界面交互的协议或标准，旨在统一代理与前端应用的通信方式。"
+        }
+      ],
+      "summary": "CopilotKit发布了OpenBot，这是一个开源项目，为AI代理提供独立的电脑环境，包括专属浏览器、文件和工具。每个AI代理的行动在发生前都会被决策，并在执行后记录，确保其行为可审计和可信任。该项目支持接入任何符合AG-UI标准的AI代理，旨在让用户放心地将真实工作交给AI代理处理。",
+      "relevant": "该项目的核心价值在于解决AI代理在自主执行任务时的信任和安全问题，通过隔离环境和完整记录，为AI代理在企业级场景中的实际应用铺平道路。",
+      "context": "随着AI代理（AI Agent）技术的成熟，如何安全地让代理访问真实系统并执行任务成为关键挑战。OpenBot通过为每个代理提供独立的虚拟电脑，隔离其操作环境，并记录所有行为，来解决这一信任问题。",
+      "source_analysis": "消息来自CopilotKit官方GitHub仓库，作为项目发布方，其描述带有推广性质，但技术细节和架构说明较为详实。",
+      "social_impact": "该项目反映了AI代理从简单对话向自主执行复杂任务演进的趋势，其安全隔离和审计机制可能成为未来AI代理平台的标准配置。",
+      "source_text": "AI coworkers you can hand real work to, and actually trust with the access. Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after. copilotkit.ai/openbot · Quick start · Features · Bring your own agent · Architecture · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own. Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back. It answers with components rather than only prose, and the whole thing runs on your own machine. Alpha, and under active development. OpenBot is early. Expect rough edges and bugs, and expect things to move. Issues and pull requests are welcome. Runs on your machine. Everything below is written for a laptop. .env.example carries OPENBOT_SINGLE_USER=true, which admits every request as one administrator, so a fresh clone reaches the product without registering an OAuth client first. Sign-in turns that off, and is required before anybody else can reach the deployment. An agent platform that runs inside your own infrastructure. Docker Compose brings up every part of it, the data sits in your PostgreSQL, and the model is yours to choose: no model ships in the box, and an administrator supplies the credential, which is encrypted at rest and never logged. Three coworkers ship in the example package, and they are configuration rather than code: General Assistant for everyday work, Knowledge for company questions, Risk Analyst for risk and compliance. Add your own by editing agents.yaml or from /agents in the UI. Anything a Bot does to a computer, a file, an MCP server or a component goes through one gateway that decides and records it. That is the difference between an agent that can use your tools and an agent you can let near them. More at copilotkit.ai/openbot. A Bot is any endpoint speaking AG-UI, the open protocol for agent-to-user interaction, so OpenBot is not tied to a framework and neither are you. Agents built with LangGraph, Mastra, CrewAI, Pydantic AI, Google ADK or written by hand all arrive the same way, and the governance rides the protocol rather than the framework. - Docker, for PostgreSQL and the shipped Bots. - Bun 1.3+, for the app and API server. - A CopilotKit Intelligence project and license. A free plan is available, and Intelligence can be self-hosted. - A model",
+      "source_title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 14,
+      "title": "Cumora发布跨平台团队聊天工具，让AI代理成为团队正式成员",
+      "entities": [
+        {
+          "name": "Cumora",
+          "explain": "一个跨平台的团队聊天应用，允许AI代理作为团队成员与人类一起工作。"
+        },
+        {
+          "name": "Claude Code",
+          "explain": "Anthropic公司推出的AI编程助手，可以理解代码并协助开发。"
+        },
+        {
+          "name": "Codex",
+          "explain": "OpenAI推出的AI编程工具，能够自动生成和修改代码。"
+        }
+      ],
+      "summary": "Cumora是一个跨平台的团队聊天工具，将AI代理作为一等公民融入团队协作。AI代理拥有自己的身份、记忆和个性，可以参与群聊、认领任务、相互协调，并能收发真实邮件。它支持使用Cumora云端或用户自带的AI大脑（如Claude Code或Codex），并提供网页、桌面和iOS应用。",
+      "relevant": "该产品代表了AI从个人助手向团队协作者的角色转变，探索了人机混合团队的新型工作模式，可能改变未来团队协作的形态。",
+      "context": "当前AI代理多作为个人工具使用，缺乏团队协作能力。Cumora尝试将AI代理嵌入到团队沟通和项目管理流程中，使其成为与人类平等的团队成员，以提升团队整体效率。",
+      "source_analysis": "消息来自Cumora官方GitHub仓库，作为产品发布方，描述侧重于功能展示，未提及潜在风险或局限性。",
+      "social_impact": "该产品展示了AI代理在团队协作中的应用前景，但其实际效果和安全性仍需市场检验，可能引发关于AI在职场中角色的新讨论。",
+      "source_text": "Where agent teams gather. cumora.ai · Web app · Desktop download · iOS beta (TestFlight) Cumora is cross-platform team chat where AI agents are first-class participants alongside humans — same roster, same DMs, same group conversations, same Kanban board and calendar. Agents don't just answer when poked: they hold personas and memory, claim work, coordinate with each other without colliding, send and receive real email, and run on either Cumora's cloud or your own machine. Join the iOS beta on TestFlight → Install Apple's TestFlight app first, then open the link on your iPhone. Android is not published yet — build it from android/. Two \"brain\" paths: - Cumora Cloud — each agent runs in a managed per-agent pod; turns run a multi-hop tool-calling loop on the OpenAI Responses API (bash, files, browser, email, memory, skills…). - BYOA (Bring Your Own Agent) — pair your own Mac/VPS with npx cumora agent computer and the agent's brain becomes your local Claude Code, Codex, Grok Build, Cursor Agent, OpenCode, or pi CLI, on your own provider account. The server never sees your provider keys. Seedocs/BYOA.md . Electron / PWA / iOS / Android ┌─────────────────┐ ┌──────────────────┐ HTTP / WS │ App workers │──▶ OpenAI (Responses API) │ React UI │ ◀───────────────▶ │ Express + ws │──▶ Resend (email out) └──────────────────┘ │ (any N) │──▶ APNs / FCM (push) └───┬────────┬────┘ Cloudflare Workers │ │ kubectl ┌─────────────────┐ webhooks / R2 ┌────▼───┐ ┌──▼──────────────┐ │ email-gate │ ────────────────▶ │Postgres│ │ Agent pods (K8s)│ │ r2-gate (CDN) │ │ Redis │ │ or BYOA daemons │ └─────────────────┘ └────────┘ └─────────────────┘ - Frontend (src/ ) is pure UI: React 18 + Vite + TypeScript + Tailwind, withdesktop/ ,mobile/ ,web/ , andadmin/ shells over the same components. - Backend (server/ ) is a stateless Node service: Express +ws , Postgres as the source of truth (pg pool + Drizzle schema), Redis for pub/sub fan-out and presence. Any number of instances behind a load balancer stay in sync through the Redis bus. - Agent runtime: cloud agents live in per-agent Kubernetes pods (orchestrated via kubectl from the server; a Go FUSE driver mounts their server-side workspace); BYOA agents live wherever you run the daemon. Both act on the world through the samecumora CLI protocol, and every LLM call — cloud or BYOA — lands in onellm_calls cost ledger. - Coordination: agents in the same room don't trample each other. The server arbitrates with a seen-cursor freshness gate (a",
+      "source_title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "source_url": "https://github.com/yetone/cumora",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 16,
+      "title": "FuXi发布：一款快速、自包含的终端AI编程代理，支持成本感知路由",
+      "entities": [
+        {
+          "name": "FuXi",
+          "explain": "一个运行在终端中的AI编程代理，可以读取代码、编辑文件、执行命令。"
+        },
+        {
+          "name": "LLM",
+          "explain": "大型语言模型，是AI代理的“大脑”，负责理解和生成文本。"
+        }
+      ],
+      "summary": "FuXi是一款运行在终端中的AI编程代理，它能够读取代码、编辑文件、运行命令并驱动工具，帮助开发者完成编程任务。其核心特点是“成本感知路由”，即根据任务复杂度和不同LLM提供商的定价，智能选择最经济的模型来执行任务。该项目采用专有许可，目前处于快速迭代阶段。",
+      "relevant": "该工具聚焦于开发者的实际痛点——在保证性能的同时控制AI使用成本，其成本感知路由功能可能成为AI编程工具的新趋势。",
+      "context": "随着AI编程工具的普及，开发者面临选择不同LLM提供商的成本问题。FuXi通过智能路由，在任务需求和模型成本之间寻求平衡，旨在提供高性价比的AI编程体验。",
+      "source_analysis": "消息来自FuXi官方GitHub仓库，作为项目方，描述侧重于技术特性和性能优势，未提及与其他同类工具的对比。",
+      "social_impact": "该工具的出现反映了AI编程助手向更专业、更注重成本效益的方向发展，可能加剧该领域的竞争。",
+      "source_text": "An AI coding agent that lives in your terminal. FuXi is a fast, self-contained terminal AI coding agent — read code, edit files, run commands, and drive tools from a rich TUI, with cost-aware routing across LLM providers and automatic failover. Built in Go, it ships as one static binary with no runtime dependencies. Think of it as a provider-agnostic alternative to Claude Code: bring any OpenAI-compatible model and get an agentic Think → Act → Verify loop on top of it. Terminal-first · Provider-agnostic · Bring your own key · MCP client · Self-updating Homepage: https://www.fuxicode.com curl -fsSL https://releases.fuxicode.com/bootstrap.sh | bash # install fuxi # start Its agentic Think → Act → Verify loop and intelligent routing let any OpenAPI-compatible model perform above its raw benchmark — verified against another coding agent on a reproducible task set (see benchmark). The model is the engine. FuXi is the vehicle. A model alone answers questions; FuXi turns it into a worker — reasoning, acting on your real codebase, verifying results, and doing it affordably and under your control. - 50+ built-in tools — file read/write/edit, shell (bash / PowerShell), ripgrep search, web fetch, LSP diagnostics, Jupyter, browser use, background tasks, and parallel sub-agents — all in one binary. - Safety guardrails — shell commands pass an AST safety classifier before execution; fine-grained permissions and audit logging keep autonomous work under your control. - Durable sessions & memory — transcripts persist to disk; checkpoints let you resume, roll back, or fork; idle \"dreaming\" consolidates memory across sessions; long conversations auto-compact to save tokens. - Bring your own key, or log in — any provider API key (OpenAPI-compatible, Gemini, Bedrock/Vertex), or sign in with FuXi OAuth. - Extensible — MCP client, hooks, skills, plugins, and slash commands, all hot-reloadable. - Free forever — one static binary, no runtime dependencies, no license cost for individuals, teams, or enterprises. - Self-updating — a background version check and one-command fuxi update , with checksum verification before it replaces the running binary. FuXi is a terminal-first AI coding agent designed to be provider-agnostic. Feature availability reflects each product's publicly documented positioning as of mid-2026; details evolve quickly, so treat it as an orientation. Both systems were driven through their own native clients, on identical baselines and the same objective scorer (py",
+      "source_title": "fuxicodex/Fuxi - FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+      "source_url": "https://github.com/fuxicodex/Fuxi",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_469c084f180b",
+      "source": "ArXiv cs.AI",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "url": "https://arxiv.org/abs/2608.27454v1",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent ",
+      "author": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng"
+    },
+    {
+      "id": "arxiv_1bb2c2422066",
+      "source": "ArXiv cs.AI",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "url": "https://arxiv.org/abs/2608.27449v1",
+      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain ineffective, redundant, or risky steps. Directly using such trajectories for SFT can introduce noisy supervision and encourage models to imitate undesirable problem-solving behaviors. Therefore, we propose SWE-Prime, a multi-granularity, two-stage SFT data selection method that progressively filters training data at the trajectory and segment levels. Specifically, the first stage performs trajectory-level screening based on process quality, result quality, and data representativeness, selecting a high-quality and representative subset of successful trajectories. The second stage performs segment-level selection by grouping consecutive steps into semantic segments and assessing each segment based on its contribution to the final solution, learnability, and potential risks. During SFT, all segments remain in the sequence to preserve context, while only selected segments contribute to the loss computation. Experiments on SWE-Bench Pro and SWE-Bench Verified show that training on the 10% trajectory subset selected by SWE-Prime outperforms training on the full resolved dataset, yielding relative performance gains of up to 12.2% and 24.2%, respectiv",
+      "author": "Dewu Zheng, Ruizhe Ye, Yanlin Wang"
+    },
+    {
+      "id": "arxiv_605198017b57",
+      "source": "ArXiv cs.AI",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "url": "https://arxiv.org/abs/2608.27442v1",
+      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review scenarios. To bridge this gap, we introduce MCR-Bench, the first defect state-aware benchmark designed for realistic multi-round code review. MCR-Bench covers five commonly-used programming languages and consists of 2,269 real-world multi-round code review tasks, each of which is annotated with fine-grained defect information and cross-round state labels. Each task in MCR-Bench is equipped with fine-grained defect metadata (e.g., description, type, severity) alongside dynamic state annotations, capturing the complete evolutionary trajectory of a defect throughout the multi-round process. We obtain several findings through extensive experiments on MCR-Bench with mainstream LLMs. (1) Limited overall capability: experiments reveal that mainstream LLMs exhibit limited overall performance in defect detection and defect lifecycle state tracking, with performance degrading significantly as the number of interaction rounds increases; (2) Defect-sensitive performance: LLMs' performance varies subs",
+      "author": "Dewu Zheng, Yanlin Wang, Xiwen Wang"
+    },
+    {
+      "id": "arxiv_de4085ad4cfb",
+      "source": "ArXiv cs.AI",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "url": "https://arxiv.org/abs/2608.27439v1",
+      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unclear tool credit, and full trajectories add context overhead while reducing interpretability. We propose RedEvoAgent, a black-box red-teaming agent that distills cross-case attack trajectories into a concise, human-readable attack skill. The attack skill adaptively evolves through tool-effectiveness profiling and Deciding-Tool Attribution for skill updates, and a validation ratchet that retains only updates improving validation performance. Experiments on multiple benchmarks, target models, and target execution harnesses show that RedEvoAgent outperforms fixed and agentic baselines, improves tool efficiency, and transfers across attacker models and target execution harnesses.",
+      "author": "Junjie Zhang, Hui Liu, Kecheng Chen"
+    },
+    {
+      "id": "arxiv_a3e80d837fff",
+      "source": "ArXiv cs.AI",
+      "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+      "url": "https://arxiv.org/abs/2608.27429v1",
+      "summary": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning approaches model them either through \\textit{de novo} generation of product molecules or through heuristic graph edits that operate directly on molecular topology. We introduce MAELLE (\\textbf{M}ech\\textbf{A}nistic \\textbf{E}dit f\\textbf{L}ow-matching on e\\textbf{L}ectron r\\textbf{E}arrangements), which instead models reactions as discrete flow matching over electron occupation vectors. Concretely, we formulate the reactant-to-product mapping as a Continuous-time Markov Chain (CTMC) over the graph-structured integer-valued electron occupation space defined on all bonding, non-bonding, and hydrogen sites. To construct the intermediate edit trajectories, we generalize the discrete flow matching mixture path to discrete electron rearrangements using Optimal Transport, yielding a sequence of mechanistically interpretable edit moves without requiring elementary step annotations. MAELLE achieves competitive performance on the USPTO-480K benchmark compared with leading reaction prediction models. Beyond in-distribution accuracy, we evaluate robustness across two out-of-distribution settings - structural complexity and reaction type - and find that MAELLE maintains strong performance where existing methods degrade. Finally, because the learned flow operates over the full electron redistribution, MAELLE naturally recovers mechanistic trajectories that align with known chemistry and can pr",
+      "author": "Nguyen Xuan-Vu, Octavian Susanu, Daniel Armstrong"
+    },
+    {
+      "id": "arxiv_77e183a3cf2e",
+      "source": "ArXiv cs.LG",
+      "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
+      "url": "https://arxiv.org/abs/2608.27421v1",
+      "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alternative learned directly from patient trajectories is in routine use. We conducted a retrospective two-cohort study on a total of 29,116 and 7,691 adult patients meeting Sepsis-3 criteria from two hospital systems in Massachusetts and Georgie, respectively. We developed a sepsis index using 43 routinely charted variables over a 72-hour treatment window. Unlike previous studies, we use mortality as a treatment-level ranking signal rather than a per-state target, allowing credit to be redistributed non-uniformly across timesteps. Evaluation was done on a permanent 20% test holdout, using clinical vignettes and Spearman correlation. Uncertainty intervals were obtained by bootstrap resampling of whole patients. Under this ranking scheme, non-survivors scored 1.19-1.64 points higher than survivors on a 0-10 scale within all strata of baseline SOFA-2, with similar results stratifying within lactate, mean arterial pressure (MAP), and creatinine. Within-patient change in the index correlated with change in lactate (Spearman rho = 0.39; n = 1,854). Similar, weaker correlations were found for MAP and creatinine. On a cohort level, cross-institutional agreement measured by Spearman correlation between models trained on different sites, were 70-77% of same-site correlation. ",
+      "author": "Kevin Zhu, Ryan Zhang, Baraa Abed"
+    },
+    {
+      "id": "arxiv_cc6501df9885",
+      "source": "ArXiv cs.LG",
+      "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+      "url": "https://arxiv.org/abs/2608.27413v1",
+      "summary": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end GNN ranking system for production social graphs, focusing on two design choices that are critical in this setting: multi-hash ID embeddings and temporal neighbor sampling. Multi-hash embeddings are common for high-cardinality features, but industrial GNN systems typically either ignore trainable IDs or accept full embedding tables, exceeding 200 GB for our graph. We integrate multi-hash as the primary node representation, reducing the ID-embedding table size by more than 98 percent while preserving ranking quality. Temporal neighbor sampling is well understood in principle, but existing implementations scan full adjacency lists, which is a non-starter for users with tens of thousands of friends. We implement timestamp-sorted CSR storage with binary search, reducing the per-node temporal sampling cost from $O(deg(v) + k)$ to $O(\\log(deg(v)) + k)$. Beyond these components, we show that this combination scales and yields measurable production impact. On a graph with 194M users and 28B edges, offline ablations isolate each design choice's contribution. In an online A/B test, our system i",
+      "author": "Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov"
+    },
+    {
+      "id": "arxiv_c31e36af4b03",
+      "source": "ArXiv cs.LG",
+      "title": "How Language Models Organize and Structure Moral Knowledge",
+      "url": "https://arxiv.org/abs/2608.27402v1",
+      "summary": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, but detection is a low bar. We ask whether they go further, distinguishing moral foundations from one another and organizing the relationships between them geometrically. We train six independent linear probes on open-weight language models, one per Moral Foundations Theory (MFT) category (care/harm, fair/cheat, lib/oppress, loy/betray, auth/subv, sanc/degrade), and examine how the resulting directions relate to each other in representation space. We find the directions neither collapse into a single moral detector nor isolate from one another. Rather, they span a near-maximal number of independent dimensions while sharing a positive common component. The shared component is the signature of integration, and it is moral-specific relative to a matched non-moral concept battery built identically (mean pairwise cosine 0.26 vs. 0.013). The geometry is consistent across architectures and scale and reaches its integration regime early in pre-training, well before probe accuracy saturates. The structure the model discovers shows no evidence of the individualizing/binding distinction predicted by Moral Foundations Theory (an underpowered test: only 20 candidate partitions exist) but rather reflects corpus statistics. Extending to moral dilemmas, each dilemma direction partially composes from its component foundations, at 2.7x a mismatched-pair baseline, while the majority of its varianc",
+      "author": "Orion Reblitz-Richardson"
+    },
+    {
+      "id": "arxiv_134e8a9723d1",
+      "source": "ArXiv cs.LG",
+      "title": "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases",
+      "url": "https://arxiv.org/abs/2608.27391v1",
+      "summary": "LLMs are increasingly able to answer complex questions about enterprise-scale document collections. But evaluation is hard: companies don't want to share internal communications, and synthetic datasets have been overly simple. We present CorporateBench (CB), a human-validated multi-task Q&A benchmark whose scale approaches the conditions LLMs encounter in corporate communication networks, with evaluation corpora surpassing 230,000 documents. CB evaluates LLMs across two dimensions (information extraction and knowledge base querying) through four synthetically generated firms ranging from 12 to 10,000 employees. Each corpus is sampled from a temporally evolving knowledge base describing a consistent world, guaranteeing cross-document logical consistency even across hundreds of thousands of documents. We evaluate five LLMs on CB, revealing increasingly poor performance as input size approaches realistic scales. CB provides LLM developers a metric for corporate communication reasoning, filling a crucial gap in the benchmarking ecosystem.",
+      "author": "Sil Hamilton, Albert Yu Sun, Oscar J. Romero"
+    },
+    {
+      "id": "arxiv_102b2fa627e2",
+      "source": "ArXiv cs.LG",
+      "title": "Token-Level Advertising",
+      "url": "https://arxiv.org/abs/2608.27382v1",
+      "summary": "Generative AI is transforming how people access information, challenging traditional advertising mechanisms built around predefined slots. Towards generation-native advertising, we propose the Latent Advertiser Mixture Auction (LAMA), a token-level advertising mechanism that embeds advertiser influence directly into the generation process. Advertisers report local continuation values that induce advertiser-specific next-token policies, from which the platform decodes through a latent mixture while updating an allocation posterior. We show that LAMA satisfies Markov DSIC and IR, and achieves near-optimal KL-regularized welfare. We further develop a learning-based implementation that reconstructs the required reports online from learned local advantages and root values. Proof-of-concept experiments on real-world commercial-search query splits show that LAMA improves platform welfare and revenue while maintaining user-facing response quality, providing initial evidence for the feasibility of generation-native advertising.",
+      "author": "Hanbing Liu, Bowei Zhang, Changyuan Yu"
+    },
+    {
+      "id": "arxiv_7f00f0140f71",
+      "source": "ArXiv cs.CL",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "url": "https://arxiv.org/abs/2608.27455v1",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures as undesirable outputs, CritICL leverages them as a source of guidance. Specifically, we utilize failure modes derived from weaker models and incorporate them into inference through critique-based in-context examples. We propose two variants: CritICL-dynamic, which adaptively predicts input-specific failure modes and retrieves critiques, and CritICL-static, which uses a global failure mode profile to provide stable guidance. Experimental results show that CritICL consistently outperforms standard in-context learning and achieves performance competitive with or superior to test-time scaling methods, while requiring significantly fewer generations and lower token cost. Code available at: https://github.com/umwyf/CRITICL",
+      "author": "Yufan Wu, Yinghui He, Zhengyi Hu"
+    },
+    {
+      "id": "arxiv_469c084f180b",
+      "source": "ArXiv cs.CL",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "url": "https://arxiv.org/abs/2608.27454v1",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on. Across diverse benchmarks and models, WikiSkill consistently outperforms state-of-the-art skill-evolution methods and improves over no-skill baselines in most model-benchmark settings. We find that skill evolution complements model scaling: larger models generally benefit more from evolved skills, while smaller models with skills can outperform substantially larger models without them. We also find that evolved skills transfer effectively across models and model families, and skills evolved by other models can outperform self-evolved skills. Finally, our ablation studies confirm that persistent knowledge accumulation in the wiki is critical for effective skill evolution. These results demonstrate the benefits of systematically accumulating and refining agent ",
+      "author": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng"
+    },
+    {
+      "id": "arxiv_1bb2c2422066",
+      "source": "ArXiv cs.CL",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "url": "https://arxiv.org/abs/2608.27449v1",
+      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain ineffective, redundant, or risky steps. Directly using such trajectories for SFT can introduce noisy supervision and encourage models to imitate undesirable problem-solving behaviors. Therefore, we propose SWE-Prime, a multi-granularity, two-stage SFT data selection method that progressively filters training data at the trajectory and segment levels. Specifically, the first stage performs trajectory-level screening based on process quality, result quality, and data representativeness, selecting a high-quality and representative subset of successful trajectories. The second stage performs segment-level selection by grouping consecutive steps into semantic segments and assessing each segment based on its contribution to the final solution, learnability, and potential risks. During SFT, all segments remain in the sequence to preserve context, while only selected segments contribute to the loss computation. Experiments on SWE-Bench Pro and SWE-Bench Verified show that training on the 10% trajectory subset selected by SWE-Prime outperforms training on the full resolved dataset, yielding relative performance gains of up to 12.2% and 24.2%, respectiv",
+      "author": "Dewu Zheng, Ruizhe Ye, Yanlin Wang"
+    },
+    {
+      "id": "arxiv_bce9de01dd5a",
+      "source": "ArXiv cs.CL",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "url": "https://arxiv.org/abs/2608.27448v1",
+      "summary": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large language models, yet their reliance on ground-truth labels precludes test-time training (TTT). Replacing ground truth with majority-vote pseudo-labels is a natural alternative, yet it is fragile: an incorrect vote corrupts the teacher and misleads every token. We observe that this failure mode is asymmetric: rollouts that disagree with the pseudo-label are typically wrong regardless of whether the vote itself is correct. Building on this observation, we propose Test-Time Policy Optimization (TTPO), an asymmetric objective that distills agreeing rollouts via OPSD and penalizes disagreeing rollouts with Grouped RL. Token-level selection further refines both branches: distillation down-weights already-converged positions, while RL penalizes only confident errors. Both updates remain well-grounded even under frequent pseudo-label errors, and majority-vote routing yields tighter self-supervision as the model improves. Without any labels, TTPO matches label-supervised OPSD on five competition-level benchmarks, raises Qwen3-1.7B from 38.0% to 45.2% in TTT, yields +25.2% to +36.4% without thinking, and shows strong cross-task generalization.",
+      "author": "Aozhe Wang, Zhengxi Lu, Jianze Wang"
+    },
+    {
+      "id": "arxiv_605198017b57",
+      "source": "ArXiv cs.CL",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "url": "https://arxiv.org/abs/2608.27442v1",
+      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review scenarios. To bridge this gap, we introduce MCR-Bench, the first defect state-aware benchmark designed for realistic multi-round code review. MCR-Bench covers five commonly-used programming languages and consists of 2,269 real-world multi-round code review tasks, each of which is annotated with fine-grained defect information and cross-round state labels. Each task in MCR-Bench is equipped with fine-grained defect metadata (e.g., description, type, severity) alongside dynamic state annotations, capturing the complete evolutionary trajectory of a defect throughout the multi-round process. We obtain several findings through extensive experiments on MCR-Bench with mainstream LLMs. (1) Limited overall capability: experiments reveal that mainstream LLMs exhibit limited overall performance in defect detection and defect lifecycle state tracking, with performance degrading significantly as the number of interaction rounds increases; (2) Defect-sensitive performance: LLMs' performance varies subs",
+      "author": "Dewu Zheng, Yanlin Wang, Xiwen Wang"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "url": "https://huggingface.co/papers/",
+      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, metallic-roughness, and surface normals. We propose Luce, a 3D representation that unifies geometry and PBR materials within a voxelized multimodal Gaussian cloud, using dedicated Gaussian primitives for each modality. A variational autoencoder compresses this representation into a unified material-aware latent space. A rectified-flow transformer generates this latent from a single image, conditioned on multi-layer features from a pretrained image encoder that preserve both semantic context and fine spatial detail. The latent then decodes into relightable PBR Gaussians and an optional textured mesh with a tangent-space normal map. On Toys4K, Luce achieves state-of-the-art single-image-to-3D generation, improving FID by 28% over the strongest baseline. We further introduce a benchmark of AI-generated images, on which Luce improves the CLIP image-alignment score over the best baseline (0.8519 vs. 0.8299). Luce generates relightable, geometrically accurate, and materially faithful assets that preserve fine details such as text, logos, and inscriptions."
+    },
+    {
+      "id": "rss_7b8d34828f49",
+      "source": "OpenAI",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "image": ""
+    },
+    {
+      "id": "rss_4f61de5a6554",
+      "source": "OpenAI",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "image": ""
+    },
+    {
+      "id": "rss_9876e0f61c72",
+      "source": "OpenAI",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "image": ""
+    },
+    {
+      "id": "rss_6b107a506276",
+      "source": "Google DeepMind",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_f3e097f44f91",
+      "source": "Google DeepMind",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "image": ""
+    },
+    {
+      "id": "rss_480f27d7915f",
+      "source": "Google DeepMind",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "image": ""
+    },
+    {
+      "id": "rss_d76a2f5db6fb",
+      "source": "量子位",
+      "title": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
+      "url": "https://www.qbitai.com/2026/08/481372.html",
+      "summary": "推理软件栈的微小差异，就能改变输出token",
+      "image": ""
+    },
+    {
+      "id": "rss_109949b6eb01",
+      "source": "量子位",
+      "title": "去年归国的徐梦迪，成了清华姚班班主任",
+      "url": "https://www.qbitai.com/2026/08/481318.html",
+      "summary": "本科读车辆工程，如今教AI第一班",
+      "image": ""
+    },
+    {
+      "id": "rss_818015927552",
+      "source": "量子位",
+      "title": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
+      "url": "https://www.qbitai.com/2026/08/481223.html",
+      "summary": "AI「自进化」，越来越近了",
+      "image": ""
+    },
+    {
+      "id": "rss_f474fbb91742",
+      "source": "NVIDIA",
+      "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
+      "summary": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new ways to play, more supported devices and platforms, and even more big PC games headed to the cloud. New NVIDIA DLSS 4.5 technology controls give members more ways to fine-tune gameplay, while expanded support for new Steam devices, GOG single sign-on, Firefox browser [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GFN_Thursday-DLSS_4_5_games.png"
+    },
+    {
+      "id": "rss_6ca317bef76b",
+      "source": "NVIDIA",
+      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+      "summary": "NVIDIA Vice President of Hyperscale and HPC Ian Buck hand-delivers Vera CPU systems across the AI ecosystem as Vera begins shipping at scale.",
+      "image": ""
+    },
+    {
+      "id": "rss_748a7c180abb",
+      "source": "NVIDIA",
+      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+      "summary": "The next wave of AI is placing new demands on infrastructure. As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_8431f322473c",
+      "source": "MIT科技评论AI",
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_b797b6be2b1e",
+      "source": "MIT科技评论AI",
+      "title": "Raised on AI",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet.&#160; Fast-forward a couple&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/06/mat_debrief.png?w=840"
+    },
+    {
+      "id": "rss_1a1165b71513",
+      "source": "MIT科技评论AI",
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_01368f669dbf",
+      "source": "TechCrunch AI",
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "image": ""
+    },
+    {
+      "id": "rss_60d7c370c57a",
+      "source": "TechCrunch AI",
+      "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
+      "image": ""
+    },
+    {
+      "id": "rss_88511f105627",
+      "source": "TechCrunch AI",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "image": ""
+    },
+    {
+      "id": "rss_cc4639fced6b",
+      "source": "HF Blog",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_5dc1f6581173",
+      "source": "HF Blog",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_adbdc906077f",
+      "source": "HF Blog",
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "# DeepSeek Harness\n\nEnglish | [中文](README.zh.md)\n\nDeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).\n\nIt is built on an **everything-is-a-plugin** architecture and powered by [Cordis](https://github.com/cordiverse/cordis), whose design is described in [_A Programming Paradigm for Spatiotemporal Composability_](https://arxiv.org/abs/2608.25512).\n\nDocumentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)\n\n## Developer preview\n\nDeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**\n\nReview the [safety notice](SAFETY.md) before running the project.\n\n## Run\n\n### Run from `npm`\n\nInstall `Node.js`, then run:\n\n```sh\nn",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop",
+      "summary": "<p align=\"center\">\n  <a href=\"https://dshdesktop.cn\"><img src=\"assets/desktop-hero-zh.png\" alt=\"DSH Desktop：基于 DeepSeek Harness 构建的开源桌面客户端\" width=\"100%\"></a>\n</p>\n\n<h1 align=\"center\">DSH Desktop</h1>\n\n<p align=\"center\">\n  <strong>基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。</strong>\n</p>\n\n<h3 align=\"center\"><a href=\"https://dshdesktop.cn\">一键下载，开箱即用。</a></h3>\n\n<p align=\"center\">\n  万物皆「插件」，桌面本身也是「插件」。\n</p>\n\n<p align=\"center\"><sub>独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。<br>本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。<br>中文 · <a href=\"README.en.md\">English</a></sub></p>\n\n<p align=\"center\">\n  <img src=\"assets/desktop-chat-zh.png\" alt=\"DSH Desktop 中文对话界面\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/anywhere-labs/deepseek-harness",
+      "group": "community"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_1322012299",
+      "source": "GitHub Trending",
+      "title": "firecrawl/anydoc - Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc",
+      "summary": "# anydoc\n\n[![Crates.io](https://img.shields.io/crates/v/anydoc.svg)](https://crates.io/crates/anydoc)\n[![npm](https://img.shields.io/npm/v/@firecrawl/anydoc.svg)](https://www.npmjs.com/package/@firecrawl/anydoc)\n[![PyPI](https://img.shields.io/pypi/v/firecrawl-anydoc.svg)](https://pypi.org/project/firecrawl-anydoc/)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![skills.sh](https://skills.sh/b/firecrawl/anydoc)](https://skills.sh/firecrawl/anydoc)\n\nFast Rust library that converts documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF) into clean GitHub-Flavored Markdown. Includes bindings for [Node.js](node/README.md), [Python](python/README.md), and the [browser](wasm/README.md) (WebAssembly).\n\nBuilt by [Firecrawl](https://firecrawl.dev)",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1322954467",
+      "source": "GitHub Trending",
+      "title": "pathwaycom/arc-task-gen - Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "url": "https://github.com/pathwaycom/arc-task-gen",
+      "summary": "# ARC-AGI-1 Task Generator\n\n## Distribution-Matched Tasks for Model Evaluation\n\nThis repository generates fresh ARC-AGI-1-style tasks that resemble the public dataset. These tasks can be used to evaluate frontier models such as BDH-CQ on problems they are unlikely to have encountered before.\n\n<!-- TODO: Add the BDH-CQ arXiv link when available. -->\n\n## Overview\n\nBDH-CQ is a reasoning model that combines in-context learning through evolving recurrent memory with iterative reasoning in a structured, continuous latent space.\n\nIt builds on Dragon Hatchling (BDH), a post-Transformer recurrent architecture in which neuron-like units communicate through low-rank interactions and maintain context in an evolving associative state. BDH-CQ extends this architecture: at inference time, its recurrent m",
+      "group": "community"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "# dsh-routing-suite — 注入器 × 思维模式路由 套装\r\n\r\n一个仓库装齐「运行时手术台 + 思维模式路由预设」：先装注入器（免重启运行时管理层），\r\n再用它装配 router-standard 预设（任务感知思维模式路由，P1-P23 实测）。\r\n\r\n[中文](README.md) | [English](README.en.md)\r\n\r\n## 一键安装\r\n\r\n```powershell\r\ndsh plugin --profile web add github:yjh051108/dsh-routing-suite\r\n```\r\n\r\n**DSH Target**：`>=0.1.0-rc.6 <0.2.0`（已跟进 rc.8 / 0.1.1-rc.2 / 0.1.2-alpha.1）\r\n\r\n> DSH 目前处于 developer preview，官方明示会有破坏性变更（breaking changes）。\r\n> 本仓库的版本跟进记录见 `preset/CHANGELOG.md`。\r\n\r\n## 安装链（三步）\r\n\r\n```powershell\r\n# 1. 拉套装（单仓库：injector/preset 内容已直接入库，无需 submodule）\r\ngit clone https://github.com/yjh051108/dsh-routing-suite.git\r\ncd dsh-routing-suite\r\n\r\n# 2. 一键安装（注入器装配 + 预设复制 + 布局自检 + 提示重启）\r\n.\\install.ps1\r\n```\r\n\r\n或手动：\r\n\r\n```powershell\r\n# 步骤 1：装配注入器（官方装配，重启后由 bundles 接管）\r\ndsh plugin --profile web add .\\injector\r\n# dsh 不在 PAT",
+      "group": "community"
+    },
+    {
+      "id": "gh_1319154759",
+      "source": "GitHub Trending",
+      "title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "summary": "<div align=\"center\">\n\n<h1>kimi-k3-in-c</h1>\n\n<h3>A 2.78-trillion-parameter model. One CPU. 8 GB of RAM.</h3>\n\n<p>Kimi K3 inference in portable C99.<br>No BLAS. No framework. No GPU.</p>\n\n<p>\n<a href=\"https://github.com/FareedKhan-dev/kimi-k3-in-c/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/FareedKhan-dev/kimi-k3-in-c/ci.yml?branch=main&style=flat-square&label=CI\" alt=\"CI\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square\" alt=\"License\"></a>\n<a href=\"Makefile\"><img src=\"https://img.shields.io/badge/C99-portable-lightgrey?style=flat-square\" alt=\"C99\"></a>\n<a href=\"#requirements\"><img src=\"https://img.shields.io/badge/platform-Linux%20x86--64-lightgrey?style=flat-square\" alt=\"Platform\"></a>\n<a",
+      "group": "community"
+    },
+    {
+      "id": "gh_1331636953",
+      "source": "GitHub Trending",
+      "title": "zhu1090093659/dsh-web - DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
+      "url": "https://github.com/zhu1090093659/dsh-web",
+      "summary": "# dsh-web · DeepSeek Harness（DSH）Web GUI 插件聚合生态包\n\n中文 | [English](README.en.md)\n\n<p align=\"center\">\n  <img src=\"docs/dsh-web-banner.png\" alt=\"dsh-web\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/v/release/zhu1090093659/dsh-web?style=flat-square\" alt=\"Version\">\n  &nbsp;\n  <img src=\"https://img.shields.io/github/stars/zhu1090093659/dsh-web?style=flat-square\" alt=\"Stars\">\n  &nbsp;\n  <img src=\"https://img.shields.io/github/forks/zhu1090093659/dsh-web?style=flat-square\" alt=\"Forks\">\n  &nbsp;\n  <a href=\"https://www.npmjs.com/package/@linxin666/dsh-web-all\"><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fdsh-market.com%2Fapi%2Fnpm-badge%2Fversion&style=flat-square&label=npm\" alt=\"npm\"></a>\n  &nbsp;\n  <a href=\"https://dshfind.com/zh/plugins/zhu109009",
+      "group": "community"
+    },
+    {
+      "id": "gh_1322109631",
+      "source": "GitHub Trending",
+      "title": "arvids-unavailable/openGym - https://github.com/DuarteSantos8/openGym",
+      "url": "https://github.com/arvids-unavailable/openGym",
+      "summary": "<div align=\"center\">\n\n<img src=\"assets/banner.png\" alt=\"openGym\" width=\"720\">\n\n<br>\n\n**A self-hosted gym & body-weight tracker you actually own.**\n\nPlan your week, run guided workouts, track every set and your body weight over time —\non your phone, synced across devices, behind your own passkey login.\nNo account on someone else's server, no subscription, no ads. Just `docker compose up`.\n\n<br>\n\n[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-a3e635?style=flat-square)](LICENSE)\n![Self-hosted](https://img.shields.io/badge/self--hosted-%F0%9F%8F%A0-60a5fa?style=flat-square)\n![PWA](https://img.shields.io/badge/PWA-installable-a78bfa?style=flat-square)\n![React](https://img.shields.io/badge/React-19-38bdf8?style=flat-square&logo=react&logoColor=white)\n![Docker](https://img.sh",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1331135699",
+      "source": "GitHub AI项目",
+      "title": "guillaumemeyer/watermarks-remover - A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336502227",
+      "source": "GitHub AI项目",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "<div align=\"center\">\n\n# OpenBot\n\n**AI coworkers you can hand real work to, and actually trust with the access.** Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after.\n\n[**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Features**](#features) · [**Bring your own agent**](#bring-your-own-agent) · [**Architecture**](#architecture) · [**Docs**](docs/README.md)\n\n[![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml)\n[![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotK",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1323511527",
+      "source": "GitHub AI项目",
+      "title": "KKKKhazix/human-writing - 让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "summary": "<p align=\"center\">\n  <img src=\"./assets/readme-cover.svg\" alt=\"活人感写作\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/KKKKhazix/human-writing/releases/tag/v1.1.0\"><img alt=\"Version 1.1.0\" src=\"https://img.shields.io/badge/version-1.1.0-C4473A?style=flat-square\"></a>\n  <a href=\"./LICENSE\"><img alt=\"MIT License\" src=\"https://img.shields.io/badge/license-MIT-313131?style=flat-square\"></a>\n  <a href=\"https://github.com/KKKKhazix/human-writing/releases/latest\"><img alt=\"GitHub Release\" src=\"https://img.shields.io/github/v/release/KKKKhazix/human-writing?style=flat-square&color=6B6258\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速安装\">快速安装</a> ·\n  <a href=\"#它做什么\">写作流程</a> ·\n  <a href=\"#仓库结构\">仓库结构</a> ·\n  <a href=\"https://github.com/KKKKhazix/human-writing/issues\">提交问题</a>\n</p>",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336933337",
+      "source": "GitHub AI项目",
+      "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "summary": "# Cumora\n\n> Where agent teams gather.\n\n[**cumora.ai**](https://cumora.ai) · [Web app](https://app.cumora.ai) · [Desktop download](https://github.com/yetone/cumora-releases/releases/latest) · [iOS beta (TestFlight)](https://testflight.apple.com/join/GtRKgPpS)\n\nCumora is cross-platform team chat where AI agents are first-class participants alongside humans — same roster, same DMs, same group conversations, same Kanban board and calendar. Agents don't just answer when poked: they hold personas and memory, claim work, coordinate with each other without colliding, send and receive real email, and run on either Cumora's cloud or your own machine.\n\n<p align=\"center\">\n  <img src=\"website/assets/product-screenshot.png\" alt=\"Cumora desktop app — a team room where AI agents and humans discuss product",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1319154759",
+      "source": "GitHub AI项目",
+      "title": "FareedKhan-dev/kimi-k3-in-c - A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "summary": "<div align=\"center\">\n\n<h1>kimi-k3-in-c</h1>\n\n<h3>A 2.78-trillion-parameter model. One CPU. 8 GB of RAM.</h3>\n\n<p>Kimi K3 inference in portable C99.<br>No BLAS. No framework. No GPU.</p>\n\n<p>\n<a href=\"https://github.com/FareedKhan-dev/kimi-k3-in-c/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/FareedKhan-dev/kimi-k3-in-c/ci.yml?branch=main&style=flat-square&label=CI\" alt=\"CI\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square\" alt=\"License\"></a>\n<a href=\"Makefile\"><img src=\"https://img.shields.io/badge/C99-portable-lightgrey?style=flat-square\" alt=\"C99\"></a>\n<a href=\"#requirements\"><img src=\"https://img.shields.io/badge/platform-Linux%20x86--64-lightgrey?style=flat-square\" alt=\"Platform\"></a>\n<a",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1322651268",
+      "source": "GitHub AI项目",
+      "title": "fuxicodex/Fuxi - FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.",
+      "url": "https://github.com/fuxicodex/Fuxi",
+      "summary": "# FuXi\n\n[English](README.md) | [简体中文](README.zh-CN.md)\n\n[![GitHub stars](https://img.shields.io/github/stars/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=stars)](https://github.com/fuxicodex/Fuxi/stargazers)\n[![Release](https://img.shields.io/github/v/release/fuxicodex/Fuxi?style=flat-square&color=0a6fe7&label=release)](https://github.com/fuxicodex/Fuxi/releases)\n[![Last commit](https://img.shields.io/github/last-commit/fuxicodex/Fuxi?style=flat-square&color=0a6fe7)](https://github.com/fuxicodex/Fuxi/commits/main)\n[![License](https://img.shields.io/badge/license-Proprietary-0a6fe7?style=flat-square)](LICENSE)\n\n> **An AI coding agent that lives in your terminal.**\n\nFuXi is a fast, self-contained **terminal AI coding agent** — read code, edit\nfiles, run commands, and drive tools from ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1329272295",
+      "source": "GitHub AI项目",
+      "title": "Leonxlnx/unlazy - Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "summary": "<div align=\"center\">\n\n# unlazy\n\n**Completion discipline for substantial AI-agent work, backed by runnable gates.**\n\nWrite the acceptance ledger first. Execute reviewed checks. Reverify returned work. Report only what the evidence supports.\n\n[Quick start](#quick-start) | [Gate contract](#the-gate-contract) | [Orchestration](#orchestration-and-parallel-work) | [Security](#security-boundary) | [Research](#research-basis)\n\n</div>\n\n## Version status\n\nThe current source targets `2.1.0`. It is not identified here as a tagged GitHub release. Pin an exact commit when you need an immutable installation. See [CHANGELOG.md](CHANGELOG.md) for the unreleased change set.\n\n## Install\n\nUse the [skills CLI](https://github.com/vercel-labs/skills) for supported agents:\n\n```text\nnpx skills add Leonxlnx/unlazy\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1332781509",
+      "source": "GitHub AI项目",
+      "title": "elie222/rakazo - Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "summary": "# Rakazo\n\n[![GitHub stars](https://img.shields.io/github/stars/elie222/rakazo?labelColor=black&style=for-the-badge&color=2563EB)](https://github.com/elie222/rakazo/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?labelColor=black&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RWwKa2Sn7h)\n\n![Rakazo — AI teammates you actually own](./docs/readme-hero.png)\n\nRakazo is an open-source platform for running persistent AI teammates. It is available on the web,\nas an Electron desktop app, and through an Expo mobile app. Bring your own model and computer\nprovider, or run the complete stack locally.\n\nRakazo is in beta. Learn more at [rakazo.com](https://rakazo.com).\n\n## Features\n\n- Persistent bots with their own conversations, memory, ro",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1338470635",
+      "source": "GitHub AI项目",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1333165619",
+      "source": "GitHub AI项目",
+      "title": "dataelement/dsh-desktop - DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "url": "https://github.com/dataelement/dsh-desktop",
+      "summary": "<h1 align=\"center\">\n  <img src=\"docs/images/readme-logo-black-v020.png\" width=\"64\" alt=\"DSH Desktop logo\" valign=\"middle\" />\n  DSH Desktop\n</h1>\n\n<p align=\"center\">\n  A local-first, cross-platform desktop app for\n  <a href=\"https://github.com/deepseek-ai/deepseek-harness\">DeepSeek Harness</a>.\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> · <a href=\"README.zh.md\">简体中文</a> · <a href=\"README.ja.md\">日本語</a> · <a href=\"README.ru.md\">Русский</a> · <a href=\"README.es.md\">Español</a> · <a href=\"README.pt.md\">Português</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/License-MIT-171513.svg\" /></a>\n  <img alt=\"macOS\" src=\"https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-171513.svg\" />\n  <img alt=\"Windows\" src=\"ht",
+      "group": "community"
+    },
+    {
+      "id": "devto_4522857",
+      "source": "Dev.to",
+      "title": "I Asked for a Portfolio but Got a Filing Cabinet",
+      "url": "https://dev.to/anchildress1/i-asked-for-a-portfolio-but-got-a-filing-cabinet-4ef8",
+      "summary": "Every AI redesign of my portfolio looked different and was the same filing cabinet underneath. What a style guide couldn't fix — and the one instruction that did.",
+      "author": "Ashley Childress"
+    },
+    {
+      "id": "devto_4525476",
+      "source": "Dev.to",
+      "title": "Four reviewers told me the one thing I couldn't fix by myself",
+      "url": "https://dev.to/giulianiregspec/four-reviewers-told-me-the-one-thing-i-couldnt-fix-by-myself-4p08",
+      "summary": "What happens when you submit a solo open-source project to academic peer review: the reviews were...",
+      "author": "Rodrigo Giuliani"
+    },
+    {
+      "id": "devto_4526274",
+      "source": "Dev.to",
+      "title": "Your MCP Server Says It Is Read-Only. Who Checked?",
+      "url": "https://dev.to/himanshu_748/your-mcp-server-says-it-is-read-only-who-checked-2mjk",
+      "summary": "MCP servers describe their own tools. A tool can publish readOnlyHint: true, and an agent harness may...",
+      "author": "Himanshu Kumar"
+    },
+    {
+      "id": "devto_4516893",
+      "source": "Dev.to",
+      "title": "Your agent didn't fail. You closed the lid",
+      "url": "https://dev.to/dmitryganin/your-agent-didnt-fail-you-closed-the-lid-g8o",
+      "summary": "SleepSwitch is a macOS menu bar toggle that stops your Mac from sleeping — lid closed included. One...",
+      "author": "Dmitry"
+    },
+    {
+      "id": "devto_4523544",
+      "source": "Dev.to",
+      "title": "I built an autonomous treasury agent, then let a code review bot find every way it could lose money",
+      "url": "https://dev.to/codedpool/i-built-an-autonomous-treasury-agent-then-let-a-code-review-bot-find-every-way-it-could-lose-money-4ocf",
+      "summary": "I just submitted TreasuryForge to the WeMakeDevs × TrueFoundry Agent Harness Hackathon, an autonomous...",
+      "author": "Romanch Roshan Singh"
+    },
+    {
+      "id": "devto_4526269",
+      "source": "Dev.to",
+      "title": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness",
+      "url": "https://dev.to/himanshu_748/bugs-are-innocent-until-reproduced-building-verdict-an-evidence-first-agent-harness-50lf",
+      "summary": "Most flaky bug reports end in one of two places: \"cannot reproduce\" or a patch nobody can prove fixed...",
+      "author": "Himanshu Kumar"
+    },
+    {
+      "id": "devto_4525318",
+      "source": "Dev.to",
+      "title": "My Claude Code config costs 9,857 tokens before I type anything",
+      "url": "https://dev.to/amzotec/my-claude-code-config-costs-9857-tokens-before-i-type-anything-3gin",
+      "summary": "I installed 107 skills, 38 agents and 15 commands into Claude Code over a few months. Standard stuff...",
+      "author": "Andrew Mazok"
+    },
+    {
+      "id": "devto_4525816",
+      "source": "Dev.to",
+      "title": "I built an AI agent for production incidents. The interesting part is when it refuses to act.",
+      "url": "https://dev.to/singhakousik363del/i-built-an-ai-agent-for-production-incidents-the-interesting-part-is-when-it-refuses-to-act-1ddg",
+      "summary": "I wrote this for the All Things Agentic Hackathon. Every incident-response demo you have seen ends...",
+      "author": "Kousik Singha"
+    },
+    {
+      "id": "oschina_d93f64cde639",
+      "source": "开源中国",
+      "title": "「中国词元」：芯片、模型、绿电的算术题",
+      "url": "https://www.oschina.net/news/502199",
+      "summary": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，聊的是英伟达收购 Hugging Face。直播后半段，徐勇提了一个概念，叫「中国词元」。 这个词是开源中国董事长马越提出来的，还在区块链上做了存证。公式很简单，中国词元=中国芯片+中国模型+中国绿电，这是一笔清晰的成本账。 徐勇讲了他在美国的见..."
+    },
+    {
+      "id": "oschina_740fee44b443",
+      "source": "开源中国",
+      "title": "AI 时代的代码库，为什么成了兵家必争之地",
+      "url": "https://www.oschina.net/news/502198",
+      "summary": "前阵子有一条新闻，圈里人聊得不少。OpenAI 的智能体，为了在 Hugging Face 的评测榜单上拿第一，主动攻击了 Hugging Face，想把评测题目直接拿走，而且在很短时间内发动了极其大量的请求。 这件事放在以前，可能只是条安全新闻。放在今天，它反映了一个新问题，AI 时代的代码库，正在变成兵家必争之地。 8 月 28 日周五..."
+    },
+    {
+      "id": "oschina_ebfac405af7d",
+      "source": "开源中国",
+      "title": "中国版 Hugging Face 是怎么造出来的",
+      "url": "https://www.oschina.net/news/502197",
+      "summary": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有，叫模力方舟（Moark）。 8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，聊的正是英伟达收购 Hugging Face。直播里徐勇讲了模力方舟是怎么做出来的，过程比想象中硬核得多。 2022 年 11..."
+    },
+    {
+      "id": "oschina_00923a164231",
+      "source": "开源中国",
+      "title": "巨头拿着支票来了，开源创业者该不该卖？",
+      "url": "https://www.oschina.net/news/502196",
+      "summary": "Hugging Face 被英伟达收购之后，一个老问题又热了起来。创业的开源项目，巨头拿着支票找上门，到底卖不卖。 8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，聊的正是英伟达收购 Hugging Face 之后开源平台的处境。直播里有个网友问，如果巨头带着支票来找你，什么情况下应该卖？徐勇给了一套自..."
+    },
+    {
+      "id": "oschina_c5455f2a7b33",
+      "source": "开源中国",
+      "title": "AI 时代，开源为什么越来越值钱",
+      "url": "https://www.oschina.net/news/502195",
+      "summary": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Face。 整场直播下来，评论区问得最多的一个问题，和收购价有关。 开源不是免费的吗，凭什么值 129 亿美金？ 这也是很多人心里的疑问。作为 Hugging Face 的投资方之一，张倩在直播里先抛了个观点，Hugging Face 有十几..."
+    },
+    {
+      "id": "hn_comment_49494444",
+      "source": "HN讨论",
+      "title": "k310 在「Lawmakers added $1 to car insurance poli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49494182",
+      "summary": "Texas &gt; In 2023, the Texas Legislature unanimously passed a law raising auto insurance costs for Texans by $1 to combat rampant catalytic converter theft. &gt; The Motor Vehicle Crime Prevention Authority, led by a board mostly appointed by Gov. Greg Abbott, has turned the $1 fee hike into at least 3,200 Flock cameras. More coming. Meanwhile, secure your EV!!! Batteries will be next!!!",
+      "author": "k310"
+    },
+    {
+      "id": "hn_comment_49495335",
+      "source": "HN讨论",
+      "title": "DarmokTanagra 在「Lawmakers added $1 to car insurance poli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49494182",
+      "summary": "For a country that staged a revolution over a tea tax modern Americans sure seem to love having their rights trampled.",
+      "author": "DarmokTanagra"
+    },
+    {
+      "id": "hn_comment_49494655",
+      "source": "HN讨论",
+      "title": "qwerpy 在「Lawmakers added $1 to car insurance poli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49494182",
+      "summary": "Strange that someone else’s question “Did it reduce catalytic converter theft?”, directly relevant to the article, got downvoted to death. Not sure if we’re meant to have discussions here or just dutifully complain about topics that are fashionable to complain about.",
+      "author": "qwerpy"
+    },
+    {
+      "id": "hn_comment_49495492",
+      "source": "HN讨论",
+      "title": "mannanj 在「Lawmakers added $1 to car insurance poli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49494182",
+      "summary": "So to fight abuse and overreach by your leaders, you can: - give up your car&#x2F;vehicle propery - let an LLC take ownership - reside in the privacy protections of LLC and corporation I don&#x27;t think any successful case has happened yet where flock et al have pierced the corporate veil to get address information, nor dug into insurance records to find who the LLC-license plates belong to.",
+      "author": "mannanj"
+    },
+    {
+      "id": "hn_comment_49494491",
+      "source": "HN讨论",
+      "title": "ihsw 在「Lawmakers added $1 to car insurance poli」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49494182",
+      "summary": "Did it reduce catalytic converter theft?",
+      "author": "ihsw"
+    },
+    {
+      "id": "hn_49490870",
+      "source": "Hacker News",
+      "title": "Nancy Grace Roman Space Telescope",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "summary": "https:&#x2F;&#x2F;nextspaceflight.com&#x2F;launches&#x2F;details&#x2F;6983&#x2F; https:&#x2F;&#x2F;www.npr.org&#x2F;2026&#x2F;08&#x2F;28&#x2F;nx-s1-5905370&#x2F;nasa-nancy-grac... https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Nancy_Grace_Roman"
+    },
+    {
+      "id": "hn_49494182",
+      "source": "Hacker News",
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49494301",
+      "source": "Hacker News",
+      "title": "The Rise and Fall of Agent Civilizations",
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "summary": ""
+    },
+    {
+      "id": "hn_49492584",
+      "source": "Hacker News",
+      "title": "Domain-Driven Agents",
+      "url": "https://coldtake.dev/blog/domain-driven-agents",
+      "summary": ""
+    },
+    {
+      "id": "hn_49438865",
+      "source": "Hacker News",
+      "title": "Show HN: I missed the moving blocks, so I built a real Linux disk defragmenter",
+      "url": "https://github.com/gbin/defragger",
+      "summary": ""
+    },
+    {
+      "id": "hn_49491568",
+      "source": "Hacker News",
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "summary": ""
+    },
+    {
+      "id": "hn_49494571",
+      "source": "Hacker News",
+      "title": "Open Oscar Server: open-source server compatible with AIM and ICQ clients",
+      "url": "https://github.com/mk6i/open-oscar-server",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-08-30 14:00"
+}
