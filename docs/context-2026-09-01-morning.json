@@ -1,0 +1,780 @@
+{
+  "key": "2026-09-01-morning",
+  "date": "2026-09-01",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 21,
+      "title": "俄罗斯无人机昼夜不停袭击基辅，战争进入新阶段",
+      "entities": [
+        {
+          "name": "俄罗斯",
+          "explain": "发动对乌克兰战争的国家"
+        },
+        {
+          "name": "无人机",
+          "explain": "无人驾驶的飞行器，用于侦察或攻击"
+        },
+        {
+          "name": "基辅",
+          "explain": "乌克兰首都，战争主要目标之一"
+        }
+      ],
+      "summary": "俄罗斯对乌克兰首都基辅的无人机袭击从过去主要在夜间进行，转变为几乎全天候不间断的空袭。这种新战术让居民长期处于紧张状态，身心俱疲，标志着战争进入更危险的新阶段。",
+      "relevant": "反映俄乌战争战术变化，影响乌克兰民众生活和战争走向",
+      "context": "俄乌战争持续多年，俄罗斯此前主要依赖夜间空袭，现在转为全天候攻击，以施加更大压力。",
+      "source_analysis": "纽约时报报道，立场倾向西方，关注乌克兰民众视角",
+      "social_impact": "基辅居民生活受严重影响，长期警报导致心理压力增大",
+      "source_text": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv。The nearly constant air raids, a shift from years of largely overnight attacks, have left residents exhausted and on edge.",
+      "source_title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
+      "source_url": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "美国和伊朗在霍尔木兹海峡首次交火，数周来首次直接冲突",
+      "entities": [
+        {
+          "name": "美国",
+          "explain": "世界超级大国，在中东有军事存在"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，与美国长期对立"
+        },
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "连接波斯湾和阿曼湾的狭窄水道，全球石油运输要道"
+        },
+        {
+          "name": "拉拉克岛",
+          "explain": "霍尔木兹海峡中的岛屿，此次袭击目标"
+        }
+      ],
+      "summary": "美国对伊朗拉拉克岛发动袭击，造成2人死亡、2人受伤，这是自7月底以来美国首次对伊朗进行已知打击。此次冲突打破了数周的相对平静，标志着美伊紧张关系再度升级。",
+      "relevant": "美伊冲突直接影响全球石油供应和地区稳定",
+      "context": "美伊长期敌对，近期因核问题和地区军事行动关系紧张，此次袭击是新一轮冲突的开始。",
+      "source_analysis": "BBC报道，立场相对中立，引用官方消息",
+      "social_impact": "霍尔木兹海峡是全球石油运输关键通道，冲突可能推高油价",
+      "source_text": "US and Iran trade strikes for first time in weeks - Published Iran and the US have traded strikes after American forces attacked two rocket launchers on Larak Island in the Strait of Hormuz. The first known US strikes on Iran since late July killed two people and injured two others, according to Iran's Islamic Revolutionary Guard Corps (IRGC), which vowed \"response and punishment\". US Central Command (Centcom) said it took \"limited, precise action\" after observing Iran preparing to \"launch rockets and deploy sea mines into the Strait of Hormuz\", according to its spokesperson. Iran said it had struck US military bases in Jordan in response, with Jordan's army saying it had intercepted eight missiles early on Monday morning. Iran's state TV also said the Iranian army had targeted an air base in the UAE with drones. However, the UAE's Ministry of Defence denied the reports that Al-Minhad Air Base had been targeted as \"unfounded\". The UAE did confirm it shot down a drone. The US strike is the first known attack on Iran since President Donald Trump paused a renewed military campaign in late July. Larak Island is just offshore from the key port of Bandar Abbas and sits right on the Strait of Hormuz, a vital waterway for global shipping. Some 20% of the world's oil and liquefied natural gas used to travel through before the war began. Since the conflict began in February, the strait has effectively been closed, causing wild fluctuations in the price of oil on world markets. Iran is currently demanding that tanker traffic pass by Larak Island for checks and reportedly forcing vessels to pay $2m (£1.5m) to cross. Iran's Tasnim news agency, which is affiliated with the IRGC, said earlier that the attack on Larak was carried out by drones. Hours later, Iranian media carried a statement by the IRGC saying it had attacked the US bases of King Hussein and al-Azraq in Jordan with ballistic missiles in response to the Larak Island attack. Iran's foreign ministry said on Monday it \"strongly condemned the American military aggression on Larak\", saying the strikes on bases in Jordan were a \"legitimate defence\". Trump later told Fox News the US would \"hit them hard\" in response. Later on Monday, Centcom denied an earlier IRGC claim that a supertanker had struck sea mines and caught fire while trying to navigate the Strait of Hormuz via a route not authorised by Iran. Tasnim published a photo appearing to show a vessel on fire, but did not identify the tanker or provide furthe",
+      "source_title": "US and Iran trade strikes for first time in weeks",
+      "source_url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "特朗普威胁“狠狠打击伊朗”，美伊在平静一个月后恢复交火",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统，对伊朗采取强硬立场"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，与美国冲突不断"
+        },
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "全球石油运输要道，美伊冲突焦点"
+        }
+      ],
+      "summary": "美国总统特朗普周一表示，将对伊朗袭击美国中东目标进行报复，据福克斯新闻记者报道。伊朗的袭击是对美国在霍尔木兹海峡岛屿打击的回应，这是一个月来首次冲突升级。",
+      "relevant": "显示美伊冲突可能进一步升级，影响中东局势和全球能源市场",
+      "context": "美国此前对伊朗拉拉克岛发动袭击，伊朗随后反击，特朗普威胁加大打击力度。",
+      "source_analysis": "France24报道，引用福克斯新闻记者消息，立场偏西方",
+      "social_impact": "冲突升级可能影响全球油价和地区安全",
+      "source_text": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull President Donald Trump said Monday that the US would hit back against Iranian attacks on US targets in the Middle East, according to a Fox News reporter. The Iranian attacks were themselves a response to US strikes on an island in the Strait of Hormuz, the first flare-up in a month. US President Donald Trump threatened on Monday to hit Iran \"hard\" after the two foes traded fire for the first time in weeks, as his Treasury secretary vowed to keep up a pressure campaign aimed at hobbling Tehran's economy. After six months of war, the foes remain at an impasse, with Iran keeping the strategic Strait of Hormuz closed and the US persisting with a naval counter-blockade of Iranian ports. On Sunday, the United States carried out strikes on an Iranian island in the Strait of Hormuz, with Tehran quickly retaliating by attacking US military targets in the Middle East. The exchange raised fears of a return to major hostilities, with the US president vowing to respond. \"We're going to hit them hard,\" Trump said, according to a Fox News reporter who spoke to him briefly. \"There will be a response.\" To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. The United States said it attacked Iranian rocket launchers on the island of Larak to prevent Tehran planting mines in the key shipping lane. Iran responded with missile and drone attacks aimed at Jordan and the United Arab Emirates, saying they targeted US forces there, but President Masoud Pezeshkian later on Monday called for dialogue. \"We continue to strive for a path of agreement and understanding, and we believe that continuing the war is neither in our interest, nor in the interest of the region,\" he said at a summit in Kyrgyzstan, adding \"the solution to the existing problems is dialogue and cooperation\". State media reported that three people were killed in the US attack on Larak, with several others wounded. Iran's powerful Revolutionary Guards said the ballistic missile attack targeting two US air bases in Jordan caused \"heavy damage\". But Trump told Fox that all the missiles fired at US forces had been shot down, except for one that was determined not to pose a threat. Jordan's army said it had intercepted eight missiles, without stating their ",
+      "source_title": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+      "source_url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "尼泊尔灾难中虚假和AI生成图像充斥社交媒体",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "南亚国家，近期遭遇致命洪水"
+        },
+        {
+          "name": "AI生成内容",
+          "explain": "用人工智能技术制造的虚假图像或视频"
+        },
+        {
+          "name": "社交媒体",
+          "explain": "如推特、脸书等平台，信息传播迅速"
+        }
+      ],
+      "summary": "尼泊尔-中国边境发生致命洪水后，社交媒体上充斥着虚假和误导性视频，包括AI生成内容和来自印度、智利、阿拉斯加的旧视频。一些帖子获得数百万浏览量，利用悲剧吸引点击或传播阴谋论。",
+      "relevant": "揭示灾难中虚假信息泛滥问题，影响公众认知和救援工作",
+      "context": "尼泊尔遭遇严重洪水，造成人员伤亡，社交媒体成为信息传播主要渠道，但也成为虚假信息温床。",
+      "source_analysis": "France24报道，立场中立，专门调查虚假信息",
+      "social_impact": "数百万浏览量显示虚假信息传播范围广，可能误导公众和救援行动",
+      "source_text": "Nepal disaster: fake and AI images flood social media as deaths mount To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Modified: As deadly floods hit the Nepal-China border, social media is being flooded with fake and misleading footage. In Truth or Fake, Vedika Bahl goes through viral videos falsely linked to the disaster, including AI-generated content and old recycled footage from India, Chile and Alaska. Some posts have racked up millions of views online, exploiting the tragedy to drive engagement for easy clicks or further perpetuate conspiracy theories. One widely shared video gained over 7 million views, appearing to show a torrent of floodwater bursting its banks, sweeping away vehicles and pedestrians. Users sharing it as evidence of the devastation in Nepal, except that the video is AI-generated. It contains a SynthID digital watermark indicating that it was created using Google’s AI tools. Tools developed by major technology companies, including Google and Meta, can help identify digital watermarks and signs of AI-generated imagery, providing an increasingly important tool for verifying viral content during breaking news events. Our fact-check found that several viral posts are either AI-generated, recycled from older disasters or filmed in other countries. The false content is adding to the confusion around the disaster and, in some cases, exploiting it for clicks and engagement. Another viral post shows a dramatic before-and-after photo montage, claiming to show the destruction of a town. While genuine before-and-after images of the disaster are circulating, this particular montage is fake and was also created using AI. It's not just destruction images; even a seemingly heartwarming video claiming to show an elephant rescuing a trapped man has been falsely linked to the disaster. However, there are no credible reports that such a rescue took place in Nepal. The video was already circulating weeks before the flash floods broke out, Meta’s detection tools also found signs that the video was AI-generated. Whilst AI adds a layer of complexity to disaster misinformation, it isn't the only way false information is spreading. Old footage from other disasters is also being presented as scenes from Nepal. After reports that a glacier collapse m",
+      "source_title": "Nepal disaster: fake and AI images flood social media as deaths mount",
+      "source_url": "https://www.france24.com/en/nepal-disaster-fake-and-ai-images-flood-social-media-as-deaths-mount",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "特朗普称美国对伊朗使用的武器少于拜登时期提供给乌克兰的",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统，发表此言论"
+        },
+        {
+          "name": "伊朗",
+          "explain": "美国军事打击目标"
+        },
+        {
+          "name": "乌克兰",
+          "explain": "与俄罗斯交战的国家，美国曾提供大量援助"
+        },
+        {
+          "name": "拜登",
+          "explain": "特朗普前任美国总统"
+        }
+      ],
+      "summary": "美国总统特朗普表示，美国对伊朗使用的武器数量，少于拜登政府时期提供给乌克兰的弹药。他称华盛顿在此期间向乌克兰提供了超过3000亿美元的弹药。",
+      "relevant": "对比美国军事资源分配，反映特朗普政策立场",
+      "context": "美伊冲突升级，特朗普试图说明对伊行动规模有限，同时批评前任政府援乌政策。",
+      "source_analysis": "TASS俄罗斯官方通讯社报道，立场亲俄，可能带有倾向性",
+      "social_impact": "涉及美国军事援助规模，影响公众对政府政策的看法",
+      "source_text": "WASHINGTON, September 1. /TASS/. Washington has used fewer weapons in its conflict with Iran than the amount provided to Ukraine under former US President Joe Biden, current US leader Donald Trump told reporters. \"This is a relatively little war for us. This is not a big war,\" he said, referring to the Iran operation. \"You know where the money went was Ukraine,\" Trump stressed. \"They say we used it [ammunition] in Iran. We used very little in Iran by comparison. Joe Biden gave Ukraine over $300 billion worth of stuff free. Now, I also help Ukraine, but they have to pay for it. So Europe is paying for it. It goes to the European nations. It goes to NATO. They pay us for it, and we help them out. But he gave away 300 billion dollars worth of ammunition. That’s… Can’t do that,\" Trump noted.",
+      "source_title": "US uses fewer weapons against Iran than provided to Ukraine under Biden — Trump",
+      "source_url": "https://tass.com/world/2180113",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "特朗普称每晚约30艘船在美国协助下通过霍尔木兹海峡",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统，发表此言论"
+        },
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "全球石油运输关键通道"
+        }
+      ],
+      "summary": "特朗普总统表示，每晚约有30艘船在美国协助下通过霍尔木兹海峡。他指出“大量石油正在流出”，且价格未如一些预测那样上涨。",
+      "relevant": "显示美国在保障石油运输中的作用，影响全球能源市场预期",
+      "context": "美伊冲突威胁海峡安全，特朗普试图强调美国行动维持了石油供应稳定。",
+      "source_analysis": "TASS俄罗斯官方通讯社报道，立场亲俄，可能带有倾向性",
+      "social_impact": "涉及全球石油供应和价格稳定，影响能源市场",
+      "source_text": "WASHINGTON, September 1. /TASS/. An average of 30 vessels pass through the Strait of Hormuz every night with US assistance, President Donald Trump claimed. \"We have the Strait of Hormuz in extremely good shape,\" he said, fielding questions from reporters at the White House. \"Many, many ships got through last night, as you know, with the Navy's assistance, and we've been averaging 30 ships a night,\" Trump added. \"That's a lot, and a lot of oil is coming out. That's why you haven't seen the price of oil go like they thought it might have to go,\" he pointed out. The United States and Israel launched a war against Iran on February 28. In June, Washington and Tehran signed a memorandum of understanding envisaging an immediate ceasefire on all fronts, including Lebanon. However, early on July 8, the United States resumed massive airstrikes on Iran, accusing Tehran of violating their previous agreements regarding the Strait of Hormuz.",
+      "source_title": "Trump claims about 30 ships pass through Strait of Hormuz every night with US assistance",
+      "source_url": "https://tass.com/world/2180109",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "特朗普排除对伊朗使用核武器的可能性",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统，发表此言论"
+        },
+        {
+          "name": "伊朗",
+          "explain": "美国军事打击目标"
+        },
+        {
+          "name": "核武器",
+          "explain": "大规模杀伤性武器，使用后果严重"
+        }
+      ],
+      "summary": "美国总统特朗普排除了对伊朗使用核武器的可能性，他解释称“没有理由这样做”。这一表态缓解了外界对冲突升级为核战争的担忧。",
+      "relevant": "降低核冲突风险，影响国际社会对美伊局势的评估",
+      "context": "美伊冲突升级，外界担忧美国可能使用核武器，特朗普明确否认。",
+      "source_analysis": "TASS俄罗斯官方通讯社报道，立场亲俄，可能带有倾向性",
+      "social_impact": "缓解全球核战争担忧，稳定国际局势预期",
+      "source_text": "Trump rules out use of nuclear weapons against Iran。The US president explained that \"there's no reason for it\"",
+      "source_title": "Trump rules out use of nuclear weapons against Iran",
+      "source_url": "https://tass.com/world/2180101",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "中俄印三国外长会晤，同意维护亚太地区安全与经济架构",
+      "entities": [
+        {
+          "name": "中国",
+          "explain": "亚洲大国，参与地区事务"
+        },
+        {
+          "name": "俄罗斯",
+          "explain": "欧亚大国，与中国和印度有合作"
+        },
+        {
+          "name": "印度",
+          "explain": "南亚大国，与中国和俄罗斯有外交关系"
+        },
+        {
+          "name": "亚太地区",
+          "explain": "亚洲和太平洋地区，地缘政治重要区域"
+        }
+      ],
+      "summary": "中国、俄罗斯和印度三国外长举行第15次会晤，会后联合声明同意维护亚太地区的区域安全和经济架构。此次会议旨在加强三国在地区事务中的协调与合作。",
+      "relevant": "显示中俄印三国在地区事务中的合作，影响亚太地缘政治格局",
+      "context": "三国定期举行外长会晤，讨论共同关心的地区和国际问题，此次聚焦亚太安全与经济。",
+      "source_analysis": "中国日报报道，立场亲中，强调合作成果",
+      "social_impact": "涉及亚太地区安全与经济合作，影响区域稳定",
+      "source_text": "Chinese, Russian and Indian ministers meet。China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "source_title": "Chinese, Russian and Indian ministers meet",
+      "source_url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "source_name": "中国日报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "尼泊尔洪水死亡人数升至939人，救援队爆破山体搜寻被困水电工人",
+      "entities": [
+        {
+          "name": "尼泊尔",
+          "explain": "南亚国家，位于喜马拉雅山脉南麓，经济以农业和旅游业为主"
+        },
+        {
+          "name": "水电工人",
+          "explain": "在水力发电站建设或维护中工作的工人，尼泊尔山区水电站较多"
+        }
+      ],
+      "summary": "尼泊尔近期遭遇严重洪水灾害，死亡人数已升至939人。救援人员在试图接近被困的水电工人时遇到困难，不得不使用炸药爆破山体以开辟通道。被困工人的家属正在焦急等待消息。",
+      "relevant": "尼泊尔洪水灾害造成重大人员伤亡，救援工作面临严峻挑战，反映自然灾害对基础设施和人员安全的威胁。",
+      "context": "尼泊尔山区因强降雨引发洪水和山体滑坡，导致大量人员伤亡和失踪，水电工人被困于施工隧道或工地。",
+      "source_analysis": "BBC作为国际主流媒体，报道客观，侧重事实陈述和救援进展。",
+      "social_impact": "洪水已造成939人死亡，大量基础设施被毁，救援行动仍在持续，对尼泊尔社会和经济造成重大打击。",
+      "source_text": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously - Published The families of more than 600 workers believed to be trapped in a vast network of mud-filled tunnels along Nepal's Trishuli River are clinging to hope their loved ones can be found alive. Rescuers continued battling to reach them on Monday, using explosives to blast into the hillside before pumping air into the Trishuli-3A site - fearing a critical window to reach survivors is closing. \"I wish we could find him. I wish he would come home,\" Anushila Bhandari, wife of Aurus Bhandari, a 33-year-old engineer missing on a project site, told BBC Nepali. It comes as the death toll from the flood disaster on the Nepal-Tibet border reached 939, according to the country's disaster management authority. The agency also revised its estimate of the number of missing to 3,925, of whom 592 are foreign nationals. Roughly one in seven missing people are believed to be workers at the hydropower plants. Nepalese Prime Minister Balendra Shah said on Monday that 279 people had been rescued from the sites. The rescue operation is being spearheaded by an international team made up of Chinese and Nepalese military personnel, while experts from India, Korea and Australia are also involved. \"I still have a 50% hope that he is alive because there is an oxygen system inside,\" Sita Pandey, whose husband was working in the plant when the floods hit, told Nepalese daily Kantipur. Nepal relies heavily on hydropower and has spent years developing the projects along its mountainous river systems. At least 11 projects either completed or under construction were damaged in the floods, authorities said. Rescuers began pumping air into a tunnel over the weekend, but the families of those trapped say that should have been done earlier. A team was able to get into a tunnel leading to one hydropower plant earlier on Monday, but withdrew after finding no one there. \"The longer it takes, the more our hope dies. This operation must move much faster because every second is meaningful to us,\" Jiban Khadka, whose relative is also trapped inside the plant, told Kantipur. \"It's a frustratingly slow operation,\" Khadka added. Nepalese leader Shah said rescue operations had been \"intensified\", noting that 11,379 people had been rescued so far. Another family member anxiously awaiting news is Priya Kharel, whose brother Milan was working as an engineer in the Upper Trishuli-1 plant when the floods hit. \"Those",
+      "source_title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
+      "source_url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "尼泊尔36岁新总理面临洪水灾后重建的艰巨考验",
+      "entities": [
+        {
+          "name": "Balendra Shah",
+          "explain": "尼泊尔新任总理，36岁，今年因青年对腐败和治理不善的不满而上台"
+        },
+        {
+          "name": "尼泊尔",
+          "explain": "南亚国家，位于喜马拉雅山脉南麓，经济以农业和旅游业为主"
+        }
+      ],
+      "summary": "尼泊尔新任总理Balendra Shah今年36岁，凭借青年对腐败和治理不善的愤怒上台。他刚成立的政府现在面临洪水灾后重建的巨大考验，这将是其执政能力的首次重大检验。",
+      "relevant": "年轻领导人在重大自然灾害面前的表现，将直接影响尼泊尔的政治稳定和民众信心。",
+      "context": "尼泊尔近期遭受严重洪水灾害，造成重大人员伤亡和财产损失，新政府需迅速有效应对。",
+      "source_analysis": "纽约时报作为国际主流媒体，报道深入，关注政治人物和治理问题。",
+      "social_impact": "灾后重建任务艰巨，涉及大量资金和资源调配，对新政府的治理能力构成严峻挑战。",
+      "source_text": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task。Prime Minister Balendra Shah, 36, rose to power this year on the back of youth anger with graft and mismanagement. His fledgling government now faces a huge test.",
+      "source_title": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task",
+      "source_url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-balen-shah-gen-z.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 27,
+      "title": "苏丹难民涌入奥贝德市，人道主义状况'严峻且不断恶化'",
+      "entities": [
+        {
+          "name": "苏丹",
+          "explain": "非洲东北部国家，近年来陷入内战，政府军与快速支援部队交战"
+        },
+        {
+          "name": "奥贝德",
+          "explain": "苏丹中部城市，接收了大量因内战流离失所的平民"
+        },
+        {
+          "name": "快速支援部队（RSF）",
+          "explain": "苏丹的一支准军事武装力量，与政府军作战"
+        }
+      ],
+      "summary": "苏丹内战导致大量平民流离失所，涌入奥贝德市及其郊区的难民营。当地人道主义状况严峻且不断恶化，营地'严重拥挤'。联合国称自7月中旬以来已有超过1.5万个家庭抵达，加上上半年抵达的20多万人，难民压力巨大。",
+      "relevant": "苏丹内战引发的人道主义危机持续恶化，国际社会需关注难民生存状况并提供援助。",
+      "context": "苏丹政府军与快速支援部队之间的战斗持续，迫使大量平民逃离家园，涌入相对安全的城市。",
+      "source_analysis": "卫报作为国际主流媒体，报道关注人道主义危机，引用联合国和救助儿童会数据。",
+      "social_impact": "超过15,000个家庭自7月中旬以来抵达，加上此前20多万人，奥贝德市面临严重资源短缺和安置压力。",
+      "source_text": "Humanitarian conditions in the Sudanese city of El Obeid and two camps on its outskirts are dire and deteriorating, according to people on the ground, as civilians displaced by fighting between the Sudanese Armed Forces and Rapid Support Forces (RSF) militia continue to pour in from the surrounding countryside. The UN says more than 15,000 families have arrived since mid-July, joining more than 200,000 people who arrived in the first half of the year, according to government figures cited by Save the Children. “The situation is very harsh and is deteriorating as El Obeid is receiving IDPs [internally displaced people] on a daily basis … The city is shockingly overcrowded,” said Maryam, a humanitarian volunteer whose name has been changed for her safety. The new arrivals came on foot, carrying almost nothing, she said. “They also suffer from a shortage of food and they definitely arrive traumatised.” The city, the capital of North Kordofan province, was home to around half a million people before the war broke out more than three years ago. While many of the new arrivals have been absorbed into the city, tens of thousands are living in two main tented camps. According to analysis of satellite data by the Yale Humanitarian Research Lab, 800 new tents appeared in one of the camps between 4 and 25 August. “During my visit, I saw 450 arrivals coming from the surrounding villages just that morning,” said Paul Byars, the Sudan country director for the Danish Refugee Council, who was in El Obeid last week. “The authorities’ estimates are correct, that 85% of them are women and children. Most of the men are staying behind because this is the only time for farming.” Civil war erupted in Sudan’s capital, Khartoum, about 250 miles (400km) north-east of El Obeid, on 15 April 2023, when a power struggle between the armed forces and RSF descended into open conflict. Since then, about 11.3 million people have been displaced, more than a fifth of the population. Some parts of the country, including El Obeid and surrounding areas, are at risk of famine. Estimates of the number of people killed in the war range from tens to hundreds of thousands. More than 10,000 people are thought to have been massacred by the RSF in El Fasher over two days when they seized the city in Sudan’s western Darfur region in October 2025 after an 18-month siege. A surge in RSF drone strikes on El Obeid and nearby areas in June led the UN to warn that the city could face a repeat of what happened i",
+      "source_title": "People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city",
+      "source_url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "以色列前将领警告：'犹太恐怖主义'成为国家安全威胁",
+      "entities": [
+        {
+          "name": "以色列",
+          "explain": "中东国家，与巴勒斯坦存在长期冲突"
+        },
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦被占领土的一部分，以色列在此设有定居点"
+        },
+        {
+          "name": "犹太恐怖主义",
+          "explain": "指以色列定居者对巴勒斯坦人实施的暴力行为，被部分前将领视为恐怖主义"
+        }
+      ],
+      "summary": "越来越多的以色列前将领、情报官员和前总理指责约旦河西岸的定居者在政府支持下实施'种族清洗'。一位前将领表示，'一旦社会以这种方式行事，这个社会就注定要灭亡'。",
+      "relevant": "以色列内部对定居者暴力的批评声音上升，反映该国社会和政治的深刻分歧。",
+      "context": "以色列政府在约旦河西岸支持定居点建设，定居者对巴勒斯坦人的暴力行为增多，引发前安全官员的担忧。",
+      "source_analysis": "纽约时报报道，关注以色列内部政治和安全议题，引用多位前高级官员观点。",
+      "social_impact": "该报道反映以色列社会对定居者暴力行为的争议，可能影响国际社会对以色列政策的看法。",
+      "source_text": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.。A growing number of former Israeli generals, intelligence officials and prime ministers are accusing settlers in the West Bank of committing ethnic cleansing with government support. “Once a society behaves this way,” one said, “that society is doomed.”",
+      "source_title": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.",
+      "source_url": "https://www.nytimes.com/2026/08/31/world/middleeast/west-bank-israel.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "以色列与希腊达成35亿美元防务协议",
+      "entities": [
+        {
+          "name": "以色列",
+          "explain": "中东国家，拥有发达的国防工业"
+        },
+        {
+          "name": "希腊",
+          "explain": "欧洲东南部国家，是北约成员国"
+        },
+        {
+          "name": "防务协议",
+          "explain": "国家间关于军事装备采购、技术合作等的协议"
+        }
+      ],
+      "summary": "尽管以色列政府面临日益增长的外交孤立，但与希腊达成的35亿美元防务协议表明，以色列国防工业在国际市场上仍有相当大的需求。",
+      "relevant": "该协议显示以色列国防工业的国际竞争力，也反映其在外交孤立下仍能维持军事贸易关系。",
+      "context": "以色列政府因政策问题在国际上受到批评，但国防产品仍受部分国家欢迎。",
+      "source_analysis": "纽约时报报道，关注以色列外交和国防工业的现状。",
+      "social_impact": "35亿美元的协议对以色列国防工业是重要支持，也显示希腊与以色列的军事合作深化。",
+      "source_text": "Israel and Greece Reach $3.5 Billion Defense Deal。Despite the growing diplomatic isolation of the government, the agreement makes clear that the Israeli defense industry is still finding considerable demand abroad.",
+      "source_title": "Israel and Greece Reach $3.5 Billion Defense Deal",
+      "source_url": "https://www.nytimes.com/2026/08/31/world/middleeast/israel-greece-defense-deal.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "墨西哥锡那罗亚贩毒集团内斗升级，女性成为暴力目标",
+      "entities": [
+        {
+          "name": "锡那罗亚集团",
+          "explain": "墨西哥最强大的贩毒集团之一，近年来内部派系争斗激烈"
+        },
+        {
+          "name": "墨西哥",
+          "explain": "北美洲国家，贩毒集团暴力问题严重"
+        }
+      ],
+      "summary": "墨西哥锡那罗亚贩毒集团两个派系之间长达两年的战争，导致针对女性的谋杀和失踪案件激增。报道称这是'蛇窝'，女性成为帮派暴力的主要受害者。",
+      "relevant": "贩毒集团暴力对女性的影响日益严重，反映墨西哥毒品战争的社会代价。",
+      "context": "锡那罗亚集团内部派系为争夺控制权而交战，暴力蔓延至平民，女性成为目标。",
+      "source_analysis": "纽约时报报道，关注墨西哥毒品暴力对弱势群体的影响。",
+      "social_impact": "针对女性的谋杀和失踪案件激增，显示贩毒集团暴力对社会的严重危害。",
+      "source_text": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico。A two-year war between rival Sinaloa Cartel factions is driving a surge in killings and disappearances targeting women.",
+      "source_title": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico",
+      "source_url": "https://www.nytimes.com/2026/08/31/world/americas/warring-cartels-target-women-in-mexico.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "联合国委员会：各国在法律上有义务考虑奴隶制赔偿",
+      "entities": [
+        {
+          "name": "联合国消除种族歧视委员会（CERD）",
+          "explain": "联合国监督《消除一切形式种族歧视国际公约》执行的机构"
+        },
+        {
+          "name": "跨大西洋奴隶贸易",
+          "explain": "16至19世纪欧洲人将非洲人贩卖到美洲的贸易，造成巨大苦难"
+        }
+      ],
+      "summary": "联合国消除种族歧视委员会发布指导意见，称各国有法律义务考虑对跨大西洋奴隶贸易的赔偿，并采取其他措施解决种族歧视的历史遗留问题。该义务源于1965年具有法律约束力的《消除一切形式种族歧视国际公约》。",
+      "relevant": "该指导意见为奴隶制赔偿提供了法律依据，可能推动相关国家采取行动。",
+      "context": "跨大西洋奴隶贸易的历史遗留问题持续影响种族平等，国际社会对赔偿的呼声日益高涨。",
+      "source_analysis": "卫报报道，引用联合国委员会官方指导意见，内容权威。",
+      "social_impact": "该指导意见可能影响国际社会对奴隶制历史责任的态度，推动赔偿讨论。",
+      "source_text": "A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other measures to address the enduring legacy of racial discrimination. Guidance published on Monday by the committee on the elimination of racial discrimination (CERD) said the obligations arose from a legally binding 1965 convention on racial discrimination, not from the legal standards that existed when the slave trade took place. The committee described the approach as a “paradigm shift” away from debates over historical responsibility that have often been used by governments to resist reparations claims. “States parties must implement comprehensive reparatory measures for people of African descent, covering all aspects of remedies,” said the UN document, which may be cited in courtrooms. At least 12.5 million Africans were taken and sold between the 15th and 19th centuries in what CERD called the largest forced displacement in history. Calls for reparations – ranging from official apologies to financial compensation – have gained momentum internationally, though opponents argue states and institutions should not be held responsible for historical crimes. The EU and Britain abstained from a UN resolution on slavery in March. Some states have sought to dodge claims for justice in courtrooms by arguing that there were no international laws outlawing the slave trade at the time – the so-called intertemporality principle. But the UN document argues that, regardless of whether slavery and the slave trade were illegal under the laws of the day, countries remain responsible under current international obligations to tackle their continuing effects. “Irrespective of the legal characterisation of the original historical acts, states parties remain bound by their present obligations under the convention to address structural inequalities,” the UN document says. Financial compensation alone is not sufficient, it adds, urging “transformative” measures including opening archives, revising public memorials and establishing independent truth commissions. Pela Boker Wilson, a committee expert from Liberia who helped draft the document, said she expected states to move beyond broad expressions of regret and review policies and laws. “We are calling on state parties to take concrete and meaningful action,” she told Reuters. “We want to affirm the dignity of those whose suffering was denied, whose suffering was minimised or forgotten.”",
+      "source_title": "Countries legally obliged to consider slavery reparations, says UN committee",
+      "source_url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "肯尼亚机场员工罢工导致数千名乘客滞留",
+      "entities": [
+        {
+          "name": "肯尼亚",
+          "explain": "东非国家，内罗毕是其主要航空枢纽"
+        },
+        {
+          "name": "罢工",
+          "explain": "员工集体停止工作以表达诉求的行动"
+        }
+      ],
+      "summary": "肯尼亚主要机场的员工举行罢工，导致数千名乘客滞留。罢工行动使机场运营陷入混乱，旅客出行受到严重影响。",
+      "relevant": "机场罢工反映肯尼亚劳动纠纷问题，对航空运输和旅客出行造成重大影响。",
+      "context": "肯尼亚机场员工因薪资或工作条件等问题发起罢工，导致航班延误和取消。",
+      "source_analysis": "France24报道，同时提及加纳可可农民和突尼斯遗产等新闻，内容综合。",
+      "social_impact": "数千名乘客滞留，机场运营中断，对肯尼亚航空业和旅游业造成负面影响。",
+      "source_text": "Kenya airport staff strike delays thousands of passengers Africa To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: 13:28 min From the show Reading time 1 min In tonight's edition, a workers' strike at Kenya's main airport leaves travelers grounded. Also, Ghanaian cocoa farmers are ramping up their pushback against a new law preventing them from using their land for anything else without permission. And in Tunisia, Sidi Bou Said's been recognized by UNESCO as being important to global heritage. By: Harold GIRARD Lilia BLAISE Advertising Related keywords",
+      "source_title": "Kenya airport staff strike delays thousands of passengers",
+      "source_url": "https://www.france24.com/en/kenya-airport-staff-strike-delays-thousands-of-passengers",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "西班牙首相称摩洛哥与休达边境危机无关，指责以色列和俄罗斯散布虚假信息",
+      "entities": [
+        {
+          "name": "Pedro Sánchez",
+          "explain": "西班牙首相，领导西班牙政府"
+        },
+        {
+          "name": "Ceuta",
+          "explain": "西班牙位于北非的飞地，与摩洛哥接壤"
+        },
+        {
+          "name": "摩洛哥",
+          "explain": "非洲北部国家，与西班牙隔直布罗陀海峡相望"
+        }
+      ],
+      "summary": "西班牙首相桑切斯表示，没有证据表明摩洛哥政府是上月大规模越境进入休达事件的幕后黑手，并指责以色列和俄罗斯散布关于移民的虚假信息。该事件造成约141人死亡，约7万人涌入休达，引发政治危机和人道主义紧急状况。",
+      "relevant": "该事件凸显了欧洲边境管理的脆弱性，以及大国博弈对移民问题的影响，对欧洲移民政策和国际关系有重要影响。",
+      "context": "2026年7月底，约7万人从摩洛哥大规模越境进入西班牙飞地休达，造成严重人员伤亡和人道危机。事件发生后，西班牙国内及欧盟内部对摩洛哥的指责声不断。",
+      "source_analysis": "《卫报》是英国主流自由派媒体，报道立场相对中立，但可能对移民问题持同情态度。",
+      "social_impact": "事件造成141人死亡，约7万人涌入，引发政治危机和欧盟内部关于移民政策的新一轮紧张。",
+      "source_text": "Spain’s prime minister, Pedro Sánchez, has said there is no evidence to suggest the Moroccan government was behind last month’s massive border crossing into Ceuta but accused Israel and Russia of spreading disinformation. As many as 141 people are thought to have died trying to enter the Spanish enclave at the end of July. The influx of about 70,000 men, women and children unleashed a political crisis, a humanitarian emergency and reignited tensions within the EU over immigration. Despite speculation that Rabat may have engineered the mass crossing as a means of showing its displeasure at Spain’s rapprochement with Algeria, Sánchez said there was nothing to indicate the involvement of the Moroccan authorities. “There’s no information from any intelligence agency that raises doubts over the involvement of Moroccan authorities,” he told Cadena Ser radio on Monday. “Cooperation with Morocco is frankly positive. I’d like to stress that we need to be aware that this crisis can be resolved only through cooperation – and not through a lack of trust in Morocco, which would only further aggravate the already complex situation we have in Ceuta.” Sánchez said fake news had been pumped out on social media accounts “associated with Russia, Israel and the international far right that always use migration to attack not just Spain but also Europe”. The accusation drew a furious response from Israel. The country’s foreign minister, Gideon Sa’ar, called it a “brazen lie”, adding: “Continuing to spread defamatory lies will not distract from Sánchez’s disgraceful failure to manage his country’s affairs.” The Kremlin rejected allegations that Russia was connected to the Ceuta migration crisis, the RBC daily reported on Monday. Sánchez repeated his assertion that the influx was due to the activities of “criminal gangs” who had used disinformation to falsely claim that a ruling by Spain’s supreme court meant that no one who entered Ceuta by swimming could be deported back to Morocco. Although the overwhelming majority of the migrants crossed back into Morocco weeks ago, at least 5,000 people, including 1,200 minors, are still on the streets of Ceuta. Their continuing presence has led to clashes between some Ceuta residents and police, while some of the migrants have had their belongings burned while sleeping rough on beaches. On Saturday, four Moroccan migrants were arrested for throwing stones at Spanish soldiers. Sánchez said there would soon be “sufficient capacity” to accomm",
+      "source_title": "Morocco not to blame for Ceuta border breach, says Spanish PM",
+      "source_url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "法国与瑞典签署43亿欧元护卫舰大单，马克龙出席签字仪式",
+      "entities": [
+        {
+          "name": "Emmanuel Macron",
+          "explain": "法国总统"
+        },
+        {
+          "name": "护卫舰",
+          "explain": "一种中型水面战舰，用于护航、反潜等任务"
+        },
+        {
+          "name": "北约",
+          "explain": "北大西洋公约组织，一个军事联盟"
+        }
+      ],
+      "summary": "法国总统马克龙周一见证了瑞典购买四艘法国护卫舰的43亿欧元协议的签署。瑞典正因俄罗斯入侵乌克兰而加速国防建设，并于2024年加入北约。此次交易旨在加强法瑞两国的防务合作。",
+      "relevant": "该交易是法国军工出口的重大胜利，也反映了欧洲国家在俄罗斯威胁下加强国防合作的趋势。",
+      "context": "自2022年俄罗斯入侵乌克兰以来，瑞典迅速加强国防，并于2024年成为北约成员国。此次军购是瑞典国防现代化的一部分。",
+      "source_analysis": "法国24是法国国际广播电台，报道立场可能偏向法国官方视角。",
+      "social_impact": "交易金额达43亿欧元，是法国军工出口的重要订单，也体现了欧洲安全格局的变化。",
+      "source_text": "Macron seals €4.3-bn French frigate deal in Sweden。President Emmanuel Macron on Monday oversaw the signing of a 4.3-billion-euro ($4.9 billon) deal for Sweden to buy four French frigates as France and Sweden seek to tighten cooperation against a backdrop of growing Russian threats. Sweden is racing to boost its defences after Russia invaded Ukraine in 2022, with the Nordic country becoming a NATO member two years later. FRANCE 24's James Vasina reports.",
+      "source_title": "Macron seals €4.3-bn French frigate deal in Sweden",
+      "source_url": "https://www.france24.com/en/video/20260831-macron-seals-%E2%82%AC4-3-bn-french-frigate-deal-in-sweden",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "瑞士狂欢节枪击案：一名意大利女性死亡，多人受伤",
+      "entities": [
+        {
+          "name": "Aarau",
+          "explain": "瑞士北部城市，位于苏黎世以西"
+        },
+        {
+          "name": "techno rave",
+          "explain": "一种电子音乐派对，通常在夜间举行"
+        }
+      ],
+      "summary": "瑞士阿劳市一场电子音乐派对上发生枪击事件，一名22岁意大利女性死亡，另有数人受伤。警方已逮捕一名嫌疑人。",
+      "relevant": "该事件是瑞士罕见的暴力犯罪，引发对公共活动安全的关注。",
+      "context": "事件发生在瑞士阿劳市的一场狂欢节派对上，具体作案动机尚在调查中。",
+      "source_analysis": "BBC是英国公共广播机构，报道通常客观中立。",
+      "social_impact": "事件造成1人死亡，多人受伤，引发对大型活动安保的担忧。",
+      "source_text": "Man arrested after Swiss rave shooting that killed woman - Published A 43-year-old Swiss man has been arrested following a shooting at a rave in Switzerland in which a woman was killed. Italian 22-year-old Maria Spinelli was killed and several others injured at a techno rave being held at a horse racing track in Aarau, a town about 46km (29 miles) west of Zurich on Sunday. The shooting initiated a nearly 24-hour manhunt before Aarau cantonal police confirmed they apprehended the suspect shortly before 01:00 local time on Monday (23:00 GMT on Sunday). \"The investigation into the exact sequence of events, the background and the possible motive is currently under way,\" police said in a statement. \"At this time, it is assumed that the perpetrator acted alone.\" Police first received a report of shots fired at the Schachen race track at about 02:30 local time on Sunday. Spinelli died at the scene, while four men and a woman, aged between 24 and 27, were taken to hospital with injuries \"ranging from minor to severe\". An eyewitness told Swiss news outlet Blick that he had \"suddenly heard the gunshots\" minutes after the music stopped, initially believing they were fireworks. He said he was told to hide by a man and a woman, the latter of whom was shot. Organisers had expected 3,500 people to attend. Aarau, home to approximately 23,000 people, is less than 40km from the border with Germany, where local media reported police were supporting Swiss forces. The arrest marks a quick progression in the police investigation - on Sunday afternoon, the force in Aarau said it had no leads on the perpetrator and was unsure whether it was one person or several. Italian Prime Minister Giorgia Meloni previously said she was confident Swiss authorities would \"shed full light on what happened and find anyone responsible\". Italy's foreign ministry said in a statement that it was sending officials to Zurich \"to closely follow the investigation\". Switzerland has one of the highest rates of gun ownership in Europe, although violent shootings are rare and tighter controls were introduced in recent years. The last major shooting occurred in 2001, when 14 members of the parliament and local government of Zug, near Lucerne, were killed by a gunman who then took his own life. Related topics - Published1 day ago",
+      "source_title": "Man arrested after Swiss rave shooting that killed woman",
+      "source_url": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "美国歌手D4vd的明星律师退出谋杀案辩护，改由公设辩护人代理",
+      "entities": [
+        {
+          "name": "D4vd",
+          "explain": "21岁的美国歌手，本名未知，因音乐作品走红"
+        },
+        {
+          "name": "Celeste Rivas Hernandez",
+          "explain": "14岁的谋杀案受害者"
+        },
+        {
+          "name": "公设辩护人",
+          "explain": "由政府聘请为无力支付律师费的被告提供辩护的律师"
+        }
+      ],
+      "summary": "美国歌手D4vd的明星律师团队已退出其谋杀案辩护，该案涉及14岁受害者Celeste Rivas Hernandez的死亡。D4vd目前将由公设辩护人代理，他此前已作无罪抗辩。",
+      "relevant": "该案涉及名人犯罪和司法公正问题，引发公众关注。",
+      "context": "D4vd被指控与14岁女孩Celeste Rivas Hernandez的死亡有关，案件正在审理中。其原律师团队因未知原因退出。",
+      "source_analysis": "BBC是英国公共广播机构，报道通常客观中立。",
+      "social_impact": "案件涉及未成年受害者，引发对名人司法特权和法律程序的讨论。",
+      "source_text": "US singer D4vd's celebrity lawyers withdraw from murder case - Published The celebrity lawyers hired to represent US musician D4vd in his upcoming murder trial have withdrawn from the case. The star, whose legal name is David Anthony Burke, has been appointed a public defender to mount his defence against the charge of murdering Celeste Rivas Hernandez, 14, whose remains were found in September 2025 in a Tesla registered to his address. Burke, 21, pleaded not guilty to the murder charges in a Los Angeles court on Monday. A judge determined last month that he will stand trial for murder. Prosecutors have alleged he stabbed the teen after years of sexual abuse before dismembering her body. A pre-trial hearing is set for 19 October. Lawyers Blair Berk, Marilyn Bednarski and Regina Peter said in a statement to the BBC that the court had granted their request to withdraw from the case and had appointed the Los Angeles County Public Defender's Office to represent the singer. The statement said that D4vd \"qualified for appointed counsel\". \"We continue to support David and his defence against these serious charges,\" they said. \"We are grateful that the Los Angeles County Public Defender's Office has taken over the representation and that David has a highly capable and committed team of attorneys and investigators behind him.\" Berk, who led the defence team, has previously represented US actor Mel Gibson and film mogul Harvey Weinstein, as well as singer Britney Spears and actress Lindsay Lohan. Deputy public defender Walid Kandeel said in a statement that Burke was \"entitled to a defence that takes his circumstances seriously and carefully examines the evidence\". \"We are committed to providing him with that defence,\" he said. - US singer D4vd to go on trial for murder in death of 14-year-old - Published28 July Los Angeles County's top prosecutor, Nathan Hochman, said outside the courtroom on Monday that his office was \"ready to proceed\" with its case against Burke. He also acknowledged that the singer's change in lawyers could delay proceedings, require additional time to review the evidence, or result in the filing of a motion to dismiss the case. His team was ready for \"zealous representation\" by the defence, he said. Burke had already entered a not guilty plea to charges of first-degree murder, mutilation of human remains and child sexual abuse. He returned to court on Monday to have the charges against him formally read and re-entered the plea. The murder char",
+      "source_title": "US singer D4vd's celebrity lawyers withdraw from murder case",
+      "source_url": "https://www.bbc.co.uk/news/articles/crr451lpl4no?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_7adb73cbdb05",
+      "source": "BBC",
+      "title": "Nepal rescuers blast hillside in search of hydropower workers as families wait anxiously",
+      "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rescuers have resorted to explosives as they struggle to reach trapped workers, as the flooding death toll reaches 939.",
+      "image": ""
+    },
+    {
+      "id": "rss_7f3316fcab7c",
+      "source": "BBC",
+      "title": "US singer D4vd's celebrity lawyers withdraw from murder case",
+      "url": "https://www.bbc.co.uk/news/articles/crr451lpl4no?at_medium=RSS&at_campaign=rss",
+      "summary": "The singer, 21, will be now represented by a public defender in the murder trial of 14-year-old Celeste Rivas Hernandez. He has pleaded not guilty.",
+      "image": ""
+    },
+    {
+      "id": "rss_93de9997ae94",
+      "source": "BBC",
+      "title": "Man arrested after Swiss rave shooting that killed woman",
+      "url": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+      "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau.",
+      "image": ""
+    },
+    {
+      "id": "rss_ded3ee51ebcd",
+      "source": "BBC",
+      "title": "'She slipped out of my hand' - children missing after ferry sinks off northern Cyprus",
+      "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ayten and Hayri Bicer's two young children are among 20 missing in an incident that killed eight people.",
+      "image": ""
+    },
+    {
+      "id": "rss_0c44682cc1a1",
+      "source": "BBC",
+      "title": "US and Iran trade strikes for first time in weeks",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
+      "image": ""
+    },
+    {
+      "id": "rss_5ee7c83dad69",
+      "source": "France24",
+      "title": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+      "url": "https://www.france24.com/en/middle-east/20260831-trump-threatens-to-hit-iran-hard-as-strikes-resume-after-month-long-lull",
+      "summary": "President Donald Trump said Monday that the US would hit back against Iranian attacks on US targets in the Middle East, according to a Fox News reporter. The Iranian attacks were themselves a response to US strikes on an island in the Strait of Hormuz, the first flare-up in a month.",
+      "image": "https://s.france24.com/media/display/6620eaf0-a51e-11f1-b104-005056bfb2b6/w:1024/p:16x9/2026-08-31T085336Z-115528668-RC2J9NAP5OBK-RTRMADP-3-IRAN-CRISIS-STRIKE.jpg"
+    },
+    {
+      "id": "rss_864b2d84419f",
+      "source": "France24",
+      "title": "Kenya airport staff strike delays thousands of passengers",
+      "url": "https://www.france24.com/en/kenya-airport-staff-strike-delays-thousands-of-passengers",
+      "summary": "In tonight's edition, a workers' strike at Kenya's main airport leaves travelers grounded. Also, Ghanaian cocoa farmers are ramping up their pushback against a new law preventing them from using their land for anything else without permission. And in Tunisia, Sidi Bou Said's been recognized by UNESCO as being important to global heritage.",
+      "image": "https://s.france24.com/media/display/c6e5a218-a578-11f1-8eec-005056bf30b7/w:1024/p:16x9/WB220715-O-01-20260831-01.jpg"
+    },
+    {
+      "id": "rss_2a655010d086",
+      "source": "France24",
+      "title": "Marine Le Pen's National Rally plans to \"sanction\" the wearing of the veil with a fine",
+      "url": "https://www.france24.com/en/marine-le-pen-s-national-rally-plans-to-sanction-the-wearing-of-the-veil-with-a-fine",
+      "summary": "The National Rally plans to \"penalize the wearing of the Islamic veil\" with \"a fine\" if it comes to power, MP Jean-Philippe Tanguy, Marine Le Pen's lieutenant in the presidential election, stated on Sunday. \"We will obviously fight Islamist ideology and we will penalize the wearing of the veil, also in solidarity with all the women around the world who are forced to wear it and who die for this freedom,\" the MP said. FRANCE 24's Monte Francis reports.",
+      "image": "https://s.france24.com/media/display/84518dfc-a52a-11f1-984c-005056bf30b7/w:1024/p:16x9/2026-08-27T154621Z-1088021487-RC237NAUVKIC-RTRMADP-3-FRANCE-BUSINESS-POLITICS.jpg"
+    },
+    {
+      "id": "rss_7e44490455eb",
+      "source": "France24",
+      "title": "Nepal disaster: fake and AI images flood social media as deaths mount",
+      "url": "https://www.france24.com/en/nepal-disaster-fake-and-ai-images-flood-social-media-as-deaths-mount",
+      "summary": "As deadly floods hit the Nepal-China border, social media is being flooded with fake and misleading footage. In Truth or Fake, Vedika Bahl goes through viral videos falsely linked to the disaster, including AI-generated content and old recycled footage from India, Chile and Alaska. Some posts have racked up millions of views online, exploiting the tragedy to drive engagement for easy clicks or further perpetuate conspiracy theories.",
+      "image": "https://s.france24.com/media/display/3e5ae9d8-a570-11f1-9682-005056bf30b7/w:1024/p:16x9/capture-499210196a95d2ac205d05-65537713.jpg"
+    },
+    {
+      "id": "rss_c5ab15b507d8",
+      "source": "France24",
+      "title": "Macron seals €4.3-bn French frigate deal in Sweden",
+      "url": "https://www.france24.com/en/video/20260831-macron-seals-%E2%82%AC4-3-bn-french-frigate-deal-in-sweden",
+      "summary": "President Emmanuel Macron on Monday oversaw the signing of a 4.3-billion-euro ($4.9 billon) deal for Sweden to buy four French frigates as France and Sweden seek to tighten cooperation against a backdrop of growing Russian threats. Sweden is racing to boost its defences after Russia invaded Ukraine in 2022, with the Nordic country becoming a NATO member two years later. FRANCE 24's James Vasina reports.",
+      "image": "https://s.france24.com/media/display/ea2a337c-a53e-11f1-9c98-005056a97e36/w:1024/p:16x9/capture-13517109716a957fe9a180a3-87110240.jpg"
+    },
+    {
+      "id": "rss_fd5450fd7149",
+      "source": "TASS Russia",
+      "title": "US uses fewer weapons against Iran than provided to Ukraine under Biden — Trump",
+      "url": "https://tass.com/world/2180113",
+      "summary": "According to the US president, Washington gave Ukraine over $300 billion worth of ammunition during this period",
+      "image": ""
+    },
+    {
+      "id": "rss_5e4b3c580076",
+      "source": "TASS Russia",
+      "title": "Trump claims about 30 ships pass through Strait of Hormuz every night with US assistance",
+      "url": "https://tass.com/world/2180109",
+      "summary": "The US president noted that \"a lot of oil is coming out,\" and the price has not increased as some forecasts had predicted",
+      "image": ""
+    },
+    {
+      "id": "rss_8bed692cc7c3",
+      "source": "TASS Russia",
+      "title": "Putin urges students to believe in themselves in Knowledge Day message",
+      "url": "https://tass.com/society/2180107",
+      "summary": "The Russian president noted that today’s school and university students \"are the ones who will continue our great Motherland’s track record of victories and achievements\"",
+      "image": ""
+    },
+    {
+      "id": "rss_3cbfacad37a7",
+      "source": "TASS Russia",
+      "title": "Trump says wants to get on with everyone when talking about inviting Russia to G20 events",
+      "url": "https://tass.com/world/2180105",
+      "summary": "The US president added that \"getting along with everybody\" is \"one of the reasons that I'm so successful\"",
+      "image": ""
+    },
+    {
+      "id": "rss_2f5cb8b0400a",
+      "source": "TASS Russia",
+      "title": "Trump rules out use of nuclear weapons against Iran",
+      "url": "https://tass.com/world/2180101",
+      "summary": "The US president explained that \"there's no reason for it\"",
+      "image": ""
+    },
+    {
+      "id": "rss_44e665a7e127",
+      "source": "中国日报",
+      "title": "Satellite lofted for first Arab country",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+      "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "image": ""
+    },
+    {
+      "id": "rss_2fe502842231",
+      "source": "中国日报",
+      "title": "WWII memorials solemn reminders of war tragedy",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+      "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive.",
+      "image": ""
+    },
+    {
+      "id": "rss_e4f4eb4fd4e0",
+      "source": "中国日报",
+      "title": "Chinese, Russian and Indian ministers meet",
+      "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
+      "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries.",
+      "image": ""
+    },
+    {
+      "id": "rss_0e277c413e4d",
+      "source": "纽约时报",
+      "title": "These Generals Fought for Israel. Now They See ‘Jewish Terrorism’ as the Threat.",
+      "url": "https://www.nytimes.com/2026/08/31/world/middleeast/west-bank-israel.html",
+      "summary": "A growing number of former Israeli generals, intelligence officials and prime ministers are accusing settlers in the West Bank of committing ethnic cleansing with government support. “Once a society behaves this way,” one said, “that society is doomed.”",
+      "image": ""
+    },
+    {
+      "id": "rss_403347ceab70",
+      "source": "纽约时报",
+      "title": "For Nepal’s Young Leader, Flood Recovery Will Be a Herculean Task",
+      "url": "https://www.nytimes.com/2026/08/31/world/asia/nepal-floods-balen-shah-gen-z.html",
+      "summary": "Prime Minister Balendra Shah, 36, rose to power this year on the back of youth anger with graft and mismanagement. His fledgling government now faces a huge test.",
+      "image": ""
+    },
+    {
+      "id": "rss_0cc680373f85",
+      "source": "纽约时报",
+      "title": "Nonstop Russian Drones Make for Dangerous New Phase of War in Kyiv",
+      "url": "https://www.nytimes.com/2026/08/31/world/europe/ukraine-kyiv-drones-russia-sirens.html",
+      "summary": "The nearly constant air raids, a shift from years of largely overnight attacks, have left residents exhausted and on edge.",
+      "image": ""
+    },
+    {
+      "id": "rss_1fdc7b49ed95",
+      "source": "纽约时报",
+      "title": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico",
+      "url": "https://www.nytimes.com/2026/08/31/world/americas/warring-cartels-target-women-in-mexico.html",
+      "summary": "A two-year war between rival Sinaloa Cartel factions is driving a surge in killings and disappearances targeting women.",
+      "image": ""
+    },
+    {
+      "id": "rss_3f9b99315165",
+      "source": "纽约时报",
+      "title": "Israel and Greece Reach $3.5 Billion Defense Deal",
+      "url": "https://www.nytimes.com/2026/08/31/world/middleeast/israel-greece-defense-deal.html",
+      "summary": "Despite the growing diplomatic isolation of the government, the agreement makes clear that the Israeli defense industry is still finding considerable demand abroad.",
+      "image": ""
+    },
+    {
+      "id": "rss_5e3e54d8e32f",
+      "source": "卫报",
+      "title": "South African airline defends dramatic low-level flyby before rugby union clash",
+      "url": "https://www.theguardian.com/sport/2026/aug/31/south-african-airline-defends-dramatic-low-level-flyby-before-rugby-union-springboks-new-zealand",
+      "summary": "Cape Town stunt sparks major debate over safety risks Airlink insists flyby conducted according to regulations A pre-game stunt involving two passenger jets flying dramatically low over a stadium in South Africa drew huge cheers from the estimated crowd of 56,000 people, but also sparked a major debate over safety risks. The flyby by two Embraer jets, operated by the local airline Airlink, happened on Saturday before the second rugby union Test between South Africa and New Zealand in Cape Town. The flight tracking service Flightradar24 estimated that the lead jet passed just 41-46 feet (12-14 metres) above the roof of Cape Town Stadium, with the crowd and the world’s top-ranked rugby teams below. The second jet, which was very close behind, flew through a cloud of pink dust that shot up from the stadium roof as part of the show. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_3edb0c08ff42",
+      "source": "卫报",
+      "title": "Countries legally obliged to consider slavery reparations, says UN committee",
+      "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
+      "summary": "Guidance says states must implement ‘comprehensive measures’ to address legacy of racial discrimination A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other ⁠measures to address the enduring ⁠legacy of racial ​discrimination. Guidance published on Monday by the committee on the elimination of racial discrimination (CERD) said the obligations arose from ⁠a legally binding 1965 convention on racial discrimination, not from the legal standards that existed when the slave trade took place. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_8638d9a5adaf",
+      "source": "卫报",
+      "title": "Morocco not to blame for Ceuta border breach, says Spanish PM",
+      "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez",
+      "summary": "Pedro Sánchez says two countries cooperating and accuses Israel and Russia of spreading fake news about migration Spain’s prime minister, Pedro Sánchez, has said there is no evidence to suggest the Moroccan government was behind last month’s massive border crossing into Ceuta but accused Israel and Russia of spreading disinformation. As many as 141 people are thought to have died trying to enter the Spanish enclave at the end of July. The influx of about 70,000 men, women and children unleashed a political crisis, a humanitarian emergency and reignited tensions within the EU over immigration . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_94b087fcd60a",
+      "source": "卫报",
+      "title": "People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city",
+      "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
+      "summary": "More traumatised civilians are arriving every day at ‘shockingly overcrowded’ El Obeid and camps on its outskirts Humanitarian conditions in the Sudanese city of El Obeid and two camps on its outskirts are dire and deteriorating, according to people on the ground, as civilians displaced by fighting between the Sudanese Armed Forces and Rapid Support Forces (RSF) militia continue to pour in from the surrounding countryside. The UN says more than 15,000 families have arrived since mid-July, joining more than 200,000 people who arrived in the first half of the year, according to government figures cited by Save the Children. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_4f59786e1630",
+      "source": "卫报",
+      "title": "Egyptian queen’s 673-diamond necklace stolen in Vienna smash-and-grab raid",
+      "url": "https://www.theguardian.com/artanddesign/2026/aug/28/egyptian-queen-diamond-necklace-stolen-vienna-raid",
+      "summary": "Police hunt two suspects after historic 200-carat piece is snatched from Austrian museum during opening hours Austrian police are hunting two men alleged to have stolen a 200-carat platinum necklace encrusted with 673 diamonds that was on loan to a museum in Vienna and once belonged to Egyptian royalty. Authorities in the capital released pictures of the suspects captured by security cameras during the heist at the Museum of Applied Arts (MAK), amid a rash of spectacular smash-and-grab thefts from European cultural institutions. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-01 07:30"
+}
