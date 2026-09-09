@@ -1,26 +1,5 @@
 [
   {
-    "theme": "AI Agent进入长程记忆与多智能体协作时代",
-    "importance": 5,
-    "evidence": "今日多篇ArXiv论文聚焦Proactive Memory Agent、WebSwarm多智能体编排、UniClawBench基准",
-    "grassroots": "开发者开始构建对话日志蒸馏为长期记忆的流水线",
-    "date": "2026-07-12"
-  },
-  {
-    "theme": "AI编码工具的隐私与安全成为核心矛盾",
-    "importance": 5,
-    "evidence": "xAI Grok Build CLI隐私事件引爆HN讨论，开发者纷纷分享沙箱方案",
-    "grassroots": "开发者从'能用就行'转向'必须安全可控'",
-    "date": "2026-07-12"
-  },
-  {
-    "theme": "小模型+外部知识库方案挑战大模型霸权",
-    "importance": 4,
-    "evidence": "开发者用Claude Haiku+记忆系统以1/640成本达到顶级模型效果",
-    "grassroots": "开发者开始探索成本更优的替代方案",
-    "date": "2026-07-12"
-  },
-  {
     "theme": "AI编程工具进入成本精细化阶段",
     "importance": 5,
     "evidence": "多个开发者自发对比token开销、构建成本监控工具、分享优化经验",
@@ -1398,5 +1377,26 @@
     "evidence": "OpenAI发布攻击事件复盘报告，MCP安全提醒在Dev.to引发共鸣",
     "grassroots": "开发者开始实际验证Agent权限声明，而非信任文档",
     "date": "2026-08-30"
+  },
+  {
+    "theme": "AI竞争从模型层转向agent层与生态层",
+    "importance": 5,
+    "evidence": "Meta发布Muse、NVIDIA收购Hugging Face、DeepSeek Harness登顶Trending并快速形成插件生态",
+    "grassroots": "HN用户abixb指出大多数普通用户只用默认设置，'数百万用户会接受Muse'；开发者对agent安全性的担忧普遍存在",
+    "date": "2026-09-09"
+  },
+  {
+    "theme": "开源agent harness成为新战场",
+    "importance": 4,
+    "evidence": "DeepSeek Harness登顶GitHub Trending，周边生态（desktop客户端、插件列表、路由套件）同步上榜",
+    "grassroots": "开发者围绕dsh快速构建工具链，社区活跃度极高",
+    "date": "2026-09-09"
+  },
+  {
+    "theme": "AI安全从论文走向工程实践",
+    "importance": 4,
+    "evidence": "Meta Muse采用分层提示注入防御（模型训练+harness标记+确定性代码+集成分类器），HN讨论引用DeepMind CaMeL方案",
+    "grassroots": "开发者simonw主动分析Meta防御架构并关联学术论文，社区对agent安全的关注度显著提升",
+    "date": "2026-09-09"
   }
 ]

@@ -1,0 +1,1318 @@
+{
+  "key": "2026-09-09-afternoon",
+  "date": "2026-09-09",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 20,
+      "title": "谷歌DeepMind发布AlphaGenome Atlas：绘制人类基因组90亿个单碱基变异的分子效应图谱",
+      "entities": [
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "谷歌DeepMind发布的一个AI预测工具，能预测人类基因组中每一个可能的单字母DNA变化会产生什么分子层面的影响。"
+        },
+        {
+          "name": "单碱基变异",
+          "explain": "DNA序列中单个字母（碱基）的改变，是基因变异的最基本形式，可能导致疾病或性状差异。"
+        }
+      ],
+      "summary": "谷歌DeepMind推出AlphaGenome Atlas，这是一个覆盖人类基因组全部90亿个可能的单碱基变异位点的预测图谱。该工具利用AI模型预测每个DNA字母变化在分子层面的功能效应，有望帮助研究人员快速识别致病突变，加速遗传病诊断和药物研发。",
+      "relevant": "这是人类基因组学领域的重大基础设施，将极大降低解读基因变异临床意义的时间和成本，对精准医学和罕见病研究具有深远影响。",
+      "context": "人类基因组测序成本已大幅下降，但解读测序结果中发现的成千上万个基因变异的实际功能影响仍是巨大瓶颈。此前缺乏覆盖全基因组所有可能变异的系统性功能预测数据。",
+      "source_analysis": "来自谷歌DeepMind官方博客，作为发布方，报道带有推广自身技术成果的立场，但数据和方法通常经过内部严格验证。",
+      "social_impact": "覆盖90亿个变异位点，几乎穷尽人类基因组所有可能的单碱基改变，为全球遗传学和医学研究提供公共资源。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Google Antigravity. AlphaGeno",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "谷歌DeepMind发布WeatherNext 3：号称最先进精准的全球天气AI模型",
+      "entities": [
+        {
+          "name": "WeatherNext 3",
+          "explain": "谷歌DeepMind推出的第三代全球天气预报AI模型，据称在准确率上超越前代和传统数值预报方法。"
+        }
+      ],
+      "summary": "谷歌DeepMind正式发布WeatherNext 3，宣称这是其迄今最先进、最准确的全球天气AI预测模型。该模型在预报精度上较前代有显著提升，可提供更可靠的天气预报服务，有助于应对极端天气事件。",
+      "relevant": "AI天气预报模型的持续进步正在重塑气象预报行业，更精准的预报对农业、交通、防灾减灾等国民经济领域具有直接价值。",
+      "context": "近年来，谷歌DeepMind等科技公司持续投入AI气象预报，挑战传统基于物理方程的数值天气预报方法。WeatherNext系列是其在AI气象领域的主力产品线。",
+      "source_analysis": "来自谷歌DeepMind官方博客，作为产品发布方，报道带有宣传性质，具体性能指标需等待独立第三方验证。",
+      "social_impact": "全球天气预报能力的提升将直接影响数十亿人的日常生活和极端天气应对，但具体性能提升幅度尚未在摘要中披露。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "OpenAI展示GPT-5.6 Sol与Codex如何协助MIT研究员自主运行量子计算实验",
+      "entities": [
+        {
+          "name": "GPT-5.6 Sol",
+          "explain": "OpenAI发布的最新旗舰大语言模型，具备更强的推理和自主操作能力。"
+        },
+        {
+          "name": "Codex",
+          "explain": "OpenAI开发的AI编程工具，能理解自然语言指令并编写、执行代码。"
+        },
+        {
+          "name": "量子比特",
+          "explain": "量子计算的基本信息单位，与经典比特不同，可同时处于0和1的叠加态。"
+        }
+      ],
+      "summary": "OpenAI发布案例，展示MIT研究员如何利用GPT-5.6 Sol结合Codex，自主运行量子计算实验、分析实验结果并校准量子比特。这一案例展示了AI Agent在高度专业化的科研实验操作中的自主执行能力。",
+      "relevant": "这是AI从辅助分析走向自主操作复杂科研仪器的标志性案例，预示着未来AI Agent可能成为实验室中的自主研究助手，显著降低科研门槛。",
+      "context": "量子计算实验操作复杂且对精度要求极高，通常需要专业研究人员手动控制设备并反复校准。OpenAI希望通过此案例展示其最新模型在专业工具调用和长任务执行上的能力。",
+      "source_analysis": "来自OpenAI官方博客，作为模型发布方，报道旨在展示其产品能力，案例由合作方MIT研究员提供，带有成功案例宣传性质。",
+      "social_impact": "若AI能可靠地操作量子计算等尖端实验设备，将加速科研进程，但也引发关于科研人员角色和实验可重复性的讨论。",
+      "source_text": "How GPT‑5.6 Sol helps run quantum computing experiments Connecting GPT‑5.6 Sol to laboratory software to run and refine routine measurements on quantum chips freed Beatriz Yankelevich to focus on experiment design and data analysis. Quantum computing is an emerging technology that uses the unique properties of quantum mechanics to process information. It could one day better simulate complex materials and molecules. Unlike conventional processors, quantum processors are built with quantum bits, or qubits. Preparing and running qubit experiments can take months and require hundreds to thousands of preliminary measurements—work that AI is poised to help with. Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group (EQuS), used GPT‑5.6 Sol, harnessed to Codex, to explore whether AI could streamline her experimental workflow. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside specialized devices called dilution refrigerators. These qubits perform operations quickly, are precisely controlled using microwave signals, and can be made using familiar manufacturing techniques and arranged on a chip. Once a superconducting qubit chip has been fabricated, packaged, and cooled, researchers interact with it entirely through software, making Yankelevich’s experiments a natural testbed for AI agents. Connecting Codex to the lab software that coordinates experiments allowed it to run measurements, analyze the results, and decide what to try next. Yankelevich found that GPT‑5.6 Sol could often complete routine measurement workflows autonomously, saving her significant amounts of time and allowing experiments to run without constant supervision. This freed her to spend more time on analyzing results, designing experiments, and planning out the next steps in her research. Coordinating interdependent measurements Superconducting qubits are often called artificial atoms because, like atoms, they can only occupy specific energy levels. Microwave pulses move qubits between these levels and probe their quantum state. Researchers design and calibrate the pulse sequences sent to the chip, then digitize and analyse the returning signals. These measurements reveal each qubit’s resonance frequencies, which allows researchers to accurately control the qubit; how long the qubit retains quantum information; and the settings needed to perform computations. Calibrating qubits requires a series of interdependent measurements",
+      "source_title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "source_url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "新论文提出'程序图'框架：让AI智能体通过自进化结构管理复杂任务执行",
+      "entities": [
+        {
+          "name": "程序图",
+          "explain": "一种新提出的AI知识组织方式，将任务步骤（程序）按关系连接成图，类似知识图谱但面向'该做什么'的问题。"
+        },
+        {
+          "name": "LLM智能体",
+          "explain": "基于大语言模型的AI系统，能自主规划并调用工具完成多步骤任务。"
+        }
+      ],
+      "summary": "该论文针对大语言模型智能体在长任务中容易迷失目标、工具调用顺序混乱的问题，提出'程序图'框架。该框架将任务步骤组织成图结构，在每一步为模型提供情境化指导，并让图结构随执行失败自动进化，以提升任务完成成功率。",
+      "relevant": "解决了当前AI智能体在复杂长程任务中可靠性不足的核心痛点，对提升AI自动化执行企业级任务的能力有重要意义。",
+      "context": "当前LLM智能体大多通过自由生成文本选择下一步动作，缺乏对'任务步骤顺序和条件'的显式结构化表达，导致在长任务中容易出错。程序图旨在将这种过程性知识显式化。",
+      "source_analysis": "论文预印本发布在ArXiv上，尚未经同行评议，来自学术研究团队，立场相对中立。",
+      "social_impact": "该研究为提升AI智能体的任务规划能力提供了新思路，可能推动更可靠的AI自动化应用发展。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 8 Sep 2026] Title:Procedural Graphs: Self-Evolving Execution Structures for LLM Agents View PDF HTML (experimental) Abstract:Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions. At each decision step, the framework localizes the agent's active node, and a guidance model translates the surrounding subgraph into step-level situational guidance that biases the solver's next action without dictating it. The graph is self-evolving: an LLM refiner contrasts failed trajectories with successful ones and edits the graph's topology and attributes, committing edits that preserve or improve held-out validation performance while retaining rejected ones to discourage repetition. Starting from a minimal skeleton, the loop builds graphs that match or surpass hand-designed ones. It can also repair a flawed expert prior. Across multiple datasets, task types, and LLMs, the Procedural Graph delivers consistent gains over memory-based baselines, and self-evolution further improves performance without manual engineering. Current browse context: cs.AI References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop ",
+      "source_title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "source_url": "https://arxiv.org/abs/2609.09153v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "新论文提出'程序图'框架：让AI智能体通过自进化结构管理复杂任务执行",
+      "entities": [
+        {
+          "name": "程序图",
+          "explain": "一种新提出的AI知识组织方式，将任务步骤（程序）按关系连接成图，类似知识图谱但面向'该做什么'的问题。"
+        },
+        {
+          "name": "LLM智能体",
+          "explain": "基于大语言模型的AI系统，能自主规划并调用工具完成多步骤任务。"
+        }
+      ],
+      "summary": "该论文针对大语言模型智能体在长任务中容易迷失目标、工具调用顺序混乱的问题，提出'程序图'框架。该框架将任务步骤组织成图结构，在每一步为模型提供情境化指导，并让图结构随执行失败自动进化，以提升任务完成成功率。",
+      "relevant": "解决了当前AI智能体在复杂长程任务中可靠性不足的核心痛点，对提升AI自动化执行企业级任务的能力有重要意义。",
+      "context": "当前LLM智能体大多通过自由生成文本选择下一步动作，缺乏对'任务步骤顺序和条件'的显式结构化表达，导致在长任务中容易出错。程序图旨在将这种过程性知识显式化。",
+      "source_analysis": "论文预印本发布在ArXiv上，尚未经同行评议，来自学术研究团队，立场相对中立。",
+      "social_impact": "该研究为提升AI智能体的任务规划能力提供了新思路，可能推动更可靠的AI自动化应用发展。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 8 Sep 2026] Title:Procedural Graphs: Self-Evolving Execution Structures for LLM Agents View PDF HTML (experimental) Abstract:Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions. At each decision step, the framework localizes the agent's active node, and a guidance model translates the surrounding subgraph into step-level situational guidance that biases the solver's next action without dictating it. The graph is self-evolving: an LLM refiner contrasts failed trajectories with successful ones and edits the graph's topology and attributes, committing edits that preserve or improve held-out validation performance while retaining rejected ones to discourage repetition. Starting from a minimal skeleton, the loop builds graphs that match or surpass hand-designed ones. It can also repair a flawed expert prior. Across multiple datasets, task types, and LLMs, the Procedural Graph delivers consistent gains over memory-based baselines, and self-evolution further improves performance without manual engineering. Current browse context: cs.AI References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop ",
+      "source_title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "source_url": "https://arxiv.org/abs/2609.09153v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "新研究：AI'外挂'进化与模型微调结合时，模仿学习反而导致性能全面下降",
+      "entities": [
+        {
+          "name": "Agent harness",
+          "explain": "围绕AI模型的外部配置系统，包括系统提示词、可用工具、执行钩子和上下文管理框架，相当于模型的'外挂装备'。"
+        },
+        {
+          "name": "模仿学习",
+          "explain": "一种训练方法，让模型学习模仿专家（通常是更强模型）的完整行为轨迹。"
+        }
+      ],
+      "summary": "该研究探讨了AI智能体的'外挂'（harness）进化与模型微调如何结合。结果发现，在进化后的外挂下，用更强专家的完整轨迹训练较弱模型会导致其在全部7个企业任务上性能下降4到30分，而同样的训练在未进化的外挂下却有效。研究分析了这一反直觉现象的原因。",
+      "relevant": "揭示了AI智能体训练中一个重要的反直觉陷阱，对如何有效结合外挂进化与模型微调具有直接指导意义，可帮助避免资源浪费。",
+      "context": "研究背景是希望通过自动进化AI智能体的外部配置（如提示词和工具），让较小的模型在特定任务上达到接近前沿大模型的性能，同时大幅降低成本。该研究进一步探索了这种外挂进化与模型微调的组合策略。",
+      "source_analysis": "论文预印本发布在ArXiv上，尚未经同行评议，来自学术研究团队，立场相对中立。",
+      "social_impact": "研究涉及7个企业级智能体任务，结果提醒AI开发者在结合不同优化技术时需谨慎验证，避免性能倒退。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 8 Sep 2026] Title:Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails View PDF HTML (experimental) Abstract:Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with the weaker model, then find that a stronger expert often uses it more effectively, suggesting expert supervision could close the remaining gap. However, training the weaker model on the expert's complete trajectories under the evolved harness backfires: performance regresses on all seven tasks by 4 to 30 points across Qwen3-Coder and Gemma 4, even though the same procedure helps under the unevolved harness. Our analysis shows that imitation transfers knowledge and increases scaffold usage, but disrupts model-harness fit: the weaker model adopts the expert's planning strategy without the competence to execute it and no longer matches the harness evolved around its native planning style. We therefore develop an on-policy expert-correction pipeline, automated by a meta-level MLE agent, that localizes the failing turn in the weaker model's own rollout and asks the expert to rewrite only that turn. This preserves the model's planning style and combines the gains of harness evolution and model adaptation. Our results identify and resolve a source of contention between harness and weight updates, yielding a compatibility-preserving recipe for economical co-evolution on domain-specific enterprise tasks. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influ",
+      "source_title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "source_url": "https://arxiv.org/abs/2609.09134v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "新方法CST：让循环神经网络突破训练长度限制，实现超长上下文建模",
+      "entities": [
+        {
+          "name": "循环神经网络",
+          "explain": "一类能处理序列数据的神经网络，通过内部状态记忆历史信息，但训练时易出现梯度消失/爆炸。"
+        },
+        {
+          "name": "BPTT",
+          "explain": "随时间反向传播，是训练循环神经网络的标准算法，但在长序列上效果不佳。"
+        },
+        {
+          "name": "CST",
+          "explain": "论文提出的'时间信用稳定化'方法，通过干预反向传播中的状态信用信号来稳定训练。"
+        }
+      ],
+      "summary": "该论文针对循环神经网络难以外推到更长训练序列的问题，提出'时间信用稳定化'（CST）方法。CST在反向传播时局部重新缩放状态信用信号，稳定其范数而不改变修正方向，且不改变前向计算。在合成任务和真实数据上，CST均显著提升了模型在超长序列上的表现。",
+      "relevant": "为构建高效的长上下文模型提供了新路径，循环网络相比Transformer在推理成本上更有优势，此突破可能推动更实用的长文本AI应用。",
+      "context": "循环神经网络理论上适合处理长序列，但用BPTT训练时往往无法泛化到比训练序列更长的输入。传统观点认为是梯度消失/爆炸所致，但论文发现即使梯度严重衰减，模型仍可学习，问题出在'状态信用'分配上。",
+      "source_analysis": "论文预印本发布在ArXiv上，尚未经同行评议，来自学术研究团队，立场相对中立。",
+      "social_impact": "该研究为长上下文建模提供了新的技术思路，可能影响未来AI模型架构设计，降低长文本处理的推理成本。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 8 Sep 2026] Title:Learning Length-Extrapolatable Recurrent Models View PDF HTML (experimental) Abstract:Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier recurrent states before contributing to parameter updates. Accordingly, we intervene directly on state credit and propose Credit Stabilization through Time (CST). During backward propagation, CST locally rescales the state-credit signal to stabilize its norm without rotating the component being corrected, while leaving the forward computation unchanged. Because controlled synthetic tasks and real data exhibit different credit dynamics, we specialize CST to each regime. In both settings, CST improves performance beyond the training horizon, with gains observed at up to 128x the training length. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "Learning Length-Extrapolatable Recurrent Models",
+      "source_url": "https://arxiv.org/abs/2609.09157v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "新方法CST：让循环神经网络突破训练长度限制，实现超长上下文建模",
+      "entities": [
+        {
+          "name": "循环神经网络",
+          "explain": "一类能处理序列数据的神经网络，通过内部状态记忆历史信息，但训练时易出现梯度消失/爆炸。"
+        },
+        {
+          "name": "BPTT",
+          "explain": "随时间反向传播，是训练循环神经网络的标准算法，但在长序列上效果不佳。"
+        },
+        {
+          "name": "CST",
+          "explain": "论文提出的'时间信用稳定化'方法，通过干预反向传播中的状态信用信号来稳定训练。"
+        }
+      ],
+      "summary": "该论文针对循环神经网络难以外推到更长训练序列的问题，提出'时间信用稳定化'（CST）方法。CST在反向传播时局部重新缩放状态信用信号，稳定其范数而不改变修正方向，且不改变前向计算。在合成任务和真实数据上，CST均显著提升了模型在超长序列上的表现。",
+      "relevant": "为构建高效的长上下文模型提供了新路径，循环网络相比Transformer在推理成本上更有优势，此突破可能推动更实用的长文本AI应用。",
+      "context": "循环神经网络理论上适合处理长序列，但用BPTT训练时往往无法泛化到比训练序列更长的输入。传统观点认为是梯度消失/爆炸所致，但论文发现即使梯度严重衰减，模型仍可学习，问题出在'状态信用'分配上。",
+      "source_analysis": "论文预印本发布在ArXiv上，尚未经同行评议，来自学术研究团队，立场相对中立。",
+      "social_impact": "该研究为长上下文建模提供了新的技术思路，可能影响未来AI模型架构设计，降低长文本处理的推理成本。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 8 Sep 2026] Title:Learning Length-Extrapolatable Recurrent Models View PDF HTML (experimental) Abstract:Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier recurrent states before contributing to parameter updates. Accordingly, we intervene directly on state credit and propose Credit Stabilization through Time (CST). During backward propagation, CST locally rescales the state-credit signal to stabilize its norm without rotating the component being corrected, while leaving the forward computation unchanged. Because controlled synthetic tasks and real data exhibit different credit dynamics, we specialize CST to each regime. In both settings, CST improves performance beyond the training horizon, with gains observed at up to 128x the training length. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "Learning Length-Extrapolatable Recurrent Models",
+      "source_url": "https://arxiv.org/abs/2609.09157v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 28,
+      "title": "英伟达宣布以129.3亿美元收购AI模型平台Hugging Face",
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "explain": "全球领先的图形处理器（GPU）和人工智能计算公司，为AI训练提供核心芯片。"
+        },
+        {
+          "name": "Hugging Face",
+          "explain": "一个知名的AI开发者社区和模型托管平台，类似AI界的GitHub，开发者在此分享和下载开源AI模型。"
+        }
+      ],
+      "summary": "英伟达官方宣布已达成协议，将以约129.3亿美元收购AI开发者社区Hugging Face。收购后，英伟达将扩大Hugging Face的平台规模，强化其基础设施，并为全球开发者和机构扩展AI访问能力。Hugging Face团队在过去十年中构建了一个充满活力的AI模型共享社区。",
+      "relevant": "这是AI领域最大规模的收购之一，标志着英伟达从芯片供应商向AI软件生态平台的关键转型，将深刻影响全球AI开发者生态和模型分发渠道。",
+      "context": "英伟达在AI芯片市场占据主导地位，但面临软件生态被其他平台（如OpenAI、微软）分流的风险。Hugging Face是当前最流行的开源AI模型分发和协作平台，拥有庞大的开发者社区和大量预训练模型，收购它能让英伟达直接掌控AI应用开发的上游入口。",
+      "source_analysis": "消息来源为英伟达官方博客，属于公司直接发布，内容带有官方宣传口吻，强调收购的积极意义和双方合作的未来愿景。",
+      "social_impact": "该交易涉及金额高达129.3亿美元，是AI行业整合的标志性事件。收购后，全球数百万依赖Hugging Face平台进行模型研究和部署的开发者，其工作流和工具链可能面临调整，开源AI社区的未来走向也备受关注。",
+      "source_text": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for the open model developer community. More than 18 million developers, researchers and creators use Hugging Face to share more than 3 million models, 500,000 datasets and 1 million applications. More than 200,000 companies use the platform to discover, evaluate, customize and deploy AI. Hugging Face will remain an open platform for the entire AI ecosystem. Developers will choose the models they want, the frameworks they want, the clouds and inference service providers they want and the computing platforms they want. NVIDIA compute will not be required to build on or deploy through Hugging Face. Hugging Face will continue to support open source and open weight models from across the ecosystem, from every model builder. It will continue to support multi-cloud and multi-accelerator development and deployment, so builders can use the hardware and infrastructure that best fit their work. Recently, I coauthored an open letter on the importance of open weights to the AI economy. Joined by leaders from across the industry, we made a simple point: open weights broaden access to AI and help ensure that AI leadership is distributed across companies, institutions and communities. Open models let startups, businesses, universities and public institutions build on advanced capabilities without training every model from scratch. They enable organizations to match the right model to the right job. That is how AI can advance safely, strengthen cybersecurity and sovereignty, accelerate innovation, and reach factories, hospitals, farms, classrooms and Main Street businesses around the world. AI advances faster when people can build together. NVIDIA has been committed to open weight models for years, demonstrated by multiyear investments and major contributions to open source platforms, including Hugging Face. NVIDIA has said that open models, data and tools broaden access to AI, and it has contributed hundreds of open models and datasets to Hugging Face as part of that effort. - NVIDIA is the largest contributor of open models and data to Hugging Face, and our contributions continue to grow. - NVIDIA has released more tha",
+      "source_title": "NVIDIA to Acquire Hugging Face",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 33,
+      "title": "AI编程公司Cognition估值飙升至480亿美元，投资者看好AI编码领域多元化竞争",
+      "entities": [
+        {
+          "name": "Cognition",
+          "explain": "一家人工智能初创公司，专注于开发AI编程助手工具，其产品名为Devin。"
+        },
+        {
+          "name": "Cursor",
+          "explain": "另一家知名的AI编程工具公司，其代码编辑器因集成AI功能而广受欢迎，此前已被SpaceX收购。"
+        }
+      ],
+      "summary": "AI编程初创公司Cognition在最新一轮融资中估值达到480亿美元。这一估值倍数高于此前被SpaceX收购的AI编程工具公司Cursor。该事件表明，尽管AI编程市场竞争激烈，但投资者认为该领域并非赢家通吃，仍有多个玩家可以共存并创造巨大价值。",
+      "relevant": "AI编程是当前AI应用最热门的赛道之一，Cognition的高估值反映了资本市场对AI辅助软件开发长期潜力的强烈信心，也预示着该领域将迎来更多资本和人才涌入。",
+      "context": "AI编程工具市场近年来快速增长，出现了GitHub Copilot、Cursor、Devin等多个产品。此前Cursor被SpaceX收购，市场曾担忧该领域会迅速整合。Cognition此次获得高估值，证明投资者相信不同技术路线和产品定位的AI编程公司都能找到自己的市场空间。",
+      "source_analysis": "消息来自科技媒体TechCrunch，是业内知名的科技新闻网站，报道通常基于投资人和公司内部消息，相对客观，但可能带有对科技行业趋势的解读倾向。",
+      "social_impact": "480亿美元的估值使Cognition成为全球估值最高的AI应用公司之一。这一事件将吸引更多创业者和资本进入AI编程领域，加速技术迭代，同时也可能推高整个AI软件行业的估值泡沫风险。",
+      "source_text": "Cognition, the startup developing coding assistant Devin, announced it raised $2 billion at a $48 billion valuation. The round, which comes just four months after Cognition’s previous fundraise at a $26 billion valuation, was led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir. The startup’s soaring valuation signals that VCs still see room for multiple major players to capture meaningful market share in AI coding, one of the technology’s most significant applications. Cognition said that since announcing its last fundraise in May, its annualized run-rate revenue has grown from $492 million to $900 million. While the startup didn’t explain how it calculates that run-rate revenue, the metric is usually defined as a month’s top line multiplied by 12. Cursor, another popular coding assistant, was in talks in April to raise capital at a $50 billion valuation before agreeing to sell to SpaceX for $60 billion later that month. At the time of the funding talks, Cursor’s annualized revenue had surpassed $2 billion. This means Cognition currently commands a higher revenue multiple than Cursor did in the spring. Cursor ultimately sold to SpaceX largely because it was severely compute-constrained, according to investors familiar with its financials. It is unclear whether Cognition will face similar compute shortages. Cognition leases an Nvidia server cluster that costs hundreds of millions of dollars annually, which could push its total cash burn to $800 million this year, The Information reported. Like Cursor did before joining SpaceX, Cognition is training its own model based on open source alternatives. Over time, reducing its reliance on expensive third-party models from OpenAI and Anthropic will help cut costs and bring the company closer to breakeven. Cognition is expected to reach $4 billion to $5 billion in annualized revenue by the end of 2026, according to The Information. By comparison, TechCrunch reported in the spring that Cursor was on track to surpass $6 billion by year-end. Still, it’s notable that a16z, a major backer of Cursor, which made a killing when it sold to SpaceX, is back to lead a round in a Cursor competitor. Founded in 2024 by math prodigy Scott Wu, Cognition counts Mercedes-Benz, NASA, Goldman Sachs, and Citi among its major enterprise customers.",
+      "source_title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "source_url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "source_name": "TechCrunch AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Hugging Face发布开源语音模型AuK：一个模型搞定语音生成与编辑",
+      "entities": [
+        {
+          "name": "Hugging Face",
+          "explain": "一个知名的AI开发者社区和模型托管平台，类似AI界的GitHub，开发者在此分享和下载开源AI模型。"
+        },
+        {
+          "name": "AuK",
+          "explain": "一个开源AI模型，能通过自然语言指令完成语音的生成、编辑、增强、分离等多种任务。"
+        }
+      ],
+      "summary": "Hugging Face团队发布AuK技术报告，介绍了一个开源的基础模型，该模型统一了语音生成和编辑功能，通过自然语言指令和音频上下文作为通用接口。模型在约30.3亿条指令-音频实例和195万小时的有效监督数据上训练，涵盖语音生成、内容编辑、增强分离等五大任务族。",
+      "relevant": "这是一个强大的开源语音AI模型，将复杂的语音处理能力开放给公众，可能推动语音应用（如配音、语音修复、虚拟助手）的普及和创新。",
+      "context": "以往语音生成和编辑需要不同的专用模型，操作复杂。AuK通过一个统一模型和自然语言交互方式，降低了语音AI的使用门槛，且选择开源发布，旨在让更多开发者和研究者能够使用和改进。",
+      "source_analysis": "消息来自Hugging Face官方平台，属于机构直接发布的技术报告，内容详实，带有推广其开源生态的意图。",
+      "social_impact": "AuK的开源发布可能加速语音AI技术的民主化，让小型团队和个人开发者也能构建先进的语音应用。这将对内容创作、辅助技术、语言学习等领域产生广泛影响，但也可能引发对深度伪造音频的担忧。",
+      "source_text": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing。We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancement and separation, paralinguistic editing, and acoustic editing. AuK combines a multimodal large language model for semantic conditioning, an VAE jointly trained on speech, general audio, and music for acoustic conditioning, and a hybrid rectified-flow Transformer that performs dual-stream MMDiT blocks followed by unified single-stream DiT blocks for generation. Training begins with generation-only warm-up and proceeds to joint generation--editing pre-training. We then apply complementary post-training strategies: human-feedback preference optimization for open-ended editing and reward-based reinforcement learning for speech generation. To reduce inference cost, we further distill the model with consistency initialization and task-routed Decoupled DMD. The resulting AuK-Flash performs 4-step inference without classifier-free guidance and achieves a 4.5 wall-clock speedup over the full model under matched conditions. Experiments demonstrate leading performance on zero-shot and instruction-controlled speech generation and general instruction-guided editing, while remaining competitive",
+      "source_title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 29,
+      "title": "OpenAI宣称智能体解决千禧年大奖难题，却深陷争议漩涡",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT等产品"
+        },
+        {
+          "name": "千禧年大奖难题",
+          "explain": "七个最著名的未解数学问题，每个悬赏一百万美元"
+        }
+      ],
+      "summary": "OpenAI宣布其智能体解决了千禧年大奖难题之一，这原本是数学界的重大突破。然而，该声明迅速被争议笼罩，外界对解决方案的验证过程和真实性提出质疑。这一事件引发了对AI在数学研究领域作用的深刻反思。",
+      "relevant": "这是AI首次宣称解决人类顶级数学难题，其结果和争议将影响AI在科学发现领域的可信度与未来发展方向。",
+      "context": "千禧年大奖难题是数学界公认的顶级难题，此前从未被解决。OpenAI此次宣布其AI智能体取得突破，但随即面临学术界的质疑和审查。",
+      "source_analysis": "报道来自MIT科技评论，是知名的科技媒体，以深度和技术分析见长，立场相对中立，但倾向于对AI技术进行批判性审视。",
+      "social_impact": "该事件可能动摇学术界对AI研究成果的信任，并引发关于AI生成知识的验证标准、学术诚信以及数学研究未来模式的广泛讨论。",
+      "source_text": "What OpenAI’s latest controversy tells us about the future of math AI companies are making impressive mathematical strides. Human mathematicians are losing out. OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations that OpenAI used NYU mathematician Tristan Buckmaster’s and Anthropic employee Levent Alpöge’s AI-assisted work on the problem as a jumping-off point and failed to credit them. OpenAI has denied the accusations. It remains uncertain if OpenAI’s models made use of the work completed by Buckmaster and Alpöge, though Sébastien Bubeck, a member of the technical staff at OpenAI, said in a press briefing that the team was inspired to pursue the problem after hearing a rumor about Buckmaster and Alpöge’s efforts. But whether or not OpenAI’s models took advantage of Buckmaster and Alpöge’s research, this episode may mark a turning point in the history of mathematics. AI models now seem essential for making progress on the most important mathematical problems of our time, and solving them may demand resources only available at a couple of frontier AI companies, which often defy the norms of academic collaboration that undergird most mathematical progress. If that’s the future we are headed for, it is unclear how human mathematicians will fit into it. The problem that OpenAI claims to have solved is known as the Navier–Stokes existence and smoothness problem. It is one of seven Millennium Prize Problems selected by the Clay Mathematics Institute in 2000. Solutions come with a one million dollar prize; before today, only one other Millennium Prize Problem had been solved. The Navier–Stokes problem concerns a set of equations that describes how fluids, such as water and air, flow over time. The equations are widely used in the field of fluid dynamics, and they have proven powerful, but physicists and mathematicians didn’t understand them completely. In particular, it was unknown until today whether the equations might, under some conditions, break down and predict an impossible state of affairs—such as a fluid having infinite velocity. On Monday, NYU’s Buckmaster posted a proof on the social media site Mastodon showing that a simplified version",
+      "source_title": "What OpenAI’s latest controversy tells us about the future of math",
+      "source_url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source_name": "MIT科技评论AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "OpenAI发布ChatGPT Images 2.5，图像生成更个性化",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT等产品"
+        },
+        {
+          "name": "ChatGPT Images 2.5",
+          "explain": "OpenAI最新推出的AI图像生成模型，能根据用户想法、草图生成更精细的图像"
+        }
+      ],
+      "summary": "OpenAI正式推出ChatGPT Images 2.5，该模型能将用户的想法、草图和参考照片转化为更个性化、更精美的图像。新版本旨在更好地理解和反映用户的创作意图，提升图像生成的质量和可控性。",
+      "relevant": "这是OpenAI在AI图像生成领域的重要更新，直接关系到创意工作者和普通用户的内容创作体验。",
+      "context": "OpenAI此前已推出多代图像生成模型，ChatGPT Images 2.5是其最新迭代，重点在于提升个性化与精细度。",
+      "source_analysis": "消息来自OpenAI官方博客，属于公司自我宣传，内容侧重于新功能的优点。",
+      "social_impact": "该工具的升级将进一步降低专业图像创作的门槛，可能对设计、广告等创意行业的生产流程产生影响。",
+      "source_text": "Introducing ChatGPT Images 2.5 Sharper details, faster generation, more precise editing, and better tools for creating and sharing. Every week, people create more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API. Today, we’re expanding what you can create with ChatGPT Images 2.5—our new state-of-the-art image model that brings sharper details, more precise editing, and faster generation to your creative workflows. Images 2.5 produces more natural lighting and richer textures, is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns. We’ve also reduced image generation latency by up to 50% compared with Images 2.0, so you can generate images and refine your concepts more quickly. In ChatGPT, we’re introducing product features that give you more control over the creative process. Sketch(opens in a new window) is a new feature that lets you draw directly in ChatGPT as a reference for your final image. Templates make it easier to start creating across some of the most popular image formats, like flyers and product photos. You can also now place comments directly on images for more focused editing, and you can share prompts you’ve used to let others try your ideas with their own photos and details. Images 2.5 is available to all ChatGPT, ChatGPT Work, and Codex users across desktop, mobile, and web. For developers, we’re introducing two new models in the API. GPT‑Image‑2.5 Flare brings the same improvements in quality, editing, and speed, and GPT‑Image‑2.5 Sunburst offers an extra level of precision for detailed creative work with longer generation times. The most meaningful images feel grounded in the real-life people, places, and memories they’re based on. Images 2.5 is better at working from reference photos to transform familiar subjects across new settings, visual styles, and compositions. Image subjects look more recognizable, lighting and textures feel more natural, and distinctive features are more likely to carry through. For teams building with the API, this same fidelity makes reference-led workflows more reliable, so variations can stay anchored to the original source. We’ve made it easier for you to make focused edits, so you end up with final images that are more aligned with what you actually had in mind. Images 2.5 is better at editing only what you’ve asked for, while keeping the rest of the details the same—even with more complex subjects ",
+      "source_title": "Introducing ChatGPT Images 2.5",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind发布面向政府与企业的主动网络防御方案",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的顶级人工智能研究实验室"
+        },
+        {
+          "name": "主动网络防御",
+          "explain": "一种在攻击发生前或攻击初期就进行预测和阻断的网络安全策略"
+        }
+      ],
+      "summary": "Google DeepMind发布了一项新的主动网络防御技术，旨在帮助政府和企业应对日益复杂的网络威胁。该方案利用AI技术，从被动响应转向主动预测和防御，以提升网络安全性。",
+      "relevant": "网络攻击日益频繁和复杂，AI驱动的主动防御可能成为未来网络安全的关键技术方向。",
+      "context": "传统的网络安全主要依赖被动防御，即在攻击发生后进行响应。DeepMind此次提出的方案试图利用AI的预测能力，在攻击造成损害前进行干预。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于公司自我宣传，内容侧重于技术理念和潜在价值。",
+      "social_impact": "该技术若广泛应用，可能显著提升关键基础设施和大型企业的安全防护能力，但也可能引发关于AI在安全领域自主决策的伦理讨论。",
+      "source_text": "Proactive cyber defense for governments and enterprises Defenders wanting to use advanced AI have faced a difficult dilemma: adopt enormous frontier models that could be expensive to deploy and difficult to control across enterprise codebases, or turn to smaller open-weight models that might struggle with complex vulnerability remediation and require teams to build their own tooling and infrastructure from scratch. Until now. Today, we’re launching our Fairwind Program to bring the best of Google’s AI and cyber defense capabilities to a trusted group of Google Cloud customers, government agencies, and cybersecurity partners, to help them proactively solve cyber risks at scale. As a first step, the Fairwind Program will give defenders access to powerful and advanced Gemini models to help them autonomously find and fix vulnerabilities, protecting critical infrastructure, public services, and national security. Finding and autonomously fixing vulnerabilities The Fairwind Program offerings bring together our most advanced cyber model, Gemini 3.8 Flash Cyber, with our CodeMender harness, to help defenders find, verify, and fix vulnerabilities at agentic scale. Spotting weaknesses creates awareness and fear; autonomously finding and fixing vulnerabilities delivers security. CodeMender with Gemini 3.8 Flash Cyber delivers the specialized reasoning to write and validate code fixes, at a fraction of the operating cost of traditional frontier models. Instead of taking weeks to manually fix vulnerabilities, defenders can now generate verified, deployment-ready patches in minutes — within an organization’s secure cloud environment. Scaling frontline defense Providing early access to these powerful cyber capabilities gives trusted defenders a vital adaptation window to harden their systems before bad actors have a chance to exploit new capabilities. We’re staging initial access to government and enterprise partners most critical to society’s resilience: - Governments and national cyber authorities: Hardening public-sector networks and citizen services against targeted intrusions. - Critical infrastructure operators: Protecting essential services across healthcare, telecommunications, energy, and financial networks from operational disruption. - Core technology platforms: Securing widespread software foundations to uplift digital security for millions of downstream users at once. To ensure these powerful AI capabilities are used responsibly, participating organizations ",
+      "source_title": "Proactive cyber defense for governments and enterprises",
+      "source_url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "蚂蚁百灵发布首个金融增强模型，AI进入真实投研工作流",
+      "entities": [
+        {
+          "name": "蚂蚁集团",
+          "explain": "中国领先的金融科技公司，旗下拥有支付宝"
+        },
+        {
+          "name": "百灵",
+          "explain": "蚂蚁集团开发的大语言模型系列"
+        },
+        {
+          "name": "Ling-3.0-flash-Fin",
+          "explain": "百灵系列首个金融增强开放模型，专为金融领域优化"
+        }
+      ],
+      "summary": "蚂蚁集团百灵发布了其首个金融增强开放模型Ling-3.0-flash-Fin。该模型针对金融行业进行了专门优化，标志着AI开始真正进入实际的投研分析工作流程，而不再停留于概念演示。",
+      "relevant": "这是国内金融大模型落地的标志性事件，表明AI在垂直行业的应用正从通用走向专业和实用。",
+      "context": "金融行业对数据的准确性和专业性要求极高，通用大模型难以满足。蚂蚁集团基于自身金融科技背景，开发了专门的金融增强模型。",
+      "source_analysis": "报道来自量子位，是一家关注AI及前沿科技的中文媒体，报道风格偏向产业和技术应用。",
+      "social_impact": "该模型的发布可能加速AI在金融投研、风控等领域的实际应用，提高行业效率，同时也对金融从业者的技能提出新要求。",
+      "source_text": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流 蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。 外滩大会前夕，记者获悉，蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。与传统金融大模型主要解决问答、摘要等单点任务不同，Ling-3.0-flash-Fin进一步瞄准真实金融工作流，尝试让AI从“回答一个问题”走向“完成一项工作”。目前，该模型已经正式开源。 与此同时，蚂蚁百灵还同步开放金融搜索Agent评测基准FinFIRST，逐步开放模型、工具和评测体系。模型目前重点切入投资研究场景，覆盖信息检索、研究推理、估值建模、研报撰写等环节，尝试打通从找资料、做分析到形成研究成果的完整任务链。 金融是验证模型专业能力的重要场景。业内看来，Ling-3.0-flash-Fin 的推出，是蚂蚁百灵从通用模型能力向专业场景的一次重要探索。蚂蚁集团在金融场景有深厚的积累，这使得百灵能够依托复杂真实场景验证模型能力，并持续迭代。 金融AI的竞争，从“会回答”走向“能干活” 金融一直被视为AI走向专业生产力的高难度场景。 一份研究报告背后，需要从年报、财报、公告、监管文件和研究材料中寻找信息，核对不同报告期和统计口径，再进行计算、估值建模，最终形成能够被专业人士审核和复用的研究成果。 金融AI面对的并不是一个简单的“知识问答”问题。它不仅要知道答案从哪里来，还要知道数据能不能用、计算是否正确，以及最终结论能否被复核。 Ling-3.0-flash-Fin此次瞄准的，正是这一完整工作链路。 该模型基于Ling-3.0-flash打造，延续124B总参数、5.1B激活参数配置，并具备256K长上下文能力，兼顾复杂金融内容处理和实际部署效率。模型通过金融语料持续预训练、领域后训练和工具使用优化，进一步强化对年报、财务工作簿、多份研究材料等复杂内容的处理能力。 从模型定位上看，Ling-3.0-flash-Fin更强调面向长链路Agent工作的能力：让模型不再把信息检索、证据审查、计算、建模和报告准备看成彼此孤立的任务，而是尝试将它们连接起来，完成一项完整的金融研究工作。 四项能力，打通一条投研工作链 目前，Ling-3.0-flash-Fin率先从投资研究场景切入，重点强化四项能力：信息检索、研究推理、估值建模和研报撰写。 其中，信息检索强调优先定位官方、一手及高可信数据源，并关注信息时点和统计口径；研究推理则通过多步计算和交叉验证，厘清事实与假设，构建可复核的证据链；估值建模进一步进入真实工作簿，支持公式切换、跨表依赖和异常排查，让AI生成的结果能够继续进入专业人员原有工作流程；在此基础上，模型进一步组织事实、数据和判断，生成可编辑、可审核的研究材料。 四项能力并非简单的功能罗列，而是对应一条从找信息、验信息，到做计算、建模型、形成研究成果的完整投研链路。这也意味着，金融AI正在从单点能力的比拼，走向完整工作流的比拼。 不只发布模型，也尝试建立金融AI的“评分尺” 此次与模型同步推进的FinFIRST，则瞄准了金融AI发展中的另一个关键问题：如何判断一个金融Agent到底做得好不好。 FinFIRST（Financial Information Retrieval, Sourcing and Traceability）由蚂蚁集团构建并开源，中金公司投行团队提供专业支持，并有50余位金融专业人士参与设计，重点评测金融搜索Agent在信息检索、信源选择、口径判断和推导过程等方面的能力。 在这一评测体系下，一个好的金融AI不仅需要给出正确答案，还需要回答三个问题：信息从哪里来、口径是什么、结论如何得出。 在数据组成上，FinFIRST 覆盖中国内地、美国、中国香港及其他市场，其中中文题占 60.2%，英文题占 39.8%。超过五分之四的题目包含多个相关子问题，61.8% 要求显式计算，32.5% 需要多个信源，75.6% 不直接指定信源，需要 Agent 自主搜索和判断。所有题目均使用公开可访问的信源。 FinFIRST 提供了一套更贴近真实金融需求的搜索任务、标准与评测方法，它并不只是一个模型排行榜，而是试图把金融研究中的专业判断转化为可验证、可复用的评测标准。 目前，Ling-3.0-flash-Fin已在FinFIRST、FinSearchComp Verified、Finance Agent、APEX-Agents、SpreadsheetBench、τ³-Banking等多个金融智能体基准上进行测试，覆盖金融信息检索、投资研究、长程任务执行、估值建模和银行业务等场景。评测显示，模型综合表现超过部分大尺寸旗舰模型，在同尺寸模型中具备较强竞争力。 从一个金融模型，到一套开放能力 此次Ling-3.0-flash-Fin的另一个特点，是“模型+工具+评测”的同步开放。 相比单纯发布一个行业模型，百灵希望进一步把模型能力放到真实任务中验证，并通过开放评测让金融机构、研究团队和开发者共同参与迭代。 目前，Ling-3.0-flash-Fin已开放模型权重，并面向开发者提供API体验；FinFIRST也同步开放，进一步降低金融AI研究和应用开发的门槛。对于金融行业而言，这种开放也意味着更多真实业务反馈能够反哺模型能力。 金融只是百灵此次探索真实世界AI的一个切入口。 随着AI从聊天、搜索逐渐走向Agent，模型真正的价值正在从“生成多少内容”，转向“能够承担多少工作”。在金融、医疗、企业服务等专业领域，AI最终能否形成生产力，不仅取决于模型本身的智能程度，也取决于它能否理解行业规则、调用专业工具，并真正嵌入一项工作的完整流程。 从“回答一个问题”到“完成一项工作”，这可能正是大模型从能力走向生产力的下一步。 未来，蚂蚁百灵将继续探索更大规模模型底座上的金融增强，提升长链路复杂任务处理能力，并从投资研究进一步拓展至更多金融业务场景。 本文由蚂蚁提供，量子位获授权转载，观点归原",
+      "source_title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
+      "source_url": "https://www.qbitai.com/2026/09/486288.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 42,
+      "title": "Meta发布个人AI智能体Muse，主打后台持续运行能力",
+      "entities": [
+        {
+          "name": "Meta",
+          "explain": "美国科技巨头，Facebook、Instagram等社交平台的母公司"
+        },
+        {
+          "name": "Muse",
+          "explain": "Meta推出的个人AI智能体，能在用户退出应用后继续执行任务"
+        },
+        {
+          "name": "AI Agent",
+          "explain": "能自主完成任务的AI程序，比聊天机器人更主动，能调用工具、规划行动"
+        }
+      ],
+      "summary": "Meta正式发布个人AI智能体Muse，已上架App Store和Google Play，并集成到WhatsApp中。Muse的核心特点是能在用户关闭应用后继续在云端虚拟机中运行任务，例如监控天气预报并主动提醒。Meta明确将其定位为agent而非聊天机器人或AI助手。",
+      "relevant": "这是Meta在AI Agent领域的重要产品落地，标志着科技巨头从对话式AI向主动执行型AI的竞争升级。",
+      "context": "AI Agent是当前AI行业的热点方向，相比传统聊天机器人，Agent能自主规划并执行多步任务。Meta此前在AI助手领域落后于OpenAI等公司，此次推出Muse是其追赶战略的关键一步。",
+      "source_analysis": "来自Hacker News和开源中国，前者是技术社区，后者是中国开源资讯站，两者均为技术圈内较中立的信源。",
+      "social_impact": "Muse的'后台持续运行'模式可能引发用户对AI自主权限和隐私边界的讨论，也预示着AI应用从'人找AI'转向'AI找人'的交互范式变化。",
+      "source_text": "Muse – Meta’s personal AI agent。",
+      "source_title": "Muse – Meta’s personal AI agent",
+      "source_url": "https://ai.meta.com/muse/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 29,
+      "title": "OpenAI发布ChatGPT Images 2.5，强化图像编辑能力",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国人工智能研究公司，开发了ChatGPT、GPT系列模型"
+        },
+        {
+          "name": "ChatGPT Images",
+          "explain": "OpenAI的图像生成服务，集成在ChatGPT中"
+        },
+        {
+          "name": "GPT-Image API",
+          "explain": "OpenAI提供的图像生成编程接口，供开发者调用"
+        }
+      ],
+      "summary": "OpenAI发布ChatGPT Images 2.5版本，核心改进聚焦于图像编辑功能，包括参考图稳定性、精确编辑等五个维度。OpenAI透露该产品线每周生成30亿张图，已成为全球最大AI图像生成服务之一。",
+      "relevant": "图像编辑是AI图像生成的下一个竞争焦点，2.5版本的表现将直接影响OpenAI在创意工具市场的份额。",
+      "context": "AI图像生成市场此前以文生图为主，但用户需求正转向对已有图片的精确修改。OpenAI此次更新是对这一趋势的回应，也面临Google、Anthropic等对手的竞争。",
+      "source_analysis": "来自开源中国，该网站以翻译和报道国际技术新闻为主，立场相对中立。",
+      "social_impact": "每周30亿张图的生成量表明AI图像工具已深度融入内容创作产业，编辑能力的提升可能进一步改变设计师、营销人员的工作方式。",
+      "source_text": "ChatGPT Images 2.5 发布，OpenAI 把图像生成的重注押在了编辑上。每周 30 亿张图。这是 OpenAI 在发布 ChatGPT Images 2.5 时顺手甩出来的一个数字。它涵盖 ChatGPT Images 和 GPT-Image API 两个入口，意味着这个产品线已经是全球最大的 AI 图像生成服务之一。 2.5 版本的核心改进方向很明确：不是堆参数，而是把「编辑」这件事做精。OpenAI 列了五个维度——参考图稳定性、精确编辑、...",
+      "source_title": "ChatGPT Images 2.5 发布，OpenAI 把图像生成的重注押在了编辑上",
+      "source_url": "https://www.oschina.net/news/502393/openai-chatgpt-images-2-5",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 45,
+      "title": "Anthropic研究员离职，引发业界关注",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "美国AI安全公司，开发了Claude系列模型，是OpenAI的主要竞争对手"
+        },
+        {
+          "name": "hilbertspaess",
+          "explain": "在Anthropic工作的研究员，其离职消息在社交平台发布"
+        }
+      ],
+      "summary": "一位署名hilbertspaess的Anthropic研究员在社交平台宣布辞职，但未说明具体原因。该消息在Hacker News引发讨论，但缺乏更多细节。",
+      "relevant": "Anthropic是AI安全领域的标杆企业，核心人员变动可能影响其研发方向，但此事目前信息有限。",
+      "context": "Anthropic以重视AI安全著称，其研究人员在业界有较高声望。近期AI行业人才流动频繁，多家公司互相挖角。",
+      "source_analysis": "来自Hacker News和Twitter，属于个人社交发布，未经官方证实，信源可靠性较低。",
+      "social_impact": "暂无明确社会影响，但AI人才流动趋势值得关注。",
+      "source_text": "Jacob Coxon on X: \"I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below.\" / X Jacob Coxon on X: \"I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below.\" I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below. I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below. Do not underestimate the power of this technology. These will soon be superhuman systems that can hack anything, revolutionize any field overnight, and acquire real power and resources. We have all witnessed the progress in each of these domains, and progress is not slowing. The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing stunt. If anything, many executives and senior researchers will couch their phrasing in the press to sound sensible - but I hear the same people express fearShow more A common response is “if they truly believe this, why are they still building it?” At OpenAI, many have not deeply internalized the civilizational stakes. At Anthropic, the stakes are well-understood, but they are locked in a race to get there first - they believe no one elseShow more Accepting this race and entering the “endgame” is a hubristic gamble that should not be launched from a private company’s Slack. Attempting to speedrun alignment should require extraordinary confidence that there are no better trajectories available. I am optimistic about the potential for coordination. Warning shots like the Hugging Face attack have made pacing agreements between U.S. labs more viable. I don’t feel like we’re on track to prevent a global race, which may require costly actions such as a temporary ban onShow more",
+      "source_title": "I resigned from Anthropic today",
+      "source_url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 44,
+      "title": "研究：大语言模型会通过自适应探索发展出新型社会偏见",
+      "entities": [
+        {
+          "name": "大语言模型",
+          "explain": "基于海量文本训练的人工智能模型，如GPT、Claude等，能生成和理解自然语言"
+        }
+      ],
+      "summary": "一篇发表于OpenReview的研究指出，大语言模型在自适应探索过程中会自发形成此前未见过的新型社会偏见。该研究挑战了'偏见仅来自训练数据'的假设，暗示模型自身的学习机制也会催生偏见。",
+      "relevant": "该发现对AI安全与公平性研究有重要影响，意味着仅清洗训练数据不足以消除模型偏见。",
+      "context": "此前学界普遍认为大模型偏见主要源于训练数据中的刻板印象。这项研究提示，模型在与环境互动中也可能自主演化出歧视性行为。",
+      "source_analysis": "来自OpenReview，是AI领域的学术论文预印本平台，信源为同行评议前的学术研究。",
+      "social_impact": "若结论成立，将影响AI监管政策——未来可能需要审查模型行为而非仅审查数据。",
+      "source_text": "Large language models develop novel social biases through adaptive exploration。",
+      "source_title": "Large language models develop novel social biases through adaptive exploration",
+      "source_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 21,
+      "title": "开发者吐槽：多数'AI Agent'只是披着外套的if语句",
+      "entities": [
+        {
+          "name": "AI Agent",
+          "explain": "能自主完成任务的AI程序，理论上应具备规划与决策能力"
+        },
+        {
+          "name": "if语句",
+          "explain": "编程中的条件判断语句，此处比喻简单的规则判断逻辑"
+        }
+      ],
+      "summary": "开发者James Anderson在Dev.to发文，批评市面上大多数所谓'AI Agent'本质上只是复杂的规则判断系统，缺乏真正的自主规划能力。他以自己去年构建的agent为例，指出许多产品在营销上过度包装。",
+      "relevant": "该观点反映了业界对AI Agent概念泡沫的反思，有助于理性看待当前技术成熟度。",
+      "context": "AI Agent是2024-2025年科技行业最热概念之一，大量创业公司涌入。但随着实践深入，部分开发者开始质疑其技术含量。",
+      "source_analysis": "来自Dev.to，是开发者社区博客平台，文章代表个人观点，带有批判性立场。",
+      "social_impact": "该讨论有助于降温AI投资过热，提醒企业理性评估技术实际能力。",
+      "source_text": "I built an agent last year, and I was proud of it. It had a planner. It had tools. It had a reasoning loop that decided what to do next, reflected on its own output, and chained steps together to get real work done. In the demo, it was genuinely impressive — the kind of thing that makes a room go \"ooh.\" Then it went to production, and it was slow, expensive, and failed in ways I couldn't reproduce. Same input on Tuesday, different behavior on Wednesday. When it broke, the cause was three \"autonomous decisions\" upstream that I didn't control and couldn't see. So I did the unglamorous thing: I rewrote it as a boring, linear pipeline. Fixed steps. No reasoning loop. And it was better on every axis that mattered — faster, cheaper, testable, debuggable. Then I looked at the logs from the old \"agent\" and felt slightly sick. It did the same three steps every single time. Extract, transform, respond. Every run. It never once used its precious autonomy to do anything different. I had built a for-loop, given it a system prompt, and called it an agent. I don't think I'm alone. I think most of what's being called an \"agent\" in 2026 is a pipeline in a trench coat — and I want to make the case that this is not an insult. It's a relief. What an \"agent\" actually is (the definition nobody pins down) \"Agent\" has become one of those words that means everything and therefore nothing. So let me pin the one distinction that actually matters, because the whole argument rests on it. An agent decides its own control flow at runtime. Which tool to call, which step comes next, whether to loop again, when to stop — the model chooses the path, dynamically, based on what it sees. A pipeline has that control flow fixed by you, at design time. Step one, then step two, then step three. Same path every time. The LLM does work inside the steps, but it doesn't get to choose the steps. That's the entire difference. And here's the part people skip: an LLM doing something smart inside a fixed step is not agency. Extracting fields, classifying a ticket, generating a summary — that's just using an LLM. It's a smart function call. Agency is specifically when the model is handed the steering wheel and gets to pick the route. Most \"agents\" never actually hand over the wheel. They just narrate the fixed route in fluent natural language and call the narration \"reasoning.\" The test: can you draw the flowchart in advance? Here's the one-line litmus that does all the work: If you can draw the flowchart o",
+      "source_title": "Most 'AI Agents' Are Just If-Statements in a Trench Coat",
+      "source_url": "https://dev.to/james_anderson_h/most-ai-agents-are-just-if-statements-in-a-trench-coat-3960",
+      "source_name": "Dev.to",
+      "group": "community"
+    },
+    {
+      "item_id": 12,
+      "title": "开源项目OpenBot：为每个AI助手配备独立电脑环境",
+      "entities": [
+        {
+          "name": "CopilotKit",
+          "explain": "开源AI开发工具提供商，专注于构建AI助手框架"
+        },
+        {
+          "name": "OpenBot",
+          "explain": "CopilotKit推出的开源项目，让AI助手拥有独立的浏览器、文件和工具环境"
+        },
+        {
+          "name": "AG-UI agent",
+          "explain": "遵循AG-UI协议标准的AI智能体，该协议定义了AI与界面交互的规范"
+        }
+      ],
+      "summary": "CopilotKit发布开源项目OpenBot，为AI助手提供独立的虚拟电脑环境——每个agent拥有自己的浏览器、登录状态和文件系统，所有操作在事前规划、事后记录。项目支持接入任何符合AG-UI标准的agent。",
+      "relevant": "该项目解决了AI Agent安全执行任务的核心痛点——权限隔离与操作审计，可能成为企业部署AI助手的重要基础设施。",
+      "context": "当前AI Agent普遍面临权限过大的安全风险，OpenBot通过沙箱化设计让AI在可控范围内操作，是Agent工程化的重要探索。",
+      "source_analysis": "来自GitHub项目主页，属于项目方自述，带有推广性质。",
+      "social_impact": "此类基础设施的成熟将加速AI Agent在企业办公、自动化领域的实际落地。",
+      "source_text": "AI coworkers you can hand real work to, and actually trust with the access. Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after. copilotkit.ai/openbot · Quick start · Features · Bring your own agent · Architecture · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own. Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back. It answers with components rather than only prose, and the whole thing runs on your own machine. A template, not a product. OpenBot is meant to be cloned and made your own. There is no hosted version to sign up for, and nothing here is published as a package to depend on: every workspace in this repository is private. You take the repository, replace the example tenant package under examples/ with your own coworkers, channels and skills, and run it. Everything below describes a starting point, not a finished thing somebody operates for you. Alpha, and under active development. OpenBot is early. Expect rough edges and bugs, and expect things to move. Issues and pull requests are welcome. Runs on your machine. Everything below is written for a laptop. .env.example carries OPENBOT_SINGLE_USER=true, which admits every request as one administrator, so a fresh clone reaches the product without registering an OAuth client first. Sign-in turns that off, and is required before anybody else can reach the deployment. An agent platform that runs inside your own infrastructure. Docker Compose brings up every part of it, the data sits in your PostgreSQL, and the model is yours to choose: no model ships in the box, and an administrator supplies the credential, which is encrypted at rest and never logged. Three coworkers ship in the example package, and they are configuration rather than code: General Assistant for everyday work, Knowledge for company questions, Risk Analyst for risk and compliance. Add your own by editing agents.yaml or from /agents in the UI. Anything a Bot does to a computer, a file, an MCP server or a component goes through one gateway that decides and records it. That is the difference between an agent that can use your tools and an agent you can let near them. More at copilotkit.ai/openbot. A Bot is any endpoint speaking AG-UI, the open protocol for agent-to-user interact",
+      "source_title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 30,
+      "title": "Meta发布个人AI智能体Muse，可后台持续运行",
+      "entities": [
+        {
+          "name": "Meta",
+          "explain": "美国科技巨头，Facebook、Instagram等社交平台的母公司"
+        },
+        {
+          "name": "Muse",
+          "explain": "Meta推出的个人AI智能体，能在用户退出应用后继续执行任务"
+        },
+        {
+          "name": "WhatsApp",
+          "explain": "Meta旗下的即时通讯应用，全球用户超20亿"
+        }
+      ],
+      "summary": "Meta发布个人AI智能体Muse，已上架App Store和Google Play，并集成到WhatsApp中。其核心特点是能在用户关闭应用后继续在云端运行任务，例如监控天气并提醒。Meta在官方FAQ中明确区分了聊天机器人、AI助手与agent的边界。",
+      "relevant": "这是Meta在AI Agent领域的重要产品落地，标志着科技巨头从对话式AI向主动执行型AI的竞争升级。",
+      "context": "AI Agent是当前AI行业的热点方向，相比传统聊天机器人，Agent能自主规划并执行多步任务。Meta此前在AI助手领域落后于OpenAI等公司，此次推出Muse是其追赶战略的关键一步。",
+      "source_analysis": "来自开源中国，该网站以翻译和报道国际技术新闻为主，立场相对中立。",
+      "social_impact": "Muse的'后台持续运行'模式可能引发用户对AI自主权限和隐私边界的讨论，也预示着AI应用从'人找AI'转向'AI找人'的交互范式变化。",
+      "source_text": "Meta 发布个人 AI 智能体 Muse，住在一台你看不见的虚拟机里。关掉 App，它还在替你干活。这是 Meta 给 Muse 定的第一条规矩——你让它盯着天气预报、下雨就提醒，它会在你退出应用之后继续跑。这款个人 AI agent 已经上了 App Store 和 Google Play，也能直接在 WhatsApp 里使唤。 Meta 给 Muse 的定位很明确，不是聊天机器人，也不是 AI 助手，是 agent。官方 FAQ 里把三者的边界划...",
+      "source_title": "Meta 发布个人 AI 智能体 Muse，住在一台你看不见的虚拟机里",
+      "source_url": "https://www.oschina.net/news/502392/meta-ai-muse",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 46,
+      "title": "数学家陶哲轩：开放数学问题正被AI'非可再生'地挖掘",
+      "entities": [
+        {
+          "name": "陶哲轩",
+          "explain": "著名华裔数学家，菲尔兹奖得主，任职于加州大学洛杉矶分校"
+        },
+        {
+          "name": "AI",
+          "explain": "人工智能，此处指用于数学研究的大模型和自动推理工具"
+        }
+      ],
+      "summary": "数学家陶哲轩在社交平台发文，指出AI正在'非可再生'地挖掘开放数学问题——即AI大量消耗那些尚未解决的经典问题，可能导致未来数学研究面临'问题枯竭'。该言论引发对AI数学研究模式的讨论。",
+      "relevant": "陶哲轩是数学界最具影响力的学者之一，其观点可能影响AI数学研究的方向和资源分配。",
+      "context": "近年来AI在数学推理领域取得突破，如解决部分IMO难题。陶哲轩本人也积极推动AI辅助数学研究，但此次提出对问题资源消耗的担忧。",
+      "source_analysis": "来自Mastodon社交平台，是陶哲轩个人账号发布，属于个人观点。",
+      "social_impact": "该讨论触及AI科研伦理——当AI加速消耗基础问题库时，人类数学家可能面临研究方向的重构。",
+      "source_text": "Tao: Open math problems being non-renewably mined by AI。",
+      "source_title": "Tao: Open math problems being non-renewably mined by AI",
+      "source_url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 47,
+      "title": "DeepMind发布AlphaGenome Atlas高分辨率人类DNA图谱",
+      "entities": [
+        {
+          "name": "DeepMind",
+          "explain": "谷歌旗下的人工智能研究实验室，以AlphaGo等突破性AI项目闻名"
+        },
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "DeepMind开发的高分辨率人类基因组图谱工具，用于预测和可视化DNA结构"
+        },
+        {
+          "name": "DNA",
+          "explain": "脱氧核糖核酸，人体细胞中携带遗传信息的分子"
+        }
+      ],
+      "summary": "DeepMind推出AlphaGenome Atlas，这是一个高分辨率的人类DNA图谱，利用AI技术对基因组进行精细解析和预测。该工具旨在帮助科学家更深入地理解基因结构与功能，加速遗传疾病研究和药物开发。项目已在DeepMind官网发布，提供交互式探索界面。",
+      "relevant": "这是AI在生命科学领域的又一重大应用，可能推动精准医疗和基因组学研究的范式转变",
+      "context": "人类基因组测序已完成多年，但理解DNA的三维结构和功能调控仍是巨大挑战。DeepMind此前在蛋白质结构预测（AlphaFold）上取得突破，此次将AI能力扩展到基因组层面。",
+      "source_analysis": "消息来自DeepMind官方博客和谷歌官方博客，属于第一手权威发布，具有较高的可信度",
+      "social_impact": "该图谱可能为全球科研人员提供免费资源，降低基因组学研究门槛，影响遗传病诊断、癌症研究和个性化医疗等多个领域",
+      "source_text": "AlphaGenome Atlas: a high-resolution map of human DNA The human genome is made of about 3 billion base pairs of DNA — but much of it remains a mystery. Scientists understand the 2% of the human genome that codes for proteins relatively well, but have only limited knowledge of the remaining 98%. Our AlphaGenome model has already shown how single changes in these non-coding DNA regions can disrupt molecular processes like protein production, but the bigger picture remained unclear. Today, we're introducing AlphaGenome Atlas, a database that predicts the effects of every possible single nucleotide variant in the human genome. We used the AlphaGenome AI model to pre-calculate the regulatory impact of all 9 billion single-letter genetic changes, resulting in a massive, 1-petabyte dataset. Our new Atlas helps scientists rapidly query this vast information. To help researchers rapidly navigate this, the Atlas introduces the AlphaGenome Variant Impact (AVI) score. This single, easy-to-use score combines predictions for both coding and non-coding regions, allowing researchers to quickly prioritize the most promising avenues for research without sifting through thousands of data points. Empowering researchers to solve biological mysteries AlphaGenome Atlas is already acting as a powerful augmentation partner for the scientific community, accelerating research in areas like: - Rare genomic variations: At the Broad Institute, Laura Covill and her team used the AVI score to prioritize variants for unsolved rare disease research. The tool highlighted a critical variant in the DNM1 gene, predicting that it created an incorrect splice site. This provided crucial supporting evidence to successfully solve the case. - Complex traits: Identifying rare, non-coding variants linked to complex traits is difficult due to statistical noise. Dr. Gareth Hawkes applied AlphaGenome Atlas to data from 54,000+ UK Biobank participants. By grouping variants based on predicted molecular effects, he uncovered 22% more non-coding genetic associations. Focusing on the top 1% of impactful variants, he identified 19 genetic regions linked to body mass index (BMI), directing the next stage of targeted research. Opening access to researchers and biologists worldwide AlphaGenome Atlas is available today through an intuitive website portal that requires zero coding skills, democratizing access for clinical researchers and biologists worldwide. This is part of our ongoing commitment to accelerate gen",
+      "source_title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 34,
+      "title": "HN用户评论：Meta的Muse AI代理瞄准普通用户市场",
+      "entities": [
+        {
+          "name": "Meta",
+          "explain": "美国科技巨头，Facebook、Instagram等社交平台的母公司"
+        },
+        {
+          "name": "Muse",
+          "explain": "Meta推出的个人AI代理产品，类似ChatGPT的智能助手"
+        },
+        {
+          "name": "GPT-5.6",
+          "explain": "OpenAI开发的最新大语言模型系列，有Sol、Terra、Luna等不同版本"
+        }
+      ],
+      "summary": "HN用户abixb评论指出，Meta的Muse AI代理策略是吸引'普通用户'（normie-tier），而非技术爱好者。他举例称，大多数用户只使用默认的ChatGPT版本，对模型版本差异不关心，因此Meta的Muse可能吸引大量非技术用户。",
+      "relevant": "揭示了AI产品竞争中的用户分层现象，说明大众市场与极客市场的需求差异巨大",
+      "context": "Meta近期发布了个人AI代理Muse，引发技术社区讨论。HN用户普遍关注模型技术细节，但普通用户更看重易用性和默认体验。",
+      "source_analysis": "Hacker News用户评论，代表技术社区观点，带有一定主观性但反映了真实用户观察",
+      "social_impact": "说明AI助手市场正从技术驱动转向大众普及阶段，Meta等公司可能通过默认设置和简单体验抢占普通用户市场",
+      "source_text": "Hacker News new | past | comments | ask | show | jobs | submit login Muse – Meta’s personal AI agent ( meta.com ) 439 points by yks 10 hours ago | hide | past | favorite | 462 comments help abixb 5 hours ago | next [–] ajkjk 5 hours ago | parent | next [–] tyre 2 hours ago | root | parent | next [–] mailarchis 2 minutes ago | root | parent | next [–] rpozarickij 1 hour ago | root | parent | prev | next [–] parl_match 54 minutes ago | root | parent | next [–] fny 1 hour ago | root | parent | prev | next [–] JanMa 12 minutes ago | root | parent | prev | next [–] smelendez 1 hour ago | root | parent | prev | next [–] IshKebab 38 minutes ago | root | parent | prev | next [–] ajkjk 20 minutes ago | root | parent | next [–] anon7000 1 hour ago | root | parent | prev | next [–] dd8601fn 4 hours ago | root | parent | prev | next [–] enos_feedler 4 minutes ago | root | parent | next [–] ihaveajob 1 hour ago | root | parent | prev | next [–] mmahemoff 19 minutes ago | root | parent | next [–] abixb 5 hours ago | root | parent | prev | next [–] wredcoll 5 hours ago | root | parent | next [–] tough 4 hours ago | root | parent | next [–] rabid_0wl 4 hours ago | root | parent | next [–] throwaway2037 1 hour ago | root | parent | prev | next [–] rr808 4 hours ago | root | parent | prev | next [–] smuhakg 47 minutes ago | root | parent | next [–] derektank 1 hour ago | root | parent | prev | next [–] N_Lens 1 hour ago | root | parent | prev | next [–] tough 4 hours ago | root | parent | prev | next [–] Avicebron 4 hours ago | root | parent | next [–] tough 1 hour ago | root | parent | next [–] ajkjk 5 hours ago | root | parent | prev | next [–] fathermarz 5 hours ago | root | parent | prev | next [–] pmarreck 21 minutes ago | root | parent | next [–] svachalek 4 hours ago | root | parent | prev | next [–] monk_grilla 1 hour ago | root | parent | next [–] hn_throwaway_99 1 hour ago | root | parent | prev | next [–] chicagobuss 34 minutes ago | root | parent | next [–] juggle-anyhow 34 minutes ago | root | parent | prev | next [–] itemize123 3 hours ago | root | parent | prev | next [–] ctkhn 5 hours ago | root | parent | prev | next [–] King-Aaron 4 hours ago | root | parent | next [–] edgyquant 4 hours ago | root | parent | prev | next [–] sam345 4 hours ago | root | parent | prev | next [–] mathisfun123 5 hours ago | root | parent | prev | next [–] ajkjk 1 hour ago | root | parent | next [–] mathisfun123 50 minutes ago | root | parent | next [–] ajkjk 17 minutes ago | ro",
+      "source_title": "abixb 在「Muse – Meta’s personal AI agent」下的评论",
+      "source_url": "https://news.ycombinator.com/item?id=49615537",
+      "source_name": "HN讨论",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_7f3c929563a8",
+      "source": "ArXiv cs.AI",
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "url": "https://arxiv.org/abs/2609.09158v1",
+      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditioned humanoid traversal in cluttered environments. Given a natural-language instruction and egocentric RGB observations, TANGO directly predicts 29-DoF joint-space actions for downstream whole-body control. We train TANGO entirely in simulation by synthesizing diverse collision-free traversal behaviors via global path planning, kinematic whole-body motion generation, obstacle-aware motion editing, and RL-based tracking. This pipeline provides dynamically feasible action supervision for learning language-conditioned whole-body policies. In extensive simulation experiments, TANGO demonstrates state-of-the-art performance in vision-language navigation, while outperforming strong modular baselines in navigating challenging scenes requiring obstacle negotiation. Lastly, we deploy TANGO zero-shot on a Unitree G1 humanoid robot, and observe robust language-guided traversal in cluttered real-world scenes without training on any real-world navigation data.",
+      "author": "Anqi Li, Yuxin Chen, Zhaobo Li"
+    },
+    {
+      "id": "arxiv_55a78e39f1c9",
+      "source": "ArXiv cs.AI",
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.09153v1",
+      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions. At each decision step, the framework localizes the agent's active node, and a guidance model translates the surrounding subgraph into step-level situational guidance that biases the solver's next action without dictating it. The graph is self-evolving: an LLM refiner contrasts failed trajectories with successful ones and edits the graph's topology and attributes, committing edits that preserve or improve held-out validation performance while retaining rejected ones to discourage repetition. Starting from a minimal skeleton, the loop builds graphs that match or surpass hand-designed ones. It can also repair a flawed expert prior. Across multiple datasets, task types, and LLMs, the Procedural Graph delivers consistent gains over memory-based baselines, and self-evolution furthe",
+      "author": "Yuxing Lu, Yicheng Chen, Shanchan Wu"
+    },
+    {
+      "id": "arxiv_ff034a5ce089",
+      "source": "ArXiv cs.AI",
+      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "url": "https://arxiv.org/abs/2609.09140v1",
+      "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modalities, constrained by closed categorical vocabularies, treating time as a monotonic inductive bias, or they are limited in forecasting future patient states. We introduce NOAH, a time-aware, task-agnostic, generative transformer model representing and forecasting the full multimodal patient journey. NOAH features a novel bidirectional time integration and a variational latent space to capture the continuous evolution of patient states and the stochasticity of clinical trajectories. Built from over 559 million clinical events from 431,000 hospital visits of 299,000 patients across the MIMIC dataset family, NOAH natively processes medical images, time-series and numeric signals, categorical events, as well as structured and unstructured clinical records. NOAH is the first truly holistic generative model in its field, enabling autoregressive forecasting with optional time control, zero-shot classification, and counterfactual intervention simulation. It generates highly informative and pred",
+      "author": "Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov"
+    },
+    {
+      "id": "arxiv_e9f17f63ca2d",
+      "source": "ArXiv cs.AI",
+      "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+      "url": "https://arxiv.org/abs/2609.09137v1",
+      "summary": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources. We propose a four-module, data-driven framework unifying these decisions: a Process Taxonomy of twenty recurring hospital processes across five value streams; a Prioritization module deriving an Automation Suitability Index from an Analytic Hierarchy Process matrix with an explicit consistency check; a Tool-Tier Selection module recommending the least-cost technology sufficient for a process complexity, integration, and compliance profile; and a Return-on-Investment module quantifying labor savings, error-cost avoidance, payback, and net present value. Applied to a synthetic portfolio spanning all twenty processes, plus a reference data-flow architecture linking it to hospital EHR/payer/ERP systems: 12 of 20 clear the prioritization threshold; the ranking is robust to +/-20% weight perturbation (Spearman correlation 0.83, top-5 set preserved 97.7%, 2,000 Monte Carlo trials); an Automation Risk Index flags four qualifying processes as Critical risk; a budget-constrained portfolio optimization shows diminishing marg",
+      "author": "Maria Alejandra Gomez, Juan Manuel Castillo"
+    },
+    {
+      "id": "arxiv_ee7e152ef78a",
+      "source": "ArXiv cs.AI",
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "url": "https://arxiv.org/abs/2609.09134v1",
+      "summary": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with the weaker model, then find that a stronger expert often uses it more effectively, suggesting expert supervision could close the remaining gap. However, training the weaker model on the expert's complete trajectories under the evolved harness backfires: performance regresses on all seven tasks by 4 to 30 points across Qwen3-Coder and Gemma 4, even though the same procedure helps under the unevolved harness. Our analysis shows that imitation transfers knowledge and increases scaffold usage, but disrupts model-harness fit: the weaker model adopts the expert's planning strategy without the competence to execute it and no longer matches the harness evolved around its native planning style. We therefore develop an on-policy expert-correction pipeline, automated by a meta-level MLE agent, that localizes the failing turn in the weaker model's own rollout and asks the expert to rewrite only that turn. This preserves the model's planning style and combines the gains of harness evolution and mo",
+      "author": "Zhou Yu, Bin Bi, Shiva Kumar Pentyala"
+    },
+    {
+      "id": "arxiv_8c681781d38a",
+      "source": "ArXiv cs.LG",
+      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "url": "https://arxiv.org/abs/2609.09157v1",
+      "summary": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier recurrent states before contributing to parameter updates. Accordingly, we intervene directly on state credit and propose Credit Stabilization through Time (CST). During backward propagation, CST locally rescales the state-credit signal to stabilize its norm without rotating the component being corrected, while leaving the forward computation unchanged. Because controlled synthetic tasks and real data exhibit different credit dynamics, we specialize CST to each regime. In both settings, CST improves performance beyond the training horizon, with gains observed at up to 128x the training length.",
+      "author": "Hanwen Jiang"
+    },
+    {
+      "id": "arxiv_d35642833ae8",
+      "source": "ArXiv cs.LG",
+      "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
+      "url": "https://arxiv.org/abs/2609.09152v1",
+      "summary": "We study how far gradient descent (GD) can be accelerated by predetermined nonnegative stepsizes in smooth convex optimization. Writing $p_{\\mathrm{sil}}=\\log_2(1+\\sqrt{2})$, we prove an $Ω\\left(n^{-p_{\\mathrm{sil}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$ non-anytime lower bound. In the anytime setting, every infinite nonnegative schedule has infinitely many horizons with error $Ω\\left(n^{-\\frac{2p_{\\mathrm{sil}}}{1+p_{\\mathrm{sil}}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$. Together with the silver-schedule upper bound [Altschuler and Parrilo, 2025] and the anytime upper bound [Zhang et al., 2025], our results determine the optimal polynomial convergence exponents in both settings.",
+      "author": "Yuhan Ye, Kaizhao Liu"
+    },
+    {
+      "id": "arxiv_ff034a5ce089",
+      "source": "ArXiv cs.LG",
+      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "url": "https://arxiv.org/abs/2609.09140v1",
+      "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modalities, constrained by closed categorical vocabularies, treating time as a monotonic inductive bias, or they are limited in forecasting future patient states. We introduce NOAH, a time-aware, task-agnostic, generative transformer model representing and forecasting the full multimodal patient journey. NOAH features a novel bidirectional time integration and a variational latent space to capture the continuous evolution of patient states and the stochasticity of clinical trajectories. Built from over 559 million clinical events from 431,000 hospital visits of 299,000 patients across the MIMIC dataset family, NOAH natively processes medical images, time-series and numeric signals, categorical events, as well as structured and unstructured clinical records. NOAH is the first truly holistic generative model in its field, enabling autoregressive forecasting with optional time control, zero-shot classification, and counterfactual intervention simulation. It generates highly informative and pred",
+      "author": "Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov"
+    },
+    {
+      "id": "arxiv_0e561e4a5aed",
+      "source": "ArXiv cs.LG",
+      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "url": "https://arxiv.org/abs/2609.09135v1",
+      "summary": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable training signal. To make TTRL applicable to code generation, we propose probe-driven TTRL, which constructs output-free probe inputs from the problem statement, executes candidate programs on these probes, and defines a Probe Consensus Reward (PCR) from the resulting behavioral agreement. PCR provides a behavioral training signal for open-vocabulary programs, but it is not a fully reliable verifier and remains susceptible to reward hacking through spurious consensus. We therefore introduce Entropy-Regularized Rank-Masked Policy Optimization (ERPO), which converts low PCR into conservative negative updates through rank masking and controls policy drift with an entropy ceiling. On coding benchmarks, ERPO substantially improves pass@1 and pass@k in both in-domain adaptation and zero-shot transfer.",
+      "author": "Jiacheng Xu, Feng Chen, Xiuneng Xu"
+    },
+    {
+      "id": "arxiv_cb3c8ca97564",
+      "source": "ArXiv cs.LG",
+      "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks",
+      "url": "https://arxiv.org/abs/2609.09130v1",
+      "summary": "An input may activate few hidden units even when different inputs collectively use an entire network. We study the statistical complexity of this input-dependent sparsity in the one-hidden-layer ReLU model of Awasthi et al. (COLT 2024). For width $s$, at most $k$ active units per input, and effective weight and bias bounds $W,B$, every size-$m$ sample in the class's fixed radius-$R$ input domain satisfies $\\mathcal{R}(S)\\le CWR\\min\\{k,\\sqrt{sk/m}\\log^{3/2}(2m)\\}+kB/\\sqrt m$. A support-preserving cover and a single normalized chaining argument remove the previous explicit dimension factor, up to logarithms. Lower bounds on appropriate i.i.d. marginals match up to those logarithms, showing how changing active units across inputs retains a width dependence. The input domain matters: zero-bias networks sparse on the entire ball have at most $2k$ nonzero units and complexity $O(kWR/\\sqrt m)$, whereas bias bounds comparable to $WR$ restore the worst-case rate on that same domain in only logarithmic dimension. A spherical-cap construction proves the latter claim without assuming sparsity merely on the sampling support. For a specified normalized bounded loss and biases comparable to $WR$, we also obtain agnostic minimax excess-risk bounds of order $\\min\\{1,\\sqrt{s/(km)}\\}$ up to logarithms.",
+      "author": "Xiaoyu Li, Zhizhou Sha, Jiaojiao Jiang"
+    },
+    {
+      "id": "arxiv_8c681781d38a",
+      "source": "ArXiv cs.CL",
+      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "url": "https://arxiv.org/abs/2609.09157v1",
+      "summary": "Recurrent models provide a natural path to long-context modeling, yet models trained with backpropagation through time (BPTT) often fail beyond their training horizon. Classical analyses emphasize gradients that vanish or explode along temporal paths. However, dense per-token losses can still train a shared recurrent rule despite severe decay, showing that decay alone does not determine whether learning fails. We instead study state credit: the signal through which future losses reach earlier recurrent states before contributing to parameter updates. Accordingly, we intervene directly on state credit and propose Credit Stabilization through Time (CST). During backward propagation, CST locally rescales the state-credit signal to stabilize its norm without rotating the component being corrected, while leaving the forward computation unchanged. Because controlled synthetic tasks and real data exhibit different credit dynamics, we specialize CST to each regime. In both settings, CST improves performance beyond the training horizon, with gains observed at up to 128x the training length.",
+      "author": "Hanwen Jiang"
+    },
+    {
+      "id": "arxiv_1ddf49af356d",
+      "source": "ArXiv cs.CL",
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "url": "https://arxiv.org/abs/2609.09156v1",
+      "summary": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-augmented architectures have largely mitigated the fabrication of non-existent papers, current systems relying on semantic similarity struggle with misattribution, often citing authentic papers that fail to logically support the author's claim. To address this challenge, we argue that accurate citation requires a shift from similarity-based search to active, claim-level reasoning. We propose ReCite, a decoupled agentic framework that orchestrates location perception, intent-aware query planning, and reflective verification. Trained on synthesized reasoning trajectories, our agent verifies claim-evidence consistency and triggers self-correction loops when retrieved candidates lack logical support. Experiments demonstrate that our lightweight framework outperforms state-of-the-art massive generative models in strict citation accuracy. By grounding literature matching in verifiable logic rather than semantic overlap, ReCite establishes a reliable foundation for automated academic writing.",
+      "author": "Yuyang Huang, Bobo Li, Jiajia Song"
+    },
+    {
+      "id": "arxiv_55a78e39f1c9",
+      "source": "ArXiv cs.CL",
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.09153v1",
+      "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions. At each decision step, the framework localizes the agent's active node, and a guidance model translates the surrounding subgraph into step-level situational guidance that biases the solver's next action without dictating it. The graph is self-evolving: an LLM refiner contrasts failed trajectories with successful ones and edits the graph's topology and attributes, committing edits that preserve or improve held-out validation performance while retaining rejected ones to discourage repetition. Starting from a minimal skeleton, the loop builds graphs that match or surpass hand-designed ones. It can also repair a flawed expert prior. Across multiple datasets, task types, and LLMs, the Procedural Graph delivers consistent gains over memory-based baselines, and self-evolution furthe",
+      "author": "Yuxing Lu, Yicheng Chen, Shanchan Wu"
+    },
+    {
+      "id": "arxiv_6336bd4dd061",
+      "source": "ArXiv cs.CL",
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "url": "https://arxiv.org/abs/2609.09150v1",
+      "summary": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not been built for them. The complete record of what they wrote is public, and it is unusually informative, because it preserves not only what each agent wrote but what that agent could see before writing. We use it to follow the three decisions an agent had to make on arrival: where to write, what to call itself, and how to word its message. One rule governs all three. An agent takes an option with a probability close to the share of that option in what it can see, and the share that matters is the one on the page in front of it, then the one in the stream of recent edits, and only weakly anything older. Three minimal copying models, one per decision and with a single free parameter each, reproduce the heavy-tailed distribution of how many agents met on a page, the frequency of the pieces from which the agents built their names, and the patchwork of pages that are internally consistent and different from one another. Copying whatever the environment happens to show is enough to produce most of the collective structure of this population. It is also what makes such a population easy to steer, since whoever writes first, or writes while the others are quiet, sets the convention for every",
+      "author": "Giordano De Marzo, Nicola Albore, David Garcia"
+    },
+    {
+      "id": "arxiv_0efc8f85e46d",
+      "source": "ArXiv cs.CL",
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "url": "https://arxiv.org/abs/2609.09143v1",
+      "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretraining across text, image, text-to-image (T2I), and image-to-text (I2T) prediction. We examine how these losses scale and relate to downstream performance, then use them to study multimodal learnability---how well image and text tokens are jointly modeled---and tokenizer design. We find that (1) losses should be analyzed by task, since they exhibit distinct scaling behavior and rank tokenizers differently. (2) The loss--performance relationship depends on the predicted token space: for a fixed tokenizer, T2I and I2T losses correlate with generation quality, but across tokenizers, the T2I loss--performance relationship shifts with the image-token space, whereas I2T loss, computed over a shared text vocabulary, provides a more consistent signal. I2T loss also correlates with both generation and visual understanding performance after supervised finetuning. Using losses as a lens, we show that (3) better reconstruction does not necessarily yield lower task-specific losses or stronger downstream performance, and that (4) image tokenizer choice can affect text modeling under joint optimization",
+      "author": "Siting Li, Zhengyang Wang, Simon Shaolei Du"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "url": "https://huggingface.co/papers/",
+      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million hours of effective supervision across five task families: speech generation, content editing, enhancement and separation, paralinguistic editing, and acoustic editing. AuK combines a multimodal large language model for semantic conditioning, an VAE jointly trained on speech, general audio, and music for acoustic conditioning, and a hybrid rectified-flow Transformer that performs dual-stream MMDiT blocks followed by unified single-stream DiT blocks for generation. Training begins with generation-only warm-up and proceeds to joint generation--editing pre-training. We then apply complementary post-training strategies: human-feedback preference optimization for open-ended editing and reward-based reinforcement learning for speech generation. To reduce inference cost, we further distill the model with consistency initialization and task-routed Decoupled DMD. The resulting AuK-Flash performs 4-step inference without classifier-free guidance and achieves a 4.5 wall-clock speedup over the full model under matched conditions. Experiments demonstrate leading performance on zero-shot and instruction-controlled speech generation and general instruction-guided editing, while remaining competitive"
+    },
+    {
+      "id": "rss_d933f0624590",
+      "source": "OpenAI",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "image": ""
+    },
+    {
+      "id": "rss_5df2022def33",
+      "source": "OpenAI",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "image": ""
+    },
+    {
+      "id": "rss_f7d6ee0eee16",
+      "source": "OpenAI",
+      "title": "Introducing ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_d63fdd1e7f4a",
+      "source": "Google DeepMind",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_7eb78a1f70dd",
+      "source": "量子位",
+      "title": "蚂蚁百灵发布首个金融增强模型，AI开始进入真实投研工作流",
+      "url": "https://www.qbitai.com/2026/09/486288.html",
+      "summary": "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。",
+      "image": ""
+    },
+    {
+      "id": "rss_052a78931a31",
+      "source": "量子位",
+      "title": "具身机器人能搞定超市盘点吗？全球七万门店正在给出答案",
+      "url": "https://www.qbitai.com/2026/09/486280.html",
+      "summary": "从Demo到货架，这两家公司要让具身智能算得过账",
+      "image": ""
+    },
+    {
+      "id": "rss_e76e503632c9",
+      "source": "量子位",
+      "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
+      "url": "https://www.qbitai.com/2026/09/486052.html",
+      "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动",
+      "image": ""
+    },
+    {
+      "id": "rss_ce3f41fbc03a",
+      "source": "NVIDIA",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/local-ai-ifa-blog-body.jpg"
+    },
+    {
+      "id": "rss_f9076ba6c117",
+      "source": "NVIDIA",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
+      "summary": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/nba-2k27-nvidia-dlss-5-comparison-001-off-1680x945.jpg"
+    },
+    {
+      "id": "rss_978451e43f5d",
+      "source": "NVIDIA",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "summary": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/light_highres_source-scaled.png"
+    },
+    {
+      "id": "rss_d94b45032088",
+      "source": "MIT科技评论AI",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_1c558cb0c4be",
+      "source": "MIT科技评论AI",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_bb44844c58f4",
+      "source": "MIT科技评论AI",
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/iStock-2239372581.jpg?w=840"
+    },
+    {
+      "id": "rss_cb8ff5e9f884",
+      "source": "TechCrunch AI",
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "image": ""
+    },
+    {
+      "id": "rss_022a24862c5e",
+      "source": "TechCrunch AI",
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "image": ""
+    },
+    {
+      "id": "rss_783b3518cb27",
+      "source": "TechCrunch AI",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "image": ""
+    },
+    {
+      "id": "rss_d480ac80457c",
+      "source": "HF Blog",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_111783b316d9",
+      "source": "HF Blog",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_1ca1e73106e5",
+      "source": "HF Blog",
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1333065091",
+      "source": "GitHub Trending",
+      "title": "deepseek-ai/deepseek-harness - DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "# DeepSeek Harness\n\nEnglish | [中文](README.zh.md)\n\nDeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).\n\nIt is built on an **everything-is-a-plugin** architecture and powered by [Cordis](https://github.com/cordiverse/cordis), whose design is described in [_A Programming Paradigm for Spatiotemporal Composability_](https://arxiv.org/abs/2608.25512).\n\nDocumentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)\n\n## Developer preview\n\nDeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**\n\nReview the [safety notice](SAFETY.md) before running the project.\n\n## Run\n\n### Run from `npm`\n\nInstall `Node.js`, then run:\n\n```sh\nn",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333321333",
+      "source": "GitHub Trending",
+      "title": "anywhere-labs/dsh-desktop - 为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop",
+      "summary": "<p align=\"center\">\n  <a href=\"https://dshdesktop.cn\"><img src=\"assets/desktop-hero-zh.png\" alt=\"DSH Desktop：基于 DeepSeek Harness 构建的开源桌面客户端\" width=\"100%\"></a>\n</p>\n\n<h1 align=\"center\">DSH Desktop</h1>\n\n<p align=\"center\">\n  <strong>基于 DeepSeek Harness 构建的 Windows 和 macOS 开源桌面客户端。</strong>\n</p>\n\n<h3 align=\"center\"><a href=\"https://dshdesktop.cn\">一键下载，开箱即用。</a></h3>\n\n<p align=\"center\">\n  万物皆「插件」，桌面本身也是「插件」。\n</p>\n\n<p align=\"center\"><sub>独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。<br>本仓库目前无深度求索员工或 DeepSeek Harness 上游官方团队成员参与；GitHub Contributors 中显示的上游贡献者来自 fork 继承和同步的提交历史。<br>中文 · <a href=\"README.en.md\">English</a></sub></p>\n\n<p align=\"center\">\n  <img src=\"assets/desktop-chat-zh.png\" alt=\"DSH Desktop 中文对话界面\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/anywhere-labs/deepseek-harness",
+      "group": "community"
+    },
+    {
+      "id": "gh_1331135699",
+      "source": "GitHub Trending",
+      "title": "guillaumemeyer/watermarks-remover - A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_1333175049",
+      "source": "GitHub Trending",
+      "title": "awesome-dsh-plugin/awesome-dsh-plugin - A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "# Awesome DeepSeek Harness (DSH) Plugin [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![awesome · DSH plugin](https://awesome-dsh-plugin.com/badge.svg) ![plugin count](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-dsh-plugin.com%2Fcount.json)\n\n[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/banner-en.png)](https://awesome-dsh-plugin.com)\n\nEnglish | [中文](README.zh.md)\n\n> A curated list of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).\n\nDeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding agent (Web and headless), built on a framework where everything is a plugin: models, tools, sandboxes, session storage, UI, even the agent loop itself. Plugins can extend the official coding agent, swap out ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1331636953",
+      "source": "GitHub Trending",
+      "title": "zhu1090093659/dsh-web - DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
+      "url": "https://github.com/zhu1090093659/dsh-web",
+      "summary": "# dsh-web · DeepSeek Harness（DSH）Web GUI 插件聚合生态包\n\n中文 | [English](README.en.md)\n\n<p align=\"center\">\n  <img src=\"docs/dsh-web-banner.png\" alt=\"dsh-web\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/v/release/zhu1090093659/dsh-web?style=flat-square\" alt=\"Version\">\n  &nbsp;\n  <img src=\"https://img.shields.io/github/stars/zhu1090093659/dsh-web?style=flat-square\" alt=\"Stars\">\n  &nbsp;\n  <img src=\"https://img.shields.io/github/forks/zhu1090093659/dsh-web?style=flat-square\" alt=\"Forks\">\n  &nbsp;\n  <a href=\"https://www.npmjs.com/package/@linxin666/dsh-web-all\"><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fdsh-market.com%2Fapi%2Fnpm-badge%2Fversion&style=flat-square&label=npm\" alt=\"npm\"></a>\n  &nbsp;\n  <a href=\"https://www.npmjs.com/package/@linxin666",
+      "group": "community"
+    },
+    {
+      "id": "gh_1334586481",
+      "source": "GitHub Trending",
+      "title": "yjh051108/dsh-routing-suite - dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "summary": "# dsh-routing-suite — 注入器 × 思维模式路由 × 分级模式 套装\r\n\r\n一个仓库装齐三件套：**运行时注入器**（免重启运行时管理层）+\r\n**思维模式路由预设**（任务感知推理模式，P1-P23 实测）+\r\n**分级任务协议**（脑暴出题 → 规格化计划 → 打卡制 → 组收官 → 终验，含红队门与审计端点）。\r\n\r\n[中文](README.md) | [English](README.en.md)\r\n\r\n## 组件入口（快速跳转）\r\n\r\n| 组件 | 说明 | 入口 |\r\n|---|---|---|\r\n| **injector** | 运行时注入器：`dev_*` 工具全家桶（注入/热重载/卸载/侧挂转正/路由自愈） | [injector/README.md](injector/README.md) · [文档](injector/docs/SPEC.md) |\r\n| **preset** | 思维模式路由预设（router-standard / router-spec，按模型 persona 路由） | [preset/README.md](preset/README.md) · [实验报告](preset/docs/experiments.md) |\r\n| **graded** | 分级模式：会话级两级任务协议（6 工具+三模式+小类模式粒度+红队门+审计端点+超级面板） | [graded/README.md](graded/README.md) · [架构](graded/docs/ARCHITECTURE.md) · [理论](graded/docs/THEORY.md) · [实测数据](graded/docs/DATA.md) |\r\n\r\n## 研究与数据（graded）\r\n\r\n**\"模型也会偷懒——我们测到了，还做了对抗\"** —",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "# ThreeUI Community\n\n> **Sponsor ThreeUI:** Linked README placements start at $500/month, with website placements from $1,500/month. [View sponsorship plans](https://threeui.com/sponsorship).\n\nThe open-source, login-free edition of ThreeUI. It uses the same application shell, layout, navigation, browse grid, search, themes, responsive behavior, component pages, live renderers, controls, variant picker, and source tabs as the main project.\n\nThe catalog is the only product-level difference: Pro and Beta components are removed. Every Community component keeps all of its free variants and controls.\n\n[Browse ThreeUI](https://threeui.com) · [View the source on GitHub](https://github.com/MengTo/threeui)\n\n![ThreeUI Community preview](assets/preview.jpg)\n\n## Sponsor ThreeUI\n\nSponsorship keeps the o",
+      "group": "community"
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1331135699",
+      "source": "GitHub AI项目",
+      "title": "guillaumemeyer/watermarks-remover - A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "summary": "```\n_ _ _ ____ ___ ____ ____ _  _ ____ ____ _  _ ____    ____ ____ _  _ ____ _  _ ____ ____\n| | | |__|  |  |___ |__/ |\\/| |__| |__/ |_/  [__  __ |__/ |___ |\\/| |  | |  | |___ |__/\n|_|_| |  |  |  |___ |  \\ |  | |  | |  \\ | \\_ ___]    |  \\ |___ |  | |__|  \\/  |___ |  \\\n```\n\n# watermarks-remover\n\n<!-- logo: figlet -d .figlet -f cybermedium -w 120 \"watermarks-remover\" -->\n\n[![CI](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml/badge.svg)](https://github.com/guillaumemeyer/watermarks-remover/actions/workflows/ci.yml)\n[![Release](https://img.shields.io/github/v/release/guillaumemeyer/watermarks-remover)](https://github.com/guillaumemeyer/watermarks-remover/releases)\n[![Stars](https://img.shields.io/github/stars/guillaumemeyer/watermarks-remover)](https://github.com/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336502227",
+      "source": "GitHub AI项目",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "<div align=\"center\">\n\n# OpenBot\n\n**AI coworkers you can hand real work to, and actually trust with the access.** Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after.\n\n[**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Features**](#features) · [**Bring your own agent**](#bring-your-own-agent) · [**Architecture**](#architecture) · [**Docs**](docs/README.md)\n\n[![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml)\n[![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotK",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1331728719",
+      "source": "GitHub AI项目",
+      "title": "Hisn00w/ASu-skills - 🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效。",
+      "url": "https://github.com/Hisn00w/ASu-skills",
+      "summary": "# ASu-skills\n\n<div align=\"center\">\n  <img src=\"assets/asu-avatar-circle.png\" width=\"180\" height=\"180\" alt=\"ASu-skills 图标\">\n  <h3>中文求职工作流插件</h3>\n  <p>用九个独立入口完成开源贡献、证据复盘、项目导学面经、简历提升、简历制作、岗位匹配、简历投递填写、面试准备和校招进度管理。</p>\n</div>\n\n<div align=\"left\">\n  <a href=\"README_en.md\">English</a> | <a href=\"README.md\">中文</a> | <a href=\"https://hisn00w.github.io/ASu-skills/\">官网</a>\n</div>\n\n<br>\n\n<div align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/Hisn00w/ASu-skills?logo=github\" alt=\"License: MIT\"></a>\n  <a href=\"https://deepwiki.com/Hisn00w/ASu-skills\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n  <a href=\"https://www.dsh.so/artifact/asu-skills\"><img src=\"https://www.dsh.so/badge/asu-skills.svg\" alt=\"dsh.so security\"></a>\n  <a href=\"https://www.dsh.so/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1337955304",
+      "source": "GitHub AI项目",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "<div align=\"center\">\n\n# Sprix SAGE Router\n\n### Checkpoint-aware mid-execution rerouting for open A2A networks\n\n[![Tests](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml/badge.svg)](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml)\n[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Research%20Preview-D97706.svg)](#project-status)\n\n**An open-source research output of [Sprix AI](#about-sprix-ai) at 屿智同行.**\n\nChoose whether an in-flight task should **continue**, **recruit collaborators**, or **hand off** after accounting for completed DAG nodes, reusable artif",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1332781509",
+      "source": "GitHub AI项目",
+      "title": "elie222/rakazo - Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "summary": "# Rakazo\n\n[![GitHub stars](https://img.shields.io/github/stars/elie222/rakazo?labelColor=black&style=for-the-badge&color=2563EB)](https://github.com/elie222/rakazo/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?labelColor=black&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/RWwKa2Sn7h)\n\n![Rakazo — AI teammates you actually own](./docs/readme-hero.png)\n\nRakazo is an open-source platform for running persistent AI teammates. It is available on the web,\nas an Electron desktop app, and through an Expo mobile app. Bring your own model and computer\nprovider, or run the complete stack locally.\n\nRakazo is in beta. Learn more at [rakazo.com](https://rakazo.com).\n\n## Features\n\n- Persistent bots with their own conversations, memory, ro",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/PawWork_ZhuaZhua - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "summary": "# 爪爪 · Paw Work\n\n**Select on the live page. Describe the outcome. Take away a real file.**\n\nEnglish · [中文](README.zh-CN.md)\n\n> [!IMPORTANT]\n> **Just want to use Paw Work?** Do **not** clone this whole repository. You do not need the developer files. Clone **only** branch [`unpacked`](https://github.com/Player-YN/PawWork_ZhuaZhua/tree/unpacked) (~44 MB). That folder *is* the Chrome extension (`manifest.json` at the root).\n>\n> Clone creates `paw-work` under **the directory where you run the command**, not a fixed Desktop path. If you run it from your user home, that is `C:\\Users\\yyy\\paw-work`. Git cannot print the path by itself — the last line of the block below does. In Chrome, Load unpacked that printed folder.\n>\n> **Windows (PowerShell)** — paste this whole block:\n>\n> ```powershell\n> git",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336971041",
+      "source": "GitHub AI项目",
+      "title": "xzf-thu/VoiceMem - Infrastructure for the next generation of voice agents, designed to provide universal memory. It is divided into a left brain and a right brain, storing information and emotions respectively, while a fully streaming architecture eliminates latency at the fundamental level.",
+      "url": "https://github.com/xzf-thu/VoiceMem",
+      "summary": "<a id=\"chinese\"></a>\n\n<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"VoiceMem Logo\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <strong>中文</strong> | <a href=\"#english\">English</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://xzf-thu.github.io/VoiceMem/\">项目主页 🌐</a> /\n  <a href=\"https://arxiv.org/pdf/2608.26005\">技术报告 📖</a> /\n  <a href=\"https://huggingface.co/zhifeixie/VoiceMem_Default_Models_Env\">VoiceMem Utils 🤗</a> /\n  <a href=\"https://huggingface.co/zhifeixie/VoiceMem_MF_Qwen3_6_35B_A3B_Qlora\">VoiceMem Model Families 🤗</a> /\n  <a href=\"https://huggingface.co/datasets/zhifeixie/VoiceMem-ChatMem400k\">ChatMem-400K 🤗</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"wechat.png\">\n    <img src=\"https://img.shields.io/badge/WeChat-Join%20Group-07C160?logo=wechat&logoColor=white\" alt=\"WeChat\">\n  </a>\n  ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1338470635",
+      "source": "GitHub AI项目",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1333165619",
+      "source": "GitHub AI项目",
+      "title": "dataelement/dsh-desktop - DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "url": "https://github.com/dataelement/dsh-desktop",
+      "summary": "<h1 align=\"center\">\n  <img src=\"docs/images/readme-logo-black-v020.png\" width=\"64\" alt=\"DSH Desktop logo\" valign=\"middle\" />\n  DSH Desktop\n</h1>\n\n<p align=\"center\">\n  A local-first, cross-platform desktop app for\n  <a href=\"https://github.com/deepseek-ai/deepseek-harness\">DeepSeek Harness</a>.\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> · <a href=\"README.zh.md\">简体中文</a> · <a href=\"README.ja.md\">日本語</a> · <a href=\"README.ru.md\">Русский</a> · <a href=\"README.es.md\">Español</a> · <a href=\"README.pt.md\">Português</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/License-MIT-171513.svg\" /></a>\n  <img alt=\"macOS\" src=\"https://img.shields.io/badge/macOS-Apple%20Silicon%20%7C%20Intel-171513.svg\" />\n  <img alt=\"Windows\" src=\"ht",
+      "group": "community"
+    },
+    {
+      "id": "devto_4603458",
+      "source": "Dev.to",
+      "title": "Most 'AI Agents' Are Just If-Statements in a Trench Coat",
+      "url": "https://dev.to/james_anderson_h/most-ai-agents-are-just-if-statements-in-a-trench-coat-3960",
+      "summary": "I built an agent last year, and I was proud of it. It had a planner. It had tools. It had a...",
+      "author": "James Anderson"
+    },
+    {
+      "id": "devto_4596945",
+      "source": "Dev.to",
+      "title": "Has AI Made You A Lazier Developer? Be Honest.",
+      "url": "https://dev.to/nazar-boyko/has-ai-made-you-a-lazier-developer-be-honest-5ack",
+      "summary": "Haven't you ever wondered if this AI vibe coding has made us lazy? Who's been solving problems on...",
+      "author": "Nazar Boyko"
+    },
+    {
+      "id": "devto_4609906",
+      "source": "Dev.to",
+      "title": "Como eu aprendi a aprender (e por que a IA não veio pra pensar por você)",
+      "url": "https://dev.to/stherzada/como-eu-aprendi-a-aprender-e-por-que-a-ia-nao-veio-pra-pensar-por-voce-fhg",
+      "summary": "Eu entrei na programação de cabeça no finalzinho de 2022. Não foi um caminho gradual, do tipo \"vou...",
+      "author": "Sther"
+    },
+    {
+      "id": "devto_4608508",
+      "source": "Dev.to",
+      "title": "Why I built a zero-telemetry Chrome extension to measure the physical cost of AI prompts",
+      "url": "https://dev.to/ib2mofficial/why-i-built-a-zero-telemetry-chrome-extension-to-measure-the-physical-cost-of-ai-prompts-4dmf",
+      "summary": "Every developer today relies on LLMs. Whether it's drafting boilerplate, refactoring complex logic,...",
+      "author": "IB2M_Official"
+    },
+    {
+      "id": "devto_4606039",
+      "source": "Dev.to",
+      "title": "Wiring a Reachy Mini into OpenClaw without trusting the robot",
+      "url": "https://dev.to/bengreenberg/wiring-a-reachy-mini-into-openclaw-without-trusting-the-robot-3lgh",
+      "summary": "I put a Reachy Mini in the living room. It is a small desktop robot from Pollen Robotics, now part...",
+      "author": "Ben Greenberg"
+    },
+    {
+      "id": "devto_4576085",
+      "source": "Dev.to",
+      "title": "From AI Solutions to Shared Knowledge: Building an MCP for the Community",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/from-ai-solutions-to-shared-knowledge-building-an-mcp-for-the-community-6bk",
+      "summary": "This is a submission for the Weekend Challenge: Generosity Edition Don't Just Ask AI. Give the...",
+      "author": "Pascal CESCATO"
+    },
+    {
+      "id": "devto_4611123",
+      "source": "Dev.to",
+      "title": "My message board for AI agents became a prompt-injection honeypot in 24 hours",
+      "url": "https://dev.to/jo-do/my-message-board-for-ai-agents-became-a-prompt-injection-honeypot-in-24-hours-74f",
+      "summary": "Last week I wrote about building msgboard.dev, a public message board where AI agents talk to each...",
+      "author": "Jo Do"
+    },
+    {
+      "id": "devto_4608288",
+      "source": "Dev.to",
+      "title": "Would You Choose a Library Because AI Writes It Better?",
+      "url": "https://dev.to/erikch/would-you-choose-a-library-because-ai-writes-it-better-9i4",
+      "summary": "I was at a conference recently and watched Joel Hooks talk about Effect. Effect homepage h1...",
+      "author": "Erik Hanchett"
+    },
+    {
+      "id": "oschina_62c37403e962",
+      "source": "开源中国",
+      "title": "ChatGPT Images 2.5 发布，OpenAI 把图像生成的重注押在了编辑上",
+      "url": "https://www.oschina.net/news/502393/openai-chatgpt-images-2-5",
+      "summary": "每周 30 亿张图。这是 OpenAI 在发布 ChatGPT Images 2.5 时顺手甩出来的一个数字。它涵盖 ChatGPT Images 和 GPT-Image API 两个入口，意味着这个产品线已经是全球最大的 AI 图像生成服务之一。 2.5 版本的核心改进方向很明确：不是堆参数，而是把「编辑」这件事做精。OpenAI 列了五个维度——参考图稳定性、精确编辑、..."
+    },
+    {
+      "id": "oschina_0f2c63f4f5dc",
+      "source": "开源中国",
+      "title": "Meta 发布个人 AI 智能体 Muse，住在一台你看不见的虚拟机里",
+      "url": "https://www.oschina.net/news/502392/meta-ai-muse",
+      "summary": "关掉 App，它还在替你干活。这是 Meta 给 Muse 定的第一条规矩——你让它盯着天气预报、下雨就提醒，它会在你退出应用之后继续跑。这款个人 AI agent 已经上了 App Store 和 Google Play，也能直接在 WhatsApp 里使唤。 Meta 给 Muse 的定位很明确，不是聊天机器人，也不是 AI 助手，是 agent。官方 FAQ 里把三者的边界划..."
+    },
+    {
+      "id": "oschina_7fd52b68328b",
+      "source": "开源中国",
+      "title": "JimuReport 积木报表 v2.5.2 版本发布，免费开源的 AI 报表工具",
+      "url": "https://www.oschina.net/news/502389",
+      "summary": "项目介绍 真正的 AI 报表来了，一句话描述需求，AI 自动生成报表与数据大屏，支持对话式修改报表；同时提供类 Excel 拖拽设计器，兼容 30 余种数据源，轻松应对各类复杂报表场景 :sparkles: 积木报表是一款免费的数据可视化报表工具，集报表、打印、大屏、仪表盘于一体，像搭积木一样完全在线设计。分两大模块：JimuRep..."
+    },
+    {
+      "id": "oschina_9ad107f12751",
+      "source": "开源中国",
+      "title": "EasyGoAdmin 敏捷开发框架 GoFrame+AntdVue 版本 v2.7.1 发布",
+      "url": "https://www.oschina.net/news/502387",
+      "summary": "v2.7.1 更新内容： 1、修复近期用户反馈的问题； 一款 Go 语言基于 GoFrame、Vue3、AntDesign、MySQL 等框架精心打造的一款模块化、插件化、高性能的前后端分离架构敏捷开发框架，可快速搭建前后端分离后台管理系统，本着简化开发、提升开发效率的初衷，框架自研了一套个性化的组件，实现了可插拔的组件式开发方式，同时..."
+    },
+    {
+      "id": "oschina_09f38b0f2327",
+      "source": "开源中国",
+      "title": "灵界 OS v5.0 正式发布：全英文适配已完成，系统全面国际化",
+      "url": "https://www.oschina.net/news/502386",
+      "summary": "灵界 OS v5.0 现已发布。本次更新是一个重要节点——系统已全面完成英文适配，所有界面均可切换为英文，国际化已准备就绪。 ✅ v5.0 更新内容 系统界面完全英文化：所有菜单、按钮、对话框、提示信息均已适配英文 设置项新增语言切换入口：用户可在设置中一键切换中英文 中英文环境独立运行：切换语言后不影响已安装的应..."
+    },
+    {
+      "id": "hn_comment_49619077",
+      "source": "HN讨论",
+      "title": "abixb 在「Muse – Meta’s personal AI agent」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "I think Meta&#x27;s strategy is to capture the &#x27;normie-tier&#x27; of AI users. I know most of us here on HN track model releases quite frequently and discuss every parameter weight out of them, but most of the world is just... oblivious? I was discussing latest in tech with an accounting friend out of curiosity, and I kept talking about tiers of GPT-5.6 (Sol vs Terra vs Luna) and asked which one she used on the desktop &#x27;Work&#x27; app, and she responded with, &quot;just ChatGPT, what is Sol?.&quot; I then realized that most people just stick with whatever default they&#x27;re provided with, and it&#x27;s a  lot  of them. So, us serial HN users and commenters are the extreme minority, and I&#x27;m sure millions of people will gobble up this Muse agent from Meta as if it&#x27;s some sort of an innovative cutting-edge way to use the internet by Meta alone. Curse of knowledge and all. [0] [0]  https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Curse_of_knowledge",
+      "author": "abixb"
+    },
+    {
+      "id": "hn_comment_49619026",
+      "source": "HN讨论",
+      "title": "simonw 在「Muse – Meta’s personal AI agent」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "Meta AI&#x27;s David Singleton has a thread about their security prompt injection defenses here:  https:&#x2F;&#x2F;twitter.com&#x2F;dps&#x2F;status&#x2F;2097404102468899131  &gt; One threat we’re particularly focused on is prompt injection, and we handle it in layers. The model is trained to recognize and resist it. The harness marks anything coming from an untrusted source. Deterministic code checks the result. And an ensemble of classifiers runs where the agent can&#x27;t reach them. That &quot;deterministic code&quot; bit makes me wonder if they&#x27;ve implemented ideas from the DeepMind CaMeL paper:  https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2503.18813  - my notes on that paper here:  https:&#x2F;&#x2F;simonwillison.net&#x2F;2025&#x2F;Apr&#x2F;11&#x2F;camel&#x2F;",
+      "author": "simonw"
+    },
+    {
+      "id": "hn_comment_49621179",
+      "source": "HN讨论",
+      "title": "aryehof 在「Muse – Meta’s personal AI agent」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "Perhaps a better overview is from Reuters …  https:&#x2F;&#x2F;www.reuters.com&#x2F;business&#x2F;meta-launches-ai-agent-that...  From the article: - … rolled out … despite internal concerns that the technology mismanages its access to sensitive personal data - The product will be available only in the U.S.initially - A basic version of the agent  will be available for free, while Meta will offer subscriptions priced at $20 a month and $100 a month for heavier usage - People can opt out of their interactions being used to train Meta&#x27;s AI models. - Others flagged serious security flaws, like an agent routing around guardrails …",
+      "author": "aryehof"
+    },
+    {
+      "id": "hn_comment_49615810",
+      "source": "HN讨论",
+      "title": "sroerick 在「Muse – Meta’s personal AI agent」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "Facebook is the first to market with a polished openclaw? Good for them. I&#x27;m sure many others will criticize other aspects of Meta, and rightly so. But imagine using a Claw agent with zero tech support available",
+      "author": "sroerick"
+    },
+    {
+      "id": "hn_comment_49620183",
+      "source": "HN讨论",
+      "title": "wolttam 在「Muse – Meta’s personal AI agent」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "Brought to you by the company that gave an LLM access to directly reset user passwords, all you had to do was manipulate the LLM.",
+      "author": "wolttam"
+    },
+    {
+      "id": "hn_comment_49620838",
+      "source": "HN讨论",
+      "title": "culi 在「Tension wood: A 'muscle' that can both b」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49546964",
+      "summary": "Trees &quot;calculate&quot; which branches to drop based on data they gather as they grow. A competent and experienced arborist knows how to read the tree and simply safely cut off the branches that the tree was already intending to drop so that it doesn&#x27;t fall on your house or whatever. Inexperienced arborists often ignore this key dendrology fact and may totally butcher your tree. In the process they can create an even larger risk of a tree falling over onto your house during a storm It&#x27;s called cladoptosis (basically self-pruning)  https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cladoptosis  EDIT: since I&#x27;m on the topic of bad tree trimming, NEVER TOP YOUR TREES  https:&#x2F;&#x2F;www.arborday.org&#x2F;tree-resources&#x2F;dont-top-trees",
+      "author": "culi"
+    },
+    {
+      "id": "hn_comment_49620619",
+      "source": "HN讨论",
+      "title": "zekefoppa 在「Tension wood: A 'muscle' that can both b」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49546964",
+      "summary": "Imo the title here buries the lede: we&#x27;ve known that trees form tension wood in response to external stress. This study claims to find that trees will form it in response only to their own curvature, independent of external factors even including gravity. They compare it to proprioception. That&#x27;s neat!",
+      "author": "zekefoppa"
+    },
+    {
+      "id": "hn_comment_49620756",
+      "source": "HN讨论",
+      "title": "N_Lens 在「Tension wood: A 'muscle' that can both b」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49546964",
+      "summary": "Let me take this opportunity to remind HN readers - Posture &amp; Hydration Check!",
+      "author": "N_Lens"
+    },
+    {
+      "id": "hn_49615537",
+      "source": "Hacker News",
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49546964",
+      "source": "Hacker News",
+      "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
+      "url": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
+      "summary": ""
+    },
+    {
+      "id": "hn_49617581",
+      "source": "Hacker News",
+      "title": "Large language models develop novel social biases through adaptive exploration",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "summary": ""
+    },
+    {
+      "id": "hn_49619227",
+      "source": "Hacker News",
+      "title": "I resigned from Anthropic today",
+      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "summary": "https:&#x2F;&#x2F;xcancel.com&#x2F;hilbertspaess&#x2F;status&#x2F;2097476196791709843..."
+    },
+    {
+      "id": "hn_49616968",
+      "source": "Hacker News",
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "summary": ""
+    },
+    {
+      "id": "hn_49611251",
+      "source": "Hacker News",
+      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "summary": "https:&#x2F;&#x2F;deepmind.google&#x2F;blog&#x2F;alphagenome-atlas-a-predictive-... https:&#x2F;&#x2F;deepmind.google.com&#x2F;science&#x2F;alphagenome&#x2F;atlas"
+    },
+    {
+      "id": "hn_49610631",
+      "source": "Hacker News",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "summary": ""
+    },
+    {
+      "id": "hn_49614720",
+      "source": "Hacker News",
+      "title": "ChatGPT Images 2.5",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-09-09 14:00"
+}
