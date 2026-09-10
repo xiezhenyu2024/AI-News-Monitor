@@ -1,0 +1,768 @@
+{
+  "key": "2026-09-10-evening",
+  "date": "2026-09-10",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 19,
+      "title": "巴西缺水小镇被大型AI数据中心项目\"突袭\"，居民从记者口中才得知此事",
+      "entities": [
+        {
+          "name": "Mongabay",
+          "explain": "一家专注环境与自然保护议题的国际非营利新闻机构"
+        },
+        {
+          "name": "AI数据中心",
+          "explain": "为训练和运行人工智能模型而建的大型服务器设施，耗电和耗水量极大"
+        },
+        {
+          "name": "水资源压力（water-stressed）",
+          "explain": "指当地水源已不足以稳定满足居民和生产用水需求的状况"
+        }
+      ],
+      "summary": "在巴西一个本就缺水的小镇，居民发现水井逐渐干涸，而当地领导人竟是通过记者才得知附近正在推进一个大型AI数据中心项目。该项目此前未向社区充分披露，引发对水资源进一步被挤占的担忧。事件凸显AI基础设施扩张与当地民生用水之间的冲突。",
+      "relevant": "AI数据中心的能耗和水耗问题正成为全球关注焦点，此案是科技扩张与社区权益冲突的典型案例。",
+      "context": "全球AI热潮推动科技公司在各地兴建大型数据中心，这些设施需要大量冷却水。巴西该镇本身已面临缺水困境，项目却在缺乏社区知情和协商的情况下推进。",
+      "source_analysis": "Mongabay是专注环境议题的非营利新闻机构，报道立场倾向关注生态保护与弱势社区权益。",
+      "social_impact": "涉及当地居民饮用水安全与知情权，反映AI产业扩张对水资源紧张地区可能造成的民生压力。",
+      "source_text": "- Atlas Renewable Energy is planning a 1-gigawatt data center in the Paracatu municipality that exceeds the combined power capacity of all such facilities currently installed in Brazil. - The project risks depleting fragile Cerrado springs in a municipality where around 80% of the territory faces water conflicts and demand already exceeds 100% of available groundwater reserves. - Local authorities and residents say they were never consulted about the multi-billion-dollar investment, which was only revealed to them through inquiries from reporters. - The project reflects a global trend of tech giants seeking out resource-rich countries like Brazil to power an increasingly water and energy intensive AI boom. PARACATU, Brazil — As the president of Paracatu’s city council, Manoel Alves is used to being courted by companies and executives that want his blessing for new business. But on a Thursday afternoon in May 2026, he was upset talking on the phone about a data center planned for his city, about which he was informed by reporters. “I just heard the data center construction will start in two months. Don’t you guys know about this either?” Alves asked someone at the mayor’s office. The answer from the other side of the call was “no”, the same received from all interviewees: Local authorities, business owners, farmers, and citizens. “It is some new hotel concept?” a major restaurant owner in the city asked. “A dentist?” a citizen in Paracatu’s main square questioned. “Data center? What is this?” queried the guardian of an 18th-century church. The data center in Paracatu, a municipality located a three-hour drive from Brazil’s capital, Brasília, is not just any data center, but a 1-gigawatt data center, which will be larger than the combined total of all data centers currently installed in the country, which use around 800 megawatts. Or similar to one of the gigantic projects that are part of the Stargate initiative, one of the world’s largest artificial intelligence infrastructure networks, strongly supported by the U.S. President Donald Trump’s administration. Paracatu’s data center is being planned by Atlas Renewable Energy, owned by an arm of the global asset manager BlackRock, which already has solar energy farms in the municipality. Among the reasons listed by Atlas for choosing Paracatu, a medium-sized city in the state of Minas Gerais with close to 100,000 citizens, is that the city has an abundant water supply. “To say that there is plenty of water is ",
+      "source_title": "Huge AI data center project blindsides water-stressed town in Brazil",
+      "source_url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "美国人文学科学位授予量持续下滑，2025年占比降至8.1%",
+      "entities": [
+        {
+          "name": "Humanities Indicators",
+          "explain": "美国艺术与科学院下属项目，专门统计和追踪人文学科相关数据"
+        },
+        {
+          "name": "人文学科（humanities）",
+          "explain": "指文学、历史、哲学、宗教研究等以人文与文化为核心的学科"
+        },
+        {
+          "name": "学士学位（bachelor's degree）",
+          "explain": "美国大学本科毕业授予的学位"
+        }
+      ],
+      "summary": "美国艺术与科学院项目Humanities Indicators报告显示，2025年美国高校授予人文学科学士学位164,847个，为1991年以来最少，较2012年高点下降30.4%。人文学科学位占全部本科学位的比例从20年前的近15%降至8.1%。几乎所有人文学科分支的学位数都在减少。",
+      "relevant": "人文学科萎缩关系到高等教育结构、就业导向和学生选择的变化，是长期趋势的又一数据印证。",
+      "context": "过去二十年，学生和家长越来越倾向选择就业回报更明确的理工与商科专业，人文学科招生和学位授予量持续走低。2021至2023年降幅尤为剧烈，此后降速有所放缓。",
+      "source_analysis": "Daily Nous是面向哲学学术界读者的资讯网站，报道偏学术圈视角。",
+      "social_impact": "2025年学位数较2012年高点下降30.4%，占比从近15%降至8.1%，反映高等教育学科结构的显著转变。",
+      "source_text": "Fewer and Fewer Students Earn Degrees in the Humanities。20 years ago, nearly 15% of the undergraduate degrees conferred in the United States were in the humanities. As of 2025, that percentage is down to 8.1%. These figures are from a recent report by Humanities Indicators, a project of the American Academy of Arts &#38; Sciences. Here are the numbers: In 2025, the nation’s colleges and universities awarded 164,847 bachelor’s degrees in the humanities&#8212;the smallest number of degrees awarded since 1991 and 30.4% below the recent high-water mark in 2012&#8230; That decline includes a particularly sharp drop of 12.7% from 2021 to 2023, followed by a more modest drop of 2.1% from 2023 to 2024, and a further decline of just 0.4% from 2024 to 2025—the smallest year-on-year decline since 2012. And most disciplines within the humanities have shown a decline: Within the humanities, almost every discipline awarded fewer degrees in 2025 than 13 years earlier&#8230; The largest proportional drops in degrees awarded occurred in religious studies (down 56.3%), area studies (53.2%), languages and literatures other than English (50.8%), English (43.8%), history (40.6%), classical studies (39.4%), and comparative literature (31%). Only three disciplines showed increases&#8212;folklore (where the small number of degrees awarded makes the numbers highly volatile), the study of the arts (with a modest 2.1% increase since 2012), and interdisciplinary humanities disciplines (where the increase was largely due to the addition of a substantial number of new programs, such as digital humanities, in the Department of Education’s 2020 revision of its Classification of Instructional Programs). How&#8217;s philosophy doing? Well, after a slight decrease last year, there has been a slight increase: In 2024, 5,763 students earned philosophy BAs. In 2025, that number was 5,918. The full report from Humanities Indicators is here. The post Fewer and Fewer Students Earn Degrees in the Humanities first appeared on Daily Nous .",
+      "source_title": "Fewer and Fewer Students Earn Degrees in the Humanities",
+      "source_url": "https://dailynous.com/2026/09/09/fewer-and-fewer-students-earn-degrees-in-the-humanities/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "新书《我的孩子该做什么？》主张在课堂拥抱AI技术而非回避",
+      "entities": [
+        {
+          "name": "Daniel Susskind",
+          "explain": "英国学者，长期研究技术与工作、教育的关系"
+        },
+        {
+          "name": "Wilfred Cockcroft",
+          "explain": "1979年受英国政府委托撰写数学教育报告的数学讲师"
+        },
+        {
+          "name": "三个R（three Rs）",
+          "explain": "指读、写、算（reading, writing, arithmetic）的基础教育核心"
+        }
+      ],
+      "summary": "卫报书籍版评论Daniel Susskind新书《我的孩子该做什么？》，该书主张教育界应积极把握AI带来的教学机遇，而非退缩回避。书评以1979年计算器进入课堂引发的恐慌作类比，指出当年家长和教师担心计算器会毁掉算术能力，但历史证明技术可以被教育吸纳。",
+      "relevant": "AI进入课堂正引发与当年计算器类似的争论，该书提供了一个乐观视角。",
+      "context": "1979年英国政府委托Wilfred Cockcroft撰写数学教育危机报告，其中一章讨论计算器普及带来的担忧。如今AI进入教育领域，引发相似的恐慌与争论。",
+      "source_analysis": "《卫报》书籍版，评论整体对本书持肯定态度，称其\"令人耳目一新地乐观\"。",
+      "social_impact": "涉及AI在教育中的角色定位，关系到家长、教师和教育政策制定者的态度。",
+      "source_text": "In 1979, the government asked Wilfred Cockcroft, a now largely forgotten maths lecturer from the University of Hull, to write a report about a crisis in the teaching of his subject to children. It was wide-ranging and meticulous, and included a chapter on a technological innovation that was suddenly becoming available to the average consumer: the calculator. Many parents and teachers feared that the gadget would undermine a basic skill and a pillar of education – one of the sacred three Rs – producing generations of dumbed-down drones who could reach for a device in their pockets to avoid the hard graft of arithmetic. But Cockcroft didn’t see it that way. Instead, he proposed embracing rather than fearing the calculator. Students should be taught with and without one – and tested accordingly. “Cockcroft is unwilling to pretend that the oncoming wave of technological progress can be dodged,” economist Daniel Susskind writes in his urgent new book. A former Downing Street policy wonk who is now also a researcher at the Institute for Ethics in AI at Oxford University, Susskind casts himself as the Cockroft of the 2020s. In an era of confusion and hand-wringing (if not outright panic) about the implications of AI, he makes the technologist’s case for breathing, learning and grasping the opportunities it presents. The maths comparison only goes so far, of course; even accounting for the hubris of the AI industry, its achievements have already wrought changes that now make the calculator seem about as consequential as the corkscrew. But while the scale of the disruption is new, the historical context is, to some extent, reassuring. The book’s title neatly taps into the techno-angst of the modern parent about a future of extreme uncertainty. If traditionally we passed down wisdom with an open-minded but fairly clear sense of how it might apply to a new generation, “today, it feels like that sense of continuity has broken. In truth, we cannot be sure the advice we gave our children last year still works for the next.” Susskind, a father of young children himself, tries to anticipate a future of artificial general intelligence (AGI) – when AI will outperform us at every economically useful task. (We now have access, via ChatGPT, Claude and the like, to what’s known as artificial narrow intelligence: systems that are good at performing specific tasks.) In an AGI world – one that it’s easy to imagine is round the corner after reading Susskind’s book –whole careers bu",
+      "source_title": "What Should My Children Do? by Daniel Susskind review – the case for embracing tech in the classroom",
+      "source_url": "https://www.theguardian.com/books/2026/sep/09/what-should-my-children-do-by-daniel-susskind-review-the-case-for-embracing-tech-in-the-classroom",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "Aeon视频探讨：在我们尚未理解自身意识时，能否测试AI意识？",
+      "entities": [
+        {
+          "name": "中文房间（Chinese room）",
+          "explain": "哲学家John Searle提出的思想实验，论证机器按规则处理符号不等于真正理解"
+        },
+        {
+          "name": "John Searle",
+          "explain": "美国哲学家，以中文房间论证和言语行为理论闻名"
+        },
+        {
+          "name": "AI意识",
+          "explain": "指人工智能系统是否可能拥有主观体验或感知能力"
+        }
+      ],
+      "summary": "Aeon发布视频，围绕John Searle著名的\"中文房间\"思想实验展开，探讨一个核心问题：当我们连人类自身的意识都尚未完全理解时，是否有可能设计出有效的AI意识测试。视频通过这一经典哲学实验，审视机器\"理解\"与\"意识\"之间的界限。",
+      "relevant": "随着AI能力快速提升，AI是否具有意识成为哲学、伦理和公众讨论的热点问题。",
+      "context": "Searle的中文房间实验自1980年提出以来，一直是讨论机器能否真正理解与拥有心智的核心论据。当前AI发展使这一老问题重新变得紧迫。",
+      "source_analysis": "Aeon是专注哲学、科学与文化议题的在线思想类媒体，内容偏深度思辨。",
+      "social_impact": "",
+      "source_text": "Devised by the late US philosopher John Searle in 1980, the ‘Chinese room’ thought experiment is one of the best-known challenges to the idea that programmed computers could be conscious. This animation from TED-Ed lays out Searle’s famed argument, which has drawn considerable criticism and become more contentious as AI systems have grown far more sophisticated. While exploring whether the Chinese room still computes in the AI era, the video considers the mounting complexities of ever knowing whether computers could have cognitive states – especially given how little we understand our own. Could there ever be a viable test for artificial consciousness? Video by TED-Ed Directors: Hernando Bahamon, Vicente Numpaque, Globizco Studios Producer: Sazia Afrin Writers: Charles Wallace, Dan Kwartler videoPhilosophy of mind We long misjudged animal consciousness. Could AI be next? 5 minutes videoTechnology and the self Why we should worry less about ‘sentient’ AIs and more about what we’re teaching them 16 minutes videoInformation and communication AI isn’t merely bad at writing. It does not and cannot write 40 minutes videoKnowledge Can you know everything about colour if you see in black and white? A thought experiment 5 minutes videoCognition and intelligence How a ‘periodic table’ of animal intelligence could help to root out human bias 5 minutes videoComputing and artificial intelligence Teaching an AI to beat video games still takes human imagination 5 minutes videoMetaphysics Knowing if you’re awake seems simple. Why has it vexed philosophers for centuries? 5 minutes videoArt What does an AI make of what it sees in a contemporary art museum? 15 minutes videoCognition and intelligence Leaping from firing neurons to human behaviour is tempting, but it’s a perilous gap 3 minutes",
+      "source_title": "The Chinese room",
+      "source_url": "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "研究：哲学家与非哲学家在思维特质和思想实验反应上确有差异",
+      "entities": [
+        {
+          "name": "Philosophical Psychology",
+          "explain": "一本发表哲学与心理学交叉研究的学术期刊"
+        },
+        {
+          "name": "神经多样性（neurodivergent）",
+          "explain": "指自闭症、ADHD等与典型神经发育不同的特质"
+        },
+        {
+          "name": "思想实验",
+          "explain": "哲学中通过假设情境来检验直觉和理论的推理方法"
+        }
+      ],
+      "summary": "一项发表于《Philosophical Psychology》的研究比较了哲学家与非哲学家在神经多样性特质及对思想实验反应上的差异，总体上支持\"哲学家思维方式确实不同\"这一说法。Daily Nous刊出研究作者Paul McKee、Khaoula Boulhadi、Helena Weymouth和Thomas Nadelhoffer的客座文章，介绍研究设计与发现。",
+      "relevant": "该研究为哲学方法论中\"哲学家直觉是否具有代表性\"的长期争论提供了实证数据。",
+      "context": "哲学研究长期依赖哲学家的直觉判断，但学界一直质疑这些直觉是否能代表普通人的思维。该研究通过实证方法检验哲学家群体是否存在系统性思维差异。",
+      "source_analysis": "Daily Nous为哲学学术资讯网站，此文为研究作者本人撰写的客座文章，属第一方陈述。",
+      "social_impact": "",
+      "source_text": "How Different Are Philosophers? (guest post) “Do philosophers really think differently than non-philosophers?” That’s the question taken up by a team of researchers in a recent study published in Philosophical Psychology. Focusing on differences between philosophers and non-philosophers in regard to neurodivergent traits and responses to thought experiments, the researchers found some support, in the aggregate, for a “yes” answer to that question. The following guest post is by Paul McKee (Duke), Khaoula Boulhadi (Southern Connecticut State), Helena Weymouth (College of Charleston) & Thomas Nadelhoffer (College of Charleston), the authors of the study (“Thinking Differently: Neurodivergent Traits and Responses to Thought Experiments in Philosophers and the General Population“). How Different Are Philosophers? by Paul McKee, Khaoula Boulhadi, Helena Weymouth & Thomas Nadelhoffer “The history of philosophy is to a great extent that of a certain clash of human temperaments [. . .] Yet, his temperament really gives him a stronger bias than any of his more strictly objective premises. It loads the evidence for him one way or the other” — William James Neurodiversity and Philosophical Intuitions In addition to being abstract thinkers, philosophers are stereotyped as being argumentative, overly self-absorbed in their own thoughts, and enjoy creating increasingly fine distinctions regarding everyday terms while imagining novel hypothetical situations and debating the conclusions they draw. It’s possible that many philosophers have unique personalities. More than two millennia before the modern notion of stereotypes existed, Plato used humor to poke fun at philosophers in the Theaetetus by telling a story of Thales contemplating the stars, so engrossed that he forgot where he was walking and fell down a well. However, do philosophers really think differently than non-philosophers? This was one of the questions behind the paper we recently published in Philosophical Psychology. We surveyed 1,254 individuals, 632 with formal training in philosophy and 622 members of the general public, and explored whether philosophers exhibit significant cognitive differences from non-philosophers using multiple measures of neurodiverse traits. To get enough responses from philosophers, we recruited participants here at Daily Nous and on Leiter Reports. We recruited the general population participants from Prolific. We preregistered our experimental design, research questions, and h",
+      "source_title": "How Different Are Philosophers? (guest post)",
+      "source_url": "https://dailynous.com/2026/09/10/how-different-are-philosophers-guest-post/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "Daily Nous迷你合集：AI与人协作守则、高校技术官僚膨胀等话题",
+      "entities": [
+        {
+          "name": "Ken Liu",
+          "explain": "美籍华裔科幻作家，代表作《三体》英文译者之一"
+        },
+        {
+          "name": "Barry Lam",
+          "explain": "哲学家，曾主持播客Hi-Phi Nation"
+        },
+        {
+          "name": "Lisa Tessman",
+          "explain": "哲学家，2024年美国哲学协会东部分会主席"
+        },
+        {
+          "name": "Steven Hales",
+          "explain": "哲学家，研究认识论与学术文化批评"
+        }
+      ],
+      "summary": "Daily Nous发布新一期Mini-Heap链接合集，收录多条学术与文化资讯，包括Ken Liu的短篇小说《AI与人类协作应知的50件事》、Barry Lam在《波士顿环球报》批评高校技术与官僚膨胀、Lisa Tessman的APA主席演讲，以及Steven Hales对学界\"觉醒文化\"刻板印象的方法论批评等。",
+      "relevant": "合集汇集了当前哲学与高等教育领域多个热点讨论，适合快速了解学界动态。",
+      "context": "Mini-Heap是Daily Nous定期发布的链接汇总栏目，用于分享哲学界和相关领域值得关注的短文、演讲与讨论。",
+      "source_analysis": "Daily Nous为哲学学术资讯网站，Mini-Heap属聚合推荐性质，不代表单一立场。",
+      "social_impact": "",
+      "source_text": "Mini-Heap。New links&#8230; “50 Things Every AI Working with Humans Should Know” &#8212; a short story by Ken Liu “We need a moratorium on new rules and new software purchases until we’ve pruned what does not serve the fundamental mission of teaching and learning and in fact gets in the way of it” &#8212; Barry Lam on higher ed&#8217;s techno-bureaucratic bloat, in the Boston Globe (unpaywalled here) “When What Rightly Matters Doesn’t Really Matter” &#8212; Lisa Tessman&#8217;s Presidential Address at the 2024 Eastern Division APA meeting “Is there dumb wokeness in the academy? Of course. But if we are truly interested in whether it is prominent, representative, isolated [etc.]… we are going to need a more sophisticated methodology than repeated applications of the availability bias” &#8212; Steven Hales on caricatures of the academy Humpback whales to the rescue &#8212; the possibility of animal altruism (via MR) “Self-deception is very easy. For that reason, I do think clear thinking is immensely important. But I don’t think philosophy in the old-fashioned sense is quite the thing the world needs nowadays” (via Open Culture) &#8212; a 1952 television interview with Bertrand Russell (transcript here) Can laws be unjust and yet remain, in some sense, morally legitimate? &#8212; Jonathan Quong and Blain Neufeld discuss this and related questions taken up in Quong&#8217;s new book on &#8220;legitimate injustice&#8221; Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may be of interest to philosophers. The Heap of Links consists partly of suggestions from readers; if you find something online that you think would be of interest to the philosophical community, please send it in for consideration for the Heap. Thank you.Previous edition. &#160; &#160; The post Mini-Heap first appeared on Daily Nous .",
+      "source_title": "Mini-Heap",
+      "source_url": "https://dailynous.com/2026/09/10/mini-heap-728/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "数百期德国新艺术运动杂志《Jugend》可在线下载（1896–1940）",
+      "entities": [
+        {
+          "name": "Jugend",
+          "explain": "1896年创办的德国艺术与文学杂志，是新艺术运动（Art Nouveau）在德国的代表刊物"
+        },
+        {
+          "name": "新艺术运动（Art Nouveau）",
+          "explain": "19世纪末至20世纪初流行于欧洲的装饰艺术风格，强调曲线与自然元素"
+        },
+        {
+          "name": "Gleichschaltung",
+          "explain": "纳粹德国1933年起推行的\"一体化\"政策，将社会各领域强制纳入纳粹控制"
+        }
+      ],
+      "summary": "Open Culture介绍，数百期德国新艺术运动杂志《Jugend》（1896–1940）现已可在线下载。文章同时提及\"Gleichschaltung\"（一体化）概念，指出1933年纳粹上台后德国在短时间内被全面改造，该杂志的命运也折射出这一历史转折。",
+      "relevant": "该杂志是研究德国新艺术运动和20世纪上半叶德国文化史的重要一手资料。",
+      "context": "《Jugend》创办于1896年，是德国新艺术运动的核心刊物，其名称也催生了德语中\"Jugendstil\"（青年风格）一词。1933年纳粹推行一体化政策后，德国文化与出版界被全面重组。",
+      "source_analysis": "Open Culture是专注免费文化教育资源的网站，内容以推荐可公开获取的文献和媒体为主。",
+      "social_impact": "",
+      "source_text": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum writes. “Culture, the economy, education, and law all came under Nazi control.” Those artists and organizations that were not purged had their essential character changed to reflect an entirely different set of artistic and political values. One publication, especially, serves as an example of the Nazification of culture. The arts journal Jugend (Youth), writes Messy Nessy Chic, “had been turned largely into propaganda” between 1933 and 1940, its final year. But prior to the regime’s takeover, Jugend showcased the most avant-garde, “degenerate” artists of the era, and might have been “the ‘brainiest’ periodical of the day,” as one critic wrote in a 1904 issue of The Yale Literary Magazine. “There is no magazine published in England or in this country which is at all like it.” You can take a look yourself—browse, search, and download hundreds of scanned issues of Jugend at the University of Heidelberg’s digital archive, thousands of pages in PDF form, spanning the magazine’s forty-four-year history. You can also see images at Flickr. As in England, France, Austria, and the U.S., the Art Nouveau movement in Germany emerged from a whirlwind of post-Impressionist painting, Orientalist motifs, folk art, modernist art and advertising, book illustration, and graphic and industrial design. Appropriately, given its perch on the threshold of a new century, Art Nouveau looked both backward—to the medieval, gothic, and Romantic—and forward toward a more modernist, urbane, and urbanized sensibility. So influential was Jugend that Art Nouveau in Germany became known as Jugendstil. The Oxford Critical and Cultural History of Modernist Magazines writes, “Among Jugend’s most important qualities—indeed, an essential aspect of Art Nouveau and its German equivalent Jugendstil—was its brilliant escapism.” Founded in 1896 by writer Georg Hirth, the magazine was “from the start a venue to promote the new cultural Renaissance without recourse to the established ‘vintage’ art.” (See its very first cover right above.) Jugendstil was primarily based in Munich, where most of its artists, designers, and writers lived and worked, ",
+      "source_title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "source_url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "弗兰克·劳埃德·赖特的秘密副业：日本艺术品经销商，及其对建筑的影响",
+      "entities": [
+        {
+          "name": "Frank Lloyd Wright",
+          "explain": "美国著名建筑师，代表作包括流水别墅和古根海姆博物馆"
+        },
+        {
+          "name": "日本浮世绘",
+          "explain": "日本江户时代的木版画艺术，对西方印象派和现代艺术影响深远"
+        },
+        {
+          "name": "Vincent van Gogh",
+          "explain": "荷兰后印象派画家，生前几乎未获认可"
+        }
+      ],
+      "summary": "Open Culture文章介绍，美国建筑大师弗兰克·劳埃德·赖特长期经济拮据，曾秘密从事日本艺术品经销以补贴收入。文章探讨这段副业经历如何影响了他的建筑理念与设计风格，尤其是他对日本艺术和空间美学的吸收。",
+      "relevant": "揭示赖特建筑风格中日本艺术影响的经济与个人背景，为理解其作品提供新角度。",
+      "context": "赖特虽在美国建筑界享有盛名数十年，但常因项目开销巨大而财务紧张。他通过经销日本浮世绘等艺术品获取收入，同时深受日本艺术影响。",
+      "source_analysis": "Open Culture为文化教育资源推荐网站，文章属介绍性文化内容。",
+      "social_impact": "",
+      "source_text": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his death. But if they’ve encountered one another in the afterlife, they’ve certainly discussed one subject above all others: their shared appreciation for Japanese woodblock prints. Here on Open Culture, we’ve previously featured the collection of 500 such works of art that van Gogh left behind. At the end of Wright’s life in 1959, he owned about 6,000, many of which his estate had to sell to pay both Japanese art dealers and American tax collectors. We could say that Wright died as he lived, advanced age having not evidently diminished either his financial recklessness or his obsession with ukiyo‑e. The masters of that classical “art of the floating world” like Hokusai and Hiroshige were among his favorite artists of any kind. When still a teenager, Wright went to work for the architect Joseph Silsbee, who’d built a chapel for his uncle. “Silsbee’s cousin, Ernest Fenollosa, happened to be the world’s leading Western expert on Japanese art at the time,” writes Kevin Nute at The Conversation. It isn’t certain how well the young Wright knew Fenollosa — or indeed when he began collecting ukiyo‑e, writes Frank Lloyd Wright and the Art of Japan author Julia Meech-Pekarik, though he may have seen both Hokusai and Hiroshige’s works at the World’s Columbian Exposition in Chicago in 1893, “about the time he opened his practice in Oak Park.” Eight years later, “Wright made his first voyage to Japan in pursuit of prints, and he did indeed return with enough expertise to stage an exhibition of his own Hiroshige collection at the Art Institute of Chicago in March of 1906.” He returned for two months in 1913, making it clear that he was only interested in using that time to acquire more prints. Later, while working on the Imperial Hotel between 1917 and 1922, he spent a total of more than three years there, later writing that “the pursuit of the Japanese print became my constant recreation while in Tokio,” a quest whose “adventures and excursions would take place at night or sometimes call for a journey by day to distant places.” This positioned him well to take on a sideline as a dealer (or as he liked to call himself, a merchant) of Japan",
+      "source_title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "source_url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "碧昂丝2006年专辑《B'Day》推出20周年纪念版，乐评人认为再版缺乏背景梳理",
+      "entities": [
+        {
+          "name": "Beyoncé",
+          "explain": "美国流行乐坛天后级歌手，前真命天女组合成员，单飞后成为全球最畅销的音乐人之一"
+        },
+        {
+          "name": "B'Day",
+          "explain": "碧昂丝2006年发行的第二张个人录音室专辑，融合了放克、嘻哈和R&B风格"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛的评分体系和对独立音乐的深度报道著称"
+        }
+      ],
+      "summary": "碧昂丝2006年个人专辑《B'Day》迎来20周年，推出豪华再版。Pitchfork评论指出，这张专辑当年融合纽约嘻哈灵感，是碧昂丝创作生涯的重要突破，但此次再版几乎未提供任何背景资料或未发行曲目，未能帮助听众理解这张专辑在她职业转折中的关键意义。",
+      "relevant": "碧昂丝是当代流行音乐最具影响力的艺术家之一，《B'Day》是她从偶像歌手转型为创作主导型艺人的关键节点，此次再版引发乐迷对经典专辑再版质量的讨论。",
+      "context": "《B'Day》最初于2006年发行，是碧昂丝单飞后的第二张专辑，当时她刚从真命天女组合解散不久。这张专辑受到纽约地下嘻哈场景的启发，风格比首张专辑更加大胆和实验。20周年纪念版是唱片公司近年常见的经典专辑再版策略的一部分。",
+      "source_analysis": "Pitchfork以严格甚至苛刻的乐评著称，其评分和评论在音乐圈有较高影响力。该网站倾向于从艺术创新性和文化语境角度评价作品，对商业化再版持批判态度。",
+      "social_impact": "经典专辑再版已成为音乐产业的重要收入来源，但乐迷和评论人 increasingly 关注再版是否提供了足够的附加价值，而非单纯的商业收割。",
+      "source_text": "The weirdest song in the entire Beyoncé catalog might just be “Daddy,” the tender finale to her massive 2003 debut album, Dangerously in Love. Originally a hidden track, for good reason, the hook of the piano ballad goes like this: “I want my unborn son to be like my daddy/I want my husband to be like my daddy.” Yeah, the Knowles fam was tripping. The “Daddy” lyrics might give you the heebie jeebies, but the real problem is that, over 20 years later, I still can’t tell if it was a song Beyoncé actually wanted to make or one she felt she had to. I know, I know, Dangerously in Love has got a few heaters on there—the go-go bounce of “Crazy in Love” and the flirtatious dancehall duet “Baby Boy” with Sean Paul, both No. 1 hits, immediately come to mind—but for an album she had been waiting all of her life to make, it’s full of artistic compromise. For as long as Beyoncé has been in the spotlight, the media has been trying to psychoanalyze her relationship with her pops, Mathew Knowles. Before his life goal was to turn Beyoncé into a massive pop sensation, he was purportedly the number-one sales rep in the medical division of Xerox. He brought that acumen into the management of his daughter’s career. As the business man behind Destiny’s Child throughout their lifespan—from a teenage foursome dropping wise-beyond-their-years female empowerment anthems to the trio that has become canon (Bey, Kelly, Michelle)—his old-school helicopter parent tendencies have been heavily documented: making them practice singing while jogging and rewatching tapes of the pop stars before them like a quarterback with Heisman Trophy dreams. His meddling and favoritism has also long been rumored to be the reason for the group’s musical chairs around 1999’s The Writing’s on the Wall, the album that stamped them as one of the great R&B groups of their era. No score yet, be the first to add. You’ll never find it said explicitly, given how Beyoncé has been media-trained since elementary school, but it was apparent that there was immense pressure on her not just to become a star, but to do so on her dad’s terms. There are hints in a 2004 Rolling Stone profile that zooms in on how much work he put into the development of the Beyoncé brand, as he drops manipulative comments that could be interpreted as an attempt to keep her in check: “Beyoncé’s not as beautiful as her mama,” goes one. A couple years earlier, speaking to Vibe, Beyoncé said, “I’ve always been the type of person who cares so much",
+      "source_title": "B’DAY (20th ANNIVERSARY EDITION)",
+      "source_url": "https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "英国说唱歌手Skaiwater发布年内第二张专辑《femme fatale》，融合加勒比与Afrobeats元素",
+      "entities": [
+        {
+          "name": "Skaiwater",
+          "explain": "英国出生的说唱歌手和制作人，以融合多种流派著称，在TikTok等平台拥有大量年轻粉丝"
+        },
+        {
+          "name": "femme fatale",
+          "explain": "法语词，意为“致命女人”，常用来形容具有危险魅力的女性，此处为专辑名称"
+        },
+        {
+          "name": "Afrobeats",
+          "explain": "源自西非的流行音乐流派，融合非洲节奏与流行、嘻哈元素，近年全球影响力迅速上升"
+        }
+      ],
+      "summary": "英国说唱歌手Skaiwater在一年内发布第二张专辑《femme fatale》。Pitchfork评价这张专辑节奏轻快、编排精巧，将愤怒情绪的音色与柔和的律动混合，并融入加勒比和Afrobeats影响，展现了Skaiwater在多种风格间自如切换的能力。",
+      "relevant": "Afrobeats和加勒比音乐正在全球主流音乐中占据越来越重要的位置，Skaiwater作为新生代艺人代表了这种跨流派融合的趋势。",
+      "context": "Skaiwater近年来凭借在社交媒体上的活跃和独特的音乐风格迅速崛起，这是他在同一年内发布的第二张专辑，显示出高产的工作节奏。Afrobeats近年来通过Burna Boy、Wizkid等艺人成功打入欧美主流市场。",
+      "source_analysis": "Pitchfork对这张专辑给予正面评价，认为其“忙碌但轻松”，体现了该网站对跨流派实验性作品的偏好。",
+      "social_impact": "Afrobeats和加勒比音乐元素的广泛采用反映了全球音乐市场的去中心化趋势，非西方音乐风格正成为主流流行文化的重要组成部分。",
+      "source_text": "I blinked too fast, and all of a sudden, it was time to do retrospectives on the music of Young Thug. After briefly confronting my own mortality—Barter 6 and “2 B’s (Danny Glover)” are how old?—it’s staggering to consider just how large the YSL head honcho’s musical and cultural footprints are. Heads were using terms like “post-text” to describe the way his voice landed on people’s eardrums back in 2016, and there isn’t another rapper alive whose excitable flows and vocal tics could be credited with both reshaping Atlanta rap and inspiring Elton John. Even at what’s arguably the nadir of his popularity post-RICO trial, Thug is currently shepherding his second cohort of young Atlanta upstarts like Tezzus, diamond*, and Pz’ into the spotlight. skaiwater isn’t part of that clique and wasn’t even born on this side of the globe, but their frenetic, lovelorn chortles and rap-first genre-hopping mark them as a child of Thug regardless. Their breakout album, 2024’s #gigi, best showcases the ambition of an artist blending rage rap, Jersey club, and emo rock with the excitement of a kid trying to mix all the Fun Dips into one flavor. That ambition also caused wonderful, their attempt at making a Capital-A Album, to collapse under its own weight. Now they’re back with femme fatale, a leaner, Thug-inspired—lead single “HITUNES” is named after Thug’s shelved debut—bout of Pan-Africanist musical fusion. No score yet, be the first to add. From the start, skaiwater’s aesthetic relied on shocking musical contrasts. Rage distortion layered over shimmering bells and synths? Swag-era 808s chased with blasts of scrambled pop and a confetti canon? skai had you covered and, most likely, stunned. That novelty’s worn off a bit over the past two years, but femme fatale represents both a recalibration and an expansion. Genre-smashing collabs still abound—opener “vampires, zombies” finds room for twee choral vocals, guitar shredding, and DS2-era siren tags—but on femme fatale the Caribbean riddims and Afrobeats grooves, mere flirtations before, are foregrounded more than ever. “ella” and “radar, radar” skew closest, but about a quarter of the tracklist works that patented sway in somewhere. On “ella,” faint horn lines meld with the bouncing 808s for a vibe that’s mild without losing the punch and groove you’d expect from an Afrohouse and dembow mashup. Most refreshing are some of the calmest songs in skaiwater’s discography: The muted shuffle of “foreigner,” produced by skai and Made",
+      "source_title": "femme fatale",
+      "source_url": "https://pitchfork.com/reviews/albums/skaiwater-femme-fatale/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "Black Bananas乐队发布12年来首张专辑《Bad Bunch》，风格从硬摇滚转向嘻哈与R&B混合",
+      "entities": [
+        {
+          "name": "Black Bananas",
+          "explain": "美国摇滚乐队，由Royal Trux前成员Jennifer Herrema组建，以粗粝的实验摇滚风格著称"
+        },
+        {
+          "name": "Jennifer Herrema",
+          "explain": "美国音乐人，Royal Trux乐队主唱，以独特的嗓音和反叛的舞台形象闻名于独立摇滚圈"
+        },
+        {
+          "name": "Royal Trux",
+          "explain": "美国实验摇滚乐队，活跃于1990年代，以lo-fi和噪音摇滚风格影响了一批独立音乐人"
+        }
+      ],
+      "summary": "Jennifer Herrema的乐队Black Bananas发布12年来首张专辑《Bad Bunch》。Pitchfork评论指出，Herrema放弃了以往的老派硬摇滚风格，转而采用嘻哈、R&B、Dub和二手电子设备的混合音色，呈现出一种迷幻而松散的声音质感。",
+      "relevant": "Royal Trux和Jennifer Herrema是独立摇滚史上的重要名字，这张专辑代表了一位资深音乐人在沉寂多年后的风格转型。",
+      "context": "Black Bananas是Jennifer Herrema在Royal Trux解散后组建的乐队，上一张专辑已是12年前。Herrema长期以来以不妥协的实验态度著称，此次风格转变令乐评人意外。",
+      "source_analysis": "Pitchfork对这张专辑的评论带有好奇和审慎的欣赏，体现了该网站对资深独立音乐人转型尝试的关注。",
+      "social_impact": "老牌独立音乐人在流媒体时代的转型尝试，反映了音乐产业变化对艺术家创作方向的深刻影响。",
+      "source_text": "For nearly 40 years now, Jennifer Herrema has tuned her inner antennae to the sound of the radio—or at least, the experience of listening to it. Navigating her vast discography—with Royal Trux, then RTX, and now Black Bananas—feels a lot like randomly sliding back and forth on an FM dial, where you might bounce between classic-rock fist-pumpers, retro roller-rink jams, crackly country golden oldies, and whatever weird shit the overnight DJ at your local campus station can get away with playing at 3 a.m. The first Black Bananas album in 12 years exists in that space beyond the city limits where the signal starts to fade, faint transmissions of bygone pop hits dissolve into static, and rock gods become ghosts. Though it was long delayed by a combination of factors (including Royal Trux’s ill-fated late-2010s reunion and the pandemic), Bad Bunch feels like the logical next step for the project—which is to say it continues to push the group toward the illogical. No score yet, be the first to add. On 2012’s Rad Times Xpress IV and 2014’s Electric Brick Wall, Herrema and bandmates Brian McKinley and Kurt Midness triggered an increasingly chaotic soundclash between two oft-segregated ’80s aesthetics: hotwired-Camaro hair metal and block-party electro. But where Black Bananas retained the ripped-denim facade of a rock group even in their most techno-curious moments, Bad Bunch dives deep into a B-boy bouillabaisse of hip-hop, R&B, dub, and pawn-shop electronics, blurring the line between experimental band and production team. This is a strange group that only gets stranger the closer it veers to pop music. In the hands of a typical band, the opening “Nutrageous & Jam” might come off as a candlelit R&B boudoir ballad primed for Lite FM rotation. Black Bananas make it feel like you’re walking through a dream where the surroundings feel familiar, but the faces are blurred and you can’t understand what anyone’s saying. Herrema stumbles and mumbles her way into the track as if she’s just been roused from a years-long nap—perhaps fittingly, given that her band has been out of commission for over a decade—but instead of shaking off the grogginess, she lingers in that half-awake state, her vocals smeared into a brassy blare that fills the space where the soft-rock sax solo would go. And while it wouldn’t be a true Black Bananas song without some degree of shredding, the guitar solo is less a focal point than just another subliminal frequency to upset the equilibrium. As “N",
+      "source_title": "Bad Bunch",
+      "source_url": "https://pitchfork.com/reviews/albums/black-bananas-bad-bunch/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "斯洛伐克出生歌手Adela发布首张专辑《PRIMA》，乐评人认为制作有潜力但音乐本身平淡",
+      "entities": [
+        {
+          "name": "Adela",
+          "explain": "出生于斯洛伐克的流行歌手，通过真人秀节目获得关注后进入音乐行业"
+        },
+        {
+          "name": "PRIMA",
+          "explain": "Adela的首张录音室专辑，名称在斯洛伐克语中有“第一”或“顶级”之意"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严格评分著称"
+        }
+      ],
+      "summary": "斯洛伐克出生的流行歌手Adela通过真人秀成名后发布首张专辑《PRIMA》。Pitchfork评论认为，这张专辑具备成为另类 cult 经典的潜质，制作方向前卫，但音乐本身缺乏足够的吸引力，整体表现未能匹配其野心。",
+      "relevant": "真人秀出身的音乐人能否获得严肃乐评认可，是流行文化中持续被讨论的话题。",
+      "context": "Adela出生于斯洛伐克，通过真人秀节目获得公众关注后转型为流行歌手。《PRIMA》是她的首张正式专辑，承载了从真人秀明星到严肃音乐人的转型期望。",
+      "source_analysis": "Pitchfork的评论带有明显的保留态度，认为专辑“有潜力但不够有趣”，体现了该网站对真人秀出身艺人的审慎立场。",
+      "social_impact": "真人秀造星模式在欧洲持续产出音乐人，但其音乐作品能否获得艺术认可仍存在争议。",
+      "source_text": "At 18, she was one of the older girls in the cast. She could dance—in heels, no less; the importance of teenagers being able to dance in heels was often stressed. She could capably carry a tune. And she knew her camera. Adéla Jergová arrived at The Debut: Dream Academy as a day-one frontrunner. The competition show, a joint brainchild of K-pop corporate giant HYBE and American label Geffen, resulted in the formation of KATSEYE and was later re-edited into a Netflix series called Pop Star Academy. It’s reality TV with the last coat of varnish stripped: Where the producers of, say, RuPaul’s Drag Race might craft a narrative intended to signal “this person is an underdog,” Pop Star Academy straight-up labeled some of its contestants “The Underdogs.” “Adéla brings a level of professionalism that we don’t have in anyone else,” we’re told early on, and when she’s eliminated in the first round of the “survival” portion, it’s with the caveat, “We see Adéla as a solo artist.” That may go down as the luckiest rejection of her career. One of the cleverer things about ADÉLA’s full-length debut, where cleverness is in vanishingly short supply, is its title. It’s PRIMA as in “first”—first dancer, first place, first elimination. One word contains the whole ADÉLA creation myth: her ambition, her apostatic setback, and her subsequent renewal, a baptism in Manic Panic. “Ain’t in LA,” one of the record’s singles and, now, ADÉLA’s first Billboard hit, is a rich lore drop for the initiated fan. She sings of hand-me-down clothes and pop music posters smuggled into communist Czechoslovakia. “I’d rather be a nobody than to be like anyone,” ADÉLA vows, with all the stacked-vocal conviction of the early-2010s Western pop that once blared from her childhood bedroom. It’s a bleak, almost tragic coda for an album that could well make her a star, at the cost of making her unremarkable. No score yet, be the first to add. As a thought experiment, let’s wipe Dream Academy from the cultural memory bank. Without the built-in narrative, what does PRIMA tell us about this new pop aspirant? Identifying details are scant. We know she has plenty of sex, though the album isn’t so much sexy as it is vampy. (Vibrators and Louboutins both get the tortured metaphor treatment.) This ADÉLA is several shades of pink removed from the wall-pissing antics of her 2025 EP, The Provocateur, and closer to a chatbot trained on Positions cast-offs. “I’m the Man” has so little curiosity for the feminist or erotic",
+      "source_title": "PRIMA",
+      "source_url": "https://pitchfork.com/reviews/albums/adela-prima/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "制作人David August与打击乐手Lorenzo Setti合作推出专辑《Miraggi》，打造地中海风情氛围音乐",
+      "entities": [
+        {
+          "name": "David August",
+          "explain": "德国电子音乐制作人和DJ，以深邃的house和氛围音乐风格著称"
+        },
+        {
+          "name": "Lorenzo Setti",
+          "explain": "意大利打击乐手，擅长多种手鼓和节奏乐器"
+        },
+        {
+          "name": "Miraggi",
+          "explain": "意大利语，意为“海市蜃楼”或“幻象”，此处为专辑名称"
+        }
+      ],
+      "summary": "德国电子制作人David August与意大利打击乐手Lorenzo Setti合作推出专辑《Miraggi》。Pitchfork评价这张专辑以托斯卡纳海岸的富饶风情为灵感，打造出完美的地中海式 chill-out 音乐，氛围宁静而精致。",
+      "relevant": "这张专辑代表了电子音乐与地中海传统节奏的融合趋势，适合关注氛围音乐和世界音乐交叉领域的听众。",
+      "context": "David August是德国知名电子音乐人，以旋律性强、情感深邃的house音乐闻名。Lorenzo Setti是意大利打击乐手。两人合作以托斯卡纳海岸为灵感来源，创作了这张氛围音乐专辑。",
+      "source_analysis": "Pitchfork对这张专辑给予高度评价，用“完美的涅槃”来形容，体现了该网站对氛围音乐和跨文化合作项目的欣赏。",
+      "social_impact": "地中海 chill-out 音乐在流媒体时代拥有稳定的听众群体，此类合作专辑反映了电子音乐人向地理和文化根源寻找灵感的趋势。",
+      "source_text": "Not all of us can afford beachfront property with a convertible Bugatti to match, but thanks to the new album by Argento, we no longer need to. Inspired by the riches of the Tuscan coast, Miraggi is as sultry as music tagged “Balearic” gets. Breathy flutes wisp up and down, casting their ocean spray as they pass. Lithe basslines sway against windswept chimes, beckoning you to leave it all behind. New age, downtempo, and jazz fusion shimmer and swirl together like crisp white wine. That’s right, don’t resist. Summer never has to end. If this all seems like fantasy, it’s just as much of one for Argento. The side project was conceived by German-Italian producer David August, who spends most of his time hovering between the orbits of neoclassical ambience and brainy, headphone-ready dance music. He’s performed his work at the Barbican, been interpreted by the likes of Flora Yin-Wong, Valentina Magaletti, and Claire Rousay, and operates his own experimentally minded 99CHANTS label. Basically, he’s a serious artist, the kind who works with symphony orchestras in Berlin and gets commissioned to do audiovisual installations at MUTEK. He certainly doesn’t make music that you’d expect to hear sweaty and sea-soaked between salty bites of focaccia genovese. No score yet, be the first to add. But for August, Miraggi is actually a homecoming of sorts. Born in Hamburg but having spent part of his childhood in a small mountainside town outside Rome, August pieced Miraggi together between Berlin and the Tyrrhenian coast alongside percussionist Lorenzo Setti while submerged in a haze of Italian library music from the ’70s and ’80s. The results are a kind of idealized version of Mediterranean chill-out music—the same idyllic landscape producer Young Marco envisioned in what he christened “Italian dream house” on his classic 2017 compilation, only less explicitly oriented toward the club here. These tracks ooze kitsch, but get all the details just right, reaching a swagged out nirvana as August crystalizes this luxurious and extremely specific aesthetic. Though August doesn’t completely abandon his dancefloor instincts, he primarily channels them through his continuous sense of forward motion, as Miraggi’s undulating rhythms are more likely to produce stoney-eyed nods than anything close to an Ibiza-ready drop. Together the duo share more in common with new-agey ’90s groovers like Robert Rich and Davol, or As Falls Wichita-era Pat Metheny and Lyle Mays reimagined with a more ",
+      "source_title": "Miraggi",
+      "source_url": "https://pitchfork.com/reviews/albums/argento-miraggi/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "Open Culture展示托尔金亲自设计的《指环王》三部曲书籍封面",
+      "entities": [
+        {
+          "name": "J.R.R. Tolkien",
+          "explain": "英国作家和语言学家，奇幻文学奠基人，《霍比特人》和《指环王》的作者"
+        },
+        {
+          "name": "The Lord of the Rings",
+          "explain": "托尔金创作的史诗奇幻三部曲，20世纪最具影响力的文学作品之一"
+        },
+        {
+          "name": "Open Culture",
+          "explain": "一个专注于免费文化教育资源的网站，经常分享艺术作品、书籍和课程"
+        }
+      ],
+      "summary": "Open Culture网站展示了J.R.R.托尔金亲自为《指环王》三部曲设计的个人书籍封面。文章指出，尽管无数粉丝、电影人、游戏设计师和广播制作人尝试改编托尔金的中土世界，但从未有改编作品能超越原著本身。",
+      "relevant": "托尔金不仅是作家，也是视觉艺术家，他的封面设计展现了他对中土世界的个人视觉构想，对理解其创作意图有重要价值。",
+      "context": "托尔金在创作《指环王》期间不仅撰写了文本，还绘制了大量插图和封面设计。这些设计长期未被广泛传播，Open Culture此次将其整理展示，让读者得以一窥作者本人的视觉想象。",
+      "source_analysis": "Open Culture是一个非营利性文化资源网站，立场偏向于推广免费教育和文化遗产，对托尔金的作品持高度推崇态度。",
+      "social_impact": "托尔金的作品全球销量超过1.5亿册，其改编电影《指环王》三部曲获得17项奥斯卡奖，是奇幻文化最重要的IP之一。",
+      "source_text": "In some rare cases, adaptations and interpretations of a literary work can surpass the source. Despite hundreds of valiant efforts on the part of fans, filmmakers, game/toy designers, and radio producers, this has never been true of the fully-realized fantasy world in J.R.R. Tolkien’s The Hobbit and The Lord of the Rings trilogy (not that it’s ever been anyone’s intent). As we noted in a previous post, Tolkien’s fictional world is so intricate, its sources so vast and varied, that Corey Olsen, “The Tolkien Professor,” has made it his entire life’s work to open that world up to students and curious readers, such as with his eight-part lecture series on The Hobbit. One might also add illustrators to the list of Tolkien interpreters above who have—in the almost ninety years since The Hobbit’s publication and more than seventy years since the first appearance of The Lord of the Rings trilogy—done their best to visualize Tolkien’s world. But perhaps no one did so better than the master himself. Long known as a visual artist as well as a literary one, Tolkien left behind over 100 illustrations for The Hobbit, one of which adorns 2011’s HarperCollins 75th anniversary edition of the book. He also created these original cover designs for each book in The Lord of the Rings trilogy. In the long and complex publication history of Tolkien’s most famous of works, it’s unclear if these designs ever made it onto books published during his lifetime, but the sigil in the center of The Fellowship of the Ring design (above), with its ominous eye of Sauron surrounded by elvish runes and topped by the one ring, did grace the elegant, minimalist covers of the first edition of the trilogy. Tolkien’s artwork received a thorough treatment in a 1995 monograph J.R.R. Tolkien Artist & Illustrator, which covers over 60 years of Tolkien’s life as an artist, and the magic of flickr brings us this compendium of Tolkien illustrations. Note: An earlier version of this post appeared on our site in 2013. Related Content: The Art of the Book Cover Explained at TED Vladimir Nabokov Marvels Over Different “Lolita” Book Covers Jack Kerouac’s Hand-Drawn Cover for On the Road Josh Jones is a writer and musician based in Durham, NC.",
+      "source_title": "Discover J.R.R. Tolkien’s Personal Book Cover Designs for The Lord of the Rings Trilogy",
+      "source_url": "https://www.openculture.com/2026/09/j-r-r-tolkiens-personal-book-cover-designs-for-the-lord-of-the-rings.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "Aeon刊文探讨中世纪心理健康疗法：藏红花、鸵鸟肝与运动、园艺、社交并重",
+      "entities": [
+        {
+          "name": "Aeon",
+          "explain": "一家专注于哲学、科学、心理学和社会议题的在线数字杂志，以深度长文著称"
+        },
+        {
+          "name": "Katherine Harvey",
+          "explain": "历史学者，研究中世纪医学和宗教文化，本文作者"
+        },
+        {
+          "name": "中世纪",
+          "explain": "欧洲历史时期，约公元5世纪至15世纪，常被误解为医学和科学停滞的时代"
+        }
+      ],
+      "summary": "Aeon发表历史学者Katherine Harvey的文章，探讨中世纪欧洲对心理健康的理解与治疗方式。文章指出，中世纪医生不仅使用藏红花和鸵鸟肝等药物，还推荐运动、花园、动物陪伴、社交和音乐等疗法，其整体思路与现代心理健康理念有相似之处。",
+      "relevant": "这篇文章挑战了“中世纪医学完全落后”的刻板印象，揭示了历史上对心理健康的关注和多元疗法，对理解现代心理治疗的历史渊源有启发意义。",
+      "context": "中世纪欧洲的医学深受古希腊罗马传统和伊斯兰医学影响，医生们将心理状态与体液平衡联系起来。近年来，历史学者 increasingly 关注中世纪人对心理健康的认知，试图纠正“黑暗时代”的简化叙事。",
+      "source_analysis": "Aeon以发表跨学科深度文章著称，立场偏向人文主义和学术普及，倾向于挑战主流叙事、提供历史新视角。",
+      "social_impact": "全球心理健康问题日益受到关注，这篇文章通过历史视角提醒人们，对心理健康的关注并非现代独有，多元疗法（如社交处方、园艺疗法）正在当代复兴。",
+      "source_text": "Listen to this essay 29 minute listen Early one morning in the late 12th century, Bishop Hugh of Lincoln arrived in the Hertfordshire village of Cheshunt. There, he was immediately surrounded by a crowd of people, who begged him to help one of their neighbours. And so, dismounting from his horse, he went to the man’s house, where he was confronted by the disturbing sight of a possessed man ‘lying prostrate with his head tied to a post and each of his hands to great stakes fixed in the ground.’ Despite these restraints, the man constantly writhed around, rolling his eyes, gnashing his teeth, and sticking his tongue out. To Hugh, as to the local onlookers, the diagnosis was clear: this unfortunate sailor had been possessed by a demon and could be cured only by an exorcism. Once the necessary rituals were performed, he was ‘delivered from the demon [and] … after living devoutly for some years, finally made a good and peaceful end.’ For Hugh’s biographer, Adam of Eynsham, the incident was worth recounting because it demonstrated not only that the future saint had healing powers, but that he was a brave and compassionate man (in sharp contrast to the local bishop, who had ‘galloped away as if pursued by the Furies’, rather than face a possessed man). But, to us, the story – full of fear, cruelty and superstition – sums up both everything that was wrong with medieval attitudes to mental illness, and the apparent uselessness of medieval medicine in the face of serious illness. And yet, as is so often the case when studying the distant past, the reality was rather more complicated. Influenced by stories of demonic possession (and there are lots of them, especially in saints’ lives and miracle collections), I long assumed that our ancestors’ attitudes to, and experiences of, mental health were completely different to our own – and that they would have little sympathy with our fast-growing mental health crisis. But when I turned my attention away from religious texts, and began to research medieval ideas about healthy living, I soon came across medieval people who discussed mental health in ways that felt far more familiar to me. The similarities were particularly apparent in medical writings, which outline a sophisticated argument that mental wellness was at the heart of a healthy lifestyle. According to the dominant humoral system of medicine, health was achieved by keeping four bodily fluids (blood, phlegm, black bile, and yellow bile) in balance. The best way to",
+      "source_title": "Medieval mental health",
+      "source_url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "Aeon视频记录澳大利亚原住民艺术家用艺术覆盖殖民地图，修正历史记录",
+      "entities": [
+        {
+          "name": "Aeon Video",
+          "explain": "Aeon杂志的视频栏目，制作哲学、文化和社会议题的短片"
+        },
+        {
+          "name": "原住民知识",
+          "explain": "澳大利亚原住民世代传承的对土地、自然和历史的认知体系，与西方科学知识体系不同"
+        },
+        {
+          "name": "殖民制图",
+          "explain": "欧洲殖民者绘制的澳大利亚地图，通常忽略或抹去原住民对土地的命名和认知"
+        }
+      ],
+      "summary": "Aeon发布视频，记录澳大利亚中部原住民艺术家通过绘画覆盖殖民时期地图，用原住民知识和艺术修正被殖民叙事抹去的历史记录。视频展示了艺术家们如何用创作重新夺回对土地和历史的表述权。",
+      "relevant": "澳大利亚原住民的历史和土地权利是持续的社会议题，原住民艺术家通过艺术介入历史修正，是当代艺术与政治交叉的重要案例。",
+      "context": "澳大利亚殖民历史中，欧洲定居者绘制的地图系统性地忽略了原住民对土地的命名、边界和知识。近年来，原住民艺术家 increasingly 使用艺术作为工具，挑战殖民历史叙事，重新主张文化主权。",
+      "source_analysis": "Aeon Video以制作具有社会关怀和哲学深度的短片著称，立场偏向支持原住民权利和后殖民批判。",
+      "social_impact": "澳大利亚原住民在殖民过程中遭受了严重的土地剥夺和文化压制，至今在健康、教育和收入等方面仍面临显著不平等。原住民艺术运动是文化复兴和权利主张的重要组成部分。",
+      "source_text": "‘The land had its own stories.’ A common narrative among European settlers was that the lands they occupied were empty and, therefore, free to claim. This assumption, imposed across many colonies, severed Indigenous peoples from places to which they held deep cultural and spiritual ties. Central Australia was no exception: the doctrine of ‘terra nullius’, used to justify British claims over Australia, treated the land as if it belonged to no one, disregarding the long histories of Aboriginal communities who had been living there for tens of thousands of years. For this short documentary, the British artist Patrick Waterhouse collaborated with the Warlukurlangu art centre to revisit that history by intervening in official colonial documents and maps. Working for several years with Warlpiri artists from Yuendumu and Nyirripi, he invited them to respond to these archival materials through their own visual languages. The film captures the collaborative process, the conversations prompted by these documents and the striking works that emerge: pieces in which colonial cartography intersects with Indigenous knowledge and art.",
+      "source_title": "Making revisions",
+      "source_url": "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "阿尔巴尼亚爆发“火烈鸟革命”：库什纳夫妇豪华度假村计划引爆大规模抗议",
+      "entities": [
+        {
+          "name": "火烈鸟革命",
+          "explain": "阿尔巴尼亚近年来最大规模的反政府抗议运动，因火烈鸟栖息的自然保护岛被规划建豪华度假村而得名"
+        },
+        {
+          "name": "贾里德·库什纳与伊万卡·特朗普",
+          "explain": "美国前总统特朗普的女婿和女儿，两人计划在阿尔巴尼亚公共自然保护岛上开发豪华度假村"
+        },
+        {
+          "name": "埃迪·拉马",
+          "explain": "阿尔巴尼亚现任总理，被抗议者指控将国家海岸线出卖给精英阶层"
+        },
+        {
+          "name": "地拉那",
+          "explain": "阿尔巴尼亚首都，抗议活动的主要发生地"
+        }
+      ],
+      "summary": "数千名抗议者涌上阿尔巴尼亚首都地拉那街头，爆发自共产主义崩溃以来该国最大规模的骚乱。抗议最初由库什纳和伊万卡·特朗普在公共自然保护岛上建造豪华度假村的计划引发，被称为“火烈鸟革命”，但已升级为对总理埃迪·拉马政府的全面挑战，示威者指控政府将阿尔巴尼亚海岸线出卖给精英阶层。",
+      "relevant": "一场由环境保护引发的抗议如何演变为对政府腐败和精英特权的全面政治挑战，是观察阿尔巴尼亚民主现状和全球环保运动政治化的典型案例。",
+      "context": "库什纳和伊万卡·特朗普计划在阿尔巴尼亚一处公共自然保护岛上开发豪华度假村，引发当地环保人士和民众不满。抗议从反对该开发项目开始，逐渐扩大为对拉马政府整体执政的抗议，反对派指责政府系统性向富裕精英出售国家海岸资源。",
+      "source_analysis": "卫报（The Guardian）以视频报道形式呈现，该媒体在环境与人权议题上通常持自由派立场，倾向关注草根抗议和环保议题。",
+      "social_impact": "数千人参与抗议，是阿尔巴尼亚自1990年代共产主义政权垮台以来最大规模的民众运动，可能对该国政治格局产生深远影响。",
+      "source_text": "Flamingo Revolution: The Albanians protesting to bring down the elites – video。Thousands of protesters are flooding the streets of Tirana in the biggest unrest Albania has seen since the collapse of communism. It began as the “flamingo revolution”, sparked by Jared Kushner and Ivanka Trump’s plans for a luxury mega-resort on a public nature reserve island. But the protests have since grown into a wider challenge to Prime Minister Edi Rama’s government, which is accused of selling off Albania’s coastline to the elites. Matthew Cassel travels to Albania to see how an environmental fight over one island has escalated into a political battle over the country’s future. Continue reading...",
+      "source_title": "Flamingo Revolution: The Albanians protesting to bring down the elites – video",
+      "source_url": "https://www.theguardian.com/news/video/2026/sep/10/flamingo-revolution-the-albanians-protesting-to-bring-down-the-elites-video",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "厄尔尼诺加剧印尼山火，南婆罗洲儿童健康受威胁",
+      "entities": [
+        {
+          "name": "厄尔尼诺",
+          "explain": "一种太平洋海水异常升温的气候现象，会导致东南亚地区干旱加剧，从而引发更多山火"
+        },
+        {
+          "name": "泥炭地",
+          "explain": "由大量未完全分解的植物残体堆积形成的湿地，一旦着火极难扑灭并释放大量有毒烟雾"
+        },
+        {
+          "name": "南婆罗洲",
+          "explain": "印度尼西亚婆罗洲岛南部地区，拥有大面积泥炭地和森林，每年旱季易发生严重山火"
+        },
+        {
+          "name": "Banjarmasin",
+          "explain": "印尼南加里曼丹省首府，位于婆罗洲南部，是此次山火影响的中心城市"
+        }
+      ],
+      "summary": "随着厄尔尼诺现象加剧，印度尼西亚山火持续蔓延，南婆罗洲地区儿童健康面临严重威胁。居民Siti Sarah所在的Pengayuan村附近8月18日发生火灾，火焰一度逼近其住所仅100米。泥炭地火灾产生的浓烟严重影响当地空气质量和儿童呼吸健康。",
+      "relevant": "厄尔尼诺引发的印尼山火是东南亚每年反复出现的跨境雾霾危机，不仅威胁当地居民健康，还影响邻国空气质量，是气候变化与公共健康交叉的典型议题。",
+      "context": "厄尔尼诺现象导致印尼旱季更加干燥，泥炭地极易着火且难以扑灭。印尼每年旱季都会发生山火，但厄尔尼诺年份火势更为严重，2015年和2019年曾引发严重跨境雾霾危机。",
+      "source_analysis": "Mongabay是一家专注于环境与保育新闻的非营利媒体，报道立场偏向关注生态保护和原住民权益。",
+      "social_impact": "山火烟雾威胁南婆罗洲大量居民尤其是儿童的呼吸健康，泥炭地火灾释放的碳排放量巨大，对区域空气质量和全球气候均有影响。",
+      "source_text": "- Wildfires across Borneo and Sumatra are raising health risks for local populations, with some health offices reporting rising rates of respiratory disease. - Mothers in Indonesia’s South Kalimantan province report extensive stress from caregiving and domestic responsibilities as family members fall ill amid harmful air quality caused by hinterland fires. - A strong El Niño is expected to prolong Indonesia’s main dry season, possibly beyond October, elevating risks to people and wildlife from wildfires. - Southeasterly trade winds have spread wildfire pollution beyond Indonesia to neighboring Malaysia and Singapore, whose governments have issued health advisories for their citizens. BANJARMASIN, Indonesia — Siti Sarah slept in fits and starts through August as the fires broke out around her village and surrounding peatlands. One fire on Aug. 18 at first seemed a safe distance away, but in a heartbeat the flames were within 100 meters (330 feet) of her home in Pengayuan, a village in Indonesia’s South Kalimantan province. “The fire seemed to leap up,” Siti told Mongabay Indonesia. “All of a sudden it was right there — it grew so fast.” Cries for help echoed around the village as Siti joined the community’s firefighting press. “I also helped put out a fire,” she said. “By whacking it with a piece of wood.” Two days later, firefighters scrambled to extinguish yet another blaze in the village grounds, dousing the flames before they could reach any homes. Across Indonesia, community and government firefighters have been battling fires like this since the main dry season began in July, many of them burning across carbon-rich peatlands in the low-lying deltas and plains of Borneo and Sumatra. In recent decades, Borneo’s peatlands have been drained for oil palm plantations to meet rising global consumer demand for palm oil. Fire is often used as a cheap way to clear land, but the flames can quickly run out of control across drained peatlands, which become a tinderbox when desiccated by El Niño-fueled drought. In western Borneo, animal rescuers are scrambling to save orangutans stranded by the fires, while smoke blankets towns and villages across the island, sickening residents and upending daily life. Southeasterly winds have carried smoke from Indonesia’s wildfires across borders into Malaysia and Singapore, prompting health advisories in both countries. During the Southeast Asian wildfire catastrophe of 2015, also fueled by a strong El Niño and positive Indian ",
+      "source_title": "Children’s health at risk in south Borneo as El Niño intensifies Indonesia wildfires",
+      "source_url": "https://news.mongabay.com/2026/09/childrens-health-at-risk-in-south-borneo-as-el-nino-intensifies-indonesia-wildfires/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "戴安娜·里格之女出版回忆录，深情致敬《复仇者》传奇女星",
+      "entities": [
+        {
+          "name": "戴安娜·里格（Diana Rigg）",
+          "explain": "英国已故著名女演员，因在1960年代间谍剧《复仇者》中饰演艾玛·皮尔一角成名，后出演《权力的游戏》等作品"
+        },
+        {
+          "name": "蕾切尔·斯特灵（Rachael Stirling）",
+          "explain": "戴安娜·里格的女儿，英国女演员，本书作者"
+        },
+        {
+          "name": "《复仇者》（The Avengers）",
+          "explain": "1960年代英国经典间谍电视剧，戴安娜·里格在剧中接替Honor Blackman饰演女主角艾玛·皮尔"
+        },
+        {
+          "name": "帕特里克·麦克尼（Patrick Macnee）",
+          "explain": "《复仇者》男主角，饰演John Steed，与戴安娜·里格搭档演出"
+        }
+      ],
+      "summary": "戴安娜·里格的女儿蕾切尔·斯特灵撰写了回忆录《All About My Mother》，以幽默而亲密的方式悼念这位1960年代《复仇者》明星。书中讲述了里格拒绝在剧中充当男主的附属角色、得知自己薪酬远低于男主角和摄像师后要求加薪并获得成功的故事，展现了她超前的女性意识。",
+      "relevant": "这本回忆录不仅是对一位传奇演员的致敬，也记录了1960年代女性在职场争取平等薪酬的早期案例，对理解演艺圈性别平等议题有历史参考价值。",
+      "context": "戴安娜·里格于2020年去世，她是英国演艺界的标志性人物。她在《复仇者》中塑造的艾玛·皮尔打破了当时女性角色被动附属于男性的刻板印象。女儿蕾切尔·斯特灵本身也是演员，此书是她对母亲的深情追忆。",
+      "source_analysis": "卫报书籍版（The Guardian Books）的书评，该媒体在性别平等和文化议题上通常持进步立场，书评整体基调正面。",
+      "social_impact": "里格在1960年代就争取同工同酬的经历，是演艺界性别薪酬差距问题的早期案例，至今仍有现实意义。",
+      "source_text": "The late actor Diana Rigg declined to call herself a feminist, noting: “Why would I burn my bra? I need my bra.” Nonetheless, her ideas on womanhood were ahead of their time. In an interview with Michael Parkinson, she observed how marriage was “all rather pagan, don’t you think? … A lot of women see it as security. Well, I’m not a woman who yearns for security.” Taking over from Honor Blackman as the high-kicking Emma Peel in the 1960s spy series The Avengers, Rigg refused to play subordinate sidekick to Patrick Macnee’s Steed, turning her character into a beacon of female empowerment. When Rigg learned that not only was Macnee paid significantly more than she was, but the camera operator was too, she demanded a raise. She got it, but that didn’t stop the press from labelling her as a grasping diva. Fifty years later, she told Newsnight: “Equal pay. That’s what feminism means to me, only that.” On the stage and screen, Rigg specialised in fierce, complicated women: Medea, Phèdre, Mother Courage, the wimple-clad Olenna Tyrell in Game of Thrones. Yet in life she refused to take herself or her job seriously. Her fear of appearing earnest led her to decline offers of a biography. Now, six years after her death from cancer, her daughter, the actor Rachael Stirling, has taken on the task of documenting Rigg’s life. All About My Mother is a funny, intimate, often joyous and beautifully written eulogy to a woman who didn’t suffer fools yet remained blithely self-mocking and down to earth. Asked what it meant to be made a dame, she replied: “I think it means I’m not supposed to say ‘fuck’ anymore.” Blending memoir and biography, Stirling builds a portrait based on her own recollections, plus research into Rigg’s performances, writings, recorded interviews and press cuttings collected and stashed in a trunk by her late grandmother Beryl. The book, Stirling says, “is not a detached narrative … This is what I know, what she said, what I’ve learned, what I want to write, what she wrote and what I think she wouldn’t mind my telling you.” Wild anecdotes of stars behaving badly include the time Rigg was lured to Benny Hill’s house with the promise of a party, only to find she was the sole guest. When he appeared in the garden proffering a drink and a semi-erect penis, Rigg turned away, shouted “LOOK! PARSLEY!” and scarpered. George Lazenby’s claim – false apparently – that Rigg deliberately ate garlic before their love scene in On Her Majesty’s Secret Service led to a sc",
+      "source_title": "All About My Mother by Rachael Stirling review – a joyous love letter to Diana Rigg",
+      "source_url": "https://www.theguardian.com/books/2026/sep/09/all-about-my-mother-by-rachael-stirling-review-a-joyous-love-letter-to-diana-rigg",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "卫报读者回忆格洛丽亚·斯泰纳姆：她照亮了我看到真实世界的路",
+      "entities": [
+        {
+          "name": "格洛丽亚·斯泰纳姆（Gloria Steinem）",
+          "explain": "美国著名女权主义活动家、作家和记者，是20世纪70年代以来美国女权运动的标志性人物"
+        },
+        {
+          "name": "卫报（The Guardian）",
+          "explain": "英国主流左倾报纸，此次收集读者对斯泰纳姆的回忆"
+        }
+      ],
+      "summary": "卫报读者分享了对女权主义活动家格洛丽亚·斯泰纳姆的回忆，称她为几代女性带来了灵感和勇气。一位在150人班级中仅有的三名女性工程专业毕业生表示，斯泰纳姆让她感到自己并不孤单，在她看来女权主义者就是希望凭能力而非性别被评判的女性。读者们赞扬斯泰纳姆的勇气、智慧和温暖。",
+      "relevant": "斯泰纳姆作为美国女权运动的代表人物，她的影响力跨越世代，读者回忆展示了女权主义思想如何具体地改变了个体女性的职业和生活选择。",
+      "context": "格洛丽亚·斯泰纳姆是美国第二波女权主义运动的核心人物，创办了《Ms.》杂志。卫报发起读者征集活动，邀请读者分享斯泰纳姆对他们的个人影响。",
+      "source_analysis": "卫报书籍版收集的读者来信，体现该媒体在女权议题上的进步立场和读者群体的价值取向。",
+      "social_impact": "读者回忆反映了女权主义在工程等男性主导领域对女性的实际激励作用，也展示了女权思想在不同代际间的传承。",
+      "source_text": "‘She let me feel normal’ What I appreciated most about Gloria was she let me feel normal. I graduated in engineering as one of three women in a class of over 150. In her world, a feminist was a woman that wanted to be judged for her capabilities and not her gender. She was very inspirational and empowering when I first read her books as a young engineer. Teresa, Switzerland ‘A stalwart in my life’ She was a stalwart in my life and my evolution as a feminist and a supporter of the rights of women. I met Gloria Steinem once, at the very beginning of her career and of my own. Fresh out of Wellesley College, I travelled with a friend, another aspiring journalist, to cover the World Festival of Youth and Students, held in Vienna in the summer of 1959. The festival, it was widely acknowledged, was sponsored by the Soviet bloc; it came in the wake of the failed Hungarian revolt against communism and attracted young people from all over the world. From the US, there were two delegations, one called the New York group, the other the Cambridge crowd. Gloria Steinem was the super-glamorous, gorgeous, dynamic “secretary” of the Cambridge crowd. In her low-cut summer frock and what we called, even back then, “fuck-me sandals” she was a knockout, everywhere, directing operations, arranging for Ella Fitzgerald (no less) to give a free concert, feeding journalists stories, prompts, questions. I don’t think her official title was anything more than secretary, but clearly she was the person in charge. I was not surprised when she emerged several years later as a key figure in the burgeoning women’s movement. Her combination of brains and a well-nourished sense of humour brought strength, wit, and intelligence to the movement. And now, when we really need her like again, she is gone – but I pray her memory will continue to strengthen all of us who care about women’s lives and futures. Nancy Harmon Jenkins, 89, journalist, Camden, Maine ‘A lovely, gracious person’ In March of 2014, I was surprised to see Gloria Steinem got on my uptown 6 subway train here in NYC. It was fairly busy on the train but when someone offered her a seat she declined and said she was just going a couple of stops. She was very smiley and casual and even though it was likely most passengers in the car wouldn’t have known who she was, somehow it was clear everyone knew she was someone. This included a young woman who shyly approached her and they spoke for a few minutes and I should say Steinem looked t",
+      "source_title": "‘She blazed in and opened my eyes to the real world’: Readers remember Gloria Steinem",
+      "source_url": "https://www.theguardian.com/books/2026/sep/08/she-blazed-in-and-opened-my-eyes-to-the-real-world-readers-remember-gloria-steinem",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_8ee74d2f1e41",
+      "source": "Pitchfork",
+      "title": "B’DAY (20th ANNIVERSARY EDITION)",
+      "url": "https://pitchfork.com/reviews/albums/beyonce-bday-20th-anniversary-edition/",
+      "summary": "With independent spirit and fresh inspiration from New York rap, Beyoncé’s 2006 solo album was a creative breakthrough, but this prestige reissue does little to contextualize its pivotal moment in her career.",
+      "image": ""
+    },
+    {
+      "id": "rss_f12f4bbb2203",
+      "source": "Pitchfork",
+      "title": "Miraggi",
+      "url": "https://pitchfork.com/reviews/albums/argento-miraggi/",
+      "summary": "Inspired by the riches of the Tuscan coast, producer David August and percussionist Lorenzo Setti concoct a pitch-perfect nirvana of Mediterranean chill-out music.",
+      "image": ""
+    },
+    {
+      "id": "rss_a34f35c81ee4",
+      "source": "Pitchfork",
+      "title": "Bad Bunch",
+      "url": "https://pitchfork.com/reviews/albums/black-bananas-bad-bunch/",
+      "summary": "On her band’s first LP in 12 years, Royal Trux’s Jennifer Herrema trades the vintage hard rock of previous albums for a woozy mix of hip-hop, R&B, dub, and pawn-shop electronics.",
+      "image": ""
+    },
+    {
+      "id": "rss_c86f250f8f27",
+      "source": "Pitchfork",
+      "title": "femme fatale",
+      "url": "https://pitchfork.com/reviews/albums/skaiwater-femme-fatale/",
+      "summary": "The UK-born rapper’s second album of the year is busy but breezy, a well-calibrated mix of rage textures and mellower grooves with Caribbean and Afrobeats influences.",
+      "image": ""
+    },
+    {
+      "id": "rss_1e705dea5cfe",
+      "source": "Pitchfork",
+      "title": "PRIMA",
+      "url": "https://pitchfork.com/reviews/albums/adela-prima/",
+      "summary": "Born in Bratislava and boosted by reality TV, pop’s latest aspirant arrives with a debut album that’s got all the makings of an edgy cult fave. If only the music were more interesting.",
+      "image": ""
+    },
+    {
+      "id": "rss_4dcfd92bdb55",
+      "source": "Open Culture",
+      "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "summary": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum [&#8230;]",
+      "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg"
+    },
+    {
+      "id": "rss_92eef24704c9",
+      "source": "Open Culture",
+      "title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "summary": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/08083915/19.jpg.jpeg"
+    },
+    {
+      "id": "rss_f52ff62ca03b",
+      "source": "Open Culture",
+      "title": "Discover J.R.R. Tolkien’s Personal Book Cover Designs for The Lord of the Rings Trilogy",
+      "url": "https://www.openculture.com/2026/09/j-r-r-tolkiens-personal-book-cover-designs-for-the-lord-of-the-rings.html",
+      "summary": "In some rare cases, adaptations and interpretations of a literary work can surpass the source. Despite hundreds of valiant efforts on the part of fans, filmmakers, game/toy designers, and radio producers, this has never been true of the fully-realized fantasy world in J.R.R. Tolkien’s The Hobbit&#160;and&#160;The Lord of the Rings trilogy (not that it’s ever [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/02232936/The-Fellowship-Of-The-Ring-Book-Cover-by-JRR-Tolkien_1-480.jpg"
+    },
+    {
+      "id": "rss_7e9d518d3e8d",
+      "source": "Aeon",
+      "title": "The Chinese room",
+      "url": "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness",
+      "summary": "Can we test for AI consciousness when we don’t understand our own? Getting into John Searle’s ‘Chinese room’ experiment - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/4040d550-762e-46f4-92ba-431242992b66/the-chinese-room-experiment-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_b7c47d351a2a",
+      "source": "Aeon",
+      "title": "Medieval mental health",
+      "url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "summary": "Saffron and ostrich liver were prescribed but so were exercise, gardens, animals, socialising, and music - by Katherine Harvey Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/f5b2d9a3-db7d-49c3-b79d-a14788da0cb0/essay-bathing.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_1e26f1e106b7",
+      "source": "Aeon",
+      "title": "Making revisions",
+      "url": "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past",
+      "summary": "Indigenous knowledge and art overwrite colonial cartography to correct the historical record in Central Australia - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/ccb069b4-41d7-49c4-b8f8-c0330199dced/making-revisions-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_f97c74a17b53",
+      "source": "Daily Nous",
+      "title": "How Different Are Philosophers? (guest post)",
+      "url": "https://dailynous.com/2026/09/10/how-different-are-philosophers-guest-post/",
+      "summary": "&#8220;Do philosophers really think differently than non-philosophers?&#8221; That&#8217;s the question taken up by a team of researchers in a recent study published in Philosophical Psychology. Focusing on differences between philosophers and non-philosophers in regard to neurodivergent traits and responses to thought experiments, the researchers found some support, in the aggregate, for a &#8220;yes&#8221; answer to that question. The following guest post is by Paul McKee (Duke), Khaoula Boulhadi (Southern Connecticut State), Helena Weymouth (College of Charleston) &#38; Thomas Nadelhoffer (College of Charleston), the authors of the study (&#8220;Thinking Differently: Neurodivergent Traits and Responses to Thought Experiments in Philosophers and the General Population&#8220;). How Different Are Philosophers? by Paul McKee, Khaoula Boulhadi, Helena Weymouth &#38; Thomas Nadelhoffer “The history of philosophy is to a great extent that of a certain clash of human temperaments [. . .] Yet, his temperament really gives him a stronger bias than any of his more strictly objective premises. It loads the evidence for him one way or the other” &#8212; William James Neurodiversity and Philosophical Intuitions In addition to being abstract thinkers, philosophers are stereotyped as being argumentative, overly self-absorbed in their own thoughts, and enjoy creating increasingly fine distinctions regarding everyday terms while imagining novel hypothetical situations and debating the conclusions they draw. It&#8217;s possible that many philosophers have unique personalities. More than two millennia before the modern notion of stereotypes existed, Plato used humor to poke fun at philosophers in the Theaetetus by telling a story of Thales contemplating the stars, so engrossed that he forgot where he was walking and fell down a well. However, do philosophers really think differently than non-philosophers? This was one of the questions behind the paper we recently published in Philos",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/kusama-yayoi-the-hope-of-the-polka-dots-buried-in-infinity-will-eternally-cover-the-universe.jpg"
+    },
+    {
+      "id": "rss_a28d1f419493",
+      "source": "Daily Nous",
+      "title": "Mini-Heap",
+      "url": "https://dailynous.com/2026/09/10/mini-heap-728/",
+      "summary": "New links&#8230; “50 Things Every AI Working with Humans Should Know” &#8212; a short story by Ken Liu “We need a moratorium on new rules and new software purchases until we’ve pruned what does not serve the fundamental mission of teaching and learning and in fact gets in the way of it” &#8212; Barry Lam on higher ed&#8217;s techno-bureaucratic bloat, in the Boston Globe (unpaywalled here) “When What Rightly Matters Doesn’t Really Matter” &#8212; Lisa Tessman&#8217;s Presidential Address at the 2024 Eastern Division APA meeting “Is there dumb wokeness in the academy? Of course. But if we are truly interested in whether it is prominent, representative, isolated [etc.]… we are going to need a more sophisticated methodology than repeated applications of the availability bias” &#8212; Steven Hales on caricatures of the academy Humpback whales to the rescue &#8212; the possibility of animal altruism (via MR) “Self-deception is very easy. For that reason, I do think clear thinking is immensely important. But I don’t think philosophy in the old-fashioned sense is quite the thing the world needs nowadays” (via Open Culture) &#8212; a 1952 television interview with Bertrand Russell (transcript here) Can laws be unjust and yet remain, in some sense, morally legitimate? &#8212; Jonathan Quong and Blain Neufeld discuss this and related questions taken up in Quong&#8217;s new book on &#8220;legitimate injustice&#8221; Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may be of interest to philosophers. The Heap of Links consists partly of suggestions from readers; if you find something online that you think would be of interest to the philosophical community, please send it in for consideration for the Heap. Thank you.Previous edition. &#160; &#160; The post Mini-Heap first appeared on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2022/01/miniheap-7-darkmode-compatible-1024x622.png"
+    },
+    {
+      "id": "rss_a9af0021c1a0",
+      "source": "Daily Nous",
+      "title": "Fewer and Fewer Students Earn Degrees in the Humanities",
+      "url": "https://dailynous.com/2026/09/09/fewer-and-fewer-students-earn-degrees-in-the-humanities/",
+      "summary": "20 years ago, nearly 15% of the undergraduate degrees conferred in the United States were in the humanities. As of 2025, that percentage is down to 8.1%. These figures are from a recent report by Humanities Indicators, a project of the American Academy of Arts &#38; Sciences. Here are the numbers: In 2025, the nation’s colleges and universities awarded 164,847 bachelor’s degrees in the humanities&#8212;the smallest number of degrees awarded since 1991 and 30.4% below the recent high-water mark in 2012&#8230; That decline includes a particularly sharp drop of 12.7% from 2021 to 2023, followed by a more modest drop of 2.1% from 2023 to 2024, and a further decline of just 0.4% from 2024 to 2025—the smallest year-on-year decline since 2012. And most disciplines within the humanities have shown a decline: Within the humanities, almost every discipline awarded fewer degrees in 2025 than 13 years earlier&#8230; The largest proportional drops in degrees awarded occurred in religious studies (down 56.3%), area studies (53.2%), languages and literatures other than English (50.8%), English (43.8%), history (40.6%), classical studies (39.4%), and comparative literature (31%). Only three disciplines showed increases&#8212;folklore (where the small number of degrees awarded makes the numbers highly volatile), the study of the arts (with a modest 2.1% increase since 2012), and interdisciplinary humanities disciplines (where the increase was largely due to the addition of a substantial number of new programs, such as digital humanities, in the Department of Education’s 2020 revision of its Classification of Instructional Programs). How&#8217;s philosophy doing? Well, after a slight decrease last year, there has been a slight increase: In 2024, 5,763 students earned philosophy BAs. In 2025, that number was 5,918. The full report from Humanities Indicators is here. The post Fewer and Fewer Students Earn Degrees in the Humanities first appeared on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/degree-completion-by-discplines-2025-9-humanities-indicators-1024x849.png"
+    },
+    {
+      "id": "rss_baa42c5e35f5",
+      "source": "卫报书籍",
+      "title": "What Should My Children Do? by Daniel Susskind review – the case for embracing tech in the classroom",
+      "url": "https://www.theguardian.com/books/2026/sep/09/what-should-my-children-do-by-daniel-susskind-review-the-case-for-embracing-tech-in-the-classroom",
+      "summary": "A refreshingly optimistic book that asks us to grasp the educational opportunities of AI, rather than shrink from them In 1979, the government asked Wilfred Cockcroft, a now largely forgotten maths lecturer from the University of Hull, to write a report about a crisis in the teaching of his subject to children. It was wide-ranging and meticulous, and included&nbsp;a chapter on a technological innovation that was suddenly becoming available to the average consumer: the calculator. Many parents and teachers feared that the gadget would undermine a&nbsp;basic skill and a pillar of education – one of the sacred three Rs – producing generations of dumbed-down drones who could reach for a device in their pockets to avoid the hard graft of arithmetic. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_aafec14406d1",
+      "source": "卫报书籍",
+      "title": "All About My Mother by Rachael Stirling review – a joyous love letter to Diana Rigg",
+      "url": "https://www.theguardian.com/books/2026/sep/09/all-about-my-mother-by-rachael-stirling-review-a-joyous-love-letter-to-diana-rigg",
+      "summary": "Beautifully written by her daughter, this is a funny and intimate eulogy to the 60s star of The Avengers who went on to specialise in fierce, complicated women The late actor Diana Rigg declined to call herself a feminist, noting: “Why would I burn my bra? I need my bra.” Nonetheless, her ideas on womanhood were ahead of their time. In an interview with Michael Parkinson, she observed how marriage was “all rather pagan, don’t you think? … A lot of&nbsp;women see it as security. Well, I’m not a woman who yearns for security.” Taking over from Honor Blackman as the high-kicking Emma Peel in the 1960s spy series The Avengers, Rigg refused to play subordinate sidekick to&nbsp;Patrick Macnee’s Steed, turning her&nbsp;character into a beacon of female empowerment. When Rigg learned that not only was Macnee paid significantly more than she was, but&nbsp;the camera operator was too, she&nbsp;demanded a raise. She got it, but&nbsp;that didn’t stop the press from labelling her as a grasping diva. Fifty&nbsp;years later, she told Newsnight: “Equal pay. That’s what feminism means to me, only that.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_db122a1b7c76",
+      "source": "卫报书籍",
+      "title": "‘She blazed in and opened my eyes to the real world’: Readers remember Gloria Steinem",
+      "url": "https://www.theguardian.com/books/2026/sep/08/she-blazed-in-and-opened-my-eyes-to-the-real-world-readers-remember-gloria-steinem",
+      "summary": "To generations of women, the feminist campaigner was an inspiration, a fearless challenger of sexism and domestic violence. Guardian readers share memories of her courage, intelligence, and warmth What I appreciated most about Gloria was she let me feel normal. I graduated in engineering as one of three women in a class of over 150. In her world, a feminist was a woman that wanted to be judged for her capabilities and not her gender. She was very inspirational and empowering when I first read her books as a young engineer. Teresa, Switzerland Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_66ec9bfbc4f0",
+      "source": "Mongabay",
+      "title": "Children’s health at risk in south Borneo as El Niño intensifies Indonesia wildfires",
+      "url": "https://news.mongabay.com/2026/09/childrens-health-at-risk-in-south-borneo-as-el-nino-intensifies-indonesia-wildfires/",
+      "summary": "BANJARMASIN, Indonesia — Siti Sarah slept in fits and starts through August as the fires broke out around her village and surrounding peatlands. One fire on Aug. 18 at first seemed a safe distance away, but in a heartbeat the flames were within 100 meters (330 feet) of her home in Pengayuan, a village in [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/10131034/Raina-dan-Raihan-2-1200x800-1-768x512.jpg"
+    },
+    {
+      "id": "rss_e554e517e100",
+      "source": "Mongabay",
+      "title": "Huge AI data center project blindsides water-stressed town in Brazil",
+      "url": "https://news.mongabay.com/2026/09/huge-ai-data-center-project-blindsides-water-stressed-town-in-brazil/",
+      "summary": "As water wells turn to dust, local leaders learn of the massive facility firsthand from reporters.",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/08190834/Headerfeat-768x512.jpg"
+    },
+    {
+      "id": "rss_201fa217faba",
+      "source": "Mongabay",
+      "title": "Indigenous fisherwoman finds ‘lost’ spinach pipefish, not seen by science in 40 years",
+      "url": "https://news.mongabay.com/short-article/2026/09/indigenous-fisherwoman-finds-lost-spinach-pipefish-not-seen-by-science-in-40-years/",
+      "summary": "Founder&#8217;s Briefs: An occasional series where Mongabay founder Rhett Ayers Butler shares analysis, perspectives and story summaries. On the final day of a two-week expedition, where researchers were searching for a “lost” species along Papua New Guinea’s Sepik River, Helen Asu arrived with two small, greenish-brown fish. She had caught them while fishing for prawns [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/24155007/Spinach_Pipefish_iv_%C2%A9_New_Guinea_Binatang_Research_Center_edit-768x512.jpg"
+    },
+    {
+      "id": "rss_a325de4c4573",
+      "source": "卫报野生动物",
+      "title": "Flamingo Revolution: The Albanians protesting to bring down the elites – video",
+      "url": "https://www.theguardian.com/news/video/2026/sep/10/flamingo-revolution-the-albanians-protesting-to-bring-down-the-elites-video",
+      "summary": "Thousands of protesters are flooding the streets of Tirana in the biggest unrest Albania has seen since the collapse of communism. It began as the “flamingo revolution”, sparked by Jared Kushner and Ivanka Trump’s plans for a luxury mega-resort on a public nature reserve island. But the protests have since grown into a wider challenge to Prime Minister Edi Rama’s government, which is accused of selling off Albania’s coastline to the elites. Matthew Cassel travels to Albania to see how an environmental fight over one island has escalated into a political battle over the country’s future. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_b0f8b00a91e5",
+      "source": "卫报野生动物",
+      "title": "How the fate of a small furry animal reveals the ecological tragedy of Israel’s war on Lebanon | Hisham Younes",
+      "url": "https://www.theguardian.com/environment/2026/sep/10/how-the-fate-of-a-small-furry-animal-reveals-the-ecological-tragedy-of-israels-war-on-lebanon",
+      "summary": "The Syrian rock hyrax depends on the fragile landscapes of the border region. Alongside other environmentalists, I have been documenting the destruction of its habitat Wars are usually measured in the number of people killed, homes destroyed and towns erased. Far less attention is paid to what happens beneath the rubble. Across southern Lebanon, repeated large-scale detonations are not only causing human tragedy by demolishing villages , they are also destroying the ancient limestone habitats that have sheltered colonies of rock hyrax for centuries. As founder and president of Green Southerners, an environmental organisation documenting the ecological effects of war in southern Lebanon, I have been helping colleagues to record the damage inflicted on forests, wildlife and fragile ecosystems across the border region. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fc90e791573c",
+      "source": "卫报野生动物",
+      "title": "Country diary: A little garden mystery – why are the wood mice hoarding opium seeds? | Susie White",
+      "url": "https://www.theguardian.com/environment/2026/sep/10/country-diary-a-little-garden-mystery-why-are-the-wood-mice-hoarding-opium-seeds",
+      "summary": "Allendale, Northumberland: My late-flowering poppies have lit up the garden, and it’s not only me who’s taken an interest The opium poppies have now set seed, their leaves rattling like crisp packets, the vents beneath their pod lids open for the seeds to be scattered. Dotted throughout my flower borders, adding stature to the vegetable garden, Papaver somniferum is the breadseed poppy, its large, floppy petals unpredictable in colour: pale lilac, purple, pink or sometimes with fringed petals. The unexpected brings a freedom and a randomness to the garden. Those blue-grey seeds are sprinkled on bagels and bread, baked into cakes or ground as a thickener for curries, adding protein, plant fats and trace elements such as manganese. But in its unripe state this is the plant that gives opium, a two-sided drug, both medicinal and destructive as a sedative – its specific name somniferum means sleep-bringing. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-10 21:40"
+}
