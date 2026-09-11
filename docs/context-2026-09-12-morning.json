@@ -1,0 +1,732 @@
+{
+  "key": "2026-09-12-morning",
+  "date": "2026-09-12",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 20,
+      "title": "金砖国家峰会在新德里召开，中俄印伊等成员国因战争与能源价格分歧加深",
+      "entities": [
+        {
+          "name": "金砖国家（BRICS）",
+          "explain": "由巴西、俄罗斯、印度、中国、南非等国组成的国际合作机制，近年不断扩员，被视为制衡西方主导国际秩序的平台"
+        },
+        {
+          "name": "新德里峰会",
+          "explain": "2026年9月在印度首都举行的金砖国家领导人会议，是扩员后首次大规模线下聚首"
+        },
+        {
+          "name": "能源价格飙升",
+          "explain": "指全球油气价格大幅上涨，各国因利益不同对应对策略产生分歧"
+        }
+      ],
+      "summary": "金砖国家领导人本周末齐聚新德里，包括中国、俄罗斯、印度、伊朗等国。尽管该组织持续扩员、吸引力增强，但成员国之间因战争立场和能源价格飙升而分歧明显。峰会旨在展示团结，实际却面临内部裂痕加深的挑战。",
+      "relevant": "金砖扩员后的首次大型峰会，是观察新兴国家能否形成统一阵线对抗西方主导秩序的关键窗口。",
+      "context": "金砖国家近年不断吸纳新成员，被视为全球南方国家联合自强的象征。但俄乌战争、中东冲突及能源价格波动使成员国利益分化，此次峰会在这种张力下召开。",
+      "source_analysis": "纽约时报报道，该报一贯关注大国博弈与地缘政治竞争，对金砖机制持审慎观察立场，强调其内部分歧而非团结。",
+      "social_impact": "金砖国家覆盖全球近半人口和约四成经济产出，其内部团结程度直接影响全球能源市场、贸易格局和地缘政治走向。",
+      "source_text": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree。The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them.",
+      "source_title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "source_url": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "金砖峰会上中印争夺影响力：中国想挑战美国，印度想保持不选边",
+      "entities": [
+        {
+          "name": "金砖国家（BRICS）",
+          "explain": "新兴国家合作机制，成员包括中国、俄罗斯、印度、巴西、南非等，近年多次扩员"
+        },
+        {
+          "name": "中印竞争",
+          "explain": "中国和印度作为亚洲两大强国，在金砖内部对组织定位和方向存在不同诉求"
+        },
+        {
+          "name": "选边站队",
+          "explain": "指在中美对抗中被迫选择支持一方，印度希望避免这种局面"
+        }
+      ],
+      "summary": "在金砖国家峰会上，中国将金砖视为挑战美国主导秩序的工具，而印度则希望该组织保持足够广泛的包容性，避免被迫在中美之间选边。两国对金砖的定位分歧，折射出新兴大国之间既合作又竞争的关系。",
+      "relevant": "中印在金砖内部的博弈，决定该组织能否成为真正有凝聚力的反西方阵营，还是仅停留在论坛层面。",
+      "context": "金砖机制持续扩员，中国积极推动其成为对抗美国霸权的平台。印度作为创始成员之一，既想借金砖提升自身地位，又不愿被绑上反美战车，两国战略目标存在根本差异。",
+      "source_analysis": "纽约时报报道，该报长期关注中美竞争和印太地缘格局，倾向于从大国博弈视角解读金砖内部动态。",
+      "social_impact": "中印合计占全球人口超三分之一，两国在金砖框架内的互动直接影响全球南方国家的阵营选择和国际秩序演变。",
+      "source_text": "At BRICS Summit, China and India Vie for Influence。China sees the BRICS group as a vehicle for challenging American power. India wants to keep the group broad enough to avoid choosing sides.",
+      "source_title": "At BRICS Summit, China and India Vie for Influence",
+      "source_url": "https://www.nytimes.com/2026/09/11/world/asia/china-india-brics-summit.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "研究发现：贫血母亲所生婴儿大脑更小，关键区域受影响",
+      "entities": [
+        {
+          "name": "贫血",
+          "explain": "血液中红细胞或血红蛋白不足，导致供氧能力下降，孕妇贫血在全球尤其是发展中国家较为常见"
+        },
+        {
+          "name": "认知问题",
+          "explain": "指学习、记忆、注意力等大脑功能出现困难，可能影响儿童在校表现"
+        },
+        {
+          "name": "大脑关键区域",
+          "explain": "指负责运动、学习和情绪调节的脑区，这些区域发育受影响可能导致长期功能缺陷"
+        }
+      ],
+      "summary": "一项研究发现，患有贫血的母亲所生的婴儿大脑更小，尤其在负责运动、学习和情绪调节的关键区域差异明显。这些差异在婴儿一岁时即可检测到，可能导致儿童入学后出现认知问题。研究呼吁关注孕期贫血的防治。",
+      "relevant": "全球约三分之一的孕妇患有贫血，该研究提示孕期营养干预对下一代大脑发育具有深远影响。",
+      "context": "孕期贫血是全球性公共卫生问题，尤其在低收入国家高发。此前研究已发现贫血与不良出生结局相关，但对其如何影响婴儿大脑发育的具体机制和区域了解有限。",
+      "source_analysis": "卫报报道，该报关注全球发展议题，倾向于从公共卫生和社会公平角度呈现科研成果。",
+      "social_impact": "全球约数亿孕妇受贫血影响，若认知损害被证实，意味着大量儿童的学习潜力可能因孕期营养问题而受损，对教育和发展政策构成重大挑战。",
+      "source_text": "Babies born to mothers with anaemia have smaller brains, particularly in key regions linked to movement, learning and the regulation of emotion, according to a study. Researchers said the differences, first detected at the age of one, could lead to cognitive problems when children started school. More than a third of pregnant women worldwide have anaemia – a condition typically caused by iron deficiency in which the number of red blood cells in the body is lower than normal. Symptoms include fatigue, shortness of breath and dizziness. Rates are highest in sub-Saharan Africa and south Asia. Researchers from King’s College London in the UK, and the University of Cape Town in South Africa, followed more than 300 mothers and their babies in Cape Town, scanning the brains of the infants several times between the ages of three months and two years. On average, the total brain volume of babies born to anaemic mothers was 4% lower than that of babies born to non-anaemic mothers – despite all the anaemic mothers being diagnosed only with a mild version of the condition. Differences were recorded in three specific regions of the brain: the putamen, caudate nucleus and corpus callosum. “All three of these brain regions are implicated in key neuropsychological functions,” said Jessica Ringshaw, first author and researcher at King’s Institute of Psychiatry, Psychology & Neuroscience (IoPPN) and the University of Cape Town, citing processing speed, emotion regulation and executive function as examples. The gap between the groups of babies widened over the first two years of life – the corpus callosum, for instance, was about 4% smaller at 12 months in the group whose mothers had been anaemic but 6% by 24 months. Earlier research in South Africa looking at toddlers and school-age children found comparable differences in brain volume. “These aren’t children who are catching up, where the brain differences are disappearing over time,” said Ringshaw. “They are still there when the children are six years old and going to school, and when these things might then start translating into more noticeable cognitive difficulties.” The findings offer a potential explanation for earlier studies showing that children born to mothers with anaemia scored less well on tests of development, she added. The mothers with and without anaemia were otherwise very similar in terms of factors such as household income and food security, Ringshaw said, making her confident that maternal anaemia cau",
+      "source_title": "Babies born to anaemic mothers have smaller brains, study finds",
+      "source_url": "https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "普京不排除欧洲天然气价格涨至每千立方米1500美元",
+      "entities": [
+        {
+          "name": "普京",
+          "explain": "俄罗斯总统，俄罗斯能源出口政策的最高决策者"
+        },
+        {
+          "name": "天然气价格",
+          "explain": "指欧洲市场天然气交易价格，通常以每千立方米美元计价，是欧洲能源成本的核心指标"
+        },
+        {
+          "name": "储气库",
+          "explain": "各国用于储存天然气的设施，低价时购入储存，高价时释放以平抑价格"
+        }
+      ],
+      "summary": "俄罗斯总统普京表示不排除欧洲天然气价格涨至每千立方米1500美元。他援引交易商观点称，当前从储气库提取低价购入的天然气更划算，但这将导致后续价格进一步上涨。此番言论加剧了欧洲能源市场的不确定性。",
+      "relevant": "欧洲天然气价格直接影响居民取暖成本和工业竞争力，普京的表态可能进一步推高市场恐慌情绪。",
+      "context": "俄乌冲突以来，俄罗斯对欧洲天然气供应大幅减少，欧洲转向液化天然气进口并依赖储气库应对冬季需求。当前交易商优先消耗低价库存，可能加剧未来供应紧张。",
+      "source_analysis": "塔斯社报道，该社为俄罗斯官方通讯社，报道立场与俄政府一致，倾向于放大俄方在能源领域的影响力信号。",
+      "social_impact": "欧洲天然气价格若真涨至1500美元/千立方米，将大幅推高家庭取暖和工业用能成本，加剧通胀压力和社会不满。",
+      "source_text": "NEW DELHI, September 12. /TASS/. European gas prices could rise to as much as $1,500 per 1,000 cubic meters, Russian President Vladimir Putin told reporters. \"Those who engage in exchange trading are unconcerned with the technical condition of these storage facilities and the physical volumes involved. They believe that today, it is more advantageous to extract gas from storage that was purchased at lower prices, and as for tomorrow - well, we’ll see. This will result in prices rising not just to 1,000, but to 1,500,\" Putin highlighted.",
+      "source_title": "Putin does not rule out European gas prices reaching $1,500",
+      "source_url": "https://tass.com/economy/2186493",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "普京表示俄罗斯支持金砖银行更广泛参与，并推动建立投资平台",
+      "entities": [
+        {
+          "name": "金砖银行（新开发银行）",
+          "explain": "金砖国家设立的多边开发银行，旨在为新兴市场基础设施和可持续发展项目提供融资"
+        },
+        {
+          "name": "投资平台",
+          "explain": "俄罗斯提议建立的机制，用于促进金砖国家之间的相互投资"
+        }
+      ],
+      "summary": "俄罗斯总统普京表示，俄罗斯支持金砖银行更广泛地参与工作，并提到莫斯科关于建立金砖国家投资平台的倡议。此举旨在加强金砖框架内的金融合作，减少对西方主导金融机构的依赖。",
+      "relevant": "金砖银行和投资平台是金砖国家推动去美元化和金融自主的关键工具，普京的表态显示俄方在推动这一议程。",
+      "context": "金砖国家长期寻求建立替代西方主导的金融体系，新开发银行是这一努力的核心成果。俄罗斯因西方制裁被排除在SWIFT等体系外，更积极推动金砖内部金融合作。",
+      "source_analysis": "塔斯社报道，俄罗斯官方通讯社，立场与克里姆林宫一致，积极宣传俄方在金砖机制中的倡议和领导作用。",
+      "social_impact": "金砖银行扩员和投资平台若落地，可能为发展中国家提供替代西方金融机构的融资渠道，影响全球金融治理格局。",
+      "source_text": "NEW DELHI, September 12. /TASS/. President Vladimir Putin said Russia supports bringing more participants into the work of the New Development Bank of BRICS during a meeting with its President Dilma Rousseff on the sidelines of the BRICS summit. \"We are very pleased that such an instrument was created at the time. We support bringing as many participants as possible into its work, the programs being extensive and covering more sectors of the economies of BRICS member countries,\" Putin said. The Russian president also mentioned Moscow’s initiative to create an investment platform for BRICS countries during the meeting. \"You know about our proposals to create new platforms, including for investment and digital purposes, to expand the bank’s capabilities and make them more versatile. This would allow the bank, together with its participants and shareholders, to achieve even better results,\" he said.",
+      "source_title": "Russia supports broader participation in BRICS bank’s work, Putin says",
+      "source_url": "https://tass.com/politics/2186499",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "普京称金砖银行积极运作，为组织发展作出贡献",
+      "entities": [
+        {
+          "name": "金砖银行（新开发银行）",
+          "explain": "金砖国家设立的多边开发银行，为新兴市场提供基础设施和可持续发展融资"
+        },
+        {
+          "name": "普京",
+          "explain": "俄罗斯总统，在金砖峰会上发表相关表态"
+        }
+      ],
+      "summary": "俄罗斯总统普京表示，金砖银行正在积极运作，为金砖组织的发展作出贡献。这一表态是在金砖国家峰会期间作出的，显示俄方对金砖金融合作机制的肯定。",
+      "relevant": "金砖银行的运作成效是衡量金砖机制是否具有实质影响力的重要指标。",
+      "context": "金砖银行自成立以来一直被视为金砖合作最具制度化的成果之一。普京在峰会期间对其运作给予正面评价，意在展示金砖机制的实际进展。",
+      "source_analysis": "塔斯社报道，俄罗斯官方通讯社，报道立场与俄政府保持一致，倾向于正面评价金砖机制。",
+      "social_impact": "金砖银行的贷款规模和项目覆盖范围直接影响其在发展中国家中的公信力和吸引力。",
+      "source_text": "NEW DELHI, September 12. /TASS/. The BRICS New Development Bank is acting energetically and making a substantial contribution to the growth of the organization, Russian President Vladimir Putin has stated. The Russian leader arrived in New Delhi on September 11 for a three-day working visit to take part in the 18th BRICS summit. The president spoke with the head of the New Development Bank, Dilma Rousseff. \"You and I met not long ago in Moscow. We discussed what is related to the work of the bank, our cooperation with the bank, and the bank's participation. The bank acts energetically; it makes its substantial contribution to the development of the organization. In the main key areas, it is expanding and expanding its activities. We are very glad that such an instrument was created at the time,\" Putin said. \"We will find more and more new instruments to activate the work of this very important financial instrument. I am very glad to see you here, in New Delhi. And I am sure that our meeting today will also benefit our cooperation,\" Putin concluded.",
+      "source_title": "BRICS Bank contributes to development of organization — Putin",
+      "source_url": "https://tass.com/politics/2186485",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "朝鲜向日本海发射不明飞行物，韩国军方通报",
+      "entities": [
+        {
+          "name": "朝鲜",
+          "explain": "东亚国家，长期因核武器和导弹计划与美韩等国关系紧张"
+        },
+        {
+          "name": "日本海",
+          "explain": "位于朝鲜半岛以东的海域，朝鲜多次在此进行导弹试射"
+        },
+        {
+          "name": "韩国联合参谋本部",
+          "explain": "韩国军方的最高指挥机构，负责监测和通报朝鲜军事动向"
+        }
+      ],
+      "summary": "据韩联社援引韩国联合参谋本部消息，朝鲜向日本海方向发射了一枚不明飞行物。这是朝鲜近期又一次导弹试射活动，具体型号和飞行距离尚未公布。韩方正在分析相关数据。",
+      "relevant": "朝鲜每次发射活动都牵动东北亚安全局势，可能引发美韩日的外交和军事反应。",
+      "context": "朝鲜近年来频繁进行导弹试射，以推进其武器计划并向外界施压。此次发射发生在金砖峰会等国际外交活动密集之际，时机敏感。",
+      "source_analysis": "塔斯社转引韩联社报道，塔斯社为俄罗斯官方通讯社，在朝鲜问题上通常采取较为中立的转述立场。",
+      "social_impact": "朝鲜导弹活动直接影响东北亚安全稳定，可能促使美韩日加强军事协作和制裁力度。",
+      "source_text": "North Korea launches projectile toward Sea of Japan — media。Yonhap reported the launch, citing the Joint Chiefs of Staff of the Republic of Korea",
+      "source_title": "North Korea launches projectile toward Sea of Japan — media",
+      "source_url": "https://tass.com/world/2186487",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "9·11事件25周年：美国举行纪念活动，同时探讨能否放缓AI发展",
+      "entities": [
+        {
+          "name": "9·11事件",
+          "explain": "2001年9月11日恐怖分子劫持飞机撞击纽约世贸中心和五角大楼的事件，造成近3000人死亡"
+        },
+        {
+          "name": "鸣钟仪式",
+          "explain": "纪念活动中敲响钟声，象征9·11事件中六个致命时刻，今年增加第七声以纪念因相关疾病去世者"
+        },
+        {
+          "name": "AI放缓",
+          "explain": "指是否应该减慢人工智能技术的发展速度，以应对其潜在风险"
+        }
+      ],
+      "summary": "在9·11事件25周年之际，美国举行纪念活动，六声钟响象征纽约、五角大楼和宾夕法尼亚的六个致命时刻，今年增加第七声以纪念因9·11相关疾病去世的人。同一周，France24节目还探讨了能否放缓AI发展以及谁有权纪念9·11的问题。",
+      "relevant": "9·11事件深刻改变了全球安全格局和国际关系，25周年之际的纪念与反思具有重要历史意义。",
+      "context": "2001年9月11日，基地组织劫持四架飞机发动恐怖袭击，造成近3000人死亡。此后美国发动反恐战争，深刻重塑了中东格局和全球安全政策。25年后，相关疾病死亡人数仍在增加。",
+      "source_analysis": "France24是法国国际新闻频道，以欧洲视角报道国际事务，节目形式为周度新闻讨论。",
+      "social_impact": "9·11事件已过去25年，但每年仍有大量幸存者和救援人员因相关疾病去世，累计死亡人数持续上升，反映出恐袭的长期健康影响。",
+      "source_text": "Can we slowdown AI, and 9/11, who has the right to remember? To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Modified: In a week that marks 25 years since 9/11, Americans paused to pay tribute. Six bells tolled to signify six fatal moments in New York, at the Pentagon and in Pennsylvania, with a seventh bell rung this year to commemorate those who later died from 9/11-related illnesses. The private ceremony for families of the victims and dignitaries sparked controversy, with a 100,000-strong petition against the attendance of New York Mayor Zohran Mamdani. We’ll ask who gets the right to remember. And look at how al-Qaeda has fragmented and track where it has morphed a quarter of a century on. It’s been a week in which relations between the UK and Israel hit a new low. Britain’s new Foreign Secretary, Ed Miliband, accused the Israeli government of turning a blind eye to “settler terrorism” and ethnic cleansing in the occupied West Bank, and, alongside France and Canada, announced a ban on the import of any Israeli goods coming from the settlements. “Outrageous lies, a morally distorted stunt,” said Gideon Sa’ar, Israel’s Foreign Minister. “A grave miscalculation,” said President Isaac Herzog. Within hours, Israel closed the British consulate in East Jerusalem and kicked out UK staff from a security training mission in Ramallah, along with an aid coordination team for Gaza. No comment from the White House. We’ll discuss whether the new sanctions can help stop settler expansion, or whether they provide a pre-election PR gift for Benjamin Netanyahu… And it’s been a week of headlines warning of the grave risks of AI from people inside the leading labs, as researchers estimated the odds of humanity being wiped out within three and a half years! Up to a ten per cent likelihood was the forecast of Evan Hubinger, a senior researcher at Anthropic, who was responding to a similarly apocalyptic viral tweet posted by Jacob Coxon, a former OpenAI and Anthropic researcher who resigned this week, accusing his former employers of acting irresponsibly. His thread, which had more than 153 million views, warns that AI could wipe out all humans by the end of the decade, and that the tech giants racing for AI superintelligence supremacy are gambling with our lives in",
+      "source_title": "Can we slowdown AI, and 9/11, who has the right to remember?",
+      "source_url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260911-can-we-slowdown-ai-and-9-11-who-has-the-right-to-remember",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "胡塞武装夺取红海咽喉曼德海峡中的丕林岛，近乎控制关键航道",
+      "entities": [
+        {
+          "name": "胡塞武装",
+          "explain": "也门的一支反政府武装力量，得到伊朗支持，近年来频繁袭击红海商船"
+        },
+        {
+          "name": "曼德海峡",
+          "explain": "连接红海和亚丁湾的狭窄海峡，是全球石油和货物运输的关键通道"
+        },
+        {
+          "name": "丕林岛",
+          "explain": "位于曼德海峡中央的一座战略岛屿，控制该岛等于扼住航道咽喉"
+        }
+      ],
+      "summary": "也门胡塞武装于周五闪电夺取了曼德海峡中的丕林岛，近乎控制了这一红海南部入口的关键航运通道。此举开辟了伊朗战争的新战线，直接威胁沙特石油出口等全球能源供应链。曼德海峡是全球最繁忙的航运要道之一，每天有大量油轮和货船通过。",
+      "relevant": "曼德海峡是全球石油贸易的咽喉要道，胡塞武装控制该区域意味着全球能源供应面临直接威胁，可能引发油价飙升和国际军事干预。",
+      "context": "胡塞武装长期与也门政府及沙特领导的联军作战，自伊朗战争爆发以来，胡塞武装作为伊朗盟友加大了对红海航运的袭击力度。此次夺取丕林岛是其首次实际控制曼德海峡关键地理位置。",
+      "source_analysis": "France24是法国国际新闻频道，报道立场偏向西方视角，关注中东冲突对全球安全的影响。",
+      "social_impact": "曼德海峡每日通过数百万桶石油，若航道受阻，全球油价和供应链将受严重冲击，影响范围覆盖欧洲、亚洲和美洲。",
+      "source_text": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens a new front in the Iran war and threatens energy supplies, especially Saudi oil exports, from passing through one of the world's key shipping lanes. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Houthi rebels backed by Iran reached the strategic island of Perim in the Bab el-Mandeb Strait on Friday, four Yemeni government sources told Reuters, moving to tighten their grip on a vital global shipping route in the widening Middle East war. Earlier, two sources from the Saudi-backed, internationally recognised Yemeni government said its forces had pulled out of Perim and that the Houthis had also taken the mainland Red Sea coastal town of Dhubab, which faces the island. If the Houthis gain control of the Bab el-Mandeb Strait, on the opposite side of the Arabian Peninsula from the Strait of Hormuz, it could give their backer Iran a critical advantage in its war with the US, reducing supplies through a second major corridor and further raising oil prices. Read moreMiddle East live: Houthis seize entire Red Sea coast of Yemen The war began with US and Israeli strikes on Iran six months ago and Hormuz, conduit for about a fifth of global oil and liquefied natural gas trade, was effectively closed. Since then Saudi Arabia, the world’s largest oil exporter and a close US ally, has relied on the Red Sea route. Iran and the US have escalated attacks this week on Gulf shipping. US President Donald Trump has jacked up economic pressure on Tehran. Iran confirmed on Friday that its representatives and those of Iraq and the Gulf Arab states would meet in Oman on Monday to resume discussions on safe commercial shipping routes in the Strait of Hormuz. Read moreIran and US strike tankers in biggest shipping attack since war began In a speech marking the 25th anniversary of the September 11 attacks on the US, Trump called Iran “the world’s number one sponsor of terror”. Iranian President Masoud Pezeshkian responded by saying the accusation came from “the same devils” responsible for an apparent US strike o",
+      "source_title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
+      "source_url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "沙特在多次遭胡塞武装袭击后关闭东西向石油管道",
+      "entities": [
+        {
+          "name": "东西向石油管道",
+          "explain": "沙特境内一条从东部油田通往西部红海沿岸的大型输油管道，用于绕开霍尔木兹海峡出口石油"
+        },
+        {
+          "name": "胡塞武装",
+          "explain": "也门反政府武装，获伊朗支持，近期频繁攻击沙特石油设施"
+        }
+      ],
+      "summary": "沙特阿拉伯在多次遭到胡塞武装袭击后，关闭了其关键的东西向石油管道。该管道是沙特绕开霍尔木兹海峡、从红海方向出口石油的重要通道。关闭管道意味着沙特石油出口能力进一步受限，全球能源市场面临更大压力。",
+      "relevant": "沙特是全球最大石油出口国之一，东西向管道关闭直接影响全球石油供应，可能推高油价并加剧能源危机。",
+      "context": "自伊朗战争爆发以来，胡塞武装加大了对沙特境内石油基础设施的袭击力度。此前沙特已多次拦截来自也门的无人机和导弹袭击，但此次管道关闭表明袭击已造成实质性破坏。",
+      "source_analysis": "France24以实时报道形式发布，信源可能来自沙特官方或国际通讯社，立场偏向西方和中东安全视角。",
+      "social_impact": "沙特石油出口受阻将影响全球每日数百万桶的供应量，亚洲和欧洲买家将首当其冲。",
+      "source_text": "Yemen's Iran-aligned Houthi rebels have seized control of the country's entire Red Sea coast, a government official said on Friday. The move inches the rebels closer to gaining near total control of the Bab al-Mandab strait, a vital shipping corridor. Read about the day’s events as they unfolded on our liveblog. This liveblog is no longer being updated. This liveblog is no longer being updated. Iraq orders investigation into Saudi East-West pipeline attack Iraq welcomed Saudi Arabia's decision to hold off on retaliation after Riyadh said drones launched from Iraqi territory struck its East-West pipeline. Iraq condemned any attack threatening Saudi security and said its prime minister had ordered an investigation into those responsible, according to a statement from its armed forces. Saudi foreign ministry says pipeline was attacked by drones launched from Iraq Following a request from Iraq's prime minister, Saudi Arabia has chosen not to retaliate \"at this stage\". Turkish FM said he discussed attacks on Saudi Arabia with Saudi counterpart Turkish Foreign Minister Hakan Fidan discussed regional developments and recent attacks targeting Saudi Arabia in a call with his Saudi counterpart Prince Faisal bin Farhan Al Saud, a Turkish diplomatic source said on Friday. Last month, NATO member Turkey, Saudi Arabia and Pakistan signed a joint defense agreement that includes a mutual defense clause similar to NATO's Article 5. Saudi authorities shut the East-West oil pipeline in the Riyadh and Medina areas after it came under attack, injuring a number of people, an energy ministry official told state media on Friday. \"The East-West pipeline in the Riyadh and Medina regions was subjected to several attacks on Thursday morning,\" the official told the SPA news agency, adding: \"The pipeline was stopped as a precaution, and the attacks resulted in some injuries.\" Houthi health ministry says 82 people killed or wounded in Saudi-led attacks since September 3 Yemen's Iran-backed Houthis open a new front in the war, a 'negative change for the US' Yemen’s Iranian-backed Houthi rebels captured a strategic island at the southern entrance to the Red Sea, two officials said Friday, opening a new front in the Iran war and further threatening Saudi oil exports through one of the world’s key shipping lanes. \"It is a radical negative change for the US and for the West,\" said FRANCE 24 correspondent Noga Tornapolsky. Houthis seize entire Red Sea coast of Yemen, government official says ",
+      "source_title": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+      "source_url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "胡塞武装夺取红海关键岛屿，沙特同时关闭重要石油管道",
+      "entities": [
+        {
+          "name": "胡塞武装",
+          "explain": "也门反政府武装，伊朗支持，控制也门北部大片地区"
+        },
+        {
+          "name": "曼德海峡",
+          "explain": "红海南部入口的狭窄水道，全球贸易和石油运输的瓶颈点"
+        },
+        {
+          "name": "东西向石油管道",
+          "explain": "沙特用于将东部石油输送到西部红海港口出口的管道"
+        }
+      ],
+      "summary": "胡塞武装夺取了曼德海峡中的关键岛屿，进一步威胁全球石油运输路线。与此同时，沙特宣布在遭到来自伊拉克的无人机袭击后关闭了一条重要石油管道。两条消息叠加，意味着中东局势对全球能源供应的威胁正在急剧升级。",
+      "relevant": "两条事件同时发生，表明中东冲突正在从多个方向威胁全球能源安全，红海和波斯湾两条主要石油通道均面临风险。",
+      "context": "胡塞武装此前主要袭击红海商船，此次直接占领岛屿是重大升级。沙特管道遭袭则表明伊拉克境内亲伊朗民兵也加入了攻击行列，冲突正在扩大化。",
+      "source_analysis": "纽约时报是美国主流大报，报道立场偏自由派，关注全球安全和经济影响。",
+      "social_impact": "全球约12%的石油贸易经过曼德海峡，加上沙特管道关闭，国际油价可能大幅波动。",
+      "source_text": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route。The militia captured the island in the Bab al-Mandab Strait, a choke point for trade. Saudi Arabia also announced it had shut down a critical oil pipeline after a drone attack launched from Iraq.",
+      "source_title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+      "source_url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "胡塞武装宣称在也门取得重大进展，加强对红海航运通道的控制",
+      "entities": [
+        {
+          "name": "胡塞武装",
+          "explain": "也门反政府武装组织，获伊朗支持，自2014年起控制也门首都萨那"
+        },
+        {
+          "name": "丕林岛",
+          "explain": "曼德海峡中的战略岛屿，位置可监控和封锁过往船只"
+        }
+      ],
+      "summary": "伊朗支持的胡塞武装宣称在也门取得重大军事进展，并据报道已夺取曼德海峡中的战略岛屿丕林。此举进一步收紧了胡塞武装对红海航运通道的控制，对全球贸易和能源运输构成严重威胁。",
+      "relevant": "红海航道承载全球大量贸易，胡塞武装的控制力增强意味着国际航运安全形势进一步恶化。",
+      "context": "胡塞武装自伊朗战争爆发以来持续加强对红海航运的袭击，此次夺取丕林岛是其从骚扰性攻击转向实际领土控制的标志性升级。",
+      "source_analysis": "BBC是英国公共广播机构，报道立场中立偏西方，注重事实核实。",
+      "social_impact": "红海航运保险费率已大幅上升，多家国际航运公司被迫绕行好望角，运输成本和时间显著增加。",
+      "source_text": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane - Published Yemen's Houthis have claimed a major advance on the western Red Sea coast, consolidating their grip on the key international shipping route. The Iran-backed group seized Perim Island at the mouth of the waterway in the Bab al-Mandab Strait, a source from Yemen's internationally recognised government told the BBC. It comes a day after the Houthis captured the strategic port city of Mokha from Saudi-backed pro-government forces, according to military sources. A Yemeni military official told the AFP news agency the Houthis now control the entire coastline. The Houthis earlier said they posed no threat to international shipping but reiterated their threat to target vessels from Saudi Arabia. Saudi Crown Prince Mohammed bin Salman, the country's de facto ruler, has personally pressed US President Donald Trump to take military action against the Houthis during their rapid advance, two sources familiar with the matter told CBS News - the BBC's media partner in North America. Trump has so far declined to involve the US military directly, offering instead to assist with intelligence and targeting support, the sources said. A senior Trump administration official later told the BBC: \"We are in continuous dialogue with Saudi Arabia and the Republic of Yemen government regarding regional stability.\" On Friday, Yemeni pro-government forces withdrew from Perim (also known as Mayyun). Witnesses and news agencies reported that Houthi forces moved on to the island. The Houthis later issued a statement, saying that their military operation to expel Saudi-backed forces had been a \"success\" and that \"maritime navigation is safe for all companies except for Saudi vessels\". Houthi military spokesman Yahya Sarea said the \"large-scale\" military operation was launched on 3 September due to Saudi Arabia's \"blatant aggression\" against \"our dear people\". Sarea also said the Houthis had expelled \"Saudi enemy\" forces from six districts in the Taiz and Hodeidah regions, claiming that hundreds of troops had been killed, wounded or captured. The Houthi statement, however, did not mention Perim Island. Saudi Arabia has not publicly commented on the latest developments. Perim Island sits at the narrowest point of the Bab al-Mandab Strait, which has become increasingly important following the effective closure of the Strait of Hormuz - another crucial waterway - in the conflict between the US and Iran. ",
+      "source_title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "source_url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "泽连斯基敦促特朗普立即对俄罗斯实施新制裁",
+      "entities": [
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰总统，2019年上任，领导乌克兰抵抗俄罗斯入侵"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，2025年重新执政，曾承诺结束乌克兰战争"
+        },
+        {
+          "name": "对俄制裁",
+          "explain": "西方国家因俄罗斯入侵乌克兰而对俄实施的经济惩罚措施，包括冻结资产、限制贸易等"
+        }
+      ],
+      "summary": "乌克兰总统泽连斯基周五呼吁美国总统特朗普立即对俄罗斯实施新制裁，以回应俄军对乌克兰的致命打击。基辅和莫斯科均在加大攻击力度，而美国主导的结束战争的努力仍陷入僵局。泽连斯基的呼吁表明外交途径短期内难以取得突破。",
+      "relevant": "特朗普曾承诺迅速结束乌克兰战争，但至今未能兑现。泽连斯基的公开呼吁显示乌方对美国施压俄罗斯的力度不满，美乌关系面临考验。",
+      "context": "俄乌战争已持续多年，特朗普上台后试图推动和谈但进展有限。近期双方攻击升级，乌克兰城市遭受严重打击，泽连斯基因此要求美国加大制裁力度。",
+      "source_analysis": "France24报道，立场偏向西方，关注乌克兰局势和跨大西洋关系。",
+      "social_impact": "乌克兰平民伤亡持续增加，战争僵局导致数百万人流离失所，欧洲安全格局持续紧张。",
+      "source_text": "Zelensky urges Trump to impose new Russia sanctions 'now', after deadly Ukraine strikes Ukrainian President Volodymyr Zelensky on Friday urged US President Donald Trump to impose new sanctions on Russia over deadly strikes on Ukraine, as Kyiv and Moscow step up attacks and US-led efforts to end the war remain deadlocked. US President Donald Trump's administration should immediately impose new sanctions on Russia over recent deadly strikes on Ukraine, Ukrainian President Volodymyr Zelensky said Friday. The comments came after Zelensky announced he planned to meet Trump in late September, amid US-led efforts to broker an end to the four-and-a-half year Ukraine war. \"Sanctions need to be imposed now,\" Zelensky told the Yalta European Strategy forum. \"Honestly, I sometimes do not understand why decisions cannot be made quickly,\" he added. Read moreTrump tells Putin he wants swift end to Ukraine war, Kremlin says Zelensky separately called for a truce with Russia covering strikes on energy targets, saying Ukraine was ready to hit back if Moscow attacked his country's energy grid over the winter. \"Russia knows that if they strike... they will receive the same in return,\" he said. Both Moscow and Kyiv have escalated long-range strikes on each other in recent months, as US-led talks on ending Europe's deadliest conflict since World War II remain deadlocked. Read moreAfter meeting with US envoys in Kyiv, Zelensky says war likely to ‘continue in winter’ An early morning Russian drone strike on a petrol station in Kyiv killed two people and hospitalised four, the city's mayor said. (FRANCE 24 with AFP)",
+      "source_title": "Zelensky urges Trump to impose new Russia sanctions 'now', after deadly Ukraine strikes",
+      "source_url": "https://www.france24.com/en/europe/20260911-zelensky-urges-trump-to-impose-new-russia-sanctions-now-after-deadly-ukraine-strikes",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "俄军再次逼近，乌克兰前线城市伊久姆担忧被彻底摧毁",
+      "entities": [
+        {
+          "name": "伊久姆",
+          "explain": "乌克兰东部顿涅茨克地区的一座城市，2022年曾被俄军占领数月，后由乌军收复"
+        },
+        {
+          "name": "顿涅茨克",
+          "explain": "乌克兰东部地区，亲俄分离武装和俄军在此与乌军激战多年"
+        }
+      ],
+      "summary": "乌克兰东部城市伊久姆仍留有四年前被俄军占领的创伤，如今随着俄军再次逼近，当地居民正在为最坏情况做准备。这座城市位于顿涅茨克前线附近，战略位置重要，居民担心此次可能面临彻底毁灭。",
+      "relevant": "伊久姆的命运象征着乌克兰前线城市的普遍困境，俄军持续推进表明战争远未结束，平民承受的代价持续加重。",
+      "context": "伊久姆在2022年战争初期被俄军占领，期间遭受严重破坏，后被乌军在反攻中收复。如今俄军再次向该方向推进，居民面临二次逃离或被困的选择。",
+      "source_analysis": "纽约时报派记者实地采访，报道以人物故事切入，立场偏同情乌克兰平民。",
+      "social_impact": "前线城市居民反复遭受战争摧残，人道主义危机持续加深，大量平民被迫反复逃离家园。",
+      "source_text": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time。The Ukrainian city of Izium still bears the scars of Russian occupation from four years ago. As Moscow’s forces approach, residents are bracing for the worst.",
+      "source_title": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
+      "source_url": "https://www.nytimes.com/2026/09/11/world/europe/ukraine-russia-izium-donetsk.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "索马里海盗趁地区混乱重返海上，劫持事件升至十年最高",
+      "entities": [
+        {
+          "name": "索马里海盗",
+          "explain": "活跃在非洲之角海域的武装劫船团伙，曾在2008-2012年猖獗一时"
+        },
+        {
+          "name": "非洲之角",
+          "explain": "索马里所在的东非半岛区域，毗邻亚丁湾和红海，是全球航运要道"
+        },
+        {
+          "name": "美国-以色列对伊朗战争",
+          "explain": "当前中东冲突，导致红海和亚丁湾航运秩序混乱"
+        }
+      ],
+      "summary": "索马里海盗劫持货船的活动已回升至十年未见水平，自4月底以来发生八起劫持事件。原因包括美以对伊朗战争扰乱航运业，以及索马里国内政治不稳定加剧。被劫目标包括与伊朗有关联的油轮和为土耳其运送军事装备的货船。",
+      "relevant": "索马里海盗复苏与中东战争形成连锁反应，全球航运安全面临多重威胁，亚丁湾这一关键航道风险骤增。",
+      "context": "索马里海盗在2010年代初因国际海军巡逻而大幅减少，但近期中东战争导致护航力量分散，加上索马里国内动荡，海盗活动趁机死灰复燃。",
+      "source_analysis": "卫报是英国左倾大报，关注全球安全和人道议题，报道注重分析深层原因。",
+      "social_impact": "八起劫持事件涉及多国船只，航运保险费率上升，船员生命安全受威胁，全球供应链稳定性下降。",
+      "source_text": "The scourge of Somali piracy targeting cargo ships and smaller dhows off the Horn of Africa has returned to levels not seen in a decade, driven by a convergence of factors including disruptions to the shipping industry caused by the US-Israeli war against Iran and a resurgence of political instability in Somalia. Since late April there have been eight hijackings by Somali pirates, including two within the space of a fortnight in August: one targeting an oil tanker with ties to Iran, the other a Cameroon-flagged vessel, the Lutuf, carrying military equipment for Turkey. Over a seven-year period from 2005 there were more than 1,000 attacks on vessels in the waters off Somalia, which has mainland Africa’s longest coastline. Thousands of crew members were taken hostage, netting $400m (£296m) in ransom payments for the piracy network’s financiers, the low-level “foot-soldier” pirates and the communities who provided them with goods and services. The attacks only petered out after a multinational anti-piracy force was deployed. The hijacking of the Lutuf was the most high-profile of the recent incidents. Turkey has been expanding its influence in Somalia after an agreement signed in 2024 to build up its navy, and the Lutuf’s release two weeks after its capture involved a joint Turkish-Somali operation that resulted in the destruction of four pirate vessels. However, local officials including Mohamed Mubarak, the head of the Puntland security coordination office, have said that a $2.5m (£1.85m) ransom was also paid, prompting warnings that such payments risked encouraging similar incidents. In a comment for the Center for Maritime Security in July, Matthew Reisener, the thinktank’s national security adviser, warned that naval campaigns by Iran in the strait of Hormuz and Iran’s Houthi proxies in the Red Sea – launched in response to the US-Israel war on Iran – are allowing regional piracy “to once again thrive”. He wrote: “Not only have the global navies that once combatted piracy off the Horn of Africa diverted their resources to counter the threats against ships in these critical waterways, but these conflicts have also drawn maritime traffic closer to Somalia’s coastline, creating openings for opportunistic pirates to target commercial ships.” According to Reisener, about 70% of maritime traffic that passed through the Red Sea prior to the Houthis’ targeting of ships there is now being rerouted around the Cape of Good Hope in South Africa. A report by the Inte",
+      "source_title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+      "source_url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "黎巴嫩古城提尔被战争吞噬，世界最古老都市之一满目疮痍",
+      "entities": [
+        {
+          "name": "提尔",
+          "explain": "黎巴嫩南部沿海城市，有数千年历史，被联合国列为世界遗产"
+        },
+        {
+          "name": "黎巴嫩战争",
+          "explain": "以色列与黎巴嫩真主党之间的冲突，近期因中东局势升级而加剧"
+        }
+      ],
+      "summary": "黎巴嫩古城提尔，世界上最古老的都市之一，在战争中被严重破坏。这座城市拥有数千年历史和重要考古遗址，如今街道和建筑布满战争创伤。提尔的遭遇反映了黎巴嫩在地区冲突中承受的沉重代价。",
+      "relevant": "提尔不仅是黎巴嫩的文化瑰宝，也是全人类的历史遗产。其被毁凸显中东战争对文化遗产和平民生活的毁灭性影响。",
+      "context": "以色列与黎巴嫩真主党的冲突在伊朗战争背景下再度升级，提尔位于黎巴嫩南部，靠近以色列边境，成为军事行动的前沿区域。",
+      "source_analysis": "纽约时报实地报道，以视觉和人文视角呈现战争破坏，立场偏同情平民和文化遗产保护。",
+      "social_impact": "提尔的历史遗址和居民区均遭破坏，数千年文化遗产面临不可逆损失，当地居民大量流离失所。",
+      "source_text": "Inside an Ancient Lebanese City Engulfed by War。The Lebanese city of Tyre, one of the oldest metropolises in the world, has been left scarred.",
+      "source_title": "Inside an Ancient Lebanese City Engulfed by War",
+      "source_url": "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "法国诺曼底客运列车脱轨，至少44人受伤",
+      "entities": [
+        {
+          "name": "鲁昂-卡昂线路",
+          "explain": "法国诺曼底地区连接鲁昂和卡昂两座城市的铁路线路"
+        },
+        {
+          "name": "法国交通部长",
+          "explain": "负责法国交通运输事务的政府内阁成员"
+        }
+      ],
+      "summary": "法国诺曼底地区一列客运列车在鲁昂至卡昂线路上发生脱轨事故，造成至少44人受伤。事发时车上共有180名乘客。法国交通部长已就此事作出回应，救援和调查工作正在展开。",
+      "relevant": "客运列车脱轨属于重大公共交通安全事件，涉及大量平民伤亡，引发对法国铁路安全标准的关注。",
+      "context": "该列车当时正在诺曼底地区执行鲁昂至卡昂的常规客运任务，脱轨原因尚不明确，相关部门已介入调查。",
+      "source_analysis": "BBC报道，作为英国公共广播机构，其报道以事实陈述为主，引用了法国交通部长的官方表态。",
+      "social_impact": "车上180名乘客，至少44人受伤，事故可能引发法国社会对铁路基础设施维护和安全管理的大讨论。",
+      "source_text": "Passenger train derails in France leaving at least 44 injured - Published At least 44 people have been injured, including one seriously, after a passenger train derailed in northern France, local officials have said. An 18-year-old woman was airlifted in critical condition by helicopter to hospital. Transport Minister Philippe Tabarot said 180 passengers were on board the train that was operating between Rouen and Caen in Normandy. He added that 140 firefighters and other emergency teams were being deployed to the scene of the crash on Friday evening near the commune of Cléon, just south of Rouen. The cause of the derailment was not immediately known. The local authorities activated a mass-casualty response plan after the crash shortly before 20:00 local time (18:00 GMT). Photographs later emerged showing passengers leaving the crashed train, with French media reporting that three carriages overturned. France's state-owned railway operator SNCF reported \"significant disruptions\" on its routes in the area. It said replacement buses would be provided. The authorities advised the public to avoid the area.",
+      "source_title": "Passenger train derails in France leaving at least 44 injured",
+      "source_url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "刚果（金）布卡武一所学校发生火灾，多名儿童死亡",
+      "entities": [
+        {
+          "name": "布卡武",
+          "explain": "刚果民主共和国东部的一座城市，目前被M23反政府武装占领"
+        },
+        {
+          "name": "M23",
+          "explain": "刚果（金）东部的一支反政府武装组织，近年来在该地区频繁发动军事行动并占领城市"
+        }
+      ],
+      "summary": "刚果民主共和国东部城市布卡武一所学校发生火灾，造成多名儿童死亡。布卡武目前处于M23反政府武装控制之下。该事件发生在刚果（金）东部持续动荡的背景下。",
+      "relevant": "事件发生在反政府武装占领区，凸显了冲突地区平民尤其是儿童面临的严重安全和人道主义危机。",
+      "context": "刚果（金）东部长期处于武装冲突状态，M23武装占领了包括布卡武在内的多个城市，当地公共服务和安全保障严重缺失。",
+      "source_analysis": "法国24台报道，该媒体为法国国际新闻频道，关注非洲事务，报道视角侧重人道主义危机。",
+      "social_impact": "冲突地区儿童生命安全受到严重威胁，学校等民用设施在武装冲突中缺乏保护。",
+      "source_text": "Children die in a school fire in Bukavu To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: In tonight's programme we begin in the east of the Democratic Republic of Congo, where children have died after a school fire broke out in the M23 rebel occupied city of Bukavu. Also, Senegal looks to the skies as it seeks to develop its home-grown satellite industry. And finally, we wonder about the future of African cities. How will they cope with the population boom and climate crisis? A question, the Kenya architecture biennale in Nairobi tried to answer.",
+      "source_title": "Children die in a school fire in Bukavu",
+      "source_url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260911-children-die-in-a-school-fire-in-bukavu",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "1500万美元基金启动，旨在全球终结女性生殖器切割",
+      "entities": [
+        {
+          "name": "Her Horizon Fund",
+          "explain": "一个新成立的慈善基金，目标是筹集1亿美元用于在全球范围内终结女性生殖器切割行为"
+        },
+        {
+          "name": "FGM（女性生殖器切割）",
+          "explain": "一种对女性生殖器官进行部分或全部切除的传统陋习，全球已有超过2.3亿女性受害"
+        }
+      ],
+      "summary": "Her Horizon Fund基金正式启动，首期投入1550万美元，目标是筹集1亿美元以终结全球范围内的女性生殖器切割行为。该基金被认为是迄今为止对终结FGM事业最大的一笔单笔慈善捐款。此举正值女性权利日益受到攻击、捐助资金急剧下降之际。",
+      "relevant": "FGM影响全球超过2.3亿女性，该基金在女性权利受挫和资金缩减的背景下启动，具有重要的象征和实际意义。",
+      "context": "全球女性权利近年来面临越来越多的挑战，尤其是FGM幸存者主导的社区工作获得的捐助资金大幅减少，该基金在此背景下应运而生。",
+      "source_analysis": "《卫报》报道，该媒体偏自由派立场，长期关注全球发展、人权和性别平等议题。",
+      "social_impact": "FGM已影响全球超过2.3亿女性，基金首期1550万美元，目标1亿美元，旨在为一线活动人士提供资金支持。",
+      "source_text": "Frontline activists and leaders in the fight against female genital mutilation, which has affected more than 230 million women and girls worldwide, have welcomed an unprecedented $15.5m (£11.4m) fund aimed at creating “unstoppable momentum” to finally end the practice. The launch of the fund comes as women’s rights are increasingly under attack and donor funding is in sharp decline, particularly for work led by FGM survivors in local communities. It is thought to be the largest single philanthropic contribution to ending the practice of FGM. The United Nations has set a goal of elimination by by 2030, but progress is not on track as funding declines and legal protections are challenged. Funding received by the largest initiative to end the practice – a joint programme operated in 18 countries by the UN’s sexual and reproductive health agency, UNFPA, and the UN humanitarian organisation for children, Unicef – fell by 45% last year, from $29.6m to $16.3m. The Her Horizon Fund has been seeded with $14m from the Wallace Global Fund, plus an additional $1.5m contribution from an anonymous donor, making $15.5m in total. The aim of Her Horizon Fund, set up by the US-based Wallace Global Fund, is to pool $100m from donors to reach a “tipping point” towards ending FGM within a generation. Ifrah Ahmed, a Somali-Irish activist and survivor of FGM who set up the Ifrah Foundation to end practice in Somalia, where it is nearly universal, said: “By giving $14m, the global fund will ensure activists can continue their work in this area.” UN funding worth $300,000 to her organisation was cut by UNFPA last year, but Ahmed managed to raise money from elsewhere. The Ifrah Foundation has helped push for anti-FGM legislation in Somalia, she said. Three of Somalia’s seven federal member states have enacted anti-FGM laws, while in two other states bills banning the practice have been endorsed by cabinet and are awaiting parliamentary approval, albeit with opposition by religious leaders in some areas. “If we don’t continue to raise money, the dream where this practice will end will have died for young girls,” she added. Advocates warn that while international recognition of FGM as a human rights violation has grown, and countries such as Burkina Faso, the Gambia and Kenya have criminalised the practice, progress remains fragile. In recent years, survivors and frontline groups have been trying to protect gains made over several decades. The Gambia’s supreme court, for instance, is",
+      "source_title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "source_url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "俄罗斯选举前虚假动员传言引发社会紧张",
+      "entities": [
+        {
+          "name": "GFCN",
+          "explain": "俄罗斯政府下属的通信监管机构，负责监控和管理网络信息传播"
+        },
+        {
+          "name": "Vladimir Tabak",
+          "explain": "GFCN负责人，负责俄罗斯网络信息监管事务"
+        }
+      ],
+      "summary": "俄罗斯通信监管机构GFCN负责人Tabak表示，关于新一轮动员的虚假信息在俄罗斯社会广泛传播，引发民众紧张情绪。他指出，连俄罗斯总统都不得不就此话题表态，说明信息传播范围非常广。此事发生在俄罗斯选举前夕。",
+      "relevant": "虚假动员传言在选举前引发社会不安，反映出俄罗斯民众对军事动员的高度敏感以及信息管控面临的挑战。",
+      "context": "俄罗斯此前曾进行部分军事动员，民众对此高度敏感。在选举前夕，有关再次动员的传言在网络上广泛传播，引发恐慌。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道立场与俄罗斯政府一致，倾向于强调信息为'虚假'并突出政府应对。",
+      "social_impact": "虚假动员信息传播范围极广，甚至迫使总统亲自回应，显示俄罗斯社会对动员问题的高度焦虑。",
+      "source_text": "MOSCOW, September 12. /TASS/. Fake news about mobilization in Russia is being spread to create societal tension ahead of the country's State Duma elections, Vladimir Tabak, president of the Global Fact-Checking Network (GFCN), told TASS ahead of the Dialogue about Fakes 4.0 forum. \"Some stories are unrelated to the voting process itself and are intended to make this period more difficult for the authorities and the country. Probably the most striking example is the fake narrative about mobilization, which does not directly affect the elections,\" he said. \"It could have an impact if mobilization were announced. But rumors about it certainly create considerable tension among particular social groups and across society as a whole,\" Tabak added. For this reason, Tabak said, \"even the Russian president addressed the subject because the information had indeed spread very widely.\" \"Of course, there are opinion polls and analysis, but there is also a rule that applies to any non-work group chat you belong to,\" he continued. \"If your acquaintances start actively discussing a subject there, it means it has gained traction. I can say that this was discussed in every chat I belong to, and I was asked about it at every meeting I attended.\" He also explained that those \"who created and spread this fake claim were banking on the fact that, last time, some people became frightened and left the country, while their parents remained in Russia under stress.\" \"So the aim our opponents are pursuing is clear. I would single this out as one of the most prominent examples we are seeing,\" the GFCN chief said. Tabak also highlighted conventional attempts to undermine trust in the legitimacy of elections: \"These involve videos of the voting process itself. Even without using any technology, this could mean repurposing old footage. Let me give the most basic example: staged videos from a polling station intended to convince viewers that this is happening here and now. We know these will certainly emerge.\" About the Global Fact-Checking Network The Global Fact-Checking Network brings together experts and fact-checking organizations worldwide. The association was founded by the TASS news agency, the nonprofit organization Dialogue Regions and the New Media Workshop to combat disinformation. More than 125 journalists from 55 countries already collaborate with GFCN on fact-checking. The international Dialogue about Fakes 4.0 forum will take place on September 22 at the Russia National Ce",
+      "source_title": "False mobilization claims put society on edge ahead of Russian elections — GFCN chief",
+      "source_url": "https://tass.com/politics/2186489",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_afb4f16e363c",
+      "source": "BBC",
+      "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+      "url": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Iran-backed Houthis are also reported to have seized Perim - a strategic island on the major shipping route.",
+      "image": ""
+    },
+    {
+      "id": "rss_b089f1f4901e",
+      "source": "BBC",
+      "title": "Tragic death of woman who testified against father in notorious mafia murder of mother",
+      "url": "https://www.bbc.co.uk/news/articles/c39mr81j2j1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Denise Cosco testified against the powerful 'Ndrangheta clan and her own father over the murder of her mother in Italy.",
+      "image": ""
+    },
+    {
+      "id": "rss_5753656b9b62",
+      "source": "BBC",
+      "title": "Passenger train derails in France leaving at least 44 injured",
+      "url": "https://www.bbc.co.uk/news/articles/c8d37dm8d8mo?at_medium=RSS&at_campaign=rss",
+      "summary": "France's transport minister says 180 passengers were on board the train operating the Rouen-Caen route in Normandy.",
+      "image": ""
+    },
+    {
+      "id": "rss_33acf7774a90",
+      "source": "BBC",
+      "title": "Arrest made over the death of black woman found hanged from tree",
+      "url": "https://www.bbc.co.uk/news/articles/cqjkejq5750o?at_medium=RSS&at_campaign=rss",
+      "summary": "Tasia Fortune's body was found in the lot of an abandoned home in Mississippi in August.",
+      "image": ""
+    },
+    {
+      "id": "rss_ea61e653fcbc",
+      "source": "BBC",
+      "title": "Norway's Princess Astrid dies two days after attending brother King Harald's funeral",
+      "url": "https://www.bbc.co.uk/news/articles/cgjq1qy98vjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Princess Astrid \"represented the Royal House in a warm and dutiful manner\", the new king, Haakon VIII, said in a tribute to his aunt.",
+      "image": ""
+    },
+    {
+      "id": "rss_7f31f787741d",
+      "source": "France24",
+      "title": "Children die in a school fire in Bukavu",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260911-children-die-in-a-school-fire-in-bukavu",
+      "summary": "In tonight's programme we begin in the east of the Democratic Republic of Congo, where children have died after a school fire broke out in the M23 rebel occupied city of Bukavu. Also, Senegal looks to the skies as it seeks to develop its home-grown satellite industry. And finally, we wonder about the future of African cities. How will they cope with the population boom and climate crisis? A question, the Kenya architecture biennale in Nairobi tried to answer.",
+      "image": "https://s.france24.com/media/display/e54c4920-ae1d-11f1-ae7e-005056bf30b7/w:1024/p:16x9/capture-10961424326aa461fc83f3e6-90411594.jpg"
+    },
+    {
+      "id": "rss_f79b1f4e8da1",
+      "source": "France24",
+      "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
+      "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
+      "summary": "Yemen's Iran-aligned Houthi rebels captured the strategic Perim Island in the Bab el-Mandeb Strait, located at the southern entrance to the Red Sea, officials said on Friday. The lightning move opens a new front in the Iran war and threatens energy supplies, especially Saudi oil exports, from passing through one of the world's key shipping lanes.",
+      "image": "https://s.france24.com/media/display/e67af742-ae18-11f1-ae71-005056a90284/w:1024/p:16x9/000-C7VR3NQ.jpg"
+    },
+    {
+      "id": "rss_857e99b7997a",
+      "source": "France24",
+      "title": "🔴 Live: Saudi shuts East-West oil pipeline after multiple Houthi attacks",
+      "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_570391dfb59a",
+      "source": "France24",
+      "title": "Zelensky urges Trump to impose new Russia sanctions 'now', after deadly Ukraine strikes",
+      "url": "https://www.france24.com/en/europe/20260911-zelensky-urges-trump-to-impose-new-russia-sanctions-now-after-deadly-ukraine-strikes",
+      "summary": "Ukrainian President Volodymyr Zelensky on Friday urged US President Donald Trump to impose new sanctions on Russia over deadly strikes on Ukraine, as Kyiv and Moscow step up attacks and US-led efforts to end the war remain deadlocked.",
+      "image": "https://s.france24.com/media/display/8c23efbe-ae0f-11f1-929d-005056a90284/w:1024/p:16x9/2026-09-09T104246Z-849861914-RC2MFNAOGGWF-RTRMADP-3-NORWAY-ROYALS-KING-HARALD-FUNERAL.jpg"
+    },
+    {
+      "id": "rss_aa83e67576f0",
+      "source": "France24",
+      "title": "Can we slowdown AI, and 9/11, who has the right to remember?",
+      "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20260911-can-we-slowdown-ai-and-9-11-who-has-the-right-to-remember",
+      "summary": "In a week that marks 25 years since 9/11, Americans paused to pay tribute. Six bells tolled to signify six fatal moments in New York, at the Pentagon and in Pennsylvania, with a seventh bell rung this year to commemorate those who later died from 9/11-related illnesses.",
+      "image": "https://s.france24.com/media/display/ebcc439a-ae0e-11f1-86c2-005056a97e36/w:1024/p:16x9/WhatsApp-Image-2026-09-11-at-20-12-19.jpeg"
+    },
+    {
+      "id": "rss_d56c4c4c5ded",
+      "source": "TASS Russia",
+      "title": "Russia supports broader participation in BRICS bank’s work, Putin says",
+      "url": "https://tass.com/politics/2186499",
+      "summary": "The Russian president also mentioned Moscow’s initiative to create an investment platform for BRICS countries",
+      "image": ""
+    },
+    {
+      "id": "rss_6efa31ebf58c",
+      "source": "TASS Russia",
+      "title": "Putin does not rule out European gas prices reaching $1,500",
+      "url": "https://tass.com/economy/2186493",
+      "summary": "The Russian president says traders believe that \"today, it is more advantageous to extract gas from storage that was purchased at lower prices,\" which will lead to a price growth",
+      "image": ""
+    },
+    {
+      "id": "rss_02f35dd04379",
+      "source": "TASS Russia",
+      "title": "False mobilization claims put society on edge ahead of Russian elections — GFCN chief",
+      "url": "https://tass.com/politics/2186489",
+      "summary": "Vladimir Tabak added that \"even the Russian president addressed the subject because the information had indeed spread very widely\"",
+      "image": ""
+    },
+    {
+      "id": "rss_65ace1c9da88",
+      "source": "TASS Russia",
+      "title": "North Korea launches projectile toward Sea of Japan — media",
+      "url": "https://tass.com/world/2186487",
+      "summary": "Yonhap reported the launch, citing the Joint Chiefs of Staff of the Republic of Korea",
+      "image": ""
+    },
+    {
+      "id": "rss_1155f9ecf691",
+      "source": "TASS Russia",
+      "title": "BRICS Bank contributes to development of organization — Putin",
+      "url": "https://tass.com/politics/2186485",
+      "summary": "The Russian president said that the bank is acting energetically",
+      "image": ""
+    },
+    {
+      "id": "rss_1e58ddc74a3d",
+      "source": "纽约时报",
+      "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+      "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+      "summary": "The militia captured the island in the Bab al-Mandab Strait, a choke point for trade. Saudi Arabia also announced it had shut down a critical oil pipeline after a drone attack launched from Iraq.",
+      "image": ""
+    },
+    {
+      "id": "rss_f0c2a97ed554",
+      "source": "纽约时报",
+      "title": "Inside an Ancient Lebanese City Engulfed by War",
+      "url": "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
+      "summary": "The Lebanese city of Tyre, one of the oldest metropolises in the world, has been left scarred.",
+      "image": ""
+    },
+    {
+      "id": "rss_903a56b722de",
+      "source": "纽约时报",
+      "title": "As Russia Again Draws Near, a Frontline City Fears Obliteration This Time",
+      "url": "https://www.nytimes.com/2026/09/11/world/europe/ukraine-russia-izium-donetsk.html",
+      "summary": "The Ukrainian city of Izium still bears the scars of Russian occupation from four years ago. As Moscow’s forces approach, residents are bracing for the worst.",
+      "image": ""
+    },
+    {
+      "id": "rss_508c72dd7483",
+      "source": "纽约时报",
+      "title": "At BRICS Summit, China and India Vie for Influence",
+      "url": "https://www.nytimes.com/2026/09/11/world/asia/china-india-brics-summit.html",
+      "summary": "China sees the BRICS group as a vehicle for challenging American power. India wants to keep the group broad enough to avoid choosing sides.",
+      "image": ""
+    },
+    {
+      "id": "rss_d874030e9c18",
+      "source": "纽约时报",
+      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "url": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
+      "summary": "The leaders of China, Russia, India, Iran and other nations in the BRICS club gather in New Delhi this weekend, but wars and soaring energy prices divide them.",
+      "image": ""
+    },
+    {
+      "id": "rss_0fef4516f33a",
+      "source": "卫报",
+      "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+      "summary": "Her Horizon Fund seeks $100m to stop practice harming 230m women and girls globally Frontline activists and leaders in the fight against female genital mutilation, which has affected more than 230 million women and girls worldwide , have welcomed an unprecedented $15.5m (£11.4m) fund aimed at creating “unstoppable momentum” to finally end the practice. The launch of the fund comes as women’s rights are increasingly under attack and donor funding is in sharp decline, particularly for work led by FGM survivors in local communities. It is thought to be the largest single philanthropic contribution to ending the practice of FGM. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_57b2844247a7",
+      "source": "卫报",
+      "title": "Secret son revelation ignites bitter succession dispute in Ugandan kingdom",
+      "url": "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
+      "summary": "Family of late King Oyo Nyimba Kabamba Iguru Rukidi IV reject committee’s choice of cousin and TV presenter as new monarch A traditional Ugandan kingdom has become engulfed in a bitter succession dispute after the family of a king who recently died rejected the selection of a television news anchor as his successor. King Oyo Nyimba Kabamba Iguru Rukidi IV, who became the world’s youngest reigning monarch when he took the throne in the kingdom of Tooro in 1995 at the age of three, died on 27 August in the US, where he was receiving cancer treatment. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_c1f6a73fa239",
+      "source": "卫报",
+      "title": "Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief",
+      "url": "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles",
+      "summary": "Gen Muhoozi Kainerugaba announces decision to pull out in post on X, citing tensions over ‘Harry-Meghan nonsense’ Uganda is withdrawing from the Duke of Sussex’s Invictus Games, the country’s military chief has said, out of respect for King Charles amid division over the “Harry-Meghan nonsense”. Gen Muhoozi Kainerugaba, son of the Ugandan president, made the surprise announcement in a post on X on Wednesday. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fd7169c4216c",
+      "source": "卫报",
+      "title": "Babies born to anaemic mothers have smaller brains, study finds",
+      "url": "https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds",
+      "summary": "Key regions of the brain linked to movement, learning and emotions were affected and may lead to cognitive problems Babies born to mothers with anaemia have smaller brains, particularly in key regions linked to movement, learning and the regulation of emotion, according to a study. Researchers said the differences, first detected at the age of one, could lead to cognitive problems when children started school. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_10917104f104",
+      "source": "卫报",
+      "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+      "url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "summary": "US-Israel war on Iran and political instability in Somalia lead to pirates targeting cargo ships off Horn of Africa The scourge of Somali piracy targeting cargo ships and smaller dhows off the Horn of Africa has returned to levels not seen in a decade, driven by a convergence of factors including disruptions to the shipping industry caused by the US-Israeli war against Iran and a resurgence of political instability in Somalia. Since late April there have been eight hijackings by Somali pirates, including two within the space of a fortnight in August : one targeting an oil tanker with ties to Iran, the other a Cameroon-flagged vessel, the Lutuf, carrying military equipment for Turkey. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-12 07:30"
+}
