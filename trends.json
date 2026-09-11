@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI编程工具进入成本精细化阶段",
-    "importance": 5,
-    "evidence": "多个开发者自发对比token开销、构建成本监控工具、分享优化经验",
-    "grassroots": "开发者从'能用就行'转向'算清楚每分钱花在哪'",
-    "date": "2026-07-13"
-  },
-  {
-    "theme": "AI生成内容标识成为社区治理焦点",
-    "importance": 4,
-    "evidence": "HN上关于添加AI标记的讨论热度极高，管理员和用户观点分歧明显",
-    "grassroots": "用户既希望识别AI内容，又担心标记机制被滥用",
-    "date": "2026-07-13"
-  },
-  {
-    "theme": "多Agent编排从概念走向实战",
-    "importance": 4,
-    "evidence": "Agora拍卖式任务分配、VEXAIoT自主漏洞挖掘等论文出现，Dev.to有开发者分享编排经验",
-    "grassroots": "开发者开始探索如何让多个Agent协同工作而非单打独斗",
-    "date": "2026-07-13"
-  },
-  {
-    "theme": "AI编程工具进入‘选型优化’阶段",
-    "importance": 5,
-    "evidence": "掘金出现多篇Claude Code/Cursor/Codex对比文章，Dev.to有workflow分享",
-    "grassroots": "开发者从‘哪个工具能用’转向‘哪个工具更适合什么任务’",
-    "date": "2026-07-14"
-  },
-  {
     "theme": "LLM元认知研究成为学术热点",
     "importance": 4,
     "evidence": "今日ArXiv出现系统综述论文，提出研究框架",
@@ -1398,5 +1370,33 @@
     "evidence": "Meta Muse采用分层提示注入防御（模型训练+harness标记+确定性代码+集成分类器），HN讨论引用DeepMind CaMeL方案",
     "grassroots": "开发者simonw主动分析Meta防御架构并关联学术论文，社区对agent安全的关注度显著提升",
     "date": "2026-09-09"
+  },
+  {
+    "theme": "Agent基础设施可编程化与插件化",
+    "importance": 5,
+    "evidence": "OpenAI Agents API上线、DeepSeek Harness开源引爆插件生态、社区桌面端与路由套件涌现",
+    "grassroots": "开发者从自建harness转向评估托管vs自托管，关注锁定风险",
+    "date": "2026-09-11"
+  },
+  {
+    "theme": "AI编程瓶颈从生成转向验证",
+    "importance": 5,
+    "evidence": "Dev.to多篇热文讨论验证瓶颈、HN用户拒绝阅读AI生成的markdown",
+    "grassroots": "开发者从'能不能用'转向'怎么信得过'",
+    "date": "2026-09-11"
+  },
+  {
+    "theme": "MoE架构的数据重复训练风险",
+    "importance": 4,
+    "evidence": "Jure Leskovec团队论文证明MoE在数据重复下退化更快且随稀疏度加剧",
+    "grassroots": "暂无基层反馈，但直接影响主流模型训练策略",
+    "date": "2026-09-11"
+  },
+  {
+    "theme": "Agent持续运行与内在驱动力对齐",
+    "importance": 4,
+    "evidence": "ArXiv Artificial Id论文提出自适应内部驱动力，与DeepSeek智能体招聘方向呼应",
+    "grassroots": "暂无基层反馈，属前沿科研",
+    "date": "2026-09-11"
   }
 ]
