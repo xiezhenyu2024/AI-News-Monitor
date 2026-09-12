@@ -1,0 +1,772 @@
+{
+  "key": "2026-09-12-evening",
+  "date": "2026-09-12",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 14,
+      "title": "美国高校人文学科学位授予数量持续下滑，2025年占比降至8.1%",
+      "entities": [
+        {
+          "name": "Humanities Indicators",
+          "explain": "美国艺术与科学院下属的一个数据研究项目，专门追踪人文学科的各类统计数据"
+        },
+        {
+          "name": "American Academy of Arts & Sciences",
+          "explain": "美国艺术与科学院，美国历史最悠久的学术荣誉团体之一，经常发布各类政策研究报告"
+        },
+        {
+          "name": "人文学科（Humanities）",
+          "explain": "包括文学、历史、哲学、宗教研究等以人类文化和思想为研究对象的学科统称"
+        }
+      ],
+      "summary": "美国艺术与科学院下属项目Humanities Indicators最新报告显示，2025年美国高校共授予164,847个人文学科学士学位，为1991年以来最低，较2012年峰值下降30.4%。人文学科学位占全部本科学位的比例已从20年前的近15%降至8.1%。几乎所有人文学科分支的学位数量都在减少，其中宗教研究降幅最大。",
+      "relevant": "人文学科萎缩反映了高等教育中STEM和职业导向专业的挤压效应，也折射出社会对文科价值认知的变化，对高校学科布局和人文教育未来走向有重要参考意义。",
+      "context": "过去二十年，美国高校人文学科学位授予比例持续下降。2012年达到近期高峰后加速下滑，2021至2023年间降幅达12.7%。此后降幅逐年收窄，2024至2025年仅下降0.4%，为2012年以来最小年降幅，可能预示下滑趋势正在趋缓。",
+      "source_analysis": "Daily Nous是一个面向哲学学术界的新闻博客，偏向关注人文学科动态，对该话题有天然的学科关切。数据来源为美国艺术与科学院，属于权威学术机构。",
+      "social_impact": "2025年全美人文学科学位仅164,847个，为1991年以来最少。占比从约15%降至8.1%，意味着人文学科在高等教育中的地位大幅边缘化，可能影响相关院系经费、师资和课程设置。",
+      "source_text": "Fewer and Fewer Students Earn Degrees in the Humanities。20 years ago, nearly 15% of the undergraduate degrees conferred in the United States were in the humanities. As of 2025, that percentage is down to 8.1%. These figures are from a recent report by Humanities Indicators, a project of the American Academy of Arts &#38; Sciences. Here are the numbers: In 2025, the nation’s colleges and universities awarded 164,847 bachelor’s degrees in the humanities&#8212;the smallest number of degrees awarded since 1991 and 30.4% below the recent high-water mark in 2012&#8230; That decline includes a particularly sharp drop of 12.7% from 2021 to 2023, followed by a more modest drop of 2.1% from 2023 to 2024, and a further decline of just 0.4% from 2024 to 2025—the smallest year-on-year decline since 2012. And most disciplines within the humanities have shown a decline: Within the humanities, almost every discipline awarded fewer degrees in 2025 than 13 years earlier&#8230; The largest proportional drops in degrees awarded occurred in religious studies (down 56.3%), area studies (53.2%), languages and literatures other than English (50.8%), English (43.8%), history (40.6%), classical studies (39.4%), and comparative literature (31%). Only three disciplines showed increases&#8212;folklore (where the small number of degrees awarded makes the numbers highly volatile), the study of the arts (with a modest 2.1% increase since 2012), and interdisciplinary humanities disciplines (where the increase was largely due to the addition of a substantial number of new programs, such as digital humanities, in the Department of Education’s 2020 revision of its Classification of Instructional Programs). How&#8217;s philosophy doing? Well, after a slight decrease last year, there has been a slight increase: In 2024, 5,763 students earned philosophy BAs. In 2025, that number was 5,918. The full report from Humanities Indicators is here. The post Fewer and Fewer Students Earn Degrees in the Humanities first appeared on Daily Nous .",
+      "source_title": "Fewer and Fewer Students Earn Degrees in the Humanities",
+      "source_url": "https://dailynous.com/2026/09/09/fewer-and-fewer-students-earn-degrees-in-the-humanities/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "Aeon视频探讨：在我们尚未理解自身意识时，能否测试AI意识？",
+      "entities": [
+        {
+          "name": "John Searle",
+          "explain": "美国哲学家，以'中文房间'思想实验闻名，主张计算机即使能模拟智能也不等于真正拥有意识"
+        },
+        {
+          "name": "中文房间实验",
+          "explain": "Searle提出的思想实验：一个人在房间里按规则手册操作中文符号，外面的人以为他懂中文，但他其实完全不理解——用来论证'符号操作不等于理解'"
+        },
+        {
+          "name": "Aeon",
+          "explain": "一家专注哲学、科学和文化议题的英文数字媒体，以深度长文和视频著称"
+        }
+      ],
+      "summary": "Aeon发布视频，围绕哲学家John Searle的'中文房间'思想实验展开讨论，核心问题是：人类连自身意识都尚未完全理解，是否有能力设计出有效的AI意识测试？视频通过这一经典实验重新审视AI意识检测的可能性与局限。",
+      "relevant": "随着大语言模型能力快速提升，AI是否具有意识成为公众和学界热议话题。该视频提供了一个哲学视角，帮助理解为何'AI意识测试'本身就是一个难题。",
+      "context": "Searle于1980年提出'中文房间'论证，旨在反驳'强人工智能'观点——即认为运行正确程序的计算机可以拥有心智。当前AI技术飞速发展，这一几十年前的哲学论证被重新提起，用于讨论当代AI意识问题。",
+      "source_analysis": "Aeon是一家以哲学和人文视角见长的数字媒体，倾向于从思想实验和哲学论证角度切入科技话题，立场偏向人文反思而非技术乐观主义。",
+      "social_impact": "",
+      "source_text": "Devised by the late US philosopher John Searle in 1980, the ‘Chinese room’ thought experiment is one of the best-known challenges to the idea that programmed computers could be conscious. This animation from TED-Ed lays out Searle’s famed argument, which has drawn considerable criticism and become more contentious as AI systems have grown far more sophisticated. While exploring whether the Chinese room still computes in the AI era, the video considers the mounting complexities of ever knowing whether computers could have cognitive states – especially given how little we understand our own. Could there ever be a viable test for artificial consciousness? Video by TED-Ed Directors: Hernando Bahamon, Vicente Numpaque, Globizco Studios Producer: Sazia Afrin Writers: Charles Wallace, Dan Kwartler videoPhilosophy of mind We long misjudged animal consciousness. Could AI be next? 5 minutes videoTechnology and the self Why we should worry less about ‘sentient’ AIs and more about what we’re teaching them 16 minutes videoInformation and communication AI isn’t merely bad at writing. It does not and cannot write 40 minutes videoKnowledge Can you know everything about colour if you see in black and white? A thought experiment 5 minutes videoCognition and intelligence How a ‘periodic table’ of animal intelligence could help to root out human bias 5 minutes videoComputing and artificial intelligence Teaching an AI to beat video games still takes human imagination 5 minutes videoMetaphysics Knowing if you’re awake seems simple. Why has it vexed philosophers for centuries? 5 minutes videoArt What does an AI make of what it sees in a contemporary art museum? 15 minutes videoCognition and intelligence Leaping from firing neurons to human behaviour is tempting, but it’s a perilous gap 3 minutes",
+      "source_title": "The Chinese room",
+      "source_url": "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "研究显示哲学家与非哲学家在神经多样性特征和思想实验反应上存在差异",
+      "entities": [
+        {
+          "name": "Thomas Nadelhoffer",
+          "explain": "查尔斯顿学院哲学教授，该研究的主要作者之一，关注实验哲学和道德心理学"
+        },
+        {
+          "name": "神经多样性（Neurodivergent Traits）",
+          "explain": "指自闭症、ADHD、阅读障碍等非典型神经发育特征，强调这些差异是人类多样性的一部分"
+        },
+        {
+          "name": "思想实验",
+          "explain": "哲学中常用的假设性场景（如电车难题），用来测试人们的直觉判断和道德推理"
+        },
+        {
+          "name": "Philosophical Psychology",
+          "explain": "一本同行评审的学术期刊，专门发表哲学与心理学交叉领域的研究"
+        }
+      ],
+      "summary": "一项发表在《Philosophical Psychology》上的研究探讨了哲学家与非哲学家在神经多样性特征和对思想实验的反应上是否存在差异。研究团队发现，总体上支持'哲学家思维方式确实不同'这一结论。该研究由Thomas Nadelhoffer等人合作完成，Daily Nous以客座文章形式发布了相关讨论。",
+      "relevant": "这项研究属于'实验哲学'领域，用量化方法检验哲学界长期以来的直觉假设——哲学家是否因为思维方式不同而更适合做哲学。对理解哲学选材、教育和认知多样性有启发。",
+      "context": "哲学史上一直有观点认为哲学家具有独特的'气质'或思维方式。近年来实验哲学兴起，研究者开始用心理学和认知科学方法实证检验这类假设。该研究正是在这一背景下，聚焦神经多样性特征与思想实验反应两个维度。",
+      "source_analysis": "Daily Nous是哲学学术社区的重要新闻博客，该文为客座文章，作者即研究参与者本人，属于学术自述性质，立场与研究对象一致。",
+      "social_impact": "",
+      "source_text": "How Different Are Philosophers? (guest post) “Do philosophers really think differently than non-philosophers?” That’s the question taken up by a team of researchers in a recent study published in Philosophical Psychology. Focusing on differences between philosophers and non-philosophers in regard to neurodivergent traits and responses to thought experiments, the researchers found some support, in the aggregate, for a “yes” answer to that question. The following guest post is by Thomas Nadelhoffer (College of Charleston), and is based on the article, “Thinking Differently: Neurodivergent Traits and Responses to Thought Experiments in Philosophers and the General Population,” co-authored with Paul McKee (Duke), Khaoula Boulhadi (Southern Connecticut State), and Helena Weymouth (College of Charleston). How Different Are Philosophers? by Thomas Nadelhoffer “The history of philosophy is to a great extent that of a certain clash of human temperaments [. . .] Yet, his temperament really gives him a stronger bias than any of his more strictly objective premises. It loads the evidence for him one way or the other” — William James Neurodiversity and Philosophical Intuitions In addition to being abstract thinkers, philosophers are stereotyped as being argumentative, overly self-absorbed in their own thoughts, and enjoy creating increasingly fine distinctions regarding everyday terms while imagining novel hypothetical situations and debating the conclusions they draw. It’s possible that many philosophers have quite distinctive personalities. More than two millennia before the modern notion of stereotypes existed, Plato used humor to poke fun at philosophers in the Theaetetus by telling a story of Thales contemplating the stars, so engrossed that he forgot where he was walking and fell down a well. However, do philosophers really think differently than non-philosophers? This was one of the questions behind the paper we recently published in Philosophical Psychology. We surveyed 1,254 individuals, 632 with formal training in philosophy and 622 members of the general public, and explored whether philosophers exhibit significant cognitive differences from non-philosophers using multiple measures of neurodiverse traits. To get enough responses from philosophers, we recruited participants here at Daily Nous and on Leiter Reports. We recruited the general population participants from Prolific. We preregistered our experimental design, research questions, and hypotheses. Phil",
+      "source_title": "How Different Are Philosophers? (guest post)",
+      "source_url": "https://dailynous.com/2026/09/10/how-different-are-philosophers-guest-post/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "Aeon文章：伊斯兰科学先驱的多才多艺给当代学生的启示——广度胜于专精",
+      "entities": [
+        {
+          "name": "伊斯兰科学",
+          "explain": "中世纪伊斯兰黄金时代（约8-14世纪）在数学、天文、医学、化学等领域的科学成就"
+        },
+        {
+          "name": "Mariam Sabri",
+          "explain": "该文作者，关注伊斯兰科学史与当代教育议题的学者"
+        },
+        {
+          "name": "博学者（Polymath）",
+          "explain": "在多个学科领域都有深厚造诣的人，如达芬奇、花拉子米等"
+        }
+      ],
+      "summary": "Aeon发表Mariam Sabri的文章，通过四位伊斯兰科学博学者的故事，论证广博的知识面优于狭窄的专业化，并强调不应让外部限制阻碍求知。文章以伊斯兰科学黄金时代的历史经验为当代学生提供借鉴。",
+      "relevant": "在高等教育日益强调专业化和职业导向的当下，这篇文章以历史案例反思'通识 vs 专精'的教育争论，为博雅教育价值提供了跨文化的论据。",
+      "context": "伊斯兰黄金时代涌现了大量跨领域学者，他们在数学、天文、医学、哲学等多个领域同时做出贡献。当代高等教育则越来越倾向于早期专业化和窄化培养。文章借此历史对比，反思当前教育模式的局限。",
+      "source_analysis": "Aeon以人文和思想类长文为主，倾向于挑战主流叙事、提倡跨学科视野，该文立场明确支持博雅教育和知识广度。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 23 minute listen This semester, my students are learning about four polymaths who shaped Islamic science: al-Biruni, Alhazen, Avicenna and al-Khwarizmi. Their circumstances could hardly have been more different: one wrote his way out of scarcity; one was held under house arrest for a decade; one distilled an era’s medical knowledge into a text that ruled European universities for 500 years; and the last worked at the largest research institution of his age. But each shared the same underlying instinct: to move freely between mathematics, medicine, astronomy, philosophy and poetry, testing one discipline’s assumptions against another’s. My classroom is in Pakistan, where students arrive eager to talk about disruption and employability, but rarely about breadth. I want them to see, through these four lives, that this kind of expansiveness isn’t a luxury for stable times; it has produced some of the most enduring breakthroughs in the history of science. After 15 years working in liberal arts education, I believe a reintegration of disciplines in a Hellenistic style can lead the way. I’m not making a superficial case for ‘interdisciplinarity’. Instead, I’m arguing for something more specific: the recovery of the penchants of polymathy that once thrived in the Muslim world. Rather than fetishising disruptive innovation through compulsory courses on entrepreneurship and applied methods, we should offer an entirely different model of how to learn and what learning is for – especially since my students already enter university with a narrowly vocational mindset. The word polymathy itself captures the bricolage of many (poly) worlds of knowledge (mathy). Polymathy offers respite and reflection in a world fractured by war, climate catastrophe and injustice. It is sourced from indigenous idioms of the Muslim world rather than an imposition by the Global North. Today, polymathy brings different kinds of thinking to bear on political, economic and environmental problems. At a time when students are reading less of the classic canon and worrying more about employment opportunities, the expansiveness of polymathy can offer a meaningful path forward. These are the lessons of the great Islamic polymaths. The life of our opening actor al-Biruni has much to teach students about the human dimensions of science. Born in the Central Asian city of Khwarizm around 973, he grew up with few opportunities. But that didn’t constrain him: al-Biruni sought an educa",
+      "source_title": "Penchants of the polymaths",
+      "source_url": "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "Daily Nous迷你合集：AI与人协作指南、高校技术官僚膨胀批评等链接汇总",
+      "entities": [
+        {
+          "name": "Ken Liu",
+          "explain": "刘宇昆，美籍华裔科幻作家，代表作《三体》英文译者，多次获雨果奖"
+        },
+        {
+          "name": "Barry Lam",
+          "explain": "瓦萨学院哲学教授，播客《Hi-Phi Nation》主持人，关注哲学与公共议题"
+        },
+        {
+          "name": "Lisa Tessman",
+          "explain": "宾汉姆顿大学哲学教授，2024年美国哲学协会东部分会主席"
+        },
+        {
+          "name": "Mini-Heap",
+          "explain": "Daily Nous的固定栏目，定期汇总哲学界和相关领域的链接推荐"
+        }
+      ],
+      "summary": "Daily Nous的Mini-Heap栏目汇总了多条链接，包括Ken Liu的短篇小说《AI与人类协作应知的50件事》、Barry Lam在《波士顿环球报》批评高校技术官僚膨胀、Lisa Tessman在APA东部分会的主席演讲，以及关于学术界'觉醒文化'讨论和动物利他主义等内容。",
+      "relevant": "该合集反映了当前哲学界和高等教育领域的热点议题：AI与人类关系、高校行政膨胀、学术政治等，适合快速了解学界动态。",
+      "context": "Mini-Heap是Daily Nous的常规栏目，定期收集哲学相关领域值得关注的链接。本期内容涵盖AI、高等教育管理、学术演讲和动物行为等多个话题。",
+      "source_analysis": "Daily Nous是哲学学术社区新闻博客，Mini-Heap为其链接聚合栏目，内容选择反映该博客对哲学界公共议题的关注倾向。",
+      "social_impact": "",
+      "source_text": "Mini-Heap。New links&#8230; “50 Things Every AI Working with Humans Should Know” &#8212; a short story by Ken Liu “We need a moratorium on new rules and new software purchases until we’ve pruned what does not serve the fundamental mission of teaching and learning and in fact gets in the way of it” &#8212; Barry Lam on higher ed&#8217;s techno-bureaucratic bloat, in the Boston Globe (unpaywalled here) “When What Rightly Matters Doesn’t Really Matter” &#8212; Lisa Tessman&#8217;s Presidential Address at the 2024 Eastern Division APA meeting “Is there dumb wokeness in the academy? Of course. But if we are truly interested in whether it is prominent, representative, isolated [etc.]… we are going to need a more sophisticated methodology than repeated applications of the availability bias” &#8212; Steven Hales on caricatures of the academy Humpback whales to the rescue &#8212; the possibility of animal altruism (via MR) “Self-deception is very easy. For that reason, I do think clear thinking is immensely important. But I don’t think philosophy in the old-fashioned sense is quite the thing the world needs nowadays” (via Open Culture) &#8212; a 1952 television interview with Bertrand Russell (transcript here) Can laws be unjust and yet remain, in some sense, morally legitimate? &#8212; Jonathan Quong and Blain Neufeld discuss this and related questions taken up in Quong&#8217;s new book on &#8220;legitimate injustice&#8221; Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may be of interest to philosophers. The Heap of Links consists partly of suggestions from readers; if you find something online that you think would be of interest to the philosophical community, please send it in for consideration for the Heap. Thank you.Previous edition. &#160; &#160; The post Mini-Heap first appeared on Daily Nous .",
+      "source_title": "Mini-Heap",
+      "source_url": "https://dailynous.com/2026/09/10/mini-heap-728/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "Open Culture提供《Jugend》杂志数百期免费下载——德国新艺术运动先锋刊物",
+      "entities": [
+        {
+          "name": "Jugend",
+          "explain": "1896年创办的德国艺术杂志，是新艺术运动（Art Nouveau）在德国的主要阵地，'Jugendstil'（青年风格）即得名于此"
+        },
+        {
+          "name": "Gleichschaltung",
+          "explain": "德语'一体化'，指1933年纳粹上台后对德国社会各领域强制协调统一的过程"
+        },
+        {
+          "name": "新艺术运动（Art Nouveau）",
+          "explain": "19世纪末至20世纪初流行于欧洲的装饰艺术风格，强调曲线和自然形态"
+        }
+      ],
+      "summary": "Open Culture发布消息，读者可免费下载德国先锋艺术杂志《Jugend》从1896年至1940年的数百期内容。该杂志是新艺术运动在德国的标志性刊物，文章同时提及1933年纳粹'一体化'政策对德国社会的全面改造背景。",
+      "relevant": "这批杂志跨越近半个世纪，从艺术先锋到纳粹时期，是研究德国文化史、艺术史和极权主义对文化影响的珍贵一手资料，且免费开放获取。",
+      "context": "《Jugend》1896年在慕尼黑创刊，推动了德国新艺术运动（Jugendstil）。1933年纳粹上台后推行Gleichschaltung政策，对媒体和文化机构进行全面控制，该杂志此后的内容也受到这一政治环境的影响，最终于1940年停刊。",
+      "source_analysis": "Open Culture是一个专注免费文化教育资源的博客，立场偏向推广开放获取的文化遗产。",
+      "social_impact": "",
+      "source_text": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum writes. “Culture, the economy, education, and law all came under Nazi control.” Those artists and organizations that were not purged had their essential character changed to reflect an entirely different set of artistic and political values. One publication, especially, serves as an example of the Nazification of culture. The arts journal Jugend (Youth), writes Messy Nessy Chic, “had been turned largely into propaganda” between 1933 and 1940, its final year. But prior to the regime’s takeover, Jugend showcased the most avant-garde, “degenerate” artists of the era, and might have been “the ‘brainiest’ periodical of the day,” as one critic wrote in a 1904 issue of The Yale Literary Magazine. “There is no magazine published in England or in this country which is at all like it.” You can take a look yourself—browse, search, and download hundreds of scanned issues of Jugend at the University of Heidelberg’s digital archive, thousands of pages in PDF form, spanning the magazine’s forty-four-year history. You can also see images at Flickr. As in England, France, Austria, and the U.S., the Art Nouveau movement in Germany emerged from a whirlwind of post-Impressionist painting, Orientalist motifs, folk art, modernist art and advertising, book illustration, and graphic and industrial design. Appropriately, given its perch on the threshold of a new century, Art Nouveau looked both backward—to the medieval, gothic, and Romantic—and forward toward a more modernist, urbane, and urbanized sensibility. So influential was Jugend that Art Nouveau in Germany became known as Jugendstil. The Oxford Critical and Cultural History of Modernist Magazines writes, “Among Jugend’s most important qualities—indeed, an essential aspect of Art Nouveau and its German equivalent Jugendstil—was its brilliant escapism.” Founded in 1896 by writer Georg Hirth, the magazine was “from the start a venue to promote the new cultural Renaissance without recourse to the established ‘vintage’ art.” (See its very first cover right above.) Jugendstil was primarily based in Munich, where most of its artists, designers, and writers lived and worked, ",
+      "source_title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "source_url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "Frank Lloyd Wright的秘密副业：日本艺术品经销商，及其对建筑风格的影响",
+      "entities": [
+        {
+          "name": "Frank Lloyd Wright",
+          "explain": "美国最著名的建筑师之一，代表作包括流水别墅和古根海姆博物馆，以有机建筑理念闻名"
+        },
+        {
+          "name": "日本浮世绘",
+          "explain": "日本江户时代的木版画艺术，对19世纪末欧洲印象派和装饰艺术产生了深远影响"
+        }
+      ],
+      "summary": "Open Culture文章揭示，美国建筑大师Frank Lloyd Wright在建筑生涯之外，长期从事日本艺术品经销以补贴收入。文章探讨这段秘密副业如何影响了他的建筑美学，尤其是对日本空间观念和装饰元素的吸收。",
+      "relevant": "这段历史揭示了跨文化艺术交流如何塑造了现代建筑经典。Wright对日本艺术的深入接触不仅是经济行为，更成为其设计语言的重要来源。",
+      "context": "Wright虽然享有盛名，但经常面临财务困难。与梵高不同，他在建筑界功成名就，但现金流问题促使他通过经销日本版画和艺术品来增加收入。这一副业让他深入接触日本艺术，进而影响了他的空间处理和装饰风格。",
+      "source_analysis": "Open Culture是文化教育类博客，偏向挖掘文化名人不为人知的侧面故事，立场为科普和趣味导向。",
+      "social_impact": "",
+      "source_text": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his death. But if they’ve encountered one another in the afterlife, they’ve certainly discussed one subject above all others: their shared appreciation for Japanese woodblock prints. Here on Open Culture, we’ve previously featured the collection of 500 such works of art that van Gogh left behind. At the end of Wright’s life in 1959, he owned about 6,000, many of which his estate had to sell to pay both Japanese art dealers and American tax collectors. We could say that Wright died as he lived, advanced age having not evidently diminished either his financial recklessness or his obsession with ukiyo‑e. The masters of that classical “art of the floating world” like Hokusai and Hiroshige were among his favorite artists of any kind. When still a teenager, Wright went to work for the architect Joseph Silsbee, who’d built a chapel for his uncle. “Silsbee’s cousin, Ernest Fenollosa, happened to be the world’s leading Western expert on Japanese art at the time,” writes Kevin Nute at The Conversation. It isn’t certain how well the young Wright knew Fenollosa — or indeed when he began collecting ukiyo‑e, writes Frank Lloyd Wright and the Art of Japan author Julia Meech-Pekarik, though he may have seen both Hokusai and Hiroshige’s works at the World’s Columbian Exposition in Chicago in 1893, “about the time he opened his practice in Oak Park.” Eight years later, “Wright made his first voyage to Japan in pursuit of prints, and he did indeed return with enough expertise to stage an exhibition of his own Hiroshige collection at the Art Institute of Chicago in March of 1906.” He returned for two months in 1913, making it clear that he was only interested in using that time to acquire more prints. Later, while working on the Imperial Hotel between 1917 and 1922, he spent a total of more than three years there, later writing that “the pursuit of the Japanese print became my constant recreation while in Tokio,” a quest whose “adventures and excursions would take place at night or sometimes call for a journey by day to distant places.” This positioned him well to take on a sideline as a dealer (or as he liked to call himself, a merchant) of Japan",
+      "source_title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "source_url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "J.R.R. Tolkien亲自设计的《指环王》三部曲书籍封面曝光",
+      "entities": [
+        {
+          "name": "J.R.R. Tolkien",
+          "explain": "英国作家和语言学家，《霍比特人》和《指环王》的作者，被誉为现代奇幻文学之父"
+        },
+        {
+          "name": "《指环王》三部曲",
+          "explain": "包括《护戒使者》《双塔奇兵》《王者归来》三部，20世纪最具影响力的奇幻小说"
+        }
+      ],
+      "summary": "Open Culture展示了J.R.R. Tolkien亲自为《指环王》三部曲设计的个人书籍封面。文章指出，尽管有大量改编和再创作，Tolkien笔下完整构建的奇幻世界从未被任何影视或游戏版本超越。",
+      "relevant": "Tolkien不仅是作家也是视觉创作者，他亲自设计的封面展现了他对中土世界的视觉想象，对理解其创作意图和奇幻文学视觉传统有独特价值。",
+      "context": "Tolkien在写作《指环王》期间也绘制了大量插图和封面设计，这些作品体现了他作为语言学家和神话创作者对细节的极致追求。尽管后世有无数改编版本，其原著世界的完整性和深度仍被公认难以超越。",
+      "source_analysis": "Open Culture为文化教育类博客，内容偏向展示文学艺术遗产和免费文化资源，立场为文化推广导向。",
+      "social_impact": "",
+      "source_text": "In some rare cases, adaptations and interpretations of a literary work can surpass the source. Despite hundreds of valiant efforts on the part of fans, filmmakers, game/toy designers, and radio producers, this has never been true of the fully-realized fantasy world in J.R.R. Tolkien’s The Hobbit and The Lord of the Rings trilogy (not that it’s ever been anyone’s intent). As we noted in a previous post, Tolkien’s fictional world is so intricate, its sources so vast and varied, that Corey Olsen, “The Tolkien Professor,” has made it his entire life’s work to open that world up to students and curious readers, such as with his eight-part lecture series on The Hobbit. One might also add illustrators to the list of Tolkien interpreters above who have—in the almost ninety years since The Hobbit’s publication and more than seventy years since the first appearance of The Lord of the Rings trilogy—done their best to visualize Tolkien’s world. But perhaps no one did so better than the master himself. Long known as a visual artist as well as a literary one, Tolkien left behind over 100 illustrations for The Hobbit, one of which adorns 2011’s HarperCollins 75th anniversary edition of the book. He also created these original cover designs for each book in The Lord of the Rings trilogy. In the long and complex publication history of Tolkien’s most famous of works, it’s unclear if these designs ever made it onto books published during his lifetime, but the sigil in the center of The Fellowship of the Ring design (above), with its ominous eye of Sauron surrounded by elvish runes and topped by the one ring, did grace the elegant, minimalist covers of the first edition of the trilogy. Tolkien’s artwork received a thorough treatment in a 1995 monograph J.R.R. Tolkien Artist & Illustrator, which covers over 60 years of Tolkien’s life as an artist, and the magic of flickr brings us this compendium of Tolkien illustrations. Note: An earlier version of this post appeared on our site in 2013. Related Content: The Art of the Book Cover Explained at TED Vladimir Nabokov Marvels Over Different “Lolita” Book Covers Jack Kerouac’s Hand-Drawn Cover for On the Road Josh Jones is a writer and musician based in Durham, NC.",
+      "source_title": "Discover J.R.R. Tolkien’s Personal Book Cover Designs for The Lord of the Rings Trilogy",
+      "source_url": "https://www.openculture.com/2026/09/j-r-r-tolkiens-personal-book-cover-designs-for-the-lord-of-the-rings.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "娜奥米·克莱因新书抨击科技亿万富翁：极端财富让人变成至上主义者",
+      "entities": [
+        {
+          "name": "娜奥米·克莱因",
+          "explain": "加拿大作家和社会活动家，以批判新自由主义和资本主义的畅销书闻名"
+        },
+        {
+          "name": "《End Times Fascism》",
+          "explain": "克莱因与阿斯特拉·泰勒合著的新书，探讨极端财富与法西斯主义的关系"
+        },
+        {
+          "name": "达沃斯",
+          "explain": "瑞士小镇，每年举办世界经济论坛，全球政商精英聚集地"
+        },
+        {
+          "name": "贾里德·库什纳",
+          "explain": "美国前总统特朗普的女婿兼高级顾问，房地产开发商"
+        },
+        {
+          "name": "史蒂夫·维特科夫",
+          "explain": "美国房地产开发商，特朗普政府中东事务特使"
+        },
+        {
+          "name": "新加沙",
+          "explain": "书中描述的一个由超级富豪建造的封闭式天堂城市构想"
+        }
+      ],
+      "summary": "作家兼活动家娜奥米·克莱因在新书《End Times Fascism》中，将矛头指向科技亿万富翁。她认为极端财富具有令人心智失常的效应，使富人自视为至上主义者。书中开篇描绘了库什纳和维特科夫在达沃斯畅想一座名为'新加沙'的封闭富人天堂城的场景，克莱因指出超级富豪正利用气候和金融混乱来追逐权力。",
+      "relevant": "克莱因是当代最具影响力的左翼公共知识分子之一，她对科技亿万富翁的批判触及了财富集中与民主危机这一核心议题。",
+      "context": "克莱因此前已出版批判新自由主义和数字世界的著作，此次将批判焦点转向科技亿万富翁。达沃斯世界经济论坛历来是超级富豪展示其慈善形象的平台，克莱因借此场景揭示财富与权力的深层关联。",
+      "source_analysis": "《卫报》书籍版块，该报整体立场偏中左翼，对资本主义批判和气候议题持开放态度，与克莱因的观点立场较为契合。",
+      "social_impact": "全球财富不平等持续加剧，科技亿万富翁的政治影响力日益扩大，克莱因的观点可能引发关于财富集中与民主制度关系的更广泛讨论。",
+      "source_text": "Naomi Klein’s new book starts on a mountaintop with two “faithful men gathering an audience to share their vision”. It’s a vision of a paradise city, gated at every entrance, no need for weapons there, everyone in it rich. One of the men has tears in his eyes as he describes its beauty. The opening scene of End Times Fascism, co-written with Astra Taylor, is not a metaphor, however. The men are Jared Kushner and Steve Witkoff. The year is 2026, the mountain is Davos. The paradise city will be called New Gaza. The World Economic Forum get-together in Davos, Switzerland, has always had a twin purpose – to provide a platform for the super-rich to describe all the good they are doing on poverty and climate, and to give us a glimpse into their enviable lives. This year what we witnessed was, quite brazenly, the world’s richest men gathering to discuss the real estate possibilities of a mass grave. At that same Davos, Donald Trump announced his Board of Peace for the reconstruction of Gaza – it has delivered nothing substantial in the seven months since, but more significantly, Klein says, “we’re being hit with so many extraordinary events that it’s hard to hold on to what a big deal it is: they have announced a privatised United Nations”. “I think we understand that wealth compounds, right? Certainly rich people understand that wealth compounds,” Klein continues, speaking to me from her peaceful, roomy study in British Columbia. “But I don’t feel like we spend a lot of time really thinking about the implications of what it means for that much wealth to be compounded, and what that does psychologically. Part of the new shamelessness we’re seeing is just what happens when this amount of financial, mediagenic, technological and military weaponry is concentrated in the hands of this very small, unaccountable group of people. They stop trying to seduce us in any way.” Klein looks calm and curious as she delivers this message. She has a ready laugh. But then, she had the same unruffled, buoyant delivery when I interviewed her on stage in Manchester for Doppelgänger, her 2023 book in which she described how the digital world is destroying our connection to reality, and one another. In 1999, when her breakthrough work No Logo was published, she seemed exhilaratingly certain, at 29, that neoliberalism was bringing harm that we couldn’t yet even see the extent of, and nonetheless appeared centred and happy in the world. Somehow she manages to maintain this attitude, even",
+      "source_title": "Naomi Klein: ‘Extreme wealth has a deranging effect. It turns you into a supremacist’",
+      "source_url": "https://www.theguardian.com/books/2026/sep/12/naomi-klein-extreme-wealth-has-a-deranging-effect-it-turns-you-into-a-supremacist",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "巴西Ituna/Itatá原住民领地遭500余人入侵，纵火砍伐威胁孤立部落",
+      "entities": [
+        {
+          "name": "Ituna/Itatá原住民领地",
+          "explain": "位于巴西的一处受法律保护的原住民土地，面积广阔，生态和文化遗产丰富"
+        },
+        {
+          "name": "Igarapé Ipiaçava原住民",
+          "explain": "生活在Ituna/Itatá地区的原住民群体，选择与外界完全隔离、自愿不接触的生活方式"
+        },
+        {
+          "name": "联邦法院",
+          "explain": "巴西的国家司法机构，负责审理涉及联邦法律的案件"
+        }
+      ],
+      "summary": "近几周内，超过500人入侵巴西Ituna/Itatá原住民领地，非法开辟道路、故意纵火并威胁联邦工作人员。该地区居住着自愿与世隔绝的Igarapé Ipiaçava原住民。8月26日，联邦法院下令政府部署力量应对入侵，但局势仍在恶化。",
+      "relevant": "这是巴西亚马逊地区原住民权利和环境保护面临的又一严重危机，涉及与世隔绝部落的生存安全。",
+      "context": "巴西亚马逊地区长期面临非法采矿、伐木和土地侵占的压力。Ituna/Itatá领地因资源丰富而成为入侵目标，而居住其中的孤立原住民对外来疾病几乎没有免疫力，入侵可能带来灭顶之灾。",
+      "source_analysis": "Mongabay是一家专注于环境与保育新闻的非营利媒体，报道立场倾向于环境保护和原住民权利。",
+      "social_impact": "500余人入侵一片受法律保护的原住民领地，涉及与世隔绝部落的生存危机，反映出巴西环境执法面临的严峻挑战。",
+      "source_text": "More than 500 people have invaded Brazil’s Ituna/Itatá Indigenous Land in recent weeks, opening illegal roads, setting deliberate fires and threatening federal agents. The area is home to the Igarapé Ipiaçava Indigenous people who live in voluntary isolation with no contact with outsiders. On Aug. 26, a federal court ordered the government to deploy the National Public Security Force within 48 hours to contain the invasion. As of Sept 11, the forces hadn’t yet arrived. The recent invasion followed the creation of the Bacajaí Environmental Protection Area (APA Bacajaí) under a new state law, which allows private landowners to build homes and raise livestock. However, APA Bacajaí completely overlaps the federally protected Indigenous land in Pará state, creating legal confusion that authorities say has been weaponized by land-grabbers to justify occupation for cattle ranching and other agricultural activities. The Federal Public Prosecutor’s Office (MPF) has asked a federal court to fine the government 50,000 Brazilian reais (about $9,000) daily for failing to deploy enough security forces to contain the invasion. The area is currently under a temporary land-use restriction order to protect the isolated people living there. The government has argued it needs authorization from Pará’s government, which hasn’t cooperated. However, federal prosecutors say the federal government can be deployed on federal land without state authorization. Both the federal government and the state of Pará did not reply to Mongabay’s requests for comment by the time of publication. In its press statement, the MPF said the Indigenous Affairs Agency (Funai) and Federal Police overflights have detected the use of heavy machinery and chainsaws to clear more than 30 kilometers (18.6 miles) of forest trails and clandestine roads to mark illegal plots in the Indigenous land. It also said fires were started shortly after inspections, in what the MPF described as “clear retaliation and an attempt at intimidation.” “What worries us most right now is the fire situation,” Helena Palmquist, deputy coordinator of the Observatory of Isolated and Recently Contacted Indigenous Peoples (OPI), who has been monitoring the situation via satellite imagery and field reports, told Mongabay over WhatsApp voice messages. “We are experiencing an Amazonian dry season with the prospect of an El Niño event far more severe than previous ones; this makes the forest more volatile and prone to catching fire.” Evid",
+      "source_title": "Ituna/Itatá invasion escalates as Indigenous Land faces fires and illegal clearing",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "安哥拉严重干旱迫使社区恢复季节性跨境迁徙至纳米比亚",
+      "entities": [
+        {
+          "name": "库内内省",
+          "explain": "安哥拉南部的一个省份，与纳米比亚接壤，气候干旱"
+        },
+        {
+          "name": "国际特赦组织",
+          "explain": "全球知名的人权非政府组织，致力于调查和揭露人权侵犯行为"
+        },
+        {
+          "name": "季节性迁徙",
+          "explain": "因气候或资源变化而周期性地在不同地区之间迁移的生活方式"
+        }
+      ],
+      "summary": "连续多年的严重干旱正迫使安哥拉南部居民离开家园，前往邻国纳米比亚寻找水和食物。库内内省一名居民向国际特赦组织表示，当地存在真实的饥饿和干渴，村庄已因此人口流失。社区被迫恢复传统的季节性跨境迁徙模式。",
+      "relevant": "气候变化导致的干旱正在非洲南部造成人道主义危机，跨境迁徙可能引发区域性的资源紧张和社会问题。",
+      "context": "安哥拉南部长期受干旱困扰，库内内省尤为严重。居民传统上有季节性迁徙到纳米比亚的习惯，但近年干旱加剧使这种迁徙从选择变成了生存必需。",
+      "source_analysis": "Mongabay环境新闻平台报道，引用了国际特赦组织2021年的采访记录，信源具有人权调查背景。",
+      "social_impact": "连续多年干旱导致村庄人口流失，居民面临真实的饥饿和缺水困境，跨境迁徙可能加剧两国边境地区的资源压力。",
+      "source_text": "Several years of severe drought are forcing people to leave their homes in Angola to search for water and food in neighboring Namibia. “There is real hunger and thirst here; that’s why the village has become depopulated,” Nghikembua (not his real name), who lives in Cunene Province in southern Angola, told Amnesty International in 2021. Nghikembua said nearly all the able-bodied people of his village have left, leaving behind only the elderly, like himself, “Those who still had some strength left felt forced to leave the village for Namibia.” More than 1.8 million people live in Cunene and nearly 75% of the population is rural and depends on pastoralism and subsistence farming. “Southern Angola has experienced repeated severe droughts, extreme heat and environmental degradation for quite a number of years, leaving families without water, crops, or livestock,” said Victor Nyamori, an Amnesty International researcher and migration lawyer who collected the testimonies for the recently published report featuring Nghikembua. Approximately 30% of the area has been degraded by desertification, according to the Amnesty International report, leaving many subsistence communities without livelihoods. “Namibia has also suffered from drought, but the state has responded much better and has put solutions in place to prevent the population from falling into food insecurity and to ensure access to water,” Nyamori told Mongabay in a phone call. Between 2023 and 2024, a strong El Niño event brought the most severe drought in more than a century to the region. Namibia responded to the drought by expanding food and water assistance, supporting livestock owners and investing in social protection. “Angola did not respond as well, which means that for Angolans, crossing the border has become a matter of survival,” Nyamori said. “For Angolans, displacement also means living in extremely scarce and sometimes dangerous conditions. For women and children, this means risking sexual and gender-based violence and trafficking.” Historically, seasonal mobility formed an important part of social, economic and customary life in the region, enabling communities to access grazing land and water during droughts. But when colonization and arbitrary borders separated communities, such migration disappeared, Nyamori said. “The border is the Cunene River,” he said. “On both sides, people speak the same language, have the same way of life, and are sometimes members of the same family. During the p",
+      "source_title": "Angolan communities return to seasonal migration amid severe drought",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/angolan-communities-return-to-seasonal-migration-amid-severe-drought/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "秘鲁亚马逊推动可持续手工采金，试图平衡生计与生态保护",
+      "entities": [
+        {
+          "name": "马德雷德迪奥斯",
+          "explain": "秘鲁东南部的一个大区，位于亚马逊雨林深处，生物多样性极为丰富"
+        },
+        {
+          "name": "手工采金",
+          "explain": "使用简单工具进行的小规模黄金开采，通常由个体或社区经营"
+        },
+        {
+          "name": "汞",
+          "explain": "一种有毒重金属，常用于从矿石中提取黄金，会严重污染水源和生态系统"
+        },
+        {
+          "name": "拉潘帕",
+          "explain": "马德雷德迪奥斯地区的主要采金中心之一"
+        }
+      ],
+      "summary": "在秘鲁亚马逊的马德雷德迪奥斯地区，数千人依赖黄金开采为生，但汞污染和森林砍伐正在改变该国生物多样性最丰富的热带森林。在拉潘帕采金中心，一个正规化的手工采矿项目正试图证明可持续采金的可能性。",
+      "relevant": "如何在保护亚马逊雨林的同时保障当地居民生计，是环境治理中的核心难题，该案例可能提供可复制的模式。",
+      "context": "秘鲁亚马逊地区的非法和粗放采金已导致大面积森林砍伐和汞污染。马德雷德迪奥斯是重灾区，当地社区长期依赖采金为生，正规化和可持续化成为探索方向。",
+      "source_analysis": "Mongabay以视频形式报道，该平台专注于环境与保育议题，报道立场支持可持续发展。",
+      "social_impact": "数千人依赖采金为生，汞污染和森林砍伐正在改变秘鲁最具生物多样性的热带森林，影响范围覆盖整个马德雷德迪奥斯地区。",
+      "source_text": "MADRE DE DIOS, Peru — In Madre de Dios, in the Peruvian Amazon, thousands of people depend on gold mining, while the spread of mercury and deforestation are transforming the country’s most biodiverse tropical forest. In La Pampa, one of the region’s main gold mining hubs, a formalized artisanal mining operation is trying to prove that another way of mining is possible. While facing roadblocks, violence, informal economies, and government neglect, it seeks to produce “clean gold” using mercury-free technologies. Through the daily lives of workers, merchants, and small-scale miners, the film explores the tensions between survival, pollution, and legitimacy in one of the Amazon’s most complex extractive economies. This video is supported by the Amazon Film Grant, as part of the One World Media Fellowship. Mongabay’s Video Team wants to cover questions and topics that matter to you. Are there any inspiring people, urgent issues, or local stories that you’d like us to cover? We want to hear from you. Be a part of our reporting process—get in touch with us here! Banner image: Gold nugget. ©Felipe Esparza. Transcript Notice: Transcripts are machine and human generated and lightly edited for accuracy. They may contain errors. Dozens of people set a police truck on fire. At this moment the Interoceanic Highway is temporarily closed at kilometer 109-110, in the La Pampa sector, Madre de Dios. There’s going to be a confrontation here in La Pampa, man, the situation is serious. There are clashes happening between the police and the miners. How many people must have died there? This is an iron pipe that goes to the pump. The pump crushes the gravel and throws it into the hopper. And in the hopper, that’s where the carpets are laid out. And it’s in those carpets where the gold stays. And the next day and that’s where the material, as they call it, and that’s where the material, as they call it, comes out. That’s where the gold remains. They add mercury, which is quicksilver. They keep stomping, stomping, the mercury gathers it, and it stays in the mercury. Then they pan it, they squeeze it, as they say, and that’s when it comes out. We burn it, weigh it, see how much comes out, and then we go sell it. The media only shows what La Pampa is, but they never take into account those of us who are already formalized [gold miners] or at least show what it means to be formal. To take that into account, so there won’t be complete misunderstanding. And what do they say about Madr",
+      "source_title": "The push for a sustainable artisanal mining in the Peruvian Amazon",
+      "source_url": "https://news.mongabay.com/video/2026/09/the-push-for-a-sustainable-artisanal-mining-in-the-peruvian-amazon/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "《咕噜牛》作者朱莉娅·唐纳森推出新作，回顾从无名到英国最畅销作家的历程",
+      "entities": [
+        {
+          "name": "朱莉娅·唐纳森",
+          "explain": "英国儿童文学作家，创作了《咕噜牛》等经典绘本，是英国有史以来最畅销的作家之一"
+        },
+        {
+          "name": "《咕噜牛》",
+          "explain": "1999年出版的儿童绘本，讲述一只小老鼠智斗怪物的故事，全球销量超1800万册"
+        },
+        {
+          "name": "阿克塞尔·舍夫勒",
+          "explain": "德国插画家，《咕噜牛》的插画作者，与唐纳森长期合作"
+        }
+      ],
+      "summary": "朱莉娅·唐纳森在推出《咕噜牛》系列新作之际接受采访，回顾了自己的创作生涯。1999年，51岁的她仅出版过一本书，却许下新书成为经典的愿望。《咕噜牛》及其续集全球销量已超1820万册，她如今是英国有史以来最畅销的作家。",
+      "relevant": "唐纳森是当代最成功的儿童文学作家之一，《咕噜牛》已成为全球儿童文学的经典作品。",
+      "context": "1999年唐纳森出版《咕噜牛》时已51岁，此前只出过一本书。该书意外成为现象级畅销书，此后她创作了大量经典儿童绘本，新作是《咕噜牛》家族的最新成员。",
+      "source_analysis": "《卫报》书籍版块的人物专访，属于文化类报道，立场中立偏正面。",
+      "social_impact": "《咕噜牛》系列全球销量超1820万册，深刻影响了全球几代儿童的阅读体验。",
+      "source_text": "In 1999 a journalist asked a then-unknown author to share her millennium wish. The author, who was 51 years old and had published only one book before, said she hoped her new one, out that year, would become a classic. “But then straight away I said: ‘Only joking!’ Because I didn’t want to sound full of myself, and I certainly didn’t think the wish would come true,” she remembers today. That author is Julia Donaldson; the book she published in 1999 was The Gruffalo; and, as you hardly need telling, her wish did indeed come true. And how. Since its publication, more than 18.2m copies of The Gruffalo and its sequel have sold worldwide. The Gruffalo’s Child was published in 2004, and together these tales of the terrible creature with terrible claws, and terrible teeth in his terrible jaws, have helped Donaldson to sell more than 50m books in the UK. In 2025 she was named the country’s bestselling author – across all genres, children’s and adult’s – since records began. Now the Gruffalo is making what Donaldson – who was made a dame in June – confirms will be his final outing. Gruffalo Granny, out this week, extends the protagonist’s family back a generation. In the new book, the Gruffalo and his daughter are awaiting a visit from Granny Gruffalo. The mouse, who played a pivotal role in the first and second books, is again centre stage; and longtime characters owl, fox and snake are all part of the action too. When we meet in a swish hotel in central London, I’m struck by the similarities between Donaldson and her new character. Her hair, like the Gruffalo Granny’s fur, is grey; in Donaldson’s case, it’s a neat bob, curled under at the ends. She is wearing a blue floral dress and navy shoes, and when she smiles her eyes twinkle; but I suspect that, like the Gruffalo Granny, she has prickles that reveal themselves when needed. What’s more, she has nine grandchildren, aged between five and 16. So is she the Gruffalo Granny? “Not really,” she says. “I’m the mouse.” The new book, she says, is a celebration of storytelling. “The mouse tells stories, then the Gruffalo’s child tells the stories to the granny, and the granny is going to read them back again. So there are three storytellers in the book – everyone apart from the Gruffalo.” The inspiration for the book – without plot-spoiling, though presumably there aren’t many under-sevens reading this – is Shahrazad from The Arabian Nights, who saves her life by never finishing her stories. “I had that idea and couldn",
+      "source_title": "Julia Donaldson: ‘Am I the Gruffalo Granny? Not really. I’m the mouse’",
+      "source_url": "https://www.theguardian.com/books/2026/sep/12/julia-donaldson-am-i-the-gruffalo-granny-not-really-im-the-mouse",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "英国艺术家用画笔记录再野化场地的'美丽混乱'，展览在西萨塞克斯举行",
+      "entities": [
+        {
+          "name": "丽贝卡·霍华德",
+          "explain": "英国艺术家，花费两年时间走访再野化项目并创作风景画"
+        },
+        {
+          "name": "再野化",
+          "explain": "一种生态恢复方式，通过引入自然过程让土地回归野生状态，而非人工管理"
+        },
+        {
+          "name": "克奈普",
+          "explain": "位于英格兰西萨塞克斯郡的著名再野化项目所在地"
+        }
+      ],
+      "summary": "艺术家丽贝卡·霍华德花费两年时间走访英格兰的再野化项目，创作了一系列风景画，目前正在西萨塞克斯举办展览。再野化区域通常不符合传统审美——有河狸啃倒的树、杂乱的灌木、枯木和泥泞，但霍华德的画作展现了这些'混乱'场景中的美学魅力。",
+      "relevant": "再野化是当前生态保护的热门议题，该展览以艺术视角重新审视自然之美，有助于公众理解再野化的价值。",
+      "context": "再野化在英国引发争议，批评者认为其破坏了传统田园风光。霍华德通过两年实地走访和绘画创作，试图展现再野化场地的独特美感，包括真菌、水牛和河狸池等生态景观。",
+      "source_analysis": "《卫报》野生动物版块，该报对环境保护和再野化议题持支持态度。",
+      "social_impact": "展览有助于推动公众对再野化生态价值的认识和接受度。",
+      "source_text": "Rewilding areas do not usually conform to traditional notions of beauty in England’s green and pleasant land. Detractors may bewail the beaver-felled trees, untidy scrub, deadwood, weeds, mud and “mess”. But a new exhibition highlights the aesthetic delights that can be discovered on rewilding sites where fungi grows on dying trees, water buffalo gather in new wetlands and brown-watered beaver pools flood once-desiccated fields. The artist Rebecca Howard devoted two years to visiting rewilding projects across England before spending a month painting each of nine large canvases that reveal what happens when people step back from intensive management of land and allow wild nature to take a leading role. “I wanted to create a positive exhibition that people could view and feel empowered to do something of their own, and not feel totally overwhelmed by the challenges we face with our climate and biodiversity crisis,” said Howard. “If you walk into an art gallery you’re faced with seascapes or bluebell woods but you don’t often see a dead tree in a painting.” Howard, whose exhibition opens at rewilded Knepp, West Sussex, on 12 September, began by visiting Cabilla, a fragment of Cornish temperate rainforest which is being restored and extended by the Thousand Year Trust charity founded by Merlin Hanbury-Tenison. Over the following months, Howard explored renowned rewilding sites including the pioneering Knepp estate, which began the British rewilding movement, and the Devon farm turned back to nature by the outspoken rewilder Derek Gow, who has also overseen the reintroduction of beavers, storks and water voles to many sites across Britain. But Howard was also invited into less widely known projects including, in Derby, the largest urban rewilding project in Britain, and Broughton Sanctuary, a North Yorkshire estate owned by the same family for more than 900 years that is taking a land-healing turn in the 21st century. At all the sites she ended up painting, Howard discovered new kinds of land management and beauty that challenge conventional notions and customs. At Hamatethy Farm, a rewilded hill farm in Cornwall, she found a huge beech tree that had most of its trunk chewed by resident beavers but was still standing. “It was a felled tree waiting to happen but there was something very beautiful about that stasis between a living and a dead tree,” she said. “You know it’s going to crash down at some point but it’s going to provide so much habitat when it does a",
+      "source_title": "Artist delights in beautiful ‘mess’ and dead trees of England’s rewilding sites",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/12/artist-england-rewilding-sites-knepp-rebecca-howard",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "洛杉矶将为已故美洲狮P-22在格里菲斯公园竖立铜像",
+      "entities": [
+        {
+          "name": "P-22",
+          "explain": "一头曾在洛杉矶格里菲斯公园栖息的美洲狮，因与好莱坞标志的合影而闻名全国"
+        },
+        {
+          "name": "格里菲斯公园",
+          "explain": "洛杉矶市区内的大型城市公园，面积约4200英亩，是P-22的栖息地"
+        },
+        {
+          "name": "史蒂夫·温特",
+          "explain": "摄影师，拍摄了P-22在好莱坞标志前徘徊的标志性照片"
+        }
+      ],
+      "summary": "洛杉矶市将为该市最著名的美洲狮P-22在格里菲斯公园竖立一座铜像。P-22因摄影师史蒂夫·温特拍摄的它在好莱坞标志前徘徊的照片而全国闻名。2022年，P-22因健康状况恶化被实施安乐死。铜像将安置在它曾游荡的4200英亩公园内。",
+      "relevant": "P-22是城市野生动物保护的标志性符号，它的故事引发了关于城市扩张与野生动物栖息地冲突的广泛讨论。",
+      "context": "P-22是一头生活在洛杉矶市区的美洲狮，被生物学家编号识别。它在格里菲斯公园独自生活多年，成为城市野生动物适应人类环境的象征。2022年因健康恶化被安乐死，引发公众悼念。",
+      "source_analysis": "《卫报》美国新闻版块，属于地方文化新闻，立场中立。",
+      "social_impact": "P-22的故事提升了公众对城市野生动物保护的关注，铜像将成为野生动物保护教育的象征。",
+      "source_text": "The city of Los Angeles will memorialize its most famous mountain lion with a bronze sculpture at Griffith Park, the 4,200-acre (1,700-hectare) stretch of land the cougar once roamed. Known as “P-22”, the number assigned by the team of biologists that first identified him, the lion gained national fame after photographer Steve Winter captured an iconic image of him prowling through Griffith Park with the Hollywood sign in the background. The sculpture, by Los Angeles artist Adam Matano, will be installed at the park’s visitor center, according to the National Wildlife Federation, which championed the project through its Safe LA Cougars campaign. Matano’s interest in how wild animals navigate the encroachment of our growing cities dates back to his teen years, he said. He grew up in Rhode Island, surrounded by empty lots. But by the time he reached his teen years, they had been developed into homes. “I love my favorite hiking spots,” Matano said. “But I kept thinking, ‘what happens to the animals?’” His sculpture shows a muscular P-22 stepping down from one podium to a second, more freeform and rocky pedestal. The rear podium contains a series of panels depicting local wildlife navigating the city environment – a mule deer crouching through a broken fence, a coyote ambling along against a backdrop of downtown LA, a raccoon and a gray fox in front of the Atwater bridge and the 5 freeway. “It’s about how you can’t contain nature,” Matano said. “Most people would think it woud be impossible for a mountain lion to live inside the city. But P-22 showed it is possible to co-exist. We should include nature when we design our cities.” He made a point of portraying P-22 with the GPS radio collar that enabled biologists to study him. “I think the radio collar is kind of misunderstood,” Matano said, noting that geolocation has become one of the most important tools available for understanding how wildlife moves across the landscape, offering insight into how to stitch portions of the fragmented natural world back together. “If we don’t want to see the collars, then we need to do better with our wildlife,” Matano said. “It’s really important that we understand where these animals are going and how they’re living.” Matano tried to capture the “idea of the wild entering Los Angeles and awakening the city to the nature already within it”, he said in a statement. He aimed to transform P-22 “into a king not because he dominated the territory but rather because he lived acco",
+      "source_title": "Los Angeles to memorialize late mountain lion P-22 with sculpture in Griffith Park",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/11/los-angeles-mountain-lion-griffith-park-sculpture",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "爱尔兰作家阿德里安·邓肯新作《无碰撞的思想》出版，探索哲学与困惑",
+      "entities": [
+        {
+          "name": "阿德里安·邓肯",
+          "explain": "爱尔兰作家，已出版五部小说，作品常涉及哲学和科学主题"
+        },
+        {
+          "name": "维特根斯坦",
+          "explain": "20世纪最具影响力的哲学家之一，研究语言、逻辑和心灵哲学"
+        },
+        {
+          "name": "《无碰撞的思想》",
+          "explain": "邓肯的第五部小说，讲述一个被宇宙奥秘所困惑的故事"
+        }
+      ],
+      "summary": "爱尔兰作家阿德里安·邓肯的第五部小说《无碰撞的思想》出版。小说以1923年的爱尔兰为背景，讲述六岁女孩凯瑟琳展现出非凡学术天赋的故事，其中一个角色灵感来自哲学家维特根斯坦。书评认为这部作品对哲学与惊奇进行了精彩拷问，探索了人类理解宇宙的局限性。",
+      "relevant": "该书评来自《卫报》书籍版块，为关注文学和哲学交叉领域的读者提供了新书推荐。",
+      "context": "邓肯此前已出版四部小说，作品以融合哲学、科学和文学著称。新作延续了这一风格，以历史背景和哲学思考为核心，探讨人类面对宇宙奥秘时的困惑与愤怒。",
+      "source_analysis": "《卫报》书籍版块的书评，属于文学评论，立场为专业评价。",
+      "social_impact": "",
+      "source_text": "For several years I ran community groups that involved reading books aloud with other adults. Sharing the experience of reading in that way made me notice how, when one or more of us was baffled by a story, this bafflement was rarely experienced without an accompanying sense of mild anger. It was so easy to make us, the readers, angry – at the characters; at the author; perhaps even at the nature of this reality on which we’d lost our grip. We were confronted with the fact that our capacity to understand the world was limited. We didn’t like that. Irish author Adrian Duncan’s fifth novel, A Thought Without Collision, takes risks with this bafflement: it relates and conveys an experience of being mystified by the universe. As it opens, in Ireland in 1923, it is becoming apparent that six-year-old Catherine has exceptional academic gifts, and that her father’s farm is failing. In the next chapter, set in 1951, Dr Josef Alois, a Tyrolean émigré academic in his mid-50s, is living in his self-built house on the east coast of Scotland. He is alone until Catherine reappears, “a handsome woman in her mid-thirties”, and now an Oxford professor. The second chapter ends starkly: Alois “is more unwell than he believes and will perish in one month and eleven days”. Details of Alois’s biography, and aspects of his two books, are drawn from the life of Ludwig Wittgenstein. The novel references the philosopher’s near-contemporaries, GE Moore, Gottlob Frege and Maurice Merleau-Ponty. Like Alois and Catherine, these men laboured to establish a particular understanding of the world. Some pages of A Thought Without Collision present diagrams or passages of algebraic logic. Throughout, descriptions of small, mysterious places (“pockets” in Catherine’s mind, pits dug in the ground, golf holes, a swallow’s nest) are emblems of the other worlds that surround us, intimated but not available to human knowledge. As Catherine’s intelligence becomes increasingly polymathic, her interest ranges from complex mathematics to animal sentience. She pictures hidden worlds in the sky: a “plane of translucent and unconnected fragments above them all”. The narrative is related in short, alternating chapters that switch between the two time periods. This creates a sense of flickering movement, like chevrons on a motorway: we see Catherine’s life speed by, an effect intensified by Alois’s impending death. It’s a feat of engineering that the story can cut between these two temporalities and their ",
+      "source_title": "A Thought Without Collision by Adrian Duncan review – a brilliant interrogation of philosophy and wonder",
+      "source_url": "https://www.theguardian.com/books/2026/sep/11/a-thought-without-collision-by-adrian-duncan-review-a-brilliant-interrogation-of-philosophy-and-wonder",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "悉尼北部Muogamarra自然保护区每年仅开放六周，今年门票一周内售罄",
+      "entities": [
+        {
+          "name": "Muogamarra自然保护区",
+          "explain": "位于澳大利亚悉尼北部边缘的一处自然保护区，以原生态野花景观闻名"
+        },
+        {
+          "name": "Helen Logie",
+          "explain": "带领游客参观该保护区的志愿者导游"
+        },
+        {
+          "name": "卫报",
+          "explain": "英国知名左倾自由派媒体，以环境与野生动物报道见长"
+        }
+      ],
+      "summary": "悉尼北部Muogamarra自然保护区每年仅在野花季开放六周，今年吸引近5000名游客，门票不到一周即售罄。游客在志愿者导游带领下观赏西部开发前原始状态的澳大利亚景观，感受心灵平静。",
+      "relevant": "反映了城市居民对原生态自然的强烈需求，以及限量开放模式在保护生态与满足公众需求之间的平衡尝试。",
+      "context": "该保护区为保护原生野花和原始地貌，长期限制公众进入，每年仅趁野花季开放六周，今年门票需求异常火爆。",
+      "source_analysis": "卫报野生动物栏目，报道立场偏向自然保护与生态体验，强调原始景观的珍贵性。",
+      "social_impact": "每年仅不到5000人有机会进入，今年门票一周内售罄，显示公众对自然体验的高度热情与供给稀缺的矛盾。",
+      "source_text": "On a cloudy Spring morning, a group of 20 nature enthusiasts gather at the entrance to a nature park on the northern edge of Sydney. “Good to see nobody is wearing thongs,” our volunteer tour leader, Helen Logie, says to chuckles. We are among just under 5,000 people lucky enough to visit Muogamarra nature reserve during the six weeks a year it is open to the public, coinciding with wildflower season. This year, tickets – which provide access to a limited number of guided and self-directed walks – sold out in less than a week. On the windy drive in, cars slowed to marvel at waratahs, now in full bloom – one of the threatened species that people flock here year after year to witness. The fully native nature reserve, encompassing 2,300 hectares on the edge of the Hawkesbury River, has been protected for almost a century and inhabited by traditional owners for at least 20,000 years. Its fragile ecosystem and Aboriginal cultural heritage cuts it off to public access for most of the year, providing a unique experience. The park was a prominent Aboriginal meeting place and is littered with shell middens and sacred sites, some of which remain inaccessible to the public. In the 1930s, the conservationist and engineer John Duncan Tipper took a lease of about 800 hectares of the land. Tipper was concerned about continuing damage to Sydney’s national parks in what was a period of great species collapse in Australia. Koalas were being shot by the thousands, and great swathes of wildflowers were being cut down and sold in the city. We are heading out on two walks this morning, including Tipper Loop and a 2km trek to the western lookout. There are 900 plant species here, 14 mammals and more than 100 varieties of birds, but it’s the wildflowers that are the drawcard. Logie points out a huge Gymea lily, which producers clusters of trumpet-shaped red flowers, and smoke bush, which has intricate white flowers that – viewed close up – look like lace. As we inspect a woody pear, the sound of a fan-tailed cuckoo rings out in the distance. The trees here are hundreds of years old, the perfect habitat for native avian life. Logie says sometimes they spot wedge-tailed eagles and lyrebirds. There are even rumours of koalas – though nobody sees one. The soil here is sandstone, common to the steep ridge tops of the Hawkesbury, and volcanic. In these harsh conditions, native species have managed to thrive – sometimes due to, not in spite of, the poor ground quality. We pass a purple ",
+      "source_title": "This wildflower paradise is only open six weeks a year. As soon as I entered, my mind started to calm",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/12/muogamarra-nature-reserve-nsw-only-open-six-weeks-a-year-native-wildflowers",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "中世纪精神健康疗法：藏红花、鸵鸟肝与运动园艺社交音乐并用",
+      "entities": [
+        {
+          "name": "Aeon",
+          "explain": "专注哲学、科学与文化长文的在线思想杂志"
+        },
+        {
+          "name": "Katherine Harvey",
+          "explain": "撰写该文的作者，研究中世纪历史"
+        },
+        {
+          "name": "藏红花与鸵鸟肝",
+          "explain": "中世纪欧洲用于治疗精神疾病的处方药材和食材"
+        }
+      ],
+      "summary": "Aeon刊文介绍中世纪精神健康疗法，当时医生不仅开具藏红花、鸵鸟肝等药物，还推荐运动、园艺、接触动物、社交和音乐等非药物手段来调节情绪。",
+      "relevant": "揭示现代心理健康理念中的运动、社交、自然疗法并非全新发明，中世纪已有类似实践，为当代心理健康讨论提供历史视角。",
+      "context": "该文基于中世纪医学史料，梳理当时对精神疾病的多元治疗方式，挑战人们对中世纪医学落后的刻板印象。",
+      "source_analysis": "Aeon为思想文化类长文平台，倾向人文与跨学科视角，非新闻报道。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 29 minute listen Early one morning in the late 12th century, Bishop Hugh of Lincoln arrived in the Hertfordshire village of Cheshunt. There, he was immediately surrounded by a crowd of people, who begged him to help one of their neighbours. And so, dismounting from his horse, he went to the man’s house, where he was confronted by the disturbing sight of a possessed man ‘lying prostrate with his head tied to a post and each of his hands to great stakes fixed in the ground.’ Despite these restraints, the man constantly writhed around, rolling his eyes, gnashing his teeth, and sticking his tongue out. To Hugh, as to the local onlookers, the diagnosis was clear: this unfortunate sailor had been possessed by a demon and could be cured only by an exorcism. Once the necessary rituals were performed, he was ‘delivered from the demon [and] … after living devoutly for some years, finally made a good and peaceful end.’ For Hugh’s biographer, Adam of Eynsham, the incident was worth recounting because it demonstrated not only that the future saint had healing powers, but that he was a brave and compassionate man (in sharp contrast to the local bishop, who had ‘galloped away as if pursued by the Furies’, rather than face a possessed man). But, to us, the story – full of fear, cruelty and superstition – sums up both everything that was wrong with medieval attitudes to mental illness, and the apparent uselessness of medieval medicine in the face of serious illness. And yet, as is so often the case when studying the distant past, the reality was rather more complicated. Influenced by stories of demonic possession (and there are lots of them, especially in saints’ lives and miracle collections), I long assumed that our ancestors’ attitudes to, and experiences of, mental health were completely different to our own – and that they would have little sympathy with our fast-growing mental health crisis. But when I turned my attention away from religious texts, and began to research medieval ideas about healthy living, I soon came across medieval people who discussed mental health in ways that felt far more familiar to me. The similarities were particularly apparent in medical writings, which outline a sophisticated argument that mental wellness was at the heart of a healthy lifestyle. According to the dominant humoral system of medicine, health was achieved by keeping four bodily fluids (blood, phlegm, black bile, and yellow bile) in balance. The best way to",
+      "source_title": "Medieval mental health",
+      "source_url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "Young Thug厂牌合辑《Slime Language 3》发行，引入YSL新一代成员",
+      "entities": [
+        {
+          "name": "Young Thug",
+          "explain": "美国说唱歌手，YSL（Young Stoner Life）厂牌创始人"
+        },
+        {
+          "name": "YSL",
+          "explain": "Young Stoner Life，Young Thug创立的说唱厂牌"
+        },
+        {
+          "name": "RICO",
+          "explain": "美国反有组织犯罪法，Young Thug及YSL曾因该法被起诉"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论媒体"
+        }
+      ],
+      "summary": "Young Thug的厂牌合辑系列第三部《Slime Language 3》发行，引入YSL和ØWay新一批成员，被视为RICO案件后厂牌重建的成果。Pitchfork评价其为内容丰富但庞杂的作品。",
+      "relevant": "这是Young Thug经历RICO诉讼后厂牌重建的重要作品，反映其音乐版图的新阶段。",
+      "context": "Young Thug及YSL厂牌此前因RICO指控陷入法律风波，此次合辑是案件后厂牌重新集结新老成员的作品。",
+      "source_analysis": "Pitchfork为独立音乐评论媒体，评论风格偏专业与批判性，对作品持褒贬并存态度。",
+      "social_impact": "",
+      "source_text": "Georgia’s Fulton County D.A. Fani Willis spent over two years trying and failing to conflate YSL (Young Stoner Life) Records with a street gang. Willis, who cut her teeth wielding the state’s racketeering laws to prosecute schoolteachers, claimed (often through the use of lyrics, social media captions, and tattoos) that YSL was a front for “Young Slime Life,” a gang associated with the Bloods. She alleged a violent conspiracy that indicted 28 co-defendants, including YSL artists Gunna, Yak Gotti, and Duke, along with label head Young Thug, but failed to win convictions on the most serious charges. Still, Willis claims an “amazing” job done—an understandable position if you consider the stipulations of Thug’s freedom: 15 years of probation, a 10-year ban from Atlanta city limits, and a tarnished brand. The video for “Money on Money,” Young Thug’s first single post-RICO trial, opened with an image of the former YSL logo going up in flames. No longer on good terms (or legally allowed to communicate) with many of YSL’s foundational artists, and presumably still mourning the loss of his protégé, Lil Keed (who tragically passed from health complications in 2022, shortly into Thug’s 30-month prison stint), it would’ve been understandable if Thug had retreated from the spotlight, guard up. His comeback album, last year’s UY SCUTI, was an uneven mess that lost its best ideas to the bigger moment. But how to find the creative freedom to do your best work on the other side of a trial that misappropriated lyrics from not just your biggest hits, but your leaked music? The answer for Thug, it turns out, is to pay it forward. No score yet, be the first to add. Slime Language 3 is the third installment of Young Thug’s label compilation series, a gargantuan collection of songs—packaged into a mosh-pit leaning “Side A,” made to be heard while hitting whippets at a Cole Bennett festival, and a more whimsical “Side B,” made to be sung in the shower—that ushers in a new generation of YSL acolytes. Measured by its highs, it’s an undeniable blast, a natural expansion of Thug’s world. It’s also a 41-song party album for a party that logically should’ve ended a while ago, though it does a remarkably good job at convincing you to be present with it. Promoting Slime Language 2 back in 2021, Young Thug went on the Million Dollaz Worth of Game podcast and claimed Lil Wayne didn’t even dap him up the first time they met. This, the story goes, inspired Thug’s personal vow never to sligh",
+      "source_title": "Slime Language 3",
+      "source_url": "https://pitchfork.com/reviews/albums/young-stoner-life-young-thug-slime-language-3/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "Bonobo发行《Distance in Static》，或为其最后一张传统专辑",
+      "entities": [
+        {
+          "name": "Bonobo",
+          "explain": "英国电子音乐制作人Simon Green的艺名，以氛围电子和 downtempo 风格闻名"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论媒体"
+        }
+      ],
+      "summary": "英国电子制作人Bonobo发行新专辑《Distance in Static》，暗示这可能是他最后一张“传统”专辑。作品风格多变，重点回归其DJ时代的俱乐部音景。",
+      "relevant": "若确为最后一张传统专辑，标志着这位电子音乐人创作阶段的转折。",
+      "context": "Bonobo此前以专辑制作为主，近年回归DJ演出，此次专辑被视为其创作方向转变的信号。",
+      "source_analysis": "Pitchfork为独立音乐评论媒体，评论偏专业分析。",
+      "social_impact": "",
+      "source_text": "“I never actually wanted to be a DJ,” Simon Green, better known as versatile electronic producer Bonobo, recently told Mixmag. “It just kind of happened by accident.” Now, after 26 years spent exploring the nuances of downtempo and house music, he wants off the album-tour hamster wheel. Distance in Static is likely his last Bonobo album, he says—at least “in a traditional sense.” The British musician recently moved from Southern California to Japan and is eyeing film scores, art installations, and modular string quartets with Miguel Atwood-Ferguson as potential next steps. But for all his ostensible desire to stretch, he retreads familiar ground on Distance in Static. Bonobo’s eighth album is his clubbiest album yet, a reflection of the sounds and textures that have shaped his evolution from downtempo mood-setter to headlining dance act. More victory lap than self-contained artist statement, it completes a trio of records—following his last two full-lengths, Migration and Fragments—that get progressively heavier in sound but lighter in ideas. No score yet, be the first to add. Migration had, among many things, good timing on its side; released in 2017, it coincided with the post-EDM rush to reimagine what contemporary dance floors could sound like, and Green’s sensual, club-lite soundscapes perfectly met the moment—funky synths and devotional vocals drizzled over variations of UK bass music, often backed by live bands and full string sections. But that chill-adjacent formula doesn’t sparkle like it used to, and Distance in Static feels recycled, lacking the freshness and exploratory spirit that made Green’s earlier work interesting. While Black Sands-era Bonobo was intriguingly hard to categorize—glitchy, funky, jazzy, and dubby, too heavy for “chill” and too heady for “club”—Distance in Static sounds as if each track was engineered to suit specific environments or playlists. There are groovy R&B-soul excursions like the Joy Crookes team-up “Always on Your Side,” sleek cosmic interludes like “ID700” and “Uncasually,” and billowing, eyes-closed, stadium-rave cuts like “Drift” and “Cycles,” which echo each other’s mournful, heartstring-tugging synths. Despite Green’s determination to play in multiple sandboxes, the tidily siloed nature of these tracks also makes them feel more anonymous. “Me and You,” the project’s catchy lead single, should be a slam dunk—it’s bouncy, playful, tightly edited, and samples a 1950 Malawian field recording by ethnomusicologist ",
+      "source_title": "Distance in Static",
+      "source_url": "https://pitchfork.com/reviews/albums/bonobo-distance-in-static/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_511eb8e7bdd0",
+      "source": "Pitchfork",
+      "title": "Dog on the Rock / Seven Off the Two / Seaplane Dog / The View from Tian Tan",
+      "url": "https://pitchfork.com/reviews/albums/mac-demarco-dog-on-the-rock-seven-off-the-two-seaplane-dog-the-view-from-tian-tan/",
+      "summary": "Originally issued as tour-only CD-Rs, these four diaristic albums from the singer-songwriter bundle together half-formed suites of slow, seasick recordings aimed squarely at the die-hards.",
+      "image": ""
+    },
+    {
+      "id": "rss_ca20cc1c49c4",
+      "source": "Pitchfork",
+      "title": "The Singer in My Band",
+      "url": "https://pitchfork.com/reviews/albums/this-is-lorelei-the-singer-in-my-band/",
+      "summary": "On his first album for Matador, Nate Amos trades the magpie charm of his past solo work for a warm, twangy, and tightly constructed approach. It’s the sound of a songwriter sketching out his own gospel.",
+      "image": ""
+    },
+    {
+      "id": "rss_87d98f99146c",
+      "source": "Pitchfork",
+      "title": "Distance in Static",
+      "url": "https://pitchfork.com/reviews/albums/bonobo-distance-in-static/",
+      "summary": "On what he has hinted may be his final “traditional” LP as Bonobo, the UK producer cycles through moods and styles, with a particular focus on the clubby soundscapes of his DJ era.",
+      "image": ""
+    },
+    {
+      "id": "rss_fe542b9b25ef",
+      "source": "Pitchfork",
+      "title": "Slime Language 3",
+      "url": "https://pitchfork.com/reviews/albums/young-stoner-life-young-thug-slime-language-3/",
+      "summary": "The gargantuan third installment of Young Thug’s label compilation series inducts a new class of YSL and ØWay acolytes to the collective’s post-RICO reconstruction. It’s a rich and unwieldy text.",
+      "image": ""
+    },
+    {
+      "id": "rss_bc5ba462efbf",
+      "source": "Pitchfork",
+      "title": "Nine",
+      "url": "https://pitchfork.com/reviews/albums/russian-circles-nine/",
+      "summary": "The instrumental trio spends its ninth album almost entirely in attack mode, pulling from death metal and hardcore for one of its heaviest and most riff-forward releases to date.",
+      "image": ""
+    },
+    {
+      "id": "rss_4dcfd92bdb55",
+      "source": "Open Culture",
+      "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "summary": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum [&#8230;]",
+      "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg"
+    },
+    {
+      "id": "rss_92eef24704c9",
+      "source": "Open Culture",
+      "title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "summary": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/08083915/19.jpg.jpeg"
+    },
+    {
+      "id": "rss_f52ff62ca03b",
+      "source": "Open Culture",
+      "title": "Discover J.R.R. Tolkien’s Personal Book Cover Designs for The Lord of the Rings Trilogy",
+      "url": "https://www.openculture.com/2026/09/j-r-r-tolkiens-personal-book-cover-designs-for-the-lord-of-the-rings.html",
+      "summary": "In some rare cases, adaptations and interpretations of a literary work can surpass the source. Despite hundreds of valiant efforts on the part of fans, filmmakers, game/toy designers, and radio producers, this has never been true of the fully-realized fantasy world in J.R.R. Tolkien’s The Hobbit&#160;and&#160;The Lord of the Rings trilogy (not that it’s ever [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/02232936/The-Fellowship-Of-The-Ring-Book-Cover-by-JRR-Tolkien_1-480.jpg"
+    },
+    {
+      "id": "rss_db6131d11aa6",
+      "source": "Aeon",
+      "title": "Penchants of the polymaths",
+      "url": "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation",
+      "summary": "The fathers of Islamic science hold lessons for students: breadth over specialisation, and never let constraints get in the way - by Mariam Sabri Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/1024a5cb-d702-4ff5-b6b1-6c3e993da1eb/essay-chronology-of-ancient-nations-biruni.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_7e9d518d3e8d",
+      "source": "Aeon",
+      "title": "The Chinese room",
+      "url": "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness",
+      "summary": "Can we test for AI consciousness when we don’t understand our own? Getting into John Searle’s ‘Chinese room’ experiment - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/4040d550-762e-46f4-92ba-431242992b66/the-chinese-room-experiment-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_b7c47d351a2a",
+      "source": "Aeon",
+      "title": "Medieval mental health",
+      "url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "summary": "Saffron and ostrich liver were prescribed but so were exercise, gardens, animals, socialising, and music - by Katherine Harvey Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/f5b2d9a3-db7d-49c3-b79d-a14788da0cb0/essay-bathing.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_f97c74a17b53",
+      "source": "Daily Nous",
+      "title": "How Different Are Philosophers? (guest post)",
+      "url": "https://dailynous.com/2026/09/10/how-different-are-philosophers-guest-post/",
+      "summary": "&#8220;Do philosophers really think differently than non-philosophers?&#8221; That&#8217;s the question taken up by a team of researchers in a recent study published in Philosophical Psychology. Focusing on differences between philosophers and non-philosophers in regard to neurodivergent traits and responses to thought experiments, the researchers found some support, in the aggregate, for a &#8220;yes&#8221; answer to that question. The following guest post is by Thomas Nadelhoffer (College of Charleston), and is based on the article, &#8220;Thinking Differently: Neurodivergent Traits and Responses to Thought Experiments in Philosophers and the General Population,&#8221; co-authored with Paul McKee (Duke), Khaoula Boulhadi (Southern Connecticut State), and Helena Weymouth (College of Charleston). How Different Are Philosophers? by Thomas Nadelhoffer “The history of philosophy is to a great extent that of a certain clash of human temperaments [. . .] Yet, his temperament really gives him a stronger bias than any of his more strictly objective premises. It loads the evidence for him one way or the other” &#8212; William James Neurodiversity and Philosophical Intuitions In addition to being abstract thinkers, philosophers are stereotyped as being argumentative, overly self-absorbed in their own thoughts, and enjoy creating increasingly fine distinctions regarding everyday terms while imagining novel hypothetical situations and debating the conclusions they draw. It&#8217;s possible that many philosophers have quite distinctive personalities. More than two millennia before the modern notion of stereotypes existed, Plato used humor to poke fun at philosophers in the Theaetetus by telling a story of Thales contemplating the stars, so engrossed that he forgot where he was walking and fell down a well. However, do philosophers really think differently than non-philosophers? This was one of the questions behind the paper we recently published in Philosophical Psychology. We ",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/kusama-yayoi-the-hope-of-the-polka-dots-buried-in-infinity-will-eternally-cover-the-universe.jpg"
+    },
+    {
+      "id": "rss_a28d1f419493",
+      "source": "Daily Nous",
+      "title": "Mini-Heap",
+      "url": "https://dailynous.com/2026/09/10/mini-heap-728/",
+      "summary": "New links&#8230; “50 Things Every AI Working with Humans Should Know” &#8212; a short story by Ken Liu “We need a moratorium on new rules and new software purchases until we’ve pruned what does not serve the fundamental mission of teaching and learning and in fact gets in the way of it” &#8212; Barry Lam on higher ed&#8217;s techno-bureaucratic bloat, in the Boston Globe (unpaywalled here) “When What Rightly Matters Doesn’t Really Matter” &#8212; Lisa Tessman&#8217;s Presidential Address at the 2024 Eastern Division APA meeting “Is there dumb wokeness in the academy? Of course. But if we are truly interested in whether it is prominent, representative, isolated [etc.]… we are going to need a more sophisticated methodology than repeated applications of the availability bias” &#8212; Steven Hales on caricatures of the academy Humpback whales to the rescue &#8212; the possibility of animal altruism (via MR) “Self-deception is very easy. For that reason, I do think clear thinking is immensely important. But I don’t think philosophy in the old-fashioned sense is quite the thing the world needs nowadays” (via Open Culture) &#8212; a 1952 television interview with Bertrand Russell (transcript here) Can laws be unjust and yet remain, in some sense, morally legitimate? &#8212; Jonathan Quong and Blain Neufeld discuss this and related questions taken up in Quong&#8217;s new book on &#8220;legitimate injustice&#8221; Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may be of interest to philosophers. The Heap of Links consists partly of suggestions from readers; if you find something online that you think would be of interest to the philosophical community, please send it in for consideration for the Heap. Thank you.Previous edition. &#160; &#160; The post Mini-Heap first appeared on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2022/01/miniheap-7-darkmode-compatible-1024x622.png"
+    },
+    {
+      "id": "rss_a9af0021c1a0",
+      "source": "Daily Nous",
+      "title": "Fewer and Fewer Students Earn Degrees in the Humanities",
+      "url": "https://dailynous.com/2026/09/09/fewer-and-fewer-students-earn-degrees-in-the-humanities/",
+      "summary": "20 years ago, nearly 15% of the undergraduate degrees conferred in the United States were in the humanities. As of 2025, that percentage is down to 8.1%. These figures are from a recent report by Humanities Indicators, a project of the American Academy of Arts &#38; Sciences. Here are the numbers: In 2025, the nation’s colleges and universities awarded 164,847 bachelor’s degrees in the humanities&#8212;the smallest number of degrees awarded since 1991 and 30.4% below the recent high-water mark in 2012&#8230; That decline includes a particularly sharp drop of 12.7% from 2021 to 2023, followed by a more modest drop of 2.1% from 2023 to 2024, and a further decline of just 0.4% from 2024 to 2025—the smallest year-on-year decline since 2012. And most disciplines within the humanities have shown a decline: Within the humanities, almost every discipline awarded fewer degrees in 2025 than 13 years earlier&#8230; The largest proportional drops in degrees awarded occurred in religious studies (down 56.3%), area studies (53.2%), languages and literatures other than English (50.8%), English (43.8%), history (40.6%), classical studies (39.4%), and comparative literature (31%). Only three disciplines showed increases&#8212;folklore (where the small number of degrees awarded makes the numbers highly volatile), the study of the arts (with a modest 2.1% increase since 2012), and interdisciplinary humanities disciplines (where the increase was largely due to the addition of a substantial number of new programs, such as digital humanities, in the Department of Education’s 2020 revision of its Classification of Instructional Programs). How&#8217;s philosophy doing? Well, after a slight decrease last year, there has been a slight increase: In 2024, 5,763 students earned philosophy BAs. In 2025, that number was 5,918. The full report from Humanities Indicators is here. The post Fewer and Fewer Students Earn Degrees in the Humanities first appeared on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/degree-completion-by-discplines-2025-9-humanities-indicators-1024x849.png"
+    },
+    {
+      "id": "rss_f2db20882e51",
+      "source": "卫报书籍",
+      "title": "Julia Donaldson: ‘Am I the Gruffalo Granny? Not really. I’m the mouse’",
+      "url": "https://www.theguardian.com/books/2026/sep/12/julia-donaldson-am-i-the-gruffalo-granny-not-really-im-the-mouse",
+      "summary": "As she introduces the latest member of her Gruffalo family, Julia Donaldson talks about storytelling, loss and the worries that come with being Britain’s all-time bestselling author In 1999 a journalist asked a then-unknown author to share her millennium wish. The author, who was 51 years old and had published only one book before, said she hoped her new one, out that year, would become a classic. “But then straight away I said: ‘Only joking!’ Because I didn’t want to sound full of myself, and I certainly didn’t think the wish would come true,” she remembers today. That author is Julia Donaldson; the&nbsp;book she published in 1999 was The Gruffalo; and, as you hardly need telling, her wish did indeed come true. And how. Since its publication, more than 18.2m copies of The Gruffalo and&nbsp;its sequel have sold worldwide. The Gruffalo’s Child was published in 2004, and together these tales of the terrible creature with terrible claws, and terrible teeth in his terrible jaws, have&nbsp;helped Donaldson to sell more than 50m books in the UK. In 2025 she was named the country’s bestselling author – across all genres, children’s and adult’s&nbsp;– since records began. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_b28b7a346375",
+      "source": "卫报书籍",
+      "title": "Naomi Klein: ‘Extreme wealth has a deranging effect. It turns you into a supremacist’",
+      "url": "https://www.theguardian.com/books/2026/sep/12/naomi-klein-extreme-wealth-has-a-deranging-effect-it-turns-you-into-a-supremacist",
+      "summary": "She’s tackled neoliberalism and the digital world, now the writer and activist is taking on tech billionaires. She explains how the super-rich are capitalising on climate and financial chaos in pursuit of power Naomi Klein’s new book starts on a mountaintop with two&nbsp;“faithful men gathering an audience to share their vision”. It’s a vision of a paradise city, gated at every entrance, no need for weapons there, everyone in it rich. One of the men has tears in his eyes as he describes its beauty. The opening scene of End Times Fascism, co-written with Astra Taylor, is not a metaphor, however. The men are Jared Kushner and Steve Witkoff. The year is 2026, the mountain is Davos. The paradise city will be called New Gaza . The World Economic Forum get-together in Davos , Switzerland, has always had a twin purpose – to provide a platform for the super-rich to describe all the good they are doing on poverty and climate, and to give us a glimpse into their enviable lives. This year what we witnessed was, quite brazenly, the world’s richest men gathering to discuss the real estate possibilities of a mass grave. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_98be626d0e68",
+      "source": "卫报书籍",
+      "title": "A Thought Without Collision by Adrian Duncan review – a brilliant interrogation of philosophy and wonder",
+      "url": "https://www.theguardian.com/books/2026/sep/11/a-thought-without-collision-by-adrian-duncan-review-a-brilliant-interrogation-of-philosophy-and-wonder",
+      "summary": "With a character inspired by Wittgenstein, this exploration of the mysteries of the universe draws on multiple philosophical traditions For several years I ran community groups that involved reading books aloud with other adults. Sharing the experience of reading in that way made me notice how, when one or more of us was baffled by a story, this bafflement was rarely experienced without an accompanying sense of mild anger. It was so easy to make us, the readers, angry – at the characters; at the author; perhaps even at the nature of this reality on which we’d lost our grip. We were confronted with the fact that our capacity to understand the world was limited. We didn’t like that. Irish author Adrian Duncan’s fifth novel, A Thought Without Collision, takes risks with this bafflement: it relates and conveys an experience of being mystified by the universe. As it opens, in Ireland in 1923, it is becoming apparent that six-year-old Catherine has exceptional academic gifts, and that her father’s farm is failing. In the next chapter, set in 1951, Dr Josef Alois, a Tyrolean émigré academic in his mid-50s, is living in his self-built house on the east coast of Scotland. He&nbsp;is alone until Catherine reappears, “a handsome woman in her mid-thirties”, and now an Oxford professor. The second chapter ends starkly: Alois “is more unwell than he believes and will perish in one month and eleven days”. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_454c7de228ce",
+      "source": "Mongabay",
+      "title": "The push for a sustainable artisanal mining in the Peruvian Amazon",
+      "url": "https://news.mongabay.com/video/2026/09/the-push-for-a-sustainable-artisanal-mining-in-the-peruvian-amazon/",
+      "summary": "MADRE DE DIOS, Peru — In Madre de Dios, in the Peruvian Amazon, thousands of people depend on gold mining, while the spread of mercury and deforestation are transforming the country’s most biodiverse tropical forest. In La Pampa, one of the region’s main gold mining hubs, a formalized artisanal mining operation is trying to prove [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/11144527/Mongabay_Thumbnail_CleanGold_Feature-768x512.jpg"
+    },
+    {
+      "id": "rss_83721019565e",
+      "source": "Mongabay",
+      "title": "Ituna/Itatá invasion escalates as Indigenous Land faces fires and illegal clearing",
+      "url": "https://news.mongabay.com/short-article/2026/09/ituna-itata-invasion-escalates-as-indigenous-land-faces-fires-and-illegal-clearing/",
+      "summary": "More than 500 people have invaded Brazil’s Ituna/Itatá Indigenous Land in recent weeks, opening illegal roads, setting deliberate fires and threatening federal agents. The area is home to the Igarapé Ipiaçava Indigenous people who live in voluntary isolation with no contact with outsiders. On Aug. 26, a federal court ordered the government to deploy the [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/11235837/AP23291581276739-768x512.jpg"
+    },
+    {
+      "id": "rss_c431df1dbb68",
+      "source": "Mongabay",
+      "title": "Angolan communities return to seasonal migration amid severe drought",
+      "url": "https://news.mongabay.com/short-article/2026/09/angolan-communities-return-to-seasonal-migration-amid-severe-drought/",
+      "summary": "Several years of severe drought are forcing people to leave their homes in Angola to search for water and food in neighboring Namibia. “There is real hunger and thirst here; that’s why the village has become depopulated,” Nghikembua (not his real name), who lives in Cunene Province in southern Angola, told Amnesty International in 2021. [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/11195335/IMG_0532-1-1-768x512.jpg"
+    },
+    {
+      "id": "rss_0de5f4f40612",
+      "source": "卫报野生动物",
+      "title": "Artist delights in beautiful ‘mess’ and dead trees of England’s rewilding sites",
+      "url": "https://www.theguardian.com/environment/2026/sep/12/artist-england-rewilding-sites-knepp-rebecca-howard",
+      "summary": "Rebecca Howard spent two years visiting projects and painting landscapes that feature in West Sussex exhibition Rewilding areas do not usually conform to traditional notions of beauty in England’s green and pleasant land. Detractors may bewail the beaver-felled trees, untidy scrub, deadwood, weeds, mud and “mess”. But a new exhibition highlights the aesthetic delights that can be discovered on rewilding sites where fungi grows on dying trees, water buffalo gather in new wetlands and brown-watered beaver pools flood once-desiccated fields. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_247d36e334ca",
+      "source": "卫报野生动物",
+      "title": "Los Angeles to memorialize late mountain lion P-22 with sculpture in Griffith Park",
+      "url": "https://www.theguardian.com/us-news/2026/sep/11/los-angeles-mountain-lion-griffith-park-sculpture",
+      "summary": "The wild feline made its home in the park before being euthanized in 2022 after showing signs of declining health The city of Los Angeles will memorialize its most famous mountain lion with a bronze sculpture at Griffith Park, the 4,200-acre (1,700-hectare) stretch of land the cougar once roamed. Known as “P-22”, the number assigned by the team of biologists that first identified him, the lion gained national fame after photographer Steve Winter captured an iconic image of him prowling through Griffith Park with the Hollywood sign in the background. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_e7e79a0ee7a5",
+      "source": "卫报野生动物",
+      "title": "This wildflower paradise is only open six weeks a year. As soon as I entered, my mind started to calm",
+      "url": "https://www.theguardian.com/environment/2026/sep/12/muogamarra-nature-reserve-nsw-only-open-six-weeks-a-year-native-wildflowers",
+      "summary": "There is something profoundly peaceful about witnessing the Australian landscape as it used to be before western intervention On a cloudy Spring morning, a group of 20 nature enthusiasts gather at the entrance to a nature park on the northern edge of Sydney. “Good to see nobody is wearing thongs,” our volunteer tour leader, Helen Logie, says to chuckles. We are among just under 5,000 people lucky enough to visit Muogamarra nature reserve during the six weeks a year it is open to the public, coinciding with wildflower season. This year, tickets – which provide access to a limited number of guided and self-directed walks – sold out in less than a week. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-12 21:40"
+}
