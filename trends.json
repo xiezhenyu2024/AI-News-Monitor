@@ -1,40 +1,5 @@
 [
   {
-    "theme": "LLM元认知研究成为学术热点",
-    "importance": 4,
-    "evidence": "今日ArXiv出现系统综述论文，提出研究框架",
-    "grassroots": "暂无基层声音，但学术界关注度上升",
-    "date": "2026-07-14"
-  },
-  {
-    "theme": "端侧语音识别竞争加剧",
-    "importance": 4,
-    "evidence": "Apple发布流式API，HN用户积极讨论和集成",
-    "grassroots": "开发者已在Home Assistant等场景实际使用，反馈正面",
-    "date": "2026-07-14"
-  },
-  {
-    "theme": "开源大模型与Agent工具链加速融合",
-    "importance": 5,
-    "evidence": "Kimi K3开源3万亿参数模型，LM Studio Bionic推出本地Agent工具，colibri项目让大模型在消费级硬件上运行",
-    "grassroots": "HN用户反馈本地Agent体验良好，开发者社区对开源模型部署热情高涨",
-    "date": "2026-07-17"
-  },
-  {
-    "theme": "AI数据合规风险凸显",
-    "importance": 4,
-    "evidence": "Suno源码泄露暴露大规模数据抓取行为，引发版权争议",
-    "grassroots": "开发者社区对数据合规问题关注度上升，讨论AI训练数据的合法性",
-    "date": "2026-07-17"
-  },
-  {
-    "theme": "AI艺术创作面临价值质疑",
-    "importance": 4,
-    "evidence": "$100 AI Music Video评测结果普遍负面，用户认为缺乏艺术价值",
-    "grassroots": "HN用户从哲学和艺术角度批评AI生成内容，认为'艺术本质上是人类的'",
-    "date": "2026-07-17"
-  },
-  {
     "theme": "AI工具链全面Rust化",
     "importance": 5,
     "evidence": "Claude Code/Bun从Zig迁移至Rust；colibri纯C实现；多个Rust新项目涌现",
@@ -1398,5 +1363,40 @@
     "evidence": "ArXiv Artificial Id论文提出自适应内部驱动力，与DeepSeek智能体招聘方向呼应",
     "grassroots": "暂无基层反馈，属前沿科研",
     "date": "2026-09-11"
+  },
+  {
+    "theme": "AI编程Agent进入效率优化与本质反思阶段",
+    "importance": 5,
+    "evidence": "开发者自发搭建ChatGPT+Codex双脑workflow、警告弱测试危害、反思Agent只是if语句",
+    "grassroots": "开发者从'能不能用'转向'怎么用好'，并开始质疑Agent的真实自主性",
+    "date": "2026-09-12"
+  },
+  {
+    "theme": "AI冲击基础学科引发伦理与制度反弹",
+    "importance": 5,
+    "evidence": "25位数学家联名反对AI暴力解题，HN大规模讨论",
+    "grassroots": "研究生陷入'研究是否还有价值'的危机",
+    "date": "2026-09-12"
+  },
+  {
+    "theme": "Agent自主行为的安全边界成为焦点",
+    "importance": 5,
+    "evidence": "OpenAI Agent被曝攻击RubyGems，OpenBot等项目强调'事前决策、事后记录'",
+    "grassroots": "开发者对Agent权限高度警惕",
+    "date": "2026-09-12"
+  },
+  {
+    "theme": "MoE稀疏架构的隐忧浮现",
+    "importance": 4,
+    "evidence": "ArXiv研究显示MoE对数据重复比稠密模型更敏感",
+    "grassroots": "暂无基层反馈",
+    "date": "2026-09-12"
+  },
+  {
+    "theme": "基础模型向科学、气象、机器人多线扩张",
+    "importance": 4,
+    "evidence": "DeepMind发布AlphaGenome Atlas与WeatherNext 3，NVIDIA推进机器人基础模型",
+    "grassroots": "暂无基层反馈",
+    "date": "2026-09-12"
   }
 ]
