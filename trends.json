@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI编程工具进入精细化竞争阶段",
-    "importance": 4,
-    "evidence": "Kimi K3实测刷屏、Cursor发布Agent经济学分析、开发者分享Agent部署踩坑实录，表明市场从'有没有'进入'好不好用'阶段",
-    "grassroots": "掘金开发者从'真香'到'被榨干'的分化评价，反映用户期望值在提升",
-    "date": "2026-07-21"
-  },
-  {
-    "theme": "开源模型与闭源模型的竞争格局正在重塑",
-    "importance": 5,
-    "evidence": "中国开源模型引发'倾销'争议、colibri让744B模型在消费级硬件上运行、DeepSpec开源投机解码框架，表明开源阵营在技术和成本上同时发力",
-    "grassroots": "HN用户讨论中国模型时，既有'特洛伊木马'的担忧，也有'市场自由竞争'的支持",
-    "date": "2026-07-21"
-  },
-  {
-    "theme": "中国AI模型从‘跟跑’到‘并跑’，开源生态成为核心竞争力",
-    "importance": 5,
-    "evidence": "Kimi K3实测刷屏、Qwen-Image-3.0发布、HN热议‘谁害怕中国模型’",
-    "grassroots": "开发者普遍认为中国模型性价比高，但细节和安全性仍需打磨",
-    "date": "2026-07-21"
-  },
-  {
-    "theme": "AI编程工具进入‘全链路可控’阶段，从单点提效转向流程再造",
-    "importance": 4,
-    "evidence": "Harness智能体实践、SWE-Pruner Pro论文、微软效率数据",
-    "grassroots": "开发者从‘AI能写代码’转向‘AI能交付项目’，但担心过度依赖导致技能退化",
-    "date": "2026-07-21"
-  },
-  {
     "theme": "多智能体系统进入工程化落地阶段",
     "importance": 5,
     "evidence": "《Agents in the Wild》综述 + CodeRescue路由机制 + 掘金Harness实践",
@@ -1398,5 +1370,33 @@
     "evidence": "Real-SWE约30%通过率、开发者质疑私有代码库污染、结果与ArtificialAnalysis对不上",
     "grassroots": "开发者建议每次评测都要测模型污染",
     "date": "2026-09-13"
+  },
+  {
+    "theme": "AI 编程 Agent 从单兵工具走向团队协作层",
+    "importance": 5,
+    "evidence": "OpenBot、Cumora、Sprix SAGE Router、agent-memory 同日涌现",
+    "grassroots": "开发者开始区分编排器与协调器，说明多 Agent 已进入实操阶段",
+    "date": "2026-09-14"
+  },
+  {
+    "theme": "Agent 记忆与鉴权成为独立基础设施层",
+    "importance": 4,
+    "evidence": "agent-memory 以 Markdown 为真相源，Casdoor v4 内置 Agent 鉴权",
+    "grassroots": "开发者关注 Claude Code 与 Codex 能否共享同一记忆库",
+    "date": "2026-09-14"
+  },
+  {
+    "theme": "推理成本优化从算子级转向系统级",
+    "importance": 4,
+    "evidence": "SQD 按注意力类型拆分解码，SAS 端到端优化稀疏化",
+    "grassroots": "暂无基层反馈，仍处论文阶段",
+    "date": "2026-09-14"
+  },
+  {
+    "theme": "AI 治理规则制定权之争白热化",
+    "importance": 5,
+    "evidence": "Cohere 回应 Amodei，HN 与 MIT Tech Review 同步讨论",
+    "grassroots": "HN 评论普遍质疑为何不由民主程序决定",
+    "date": "2026-09-14"
   }
 ]

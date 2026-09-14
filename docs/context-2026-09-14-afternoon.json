@@ -1,0 +1,1482 @@
+{
+  "key": "2026-09-14-afternoon",
+  "date": "2026-09-14",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 24,
+      "title": "中国公司PhysBrain 1.5登顶全球物理AI开源榜，空间智能比肩GPT-6 Astra",
+      "entities": [
+        {
+          "name": "PhysBrain 1.5",
+          "explain": "中国公司开发的物理AI模型，能理解真实世界的空间和物理规律，比如物体怎么移动、怎么抓取"
+        },
+        {
+          "name": "物理AI",
+          "explain": "让AI理解并操作真实物理世界的技术，是机器人、自动驾驶等领域的核心能力"
+        },
+        {
+          "name": "空间智能",
+          "explain": "AI理解和推理三维空间中物体位置、关系的能力，比如判断杯子在桌子左边"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI最新一代旗舰大模型，被多家公司用于生产系统"
+        }
+      ],
+      "summary": "中国公司发布的PhysBrain 1.5在全球物理AI开源榜单上排名第一，其空间智能能力与OpenAI的GPT-6 Astra处于同一水平。该模型完成了物理闭环中最难的环节，标志着中国在物理AI领域取得重大突破。",
+      "relevant": "物理AI是机器人产业的核心技术，此前该领域长期由美国主导，中国公司登顶开源榜首意味着竞争格局可能发生变化。",
+      "context": "物理AI要求模型不仅能理解语言，还要能感知和推理真实世界的物理规律，技术门槛极高。此前开源社区缺乏能与顶级闭源模型抗衡的物理AI模型。",
+      "source_analysis": "量子位是专注AI领域的中国科技媒体，报道倾向突出中国技术突破。",
+      "social_impact": "若该模型开源可用，将降低国内机器人、智能制造等行业的AI应用门槛。",
+      "source_text": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱 这家中国公司，刚跑完了物理闭环里最难的一段路 允中 发自 凹非寺 量子位 | 公众号QbitAI 物理AI，正在成为2026年全球人工智能最关键的赛道，也是未来之争。 大模型用了三年时间把“会说话、会思考、会工作”推到极致，但当行业开始追问“模型能不能走进真实世界、能不能动手”时，一扇新的大门被推开。 Google DeepMind于2026年7月30日发布Gemini Robotics 2，基于Gemini 3.5 Flash的“具身推理”大脑ER 2，试图让机器人“边看视频边想下一步”。近期，OpenAI GPT-6引发行业热议，推理、编程与多模态理解能力再度突破，把通用智能的天花板又推高了一截。 而Robocurve的一次实验，又将“大语言模型是否能在真实世界中行动”这个问题摆在了台前。该实验将GPT-6 Astra部署在真实机械臂上，在20次“积木放入碗”任务里，GPT-6 Astra完成19次，而Claude Fable 5.1仅完成8次。 这次实验表明，基座模型能力大幅提升之后，也可以在具身任务上取得可观的表现。 但顶尖大语言模型在具身操作上仍有鸿沟。Robocurve同一套测试的另一面很说明问题：在“蓝色拼图块对位插入凹槽”这种毫米级精细任务上，GPT-6 Astra的成功率从95%掉到10%。 大模型积累的通用理解，可以跨越“看懂”到“粗动作”的鸿沟，却仍在“精细接触、精准插入”面前止步。 这正是全行业共同的瓶颈，也是后来者真正的机会窗口。 就在这个关口，一家从北京海淀中关村走出来的中国公司——深度机智，交出了自己的答卷。 2026年9月9日，深度机智正式发布物理基座模型PhysBrain 1.5，在28项公开基准上取得72.5的综合均分，位居参评开源模型首位，与头部闭源模型GPT-6 Astra（73.3）、Gemini 3.6 Flash（73.0）的差距，已收窄到1分以内。 它没有去和巨头比拼参数规模，也没有去追逐各类技术热点，而是用一条“人类学习”的技术路线，把物理智能基础模型能力作为核心战略方向持续深耕。 GPT-6 Astra的机械臂实验恰恰印证了，把基础模型做扎实，才是决定物理智能上限的关键变量，这正是深度机智长期践行的方向。 PhysBrain 1.5是深度机智在这一战略方向上持续投入的阶段性成果。 在28项基准测评中，PhysBrain 1.5取得14项开源第一，10项位列开源第二。 它不是在某一个单项上刷出了高分，而是在空间理解、动作生成、未来状态预测的完整能力链条上，全线跻身开源模型前列。 这意味着PhysBrain 1.5提供的不只是“更聪明的感知”，而是机器人从理解环境到执行任务的系统性基础能力。 PhysBrain 1.5全面开源，技术报告、2B与8B模型权重、评测工具包，全部向社区开放，让更多全球开发者基于同一套基座，共同探索物理智能的下一步。 Project Page: https://deepcybo-physai.github.io/PhysBrain-1.5 Hugging Face: https://huggingface.co/collections/DeepCybo/physbrain-15 Evaluation Kit: https://github.com/DeepCybo-PhysAI/PhysBrainEvalKit 开源第一，比肩顶尖闭源：中国物理AI基座模型站上全球前沿 物理基座模型的评测向来是件难事。评估PhysBrain 1.5的，是一组28项公开基准，按五大能力维度组织——视觉空间感知、空间与多视角理解、具身认知与规划、空间指向与可供性、视觉轨迹推理。 在这套多维测试中，PhysBrain 1.5-8B拿下72.5的综合均分，排开源阵营第一。 从结果上看，PhysBrain 1.5-8B以72.5的综合均分拿下开源模型榜首，并在28项中的14项取得开源最佳，10项位列开源模型第二；相较当前最强开源对手Hy-Embodied-VLM-1.0（66.0）高出约6.5分，较RynnBrain 1.1（63.1）高出9.4分。 更受关注的是其整体水位：72.5分这一成绩，与GPT-6 Astra（73.3）、Gemini 3.6 Flash（73.0）的差距已收窄到1分以内。在具身智能的核心能力上，深度机智已经与全球最前沿的闭源模型站在同一水位线上。 分项成绩同样能说明问题。 在RoboSpatial-Home空间理解取得73.9分，意味着模型能够在真实场景中准确理解物体之间的空间关系，这是机器人在真实环境中操作的前提。 Part-Affordance可操作部位识别拿下84.0分，说明模型不仅能理解“物体是什么”，更理解“这个物体的哪个部位可以被操作、应该怎么操作”，这是从“识别”走向“交互”的关键一步。 RoboRefit视觉目标定位获得89.8分，则表示模型能够在复杂场景中精准找到并锁定目标物体，为后续动作执行提供了可靠的视觉锚点。 这些成绩说明了PhysBrain 1.5的领先并非局部优势，而是一种覆盖感知、空间、推理、规划与定位的系统性能力领先。这也标志着具身基座模型的竞争，正在从单项能力的较量，进入系统能力的对决。 比8B榜首成绩更值得注意的，是PhysBrain 1.5并没有只做一个“大版本”。 深度机智同步开放了PhysBrain 1.5-2B与PhysBrain 1.5-8B两档参数规模。在项目页最新公布的同一套28项测试中，PhysBrain 1.5-2B取得66.6分。 按照官方评测规则，2B版本仅作为参考，不参与开源排名；但如果只比较数值，它的综合得分已经超过表中所有其他非PhysBrain开源参评模型，包括30A3B规模的Hy-Embodied-VLM-1.0（66.0）、8B的Embodied-R1.5（64",
+      "source_title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+      "source_url": "https://www.qbitai.com/2026/09/488725.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "Meta提出MetaRSI方法，让AI开始改进「改进自己的方法」，递归自我提升进入平方时代",
+      "entities": [
+        {
+          "name": "RSI",
+          "explain": "递归自我提升（Recursive Self-Improvement），指AI能改进自身能力，改进后的版本又能进一步改进自己"
+        },
+        {
+          "name": "MetaRSI",
+          "explain": "Meta提出的新方法，让AI不仅改进自己，还能改进「改进自己的方法」本身"
+        },
+        {
+          "name": "小模型",
+          "explain": "参数量较少的AI模型，通常运行成本低但能力有限"
+        }
+      ],
+      "summary": "Meta提出MetaRSI方法，使AI能够改进自身的改进方法，将递归自我提升从线性推进到平方级加速。该方法帮助小模型突破能力瓶颈，同时为旗舰模型打开了新的提升空间。",
+      "relevant": "RSI被视为通向超级智能的关键路径之一，MetaRSI意味着AI自我进化的速度可能大幅加快，引发对AI安全的新讨论。",
+      "context": "此前AI自我改进主要停留在让模型优化自身参数或训练流程，改进的「方法」本身仍由人类设计。MetaRSI试图让AI自主设计更好的自我改进策略。",
+      "source_analysis": "量子位报道，该媒体长期跟踪AI前沿研究，对技术突破持积极关注态度。",
+      "social_impact": "RSI加速可能引发AI安全领域的担忧，即人类对AI进化速度失去控制。",
+      "source_text": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI 小模型突破瓶颈，旗舰模型打开新空间 允中 发自 凹非寺 量子位 | 公众号 QbitAI 让模型自己生成训练数据、自己改写提示词、自己修复代码，这条路线被称为： 递归自我改进（Recursive Self-Improvement，RSI）。 但几乎所有RSI系统都是同一套结构：一个固定不变的改进程序，反复作用于模型。并往往只从Harness、Data或Model RSI的单一视角切入。 为了回应这一难题，CosmosMind联合斯坦福、伯克利、MIT、清华、北大等十余家海内外高校发布MetaRSI-v1。 这是全球首个统一Model-RSI、Data-RSI、Harness-RSI的元递归架构，能够改进“自我改进的过程”。 RSI由此进入“平方时代”。 在没有任何外部教师模型参与下，MetaRSI-v1使得一个仅30亿激活参数的小模型，在四项基准上平均自我提升10.9分；并且让GPT-5.6、Claude Opus 5等六款前沿旗舰模型，平均提升7.3分。 更重要的是数字背后， MetaRSI-v1是一套试图统一整个RSI领域的架构语言：包括一个内核、两条编排轴、三个算子、整个元RSI层，以及五大定律。 首次被统一的Loop Kernel范式 Loop Kernel是MetaRSI-v1首次提出的自我改进统一形式。 它第一次把“进步如何发生”抽象成一条与对象无关的闭环：消费反馈得到的学习信号，在Data、Harness、Model上提出改动，交由验证器裁决，并将结果回流为下一轮信号。 Data、Harness、Model从此开始能够被统一成同一Kernel的不同实例化算子，可组合、可统一调度，自我改进由此第一次拥有了统一、可复用的底层骨架。 改进空间：Data-RSI、Harness-RSI、Model-RSI 沿用同一个Loop Kernel，自我改进在三个空间上展开，分别由Data-RSI、Harness-RSI、Model-RSI三个算子承担并协同完成。 - Data-RSI：从自身运行轨迹提取学习信号，经校验用于合成数据交由下游消费，标定并放大模型正向能力与负向能力边界。 - Harness-RSI：利用学习反馈信号，在Harness拆分出的System Prompt、Skill、MCP、Tools、Memory五个可插拔槽位上生成改进，做加法与减法。 - Model-RSI：更新模型自身的参数与结构，把反复验证有效的行为内化进模型。 纵横之间：让改进自己找到最优路径 - 横轴（horizontal orchestration）编排算子的应用顺序：RSI² Agent在每个决策点根据信号反馈选定下一个算子，再把该算子有机衔接编排送入RSI Loop Kernel执行。 - 纵轴（vertical optimization）优化算子的内部策略：RSI² Agent向目标算子专属的RSI² Sub-Agent下发指令，后者根据学习信号与环境反馈等改写算子本身的RSI规则，优化RSI系统本身。 递归之上的递归：三层改进与“元层”的诞生 整套架构由四个Agent协调运作，并且均能被人类专家局部替换形成human-in-the-loop系统。 - MetaRSI² Agent：学习如何进行合适的纵横优化，优化RSI² Agent的策略学习。 - RSI² Agent：在每个决策点选择进行横轴（指定下一个算子）或纵轴（向Sub-Agent下发策略改写指令）优化。 - RSI² Sub-Agent：在纵向优化中，接受来自RSI² Agent的执行指令，对算子内部的RSI策略进行调整。 - Transition Agent：负责衔接横向编排中上游算子的产物与下一个算子对产物的消费。 四个Agent对应形成三个RSI优化Level：算子改进目标系统，双轴编排改进算子用法，元层改进双轴编排策略本身。 实验：小模型与前沿模型均实现自我进化 实验沿两条路线展开： - 小模型路线使用可训练的开源模型，Data、Harness、Model三个算子全部启用； - 前沿模型路线面向Claude Opus 5，GPT-5.6 sol，Kimi K3等顶级模型，这类模型参数巨大或为闭源模型，仅启用Data与Harness算子。 路线一：小模型的自我改进 目标模型为Qwen3.5-35B-A3B（35B总参、3B激活），在Terminal-Bench 2.1、SWE-bench Pro、GPQA-Diamond高难度子集、AIME四项基准上评测。 MetaRSI-v1平均提升10.9分，SWE-bench Pro解决率接近翻倍，Meta层为RSI带来更高的天花板，连续自进化的累计增益提升显著。 路线二：前沿模型的自我改进 多款前沿模型在Terminal-Bench 2.1上平均提升7.3分，说明MetaRSI范式对前沿模型同样成立，旗舰模型同样留有可观的自我改进空间。 五条定律：为“机器如何进步”立法 MetaRSI梳理出两条互补的改进路线：Harness-RSI保持权重不变，让自我改进覆盖任何可通过接口调用的模型；Model-RSI通过训练把能力内化进模型。 且MetaRSI首次重新定义了Data-RSI，作为模型的能力边界探测与放大器，通过对执行轨迹与外界反馈learning-signal的联合分析得到经过验证的经验并scale为可复用的数据，并标定这些经验能够支撑到哪里，框定模型能力的正、负边界。 Data-RSI的产物同时供给Harness-RSI与Model-RSI消费，两条路线的改动结果又能够流回Data-RSI，重新标定能力边界、驱动下一轮，能力由此逐轮披露、累积。 在这一过程中，Harness不仅能做加法还能做减法：Data-RSI放大暴露的问题经Model-RSI内化之后，原本吸纳在Harness中的知识会变成冗余，Harness-RSI系统在回放校验",
+      "source_title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+      "source_url": "https://www.qbitai.com/2026/09/488832.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "Perplexity将核心系统交给GPT-6 Astra端到端管理，人工检查频率大幅降低",
+      "entities": [
+        {
+          "name": "Perplexity",
+          "explain": "美国AI搜索公司，以AI驱动的问答式搜索引擎闻名"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI最新旗舰大模型，具备更强的推理和代码能力"
+        },
+        {
+          "name": "端到端系统",
+          "explain": "从输入到输出全流程由AI自动处理，中间不需要人工干预"
+        }
+      ],
+      "summary": "Perplexity将GPT-6 Astra用于撰写通讯、修改软件和监控生产系统，且对AI输出的检查频率远低于使用早期模型时。这表明企业对AI自主执行关键任务的信任度显著提升。",
+      "relevant": "AI从辅助工具变为核心系统管理者，反映了企业级AI应用信任度的质变，也引发对AI自主决策风险的关注。",
+      "context": "此前企业使用AI通常需要人工审核每一步输出，尤其是涉及生产系统和代码变更时。GPT-6 Astra的能力提升使Perplexity敢于大幅减少人工检查。",
+      "source_analysis": "消息来自OpenAI官方博客，属于合作案例宣传，立场偏向展示GPT-6 Astra的实际应用价值。",
+      "social_impact": "若企业普遍减少对AI的人工审核，AI错误可能直接影响生产系统稳定性。",
+      "source_text": "Perplexity trusts GPT‑6 Astra with end-to-end systems Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models. As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely. But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra. “We can have the model craft communications, edit real-world systems, and monitor our production software in a way that previous generations were not able to.” For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application. The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish. “We’re actually able to trust it with full end-to-end systems and check in on it much less frequently than previous generations of models.”",
+      "source_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "Cognition用GPT-6 Astra让Devin自主测试代码，工程师审查量减少、交付加速",
+      "entities": [
+        {
+          "name": "Cognition",
+          "explain": "开发AI编程助手Devin的美国公司"
+        },
+        {
+          "name": "Devin",
+          "explain": "Cognition推出的AI软件工程师，能自主编写和调试代码"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI最新旗舰大模型，被集成到Devin中提升其测试能力"
+        }
+      ],
+      "summary": "Cognition将GPT-6 Astra集成到Devin中，提升了Devin自主测试软件并验证功能是否正常工作的能力。目标是让工程师减少代码审查量，从而更快交付软件。",
+      "relevant": "AI编程工具正从「帮写代码」进化到「自己验证代码是否正确」，这将改变软件工程的工作流程。",
+      "context": "AI生成代码的一大痛点是难以自动验证正确性，工程师仍需大量时间审查。Devin此前已能写代码，但测试能力是短板。",
+      "source_analysis": "消息来自OpenAI官方博客，属于合作案例宣传，立场偏向展示GPT-6 Astra的编程测试能力。",
+      "social_impact": "若AI能自主验证代码质量，软件工程师的角色可能从写代码转向架构设计和需求定义。",
+      "source_text": "Cognition helps Devin test its own work with GPT‑6 Astra GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more. Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups. As Cognition’s engineering teams write more code, reviewing that work has become a challenge. Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Cognition is applying GPT‑6 Astra across its product lineup. “We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan. In one example, Devin uses Astra to test Otter Run, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested. The recording shows the application’s behavior, while the report documents the scope of the testing. Engineers can use those outputs to inspect how the software works and understand what still needs attention. Astra is also helping Cognition get back to customers “much quicker,” says Yan. When a customer sends a screenshot of a bug, the team can pass it to Devin using Astra, which fixes the issue and returns a screenshot showing the result. Cognition sees stronger testing with GPT‑6 Astra as a path toward a more efficient review process. Having Devin test its work and provide evidence of the results could help engineers evaluate changes with less manual examination of the code. “We expect over time that we have to manually look at less code and end up shipping more at the end of the day. This is one of the things we’re really excited about when it comes to GPT-6.”",
+      "source_title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "source_url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "OpenAI存储系统Habitat支撑10亿ChatGPT用户，每秒处理2200万次请求",
+      "entities": [
+        {
+          "name": "Habitat",
+          "explain": "OpenAI自研的分布式存储平台，最初只是一个Python库"
+        },
+        {
+          "name": "分布式存储",
+          "explain": "将数据分散存储在多个服务器上，以支撑大规模访问的系统架构"
+        }
+      ],
+      "summary": "OpenAI披露其存储系统Habitat从最初的Python库演变为全球分布式存储平台，目前支撑超过10亿ChatGPT用户，每秒处理2200万次请求。这是OpenAI首次详细公开其基础设施规模。",
+      "relevant": "10亿用户和每秒2200万请求的规模展示了AI服务的工程挑战，也为其他大规模AI应用提供了基础设施参考。",
+      "context": "ChatGPT用户量爆发式增长对后端存储提出极高要求，OpenAI不得不将内部工具重构成全球分布式系统。",
+      "source_analysis": "消息来自OpenAI官方博客，属于技术分享，立场偏向展示其工程能力。",
+      "social_impact": "10亿用户规模意味着ChatGPT已成为全球级基础设施，其稳定性影响广泛。",
+      "source_text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users How we adapted our application storage platform, Habitat, in Python to manage unprecedented growth. By Jon Lee, Chaomin Yu, and Ben Ries, Members of Technical Staff Every OpenAI product depends on fast, reliable access to data, whether someone is logging in, checking their Codex settings, or starting a new conversation in ChatGPT. Each of those actions may require many separate data lookups before the product can respond. If those requests are slow, the product feels slow. If those requests fail, the product stops working entirely. Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Habitat first launched to support GPTs at DevDay 2023, starting as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data. Building and operating infrastructure at this scale is no easy feat, but also not particularly challenging. What made our situation unique is the unprecedented rate at which we’ve had to scale to support staggering user growth and product demand while simultaneously building out a mature platform. Often, system engineers build for 10x scale, and hope for it to hold for a few years while preparing for the next 10x. In our case, we've grown more than 10x year-over-year for the last three years. As a result, building and operating Habitat has been a series of tactical decisions and sequencing: understanding each component at the lowest level to squeeze as much juice out of our existing stack, while fending off storage and compute capacity crunches to buy time for foundational investments. - 70M+requests per second - 1B+people each week - 500 PB+data As OpenAI grew, Habitat had to grow with it: first by becoming reliable enough for mission-critical product traffic, then fast enough for global users, and finally, to deftly operate at massive scale. This post is the first in a two-part series on how we scaled online storage. In this post, we’ll share how Habitat evolved, why we turned it from a library into a service, and how we stretched a service written in an uncommon serving stack language—Python—into a reliable storage platform layer. In a future post, we’ll go into det",
+      "source_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "Google DeepMind发布WeatherNext 3，号称最先进最准确的全球天气AI模型",
+      "entities": [
+        {
+          "name": "WeatherNext 3",
+          "explain": "Google DeepMind开发的第三代全球天气预测AI模型"
+        },
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下顶级AI研究机构，开发了AlphaGo、AlphaFold等知名AI系统"
+        }
+      ],
+      "summary": "Google DeepMind发布WeatherNext 3，称其为目前最先进、最准确的全球天气AI模型。该模型是WeatherNext系列的第三代产品，具体性能数据尚未在摘要中披露。",
+      "relevant": "AI天气预报正在挑战传统数值预报方法，若准确率确实领先，可应用于防灾减灾和农业规划。",
+      "context": "DeepMind此前已推出GraphCast和WeatherNext系列模型，逐步证明AI在天气预测上可超越传统物理模型。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于产品发布宣传，立场偏向展示技术领先性。",
+      "social_impact": "更准确的天气预报可帮助提前应对极端天气，减少人员伤亡和经济损失。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "DeepMind发布AlphaGenome Atlas，绘制人类基因组90亿个单字母变异的预测影响图谱",
+      "entities": [
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "DeepMind开发的基因组图谱工具，能预测DNA中单个字母变化对分子的影响"
+        },
+        {
+          "name": "单字母DNA变异",
+          "explain": "DNA序列中一个碱基的改变，是遗传病和个体差异的重要来源"
+        },
+        {
+          "name": "人类基因组",
+          "explain": "人类完整的DNA序列，约30亿个碱基对"
+        }
+      ],
+      "summary": "Google DeepMind发布AlphaGenome Atlas，绘制了人类基因组中90亿个单字母DNA变异的分子效应预测图谱。该工具可帮助研究人员快速判断某个基因变异是否有害，加速遗传病研究。",
+      "relevant": "90亿个变异的预测图谱将大幅降低基因研究的实验成本，对精准医疗和药物开发有直接推动作用。",
+      "context": "人类基因组中大量变异的功能未知，传统实验方法逐一验证成本极高。AlphaGenome此前已能预测变异影响，Atlas将其扩展为全基因组覆盖。",
+      "source_analysis": "消息来自Google DeepMind官方博客，属于研究成果发布，立场偏向展示技术突破。",
+      "social_impact": "该图谱若公开可用，将加速全球遗传病诊断和靶向药物研发。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform (detailed in our paper) containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Googl",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 26,
+      "title": "Skild AI发布S1机器人基础模型，看一段视频就能学会新任务",
+      "entities": [
+        {
+          "name": "Skild AI",
+          "explain": "美国机器人AI公司，专注于通用机器人基础模型"
+        },
+        {
+          "name": "S1",
+          "explain": "Skild AI推出的机器人基础模型，能从单个视频演示中学习新任务"
+        },
+        {
+          "name": "NVIDIA Physical AI",
+          "explain": "英伟达推出的物理AI平台，为机器人提供仿真训练和推理能力"
+        }
+      ],
+      "summary": "Skild AI发布机器人基础模型S1，借助NVIDIA物理AI平台，机器人可通过观看单个视频演示学会此前未见过的新任务。该模型旨在解决工厂和仓库中任务频繁变化、机器人需大量重新编程的痛点。",
+      "relevant": "机器人快速适应新任务是制造业和物流自动化的关键瓶颈，单视频学习能力若成熟将大幅降低部署成本。",
+      "context": "传统工业机器人需要工程师针对每个新任务重新编程，耗时且昂贵。制造和仓储场景中任务和布局频繁变化，机器人难以跟上。",
+      "source_analysis": "消息来自NVIDIA官方博客，属于合作伙伴案例宣传，立场偏向展示NVIDIA物理AI平台的价值。",
+      "social_impact": "若机器人能快速学习新任务，制造业和物流业的自动化门槛将显著降低，可能影响相关就业结构。",
+      "source_text": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses video as input to understand and execute the task without updating its weights or undergoing task-specific post-training — a technique called in-context learning. Skild built S1 and conducted the research on NVIDIA AI infrastructure, part of a broader collaboration spanning synthetic data generation, model training, simulation and real-world physical AI deployment. The companies are working together to move adaptable robot intelligence from the lab into factories and other dynamic operating environments. “Learning by experience, and not preprogramming, is the step change that has happened in robotics,” said Deepak Pathak, cofounder and CEO of Skild AI. “NVIDIA Isaac Lab and NVIDIA Cosmos technologies help Skild create the scalable, diverse experience its robots need to learn across many scenarios and embodiments.” The launch comes as the company reached a $100 million annual revenue run rate 10 months after its first commercial deployment. In that time, Skild has built more than 60 deployment partnerships with work spanning manufacturing, logistics, inspection, security, food preparation and other applications. Learning New Work From One Video Most industrial robots are built for fixed jobs, so each new product, process or layout requires more data, retraining and validation. S1 takes a different approach: An operator records a video of the desired task and provides it to the model as a prompt. It interprets the demonstrated intent, objects and sequence, then maps them into actions for the robot in front of it — with no retraining — and often for a task not covered by its pretraining dataset. S1 can perform unfamiliar tasks lasting up to 10 minutes, including plant potting, pancake making, pour-over coffee brewing and kit assembly. These tasks can span dozens of manipulation steps and require the robot to compose skills in sequences it hasn’t previously performed. In one plant-potting test, the Skild AI team moved from recording the demonstration to autonomous execution on hardware in just 11 minutes. The model can also adjust when objects move, recover from errors and combine skills",
+      "source_title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "source_url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 27,
+      "title": "NVIDIA 称全球 Robotaxi 市场 2035 年将达 4000 亿美元，超 600 万辆商业车辆运营",
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "explain": "美国芯片巨头，以 GPU 和 AI 计算平台闻名，近年大力布局自动驾驶和机器人领域"
+        },
+        {
+          "name": "Robotaxi",
+          "explain": "无人驾驶出租车，不需要司机就能载客运营的自动驾驶车辆"
+        },
+        {
+          "name": "Physical AI",
+          "explain": "物理 AI，指能在真实物理世界中感知和行动的 AI 系统，如自动驾驶、机器人等"
+        },
+        {
+          "name": "全栈开放平台",
+          "explain": "NVIDIA 提供的从芯片、传感器到软件算法的完整自动驾驶解决方案，车企可直接采用"
+        }
+      ],
+      "summary": "NVIDIA 发文称全球 Robotaxi 市场预计 2035 年达到 4000 亿美元，届时将有超过 600 万辆商业车辆投入运营。无人驾驶车队已在全球最繁忙复杂的街道上运送乘客。NVIDIA 强调其全栈开放平台正被全球 Robotaxi 领导者用于部署和扩展车队。",
+      "relevant": "Robotaxi 被视为物理 AI 的首个商业化突破，4000 亿美元的市场预期意味着自动驾驶出行将深刻改变城市交通格局。",
+      "context": "NVIDIA 作为 AI 芯片和计算平台的核心供应商，正在将其技术从数据中心扩展到自动驾驶领域。随着多家 Robotaxi 公司进入商业化运营阶段，NVIDIA 希望通过提供全栈开放平台成为行业基础设施供应商。",
+      "source_analysis": "消息来自 NVIDIA 官方博客，属于企业自身宣传内容，市场预测数据可能偏向乐观以推广其平台。",
+      "social_impact": "若预测成真，600 万辆无人驾驶商业车辆将重塑出行行业，影响数千万司机的就业结构，并改变城市交通规划。",
+      "source_text": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is a next-level computing challenge; it means delivering the same safe, reliable performance across thousands of vehicles. Meeting those demands requires enormous amounts of compute across the robotaxi development lifecycle, from preparing and training AI models to simulating and validating driving behavior, as well as real-time processing in the vehicle. NVIDIA provides an open platform for AI training, simulation and safety validation, with libraries, software development kits, workflows and models that developers can use alongside their own technology stacks. Every major robotaxi program operating at commercial scale today is running on NVIDIA’s modular stack, spanning AI training, simulation, in-vehicle computing — or a combination of the three — to develop and deploy fleets at scale. What Is a Robotaxi Technology Stack? A robotaxi technology stack is the end-to-end set of technologies used to develop, validate and deploy autonomous vehicles (AVs) — from data and AI model training to simulation, safety validation and real-time in-vehicle computing. NVIDIA’s robotaxi and AV platform brings these capabilities together in a three-computer solution: the model training computer, simulation and validation computer, and in-vehicle computer. 1. Training Computer: NVIDIA DGX Robotaxi intelligence advances as programs turn growing volumes of fleet data into increasingly capable models. Driving models can be trained on NVIDIA DGX systems. The NVIDIA Alpamayo portfolio of open reasoning vision language action (VLA) models, simulation frameworks and physical AI datasets gives developers building blocks they can adapt to their own data, requirements and technology stacks. Its reasoning models help address long-tail AV challenges by breaking complex driving situations into smaller steps, reasoning through each one and selecting the safest trajectory. NVIDIA also provides physical AI datasets, reinforcement learning blueprints and recipes for post-training and distillation, helping developers optimize models for their target vehicles. 2. Simulation and Validation Computer: NVIDIA Omniverse and Cosmos on NVIDIA RTX PRO Robotaxi p",
+      "source_title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "source_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind 发布面向政府和企业的主动式网络防御方案",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下顶级 AI 研究机构，以 AlphaGo、AlphaFold 等突破性成果闻名"
+        },
+        {
+          "name": "主动式网络防御",
+          "explain": "不等攻击发生再应对，而是利用 AI 提前预测、识别和阻止网络攻击的防御策略"
+        }
+      ],
+      "summary": "Google DeepMind 发布了一篇关于面向政府和企业的主动式网络防御的博客文章。该方案旨在利用 AI 技术帮助政府和大型企业提前发现和应对网络安全威胁，而非被动响应。",
+      "relevant": "AI 驱动的网络攻击日益复杂，主动防御成为关键议题，DeepMind 的入局可能推动网络安全防御范式的转变。",
+      "context": "随着 AI 技术被同时用于攻击和防御，网络安全形势日趋严峻。DeepMind 作为前沿 AI 研究机构，将其能力扩展到网络安全领域，面向政府和企业的关键基础设施提供保护方案。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属于企业官方发布，可能侧重展示其技术能力和社会责任感。",
+      "social_impact": "政府和企业的网络安全关乎关键基础设施和公民数据安全，AI 主动防御方案若有效推广，可显著降低大规模网络攻击的风险。",
+      "source_text": "Proactive cyber defense for governments and enterprises Defenders wanting to use advanced AI have faced a difficult dilemma: adopt enormous frontier models that could be expensive to deploy and difficult to control across enterprise codebases, or turn to smaller open-weight models that might struggle with complex vulnerability remediation and require teams to build their own tooling and infrastructure from scratch. Until now. Today, we’re launching our Fairwind Program to bring the best of Google’s AI and cyber defense capabilities to a trusted group of Google Cloud customers, government agencies, and cybersecurity partners, to help them proactively solve cyber risks at scale. As a first step, the Fairwind Program will give defenders access to powerful and advanced Gemini models to help them autonomously find and fix vulnerabilities, protecting critical infrastructure, public services, and national security. Finding and autonomously fixing vulnerabilities The Fairwind Program offerings bring together our most advanced cyber model, Gemini 3.8 Flash Cyber, with our CodeMender harness, to help defenders find, verify, and fix vulnerabilities at agentic scale. Spotting weaknesses creates awareness and fear; autonomously finding and fixing vulnerabilities delivers security. CodeMender with Gemini 3.8 Flash Cyber delivers the specialized reasoning to write and validate code fixes, at a fraction of the operating cost of traditional frontier models. Instead of taking weeks to manually fix vulnerabilities, defenders can now generate verified, deployment-ready patches in minutes — within an organization’s secure cloud environment. Scaling frontline defense Providing early access to these powerful cyber capabilities gives trusted defenders a vital adaptation window to harden their systems before bad actors have a chance to exploit new capabilities. We’re staging initial access to government and enterprise partners most critical to society’s resilience: - Governments and national cyber authorities: Hardening public-sector networks and citizen services against targeted intrusions. - Critical infrastructure operators: Protecting essential services across healthcare, telecommunications, energy, and financial networks from operational disruption. - Core technology platforms: Securing widespread software foundations to uplift digital security for millions of downstream users at once. To ensure these powerful AI capabilities are used responsibly, participating organizations ",
+      "source_title": "Proactive cyber defense for governments and enterprises",
+      "source_url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "研究发现类型多样性是 Transformer 组合泛化能力的关键因素",
+      "entities": [
+        {
+          "name": "Transformer",
+          "explain": "当前主流 AI 大模型的基础架构，GPT、Gemini 等都基于此"
+        },
+        {
+          "name": "组合泛化",
+          "explain": "AI 将学过的知识元素重新组合以理解新表达的能力，比如学会'红苹果'和'绿香蕉'后能理解'绿苹果'"
+        },
+        {
+          "name": "COGS/SLOG",
+          "explain": "两个常用的评估 AI 语义理解能力的学术数据集"
+        },
+        {
+          "name": "Grammatical Framework",
+          "explain": "一种用于描述和生成自然语言的语法形式化工具"
+        }
+      ],
+      "summary": "该论文提出 Transformer 在结构泛化上表现差并非架构固有缺陷，而是因为训练数据中词汇类型多样性高但结构类型多样性低。研究者用 Grammatical Framework 创建了 COGS 和 SLOG 的语言多样性变体，发现类型多样性与组合泛化能力在词汇和结构测试中同等相关。",
+      "relevant": "该发现挑战了此前认为 Transformer 结构泛化天生弱于词汇泛化的观点，为改进模型训练数据设计提供了理论依据。",
+      "context": "此前研究普遍发现 Transformer 在结构泛化（如理解新句式）上比词汇泛化（如理解新单词）更难，学界多认为这是架构固有限制。该论文重新审视这一结论，指出问题出在数据集设计而非模型本身。",
+      "source_analysis": "来自 ArXiv 预印本平台，未经同行评审，但 ArXiv 是 AI 领域最主流的预印本发布渠道。",
+      "social_impact": "",
+      "source_text": "Computer Science > Computation and Language [Submitted on 11 Sep 2026] Title:Type Diversity Enables Transformers to Generalise Compositionally View PDF HTML (experimental) Abstract:Compositional generalisation has been divided into lexical and structural generalisation. Previous work has found that structural generalisation is harder than lexical for Transformers. We propose that this difference is not inherent to Transformers, but due to the high diversity of lexical types and low diversity of structural types in the specific datasets of these previous works. By type diversity we mean the number of different constructors of that type, instead of, for example, the specific word combinations that might populate the structure. To test this, we vary the amounts of type diversity of lexical and structural types in previously published datasets. We create linguistically diverse variants of the COGS and SLOG datasets using Grammatical Framework. We find that type diversity correlates with compositional generalisation equally in lexical and structural test cases, supporting our hypothesis. We note a contradiction with the proposition in previous work that compound divergence explains the difficulty in compositional generalisation tasks. We further investigate the effects of other dataset properties on compositional generalisation, such as the diversity of types other than the novel test structure, and surface properties of the logical semantics format. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to the",
+      "source_title": "Type Diversity Enables Transformers to Generalise Compositionally",
+      "source_url": "https://arxiv.org/abs/2609.13144v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "SAS：通过端到端优化上下文排序实现简单注意力稀疏化",
+      "entities": [
+        {
+          "name": "注意力稀疏化",
+          "explain": "减少 Transformer 模型中注意力计算量的技术，只让模型关注部分关键内容而非全部"
+        },
+        {
+          "name": "Top-K 选择",
+          "explain": "从所有候选中只保留得分最高的 K 个，其余丢弃"
+        },
+        {
+          "name": "SAS",
+          "explain": "Simple Attention Sparsification，本文提出的门控稀疏注意力机制"
+        },
+        {
+          "name": "上下文单元",
+          "explain": "注意力机制中可被关注的最小单位，可以是单个词（token）或词块（block）"
+        }
+      ],
+      "summary": "现有注意力稀疏化方法使用轻量选择器打分后做硬 Top-K 选择，阻断了语言建模损失的梯度，导致排序与预测效果不对齐。本文提出 SAS（简单注意力稀疏化），一种门控稀疏注意力机制，用语言建模损失端到端优化上下文排序，使有限的注意力预算分配到更有用的上下文单元上。",
+      "relevant": "注意力稀疏化是降低大模型推理成本的关键技术，SAS 的端到端优化思路有望提升稀疏化后的模型质量。",
+      "context": "Transformer 的注意力计算成本随上下文长度二次增长，稀疏化是降低推理成本的主流方案。但现有可训练方法因硬 Top-K 阻断梯度，只能蒸馏原始模型的注意力分布，而非直接优化预测效果。",
+      "source_analysis": "来自 ArXiv 预印本平台，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Computer Science > Computation and Language [Submitted on 11 Sep 2026] Title:SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking View PDF HTML (experimental) Abstract:Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods usually use a lightweight selector to score context units, followed by hard Top-K selection that blocks gradients from the language modeling loss. Consequently, these methods commonly distill layer-wise dense attention distributions. Although this encourages the selector to rank context units by dense attention weights in the original model, the ranking is not directly aligned with their impact on predictions under a fixed attention budget (i.e., the number of attended context units per query), potentially wasting the limited budget on less useful units. To address this misalignment, we propose Simple Attention Sparsification (SAS), a gated sparse attention mechanism that optimizes context ranking end-to-end with the language modeling loss. The key idea is to inject the selector's continuous scores into attention logits during training, allowing the loss to update the selector through standard backpropagation. We identify several choices crucial for this simple design to work well in practice: placing the gate inside the attention softmax in log form, using normalized softmax gates to calibrate historical context against the always-retained current block, and preserving continuous selector scores so the model learns relative priorities rather than only hard selections. To support long-sequence training, we implement a memory-efficient Triton kernel that integrates SAS into FlashAttention-style computation. Across reasoning, long-context understanding, and agentic tasks, SAS consistently outperforms trainable sparse attention baselines across attention budgets, with especially large gains under tight budgets, demonstrating more effective context ranking for downstream tasks. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (Wh",
+      "source_title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "source_url": "https://arxiv.org/abs/2609.13141v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "CanvasAnneal：用课程强化学习提升扩散语言模型的推理能力",
+      "entities": [
+        {
+          "name": "扩散语言模型（DLM）",
+          "explain": "一种借鉴图像生成中扩散模型的思路来生成文本的 AI 模型，支持并行生成而非逐字生成"
+        },
+        {
+          "name": "强化学习（RL）",
+          "explain": "通过试错和奖励信号来训练 AI 的方法，类似训狗用奖励引导行为"
+        },
+        {
+          "name": "课程学习",
+          "explain": "先学简单的再学难的，循序渐进的教学策略"
+        },
+        {
+          "name": "diffu-GRPO",
+          "explain": "将 GRPO（一种强化学习算法）应用于扩散语言模型的基线方法"
+        }
+      ],
+      "summary": "扩散语言模型在复杂推理和工具使用任务上落后于自回归模型，标准强化学习面临探索瓶颈。本文提出 CanvasAnneal 框架，在 RL 初期将强教师模型的推理轨迹注入扩散画布以引导探索，随训练推进逐步移除引导。在 MATH500、Countdown 和 Tau2 等基准上优于标准 diffu-GRPO。",
+      "relevant": "扩散语言模型是文本生成的新范式，若能通过强化学习补齐推理短板，可能挑战自回归模型的主导地位。",
+      "context": "扩散语言模型具有并行生成优势，但在推理任务上表现不佳。直接套用标准 RL 方法效果有限，因为模型难以自主探索到正确的推理路径。CanvasAnneal 借鉴课程学习思想，用教师模型引导逐步过渡到自主推理。",
+      "source_analysis": "来自 ArXiv 预印本平台，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Computer Science > Machine Learning [Submitted on 11 Sep 2026] Title:CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models View PDF HTML (experimental) Abstract:Diffusion Language Models (DLMs) offer promising parallel generation capabilities but lag behind autoregressive models in complex reasoning and tool-use tasks. While Reinforcement Learning (RL) has recently been applied to enhance DLMs, standard RL approaches suffer from an exploration bottleneck. To address this, we inject reasoning priors from a stronger teacher model to guide RL exploration. In this paper, we introduce CanvasAnneal, a curriculum-guided diffusion RL framework. During the initial RL phase, we warm-start exploration by injecting teacher-generated reasoning traces into the initial diffusion canvas. As training progresses, we gradually remove this guidance and require the model to generate more of the reasoning trajectory independently. Across mathematical reasoning and tool-use benchmarks, CanvasAnneal improves over standard diffu-GRPO on MATH500, Countdown, and Tau2 and substantially accelerates reward improvement on several tasks, while gains are task-dependent. Our results suggest that structured training-time guidance can alleviate exploration bottlenecks in diffusion RL and speed up convergence on harder tasks. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLab",
+      "source_title": "CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models",
+      "source_url": "https://arxiv.org/abs/2609.13060v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "Embodied-BenchForge：闭环智能体工作流自动构建具身智能基准测试",
+      "entities": [
+        {
+          "name": "具身智能",
+          "explain": "有物理身体的 AI，如机器人，能在真实环境中感知和行动"
+        },
+        {
+          "name": "基准测试（Benchmark）",
+          "explain": "用于评估 AI 系统能力的标准化测试集和评分标准"
+        },
+        {
+          "name": "智能体（Agent）",
+          "explain": "能自主规划和执行多步任务的 AI 系统"
+        },
+        {
+          "name": "闭环基准合成",
+          "explain": "本文提出的方法，将基准构建的前向合成与后向验证修复结合成闭环"
+        }
+      ],
+      "summary": "现有具身基准构建方法仅覆盖孤立阶段或局限于预定义环境，且多步构建产生的中间产物缺乏验证，局部缺陷会传播到最终基准。本文提出 Embodied-BenchForge 智能体框架，将构建形式化为闭环基准合成，整合前向产物合成与后向验证修复，通过技能编排和产物依赖图实现自动化构建。",
+      "relevant": "具身智能是 AI 的下一个重要前沿，高质量的基准测试是推动该领域发展的基础设施，自动化构建可大幅降低人力成本。",
+      "context": "具身智能研究需要大量多样化的基准测试来评估机器人在不同环境和任务中的表现，但人工构建这些基准耗时费力。现有自动化方法要么只覆盖部分环节，要么无法保证中间产物的质量。",
+      "source_analysis": "来自 ArXiv 预印本平台，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 11 Sep 2026] Title:Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction View PDF HTML (experimental) Abstract:Agentic systems offer a promising way to automate embodied benchmark construction, but existing approaches typically cover isolated stages or remain specialized to predefined environments and task families. More importantly, multi-step construction produces dependent intermediate artifacts that are often passed downstream without artifact-specific verification, allowing local defects to propagate into the final benchmark. We present Embodied-BenchForge, an agentic framework that transforms user-specified evaluation intents into complete embodied benchmark artifacts. It formulates construction as Closed-Loop Benchmark Synthesis, integrating forward artifact synthesis with backward verification and repair. Skill-Orchestrated Artifact Synthesis composes typed and reusable skills into executable workflows, while an artifact dependency graph records intermediate outputs and their dependencies. Requirement-Guided Verification and Repair applies artifact-specific contracts throughout construction and uses provenance to trigger local re-execution or upstream rollback when verification fails. Embodied-BenchForge constructs six benchmarks covering diverse embodied scenarios in the Offline EQA Track, together with one interactive benchmark containing 220 executable tasks in the Interactive Embodied Track. Evaluations of representative MLLMs and embodied agents show that the benchmarks distinguish model capabilities in both observation-based understanding and closed-loop execution. Quality assessment and ablations validate benchmark quality and the effectiveness of verification and repair, while repair and skill-reuse analyses demonstrate efficient localized recovery and cross-benchmark reusability. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) C",
+      "source_title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+      "source_url": "https://arxiv.org/abs/2609.13082v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "研究证明良性损失景观与最坏情况计算硬度可以共存",
+      "entities": [
+        {
+          "name": "损失景观",
+          "explain": "描述 AI 模型训练时误差随参数变化的曲面，好的景观意味着容易找到最优解"
+        },
+        {
+          "name": "梯度下降",
+          "explain": "AI 训练最常用的优化方法，沿着误差下降最快的方向逐步调整参数"
+        },
+        {
+          "name": "树张量网络（TTN）",
+          "explain": "一种数学结构，可表示高维数据的层次化分解，本文用作研究模型"
+        },
+        {
+          "name": "只读一次布尔公式",
+          "explain": "一种逻辑表达式，每个变量只出现一次，用于理论计算机科学中的复杂度分析"
+        }
+      ],
+      "summary": "深度神经网络包含多项式时间可评估但梯度下降无法在多项式时间内学习的目标。本文研究树张量网络（TTN），证明其可嵌入任意只读一次布尔公式，因此包含梯度下降无法高效学习的多项式规模目标。尽管如此，研究者证明对于每个可实现目标，其损失景观都是条件良性的，每个最小范数局部最小值都是全局最小值。",
+      "relevant": "该研究从理论上解释了为什么深度网络虽然存在难以学习的目标，但在实际任务中仍能训练成功，为理解深度学习的工作机制提供了新视角。",
+      "context": "深度网络表达能力强到可以包含梯度下降无法高效学习的目标，但实际任务中它们学得很好。此前缺乏合适的理论模型来研究这一矛盾，因为现有替代模型要么没有难学目标，要么无法高效评估。",
+      "source_analysis": "来自 ArXiv 预印本平台，未经同行评审，属于理论计算机科学与机器学习的交叉研究。",
+      "social_impact": "",
+      "source_text": "Computer Science > Machine Learning [Submitted on 11 Sep 2026] Title:Benign Loss Landscapes Can Coexist with Worst-Case Hardness View PDF HTML (experimental) Abstract:Deep neural networks are expressive enough to contain worst-case targets that can be evaluated in polynomial time but cannot be learned in polynomial time by gradient descent. For practical tasks they nonetheless learn well, raising the question of what non-generic structure of real-world targets enables this. Existing surrogate models cannot pose this question because they either lack hard-to-learn targets entirely (deep linear networks) or cannot evaluate such targets efficiently (kernel methods, infinite-width limits). We study tree tensor networks (TTNs), a model class that generalizes deep linear networks and Tucker decompositions. We show they embed arbitrary read-once Boolean formulas, and thus contain polynomial-size targets that cannot be learned by gradient descent in polynomial time under the same mechanism as neural networks. Despite this, we prove that their loss landscapes are conditionally benign for every realizable target: every local minimum that is minimum-norm is global. Thus, surprisingly, bad local minima are not what distinguishes between typical and worst-case problems in TTNs. Instead, learning difficulty in TTNs can arise from high-order degenerate saddle points, which we show are caused by rank-deficiency. This is explored through a case study of the parity function, illustrating the potential for TTNs to relate landscape geometry to computational hardness. Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have emb",
+      "source_title": "Benign Loss Landscapes Can Coexist with Worst-Case Hardness",
+      "source_url": "https://arxiv.org/abs/2609.13057v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Hugging Face 推出 Benchmark Radar：AI 基准测试的活数据库与搜索引擎",
+      "entities": [
+        {
+          "name": "Hugging Face",
+          "explain": "全球最大的开源 AI 模型与数据集社区平台，类似 AI 领域的 GitHub"
+        },
+        {
+          "name": "Benchmark Radar",
+          "explain": "一个自动追踪、收录和检索 AI 评测基准的在线数据库与搜索工具"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 ChatGPT、Claude 这类能理解和生成文本的 AI 系统"
+        },
+        {
+          "name": "Benchmark",
+          "explain": "基准测试，用来衡量 AI 模型在特定任务上表现好坏的标准化考题集"
+        }
+      ],
+      "summary": "Hugging Face 发布 Benchmark Radar，一个面向 AI 基准测试的活数据库与搜索引擎。系统每日从 37 个来源（13 个直连数据源和 24 个研究工程信息流）自动发现基准论文、代码库、数据集和发布信息，并收录模型卡和技术报告中的评测提及与分数历史。目前目录包含来自 4 个基准目录的 1,283 条源记录，以及 790 条记录上的 12,916 个数值观测，帮助研究者快速定位相关评测及其设置背景。",
+      "relevant": "AI 评测领域长期存在基准分散、分数难以追溯、评测设置不透明等问题，该工具试图为模型评测建立可检索、可溯源的基础设施。",
+      "context": "随着大语言模型和 AI 智能体快速发展，基准测试数量激增，研究者难以找到相关评测、定位数据集代码或理解分数背后的实验设置，Benchmark Radar 正是为解决这一信息碎片化问题而构建。",
+      "source_analysis": "由 Hugging Face 官方发布，该平台是开源 AI 生态的核心枢纽，发布此类工具符合其聚合社区资源、推动评测透明化的定位。",
+      "social_impact": "覆盖 LLM 评测、智能体与工具使用、编程、推理、安全及领域专用评测等多个方向，有望提升 AI 评测的可复现性和可比性。",
+      "source_text": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation。Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and discovery of AI benchmarks, covering LLM evaluation, agentic and tool-use benchmarks, coding, reasoning, safety, and domain-specific evaluations. The system combines daily discovery of benchmark papers, repositories, datasets, and releases with a searchable benchmark catalog, mentions in model cards and technical reports, and score histories. It retains source identities and citations so readers can inspect candidate benchmarks and their evaluation evidence. Daily discovery draws on 37 sources: 13 direct connectors and 24 first-party research and engineering feeds. The catalog contains 1,283 source records drawn from 4 benchmark catalogs and 12,916 numeric observations on 790 records. We describe collection and retrieval, audit the full catalog, and examine benchmark saturation, adoption trends, and the limits of score comparisons. A worked example walks through a complete prior-art search, showing how to query the catalog and inspect benchmark evidence when designing a new evaluation. We release the web dashboard with a benchmark leaderboard, a Pareto frontier view of score against measured use, saturation and trend views, daily feeds, downloadable evidence, a command-line interf",
+      "source_title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 36,
+      "title": "IBM 发布 SOTA 级 Granite 时间序列模型 PatchTST-FM-r2，采用商业友好许可",
+      "entities": [
+        {
+          "name": "IBM",
+          "explain": "国际商业机器公司，老牌科技巨头，近年积极布局企业级 AI"
+        },
+        {
+          "name": "Granite",
+          "explain": "IBM 推出的系列基础模型品牌，覆盖语言、代码、时间序列等模态"
+        },
+        {
+          "name": "PatchTST-FM-r2",
+          "explain": "IBM 时间序列预测模型的新版本，PatchTST 是一种将时间序列切块处理的 Transformer 架构"
+        },
+        {
+          "name": "时间序列模型",
+          "explain": "用于分析和预测按时间排列的数据（如股价、传感器读数、销量）的 AI 模型"
+        },
+        {
+          "name": "商业友好许可",
+          "explain": "允许企业自由用于商业用途的开源许可证，不附加苛刻限制"
+        }
+      ],
+      "summary": "IBM 在 Hugging Face 博客上发布 Granite 系列的时间序列基础模型 PatchTST-FM-r2，宣称达到当前最优（SOTA）水平，并采用商业友好的开源许可。该模型面向企业级时间序列预测场景，允许商业使用，降低了企业部署 AI 预测能力的法律与成本门槛。",
+      "relevant": "时间序列预测在金融、制造、能源、零售等行业需求巨大，商业友好许可使企业可无顾虑地集成该模型。",
+      "context": "IBM 持续扩展其 Granite 基础模型家族，此前已覆盖语言和代码领域，此次将能力延伸至时间序列，瞄准企业预测分析市场。",
+      "source_analysis": "消息由 IBM Research 通过 Hugging Face 官方博客发布，属于厂商自宣性质，SOTA 声明未经第三方独立验证。",
+      "social_impact": "商业友好许可可能推动时间序列基础模型在企业中的广泛采用，加剧该细分领域与亚马逊 Chronos、谷歌 TimesFM 等模型的竞争。",
+      "source_text": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license Time-series foundation models are changing the way forecasting systems are built. Instead of training and maintaining a separate model for every dataset, users can use a pretrained model and generate forecasts zero-shot. IBM has released Granite Time Series PatchTST-FM-r2, the latest model in the Granite TSFM family (github, blog). PatchTST-FM-r2, a new version of its predecessor PatchTST-FM-r1, combines an updated architecture, a larger pretraining corpus, probabilistic forecasting, support for imputation of missing values, and strong zero-shot performance in a ~385M-parameter model. As of September 8, 2026, the model is the top performing zero-shot model released under a permissive, commercial-friendly open-source license (Apache 2.0 and OpenMDW 1.0) among replicable, zero-shot models on the GIFT-Eval leaderboard. GIFT-Eval is a comprehensive time series forecasting benchmark designed to evaluate models across diverse forecasting scenarios; the model ranks #2 overall among replicable, zero-shot models. The model weights, architecture, inference pipeline, and code needed to reproduce the benchmark results are all available. In this blog we describe the model, dive deeper into the benchmarking results and the model architecture, discuss the training data and licensing, and provide code examples illustrating how to use the model. Finally, we also highlight how the models from the Granite Time Series family can be used in streaming applications in production setting leveraging Confluent product. Ready to try it? Open Granite Time Series PatchTST-FM-r2 on Hugging Face TL;DR - General-purpose zero-shot forecasting for demand, prices, energy loads, traffic, telemetry, and other time series. - Approximately 385M parameters, context length up to 8,192, flexible forecast lengths, and probabilistic forecasts through a 99-quantile prediction head. - The model backbone is constructed from conformer blocks that combine multi-head self-attention with temporal convolution to capture long- and short-range temporal structure. - Permissively licensed model with top performance in the replicable zero-shot category of the GIFT-Eval benchmark (dual-licensed under Apache-2.0 and OpenMDW-1.0, users may select either license). - Available open weights, architecture, inference pipeline, and code to reproduce the benchmark. Strong zero-shot forecasting on GIFT-Eval A foundation model is mos",
+      "source_title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "source_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 37,
+      "title": "Hugging Face 博客讨论 AI 安全：应拒绝话题的特定子集而非整个话题",
+      "entities": [
+        {
+          "name": "AI 安全",
+          "explain": "研究如何让 AI 系统不产生有害、偏见或危险输出的领域"
+        },
+        {
+          "name": "过度拒绝",
+          "explain": "AI 因安全策略过于宽泛，把正常合理的请求也一并拒绝的现象"
+        },
+        {
+          "name": "Multiverse Computing",
+          "explain": "一家专注量子计算与 AI 结合的西班牙科技公司，该博客作者所属机构"
+        }
+      ],
+      "summary": "Hugging Face 博客发布由 Multiverse Computing 团队撰写的文章，探讨 AI 安全对齐中的过度拒绝问题。文章主张安全机制应精准拒绝话题中的有害子集，而非将整个话题一刀切地屏蔽，从而在保障安全的同时避免误伤正常请求。",
+      "relevant": "过度拒绝是当前大模型用户体验的主要痛点之一，如何在安全与可用性之间取得平衡是行业核心议题。",
+      "context": "当前主流大模型普遍采用安全对齐训练，但粗粒度的拒绝策略导致用户提出正常问题时也频繁被拒，引发对安全机制精细度的讨论。",
+      "source_analysis": "由 Multiverse Computing 团队通过 Hugging Face 社区博客发布，属于研究观点分享，代表对现有安全对齐策略的批评性视角。",
+      "social_impact": "该讨论涉及 AI 安全策略的粒度设计，影响模型开发者如何平衡合规要求与用户体验。",
+      "source_text": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic Real deployments rarely fit the topic-level picture. The same base model may be adapted for a general assistant, an educational product, an enterprise system, or a public-sector service, and each setting needs different boundaries within the same topic. A civics tutor and a public-sector assistant can share a model yet require opposite behaviour on politics: both should answer factual questions about an election, but only one may need to refuse a request to write targeted political manipulation. A topic-level guard cannot express that split. LlamaGuard-3, for example, covers elections only as \"factually incorrect information about electoral systems and processes,\" which excludes persuasion and manipulation and, at the same time, excludes the factual prompts a deployment must keep answering. Our latest paper, Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal, studies this narrower problem directly. The question is not whether an entire topic should be refused, but which subset of that topic is incompatible with a given deployment policy, and how to train and measure a model against that boundary. Narrow-boundary safety We formalise the setting as a topic universe, all political prompts in our experiments, that contains a target-harmful subset the deployment wants to refuse. The intended policy is not to refuse all of politics, but to refuse the harmful subset while continuing to answer the benign complement. The ideal behaviour is a sharp step: refuse inside the subset, answer everywhere else in the topic. The narrow-boundary setting. A deployment may need to refuse only the political prompts that ask for manipulation or targeted persuasion, while still answering other political prompts, rather than refusing all of politics. A trained model's refusal is smoother than the ideal split and can spill into benign territory near the boundary. Source: paper Figure 1. A trained model never learns that sharp step. It learns a refusal probability that only approximates the target, and cross-entropy training that raises refusal inside the harmful subset can also push refusal outward into the benign complement. So the real problem is not only raising refusal on harmful prompts, but shaping the behaviour near the boundary itself. We operationalise that boundary as pairs of prompts that share a topic anchor and differ only in intent, one that should be refused and",
+      "source_title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "CopilotKit 开源 OpenBot：给每个 AI 同事配一台独立电脑",
+      "entities": [
+        {
+          "name": "CopilotKit",
+          "explain": "一家做 AI 助手前端框架的公司，主打把 AI 能力嵌入应用界面"
+        },
+        {
+          "name": "OpenBot",
+          "explain": "CopilotKit 开源的 AI 同事项目，每个 AI 拥有独立浏览器、文件和工具权限"
+        },
+        {
+          "name": "AG-UI",
+          "explain": "一种让 AI 代理与用户界面交互的开放协议，方便接入不同代理"
+        }
+      ],
+      "summary": "CopilotKit 在 GitHub 开源 OpenBot，定位为可交付真实工作的 AI 同事。每个 AI 拥有独立电脑环境，包括真实浏览器、独立登录态、独立文件，以及用户授权的工具。所有动作在执行前先决策、执行后留记录，并支持接入任意 AG-UI 代理。",
+      "relevant": "AI 代理正从聊天助手走向能操作浏览器和文件的\"数字员工\"，权限与审计成为落地关键。",
+      "context": "此前 AI 代理多停留在对话层面，难以安全地接触真实账号和文件。OpenBot 试图用\"一人一台隔离电脑 + 事前决策事后记录\"的方式解决信任和权限问题。",
+      "source_analysis": "信息来自 GitHub Trending 榜单，属于开源社区热度信号，非媒体报道，无明确立场倾向。",
+      "social_impact": "若被广泛采用，可能推动企业以\"AI 同事\"形式分配实际工作任务，同时带来权限审计和账号安全的新需求。",
+      "source_text": "AI coworkers you can hand real work to, and actually trust with the access. Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after. copilotkit.ai/openbot · Quick start · Features · Bring your own agent · Architecture · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own. Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back. It answers with components rather than only prose, and the whole thing runs on your own machine. A template, not a product. OpenBot is meant to be cloned and made your own. There is no hosted version to sign up for, and nothing here is published as a package to depend on: every workspace in this repository is private. You take the repository, replace the example tenant package under examples/ with your own coworkers, channels and skills, and run it. Everything below describes a starting point, not a finished thing somebody operates for you. Alpha, and under active development. OpenBot is early. Expect rough edges and bugs, and expect things to move. Issues and pull requests are welcome. Runs on your machine. Everything below is written for a laptop. .env.example carries OPENBOT_SINGLE_USER=true, which admits every request as one administrator, so a fresh clone reaches the product without registering an OAuth client first. Sign-in turns that off, and is required before anybody else can reach the deployment. An agent platform that runs inside your own infrastructure. Docker Compose brings up every part of it, the data sits in your PostgreSQL, and the model is yours to choose: no model ships in the box, and an administrator supplies the credential, which is encrypted at rest and never logged. Three coworkers ship in the example package, and they are configuration rather than code: General Assistant for everyday work, Knowledge for company questions, Risk Analyst for risk and compliance. Add your own by editing agents.yaml or from /agents in the UI. Anything a Bot does to a computer, a file, an MCP server or a component goes through one gateway that decides and records it. That is the difference between an agent that can use your tools and an agent you can let near them. More at copilotkit.ai/openbot. A Bot is any endpoint speaking AG-UI, the open protocol for agent-to-user interact",
+      "source_title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 11,
+      "title": "CopilotKit OpenBot 再登 GitHub AI 项目榜",
+      "entities": [
+        {
+          "name": "CopilotKit",
+          "explain": "做 AI 助手前端框架的公司，OpenBot 是其开源项目"
+        },
+        {
+          "name": "OpenBot",
+          "explain": "给每个 AI 代理配独立浏览器、文件和工具的开源\"AI 同事\"项目"
+        }
+      ],
+      "summary": "CopilotKit 的 OpenBot 项目出现在 GitHub AI 项目列表中，内容与 Trending 榜一致：为每个 AI 同事提供独立电脑环境，含浏览器、文件和授权工具，动作事前决策、事后记录，支持任意 AG-UI 代理接入。",
+      "relevant": "同一项目在多个 GitHub 榜单出现，说明其关注度较高。",
+      "context": "OpenBot 是 CopilotKit 推出的开源项目，主打让 AI 代理安全地执行真实工作任务。此次为该项目在 GitHub AI 项目列表中的再次曝光。",
+      "source_analysis": "来自 GitHub AI 项目聚合列表，属社区热度信号，无媒体立场。",
+      "social_impact": "",
+      "source_text": "AI coworkers you can hand real work to, and actually trust with the access. Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after. copilotkit.ai/openbot · Quick start · Features · Bring your own agent · Architecture · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own. Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back. It answers with components rather than only prose, and the whole thing runs on your own machine. A template, not a product. OpenBot is meant to be cloned and made your own. There is no hosted version to sign up for, and nothing here is published as a package to depend on: every workspace in this repository is private. You take the repository, replace the example tenant package under examples/ with your own coworkers, channels and skills, and run it. Everything below describes a starting point, not a finished thing somebody operates for you. Alpha, and under active development. OpenBot is early. Expect rough edges and bugs, and expect things to move. Issues and pull requests are welcome. Runs on your machine. Everything below is written for a laptop. .env.example carries OPENBOT_SINGLE_USER=true, which admits every request as one administrator, so a fresh clone reaches the product without registering an OAuth client first. Sign-in turns that off, and is required before anybody else can reach the deployment. An agent platform that runs inside your own infrastructure. Docker Compose brings up every part of it, the data sits in your PostgreSQL, and the model is yours to choose: no model ships in the box, and an administrator supplies the credential, which is encrypted at rest and never logged. Three coworkers ship in the example package, and they are configuration rather than code: General Assistant for everyday work, Knowledge for company questions, Risk Analyst for risk and compliance. Add your own by editing agents.yaml or from /agents in the UI. Anything a Bot does to a computer, a file, an MCP server or a component goes through one gateway that decides and records it. That is the difference between an agent that can use your tools and an agent you can let near them. More at copilotkit.ai/openbot. A Bot is any endpoint speaking AG-UI, the open protocol for agent-to-user interact",
+      "source_title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "source_url": "https://github.com/CopilotKit/OpenBot",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 17,
+      "title": "agent-memory 开源：用 Markdown 给 AI 代理做长期记忆",
+      "entities": [
+        {
+          "name": "agent-memory",
+          "explain": "一个给 AI 代理提供长期记忆的开源运行时，用 Markdown 文件存记忆"
+        },
+        {
+          "name": "Claude Code",
+          "explain": "Anthropic 推出的命令行 AI 编程代理工具"
+        },
+        {
+          "name": "Codex",
+          "explain": "OpenAI 的代码生成模型/命令行代理工具"
+        }
+      ],
+      "summary": "tigerless-labs 开源 agent-memory，为 AI 代理提供长期记忆运行时。以纯 Markdown 作为记忆的唯一真实来源，支持本地排序检索，并设有一个独立的\"睡眠期\"管理图层。Claude Code 和 Codex 可共享同一份记忆存储，且无需 API key。",
+      "relevant": "AI 代理每次会话结束就\"失忆\"是当前痛点，长期记忆是代理走向实用的关键基础设施。",
+      "context": "现有 AI 代理在会话关闭后会忘记本次学到的内容，跨会话无法积累经验。agent-memory 试图用本地 Markdown 文件加检索的方式解决这一问题。",
+      "source_analysis": "来自 GitHub AI 项目列表，属开源社区项目自述，无第三方媒体立场。",
+      "social_impact": "零 API key、纯本地存储的设计降低了使用门槛，也契合对数据隐私敏感的用户需求。",
+      "source_text": "An agent that closes its session forgets everything it learned in it. agent-memory is the runtime that fixes that, for any agent — not only coding ones. Markdown files in one store are the single source of truth, the SQLite index beside them is a cache you can delete at any time, and Claude Code, Codex CLI, and anything else that can run a shell command share that store. Retrieval is local and ranked, and it answers with paths rather than pasted text — the agent opens each hit only as deep as the task needs. Writes do not wait for the agent to remember to make them: they fire at conversation boundaries. A sleep-time pass then consolidates and forgets by value, on its own clock. None of it needs an API key. Agent memory has grown along two architectural lines. One builds a retrieval engine — embeddings, a knowledge graph, a ranking pipeline — which finds the right thing, but hands the agent an opaque chunk it cannot inspect and a store it cannot migrate off. The other hands the agent a filesystem — markdown it reads directly, browsable with ls and grep — which is legible and costs nothing to run, but does not rank, and stops scaling the moment the tree outgrows a listing. agent-memory is the two of them in one store: the retrieval engine indexes a filesystem the agent can also just read. Relations live as links inside the memories, a local index ranks them, and every hit resolves to a whole markdown file on disk. Recall gains the precision of a graph and a vector search without giving up a plain directory an agent can walk — and it stays fast, because nothing in the read path calls a model or crosses a network. Recall does not paste text into your context. It answers with an L0 list — one-line abstract, file path, anchor, score — and the agent opens what it wants at the depth the task needs: mem recall \"why files instead of a database\" # L0 list, 8 entries by default mem read <name> --level outline # headings only; or abstract, or full mem context \"why files instead of a database\" # both in one call, top few expanded in full Index line → abstract → full file → raw material: each rung costs an order of magnitude more than the last, and each is a place to stop. Long files add two free rungs — the anchor that matched, and an outline computed at read time. - Three read tracks, so a miss on one is not a miss. Deterministic MEMORY.md injection at session start; BM25 recall over an FTS5 index, with a vector plugin fused in by RRF when you want one; and the plain d",
+      "source_title": "tigerless-labs/agent-memory - Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+      "source_url": "https://github.com/tigerless-labs/agent-memory",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 16,
+      "title": "VoiceMem 开源：为语音代理打造\"左右脑\"通用记忆架构",
+      "entities": [
+        {
+          "name": "VoiceMem",
+          "explain": "面向下一代语音代理的记忆基础设施，分左右脑分别存信息和情感"
+        },
+        {
+          "name": "ChatMem-400K",
+          "explain": "VoiceMem 配套发布的大规模对话记忆数据集"
+        },
+        {
+          "name": "全流式架构",
+          "explain": "数据边产生边处理、不等整段结束，从而降低延迟"
+        }
+      ],
+      "summary": "xzf-thu 开源 VoiceMem，定位为下一代语音代理的通用记忆基础设施。架构分为左脑和右脑，分别存储信息与情感，并采用全流式架构从底层消除延迟。项目同时发布了技术报告、模型家族和 ChatMem-400K 数据集。",
+      "relevant": "语音代理对延迟和情感理解要求极高，记忆架构是提升其自然度的关键方向。",
+      "context": "语音代理在长对话中需要记住用户信息和情绪状态，传统方案延迟高、情感处理弱。VoiceMem 用左右脑分工和流式架构来应对这两个问题。",
+      "source_analysis": "来自 GitHub AI 项目列表，附有 arXiv 技术报告和 Hugging Face 模型，属学术开源项目自述。",
+      "social_impact": "配套发布 40 万级对话记忆数据集，可能推动语音代理记忆研究的公开基准建设。",
+      "source_text": "中文 | English 项目主页 🌐 / 技术报告 📖 / VoiceMem Utils 🤗 / VoiceMem Model Families 🤗 / ChatMem-400K 🤗 我们带来 VoiceMem，为语音模型增加最后一个组件：灵魂，让它真正越来越懂你。VoiceMem 建立在「流式双脑」架构之上，提供精准、有情感、懂人格、低延迟且最便宜的记忆服务。本仓库将「永久保持全部开源」。 快速理解 VoiceMem： - 左脑： 直接管理信息，在 Top-3 限制下维持 Mem0 的满载性能。 - 右脑： 用长短期情绪归因管理「情商」，含交叉节点、与左脑信息联合维护。 - 低延迟： 通过压缩信息、分层存储、流式查询（0–300 ms 投机预取），几乎不增加延迟。 - 简单实用： 单轮查询约 300 token；架构全部解耦，全部组件（含底层记忆引擎）都可更换。 - 💬 09/01/2026 · v0.0.2 — 修复事件日期链路，移除右脑冗余记忆类别，开放可插拔语音合成层。 - 🎉 08/27/2026 · v0.0.1 — 发布初代 VoiceMem 和 Technical Report。 - 🤖 08/21/2026 — 开源 VoiceMem 模型系列，可直接读取并理解 VoiceMem 提供的记忆。 - 🛠️ 08/21/2026 — 发布 VoiceMem Utils，开箱即用。 - 📦 08/20/2026 — 开源 ChatMem-400K 数据集。 注意： 播放前需要先取消静音。 output.mov git clone https://github.com/xzf-thu/VoiceMem.git cd VoiceMem # 安装记忆系统（含 ASR / 声纹 / 场景 / 情绪 / 本地 embedding 全套内置组件） pip install voicemem # 可选：用我们微调的 Qwen 回复模型 pip install \"voicemem[slm]\"pip install -U huggingface_hub hf download zhifeixie/VoiceMem_Default_Models_Env --local-dir ./modelsfrom voicemem import VoiceMem vm = VoiceMem( mode=\"normal\", openai_key=\"api_xxx\", top_k=5, ) # 本地模型是懒加载的，先热起来，别让第一次调用去等加载 vm.warmup() # 存：音频文件 # 内部跑 ASR / 声纹 / 场景 / 情绪感知 / Embedding 抽取 print(\"入库开始\") vm.ingest(audio=\"assets/input.wav\") # 我是素食主义者，对坚果过敏。 print(\"入库结束\") # 查：写入慢是因为要抽事实、打标签、建图；查询走的是纯向量检索，跟写入无关 print(\"检索开始\") result = vm.search(\"我的饮食禁忌是什么？\") print(\"检索结束\") print(result.result_leftbrain, result.result_rightbrain) # 存：左脑信息文本（无情感） vm = VoiceMem( mode=\"leftbrain_only\", openai_key=\"api_xxx\", top_k=5, ) vm.ingest(\"我是素食主义者，对坚果过敏。\") result = vm.search(\"我的饮食禁忌是什么？\") 可以把 VoiceMem 的流式接口看作一个持续处理音频的 VAD 接口。 下面这段：先显式存一条事实，再喂一段问句音频，看记忆是怎么在人还没说完时就查好的；最后照例走一次入库判断。 import asyncio import os from pprint import pprint import numpy as np import soundfile as sf from voicemem import VoiceMem # 沿用上面那个 vm；单独跑这段就自己建一个 vm = VoiceMem(mode=\"normal\", openai_key=os.environ[\"OPENAI_API_KEY\"], top_k=5) # 本地模型是懒加载的，先热起来，别让第一块音频去等模型加载 vm.warmup() # 先存一条事实，等下那个问句才有东西可查 vm.ingest(\"我是素食主义者，对坚果过敏。\") SPEC_MIN_CHARS = 6 searching = False def on_partial(text): \"\"\"边说边出字。够长了就说明后台这一刻已经开查了。\"\"\" global searching print(f\"\\r[partial] {text}\", end=\"\", flush=True) if not searching and len(text) >= SPEC_MIN_CHARS: searching = True print(\"\\n[检索开始] 人还没说完，后台已经在查了\", flush=True) async def main(): # 这段音频里是一个问句：「我的饮食禁忌是什么？」 audio, sr = sf.read(\"assets/question.wav\", dtype=\"float32\") pcm = (np.clip(audio, -1, 1) * 32767).astype(np.int16) stream = vm.stream(src_rate=sr, vad_threshold=0.5, on_partial=on_partial) step = int(sr * .032) for i in range(0, len(pcm), step): st ",
+      "source_title": "xzf-thu/VoiceMem - Infrastructure for the next generation of voice agents, designed to provide universal memory. It is divided into a left brain and a right brain, storing information and emotions respectively, while a fully streaming architecture eliminates latency at the fundamental level.",
+      "source_url": "https://github.com/xzf-thu/VoiceMem",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 13,
+      "title": "Cumora 发布：让 AI 代理成为团队聊天中的\"一等同事\"",
+      "entities": [
+        {
+          "name": "Cumora",
+          "explain": "跨平台团队聊天工具，AI 代理与人类同在一个成员名单里"
+        },
+        {
+          "name": "Claude Code / Codex",
+          "explain": "可自带接入 Cumora 的 AI 代理\"大脑\"，也可用其云端大脑"
+        }
+      ],
+      "summary": "yetone 推出 Cumora，一款跨平台团队聊天工具，AI 代理与人类共享同一成员名单、私聊、群聊、看板和日历。代理不只是被动应答，而是拥有角色设定和记忆，能认领任务、彼此协调不冲突、收发真实邮件，可运行在 Cumora 云端或用户自己的机器上。",
+      "relevant": "把 AI 代理当作团队成员而非工具，是协作软件形态的一次尝试性转变。",
+      "context": "现有 AI 助手多以独立窗口或插件形式存在，与团队协作流程割裂。Cumora 试图让代理直接进入团队聊天和任务系统，与人类平级协作。",
+      "source_analysis": "来自 GitHub AI 项目列表，属项目方自述，无第三方媒体立场。",
+      "social_impact": "支持自带 Claude Code / Codex 大脑和本地运行，兼顾了灵活性与数据自主性。",
+      "source_text": "Where agent teams gather. cumora.ai · Web app · Desktop download · iOS beta (TestFlight) Cumora is cross-platform team chat where AI agents are first-class participants alongside humans — same roster, same DMs, same group conversations, same Kanban board and calendar. Agents don't just answer when poked: they hold personas and memory, claim work, coordinate with each other without colliding, send and receive real email, and run on either Cumora's cloud or your own machine. Join the iOS beta on TestFlight → Install Apple's TestFlight app first, then open the link on your iPhone. Android is not published yet — build it from android/. Two \"brain\" paths: - Cumora Cloud — each agent runs in a managed per-agent pod; turns run a multi-hop tool-calling loop on the OpenAI Responses API (bash, files, browser, email, memory, skills…). - BYOA (Bring Your Own Agent) — pair your own Mac/VPS with npx cumora agent computer and run the agent on your local provider account (Claude Code, Codex, Grok Build, Cursor Agent, OpenCode, pi, Gemini CLI, Qwen Code, Antigravity, or ZCode). Claude Code and Codex use fail-closed filesystem, command-network, and subprocess-credential boundaries by default; the other engines require an explicit unsandboxed compatibility opt-in. The server never sees your provider keys. Seedocs/BYOA.md . Electron / PWA / iOS / Android ┌─────────────────┐ ┌──────────────────┐ HTTP / WS │ App workers │──▶ OpenAI (Responses API) │ React UI │ ◀───────────────▶ │ Express + ws │──▶ Resend (email out) └──────────────────┘ │ (any N) │──▶ APNs / FCM (push) └───┬────────┬────┘ Cloudflare Workers │ │ kubectl ┌─────────────────┐ webhooks / R2 ┌────▼───┐ ┌──▼──────────────┐ │ email-gate │ ────────────────▶ │Postgres│ │ Agent pods (K8s)│ │ r2-gate (CDN) │ │ Redis │ │ or BYOA daemons │ └─────────────────┘ └────────┘ └─────────────────┘ - Frontend (src/ ) is pure UI: React 18 + Vite + TypeScript + Tailwind, withdesktop/ ,mobile/ ,web/ , andadmin/ shells over the same components. - Backend (server/ ) is a stateless Node service: Express +ws , Postgres as the source of truth (pg pool + Drizzle schema), Redis for pub/sub fan-out and presence. Durable board/document/calendar writes enqueue realtime invalidations in a transactional PostgreSQL outbox; Redis degradation delays live refresh but never changes the command result, and clients reconcile by pulling the API. Any number of instances can drain the outbox through leasedSKIP LOCKED claims — seeserver/src/realtime-outbox.ts",
+      "source_title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "source_url": "https://github.com/yetone/cumora",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 10,
+      "title": "Sprix SAGE Router 开源：A2A 代理网络的中途重路由方案",
+      "entities": [
+        {
+          "name": "Sprix AI",
+          "explain": "屿智同行旗下的 AI 团队，SAGE Router 是其开源研究成果"
+        },
+        {
+          "name": "A2A",
+          "explain": "Agent-to-Agent，指多个 AI 代理之间互相通信协作的网络"
+        },
+        {
+          "name": "DAG",
+          "explain": "有向无环图，用来表示任务之间的依赖和执行顺序"
+        }
+      ],
+      "summary": "Sprix AI 开源 SAGE Router，面向开放 A2A 代理网络提供检查点感知的中途重路由能力。系统在考虑已完成 DAG 节点和可复用产物后，决定进行中的任务是继续、招募协作者还是移交。项目状态为研究预览版，采用 MIT 协议。",
+      "relevant": "多代理协作中任务该由谁继续执行是核心调度问题，中途重路由是较新的切入角度。",
+      "context": "在 A2A 代理网络中，任务执行到一半时可能发现原代理不合适，需要动态决定继续、协作还是移交。SAGE Router 针对这一检查点场景提供路由决策。",
+      "source_analysis": "来自 GitHub Trending 榜，属开源研究项目自述，标注为研究预览版。",
+      "social_impact": "",
+      "source_text": "An open-source research output of Sprix AI at 屿智同行. Choose whether an in-flight task should continue, recruit collaborators, or hand off after accounting for completed DAG nodes, reusable artifacts, observed partial quality, remaining work, failures, budget, and deadline. Quick start · Algorithm · Related work · A2A integration · Operations · Benchmark · Changelog · Contributing Agent discovery tells a system which agents exist. It does not answer the harder runtime question: who should work with whom after execution has already begun? SAGE—State-Aware Graph Exchange—is the decision layer between A2A discovery and task execution. It evaluates three routes in one auditable objective: SAGE is designed to sit above the Agent2Agent (A2A) protocol. A2A provides Agent Cards, messages, tasks, artifacts, authentication, and transport. SAGE decides which feasible agent configuration should execute the task, in which mode, and why. Figure 1. SAGE filters candidates, compares all three routing modes, jointly searches assignments and schedules, ranks feasible plans, and learns from execution evidence. SAGE is deliberately narrow: checkpoint-aware reconfiguration after execution has begun. - Concrete continuation value. The router preserves completed requirements and combines in-flight completion, observed partial quality, current ownership, and artifact portability to estimate how much work each candidate must actually redo. - Comparable runtime actions. SELF, COLLABORATE, and HANDOFF share one permission-, budget-, and deadline-constrained action space. Progress-masked and static-coalition baselines receive the same registry and limits. - Requirement-conditioned evidence. Reliability is tracked per agent and requirement instead of assuming that one reputation score transfers across skills. - Trajectory-level falsification. A separate evaluator replays checkpoints and scores artifact reuse, added cost, recovery latency, wasted work, and final quality without calling SAGE's switching equation. Noisy-OR, beam search, a linear utility, Beta beliefs, online logistic regression, and DAG-induced communication edges are not claimed as inventions. They are replaceable implementation mechanisms. The repository also provides permission-first filtering, bounded candidate search, workload-sensitive quotes, auditable alternatives, degraded-route flags, state persistence, and transport-neutral A2A plans as engineering features. For task requirement (r), SAGE combines global and req",
+      "source_title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "source_url": "https://github.com/wang2122/sprix-sage-router",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 12,
+      "title": "Sprix SAGE Router 再登 GitHub AI 项目榜",
+      "entities": [
+        {
+          "name": "Sprix AI",
+          "explain": "屿智同行旗下 AI 团队，SAGE Router 的开源方"
+        },
+        {
+          "name": "A2A",
+          "explain": "Agent-to-Agent，多个 AI 代理互相通信协作的网络"
+        }
+      ],
+      "summary": "Sprix AI 的 SAGE Router 出现在 GitHub AI 项目列表中，内容与 Trending 榜一致：为开放 A2A 代理网络提供检查点感知的中途重路由，决定任务是继续、招募协作者还是移交，项目为 MIT 协议的研究预览版。",
+      "relevant": "同一项目在多个 GitHub 榜单出现，反映其受关注程度。",
+      "context": "SAGE Router 是 Sprix AI 在屿智同行发布的开源研究成果，解决多代理网络中任务中途该由谁继续执行的问题。此次为该项目在 GitHub AI 项目列表中的再次曝光。",
+      "source_analysis": "来自 GitHub AI 项目聚合列表，属社区热度信号，无媒体立场。",
+      "social_impact": "",
+      "source_text": "An open-source research output of Sprix AI at 屿智同行. Choose whether an in-flight task should continue, recruit collaborators, or hand off after accounting for completed DAG nodes, reusable artifacts, observed partial quality, remaining work, failures, budget, and deadline. Quick start · Algorithm · Related work · A2A integration · Operations · Benchmark · Changelog · Contributing Agent discovery tells a system which agents exist. It does not answer the harder runtime question: who should work with whom after execution has already begun? SAGE—State-Aware Graph Exchange—is the decision layer between A2A discovery and task execution. It evaluates three routes in one auditable objective: SAGE is designed to sit above the Agent2Agent (A2A) protocol. A2A provides Agent Cards, messages, tasks, artifacts, authentication, and transport. SAGE decides which feasible agent configuration should execute the task, in which mode, and why. Figure 1. SAGE filters candidates, compares all three routing modes, jointly searches assignments and schedules, ranks feasible plans, and learns from execution evidence. SAGE is deliberately narrow: checkpoint-aware reconfiguration after execution has begun. - Concrete continuation value. The router preserves completed requirements and combines in-flight completion, observed partial quality, current ownership, and artifact portability to estimate how much work each candidate must actually redo. - Comparable runtime actions. SELF, COLLABORATE, and HANDOFF share one permission-, budget-, and deadline-constrained action space. Progress-masked and static-coalition baselines receive the same registry and limits. - Requirement-conditioned evidence. Reliability is tracked per agent and requirement instead of assuming that one reputation score transfers across skills. - Trajectory-level falsification. A separate evaluator replays checkpoints and scores artifact reuse, added cost, recovery latency, wasted work, and final quality without calling SAGE's switching equation. Noisy-OR, beam search, a linear utility, Beta beliefs, online logistic regression, and DAG-induced communication edges are not claimed as inventions. They are replaceable implementation mechanisms. The repository also provides permission-first filtering, bounded candidate search, workload-sensitive quotes, auditable alternatives, degraded-route flags, state persistence, and transport-neutral A2A plans as engineering features. For task requirement (r), SAGE combines global and req",
+      "source_title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "source_url": "https://github.com/wang2122/sprix-sage-router",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 25,
+      "title": "技术文章：代理编排器与代理协调器不是同一层",
+      "entities": [
+        {
+          "name": "代理编排器（Orchestrator）",
+          "explain": "负责决定任务由哪个代理执行、按什么顺序执行的调度层"
+        },
+        {
+          "name": "代理协调器（Coordinator）",
+          "explain": "负责让多个代理之间沟通、避免冲突和重复工作的协作层"
+        }
+      ],
+      "summary": "Dev.to 上一篇文章指出，代理编排器和代理协调器属于不同层次，不应混为一谈。文章开篇即说明，如果只运行一个编程代理，两者都不需要。",
+      "relevant": "多代理系统设计中，编排与协调常被混淆，厘清层次有助于正确选型和架构设计。",
+      "context": "随着多代理系统增多，开发者容易把\"决定谁做什么\"和\"让代理之间不打架\"当成同一件事。文章试图区分这两个概念层次。",
+      "source_analysis": "来自 Dev.to 开发者社区的个人技术文章，属个人观点分享，非权威机构结论。",
+      "social_impact": "",
+      "source_text": "If you only ever run one coding agent, you do not need either of these. Close the tab, you are fine. For everyone else: I maintain Foremerge, and a couple of weeks ago I submitted it to a list called awesome-agent-orchestrators. That was the closest existing list, and it is still the wrong noun. Foremerge is not an orchestrator. It cannot start an agent, cannot stop one, and does not know when one is running. I submitted anyway, because there is no list for the other thing yet. The two words get used interchangeably, and reasonably so. Both mean something like \"make several agents work together.\" But they describe different layers of the stack, with different authority, different failure modes, and different reasons to exist. Here is the difference, and a one-question test for telling them apart. The test What happens if you kill it? Kill your orchestrator and the fleet stops. Sessions die, queued work never starts, nothing is spawned or resumed until you bring it back. An orchestrator sits in the control path. Kill your coordinator and every agent keeps typing. You lose the shared picture, not the work. A coordinator sits beside the control path, not in it. That single structural fact drives everything else about how the two behave. What an orchestrator does It owns the run loop. Concretely: spawning sessions, placing each one somewhere isolated (a worktree, a container, a cloud sandbox), deciding what runs next and in what order, restarting what died, routing prompts and results, and giving you one screen showing which of your fourteen sessions are alive and which are waiting on you. This is real work and it becomes its own job the moment you pass two or three agents. The ecosystem here is growing fast and includes both standalone session managers, claude-squad, dmux, amux, agent-deck and their neighbors, and in-session fan-out inside a single agent, like Claude Code's subagents or a workflow script that runs a dozen tasks in parallel. An orchestrator's authority is imperative. It can start things and stop things. Its input is tasks. Its state is sessions and processes. Its question is who is running what right now? What a coordinator does It never starts or stops anything. Its input is not tasks but declarations: before an agent edits, it states what it is about to change, in a form precise enough to check. foremerge intent publish \\ --agent \"$AGENT\" \\ --task modernize-payments \\ --summary \"Replace PaymentService with StripePaymentService\" \\ --scope 'sy",
+      "source_title": "Agent orchestrators and agent coordinators are not the same layer",
+      "source_url": "https://dev.to/naw103/agent-orchestrators-and-agent-coordinators-are-not-the-same-layer-5gek",
+      "source_name": "Dev.to",
+      "group": "community"
+    },
+    {
+      "item_id": 48,
+      "title": "AI生物武器报告引发专家分歧：是\"令人不寒而栗\"的警告还是过度反应？",
+      "entities": [
+        {
+          "name": "AI生物武器",
+          "explain": "利用人工智能技术辅助设计或制造生物武器，例如用AI预测病毒变异方向或筛选危险病原体"
+        },
+        {
+          "name": "Science",
+          "explain": "全球顶级学术期刊，由美国科学促进会出版，在科学界具有极高权威性"
+        }
+      ],
+      "summary": "一份关于AI可能被用于开发生物武器的报告在科学界引发激烈争论。部分专家认为报告发出了\"令人不寒而栗\"的警告，指出AI降低了制造生物武器的技术门槛；另一部分专家则认为报告夸大风险，属于过度反应，可能引发不必要的恐慌和过度监管。",
+      "relevant": "AI安全是当前最受关注的科技政策议题之一，生物武器风险直接关系全球公共安全，该争论将影响未来AI监管政策的走向。",
+      "context": "随着大语言模型和蛋白质结构预测工具（如AlphaFold）的能力快速提升，人们开始担忧这些技术可能被恶意用于设计危险病原体。此前多份研究报告已就AI的双用途风险发出警告，但学界对风险程度始终存在分歧。",
+      "source_analysis": "Science杂志报道，该刊为同行评审的顶级学术期刊，报道立场偏向客观呈现双方观点，但选题本身反映了主流科学界对AI生物安全风险的高度关注。",
+      "social_impact": "争论涉及全球生物安全治理方向，若监管过严可能阻碍AI在生物医药领域的正当应用，若监管不足则可能带来灾难性安全风险。",
+      "source_text": "\"Chilling\" warning or overreaction? AI bioweapons report divides experts。",
+      "source_title": "\"Chilling\" warning or overreaction? AI bioweapons report divides experts",
+      "source_url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 49,
+      "title": "开发者逆向工程Claude Web的MicroVM，揭示Anthropic隐藏的Antspace架构",
+      "entities": [
+        {
+          "name": "MicroVM",
+          "explain": "微虚拟机，一种轻量级虚拟化技术，启动速度快、资源占用少，常用于隔离运行不可信代码"
+        },
+        {
+          "name": "Anthropic",
+          "explain": "美国AI安全公司，开发了Claude系列大语言模型，强调AI安全研究"
+        },
+        {
+          "name": "Antspace",
+          "explain": "逆向工程中发现的Anthropic内部基础设施名称，推测是其用于隔离运行Claude代码的沙箱环境"
+        },
+        {
+          "name": "Claude",
+          "explain": "Anthropic开发的大语言模型AI助手，与ChatGPT竞争"
+        }
+      ],
+      "summary": "一位开发者通过逆向工程分析了Claude Web的MicroVM实现，发现了Anthropic内部代号为\"Antspace\"的隐藏基础设施。该分析揭示了Claude如何在隔离环境中安全执行用户代码，涉及沙箱架构、资源限制和安全边界等技术细节。",
+      "relevant": "对AI基础设施和安全架构感兴趣的开发者可借此了解顶级AI公司如何设计代码执行沙箱，对AI安全和云原生技术有参考价值。",
+      "context": "Claude等AI助手支持代码执行功能（如数据分析、代码运行），为防止恶意代码影响主系统，需要在隔离环境中运行。Anthropic一直未公开其沙箱实现细节，该开发者通过分析前端和网络请求逆向还原了其架构。",
+      "source_analysis": "来自个人技术博客aprilnea.me，作者为独立开发者，内容为技术逆向分析，立场中立，属于技术探索性质。",
+      "social_impact": "揭示了AI产品安全隔离机制的实现方式，可能促使其他AI公司审视自身沙箱安全性，也为安全研究者提供了参考案例。",
+      "source_text": "What's inside Claude Code Web: an unstripped Go binary, Anthropic's secret deployment platform, and the architecture of an AI-native PaaS The Starting Point We are building ArcBox, a full-stack platform from Desktop to Platform, similar to Railway and E2B in positioning. Our core philosophy is local-cloud consistency: replacing OrbStack with a fully open-source ArcBox Desktop that provides Sandbox capabilities locally. Recently, we noticed more and more Coding Agent platforms launching web-based entry points, and remarkably, nearly all of them chose Firecracker under the hood. Claude Code is no exception. As practitioners in the same space, curiosity about its runtime environment led to some digging. What began as a casual strace -p 1 turned into a full reverse-engineering session that uncovered unreleased Anthropic infrastructure, including an entirely undocumented application hosting platform. Everything described here was discovered through standard Linux tooling (strace, strings, objdump, go tool objdump) running inside a Claude Code session. No exploits, no privilege escalation, no network attacks. The binary was sitting right there, unstripped, with full debug symbols. Layer 1: It's a Firecracker MicroVM The first question: what exactly is this environment? The ACPI tables are signed with OEM ID FIRECK and creator ID FCAT, both hardcoded in Firecracker's source code. This is the same MicroVM technology that powers AWS Lambda and Fargate. The specs: 4 vCPUs (Intel Xeon Cascade Lake @ 2.80GHz), 16GB RAM, 252GB disk, Linux 6.18.5. No nested virtualization since Firecracker intentionally strips vmx/svm flags from guests. The process tree is absurdly minimal: No systemd. No sshd. No cron. No logging daemon. PID 1 is a custom binary that acts as both init and a WebSocket API gateway. The kernel command line confirms it: strace on PID 1 shows it running an epoll event loop, periodically checking /proc/*/children and /proc/*/status to monitor child processes. Essentially a minimal init supervisor, listening on port 2024 (WebSocket API) and port 2025 (secondary endpoint). The Snapshot Architecture Sessions don't boot from scratch — they're restored from frozen VM snapshots. The dmesg output reveals a 48.5-hour gap between template creation and session restore: During restore, the Firecracker host hot-swaps block devices: The initramfs is deliberately minimal: a 3.1MB cpio archive containing only /process_api. The actual Ubuntu rootfs is on the ext4 block devi",
+      "source_title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "source_url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "source_name": "Hacker News",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_4c649134a9fc",
+      "source": "ArXiv cs.AI",
+      "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+      "url": "https://arxiv.org/abs/2609.13134v1",
+      "summary": "Frontier language models are more aggressively using subquadratic attention to reduce the memory footprint and compute requirements during inference while still delivering frontier accuracy. While existing systems make dense attention-centric disaggregated serving decisions, we show that disaggregating inference around the unique arithmetic intensity and memory footprint of subquadratic attention LLMs can achieve significant throughput and energy efficiency gains on emerging DRAM-based and SRAM-only heterogeneous systems. We introduce SQD (SubQuadratic Disaggregation), a fine-grained heterogeneous disaggregation scheme that splits decode by quadratic and subquadratic attention rather than by operator type, and that applies across subquadratic attention variants. For sparse attention LLMs, we disaggregate decode into top-k selection, which must index through the full KV, and top-k attention plus FFN, which have static memory footprints. For linear and sliding-window attention LLMs, we disaggregate decode into dense attention layers and subquadratic attention layers plus FFN. In an adjusted 8xB200 heterogeneous system proxy, we observe average tokens/J improvements of 53% on GLM 5.2, 31% on Nemotron 3 Ultra, and 56% on Gemma 4 31B over the strongest GPU-only baselines. In an analytical model of a Rubin plus LPX system with fixed power budgets, we observe 1.2x to 1.5x tighter achievable latencies and up to 3.6x higher throughput over the best baseline of attention-FFN disaggrega",
+      "author": "Arya Tschand, Yaosheng Fu, Vikram Sharma Mailthody"
+    },
+    {
+      "id": "arxiv_96170204c0f2",
+      "source": "ArXiv cs.AI",
+      "title": "A Hybrid LSTM-XGBoost Framework for Multi-Horizon Stock Return Prediction Across Diversified Equity Portfolios",
+      "url": "https://arxiv.org/abs/2609.13125v1",
+      "summary": "Accurate prediction of equity returns remains a major challenge in computational finance due to the non-stationary, nonlinear, and low signal-to-noise ratio nature of financial time series. This paper proposes a hybrid two-stage architecture that combines a long short-term memory (LSTM) network with an XGBoost gradient-boosted regressor for multi-horizon stock return prediction across a diversified panel of 14 U.S. equities spanning six industry sectors. The LSTM component, comprising two stacked layers with 64 hidden units, processes 60-day sliding windows of five sequential market features to produce 64-dimensional temporal embeddings that encode learned sequential market dynamics. These embeddings are concatenated with 14 hand-crafted technical indicators to form a 78-dimensional hybrid feature vector, which is subsequently passed to an XGBoost regressor tuned via 3-fold cross-validation grid search. The framework is trained on a multi-stock pooled corpus using strict chronological splits and per-stock MinMaxScaling to prevent look-ahead bias, and evaluated across four prediction horizons of 30, 90, 252, and 365 trading days. Experimental results demonstrate that the hybrid model achieves a test RMSE of 0.0949 on the 30-day horizon, roughly one-third that of the standalone LSTM baseline, while marginally matching or surpassing the XGBoost-Only baseline across the majority of stocks. Directional accuracy rises with horizon length, reaching 97.6% at 365 days; we show, howeve",
+      "author": "Seif ElDein Mostafa, Yahia Ahmed, Farah Datwish"
+    },
+    {
+      "id": "arxiv_606188bd2d07",
+      "source": "ArXiv cs.AI",
+      "title": "CMA-OT: Hierarchical Expert Supervision for Dance-to-Music Generation",
+      "url": "https://arxiv.org/abs/2609.13118v1",
+      "summary": "Dance-to-music (D2M) generation aims to synthesize music that is rhythmically and stylistically aligned with dance videos. A key challenge arises from the semantic mismatch between sparse dance cues, such as rhythm and style, and the dense information required for music composition, including structure, instrumentation, and expressive dynamics. Existing methods typically rely on these sparse cues and supervise only the final audio output, resulting in poorly learned music representations and generated music with limited musicality and structural coherence. To address these issues, we propose Curriculum-guided Multi-scale representation Alignment with scale-aware Optimal Transport (CMA-OT), a novel paradigm that leverages an external music expert to provide hierarchical supervision for the generator's latent features, bridging the semantic gap and enhancing representation learning. To effectively incorporate hierarchical supervision, we introduce a curriculum-guided multi-scale learning strategy that progressively transfers musical knowledge from the expert to the music generator, enabling stable and effective representation learning. Moreover, to accommodate the semantic and structural variations across different expert scales and achieve fine-grained alignment under temporal mismatch, we propose a scale-aware optimal transport alignment mechanism, which models soft correspondences between hierarchical expert representations and the generator's latent features. Extensive expe",
+      "author": "Jinting Wang, Chenxing Li, Dong Yu"
+    },
+    {
+      "id": "arxiv_0720777e9678",
+      "source": "ArXiv cs.AI",
+      "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
+      "url": "https://arxiv.org/abs/2609.13083v1",
+      "summary": "In urban search and rescue, articulated tracked robots (ATRs) must traverse structured but contact-rich environments such as stairwells and cluttered building interiors. Reliable autonomy remains challenging because robot-terrain interaction (RTI) is hybrid and discontinuous, and effective flipper-track coordination is difficult to model analytically. We present ASTRIL-MPC, a language-guided neural kinematics model predictive control (MPC) framework for autonomous traversal. A learned kinematics model predicts short-horizon task-state increments from a height sequence and recent trajectories; NMPC plans with multi-objective costs and strict feasibility constraints; and a large language model (LLM) proposes bounded updates to selected weights and bounds through a safety-checked interface with range clipping, rate limiting, and consistency checks. The compiled predictor enables a full control cycle within 100 ms. Across three traversal tasks and a multi-height generalization setting, ASTRIL-MPC improves an aggregate traversal-quality score by up to 71% over a non-adaptive NMPC and by 67% over a PPO baseline, while eliminating measurable collision impacts during descent. These results indicate that combining learned kinematics, optimization-based planning, and language-guided retuning yields data-efficient and robust autonomy for articulated tracked robots.",
+      "author": "Zhenfeng Gan, Yanbo Chen, Lirong Che"
+    },
+    {
+      "id": "arxiv_1dc84d2d76eb",
+      "source": "ArXiv cs.AI",
+      "title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+      "url": "https://arxiv.org/abs/2609.13082v1",
+      "summary": "Agentic systems offer a promising way to automate embodied benchmark construction, but existing approaches typically cover isolated stages or remain specialized to predefined environments and task families. More importantly, multi-step construction produces dependent intermediate artifacts that are often passed downstream without artifact-specific verification, allowing local defects to propagate into the final benchmark. We present Embodied-BenchForge, an agentic framework that transforms user-specified evaluation intents into complete embodied benchmark artifacts. It formulates construction as Closed-Loop Benchmark Synthesis, integrating forward artifact synthesis with backward verification and repair. Skill-Orchestrated Artifact Synthesis composes typed and reusable skills into executable workflows, while an artifact dependency graph records intermediate outputs and their dependencies. Requirement-Guided Verification and Repair applies artifact-specific contracts throughout construction and uses provenance to trigger local re-execution or upstream rollback when verification fails. Embodied-BenchForge constructs six benchmarks covering diverse embodied scenarios in the Offline EQA Track, together with one interactive benchmark containing 220 executable tasks in the Interactive Embodied Track. Evaluations of representative MLLMs and embodied agents show that the benchmarks distinguish model capabilities in both observation-based understanding and closed-loop execution. Quali",
+      "author": "Baoyang Jiang, Fengchun Zhang, Leyuan Wang"
+    },
+    {
+      "id": "arxiv_661fa5e51262",
+      "source": "ArXiv cs.LG",
+      "title": "A Ranking Approach for Measuring Calibration",
+      "url": "https://arxiv.org/abs/2609.13100v1",
+      "summary": "When providing forecasted probabilities with a predictive model, the ideal model offers perfect calibration: the true probability of the outcome (i.e., the probability that $Y=1$) exactly matches the forecasted probability $f(X)$. In practice, models inevitably exhibit calibration error, and it is therefore important to be able to measure this miscalibration to assess a model's reliability. The Expected Calibration Error (ECE) is the most widely used measure of miscalibration, but is known to be impossible to estimate the ECE with guaranteed accuracy in an assumption-free setting. In this work, we propose an alternative measure, the rankECE, that is based on comparing points with neighboring values of the predicted probability $f(X)$. Our theoretical guarantees and empirical results establish that rankECE provides a better proxy for ECE as compared to binned approximations to ECE, which are the most commonly-used approximations in practice.",
+      "author": "Anirban Chatterjee, Rina Foygel Barber"
+    },
+    {
+      "id": "arxiv_b0b510a076d9",
+      "source": "ArXiv cs.LG",
+      "title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
+      "url": "https://arxiv.org/abs/2609.13073v1",
+      "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. However, while several frameworks of fully autonomous end-to-end ML research have been proposed, successful implementations of them are often limited to problems with narrow search spaces, like language modeling or biomedical ML benchmarks. In this paper, we explore how autonomous research can be adapted to solve open-ended, industry-grade ML problems, by considering a case study: telecom ticket retrieval, an open-ended task with degrees of freedom in representation, architecture, and training data generation. We discover that autonomous research for open-ended problems with commercial and open-source agents shows both promise and limitations: while autonomous research can excel in narrow hyperparameter optimization, it lacks human-like intuition and creativity and requires operational overhead. Even with minimal human supervision, autonomous research can reach $90\\%$ of state-of-the-art performance (0.34 vs. 0.38 Recall@1) in a much shorter time period (10 weeks vs. 10 months of human work) at a modest cost (up to \\$200 per Cursor campaign). Our empirical evidence recommends that human researchers and autonomous research frameworks work together for best results in ML research.",
+      "author": "Junghyun Min, Huseyin Uzunalioglu, Mohamed Trabelsi"
+    },
+    {
+      "id": "arxiv_42a798b71170",
+      "source": "ArXiv cs.LG",
+      "title": "MAxBench: A Multinomial Concept Recovery Benchmark",
+      "url": "https://arxiv.org/abs/2609.13072v1",
+      "summary": "Fine-grained control of language model behaviors (e.g., steering) is among the more actionable outcomes of interpretability research. For binary concepts such as refusal, a single direction in activation space often suffices for steering. However, many concepts are not binary: Animals and Countries contain many subcategories, each with multiple instances. For these concepts, the search space over possible representation geometries is far larger than for binary concepts; it is thus not clear what geometries are most appropriate, nor what methods are most effective at recovering them. In this work, we introduce MAxBench, a geometry-agnostic evaluation framework for multinomial concept representations based on sampling from the recovered concept representation. We use MAxBench to compare 10 localization methods (covering 5 geometry types) across 6 concepts and 4 models. Using this framework, we find that (i) affine subspaces steer more reliably and have greater recall than rank-one or linear subspaces; (ii) much of this advantage is due to better non-zero offsets rather than the choice of bases; (iii) manifold steering is competitive with the best methods when applicable; and (iv) no method consistently outperforms prompting, in alignment with prior findings on binary concepts. These findings underscore the importance of expanding the scope of interpretability research and meta-evaluation to concepts with more varied structure.",
+      "author": "Divya Appapogu, Freya Behrens, Yonatan Belinkov"
+    },
+    {
+      "id": "arxiv_90ffdbc84634",
+      "source": "ArXiv cs.LG",
+      "title": "CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2609.13060v1",
+      "summary": "Diffusion Language Models (DLMs) offer promising parallel generation capabilities but lag behind autoregressive models in complex reasoning and tool-use tasks. While Reinforcement Learning (RL) has recently been applied to enhance DLMs, standard RL approaches suffer from an exploration bottleneck. To address this, we inject reasoning priors from a stronger teacher model to guide RL exploration. In this paper, we introduce CanvasAnneal, a curriculum-guided diffusion RL framework. During the initial RL phase, we warm-start exploration by injecting teacher-generated reasoning traces into the initial diffusion canvas. As training progresses, we gradually remove this guidance and require the model to generate more of the reasoning trajectory independently. Across mathematical reasoning and tool-use benchmarks, CanvasAnneal improves over standard diffu-GRPO on MATH500, Countdown, and Tau2 and substantially accelerates reward improvement on several tasks, while gains are task-dependent. Our results suggest that structured training-time guidance can alleviate exploration bottlenecks in diffusion RL and speed up convergence on harder tasks.",
+      "author": "Blake Olson, Yuhang Song, Emmett McQuinn"
+    },
+    {
+      "id": "arxiv_24408154c387",
+      "source": "ArXiv cs.LG",
+      "title": "Benign Loss Landscapes Can Coexist with Worst-Case Hardness",
+      "url": "https://arxiv.org/abs/2609.13057v1",
+      "summary": "Deep neural networks are expressive enough to contain worst-case targets that can be evaluated in polynomial time but cannot be learned in polynomial time by gradient descent. For practical tasks they nonetheless learn well, raising the question of what non-generic structure of real-world targets enables this. Existing surrogate models cannot pose this question because they either lack hard-to-learn targets entirely (deep linear networks) or cannot evaluate such targets efficiently (kernel methods, infinite-width limits). We study tree tensor networks (TTNs), a model class that generalizes deep linear networks and Tucker decompositions. We show they embed arbitrary read-once Boolean formulas, and thus contain polynomial-size targets that cannot be learned by gradient descent in polynomial time under the same mechanism as neural networks. Despite this, we prove that their loss landscapes are conditionally benign for every realizable target: every local minimum that is minimum-norm is global. Thus, surprisingly, bad local minima are not what distinguishes between typical and worst-case problems in TTNs. Instead, learning difficulty in TTNs can arise from high-order degenerate saddle points, which we show are caused by rank-deficiency. This is explored through a case study of the parity function, illustrating the potential for TTNs to relate landscape geometry to computational hardness.",
+      "author": "Zach Furman, Stephan Wäldchen, Yangda Bei"
+    },
+    {
+      "id": "arxiv_2423801b25af",
+      "source": "ArXiv cs.CL",
+      "title": "Type Diversity Enables Transformers to Generalise Compositionally",
+      "url": "https://arxiv.org/abs/2609.13144v1",
+      "summary": "Compositional generalisation has been divided into lexical and structural generalisation. Previous work has found that structural generalisation is harder than lexical for Transformers. We propose that this difference is not inherent to Transformers, but due to the high diversity of lexical types and low diversity of structural types in the specific datasets of these previous works. By type diversity we mean the number of different constructors of that type, instead of, for example, the specific word combinations that might populate the structure. To test this, we vary the amounts of type diversity of lexical and structural types in previously published datasets. We create linguistically diverse variants of the COGS and SLOG datasets using Grammatical Framework. We find that type diversity correlates with compositional generalisation equally in lexical and structural test cases, supporting our hypothesis. We note a contradiction with the proposition in previous work that compound divergence explains the difficulty in compositional generalisation tasks. We further investigate the effects of other dataset properties on compositional generalisation, such as the diversity of types other than the novel test structure, and surface properties of the logical semantics format.",
+      "author": "Anssi Moisio, Mathias Creutz, Mikko Kurimo"
+    },
+    {
+      "id": "arxiv_11c66959878b",
+      "source": "ArXiv cs.CL",
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "url": "https://arxiv.org/abs/2609.13141v1",
+      "summary": "Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods usually use a lightweight selector to score context units, followed by hard Top-K selection that blocks gradients from the language modeling loss. Consequently, these methods commonly distill layer-wise dense attention distributions. Although this encourages the selector to rank context units by dense attention weights in the original model, the ranking is not directly aligned with their impact on predictions under a fixed attention budget (i.e., the number of attended context units per query), potentially wasting the limited budget on less useful units. To address this misalignment, we propose Simple Attention Sparsification (SAS), a gated sparse attention mechanism that optimizes context ranking end-to-end with the language modeling loss. The key idea is to inject the selector's continuous scores into attention logits during training, allowing the loss to update the selector through standard backpropagation. We identify several choices crucial for this simple design to work well in practice: placing the gate inside the attention softmax in log form, using normalized softmax gates to calibrate historical context against the always-retained current block, and preserving continuous selector scores so the model learns relative priorities rather than only hard sele",
+      "author": "Zhiwei Li, Lei Zhu, Hao Gu"
+    },
+    {
+      "id": "arxiv_2100de6ce449",
+      "source": "ArXiv cs.CL",
+      "title": "Continue, Adapt, or Yield: In-Turn Adaptation to Overlapping Speech in Full-Duplex Agents",
+      "url": "https://arxiv.org/abs/2609.13117v1",
+      "summary": "Full-duplex evaluation often emphasizes whether an agent keeps speaking or stops. That binary cannot express a third response humans use routinely: continuing to speak while incorporating what the listener just contributed. The contribution may be a missing word, a correction or a clarification. We introduce Duplex Cue, an evaluation of this \\emph{in-turn adaptation} in full-duplex voice agents. Duplex Cue separates listener intent (backchannel, collaboration, or interruption) from speaker behavior: continuing unchanged, adapting within the turn, or yielding. Adaptation includes acknowledgment as well as content revision. In a single-model case study using 300 human-confirmed cues from unscripted English conversations, we compare recorded human responses with PersonaPlex continuations generated while replaying the listener's audio. We retain 208 pairs with the ongoing speaker active at cue onset and a scorable response in each condition. On the 66 collaborative pairs, recorded speakers adapt in 68.2\\% of cases, compared with 34.8\\% for PersonaPlex. The model otherwise continues unchanged (42.4\\%) or yields (22.7\\%). These findings show why evaluating natural voice interaction requires measuring how an agent responds to a listener's contribution as well as whether it keeps speaking.",
+      "author": "Yunqi Lu, Tyler Baumgartner, Nikhil Johri"
+    },
+    {
+      "id": "arxiv_42a974c9d8db",
+      "source": "ArXiv cs.CL",
+      "title": "MP-Bench: Evaluating Voice Agents as a Multiparty Conversation Participant",
+      "url": "https://arxiv.org/abs/2609.13076v1",
+      "summary": "Conversational voice agents have advanced significantly, offering increasingly natural human-machine interactions through both cascaded and end-to-end architectures. However, while recent benchmarks extensively evaluate dyadic interactions and passive audio comprehension, they largely overlook a prevalent real-world scenario: multi-party conversations. Evaluating agents in these settings is fundamentally more challenging than in dyadic interactions due to the exponentially greater conversational complexity. For voice agents to integrate seamlessly into human group dynamics, they must not only generate contextually appropriate responses but also demonstrate a nuanced understanding of open turn-taking. To address this gap, we introduce Multiparty Bench (MP-Bench), the first benchmark specifically designed to objectively evaluate conversational speech systems as active participants within multi-party contexts. MP-Bench assesses agent behavior along two primary dimensions: turn-taking awareness and response appropriateness. Additionally, we incorporate comprehension-based question-answering tasks as a complementary evaluation. By benchmarking 12 voice agents, we find that real-time voice agents stay at or below 22% on multiparty comprehension and remain near chance on multiparty turn-taking, exposing an open challenge for real-time voice agents under multiparty scenario.",
+      "author": "Yi-Jen Shih, Shih-Yun Shan Kuan, Guan-Ting Lin"
+    },
+    {
+      "id": "arxiv_42a798b71170",
+      "source": "ArXiv cs.CL",
+      "title": "MAxBench: A Multinomial Concept Recovery Benchmark",
+      "url": "https://arxiv.org/abs/2609.13072v1",
+      "summary": "Fine-grained control of language model behaviors (e.g., steering) is among the more actionable outcomes of interpretability research. For binary concepts such as refusal, a single direction in activation space often suffices for steering. However, many concepts are not binary: Animals and Countries contain many subcategories, each with multiple instances. For these concepts, the search space over possible representation geometries is far larger than for binary concepts; it is thus not clear what geometries are most appropriate, nor what methods are most effective at recovering them. In this work, we introduce MAxBench, a geometry-agnostic evaluation framework for multinomial concept representations based on sampling from the recovered concept representation. We use MAxBench to compare 10 localization methods (covering 5 geometry types) across 6 concepts and 4 models. Using this framework, we find that (i) affine subspaces steer more reliably and have greater recall than rank-one or linear subspaces; (ii) much of this advantage is due to better non-zero offsets rather than the choice of bases; (iii) manifold steering is competitive with the best methods when applicable; and (iv) no method consistently outperforms prompting, in alignment with prior findings on binary concepts. These findings underscore the importance of expanding the scope of interpretability research and meta-evaluation to concepts with more varied structure.",
+      "author": "Divya Appapogu, Freya Behrens, Yonatan Belinkov"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and discovery of AI benchmarks, covering LLM evaluation, agentic and tool-use benchmarks, coding, reasoning, safety, and domain-specific evaluations. The system combines daily discovery of benchmark papers, repositories, datasets, and releases with a searchable benchmark catalog, mentions in model cards and technical reports, and score histories. It retains source identities and citations so readers can inspect candidate benchmarks and their evaluation evidence. Daily discovery draws on 37 sources: 13 direct connectors and 24 first-party research and engineering feeds. The catalog contains 1,283 source records drawn from 4 benchmark catalogs and 12,916 numeric observations on 790 records. We describe collection and retrieval, audit the full catalog, and examine benchmark saturation, adoption trends, and the limits of score comparisons. A worked example walks through a complete prior-art search, showing how to query the catalog and inspect benchmark evidence when designing a new evaluation. We release the web dashboard with a benchmark leaderboard, a Pareto frontier view of score against measured use, saturation and trend views, daily feeds, downloadable evidence, a command-line interf"
+    },
+    {
+      "id": "rss_2bf1d614ae6e",
+      "source": "OpenAI",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "image": ""
+    },
+    {
+      "id": "rss_ffbfdfc5efb5",
+      "source": "OpenAI",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "image": ""
+    },
+    {
+      "id": "rss_458e3e3e1b7b",
+      "source": "OpenAI",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_d63fdd1e7f4a",
+      "source": "Google DeepMind",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_e6479753b9d1",
+      "source": "量子位",
+      "title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+      "url": "https://www.qbitai.com/2026/09/488832.html",
+      "summary": "小模型突破瓶颈，旗舰模型打开新空间",
+      "image": ""
+    },
+    {
+      "id": "rss_716536349cd7",
+      "source": "量子位",
+      "title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+      "url": "https://www.qbitai.com/2026/09/488725.html",
+      "summary": "这家中国公司，刚跑完了物理闭环里最难的一段路",
+      "image": ""
+    },
+    {
+      "id": "rss_75df60c1b656",
+      "source": "量子位",
+      "title": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
+      "url": "https://www.qbitai.com/2026/09/488699.html",
+      "summary": "还是太嫩了啊Dario",
+      "image": ""
+    },
+    {
+      "id": "rss_10e79590aad0",
+      "source": "NVIDIA",
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horizon tasks from a single video demonstration. The model, launched last week, uses [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/robotics-promo-skildai-corp-blog-1600x900-one.mp4"
+    },
+    {
+      "id": "rss_3272c563ca1e",
+      "source": "NVIDIA",
+      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+      "summary": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and most complex streets. Deploying a driverless vehicle is one challenge. Scaling a fleet is [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/robotaxi-momentum-vla-chart-1680x945.jpeg"
+    },
+    {
+      "id": "rss_06b673868290",
+      "source": "NVIDIA",
+      "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+      "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+      "summary": "AI inference chipmaker d-Matrix today announced it will use NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up and Spectrum-X scale-out networking, the NVIDIA MGX rack architecture and the broader NVIDIA AI platform, NVLink Fusion gives [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_72ddfac456d5",
+      "source": "MIT科技评论AI",
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_4f1fac6b4c50",
+      "source": "MIT科技评论AI",
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/ON-contributed-image.jpg?w=840"
+    },
+    {
+      "id": "rss_d94b45032088",
+      "source": "MIT科技评论AI",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_f22daa21aa2d",
+      "source": "TechCrunch AI",
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "image": ""
+    },
+    {
+      "id": "rss_23778587316c",
+      "source": "TechCrunch AI",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "image": ""
+    },
+    {
+      "id": "rss_b74058f1e1a1",
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+      "image": ""
+    },
+    {
+      "id": "rss_7745ee8d3237",
+      "source": "HF Blog",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_20cbf4d86589",
+      "source": "HF Blog",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_d480ac80457c",
+      "source": "HF Blog",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "# ThreeUI Community\n\n> **Sponsor ThreeUI:** Linked README placements start at $500/month, with website placements from $1,500/month. [View sponsorship plans](https://threeui.com/sponsorship).\n\nThe open-source, login-free edition of ThreeUI. It uses the same application shell, layout, navigation, browse grid, search, themes, responsive behavior, component pages, live renderers, controls, variant picker, and source tabs as the main project.\n\nThe catalog is the only product-level difference: Pro and Beta components are removed. Every Community component keeps all of its free variants and controls.\n\n[Browse ThreeUI](https://threeui.com) · [View the source on GitHub](https://github.com/MengTo/threeui)\n\n![ThreeUI Community preview](assets/preview.jpg)\n\n## Sponsor ThreeUI\n\nSponsorship keeps the o",
+      "group": "community"
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_1336502227",
+      "source": "GitHub Trending",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "<div align=\"center\">\n\n# OpenBot\n\n**AI coworkers you can hand real work to, and actually trust with the access.** Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after.\n\n[**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Features**](#features) · [**Bring your own agent**](#bring-your-own-agent) · [**Architecture**](#architecture) · [**Docs**](docs/README.md)\n\n[![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml)\n[![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotK",
+      "group": "community"
+    },
+    {
+      "id": "gh_1339742577",
+      "source": "GitHub Trending",
+      "title": "amagine-ai/Amagine3D - Amagine3D: From hardware requirements to editable 3D designs",
+      "url": "https://github.com/amagine-ai/Amagine3D",
+      "summary": "<div align=\"center\">\n\n<h1>Amagine3D</h1>\n\n<p><strong>From hardware requirements to editable 3D designs</strong></p>\n\n<p>\n  Amagine3D is the open-source 3D capability layer <a href=\"https://amagine.ai\">Amagine</a> is developing for hardware creation.<br />\n  Give it a product description and reference images, add the key dimensions, and Amagine3D can design an enclosure and assembly structures around the internal components while producing source code that remains editable. STEP, STL, and 3MF files can be exported as needed.\n</p>\n\n<p>\n  <a href=\"#capabilities\">Capabilities</a> ·\n  <a href=\"#example\">Example</a> ·\n  <a href=\"#quick-start\">Quick Start</a> ·\n  <a href=\"./docs/README.zh-CN.md\">简体中文</a>\n</p>\n\n<p>\n  <img src=\"https://img.shields.io/badge/License-Apache--2.0-blue.svg\" alt=\"Apache ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1350984217",
+      "source": "GitHub Trending",
+      "title": "rakanki911/DLSS5-Swapper - Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/banner.png\" alt=\"DLSS 5 Swapper\" width=\"100%\">\n</p>\n\n<h1 align=\"center\">DLSS 5 Swapper</h1>\n\n<p align=\"center\">\n  Install and manage DLSS 5 Neural Rendering for compatible games and emulators.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases/latest\"><img src=\"https://img.shields.io/github/v/release/rakanki911/DLSS5-Swapper?color=8fd400&label=release\" alt=\"Latest release\"></a>\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases\"><img src=\"https://img.shields.io/github/downloads/rakanki911/DLSS5-Swapper/total?color=8fd400&label=downloads&cacheSeconds=300\" alt=\"Total downloads\"></a>\n  <img src=\"https://img.shields.io/badge/Windows-10%20%2F%2011-8fd400\" alt=\"Windows 10/11\">\n  <img src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_1349601607",
+      "source": "GitHub Trending",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348483831",
+      "source": "GitHub Trending",
+      "title": "crmne/fastpotify - Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "url": "https://github.com/crmne/fastpotify",
+      "summary": "# Fastpotify\n\n**Spotify, native and fast.** Fastpotify is a Spotify client written in\nRust with [egui](https://github.com/emilk/egui). It plays music through\n[librespot](https://github.com/librespot-org/librespot). It typically uses\n100–250 MB of RAM, while Spotify's desktop app often uses 600 MB to over 1 GB.\nIt runs on Linux, macOS, and Windows, starts in well under a second, and has no\nbrowser engine.\n\n**Playback needs Spotify Premium.** Free accounts can browse and search, but\ncannot play music through Fastpotify on this computer or another device.\n\n![Fastpotify Home with the playlist library, recommendations, queue, and player visible](docs/screenshot.png)\n\nSee [fastpotify.rocks](https://fastpotify.rocks/) for installation, setup,\neveryday use, and connection details.\n\n## What it does",
+      "group": "community"
+    },
+    {
+      "id": "gh_1337955304",
+      "source": "GitHub Trending",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "<div align=\"center\">\n\n# Sprix SAGE Router\n\n### Checkpoint-aware mid-execution rerouting for open A2A networks\n\n[![Tests](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml/badge.svg)](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml)\n[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Research%20Preview-D97706.svg)](#project-status)\n\n**An open-source research output of [Sprix AI](#about-sprix-ai) at 屿智同行.**\n\nChoose whether an in-flight task should **continue**, **recruit collaborators**, or **hand off** after accounting for completed DAG nodes, reusable artif",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336502227",
+      "source": "GitHub AI项目",
+      "title": "CopilotKit/OpenBot - Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "summary": "<div align=\"center\">\n\n# OpenBot\n\n**AI coworkers you can hand real work to, and actually trust with the access.** Each gets a computer of its own: a real browser with its own logins, its own files, and only the tools you grant. Every action decided before it happens and recorded after.\n\n[**copilotkit.ai/openbot**](https://copilotkit.ai/openbot) · [**Quick start**](#quick-start) · [**Features**](#features) · [**Bring your own agent**](#bring-your-own-agent) · [**Architecture**](#architecture) · [**Docs**](docs/README.md)\n\n[![CI](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/CopilotKit/openbot/actions/workflows/ci.yml)\n[![security](https://github.com/CopilotKit/openbot/actions/workflows/security_zizmor.yml/badge.svg)](https://github.com/CopilotK",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1337955304",
+      "source": "GitHub AI项目",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "<div align=\"center\">\n\n# Sprix SAGE Router\n\n### Checkpoint-aware mid-execution rerouting for open A2A networks\n\n[![Tests](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml/badge.svg)](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml)\n[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Research%20Preview-D97706.svg)](#project-status)\n\n**An open-source research output of [Sprix AI](#about-sprix-ai) at 屿智同行.**\n\nChoose whether an in-flight task should **continue**, **recruit collaborators**, or **hand off** after accounting for completed DAG nodes, reusable artif",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336933337",
+      "source": "GitHub AI项目",
+      "title": "yetone/cumora - Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "summary": "# Cumora\n\n> Where agent teams gather.\n\n[**cumora.ai**](https://cumora.ai) · [Web app](https://app.cumora.ai) · [Desktop download](https://github.com/yetone/cumora-releases/releases/latest) · [iOS beta (TestFlight)](https://testflight.apple.com/join/GtRKgPpS)\n\nCumora is cross-platform team chat where AI agents are first-class participants alongside humans — same roster, same DMs, same group conversations, same Kanban board and calendar. Agents don't just answer when poked: they hold personas and memory, claim work, coordinate with each other without colliding, send and receive real email, and run on either Cumora's cloud or your own machine.\n\n<p align=\"center\">\n  <img src=\"website/assets/product-screenshot.png\" alt=\"Cumora desktop app — a team room where AI agents and humans discuss product",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/PawWork_ZhuaZhua - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "summary": "<div align=\"center\">\n\n# 爪爪 · PawWork\n\nEnglish · [中文](README.zh-CN.md)\n\n[![license](https://img.shields.io/github/license/Player-YN/PawWork_ZhuaZhua)](LICENSE)\n[![last commit](https://img.shields.io/github/last-commit/Player-YN/PawWork_ZhuaZhua)](https://github.com/Player-YN/PawWork_ZhuaZhua/commits/main)\n[![JavaScript](https://img.shields.io/github/languages/top/Player-YN/PawWork_ZhuaZhua)](https://github.com/Player-YN/PawWork_ZhuaZhua)\n[![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white)](manifest.json)\n[![unpacked](https://img.shields.io/badge/load-unpacked-111111)](README.md#run-it)\n\nTreat the already-logged-in **[Chrome as a programmable computer](README.md#what-you-get)**. 爪爪 is the **agent** on that machine.\n\n*sidepanel → service worker → o",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1336971041",
+      "source": "GitHub AI项目",
+      "title": "xzf-thu/VoiceMem - Infrastructure for the next generation of voice agents, designed to provide universal memory. It is divided into a left brain and a right brain, storing information and emotions respectively, while a fully streaming architecture eliminates latency at the fundamental level.",
+      "url": "https://github.com/xzf-thu/VoiceMem",
+      "summary": "<a id=\"chinese\"></a>\n\n<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"VoiceMem Logo\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <strong>中文</strong> | <a href=\"#english\">English</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://xzf-thu.github.io/VoiceMem/\">项目主页 🌐</a> /\n  <a href=\"https://arxiv.org/pdf/2608.26005\">技术报告 📖</a> /\n  <a href=\"https://huggingface.co/zhifeixie/VoiceMem_Default_Models_Env\">VoiceMem Utils 🤗</a> /\n  <a href=\"https://huggingface.co/zhifeixie/VoiceMem_MF_Qwen3_6_35B_A3B_Qlora\">VoiceMem Model Families 🤗</a> /\n  <a href=\"https://huggingface.co/datasets/zhifeixie/VoiceMem-ChatMem400k\">ChatMem-400K 🤗</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"wechat.png\">\n    <img src=\"https://img.shields.io/badge/WeChat-Join%20Group-07C160?logo=wechat&logoColor=white\" alt=\"WeChat\">\n  </a>\n  ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1354059245",
+      "source": "GitHub AI项目",
+      "title": "tigerless-labs/agent-memory - Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "summary": "<div align=\"center\">\n\n### agent-memory: the long-term memory runtime for AI agents\n\n<a href=\"CLAUDE.md\">Invariants</a> · <a href=\"skills/agent-memory/SKILL.md\">Skill</a> · <a href=\"https://github.com/tigerless-labs/agent-memory/issues\">Issues</a>\n\n![](https://img.shields.io/badge/version-0.1.0-369eff?labelColor=black&style=flat-square)\n![](https://img.shields.io/badge/python-3.12+-ffcb47?labelColor=black&style=flat-square)\n![](https://img.shields.io/badge/hosts-Claude%20Code%2C%20Codex%20CLI-ff80eb?labelColor=black&style=flat-square)\n![](https://img.shields.io/badge/dependencies-zero%20API%20keys-c4f042?labelColor=black&style=flat-square)\n\n</div>\n\n***\n\nAn agent that closes its session forgets everything it learned in it. agent-memory is the\nruntime that fixes that, for any agent — not only",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1338470635",
+      "source": "GitHub AI项目",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "devto_4642467",
+      "source": "Dev.to",
+      "title": "Vibe Coding Isn't the Problem. Calling It Engineering Is",
+      "url": "https://dev.to/georgekobaidze/vibe-coding-isnt-the-problem-calling-it-engineering-is-lm1",
+      "summary": "Let's Address the Elephant in the Room Again Vibe coding has always been a weird topic to...",
+      "author": "Giorgi Kobaidze"
+    },
+    {
+      "id": "devto_4642462",
+      "source": "Dev.to",
+      "title": "I Built a Mac Menu Bar App Because I Kept Saying \"Wait, What?\" in Every Meeting (Live Demo 🚀)",
+      "url": "https://dev.to/varshithvhegde/i-built-a-mac-menu-bar-app-because-i-kept-saying-wait-what-in-every-meeting-live-demo--3gkj",
+      "summary": "Someone on a Zoom call said a URL yesterday. I was still writing down the previous bullet point. By...",
+      "author": "Varshith V Hegde"
+    },
+    {
+      "id": "devto_4617912",
+      "source": "Dev.to",
+      "title": "AI Is Already Better at Coding Than Most Software Developers",
+      "url": "https://dev.to/sylwia-lask/ai-is-already-better-at-coding-than-most-software-developers-4hno",
+      "summary": "...but let me say this right away: coding was never the most valuable part of software...",
+      "author": "Sylwia Laskowska"
+    },
+    {
+      "id": "devto_4555568",
+      "source": "Dev.to",
+      "title": "AI Avatar v20, Cursor Avatar, Notification Avatar (Voxel Avatar)🧊",
+      "url": "https://dev.to/webdeveloperhyper/ai-avatar-v20-cursor-avatar-notification-avatar-voxel-avatar-4dd2",
+      "summary": "Intro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its...",
+      "author": "Web Developer Hyper"
+    },
+    {
+      "id": "devto_3377433",
+      "source": "Dev.to",
+      "title": "The Unexpected Truth AI Reveals about Coding",
+      "url": "https://dev.to/canro91/the-unexpected-truth-ai-reveals-about-coding-3nma",
+      "summary": "Most people glorify AI for its speed. AI spits out code faster than any of us, with just a few magic...",
+      "author": "Cesar Aguirre"
+    },
+    {
+      "id": "devto_4643514",
+      "source": "Dev.to",
+      "title": "Shift Left Code Review: How Qodo Turns Your Coding Agent Into Its Own First Reviewer",
+      "url": "https://dev.to/dev_kiran/shift-left-code-review-how-qodo-turns-your-coding-agent-into-its-own-first-reviewer-58fc",
+      "summary": "Hello Devs 👋 I have been thinking about something that has changed quite a bit with AI coding...",
+      "author": "Kiran Naragund"
+    },
+    {
+      "id": "devto_4647108",
+      "source": "Dev.to",
+      "title": "Agent orchestrators and agent coordinators are not the same layer",
+      "url": "https://dev.to/naw103/agent-orchestrators-and-agent-coordinators-are-not-the-same-layer-5gek",
+      "summary": "If you only ever run one coding agent, you do not need either of these. Close the tab, you are...",
+      "author": "Nick Woodhead"
+    },
+    {
+      "id": "devto_4628495",
+      "source": "Dev.to",
+      "title": "🔁 Pendant un hackathon data... je trouve une opportunité de CDO dans ma propre entreprise 😹",
+      "url": "https://dev.to/adriens/pendant-un-hackathon-data-je-trouve-une-opportunite-de-cdo-dans-ma-propre-entreprise-4bp9",
+      "summary": "❔Contexte Le #HackAVP - le premier hackathon dédié aux AVPs de l'OPT-NC - a été lancé...",
+      "author": "adriens"
+    },
+    {
+      "id": "oschina_ccc61e47097d",
+      "source": "开源中国",
+      "title": "Casdoor v4 发布：控制台全面重写，内置 MCP Server 与 Agent 鉴权，项目已收录进 CNCF 全景图",
+      "url": "https://www.oschina.net/news/502457",
+      "summary": "开源身份认证与访问管理平台 Casdoor 于 2026 年 9 月 1 日发布 v4.0，截至 9 月 9 日已迭代至 v4.3。此外，该项目已于 2026 年 2 月 22 日收录进 CNCF 云原生全景图，位于 Provisioning 板块的 Security & Compliance 分类。 Casdoor 由 Casbin 社区开发，采用 Go 与 React 编写，遵循 Apache 2.0 协议，目前在 GitHub..."
+    },
+    {
+      "id": "oschina_e893876365d0",
+      "source": "开源中国",
+      "title": "“豆包手机助手”消费者版本正式发布",
+      "url": "https://www.oschina.net/news/502456",
+      "summary": "打开一个装修设计图，不用截图、不用切换应用，直接对着手机问&quot;根据这个装修风格，帮我选一个一米二以内、价格不超过一千元的柜子&quot;——这是豆包手机助手消费者版正式版演示的示例场景之一。 相比5月上线的预览版，这次消费者版拉上了努比亚NaviX Ultra作为首个量产载体，9月16日开售。字节跳动的思路很清楚：预览版验证能..."
+    },
+    {
+      "id": "oschina_d5135e98901f",
+      "source": "开源中国",
+      "title": "GFlow v1.2.0 发布：Go 生态审批工作流引擎，中国式审批、AI 先审、批完自动办",
+      "url": "https://www.oschina.net/news/502454",
+      "summary": "GFlow 是什么？ GFlow 是 RuleGo 团队打造的审批工作流产品，解决每个业务系统都绕不开的问题：申请要有人审、审批要有流程、批完还要有人接着办。它把「提交申请 → 逐级审批 → 批完自动办」完整搬进系统——会签、或签、动态加签、转办、委派、签收抢单、退回撤回、超时催办，中国式审批语义一个不少；AI 审批与自动化..."
+    },
+    {
+      "id": "oschina_865fae9d35ae",
+      "source": "开源中国",
+      "title": "Mailez 1.0.0 发布：全自研引擎的自托管邮件系统正式版",
+      "url": "https://www.oschina.net/news/502453",
+      "summary": "Mailez 1.0.0 正式发布。这是一个完全自托管的邮件系统：SMTP、IMAP、POP3、ManageSieve 四大协议由自研的 Mailezine 单二进制引擎逐协议实现（Go），不拼装 Postfix/Dovecot 之类的现成组件；Webmail、管理控制台、反垃圾、日历/通讯录/云盘一体化交付，一条命令完成部署。社区版以 AGPL-3.0 开源。 1.0.0 亮点 运维自检..."
+    },
+    {
+      "id": "oschina_c10bb666fd28",
+      "source": "开源中国",
+      "title": "LinkAndroid v2.2.0 运行记录与无线设备管理增强，投屏诊断上线",
+      "url": "https://www.oschina.net/news/502450",
+      "summary": "投屏出问题不再靠猜，运行记录和无线设备也变得更顺手 LinkAndroid 是一款开源的 Android 手机连接桌面工具，支持投屏、文件管理、脚本自动化等一站式操作。v2.2.0 的三个主要改进方向很明确：让投屏失败能被诊断、让运行记录更好管、让无线设备连接更灵活。一个好工具不是不出错，而是出错时让你一眼知道为什么。 :mag..."
+    },
+    {
+      "id": "hn_comment_49691444",
+      "source": "HN讨论",
+      "title": "petcat 在「Open-Source AI and Open Models Reading L」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690260",
+      "summary": "&gt; Open-Source AI There are no open source AI models, at least not useful ones (yet [1]). Open weight is not the same as open source. &quot;Open weight&quot; models are still just inscrutable binary blobs that you can (theoretically) run on your own computer instead of through a SAAS web app. The open weight model labs don&#x27;t even provide a high level catalog or any description whatsoever about what went into the training data. This is not open source and we should stop conflating the two things. [1]  https:&#x2F;&#x2F;allenai.org&#x2F;",
+      "author": "petcat"
+    },
+    {
+      "id": "hn_comment_49690877",
+      "source": "HN讨论",
+      "title": "brcmthrowaway 在「Open-Source AI and Open Models Reading L」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690260",
+      "summary": "How about learning the internals of LLMs, is Sebastian Raschka&#x27;s content still the best in 2026?",
+      "author": "brcmthrowaway"
+    },
+    {
+      "id": "hn_comment_49692494",
+      "source": "HN讨论",
+      "title": "Daiz 在「The case against JPEG XL」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690554",
+      "summary": "A potentially major issue I have with AVIF is that because it is based on a video format, any hardware decoding support AVIF will get is likely to be restrained to common video scenarios. This can result in eg. only 4:2:0 YUV being supported by hardware decoders, as that&#x27;s the upper limit of AV1 Main Profile (and thus the limit of AVIF Baseline Profile). And 4:2:0 is just a poor fit for certain categories of images (like various kinds of illustrations, screenshots, etc). I would not be very happy about a web where lossy 4:4:4 image compression would be heavily discouraged with modern formats. Also, good lossless compression absolutely does matter for the web as well. Lossy images just cannot be used in all circumstances - like when comparing compression quality (especially of videos), for example!",
+      "author": "Daiz"
+    },
+    {
+      "id": "hn_comment_49690741",
+      "source": "HN讨论",
+      "title": "Feathercrown 在「The case against JPEG XL」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690554",
+      "summary": "&quot;For non-photographic images, the argument that “they should be vector images” doesn&#x27;t hold up because many images could be vector images but aren&#x27;t, and they can&#x27;t be vectorized perfectly. “The world should be different” is not a justifiable defense against optimizing for the way the world actually is.&quot; This is a good paragraph. I see people forget to apply that last sentence all the time.",
+      "author": "Feathercrown"
+    },
+    {
+      "id": "hn_comment_49692311",
+      "source": "HN讨论",
+      "title": "SmasherEpilepti 在「The case against JPEG XL」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690554",
+      "summary": "Nobody has brought it up yet, but JPEG XL seems to be close in potential and flexibility to OpenEXR. It seems more a competitor to something like that--for use in image processing and digital art pipelines--than something like JPEG, WEBP, or PNG. That said, I have converted my personal JPEGs to JPEG XL, because you can losslessly convert back and forth between the two for smaller filesize in JPEG XL with no quality loss, so I get free storage savings and can get the byte-for-byte original JPEG back if I need it.",
+      "author": "SmasherEpilepti"
+    },
+    {
+      "id": "hn_comment_49692252",
+      "source": "HN讨论",
+      "title": "mzmzmzm 在「The case against JPEG XL」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690554",
+      "summary": "I feel like JPEG XL could be a good RAW format for mirrorless cameras... something with huge flexibility but with the perk of being easier to view casually on other devices. And then that in turn could make it a more useful web format? Camera vendors are of course notoriously proprietary&#x2F;stubborn.",
+      "author": "mzmzmzm"
+    },
+    {
+      "id": "hn_comment_49690834",
+      "source": "HN讨论",
+      "title": "nneonneo 在「The case against JPEG XL」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49690554",
+      "summary": "That JPEG XL prime computation is a pretty ugly DoS. Just selecting it in Finder, with the preview pane open, maxed out every core on my Mac inside a QuickLookSatellite that also ate 4GB of RAM while doing so - for a good 15 seconds. Not bad for a 2KB picture. It seems like Apple did not set sane limits on their JXL previewer. It is, however, an incredibly cool demo of what the format is capable of. I&#x27;m not completely sure if an image format  should  be that flexible, but I&#x27;m impressed nonetheless.",
+      "author": "nneonneo"
+    },
+    {
+      "id": "hn_comment_49692538",
+      "source": "HN讨论",
+      "title": "jeffreygoesto 在「Who Gets to Define the Rules for AI?」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49692118",
+      "summary": "The article revolves a lot around the &quot;how&quot; and &quot;why&quot; but does not really answer it&#x27;s own title.  We thought we have the answer right there: in democracies, the people delegates working out the rules to a group of elected people. The rules then are enforced by another, independent group of people. Currently this seems to be broken in (not only) the USA.",
+      "author": "jeffreygoesto"
+    },
+    {
+      "id": "hn_comment_49692358",
+      "source": "HN讨论",
+      "title": "throwworhtthrow 在「Who Gets to Define the Rules for AI?」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49692118",
+      "summary": "I believe this is a reaction to Dario Amodei&#x27;s essay yesterday, &quot;We Must Pace the Frontier&quot;:  https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49672510  Cohere&#x27;s disagreement seems mostly about who makes the rules. From the essay (which does seem significantly written by AI, sadly): &gt; The rules around AI are getting written either way. What&#x27;s still open is whether they get written by a group anyone can join and with evidence anyone can check, or by a handful of companies in a room with the door shut. Of course none of the AI companies will suggest that they should be accountable for the illegal actions taken by agents they host, but I feel like that could be a very effective &quot;pacing mechanism&quot;, and addresses the concerns brought up by  this essay about fairness and transparency.",
+      "author": "throwworhtthrow"
+    },
+    {
+      "id": "hn_comment_49692495",
+      "source": "HN讨论",
+      "title": "moktonar 在「Who Gets to Define the Rules for AI?」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49692118",
+      "summary": "Shouldn’t this be a democratic process?",
+      "author": "moktonar"
+    },
+    {
+      "id": "hn_49690678",
+      "source": "Hacker News",
+      "title": "The Malicious Use of Artificial Intelligence",
+      "url": "https://arxiv.org/abs/1802.07228",
+      "summary": ""
+    },
+    {
+      "id": "hn_49686445",
+      "source": "Hacker News",
+      "title": "Why is Google still serving dodgy ads?",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "summary": ""
+    },
+    {
+      "id": "hn_49692118",
+      "source": "Hacker News",
+      "title": "Who Gets to Define the Rules for AI?",
+      "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+      "summary": ""
+    },
+    {
+      "id": "hn_49690554",
+      "source": "Hacker News",
+      "title": "The case against JPEG XL",
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49690260",
+      "source": "Hacker News",
+      "title": "Open-Source AI and Open Models Reading List",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "summary": ""
+    },
+    {
+      "id": "hn_49645654",
+      "source": "Hacker News",
+      "title": "Show HN: EterDB, a Postgres fork that makes it easy to recover from incidents",
+      "url": "https://eterdb.com/",
+      "summary": "Hey everyone, a few months ago, after recovering from a Clade-generated bug, I was thinking to myself “wouldn’t it be nice if prod DB writes were easy to roll back”. I’ve put something together: it’s a two-container deploy plus a CLI tool. It’s far from being production ready, so please be gentle. All feedback welcome! The nitty gritty: https:&#x2F;&#x2F;eterdb.com&#x2F;tech GitHub: https:&#x2F;&#x2F;github.com&#x2F;eterdb&#x2F;eterdb"
+    },
+    {
+      "id": "hn_49690139",
+      "source": "Hacker News",
+      "title": "\"Chilling\" warning or overreaction? AI bioweapons report divides experts",
+      "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
+      "summary": ""
+    },
+    {
+      "id": "hn_49653311",
+      "source": "Hacker News",
+      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-09-14 14:00"
+}
