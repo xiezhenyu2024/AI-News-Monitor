@@ -1,0 +1,724 @@
+{
+  "key": "2026-09-15-morning",
+  "date": "2026-09-15",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 8,
+      "title": "美国太空军首次确认已在太空部署武器",
+      "entities": [
+        {
+          "name": "美国太空军",
+          "explain": "美国2019年成立的独立军种，专门负责太空领域的军事行动和防御"
+        },
+        {
+          "name": "轨道武器",
+          "explain": "部署在地球轨道上的军事装备，可用于攻击或干扰敌方卫星"
+        },
+        {
+          "name": "卫星",
+          "explain": "围绕地球运行的人造设备，用于军事通信、侦察和导航定位"
+        }
+      ],
+      "summary": "美国太空军首次公开确认华盛顿已在太空轨道部署武器。此举正值美中俄三国竞相扩展太空军事能力之际。该披露凸显各方对太空领域控制权及保护关键卫星的日益重视，这些卫星对军事通信、监视和导航至关重要。",
+      "relevant": "这是美国首次官方承认在轨部署武器，标志着太空军事化进入新阶段，可能引发大国太空军备竞赛升级。",
+      "context": "美国、中国和俄罗斯近年来持续扩展太空军事能力，太空已从探索领域转变为大国战略竞争的新战场。美国此前对在轨武器部署一直保持模糊态度，此次是首次明确承认。",
+      "source_analysis": "France24为法国国际新闻频道，报道立场偏向欧洲视角，关注大国军事扩张对全球安全格局的影响。",
+      "social_impact": "太空武器化可能破坏现有国际太空条约框架，影响全球卫星通信、导航等民用基础设施的安全预期。",
+      "source_text": "US Space Force confirms weapons deployed in space for first time The US Space Force has confirmed for the first time that Washington has weapons deployed in orbit, as the United States, China and Russia expand military capabilities in space. The disclosure highlights a growing focus on controlling the space domain and protecting satellites vital to military communications, surveillance and navigation. The United States has weapons deployed in space, the US Space Force said on Monday, confirming the presence of such capabilities in orbit for the first time. \"The US has on-orbit space control weapons capable of defending the Joint Force against hostile adversary action,\" a US Space Force spokesperson said in a statement that did not provide specifics on the weapons. \"Space control encapsulates the mission areas required to contest and control the space domain – employing kinetic and non-kinetic means to affect adversary capabilities,\" the statement said, adding that \"these capabilities can be employed for offensive and defensive purposes.\" Read more'Passengers or pilots?' Europe looks to challenge US dominance in space sector with €10 billion plan Both Russia and China – the two main geopolitical rivals of the United States – pose potential threats to US interests in space. China \"develops and operates space and counterspace capabilities as part of a military modernisation strategy,\" while Russia \"views space as a warfighting domain and believes space supremacy will be a decisive factor in future conflicts,\" according to the US Space Force. Read moreWhose space is it? Europe scrambles as US rules satellite race The militarisation of space is as old as the space race itself – as soon as Sputnik was launched into orbit in 1957, Washington and Moscow began exploring ways to both arm and destroy satellites. The biggest worry was once about nuclear weapons in space, but the superpowers and other countries signed the Outer Space Treaty in 1967, banning weapons of mass destruction in orbit. Since then, Russia, the United States, China and India have explored ways to fight in space outside of that treaty, including by targeting rivals' satellites, which are key for military communications, surveillance and navigation. (FRANCE 24 with AFP)",
+      "source_title": "US Space Force confirms weapons deployed in space for first time",
+      "source_url": "https://www.france24.com/en/americas/20260914-us-space-force-confirms-weapons-deployed-in-space-for-first-time",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "中国最高情报负责人警告AI对党的统治构成威胁",
+      "entities": [
+        {
+          "name": "AI（人工智能）",
+          "explain": "让计算机模拟人类智能行为的技术，如自动生成文字、图像和进行决策"
+        },
+        {
+          "name": "中共安全",
+          "explain": "指中国共产党对国家安全和政治稳定的掌控，包括意识形态、网络空间等领域"
+        }
+      ],
+      "summary": "尽管北京敦促美国不要夸大AI的危险，中国最高情报负责人却将AI技术定性为对共产党安全的威胁。这一表态反映出中国内部对AI潜在风险的高度警惕，尤其是在信息控制和舆论安全方面。",
+      "relevant": "中国在AI国际话语上存在内外有别的双重叙事，内部安全焦虑与对外外交表态形成鲜明对比，值得关注其政策走向。",
+      "context": "此前Anthropic CEO呼吁放缓AI开发，中国批评其言论是在针对中国。与此同时，中国情报系统内部对AI可能被用于颠覆政权、传播异议信息等风险日益担忧。",
+      "source_analysis": "纽约时报为美国主流媒体，长期关注中国政治与科技政策，报道倾向从安全与治理角度审视中国AI战略。",
+      "social_impact": "中国AI安全监管可能进一步收紧，影响国内外AI企业在华运营环境及技术发展方向。",
+      "source_text": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule。Even as Beijing urges the United States not to hype the dangers of A.I., its own spy chief is framing the technology as a threat to the Communist Party’s security.",
+      "source_title": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule",
+      "source_url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "中国批评Anthropic CEO关于AI竞争的双标言论",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "美国AI安全公司，开发了Claude大语言模型，以强调AI安全著称"
+        },
+        {
+          "name": "AI军备竞赛",
+          "explain": "各国争相开发更强大AI技术的竞争态势，类似冷战时期的军备竞赛"
+        }
+      ],
+      "summary": "中国批评Anthropic CEO关于放缓AI开发的呼吁，认为其本质是阻止中国在AI竞赛中领先。此前该CEO呼吁以安全为由放缓AI发展，但被中方解读为带有地缘政治目的的双重标准。",
+      "relevant": "AI安全话语正被卷入中美地缘竞争，技术安全议题与大国博弈深度交织，影响全球AI治理走向。",
+      "context": "Anthropic CEO此前公开呼吁放缓AI开发速度，理由是安全风险。中国认为这一呼吁实际上是想在美国保持领先的前提下限制中国发展，因而予以批评。",
+      "source_analysis": "BBC为英国公共广播机构，报道立场相对中立，侧重呈现中美双方在AI安全问题上的分歧。",
+      "social_impact": "中美在AI治理话语权上的争夺可能影响国际AI安全规则的制定方向。",
+      "source_text": "China criticises idea it is in 'malicious competition' over AI - Published China has hit out against what it has called \"threat narratives\" over AI governance and warned against \"engaging in confrontation and malicious competition\". It follows Anthropic CEO Dario Amodei's calls for a slowdown in AI development - but in a way that prevents China from pulling ahead in the AI race. Over the past week, industry insiders at the leading US artificial intelligence labs have been warning in extremely stark terms about the potential threat AI poses, with some saying it could wipe out humanity. But US President Donald Trump has said that his priority is making sure the US develops the tech faster than China. On Monday, China's foreign ministry spokesperson Guo Jiakun told reporters that \"narratives of threat, confrontation, and malicious competition serve only to disrupt the process of global AI governance and are not in anyone's interest\". \"All parties should work together to advance AI in a manner that is open, inclusive, beneficial to all, and oriented toward the good,\" he added. His comments highlight the difficulties in getting an agreement between the world's two leading AI powers. An agreement between the US and China to regulate AI development is \"next to impossible\", says Chang Jun Yan, an assistant professor with the military studies programme at Singapore's S Rajaratnam School of International Studies. \"As part of each state's core national security interests, cooperation in taking things slower and more safely in relation to AI, is very, very unlikely.\" Artificial intelligence now sits at the heart of the US-China rivalry as the world's two largest economies seek to gain an edge in advanced tech. Despite US export bans on critical chips, Chinese AI innovation has been expanding, driven by open-source technology and Beijing's backing. Many experts believe the US is still ahead, and Chinese firms are trying to catch up as they struggle to raise the hundreds of billions of dollars that investors are ploughing into American AI. But Beijing, including Chinese leader Xi Jinping himself, has also spoken about the risks posed by AI. China must \"balance development and security\", and introduce and improve relevant laws and ethical guidelines, and strengthen prevention of risks, to \"safeguard the interests of the people and national security\", state security minister Chen Yixin wrote on Sunday. He warned of the dangers of \"hostile forces\" such as foreign intellige",
+      "source_title": "China criticises idea it is in 'malicious competition' over AI",
+      "source_url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "莫斯科变身数字乌托邦与监控陷阱的双面城市",
+      "entities": [
+        {
+          "name": "数字监控",
+          "explain": "利用摄像头、人脸识别、大数据等技术对市民行为进行追踪和分析"
+        },
+        {
+          "name": "莫斯科",
+          "explain": "俄罗斯首都，近年来大规模部署智能城市技术"
+        }
+      ],
+      "summary": "纽约时报报道称，前沿技术已重塑莫斯科，使其更安全、更便利，但同时也让市民处于更严密的监控之下。数字乌托邦与监控陷阱的双重属性引发对技术治理边界的思考。",
+      "relevant": "莫斯科是全球数字监控最密集的城市之一，其模式可能被其他国家效仿，对公民隐私权构成警示。",
+      "context": "俄罗斯近年来大力推进智慧城市建设，在莫斯科部署了大量摄像头、人脸识别系统和数字服务平台，在提升城市管理效率的同时也强化了对社会的管控。",
+      "source_analysis": "纽约时报为美国主流媒体，报道倾向关注威权体制下技术对公民自由的侵蚀。",
+      "social_impact": "莫斯科的监控模式涉及数百万市民的日常隐私，为全球城市治理中安全与自由的平衡提供了争议性样本。",
+      "source_text": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap。Cutting-edge technologies have reshaped the Russian capital, making it safer, more convenient — and more closely watched.",
+      "source_title": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap",
+      "source_url": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "美媒称五角大楼在赫格塞斯领导下陷入混乱",
+      "entities": [
+        {
+          "name": "赫格塞斯",
+          "explain": "美国国防部长，即五角大楼最高文职负责人"
+        },
+        {
+          "name": "五角大楼",
+          "explain": "美国国防部所在地，代指美国军事指挥和决策核心机构"
+        },
+        {
+          "name": "拦截导弹",
+          "explain": "用于在空中击落来袭导弹的防御性武器"
+        }
+      ],
+      "summary": "据纽约时报报道，五角大楼在赫格塞斯领导下出现混乱，关键任务受到阻碍。与伊朗的战争加剧了五角大楼的问题，削弱了水兵士气并耗尽了拦截导弹库存。",
+      "relevant": "美国国防管理体系的问题可能影响其全球军事部署和盟友信心，尤其是在中东冲突持续的背景下。",
+      "context": "赫格塞斯出任美国国防部长后推行一系列改革，但据媒体报道引发内部管理混乱。同时美国与伊朗的军事冲突消耗了大量军事资源。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，转引纽约时报报道，立场倾向突出美国军事管理的负面信息。",
+      "social_impact": "拦截导弹库存耗尽可能影响美国及其盟友的防空能力，水兵士气低落或影响海军作战效能。",
+      "source_text": "NEW YORK, September 15. /TASS/. Disarray at the Pentagon under US Secretary of War Pete Hegseth is preventing senior commanders from focusing on key priorities, The New York Times reported. According to the newspaper, Hegseth’s tenure has seen an unprecedented purge of senior officers in the Pentagon’s modern history, as well as restrictions on where officers may study and what arguments they may advance in academic papers. An atmosphere of suspicion fueled by leaks from the department has also led to the widespread use of polygraph tests in an effort to identify sources disclosing internal information to the media. The war with Iran has compounded the Pentagon’s problems, undermining sailors’ morale and depleting its supply of interceptor missiles. Numerous current and former Pentagon officials described Hegseth’s turbulent tenure as a persistent distraction that has diverted senior commanders from these priorities and fueled distrust among the department’s top leadership. The newspaper also noted that Hegseth had dismissed or blocked the promotions of around 80 generals and admirals with decades of experience, leaving numerous senior Pentagon positions vacant for extended periods.",
+      "source_title": "Disarray at Pentagon under Hegseth hindering key missions — media",
+      "source_url": "https://tass.com/world/2187589",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "俄罗斯互联网论坛负责人警告网络诈骗和假新闻泛滥",
+      "entities": [
+        {
+          "name": "GFCN",
+          "explain": "俄罗斯互联网论坛，负责协调互联网治理和内容管理"
+        },
+        {
+          "name": "FSB",
+          "explain": "俄罗斯联邦安全局，前身为克格勃，负责国内安全和反间谍工作"
+        },
+        {
+          "name": "网络诈骗",
+          "explain": "通过互联网进行的欺诈行为，如冒充官方机构骗取钱财或个人信息"
+        }
+      ],
+      "summary": "GFCN负责人塔巴科夫警告称，当前网络诈骗猖獗，存在大量冒充FSB的诈骗电话。他还表示假新闻问题形势相当复杂，网络欺诈广泛存在。",
+      "relevant": "俄罗斯官方罕见承认网络诈骗和假新闻问题的严重性，反映其互联网治理面临的实际挑战。",
+      "context": "俄罗斯近年来网络诈骗案件频发，常见手法包括冒充安全部门人员致电恐吓民众转账。同时，俄乌冲突背景下假新闻传播问题更加突出。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，报道反映俄官方对网络治理问题的立场和关注重点。",
+      "social_impact": "网络诈骗和假新闻泛滥影响俄罗斯民众的财产安全和对官方信息的信任度。",
+      "source_text": "MOSCOW, September 15. /TASS/. President of the Global Fact-Checking Network (GFCN) Vladimir Tabak is warning the public to be on the alert for continued cases of cyber fraud and \"calls from the FSB.\" The situation with fake news today is \"quite complicated,\" and cyber fraud is widespread, he said in an interview with TASS ahead of the Dialogue about Fakes 4.0 forum. \"For me, even regardless of where I work, when ‘a Sberbank representative’ (a fake representative of Russia’s largest bank) connects you over the phone to ‘an FSB representative’ (a fake officer from Russia’s Federal Security Service), that is a somewhat strange situation. (This is a common scam tactic designed to gain the victim’s trust by making the call appear official - TASS) Yet a huge number of people actually fall for this. Technology is also advancing. Deepfakes, for example, are already part of the picture,\" Tabak emphasized. \"Today, 64% of people surveyed by Dialogue Regions say they know what deepfakes are. The figure stood at 59% in September 2025.\" The head of GFCN also noted that 80% of respondents overall report encountering unreliable information. \"What does this tell us? It tells us that we can focus exclusively on raising the public’s level of media literacy and building an ecosystem of trust. Beyond that, responsibility will still rest with the individual, except in situations where law enforcement agencies must step in afterward. But when users encounter a particular piece of information, responsibility essentially falls on them,\" he continued. \"This does not change the fact that we must deliver accurate information quickly and clearly. We must be able to debunk widely circulating disinformation and reach a broad audience. The state must also take responsibility for informing the public, debunking false information, providing education, and working with government agencies so they understand how to counter it. But given how widely this kind of information spreads today, the only effective defense on such a large scale is strong media literacy and, ultimately, basic critical thinking about what users read,\" Tabak concluded. About the Global Fact-Checking Network The Global Fact-Checking Network brings together experts and fact-checking organizations worldwide. The association was founded by the TASS news agency, the nonprofit organization Dialogue Regions and the New Media Workshop to combat disinformation. More than 125 journalists from 55 countries already collaborate with ",
+      "source_title": "GFCN chief warns of frequent cyber fraud, \"calls from FSB\"",
+      "source_url": "https://tass.com/society/2187579",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "集安组织秘书长称将大力借鉴现代战争经验",
+      "entities": [
+        {
+          "name": "集安组织（CSTO）",
+          "explain": "集体安全条约组织，由俄罗斯主导的军事同盟，成员包括多个前苏联国家"
+        },
+        {
+          "name": "现代战争经验",
+          "explain": "指近年冲突（如俄乌战争）中出现的无人机作战、电子战等新型作战方式"
+        }
+      ],
+      "summary": "集安组织秘书长马萨德科夫表示，该组织正系统性地借鉴现代战争经验，定期采取磋商、演习和联合行动等措施应对传统挑战和威胁。",
+      "relevant": "集安组织寻求从俄乌冲突等现代战争中吸取经验，可能提升其军事协同能力和集体防御水平。",
+      "context": "集安组织是俄罗斯主导的后苏联空间安全机制，近年来在俄乌冲突背景下寻求强化其军事合作和应对新型威胁的能力。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，报道体现俄方对集安组织军事合作方向的官方表述。",
+      "social_impact": "集安组织军事能力的提升可能影响中亚和东欧地区的安全格局。",
+      "source_text": "MOSCOW, September 15. /TASS/. The Collective Security Treaty Organization (CSTO) prioritizes equipping its forces with advanced weapons and seeks to incorporate the lessons of modern warfare into their training, CSTO Secretary General Taalatbek Masadykov wrote in an article for National Defense magazine. \"In the political sphere, we coordinate the CSTO member states’ positions on current issues and advance joint initiatives at international forums. In the military domain, we conduct exercises involving the organization’s collective forces and devote considerable attention to equipping them with advanced weapons and military hardware. In our training, we seek to draw as extensively as possible on the lessons of modern warfare,\" he said. According to Masadykov, the CSTO regularly takes measures to counter traditional challenges and threats, including consultations, exercises and joint operations. \"These operations deliver tangible results, including the arrest of offenders, the disruption of drug-trafficking routes, the seizure of weapons and the blocking of extremist websites. Biological security is one of the new areas of our joint work,\" he concluded.",
+      "source_title": "CSTO seeks to draw extensively on lessons of modern warfare — secretary general",
+      "source_url": "https://tass.com/world/2187585",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "集安组织主张恢复与欧安组织的合作",
+      "entities": [
+        {
+          "name": "欧安组织（OSCE）",
+          "explain": "欧洲安全与合作组织，涵盖北美和欧洲国家的安全对话平台，成立于冷战时期"
+        },
+        {
+          "name": "集安组织（CSTO）",
+          "explain": "俄罗斯主导的军事同盟，成员包括俄罗斯、白俄罗斯及中亚多国"
+        }
+      ],
+      "summary": "集安组织秘书长马萨德科夫表示，该组织赞成恢复与欧安组织的合作，认为欧安组织拥有可观的潜力，可用于实现其加强欧洲安全的初衷。",
+      "relevant": "在俄罗斯与西方关系紧张的背景下，集安组织释放恢复与欧安组织合作的信号，可能预示某种程度的外交缓和意愿。",
+      "context": "欧安组织曾是东西方安全对话的重要平台，但近年来因俄乌冲突而陷入僵局。集安组织此时表态支持恢复合作，或反映俄方寻求重建沟通渠道的意图。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，报道反映俄方对欧安组织角色的官方立场。",
+      "social_impact": "若合作恢复，可能为欧洲安全对话提供新的渠道，但实际进展取决于俄罗斯与西方国家关系的整体走向。",
+      "source_text": "MOSCOW, September 15. /TASS/. Cooperation between the Collective Security Treaty Organization (CSTO) and the Organization for Security and Cooperation in Europe (OSCE) should be resumed, CSTO Secretary General Taalatbek Masadykov said. \"We believe it would be worthwhile to resume cooperation with the OSCE,\" Masadykov wrote in an article for National Defense magazine. He expressed confidence that the OSCE \"has considerable potential that could be used to fulfill its original purpose of strengthening security in Europe.\" The CSTO chief recalled meeting with OSCE Secretary General Feridun Sinirlioglu in May \"after a lengthy hiatus caused by the position of several OSCE member states.\" \"My colleague’s sincere commitment to maintaining a steady dialogue between our organizations was welcome news,\" Masadykov said.",
+      "source_title": "CSTO favors resuming cooperation with OSCE",
+      "source_url": "https://tass.com/world/2187583",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "泽连斯基表示若俄罗斯停止攻击，乌克兰愿降级冲突",
+      "entities": [
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰总统，2019年上任，领导乌克兰抵抗俄罗斯入侵"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，2025年重返白宫后推动俄乌和谈"
+        },
+        {
+          "name": "能源基础设施",
+          "explain": "指发电厂、变电站、油气管道等设施，攻击这些目标会导致大面积停电和供暖中断"
+        }
+      ],
+      "summary": "乌克兰总统泽连斯基周一表示，如果莫斯科停止对乌克兰能源基础设施的攻击，基辅也准备停止对俄罗斯能源设施的打击。此前美国总统特朗普宣布双方似乎达成了某种协议。与此同时，基辅警告俄罗斯对乌克兰铁路网络的攻击每周都在加剧。",
+      "relevant": "这是俄乌冲突可能降级的重要信号，涉及特朗普斡旋下双方是否真正愿意停火，直接影响欧洲安全格局和全球能源市场。",
+      "context": "俄乌冲突已持续多年，双方互相攻击能源基础设施导致大量平民在冬季面临断电断暖。特朗普此前宣布俄乌之间似乎达成了某种协议，泽连斯基的最新表态是对此的回应。",
+      "source_analysis": "France24是法国国际新闻频道，立场偏向西方主流媒体视角，报道注重引用乌方官方表态。",
+      "social_impact": "乌克兰铁路网络是连接该国与西方的重要通道，攻击加剧可能影响西方对乌军事和人道主义援助的运输。",
+      "source_text": "Zelensky says Ukraine ready to de-escalate if Russia halts strikes Ukraine is ready to halt attacks on Russian energy infrastructure if Moscow does the same, President Volodymyr Zelensky said Monday, after US President Donald Trump announced an apparent agreement between the two sides. Kyiv also warned that intensifying Russian strikes on Ukraine’s rail network are worsening each week. President Volodymyr Zelensky said Monday that Ukraine was ready to de-escalate the war with Russia if its rival did the same, after US President Donald Trump announced that the foes had agreed to end strikes on energy targets. With international oil prices climbing again, Trump had at the weekend berated Ukraine's attacks on Russian refineries, blaming them for causing a shortage in diesel fuel. In one of his surprise social media posts, the US leader announced on Monday that \"Ukraine has agreed not to hit Russian Energy targets. Russia has agreed to do, likewise!\" Russia made no immediate comment. But in his daily address, Zelensky highlighted \"a strong proposal from the United States regarding a mutual halt to strikes on critical infrastructure\". He added: \"If this can become the first de-escalatory step – stopping Russian strikes on our critical infrastructure, and ours in response – then Ukraine is ready to support de-escalation.\" Read moreZelensky urges Trump to impose new Russia sanctions 'now', after deadly Ukraine strikes Zelensky said \"we see that the Russians are feeling pressure because of our precise responses against Russia's war economy\". He noted that \"so far no one has seen any genuine desire from Russia to move toward ending the war\". \"But if our American partners succeed in securing a real readiness from Russia to stop this war of destroying lives, and to do so sincerely and for the long term, Ukraine will make its own de-escalatory steps.\" Rail strikes get worse Trump has insisted that the Russia-Ukraine war and not the conflict with Iran, was driving up fuel costs for Americans who vote in crucial midterm elections in November. A previous push by Trump for a ceasefire has been sidelined by the US-Israeli conflict against Iran, now in its seventh month. US envoys went to Moscow and Kyiv earlier this month without announcing a breakthrough. While Ukraine has hit refineries deep inside Russia, Zelensky has stepped up calls for allies to provide more anti-missile defences as Russia intensifies its attacks. Russian strikes on Ukraine's rail network are worseni",
+      "source_title": "Zelensky says Ukraine ready to de-escalate if Russia halts strikes",
+      "source_url": "https://www.france24.com/en/europe/20260914-zelensky-says-ukraine-ready-to-de-escalate-if-russia-halts-strikes",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "沙特王储会见美军指挥官，胡塞武装袭击威胁石油市场",
+      "entities": [
+        {
+          "name": "穆罕默德·本·萨勒曼",
+          "explain": "沙特阿拉伯王储兼实际掌权者，2017年起主导沙特内政外交"
+        },
+        {
+          "name": "胡塞武装",
+          "explain": "也门的什叶派武装组织，受伊朗支持，控制也门首都萨那，与沙特领导的联军长期交战"
+        },
+        {
+          "name": "CENTCOM",
+          "explain": "美国中央司令部，负责美军在中东、中亚地区的军事行动"
+        }
+      ],
+      "summary": "沙特王储穆罕默德·本·萨勒曼上周向美国请求更多军事援助，此前伊朗支持的也门胡塞武装发动了大规模攻势。王储随后会见了美国中央司令部指挥官。胡塞武装的袭击正威胁中东石油市场和航运安全。",
+      "relevant": "沙特是全球最大石油出口国之一，胡塞武装袭击可能扰乱全球石油供应，推高油价，影响世界经济。",
+      "context": "胡塞武装自2014年控制也门首都以来与沙特联军持续冲突。近期胡塞武装发动大规模攻势，威胁沙特边境和红海航运，沙特因此向美国寻求更多军事支持。",
+      "source_analysis": "纽约时报是美国主流大报，国际报道通常引用匿名官员消息，立场偏向美国外交政策视角。",
+      "social_impact": "胡塞武装袭击已多次扰乱红海航运，全球约12%的贸易通过红海，持续冲突可能导致油价上涨和供应链中断。",
+      "source_text": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets。Crown Prince Mohammed bin Salman asked the United States for more U.S. military help last week after the Iranian-backed Houthi forces in Yemen launched a broad offensive.",
+      "source_title": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets",
+      "source_url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "非洲首富丹格特炼油厂IPO拟募资230亿美元，创非洲最大规模",
+      "entities": [
+        {
+          "name": "阿里科·丹格特",
+          "explain": "尼日利亚企业家，非洲首富，以水泥和糖业起家，净资产约350亿美元"
+        },
+        {
+          "name": "丹格特炼油厂",
+          "explain": "位于尼日利亚的巨型炼油和石化企业，是非洲最大的炼油厂，日产能65万桶"
+        },
+        {
+          "name": "IPO",
+          "explain": "首次公开募股，指公司第一次向公众发行股票上市融资"
+        }
+      ],
+      "summary": "非洲首富阿里科·丹格特的尼日利亚炼油和石化公司在尼日利亚交易所公开上市，这是非洲历史上最大规模的IPO。如果上市按计划进行，丹格特将从中获得230亿美元，其净资产将从350亿美元增至近600亿美元，增长约三分之二。",
+      "relevant": "这是非洲资本市场的历史性事件，反映非洲本土大型企业的崛起，也可能改变非洲石油产品依赖进口的格局。",
+      "context": "丹格特炼油厂历经多年建设，投资约200亿美元，旨在解决尼日利亚长期依赖进口成品油的问题。此次IPO是非洲大陆有史以来最大规模的公开募股。",
+      "source_analysis": "卫报是英国左倾大报，关注全球发展议题，报道常带有对财富集中和社会不平等的关注视角。",
+      "social_impact": "尼日利亚虽是非洲最大产油国，但长期缺乏炼油能力，成品油依赖进口。该炼油厂投产和上市可能改变西非能源格局，创造大量就业。",
+      "source_text": "The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering. If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes to plan, then Aliko Dangote will add a further $23bn (£17bn) to his $35bn net worth. Dangote, who has framed the offering as “an IPO for the people”, hopes it will draw in a broad mix of institutional and retail investors with a minimum subscription of just 10 shares at a cost of 5,250 naira (£2.94). The share purchases have a month to complete, with the process finishing on 13 October. The IPO has been marketed to young Nigerians in particular, through banking platforms and fintech ventures, as a way of building wealth and growing the economy. If completely subscribed, the refinery’s value is expected to rise to about 65.22tn naira (£36.5bn). That would be a big win for Dangote, who has financed several successful presidential campaigns in Nigeria, where policymakers have granted him a near monopoly in his chosen sectors. Responding last year to criticism of his political influence, he said: “We have chosen to build here, to employ here, to produce here. Let us not use the cry of monopoly to stall growth. No one is prevented from investing.” Dangote, 69, made his fortune in cement and sugar. He started his company in the late 1970s with a loan from his maternal grandfather, who was a member of one of west Africa’s all-time richest families, the Dantatas. His recent move into the petroleum sector led to Nigeria becoming a net exporter of refined fuel for the first time. Prior to the opening of the $20bn Dangote refinery on the outskirts of Lagos in January 2024, the country had relied on exporting crude and importing refined petroleum for domestic use, while expending billions to subsidise fuel costs and inject life into its colonial-era refineries. The Dangote refinery now has a capacity of 700,000 barrels a day and is expected to double that by the end of the decade. This year, it has benefited from disruptions in supply across the globe as a result of the war in Iran. The Brent crude benchmark touched $108 a barrel on Monday, after attacks on Saudi Arabia’s east-west pipeline. Dangote has said he will use profits from his Lagos oil refinery to spur continental growth and curb Africa’s reliance on foreign goods. His ambitious plan is to build a $100bn industrial empi",
+      "source_title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "source_url": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "俄罗斯袭击乌克兰靠近波兰边境的火车站，被视为对基辅盟友的警告",
+      "entities": [
+        {
+          "name": "乌克兰铁路网络",
+          "explain": "连接乌克兰与波兰等西方国家的重要交通线，是西方援助物资和人员进出的关键通道"
+        },
+        {
+          "name": "波兰",
+          "explain": "乌克兰西部邻国，北约成员国，是西方援助乌克兰的主要中转站"
+        }
+      ],
+      "summary": "俄罗斯对乌克兰铁路网络发动袭击，目标包括靠近波兰边境的火车站。官员表示，这是对欧洲的挑衅。乌克兰铁路网络连接该国与西方，是军事和人道主义援助的重要通道。袭击被视为对基辅盟友的警告。",
+      "relevant": "袭击靠近北约成员国波兰边境，可能引发北约与俄罗斯的直接紧张升级，同时威胁西方对乌援助的生命线。",
+      "context": "俄乌冲突中，乌克兰铁路系统一直承担着运输西方军事援助和平民疏散的关键角色。俄罗斯近期加大了对铁路网络的打击力度，此次袭击地点靠近波兰边境，具有明显的威慑意味。",
+      "source_analysis": "纽约时报是美国主流大报，报道引用乌克兰官员说法，立场偏向西方和乌克兰视角。",
+      "social_impact": "乌克兰铁路网络是该国与西方之间的生命线，袭击可能影响武器运输和平民撤离，同时加剧北约东翼国家的安全担忧。",
+      "source_text": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies。The attack on Ukraine’s rail network, which connects the country to the West, was a jab at Europe, officials said.",
+      "source_title": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies",
+      "source_url": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "以色列人权组织指控以色列在西岸系统性瓦解巴勒斯坦人存在",
+      "entities": [
+        {
+          "name": "B'Tselem",
+          "explain": "以色列知名人权组织，长期记录以色列对巴勒斯坦人的人权侵犯行为"
+        },
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦领土，自1967年以来被以色列军事占领，居住着约300万巴勒斯坦人"
+        },
+        {
+          "name": "种族清洗",
+          "explain": "指通过暴力、恐吓等手段迫使特定族群离开某地区的国际法罪行"
+        }
+      ],
+      "summary": "以色列人权组织B'Tselem周一发布报告《消除计划》，指控以色列在占领的约旦河西岸实施五项相互关联的策略：暴力、种族清洗、行动限制、经济扼杀以及社会和政治破坏，目的是使巴勒斯坦人无法作为一个民族共同生存。",
+      "relevant": "这是以色列本国人权组织对以色列政策的严厉指控，可能加剧国际社会对以色列西岸政策的批评，影响以巴和平进程。",
+      "context": "以色列自1967年占领约旦河西岸以来，持续扩建定居点，巴勒斯坦人行动自由受限。近期以色列政府中的极右翼势力推动更激进的政策，B'Tselem的报告是对这一趋势的系统性记录和定性。",
+      "source_analysis": "France24是法国国际新闻频道，报道引用了以色列本国人权组织的报告，具有一定批判性视角。",
+      "social_impact": "约旦河西岸有约300万巴勒斯坦人，报告指控的政策若持续，可能导致更大规模的人口流离失所和地区不稳定。",
+      "source_text": "Rights group accuses Israel of dismantling 'Palestinian existence' in West Bank。Israeli rights group B'Tselem said Monday that Israeli actions in the occupied West Bank form part of a greater project designed to make it impossible for Palestinians to exist together as a people. In a report titled \"The Elimination Project\", the group alleged five connected Israeli tactics and policies in the West Bank: \"violence, ethnic cleansing, movement restrictions, economic strangulation, social and political destruction\". FRANCE 24's Selina Sykes reports.",
+      "source_title": "Rights group accuses Israel of dismantling 'Palestinian existence' in West Bank",
+      "source_url": "https://www.france24.com/en/rights-group-accuses-israel-of-dismantling-palestinian-existence-in-west-bank",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "数千人抗议墨西哥贩毒集团暴力，要求结束锡那罗亚州冲突",
+      "entities": [
+        {
+          "name": "库利亚坎",
+          "explain": "墨西哥锡那罗亚州首府，锡那罗亚贩毒集团的大本营"
+        },
+        {
+          "name": "锡那罗亚贩毒集团",
+          "explain": "墨西哥最强大的贩毒组织之一，曾由大毒枭古斯曼领导，目前分裂为两个敌对派系"
+        }
+      ],
+      "summary": "数千名墨西哥民众在锡那罗亚州首府库利亚坎举行抗议，要求结束不断升级的暴力。自锡那罗亚贩毒集团两个敌对派系爆发内斗以来，该地区暴力事件激增，居民生活受到严重影响。",
+      "relevant": "锡那罗亚集团内斗导致墨西哥安全局势急剧恶化，反映墨西哥政府打击贩毒集团策略面临的挑战。",
+      "context": "锡那罗亚贩毒集团在创始人古斯曼被引渡至美国后分裂为两个派系，双方为争夺地盘和控制权爆发激烈冲突，导致库利亚坎及周边地区凶杀、绑架和失踪案件激增。",
+      "source_analysis": "BBC是英国公共广播机构，国际报道以中立和事实性著称。",
+      "social_impact": "库利亚坎居民长期生活在暴力恐惧中，学校停课、商业活动受阻，抗议反映民众对政府无力控制局势的愤怒。",
+      "source_text": "Thousands demand end to violence in Mexican cartel hotspot - Published Thousands of people have taken to the streets of Culiacán to demand an end to the violence that has wracked the city in northern Mexico. The state of Sinaloa has seen the number of murders and disappearances skyrocket since two factions of the Sinaloa cartel started a bloody war two years ago. Residents dressed in white held up posters of missing loved ones and signs reading \"We don't want fear, we want peace\" at the protest on Sunday. More than three million people live in Sinaloa and many say that the war between the two rival factions - known as Los Chapitos and La Mayiza - has blighted their lives. The march was scheduled to coincide with the second anniversary since the start of the conflict - which broke out after the arrest of wanted drug lord Ismael \"El Mayo\" Zambada in the US. His followers, La Mayiza, allege he was betrayed by the son of the infamous founder of the Sinaloa cartel, Joaquín \"El Chapo\" Guzmán, and have turned on members of his faction, Los Chapitos. The two factions regularly carry out ambushes, drive-by shootings and erect roadblocks by hijacking trucks, which they set alight. Residents of Culiacán have been caught up in this internecine war. Not only has the number of murders and disappearances shot up in the state but also those of extortions and robberies, official figures suggest. Sunday's protest was organised by relatives of victims, local businesses, civil society groups and the Catholic Church. Businessman Sergio Esquer told AFP news agency that more than 5,000 businesses had closed since the start of the feud. \"That's the tragedy Sinaloa is experiencing,\" Esquer, who is a leader in the centre-left opposition party Movimiento Ciudadano, said. The event started with a Mass in which the bishop of Culiacán called on members of the warring groups to put an end to their violence. \"Stop, look at what's happening, look at the affected families, look at the young people and at our city. No amount of power, of money, territory or ambition is worth more than a human life,\" he said. Among those who attended the protest were relatives of a one-year-old boy who died after being hit by a bullet in the head during a shootout in the city last week. As well as the wave of violence, Sinaloa state has also been hit by political upheaval in recent months. In April, US prosecutors accused the state's governor, Rubén Rocha, and nine other current and former officials of consp",
+      "source_title": "Thousands demand end to violence in Mexican cartel hotspot",
+      "source_url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "六名尼日利亚人因600万美元网络恋爱诈骗被引渡至美国",
+      "entities": [
+        {
+          "name": "黑斧",
+          "explain": "尼日利亚起源的跨国犯罪组织，涉及网络诈骗、人口贩卖和暴力犯罪，在全球有分支"
+        },
+        {
+          "name": "网络恋爱诈骗",
+          "explain": "诈骗者在交友网站伪装恋爱关系，骗取受害者钱财的犯罪手法"
+        },
+        {
+          "name": "Hawks",
+          "explain": "南非优先犯罪调查局，专门打击严重有组织犯罪的执法机构"
+        }
+      ],
+      "summary": "六名与犯罪组织黑斧有关的尼日利亚国民因涉嫌通过网络恋爱诈骗骗取美国女性超过600万美元，于周五从南非被引渡至美国。南非警方与FBI、特勤局及国际刑警组织合作，在开普敦国际机场完成了移交。",
+      "relevant": "此案显示网络恋爱诈骗已成为跨国犯罪的重要形式，也体现多国执法机构合作打击网络犯罪的力度。",
+      "context": "黑斧是起源于尼日利亚大学的犯罪兄弟会，逐渐演变为跨国犯罪网络。美国女性通过交友网站被诈骗巨额资金，美国执法机构追踪到嫌疑人藏匿在南非后启动引渡程序。",
+      "source_analysis": "卫报是英国左倾大报，报道注重犯罪和社会正义议题。",
+      "social_impact": "网络恋爱诈骗全球每年造成数十亿美元损失，此案是近年来规模较大的跨国联合执法行动之一。",
+      "source_text": "Six Nigerian nationals linked to an organized criminal network that allegedly swindled American women out of more than $6m through online romance scams were extradited to the United States on Friday. South African police confirmed they were to be extradited earlier on Friday, while local news in Africa confirmed that the Directorate for Priority Crime Investigation, known as the Hawks, facilitated their handover to officials from the US Federal Bureau of Investigation and Secret Service at Cape Town international airport, in collaboration with Interpol South Africa. The men, who were arrested in the South African city of Cape Town in 2021, face wire fraud and money laundering charges. They are accused of belonging to a criminal network known as the Black Axe, which Interpol describes as being among criminal groups responsible for a significant share of the world’s cyber-enabled financial fraud, typically through romance, cryptocurrency and investment scams. According to South African police, the men are alleged to have targeted more than 100 women in the US, defrauding them of more than $6m through online romance or love scams. Among the alleged victims were pensioners and businesspeople who were reportedly targeted through sophisticated online relationships. “Through the coordination of Interpol South Africa, the six will today be transported from a correctional facility in Cape Town to Cape Town international airport, where they will be handed over to officials from the FBI and the United States Secret Service, who arrived in South Africa this morning,” said police spokesperson Katlego Mogale. A recent operation by Interpol targeting west African organized crime groups led to the arrest of 58 people and the identification of 263 suspects linked to various criminal networks involved in similar crimes, the multinational police body said last month. The operation aimed to disrupt money laundering, identify high-value targets, seize assets, and support arrests and prosecution. In South Africa, authorities raided seven locations in the city of Johannesburg linked to a syndicate that ran romance and investment scams targeting retirees in English-speaking countries. In that operation in South Africa, police arrested 39 people, seized $2.67m and froze more than 250 bank accounts, Interpol said.",
+      "source_title": "Six Nigerians extradited to US over $6m online romance scam",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "1500万美元基金启动，旨在全球终结女性生殖器切割",
+      "entities": [
+        {
+          "name": "Her Horizon Fund",
+          "explain": "新成立的慈善基金，目标募集1亿美元用于终结女性生殖器切割"
+        },
+        {
+          "name": "女性生殖器切割",
+          "explain": "指部分切除或全部切除女性外生殖器的做法，主要存在于非洲和中东部分地区，被国际社会认定为侵犯人权"
+        }
+      ],
+      "summary": "一项1550万美元的新基金正式启动，旨在为终结女性生殖器切割创造不可阻挡的势头。该基金名为Her Horizon Fund，目标募集1亿美元。全球超过2.3亿妇女和女孩受到这一做法的影响。基金启动之际，妇女权利正受到越来越多攻击，捐助资金急剧下降。",
+      "relevant": "这是迄今为止对终结女性生殖器切割最大的单笔慈善捐款，在捐助资金下降和妇女权利受攻击的背景下具有特殊意义。",
+      "context": "女性生殖器切割在全球多地仍普遍存在，尤其在非洲、中东和亚洲部分地区。近年来妇女权利运动面临反弹，国际捐助资金减少，前线活动人士面临资金短缺。",
+      "source_analysis": "卫报是英国左倾大报，长期关注全球发展、妇女权利和人权议题。",
+      "social_impact": "全球超过2.3亿妇女和女孩受到女性生殖器切割影响，该基金若达到1亿美元目标，将是该领域最大规模的专项慈善资金。",
+      "source_text": "Frontline activists and leaders in the fight against female genital mutilation, which has affected more than 230 million women and girls worldwide, have welcomed an unprecedented $15.5m (£11.4m) fund aimed at creating “unstoppable momentum” to finally end the practice. The launch of the fund comes as women’s rights are increasingly under attack and donor funding is in sharp decline, particularly for work led by FGM survivors in local communities. It is thought to be the largest single philanthropic contribution to ending the practice of FGM. The United Nations has set a goal of elimination by by 2030, but progress is not on track as funding declines and legal protections are challenged. Funding received by the largest initiative to end the practice – a joint programme operated in 18 countries by the UN’s sexual and reproductive health agency, UNFPA, and the UN humanitarian organisation for children, Unicef – fell by 45% last year, from $29.6m to $16.3m. The Her Horizon Fund has been seeded with $14m from the Wallace Global Fund, plus an additional $1.5m contribution from an anonymous donor, making $15.5m in total. The aim of Her Horizon Fund, set up by the US-based Wallace Global Fund, is to pool $100m from donors to reach a “tipping point” towards ending FGM within a generation. Ifrah Ahmed, a Somali-Irish activist and survivor of FGM who set up the Ifrah Foundation to end practice in Somalia, where it is nearly universal, said: “By giving $14m, the global fund will ensure activists can continue their work in this area.” UN funding worth $300,000 to her organisation was cut by UNFPA last year, but Ahmed managed to raise money from elsewhere. The Ifrah Foundation has helped push for anti-FGM legislation in Somalia, she said. Three of Somalia’s seven federal member states have enacted anti-FGM laws, while in two other states bills banning the practice have been endorsed by cabinet and are awaiting parliamentary approval, albeit with opposition by religious leaders in some areas. “If we don’t continue to raise money, the dream where this practice will end will have died for young girls,” she added. Advocates warn that while international recognition of FGM as a human rights violation has grown, and countries such as Burkina Faso, the Gambia and Kenya have criminalised the practice, progress remains fragile. In recent years, survivors and frontline groups have been trying to protect gains made over several decades. The Gambia’s supreme court, for instance, is",
+      "source_title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "source_url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "俄罗斯袭击乌克兰火车站列车，约翰逊等欧洲官员刚离开",
+      "entities": [
+        {
+          "name": "鲍里斯·约翰逊",
+          "explain": "英国前首相，曾积极支持乌克兰对抗俄罗斯"
+        },
+        {
+          "name": "波兰边境",
+          "explain": "乌克兰西部与波兰接壤的地区，是西方官员进出乌克兰的主要通道"
+        }
+      ],
+      "summary": "俄罗斯对乌克兰一辆停靠在波兰边境附近的列车发动袭击，而英国前首相鲍里斯·约翰逊及多位欧洲高级官员刚刚离开该车站。约翰逊谴责此次袭击，质疑普京的\"扭曲逻辑\"。事件凸显外国政要访乌期间的安全风险。",
+      "relevant": "外国政要刚离开即遭袭击，可能意味着俄方情报掌握或刻意挑衅，将加剧欧洲对俄乌冲突升级的担忧。",
+      "context": "俄乌冲突持续，西方官员频繁访问乌克兰以示支持。此次袭击发生在约翰逊等人离开车站后不久，目标是一辆静止的乌克兰列车。",
+      "source_analysis": "BBC报道，引用约翰逊本人声明，立场偏向乌克兰及西方视角。",
+      "social_impact": "事件可能影响外国官员访乌的安全评估，并进一步推动西方对俄制裁或军事援助。",
+      "source_text": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station - Published A Russian drone has hit a train near the Ukraine-Poland border shortly after former UK Prime Minister Boris Johnson and top European security officials had passed through. No casualties were reported after the strike at Yahodyn, which hit the train's engine. All the passengers had been evacuated, Ukrainian authorities said. Johnson and other European national security advisers, including the UK's Jonathan Powell, had passed along the same line on a different train on their way back from a conference in Kyiv. Russia's defence ministry said it had struck \"railway infrastructure\" in western Ukraine, but Ukraine's state railway company Ukrzaliznytsia said the drone's target \"could have been the diplomatic train\". Professor Katarzyna Pisarska, chair of the Warsaw Security Forum, told the BBC she was in the same carriage as Johnson and Powell, and the attack had happened about 30 minutes after their train had crossed into the Polish border. In a statement, Ukraine's railway authority Ukrzaliznytsia said the diplomatic train \"had left the station earlier than expected because of the timetable change... due to constant threats of Russian strikes\". It also said that an evacuation order for passengers on the hit train had been given \"just 15 minutes\" before the strike by a Russian jet-propelled drone. Former CIA chief David Petraeus, who had been on board another train at Yahodyn station at the time of the strike, said the incident was \"terrifying\". In an interview with the New York Times, Petraeus said: \"This is the act of a truly barbaric leader trying to terrorise Ukrainian civilians.\" Both Ukrainian and Polish authorities said the Russian drone had struck 2km (1.2 miles) from the Polish border. Johnson wrote on X: \"I don't know what warped logic drove Putin to blow up a stationary Ukrainian locomotive on the Polish border this morning. He said this was \"the kind of random and senseless attack Ukrainians are enduring every day - even on civilian railways\" and urged Kyiv's allies to urgently provide Ukrainians \"the air defences they need\". Ukraine has made repeated pleas to its allies - particularly the US - to provide more interceptors to defend against daily Russian attacks that increasingly use fast-moving ballistic missiles and jet-propelled drones. Ukrainian Foreign Minister Andrii Sybiha said the \"barbaric strikes\" at the Ukraine-Poland border in Yaho",
+      "source_title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "source_url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "瑞典大选左翼阵营微弱领先，结果仍难分胜负",
+      "entities": [
+        {
+          "name": "左翼阵营",
+          "explain": "瑞典议会中由社会民主党等左倾政党组成的政治联盟"
+        },
+        {
+          "name": "右翼阵营",
+          "explain": "由温和党、瑞典民主党等右倾政党组成的对立联盟"
+        }
+      ],
+      "summary": "瑞典大选计票超过90%后，左翼阵营以约2万票的微弱优势领先，但选举结果仍过于接近，无法宣布胜者。最终结果可能取决于海外选票和重新计票。",
+      "relevant": "瑞典是欧盟重要成员国，选举结果将影响其移民、气候和福利政策走向，也可能改变欧洲政治版图。",
+      "context": "瑞典每四年举行议会选举，此次选举左右阵营势均力敌，反映选民在移民、能源和经济议题上的深度分歧。",
+      "source_analysis": "BBC报道，立场中立，侧重事实数据。",
+      "social_impact": "约2万票差距在数百万选民中极小，可能引发重新计票或法律争议，影响政府组建进程。",
+      "source_text": "Swedish left-wing bloc narrowly ahead with election too close to call - Published Sweden's general election remains too close to call with the left-wing bloc marginally ahead as the vote count continues. With more than 90% of ballots processed early on Monday, the left-wing bloc was in front by approximately 20,000 votes. Preliminary counts by Sweden's electoral authority projected the Social Democrats' Magdalena Andersson would likely finish with a three-seat majority over the rival four-party coalition led by current conservative Prime Minister Ulf Kristersson. Kristersson has been supported in government by the hard-right Sweden Democrats (SD), which have neo-Nazi roots. He has promised cabinet jobs for the SD if he stays in charge. - Close race in Sweden as hard right eyes role in government - Published2 days ago Early on Monday morning, Kristersson said it remained unclear who would form the next government. \"The voters have had their say, but we still don't have a final result. Which government will lead Sweden in the coming years is still an open question,\" he told supporters. No major media outlets have declared a winner yet. Sweden uses a mandate distribution voting system, a proportional representation method to elect \"mandates\", or \"seats\", in the Riksdag – the Swedish parliament. A party needs at least 4% of the vote to enter parliament. With 95% of votes reported, the left-wing bloc led by the Social Democrats was ahead with 176 mandates compared to the right-wing bloc's 173. Counting will continue on Wednesday before the final results determine which side has a clearer path to majority. The counting restarts then to include early votes that were submitted late, as well as votes from abroad that did not arrive before election day. It is not yet known how many votes will be counted on Wednesday, but back in 2022, more than 220,000 votes were included in the later count. If the figures are similar this year, Wednesday's count could make the difference in the outcome, given that only about 28,000 votes currently separate the blocs. Sweden has two major political blocs featuring four parties on the right and four on the left - meaning coalition and minority governments are relatively common. On Sunday night, Andersson - the leader of the country's main opposition party - urged supporters to wait for the final result, but added that if the current results hold, \"Sweden will have a new government.\" Her party, the Social Democrats, have been a major ",
+      "source_title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "source_url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "塞尔维亚总统武契奇宣布将于9月27日辞职",
+      "entities": [
+        {
+          "name": "武契奇",
+          "explain": "塞尔维亚总统，长期执政的强人政治家"
+        },
+        {
+          "name": "国民议会",
+          "explain": "塞尔维亚的一院制议会，负责立法"
+        }
+      ],
+      "summary": "塞尔维亚总统武契奇宣布计划于9月27日辞职。此前9月9日，他已批准解散国民议会，并宣布于10月25日举行提前选举。此举可能为提前大选铺路，引发政治重组。",
+      "relevant": "武契奇辞职和提前选举可能改变塞尔维亚政治格局，影响其加入欧盟进程及与俄罗斯的关系。",
+      "context": "武契奇长期执政，面临国内抗议和反对派压力。解散议会并提前选举被视为其巩固权力或应对危机的策略。",
+      "source_analysis": "TASS俄罗斯官方通讯社报道，可能对武契奇持相对友好立场。",
+      "social_impact": "提前选举将考验武契奇及其政党的民意支持，可能影响巴尔干地区稳定。",
+      "source_text": "BELGRADE, September 15. /TASS/. Serbian President Aleksandar Vucic said he would resign on September 27. \"On September 27, I will step down as president,\" Vucic told Pink TV. On September 9, the Serbian president approved the dissolution of the National Assembly, the country’s unicameral parliament, and called a snap election for October 25. Vucic later said he would resign in late September and campaign for the parliamentary election as a private citizen. Earlier, Milos Vucevic, leader of the ruling Serbian Progressive Party, said Vucic would head the party’s electoral list and be its candidate for prime minister.",
+      "source_title": "Vucic states plans to resign on September 27",
+      "source_url": "https://tass.com/world/2187587",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "以色列纪录片《NAZA》揭露加沙杀戮，遭以政府反击",
+      "entities": [
+        {
+          "name": "NAZA",
+          "explain": "一部调查以色列军队在加沙杀害巴勒斯坦人的以色列纪录片"
+        },
+        {
+          "name": "以色列文化部长",
+          "explain": "负责以色列文化事务的政府官员，此次建议撤销导演国籍"
+        }
+      ],
+      "summary": "以色列纪录片《NAZA》调查以军在加沙杀害巴勒斯坦人的事件，引发以色列国内强烈反弹。文化部长建议撤销导演的公民身份，事件凸显以色列对批评声音的压制。",
+      "relevant": "该片触及加沙冲突的核心争议，以政府的高压回应引发对言论自由和公民权利的关注。",
+      "context": "加沙冲突持续，国际社会对以色列军事行动批评增多。该片由以色列人拍摄，从内部揭露以军行为，因而引发政府激烈反应。",
+      "source_analysis": "《纽约时报》报道，倾向自由派，关注人权和言论自由议题。",
+      "social_impact": "事件可能加剧以色列国内分裂，并影响国际社会对以政府压制异见的看法。",
+      "source_text": "‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash。The film “NAZA” investigates the killing of Palestinians by Israeli forces in Gaza. Israel’s culture minister has suggested revoking the directors’ citizenship.",
+      "source_title": "‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash",
+      "source_url": "https://www.nytimes.com/2026/09/14/world/middleeast/israel-naza-documentary-backlash.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_6526a42a4174",
+      "source": "BBC",
+      "title": "China criticises idea it is in 'malicious competition' over AI",
+      "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
+      "summary": "It follows the Anthropic CEO's calls for a slowdown in AI development - but in a way that prevents China from pulling ahead in the race.",
+      "image": ""
+    },
+    {
+      "id": "rss_38834be0ef87",
+      "source": "BBC",
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The former UK PM said: \"I don't know what warped logic drove Putin to blow up a stationary Ukrainian locomotive on the Polish border this morning\".",
+      "image": ""
+    },
+    {
+      "id": "rss_6223e01c7ca8",
+      "source": "BBC",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+      "summary": "With more than 90% of ballots processed early on Monday, the left-wing bloc was in front by approximately 20,000 votes.",
+      "image": ""
+    },
+    {
+      "id": "rss_9ed14a5c9420",
+      "source": "BBC",
+      "title": "Wild dogs record 2,500-mile trek across Zambia in search of a mate",
+      "url": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Scientists say the record-breaking journey by three brothers offers hope wildlife can survive growing pressures.",
+      "image": ""
+    },
+    {
+      "id": "rss_daa30cca4de2",
+      "source": "BBC",
+      "title": "Thousands demand end to violence in Mexican cartel hotspot",
+      "url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss",
+      "summary": "Culiacán has seen violence skyrocket since a feud broke out between two rival factions of the Sinaloa cartel.",
+      "image": ""
+    },
+    {
+      "id": "rss_542cd53d33e4",
+      "source": "France24",
+      "title": "Zelensky says Ukraine ready to de-escalate if Russia halts strikes",
+      "url": "https://www.france24.com/en/europe/20260914-zelensky-says-ukraine-ready-to-de-escalate-if-russia-halts-strikes",
+      "summary": "Ukraine is ready to halt attacks on Russian energy infrastructure if Moscow does the same, President Volodymyr Zelensky said Monday, after US President Donald Trump announced an apparent agreement between the two sides. Kyiv also warned that intensifying Russian strikes on Ukraine’s rail network are worsening each week.",
+      "image": "https://s.france24.com/media/display/183b4120-b084-11f1-9cad-005056a90284/w:1024/p:16x9/AP26239577216137.jpg"
+    },
+    {
+      "id": "rss_81bfb3b14290",
+      "source": "France24",
+      "title": "Macklemore dropped from Ed Sheeran US tour after pro-Palestinian remarks",
+      "url": "https://www.france24.com/en/americas/20260914-macklemore-dropped-from-ed-sheeran-us-tour-after-pro-palestinian-remarks",
+      "summary": "American rapper Macklemore announced on Monday that he was dropped from Ed Sheeran’s US stadium tour after saying \"Free Palestine\" during a September 4 concert in New Jersey. The Grammy winner’s removal follows pressure from venue owners, including New England Patriots owner Robert Kraft, over his criticism of Israel’s actions in Gaza.",
+      "image": "https://s.france24.com/media/display/6d38d806-b078-11f1-b9cc-005056a90284/w:1024/p:16x9/1729ad2e072996a142da7b053ef29307fba83d5a.jpg"
+    },
+    {
+      "id": "rss_926b1f8b06c5",
+      "source": "France24",
+      "title": "US Space Force confirms weapons deployed in space for first time",
+      "url": "https://www.france24.com/en/americas/20260914-us-space-force-confirms-weapons-deployed-in-space-for-first-time",
+      "summary": "The US Space Force has confirmed for the first time that Washington has weapons deployed in orbit, as the United States, China and Russia expand military capabilities in space. The disclosure highlights a growing focus on controlling the space domain and protecting satellites vital to military communications, surveillance and navigation.",
+      "image": "https://s.france24.com/media/display/54b1beee-a432-11f1-8b6d-005056bfb2b6/w:1024/p:16x9/2026-08-29T195602Z-94810877-RC2I8NAYVGKF-RTRMADP-3-SPACE-NASA-TELESCOPE.jpg"
+    },
+    {
+      "id": "rss_48741e05ecf5",
+      "source": "France24",
+      "title": "Bob Mackie, fashion designer for the stars, dies at 87",
+      "url": "https://www.france24.com/en/bob-mackie-fashion-designer-for-the-stars-dies-at-87",
+      "summary": "⁠Hollywood designer ⁠Bob Mackie, ​known for making stars such as Cher and ​Elton John sparkle, died on Monday at 87, according to a post on his official Instagram account. His career ​spanned ‌five decades and included ⁠designing a Barbie doll clothes collection. FRANCE 24's Camille Knight has more.",
+      "image": "https://s.france24.com/media/display/2e195dc4-b084-11f1-8915-005056a90284/w:1024/p:16x9/EN-20260914-231210-231352-CS.jpg"
+    },
+    {
+      "id": "rss_da4cd1a0f326",
+      "source": "France24",
+      "title": "Rights group accuses Israel of dismantling 'Palestinian existence' in West Bank",
+      "url": "https://www.france24.com/en/rights-group-accuses-israel-of-dismantling-palestinian-existence-in-west-bank",
+      "summary": "Israeli rights group B'Tselem said Monday that Israeli actions in the occupied West Bank form part of a greater project designed to make it impossible for Palestinians to exist together as a people. In a report titled \"The Elimination Project\", the group alleged five connected Israeli tactics and policies in the West Bank: \"violence, ethnic cleansing, movement restrictions, economic strangulation, social and political destruction\". FRANCE 24's Selina Sykes reports.",
+      "image": "https://s.france24.com/media/display/ef5d3dc4-b080-11f1-8b78-005056a97e36/w:1024/p:16x9/EN-20260914-230418-230604-CS.jpg"
+    },
+    {
+      "id": "rss_16adb45b9a59",
+      "source": "TASS Russia",
+      "title": "Disarray at Pentagon under Hegseth hindering key missions — media",
+      "url": "https://tass.com/world/2187589",
+      "summary": "According to the New York Times, the war with Iran has compounded the Pentagon's problems, undermining sailors' morale and depleting its supply of interceptor missiles.",
+      "image": ""
+    },
+    {
+      "id": "rss_78079a849965",
+      "source": "TASS Russia",
+      "title": "Vucic states plans to resign on September 27",
+      "url": "https://tass.com/world/2187587",
+      "summary": "On September 9, the Serbian president approved the dissolution of the National Assembly, the country’s unicameral parliament, and called a snap election for October 25",
+      "image": ""
+    },
+    {
+      "id": "rss_4aad619b2e79",
+      "source": "TASS Russia",
+      "title": "GFCN chief warns of frequent cyber fraud, \"calls from FSB\"",
+      "url": "https://tass.com/society/2187579",
+      "summary": "Vladimir Tabak added that the situation with fake news today is \"quite complicated, and cyber fraud is widespread\"",
+      "image": ""
+    },
+    {
+      "id": "rss_49d6949b69ec",
+      "source": "TASS Russia",
+      "title": "CSTO seeks to draw extensively on lessons of modern warfare — secretary general",
+      "url": "https://tass.com/world/2187585",
+      "summary": "According to Masadykov, the Collective Security Treaty Organization regularly takes measures to counter traditional challenges and threats, including consultations, exercises and joint operations",
+      "image": ""
+    },
+    {
+      "id": "rss_12dab4aa020b",
+      "source": "TASS Russia",
+      "title": "CSTO favors resuming cooperation with OSCE",
+      "url": "https://tass.com/world/2187583",
+      "summary": "Taalatbek Masadykov added that \"the OSCE has considerable potential that could be used to fulfill its original purpose of strengthening security in Europe\"",
+      "image": ""
+    },
+    {
+      "id": "rss_116f65b9ff1a",
+      "source": "纽约时报",
+      "title": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies",
+      "url": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
+      "summary": "The attack on Ukraine’s rail network, which connects the country to the West, was a jab at Europe, officials said.",
+      "image": ""
+    },
+    {
+      "id": "rss_41c569d04044",
+      "source": "纽约时报",
+      "title": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap",
+      "url": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html",
+      "summary": "Cutting-edge technologies have reshaped the Russian capital, making it safer, more convenient — and more closely watched.",
+      "image": ""
+    },
+    {
+      "id": "rss_ece274e4cc1c",
+      "source": "纽约时报",
+      "title": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule",
+      "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html",
+      "summary": "Even as Beijing urges the United States not to hype the dangers of A.I., its own spy chief is framing the technology as a threat to the Communist Party’s security.",
+      "image": ""
+    },
+    {
+      "id": "rss_4e7e03ce6a1b",
+      "source": "纽约时报",
+      "title": "‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash",
+      "url": "https://www.nytimes.com/2026/09/14/world/middleeast/israel-naza-documentary-backlash.html",
+      "summary": "The film “NAZA” investigates the killing of Palestinians by Israeli forces in Gaza. Israel’s culture minister has suggested revoking the directors’ citizenship.",
+      "image": ""
+    },
+    {
+      "id": "rss_cb22558efd49",
+      "source": "纽约时报",
+      "title": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets",
+      "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html",
+      "summary": "Crown Prince Mohammed bin Salman asked the United States for more U.S. military help last week after the Iranian-backed Houthi forces in Yemen launched a broad offensive.",
+      "image": ""
+    },
+    {
+      "id": "rss_dbfe3f075128",
+      "source": "卫报",
+      "title": "The London hospital funded by donors who invested in the slave trade",
+      "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade",
+      "summary": "St Barts is one of many UK institutions whose benefactors were involved in the trafficking of enslaved Africans Inside the Great Hall of St Bartholomew’s North Wing, alongside stately portraits of the apostle from whom London’s oldest hospital takes its name and King Henry VIII, extravagant commemorative boards adorn the walls. The Great Hall was a grand, formal space where governors weighed their philanthropic donations and drafted their wills, many while investing in the stock of companies built on the trafficking of enslaved Africans. Today, many of those donors are commemorated in acrylic gold paint on the boards. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5c723194d0a5",
+      "source": "卫报",
+      "title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "url": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo",
+      "summary": "Public offering of Aliko Dangote’s Nigerian oil refinery business could swell his net wealth by two-thirds The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering. If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes to plan, then Aliko Dangote will add a further $23bn (£17bn) to his $35bn net worth. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_41e768e1644d",
+      "source": "卫报",
+      "title": "Burial of King Oyo takes place in Uganda as news anchor prepares for throne",
+      "url": "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
+      "summary": "Royal guards carry casket through streets of Fort Portal amid row over appointment of Edward Rukidi Kijanangoma Uganda’s King Oyo Nyimba Kabamba Iguru Rukidi IV, long the world’s youngest monarch, has been buried among the tombs of his royal forebears as ⁠his Tooro kingdom looked to put ⁠ a bitter succession battle behind ​it. Oyo’s appointed successor, the news anchor Edward Rukidi Kijanangoma, cast nine coffee berries into the grave at the Karambi Royal Tombs, marking the formal handover of power in the western Ugandan kingdom. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_ca02d358ad19",
+      "source": "卫报",
+      "title": "Six Nigerians extradited to US over $6m online romance scam",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+      "summary": "Alleged members of Black Axe criminal network that swindled US women out of $6m flown from South Africa Six Nigerian nationals linked to an organized criminal network that allegedly swindled American women out of more than $6m through online romance scams were extradited to the United States on Friday. South African police confirmed they were to be extradited earlier on Friday, while local news in Africa confirmed that the Directorate for Priority Crime Investigation, known as the Hawks, facilitated their handover to officials from the US Federal Bureau of Investigation and Secret Service at Cape Town international airport, in collaboration with Interpol South Africa. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_0fef4516f33a",
+      "source": "卫报",
+      "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+      "summary": "Her Horizon Fund seeks $100m to stop practice harming 230m women and girls globally Frontline activists and leaders in the fight against female genital mutilation, which has affected more than 230 million women and girls worldwide , have welcomed an unprecedented $15.5m (£11.4m) fund aimed at creating “unstoppable momentum” to finally end the practice. The launch of the fund comes as women’s rights are increasingly under attack and donor funding is in sharp decline, particularly for work led by FGM survivors in local communities. It is thought to be the largest single philanthropic contribution to ending the practice of FGM. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-15 07:30"
+}
