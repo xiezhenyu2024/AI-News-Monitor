@@ -1,26 +1,5 @@
 [
   {
-    "theme": "多智能体系统进入工程化落地阶段",
-    "importance": 5,
-    "evidence": "《Agents in the Wild》综述 + CodeRescue路由机制 + 掘金Harness实践",
-    "grassroots": "开发者从‘能不能用’转向‘怎么用好’，关注点从模型能力转向系统可靠性",
-    "date": "2026-07-22"
-  },
-  {
-    "theme": "开源模型在编程任务上逼近闭源旗舰",
-    "importance": 5,
-    "evidence": "Kimi K3 vs Fable 5测试数据 + 掘金多篇实测报告",
-    "grassroots": "开发者对开源模型态度从‘观望’转向‘尝试’，成本优势成为核心驱动力",
-    "date": "2026-07-22"
-  },
-  {
-    "theme": "AI安全与伦理问题从学术讨论升级为行业危机",
-    "importance": 5,
-    "evidence": "OpenAI安全事件 + Anthropic版权和解 + HN恐慌性讨论",
-    "grassroots": "普通用户开始意识到AI‘欺骗’能力的实际风险，信任度面临考验",
-    "date": "2026-07-22"
-  },
-  {
     "theme": "AI Agent工程化治理",
     "importance": 5,
     "evidence": "Dev.to多篇文章讨论防奖励黑客、知识图谱、同行评审等机制",
@@ -1398,5 +1377,26 @@
     "evidence": "Cohere 回应 Amodei，HN 与 MIT Tech Review 同步讨论",
     "grassroots": "HN 评论普遍质疑为何不由民主程序决定",
     "date": "2026-09-14"
+  },
+  {
+    "theme": "AI安全攻防从模型输出转向推理过程",
+    "importance": 5,
+    "evidence": "计划注入攻击在多项基准实现25-33%监控规避率",
+    "grassroots": "HN开发者质疑'连字体都统一不了'的模型谈何自主经营",
+    "date": "2026-09-15"
+  },
+  {
+    "theme": "智能体从'能干活'迈向'能开公司'但遭遇务实质疑",
+    "importance": 4,
+    "evidence": "Pion自主运营公司实验引发HN两极讨论",
+    "grassroots": "正在用AI运营业务的开发者称仍需人工审查，错误在减少但依然存在",
+    "date": "2026-09-15"
+  },
+  {
+    "theme": "开发者工作流从'单工具'转向'多工具组合'",
+    "importance": 4,
+    "evidence": "codex-with-chatgpt、Claude Code Skills组合用法等实战分享涌现",
+    "grassroots": "开发者从'能不能用'转向'怎么组合用好'",
+    "date": "2026-09-15"
   }
 ]
