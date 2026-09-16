@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI Agent工程化治理",
-    "importance": 5,
-    "evidence": "Dev.to多篇文章讨论防奖励黑客、知识图谱、同行评审等机制",
-    "grassroots": "开发者从'能用就行'转向'如何确保Agent可靠'",
-    "date": "2026-07-23"
-  },
-  {
-    "theme": "开源模型政治化",
-    "importance": 5,
-    "evidence": "黄仁勋公开支持中国开源模型，与美国政府立场对立",
-    "grassroots": "开源社区普遍欢迎，认为有助于打破垄断",
-    "date": "2026-07-23"
-  },
-  {
-    "theme": "LLM与专家协作新范式",
-    "importance": 5,
-    "evidence": "陶哲轩用ChatGPT发现数学反例，展示专家级提问的价值",
-    "grassroots": "开发者意识到'提问质量'是AI协作的关键瓶颈",
-    "date": "2026-07-23"
-  },
-  {
-    "theme": "Agent工程从模型循环走向Harness工程",
-    "importance": 5,
-    "evidence": "多篇论文、开源项目、开发者讨论聚焦Harness工程，OpenForgeRL、grok-build等项目星数快速增长",
-    "grassroots": "开发者从'模型能不能用'转向'怎么让Agent可靠落地'",
-    "date": "2026-07-24"
-  },
-  {
     "theme": "多模态模型进入统一理解与生成阶段",
     "importance": 4,
     "evidence": "Flux3发布，支持文本/图像/视频/音频统一处理，3D感知VLM论文出现",
@@ -1398,5 +1370,33 @@
     "evidence": "codex-with-chatgpt、Claude Code Skills组合用法等实战分享涌现",
     "grassroots": "开发者从'能不能用'转向'怎么组合用好'",
     "date": "2026-09-15"
+  },
+  {
+    "theme": "智能体社会协作基础设施成为新焦点",
+    "importance": 5,
+    "evidence": "ArXiv同日发布Social Harness、ScienceBuddy、Verifiable Social Reasoning三篇相关论文；GitHub出现sprix-sage-router、reef等A2A基础设施项目",
+    "grassroots": "开发者开始讨论Agent间通信的安全性和约束机制",
+    "date": "2026-09-16"
+  },
+  {
+    "theme": "AI编程工具从'能不能用'转向'怎么用好'",
+    "importance": 4,
+    "evidence": "codex-with-chatgpt双打工作流、Datamimic防自造测试数据、跨会话记忆痛点讨论",
+    "grassroots": "开发者自发分享workflow优化经验，关注点从功能转向效率和可靠性",
+    "date": "2026-09-16"
+  },
+  {
+    "theme": "AI行业'末日论转向'引发监管争论",
+    "importance": 5,
+    "evidence": "Anthropic CEO Dario Amodei发文呼吁放缓LLM开发；黄仁勋主张不需要监管；MIT科技评论讨论AI灭绝恐惧",
+    "grassroots": "开发者社区对AI依赖导致认知萎缩的反思增多",
+    "date": "2026-09-16"
+  },
+  {
+    "theme": "AI推理硬件革命到来，显卡大半时间闲置",
+    "importance": 4,
+    "evidence": "IEEE Spectrum特稿指出推理正逼着硬件行业换打法；黄仁勋称2026为'推理的拐点'",
+    "grassroots": "工程师关注推理效率优化和硬件利用率提升",
+    "date": "2026-09-16"
   }
 ]

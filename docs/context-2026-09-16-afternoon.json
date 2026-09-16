@@ -1,0 +1,1318 @@
+{
+  "key": "2026-09-16-afternoon",
+  "date": "2026-09-16",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 20,
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 两款新模型",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究实验室，开发了 AlphaGo、Gemini 系列模型等"
+        },
+        {
+          "name": "Gemini 3.8 Live",
+          "explain": "谷歌最新发布的实时交互式 AI 模型，支持即时对话和响应"
+        },
+        {
+          "name": "Extended Thinking",
+          "explain": "扩展思考模式，让 AI 在回答前进行更长时间的推理，适合复杂问题"
+        }
+      ],
+      "summary": "Google DeepMind 正式推出 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 两款新模型。前者主打实时交互能力，后者在实时基础上增加深度推理模式，面向需要复杂思考的任务场景。这是 Gemini 系列的又一次重要版本迭代。",
+      "relevant": "Gemini 系列是当前全球最主流的 AI 大模型之一，此次更新直接影响开发者生态和 AI 应用的能力边界。",
+      "context": "谷歌 DeepMind 持续迭代 Gemini 模型系列，此前已推出多个版本。此次 3.8 Live 版本强调实时交互和扩展思考能力，反映 AI 模型竞争正从单纯能力比拼转向交互体验和推理深度的差异化。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属于第一方发布，信息权威但带有产品推广性质。",
+      "social_impact": "",
+      "source_text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. On ServiceNow’s EVA-Bench, a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early verbal cues like “Let me check",
+      "source_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "Perplexity 采用 OpenAI GPT-6 Astra 实现端到端系统自动化管理",
+      "entities": [
+        {
+          "name": "Perplexity",
+          "explain": "一家 AI 搜索引擎公司，以对话式搜索问答闻名"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI 推出的新一代大语言模型，Astra 是其代号"
+        },
+        {
+          "name": "端到端系统",
+          "explain": "指从输入到输出全流程自动化，无需人工中间干预"
+        }
+      ],
+      "summary": "Perplexity 正在使用 OpenAI 的 GPT-6 Astra 模型来撰写通讯内容、修改软件和监控生产系统，且检查频率远低于使用早期模型时。这表明 Astra 在自主性和可靠性上有显著提升，企业级 AI 应用正从辅助工具向自主执行角色转变。",
+      "relevant": "这是 AI 模型在企业生产环境中承担核心运维任务的典型案例，标志着 AI 从'建议者'向'执行者'的角色转变。",
+      "context": "Perplexity 此前已与 OpenAI 有合作。随着 GPT-6 Astra 能力提升，Perplexity 将其应用范围从简单问答扩展到软件修改和生产系统监控等关键业务环节，减少了对模型输出的人工审核频率。",
+      "source_analysis": "消息来自 OpenAI 官方博客，属于合作方背书性质的内容，倾向于展示 GPT-6 Astra 的实际应用能力和可靠性。",
+      "social_impact": "AI 模型直接修改软件和监控生产系统，意味着企业 IT 运维模式可能发生根本性变化，但也引发对 AI 自主决策安全性的关注。",
+      "source_text": "Perplexity trusts GPT‑6 Astra with end-to-end systems Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models. As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely. But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra. “We can have the model craft communications, edit real-world systems, and monitor our production software in a way that previous generations were not able to.” For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application. The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish. “We’re actually able to trust it with full end-to-end systems and check in on it much less frequently than previous generations of models.”",
+      "source_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "DeepMind 发布 AlphaGenome Atlas：覆盖人类基因组全部单碱基变异的预测图谱",
+      "entities": [
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "DeepMind 开发的基因组预测工具，能预测 DNA 单个字母变化对分子的影响"
+        },
+        {
+          "name": "单字母 DNA 变异",
+          "explain": "DNA 序列中一个碱基（A/T/C/G）被另一个替换，是最基本的基因突变形式"
+        },
+        {
+          "name": "人类基因组",
+          "explain": "人类完整的遗传信息集合，约含 30 亿个碱基对"
+        }
+      ],
+      "summary": "Google DeepMind 发布 AlphaGenome Atlas，绘制了人类基因组中 90 亿个单字母 DNA 变异的分子效应预测图谱。该工具可帮助研究人员快速评估任意基因突变的功能影响，加速遗传病研究和药物靶点发现。",
+      "relevant": "覆盖全基因组所有可能单碱基变异的预测图谱，将极大加速遗传学研究和精准医疗发展。",
+      "context": "人类基因组中大量单碱基变异与疾病相关，但逐一实验验证成本极高。AlphaGenome Atlas 利用 AI 预测方法，一次性覆盖全部约 90 亿种可能的单碱基变化，填补了实验数据无法覆盖的空白。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属于第一方研究成果发布。",
+      "social_impact": "90 亿个变异的预测图谱将惠及全球遗传病诊断、药物研发和基础生物学研究，可能显著缩短从基因发现到临床应用的周期。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform (detailed in our paper) containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Googl",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Hugging Face 提出 DDO 方法：无需微调即可防御大模型安全护栏被移除攻击",
+      "entities": [
+        {
+          "name": "Refusal Feature Ablation (RFA)",
+          "explain": "一种攻击方法，通过找到模型中负责'拒绝回答'的方向并将其移除，使模型绕过安全限制"
+        },
+        {
+          "name": "Decoy Direction Optimization (DDO)",
+          "explain": "本文提出的防御方法，通过注入虚假信号迷惑攻击者，使其移除错误的方向"
+        },
+        {
+          "name": "开放权重模型",
+          "explain": "模型参数公开可下载的 AI 模型，任何人都可以本地运行和修改"
+        }
+      ],
+      "summary": "开放权重语言模型的安全护栏可被 RFA 攻击轻易绕过，传统防御需对每个新模型检查点进行昂贵的安全微调。本文提出 DDO 方法，通过向网络 MLP 神经元注入高幅度非线性诱饵信号，使攻击者的方向估计器被污染，从而在无需基础模型微调的情况下实现快速事后防御。",
+      "relevant": "开放权重模型的安全问题日益突出，DDO 提供了一种低成本、可快速部署的防御方案，对 AI 安全社区有重要参考价值。",
+      "context": "开放权重模型允许任何人下载和修改，攻击者可用 RFA 等技术移除模型的安全拒绝机制。现有防御方案需要对每个模型版本重新进行安全微调，成本高且滞后。DDO 利用攻击方法本身依赖对比估计器的特点，通过注入诱饵信号实现轻量级防御。",
+      "source_analysis": "论文发布在 Hugging Face 论文平台，属于学术预印本，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration。Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a technique that identifies and projects out a linear refusal direction from the residual stream, often achieving a high attack success rate (ASR) while preserving model capability. Defending against these attacks typically requires computationally expensive safety finetuning for every new checkpoint. We introduce Decoy Direction Optimization (DDO), a fast, post-hoc weight-editing defense that requires no base-model finetuning. Our approach is based on a simple mechanistic insight: ablation attacks rely on contrastive estimators to find the refusal direction. Rather than trying to hide the true refusal circuitry, DDO actively injects a high-magnitude, nonlinear decoy signal into the network's MLP neurons. When an attacker attempts to locate the refusal direction, the decoy corrupts their estimator, tricking them into ablating a harmless orthogonal feature while the actual safety mechanism remains intact. We prove a spectral bound formalizing this effect and evaluate DDO across six model families, achieving <10% ASR under standard RFA. On Llama-3-8B-Instruct, DDO remains comparable to trained defenses under adaptive multi-phase attacks (65% vs. 58% worst-case ASR) and reduces Heretic weight-level attack ASR from 88.7% to 18%, all at 30 to 450 times lower optimization cost per configuration than the trained baselines.",
+      "source_title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "CCL 算法：在无目标域奖励反馈下减轻 LLM 蒸馏中的教师偏差",
+      "entities": [
+        {
+          "name": "LLM 蒸馏",
+          "explain": "将大型教师模型的能力迁移到小型学生模型的技术，常用于降低部署成本"
+        },
+        {
+          "name": "协变量偏移",
+          "explain": "训练数据和实际应用场景的数据分布不一致，导致模型表现下降"
+        },
+        {
+          "name": "KL 散度",
+          "explain": "衡量两个概率分布差异的指标，值越小表示两个分布越接近"
+        }
+      ],
+      "summary": "LLM 蒸馏中直接模仿会传递教师的系统性偏差，尤其在目标域无奖励反馈时问题更严重。本文提出 CCL 算法，通过 token 级分支将教师校准与学生更新耦合，仅用源域反馈校准教师后再训练学生。理论证明学生与理想学生的 KL 散度以多项式速率收敛至零。",
+      "relevant": "蒸馏是 AI 模型小型化的核心技术，解决教师偏差传递问题对提升小模型可靠性有重要意义。",
+      "context": "大模型蒸馏到小模型时，教师模型的偏差和错误会被学生继承。当目标领域没有奖励信号可供反馈时，这一问题尤为突出。CCL 通过迭代校准教师模型，在仅有源域反馈的条件下提升学生在目标域的表现。",
+      "source_analysis": "论文发布在 ArXiv 预印本平台，属于学术研究，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Computer Science > Machine Learning [Submitted on 15 Sep 2026] Title:Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback View PDF HTML (experimental) Abstract:Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and target-domain reward feedback is unavailable. We propose Coupled Calibration and Learning (CCL), an LLM distillation algorithm that couples teacher calibration with student updates through token-level branching, using reward feedback only on source questions. Each iteration calibrates the teacher using source feedback and then uses the calibrated teacher to train the student on target questions. The updated student, in turn, informs subsequent calibration. In an autoregressive policy framework, we prove that the output student's expected average Kullback-Leibler divergence to the oracle student converges to zero at a polynomial rate in the number of iterations. The oracle maximizes the true reference-regularized target reward within the student class, which need not represent the unrestricted optimal policy. Our analysis quantifies the progress of projected student gradient updates while controlling the error in teacher calibration. We further establish a separation from regularized direct matching: its error relative to the oracle student can remain bounded away from zero even when the teacher achieves higher regularized target reward than every student policy. These results demonstrate that LLM distillation can overcome persistent teacher bias and recover the optimal student through coupled calibration and learning, without target-domain reward feedback. Current browse context: cs.LG References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Too",
+      "source_title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "source_url": "https://arxiv.org/abs/2609.17474v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "CoSQ 框架：让大模型在信息不足时学会'拒绝回答'以控制风险",
+      "entities": [
+        {
+          "name": "Chain-of-Self-Questioning (CoSQ)",
+          "explain": "一种提示词框架，让 AI 在回答前先自问是否具备足够信息，再决定是否作答"
+        },
+        {
+          "name": "TruthfulQA",
+          "explain": "一个评估 AI 模型回答真实性的基准测试集，包含 817 道选择题"
+        },
+        {
+          "name": "错误承诺率",
+          "explain": "模型在信息不足时仍然给出答案且答错的比率"
+        }
+      ],
+      "summary": "大模型在事实依据薄弱时常给出流畅但错误的答案。本文提出 CoSQ 提示词框架，让模型在回答前评估所需信息是否充分。在 TruthfulQA 测试中，Grounded-CoSQ 将错误承诺率从 13.1% 降至 8.9%，相对降低 32.1%，同时回答准确率从 86.9% 提升至 89.7%，覆盖 87.6% 的问题。",
+      "relevant": "AI 幻觉问题是大模型落地的核心障碍，CoSQ 提供了一种无需训练、仅靠提示词即可提升可靠性的方案。",
+      "context": "大语言模型倾向于在缺乏事实依据时仍生成流畅答案，导致错误信息传播。现有方法多依赖微调或外部检索，成本较高。CoSQ 通过让模型自我提问来评估信息充分性，在提示词层面实现选择性风险控制。",
+      "source_analysis": "论文发布在 ArXiv 预印本平台，属于学术研究，未经同行评审。",
+      "social_impact": "在 11 个模型家族、17 种条件下验证有效，表明该方法具有广泛适用性，有望降低 AI 在实际应用中的错误信息风险。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 15 Sep 2026] Title:When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control View PDF HTML (experimental) Abstract:Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-CoSQ at {\\tau}=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under chain-of-thought prompting to 8.9%, a 32.1% relative reduction, while increasing answered accuracy from 86.9% to 89.7% and answering 87.6% of questions. Both improvements hold for all eleven models and at every evaluated threshold. Critical-CoSQ and Adaptive-CoSQ provide neighboring operating points with 88.6% and 86.5% coverage, respectively, while remaining more reliable than the baseline. A secondary Natural Questions Short-Answer evaluation provides convergent open-form evidence. These findings show that self-assessment can support explicit, tunable answer-or-abstain decisions when an unsupported commitment is more costly than referral or review. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a projec",
+      "source_title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "source_url": "https://arxiv.org/abs/2609.17516v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "CoSQ 框架：让大模型在信息不足时学会'拒绝回答'以控制风险",
+      "entities": [
+        {
+          "name": "Chain-of-Self-Questioning (CoSQ)",
+          "explain": "一种提示词框架，让 AI 在回答前先自问是否具备足够信息，再决定是否作答"
+        },
+        {
+          "name": "TruthfulQA",
+          "explain": "一个评估 AI 模型回答真实性的基准测试集，包含 817 道选择题"
+        },
+        {
+          "name": "错误承诺率",
+          "explain": "模型在信息不足时仍然给出答案且答错的比率"
+        }
+      ],
+      "summary": "大模型在事实依据薄弱时常给出流畅但错误的答案。本文提出 CoSQ 提示词框架，让模型在回答前评估所需信息是否充分。在 TruthfulQA 测试中，Grounded-CoSQ 将错误承诺率从 13.1% 降至 8.9%，相对降低 32.1%，同时回答准确率从 86.9% 提升至 89.7%，覆盖 87.6% 的问题。",
+      "relevant": "AI 幻觉问题是大模型落地的核心障碍，CoSQ 提供了一种无需训练、仅靠提示词即可提升可靠性的方案。",
+      "context": "大语言模型倾向于在缺乏事实依据时仍生成流畅答案，导致错误信息传播。现有方法多依赖微调或外部检索，成本较高。CoSQ 通过让模型自我提问来评估信息充分性，在提示词层面实现选择性风险控制。",
+      "source_analysis": "论文发布在 ArXiv 预印本平台，属于学术研究，未经同行评审。与 #4 为同一篇论文的不同分类收录。",
+      "social_impact": "在 11 个模型家族、17 种条件下验证有效，表明该方法具有广泛适用性，有望降低 AI 在实际应用中的错误信息风险。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 15 Sep 2026] Title:When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control View PDF HTML (experimental) Abstract:Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-CoSQ at {\\tau}=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under chain-of-thought prompting to 8.9%, a 32.1% relative reduction, while increasing answered accuracy from 86.9% to 89.7% and answering 87.6% of questions. Both improvements hold for all eleven models and at every evaluated threshold. Critical-CoSQ and Adaptive-CoSQ provide neighboring operating points with 88.6% and 86.5% coverage, respectively, while remaining more reliable than the baseline. A secondary Natural Questions Short-Answer evaluation provides convergent open-form evidence. These findings show that self-assessment can support explicit, tunable answer-or-abstain decisions when an unsupported commitment is more costly than referral or review. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a projec",
+      "source_title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "source_url": "https://arxiv.org/abs/2609.17516v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "论文提出'社会挽具'架构：解决 AI 智能体社会中的协调与安全问题",
+      "entities": [
+        {
+          "name": "Agentic Society",
+          "explain": "由多个 AI 智能体组成的系统，它们代表不同主体自主协调合作"
+        },
+        {
+          "name": "Social Harness",
+          "explain": "本文提出的概念，指管理智能体之间交互的协议层，类似'社会规则'"
+        },
+        {
+          "name": "Personal Harness",
+          "explain": "管理单个智能体私有上下文和与主人通信的机制"
+        }
+      ],
+      "summary": "论文指出，在 AI 智能体社会中，即使诚实能干的智能体也常因通信漏洞无法达成满意结果，恶意智能体可利用'言论'漏洞阻碍协作或追求有害目标。作者提出需要为智能体间交互设计'社会挽具'，并给出分层架构：预防特定失败、运行时检测无效消息、支持事后调查与追责。",
+      "relevant": "随着多智能体系统在自动交易、协作办公等场景落地，智能体间的信任和安全问题将成为关键挑战。",
+      "context": "当前 AI 智能体研究多关注单个智能体的能力提升，但多智能体协作场景中，不同主体目标可能部分冲突，通信协议存在被利用的风险。现有'个人挽具'只管理单个智能体的私有上下文，无法解决跨信任边界的协调问题。",
+      "source_analysis": "论文发布在 ArXiv 预印本平台，属于学术研究，未经同行评审。",
+      "social_impact": "",
+      "source_text": "Computer Science > Multiagent Systems [Submitted on 15 Sep 2026] Title:Agentic Societies Need a Social Harness View PDF HTML (experimental) Abstract:An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in communication (``speech''). We argue that agentic societies need a \\emph{social harness} for inter-agent interactions, in addition to each agent's \\emph{personal harness}, which manages its private context and communication with its principal. We propose a layered architecture for social harnesses which (i) prevents classes of failures outright, (ii) enables agents to detect invalid messages at runtime, and (iii) supports post-facto investigation and consequences, and highlight directions for future research to realize these capabilities. Current browse context: cs.MA References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "Agentic Societies Need a Social Harness",
+      "source_url": "https://arxiv.org/abs/2609.17527v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "ArXiv发布ScienceBuddy：可递归自我进化的交互式科研AI智能体工作台",
+      "entities": [
+        {
+          "name": "ScienceBuddy",
+          "explain": "一个面向科研人员的交互式AI工作台，能在帮人做科研的同时不断自我改进"
+        },
+        {
+          "name": "递归中的递归自我改进（recursive-in-recursive self-improvement）",
+          "explain": "一种双层自我进化机制：内层固定模型、优化工具框架，外层在优化后的框架下再训练模型，两者互相促进"
+        },
+        {
+          "name": "Harness（工具框架/外壳）",
+          "explain": "包裹在AI模型外面的调用、流程与工具编排层，决定模型如何被使用"
+        },
+        {
+          "name": "ArXiv",
+          "explain": "全球最大的预印本论文平台，研究者常在此抢先发布尚未正式同行评审的成果"
+        }
+      ],
+      "summary": "研究团队发布ScienceBuddy，一个把持续自我改进的科研智能体嵌入研究者日常流程的交互式工作台。它会把用户的请求、反馈和执行证据转化为训练任务与评估标准，核心机制是「递归中的递归自我改进」：内层在模型固定时优化工具框架，外层在改进后的框架下训练模型，二者相互塑造。论文展示了研究者交互、框架优化与模型学习的案例，基准覆盖四类科学任务。",
+      "relevant": "它把「AI自我进化」从概念推向可发布的研究产品，若成立，意味着科研智能体可以随使用不断变强，而非依赖人工反复调优。",
+      "context": "当前科研AI智能体多为一次性部署、能力固定，用户反馈难以沉淀为模型与工具层的持续改进。该工作提出双层递归机制，试图让工具框架与模型在循环中共同进化，并以产品形式开放给科研社区。",
+      "source_analysis": "来源为ArXiv cs.AI预印本，属作者自行发布，未经同行评审，结论需谨慎看待；文中强调「研究产品」定位，带有一定推广色彩。",
+      "social_impact": "基准测试覆盖四类科学任务，若范式可复现，可能改变科研人员与AI协作的方式，并引发对AI自主迭代速度与可控性的讨论。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 15 Sep 2026] Title:ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents View PDF HTML (experimental) Abstract:We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: the inner recursion improves the harness with the model fixed, while the outer recursion trains the model under the improved harness. Harness evolution shapes training experience, and model learning creates new opportunities for harness adaptation. We present case studies of researcher interaction, harness refinement, and model learning, with the benchmark cases spanning four scientific task families. By releasing ScienceBuddy as a research product, we make this paradigm available to the scientific community and take a step toward discovery intelligence: scientific AI that advances through sustained collaboration with researchers and evolves alongside the research it supports. Website: this http URL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv",
+      "source_title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "source_url": "https://arxiv.org/abs/2609.17523v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 35,
+      "title": "IBM Research与Hugging Face联合发布研究：AI智能体任务成功率存在\"一致性\"隐患，一次成功不代表次次成功",
+      "entities": [
+        {
+          "name": "AI Agent（AI智能体）",
+          "explain": "能自主规划、调用工具并完成多步骤任务的AI程序，比如自动订机票、写代码、做数据分析等"
+        },
+        {
+          "name": "Hugging Face",
+          "explain": "全球最大的开源AI模型社区和平台，开发者在这里分享模型、数据集和研究成果"
+        },
+        {
+          "name": "IBM Research",
+          "explain": "IBM公司的核心研究部门，长期从事AI、量子计算、半导体等前沿技术研究"
+        },
+        {
+          "name": "ALTK-Evolve",
+          "explain": "IBM Research开发的一个评估框架/工具，用于测试AI智能体在重复执行同一任务时表现是否稳定"
+        },
+        {
+          "name": "一致性（Consistency）",
+          "explain": "在这里指AI智能体反复执行同一任务时能否稳定地成功，而不是偶尔成功一次"
+        }
+      ],
+      "summary": "IBM Research在Hugging Face博客发文，指出当前AI智能体评估存在一个关键盲区：智能体在某次测试中成功完成任务，并不意味着它在重复执行时能稳定成功。研究团队提出ALTK-Evolve框架，专门衡量智能体在多次尝试中的表现一致性，发现许多智能体在单次评估中表现优异，但重复运行时成功率大幅波动。这意味着仅凭一次成功来判断智能体能力可能严重高估其实际可靠性。",
+      "relevant": "随着AI智能体从演示走向生产部署，可靠性成为核心瓶颈。如果智能体只有60%的时间能正确完成任务，在企业自动化场景中几乎不可用。这项研究提醒开发者和企业：评估智能体不能只看\"能不能做\"，还要看\"能不能稳定地做\"。",
+      "context": "当前AI行业正大力推动智能体（Agent）落地，从编程助手到自动化工作流，各大公司都在构建能自主执行多步骤任务的AI系统。然而，现有的评测基准（如SWE-bench等）通常只运行一次任务就判定成功或失败，忽略了AI模型输出本身具有随机性这一事实。IBM Research针对这一问题，提出了衡量智能体一致性的新方法。",
+      "source_analysis": "本文来自IBM Research在Hugging Face官方博客上发布的研究博文，属于研究团队自行发布的技术成果，目的是推广其ALTK-Evolve评估框架。Hugging Face博客是AI研究社区的重要发布渠道，内容以技术导向为主，但发布方对自身工具有推广动机。",
+      "social_impact": "该研究揭示了AI智能体评估中的一个系统性问题，可能影响企业对AI智能体部署的信心和决策。如果行业不重视一致性评估，可能导致大量AI智能体在实际生产环境中表现远低于预期，造成资源浪费甚至业务风险。",
+      "source_text": "Your Agent Aced the Task. Will It Do It Again? That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper. Most benchmarks hide this variability behind an average. On AppWorld, a ReAct agent using GPT-4.1 succeeded on 77.4% of runs across five repetitions. But it succeeded in all five runs for only 53.0% of tasks — a 24.4-point consistency gap. Most benchmarks report the first number. We built a way to measure the second — and improve it. In an earlier post, we introduced ALTK-Evolve — a system that turns an agent's own past trajectories into reusable guidelines, distilled automatically and injected back at inference time. It measurably improves task success, but those results only asked the average-case question too. This post introduces consistency guidelines, a new guideline type in altk-evolve built on top of a diagnostic tool we call the Consistency Analyzer, that targets this gap directly. TL;DR - Accuracy hides an unreliability problem. A ReAct agent (GPT-4.1 on AppWorld test_normal ) that succeeds 77.4% of the time on average succeeds on all 5 repeated runs for only 53.0% of tasks — a 24.4-point consistency gap. On hard tasks it reaches 30 points. - We built a diagnostic for exactly this. The Consistency Analyzer resamples an agent's own recorded trajectory to find flip-prone decision points — steps where the model was one token-sample away from doing something different. It needs one trace and no ground truth — it resamples each decision point in that trace with a single call requesting k completions (k=5 by default), rather than re-running the task end-to-end. - Turning that diagnosis into guidelines halves the gap — from 24.4pp to 12.0pp (same-task Pass⁵ +16.0pp, similar-task +13.0pp), without costing anything in average accuracy. - Full methodology and evaluations are in the technical report on arXiv. The Metric Almost Nobody Reports Standard agent evaluation reports Mean@k: run a benchmark k times, average the pass rate. Often k=3, sometimes just 1. It's the number on every leaderboard, and it's what \"77% accurate\" means in practice. Mean@k answers \"how good is this agent, on average?\" It does not answer the question a real user cares about: will it still be good if I ask this exact question again? For that y",
+      "source_title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "OpenAI 将 Habitat 存储平台扩展至服务 10 亿 ChatGPT 用户，每秒处理 2200 万请求",
+      "entities": [
+        {
+          "name": "Habitat",
+          "explain": "OpenAI 自研的分布式存储平台，最初只是一个 Python 库，现用于支撑 ChatGPT 的海量数据读写"
+        },
+        {
+          "name": "ChatGPT",
+          "explain": "OpenAI 推出的对话式 AI 产品，全球用户数已超过 10 亿"
+        },
+        {
+          "name": "每秒请求数（RPS）",
+          "explain": "衡量系统吞吐量的指标，表示服务器每秒能处理的请求数量"
+        }
+      ],
+      "summary": "OpenAI 发文介绍其存储平台 Habitat 的演进历程：从最初的 Python 库发展为全球分布式存储系统，目前支撑超过 10 亿 ChatGPT 用户，峰值处理能力达每秒 2200 万次请求。文章分享了这一规模化过程中的工程挑战与架构决策。",
+      "relevant": "10 亿用户和 2200 万 RPS 是 AI 产品基础设施规模的标志性数字，对理解大模型服务的工程门槛具有参考价值。",
+      "context": "随着 ChatGPT 用户量爆发式增长，原有存储架构无法满足需求，OpenAI 对 Habitat 进行了从单机库到全球分布式平台的彻底重构。",
+      "source_analysis": "消息来自 OpenAI 官方博客，属于企业自身技术宣传，侧重展示工程能力，未披露具体成本或故障数据。",
+      "social_impact": "10 亿用户、2200 万请求/秒的数据反映了 AI 应用对云计算基础设施提出的极端要求，可能推动行业对存储系统设计的重新思考。",
+      "source_text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users How we adapted our application storage platform, Habitat, in Python to manage unprecedented growth. By Jon Lee, Chaomin Yu, and Ben Ries, Members of Technical Staff Every OpenAI product depends on fast, reliable access to data, whether someone is logging in, checking their Codex settings, or starting a new conversation in ChatGPT. Each of those actions may require many separate data lookups before the product can respond. If those requests are slow, the product feels slow. If those requests fail, the product stops working entirely. Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Habitat first launched to support GPTs at DevDay 2023, starting as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data. Building and operating infrastructure at this scale is no easy feat, but also not particularly challenging. What made our situation unique is the unprecedented rate at which we’ve had to scale to support staggering user growth and product demand while simultaneously building out a mature platform. Often, system engineers build for 10x scale, and hope for it to hold for a few years while preparing for the next 10x. In our case, we've grown more than 10x year-over-year for the last three years. As a result, building and operating Habitat has been a series of tactical decisions and sequencing: understanding each component at the lowest level to squeeze as much juice out of our existing stack, while fending off storage and compute capacity crunches to buy time for foundational investments. - 70M+requests per second - 1B+people each week - 500 PB+data As OpenAI grew, Habitat had to grow with it: first by becoming reliable enough for mission-critical product traffic, then fast enough for global users, and finally, to deftly operate at massive scale. This post is the first in a two-part series on how we scaled online storage. In this post, we’ll share how Habitat evolved, why we turned it from a library into a service, and how we stretched a service written in an uncommon serving stack language—Python—into a reliable storage platform layer. In a future post, we’ll go into det",
+      "source_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind 发布 WeatherNext 3，称其为最先进、最准确的全球天气 AI 模型",
+      "entities": [
+        {
+          "name": "WeatherNext",
+          "explain": "Google DeepMind 开发的 AI 天气预报模型系列，利用机器学习预测全球天气"
+        },
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下专注人工智能研究的实验室，开发了 AlphaGo、AlphaFold 等知名 AI 系统"
+        }
+      ],
+      "summary": "Google DeepMind 发布 WeatherNext 3，宣称是其迄今最先进、最准确的全球天气 AI 模型。该模型延续 WeatherNext 系列，旨在用 AI 提升全球天气预报的精度和效率。",
+      "relevant": "AI 天气预报是 AI for Science 的重要落地场景，WeatherNext 系列的迭代可能对气象行业和灾害预警产生实际影响。",
+      "context": "DeepMind 此前已推出 GraphCast、WeatherNext 等 AI 气象模型，逐步验证 AI 在中期天气预报上可超越传统数值方法，WeatherNext 3 是该方向的持续迭代。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属于企业官方发布，措辞带有宣传性质（“most advanced and accurate”），缺乏第三方独立验证。",
+      "social_impact": "更准确的全球天气预报可提升极端天气预警能力，对农业、航空、防灾等领域有潜在社会价值。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "被英伟达点名的杭州团队推出 AI for Science 工具，号称一次对话完成从想法到结果",
+      "entities": [
+        {
+          "name": "AI for Science",
+          "explain": "用人工智能加速科学研究（如材料发现、药物设计）的交叉领域"
+        },
+        {
+          "name": "英伟达",
+          "explain": "全球最大的 GPU 和 AI 计算芯片厂商，其点名通常意味着对技术方向的认可"
+        },
+        {
+          "name": "量子位",
+          "explain": "中国专注人工智能领域的科技媒体"
+        }
+      ],
+      "summary": "量子位报道，一个被英伟达点名的杭州团队推出了 AI for Science 方向的新工具，主打“从想法到结果，一次对话实现”，意在补上 AI 辅助科学研究的“最后一公里”。报道未在摘要中披露团队名称和具体技术细节。",
+      "relevant": "AI for Science 是当前热门方向，英伟达的背书和“最后一公里”的定位暗示该工具试图解决科研流程中从假设到验证的自动化瓶颈。",
+      "context": "AI for Science 领域已有 AlphaFold 等成功案例，但多数工具仍需要科学家手动编写代码、配置流程，该团队试图用对话式交互降低使用门槛。",
+      "source_analysis": "消息来自量子位，属于科技媒体报道，标题带有一定宣传色彩（“被英伟达点名”），需关注其是否提供了独立的技术验证。",
+      "social_impact": "若工具确实能实现对话式科研自动化，可能降低 AI for Science 的使用门槛，让更多非计算背景的科学家受益。",
+      "source_text": "被英伟达点名的杭州团队，补上了AI for Science的「最后一公里」 从想法到结果，一次对话实现 杰西卡 发自 凹非寺 量子位 | 公众号 QbitAI AI for Science的竞争，正在向科研闭环延伸。 以蛋白设计为例，尽管蛋白模型越来越强，但真正想设计一个分子，研究人员还需要找文献、查结构，再下载权重、配置环境，把计算任务送上服务器。 等模型给出结果，还要换个工具看结构、做筛选，判断哪些候选值得继续……一次计算跑完，下一步从哪里开始，往往仍靠研究人员把各个环节接起来。 现在，这些隐藏在模型前后的工作，开始被AI公司重新审视。 今年4月，OpenAI推出面向生命科学的GPT-Rosalind；6月，Anthropic发布Claude Science；8月，Anthropic又公布Agent参与蛋白质设计、衔接外部实验验证的研究。 这些进展指向同一个变化：AI不再只负责模型本身的计算环节，也开始参与模型前后的研究工作，可以分析结果、调整方案，继续推进任务。 国内，也已经有团队走到了类似的交叉路口。 杭州一家AI蛋白质设计公司力文所，他们近日发布了Lévin™ Harness，面向科研社区开放使用。 它把数据、模型、插件工具、算力和工作流放进了同一个Agent工作区，由研究人员定义目标、方法和关键决策，Agent则据此推进计算、分析结果，再根据反馈调整下一轮方案。 在Lévin™ Harness中，用户可以选择专业的科学模型和分析工具完成蛋白质结构预测、序列设计等计算任务，但Lévin™ Harness本身不绑定特定模型，通用模型层保持开放。 新的模型和科学能力，还可以通过插件继续加入，任何人都可以为自己的模型、想加入Agent能力的模型制作专属插件。 不仅如此，一套研究方法跑通之后，还可以沉淀为Workflow，用于重复运行和继续修改。 Lévin™ Harness的核心职责，就是把模型、工具、算力和研究过程组织到同一条工作链上。 这解决的恰恰是AI for Science当下正在面临、比单次推理复杂得多的问题： 如何让这些智能真正进入科研现场，并且持续工作下去。 AI模型解决科学问题，Agent开始组织科研闭环 力文所发布的Lévin™ Harness，是一款以Agent为核心的蛋白质设计应用，也可以近似理解为一个专门服务生命科学研究的Agent工作台。 在同一个工作台里，研究者可以提出目标、查看分子结构、组织计算，也可以在结果出现后修改方案。这些动作始终围绕同一个项目进行，前一步得到的信息能够继续供后一步使用。 这里的Agent，依靠通用大模型（DeepSeek、Kimi、GLM、Qwen、小米MiMo等开放模型）理解研究人员的需求、规划步骤，再调用相应工具执行任务，用户只需要用自然语言描述需求；专门训练的科学模型和分析工具会承担蛋白质结构预测、序列设计等计算任务。 Harness则负责连接这些能力与所需数据、算力，并保留研究过程。 研究人员只需负责科学目标、方法和关键决策，且随时可以审阅结果、补充条件或纠正方向。 这套分工，本质上是为了尽可能缩短从想法到结果的路径，让复杂的设计过程集中在同一个对话式工作环境里完成。即便是不懂程序的科研人员，也能快速完成蛋白质设计。 那么具体怎么实现这种「端到端」过程呢？可以用蛋白binder设计任务举个例子： binder是能够与目标蛋白结合的蛋白分子。传统的binder设计，需要研究人员弄清楚它需要结合哪个靶点、结合什么位置，以及希望通过这种结合实现什么目的。 明确这些问题后，团队才能给设计模型提出约束，生成候选，再筛选出值得投入实验的分子。 这条路径中的每一步，都会影响后面的选择。因此，任务从一开始，就需要把文献、结构和设计条件放在一起考虑。 而在Harness里，研究人员可以提出针对某个靶点设计binder的目标，由Agent参与靶点调研、整理相关信息，辅助分析可选择的结合位置，研究者再根据研究目的确定方法和约束，让后续计算有明确的方向。 不过这里可能存在一个问题，就是Agent需要“看懂”研究人员正在研究的分子。 蛋白质由氨基酸连接而成，链中的氨基酸单元通常被称为残基。这条链会折叠成三维结构，序列中相距很远的残基，可能在空间中彼此靠近。 Binder能否与靶点形成合适的结合界面，就与这些空间关系直接相关。所以研究人员选中了哪个残基、正在比较哪两种构象等信息，也需要纳入Agent的工作范围。 为此，力文所在Agent工作区内置了三维分子可视化工具，屏幕上的分子结构信息及相关操作，可以直接转化为Agent的上下文，让对话指向一个明确的研究对象。 研究者在对话中提出“这里”这样的模糊词汇，Agent也能理解具体的空间位置；后续是否调整某个残基，进一步检查局部相互作用，也有了可供共同审阅的依据，结构分析因而能够跟着任务贯穿设计过程。 有了判断依据，下一步就是把设计思路落实为计算。 蛋白质设计领域已有不少专业工具出现，比如AlphaFold等模型用于结构预测，ProteinMPNN可以为给定结构设计氨基酸序列，Pallatom面向全原子蛋白质生成，RFantibody则服务于抗体设计……Agent会根据任务意图自行选择相应能力。 不过工具一旦多了，使用它们本身也会产生工作量。不同模型的输入、输出和运行环境未必一致，上一项计算的文件怎样交给下一项工具，设计条件怎样转换成参数，都需要有人处理。 为了解决这个问题，Lévin™ Harness通过定制的插件系统，把专业能力接进了同一套环境。 对于已经接入的插件，系统可以自动完成工具的下载、安装和调用，Agent再根据目标自行选择合适的工具、配置参数，串联相应计算。 而且用户还可以继续通过插件加入新的模型和科学能力，搭建自己的专属插件，保留了研究方法的选择空间。 与此同时，计算资源同样接入了这条工作链。 结构生成和批量筛选常常需要持续运行GPU作业，Harness则可以连接本地工作站，或把任务提交到远程GPU服务器，",
+      "source_title": "被英伟达点名的杭州团队，补上了AI for Science的「最后一公里」",
+      "source_url": "https://www.qbitai.com/2026/09/490185.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 29,
+      "title": "Java 27 正式发布：G1 成为全局默认垃圾回收器，后量子加密进入 TLS 1.3",
+      "entities": [
+        {
+          "name": "Java 27",
+          "explain": "Oracle 主导的 Java 编程语言最新功能版本，2026 年第二个版本，包含 9 个 JEP（JDK 增强提案）"
+        },
+        {
+          "name": "G1 垃圾回收器",
+          "explain": "Java 虚拟机中负责自动回收不再使用内存的组件，G1 是其中一种以低延迟为目标的实现"
+        },
+        {
+          "name": "JEP",
+          "explain": "JDK Enhancement Proposal，Java 官方用来描述和追踪新功能的标准化提案文档"
+        },
+        {
+          "name": "后量子加密",
+          "explain": "能抵抗未来量子计算机攻击的新一代加密算法，防止量子计算机破解现有加密体系"
+        },
+        {
+          "name": "TLS 1.3",
+          "explain": "互联网上保护数据传输安全的主流加密协议版本，用于 HTTPS 等场景"
+        }
+      ],
+      "summary": "Java 27 于 9 月 15 日正式 GA，这是 2026 年第二个功能版本，共包含 9 个 JEP。最核心的改动是 G1 垃圾回收器成为所有环境的默认 GC（JEP 523），统一了此前不同部署环境下默认值不一致的问题。此外，后量子加密算法被集成进 TLS 1.3 支持，标志着 Java 平台开始为量子计算威胁做前瞻性准备。",
+      "relevant": "Java 是全球企业级后端开发最主流的语言之一，默认 GC 统一和后量子加密的引入直接影响数百万开发者的部署配置和安全策略。",
+      "context": "Java 此前在不同部署环境（如服务器、桌面、容器）下默认使用不同的垃圾回收器，导致开发者需要针对环境手动调优。G1 在之前版本中已在部分场景成为默认，此次统一为全局默认。后量子加密则是近年来 NIST 等机构推动的标准化方向，Java 将其纳入 TLS 1.3 支持属于平台层面的跟进。",
+      "source_analysis": "开源中国（OSChina）是国内知名的开源技术社区媒体，报道偏向客观技术解读，面向开发者群体。",
+      "social_impact": "Java 拥有全球数百万开发者用户，默认 GC 统一将减少因环境差异导致的性能调优成本；后量子加密进入 TLS 1.3 意味着企业级 Java 应用可提前应对量子计算对现有加密体系的潜在威胁。",
+      "source_text": "Java 27 正式发布：G1 成为默认垃圾回收器，后量子加密进入 TLS 1.3。Java 27 今天（9 月 15 日）正式 GA，这是 2026 年的第二个功能版本，包含 9 个 JEP。当中有几个挺值得说明的转向。 最实在的改动是 G1 成了所有环境的默认垃圾回收器（JEP 523）。以前 G1 只在某些环境默认，这次统一了行为，让开发者在使用 Java 27 时默认就有一个稳定的 GC 配置，不用再为不同部署环境踩不同的默认值...",
+      "source_title": "Java 27 正式发布：G1 成为默认垃圾回收器，后量子加密进入 TLS 1.3",
+      "source_url": "https://www.oschina.net/news/502512/oracle-the-arrival-of-java-27",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 30,
+      "title": "2026 年 AI 推理硬件革命到来：推理模型反复自问导致显卡大半时间闲置",
+      "entities": [
+        {
+          "name": "AI 推理",
+          "explain": "AI 模型训练完成后，用训练好的模型对新输入进行计算并给出结果的过程，区别于训练阶段"
+        },
+        {
+          "name": "黄仁勋",
+          "explain": "NVIDIA 创始人兼 CEO，全球 AI 算力芯片最重要的推动者"
+        },
+        {
+          "name": "GTC 2026",
+          "explain": "NVIDIA 每年举办的 GPU 技术大会，是 AI 硬件领域最重要的发布会之一"
+        },
+        {
+          "name": "Chain of Thought",
+          "explain": "思维链，推理模型在给出最终答案前会一步步自我追问和推导的计算方式"
+        },
+        {
+          "name": "IEEE Spectrum",
+          "explain": "IEEE（电气电子工程师学会）旗下的旗舰技术杂志，权威工程科技媒体"
+        }
+      ],
+      "summary": "IEEE Spectrum 特稿指出，2026 年 AI 叙事从训练大模型转向推理，黄仁勋在 GTC 2026 上称这一年为推理的拐点。推理模型通过思维链反复自我追问，导致 GPU 在推理过程中有大半时间处于闲置状态，硬件利用率极低。这一矛盾正在倒逼整个硬件行业改变设计思路，从追求峰值算力转向提升实际推理效率。",
+      "relevant": "AI 推理已成为算力消耗的主战场，GPU 利用率低下意味着巨大的成本浪费，硬件设计方向的转变将影响整个 AI 产业链的投入产出比。",
+      "context": "过去几年 AI 行业的核心叙事是训练更大的模型，算力需求集中在训练阶段。随着推理模型（如具备思维链能力的模型）普及，推理阶段的算力消耗急剧上升。但推理模型逐步推导的特性导致 GPU 计算单元在等待中间结果时大量空闲，传统为训练优化的 GPU 架构不再适配推理场景。",
+      "source_analysis": "报道源自 IEEE Spectrum 特稿，经开源中国编译转载。IEEE Spectrum 是工程科技领域的权威媒体，立场偏向技术分析而非商业宣传。",
+      "social_impact": "GPU 利用率低下直接推高 AI 推理的部署成本，若硬件行业成功转向推理优化，将大幅降低 AI 应用的运营成本，加速 AI 在各行业的落地。",
+      "source_text": "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着。过去几年 AI 的叙事几乎全在&quot;训练更大的模型&quot;，到 2026 年，风向变了。黄仁勋在 GTC 2026 上把这一年叫做&quot;推理的拐点&quot;。IEEE Spectrum 这篇特稿想说明的一件事是：推理其实和你想象的不一样，它正在逼着整个硬件行业换打法。 先说为什么推理突然变成主角。推理模型会一遍遍自我追问（chain of thought），高推理强度下产...",
+      "source_title": "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着",
+      "source_url": "https://www.oschina.net/news/502511/ieee-inference-hardware-revolution",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 40,
+      "title": "Google 发布 Gemini 3.8 Live 及 3.8 Live Extended Thinking 模型",
+      "entities": [
+        {
+          "name": "Gemini",
+          "explain": "Google 推出的大语言模型系列，与 OpenAI 的 GPT 系列、Anthropic 的 Claude 系列竞争"
+        },
+        {
+          "name": "Extended Thinking",
+          "explain": "扩展思考模式，模型在回答前进行更长时间的内部推理，以提升复杂问题的准确率"
+        },
+        {
+          "name": "Live",
+          "explain": "指模型支持实时交互能力，可能包括实时语音、视频等多模态交互场景"
+        }
+      ],
+      "summary": "Google 在官方博客发布 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 两款新模型。Live 版本主打实时交互能力，Extended Thinking 版本则强化了复杂推理场景下的深度思考能力。此次发布是 Google 在 AI 大模型竞赛中的最新动作，具体性能参数和基准测试结果需查阅官方博客原文。",
+      "relevant": "Gemini 是 Google 在 AI 大模型赛道的主力产品，新版本发布直接影响与 OpenAI、Anthropic 等竞争对手的格局。",
+      "context": "Google 的 Gemini 系列持续迭代，此前已推出多个版本。Extended Thinking 模式是近年来推理模型的主流方向，OpenAI 的 o 系列和 Anthropic 的 Claude 均已推出类似能力。Google 此次将 Live 实时交互与 Extended Thinking 结合，属于产品线扩展。",
+      "source_analysis": "消息来源为 Google 官方博客，属于厂商自主发布，内容以官方口径为准，可能存在选择性披露。",
+      "social_impact": "",
+      "source_text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. On ServiceNow’s EVA-Bench, a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early verbal cues like “Let me check",
+      "source_title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 41,
+      "title": "研究者提出让 LLM 在强化学习中学会永不放弃以解决难题",
+      "entities": [
+        {
+          "name": "强化学习（RL）",
+          "explain": "一种让 AI 通过试错和奖励信号来学习策略的机器学习方法，AlphaGo 就使用了这种技术"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等能理解和生成人类语言的 AI 模型"
+        },
+        {
+          "name": "Never Give Up（NGU）",
+          "explain": "本文提出的方法核心思想，让模型在面对困难问题时持续尝试而非过早放弃"
+        }
+      ],
+      "summary": "研究者发表论文（arXiv:2609.13443），探讨如何通过强化学习让大语言模型在面对难题时学会坚持不放弃。该方法旨在提升 LLM 在复杂推理任务中的表现，避免模型在遇到困难时过早输出错误答案。具体技术细节和实验结果需查阅论文原文及作者博客。",
+      "relevant": "提升 LLM 在困难任务上的坚持能力，是当前 AI 推理研究的前沿方向之一，可能对模型在数学、编程等需要多步推理的场景产生重要影响。",
+      "context": "当前 LLM 在面对高难度问题时，常因推理链断裂或过早收敛而给出错误答案。强化学习被广泛用于对齐和提升 LLM 能力，但如何让模型学会在困难面前持续尝试而非放弃，仍是一个开放问题。该论文提出了针对性的方法。",
+      "source_analysis": "消息来自 Hacker News 社区推荐，原始论文发布于 arXiv 预印本平台，作者个人博客提供解读。arXiv 论文未经同行评审，结论需谨慎对待。",
+      "social_impact": "",
+      "source_text": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up Table of Contents This is a blog post for my recent paper on RL post-training of LLMs: introducing the Matthew Effect and proposing to solve it with Never Give Up. It is presented interactively and less formally, more like how I give the talk. For a deeper, more technical dive, check out the paper on arxiv and code on github. What is your eval actually measuring? # Every good RL practitioner has no doubt seen an eval curve go up. Here is the AIME 2025 eval during our RL training of Olmo 3.1 RL-Zero Math (1)see Olmo 3.1 blog post and arxiv What does this curve really mean? Our eval is an average over 30 AIME questions. Let’s break those 30 questions down into 3 levels of difficulty. Every question that our initial, pre-RL model gets 0 for pass@32 will be labelled “hard”. The other questions we’ll divide evenly by into “medium” and “easy” based on their pass-rates. So our initial pass@1 averages will be 0%, 3.8%, 22.7% for our subsets. How do you think performance on each subset will evolve? Averaging our AIME eval was hiding something important: the majority of our improvements are coming from the easiest problems going from somewhat solved to mostly solved. The hardest problems are barely improving. This is clearly visible if you look at how each example’s solve rate changes over time (see plot in the margin). But this is for math RL on LLMs. What about other domains? We evaluate code RL and agentic RL using Deepcoder and DeepSWE, two nice open-source projects that released models and logs. We can use the initial model to split each benchmark into difficulty buckets (Deepseek-R1-Distilled-Qwen-14B on LCBv6) or we can use existing task length/difficulty labels (SWEBench). The gains from RL are proportional to how easy the problems are. We connect this bias to a similar phenomenon in network science and economics, the Matthew Effect (2)Merton (1968), also see Wikipedia , generally summarized as “the rich get richer”. We therefore propose The Matthew Effect in RL for LLMs RL improves performance on a task in proportion to a model’s initial competence—making easy tasks easier while hard tasks often remain difficult. What causes the Matthew Effect? # You might assume the issue has to do with GRPO. If we just don’t get a correct answer to our problem in our $k$ sampled completions, then we don’t get any gradient and can’t improve on this problem. (3)Xiong et al (2025) call this signal loss One pos",
+      "source_title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "source_url": "https://mnoukhov.github.io/posts/ngu/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 19,
+      "title": "Anthropic 开源 Claude 商业代理参考蓝图，覆盖零售、电信、娱乐四大行业",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "开发 Claude 大语言模型的 AI 公司，由前 OpenAI 研究人员创立"
+        },
+        {
+          "name": "Claude",
+          "explain": "Anthropic 推出的大语言模型系列，与 GPT、Gemini 竞争"
+        },
+        {
+          "name": "Commerce Agents",
+          "explain": "商业代理，指能帮用户完成购物、商家管理后台等商业任务的 AI 智能体"
+        },
+        {
+          "name": "Messages API",
+          "explain": "Anthropic 提供的调用 Claude 模型进行对话的编程接口"
+        },
+        {
+          "name": "Claude Agent SDK",
+          "explain": "Anthropic 提供的用于构建 AI 智能体应用的开发工具包"
+        }
+      ],
+      "summary": "Anthropic 在 GitHub 开源了 commerce-agents 项目，提供构建购物代理和商家代理的参考蓝图。购物代理嵌入企业 App 面向消费者，商家代理供员工管理后台使用。项目包含零售、商业、电信、娱乐四个可运行的垂直行业示例，所有公司品牌均为虚构，不涉及真实交易。代理定义一次即可在 Messages API、Claude Agent SDK 和 Managed Agents 上运行。",
+      "relevant": "这是 Anthropic 在 AI 智能体商业化落地方面的重要开源动作，为开发者提供了可直接参考的行业模板，降低了构建商业 AI 代理的门槛。",
+      "context": "AI 智能体（Agent）是当前大模型应用的热门方向，但如何将智能体落地到具体商业场景仍缺乏标准化参考。Anthropic 此前已推出 Agent SDK 和 Managed Agents 等基础设施，此次开源 commerce-agents 是在应用层提供示范。",
+      "source_analysis": "消息来自 GitHub 项目页面，由 Anthropic 官方发布，属于厂商自主开源行为，内容以官方文档为准。",
+      "social_impact": "项目明确所有公司品牌均为虚构，不执行真实下单或支付操作，商家写操作需人工审批，体现了对 AI 代理安全边界的重视。四个行业示例覆盖零售、商业、电信、娱乐，展示了 AI 代理在商业场景的广泛适用性。",
+      "source_text": "Two commerce agents built on Claude: a shopping agent a business embeds in its app for customers, and a merchant agent its staff use to run the back office. Each is defined once (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent SDK, and Managed Agents; four runnable verticals show both over the same libraries. Note Every company, brand, product, and person here is fictional; the only company is ACME. Nothing places an order, charges a card, or changes a live listing: checkout renders the cart for the host to complete, and every merchant write is staged until a person approves it. Business rules, authorization, and compliance are the deployment's. Python 3.11+ and Node 22. Clone, install, add a key, run a vertical: git clone https://github.com/anthropics/commerce-agents.git && cd commerce-agents python3 -m venv .venv && source .venv/bin/activate pip install -r requirements.txt # the seven packages and their pinned dependencies cp .env.example .env # add ANTHROPIC_API_KEY (cd examples && npm ci) # the eight web apps share one workspace python scripts/run_demo.py retail # API :8000 + storefront :3000 --merchant starts the portal instead of the storefront and --all starts both. The verticals are retail (:3000, portal :3100), travel (:3001, :3101), telecom (:3002, :3102), and entertainment (:3003, :3103); each README lists prompts to try on both surfaces. The Claude Code plugin scaffolds an agent on these packages against your systems, or reviews one you have. With the repo cloned as above (the plugin reads it as the reference): claude plugin marketplace add anthropics/commerce-agents claude plugin install commerce-builder@claude-commerce-agents claude /scaffold-commerce-agent a shopping assistant for our store The command asks about your stack, plays the plan back, and builds the project; /add-commerce-flow and /author-commerce-evals continue from there, and /review-commerce-agent starts from an agent that already exists (plugins/commerce-builder/). Each command also runs when a request matches its description, so naming it is optional. The shopping agent searches, compares, plans, fills the cart, answers order and policy questions, and remembers what a customer tells it. Its five flows are the skills in shopping-agent/skills/; a deployment implements StorefrontBackend over its catalog, cart, order, and policy systems. The merchant agent explains performance, maintains listings, acts on inventory and order alerts, prices an",
+      "source_title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "source_url": "https://github.com/anthropics/commerce-agents",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 10,
+      "title": "李博杰开源《深入理解 AI Infra》书稿：量化推导 LLM 推理与训练系统设计",
+      "entities": [
+        {
+          "name": "李博杰",
+          "explain": "本书作者，AI 基础设施领域研究者"
+        },
+        {
+          "name": "AI Infra",
+          "explain": "AI Infrastructure，指支撑 AI 模型训练和推理的底层软硬件系统，包括 GPU 集群、分布式训练框架等"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等能理解和生成人类语言的 AI 模型"
+        },
+        {
+          "name": "XeLaTeX",
+          "explain": "一种基于 LaTeX 的文档排版系统，适合排版包含大量数学公式的学术书籍"
+        }
+      ],
+      "summary": "李博杰在 GitHub 开源《深入理解 AI Infra：量化分析与系统设计》全书书稿，从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。项目包含全书正文、PDF 版本、配套计算工具与实验。作者推荐下载 PDF 阅读，因为书中有大量公式、表格和交叉引用，GitHub 的 Markdown 渲染常出现 LaTeX 公式显示不全或排版错位。",
+      "relevant": "AI Infra 是当前 AI 领域最紧缺的技术方向之一，系统性的开源教材有助于降低学习门槛，培养更多基础设施人才。",
+      "context": "随着大模型规模持续扩大，AI 基础设施（训练框架、推理优化、硬件选型等）成为制约 AI 发展的关键瓶颈。但市面上系统讲解 AI Infra 的教材较少，多数资料零散。作者以量化分析为方法论，从硬件约束出发推导系统设计，填补了这一空白。",
+      "source_analysis": "消息来自 GitHub Trending，项目采用 Apache-2.0 开源协议，属于个人开源贡献。",
+      "social_impact": "项目在 GitHub Trending 上榜，说明 AI Infra 学习需求旺盛。开源书稿加配套工具的形式，为开发者提供了从理论到实践的一站式学习资源。",
+      "source_text": "Tip 推荐下载 PDF 阅读。 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 main 后自动构建并发布到 Releases，上面的链接始终指向最新版。下方目录链接到各章 Markdown 源文件，便于查找原文和提交勘误；通读全书，仍建议下载 PDF。 《深入理解 AI Infra》是 GitHub 上获得 45k+ Star 的《深入理解 AI Agent：设计原理与工程实践》的姊妹篇。 写完《深入理解 AI Agent》后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。 更深层的变化是编程抽象的上移：从操作系统到模型上下文。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说，模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构。《计算机体系结构：量化研究方法》是我在体系结构领域的入门书，而 AI Infra 领域还缺少一本从硬件约束和模型架构出发、量化推导系统设计的书，这是我写作本书的动机。 贯穿全书的方法是从约束推导设计：先明确任务与质量要求，列出计算、存储、通信和依赖关系，对照硬件的容量、带宽和算力做数量级估算。这类估算人容易出错，AI 也一样：只算权重读取而忘了 KV 缓存，按峰值算力推算速度而不查带宽能否供给，把工作平分给多张卡却遗漏卡间通信，漏掉任何一项，结论都可能偏离几倍甚至几个数量级。估算还有另一层用意：读博时导师张霖涛博士反复叮嘱，优化一定要做到物理所允许的极限。本书贯彻这一习惯，先按第一性原理算出硬件允许的上限，再看实测离上限还有多远；差距不是模型漏了项，就是系统有可以去掉的开销。从 FPGA 加速 Bing 搜索排序、昇腾 AKG 算子生成到 UB 万卡互联，我反复遇到的是同一条线索：数据搬移。本书因此反复追问五个问题：搬什么、搬多少、搬几次、经过哪里、谁必须等它。 更多写作背景见前言。 下载 PDF（推荐） · 在线阅读 · 章节正文 · 配套实验 目前书稿仍是初稿，正在持续修订。 如果你已经调用过模型 API，或在自己的机器上运行过模型，想进一步弄清模型为什么慢、如何降低成本，这本书可以作为起点。从事系统、网络和芯片工作的工程师，以及相关方向的研究人员和学生，也能从书中看到各层设计与实际模型任务的联系。 阅读时需要一些 Python、线性代数和计算机系统基础，具体要求见前言。建议先读第 1—3 章，了解模型与负载，再根据自己的兴趣选择重点： - 做模型应用和推理服务，可以重点读第 8、9 章，再看第 11、12 章的任务环境与部署；遇到容量、算子或通信问题时，回到第 4—7 章追踪原因。 - 做系统或网络，可以重点读第 5—7 章，再看第 9、10 章，检查这些机制如何影响分布式推理与训练。 - 做芯片与体系结构，可以重点读第 4—7 章，并结合后续章节的任务算例，检查硬件指标如何转化为实际的服务能力。 - 希望系统学习，可以按目录顺序阅读，配合计算工具和实验，逐步核对自己的理解。 遇到书中的算例，不妨先自己估一下，再看推导和实验结果。也可以换成你正在使用的模型和硬件，看看结论是否改变。 配套计算工具可以用来复算书中的数字，也可以换一组模型和输入，估算资源需求。工具附有模型配置和结果索引，静态计算只需 Python 3.10+ 标准库，无需 GPU 或模型权重。 git clone https://github.com/bojieli/ai-infra-book.git cd ai-infra-book # 查看模型支持情况 python3 calculations/calc.py models # 估算 Qwen3-8B 在 8192-token prefill 下的逐算子资源需求 python3 calculations/calc.py forward --model qwen3-8b --tokens 8192 --format md 仓库使用 Git LFS 保存论文和较大的输入与测量记录，合计约 20 GB。为避免克隆时全部下载，.lfsconfig 默认跳过所有 LFS 文件，工作区中只留下指针；正文、配图和静态计算都不需要它们。复现某个实验时，只下载对应目录： git lfs install git lfs pull --include=\"experiments/ch05/05-01/**\" --exclude=\"\" 配套实验按章节存放在 experiments/chXX/XX-YY/ 中，每个实验都附有运行方法、输入条件和结果说明。需要 GPU 的实验会注明硬件与依赖要求；没有相应设备，也可以先阅读已有记录。复现或引用结果时，请留意所用的书稿版本、模型、硬件和输入参数。 阅读网站（Python 3.10+）： python3 -m venv .venv-site source .venv-site/bin/activate python -m pip install -r website/requirements.txt python scripts/build_site.py python scripts/check_site.py ",
+      "source_title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "source_url": "https://github.com/bojieli/ai-infra-book",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 12,
+      "title": "李博杰《深入理解 AI Infra》开源书稿在 GitHub AI 项目榜受关注",
+      "entities": [
+        {
+          "name": "李博杰",
+          "explain": "本书作者，AI 基础设施领域研究者"
+        },
+        {
+          "name": "AI Infra",
+          "explain": "AI Infrastructure，指支撑 AI 模型训练和推理的底层软硬件系统"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等能理解和生成人类语言的 AI 模型"
+        }
+      ],
+      "summary": "李博杰所著《深入理解 AI Infra：量化分析与系统设计》开源书稿在 GitHub AI 项目类别中受到关注。该书从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，包含全书正文、PDF、配套计算工具与实验。项目提供自动构建的 PDF 版本，推荐下载阅读以获得完整排版体验。",
+      "relevant": "与 #10 为同一项目的不同榜单收录，反映该书稿在 GitHub 社区的高关注度。",
+      "context": "同 #10，该书稿因系统讲解 AI Infra 且采用量化分析方法，在 GitHub 上获得较多关注，被多个榜单收录。",
+      "source_analysis": "消息来自 GitHub AI 项目榜单，属于平台自动推荐，反映社区热度而非编辑评价。",
+      "social_impact": "",
+      "source_text": "Tip 推荐下载 PDF 阅读。 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 main 后自动构建并发布到 Releases，上面的链接始终指向最新版。下方目录链接到各章 Markdown 源文件，便于查找原文和提交勘误；通读全书，仍建议下载 PDF。 《深入理解 AI Infra》是 GitHub 上获得 45k+ Star 的《深入理解 AI Agent：设计原理与工程实践》的姊妹篇。 写完《深入理解 AI Agent》后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。 更深层的变化是编程抽象的上移：从操作系统到模型上下文。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说，模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构。《计算机体系结构：量化研究方法》是我在体系结构领域的入门书，而 AI Infra 领域还缺少一本从硬件约束和模型架构出发、量化推导系统设计的书，这是我写作本书的动机。 贯穿全书的方法是从约束推导设计：先明确任务与质量要求，列出计算、存储、通信和依赖关系，对照硬件的容量、带宽和算力做数量级估算。这类估算人容易出错，AI 也一样：只算权重读取而忘了 KV 缓存，按峰值算力推算速度而不查带宽能否供给，把工作平分给多张卡却遗漏卡间通信，漏掉任何一项，结论都可能偏离几倍甚至几个数量级。估算还有另一层用意：读博时导师张霖涛博士反复叮嘱，优化一定要做到物理所允许的极限。本书贯彻这一习惯，先按第一性原理算出硬件允许的上限，再看实测离上限还有多远；差距不是模型漏了项，就是系统有可以去掉的开销。从 FPGA 加速 Bing 搜索排序、昇腾 AKG 算子生成到 UB 万卡互联，我反复遇到的是同一条线索：数据搬移。本书因此反复追问五个问题：搬什么、搬多少、搬几次、经过哪里、谁必须等它。 更多写作背景见前言。 下载 PDF（推荐） · 在线阅读 · 章节正文 · 配套实验 目前书稿仍是初稿，正在持续修订。 如果你已经调用过模型 API，或在自己的机器上运行过模型，想进一步弄清模型为什么慢、如何降低成本，这本书可以作为起点。从事系统、网络和芯片工作的工程师，以及相关方向的研究人员和学生，也能从书中看到各层设计与实际模型任务的联系。 阅读时需要一些 Python、线性代数和计算机系统基础，具体要求见前言。建议先读第 1—3 章，了解模型与负载，再根据自己的兴趣选择重点： - 做模型应用和推理服务，可以重点读第 8、9 章，再看第 11、12 章的任务环境与部署；遇到容量、算子或通信问题时，回到第 4—7 章追踪原因。 - 做系统或网络，可以重点读第 5—7 章，再看第 9、10 章，检查这些机制如何影响分布式推理与训练。 - 做芯片与体系结构，可以重点读第 4—7 章，并结合后续章节的任务算例，检查硬件指标如何转化为实际的服务能力。 - 希望系统学习，可以按目录顺序阅读，配合计算工具和实验，逐步核对自己的理解。 遇到书中的算例，不妨先自己估一下，再看推导和实验结果。也可以换成你正在使用的模型和硬件，看看结论是否改变。 配套计算工具可以用来复算书中的数字，也可以换一组模型和输入，估算资源需求。工具附有模型配置和结果索引，静态计算只需 Python 3.10+ 标准库，无需 GPU 或模型权重。 git clone https://github.com/bojieli/ai-infra-book.git cd ai-infra-book # 查看模型支持情况 python3 calculations/calc.py models # 估算 Qwen3-8B 在 8192-token prefill 下的逐算子资源需求 python3 calculations/calc.py forward --model qwen3-8b --tokens 8192 --format md 仓库使用 Git LFS 保存论文和较大的输入与测量记录，合计约 20 GB。为避免克隆时全部下载，.lfsconfig 默认跳过所有 LFS 文件，工作区中只留下指针；正文、配图和静态计算都不需要它们。复现某个实验时，只下载对应目录： git lfs install git lfs pull --include=\"experiments/ch05/05-01/**\" --exclude=\"\" 配套实验按章节存放在 experiments/chXX/XX-YY/ 中，每个实验都附有运行方法、输入条件和结果说明。需要 GPU 的实验会注明硬件与依赖要求；没有相应设备，也可以先阅读已有记录。复现或引用结果时，请留意所用的书稿版本、模型、硬件和输入参数。 阅读网站（Python 3.10+）： python3 -m venv .venv-site source .venv-site/bin/activate python -m pip install -r website/requirements.txt python scripts/build_site.py python scripts/check_site.py ",
+      "source_title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "source_url": "https://github.com/bojieli/ai-infra-book",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 16,
+      "title": "Human-Agent-Society 开源 Reef：面向自我改进智能体的持续学习基础设施",
+      "entities": [
+        {
+          "name": "Reef",
+          "explain": "一个开源 Python 库，为能自我改进的 AI 智能体提供持续学习的基础设施"
+        },
+        {
+          "name": "Continual Learning",
+          "explain": "持续学习，指 AI 模型在不遗忘旧知识的前提下不断学习新任务的能力"
+        },
+        {
+          "name": "Self-improving Agents",
+          "explain": "自我改进智能体，指能根据自身经验不断优化自身行为的 AI 代理"
+        },
+        {
+          "name": "PyPI",
+          "explain": "Python Package Index，Python 官方的第三方软件包仓库"
+        }
+      ],
+      "summary": "Human-Agent-Society 组织在 GitHub 开源 Reef 项目，定位为面向自我改进智能体的持续学习基础设施。项目以 Python 包形式发布在 PyPI（reef-infra），支持 Python 3.10+，采用 Apache-2.0 协议。Reef 旨在解决 AI 智能体在持续运行中如何不断学习新经验而不遗忘旧能力的问题。",
+      "relevant": "持续学习是 AI 智能体从演示走向长期自主运行的关键技术瓶颈，Reef 提供了开源基础设施，可能推动该领域的工程化进展。",
+      "context": "当前 AI 智能体多在固定任务上运行，缺乏在长期运行中持续积累经验的能力。持续学习领域长期面临灾难性遗忘等挑战，即模型学习新任务时忘记旧任务。Reef 试图为自我改进智能体提供一套持续学习的基础设施。",
+      "source_analysis": "消息来自 GitHub 项目页面，由 Human-Agent-Society 组织发布，属于开源社区贡献。",
+      "social_impact": "",
+      "source_text": "English | 中文 Reef is the first open-source infrastructure for continual self-improving agents. It connects agent inference, feedback, learning, and versioned delivery. Use it to train model weights with Slime and SGLang, or improve an agent's harness, including its prompts, rules, and skills. 🚀 Get started | 🗺️ Roadmap | 📣 Launch post | 💬 Join Discord | 📱 Join WeChat Group Use Reef when you want your agent to keep improving simply by learning from how you interact with your agent. Reef processes each learning cycle in four steps. The table also shows which modules implement each step. 💡 Note Reef's artifact and checkpoint functionality requires the git-lfs system package. Reef initializes Git LFS locally for its artifact repositories. We recommend uv for managing packages, and the commands below use it. uv venv && source .venv/bin/activate uv pip install reef-infra python3 -c \"import reef; print(reef.__version__)\"git lfs install git clone https://github.com/Human-Agent-Society/reef.git cd reef uv venv && source .venv/bin/activate uv pip install -e . python3 -c \"import reef; print(reef.__version__)\" Use the source checkout for development and for the training examples below. Reef supports two learning surfaces: model weights and agent harnesses. The deployment's recipe determines which surface its scenarios update. As a minimal example, start Reef as a pure inference server: uv run reef serve --inference.model-path Qwen/Qwen2.5-1.5B-Instruct The following example starts the SAO (arXiv:2607.07508) example deployment. Run it from a Reef checkout in an environment that satisfies the GPU requirements in Evolve your model. uv pip install -e \".[slime]\" && uv pip install --no-deps --group runtime export MODEL_PATH=\"Qwen/Qwen2.5-1.5B-Instruct\" export REEF_TOKEN=\"reef-local\" reef serve -c recipes/sao/examples/imo_answerbench/serve.yaml \\ --inference.model-path \"$MODEL_PATH\" \\ --reef.port \"8900\" curl -f http://127.0.0.1:8900/healthz # ready to serve Send inference requests through Reef and report a score for each response. The SAO recipe uses each eligible scored rollout to run a training step. Reef's inference endpoint is OpenAI- and Anthropic-compatible: /v1/chat/completions and /v1/messages take the provider's own request body. A request includes the x-reef-scenario header; a new name creates a scenario using the deployment's configured recipe. Requests do not select recipes. The response body uses the provider's OpenAI-compatible format. Reef adds the x-reef-agen",
+      "source_title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "source_url": "https://github.com/Human-Agent-Society/reef",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 31,
+      "title": "Cloudflare 推出新方案：网站可拒绝 AI 训练爬虫，同时保留搜索引擎收录",
+      "entities": [
+        {
+          "name": "Cloudflare",
+          "explain": "全球最大的 CDN 和网络安全服务商之一，为大量网站提供流量分发和防护服务"
+        },
+        {
+          "name": "混合用途爬虫",
+          "explain": "同一个爬虫程序既用于搜索引擎索引网页，又用于抓取数据训练 AI 模型，网站无法单独拒绝其中一种用途"
+        },
+        {
+          "name": "Disallow AI",
+          "explain": "Cloudflare 推出的新功能，允许网站站长在保留搜索引擎收录的同时，单独禁止 AI 训练爬虫抓取内容"
+        }
+      ],
+      "summary": "Cloudflare 推出新方案，允许网站站长在保持搜索引擎可见度的同时拒绝 AI 训练爬虫。此前站长面临两难：互联网上大型组织使用的爬虫多为混合用途，同一爬虫既做搜索索引又做 AI 训练，拒绝一个等于两个都拒绝。新方案将这两种用途拆分开来，站长可以单独禁止 AI 训练抓取。",
+      "relevant": "这关系到所有网站内容创作者的权益——能否在不失去搜索流量的前提下，决定自己的内容是否被用于 AI 训练。",
+      "context": "长期以来，Google 等搜索引擎的爬虫同时承担搜索索引和 AI 训练数据采集两种功能，网站站长无法单独拒绝后者。随着 AI 训练对内容的需求激增，站长对内容被无偿用于训练的不满日益加剧，Cloudflare 的方案正是回应这一矛盾。",
+      "source_analysis": "开源中国（OSChina）是国内知名的开源技术社区媒体，报道偏向技术中立，关注开源生态和开发者工具。",
+      "social_impact": "Cloudflare 服务覆盖全球大量网站，该方案若被广泛采用，可能改变 AI 公司获取训练数据的方式，影响整个 AI 训练数据供应链。",
+      "source_text": "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练。网站站长过去得在一个很别扭的选择里二选一：让内容被拿去训练 AI，或者冒着失去搜索可见度的风险拒绝。这个两难来自一个现实——互联网上最大的那些组织用的都是&quot;混合用途爬虫&quot;：同一个爬虫既做搜索索引，又做 AI 训练。你拒绝一个，等于两个都拒绝。 Cloudflare 近日推出的方案想把这个选择题拆开。新的 Disallow AI ...",
+      "source_title": "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练",
+      "source_url": "https://www.oschina.net/news/502510/cloudflare-accountable-mixed-use-ai-crawlers",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 42,
+      "title": "Cloudflare 官方博客发布混合用途 AI 爬虫的可问责方案",
+      "entities": [
+        {
+          "name": "Cloudflare",
+          "explain": "全球最大的 CDN 和网络安全服务商之一，为大量网站提供流量分发和防护服务"
+        },
+        {
+          "name": "可问责混合用途爬虫",
+          "explain": "Cloudflare 提出的概念，要求爬虫运营方明确声明用途，使网站可以区分搜索索引和 AI 训练两种抓取行为"
+        }
+      ],
+      "summary": "Cloudflare 在官方博客发布文章，详细阐述其针对混合用途 AI 爬虫的可问责方案。该方案旨在让网站站长能够区分搜索引擎索引和 AI 训练两种爬取用途，从而在保持搜索可见度的同时拒绝 AI 训练抓取。这是 Cloudflare 官方对 #31 新闻中所述方案的一手信息来源。",
+      "relevant": "作为 Cloudflare 官方博客，这是一手信源，提供了该方案的技术细节和官方立场。",
+      "context": "与 #31 同一事件。Cloudflare 此前已推出 AI Audit 等工具帮助网站管理 AI 爬虫，此次博客文章是对新方案的官方技术说明。",
+      "source_analysis": "Cloudflare 官方博客，代表公司自身立场，旨在推广其新功能并塑造行业标准。",
+      "social_impact": "",
+      "source_text": "Have it both ways: stay discoverable in search while disallowing AI training Without proper controls, website owners have long faced a difficult tradeoff: allow your content to be used for AI training, or risk losing discoverability in search. That tradeoff exists because some of the largest organizations on the Internet use mixed-use crawlers: a single crawler serving both search and AI training. Refuse one, and you refuse the other. Today, Cloudflare is announcing a new Disallow AI Training setting that lets you easily stay indexed for search while refusing to let that same crawler train on your content. Apple, Google, and Microsoft honor or have committed (in a specified time frame) to honor this setting. Mixed-use crawlers were the hard part of the training question. AI Summaries are next. A site-wide yes or no is too blunt: how much of your content appears in a summary matters as much as whether it appears at all. An opt-out for AI summaries is already one of the requirements we've set for mixed-use crawler operators. By early next year, our goal is to let you control how much of your content is included — set once on Cloudflare, rather than with each operator separately. Why asking isn’t enough Most site owners want to be found: by humans, agents, and (good) bots. But a significant portion of the open Internet is funded by advertising, subscriptions, or direct relationships with visitors, and those models only pay when someone actually arrives. Almost every site owner considers Search beneficial: less than 1% of Cloudflare sites choose to block Search bots. Training, however, is a different story: 17% of sites choose to enable some mechanism to block training. This is exactly why we decided site owners needed more granular controls, rather than a one-size-fits-all “Block AI.” A robots.txt directive alone cannot solve this problem. Anyone can publish one, but it cannot identify who is crawling, determine why they are crawling, or stop a crawler that ignores it. A network can solve it, however: we publish the preference, identify who is crawling, classify why they are crawling, and block the ones that ignore it – then report what each operator actually does on Radar. But blocking removes a crawler. It doesn't change how crawlers behave. The better outcome is operators that don't make you choose at all. So since July, we've been talking to them directly. The response has been encouraging: almost all agreed that site owners should have control and transp",
+      "source_title": "Stay discoverable in search while disallowing AI training",
+      "source_url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "source_name": "Hacker News",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_2e17c0c75247",
+      "source": "ArXiv cs.AI",
+      "title": "Agentic Societies Need a Social Harness",
+      "url": "https://arxiv.org/abs/2609.17527v1",
+      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in communication (``speech''). We argue that agentic societies need a \\emph{social harness} for inter-agent interactions, in addition to each agent's \\emph{personal harness}, which manages its private context and communication with its principal. We propose a layered architecture for social harnesses which (i) prevents classes of failures outright, (ii) enables agents to detect invalid messages at runtime, and (iii) supports post-facto investigation and consequences, and highlight directions for future research to realize these capabilities.",
+      "author": "Tapan Chugh, Vidushi Singh, Krish Jain"
+    },
+    {
+      "id": "arxiv_48114e8deb6f",
+      "source": "ArXiv cs.AI",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "url": "https://arxiv.org/abs/2609.17523v1",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: the inner recursion improves the harness with the model fixed, while the outer recursion trains the model under the improved harness. Harness evolution shapes training experience, and model learning creates new opportunities for harness adaptation. We present case studies of researcher interaction, harness refinement, and model learning, with the benchmark cases spanning four scientific task families. By releasing ScienceBuddy as a research product, we make this paradigm available to the scientific community and take a step toward discovery intelligence: scientific AI that advances through sustained collaboration with researchers and evolves alongside the research it supports. Website: http://science-buddy.io",
+      "author": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan"
+    },
+    {
+      "id": "arxiv_0d5133cae97f",
+      "source": "ArXiv cs.AI",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "url": "https://arxiv.org/abs/2609.17521v1",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory---positional maps and object tracking maps derived online from previously generated frames---and supports fine-grained motion control via sparse velocity-increment signals that encode physical quantities, letting the model learn the underlying dynamics. We train our model in two stages: a bidirectional model is first finetuned with motion-control conditioning, then a causal autoregressive model is trained with additional structured scene memory, further improving physical consistency. PhysStream enables interactive, mid-generation control over multi-object tabletop rigid-body scenes---a capability not supported by prior methods---reducing motion distribution distance (FVMD) by 33% and trajectory error by 12% over the strongest baselines on synthetic benchmarks, and is preferred by human evaluators in over 85% of in-the-wild comparisons. Please check our website for more details: https://czzzzh.github.io/PhysStream",
+      "author": "Chuhao Chen, Peter Wonka, Chaoyang Wang"
+    },
+    {
+      "id": "arxiv_672db501f85c",
+      "source": "ArXiv cs.AI",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "url": "https://arxiv.org/abs/2609.17516v1",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-CoSQ at τ=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under chain-of-thought prompting to 8.9%, a 32.1% relative reduction, while increasing answered accuracy from 86.9% to 89.7% and answering 87.6% of questions. Both improvements hold for all eleven models and at every evaluated threshold. Critical-CoSQ and Adaptive-CoSQ provide neighboring operating points with 88.6% and 86.5% coverage, respectively, while remaining more reliable than the baseline. A secondary Natural Questions Short-Answer evaluation provides convergent open-form evidence. These findings show that self-assessment can support explicit, tunable answer-or-abstain decisions when an unsupported commitment is more costly than referral or review.",
+      "author": "Ali Şenol"
+    },
+    {
+      "id": "arxiv_fc7a9decd3dc",
+      "source": "ArXiv cs.AI",
+      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+      "url": "https://arxiv.org/abs/2609.17509v1",
+      "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmentation boundaries, despite the residual embeddings at different quantization layers exhibiting different rates of change over time. We propose LACE (Layer-Adaptive Codec Encoding), a dynamic frame rate codec that applies an independent compression step at each quantization layer, enabling layer-specific segmentation boundaries. To use LACE tokens in downstream text-to-speech (TTS), we further introduce union alignment and boundary anchor mechanisms to make durations consistent across layers while preserving compression benefits. Experiments on LibriTTS show that LACE offers a better rate-quality tradeoff than prior dynamic frame rate methods on the reconstruction task and improves TTS inference efficiency while maintaining competitive synthesis quality. Our code is released as part of the ESPnet3 codec recipe.",
+      "author": "Thanapat Trachu, Samuele Cornell, William Chen"
+    },
+    {
+      "id": "arxiv_f0a2637dde63",
+      "source": "ArXiv cs.LG",
+      "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2609.17499v1",
+      "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty estimation in VLN. However, given that VLN agent requires a sequence of steps, standard calibration in conformal prediction fails to provide coverage guarantee it promises over a dependent, variable-length VLN episode. To this end, we propose Episode-Normalized Conformal Prediction (ENCP), which rescales a nonconformity score by the policy's residual confidence and calibrates one maximum score per episode. Under exchangeable calibration and test episodes, this construction covers the ground truth at every step with probability at least $1 - α$, while allowing dependence among steps within an episode. Across four VLN policies and three nonconformity scores on R2R and REVERIE dataset, ENCP meets all reported empirical step-coverage targets on the seen-to-unseen evaluation. These results demonstrate that ENCP can provide model-agnostic uncertainty estimates, which might be useful for determining when a VLN agent should defer to a more capable predictor, including human assistance.",
+      "author": "Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra"
+    },
+    {
+      "id": "arxiv_1ccda9bc64f1",
+      "source": "ArXiv cs.LG",
+      "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+      "url": "https://arxiv.org/abs/2609.17491v1",
+      "summary": "Unauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and directions, but their frequency and spatial dimensions exhibit different structural dependencies. We propose FreqSpaNet, an SFPF representation learning network for open set hardware anomaly detection. A frequency branch captures local variations among neighboring frequencies, while a geometry-aware spatial branch models directional relationships using angular information. The two representations are combined through adaptive fusion, and complementary pretraining further captures shared information while preserving the distinct characteristics of the frequency and spatial representations. Experiments show that FreqSpaNet achieves a mean AUROC of 96.31\\%, 9.05 points above the baseline. Results under seven hardware replacement scenarios further verify the effectiveness of FreqSpaNet.",
+      "author": "Xiaoxuan Huang, Jinlong Xu, YiZhe Wang"
+    },
+    {
+      "id": "arxiv_b337331e514d",
+      "source": "ArXiv cs.LG",
+      "title": "Bridging the Gap Between Homogeneous and Heterogeneous Asynchronous Optimization Is Surprisingly Difficult",
+      "url": "https://arxiv.org/abs/2609.17483v1",
+      "summary": "Modern large-scale machine learning tasks often require multiple workers, devices, CPUs, or GPUs to compute stochastic gradients in parallel and asynchronously to train model weights. Theoretical results typically distinguish between two settings: (i) the homogeneous setting, where all workers have access to the same data distribution, and (ii) the heterogeneous setting, where each worker operates on different data distributions. Known optimal time complexities in these settings reveal a significant gap, with far more pessimistic guarantees in the heterogeneous case. In this work, we investigate whether these pessimistic optimal time complexities can be overcome under different assumptions. Surprisingly, we show that improvement is provably impossible under widely used first- and second-order similarity assumptions for any randomized algorithm. We then turn to the interpolation regime and demonstrate that the weak interpolation assumption alone is also insufficient. Finally, we introduce a minimal combination of irreducible assumptions, strong interpolation and the local Polyak-Lojasiewicz condition, to derive a new time complexity bound that matches the dependence on worker computation times in the best-known result in the homogeneous setting, without requiring identical data distributions.",
+      "author": "Alexander Tyurin"
+    },
+    {
+      "id": "arxiv_df1f6062a156",
+      "source": "ArXiv cs.LG",
+      "title": "Bias-Induced Crossover in Absolute Capacity of Dense Associative Memory",
+      "url": "https://arxiv.org/abs/2609.17477v1",
+      "summary": "The absolute capacity of dense associative memory has mainly been analyzed for unbiased patterns. Here we examine the effect of bias in centered binary patterns under the Krotov-Hopfield single-site criterion $P_{\\mathrm{error}}=1/N$, where $P_{\\mathrm{error}}$ is the probability that a single-site flip lowers the energy of a stored pattern and $N$ is the number of neurons. Each pattern component takes $1-q$ with probability $q$ and $-q$ otherwise, where $0<q\\le1/2$. For polynomial interactions of order $n$, a signal-to-noise analysis gives an absolute capacity of order $N^{n-1}/\\ln N$ at $q=1/2$. For fixed $q<1/2$, however, the capacity is $O(N^{n/2})$ for even $n\\ge4$ and $O(N^{(n+1)/2})$ for odd $n\\ge5$. For $n=3$, both the unbiased and fixed-bias capacities remain $O(N^2/\\ln N)$. For $n\\ge4$, these different asymptotic forms imply a nonuniform large-$N$ limit near $q=1/2$. Asymptotic matching predicts a bias-induced crossover in the region $1-2q=O(\\ln N/N^{\\lfloor n/2\\rfloor-1})$. The crossover originates from a bias-dependent crosstalk mean that reduces the stability of sites carrying the more frequent value $-q$. Computer simulations are compared with the finite-size conditioned-Gaussian predictions. An activity-dependent control potential that cancels the conditional crosstalk mean restores the $N^{n-1}/\\ln N$ capacity for fixed $0<q<1/2$ within the conditioned-Gaussian approximation.",
+      "author": "Yuto Sakurai, Takeaki Shimokawa, Kazunori Iwata"
+    },
+    {
+      "id": "arxiv_2cd98348fe06",
+      "source": "ArXiv cs.LG",
+      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "url": "https://arxiv.org/abs/2609.17474v1",
+      "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and target-domain reward feedback is unavailable. We propose Coupled Calibration and Learning (CCL), an LLM distillation algorithm that couples teacher calibration with student updates through token-level branching, using reward feedback only on source questions. Each iteration calibrates the teacher using source feedback and then uses the calibrated teacher to train the student on target questions. The updated student, in turn, informs subsequent calibration. In an autoregressive policy framework, we prove that the output student's expected average Kullback-Leibler divergence to the oracle student converges to zero at a polynomial rate in the number of iterations. The oracle maximizes the true reference-regularized target reward within the student class, which need not represent the unrestricted optimal policy. Our analysis quantifies the progress of projected student gradient updates while controlling the error in teacher calibration. We further establish a separation from regularized direct matching: its error relative to the oracle student can remain bounded away from zero even when the teacher achieves higher regularized target reward than eve",
+      "author": "Haichen Hu, Yuheng Zhang, David Simchi-Levi"
+    },
+    {
+      "id": "arxiv_48114e8deb6f",
+      "source": "ArXiv cs.CL",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "url": "https://arxiv.org/abs/2609.17523v1",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: the inner recursion improves the harness with the model fixed, while the outer recursion trains the model under the improved harness. Harness evolution shapes training experience, and model learning creates new opportunities for harness adaptation. We present case studies of researcher interaction, harness refinement, and model learning, with the benchmark cases spanning four scientific task families. By releasing ScienceBuddy as a research product, we make this paradigm available to the scientific community and take a step toward discovery intelligence: scientific AI that advances through sustained collaboration with researchers and evolves alongside the research it supports. Website: http://science-buddy.io",
+      "author": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan"
+    },
+    {
+      "id": "arxiv_672db501f85c",
+      "source": "ArXiv cs.CL",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "url": "https://arxiv.org/abs/2609.17516v1",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-CoSQ at τ=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under chain-of-thought prompting to 8.9%, a 32.1% relative reduction, while increasing answered accuracy from 86.9% to 89.7% and answering 87.6% of questions. Both improvements hold for all eleven models and at every evaluated threshold. Critical-CoSQ and Adaptive-CoSQ provide neighboring operating points with 88.6% and 86.5% coverage, respectively, while remaining more reliable than the baseline. A secondary Natural Questions Short-Answer evaluation provides convergent open-form evidence. These findings show that self-assessment can support explicit, tunable answer-or-abstain decisions when an unsupported commitment is more costly than referral or review.",
+      "author": "Ali Şenol"
+    },
+    {
+      "id": "arxiv_870e954ce70a",
+      "source": "ArXiv cs.CL",
+      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+      "url": "https://arxiv.org/abs/2609.17515v1",
+      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-home datasets. Beyond aggregate task accuracy, we characterize degradation along two dimensions: action components (i.e., operation, device, argument, and value) and task complexity. Our results show that dense models have narrow safe pruning regions followed by sharp degradation, while MoE models tolerate substantially more pruning. Pruning degrades grounded specificity before schema-level intent, and aggressive dense pruning can induce systematic over-refusal. These findings highlight the importance of evaluating pruning beyond aggregate accuracy when selecting pruned LLMs for reliable tool execution.",
+      "author": "Congjing Zhang, Vashishtha Patil, Henning Lange"
+    },
+    {
+      "id": "arxiv_fc7a9decd3dc",
+      "source": "ArXiv cs.CL",
+      "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+      "url": "https://arxiv.org/abs/2609.17509v1",
+      "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmentation boundaries, despite the residual embeddings at different quantization layers exhibiting different rates of change over time. We propose LACE (Layer-Adaptive Codec Encoding), a dynamic frame rate codec that applies an independent compression step at each quantization layer, enabling layer-specific segmentation boundaries. To use LACE tokens in downstream text-to-speech (TTS), we further introduce union alignment and boundary anchor mechanisms to make durations consistent across layers while preserving compression benefits. Experiments on LibriTTS show that LACE offers a better rate-quality tradeoff than prior dynamic frame rate methods on the reconstruction task and improves TTS inference efficiency while maintaining competitive synthesis quality. Our code is released as part of the ESPnet3 codec recipe.",
+      "author": "Thanapat Trachu, Samuele Cornell, William Chen"
+    },
+    {
+      "id": "arxiv_21337e2ecdba",
+      "source": "ArXiv cs.CL",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://arxiv.org/abs/2609.17496v1",
+      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target agent with a hidden motive interacts with other agents including one representing the user, who then consults the evaluated assistant to infer the target's motive, providing verifiable ground truth by construction. Simulation faithfulness is validated through a human study with 24k annotations. We apply Fuse to 12 LLMs and demonstrate its analytical utility by systematically isolating key factors, showing that (i) user mediation compounds the inherent difficulty of social reasoning; (ii) LLMs exhibit systematic sensitivity to biased user framing; (iii) models can require more details than humans need to reach a correct prediction; and (iv) longer conversations do not always improve performance despite providing opportunities for clarifying questions. We open-source Fuse and a dataset with 21k examples.",
+      "author": "Amir Taubenfeld, Zorik Gekhman, Avigail Grinstein-Dabush"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Safety guardrails in open-weight language models can be readily bypassed using Refusal Feature Ablation (RFA), a technique that identifies and projects out a linear refusal direction from the residual stream, often achieving a high attack success rate (ASR) while preserving model capability. Defending against these attacks typically requires computationally expensive safety finetuning for every new checkpoint. We introduce Decoy Direction Optimization (DDO), a fast, post-hoc weight-editing defense that requires no base-model finetuning. Our approach is based on a simple mechanistic insight: ablation attacks rely on contrastive estimators to find the refusal direction. Rather than trying to hide the true refusal circuitry, DDO actively injects a high-magnitude, nonlinear decoy signal into the network's MLP neurons. When an attacker attempts to locate the refusal direction, the decoy corrupts their estimator, tricking them into ablating a harmless orthogonal feature while the actual safety mechanism remains intact. We prove a spectral bound formalizing this effect and evaluate DDO across six model families, achieving <10% ASR under standard RFA. On Llama-3-8B-Instruct, DDO remains comparable to trained defenses under adaptive multi-phase attacks (65% vs. 58% worst-case ASR) and reduces Heretic weight-level attack ASR from 88.7% to 18%, all at 30 to 450 times lower optimization cost per configuration than the trained baselines."
+    },
+    {
+      "id": "rss_2a795759c767",
+      "source": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "image": ""
+    },
+    {
+      "id": "rss_2bf1d614ae6e",
+      "source": "OpenAI",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "image": ""
+    },
+    {
+      "id": "rss_ffbfdfc5efb5",
+      "source": "OpenAI",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "image": ""
+    },
+    {
+      "id": "rss_ff2ddc3a4215",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_3ae11dfe2dea",
+      "source": "量子位",
+      "title": "量子位2026人工智能年度榜单，正式启动！",
+      "url": "https://www.qbitai.com/2026/09/490329.html",
+      "summary": "报名通道已开启，欢迎参与！",
+      "image": ""
+    },
+    {
+      "id": "rss_23ba57237811",
+      "source": "量子位",
+      "title": "被英伟达点名的杭州团队，补上了AI for Science的「最后一公里」",
+      "url": "https://www.qbitai.com/2026/09/490185.html",
+      "summary": "从想法到结果，一次对话实现",
+      "image": ""
+    },
+    {
+      "id": "rss_b5f2a18d9b25",
+      "source": "量子位",
+      "title": "把记忆交给CPU，大模型会变快",
+      "url": "https://www.qbitai.com/2026/09/489724.html",
+      "summary": "让GPU去忙生成Token",
+      "image": ""
+    },
+    {
+      "id": "rss_f1f0bd650174",
+      "source": "NVIDIA",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/Adobe-Express-UKairpollution-4.mp4"
+    },
+    {
+      "id": "rss_95126fcc0cee",
+      "source": "NVIDIA",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_7f5a23b00df0",
+      "source": "NVIDIA",
+      "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+      "summary": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/3026/09/Nvidia-Image-2-1680x881.jpg"
+    },
+    {
+      "id": "rss_72ddfac456d5",
+      "source": "MIT科技评论AI",
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_421afcdb76d6",
+      "source": "MIT科技评论AI",
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/h_16492684.jpg?w=840"
+    },
+    {
+      "id": "rss_9ca8bf26ec7c",
+      "source": "MIT科技评论AI",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_49be9e9343ab",
+      "source": "TechCrunch AI",
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "image": ""
+    },
+    {
+      "id": "rss_4cba69170f59",
+      "source": "TechCrunch AI",
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+      "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+      "image": ""
+    },
+    {
+      "id": "rss_a252fb98dfdb",
+      "source": "TechCrunch AI",
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+      "image": ""
+    },
+    {
+      "id": "rss_ec086b74918a",
+      "source": "HF Blog",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_1c81e0964bc3",
+      "source": "HF Blog",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_7745ee8d3237",
+      "source": "HF Blog",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "# ThreeUI Community\n\n> **Sponsor ThreeUI:** Linked README placements start at $500/month, with website placements from $1,500/month. [View sponsorship plans](https://threeui.com/sponsorship).\n\nThe open-source, login-free edition of ThreeUI. It uses the same application shell, layout, navigation, browse grid, search, themes, responsive behavior, component pages, live renderers, controls, variant picker, and source tabs as the main project.\n\nThe catalog is the only product-level difference: Pro and Beta components are removed. Every Community component keeps all of its free variants and controls.\n\n[Browse ThreeUI](https://threeui.com) · [View the source on GitHub](https://github.com/MengTo/threeui)\n\n![ThreeUI Community preview](assets/preview.jpg)\n\n## Sponsor ThreeUI\n\nSponsorship keeps the o",
+      "group": "community"
+    },
+    {
+      "id": "gh_1338470635",
+      "source": "GitHub Trending",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_1350984217",
+      "source": "GitHub Trending",
+      "title": "rakanki911/DLSS5-Swapper - Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/banner.png\" alt=\"DLSS 5 Swapper\" width=\"100%\">\n</p>\n\n<h1 align=\"center\">DLSS 5 Swapper</h1>\n\n<p align=\"center\">\n  Install and manage DLSS 5 Neural Rendering for compatible games and emulators.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases/latest\"><img src=\"https://img.shields.io/github/v/release/rakanki911/DLSS5-Swapper?color=8fd400&label=release\" alt=\"Latest release\"></a>\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases\"><img src=\"https://img.shields.io/github/downloads/rakanki911/DLSS5-Swapper/total?color=8fd400&label=downloads&cacheSeconds=300\" alt=\"Total downloads\"></a>\n  <img src=\"https://img.shields.io/badge/Windows-10%20%2F%2011-8fd400\" alt=\"Windows 10/11\">\n  <img src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_1339742577",
+      "source": "GitHub Trending",
+      "title": "amagine-ai/Amagine3D - Amagine3D: From hardware requirements to editable 3D designs",
+      "url": "https://github.com/amagine-ai/Amagine3D",
+      "summary": "<div align=\"center\">\n\n<h1>Amagine3D</h1>\n\n<p><strong>From hardware requirements to editable 3D designs</strong></p>\n\n<p>\n  Amagine3D is the open-source 3D capability layer <a href=\"https://amagine.ai\">Amagine</a> is developing for hardware creation.<br />\n  Give it a product description and reference images, add the key dimensions, and Amagine3D can design an enclosure and assembly structures around the internal components while producing source code that remains editable. STEP, STL, and 3MF files can be exported as needed.\n</p>\n\n<p>\n  <a href=\"#capabilities\">Capabilities</a> ·\n  <a href=\"#example\">Example</a> ·\n  <a href=\"#quick-start\">Quick Start</a> ·\n  <a href=\"./docs/README.zh-CN.md\">简体中文</a>\n</p>\n\n<p>\n  <img src=\"https://img.shields.io/badge/License-Apache--2.0-blue.svg\" alt=\"Apache ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1349601607",
+      "source": "GitHub Trending",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348483831",
+      "source": "GitHub Trending",
+      "title": "crmne/spotifast - Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "url": "https://github.com/crmne/spotifast",
+      "summary": "# Spotifast\n\nPreviously **Fastpotify**. Same native Spotify client, now at\n[spotifast.rocks](https://spotifast.rocks/). The new name starts with version 0.8.0;\nyour existing settings and sign-ins carry over, except when\n[switching the Flatpak installation](docs/_reference/renaming.md#flatpak).\n\n**Spotify, native and fast.** Spotifast is a Spotify client written in\nRust with [egui](https://github.com/emilk/egui). It plays music through\n[librespot](https://github.com/librespot-org/librespot). It typically uses\n100–250 MB of RAM, while Spotify's desktop app often uses 600 MB to over 1 GB.\nIt runs on Linux, macOS, and Windows, starts in well under a second, and has no\nbrowser engine.\n\n**Playback needs Spotify Premium.** Free accounts can browse and search, but\ncannot play music through Spotifa",
+      "group": "community"
+    },
+    {
+      "id": "gh_1337955304",
+      "source": "GitHub Trending",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "<div align=\"center\">\n\n# Sprix SAGE Router\n\n### Checkpoint-aware mid-execution rerouting for open A2A networks\n\n[![Tests](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml/badge.svg)](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml)\n[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Research%20Preview-D97706.svg)](#project-status)\n\n**An open-source research output of [Sprix AI](#about-sprix-ai) at 屿智同行.**\n\nChoose whether an in-flight task should **continue**, **recruit collaborators**, or **hand off** after accounting for completed DAG nodes, reusable artif",
+      "group": "community"
+    },
+    {
+      "id": "gh_1342935078",
+      "source": "GitHub Trending",
+      "title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "summary": "# 深入理解 AI Infra：量化分析与系统设计\n\n[![Build](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml/badge.svg)](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml)\n[![PDF](https://img.shields.io/badge/PDF-下载最新版-red)](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)\n[![Stars](https://img.shields.io/github/stars/bojieli/ai-infra-book?style=social)](https://github.com/bojieli/ai-infra-book)\n\n> [!TIP]\n> ### 📥 [下载最新版全书 PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n>\n> **推荐下载 PDF 阅读。** 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 `main` 后自动构建并发布到 [Releases](https:/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1337955304",
+      "source": "GitHub AI项目",
+      "title": "wang2122/sprix-sage-router - Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "summary": "<div align=\"center\">\n\n# Sprix SAGE Router\n\n### Checkpoint-aware mid-execution rerouting for open A2A networks\n\n[![Tests](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml/badge.svg)](https://github.com/wang2122/sprix-sage-router/actions/workflows/tests.yml)\n[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![License](https://img.shields.io/badge/License-MIT-0F766E.svg)](LICENSE)\n[![Status](https://img.shields.io/badge/Status-Research%20Preview-D97706.svg)](#project-status)\n\n**An open-source research output of [Sprix AI](#about-sprix-ai) at 屿智同行.**\n\nChoose whether an in-flight task should **continue**, **recruit collaborators**, or **hand off** after accounting for completed DAG nodes, reusable artif",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1342935078",
+      "source": "GitHub AI项目",
+      "title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "summary": "# 深入理解 AI Infra：量化分析与系统设计\n\n[![Build](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml/badge.svg)](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml)\n[![PDF](https://img.shields.io/badge/PDF-下载最新版-red)](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)\n[![Stars](https://img.shields.io/github/stars/bojieli/ai-infra-book?style=social)](https://github.com/bojieli/ai-infra-book)\n\n> [!TIP]\n> ### 📥 [下载最新版全书 PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n>\n> **推荐下载 PDF 阅读。** 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 `main` 后自动构建并发布到 [Releases](https:/",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1356159928",
+      "source": "GitHub AI项目",
+      "title": "Albert-Weasker/niubigeo - Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/brand/niubigeo-lockup.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/brand/niubigeo-lockup-light.svg\">\n    <img src=\"assets/brand/niubigeo-lockup-light.svg\" width=\"336\" alt=\"NiubiGEO\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Albert-Weasker/niubigeo/releases/tag/v0.2.0\"><img src=\"assets/readme/version.svg\" alt=\"NiubiGEO v0.2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"LICENSE\"><img src=\"assets/readme/license.svg\" alt=\"Apache-2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"docs/deployment/docker.md\"><img src=\"assets/readme/self-hosted.svg\" alt=\"Self-hosted\" width=\"132\" height=\"28\"></a>\n</p>\n\n# Does AI recommend your product? Who shows up instead?\n\n**E",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/PawWork_ZhuaZhua - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "summary": "<div align=\"center\">\n\n# 爪爪 · PawWork\n\nEnglish · [中文](README.zh-CN.md)\n\n[![license](https://img.shields.io/github/license/Player-YN/PawWork_ZhuaZhua)](LICENSE)\n[![last commit](https://img.shields.io/github/last-commit/Player-YN/PawWork_ZhuaZhua)](https://github.com/Player-YN/PawWork_ZhuaZhua/commits/main)\n[![JavaScript](https://img.shields.io/github/languages/top/Player-YN/PawWork_ZhuaZhua)](https://github.com/Player-YN/PawWork_ZhuaZhua)\n[![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white)](manifest.json)\n[![unpacked](https://img.shields.io/badge/load-unpacked-111111)](README.md#run-it)\n\nTreat the already-logged-in **[Chrome as a programmable computer](README.md#what-you-get)**. 爪爪 is the **agent** on that machine.\n\n*sidepanel → service worker → o",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1351879111",
+      "source": "GitHub AI项目",
+      "title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "summary": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/reef-logo-dark.svg\">\n  <img src=\"docs/assets/reef-logo-light.svg\" alt=\"Reef\" width=\"220\">\n</picture>\n\n<h3>Continual learning infra for self-improving agents</h3>\n\n[![CI](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml/badge.svg)](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml)\n[![PyPI package: reef-infra](https://img.shields.io/pypi/v/reef-infra?label=PyPI%3A%20reef-infra&logo=pypi&logoColor=white)](https://pypi.org/project/reef-infra/)\n[![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)\n[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)\n\nEnglish | [中文](README.zh.md)\n\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1338470635",
+      "source": "GitHub AI项目",
+      "title": "s1dashu/ip-as-logo-skill - A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "summary": "# IP as Logo\n\n`ip-as-logo` is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.\n\nIt follows the open Agent Skills format and is designed to work with any compatible AI agent, rather than being tied to a specific agent product.\n\nYou can also browse the free [IP as Logo Skill website](https://ipaslogo.com), a searchable library backed by Cloudflare R2 and Supabase.\n\n![IP as Logo showcase](assets/ip-as-logo-wall.webp)\n\n**Don't have Codex, Doubao, Coze, or Workbuddy?** [Visit our website](https://ipaslogo.com) to download ready-made logos for free. Every logo is free for commercial use.\n\n## Wha",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1342461518",
+      "source": "GitHub AI项目",
+      "title": "ApodexAI/FrontierAgent - 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "summary": "<div align=\"center\">\n  <picture>\n    <img src=\"./assets/apodex_logo.jpeg\" width=\"30%\" alt=\"Apodex\">\n  </picture>\n</div>\n<hr>\n<br>\n\n<div align=\"center\">\n  <a href=\"https://www.apodex.ai\"><img alt=\"Online Service\" src=\"https://img.shields.io/badge/🤖%20Online_Service-Apodex_1.1-1783ff\"/></a>\n  <a href=\"https://www.apodex.com/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Apodex_AI-white\"/></a>\n  <a href=\"https://platform.apodex.ai\"><img alt=\"Try Apodex API\" src=\"https://img.shields.io/badge/Try_Apodex_1.1-API_Platform-1783ff\"/></a>\n  <br>\n  <a href=\"https://huggingface.co/collections/apodex\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/🤗%20Hugging_Face-Apodex_AI-ffc107\"/></a>\n  <a href=\"https://discord.gg/TDJA59TCng\"><img alt=\"Discord\" src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1353548665",
+      "source": "GitHub AI项目",
+      "title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "summary": "# Claude Commerce Agents\n\nTwo commerce agents built on Claude: a **shopping agent** a business embeds in its app for\ncustomers, and a **merchant agent** its staff use to run the back office. Each is defined\nonce (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent\nSDK, and Managed Agents; four runnable verticals show both over the same libraries.\n\n> [!NOTE]\n> Every company, brand, product, and person here is fictional; the only company is ACME.\n> Nothing places an order, charges a card, or changes a live listing: `checkout` renders\n> the cart for the host to complete, and every merchant write is staged until a person\n> approves it. Business rules, authorization, and compliance are the deployment's.\n\n## Quick start: run the demos\n\nPython 3.11+ and Node 22. ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349601607",
+      "source": "GitHub AI项目",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "devto_4655003",
+      "source": "Dev.to",
+      "title": "The Quiet Weight of Working in Tech in the AI Era",
+      "url": "https://dev.to/james_anderson_h/the-quiet-weight-of-working-in-tech-in-the-ai-era-551g",
+      "summary": "I've started noticing a look on people's faces. It's in standups, in the half-second-too-fast \"yeah,...",
+      "author": "James Anderson"
+    },
+    {
+      "id": "devto_4658227",
+      "source": "Dev.to",
+      "title": "AI Didn't Remove the Engineering Work. It Just Made It Easier to Pretend You Did.",
+      "url": "https://dev.to/dj29/ai-didnt-remove-the-engineering-work-it-just-made-it-easier-to-pretend-you-did-42m9",
+      "summary": "On September 15, India — along with Sri Lanka and Tanzania — celebrates Engineer's Day, marking the...",
+      "author": "Dhruv Jani"
+    },
+    {
+      "id": "devto_4657709",
+      "source": "Dev.to",
+      "title": "The Slow and Quiet Cognitive Atrophy of a Modern Software Engineer",
+      "url": "https://dev.to/codingwithjiro/the-slow-and-quiet-cognitive-atrophy-of-a-modern-software-engineer-3lbh",
+      "summary": "Over the past couple of months, I've read a lot of articles about the consequences of AI dependency...",
+      "author": "Elmar Chavez"
+    },
+    {
+      "id": "devto_4555568",
+      "source": "Dev.to",
+      "title": "AI Avatar v20, Cursor Avatar, Notification Avatar (Voxel Avatar)🧊",
+      "url": "https://dev.to/webdeveloperhyper/ai-avatar-v20-cursor-avatar-notification-avatar-voxel-avatar-4dd2",
+      "summary": "Intro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its...",
+      "author": "Web Developer Hyper"
+    },
+    {
+      "id": "devto_4642467",
+      "source": "Dev.to",
+      "title": "Vibe Coding Isn't the Problem. Calling It Engineering Is",
+      "url": "https://dev.to/georgekobaidze/vibe-coding-isnt-the-problem-calling-it-engineering-is-lm1",
+      "summary": "Let's Address the Elephant in the Room Again Vibe coding has always been a weird topic to...",
+      "author": "Giorgi Kobaidze"
+    },
+    {
+      "id": "devto_4658828",
+      "source": "Dev.to",
+      "title": "Resilient and Battle-Tested Are Not the Same Word",
+      "url": "https://dev.to/adamthedeveloper/resilient-and-battle-tested-are-not-the-same-word-589o",
+      "summary": "Unnecessary information that's safe to ignore Hi. So I've been away for a couple of weeks....",
+      "author": "Adam - The Developer ✨"
+    },
+    {
+      "id": "devto_4640240",
+      "source": "Dev.to",
+      "title": "How can I prevent my AI coding assistant from repeating fixed mistakes across sessions?",
+      "url": "https://dev.to/izgorodin/how-can-i-prevent-my-ai-coding-assistant-from-repeating-fixed-mistakes-across-sessions-2kf7",
+      "summary": "On Tuesday you told the assistant that the migration script must never touch the staging database. It...",
+      "author": "Edward Izgorodin"
+    },
+    {
+      "id": "devto_4652133",
+      "source": "Dev.to",
+      "title": "What Happens When AI Outgrows the Tests We Use to Measure It?",
+      "url": "https://dev.to/hemapriya_kanagala/what-happens-when-ai-outgrows-the-tests-we-use-to-measure-it-30al",
+      "summary": "TL;DR GPT-6 Astra has started another familiar AI conversation. The model is more capable, Jensen...",
+      "author": "Hemapriya Kanagala"
+    },
+    {
+      "id": "oschina_f11f4b8de80b",
+      "source": "开源中国",
+      "title": "Java 27 正式发布：G1 成为默认垃圾回收器，后量子加密进入 TLS 1.3",
+      "url": "https://www.oschina.net/news/502512/oracle-the-arrival-of-java-27",
+      "summary": "Java 27 今天（9 月 15 日）正式 GA，这是 2026 年的第二个功能版本，包含 9 个 JEP。当中有几个挺值得说明的转向。 最实在的改动是 G1 成了所有环境的默认垃圾回收器（JEP 523）。以前 G1 只在某些环境默认，这次统一了行为，让开发者在使用 Java 27 时默认就有一个稳定的 GC 配置，不用再为不同部署环境踩不同的默认值..."
+    },
+    {
+      "id": "oschina_27ae21487b08",
+      "source": "开源中国",
+      "title": "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着",
+      "url": "https://www.oschina.net/news/502511/ieee-inference-hardware-revolution",
+      "summary": "过去几年 AI 的叙事几乎全在&quot;训练更大的模型&quot;，到 2026 年，风向变了。黄仁勋在 GTC 2026 上把这一年叫做&quot;推理的拐点&quot;。IEEE Spectrum 这篇特稿想说明的一件事是：推理其实和你想象的不一样，它正在逼着整个硬件行业换打法。 先说为什么推理突然变成主角。推理模型会一遍遍自我追问（chain of thought），高推理强度下产..."
+    },
+    {
+      "id": "oschina_897790e04301",
+      "source": "开源中国",
+      "title": "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练",
+      "url": "https://www.oschina.net/news/502510/cloudflare-accountable-mixed-use-ai-crawlers",
+      "summary": "网站站长过去得在一个很别扭的选择里二选一：让内容被拿去训练 AI，或者冒着失去搜索可见度的风险拒绝。这个两难来自一个现实——互联网上最大的那些组织用的都是&quot;混合用途爬虫&quot;：同一个爬虫既做搜索索引，又做 AI 训练。你拒绝一个，等于两个都拒绝。 Cloudflare 近日推出的方案想把这个选择题拆开。新的 Disallow AI ..."
+    },
+    {
+      "id": "oschina_5d4824c566b8",
+      "source": "开源中国",
+      "title": "亲手优化出 DeepSeek V4.1 算子的工程师，决定继续留在这场加速里",
+      "url": "https://www.oschina.net/news/502509",
+      "summary": "DeepSeek 的机器学习系统工程师刘胜与，最近写了篇长文，标题透露出一种无力感：《我不得不把才华埋葬在昨天》。发出来就刷屏了，外网被翻译成多语言传播。 先说他写了什么。他是 DeepSeek V4.1 主 Attention 算子的作者——head dim = 512 的 MQA attention 是他独立实现并交付的。V4.1 在小模型和推理效率上的表现，有..."
+    },
+    {
+      "id": "oschina_7c4e18605166",
+      "source": "开源中国",
+      "title": "全能 Go Agent 框架 covonaut v1.1.3 发布：TUI 库迎来更人性化的交互",
+      "url": "https://www.oschina.net/news/502508",
+      "summary": "covonaut 是一个 Go 语言生产级 Agent 开发框架，基于 Go 1.25 构建，MIT 开源。框架覆盖 Agent 循环、工具注册与生命周期钩子、MCP 协议桥接、A2A 多智能体协作、图引擎（DAG 与 Pregel）、会话管理、工作流编排等功能，并自带一套完整的终端图形界面库。 v1.1.3 变更 本次发布聚焦终端界面交互。 输入刻度条（Input R..."
+    },
+    {
+      "id": "hn_comment_49722444",
+      "source": "HN讨论",
+      "title": "zahrevsky 在「Datamimic – don't let your coding agent 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49722276",
+      "summary": "Their website, datamimic.io, has a chatbot with one unread message, and it makes the tab title blink with “1 new message.” It’s wild to see a tech company doing something like that.",
+      "author": "zahrevsky"
+    },
+    {
+      "id": "hn_comment_49722433",
+      "source": "HN讨论",
+      "title": "theycallmeritik 在「Datamimic – don't let your coding agent 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49722276",
+      "summary": "Synthetic test data generation is a massive bottleneck for AI agents. Does Datamimic support schema constraints and foreign keys across relational databases out of the box?",
+      "author": "theycallmeritik"
+    },
+    {
+      "id": "hn_49693971",
+      "source": "Hacker News",
+      "title": "Show HN: I made a flight simulator, except you're just a passenger",
+      "url": "https://inflightsimulator.com",
+      "summary": "Buckle your seatbelt, secure your tray table, and open your window shade. Now you can simulate flying anywhere in the world as a commercial passenger, from takeoff to touchdown. Terrain, weather, and realtime sun position included. Don&#x27;t worry, the latest release now features legs, so you can get up and go to the bathroom on longer flights. Enjoy!"
+    },
+    {
+      "id": "hn_49718928",
+      "source": "Hacker News",
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "summary": ""
+    },
+    {
+      "id": "hn_49717558",
+      "source": "Hacker News",
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "summary": ""
+    },
+    {
+      "id": "hn_49722276",
+      "source": "Hacker News",
+      "title": "Datamimic – don't let your coding agent invent its own test world",
+      "url": "https://github.com/rapiddweller/datamimic",
+      "summary": ""
+    },
+    {
+      "id": "hn_49715947",
+      "source": "Hacker News",
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49717280",
+      "source": "Hacker News",
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "url": "https://mnoukhov.github.io/posts/ngu/",
+      "summary": "https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2609.13443"
+    },
+    {
+      "id": "hn_49721435",
+      "source": "Hacker News",
+      "title": "Stay discoverable in search while disallowing AI training",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49710109",
+      "source": "Hacker News",
+      "title": "Let's make quality the norm again",
+      "url": "https://www.forbrukerradet.no/short-life/",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-09-16 14:00"
+}
