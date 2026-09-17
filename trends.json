@@ -1,40 +1,5 @@
 [
   {
-    "theme": "多模态模型进入统一理解与生成阶段",
-    "importance": 4,
-    "evidence": "Flux3发布，支持文本/图像/视频/音频统一处理，3D感知VLM论文出现",
-    "grassroots": "用户期待更自然的跨模态交互体验",
-    "date": "2026-07-24"
-  },
-  {
-    "theme": "国产AI模型在性价比上突围",
-    "importance": 4,
-    "evidence": "Kimi K3在掘金引发多篇真实体验讨论，评价为'很强但还有不足'",
-    "grassroots": "开发者愿意为性价比尝试国产模型，但对稳定性有更高要求",
-    "date": "2026-07-24"
-  },
-  {
-    "theme": "LLM Agent治理和效率优化成为行业焦点",
-    "importance": 5,
-    "evidence": "多篇论文和开发者文章讨论技能冲突、Agent边界、治理问题",
-    "grassroots": "开发者从‘能不能用’转向‘怎么用好、怎么管好’",
-    "date": "2026-07-27"
-  },
-  {
-    "theme": "开源社区对AI生成代码的态度分化",
-    "importance": 4,
-    "evidence": "Debian发起禁令投票，Dev.to上开发者分享AI工具使用经验",
-    "grassroots": "部分开发者支持禁令，部分认为这是技术倒退",
-    "date": "2026-07-27"
-  },
-  {
-    "theme": "编码Agent框架进入竞争期",
-    "importance": 4,
-    "evidence": "xAI开源Grok Build，与Claude Code、Codex等形成竞争",
-    "grassroots": "开发者开始对比不同框架的体验和扩展性",
-    "date": "2026-07-27"
-  },
-  {
     "theme": "AI编程工具与基础模型开源化加速",
     "importance": 5,
     "evidence": "Kimi K3、Grok Build、colibri等多个重量级项目同日开源或发布",
@@ -1398,5 +1363,40 @@
     "evidence": "IEEE Spectrum特稿指出推理正逼着硬件行业换打法；黄仁勋称2026为'推理的拐点'",
     "grassroots": "工程师关注推理效率优化和硬件利用率提升",
     "date": "2026-09-16"
+  },
+  {
+    "theme": "大模型训练从闭门走向公开直播",
+    "importance": 5,
+    "evidence": "小米 MiMo 2.6 后训练实时仪表盘上线，逐步开源训练细节",
+    "grassroots": "HN 用户惊叹开源模型逼近前沿且成本低一个数量级，也有人担忧安全风险",
+    "date": "2026-09-17"
+  },
+  {
+    "theme": "开源模型以极低成本逼近前沿能力",
+    "importance": 5,
+    "evidence": "MiMo-V2.5 被开发者用作主力编程模型，ROI 极高；DeepSWE 基准上开源模型与头部差距缩小",
+    "grassroots": "开发者从'能不能用'转向'怎么用好'，成本成为核心决策变量",
+    "date": "2026-09-17"
+  },
+  {
+    "theme": "AI 编程工具进入效率优化与认知反思阶段",
+    "importance": 4,
+    "evidence": "Dev.to 多篇讨论 vibe coding 边界、AGENTS.md 渐进式披露、Codex 与 Copilot 的 PoC 协作",
+    "grassroots": "开发者担忧'认知萎缩'，同时积极探索工具链配置与协作模式",
+    "date": "2026-09-17"
+  },
+  {
+    "theme": "模型内部表征成为可解释性与安全检测的新抓手",
+    "importance": 4,
+    "evidence": "奖励黑客可通过均值差向量检测；双过程智能体加入记忆与自省模块",
+    "grassroots": "HN 讨论关注 LLM 查询规划器幻觉漏索引的实际风险",
+    "date": "2026-09-17"
+  },
+  {
+    "theme": "AI 基础设施向能源与材料层延伸",
+    "importance": 4,
+    "evidence": "Emerald AI、Google、NVIDIA 成立 AI Energy Management Alliance；MIT 科技评论讨论 AI 的材料基础",
+    "grassroots": "暂无直接基层反馈",
+    "date": "2026-09-17"
   }
 ]
