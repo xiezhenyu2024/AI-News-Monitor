@@ -1,0 +1,756 @@
+{
+  "key": "2026-09-17-evening",
+  "date": "2026-09-17",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 17,
+      "title": "印尼油棕种植园内火灾肆虐，救援人员紧急抢救红毛猩猩栖息地",
+      "entities": [
+        {
+          "name": "PT Kayung Agro Lestari (KAL)",
+          "explain": "印尼西加里曼丹的一家油棕种植公司，拥有RSPO（可持续棕榈油圆桌倡议）认证"
+        },
+        {
+          "name": "RSPO",
+          "explain": "可持续棕榈油圆桌倡议，一个制定棕榈油可持续生产标准的国际组织"
+        },
+        {
+          "name": "高保护价值区域（HCV）",
+          "explain": "在种植园内被划定为具有重要生态或社会价值的区域，理论上应受到保护"
+        },
+        {
+          "name": "泥炭沼泽森林",
+          "explain": "一种富含碳的湿地森林，一旦着火极难扑灭，会释放大量温室气体"
+        },
+        {
+          "name": "红毛猩猩",
+          "explain": "仅分布于印尼和马来西亚的濒危灵长类动物，与人类基因相似度极高"
+        }
+      ],
+      "summary": "印尼西加里曼丹一处RSPO认证油棕种植园内的657公顷高保护价值森林发生火灾，该区域是约60只红毛猩猩的栖息地。救援人员正在与时间赛跑抢救红毛猩猩，但烟雾仍在升腾，地面温度危险地高。火灾发生在泥炭沼泽森林中，灭火难度极大。",
+      "relevant": "事件暴露了RSPO认证体系在实际执行中的漏洞——即使是被认证为可持续的种植园，其内部的高保护价值区域仍未能免受火灾威胁，引发对棕榈油行业监管有效性的质疑。",
+      "context": "印尼油棕种植园常通过焚烧方式清理土地，导致周边泥炭地森林频繁起火。此次火灾发生在声称符合可持续标准的种植园内，说明认证机制可能未能有效防止火灾对濒危物种栖息地的破坏。",
+      "source_analysis": "Mongabay是一家专注于环境与保育新闻的非营利新闻机构，报道立场倾向于关注生态保护和原住民权益，对商业种植园的环境影响持批判态度。",
+      "social_impact": "约60只红毛猩猩的栖息地受到直接威胁，657公顷森林被烧毁。泥炭地火灾还会释放大量二氧化碳，加剧气候变化，并造成跨境雾霾问题影响东南亚多国。",
+      "source_text": "- Conservationists are racing to rescue orangutans from fire-affected habitat inside an Indonesian oil palm concession. - Some orangutans have been brought to safety, while others are believed to remain in the area. - First Resources, which owns the concession, says it enforces a strict “zero-burning policy” across all planting activities. - Another, larger conservation area that once supported an estimated 200 orangutans has also been affected by fire. JAKARTA — Conservationists are racing to rescue orangutans from a fire-ravaged peat-swamp forest inside an RSPO-certified oil palm concession in West Kalimantan, with smoke still rising and the ground remaining dangerously hot. The 657-hectare (1,623-acre) forest, designated as a High Conservation Value (HCV) area inside PT Kayung Agro Lestari (KAL), is home to around 60 Bornean orangutans (Pongo pygmaeus), one of three orangutan species in the world and the only one found on the island of Borneo, according to conservationists. The forest was also used in October 2015 to release four orangutans rescued by the Yayasan International Animal Rescue Indonesia (YIARI), a Borneo-based NGO working to establish and maintain sustainable orangutan populations. Nearly 11 years after four orangutans were released there, the peat-swamp forest that provided their habitat has itself been almost completely affected by fire, according to satellite analysis by technology consultancy TheTreeMap. The analysis indicates that one of the major fires began on Aug. 8 along a canal at the edge of the oil palm plantation in Ketapang district, before spreading westward into the HCV forest. Conservationists are working to rescue orangutans still believed to be in the area. Some animals have already been brought to safety, while others are believed to remain in the affected forest. The rescue effort has been complicated by the condition of the forest, where fallen tree trunks, lingering smoke and dangerously hot ground make movement difficult. Peat fires can continue burning beneath the surface even after flames are no longer visible, creating additional risks for both orangutans and rescuers. How many orangutans are left? The exact number of orangutans that occupied the affected forest before the fires, and how many have survived, remains unclear. PT Kayung Agro Lestari’s concession contains multiple High Conservation Value (HCV) areas totaling 3,844.52 hectares (9,497 acres), according to an HCV assessment included in an RSPO notificat",
+      "source_title": "Rescuers race against time as fires ravage orangutan habitat inside Indonesian oil palm concession",
+      "source_url": "https://news.mongabay.com/2026/09/rescuers-race-against-time-as-fires-ravage-orangutan-habitat-inside-indonesian-oil-palm-concession/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "三只非洲野狗兄弟完成非洲大陆有记录以来最长的迁徙旅程",
+      "entities": [
+        {
+          "name": "非洲野狗",
+          "explain": "一种濒危的非洲犬科动物，以群体协作狩猎著称，现存数量仅约6000只"
+        },
+        {
+          "name": "扩散（Dispersal）",
+          "explain": "年轻动物成年后离开出生群体，寻找新领地和配偶的自然行为"
+        },
+        {
+          "name": "赞比亚",
+          "explain": "位于非洲南部的国家，拥有多个野生动物保护区"
+        }
+      ],
+      "summary": "三只濒危非洲野狗兄弟在成年后被迫离开原有群体，在八个月内穿越超过4100公里（2500英里）的非洲大陆，躲避车辆、猎人和丛林肉陷阱，最终在赞比亚找到新领地。这是非洲大陆有记录以来哺乳动物中最长的单次迁徙旅程。",
+      "relevant": "这一旅程展示了濒危物种在人类主导景观中生存的惊人韧性，同时也凸显了栖息地破碎化迫使野生动物进行危险长途迁徙的问题。",
+      "context": "非洲野狗种群因栖息地丧失、疾病和人类迫害而急剧减少。年轻野狗成年后必须离开原生群体寻找新领地，但人类活动使得可用的适宜栖息地越来越少，迫使它们进行更长距离的迁徙。",
+      "source_analysis": "卫报野生动物栏目，报道立场关注生物多样性保护和人类活动对野生动物的影响。",
+      "social_impact": "非洲野狗被列为濒危物种，全球仅存约6000只。这一记录性迁徙凸显了保护走廊和栖息地连通性对物种存续的重要性。",
+      "source_text": "It sounds like a Disney movie: three wild dogs, all brothers, on an epic journey to find a home of their own after their family tells them to leave. They dodge cars and hunters in search of a new life, navigating bushmeat snares and the hostility of a human-dominated landscape until they find a new haven on the African savannah. But this is exactly what happened in Zambia last year, when three endangered African wild dogs made the longest-ever recorded single journey of any mammal from the continent. The brothers travelled more than 2,500 miles (4,100km) over eight months in their “dispersal” – when a young dog comes of age and must establish new territory to find a mate and start a family of their own. From point to point, starting in Kafue national park in western Zambia to their final destination in the Luangwa valley in the east of the country, the brothers covered 340 miles (546km), which is also a record. The epic single journey is almost equivalent to travelling the length of Chile by foot and farther than the famous wildebeest and zebra migration across the Serengeti in east Africa. The previous record was 2,418 miles, also made by African wild dogs, which moved between Loliondo, in northern Tanzania’s Ngorongoro district, and Tsavo West national park in southern Kenya in 2012. Dr Matt Becker, chief executive of the Zambian Carnivore Programme (ZCP), whose scientists were monitoring the wild dogs and have published their findings in the journal Ecology, says: “These extraordinary journeys show that natural connections between Africa’s wildlife strongholds still exist. But they also reveal how difficult and dangerous those journeys have become. “Rather than relying solely on fenced protected areas, these findings reinforce the value of investing in connected landscapes. The dogs are showing us that connectivity still works; now we need to do more to protect and strengthen it.” The researchers tracked 19 separate groups of wild dogs to monitor their dispersals, including a group of sisters to the three brothers who were far less successful at finding a new range. Two of the sisters died, probably caught in snares, but not before they had a touching final encounter with their siblings. Two months into their journey, the group of brothers and sisters came across each other deep in Zambia’s copper-belt mining region, spending the day together before going their separate ways again. Related dogs do not form new family packs, and typically have to travel ",
+      "source_title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "作家兼文化评论家邦妮·格里尔去世，享年77岁",
+      "entities": [
+        {
+          "name": "邦妮·格里尔（Bonnie Greer）",
+          "explain": "美国出生的英国作家、剧作家和文化评论家，常出现在英国电视和广播中"
+        },
+        {
+          "name": "玛格丽特·巴斯比（Margaret Busby）",
+          "explain": "英国作家、编辑和出版人，英国首位黑人女性图书出版商"
+        },
+        {
+          "name": "《悬于齿间》（Hanging by Her Teeth）",
+          "explain": "邦妮·格里尔1994年出版的首部小说，讲述一位黑人女性寻父之旅"
+        }
+      ],
+      "summary": "作家兼文化评论家邦妮·格里尔去世，享年77岁。她的好友、作家兼编辑玛格丽特·巴斯比撰写悼文，回忆格里尔从芝加哥西区到伦敦的非凡人生历程，称赞她体现了勇气、幽默、原则和慷慨。巴斯比还回忆了格里尔1994年首部小说《悬于齿间》出版时她为其撰写推荐语的往事。",
+      "relevant": "格里尔是英国文化界重要的黑人女性声音，她的去世标志着一位跨越美英两国、在文学和公共文化领域都有重要影响的人物的离去。",
+      "context": "邦妮·格里尔出生于芝加哥西区，后移居伦敦，成为英国知名的作家、剧作家和电视评论人。她经常就种族、文化和政治议题公开发声，是英国文化多元化的标志性人物。",
+      "source_analysis": "卫报书籍版，此文为玛格丽特·巴斯比撰写的个人悼念文章，带有强烈的个人情感和友谊视角。",
+      "social_impact": "格里尔作为黑人和女性在英美文化界的代表性人物，她的去世引发对少数族裔女性在文化领域贡献和可见度的关注。",
+      "source_text": "Bonnie Greer personified courage, humour, principle and generosity. Before knowing her in person, I met her work. Her 1994 debut novel Hanging by Her Teeth – about a Black American woman travelling through the US and Europe in search of her father – was sent to me for endorsement by its publisher, and I commented unhesitatingly: “Writing with sharpness, wit and poignancy, Bonnie Greer gathers the sequestered memories behind one Black woman’s bitter-sweet blues.” The scope of Bonnie’s own life is beyond anything fictional, encompassing highs and lows, triumphs and challenges, her trajectory starting in the West Side of Chicago and ending up navigating iconic areas of London – whether Holland Park or Covent Garden or Soho – as if to the manor born. It was an honour to become her friend, sharing many a good time, offering a consoling shoulder if needed. An added bonus was to meet her husband David Hutchins. What a wonderful mutually supportive team they made. Bonnie’s activism marched side by side with her creativity and powers of persuasion. Friendship, support, empathy and behind-the-scenes involvement were all part of who she was. She could be effervescently sociable. There was an era when she relished get-togethers of a sort of ladies-who-lunch club that she would organise, where we might chat for hours, exchanging memories, planning dreamy never-to-be-fulfilled projects. I recall one gathering that took place at the House of Commons – with Diane Abbott, Verna Wilkins, Maya Jaggi and Nana Ayebia Clarke – when Bonnie suddenly made us all pause to reflect on the fact we were all sitting there, with a view of the Thames and London’s landscape, given where we had come from. Seemingly ready to re-invent herself, she was perhaps defying anyone to easily label her. She could be public intellectual, television pundit, dramatist, librettist, academic. Her repertoire was wide-ranging and ever-expanding, with fresh ideas emerging at every opportunity. She fearlessly spoke out, forged new connections, took on weighty burdens. She lent expertise to numerous national cultural institutions – including on the boards of the British Museum, the Royal Opera House and the London Film School, and as vice president of the Shaw Society and chancellor of Kingston University London. She shared her vision with such ventures as the Black Theatre Co-operative and Talawa Theatre Company (where, during her stint as artistic director, she mooted an ambitious dramatisation of my 1,000-p",
+      "source_title": "Margaret Busby: ‘My friend Bonnie Greer fearlessly spoke out and forged connections’",
+      "source_url": "https://www.theguardian.com/books/2026/sep/17/margaret-busby-pays-tribute-to-bonnie-greer",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "罕见画面：座头鲸被拍到疑似哀悼死产幼崽",
+      "entities": [
+        {
+          "name": "座头鲸",
+          "explain": "一种大型须鲸，以跃出水面和复杂的鸣叫行为闻名，每年进行长距离迁徙"
+        },
+        {
+          "name": "须鲸",
+          "explain": "没有牙齿、用鲸须过滤食物的鲸类，包括座头鲸、蓝鲸等"
+        },
+        {
+          "name": "死后关注行为（postmortem attentive behaviour）",
+          "explain": "研究人员用来描述动物对死亡同类表现出的关注行为的术语，避免直接等同于人类的\"哀悼\""
+        },
+        {
+          "name": "格里菲斯大学",
+          "explain": "位于澳大利亚昆士兰的公立大学，参与了此项研究"
+        }
+      ],
+      "summary": "2025年7月在澳大利亚黄金海岸附近，一头座头鲸被拍到反复返回其死产幼崽所在位置超过一小时。格里菲斯大学和海洋世界基金会的最新报告认为，这是首次记录的须鲸母亲照料死亡新生幼崽的案例。研究人员谨慎地使用\"死后关注行为\"而非\"哀悼\"来描述这一行为。",
+      "relevant": "这是首次在须鲸（无齿鲸类）中记录到此类行为，此前类似行为仅在齿鲸（如虎鲸、海豚）中被观察到，为鲸类情感和认知研究提供了新证据。",
+      "context": "此前，类似的对死亡幼崽的关注行为已在领航鲸、海豚和虎鲸等齿鲸中被记录，但在须鲸中从未被描述过。这段视频为研究鲸类是否具有类似哀悼的情感体验提供了罕见素材。",
+      "source_analysis": "卫报野生动物栏目发布的视频报道，引用了格里菲斯大学和海洋世界基金会的学术报告，研究者在表述上保持科学谨慎。",
+      "social_impact": "该视频引发公众对鲸类情感能力的关注和讨论，研究者强调不能直接以人类情感衡量动物行为，但此类观察有助于推动动物福利和海洋保护政策。",
+      "source_text": "Humpback whale filmed apparently grieving its stillborn calf – video。Footage recorded in July 2025 shows a humpback whale repeatedly returning for more than an hour to the spot where its stillborn calf lay, a kilometre off Australia’s Gold Coast. While similar behaviours have been documented in pilot whales, dolphins and killer whales, a new report from Griffith University and the Sea World Foundation suggests this is the first described case of a toothless baleen whale mother caring for her deceased newborn calf. ‘However, we can’t directly measure the emotional state of whales,’ writes Olaf Meynecke, a co-author of the report. ‘The behaviours we observed could represent grief, but they could also reflect maternal attachment, confusion or instinctive caregiving. For this reason, researchers use broader terms – such as postmortem attentive behaviour – rather than concluding that whales grieve in the human sense’ Do whales grieve? Rare footage of humpback alongside stillborn calf suggests they might Continue reading...",
+      "source_title": "Humpback whale filmed apparently grieving its stillborn calf – video",
+      "source_url": "https://www.theguardian.com/environment/video/2026/sep/17/humpback-whale-filmed-apparently-grieving-its-stillborn-calf-video",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "世界最小鳄鱼在尼日利亚因丛林肉贸易面临高需求",
+      "entities": [
+        {
+          "name": "非洲侏儒鳄",
+          "explain": "世界上最小的现存鳄鱼物种，体长约2米，夜行性，栖息于西非和中非的沼泽和洪泛森林"
+        },
+        {
+          "name": "丛林肉贸易",
+          "explain": "指猎杀和交易野生动物作为食物的活动，在非洲部分地区是重要的蛋白质来源，但也威胁物种生存"
+        },
+        {
+          "name": "IUCN易危物种",
+          "explain": "国际自然保护联盟红色名录中的\"易危\"等级，意味着物种面临较高的灭绝风险"
+        }
+      ],
+      "summary": "非洲侏儒鳄——世界上最小的鳄鱼物种——在尼日利亚因丛林肉贸易面临巨大的捕猎压力。这种夜行性爬行动物栖息于西非和中非的沼泽和洪泛森林中，尽管被列为易危物种，仍被大量猎杀供食用。",
+      "relevant": "丛林肉贸易是非洲野生动物保护面临的重大挑战之一，不仅威胁侏儒鳄，还影响众多其他物种。该报道揭示了保护法规执行不力与当地食物需求之间的矛盾。",
+      "context": "非洲侏儒鳄被IUCN列为易危物种，其栖息地因森林砍伐和湿地开发而持续缩小。与此同时，尼日利亚的丛林肉贸易需求旺盛，使得这种小型鳄鱼成为猎捕目标。",
+      "source_analysis": "Mongabay专注于环境与保育新闻，报道立场关注野生动物保护和生物多样性丧失问题。",
+      "social_impact": "丛林肉贸易不仅威胁侏儒鳄的生存，也涉及食品安全和公共卫生问题——野生动物交易可能成为疾病传播的途径。",
+      "source_text": "- The African dwarf crocodile is found in dense swamps and flooded forests across large parts of West and Central Africa. - Experts say these reptiles, which are widely hunted and sold, are under pressure from overexploitation and loss of habitat. - A recently published study set out to assess how many of the reptiles were sold in three bushmeat markets in the Niger Delta. The African dwarf crocodile is the world’s smallest living crocodile. These reptiles, nocturnal predators of crabs, gastropods and the occasional fish or small mammal, can reach 2 meters (6.6 feet) in length. They are found in dense swamps and flooded forests across large parts of West and Central Africa. Despite being listed as vulnerable on the IUCN’s Red List, the African dwarf crocodile (Osteolaemus tetraspis) has not been assessed by the conservation organization for 30 years. Anecdotal evidence suggests the crocodile’s numbers have declined sharply in many places where they were formerly common due to over-harvesting and destruction of their habitat. “The dwarf crocodile is particularly well-suited for the commercial trade,” ecologist Mitchell Eaton wrote in 2008. “Its small size and slow metabolism allow it to be captured and transported live over long distances without the need for refrigeration.” These unfortunately convenient characteristics have made the species a prized target for hunters across the reptiles’ range and conservationists fear this is putting crocodile populations under unsustainable pressure. For a study published in August in the journal BMC Zoology, conservation biologist Israel Ogorode and colleagues surveyed sales of African dwarf crocodiles at three markets in the Niger Delta, aiming to collect data about how many of the reptiles are sold — and who is doing the selling. Ogorode and the researchers visited three bushmeat markets in the Niger Delta region — Edumanon, Ogbe-Ijaw and Uwa — every other week between October 2021 and April 2022 to count the number of crocodiles for sale, randomly selecting 30 vendors at each site for their survey. In six months, the researchers recorded 158 crocodiles, roughly 80% of these were young or fully grown adults, while around 20% were juveniles less than 60 centimeters (24 inches) long. Despite the small sample size, the researchers hypothesize that hunting for crocodiles is easier during the dry season, between October and February. These months roughly coincided with the highest number of crocodiles they counted in the",
+      "source_title": "World’s smallest crocodile in high demand for bushmeat trade in Nigeria",
+      "source_url": "https://news.mongabay.com/2026/09/worlds-smallest-crocodile-in-high-demand-for-bushmeat-trade-in-nigeria/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "阿根廷大食蚁兽重返保护区，证明自然自我恢复的潜力",
+      "entities": [
+        {
+          "name": "大食蚁兽",
+          "explain": "一种大型食蚁哺乳动物，分布于中南美洲，被IUCN列为易危物种"
+        },
+        {
+          "name": "阿尔玛瓜拉尼保护区（Alma Guaraní）",
+          "explain": "位于阿根廷科连特斯省的自然保护区，2021年起开展生态恢复工作"
+        },
+        {
+          "name": "科连特斯省",
+          "explain": "阿根廷东北部省份，拥有丰富的湿地和草原生态系统"
+        }
+      ],
+      "summary": "2025年，一只大食蚁兽重返阿根廷科连特斯省的阿尔玛瓜拉尼保护区，这是自1986年以来该地区首次出现这种易危哺乳动物。据发表在一份学术期刊上的论文，这一回归被认为是保护区自2021年开始的生态恢复工作的成果。",
+      "relevant": "该案例为\"让自然自我恢复\"的保护策略提供了有力证据——通过减少人为干扰和恢复栖息地，濒危物种可以自然回归，无需大规模人工干预。",
+      "context": "大食蚁兽因栖息地丧失和狩猎在阿根廷部分地区已消失数十年。阿尔玛瓜拉尼保护区从2021年起实施生态恢复项目，包括恢复植被和控制人为干扰，为物种回归创造条件。",
+      "source_analysis": "Mongabay环境新闻平台，报道倾向于关注基于自然的保护解决方案和生态恢复成功案例。",
+      "social_impact": "该案例为全球生态恢复项目提供了可复制的模式，表明在适当条件下，自然生态系统具有自我修复能力，这对保护资金有限的发展中国家尤为重要。",
+      "source_text": "- The return of a giant anteater to the protected area in the humid Gran Chaco in Argentina has given researchers hope that ecosystem restoration could help restore biodiversity in an area threatened by habitat loss and agriculture. - Passive restoration in the area meant removing pressures on the landscape from livestock, dogs, hunting, and fishing, which allowed the natural vegetation to recover. - Experts say it’s too early to say if the anteater’s return is the start of the species’ recovery or just a one-off, and call for continuous monitoring. In 2025, a giant anteater returned to the Alma Guaraní reserve in Argentina’s Corrientes province. It marked the first sighting of this vulnerable and emblematic mammal in the region since 1986. That return is believed to be the result of restoration work that began in the reserve in 2021, according to a paper published in Restoration Ecology, which makes the case that passive restoration in particular may have triggered the species’ return to the area. “It was the first register of the giant anteater in 40 years in Corrientes province, and it was spontaneous,” said co-author Rosario Montiel, from the National University of the Northeast and CEO of climate and environmental startup RestoreData. “We think that in this area, in this reserve, this animal has found food and all its needs to settle there.” It’s not known where the giant anteater came from. Montiel and colleagues suggest the individual, thought to be a male, may have crossed over from neighboring Chaco province, swimming across the nearby Parana River when water levels hit a historical low in 2024. Giant anteaters (Myrmecophaga tridactyla) are classified as vulnerable on the IUCN Red List. Habitat loss is a major threat, driven primarily by the expansion of agriculture and livestock ranching, and is behind much of the species’ decline across Argentina and the wider Gran Chaco region. Infrastructure development, such as increasing road networks, and hunting are also significant threats. Anteaters are caught for the pet trade and accidentally killed by hunters’ dogs. These pressures still exist throughout the landscape and could be behind the appearance of the individual in Alma Guaraní, according to Verónica Quiroga, a researcher at Argentina’s National Scientific and Technical Research Council, who wasn’t involved in the study. “It could also mean that, as its natural habitat in the rest of the Argentine Chaco region dwindles, the species is moving i",
+      "source_title": "A giant anteater’s return in Argentina offers a case for letting nature restore itself",
+      "source_url": "https://news.mongabay.com/2026/09/a-giant-anteaters-return-in-argentina-offers-a-case-for-letting-nature-restore-itself/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "娜奥米·阿尔德曼新作《陌生人》：将丧亲回忆录与推想小说融合，探索悲伤的本质",
+      "entities": [
+        {
+          "name": "娜奥米·阿尔德曼（Naomi Alderman）",
+          "explain": "英国小说家，曾以《权力》（The Power）获得英国女性小说奖"
+        },
+        {
+          "name": "《陌生人》（The Strangers）",
+          "explain": "阿尔德曼的新作，将丧亲回忆录与推想小说混合，讲述一种类似獾的新物种突然出现的故事"
+        },
+        {
+          "name": "路德维希·维特根斯坦",
+          "explain": "20世纪最重要的哲学家之一，以语言哲学著称"
+        },
+        {
+          "name": "推想小说（Speculative Fiction）",
+          "explain": "涵盖科幻、奇幻等非现实设定的文学类型，常用来探讨现实议题"
+        }
+      ],
+      "summary": "英国女性小说奖得主娜奥米·阿尔德曼出版新书《陌生人》，将丧亲回忆录与推想小说融合。书中以哲学家维特根斯坦关于悲伤的论述为起点，讲述一种类似獾的新物种突然出现的故事，以此探讨悲伤的混乱本质。卫报书评称其为一部\"明智而粗粝\"的悲伤审视之作。",
+      "relevant": "阿尔德曼是当代英国最重要的类型文学作家之一，此书将个人丧亲经历与推想小说结合，探索文学如何表达和处理悲伤这一普遍人类体验。",
+      "context": "阿尔德曼此前以《权力》获得英国女性小说奖，该书探讨了性别权力的反转。新作转向更个人化的主题——悲伤与失去，但仍延续了她将现实议题与推想元素结合的创作风格。",
+      "source_analysis": "卫报书籍版书评，整体评价积极，称其为\"明智而粗粝\"，立场为文学批评视角。",
+      "social_impact": "",
+      "source_text": "In his Remarks on Frazer’s Golden Bough, Ludwig Wittgenstein alludes to an incident that followed the death of Franz Schubert. He recalls that Schubert’s brother cut several scores into small pieces, each consisting of only a few bars of music, and handed them out to Schubert’s favourite pupils. This, Wittgenstein argues, was a totally understandable act of grief. He goes on to suggest, however, that if, in his grief, Schubert’s brother had left the scores untouched, or even burned them, then that too would be equally legible to us. Such is the disorienting nature of loss – in its wake, anything goes. In The Strangers, Women’s prize-winning author Naomi Alderman tests this thesis to its limits. How about dealing with grief by writing an uneasy memoir/speculative fiction hybrid about the sudden appearance of a new species of quasi-badgers that seem to improve the quality of local soil? Well, it turns out Wittgenstein was right. The Strangers, despite (or perhaps because of) its many ragged idiosyncrasies, is a remarkably successful evocation of loss. Narrated by “the novelist Naomi Alderman”, who is mourning both her recently deceased mother and a series of failed pregnancies, the book ranges incisively across the vast affective terrain bequeathed to those who go on living: despair, disorientation, solipsism, petulance, regret, resignation … the list goes on. After all, grief is not an emotion – it is all the emotions, all at once. And by braiding the memoir within a subtly unnerving tale of eco-horror infestation, Alderman substantially raises the philosophical and symbolic stakes. It is a high-risk, sporadically successful manoeuvre, but one that recognises the gravity of the task at hand. In the same way that a gravestone is an attempt to give form to an absence, Alderman’s structural ingenuity allows the reader to wrangle some of the ineffable aspects of grief into something more coherent and bounded. The plot itself is simple enough, and relatively small fry compared to some of Alderman’s previous work, such as thwarting the techno-apocalypse (The Future) or upending the global gender hierarchy (The Power). A new type of species is discovered, a flat-faced and long-nosed mammal that comes to be known as a mimmoth. They remain largely inscrutable to humans: hard to photograph, even harder to capture, and seemingly responsible for a range of positive ecological changes. Their inscrutability cuts both ways, however, and soon enough the mimmoths are the su",
+      "source_title": "The Strangers by Naomi Alderman review – where has this odd new species come from?",
+      "source_url": "https://www.theguardian.com/books/2026/sep/17/the-strangers-by-naomi-alderman-review-where-has-this-odd-new-species-come-from",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "詹姆斯·马里奥特新书《新黑暗时代》为阅读辩护，书评批其宏大却肤浅",
+      "entities": [
+        {
+          "name": "詹姆斯·马里奥特（James Marriott）",
+          "explain": "《泰晤士报》专栏作家，本书作者"
+        },
+        {
+          "name": "《新黑暗时代》（The New Dark Ages）",
+          "explain": "马里奥特的新书，为阅读的价值辩护，警告智能手机正在摧毁人们的阅读能力"
+        },
+        {
+          "name": "《米德尔马契》（Middlemarch）",
+          "explain": "乔治·艾略特创作的维多利亚时代经典小说，被视为英语文学的巅峰之作之一"
+        }
+      ],
+      "summary": "《泰晤士报》专栏作家詹姆斯·马里奥特出版新书《新黑暗时代》，为阅读的价值辩护。他在书中回忆自己童年沉浸书海的经历，警告智能手机正在摧毁人们的阅读能力，并担忧社会因此面临暴君和反疫苗者的威胁。卫报书评认为该书宏大但肤浅，未能说清书籍为何如此神奇。",
+      "relevant": "该书反映了数字时代关于注意力、阅读和民主之间关系的持续争论，但书评认为其论证缺乏深度。",
+      "context": "马里奥特在英格兰北部长大，父亲是教师，培养了他对文学的热情。二十五年后，他发现自己也无法抵抗智能手机的诱惑，不得不将其丢弃，由此引发了对阅读衰退和社会后果的担忧。",
+      "source_analysis": "卫报书籍版书评，标题直接批评该书\"宏大但肤浅\"，立场为批判性书评。",
+      "social_impact": "",
+      "source_text": "While other kids watched cartoons, Times columnist James Marriott would spend his school holidays in bed with piles of books – “a mammoth effort of attention, perhaps the greatest I ever made” – under the spell of his father, a teacher who inculcated in him a literary zeal “not exactly common in the north of England in the early 2000s”. Twenty-five years on, Marriott fears smartphones have all but killed reading for everyone. He had to get rid of his own – “George Eliot is no match” – and now, watching the rest of us scroll, he worries not only that we will lose the ability to appreciate Middlemarch, but that we risk falling prey to tyrants and anti-vaxxers forging “a world very different to the one we have known … mystical, tribal and autocratic”. Such is the gist of Marriott’s first book, The New Dark Ages, a polemical elegy tracing the rise and fall of print from Montaigne to Mr Beast. The point is modest – scroll less, read more – but the tone is grandiose. Literacy turbocharged our capacity for complex argument, he argues, but adds that “conversation is very far from useless”, and says “literate civilisation … has never produced a work of art with quite the same quality of heroic starkness as the Iliad or Beowulf”. The readerly bicep Marriott likes flashing is rarely as firm as it looks. “The important things Leo Tolstoy [has] to say about life will only be understood if you can pay attention,” he writes, never saying what they are. His advocacy for books relies on browbeating hyperbole: “I believe there is a kind of truth about life which is only accessible through prose fiction with its capacity to show us the inside of other minds … It is the reason that no actor on earth can show with his or her face what Jane Austen can show us about the human heart in half a paragraph.” When he actually articulates a novel’s impact, it’s to tell us that Elena Ferrante taught him “what it is like to be a teenage girl”. Literature isn’t his only focus. “In the early 20th century everyone read a newspaper,” he says, lamenting social media’s impact on politics. He imagines a print report and a TikTok clip from the same war zone: “Even the most simple written article is more likely to offer explanations for events. How did the war start? Why did the war start?” Alternatively, to summon “your rage with an image, I only need to show you a picture of … heaped bodies”; in other words, if you’re angry when “a missile destroys an apartment block in the Middle East” – the c",
+      "source_title": "The New Dark Ages by James Marriott review – a grandiose but superficial defence of reading",
+      "source_url": "https://www.theguardian.com/books/2026/sep/17/the-new-dark-ages-by-james-marriott-review-a-grandiose-but-superficial-defence-of-reading",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "英国遗产组织招募志愿者用传统长柄镰刀维护草甸，传承古老技艺",
+      "entities": [
+        {
+          "name": "English Heritage",
+          "explain": "英国遗产组织，负责管理英格兰历史建筑和遗址的慈善机构"
+        },
+        {
+          "name": "scyther",
+          "explain": "使用长柄镰刀（scythe）割草的人，一种传统的手工割草方式"
+        },
+        {
+          "name": "Muchelney Abbey",
+          "explain": "位于英国萨默塞特郡的一座中世纪修道院遗址"
+        },
+        {
+          "name": "shrill carder bee",
+          "explain": "一种稀有的熊蜂，因栖息地丧失而数量锐减"
+        }
+      ],
+      "summary": "英国遗产组织正在招募一支志愿者镰刀队，以传统手工方式维护草甸。该计划旨在传承这一古老技艺，同时在萨默塞特郡的Muchelney Abbey改善稀有熊蜂的栖息环境。志愿者以面包和奶酪作为报酬，在英格兰西部各地手工割草。",
+      "relevant": "传统手工割草不仅是一种文化遗产，也对维护生物多样性有实际生态价值，尤其对稀有传粉昆虫的生存至关重要。",
+      "context": "现代农业机械化使传统手工割草技艺濒临失传，同时机械化割草方式对草甸生态和稀有昆虫栖息地造成破坏。English Heritage希望通过志愿者项目同时解决文化传承和生态保护两个问题。",
+      "source_analysis": "卫报（The Guardian）是英国主流左倾媒体，长期关注环境保护和文化遗产议题，报道风格偏重人文关怀。",
+      "social_impact": "该计划涉及英格兰西部多个草甸的维护，直接影响稀有熊蜂等传粉昆虫的栖息地，同时为志愿者提供传统技艺培训机会。",
+      "source_text": "It sounds like something out of a Thomas Hardy novel: a merry band of men and women roaming the West Country cutting meadows by hand in exchange for hunks of bread and cheese. But the conservation charity English Heritage is recruiting a team of volunteer scythers to maintain 21st-century meadowland in the old-fashioned way. The first scythers have been trained and will use their new skills in the meadows around an abbey in Somerset, where it is hoped that as well as helping to keep the age-old practice alive, they will protect a rare type of bumblebee. Ginny Slade, who has completed the training, said she found there was something therapeutic about scything. “You need a level of physical fitness but it’s also about enthusiasm and the passion to learn heritage skills,” she said. “It’s a repetitive movement. You find your rhythm and zone into it. You can really connect with the meadow, the landscape.” The first volunteers have also found that using the scythe is something of a sensual treat – the sound of the blade cutting, the scent of the meadow. Slade said: “Scything is a wonderful example of how traditional skills can still have a role in addressing modern challenges. We hope to help create the diverse, flower-rich habitats that pollinators need while also preserving knowledge and skills that have shaped our landscapes.” Slade, a volunteer and community engagement manager with English Heritage, is one of the first to be trained by professionals at the Exmoor National Park Authority in the art of using and maintaining a scythe. “You want a really good scythe,” said Slade. “If you look after them, they can last generations.” English Heritage rewards volunteers with bread and cheese (it also thought about providing West Country cider but thought this was not a good idea on health and safety grounds). The first group of scythers will help care for the meadow at Muchelney Abbey, in Somerset, which was once a wealthy and important monastery with features including a thatched two-storey monks’ lavatory, which is unique in Britain. They will work on a three-year project with the Bumblebee Conservation Trust to improve habitat for the shrill carder bee, a species that has declined significantly because of the loss of flower-rich grasslands. As part of the project, English Heritage volunteers have been trained by the bumblebee trust to carry out wildlife surveys. Rather than simply recording numbers, volunteers will monitor the relationship between bees and the m",
+      "source_title": "English Heritage trains new generation of scythers to maintain meadows and craft",
+      "source_url": "https://www.theguardian.com/uk-news/2026/sep/17/english-heritage-trains-new-generation-of-scythers-to-maintain-meadows-and-craft",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "贝叶挂毯在大英博物馆展出，深度历史频道推出沉浸式解读",
+      "entities": [
+        {
+          "name": "Bayeux Tapestry",
+          "explain": "贝叶挂毯，一幅70米长的中世纪刺绣作品，记录了1066年诺曼征服英格兰的历史"
+        },
+        {
+          "name": "British Museum",
+          "explain": "大英博物馆，位于伦敦的世界著名综合性博物馆"
+        },
+        {
+          "name": "Norman Conquest",
+          "explain": "诺曼征服，1066年诺曼底公爵威廉入侵并征服英格兰的历史事件"
+        },
+        {
+          "name": "Deep Down History",
+          "explain": "一个专注于深度历史内容的视频/播客频道"
+        }
+      ],
+      "summary": "贝叶挂毯目前正在大英博物馆展出，Deep Down History频道借此推出了一期深度解读节目，全面讲述这幅70米长刺绣作品的历史故事。该挂毯是记录1066年诺曼征服英格兰过程的中世纪珍贵文物。",
+      "relevant": "贝叶挂毯是研究中世纪历史和刺绣艺术的珍贵文物，此次在大英博物馆展出为公众提供了难得的近距离观赏机会。",
+      "context": "贝叶挂毯创作于11世纪，详细描绘了诺曼底公爵威廉征服英格兰的全过程。此次在大英博物馆展出是罕见的公开展览机会，配合展览，多个媒体平台推出了相关解读内容。",
+      "source_analysis": "Open Culture是一个专注于文化教育资源的聚合网站，倾向推荐免费高质量的文化内容。",
+      "social_impact": "贝叶挂毯作为世界级文化遗产，其展出吸引大量游客，相关解读内容有助于公众理解中世纪历史和诺曼征服的历史意义。",
+      "source_text": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, culminating in the Battle of Hastings. This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…” Enjoy! Related Content The Story Told on the Famous Bayeux Tapestry Explained from Start to Finish Behold a Creative Animation of the Bayeux Tapestry How England First Became England: An Animated History The Bayeux Tapestry Animated The Entire History of the British Isles Animated: 42,000 BCE to Today Construct Your Own Bayeux Tapestry with This Free Online App",
+      "source_title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "source_url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "德国先锋艺术杂志《Jugend》数百期电子版可供下载",
+      "entities": [
+        {
+          "name": "Jugend",
+          "explain": "《青年》杂志，德国新艺术运动（Art Nouveau）时期的先锋杂志，1896年至1940年发行"
+        },
+        {
+          "name": "Art Nouveau",
+          "explain": "新艺术运动，19世纪末至20世纪初流行于欧洲的装饰艺术风格"
+        },
+        {
+          "name": "Gleichschaltung",
+          "explain": "一体化/协调政策，纳粹德国1933年起强制将社会各领域纳入纳粹控制的政策"
+        },
+        {
+          "name": "Holocaust Memorial Museum",
+          "explain": "美国大屠杀纪念博物馆，位于华盛顿，专门记录和纪念纳粹大屠杀历史"
+        }
+      ],
+      "summary": "德国新艺术运动先锋杂志《Jugend》从1896年至1940年的数百期内容现已可供下载。该杂志见证了德国从文化繁荣到纳粹一体化政策下全面管控的历史变迁，美国大屠杀纪念博物馆将其作为研究1930年代德国社会转型的重要资料。",
+      "relevant": "这批杂志是研究德国艺术史和纳粹时期社会控制的重要一手资料，免费开放下载对历史研究者和艺术爱好者都有很高价值。",
+      "context": "《Jugend》杂志是德国新艺术运动的核心刊物，1933年纳粹上台后推行Gleichschaltung政策，将媒体和文化机构全面纳入控制，杂志最终于1940年停刊。此次开放下载使公众可以追溯这一历史过程。",
+      "source_analysis": "Open Culture聚合免费文化资源，倾向推荐具有教育和历史价值的公开内容。",
+      "social_impact": "数百期杂志的开放下载为研究魏玛共和国至纳粹时期德国文化与政治变迁提供了珍贵原始资料。",
+      "source_text": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum writes. “Culture, the economy, education, and law all came under Nazi control.” Those artists and organizations that were not purged had their essential character changed to reflect an entirely different set of artistic and political values. One publication, especially, serves as an example of the Nazification of culture. The arts journal Jugend (Youth), writes Messy Nessy Chic, “had been turned largely into propaganda” between 1933 and 1940, its final year. But prior to the regime’s takeover, Jugend showcased the most avant-garde, “degenerate” artists of the era, and might have been “the ‘brainiest’ periodical of the day,” as one critic wrote in a 1904 issue of The Yale Literary Magazine. “There is no magazine published in England or in this country which is at all like it.” You can take a look yourself—browse, search, and download hundreds of scanned issues of Jugend at the University of Heidelberg’s digital archive, thousands of pages in PDF form, spanning the magazine’s forty-four-year history. You can also see images at Flickr. As in England, France, Austria, and the U.S., the Art Nouveau movement in Germany emerged from a whirlwind of post-Impressionist painting, Orientalist motifs, folk art, modernist art and advertising, book illustration, and graphic and industrial design. Appropriately, given its perch on the threshold of a new century, Art Nouveau looked both backward—to the medieval, gothic, and Romantic—and forward toward a more modernist, urbane, and urbanized sensibility. So influential was Jugend that Art Nouveau in Germany became known as Jugendstil. The Oxford Critical and Cultural History of Modernist Magazines writes, “Among Jugend’s most important qualities—indeed, an essential aspect of Art Nouveau and its German equivalent Jugendstil—was its brilliant escapism.” Founded in 1896 by writer Georg Hirth, the magazine was “from the start a venue to promote the new cultural Renaissance without recourse to the established ‘vintage’ art.” (See its very first cover right above.) Jugendstil was primarily based in Munich, where most of its artists, designers, and writers lived and worked, ",
+      "source_title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "source_url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "弗兰克·劳埃德·赖特曾秘密经营日本艺术品生意，深刻影响其建筑风格",
+      "entities": [
+        {
+          "name": "Frank Lloyd Wright",
+          "explain": "弗兰克·劳埃德·赖特，美国最著名的建筑师之一，代表作包括流水别墅"
+        },
+        {
+          "name": "Japanese art dealer",
+          "explain": "日本艺术品经销商，赖特曾通过买卖日本浮世绘等艺术品赚取收入"
+        },
+        {
+          "name": "Vincent van Gogh",
+          "explain": "文森特·梵高，荷兰后印象派画家，生前几乎无人知晓，去世后成为世界级艺术大师"
+        }
+      ],
+      "summary": "美国建筑大师弗兰克·劳埃德·赖特在职业生涯中曾秘密从事日本艺术品经销以补贴收入。这段经历深刻影响了他的建筑美学，尤其是对空间、比例和自然元素的处理方式。文章将其与梵高的经济困境作对比，指出赖特虽享有盛名却常陷财务紧张。",
+      "relevant": "揭示了赖特建筑风格中日本影响的商业来源，为理解其设计理念提供了新视角。",
+      "context": "赖特虽然在美国建筑界享有数十年盛名，但经常面临财务困难。为维持生计，他长期从事日本浮世绘等艺术品的买卖，这段经历不仅是经济行为，也深刻塑造了他对东方美学的理解。",
+      "source_analysis": "Open Culture推荐文化教育类深度内容，该文属于艺术史普及性质。",
+      "social_impact": "该内容有助于公众理解跨文化交流如何影响现代建筑大师的创作，以及艺术家经济压力对其创作的潜在影响。",
+      "source_text": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his death. But if they’ve encountered one another in the afterlife, they’ve certainly discussed one subject above all others: their shared appreciation for Japanese woodblock prints. Here on Open Culture, we’ve previously featured the collection of 500 such works of art that van Gogh left behind. At the end of Wright’s life in 1959, he owned about 6,000, many of which his estate had to sell to pay both Japanese art dealers and American tax collectors. We could say that Wright died as he lived, advanced age having not evidently diminished either his financial recklessness or his obsession with ukiyo‑e. The masters of that classical “art of the floating world” like Hokusai and Hiroshige were among his favorite artists of any kind. When still a teenager, Wright went to work for the architect Joseph Silsbee, who’d built a chapel for his uncle. “Silsbee’s cousin, Ernest Fenollosa, happened to be the world’s leading Western expert on Japanese art at the time,” writes Kevin Nute at The Conversation. It isn’t certain how well the young Wright knew Fenollosa — or indeed when he began collecting ukiyo‑e, writes Frank Lloyd Wright and the Art of Japan author Julia Meech-Pekarik, though he may have seen both Hokusai and Hiroshige’s works at the World’s Columbian Exposition in Chicago in 1893, “about the time he opened his practice in Oak Park.” Eight years later, “Wright made his first voyage to Japan in pursuit of prints, and he did indeed return with enough expertise to stage an exhibition of his own Hiroshige collection at the Art Institute of Chicago in March of 1906.” He returned for two months in 1913, making it clear that he was only interested in using that time to acquire more prints. Later, while working on the Imperial Hotel between 1917 and 1922, he spent a total of more than three years there, later writing that “the pursuit of the Japanese print became my constant recreation while in Tokio,” a quest whose “adventures and excursions would take place at night or sometimes call for a journey by day to distant places.” This positioned him well to take on a sideline as a dealer (or as he liked to call himself, a merchant) of Japan",
+      "source_title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "source_url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "Aeon推出诗意短片探索动物眼睛的生物学与神秘世界",
+      "entities": [
+        {
+          "name": "Aeon",
+          "explain": "Aeon是一个专注于哲学、科学和文化深度文章的在线数字杂志"
+        },
+        {
+          "name": "animal eyes",
+          "explain": "动物眼睛，不同物种演化出形态和功能各异的视觉器官"
+        }
+      ],
+      "summary": "Aeon发布了一部短篇诗意纪录片，探索动物眼睛的生物学、美感与神秘性。影片通过镜头呈现动物视觉所感知的异世界，带领观众进入一个与人类感知截然不同的领域。",
+      "relevant": "以诗意方式呈现科学主题，帮助公众从感官层面理解动物视觉的多样性和演化奇迹。",
+      "context": "动物眼睛经过数亿年演化，形成了从复眼到相机眼的多种结构，每种都适应其生存环境。该短片试图以视觉化方式呈现这些不同物种所看到的\"异世界\"。",
+      "source_analysis": "Aeon以哲学和跨学科深度内容著称，倾向从人文角度切入科学话题。",
+      "social_impact": "",
+      "source_text": "To what extent can we ever understand the experiences of nonhuman animals? And to what extent do we even understand our own? These questions sit at the heart of the short poetic documentary Animal Eye, which probes the diverse visual worlds of creatures big and small. For the film, the US director Carlo Nasisse pairs the reflections of philosophers and scientists with ruminative in-the-lab images of a wide range of animals. Starting from the biology, beauty and mystery of the eye, Nasisse constructs a broader exploration of the limits of human understanding, and our drive to keep looking regardless. The alien worlds beside our own – a journey into animal eyes Director: Carlo Nasisse Producers: Maria Luisa Santos, Dominic Yarabe videoBiology To understand how an animal sees the world, start with the shape of its pupils 5 minutes videoAnimals and humans Are zoos and natural history museums born of a desire to understand, or to control? 57 minutes videoArt The inadvertent art of tiny bodies – stunning, hidden patterns of animal movement 10 minutes videoFuture of technology It takes a careful blend of science, craft and compassion to make a prosthetic eye 6 minutes videoCognition and intelligence How a ‘periodic table’ of animal intelligence could help to root out human bias 5 minutes videoBioethics Who’s watching who at the zoo? 11 minutes videoSleep and dreams How might the dreamworlds of other animals differ from our own? 8 minutes videoBiology To understand the limits of human senses, look to the wild world of animal cognition 45 minutes videoAnimals and humans An unflinching look at a provocative public dissection of a ‘surplus’ zoo lion 13 minutes",
+      "source_title": "Animal eye",
+      "source_url": "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "Aeon文章追问：如果计算机能数清所有花瓣，谁来品尝樱桃？",
+      "entities": [
+        {
+          "name": "computist",
+          "explain": "计算主义者，相信一切知识都可被计算和算法化的人"
+        },
+        {
+          "name": "subjectivity",
+          "explain": "主观性，个体独特的感受和体验，难以被量化或算法化"
+        }
+      ],
+      "summary": "Aeon发表了一篇由Liam Spradlin撰写的文章，探讨计算主义者试图将人类知识中的主观性完全\"调试\"掉的梦想。文章质疑：如果计算机能数清所有花瓣，谁还能品尝樱桃的滋味？作者认为追求纯粹无摩擦的计算世界将消解人类体验的本质。",
+      "relevant": "在AI快速发展的当下，这篇文章对技术万能论提出了哲学层面的反思，触及主观体验是否可被计算的根本问题。",
+      "context": "随着人工智能和计算主义的兴起，越来越多领域试图将人类知识和体验量化、算法化。文章从哲学角度质疑这一趋势，追问主观体验在纯计算世界中是否还有位置。",
+      "source_analysis": "Aeon是哲学和人文深度内容平台，倾向对技术至上主义持批判反思立场。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 19 minute listen On a sunny day in the summer of 2015, I found myself standing in the basement of an office building in Silicon Valley. The room was packed full of appliances, as if a commercial kitchen had been blown apart. Several stacks of wall ovens huddled together on dollies. Tangles of electrical cords popped up behind a broad stainless-steel counter. Rags and sponges dried slowly on the edge of a giant sink, over which a pre-rinse nozzle drooped like a willow branch. Nearby, a computer monitor showed Python developer tools next to a spreadsheet dotted with red and green cells. In the middle of the room was an improvised prep station on which there was an odd little machine. It looked like a tiny microwave designed to warm up a single cupcake. I later learned it’s a moisture analyser: the researchers use it to see how much juice is left in their samples of lamb, swordfish, chicken, pork and beef. I’m writing down everything I see: 10:45 am. The kitchen is full of smoke. That basement room was a test kitchen, where two chefs and several researchers had been busy cooking a whole farm’s worth of meat in a set of prototype ovens. The company’s vision was to invent a cooking machine that could whip up Michelin-grade dishes at the press of a button, and the crew was tasting the food and filling out ‘sensory inventory’ forms that recorded qualities like colour, smell, temperature, texture and taste. As the design lead for the oven’s touchscreen interface, I was there to learn from the chefs in order to build something that worked for them and for the ‘home chef’ or end user. The tension between their culinary intuition and the ovens’ logic was immediately apparent: the kitchen was full of smoke because one chef had attempted to cook three racks of lamb directly under a broiler to get the colour you’d get by ‘smacking it with a propane torch’. This instinct didn’t translate to a language the oven understood. I wrote down Smacking? and kept watching. The other chef, tapping away on another of the ovens’ screens, muttered: ‘These things are worthless. I need to be able to use my chef spidey senses.’ The chefs were hired to help program the ovens to follow their recipes. But they also had to pretend they were normal people cooking dinner for their families in order to see if the ovens could replicate expert techniques. On one hand, the chefs needed an interface with enough controls to make manual adjustments, adding to the oven’s corpus of",
+      "source_title": "Who will taste the cherries?",
+      "source_url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "Aeon视频追溯人造大理石从古罗马壁画到现代厨房台面的千年历史",
+      "entities": [
+        {
+          "name": "fake marble",
+          "explain": "人造大理石，用涂料、石膏等材料模仿天然大理石纹理的装饰手法"
+        },
+        {
+          "name": "Roman frescoes",
+          "explain": "古罗马壁画，常以仿大理石纹理装饰墙面"
+        }
+      ],
+      "summary": "Aeon发布视频探讨人类对仿制大理石的持久迷恋，从古罗马壁画一直追溯到现代厨房台面。视频指出，人们模仿大理石的动机不仅是节省成本，还涉及美学追求、身份象征和工艺传统等更深层原因。",
+      "relevant": "揭示了人造材料背后复杂的社会心理和文化动因，挑战了\"仿制品只是廉价替代\"的简单认知。",
+      "context": "人类仿制大理石的历史可追溯至古罗马时期，当时壁画中常用绘画技法模拟大理石纹理。这一传统延续至今，现代厨房台面中的人造石材料同样延续了这种对天然石材的模仿欲望。",
+      "source_analysis": "Aeon Video以视觉化方式呈现文化和哲学主题，倾向从人文视角解读日常现象。",
+      "social_impact": "",
+      "source_text": "Humans have prized marble for its colours, patterns, texture and heft for thousands of years. In this video, Mary McGillivray, a digital creator and PhD student at the University of Melbourne, explores how, for as long as we’ve prized it, we’ve been inventing ways to fake it. McGillivray traverses Europe to investigate how, from ancient Rome to modern home-improvement stores, we’ve developed techniques to cast, plaster and paint imitations of the metamorphic rock. And, as McGillivray argues, this process has been about more than finding a cheap alternative to a luxury material. Rather, the millennia-long history of our fascination with marble, and of our attempts to recreate it, has much to say about how humanity is inspired by, and competes with, the natural world. The millennia-long history of our obsession with fake marble Video by Mary McGillivray 16 September 2026 videoDesign and fashion The only thing more entrancing than a marbled book cover is the process that creates it 13 minutes videoGlobal history The strange journey of the Parthenon Marbles to the British Museum 10 minutes videoArchaeology Ancient Greek sculptures were colourful. Why does the white marble ideal persist? 6 minutes videoMaking Surrender to the mechanical marvels of the world’s most intricate music box 7 minutes videoDesign and fashion How do you bring an 18th-century ceramic teapot to life? An artist puzzles it out 7 minutes videoArt From a pencil sketch to cherubs dancing in stone – recreating a Donatello work 7 minutes",
+      "source_title": "The meaning of fake marble",
+      "source_url": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "智利新星Akriila发布新专辑，融合数字摇滚与披头士影响",
+      "entities": [
+        {
+          "name": "Akriila",
+          "explain": "智利新锐音乐人，原名lucy miró，正在崛起的拉丁音乐新星"
+        },
+        {
+          "name": "Jane Remover",
+          "explain": "美国独立音乐人，以融合电子和摇滚风格著称，参与了本专辑制作"
+        },
+        {
+          "name": "digirock",
+          "explain": "数字摇滚，融合电子音乐制作与摇滚元素的音乐风格"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分著称"
+        }
+      ],
+      "summary": "智利新锐音乐人Akriila发布了新专辑《lucy miró al mundo y notó que está girando》，由Jane Remover协助制作，并受到披头士乐队的影响。Pitchfork评价这是一张以数字摇滚风格表达情感过载的作品，标志着这位智利新星的崛起。",
+      "relevant": "展现了拉丁美洲独立音乐场景与全球数字音乐潮流的融合，值得关注新兴音乐人的跨文化创作。",
+      "context": "Akriila是正在崛起的智利音乐人，此次新专辑邀请美国独立音乐人Jane Remover参与制作，在数字摇滚框架下融入披头士式的旋律感，探索情感过载的主题。",
+      "source_analysis": "Pitchfork是独立音乐领域最具影响力的评论媒体之一，评分和评论对新兴音乐人的职业发展有显著影响。",
+      "social_impact": "",
+      "source_text": "Just when you thought the kids had buried the Beatles for good, here’s AKRIILA with lucy miró al mundo y notó que está girando. The title of the rising Chilean star’s new album (“Lucy looked at the world and noticed it’s turning”) borrows lines from “While My Guitar Gently Weeps” and “Lucy in the Sky With Diamonds,” the first song AKRIILA learned to play on the piano. The Fab Four might seem like an unlikely reference point for a flame-haired 22-year-old whose berserk debut album was filled with robotic tags like “Hot gays listen to AKRIILA” and “Hot twinks listen to AKRIILA.” But the more you listen, the more it makes a weird kind of sense. AKRIILA makes omnivorous music, the byproduct of a peripatetic appetite and an inability or refusal to streamline her impulses. She doesn’t sound like the Beatles; she sounds like someone playing you her 10 favorite records at the same time, a charming mash of dog-eared pages and favorited tabs. Akri’s Lucy is not Julian Lennon’s classmate Lucy, nor LSD, nor a love interest. It's a protagonist learning to live alone in a grown-up, lovesick world—and also, separately, a snail. Snails are pathetic, precious things, locomoting calmly as chaos erupts around them. On the album cover, AKRIILA holds a snail named Lucy as light breaks in from every side. As lucy unfolds, the record moves from the bitter depths of heartbreak to something like acceptance, or the painful death that’s necessary for the light to eventually come back. On the trip-hoppy, dream-poppy second track, “moriría y moriría” (“I would die and die”), AKRIILA threatens to shoot herself if she can’t have her sweetheart. Fast forward to the languorous ache of closer “lucy,” where AKRIILA sees a snail that’s sure to die, and she gives up; she says the world has stopped turning. “Ya no sé por qué aún me esfuerzo,” (“I don’t know why I still try”), she sighs. No score yet, be the first to add. While the album is packed with these love-scarred lyrics and angsty entreaties, you wouldn’t know it from the production, which is mostly handled by longtime collaborators Heartgaze and Vinco. Where AKRIILA’s 2024 album epistolares turbocharged Nia Archives’ sensitive jungle for a neoperreo club night, lucy uses mad thuds and speedy rhythms sparingly, saving a “Think” break for a sick flash on “un <3 inestable.” The new sound is groovy guitars and drums that make being down bad sound like springtime bliss, like crying and smiling while watching the sunrise say hiii. AKRIILA ci",
+      "source_title": "lucy miró al mundo y notó que está girando",
+      "source_url": "https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "Rhiannon Giddens 发行新专辑《Hope Is the Thing With Feathers》，回归卡罗来纳根源",
+      "entities": [
+        {
+          "name": "Rhiannon Giddens",
+          "explain": "美国民谣歌手、多乐器演奏家，曾获格莱美奖，以探索非裔美国人音乐传统著称"
+        },
+        {
+          "name": "Hope Is the Thing With Feathers",
+          "explain": "Rhiannon Giddens 的新专辑名称，取自 Emily Dickinson 的同名诗作，主题围绕社区与韧性"
+        },
+        {
+          "name": "Carolina roots",
+          "explain": "指美国北卡罗来纳州的音乐传统，包括民谣、蓝调、乡村等根源音乐风格"
+        }
+      ],
+      "summary": "美国民谣歌手兼多乐器演奏家 Rhiannon Giddens 发布新专辑《Hope Is the Thing With Feathers》。专辑以社区和韧性为核心主题，将她广泛的音乐探索锚定在卡罗来纳州的根源音乐传统中。这是她持续深耕美国根源音乐脉络的又一作品。",
+      "relevant": "Rhiannon Giddens 是当代美国民谣领域的重要人物，她的作品常引发对种族、历史与音乐传统的讨论，这张专辑延续了她对根源音乐的深度挖掘。",
+      "context": "Rhiannon Giddens 此前以卡罗来纳 Chocolate Drops 乐队成名，后展开个人事业并涉足歌剧、影视配乐等多元领域。这张新专辑是她回归民谣根源的一次创作。",
+      "source_analysis": "Pitchfork 是知名独立音乐媒体，评论风格偏重艺术性与文化语境分析，通常对具有社会意识的根源音乐持肯定态度。",
+      "social_impact": "",
+      "source_text": "Hope Is the Thing With Feathers is a sort of homecoming for Rhiannon Giddens. The folk singer and string musician first gained acclaim for her work with the Carolina Chocolate Drops, a group dedicated to preserving traditional string band music of North Carolina. Since 2015, her solo career has taken her far afield, exploring the tributaries that flow from the folk music of the Carolinas: discovering austere, arty branches through her work with Italian multi-instrumentalist Francesco Turrisi and adding enough polish to her essential sound on 2023’s You’re the One so it resembled a crossover. A slight echo of You’re the One’s smooth assurance surfaces on her new record via “Carolina Rain.” The tune is broad and insistent enough to resemble a pop song, if only it was given a streamlined arrangement. Instead, “Carolina Rain” serves as a mile marker on an album that traces a path from Giddens’ folk beginnings through her worldly explorations and back home again. It’s a journey designed as a celebration, one that opens the door to include musicians from all corners of her career, ranging from regular collaborators Dirk Powell and Jason Sypher through Congolese guitarist Niwel Tsumbu to fiddle player Justin Robinson, with whom Giddens played in the Carolina Chocolate Drops. No score yet, be the first to add. Last year, Giddens reunited with Robinson for the joint record What Did the Blackbird Say to the Crow, a throwback to the impassioned traditionalism of their former band. Giddens brings that same enthusiasm to Hope Is the Thing With Feathers. The album flaunts frayed ends scattered throughout, like the studio chatter that precedes a raucous rendition of the folk standard “Old Cluck Hen.” These ragged accents make the music feel loose and alive—a touch of a mess that complements the clean yet earthy production of an album cut live in the studio. Similarly, Giddens varies her styles without calling attention to the breadth of material here. Original material written by her and Powell is balanced by folk tunes from a variety of sources, including interpretations of Elizabeth Cotten’s “Freight Train” and Ola Belle Reed’s “High on a Mountain,” a pair of songs associated with North Carolina. Neither are straightforward re-creations of the originals. Giddens downplays the steady-rolling guitar lick fueling “Freight Train” and opens up “High on a Mountain” with a relaxed rhythm. Through stylistic choices like these, Giddens places just as much emphasis on the musica",
+      "source_title": "Hope Is the Thing With Feathers",
+      "source_url": "https://pitchfork.com/reviews/albums/rhiannon-giddens-hope-is-the-thing-with-feathers/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "Black Meteoric Star 发布新专辑《Wet》，被评为一封酷儿电子宣言",
+      "entities": [
+        {
+          "name": "Gavilán Rayna Russom",
+          "explain": "美国电子音乐人，曾是 LCD Soundsystem 的合作成员，Black Meteoric Star 是其长期个人项目"
+        },
+        {
+          "name": "Black Meteoric Star",
+          "explain": "Gavilán Rayna Russom 的电子音乐个人项目，风格融合暗潮、电子与实验音乐"
+        },
+        {
+          "name": "LCD Soundsystem",
+          "explain": "美国知名电子摇滚乐队，以融合舞曲与朋克闻名"
+        },
+        {
+          "name": "queer electro manifesto",
+          "explain": "酷儿电子宣言，指专辑以电子音乐为载体表达酷儿身份与政治主张"
+        }
+      ],
+      "summary": "前 LCD Soundsystem 合作者 Gavilán Rayna Russom 的长期个人项目 Black Meteoric Star 发布新专辑《Wet》。Pitchfork 评价这张专辑兼具情欲感与颠覆性，称其为一封酷儿电子宣言。专辑延续了该项目在电子音乐中融入身份政治表达的一贯路线。",
+      "relevant": "Gavilán Rayna Russom 是跨性别电子音乐人的代表人物之一，这张专辑将酷儿身份政治与电子音乐结合，对理解当代电子音乐中的性别与身份议题有参考价值。",
+      "context": "Gavilán Rayna Russom 曾以 LCD Soundsystem 成员身份活跃，后专注于个人项目 Black Meteoric Star，持续探索电子音乐与酷儿身份表达的交汇。",
+      "source_analysis": "Pitchfork 是知名独立音乐媒体，对实验电子和具有身份政治意识的音乐作品通常给予较高关注和正面评价。",
+      "social_impact": "",
+      "source_text": "When the Berlin Wall fell in 1989, East Berlin crumbled. Many residents flocked to the West, compelled by the promise of a more robust economy and a higher standard of living. On the city’s eastern side lay a constellation of factories and industrial buildings, abandoned in the scramble of reunification. With curfews abolished and noise ordinances ignored, these neglected spaces became playhouses through the ’90s. At clubs and raves that enshrined techno, kink culture, and queer exploration, youthful mischief-makers gained access to their every unintelligible desire. In 2006, this is where Rhode Island native Gavilán Rayna Russom spawned Black Meteoric Star—before she joined LCD Soundsystem in 2008, before she came out as trans in 2017, and before she eventually left LCD to focus on work that felt truer to her. In the early aughts, Berlin was still a fleshy swirl of sonic freedom and sexual excess; jacking through electro, EBM, and freestyle, early Black Meteoric Star records reflected the erotic potential at her fingertips. Every rotten synthline and gravelly kick was a siren call to the dancefloor, directly inspired by her musings on dance music, drag, and the queer leather BDSM scene. The music’s trickster quality occasionally revealed glimpses of a life in deep transition—in Berlin, Russom was battling bouts of psychosis and traipsing through the concrete dens of the city after hours, emerging from techno-punctured darkness long after sunrise. No score yet, be the first to add. Today, Russom is back in the U.S., where she’s active as a DJ in the New York leatherdyke scene. Her latest album, Wet, which collects Black Meteoric Star tracks recorded as early as 2008, is a queer electro manifesto dripping in sex. “No amount of acting ‘respectable’ will humanize queer people in the eyes of this administration,” Russom writes in a press release. If that messaging weren’t already compelling, the songs are fierce, too, venturing deep into the smoky interiors of early-’80s house, electro, and rock. The imaginative exchange of pleasure and power in S&M spaces is encoded into the loose drum workout “S’weat” and the scruffy electro of “Control Top,” peppered with zaps that crack like leather against muscle. “Come on, speaker freak for me!” Russom growls through the minimal groove of “Subwoofer Speaker Freaker,” summoning images reminiscent of McKenzie Wark’s autofictional novel Raving, in which dancers open themselves up to being “fucked by sound.” Blunt and doused",
+      "source_title": "Wet",
+      "source_url": "https://pitchfork.com/reviews/albums/black-meteoric-star-wet/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "英国乐队 The Tubs 在 Merge 厂牌发行首张专辑《Hard Life》",
+      "entities": [
+        {
+          "name": "The Tubs",
+          "explain": "英国独立摇滚乐队，风格以 jangle-rock（清脆吉他流行摇滚）为主"
+        },
+        {
+          "name": "Merge Records",
+          "explain": "美国著名独立唱片厂牌，旗下曾有 Arcade Fire、Superchunk 等知名乐队"
+        },
+        {
+          "name": "jangle-rock",
+          "explain": "一种以清脆、明亮的吉他音色为特征的摇滚风格，代表乐队包括 R.E.M. 和 The Smiths"
+        }
+      ],
+      "summary": "英国乐队 The Tubs 通过美国独立厂牌 Merge Records 发行首张专辑《Hard Life》。这张专辑被描述为一张关于生存的作品，由一系列宿命论的 jangle-rock 颂歌组成，但保留了足够的欢愉感让人继续前行。这是该乐队在 Merge 的首次亮相。",
+      "relevant": "The Tubs 在 Merge 发行首张专辑标志着这支英国乐队正式进入美国独立音乐主流视野，Merge 厂牌的背书也为其带来更多关注。",
+      "context": "The Tubs 此前在英国独立音乐圈已有一定积累，此次签约美国知名独立厂牌 Merge Records 并发行首张全长专辑，是其事业的重要一步。",
+      "source_analysis": "Pitchfork 是知名独立音乐媒体，对独立摇滚和 jangle-pop 风格有持续关注，评论通常兼顾音乐性与文化定位。",
+      "social_impact": "",
+      "source_text": "Owen Williams wrote the last Tubs album, Cotton Crown, in the midst of a breakdown. But the harder you squint at their catalog, the harder it is to surmise what is breakdown and what is not. The Welsh singer’s unreliable narrators slip between gurning heartache and a self-sniping internal monologue that says cruel things you would never accept from a friend. His trade is failure anthems set to jangly folk-rock that stops short of storming the barn. Their darkest snapshots of tragedy and depression are often their funniest and winningest. On “Heaven or London” from their new record, Hard Life, Williams portrays himself as “the singer of a rip-off band” who is “wanking himself into an early grave,” playing “farm simulator,” and, for some reason, claiming to “write for The New York Times.” There is no tried-and-true path to success for a man like this, and it is unclear if Williams would take it. “I don’t wanna sell out this tour,” sings another of his narrators over duelling guitar and fiddle. “Don’t wanna play with the Tubs anymore/If you don’t love me.” The Tubs are the sort of band that has been down on its luck for so long that “down with luck” becomes its manifesto. The only thing for it is a crack at the small time: Write and record quickly, play gazillions of gigs, amble over to America, maybe briefly become the talk of the town. It helps to sign to one of the bigger indies; the new album is their Merge debut. But the uncertain journey ahead will be subject to chance, as well as a pathological fidelity to indie-pop principles: the DIY stance, the affinity for ruin, and the belief that love can make it all worthwhile but, knowing your luck, probably won’t. No score yet, be the first to add. Like many oddball bands operating in London, the Tubs’ longing for a dirtier, scrappier version of the city dovetails with a distaste for music likely to make much money. It is hard to disentangle their romantic fatalism from their tech-ravaged industry and dire social conditions. The rewards of a rich artistic life come to those who remain open to the world, which can be hard when paying a fortune for a crap apartment well into your thirties. Money helps, as does delirious self-belief. The Tubs, like so many bloody-minded artists living 40 to 50 years too late, appear to have scant hope of either. The rest of the band, for all their ramshackle fervor, barely put up a fight against Williams’ defeatist lyrics. Lead guitarist Dan Lucas is new to the fold—George Nichol",
+      "source_title": "Hard Life",
+      "source_url": "https://pitchfork.com/reviews/albums/the-tubs-hard-life/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "伦敦乐队 Curbside Lambsear 发布首张 EP《Put Rings on All My Fingers to Weigh Down My Hands》",
+      "entities": [
+        {
+          "name": "Curbside Lambsear",
+          "explain": "来自伦敦的乐队，风格融合噪音、drone 与田园牧歌式旋律"
+        },
+        {
+          "name": "drone",
+          "explain": "一种以持续、低频音墙为特征的实验音乐风格，强调音色的绵延与氛围感"
+        },
+        {
+          "name": "EP",
+          "explain": "Extended Play，介于单曲和全长专辑之间的中等长度音乐发行形式，通常包含3-6首曲目"
+        }
+      ],
+      "summary": "伦敦乐队 Curbside Lambsear 发布首张 EP《Put Rings on All My Fingers to Weigh Down My Hands》。Pitchfork 评价这张 EP 令人着迷，将噪音与 drone 浸染在田园牧歌般的优美之中——或者说恰好相反。这是该乐队的首次正式发行。",
+      "relevant": "作为一支新乐队的首张作品，这张 EP 展示了噪音与旋律之间的独特平衡，对关注实验摇滚和伦敦独立音乐场景的听众有参考价值。",
+      "context": "Curbside Lambsear 是一支来自伦敦的新乐队，这张 EP 是其首张正式发行作品，融合了噪音、drone 和田园风格等多种元素。",
+      "source_analysis": "Pitchfork 是知名独立音乐媒体，对实验性和跨风格的新乐队作品通常给予关注，评论风格偏重氛围与艺术性描述。",
+      "social_impact": "",
+      "source_text": "Curbside Lambsear means nothing. As a band name, it’s drawn from a photo Magdalena McLean posted on Instagram a few years ago—of a lamb’s-ear plant that was growing next to a curb—and does not really necessitate interrogation. But wow, what a phrase to say out loud! There’s no band I’d rather speak the name of right now: Those consonant clusters give the tongue a real workout, bring back Proustian memories of spelling bees and schoolyard riddles. When I say Curbside Lambsear are wordy, I don’t mean in a literal sense. Maybe I’d describe them as wordsy: as in, headsy about words. Just listen to the title of their debut EP: Put Rings on All My Fingers to Weigh Down My Hands. The construction practically encourages you to swing it as you say it out loud: Put Rings on-All-My Fingers to Weigh Down My Hands. McLean and her bandmate Annabelle Mödlinger say they write lyrics together, phrase by phrase, meaning their songs don’t contain full narratives; what they lack in discrete stories they more than make up for in structural beauty. When one of them intones that “No ordinary word makes the world fit right into the palms of me/No ordinary word makes the world makes the world makes the world,” I have no idea what they might be referring to—but it’s easy to lurch into the pessimistic beauty of the whole thing. No score yet, be the first to add. Viola player McLean and synth player Mödlinger were both born in Austria, but became friends in London as members of sparky art-rock band the Umlauts. McLean also performs in Caroline as a violinist and co-vocalist, and an understanding of that band is helpful in parsing the aesthetic world of Curbside Lambsear, which similarly manages to blend elements of drone and noise into a world that still feels pretty and pastoral. Most frequently, Curbside Lambsear’s music recalls the work of Tirzah and Mica Levi in its willingness to find grooves in harsh environs (as on “Avril”) or to contrast sweet, almost childlike vocal takes with dubby, decaying production (“Uneasy”). Caroline’s Jasper Llewellyn drums on four out of the EP’s five songs, adding tense, leaden improvised-sounding percussion to “Jjochstubn” and aggressive, dissonant cymbal to “Avril” that pull Rings away from the realm of NTS-core pastoral pop and into harsher, more full-throated territory. The overall effect is heady and hypnotic—a set of songs that tickle the back wall of your stomach and the soles of your feet thanks to their dense, churning environments. And th",
+      "source_title": "Put Rings on All My Fingers to Weigh Down My Hands EP",
+      "source_url": "https://pitchfork.com/reviews/albums/curbside-lambsear-put-rings-on-all-my-fingers-to-weigh-down-my-hands/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_f75b6fa597ec",
+      "source": "Pitchfork",
+      "title": "lucy miró al mundo y notó que está girando",
+      "url": "https://pitchfork.com/reviews/albums/akriila-lucy-miro-al-mundo-y-noto-que-esta-girando/",
+      "summary": "With an assist from Jane Remover and under the influence of the Beatles, the rising Chilean star crafts a digirock ode to emotional overload.",
+      "image": ""
+    },
+    {
+      "id": "rss_e2a8d3819313",
+      "source": "Pitchfork",
+      "title": "Wet",
+      "url": "https://pitchfork.com/reviews/albums/black-meteoric-star-wet/",
+      "summary": "Steamy and subversive, the new album from former LCD Soundsystem collaborator Gavilán Rayna Russom’s long-running project is a queer electro manifesto.",
+      "image": ""
+    },
+    {
+      "id": "rss_dd96c9f5c5aa",
+      "source": "Pitchfork",
+      "title": "Put Rings on All My Fingers to Weigh Down My Hands EP",
+      "url": "https://pitchfork.com/reviews/albums/curbside-lambsear-put-rings-on-all-my-fingers-to-weigh-down-my-hands/",
+      "summary": "The London band’s mesmeric debut EP suffuses noise and drone in pastoral loveliness—or is it the other way around?",
+      "image": ""
+    },
+    {
+      "id": "rss_ff31afa50217",
+      "source": "Pitchfork",
+      "title": "Hope Is the Thing With Feathers",
+      "url": "https://pitchfork.com/reviews/albums/rhiannon-giddens-hope-is-the-thing-with-feathers/",
+      "summary": "Focused on community and resilience, the folk singer and multi-instrumentalist’s new album anchors her wide-ranging musical explorations in her Carolina roots.",
+      "image": ""
+    },
+    {
+      "id": "rss_61a64058f753",
+      "source": "Pitchfork",
+      "title": "Hard Life",
+      "url": "https://pitchfork.com/reviews/albums/the-tubs-hard-life/",
+      "summary": "The UK band’s Merge debut is an album of survival: a set of fatalistic jangle-rock anthems with just enough joy to keep going.",
+      "image": ""
+    },
+    {
+      "id": "rss_29741bfcce0b",
+      "source": "Open Culture",
+      "title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "summary": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, [&#8230;]",
+      "image": "https://i.ytimg.com/vi/WnJgym1oIJU/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_4dcfd92bdb55",
+      "source": "Open Culture",
+      "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "summary": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum [&#8230;]",
+      "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg"
+    },
+    {
+      "id": "rss_92eef24704c9",
+      "source": "Open Culture",
+      "title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "summary": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/08083915/19.jpg.jpeg"
+    },
+    {
+      "id": "rss_5dab34540826",
+      "source": "Aeon",
+      "title": "Animal eye",
+      "url": "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes",
+      "summary": "Probing the biology, beauty and mystery of animal eyes, this short poetic documentary explores an alien world - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/8d250757-dd90-4110-aa97-f8bf526db8b9/animal-eye-landscape-1-v2.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_7221876f42ee",
+      "source": "Aeon",
+      "title": "Who will taste the cherries?",
+      "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+      "summary": "The computist has one dream: to debug the subjectivity out of all of human knowledge, creating a pure, frictionless world - by Liam Spradlin Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/df3de1b9-0cd3-48a0-a054-36d0baf17bbe/essay-v1-.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_d748ce8acc9e",
+      "source": "Aeon",
+      "title": "The meaning of fake marble",
+      "url": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+      "summary": "From ancient Roman frescoes to modern kitchen benchtops, our desire to recreate marble is about more than cutting costs - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/5e4de778-04e2-44c4-951a-fe51f8eb24ea/the-meaning-of-fake-marble-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_333ca85a34f4",
+      "source": "卫报书籍",
+      "title": "Margaret Busby: ‘My friend Bonnie Greer fearlessly spoke out and forged connections’",
+      "url": "https://www.theguardian.com/books/2026/sep/17/margaret-busby-pays-tribute-to-bonnie-greer",
+      "summary": "The writer and editor shares memories of a creative powerhouse who was generous with her time and expertise Bonnie Greer, writer and cultural commentator, dies aged 77 Bonnie Greer personified courage, humour, principle and generosity. Before knowing her in person, I met her work. Her 1994 debut novel Hanging by Her Teeth – about a Black American woman travelling through the US and Europe in search of her father – was sent to me for endorsement by its publisher, and I commented unhesitatingly: “Writing with sharpness, wit and poignancy, Bonnie Greer gathers the sequestered memories behind one Black woman’s bitter-sweet blues.” The scope of Bonnie’s own life is beyond anything fictional, encompassing highs and lows, triumphs and challenges, her trajectory starting in the West Side of Chicago and ending up navigating iconic areas of London – whether Holland Park or Covent Garden or Soho – as if to the manor born. It was an honour to become her friend, sharing many a good time, offering a consoling shoulder if needed. An added bonus was to meet her husband David Hutchins. What a wonderful mutually supportive team they made. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_d9aa085cba4b",
+      "source": "卫报书籍",
+      "title": "The Strangers by Naomi Alderman review – where has this odd new species come from?",
+      "url": "https://www.theguardian.com/books/2026/sep/17/the-strangers-by-naomi-alderman-review-where-has-this-odd-new-species-come-from",
+      "summary": "A bereavement memoir mingles with speculative fiction, in a wise and ragged examination of grief from the author of The Power In his Remarks on Frazer’s Golden Bough, Ludwig Wittgenstein alludes to an incident that followed&nbsp;the death of Franz Schubert. He recalls that Schubert’s brother cut several scores into small pieces, each consisting of only a few bars of music, and handed them out to Schubert’s favourite pupils. This, Wittgenstein argues, was a totally understandable act of grief. He goes on to suggest, however, that if, in his grief, Schubert’s brother had left the scores untouched, or even burned them, then that too would be equally legible to us. Such is the disorienting nature of loss – in its wake, anything goes. In The Strangers, Women’s prize-winning author Naomi Alderman tests&nbsp;this thesis to its limits. How about&nbsp;dealing with grief by writing an uneasy memoir/speculative fiction hybrid about the sudden appearance of&nbsp;a new species of quasi-badgers that&nbsp;seem to&nbsp;improve the quality of&nbsp;local&nbsp;soil? Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a4e0d4bb1aec",
+      "source": "卫报书籍",
+      "title": "The New Dark Ages by James Marriott review – a grandiose but superficial defence of reading",
+      "url": "https://www.theguardian.com/books/2026/sep/17/the-new-dark-ages-by-james-marriott-review-a-grandiose-but-superficial-defence-of-reading",
+      "summary": "What is it that makes books so magical? The Times columnist somehow forgets to tell us in this lofty polemic While other kids watched cartoons, Times columnist James Marriott would spend his school holidays in bed with piles of&nbsp;books – “a mammoth effort of attention, perhaps the greatest I ever made” – under the spell of his father, a teacher who inculcated in him a literary zeal “not exactly common in the north of England in the early 2000s”. Twenty-five years on, Marriott fears smartphones have all but killed reading for everyone. He had to get rid of his own – “George Eliot is no match” – and now, watching the rest of us scroll, he worries not only that we will lose the ability to appreciate Middlemarch, but that we risk falling prey to tyrants and anti-vaxxers forging “a world very different to the one we have known … mystical, tribal and autocratic”. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_de98b64793f9",
+      "source": "Mongabay",
+      "title": "World’s smallest crocodile in high demand for bushmeat trade in Nigeria",
+      "url": "https://news.mongabay.com/2026/09/worlds-smallest-crocodile-in-high-demand-for-bushmeat-trade-in-nigeria/",
+      "summary": "The African dwarf crocodile is the world’s smallest living crocodile. These reptiles, nocturnal predators of crabs, gastropods and the occasional fish or small mammal, can reach 2 meters (6.6 feet) in length. They are found in dense swamps and flooded forests across large parts of West and Central Africa. Despite being listed as vulnerable on [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/17103100/DwarfCrocodileOsteolaemus.tetraspis_EricDeRedelijkheid-768x512.jpg"
+    },
+    {
+      "id": "rss_26e0e4a1bca5",
+      "source": "Mongabay",
+      "title": "A giant anteater’s return in Argentina offers a case for letting nature restore itself",
+      "url": "https://news.mongabay.com/2026/09/a-giant-anteaters-return-in-argentina-offers-a-case-for-letting-nature-restore-itself/",
+      "summary": "In 2025, a giant anteater returned to the Alma Guaraní reserve in Argentina’s Corrientes province. It marked the first sighting of this vulnerable and emblematic mammal in the region since 1986. That return is believed to be the result of restoration work that began in the reserve in 2021, according to a paper published in [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/15094610/Image_1_Osa-hormiguero-sobre-Bermejo-Foto-Veronica-Quiroga-1-768x512.jpg"
+    },
+    {
+      "id": "rss_b892c885d954",
+      "source": "Mongabay",
+      "title": "Rescuers race against time as fires ravage orangutan habitat inside Indonesian oil palm concession",
+      "url": "https://news.mongabay.com/2026/09/rescuers-race-against-time-as-fires-ravage-orangutan-habitat-inside-indonesian-oil-palm-concession/",
+      "summary": "JAKARTA — Conservationists are racing to rescue orangutans from a fire-ravaged peat-swamp forest inside an RSPO-certified oil palm concession in West Kalimantan, with smoke still rising and the ground remaining dangerously hot. The 657-hectare (1,623-acre) forest, designated as a High Conservation Value (HCV) area inside PT Kayung Agro Lestari (KAL), is home to around 60 [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/11/11091303/GP0STU10T_Medium_res-768x512.jpg"
+    },
+    {
+      "id": "rss_3524b974bdf5",
+      "source": "卫报野生动物",
+      "title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
+      "url": "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
+      "summary": "As three siblings came of age and had to leave their pack, scientists tracked the dogs’ perilous 2,500-mile odyssey to find their own territory It sounds like a Disney movie: three wild dogs, all brothers, on an epic journey to find a home of their own after their family tells them to leave. They dodge cars and hunters in search of a new life, navigating bushmeat snares and the hostility of a human-dominated landscape until they find a new haven on the African savannah. But this is exactly what happened in Zambia last year, when three endangered African wild dogs made the longest-ever recorded single journey of any mammal from the continent. The brothers travelled more than 2,500 miles (4,100km) over eight months in their “dispersal” – when a young dog comes of age and must establish new territory to find a mate and start a family of their own. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_3b0de5128a9e",
+      "source": "卫报野生动物",
+      "title": "English Heritage trains new generation of scythers to maintain meadows and craft",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/17/english-heritage-trains-new-generation-of-scythers-to-maintain-meadows-and-craft",
+      "summary": "Initiative aims to keep alive age-old skill, and at Muchelney Abbey in Somerset improve habitat for rare shrill carder bee It sounds like something out of a Thomas Hardy novel: a merry band of men and women roaming the West Country cutting meadows by hand in exchange for hunks of bread and cheese. But the conservation charity English Heritage is recruiting a team of volunteer scythers to maintain 21st-century meadowland in the old-fashioned way. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_f08bc7f1fad7",
+      "source": "卫报野生动物",
+      "title": "Humpback whale filmed apparently grieving its stillborn calf – video",
+      "url": "https://www.theguardian.com/environment/video/2026/sep/17/humpback-whale-filmed-apparently-grieving-its-stillborn-calf-video",
+      "summary": "Footage recorded in July 2025 shows a humpback whale repeatedly returning for more than an hour to the spot where its stillborn calf lay, a kilometre off Australia’s Gold Coast. While similar behaviours have been documented in pilot whales, dolphins and killer whales, a new report from Griffith University and the Sea World Foundation suggests this is the first described case of a toothless baleen whale mother caring for her deceased newborn calf. ‘However, we can’t directly measure the emotional state of whales,’ writes Olaf Meynecke, a co-author of the report. ‘The behaviours we observed could represent grief, but they could also reflect maternal attachment, confusion or instinctive caregiving. For this reason, researchers use broader terms – such as postmortem attentive behaviour – rather than concluding that whales grieve in the human sense’ Do whales grieve? Rare footage of humpback alongside stillborn calf suggests they might Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-17 21:40"
+}
