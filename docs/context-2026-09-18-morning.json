@@ -1,0 +1,724 @@
+{
+  "key": "2026-09-18-morning",
+  "date": "2026-09-18",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 4,
+  "cards": [
+    {
+      "item_id": 10,
+      "title": "调查揭露：数百万册珍本图书被销毁扫描，用于AI训练数据",
+      "entities": [
+        {
+          "name": "Emanuel Maiberg",
+          "explain": "调查记者，404 Media联合创始人，长期追踪科技行业内幕"
+        },
+        {
+          "name": "404 Media",
+          "explain": "一家独立科技调查媒体，由前Motherboard记者创立，专注数字权利与技术伦理报道"
+        },
+        {
+          "name": "France24",
+          "explain": "法国国际新闻电视台，由政府资助，以多语种面向全球播报"
+        },
+        {
+          "name": "AI训练数据",
+          "explain": "用来教人工智能模型学习和生成内容的海量文本、图片等素材"
+        },
+        {
+          "name": "AI woodchipper（AI碎木机）",
+          "explain": "比喻说法，指将图书拆解销毁后高速扫描、化为AI训练数据的工业化流程"
+        }
+      ],
+      "summary": "调查记者Emanuel Maiberg在France24节目中披露，大量稀有图书正通过匿名市场被批量收购，运往大型扫描工厂。在那里，书籍装订被拆除，书页以极高速度被扫描处理，最终成为AI训练数据。整条供应链全球化且刻意不透明，Maiberg指出这种行为背后的动机并非恶意，而是冷漠——对书籍本身价值的漠视。",
+      "relevant": "AI训练数据的来源合法性正成为全球监管焦点。此调查揭示了图书被大规模销毁用于AI训练的隐秘产业链，涉及版权、文化遗产保护与科技伦理等多重议题，对正在制定AI监管政策的各国政府具有参考意义。",
+      "context": "随着大语言模型竞争加剧，科技公司对高质量文本数据的需求激增。公开网络数据逐渐枯竭后，各公司转向图书等受版权保护的资源。此前已有报道指出部分AI公司扫描图书用于训练，但此次调查进一步揭示了从收购、拆解到扫描的完整工业化流程及其不透明性。",
+      "source_analysis": "France24是法国政府资助的国际公共电视台，在科技议题上倾向从欧洲视角审视美国科技巨头的影响力。受访者Maiberg所在的404 Media以独立深度调查著称，报道立场偏向批判科技公司权力扩张、维护数字权利。",
+      "social_impact": "若涉及数百万册图书，意味着大量可能绝版的珍本从公共流通中永久消失，对学术研究和文化传承造成不可逆损失。事件也引发公众对AI公司数据获取方式合法性与道德性的质疑，可能推动各国加快AI训练数据透明化立法。",
+      "source_text": "Intent not malicious, it's indifference: Thousands, if not millions, of books sent to AI woodchipper To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: François Picard is pleased to welcome investigative journalist Emanuel Maiberg, Co-founder of 404 Media. As we embark on AI's uncharted waters, Maiberg has made a most unexpected discovery:: the mass acquisition, dismemberment and scanning of rare books for use as training data. His investigation reveals a globalised and deliberately opaque supply chain in which books purchased through anonymous marketplaces can ultimately arrive at large-scale scanning facilities, where their bindings are removed so that pages can be processed at great speed. Yet Maiberg’s analysis reaches far beyond the striking dystopian image of books being destroyed. What happens when knowledge changes form, changing ownership and accessibility? A book can circulate between readers, libraries and generations. Once destroyed and absorbed into a proprietary AI system, however, its contents survive virtually, encoded within a model whose outputs and rules of access are controlled by a private company. The paradox is striking: an industry seeking to ingest ever more human knowledge may simultaneously will erase the very sources of that knowledge. Maiberg is careful not to portray this process as a diabolical campaign to rid society of books. His more unsettling interpretation is that the destruction is driven by something more mundane: indifference. In the race to build increasingly capable AI systems, books become inputs to be optimized, and their destruction becomes an acceptable operational cost. That logic, he argues, belongs to a broader concentration of informational power already visible in search engines and social media. And now AI is taking it to a whole new level. The investigation therefore raises a larger question in the world of culture and academia: as more of the world's accumulated knowledge is mediated through AI systems, who controls the infrastructure through which that knowledge can be accessed?",
+      "source_title": "Intent not malicious, it's indifference: Thousands, if not millions, of books sent to AI woodchipper",
+      "source_url": "https://www.france24.com/en/tv-shows/spotlight/20260917-intent-not-malicious-it-s-indifference-thousands-if-not-millions-of-books-sent-to-ai-woodchipper",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "美国中期选举前，俄罗斯利用AI伪造名人视频抹黑民主党",
+      "entities": [
+        {
+          "name": "美国中期选举",
+          "explain": "美国国会选举，在总统任期中间举行，改选全部众议院席位和部分参议院席位，被视为对现任总统的民意公投"
+        },
+        {
+          "name": "AI深度伪造（Deepfake）",
+          "explain": "利用人工智能技术生成的逼真虚假视频或音频，可以让名人'说'出他们从未说过的话"
+        },
+        {
+          "name": "France24",
+          "explain": "法国国际新闻电视台，由政府资助，以多语种向全球播报新闻，设有事实核查栏目"
+        },
+        {
+          "name": "俄罗斯虚假信息 campaign",
+          "explain": "指俄罗斯政府或相关组织通过社交媒体、伪造内容等手段，试图干预他国政治、制造分裂的行动"
+        }
+      ],
+      "summary": "距离美国中期选举不到两个月，网络上出现一系列AI伪造视频，内容为名人看似在谴责民主党。经France24核实，这些视频均为虚假内容，由人工智能生成，属于俄罗斯针对民主党的虚假信息行动的一部分。",
+      "relevant": "中期选举结果将决定美国国会控制权，外国势力利用AI干预选举引发对选举公正性和AI监管的担忧。",
+      "context": "美国中期选举临近，各方势力加大舆论争夺。近年来俄罗斯被多次指控通过社交媒体和虚假信息干预美国选举，此次首次大规模使用AI生成视频进行政治抹黑。",
+      "source_analysis": "France24是法国公共国际新闻频道，其'Truth or Fake'栏目专门进行事实核查，立场偏向揭露虚假信息，具有较高的可信度。",
+      "social_impact": "AI伪造内容降低了制造虚假政治信息的门槛，可能误导选民、加剧政治极化，对选举安全和社交媒体平台的内容审核构成新挑战。",
+      "source_text": "US Midterms: Russian disinformation campaign targets Democrats To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: 05:23 min From the show Reading time 1 min With US midterm elections now less than two months away, a series of videos have surfaced online, featuring celebrities seemingly denouncing the Democrats. However, the clips are false, and were created using artificial intelligence, as FRANCE 24's Charlotte Hughes explains. Advertising Related keywords",
+      "source_title": "US Midterms: Russian disinformation campaign targets Democrats",
+      "source_url": "https://www.france24.com/en/tv-shows/truth-or-fake/20260917-us-midterms-russian-disinformation-campaign-targets-democrats",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "俄罗斯和中国否决美国提出的延长联合国对伊朗核计划监督的决议",
+      "entities": [
+        {
+          "name": "联合国安理会否决权",
+          "explain": "联合国安理会五个常任理事国（美、英、法、俄、中）中任何一国投反对票，就能阻止一项决议通过"
+        },
+        {
+          "name": "伊朗核计划",
+          "explain": "伊朗长期以来进行的核技术开发活动，西方国家担心其目的是制造核武器，伊朗则声称用于和平用途"
+        },
+        {
+          "name": "美国施压行动",
+          "explain": "美国近年来对伊朗实施的一系列经济制裁和外交孤立措施，试图迫使伊朗改变其核政策"
+        }
+      ],
+      "summary": "俄罗斯和中国在联合国安理会联合行使否决权，阻止了美国提出的一项延长联合国对伊朗核计划监督的决议。这一投票结果凸显了世界大国之间在美国对伊朗施压问题上的深刻分歧。",
+      "relevant": "此次否决表明，尽管美国试图通过联合国框架维持对伊朗核活动的国际监督，但中俄两国明确反对这一路线，大国博弈可能使伊朗核问题进一步脱离多边管控框架。",
+      "context": "美国此前一直推动联合国继续对伊朗核计划进行监督，作为其对伊施压策略的一部分。然而俄罗斯和中国认为这种做法不利于外交解决，选择在安理会投票中联手否决美方提案。",
+      "source_analysis": "《纽约时报》是美国主流媒体，报道通常从美国视角出发，倾向于强调美国外交努力面临的阻力以及大国之间的对立。",
+      "social_impact": "联合国对伊朗核计划的监督若无法延续，可能削弱国际社会对伊朗核活动的透明度，增加地区紧张局势和核扩散风险。",
+      "source_text": "Russia and China Veto U.S. Bid to Renew U.N. Monitoring of Iran Nuclear Program。The conflict underscored the distance between world powers over the United States’ pressure campaign on Iran.",
+      "source_title": "Russia and China Veto U.S. Bid to Renew U.N. Monitoring of Iran Nuclear Program",
+      "source_url": "https://www.nytimes.com/2026/09/17/world/middleeast/un-iran-resolution-russia-china-veto.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "联合国报告称美国对伊朗学校的空袭可能构成战争罪",
+      "entities": [
+        {
+          "name": "联合国",
+          "explain": "由全球多国组成的国际组织，负责维护国际和平与安全，其调查报告具有重要国际法律参考价值"
+        },
+        {
+          "name": "战争罪",
+          "explain": "国际法中的严重罪行，指在武装冲突中故意针对平民、学校等非军事目标发动攻击等行为"
+        },
+        {
+          "name": "纽约时报",
+          "explain": "美国主流大报，以国际新闻报道和调查性报道著称，在国际舆论中有较大影响力"
+        }
+      ],
+      "summary": "联合国调查人员发布报告称，美国对伊朗一所学校的空袭导致一百多名儿童死亡，相关失误\"超出了疏忽范畴\"，可能构成战争罪。报告还提到同一天另一起空袭造成约22名平民死亡。调查人员认为这些事件并非简单的操作失误，而是涉及更严重的责任问题。",
+      "relevant": "该报告将美国军事行动定性为可能构成战争罪，涉及国际人道法的核心问题，可能影响美国与伊朗关系及国际社会对美军海外行动的审视。",
+      "context": "美国此前对伊朗境内目标发动军事打击，其中一次空袭击中了一所学校，造成大量儿童死亡。联合国对此展开调查，旨在评估该袭击是否违反国际人道法。",
+      "source_analysis": "纽约时报是美国的自由派主流媒体，在国际事务报道中常持批评性视角，尤其对美国政府军事行动的合法性审查较为严格。",
+      "social_impact": "空袭造成一百多名儿童死亡，另一起空袭致22名平民死亡，事件涉及大量平民伤亡，可能引发国际社会对美国军事行动的广泛谴责和追责呼声。",
+      "source_text": "U.S. Strike on Iranian School May Have Been War Crime, U.N. Report Says。Mistakes that led to the deaths of more than a hundred children “went beyond negligence,” investigators said. They also cited a separate strike the same day that killed a reported 22 civilians.",
+      "source_title": "U.S. Strike on Iranian School May Have Been War Crime, U.N. Report Says",
+      "source_url": "https://www.nytimes.com/2026/09/17/world/asia/us-iran-school-strike-report.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "联合国专家称有理由相信美国在伊朗空袭中犯下战争罪",
+      "entities": [
+        {
+          "name": "联合国专家",
+          "explain": "联合国人权理事会任命的独立调查员，负责调查特定人权问题并向联合国报告，其结论不具法律约束力但具国际影响力"
+        },
+        {
+          "name": "米纳布（Minab）",
+          "explain": "伊朗南部霍尔木兹甘省的一座城市，此次事件中一所小学遭到空袭"
+        },
+        {
+          "name": "拉梅尔德（Lamerd）",
+          "explain": "伊朗南部法尔斯省的一座城市，此次事件中一个体育综合设施遭到空袭"
+        },
+        {
+          "name": "战争罪",
+          "explain": "国际法概念，指在武装冲突中严重违反国际人道法的行为，如故意攻击平民、学校、医院等民用设施"
+        }
+      ],
+      "summary": "联合国专家表示，有合理理由相信美国今年2月对伊朗米纳布一所小学和拉梅尔德一个体育综合设施实施的致命空袭构成战争罪。美国方面尚未承认发动了这些袭击。联合国专家的结论虽无法律约束力，但具有重要的国际道义和政治影响力。",
+      "relevant": "若联合国专家结论被进一步采纳，可能推动国际刑事追责程序，并加剧美国与伊朗之间的紧张关系，同时引发国际社会对军事打击中平民保护问题的关注。",
+      "context": "2025年2月，伊朗米纳布一所小学和拉梅尔德一个体育综合设施遭到致命空袭，造成人员伤亡。美国未承认实施这些打击。联合国专家对此展开调查后得出上述结论。",
+      "source_analysis": "BBC（英国广播公司）报道，作为英国公共广播机构，BBC在国际新闻报道中通常持中立立场，但因其西方媒体背景，在涉及美国军事行动的报道中常被各方审视其倾向性。",
+      "social_impact": "空袭目标涉及小学和体育设施等民用场所，若战争罪指控成立，将引发国际社会对冲突中平民伤亡问题的广泛关注，并可能影响美国在国际人道法领域的公信力。",
+      "source_text": "UN experts say grounds to believe US committed war crimes in Iran strikes - Published UN human rights experts say there are reasonable grounds to believe the US committed war crimes in two strikes in Iran that killed at least 177 civilians. A new report by the Independent International Fact-Finding Mission on Iran, external said February's missile strikes on a primary school in Minab and a sports complex in Lamerd constituted indiscriminate attacks causing civilian deaths and damage to civilian infrastructure. The US previously denied striking Lamerd and said it was investigating what happened in Minab. A State Department official said the US did not give credibility to the findings in the report. The experts also found Iranian authorities committed crimes against humanity during a crackdown on mass anti-government protests in January. They said killings by security forces occurred on \"a staggering and unprecedented scale\" across all 31 provinces. Iran has also not yet commented on the findings, but it has previously rejected allegations of systematic violations of human rights. \"Civilians in Iran are caught between gross human rights violations and crimes against humanity committed by their own government and the nation's deadly conflict with the United States and Israel,\" the fact-finding mission warned in a statement on Thursday. For their latest report to the UN Human Rights Council, the mission's three independent experts investigated two of the deadliest attacks on civilians during the conflict. On 28 February, when the US and Israel launched their war against Iran, Tomahawk missiles struck Shajareh Tayyebeh Primary School in the southern town of Minab, killing at least 156 people, including 120 children, according to local authorities. The fact-finding mission's experts said the school was adjacent to an Islamic Revolutionary Guard Corps (IRGC) naval complex also attacked that day, but that the school was clearly identifiable and that no information indicated that it was used for military purposes. The experts said that, based on the evidence gathered - including media reports indicating that a preliminary US military inquiry found US forces responsible, and the fact that the US is the only party to the conflict that possesses Tomahawk missiles - they had reasonable grounds to believe that the strike on the school was carried out by the US. They also concluded that the school was \"the intended point of impact and that the damage did not result from ",
+      "source_title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "美国允许伊朗代表团赴纽约出席联合国会议，战争已持续半年",
+      "entities": [
+        {
+          "name": "马苏德·佩泽希齐扬（Masoud Pezeshkian）",
+          "explain": "伊朗现任总统，2024年当选，属改革派阵营，主张与西方缓和关系。"
+        },
+        {
+          "name": "阿巴斯·阿拉格奇（Abbas Araghchi）",
+          "explain": "伊朗现任外交部长，资深外交官，曾参与伊核协议谈判。"
+        },
+        {
+          "name": "联合国（UN）",
+          "explain": "总部设在纽约的国际组织，成员国通常需赴纽约参会，而美国作为东道国有权发放或拒发签证。"
+        }
+      ],
+      "summary": "据BBC了解，美国将允许伊朗总统佩泽希齐扬和外长阿拉格奇等伊朗代表入境纽约，参加联合国会议。此时距相关战争爆发已过去半年。美国作为联合国总部所在国，通常有义务允许成员国代表入境参会，但此前曾多次限制伊朗外交人员活动范围。",
+      "relevant": "美国对伊朗代表入境的态度是美伊关系松紧的晴雨表。在战争持续半年的节点放行，可能意味着外交渠道仍在运作，值得关注后续是否有谈判动向。",
+      "context": "美国与伊朗长期敌对，美国曾多次拒发或限制伊朗外交官签证。此次放行发生在战争已持续半年的背景下，联合国会议为双方提供了潜在的接触场合。",
+      "source_analysis": "BBC报道，措辞为“BBC了解到”，属其自身信源获取，未引述官方声明。BBC立场总体中立，但在美伊议题上常引述西方外交界观点。",
+      "social_impact": "伊朗代表团入境涉及美国签证政策与联合国东道国义务的长期争议，也牵动中东局势走向，影响范围覆盖美伊双边关系及地区安全。",
+      "source_text": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark - Published The US government has granted visas to Iranian officials so they can travel to the UN General Assembly in New York next week, as the war between the two countries grinds into its seventh month. The BBC understands the core delegation permitted to attend includes Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi. A spokesman for the US State Department confirmed the decision on Thursday, saying that the delegation will be placed under travel restrictions and will be banned from purchasing certain American products. The move comes as the war shows no sign of ending. Since it began in February, it has driven up global energy prices, and expanded into neighbouring countries. \"Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,\" a spokesman for the US State Department told the BBC. \"The delegation will be under travel restrictions and will face prohibitions on the purchase of luxury and other goods per our policy. The delegation is smaller than last year.\" Last year, diplomats attending from Iran were banned from shopping at wholesale stores like Costco. They also were required to seek permission from the US before purchasing luxury goods, including jewellery, alcohol and cars. State Department Spokesman Tommy Pigott said the US would prevent the diplomats from \"going on shopping sprees\" as the Iranian people deal with water and electricity shortages, \"brutal repression\", and \"soaring inflation\". \"We will not let the Iranian regime's elites exploit UNGA for a luxury retail splurge paid for by the Iranian people's suffering, all while the regime funnels Iran's wealth to support its terrorist proxies,\" he posted on X, warning New York shops to \"be on guard\" against selling goods to the delegation. He did not indicate if the US was aware of any specific plans from the delegation to buy luxury items. The 81st session of the UN General Assembly (UNGA) is currently underway. The General Debate - the centrepiece of the annual event - is due to begin on Tuesday. Tuesday will include speeches from US President Donald Trump, UK Prime Minister Andy Burnham, and France President Emmanuel Macron. Wednesday is expected to see speeches from the leaders of Ukraine, Syria and Iran. Public and political pressure has mounted on the White House to find an end to",
+      "source_title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "美国学者在华被拘，其妻呼吁特朗普在习特会上提出释放问题",
+      "entities": [
+        {
+          "name": "Sylvia Zin",
+          "explain": "一名美国学者的妻子，其丈夫目前被关押在中国，她正公开寻求美国政府介入"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，即将在下周接待中国领导人来访"
+        },
+        {
+          "name": "习特会",
+          "explain": "指中国国家主席习近平与美国总统特朗普即将举行的会晤"
+        }
+      ],
+      "summary": "美国学者Sylvia Zin的丈夫目前被关押在中国，她与其他被拘者家属一起，呼吁特朗普在下周接待中国领导人时，当面提出释放被押美国公民的问题。这些家属希望借高层会晤的机会推动中方放人。",
+      "relevant": "中美高层会晤是少数能直接向中国最高层施压的外交场合，家属选择此时发声，意在将个案纳入两国谈判议程。",
+      "context": "多名美国公民目前被中国关押，其家属长期寻求美国政府帮助。下周特朗普将接待中国领导人，家属们抓住这一外交窗口，公开呼吁特朗普在会晤中提出释放问题。",
+      "source_analysis": "BBC报道，立场相对中立，侧重呈现家属诉求和外交背景。",
+      "social_impact": "涉及多名被中国关押的美国公民及其家属，事件可能影响中美会晤的议题设置和双边关系氛围。",
+      "source_text": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting - Published The wife of a US scholar imprisoned in China on charges of spying and endangering national security has asked President Donald Trump to secure his release when he meets Chinese President Xi Jinping at the White House next week. U Min Zin, the director at a think tank focused on Myanmar, was arrested on 3 June after travelling to the Chinese city of Kunming for an academic conference. \"I'm deeply hopeful that President Trump will raise my husband's case with President Xi Jinping at the summit next week,\" his wife, Sylvia Zin, testified to Congress on Wednesday. Xi is due to arrive for a state visit to Washington DC on Wednesday. It comes after Xi hosted Trump for a visit to Beijing in May. Ahead of the meeting, families of prisoners being held in China have travelled to the US capital to advocate for their release. Sylvia Zin appeared before the House Foreign Affairs Committee East Asia and Pacific Subcommittee on Wednesday for a hearing titled Lives, Not Leverage: The Long Arm of China and North Korea's Repression. In her remarks, Zin said she believed Trump would also be able to secure the release of Chen Youlin, a US seismologist who tracks nuclear tests that has been held in prison in China for two years. \"Knowing the president's historic record on bringing wrongfully detained Americans home has reassured me that he will also be able to secure the swift release of Min Zin and other wrongfully detained citizens,\" she said. Congresswoman Young Kim, the chairwoman of the subcommittee, opened the hearing by warning Americans: \"If you travel to China, Beijing may take you hostage as leverage in diplomatic negotiation.\" Speaking about Zin's arrest, she added: \"Beijing wanted to send a message to those whose research inconvenienced it, and detained Mr Zin ahead of the upcoming Trump-Xi summit.\" Min Zin, a student activist during Myanmar's 1988 pro-democracy movement, directs the Myanmar Institute for Strategic and Policy Studies (ISP-Myanmar), a think tank that studies China's role in Myanmar, including Chinese interests, relations, and regional influence. The son of Hong Kong media mogul Jimmy Lai also appeared on Capitol Hill to call on Trump to secure his father's release. The US president previously raised the case with Xi, telling reporters that his Chinese counterpart \"told me that would be a tough one\". Asked for comment on Thursday, a senior White House official, sp",
+      "source_title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "与基地组织和伊斯兰国有关的暴力在非洲萨赫勒地区今年将创历史新高",
+      "entities": [
+        {
+          "name": "萨赫勒地区",
+          "explain": "非洲撒哈拉沙漠以南的一条狭长地带，横跨多个国家，近年来成为伊斯兰极端组织活动最猖獗的区域之一"
+        },
+        {
+          "name": "基地组织",
+          "explain": "全球知名的伊斯兰极端主义组织，曾策划2001年美国9·11恐怖袭击"
+        },
+        {
+          "name": "伊斯兰国",
+          "explain": "另一个极端主义武装组织，曾在叙利亚和伊拉克建立所谓'哈里发国'，后扩散至多地"
+        },
+        {
+          "name": "Acled",
+          "explain": "武装冲突地点与事件数据项目，一个专门统计全球冲突和暴力事件的独立监测机构"
+        }
+      ],
+      "summary": "根据冲突监测机构Acled汇编的最新数据，与基地组织和伊斯兰国有关联的武装组织在非洲萨赫勒地区发动了一系列大规模攻势，导致该地区今年伊斯兰极端主义暴力事件预计将创下历史新高。这一趋势恰逢美国纪念9·11袭击25周年，凸显基地组织在非洲部分地区持续扩张，与其在其他地区的相对衰弱形成鲜明对比。",
+      "relevant": "萨赫勒地区已成为全球伊斯兰极端主义暴力的新中心，这一趋势对非洲乃至全球安全格局有重大影响。",
+      "context": "9·11事件25周年之际，冲突监测机构Acled发布数据显示，基地组织和伊斯兰国关联组织在萨赫勒地区发动大规模攻势，暴力事件数量激增。该地区近年来因政局不稳和治理薄弱，逐渐成为极端组织的温床。",
+      "source_analysis": "《卫报》是英国主流左倾媒体，报道通常关注全球安全与人权议题，对西方军事干预持审慎态度。",
+      "social_impact": "萨赫勒地区暴力事件激增影响数百万平民，导致大规模流离失所和人道主义危机，同时威胁周边国家稳定。",
+      "source_text": "Islamist extremist violence in Africa’s Sahel region is set to reach historic highs after a series of sweeping offensives by groups linked to al-Qaida and Islamic State, according to new figures compiled by the conflict monitor Acled. As the US marks the 25th anniversary of the 9/11 attacks launched by al-Qaida against targets in Washington and New York, the statistics underline the continued expansion of the veteran organisation in parts of Africa – in stark contrast with its relative weakness elsewhere. Compiled by Acled, which stands for Armed Conflict Location and Event Data, the statistics focus on the centre of Islamic militancy in three countries – Mali, Burkina Faso and Niger – which together comprise a huge and hotly contested zone at the heart of the strategic Sahel region. According to the respected non-profit organisation, incidents of violence with jihadist groups present in the three countries have soared from 63 in 2016 to 2,845 in 2025. So far this year, 2,145 events have already been logged. If current trends continue in coming months, an annual total of well over 3,000 events appears likely. Though total deaths from terrorism globally have fallen to their lowest level since 2008, those in the Sahel have risen sharply. “Terrorism has become more geographically concentrated: the Sahel continued to record some of the world’s highest terrorism death tolls, with the UN recording more than 9,000 deaths from security incidents across Burkina Faso, Mali and Niger in 2025,” the 2026 report of the Global Peace Index noted earlier this year. In April, a joint offensive in Mali launched by the al-Qaida-linked group Jama’at Nusrat ul-Islam wa al-Muslimin (JNIM) and the Tuareg-dominated rebel group Azawad Liberation Front (FLA) targeted strategic towns, government forces and their Russian auxiliaries with ambushes, car bombs, drones and raids, inflicting significant casualties. Mali’s defence minister died in a suicide attack on his residence in the garrison town of Kati, 9 miles north-west of the capital, Bamako, and the head of military intelligence was killed. Other attacks hit Mali’s international airport, while rebels seized control of the strategic city of Kidal, a former stronghold of the FLA, after soldiers fled and a force of Russian mercenaries surrendered. The defeat reversed a key symbolic victory won by the junta in Mali three years ago. Since then, JNIM has continued to expand areas under its control in Mali, killing more soldiers and Rus",
+      "source_title": "Al-Qaida and IS-linked violence in Africa’s Sahel belt set to hit record levels this year",
+      "source_url": "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "南非约翰内斯堡机场附近发现八名女性遗体，引发全国反女性谋杀愤怒",
+      "entities": [
+        {
+          "name": "女性谋杀（Femicide）",
+          "explain": "因性别原因针对女性的杀害行为，是国际公认的严重社会问题"
+        },
+        {
+          "name": "约翰内斯堡",
+          "explain": "南非最大城市和经济中心"
+        },
+        {
+          "name": "Elizabeth Moselakgomo",
+          "explain": "38岁的南非女性，9月9日外出跑步后失踪，遗体于周六被发现"
+        }
+      ],
+      "summary": "南非约翰内斯堡国际机场周边发现八名女性遗体，其中五具在过去一周内被发现。38岁的Elizabeth Moselakgomo于9月9日外出跑步后失踪，其遗体于周六被找到。这一系列案件引发南非社会对女性谋杀问题的高度关注和愤怒，民众批评政府在打击针对女性的暴力犯罪方面进展不足。",
+      "relevant": "女性谋杀在南非长期居高不下，此案因受害者人数多、集中被发现而成为全国性焦点事件，可能推动政府采取更严厉的应对措施。",
+      "context": "南非长期面临严重的性别暴力问题，女性被杀害的比率位居全球前列。此次多名女性遗体在短时间内于同一区域被发现，加剧了公众对治安和司法系统的不满。",
+      "source_analysis": "《卫报》以深度社会报道见长，此篇侧重受害者故事和社会情绪，立场倾向于批评政府应对不力。",
+      "social_impact": "八名女性遇害，其中五具遗体在一周内被发现，引发全国范围的恐惧和抗议，凸显南非女性谋杀问题的严重性。",
+      "source_text": "The discovery of the bodies of eight women around Johannesburg’s international airport, including five in the past week, has prompted an outpouring of fear, grief and anger over a lack of progress in tackling femicide. When Elizabeth “Tsontso” Moselakgomo did not return after going for a run on 9 September, her eight-year-old daughter alerted relatives, who contacted police. The 38-year-old’s body was found on Saturday and identified by relatives on Monday. The news of her disappearance had gone viral. Police said in a statement on Saturday that four women’s bodies had been found since 15 July in Kempton Park, across the highway from OR Tambo international airport. All were half-naked and with visible bruising. On Monday and Tuesday, two more bodies were found in the town of Olifantsfontein about 15 miles north of Kempton Park. On Tuesday, police said another woman’s body had been found 25 miles to the south-east, naked and decomposed. The acting police minister, Firoz Cachalia, said on Wednesday that another woman’s body found in Olifantsfontein on 7 September, was being added to the investigation. “In this country we are prey,” Sakane Mokoena posted on Instagram after confirmation of the death of her friend and fellow runner Moselakgomo. South Africa has one of the highest rates of femicide in the world. Women were killed at a rate of 12.2 per 100,000 people in 2022, nearly six times the global rate, according to the UN Office on Drugs and Crime. For years, women have called on the South African government to take gender-based violence seriously. After hundreds of women protested on the eve of the G20 summit in Johannesburg in November 2025, President Cyril Ramaphosa declared it a national crisis. However, the lack of a concrete plan or action has frustrated campaigners – and women keep being killed. The latest deaths are being investigated by specialist officers, who said on Saturday: “Women in and around Kempton Park are urged not to walk or run alone, particularly in isolated areas. They should avoid secluded spaces, remain vigilant and, where possible, travel or exercise in groups.” South African women responded with anger at the idea that they had to be responsible for their own safety, with many runners noting they already took precautions, such as sharing routes. “We are tired of being told to be vigilant when women are already doing everything possible to stay alive,” said the advocacy group Women For Change. “It should not take a missing woman, ",
+      "source_title": "‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa",
+      "source_url": "https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "南非警方调查连环女性死亡案，第九具女性遗体被发现",
+      "entities": [
+        {
+          "name": "南非警察局",
+          "explain": "南非的国家执法机构，负责刑事调查和治安维护"
+        }
+      ],
+      "summary": "南非警方在调查一系列女性死亡案件时发现第九具女性遗体。警方警告不要假设所有案件之间存在关联，但许多女性表示感到恐惧。案件集中在约翰内斯堡地区，引发社会对女性安全的广泛担忧。",
+      "relevant": "与#17为同一事件的不同报道角度，BBC侧重警方调查进展和官方表态，可作为交叉信源参考。",
+      "context": "在约翰内斯堡机场附近陆续发现多名女性遗体后，警方加大调查力度，第九具遗体的发现进一步加剧了公众恐慌。",
+      "source_analysis": "BBC为英国公共广播机构，报道风格相对中立，侧重事实陈述和官方回应。",
+      "social_impact": "连续发现女性遗体使南非女性群体普遍感到不安，社交媒体上出现大量关于女性安全的讨论。",
+      "source_text": "Ninth woman's body found as South African police investigate string of deaths - Published Police in South Africa have confirmed the discovery of a ninth woman's body in just two months, amid growing concern over a string of unexplained deaths east of Johannesburg. The latest victim was found half-naked and wrapped in a sheet on the side of a road in Dawn Park on Thursday morning, police said. Her identity has not yet been released. The discovery follows the deaths of eight other women whose bodies have been found since July across Ekurhuleni, a major urban area of Johannesburg. Several of the women were found partially clothed and with injuries, but police have stressed that they have not established whether all the deaths are connected or whether a serial killer is responsible. - Abducted South African journalist found dead with gunshot wounds - Published16 hours ago - WATCH: South African women arming themselves against gender violence - Published20 November 2025 The latest body is of a woman believed to be in her 30s and appeared to have bruises and stab wounds, local media reported. The discovery has sparked fear in the area, particularly among women who say they no longer feel safe. \"We are scared to come out of our houses. We are scared to go to the shops. We are no longer free in a country where we are supposed to be safe as women,\" local resident Bongeka Sebela told the BBC. President Cyril Ramaphosa has vowed that \"no stone will be left unturned\" in finding those behind the killings, which he said were \"causing fear and uncertainty in our communities\". Among the victims was 38-year-old Elizabeth \"Tsontso\" Moselakgomo, who disappeared last week after leaving her home for an afternoon run. Her body was found three days later behind a hotel in Kempton Park. Two other victims have since been identified as Itumeleng Kekana, who had been missing since July, and 38-year-old Dineo Evelyn Motapane, whose body was discovered by the roadside in KwaThema on Tuesday. The first of the nine bodies was discovered in Kempton Park on 15 July. A suspect was arrested two days later in connection with that case and remains in custody, but police have not linked that suspect to the other deaths. Further bodies were discovered in August and September, including in Kempton Park, Olifantsfontein, Clayville and KwaThema. Police have assembled a multidisciplinary team of detectives, intelligence officers, forensic experts and other specialists to investigate the deaths and ",
+      "source_title": "Ninth woman's body found as South African police investigate string of deaths",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "以色列启动E1定居点招标，将切断约旦河西岸南北联系",
+      "entities": [
+        {
+          "name": "E1项目",
+          "explain": "以色列在约旦河西岸耶路撒冷以东一片区域建设定居点的计划，该区域将约旦河西岸南北隔开"
+        },
+        {
+          "name": "约旦河西岸",
+          "explain": "以色列1967年占领的巴勒斯坦领土，巴勒斯坦人视其为自己未来国家的核心区域"
+        },
+        {
+          "name": "定居点",
+          "explain": "以色列在占领的巴勒斯坦领土上建立的犹太人居住区，国际法普遍认为其非法"
+        }
+      ],
+      "summary": "以色列右翼政府开放E1区域数千套住房单元的招标。该区域位于耶路撒冷以东，若建成将把约旦河西岸南北隔断，实质性阻碍巴勒斯坦建国的地理可行性。此举预计引发国际社会强烈反对。",
+      "relevant": "E1项目长期以来被视为巴以冲突的'红线'，一旦推进将从根本上改变约旦河西岸的地理和政治格局，扼杀'两国方案'的现实基础。",
+      "context": "以色列右翼联合政府上台后加速推进定居点扩建。E1区域此前多届以色列政府因国际压力而冻结建设，此次招标标志着政策的重大转变。",
+      "source_analysis": "《纽约时报》以国际新闻深度报道著称，此篇以解释性报道形式呈现，立场偏向自由派，对定居点扩建持批评态度。",
+      "social_impact": "E1建成将使约旦河西岸巴勒斯坦社区被分割孤立，影响数十万巴勒斯坦人的出行和生活，并可能引发新一轮巴以暴力冲突。",
+      "source_text": "What Is the E1 Project, Israel’s Disputed Settlement Plan in the West Bank?。Israel’s right-wing government is opening bidding for thousands of housing units in a patch of the West Bank, a move that would thwart efforts at Palestinian statehood.",
+      "source_title": "What Is the E1 Project, Israel’s Disputed Settlement Plan in the West Bank?",
+      "source_url": "https://www.nytimes.com/2026/09/17/world/middleeast/e1-israel-west-bank-settlement.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "美国对部分南非人实施签证限制，声称南非存在'反白人歧视'",
+      "entities": [
+        {
+          "name": "阿非利卡人（Afrikaners）",
+          "explain": "南非白人少数族群，主要为荷兰、法国和德国移民后裔，历史上曾主导种族隔离政权"
+        },
+        {
+          "name": "白人种族灭绝阴谋论",
+          "explain": "一种声称南非白人正被系统性杀害和迫害的说法，被广泛认为是虚假信息"
+        },
+        {
+          "name": "平权行动（Affirmative Action）",
+          "explain": "旨在纠正历史不平等、为弱势群体提供教育和就业机会的政策"
+        }
+      ],
+      "summary": "美国宣布对部分南非人实施签证限制，理由是南非政府涉嫌对白人少数族群进行种族歧视。此举源于特朗普政府持续声称南非存在'白人种族灭绝'。签证限制未指明具体被禁个人。特朗普在其第二任期内多次抨击南非的平权行动政策。",
+      "relevant": "此事件反映特朗普政府将虚假叙事转化为实际外交政策，可能进一步恶化美南关系，并引发关于种族和移民政策的国际争议。",
+      "context": "特朗普自第二任期以来多次声称南非白人遭到迫害，南非政府否认相关指控。此前美国已因此抵制在南非举行的G20峰会。",
+      "source_analysis": "《卫报》立场偏自由派，报道中直接称特朗普的说法为'虚假声称'，对美国政府立场持批评态度。",
+      "social_impact": "签证限制可能影响南非公民赴美旅行和商务活动，同时加剧南非国内种族紧张关系。",
+      "source_text": "The US has announced visa restrictions on some South Africans as Donald Trump’s administration continues to claim that South Africa’s government racially discriminates against white minority Afrikaners. The announcement did not specify individuals who were barred from the US. Trump has spent his second term falsely claiming there is a “white genocide” in South Africa and railing against its affirmative action policies. Since the start of last year, the US has cut aid to South Africa, barred it from this year’s G20 summit in Miami and set up a refugee programme for Afrikaners and other South African racial minorities. Meanwhile, the Trump administration has been dismantling refugee and asylum programmes for people fleeing war and persecution. “The South African people are being failed by a government that is destroying its economy through an obsessive pursuit of racial grievance against the Afrikaner minority,” the US secretary of state, Marco Rubio, said in a post on X. “The South African government has consistently failed to adequately address rural crime, violent and dehumanising rhetoric, and race-based discriminatory policies against Afrikaners and other minority populations.” The US visa restrictions would target “foreign nationals who enact or enable policies that promote race-based discrimination, incite violence, or enable land confiscation without compensation in South Africa”, Rubio added. The US ambassador to South Africa, the conservative media activist Leo Brent Bozell III, said on X: “As has been made absolutely clear, the time for endless ‘dialogue’ has run its course … This visa restriction policy is only the first step in a series of escalatory measures that will show America’s firm resolve in this matter.” South Africa’s foreign ministry said in response that its policies were being misrepresented. “The announcement, once again, aligns with the mischaracterisation of South Africa’s domestic policies by fringe groups who wrongly portray themselves as representatives of “minorities” and Afrikaners in general,” the ministry spokesperson Chrispin Phiri said in a statement that was first published in Afrikaans. Phiri added: “It is our sovereign right to put in place laws that address the nation’s concern over centuries of racial injustice … South Africa respects that the United States may hold different views regarding particular measures and their implementation.” Afrikaners, who are descended from Dutch and French settlers, ruled South Afric",
+      "source_title": "US to bar some South Africans over claims of anti-white discrimination",
+      "source_url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "也门战争升级：胡塞武装向石油重镇马里卜推进",
+      "entities": [
+        {
+          "name": "胡塞武装",
+          "explain": "也门北部的什叶派武装组织，受伊朗支持，2014年夺取首都萨那"
+        },
+        {
+          "name": "马里卜省",
+          "explain": "也门中部省份，是该国主要石油产区，也是沙特支持的也门政府军重要据点"
+        },
+        {
+          "name": "沙特支持的政府军",
+          "explain": "也门国际公认政府领导的武装力量，得到沙特阿拉伯领导的联军支持"
+        }
+      ],
+      "summary": "伊朗支持的胡塞武装与沙特支持的也门政府军在马里卜省附近爆发激烈冲突。胡塞武装正向这一石油资源丰富的省份推进，战事持续升级。马里卜是也门政府军在北部的重要据点，若失守将改变也门内战的力量格局。",
+      "relevant": "马里卜是也门政府军在北部的最后重要据点，其得失直接关系到也门内战的走向和地区大国博弈的平衡。",
+      "context": "也门内战自2014年爆发以来持续至今，胡塞武装与沙特支持的政府军长期对峙。近期胡塞武装加大攻势，试图夺取马里卜这一战略要地。",
+      "source_analysis": "《纽约时报》以国际冲突报道见长，此篇为战况简讯，信息源可能来自通讯社和当地消息人士。",
+      "social_impact": "马里卜省居住着大量因战争流离失所的平民，战事升级可能导致新一波人道主义危机。",
+      "source_text": "Yemen War Intensifies as Houthi Militia Advances on Marib。Clashes between Iranian-backed Houthi fighters and Saudi-backed government forces have been reported near oil-rich Marib Province.",
+      "source_title": "Yemen War Intensifies as Houthi Militia Advances on Marib",
+      "source_url": "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "瑞典大选左翼逆转获胜，极右翼势力受挫",
+      "entities": [
+        {
+          "name": "瑞典社会民主党",
+          "explain": "瑞典主要中左翼政党，长期主导瑞典政治"
+        },
+        {
+          "name": "极右翼民族主义者",
+          "explain": "指瑞典民主党等反移民政党，近年来在欧洲多国势力上升"
+        }
+      ],
+      "summary": "瑞典本周举行的选举结果极为接近，最终左翼阵营获胜，极右翼民族主义者遭遇挫败。这一结果与欧洲其他国家极右翼势力上升的趋势形成反差。选举结果对瑞典政治走向和移民政策将产生重要影响。",
+      "relevant": "在欧洲多国极右翼势力持续上升的背景下，瑞典左翼的胜利被视为一个重要的例外，可能影响北欧乃至欧洲的政治风向。",
+      "context": "近年来欧洲多国极右翼政党支持率上升，瑞典民主党此前也持续增长。此次选举被视为对瑞典政治方向的关键考验。",
+      "source_analysis": "《纽约时报》立场偏自由派，报道中强调极右翼受挫，对左翼获胜持正面叙述角度。",
+      "social_impact": "选举结果将影响瑞典的移民、福利和气候政策走向，也为欧洲中左翼政党提供了对抗极右翼的参考案例。",
+      "source_text": "Sweden Swings Back Left, Bucking a Trend in Europe。The results of this week’s exceptionally close election dealt a blow to far-right nationalists, who have gained ground elsewhere.",
+      "source_title": "Sweden Swings Back Left, Bucking a Trend in Europe",
+      "source_url": "https://www.nytimes.com/2026/09/17/world/europe/sweden-election-social-democrats.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "法国警察涉嫌极右翼恐怖阴谋被捕，曾制造3D打印武器",
+      "entities": [
+        {
+          "name": "3D打印武器",
+          "explain": "利用3D打印技术制造的枪支，通常难以追踪，近年成为极端分子的新工具"
+        },
+        {
+          "name": "极右翼恐怖主义",
+          "explain": "以极端民族主义、种族主义或反政府意识形态为动机的暴力行为"
+        }
+      ],
+      "summary": "一名法国警察因涉嫌信奉'暴力极右翼意识形态'被捕，被指控策划针对国家利益的袭击并制造3D打印武器。消息来源为法新社。此案凸显欧洲执法机构内部极端主义渗透的安全隐患。",
+      "relevant": "执法人员涉嫌参与极右翼恐怖活动，暴露出安全机构内部监管漏洞，对公众信任和国家安全构成双重威胁。",
+      "context": "近年来欧洲多国发生极右翼恐怖袭击事件，各国加强了对极端主义渗透执法机构的排查。此案是法国最新一起涉及安全部门人员的极端主义案件。",
+      "source_analysis": "法国24台（France24）为法国国际新闻频道，此篇引用法新社消息，报道风格以事实陈述为主。",
+      "social_impact": "警察参与恐怖阴谋严重损害公众对执法机构的信任，可能推动法国加强对安全部门人员的背景审查。",
+      "source_text": "French police officer arrested over suspected far-right terror plot A French police officer who allegedly adheres to a 'violent radical far-right ideology' has been arrested on suspicion of plotting attacks against state interests and manufacturing 3D-printed weapons, sources told AFP Thursday. A policeman who follows \"a violent radical far-right ideology\" has been arrested in France on suspicion of plotting a terrorist attack, sources told AFP late on Thursday. Confirming a report by the TF1/LCI broadcaster, a judicial source said that the man was also suspected of having manufactured weapons, among other crimes. A separate source close to the case told AFP that the police officer, aged 35, was \"apprehended on the street\" on August 23. He has since been placed in detention while awaiting trial. According to TF1/LCI, the officer \"is suspected of having planned to carry out violent attacks against the interests of the state\" and of having \"manufactured 3D-printed weapons\", among other things. The policeman faces charges including preparing a terrorist act, the unauthorised manufacture or trade in weapons in connection with a terrorist organisation and unauthorised weapon possession. He is also charged with incitement to terrorism through social media. The police officer's lawyers had not responded to AFP as of Thursday evening. The news comes in the wake of revelations that France's far-right National Rally (RN) party expelled another policeman after body cam footage of him making racist comments sparked outrage. The RN's Marine Le Pen hopes to become France's president in next year's elections after years of seeking to make the anti-immigration party she inherited from her father more palatable to the wider public. (FRANCE 24 with AFP)",
+      "source_title": "French police officer arrested over suspected far-right terror plot",
+      "source_url": "https://www.france24.com/en/europe/20260917-french-police-officer-arrested-over-suspected-far-right-terror-plot",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "研究揭示：奴隶贸易财富深嵌英国金融体系，央行创始董事参与其中",
+      "entities": [
+        {
+          "name": "英格兰银行（Bank of England）",
+          "explain": "英国的中央银行，成立于1694年，1946年被政府国有化"
+        },
+        {
+          "name": "跨大西洋奴隶贸易",
+          "explain": "16至19世纪欧洲国家将数百万非洲人贩卖到美洲为奴的贸易体系"
+        },
+        {
+          "name": "英国奴隶贸易者登记册",
+          "explain": "历史学家编制的记录英国奴隶贸易参与者及其赔偿的数据库"
+        }
+      ],
+      "summary": "新研究显示，英格兰银行和英国金融体系在数百年间深度参与了跨大西洋奴隶贸易。研究发现英格兰银行有数十名创始董事和认购人是奴隶贸易的重要投资者，参与规模远超此前所知或承认的程度。该研究由编制'英国奴隶贸易者登记册'的历史学家完成。",
+      "relevant": "此研究揭示了英国金融体系与奴隶贸易之间被长期掩盖的深层联系，可能推动关于殖民历史赔偿和机构问责的讨论。",
+      "context": "近年来英国社会围绕奴隶制历史赔偿的争论日益激烈，多所机构和大学已承认与奴隶贸易的历史关联。此研究首次系统性地量化了英格兰银行创始层的参与程度。",
+      "source_analysis": "《卫报》长期关注殖民历史和种族正义议题，此篇为深度调查报道，立场倾向于推动历史问责。",
+      "social_impact": "研究涉及英格兰银行数十名创始人物，可能引发对英国金融机构历史责任的广泛讨论和赔偿诉求。",
+      "source_text": "The Bank of England and the British financial system were for centuries deeply involved in the enslavement and transatlantic trafficking of millions of African people, according to new research on Britain’s slavery history. Research by historians compiling the Register of British Slave Traders has found that the scale of the financial system’s involvement in enslavement is greater than previously known or acknowledged. The Bank of England, the central bank owned by the government since nationalisation by Clement Attlee’s Labour administration in 1946, had dozens of financiers involved in its foundation who were also significant investors in the transatlantic trafficking of enslaved Africans. Dr Michael Bennett of the University of Sheffield, who has conducted extensive research on the Bank’s historical involvement in enslavement, has found that 24 directors were investors in the trafficking of enslaved African people. Four were among the London elites who were founding directors of the Bank in 1694. The other 20 were in office at Threadneedle Street over the next century. The last, Christopher Puller, was a shipper of weapons for the slave trade and co-owner of a 1786 voyage that trafficked enslaved people from the Gambia to Jamaica, according to the register. Puller was a director for 11 years before he died in 1789. Nine of the 24 were also governors of the Bank. Bennett also researched the founding subscribers to the Bank of England, finding that at least 30 invested in the transatlantic trafficking of enslaved Africans. At their head were the king and queen of the day, William III and Mary II, who held shares in the Royal African Company. It is clear, Bennett said, that wealth generated from the slave trade formed part of the Bank’s initial capital. “Slave traders and their wealth were firmly embedded within Britain’s, especially London’s, private banks and financial corporations during the 17th and 18th centuries. They shaped the development of the financial system,” he said. “Banks and other institutions, like insurers, provided the financial services that supported, and made great wealth from, the transatlantic slave economy. “The Bank of England supported this system throughout, and directly provided financial services to the slave trade. Its clients included the Royal African Company and the South Sea Company.” An archetypal example of a Bank of England director in the register is John Rudge, the MP for Evesham. He was a director of the Bank betwe",
+      "source_title": "Slave-trade wealth was embedded in Britain’s financial system, research finds",
+      "source_url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "加拿大欢迎欧盟提议，拟成为其“准成员国”",
+      "entities": [
+        {
+          "name": "马克·卡尼（Mark Carney）",
+          "explain": "加拿大总理，曾任英国央行和加拿大央行行长，2025年就任总理"
+        },
+        {
+          "name": "准成员国（associate member）",
+          "explain": "一种介于正式成员和普通合作伙伴之间的身份，可参与部分合作机制但无完整成员权利"
+        },
+        {
+          "name": "加拿大-欧盟联盟",
+          "explain": "加拿大与欧盟之间拟建立的新型政治经济伙伴关系，超出一般贸易协定范畴"
+        }
+      ],
+      "summary": "加拿大总理马克·卡尼对欧盟提出的让加拿大成为“准成员国”的提议表示欢迎，称这一联盟将成为“其他民主国家的灯塔”。此举标志着加拿大与欧盟关系可能从贸易伙伴升级为更紧密的制度性联盟，背景是特朗普重返白宫后美加关系趋紧、全球地缘格局重组。",
+      "relevant": "若成真，这将是欧盟首次给予域外国家“准成员”身份，可能重塑跨大西洋关系格局，并为其他民主国家与欧盟的合作提供模板。",
+      "context": "特朗普再次执政后，美国对加拿大加征关税并多次发表“吞并加拿大”言论，促使加拿大加速寻求多元化外交。欧盟同样面临美国贸易压力，双方有动力深化合作。",
+      "source_analysis": "BBC报道，英国公共媒体，立场中立偏西方主流视角，注重事件事实陈述。",
+      "social_impact": "加拿大是G7成员，若与欧盟建立准成员关系，将影响全球约三分之一GDP的经济体之间的合作框架。",
+      "source_text": "Canada welcomes EU proposal to become 'associate member' - Published Canadian Prime Minister Mark Carney has welcomed the European Union's ambition for Canada to become its first \"associate member\", calling for closer cooperation on defence, critical minerals and energy security. Carney told the European Parliament in Strasbourg on Thursday that Canada and Europe were \"stronger together\" in the face of \"geopolitical rupture\". His comments came a day after European Commission President Ursula von der Leyen proposed \"opening the door\" to Canada's associate membership, a status that does not currently exist. US President Donald Trump earlier called the idea \"laughable\" and threatened \"very serious tariffs\" on Europe if he considered it a \"hostile act\". Canada and the US are locked in an escalating trade dispute, with each side imposing tit-for-tat tariffs after bilateral talks collapsed last month. \"Today our societies are being battered by new storms,\" Carney said during his address, naming them as climate change, \"the erosion of democratic norms\" and the \"weaponisation of trade\". \"Economic integration is now being weaponised, tariffs being used to exert pressure,\" he said. \"Financial mechanisms have been used for coercion. Supply chains constitute weak points to be exploited.\" He said a Canada-EU alliance would create a \"beacon for other democracies\", while stressing the two sides were not seeking to form a new power bloc. \"I am not proposing a third bloc in order to become a great-power rival - only with better manners,\" he told MEPs. \"This is about sovereignty, our ability to live as we wish. We do not seek power to dominate others.\" Asked about the proposal on Wednesday, Trump told reporters: \"If I think it's at all a hostile act, I will put very serious tariffs or stop trading with Europe, on many things. \"If it's a good intention, that's fine. If it's a bad intention, we'll put very heavy tariffs on Europe, which is a possibility.\" Responding to Trump's comments at a press conference following his address, Carney said: \"This alliance is a positive process, that's my response to the American president.\" \"Canadians are united that nobody is going to tell us what language we speak, no-one is going to dictate our culture, or with whom we can strike agreements internationally,\" he added. Carney said Canada was \"not in a position, nor seeking, to become a full member of the European Union\", describing the proposal as a \"different framework\". - What could EU ",
+      "source_title": "Canada welcomes EU proposal to become 'associate member'",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "经济学家称加拿大-欧盟伙伴关系是“经典双赢局面”",
+      "entities": [
+        {
+          "name": "法比安·祖莱格（Fabian Zuleeg）",
+          "explain": "欧洲政策中心首席经济学家，该中心是位于布鲁塞尔的知名智库"
+        },
+        {
+          "name": "欧洲政策中心（European Policy Center）",
+          "explain": "布鲁塞尔独立智库，专注欧盟政策研究，在欧盟圈有较高影响力"
+        }
+      ],
+      "summary": "欧洲政策中心首席经济学家祖莱格在接受法国24台采访时表示，加拿大与欧盟的伙伴关系是“经典的双赢局面”：加拿大拥有欧盟缺乏的丰富资源和多项经济优势，而欧盟则提供庞大的市场和重要的贸易伙伴关系。此番评论是对欧盟提议加拿大成为“准成员国”的经济层面解读。",
+      "relevant": "为理解加拿大-欧盟准成员提议提供了经济学视角，说明双方合作有实质性经济互补基础，而非单纯政治姿态。",
+      "context": "欧盟近期提议加拿大成为“准成员国”，加拿大总理卡尼表示欢迎。祖莱格从经济互补性角度分析这一伙伴关系的合理性。",
+      "source_analysis": "法国24台（France24）是法国国际新闻频道，立场偏向欧洲视角，报道以采访形式呈现专家观点。",
+      "social_impact": "加拿大资源丰富（石油、矿产、木材），欧盟是加拿大第二大贸易伙伴，双方贸易额每年超过700亿欧元。",
+      "source_text": "The Canada-EU partnership 'a classic win-win situation', economist says Americas To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: 09:39 min From the show Reading time 1 min Speaking with FRANCE 24's Monte Francis, Fabian Zuleeg, Chief Economist at the European Policy Center, says that the partnership between Canada and the EU \"is a classic win-win situation. Canada has many resources, has many of the economic strengths that the European Union lacks, the EU has a very large market, it is an important trading partner\". By: Video by: Advertising Related keywords",
+      "source_title": "The Canada-EU partnership 'a classic win-win situation', economist says",
+      "source_url": "https://www.france24.com/en/tv-shows/a-propos/20260917-the-canada-eu-partnership-a-classic-win-win-situation-economist-says",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "罕见阿兹特克手稿在法国存放近两百年后借展回归墨西哥",
+      "entities": [
+        {
+          "name": "阿兹特克帝国（Aztec Empire）",
+          "explain": "14-16世纪存在于今墨西哥中部的强大原住民帝国，1521年被西班牙殖民者征服"
+        },
+        {
+          "name": "阿兹特克手稿",
+          "explain": "16世纪记录阿兹特克帝国兴衰的珍贵文献，是研究该文明的一手史料"
+        }
+      ],
+      "summary": "一份珍贵的16世纪阿兹特克手稿在被带到法国近两百年后，于墨西哥城公开展出。该手稿记录了阿兹特克帝国的兴衰历史，此次是以借展形式回归。墨西哥政府持续向巴黎施压，要求将该手稿永久归还。",
+      "relevant": "涉及殖民时期文物流失与归还的全球性议题，反映前殖民地国家追索文化遗产的持续努力。",
+      "context": "该手稿于19世纪被带到法国，此后一直保存在法国。墨西哥近年来积极推动流失海外文物的回归，此次借展是双方协商的结果，但墨西哥仍寻求永久归还。",
+      "source_analysis": "法国24台报道，法国国际新闻频道，在涉及法国持有他国文物议题上可能带有法国视角。",
+      "social_impact": "全球前殖民地国家追索文物的浪潮持续升温，法国、英国等国面临越来越大的归还压力。",
+      "source_text": "Rare Aztec manuscript returns to Mexico on loan after nearly two centuries in France A prized 16th-century manuscript chronicling the rise and fall of the Aztec Empire has gone on display in Mexico City, nearly two centuries after it was taken to France, as Mexico continues to press Paris for its permanent return. A cherished 16th-century Mexican manuscript that tells the history of the Aztecs in pictograms went on display Thursday in Mexico City, nearly two centuries after it was whisked off to France. The Codex Azcatitlan recounts the history of the Aztec civilization, from the creation of the Aztec Empire to its fall during the Spanish conquest, which ushered in Christianity. Mexico has been demanding for years that France return it but so far France has refused. Members of an Indigenous group that has campaigned for its restitution reacted ecstatically to seeing two folios from the precious document on display inside a glass case at the National Museum of Anthropology. \"They hid our history from us, they stole it!\" Emilia Mendoza of the Hnahnu community told AFP at the opening of the exhibition. \"This is a battle won, a first step toward the restitution of these books that reside in other countries,\" she said. Speaking at the inauguration, Foreign Minister Roberto Velasco said the exhibition was about \"reuniting a population with its (collective) memory.\" The pictograms \"represent our history, the written voice of our ancestors, and the deep root of our identity,\" he said. 'Why isn't it in Mexico?' Written shortly after the arrival of the Spanish in the 16th century, the codex, or manuscript, is considered one of the most important accounts of Aztec culture. It narrates the migration from Aztlan, the mythical birthplace of Aztec civilization, to the promised land of Tenochtitlan, the forerunner of Mexico City. Scenes rendered in vibrant reds, blues, greens and yellows depict warriors in feathered headdresses and ritual acts in pyramid temples. France's National Library, which has maintained possession of it for over a century, loaned it to Mexico to commemorate 200 years of relations between the two countries. But Mexico, which has launched a push to recover colonial-era cultural objects held outside the country, wants France to go further and hand it back. Since 2018, over 16,200 items have been repatriated from various countries, the National Institute of Anthropology and History said last year. Mexican President Claudia Sheinbaum pressed France's Em",
+      "source_title": "Rare Aztec manuscript returns to Mexico on loan after nearly two centuries in France",
+      "source_url": "https://www.france24.com/en/americas/20260917-rare-aztec-manuscript-returns-to-mexico-on-loan-after-nearly-two-centuries-in-france",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "三只野生犬兄弟完成非洲大陆有记录以来最长迁徙：2500英里",
+      "entities": [
+        {
+          "name": "非洲野犬（African wild dogs）",
+          "explain": "一种濒危的非洲犬科动物，以群体狩猎著称，全球仅存约6000只"
+        },
+        {
+          "name": "扩散（dispersal）",
+          "explain": "动物行为学术语，指年轻个体成年后离开出生群体去寻找新领地和配偶的过程"
+        }
+      ],
+      "summary": "赞比亚三只濒危非洲野犬兄弟在成年后离开原有群体，历时八个月、跋涉超过2500英里（4100公里），穿越公路、偷猎陷阱和人类活动区域，最终在非洲大草原找到新栖息地。这是非洲大陆有记录以来哺乳动物单次迁徙的最长距离。",
+      "relevant": "展示了濒危物种在人类主导景观中的惊人适应力和生存韧性，同时凸显栖息地破碎化对野生动物的威胁。",
+      "context": "非洲野犬是高度社会化的动物，年轻个体成年后必须离开出生群体以建立自己的领地和繁殖后代。由于栖息地日益碎片化，这类迁徙变得越来越危险。",
+      "source_analysis": "卫报报道，英国左倾自由派媒体，在环境和保护议题上报道深入，倾向强调人类活动对野生动物的影响。",
+      "social_impact": "非洲野犬全球仅存约6000只，被IUCN列为濒危物种。此次迁徙穿越了偷猎陷阱密布区域，反映非洲野生动物保护面临的严峻挑战。",
+      "source_text": "It sounds like a Disney movie: three wild dogs, all brothers, on an epic journey to find a home of their own after their family tells them to leave. They dodge cars and hunters in search of a new life, navigating bushmeat snares and the hostility of a human-dominated landscape until they find a new haven on the African savannah. But this is exactly what happened in Zambia last year, when three endangered African wild dogs made the longest-ever recorded single journey of any mammal from the continent. The brothers travelled more than 2,500 miles (4,100km) over eight months in their “dispersal” – when a young dog comes of age and must establish new territory to find a mate and start a family of their own. From point to point, starting in Kafue national park in western Zambia to their final destination in the Luangwa valley in the east of the country, the brothers covered 340 miles (546km), which is also a record. The epic single journey is almost equivalent to travelling the length of Chile by foot and farther than the famous wildebeest and zebra migration across the Serengeti in east Africa. The previous record was 2,418 miles, also made by African wild dogs, which moved between Loliondo, in northern Tanzania’s Ngorongoro district, and Tsavo West national park in southern Kenya in 2012. Dr Matt Becker, chief executive of the Zambian Carnivore Programme (ZCP), whose scientists were monitoring the wild dogs and have published their findings in the journal Ecology, says: “These extraordinary journeys show that natural connections between Africa’s wildlife strongholds still exist. But they also reveal how difficult and dangerous those journeys have become. “Rather than relying solely on fenced protected areas, these findings reinforce the value of investing in connected landscapes. The dogs are showing us that connectivity still works; now we need to do more to protect and strengthen it.” The researchers tracked 19 separate groups of wild dogs to monitor their dispersals, including a group of sisters to the three brothers who were far less successful at finding a new range. Two of the sisters died, probably caught in snares, but not before they had a touching final encounter with their siblings. Two months into their journey, the group of brothers and sisters came across each other deep in Zambia’s copper-belt mining region, spending the day together before going their separate ways again. Related dogs do not form new family packs, and typically have to travel ",
+      "source_title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
+      "source_name": "卫报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_c4886e0a9b71",
+      "source": "BBC",
+      "title": "Canada welcomes EU proposal to become 'associate member'",
+      "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canadian Prime Minister Mark Carney said a Canada-EU alliance would create a \"beacon for other democracies\".",
+      "image": ""
+    },
+    {
+      "id": "rss_91755314ed1b",
+      "source": "BBC",
+      "title": "Ninth woman's body found as South African police investigate string of deaths",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
+      "image": ""
+    },
+    {
+      "id": "rss_19fedebb580f",
+      "source": "BBC",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
+      "image": ""
+    },
+    {
+      "id": "rss_cd6b26459beb",
+      "source": "BBC",
+      "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC understands Iranian President Masoud Pezeshkian and Foreign Minister Abbas Araghchi are among the delegates allowed to enter the US.",
+      "image": ""
+    },
+    {
+      "id": "rss_e3646de99e31",
+      "source": "BBC",
+      "title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
+      "url": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o?at_medium=RSS&at_campaign=rss",
+      "summary": "Sylvia Zin is among the family members of people imprisoned in China who are seeking Trump's help when he hosts the country's leader next week.",
+      "image": ""
+    },
+    {
+      "id": "rss_54aa69d2b04d",
+      "source": "France24",
+      "title": "Rare Aztec manuscript returns to Mexico on loan after nearly two centuries in France",
+      "url": "https://www.france24.com/en/americas/20260917-rare-aztec-manuscript-returns-to-mexico-on-loan-after-nearly-two-centuries-in-france",
+      "summary": "A prized 16th-century manuscript chronicling the rise and fall of the Aztec Empire has gone on display in Mexico City, nearly two centuries after it was taken to France, as Mexico continues to press Paris for its permanent return.",
+      "image": "https://s.france24.com/media/display/eac40b7e-b2e9-11f1-a029-8bce42b8e305/w:1024/p:16x9/000-C8MK2CX.jpg"
+    },
+    {
+      "id": "rss_935519b40701",
+      "source": "France24",
+      "title": "French police officer arrested over suspected far-right terror plot",
+      "url": "https://www.france24.com/en/europe/20260917-french-police-officer-arrested-over-suspected-far-right-terror-plot",
+      "summary": "A French police officer who allegedly adheres to a 'violent radical far-right ideology' has been arrested on suspicion of plotting attacks against state interests and manufacturing 3D-printed weapons, sources told AFP Thursday.",
+      "image": "https://s.france24.com/media/display/734d60f4-a19b-11f1-ba2b-005056bfb2b6/w:1024/p:16x9/000-34RN2HF.jpg"
+    },
+    {
+      "id": "rss_7472b6b469a7",
+      "source": "France24",
+      "title": "US Midterms: Russian disinformation campaign targets Democrats",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20260917-us-midterms-russian-disinformation-campaign-targets-democrats",
+      "summary": "With US midterm elections now less than two months away, a series of videos have surfaced online, featuring celebrities seemingly denouncing the Democrats. However, the clips are false, and were created using artificial intelligence, as FRANCE 24's Charlotte Hughes explains.",
+      "image": "https://s.france24.com/media/display/404b89e0-b2dc-11f1-8ebd-8bce42b8e305/w:1024/p:16x9/ANGL260917-2045-Live-CS2045.jpg"
+    },
+    {
+      "id": "rss_a1450a4614b4",
+      "source": "France24",
+      "title": "The Canada-EU partnership 'a classic win-win situation', economist says",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260917-the-canada-eu-partnership-a-classic-win-win-situation-economist-says",
+      "summary": "Speaking with FRANCE 24's Monte Francis, Fabian Zuleeg, Chief Economist at the European Policy Center, says that the partnership between Canada and the EU \"is a classic win-win situation. Canada has many resources, has many of the economic strengths that the European Union lacks, the EU has a very large market, it is an important trading partner\".",
+      "image": "https://s.france24.com/media/display/9fdd08e6-b2d9-11f1-875c-5570cf9529c5/w:1024/p:16x9/EN-20260917-223104-224044-CS.jpg"
+    },
+    {
+      "id": "rss_a6e20b45f8dc",
+      "source": "France24",
+      "title": "Intent not malicious, it's indifference: Thousands, if not millions, of books sent to AI woodchipper",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20260917-intent-not-malicious-it-s-indifference-thousands-if-not-millions-of-books-sent-to-ai-woodchipper",
+      "summary": "François Picard is pleased to welcome investigative journalist Emanuel Maiberg, Co-founder of 404 Media. As we embark on AI's uncharted waters, Maiberg has made a most unexpected discovery:: the mass acquisition, dismemberment and scanning of rare books for use as training data. His investigation reveals a globalised and deliberately opaque supply chain in which books purchased through anonymous marketplaces can ultimately arrive at large-scale scanning facilities, where their bindings are removed so that pages can be processed at great speed.",
+      "image": "https://s.france24.com/media/display/09b313bc-b2cd-11f1-835c-61f6f55d211c/w:1024/p:16x9/EN-20260917-181320-182715-CS.jpg"
+    },
+    {
+      "id": "rss_80862cdf608f",
+      "source": "纽约时报",
+      "title": "Yemen War Intensifies as Houthi Militia Advances on Marib",
+      "url": "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
+      "summary": "Clashes between Iranian-backed Houthi fighters and Saudi-backed government forces have been reported near oil-rich Marib Province.",
+      "image": ""
+    },
+    {
+      "id": "rss_f37115e7a6e1",
+      "source": "纽约时报",
+      "title": "U.S. Strike on Iranian School May Have Been War Crime, U.N. Report Says",
+      "url": "https://www.nytimes.com/2026/09/17/world/asia/us-iran-school-strike-report.html",
+      "summary": "Mistakes that led to the deaths of more than a hundred children “went beyond negligence,” investigators said. They also cited a separate strike the same day that killed a reported 22 civilians.",
+      "image": ""
+    },
+    {
+      "id": "rss_a32ae17b1746",
+      "source": "纽约时报",
+      "title": "What Is the E1 Project, Israel’s Disputed Settlement Plan in the West Bank?",
+      "url": "https://www.nytimes.com/2026/09/17/world/middleeast/e1-israel-west-bank-settlement.html",
+      "summary": "Israel’s right-wing government is opening bidding for thousands of housing units in a patch of the West Bank, a move that would thwart efforts at Palestinian statehood.",
+      "image": ""
+    },
+    {
+      "id": "rss_1ec5e8b59e0b",
+      "source": "纽约时报",
+      "title": "Sweden Swings Back Left, Bucking a Trend in Europe",
+      "url": "https://www.nytimes.com/2026/09/17/world/europe/sweden-election-social-democrats.html",
+      "summary": "The results of this week’s exceptionally close election dealt a blow to far-right nationalists, who have gained ground elsewhere.",
+      "image": ""
+    },
+    {
+      "id": "rss_3afa838c5f01",
+      "source": "纽约时报",
+      "title": "Russia and China Veto U.S. Bid to Renew U.N. Monitoring of Iran Nuclear Program",
+      "url": "https://www.nytimes.com/2026/09/17/world/middleeast/un-iran-resolution-russia-china-veto.html",
+      "summary": "The conflict underscored the distance between world powers over the United States’ pressure campaign on Iran.",
+      "image": ""
+    },
+    {
+      "id": "rss_96c35f4f3f85",
+      "source": "卫报",
+      "title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
+      "url": "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
+      "summary": "As three siblings came of age and had to leave their pack, scientists tracked the dogs’ perilous 2,500-mile odyssey to find their own territory It sounds like a Disney movie: three wild dogs, all brothers, on an epic journey to find a home of their own after their family tells them to leave. They dodge cars and hunters in search of a new life, navigating bushmeat snares and the hostility of a human-dominated landscape until they find a new haven on the African savannah. But this is exactly what happened in Zambia last year, when three endangered African wild dogs made the longest-ever recorded single journey of any mammal from the continent. The brothers travelled more than 2,500 miles (4,100km) over eight months in their “dispersal” – when a young dog comes of age and must establish new territory to find a mate and start a family of their own. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_831c12299522",
+      "source": "卫报",
+      "title": "‘We are prey’: discovery of seven women’s bodies fuels anger over femicide in South Africa",
+      "url": "https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa",
+      "summary": "String of female murder victims found near Johannesburg’s international airport, including five in the past week The discovery of the bodies of eight women around Johannesburg’s international airport, including five in the past week, has prompted an outpouring of fear, grief and anger over a lack of progress in tackling femicide. When Elizabeth “Tsontso” Moselakgomo did not return after going for a run on 9 September, her eight-year-old daughter alerted relatives, who contacted police. The 38-year-old’s body was found on Saturday and identified by relatives on Monday. The news of her disappearance had gone viral. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_9aeea5a4aa72",
+      "source": "卫报",
+      "title": "US to bar some South Africans over claims of anti-white discrimination",
+      "url": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination",
+      "summary": "Announcement of visa restrictions follows Trump’s false claims of ‘white genocide’ taking place in South Africa The US has announced visa restrictions on some South Africans as Donald Trump’s administration continues to claim that South Africa’s government racially discriminates against white minority Afrikaners. The announcement did not specify individuals who were barred from the US. Trump has spent his second term falsely claiming there is a “white genocide” in South Africa and railing against its affirmative action policies. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_4817c32bf376",
+      "source": "卫报",
+      "title": "Al-Qaida and IS-linked violence in Africa’s Sahel belt set to hit record levels this year",
+      "url": "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
+      "summary": "Twenty-five years after 9/11, figures compiled by conflict monitor underline how Sahel region has become centre of Islamist terror Islamist extremist violence in Africa’s Sahel region is set to reach historic highs after a series of sweeping offensives by groups linked to al-Qaida and Islamic State, according to new figures compiled by the conflict monitor Acled . As the US marks the 25th anniversary of the 9/11 attacks launched by al-Qaida against targets in Washington and New York, the statistics underline the continued expansion of the veteran organisation in parts of Africa – in stark contrast with its relative weakness elsewhere. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_088b75c0887b",
+      "source": "卫报",
+      "title": "Slave-trade wealth was embedded in Britain’s financial system, research finds",
+      "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/16/slave-trade-wealth-britain-financial-system-bank-of-england-enslaved-africans",
+      "summary": "Dozens of Bank of England directors and founding subscribers invested in trafficking of enslaved Africans The Bank of England and the British financial system were for centuries deeply involved in the enslavement and transatlantic trafficking of millions of African people, according to new research on Britain’s slavery history. Research by historians compiling the Register of British Slave Traders has found that the scale of the financial system’s involvement in enslavement is greater than previously known or acknowledged. The Bank of England, the central bank owned by the government since nationalisation by Clement Attlee’s Labour administration in 1946, had dozens of financiers involved in its foundation who were also significant investors in the transatlantic trafficking of enslaved Africans. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-18 07:30"
+}
