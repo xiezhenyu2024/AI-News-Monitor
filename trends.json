@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI编程工具与基础模型开源化加速",
-    "importance": 5,
-    "evidence": "Kimi K3、Grok Build、colibri等多个重量级项目同日开源或发布",
-    "grassroots": "开发者积极尝试Kimi K3并分享体验，同时讨论开放模型与闭源模型的优劣",
-    "date": "2026-07-28"
-  },
-  {
-    "theme": "低成本微调在垂直领域展现竞争力",
-    "importance": 4,
-    "evidence": "$500 RL微调9B模型在目录审查任务上超越前沿模型",
-    "grassroots": "开发者对低成本、高效率的微调方案表现出浓厚兴趣",
-    "date": "2026-07-28"
-  },
-  {
-    "theme": "AI Agent安全从理论进入实用阶段",
-    "importance": 5,
-    "evidence": "OpenAI开源Codex Security CLI + Slopsquatting攻击范式被揭示",
-    "grassroots": "开发者开始关注'AI替我选的包是否安全'",
-    "date": "2026-07-29"
-  },
-  {
-    "theme": "模型蒸馏技术进入精细化阶段",
-    "importance": 4,
-    "evidence": "接力式策略蒸馏解决前缀失败问题，准确率提升12-18%",
-    "grassroots": "暂无基层反馈",
-    "date": "2026-07-29"
-  },
-  {
     "theme": "AI教育工具引发'Vibe Coding'质量讨论",
     "importance": 4,
     "evidence": "LearnVector上线被质疑模板化，HN用户分享苏格拉底式学习方法",
@@ -1398,5 +1370,33 @@
     "evidence": "Emerald AI、Google、NVIDIA 成立 AI Energy Management Alliance；MIT 科技评论讨论 AI 的材料基础",
     "grassroots": "暂无直接基层反馈",
     "date": "2026-09-17"
+  },
+  {
+    "theme": "Agent可信度成为新稀缺资源",
+    "importance": 5,
+    "evidence": "OverclaimBench量化过度宣称、机器人安全约束失效、Claude被说服攻破系统三事同日出现",
+    "grassroots": "开发者从'能不能用'转向'怎么证明它做对了'",
+    "date": "2026-09-18"
+  },
+  {
+    "theme": "编码harness从黑盒走向组件级可测量",
+    "importance": 4,
+    "evidence": "ArXiv 176种配置的组件级消融研究",
+    "grassroots": "Agent工程从玄学走向工程化",
+    "date": "2026-09-18"
+  },
+  {
+    "theme": "小模型/极致量化进入浏览器可跑阶段",
+    "importance": 4,
+    "evidence": "Bonsai 2 27B约1.76比特/权重，浏览器可运行",
+    "grassroots": "短任务惊艳、长任务崩掉，实用性仍待观察",
+    "date": "2026-09-18"
+  },
+  {
+    "theme": "AI基础设施投资与能源约束并行",
+    "importance": 4,
+    "evidence": "Crusoe融资39亿美元，Emerald AI/Google/NVIDIA成立AI能源管理联盟",
+    "grassroots": "数据中心电力动态管理成为新议题",
+    "date": "2026-09-18"
   }
 ]

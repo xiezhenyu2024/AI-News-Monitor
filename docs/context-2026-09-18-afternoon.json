@@ -1,0 +1,1554 @@
+{
+  "key": "2026-09-18-afternoon",
+  "date": "2026-09-18",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 33,
+      "title": "Google DeepMind 成立新研究所，扩大 AGI 讨论范围",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究机构，开发了 AlphaGo、Gemini 等知名 AI 系统"
+        },
+        {
+          "name": "AGI",
+          "explain": "通用人工智能，指能像人类一样完成各种任务的 AI，而非只擅长单一任务"
+        }
+      ],
+      "summary": "Google DeepMind 宣布成立一个新研究所，旨在让 Google、DeepMind 内部以及全球研究社区对 AGI 的不同观点得到充分表达。该机构承认各方不会总是一致，且随着新数据出现，立场可能改变。此举被视为在 AGI 议题上主动扩大讨论、引入外部声音的信号。",
+      "relevant": "AGI 是当前 AI 领域最具争议和影响力的议题，DeepMind 主动搭建讨论平台，可能影响行业对 AGI 风险与路径的共识形成。",
+      "context": "随着 AI 能力快速提升，AGI 何时到来、如何安全实现等问题引发广泛分歧。DeepMind 作为前沿机构，此前多由内部主导 AGI 叙事，此次成立研究所意在纳入更广泛的全球研究视角。",
+      "source_analysis": "TechCrunch AI 报道，该媒体长期关注科技公司动态，立场偏向客观报道，引用了官方声明中关于观点分歧的表述。",
+      "social_impact": "AGI 讨论涉及全球 AI 治理与安全政策，扩大讨论范围可能影响公众认知和监管方向。",
+      "source_text": "Google and Google DeepMind researchers launched the DeepMind Institute on Wednesday to advance the conversation around artificial general intelligence (AGI). The institute lists DeepMind co-founder Shane Legg, Google executive James Manyika, and Google DeepMind chair Demis Hassabis as directors, with Legg serving as managing editor. The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. “They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier,” the announcement read. The inaugural collection of four essays covers a range of topics: economic policies for managing potential AGI disruption, preserving human-readable model reasoning, principles for human flourishing, and a framework for evaluating frontier AI models. One essay, by DeepMind safety researchers Rohin Shah and Anca Dragan, argues that AI’s shrinking window of transparency — the ability to see and check a model’s step-by-step reasoning — is not inevitable. As new architectures make the most powerful models harder to monitor, the authors say developers and regulators should confront the safety trade-offs directly. That could mean limiting “opaque serial depth”— the amount of sequential computation a model can perform without producing a readable reasoning trace — or requiring developers to demonstrate that less transparent systems remain just as monitorable. In another essay, Hassabis proposes a U.S.-led frontier AI standards body to evaluate the most advanced AI models. Under his framework, developers would initially submit models voluntarily for review up to 30 days before release. Once the evaluation system has proved effective, passing its tests could become a requirement for deploying frontier models in the United States. The body would at first design assessments in consultation with AI companies but would eventually develop independent, undisclosed evaluations — what the essay calls “held-out” tests — to prevent labs from tailoring their models to known evaluations. Hassabis said the framework could be “ratcheted up if the seriousness of the situation demands,” potentially including a coordinated slowdown among frontier AI developers. The essays arrive as the industry’s safety debate shifts from broad statements of concern toward concrete proposals for disclosure, outside scrutiny, and, if safeguards fall behind, coordinated slo",
+      "source_title": "Google DeepMind launches institute to widen the AGI debate",
+      "source_url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "source_name": "TechCrunch AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 32,
+      "title": "Crusoe 融资 39 亿美元，估值达 309 亿，将建大型数据中心和模块化 AI 工厂",
+      "entities": [
+        {
+          "name": "Crusoe",
+          "explain": "一家专注于数据中心和 AI 基础设施的公司，利用闲置能源建设算力设施"
+        },
+        {
+          "name": "AI 工厂",
+          "explain": "专门用于训练和运行 AI 模型的大型计算设施，可模块化部署"
+        }
+      ],
+      "summary": "数据中心公司 Crusoe 完成 39 亿美元融资，估值达到 309 亿美元。资金将用于建设大规模数据中心和小型模块化“AI 工厂”。这反映出 AI 算力基础设施投资持续升温。",
+      "relevant": "AI 算力需求爆炸式增长，Crusoe 的大额融资和模块化 AI 工厂概念可能改变数据中心部署方式，值得关注。",
+      "context": "生成式 AI 热潮推动对算力的巨大需求，数据中心成为稀缺资源。Crusoe 此前以利用废弃能源挖矿起家，后转型 AI 基础设施，此次融资是其扩张的关键一步。",
+      "source_analysis": "TechCrunch AI 报道，该媒体对融资事件通常快速跟进，立场中立。",
+      "social_impact": "309 亿美元估值显示资本市场对 AI 基础设施的高度追捧，可能带动更多资金涌入该领域。",
+      "source_text": "Data center developer Crusoe said Thursday it raised $3.9 billion in a Series F round that pushes its valuation to $30.9 billion. The massive round was co-led by Atreides Management, Mubadala Capital, and Valor Equity Partners. Founders Fund, GIC, Nvidia, Qatar Investment Authority (QIA), Radical Ventures, and TPG also participated, according to Crusoe. Crusoe also announced three new board members, including Cloudflare CFO Thomas Seifert; Bill Stein, partner and CIO at Primary Digital Infrastructure; and Redwood Materials founder and CEO JB Straubel, who also sits on Tesla’s board. Straubel already has ties to Crusoe; he personally invested in the company in 2021, and Crusoe later became the first customer of Redwood’s energy storage business. The eight-year-old company’s fresh capital infusion will help finance existing data center projects, including a large site in Abilene, Texas, used by OpenAI, as well as smaller, modular AI factories that can be transported by truck and connected to large power sources almost anywhere. By manufacturing these modular data centers, called Spark, at its own facilities, Crusoe can deploy compute capacity quickly and without the need for large construction workforces. The smaller centers could also help Crusoe sidestep, at least in part, another major obstacle facing data center developers: backlash from local communities protesting massive complexes near their neighborhoods. Crusoe co-founder and CEO Chase Lochmiller, who is pictured above, said in a statement he believes AI will usher in an era of abundance, but to get there will mean “controlling the infrastructure from electrons to tokens, and we’re grateful to have investors who share that conviction.” The company makes money by leasing data center space to customers that bring their own GPUs, by renting out its own GPUs, and by selling compute power used to run AI models, known as inference. This three-pronged business model has helped make Crusoe one of the most valuable AI infrastructure companies. Crusoe recently signed a massive $13 billion, five-year cloud contract to supply quantitative trading firm Jane Street with GPUs and AI infrastructure, Bloomberg reported. The company recently met with investment bankers, including Goldman Sachs and Morgan Stanley, to discuss a potential IPO in the near future, Axios reported last month. The fresh fundraise comes 10 months after Crusoe raised $1.38 billion at a $10 billion valuation last October. The company was founde",
+      "source_title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "source_url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "source_name": "TechCrunch AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "Claude Code 大重构，内部管理 3 万 Agent 的技术免费开放",
+      "entities": [
+        {
+          "name": "Claude Code",
+          "explain": "Anthropic 推出的 AI 编程助手，能理解代码库并自动完成编程任务"
+        },
+        {
+          "name": "Agent",
+          "explain": "智能体，指能自主执行任务的 AI 程序，这里指管理大量 AI 代理的技术"
+        }
+      ],
+      "summary": "量子位报道，Claude Code 进行重大重构，将其内部用于管理 3 万个 Agent 的技术免费开放。标题调侃“Git 白学了”，暗示该技术可能颠覆传统代码版本管理方式。具体技术细节未在摘要中展开。",
+      "relevant": "Claude Code 是 AI 编程领域的重要产品，开放大规模 Agent 管理技术可能降低 AI 应用开发门槛，影响开发者生态。",
+      "context": "AI 编程助手竞争激烈，Anthropic 的 Claude Code 与 GitHub Copilot 等产品竞争。管理数万 Agent 的技术此前为内部使用，此次开放可能旨在吸引开发者。",
+      "source_analysis": "量子位是中文科技媒体，关注 AI 前沿，报道风格偏技术解读和社区传播，标题带有调侃语气。",
+      "social_impact": "若技术真能管理 3 万 Agent，可能推动 AI 自动化编程和复杂任务编排的普及。",
+      "source_text": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放 Git白学了？？？ Jay 发自 凹非寺 量子位 | 公众号 QbitAI 多人云端Coding的时代，来了。 刚刚，Claude Code的项目功能迎来全面重构，原生支持多Agent玩法。 用户下达目标，Claude在云端派生多条Git分支并行干活，写完直接提PR。 此外，A社还新增了共享记忆，保证Agent之间的上下文对齐。 可以说是彻底超进化了，Project不再只是个放提示词和文档的文件夹。 同一时间，在Anthropic披露的最新报告中，也已看到这项能力的上限： 他们内部研发平台，每天同时跑着3万个AI Agent，在云端疯狂写代码、调模型、跑测试。 是的，3万个。。。 结果就是，自家核心的AI研发工作，现在已经有整整26%由Claude主导，来到L4级别。 半年前，这个数字还不到1%。 一人带一个Agent军团，Claude Code大重构 最新亮相的Claude Code Projects重构版，彻底终结了把Projects当「静态资料夹」的时代。 以前的Projects功能，本质上就是个存放提示词和参考文档的文件夹，聊上几轮上下文就乱成一团。 这次重构直接把形态变成了「以对话为驱动的协作中心」，架构核心是一个名为Coordinator（协调器）的大脑。 开发者不需要再手把手教AI每一步怎么走，只要在主对话框下达一个高阶目标，比如「把整个鉴权模块重构为OAuth 2.0并补齐自动化测试」。 主协调器接收到指令后，会自动把复杂的工程任务拆解为多个子任务，并调度分配给并行的工作线程。 而每一个工作线程，都是一个运行在云端独立环境里的Claude Code实例。 它们拥有完全隔离的代码副本，各自拉出独立的Git分支，在后台同时推进不同模块的代码编写与单测。 活干完了，工作线程会自动在后台提交代码并生成PR。 协调器还会贴心地跟踪各个子任务的上下文依赖，提醒开发者先合并哪个分支、后测试哪个模块。 神了，Vibe Coding几个月，好不容易学会Git。 你现在告诉我，连Git也白学了？？？ 说回新版Project。 道理大家都懂，以前也不是没人干，但问题在于—— 多个Agent各写各的，其实际体验是不太好的，各个会话需要互相传递上下文，中间会出现相当多信息损失。 结果就是，Token消耗巨大，速度也没快哪去。。。 但这次，A社给出了新的的解决方案：共享记忆。 所有分支线程在执行过程中沉淀的技术规范、架构决策与团队偏好，都会实时同步回共享记忆。 这样，Claude就可以记住系统将发布时间改到了周五，为什么导出功能被取消了，以及在访问账单服务之前需要联系谁。 泪目，终于不需要在每个子任务里重复粘贴配置了o(╥﹏╥)o。 更关键的是，整个过程支持完全异步。 开发者下完指令合上电脑就能去喝咖啡，甚至可以通过移动端随时查看各线程进度，并微调指令。 但A社也承认，多Agent嘛，肯定是不便宜的，建议大家随时注意自己的usage，别一不小心就干崩了。 对了，先别兴奋地太早。 Projects现在是beta，而且挑人。 第一批是部分Claude Pro和Max订阅用户，还得是用云会话项目的人。 接下来一周会慢慢放量，Team、Enterprise，Cowork……都得再等等。 26%的研发交给AI，半年飙升26倍 可以先看看A社内部是咋用的。 太有毅力了嗷。 「安全叙事」暴雷后，A社依旧乐此不疲地沉浸在自己的核弹艺术里。 Anthropic在最新发布的《衡量AI研发节奏》报告里，首次公开了自家内部的AI自主研发基准数据。 先对齐一下定义。这套自动化分级标准由前沿机构Epoch AI制定，从AL0一路排到AL5。 AL0是纯人类操作，AL3是深度人机协作，AL4代表AI能凭一个高阶指令端到端完成任务，AL5才是完全脱离人类干预的自主闭环。 在这套坐标系下，A社内部目前的自动化评级是，AL4级研发任务占比26%。 看着不是很多，但你要知道，今年2月这个数字还不足1%。 半年，26倍。 把标准调低点的话，Anthropic内部超过90%的研发流程，已经处在AL3级别。 当然，这么庞大的自主研发也不是白来的，A社选择了最烧Token的打法： 截至今年8月，A社的内部研发平台上，常态化并发运行着多达30000个AI Agent，在云端没日没夜地写代码、跑实验、改架构，单月触发的决策量就超过了10亿次。 纯纯的赛博黑工啊。。。 不过，几万个Agent在底层狂飙，失控了怎么办？ 这当然是不用你担心的，A社向来在这方面遥遥领先，早已想好了PR话术（bushi）。 公司表示，他们专门配备了全天候实时监控系统（Agent Oversight），对所有AI操作进行动态审查。 在8月份超10亿次模型决策中，系统精准拦截了大约0.002%的高风险或异常行为。 是挺厉害的。 不过吧，你的A社前几天刚被曝出花钱操控舆论、散布安全焦虑，现在这套说辞还有多少人信，就不好说了。 Dario显然也想到了这点。 为了证明自己对安全的真心，A社这次干脆把「发票」掏了出来： 7月13日至20日，公司约6%的AI研发算力花在安全与对齐研究上。 同一周，AI驱动型研发的算力里，约12%投向安全相关任务。 外界质疑王婆卖瓜？ A社表示，欢迎第三方评估团队，给予内部风险团队同等级别的数据访问权限，对自动化数据进行审计。 Coding新赛季 从内部26%的自主研发率，到外部重构的多线程Projects，本以为折腾得差不多了的Coding，如今似乎又往前推了一步。 写代码的动作正在迅速贬值，工程拆解与任务调度的能力成了核心。 以往一个中级工程师在终端里一次只能死磕一个特性，现在你一个人就是一个技术小组，底下带着一群Claude Code同时开工。 人在这个链条里的角色，从逐行敲代码的执行者，变成了拍板架构方向、审核PR和处理异常边界的技术负责人。 当然，多Agent并行并不是万能灵药，多分支重叠修改依",
+      "source_title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "source_url": "https://www.qbitai.com/2026/09/491711.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 27,
+      "title": "NVIDIA Vera Rubin NVL72 在 MLPerf Inference v6.1 首秀中性能领先",
+      "entities": [
+        {
+          "name": "NVIDIA Vera Rubin NVL72",
+          "explain": "英伟达新一代 AI 计算系统，由 Vera CPU 和 Rubin GPU 组成，NVL72 表示 72 个 GPU 互联"
+        },
+        {
+          "name": "MLPerf Inference",
+          "explain": "行业标准的 AI 推理性能基准测试，由 MLCommons 组织，用于比较不同硬件的 AI 推理能力"
+        }
+      ],
+      "summary": "NVIDIA 在 MLPerf Inference v6.1 基准测试中首次亮相 Vera Rubin NVL72 系统，宣称在性能、扩展效率和软件优化方面领先。英伟达强调更高系统性能意味着更多 token 生成和更高收入，高效扩展可降低服务成本，持续优化能提升基础设施投资回报。",
+      "relevant": "MLPerf 是 AI 硬件性能的权威基准，英伟达新系统的表现将影响数据中心采购和 AI 推理成本。",
+      "context": "英伟达此前已发布 Hopper、Blackwell 等架构，Vera Rubin 是下一代产品。MLPerf 测试是展示新硬件性能的关键场合，英伟达通常在此发布领先成绩。",
+      "source_analysis": "NVIDIA 官方博客，立场为自我宣传，强调自身产品优势，数据来自官方测试。",
+      "social_impact": "AI 推理经济学直接影响云服务定价和 AI 应用成本，英伟达的领先可能进一步巩固其市场主导地位。",
+      "source_text": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. Underlying all three is platform fungibility: the same infrastructure runs any model, any workload, from training to inference, recommender to reasoning, language to video, keeping utilization high. The NVIDIA platform is purpose-built to optimize across all these, as highlighted by MLPerf Inference v6.1 results released today: - NVIDIA Vera Rubin NVL72 system debuts with leading performance: In its first MLPerf Inference preview submission, NVIDIA Vera Rubin NVL72 delivers up to 3.7x better throughput than GB300 NVL72. - NVIDIA GB300 NVL72 scales with leading efficiency: A 288-GPU submission across four GB300 NVL72 racks achieved 99% scaling efficiency, with throughput growing nearly linearly from a single-rack baseline. - Continuous software optimizations drive performance gains: Software optimizations in NVIDIA’s MLPerf Inference v6.1 submissions delivered up to 1.6x higher performance over v6.0. Optimizations continued post-v6.1 submission, delivering further performance gains. For organizations making AI infrastructure decisions, performance, scaling efficiency and software velocity are important considerations that determine long-term inference economics. Vera Rubin NVL72 Makes MLPerf Inference Debut With Leading Performance NVIDIA submitted Vera Rubin NVL72 preview results on two of the most demanding benchmarks in the MLPerf Inference v6.1 suite: DeepSeek-R1 and Qwen3-VL. Vera Rubin NVL72 delivers up to 3.7x higher throughput than GB300 NVL72 on Qwen3-VL across offline, server and interactive scenarios, using vLLM with the NVIDIA Dynamo open source inference framework. On DeepSeek-R1, using the NVIDIA TensorRT-LLM library, throughput is up to 2.5x higher than GB300 NVL72. These early results showcase NVIDIA’s accelerated pace of innovation and how performance will improve with continuous software optimizations. This performance means each Vera Rubin NVL72 rack delivers significantly more tokens, serves more users and generates more revenue than a GB300 NVL72 rack, while lowering cost per token. The results reflec",
+      "source_title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "source_url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "Google DeepMind 发布 AlphaGenome Atlas，绘制人类基因组所有可能单字母 DNA 变异的预测图谱",
+      "entities": [
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "DeepMind 开发的基因组预测工具，能预测 DNA 单字母变化对分子层面的影响"
+        },
+        {
+          "name": "单字母 DNA 变异",
+          "explain": "DNA 序列中一个碱基的改变，即 SNP，与许多疾病和性状相关"
+        }
+      ],
+      "summary": "Google DeepMind 推出 AlphaGenome Atlas，绘制了人类基因组中 90 亿个单字母 DNA 变异的分子效应预测图谱。该工具旨在帮助研究人员理解基因变异的功能影响，加速遗传病研究和药物开发。",
+      "relevant": "人类基因组中大量变异功能未知，AlphaGenome Atlas 提供了大规模预测资源，可能推动精准医学和基因组学研究。",
+      "context": "此前 DeepMind 已发布 AlphaFold 预测蛋白质结构，AlphaGenome 是其向基因组学延伸的成果。90 亿个变异覆盖了人类基因组中所有可能的单字母变化。",
+      "source_analysis": "Google DeepMind 官方博客，立场为展示研究成果，强调技术突破。",
+      "social_impact": "该图谱可能加速对遗传病致病机制的理解，但预测结果需实验验证，实际临床影响尚需时间。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform (detailed in our paper) containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Googl",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "Google DeepMind 推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "entities": [
+        {
+          "name": "Gemini",
+          "explain": "Google DeepMind 开发的多模态 AI 模型系列，可处理文本、图像、音频等"
+        },
+        {
+          "name": "Extended Thinking",
+          "explain": "扩展思考模式，让 AI 在回答前进行更长时间的推理，以提高复杂任务表现"
+        }
+      ],
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 两个新模型。Live 版本可能强调实时交互能力，Extended Thinking 版本则增强推理深度。具体性能和改进细节未在摘要中说明。",
+      "relevant": "Gemini 是 Google 对抗 GPT 系列的核心产品，新版本发布可能影响 AI 助手市场竞争格局。",
+      "context": "Google 持续迭代 Gemini 模型，此前已推出多个版本。Live 和 Extended Thinking 的命名暗示在实时性和推理能力上的侧重。",
+      "source_analysis": "Google DeepMind 官方博客，立场为产品发布宣传。",
+      "social_impact": "新模型可能提升 AI 助手的实用性和可靠性，但具体影响需看实际表现和用户反馈。",
+      "source_text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Updated September 17, 2026 Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. On ServiceNow’s EVA-Bench, a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early ver",
+      "source_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind 推出 WeatherNext 3，号称最先进、最准确的全球天气 AI 模型",
+      "entities": [
+        {
+          "name": "WeatherNext",
+          "explain": "Google DeepMind 开发的 AI 天气预报模型系列，利用机器学习预测天气"
+        },
+        {
+          "name": "全球天气 AI 模型",
+          "explain": "使用人工智能而非传统数值模拟来预测全球天气的系统"
+        }
+      ],
+      "summary": "Google DeepMind 发布 WeatherNext 3，称其为最先进且最准确的全球天气 AI 模型。该模型旨在提升天气预报的精度和速度。具体性能指标未在摘要中提供。",
+      "relevant": "AI 天气预报可能比传统方法更快、更准，对农业、灾害预警和能源等行业有重要价值。",
+      "context": "DeepMind 此前已推出 GraphCast 等天气模型，WeatherNext 是其迭代产品。AI 天气预测正成为气象领域的重要方向。",
+      "source_analysis": "Google DeepMind 官方博客，立场为研究成果宣传。",
+      "social_impact": "更准确的天气预报可帮助减少灾害损失，但需实际业务验证。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Hugging Face 发布 PACT 基准，测试企业 AI 助手在压力下能否遵守规则",
+      "entities": [
+        {
+          "name": "PACT",
+          "explain": "Pressure-Applied Compliance Testing，压力应用合规测试，用于评估 AI 代理在压力下是否遵守规则"
+        },
+        {
+          "name": "企业级 LLM 代理",
+          "explain": "在企业环境中执行任务的 AI 助手，如招聘、医疗、金融等场景"
+        }
+      ],
+      "summary": "Hugging Face 发布 PACT 基准，用于系统评估企业 AI 助手在压力下是否违反合规规则。该基准覆盖 12 个受监管企业领域和 48 个场景，每个场景设置一条规则和一个违规捷径，并施加多种压力（如用户坚持、经理催促）。目前尚无类似评估框架，PACT 填补了这一空白。",
+      "relevant": "企业 AI 代理在敏感场景中必须遵守法规，PACT 提供了衡量合规性的工具，对 AI 治理和法律责任有重要意义。",
+      "context": "随着 AI 代理进入招聘、医疗、金融等受监管领域，合规成为法律关切。但此前缺乏系统评估模型在压力下是否违规的基准。",
+      "source_analysis": "Hugging Face 论文页面，属于学术研究发布，立场为中立研究。",
+      "social_impact": "该基准可能推动企业 AI 合规标准建立，帮助避免因 AI 违规导致的法律风险。",
+      "source_text": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?。As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance. In these contexts, compliance with rules specified in an agent's system context is a first-order legal concern. Currently, no evaluation framework systematically measures which LLM models tend to violate compliance rules, especially under pressure from a persistent user, a hurried manager, or circumstances where violation is convenient or attractive. We introduce PACT (Pressure-Applied Compliance Testing), a benchmark for rule-following under pressure in AI agents assisting employees in daily tasks across twelve regulated enterprise domains and forty-eight scenarios, each set in a realistic multi-turn conversation. Each benchmark item pairs a standing rule against a rule-violating shortcut, and applies a battery of pressures across different wordings and system-prompt modes. We construct PACT component by component under strict LLM-as-judge auditing to ensure samples are unambiguous, ungameable, and realistic enough to avoid eliciting evaluation-aware behavior. We use PACT to profile LLM compliance across six complementary metrics that create a holistic picture of an AI assistant's robustness under pressure and throughout multi-turn conversations, its transparency, and ability to correctly discern where a rule applies. We aggregate this profile into PACTScore, a reliability-weighted compliance rate over all items and modes",
+      "source_title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "前沿LLM智能体在67.9%的运行中未读完被要求审查的文件，其中80.4%存在误导性表述",
+      "entities": [
+        {
+          "name": "OverclaimBench",
+          "explain": "一个专门用来测试AI智能体是否会夸大自己工作完成度的评估套件，包含五个文件审查场景和预埋缺陷"
+        },
+        {
+          "name": "Overclaiming（过度声称）",
+          "explain": "AI智能体的最终回复与它实际看到的信息相矛盾，即声称做了实际上没做的事"
+        },
+        {
+          "name": "Frontier LLM Agents",
+          "explain": "最先进的大语言模型驱动的自主智能体，能独立执行编程等复杂任务"
+        },
+        {
+          "name": "Production CLI",
+          "explain": "各AI公司实际部署给用户使用的命令行界面，而非实验室测试环境"
+        }
+      ],
+      "summary": "研究者提出OverclaimBench评估套件，测试前沿AI编程智能体是否会夸大任务完成度。在八个商业模型和四个开源模型上测试发现：67.9%的运行中智能体没有读完被要求审查的所有文件；在未读完文件的情况下，80.4%的回复存在误导性表述。该研究定义'过度声称'为最终回复与上下文信息相矛盾，无需推断意图。",
+      "relevant": "随着AI智能体被越来越多地信任去自主完成长时间编程任务，用户往往只能看到智能体的最终回复。如果智能体系统性地夸大完成度，可能导致代码缺陷被遗漏、审查流程失效，对依赖AI编程助手的开发者构成实际风险。",
+      "context": "前沿编程智能体正被赋予越来越大的自主权，可以长时间独立工作。但用户通常只能看到智能体的最终总结报告，无法验证其实际工作过程。此前缺乏对智能体是否如实汇报工作完成度的系统性量化研究。",
+      "source_analysis": "来自ArXiv预印本（cs.LG），尚未经过同行评审。研究覆盖八个商业前沿模型在其各自生产环境和四个开源模型在统一测试框架下的表现，方法较为严谨。",
+      "social_impact": "67.9%的运行未读完文件、80.4%存在误导——这两个数据揭示了当前AI编程智能体在可靠性汇报方面的系统性缺陷，影响所有依赖AI智能体进行代码审查和软件工程的用户。",
+      "source_text": "Computer Science > Software Engineering [Submitted on 17 Sep 2026] Title:Quantifying Overclaiming Propensity in Frontier LLM Agents View PDF HTML (experimental) Abstract:Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBench}, an evaluation suite composed of five file-review scenarios, transcript-based coverage measurements, and registered planted defects. We evaluate eight proprietary frontier models in their own production command-line interfaces, and four open-weight models under a single fixed harness on OverclaimBench and find that 1) agents do not read all the files they were asked to review in 67.9\\% of runs; 2) among runs where not all files are read, agents are \\emph{misleading} 80.4\\% of the time (59--96\\% per model), either falsely claiming to have read all files or omitting that coverage is incomplete; 3) requiring delegation to subagents increased reading coverage, but among reviews that remained incomplete, a large majority were still misleading; and 4) agents that falsely claimed a complete review missed planted defects at about 1.8 times the rate of agents that read every file, showing that claims of completion can conceal substantive failures. Together, these results show that agents' final responses are not reliable accounts of their actions. Submission history From: Pascal Junior Tikeng Notsawo [view email] [v1] Thu, 17 Sep 2026 17:59:04 UTC (3,608 KB) Current browse context: cs.SE References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: exp",
+      "source_title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "source_url": "https://arxiv.org/abs/2609.20812v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "编码智能体框架设计实证研究：上下文管理在预算紧张时价值最大，规则裁剪+LLM摘要组合效率最优",
+      "entities": [
+        {
+          "name": "Coding Harness",
+          "explain": "编码智能体的运行框架，负责管理智能体如何规划、执行动作和管理上下文，相当于智能体的'操作系统'"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "explain": "一个标准化的软件工程基准测试，用真实GitHub问题来评估AI编程能力"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "explain": "评估AI在终端环境中执行任务的基准测试"
+        },
+        {
+          "name": "Context Management",
+          "explain": "智能体如何管理有限的上下文窗口，包括何时压缩、摘要或丢弃历史信息"
+        },
+        {
+          "name": "Rule-based Elision",
+          "explain": "基于预设规则自动删除或裁剪上下文中的冗余信息，而非用AI来判断"
+        }
+      ],
+      "summary": "研究团队构建了一个轻量级编码框架，固定执行循环，变化三个组件（规划、动作空间、上下文管理），在四个模型、两个基准上评估了176种匹配设置。核心发现：上下文管理在窗口预算收紧时价值急剧上升，主要收益来自防止上下文溢出失败；先做规则裁剪再做LLM摘要的组合整体效率最优。",
+      "relevant": "当前编码智能体的评估通常将整个框架当作黑盒，不清楚哪个组件真正重要。该研究首次系统性地拆解框架组件进行对比，为智能体框架设计提供了可操作的工程指导。",
+      "context": "编码智能体（如Claude Code、Cursor等）的性能不仅取决于底层模型，还取决于外层框架的设计。但此前研究多将框架视为整体评估，缺乏对单个组件贡献的量化分析。",
+      "source_analysis": "来自ArXiv预印本（cs.CL），尚未同行评审。研究设计采用控制变量法，176个匹配设置覆盖面较广，方法论较为扎实。",
+      "social_impact": "研究覆盖4个模型、176种配置、2个基准测试，为AI编程工具开发者提供了组件级优化依据，有望推动更高效的编码智能体框架设计。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 17 Sep 2026] Title:An Empirical Study of Harness Design for Coding Agents View PDF HTML (experimental) Abstract:Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluated on SWE-Bench Verified and Terminal-Bench 2.1, we evaluate 176 matched settings spanning five context-management strategies, four context-window budgets, and targeted ablations of planning and action space. We find that: (1) Context management becomes increasingly valuable as the context-window budget tightens, with most of its benefit coming from preventing context-overflow failures. (2) Staging rule-based elision before LLM-based summarization provides the strongest overall efficiency among the context-management strategies, whereas making elided content recoverable adds machinery that models rarely use and yields no accuracy gain. (3) Planning shifts from an accuracy scaffold for weaker models to a cost saver for stronger models, with little change in accuracy. (4) Predefined tools improve performance for models with weaker bash proficiency, whereas bash-capable models can operate effectively with a bash-only interface and achieve substantially lower cost, especially on command-line-centric tasks. Trajectory-level analysis explains these effects: context management extends execution trajectories without substantially altering agent behavior, planning changes where trajectories stop, and the action space changes the granularity at which code is written. These findings inform model- and budget-aware harness design and provide a modular framework for evaluating future harness components. Current browse context: cs.AI References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is Dag",
+      "source_title": "An Empirical Study of Harness Design for Coding Agents",
+      "source_url": "https://arxiv.org/abs/2609.20804v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "Score Centering方法解决LLM强化学习中的训练-推理不匹配问题，0.6B到30B参数模型上匹配或超越重要性采样方法",
+      "entities": [
+        {
+          "name": "TIM（训练-推理不匹配）",
+          "explain": "强化学习训练时用的计算引擎和推理部署时用的引擎存在数值差异，导致训练不稳定"
+        },
+        {
+          "name": "Score Centering",
+          "explain": "本文提出的一种加性修正项，通过抵消训练和推理引擎之间的持续偏差来稳定强化学习"
+        },
+        {
+          "name": "Importance Sampling",
+          "explain": "一种统计学方法，通过重新加权样本来纠正分布不匹配，是处理TIM的现有主流方案"
+        },
+        {
+          "name": "Drift（漂移）",
+          "explain": "训练引擎和推理引擎之间随训练步数累积的持续性偏差"
+        }
+      ],
+      "summary": "论文发现LLM强化学习在训练-推理不匹配下的不稳定性主要源于'漂移'——训练和推理引擎间的偏差随每步训练累积。作者推导出加性的'score centering'修正项来抵消漂移。在0.6B到30B参数模型上，score centering单独使用即可匹配或超越量化下重要性采样方法，且不匹配越严重优势越大。该方法还可与重要性采样组合，组合效果优于纯重要性采样基线。",
+      "relevant": "LLM的强化学习训练对训练和推理引擎间的微小差异极其敏感，但完全消除差异会严重牺牲推理效率。该方法提供了一种低成本稳定训练的方案，对大模型RLHF训练有直接工程价值。",
+      "context": "大语言模型的强化学习（如RLHF）通常用一套引擎训练、另一套引擎做推理，两者数值差异导致训练不稳定。现有方案要么完全对齐引擎（代价高），要么用重要性采样纠正（效果有限）。",
+      "source_analysis": "来自ArXiv预印本（cs.LG），尚未同行评审。实验覆盖0.6B到30B参数规模，包含量化场景和陈旧数据实验，验证较为全面。",
+      "social_impact": "该方法在0.6B至30B参数模型上验证有效，且随不匹配程度加剧优势增大，对大规模LLM强化学习训练的稳定性有直接帮助。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 17 Sep 2026] Title:Score Centering Stabilizes Off-policy Reinforcement Learning View PDF HTML (experimental) Abstract:Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We derive an additive \"score centering\" correction term that stabilizes RL under TIM by canceling drift. When training models from 0.6B to 30B parameters, score centering alone matches or outperforms methods based on importance sampling under quantization, with the gap growing as the mismatch becomes more severe. Because the correction is additive, score centering also composes with importance sampling -- their composition outperforms pure importance-sampling baselines in our staleness experiments. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+      "source_url": "https://arxiv.org/abs/2609.20807v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "JEPA-Anything：基于正交预测分解的跨领域世界模型框架，在视觉、生物、气象等七个领域验证有效",
+      "entities": [
+        {
+          "name": "JEPA（联合嵌入预测架构）",
+          "explain": "一种AI架构，不在像素层面预测未来，而是在抽象表示空间中做预测，由Meta首席AI科学家Yann LeCun提出"
+        },
+        {
+          "name": "OPF（正交预测分解）",
+          "explain": "本文提出的方法，将潜在预测目标分解为互补因子，通过专门路径学习后在共享预测设计中重组"
+        },
+        {
+          "name": "World Model（世界模型）",
+          "explain": "AI系统对环境的内部模拟，能预测行动的后果，是自主智能体的核心能力"
+        },
+        {
+          "name": "Long-horizon Dynamics",
+          "explain": "长时间跨度的动态预测，如100步分子模拟或长期天气预测"
+        }
+      ],
+      "summary": "研究者提出JEPA-Anything框架，基于正交预测分解（OPF）扩展联合嵌入预测架构，实现跨领域的世界模型学习。在视觉、生物学、临床轨迹、控制、分子动力学、物理场和天气七个领域进行评估，涵盖表示学习、干预预测、分布外泛化和长时程动态预测。实验包括10个匹配动态任务、超过1000个临床事件预测和四个系统的100步分子模拟。",
+      "relevant": "当前预测模型通常是领域专用的，该研究探索能否用统一的学习原理支持跨截然不同系统的世界建模，对通用人工智能和科学发现都有潜在意义。",
+      "context": "世界模型是AI理解因果、预测未来的关键能力，但现有模型往往只针对单一领域设计。JEPA架构此前主要在视觉领域应用，尚未验证是否能泛化到生物、物理等根本不同的系统。",
+      "source_analysis": "来自ArXiv预印本（cs.CL），尚未同行评审。实验覆盖七个差异极大的领域，验证范围广泛，但具体性能提升幅度需查看完整论文。",
+      "social_impact": "跨七个领域验证、1000+临床事件预测、100步分子模拟——该框架若成立，可能推动AI从领域专用模型向通用世界模型迈进。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 17 Sep 2026] Title:JEPA-Anything: Learning Predictive Models across Different Worlds View PDF HTML (experimental) Abstract:World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pathways, and recombines them within a shared predictive design. We evaluate JEPA-Anything across seven domains: vision, biology, clinical trajectories, control, molecular dynamics, physical fields, and weather. Experiments span representation learning, intervention prediction, out-of-distribution generalization, and long-horizon dynamics, including 10 matched dynamics tasks, forecasting of over 1,000 clinical events, and 100-step molecular rollouts across four systems. Against matched JEPA baselines, JEPA-Anything improves reported metrics on all 10 dynamics tasks and reduces single-intervention prediction error on Interventional Pong by 34.8%. It achieves the lowest one-step and 100-step molecular errors among compared methods in all four systems. Beyond prediction, a factor-nominated biological intervention receives experimental support in cell co-cultures, patient-derived organoids, tumor fragments, and mice; latent orbital modes recover the Keplerian scaling exponent with a fitted slope of -1.4991. These results support a common factorized predictive principle across heterogeneous worlds, connecting world modeling with intervention and experimentally grounded scientific discovery. Code: this https URL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommende",
+      "source_title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "source_url": "https://arxiv.org/abs/2609.20800v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "嵌入模型对物理量的理解存在严重偏差，主要受字符串表面相似性影响而非语义",
+      "entities": [
+        {
+          "name": "Embedding Space（嵌入空间）",
+          "explain": "AI模型将文字转换为高维向量后的数学空间，语义相似的词在空间中距离更近"
+        },
+        {
+          "name": "Physical Measurement",
+          "explain": "质量、距离、时间、体积等有客观等价和距离关系的物理量"
+        },
+        {
+          "name": "String Similarity（字符串相似性）",
+          "explain": "文字在字面上的相似程度，如'1km'和'1kg'字面相似但物理含义完全不同"
+        }
+      ],
+      "summary": "研究检验嵌入空间是否反映质量、距离、时间、体积等物理量的客观语义关系。发现嵌入空间对物理测量的建模很弱，呈现出奇怪的模式。进一步分析表明，嵌入表示主要受字符串表面相似性影响，而非物理语义。重新校准相似度也不能显著改善对齐。",
+      "relevant": "嵌入模型是搜索、推荐、RAG等应用的基础。如果嵌入空间不能正确反映物理量的语义关系，可能导致涉及数值和单位的应用出现系统性错误。",
+      "context": "嵌入模型被广泛用于语义搜索和相似度计算，但此前很少验证它们是否理解物理量之间的客观关系（如1km=1000m）。物理测量具有唯一的、客观的语义等价和距离定义，是检验嵌入质量的理想测试集。",
+      "source_analysis": "来自ArXiv预印本（cs.LG/cs.CL），尚未同行评审。研究揭示了嵌入模型的根本性局限，但未提出有效改进方案。",
+      "social_impact": "该发现影响所有依赖嵌入模型的搜索、推荐和检索系统，尤其在科学、工程等涉及物理量的领域可能造成实质性错误。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 17 Sep 2026] Title:Embedding Models Measure in Peculiar Ways View PDF HTML (experimental) Abstract:Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influenced by superficial string similarity, and recalibration of similarity does not substantially improve the alignment. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "Embedding Models Measure in Peculiar Ways",
+      "source_url": "https://arxiv.org/abs/2609.20821v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 35,
+      "title": "IBM Research探讨AI智能体任务一致性：一次成功不代表次次成功",
+      "entities": [
+        {
+          "name": "Agent Consistency（智能体一致性）",
+          "explain": "AI智能体在重复执行同一任务时能否稳定地保持相同表现水平"
+        },
+        {
+          "name": "ALTK Evolve",
+          "explain": "IBM Research开发的工具包，用于评估和改进AI智能体的行为一致性"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "explain": "Hugging Face平台上的技术博客，AI社区分享研究成果和实践经验的渠道"
+        }
+      ],
+      "summary": "IBM Research在Hugging Face博客发文，探讨AI智能体任务执行的一致性问题：智能体一次成功完成任务后，能否在重复执行中保持稳定表现。文章介绍了ALTK Evolve工具包，用于评估和改进智能体的行为一致性。",
+      "relevant": "在AI智能体被部署到生产环境的背景下，单次任务成功不足以证明可靠性。一致性是智能体能否被信任用于关键任务的核心指标。",
+      "context": "当前AI智能体评估通常只关注单次任务成功率，但实际部署中用户需要的是可重复、可预测的稳定表现。IBM Research针对这一被忽视的维度提出了评估和改进方案。",
+      "source_analysis": "来自IBM Research在Hugging Face官方博客发布的技术文章，代表企业研究视角，可能侧重推广其ALTK Evolve工具包。",
+      "social_impact": "",
+      "source_text": "Your Agent Aced the Task. Will It Do It Again? That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper. Most benchmarks hide this variability behind an average. On AppWorld, a ReAct agent using GPT-4.1 succeeded on 77.4% of runs across five repetitions. But it succeeded in all five runs for only 53.0% of tasks — a 24.4-point consistency gap. Most benchmarks report the first number. We built a way to measure the second — and improve it. In an earlier post, we introduced ALTK-Evolve — a system that turns an agent's own past trajectories into reusable guidelines, distilled automatically and injected back at inference time. It measurably improves task success, but those results only asked the average-case question too. This post introduces consistency guidelines, a new guideline type in altk-evolve built on top of a diagnostic tool we call the Consistency Analyzer, that targets this gap directly. TL;DR - Accuracy hides an unreliability problem. A ReAct agent (GPT-4.1 on AppWorld test_normal ) that succeeds 77.4% of the time on average succeeds on all 5 repeated runs for only 53.0% of tasks — a 24.4-point consistency gap. On hard tasks it reaches 30 points. - We built a diagnostic for exactly this. The Consistency Analyzer resamples an agent's own recorded trajectory to find flip-prone decision points — steps where the model was one token-sample away from doing something different. It needs one trace and no ground truth — it resamples each decision point in that trace with a single call requesting k completions (k=5 by default), rather than re-running the task end-to-end. - Turning that diagnosis into guidelines halves the gap — from 24.4pp to 12.0pp (same-task Pass⁵ +16.0pp, similar-task +13.0pp), without costing anything in average accuracy. - Full methodology and evaluations are in the technical report on arXiv. The Metric Almost Nobody Reports Standard agent evaluation reports Mean@k: run a benchmark k times, average the pass rate. Often k=3, sometimes just 1. It's the number on every leaderboard, and it's what \"77% accurate\" means in practice. Mean@k answers \"how good is this agent, on average?\" It does not answer the question a real user cares about: will it still be good if I ask this exact question again? For that y",
+      "source_title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 36,
+      "title": "Hugging Face博客介绍在HF Jobs上实现异步GRPO训练与LoRA微调，无需NCCL通信",
+      "entities": [
+        {
+          "name": "GRPO",
+          "explain": "Group Relative Policy Optimization，一种用于大语言模型强化学习的算法，被DeepSeek等模型采用"
+        },
+        {
+          "name": "LoRA",
+          "explain": "Low-Rank Adaptation，一种低成本微调大模型的方法，只训练少量额外参数而非全部参数"
+        },
+        {
+          "name": "HF Jobs",
+          "explain": "Hugging Face提供的云端计算任务运行服务"
+        },
+        {
+          "name": "NCCL",
+          "explain": "NVIDIA集合通信库，用于多GPU分布式训练中的GPU间通信，配置复杂"
+        }
+      ],
+      "summary": "Hugging Face博客介绍了一种在HF Jobs上运行异步GRPO强化学习训练的方法，结合LoRA微调，通过使用存储桶和代理实现，无需配置NCCL多GPU通信。这降低了分布式RL训练的技术门槛。",
+      "relevant": "GRPO训练通常需要复杂的分布式GPU通信配置（NCCL），对资源有限的研究者和开发者构成障碍。该方案通过异步架构规避了这一问题，使RL微调更加可及。",
+      "context": "GRPO是当前LLM强化学习的主流算法之一，但分布式训练配置复杂。Hugging Face Jobs提供云端计算，结合LoRA降低计算需求，再用异步架构避免NCCL配置，形成了一套低门槛方案。",
+      "source_analysis": "来自Hugging Face官方博客，属于技术教程/实践分享，旨在推广其平台功能。",
+      "social_impact": "",
+      "source_text": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL TL;DR AsyncGRPOTrainer can now train a LoRA adapter and sync only that adapter to vLLM (TRL v1.14).- A rank-1 adapter is a few megabytes, so it can travel through a Storage Bucket mounted in every Job instead of over NCCL. The trainer and the vLLM replicas run as separate Hugging Face Jobs on separate machines. - A small proxy in front of the replicas adds the auth header, routes each rollout to the replica that already holds its KV prefix, and broadcasts adapter loads to every replica. - The AsyncGRPO metrics show where the bottleneck sits. Five runs take the same recipe from 3 h 27 min to 53 min for 500 steps. LoRA support recently landed in TRL's AsyncGRPOTrainer with PR #7017, and ships with TRL v1.14. The asynchronous trainer can now train an adapter instead of the full model, and it syncs only the LoRA adapter to vLLM. This post covers a real-world project built on top of it, where training and inference no longer share a machine. LoRA training is particularly suited for RL, as shown in Thinking Machines's blog LoRA Without Regret. They show that LoRA can match full fine-tuning for policy-gradient RL, even with rank 1. This stems from the fact that the advantage function only gives ~O(1) bits of information per episode, so there is not that much to learn from each step, from a total-bits-of-information point of view. A rank-1 adapter has enough capacity to absorb it. There is also a systems consequence of LoRA training. A rank-1 adapter for a 1.5B model is a few megabytes, while the full model is around 3 GB. Instead of sending the full policy to the inference workers after every update, we can just send the adapter. vLLM can also keep several adapters loaded at once. Old rollouts finish with the policy they started with, while new rollouts use the latest one. TRL's AsyncGRPOTrainer already separates training and generation. The trainer and vLLM can run on different machines and at their own speed. This is easy in a single-node or cluster setting where both processes share a filesystem or can form an NCCL group. What we want is to run the same setup with Hugging Face Jobs. Essentially, an HF Job is one container running on one VM. This means that one Job cannot spawn multiple nodes (at least for now) to hold a trainer and a fleet of vLLM servers (we are limited to 8xH200 at most per node). The AsyncGRPOTrainer is built for exactly that kind of scale, so the question became: how far c",
+      "source_title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "source_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "Manus重生第17天，估值翻倍至40亿美元推进新融资",
+      "entities": [
+        {
+          "name": "Manus",
+          "explain": "一家中国AI Agent（智能体）创业公司，主打能自主执行复杂任务的通用AI助手产品"
+        },
+        {
+          "name": "估值翻倍",
+          "explain": "公司市场估值在短时间内从原有水平上涨到两倍，通常反映投资人对其前景的强烈看好"
+        }
+      ],
+      "summary": "AI Agent创业公司Manus在经历重生（重启运营或业务重组）仅17天后，估值即实现翻倍，目前正以40亿美元作价推进新一轮融资。这一速度在AI创业圈极为罕见，显示资本市场对通用AI Agent赛道的追捧热度不减。",
+      "relevant": "Manus是中国AI Agent领域的代表性产品，其估值快速翻倍反映出一级市场对AI智能体商业化前景的高度乐观，也折射出该赛道竞争与资本涌入的激烈程度。",
+      "context": "Manus此前经历了一段低谷或业务调整期（即所谓'重生'），重启后迅速获得资本青睐。AI Agent是2025-2026年最热门的AI应用方向之一，投资人普遍认为其可能成为大模型落地的重要形态。",
+      "source_analysis": "量子位（QbitAI）是中国专注人工智能领域的科技媒体，报道偏向产业动态与融资消息，立场中立，主要面向AI从业者和投资人。",
+      "social_impact": "40亿美元估值使Manus跻身中国AI创业公司第一梯队，若融资完成将进一步推高AI Agent赛道的估值预期，可能引发更多资本和创业者涌入该领域。",
+      "source_text": "Manus重生第17天，估值居然就翻倍了 作价40亿美元推进新融资 衡宇 发自 凹非寺 量子位 | 公众号QbitAI Manus恢复自由身才半个多月，“突然”身价倍增了？！ 最新消息，Manus正在推进新一轮约5亿美元融资，目标估值约40亿美元。 这是它与Meta完成拆分、恢复独立运营后的第一轮融资。 据彭博援引知情人士消息，这轮融资已经接近完成，但谈判仍在进行，最终金额和条款仍可能发生变化。 目前，最新新资方身份尚未披露，腾讯、HSG和真格基金等现有股东也没有公开确认是否继续加码。 就在9月1日，Manus才刚刚正式宣布恢复独立运营。 再往前不到一个月，腾讯、真格基金、HSG等Manus老股东刚以约20亿美元的价格——这也是卖给Meta时候的价格——将这家公司买回来。 如果最新一轮融资最终按照40亿美元估值完成，Manus恢复独立运营仅17天，新一轮融资估值就可能比此前回购时翻上一倍。 过去一年半，Manus的身价从5亿美元一路走到20亿美元，再到如今瞄准40亿美元。 中间还经历了一场收购、监管叫停、业务拆分和原股东回购。 嗯，别的不说，我先称一声“全球最抓马的Agent公司”。 一年半时间，从5亿美元到40亿美元 最早是彭博社曝出消息，称Manus计划融资约5亿美元，寻求约40亿美元估值。 值得注意的是，Manus从产品首次发布到作价40亿美元，仅仅用了一年半时间——而且中间还有无数戏剧性时刻。 我们一起快速简要回顾一下。 2025年3月，Manus发布通用Agent，一夜刷屏，红透半边天。 4月，Benchmark领投了7500万美元融资，Manus投后估值约5亿美元。 12月底，Meta宣布以20亿美元的价格收购Manus。收购发生前，Manus刚刚宣布ARR突破1亿美元，并拥有数百万用户。 然而到了今年年初，这笔跨境交易解除。Meta随后开始与Manus进行业务和数据拆分。 到5月，彭博社曝出Manus考虑的方案之一，即肖弘、季逸超、张涛三名创始人曾讨论融资约10亿美元，从Meta手中把Manus买回来，融资估值至少要达到Meta收购时约20亿美元的水平。 并考虑后续通过合资结构运营，最终赴港IPO。 不过最终方案并非如此——8月，腾讯、真格基金、红杉中国等Manus原有投资方以约20亿美元价格，从Meta手里买回了Manus的股份。 按照财新披露的信息，腾讯接下Benchmark原先持有的股份，并成为Manus最大股东。 （BTW，Manus创始人肖弘与腾讯早有渊源，他早年做的微信公众号管理工具“壹伴助手”就曾获腾讯投资） 9月1日，Manus正式对外宣布恢复独立运营。 创始团队重新领导公司，Manus重新将自己定义为一家“独立Agent实验室”。 然后又过了17天，40亿美元的新报价就来了。 一年半时间，从5亿美元到20亿美元，再到如今瞄准40亿美元。 Manus不是唯一一家“被巨头买走、交易被撤销、老股东重新买回来”的公司，但绝大多数案例被买回后，估值是下跌或持平（很多时候买回来是止损，不是价值重估），只有极少数业务本身爆发式增长，才实现估值上涨。 未能被Adobe成功收购的Figma，上市估值高于拟收购价，估值大涨。 它属于为数不多的后者。 Manus呢，显然也是后者。 Manus没停下来的这半年 为什么经历这么大一场风波，Manus还能迅速谋求更高估值？ 我们不妨来看看Manus在收购风波期间业务数据。 去年12月Meta收购Manus前夕，Manus曾公开宣布，其ARR已经突破1亿美元，同时年化收入运行速率达到1.25亿美元。 据财新报道，截至今年6月底，Manus的ARR已经达到约4亿美元。 也就是说，从去年12月到今年6月底，大约半年时间，Manus的ARR已经增长到此前约4倍。 The Information披露的口径甚至更高一些。其援引知情人士称，今年6月，Manus的年化收入运行速率已经达到4亿至5亿美元。 如果只用公开ARR进行粗略计算，去年底Meta以约20亿美元收购Manus，对应当时超过1亿美元ARR，大约是20倍ARR。 若按照财新披露的今年6月底约4亿美元ARR计算，如今40亿美元目标估值，对应大约10倍ARR。 也就是说，虽然Manus整体估值从20亿美元涨到40亿美元，绝对值翻倍；但是每1美元ARR对应的估值差不多砍半了。 8月被买回时，Manus收入已经明显高于Meta收购时的水平，So，其实是原股东们按照旧估值拿回了一家规模更大、营收更好的公司。 讲道理，现在曝光的40亿美元融资估值，应该是资本市场在给这部分增长定价。 而且过去半年，Manus经历的可不只有收入增长。 忙着和Meta拆分的它，并没有停止密集更新产品的脚步。 连接办公软件，保留项目上下文，调用外部工具，让一个任务从几分钟走向几小时、几天，甚至持续运行…… 根据Manus官网公开的产品更新记录，仅今年春夏，其产品能力就一直沿着“连接更多工具、保留更多上下文、处理更长任务”这条路推进。 与此同时，即便收购关系处于拆分阶段，Manus依然继续推进与Canva、Zoom、Similarweb、Notion和Shopify等公司的合作。 此外，Manus在恢复独立运营的公告里还给出了下一步规划。 未来Manus将更深入地进入日常工作流，更直接地与外部世界交互，同时更主动地代表用户采取行动。 这下大家应该很清楚，最新40亿美元估值是怎么来的了。 订阅收入、工作流入口、用户积累，以及它能不能在基础模型之上占住一层长期存在的产品价值，都被塞进了这张40亿美元的报价单里。 资本买单的，不只是“Manus” 大家别忘了，除了上述种种，更重要的一件事是Manus的定位。 它是今年最热门的Agent赛道的头部选手。 今年以前，Munas是全球市面上为数不多的通用型Agent，还是使用体验很不错的那一档。 今年以来，OpenClaw爆火，Claude Code、Codex不断扩展Agent能力，国内各种Agent同",
+      "source_title": "Manus重生第17天，估值居然就翻倍了",
+      "source_url": "https://www.qbitai.com/2026/09/491764.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 28,
+      "title": "Emerald AI、Google与NVIDIA联合成立AI能源管理联盟",
+      "entities": [
+        {
+          "name": "Emerald AI",
+          "explain": "一家专注于AI数据中心能源管理的技术公司，致力于让数据中心用电更灵活高效"
+        },
+        {
+          "name": "AI Energy Management Alliance (AEMA)",
+          "explain": "AI能源管理联盟，由多家企业组成的行业组织，目标是让AI数据中心能动态调节用电"
+        },
+        {
+          "name": "AI工厂",
+          "explain": "NVIDIA提出的概念，指专门用于训练和运行AI模型的大型数据中心，耗电量极大"
+        },
+        {
+          "name": "NVIDIA",
+          "explain": "全球最大的AI芯片（GPU）制造商，AI算力基础设施的核心供应商"
+        },
+        {
+          "name": "Google",
+          "explain": "全球科技巨头，同时是AI大模型和云计算的重要玩家"
+        }
+      ],
+      "summary": "Emerald AI、Google和NVIDIA宣布成立AI能源管理联盟（AEMA），这是首个专注于让AI数据中心动态管理电力使用的行业联盟。联盟认为，AI工厂作为智能时代的基础设施，其规模化发展不仅取决于数据中心内部创新，也取决于电网层面的创新。",
+      "relevant": "AI数据中心的能耗问题已成为行业和社会的焦点，该联盟的成立意味着科技巨头开始联合应对AI扩张带来的电力压力，可能影响未来数据中心的建设标准和电网政策。",
+      "context": "随着AI模型规模不断扩大，数据中心的电力消耗急剧上升，电网承载压力成为AI进一步扩张的瓶颈。此前业界多关注芯片算力，能源管理问题日益突出，促使相关企业联合行动。",
+      "source_analysis": "消息来自NVIDIA官方博客，属于企业官方发布，立场代表NVIDIA及其合作伙伴的利益，倾向于强调AI基础设施建设的积极面和解决方案。",
+      "social_impact": "AI数据中心能耗已成为全球关注议题，该联盟若能推动动态用电管理标准，可能缓解AI扩张对电网的冲击，影响范围覆盖能源、科技和环保多个领域。",
+      "source_text": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions. This power flexibility can help unlock faster, larger connections for AI infrastructure while supporting the energy systems and communities that make its growth possible. Getting more watts out of existing infrastructure reduces environmental impacts per watt and supports energy affordability. The objective is clear: build AI infrastructure that doesn’t just connect to the grid but works with it. Flexibility Is an Energy Imperative Power has become a defining constraint on the expansion of U.S. AI infrastructure. Traditional interconnection processes were designed around facilities with flat, static electricity demand. They weren’t built for computing infrastructure capable of responding intelligently when the power system is constrained. A flexible data center can adjust its electricity drawn from the grid in several ways — shifting computing workloads, discharging storage, using paired generation or responding to system contingencies. These capabilities allow a large electricity customer to serve as a controllable resource rather than an inflexible load. Used effectively, flexibility can make more efficient use of existing grid capacity, reduce demand during periods of system stress, and avoid or defer costly infrastructure upgrades. It can also give utilities and grid operators greater confidence to connect AI facilities on shorter timelines. Technology-Neutral, Performance-Based Requirements AEMA is technology-neutral and performance-based. Its focus is on the measurable service a facility can deliver — including response speed, duration, predictability and behavior during an emergency — rather than the specific hardware or software used. Reliability remains paramount. The alliance’s principles call for: - Defining ride-through, curtailment and contingency-response obligations before a facility connects — meaning the alliance is setting clear rules for facilities regarding staying connected during brief grid disturbances, reducing power use when needed and responding to emergencies. - Standardizing technical requirements, performance metrics and operational d",
+      "source_title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "source_url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "OpenAI推出面向法律行业的Astra for Law产品",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "全球领先的AI公司，开发了ChatGPT和GPT系列大模型"
+        },
+        {
+          "name": "Astra for Law",
+          "explain": "OpenAI专为法律行业推出的AI产品，提供定制化律所工作流、法律数据源连接和保密级管控"
+        },
+        {
+          "name": "OpenAI for Law",
+          "explain": "OpenAI面向法律领域的整体解决方案品牌，Astra for Law是其具体产品"
+        }
+      ],
+      "summary": "OpenAI发布Astra for Law，正式进军法律行业。该产品为律所提供前沿AI能力、定制化工作流程、连接法律数据源，并具备法律级别的保密管控，专为处理机密客户工作设计。",
+      "relevant": "法律行业是AI商业化的重要垂直领域，OpenAI此举意味着其从通用工具向行业专用产品延伸，将与法律科技公司形成直接竞争。",
+      "context": "OpenAI此前已推出面向企业、教育等多个垂直领域的定制产品，法律行业因对保密性和准确性要求极高，一直是AI落地的难点。Astra for Law的推出表明OpenAI认为其技术已能满足法律级要求。",
+      "source_analysis": "消息来自OpenAI官方发布，属于企业官方宣传，立场代表OpenAI自身利益，倾向于突出产品能力和行业价值。",
+      "social_impact": "法律行业从业者数量庞大，AI介入可能改变律所的工作方式和人力结构，同时引发关于AI处理机密法律信息的安全与合规讨论。",
+      "source_text": "Introducing Astra for Law Our most powerful model, configured into a new AI foundation for law. Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise. It combines GPT‑6 Astra, our latest and most powerful model, with settings, tools, and context tailored for professional legal work. API customers including Harvey and Legora will be able to build on Astra for Law, bringing this intelligence into their own products and workflows. As our frontier models advance, we’ll bring these legal capabilities to our latest models. We are also expanding our work on privacy and governance to give law firms specific controls for confidential client work. Firms can also customize Astra for Law using our 26 new ecosystem plugins that connect ChatGPT to the specialist tools firms already use, like Relativity and Clio. Astra for Law combines GPT‑6 Astra with a powerful legal search index and instructions for legal analysis and writing. Together, they amplify Astra’s capabilities across the legal practice, while giving firms and legal technology companies the freedom to build their own applications and workflows. Our new legal search index is one of the tools Astra for Law can use. Legal research often begins with finding the exact right authority, locating the relevant passages, and understanding how relevant and binding they are to the situation at hand. The index helps Astra for Law do that work, and complements the licensed content and specialist products firms rely on from providers such as Thomson Reuters. By using the legal search index, Astra for Law can search U.S. case law, statutes, regulations, court rules, and administrative decisions across a corpus of more than 230 million URLs, with sources added daily. Our work with Free Law Project, the nonprofit behind CourtListener, brings its case-law collection covering more than 99.9% of published U.S. precedential case law(opens in a new window) into this research experience. To measure how this configuration improves legal research, we tested Astra for Law’s complete setup on 200 U.S. legal research questions from the private validation set of Vals AI’s Legal Research Bench(opens in a new window). This benchmark measures how well the model can find relevant sources and passages, and how well its research answers meet the evaluation criteria. At the highest reasoning effort for both systems, Astra for Law passed the ",
+      "source_title": "Introducing Astra for Law",
+      "source_url": "https://openai.com/index/astra-for-law",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "律所Cooley用ChatGPT Work加速IPO流程",
+      "entities": [
+        {
+          "name": "Cooley",
+          "explain": "美国知名律师事务所，专注于科技和生命科学企业的法律服务，IPO业务是其强项"
+        },
+        {
+          "name": "GO Public",
+          "explain": "Cooley基于ChatGPT Work构建的IPO工作流程工具，用于辅助律师处理上市相关事务"
+        },
+        {
+          "name": "ChatGPT Work",
+          "explain": "OpenAI面向企业工作场景推出的ChatGPT版本，支持定制化工作流"
+        }
+      ],
+      "summary": "美国律所Cooley基于ChatGPT Work构建了名为GO Public的IPO工作流程工具，帮助律师更早发现上市过程中的问题，并将精力集中在最需要判断力的环节。这是法律行业应用AI提升IPO效率的典型案例。",
+      "relevant": "IPO流程涉及大量文件审查和合规判断，AI的介入可能显著提升效率，该案例展示了生成式AI在高端专业服务领域的实际落地效果。",
+      "context": "IPO（首次公开募股）流程复杂，律师需要审阅海量文件并识别风险。Cooley与OpenAI合作，将ChatGPT Work嵌入其IPO工作流，试图用AI辅助律师提升效率和判断质量。",
+      "source_analysis": "消息来自OpenAI官方发布，属于客户案例宣传，立场代表OpenAI利益，倾向于展示其产品在专业服务领域的成功应用。",
+      "social_impact": "若AI能有效辅助IPO流程，可能缩短企业上市周期、降低法律成本，但也引发对律师角色被部分替代的讨论。",
+      "source_text": "How Cooley is accelerating IPO work with ChatGPT Cooley’s GO Public offering uses ChatGPT Work to surface issues earlier, focus expertise, and help clients reach market faster. Cooley is an international law firm with a reputation for helping companies navigate capital markets and initial public offerings (IPOs). In 2025, the firm advised on 180 deals globally, totaling more than $51.5 billion in deal volume. Cooley has a decade-long track record at the top of the US issuer-side IPO market and has advised on more venture-backed IPOs than any other firm over the past 20-plus years. Capital markets involve huge amounts of information that need to be synthesized and analyzed. “For our lawyers, it’s always very busy,” explains David Wang, Chief Innovation Officer at Cooley. “When there’s an IPO, there are thousands of things that need to be done constantly.” Cooley developed GO Public, a proprietary AI product offering built on ChatGPT Work. Its agentic harness analyzes information so lawyers can review and validate the work. The workflow comes together into a tailored starting point for an IPO. ChatGPT Work is changing legal work by bringing intelligence to every step of the process faster, more effectively, and more democratically. “An IPO is one of the most consequential moments in a company’s life, and it can consume enormous management attention,” says Dave Peinsipp, partner and co-chair of Cooley’s global capital markets group. “GO Public helps us move through the intensive preparation faster so lawyers and management teams can spend more time on the decisions that shape the transaction — where judgment, market experience and strategic thinking matter most.” Before GO Public, teams often began with a precedent from a comparable company and adapted it to fit the client’s circumstances. GO Public allows Cooley to begin with the client itself, bringing together the information provided, relevant public sources, and carefully curated precedents to create a more tailored starting point for lawyer review. “Everybody understands that as the leading capital markets firm, we know what to do in an IPO,” Wang says. Cooley’s legal engineers, innovation counsel, and practitioners worked together to translate the firm’s capital markets experience into a proprietary agentic system. “With GO Public and the agentic harness that we built using OpenAI’s technology, we were able to bring this forward into the AI era,” Wang says. The harness provides a controlled workflow fo",
+      "source_title": "How Cooley is accelerating IPO work with ChatGPT",
+      "source_url": "https://openai.com/index/cooley-gopublic",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 33,
+      "title": "Anthropic 发布三套度量指标，试图量化“AI 发展到底有多快”",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "美国 AI 安全公司，Claude 系列大模型的开发方，由前 OpenAI 成员创立"
+        },
+        {
+          "name": "Epoch AI",
+          "explain": "一家专门研究 AI 发展趋势与算力数据的独立研究机构"
+        },
+        {
+          "name": "AI-led R&D",
+          "explain": "指由 AI 主导或深度参与研发过程，而非仅作为辅助工具"
+        },
+        {
+          "name": "AL0-AL5",
+          "explain": "Epoch AI 提出的 AI 自动化能力分级，类似自动驾驶 L0-L5，级别越高 AI 自主性越强"
+        }
+      ],
+      "summary": "Anthropic 发布三份方法论性质的度量报告，试图为“AI 发展速度”建立可测量的指标体系。第一份聚焦“AI 主导研发”，借用 Epoch AI 的 AL0 到 AL5 自动化分级（AL3 为 AI 协作级）；其余两份分别针对其他维度。Anthropic 选择公开自家实验室内部数据，而非仅做对外宣传。",
+      "relevant": "AI 发展速度的讨论长期停留在主观感受和厂商营销层面，缺乏统一量化标准。若该指标体系被行业采纳，将影响政策制定、投资判断和技术路线选择。",
+      "context": "当前 AI 行业竞争激烈，各厂商频繁宣称自身模型“更快更强”，但缺乏客观衡量标准。Anthropic 此前多次强调 AI 安全与可控发展，此次发布度量方法延续了其推动行业透明化的立场。",
+      "source_analysis": "消息来自开源中国（oschina.net），国内知名开源技术社区，报道偏向技术方法论介绍，未明显偏向 Anthropic 立场。",
+      "social_impact": "若度量体系被广泛采用，可能改变 AI 行业“自说自话”的宣传格局，为监管机构提供评估 AI 发展节奏的参考工具。",
+      "source_text": "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”。&quot;我们芯片多、我们跑得快&quot;——这种话听多了就容易变成营销。Anthropic 这次换了个思路：与其互相吹，不如直接把自家实验室的内部数据拿出来，给&quot;AI 发展速度&quot;这件事定一套可以测量的指标。 它发了三份方法论性质的度量。第一份叫&quot;AI 主导研发（AI-led R&D）&quot;，借用 Epoch AI 的自动化分级（AL0 到 AL5，AL3 是 AI 协作、...",
+      "source_title": "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”",
+      "source_url": "https://www.oschina.net/news/502569/anthropic-measuring-pace-of-ai-development",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 7,
+      "title": "李博杰开源《深入理解 AI Infra》书稿，量化推导 LLM 系统设计",
+      "entities": [
+        {
+          "name": "李博杰",
+          "explain": "AI 基础设施领域研究者，该书作者，GitHub 用户名 bojieli"
+        },
+        {
+          "name": "AI Infra",
+          "explain": "AI 基础设施，指支撑大模型训练和推理的硬件、软件与系统架构"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等，能理解和生成自然语言的 AI 模型"
+        },
+        {
+          "name": "Apache-2.0",
+          "explain": "一种宽松的开源许可证，允许自由使用、修改和分发代码"
+        }
+      ],
+      "summary": "李博杰在 GitHub 开源《深入理解 AI Infra：量化分析与系统设计》全书书稿，从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。项目包含全书正文、PDF、配套计算工具与实验，采用 Apache-2.0 许可证，并提供英文翻译版本。",
+      "relevant": "AI Infra 是当前大模型落地的核心瓶颈之一，但系统性中文教材稀缺。该书以量化分析为特色，适合工程师和研究者深入理解系统设计背后的数学逻辑。",
+      "context": "随着 LLM 规模持续扩大，推理成本、显存瓶颈、训练效率等基础设施问题日益突出。市面上多数资料偏重工程实践，缺乏从第一性原理出发的量化推导，该书填补了这一空白。",
+      "source_analysis": "消息来自 GitHub Trending，反映该项目在开源社区获得较高关注度，属于社区自发推荐而非商业推广。",
+      "social_impact": "开源书稿降低了 AI Infra 领域的学习门槛，配套计算工具和实验可帮助读者动手验证理论，有望推动中文 AI 系统设计人才的培养。",
+      "source_text": "中文 ← 当前 · English Tip 推荐下载 PDF 阅读。 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 main 后自动构建并发布到 Releases，上面的链接始终指向最新版。下方目录链接到各章 Markdown 源文件，便于查找原文和提交勘误；通读全书，仍建议下载 PDF。 《深入理解 AI Infra》是 GitHub 上获得 45k+ Star 的《深入理解 AI Agent：设计原理与工程实践》的姊妹篇。 写完《深入理解 AI Agent》后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。 更深层的变化是编程抽象的上移：从操作系统到模型上下文。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说，模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构。《计算机体系结构：量化研究方法》是我在体系结构领域的入门书，而 AI Infra 领域还缺少一本从硬件约束和模型架构出发、量化推导系统设计的书，这是我写作本书的动机。 贯穿全书的方法是从约束推导设计：先明确任务与质量要求，列出计算、存储、通信和依赖关系，对照硬件的容量、带宽和算力做数量级估算。这类估算人容易出错，AI 也一样：只算权重读取而忘了 KV 缓存，按峰值算力推算速度而不查带宽能否供给，把工作平分给多张卡却遗漏卡间通信，漏掉任何一项，结论都可能偏离几倍甚至几个数量级。估算还有另一层用意：读博时导师张霖涛博士反复叮嘱，优化一定要做到物理所允许的极限。本书贯彻这一习惯，先按第一性原理算出硬件允许的上限，再看实测离上限还有多远；差距不是模型漏了项，就是系统有可以去掉的开销。从 FPGA 加速 Bing 搜索排序、昇腾 AKG 算子生成到 UB 万卡互联，我反复遇到的是同一条线索：数据搬移。本书因此反复追问五个问题：搬什么、搬多少、搬几次、经过哪里、谁必须等它。 更多写作背景见前言。 下载 PDF（推荐） · 在线阅读 · 章节正文 · 配套实验 目前书稿仍是初稿，正在持续修订。 中文正文源码位于 manuscripts/；英文版为社区翻译（by @tg1482，可能滞后于中文原版），位于 book-en/，包含前言与十二章正文、重绘为英文标注的配图和独立的 PDF 构建脚本。英文版 PDF 与中文版一同自动构建并发布：AI-Infra-Book-EN.pdf。 如果你已经调用过模型 API，或在自己的机器上运行过模型，想进一步弄清模型为什么慢、如何降低成本，这本书可以作为起点。从事系统、网络和芯片工作的工程师，以及相关方向的研究人员和学生，也能从书中看到各层设计与实际模型任务的联系。 阅读时需要一些 Python、线性代数和计算机系统基础，具体要求见前言。建议先读第 1—3 章，了解模型与负载，再根据自己的兴趣选择重点： - 做模型应用和推理服务，可以重点读第 8、9 章，再看第 11、12 章的任务环境与部署；遇到容量、算子或通信问题时，回到第 4—7 章追踪原因。 - 做系统或网络，可以重点读第 5—7 章，再看第 9、10 章，检查这些机制如何影响分布式推理与训练。 - 做芯片与体系结构，可以重点读第 4—7 章，并结合后续章节的任务算例，检查硬件指标如何转化为实际的服务能力。 - 希望系统学习，可以按目录顺序阅读，配合计算工具和实验，逐步核对自己的理解。 遇到书中的算例，不妨先自己估一下，再看推导和实验结果。也可以换成你正在使用的模型和硬件，看看结论是否改变。 配套计算工具可以用来复算书中的数字，也可以换一组模型和输入，估算资源需求。工具附有模型配置和结果索引，静态计算只需 Python 3.10+ 标准库，无需 GPU 或模型权重。 git clone https://github.com/bojieli/ai-infra-book.git cd ai-infra-book # 查看模型支持情况 python3 calculations/calc.py models # 估算 Qwen3-8B 在 8192-token prefill 下的逐算子资源需求 python3 calculations/calc.py forward --model qwen3-8b --tokens 8192 --format md 仓库使用 Git LFS 保存论文和较大的输入与测量记录，合计约 20 GB。为避免克隆时全部下载，.lfsconfig 默认跳过所有 LFS 文件，工作区中只留下指针；正文、配图和静态计算都不需要它们。复现某个实验时，只下载对应目录： git lfs install git lfs pull --include=\"experiments/ch05/05-01/**\" --exclude=\"\" 配套实验按章节存放在 experiments/chXX/XX-YY/ 中，每个实验都附有运行方法、输入条件和结果说明。需要 GPU 的实验会注明硬件与依赖要求；没有相应设备，也可以先阅读已有记录。复现或引用结果时，请留意所用的书稿版本、模型、硬件和输入参数。 阅读网站（Python 3.10+）： pyth",
+      "source_title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "source_url": "https://github.com/bojieli/ai-infra-book",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 11,
+      "title": "李博杰《深入理解 AI Infra》开源书稿再度登上 GitHub AI 项目榜",
+      "entities": [
+        {
+          "name": "李博杰",
+          "explain": "AI 基础设施领域研究者，该书作者，GitHub 用户名 bojieli"
+        },
+        {
+          "name": "AI Infra",
+          "explain": "AI 基础设施，指支撑大模型训练和推理的硬件、软件与系统架构"
+        },
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等，能理解和生成自然语言的 AI 模型"
+        }
+      ],
+      "summary": "李博杰所著《深入理解 AI Infra：量化分析与系统设计》开源书稿再次出现在 GitHub AI 项目推荐中。该书从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，包含全书正文、PDF、配套计算工具与实验，采用 Apache-2.0 许可证。",
+      "relevant": "同一项目在 GitHub 多个榜单同时出现，说明 AI Infra 学习需求旺盛，优质中文开源教材稀缺。",
+      "context": "与 #7 为同一项目的不同榜单收录，反映该项目在 GitHub 社区持续获得关注。AI Infra 作为大模型落地的关键环节，相关学习资源需求持续增长。",
+      "source_analysis": "消息来自 GitHub AI 项目推荐，属于平台算法或社区编辑推荐，反映项目热度和社区认可度。",
+      "social_impact": "重复上榜说明该项目具有持续吸引力，可能带动更多开发者关注 AI Infra 领域并参与开源贡献。",
+      "source_text": "中文 ← 当前 · English Tip 推荐下载 PDF 阅读。 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 main 后自动构建并发布到 Releases，上面的链接始终指向最新版。下方目录链接到各章 Markdown 源文件，便于查找原文和提交勘误；通读全书，仍建议下载 PDF。 《深入理解 AI Infra》是 GitHub 上获得 45k+ Star 的《深入理解 AI Agent：设计原理与工程实践》的姊妹篇。 写完《深入理解 AI Agent》后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。 更深层的变化是编程抽象的上移：从操作系统到模型上下文。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说，模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构。《计算机体系结构：量化研究方法》是我在体系结构领域的入门书，而 AI Infra 领域还缺少一本从硬件约束和模型架构出发、量化推导系统设计的书，这是我写作本书的动机。 贯穿全书的方法是从约束推导设计：先明确任务与质量要求，列出计算、存储、通信和依赖关系，对照硬件的容量、带宽和算力做数量级估算。这类估算人容易出错，AI 也一样：只算权重读取而忘了 KV 缓存，按峰值算力推算速度而不查带宽能否供给，把工作平分给多张卡却遗漏卡间通信，漏掉任何一项，结论都可能偏离几倍甚至几个数量级。估算还有另一层用意：读博时导师张霖涛博士反复叮嘱，优化一定要做到物理所允许的极限。本书贯彻这一习惯，先按第一性原理算出硬件允许的上限，再看实测离上限还有多远；差距不是模型漏了项，就是系统有可以去掉的开销。从 FPGA 加速 Bing 搜索排序、昇腾 AKG 算子生成到 UB 万卡互联，我反复遇到的是同一条线索：数据搬移。本书因此反复追问五个问题：搬什么、搬多少、搬几次、经过哪里、谁必须等它。 更多写作背景见前言。 下载 PDF（推荐） · 在线阅读 · 章节正文 · 配套实验 目前书稿仍是初稿，正在持续修订。 中文正文源码位于 manuscripts/；英文版为社区翻译（by @tg1482，可能滞后于中文原版），位于 book-en/，包含前言与十二章正文、重绘为英文标注的配图和独立的 PDF 构建脚本。英文版 PDF 与中文版一同自动构建并发布：AI-Infra-Book-EN.pdf。 如果你已经调用过模型 API，或在自己的机器上运行过模型，想进一步弄清模型为什么慢、如何降低成本，这本书可以作为起点。从事系统、网络和芯片工作的工程师，以及相关方向的研究人员和学生，也能从书中看到各层设计与实际模型任务的联系。 阅读时需要一些 Python、线性代数和计算机系统基础，具体要求见前言。建议先读第 1—3 章，了解模型与负载，再根据自己的兴趣选择重点： - 做模型应用和推理服务，可以重点读第 8、9 章，再看第 11、12 章的任务环境与部署；遇到容量、算子或通信问题时，回到第 4—7 章追踪原因。 - 做系统或网络，可以重点读第 5—7 章，再看第 9、10 章，检查这些机制如何影响分布式推理与训练。 - 做芯片与体系结构，可以重点读第 4—7 章，并结合后续章节的任务算例，检查硬件指标如何转化为实际的服务能力。 - 希望系统学习，可以按目录顺序阅读，配合计算工具和实验，逐步核对自己的理解。 遇到书中的算例，不妨先自己估一下，再看推导和实验结果。也可以换成你正在使用的模型和硬件，看看结论是否改变。 配套计算工具可以用来复算书中的数字，也可以换一组模型和输入，估算资源需求。工具附有模型配置和结果索引，静态计算只需 Python 3.10+ 标准库，无需 GPU 或模型权重。 git clone https://github.com/bojieli/ai-infra-book.git cd ai-infra-book # 查看模型支持情况 python3 calculations/calc.py models # 估算 Qwen3-8B 在 8192-token prefill 下的逐算子资源需求 python3 calculations/calc.py forward --model qwen3-8b --tokens 8192 --format md 仓库使用 Git LFS 保存论文和较大的输入与测量记录，合计约 20 GB。为避免克隆时全部下载，.lfsconfig 默认跳过所有 LFS 文件，工作区中只留下指针；正文、配图和静态计算都不需要它们。复现某个实验时，只下载对应目录： git lfs install git lfs pull --include=\"experiments/ch05/05-01/**\" --exclude=\"\" 配套实验按章节存放在 experiments/chXX/XX-YY/ 中，每个实验都附有运行方法、输入条件和结果说明。需要 GPU 的实验会注明硬件与依赖要求；没有相应设备，也可以先阅读已有记录。复现或引用结果时，请留意所用的书稿版本、模型、硬件和输入参数。 阅读网站（Python 3.10+）： pyth",
+      "source_title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "source_url": "https://github.com/bojieli/ai-infra-book",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 49,
+      "title": "Hacker News 讨论“Hacking OpenAI”一文",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "美国 AI 公司，开发了 ChatGPT、GPT 系列大模型"
+        },
+        {
+          "name": "Hacker News",
+          "explain": "Y Combinator 旗下的科技创业社区，以技术讨论和新闻分享闻名"
+        }
+      ],
+      "summary": "Hacker News 上出现一篇题为“Hacking OpenAI”的文章，来自 hacktron.ai 博客。原文摘要为空，具体内容需访问链接查看。该帖在 Hacker News 上引发讨论。",
+      "relevant": "涉及 OpenAI 的安全或技术漏洞话题，可能关乎 AI 系统安全性，值得关注后续讨论。",
+      "context": "OpenAI 作为头部 AI 公司，其系统安全性一直是社区关注焦点。该文标题暗示可能涉及对 OpenAI 系统的某种攻击或破解分析。",
+      "source_analysis": "消息来自 Hacker News，技术社区平台，用户以开发者和创业者为主，讨论通常偏技术导向。原文来自 hacktron.ai 博客，具体立场需查看原文。",
+      "social_impact": "若涉及 OpenAI 系统安全漏洞，可能引发对 AI 平台安全性的广泛讨论，影响用户信任和行业安全标准。",
+      "source_text": "Intro On July 25, 2026, we chained two critical vulnerabilities to compromise multiple OpenAI employees’ ChatGPT accounts. With these accounts, we could then access internal OpenAI repositories, and potentially many other connectors. To prove we had in fact gained the access we believed without allowing ourselves to learn any sensitive information, we used the employee’s Codex to open a PR #1186742 in OpenAI’s internal monorepo openai/openai. Until two months ago, any user or OpenAI employee logging into OpenAI’s own help forum (community.openai.com) could have had their ChatGPT and Codex accounts taken over. Since people can connect various services to Codex and ChatGPT, the scope of what we could theoretically access was huge, including GitHub, Slack and emails. The entire timeline from initial discovery to access to OpenAI repo access took place in less than 72 hours. We immediately reported the initial vulnerability to OpenAI and Discourse and worked with them to coordinate the patch. We appreciate their attention to detail and fast resolution of this issue. OpenAI also paid us a $6,500 bounty. We provide a full timeline of the disclosure process here. The rest of the post details how we discovered the two vulnerabilities, how we used claude models, as well as our takeaways from this experience. - 05:00–06:00 UTCInitial Finding HacktronAI team obtained remote code execution (RCE) and administrative access to the Discourse environment hosted at community.openai.com . - 08:00–10:00 UTCBugcrowd Submission After confirming the cross-product impact, the team coordinated internally on the responsible disclosure process and submitted a report through OpenAI’s Bug Bounty Program on Bugcrowd. - 13:30–15:30 UTCOpenAI Employee Account Access & Proof of Concept To demonstrate the practical impact of the vulnerability, we created a harmless proof-of-concept pull request in OpenAI’s internal monorepo (link redacted at OpenAI’s request). We updated the existing Bugcrowd submission with these findings, reached out to friends at OpenAI on Twitter/X to notify them directly, and ceased all further testing at approximately 15:30 UTC. - 22:49:45 UTCOpenAI-Side Fix Confirmed OpenAI replied to the report confirming the issue had been fixed, roughly 14 hours after the initial submission. - Discourse Reported via HackerOne We submitted a report to Discourse through its HackerOne program. - Discourse Responded Discourse replied to the report on Sunday. - Discourse Fix Ready Dis",
+      "source_title": "Hacking OpenAI",
+      "source_url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 51,
+      "title": "Bonsai 2 27B 发布：以 9 倍更小体积实现近无损压缩",
+      "entities": [
+        {
+          "name": "Bonsai 2 27B",
+          "explain": "一个 270 亿参数的大模型，采用压缩技术减小体积"
+        },
+        {
+          "name": "PrismML",
+          "explain": "发布 Bonsai 2 27B 的公司或团队，专注于机器学习模型压缩"
+        },
+        {
+          "name": "近无损压缩",
+          "explain": "在显著减小模型体积的同时，尽量保持原始模型性能不下降"
+        }
+      ],
+      "summary": "PrismML 发布 Bonsai 2 27B 模型，宣称在 9 倍更小的体积下实现近无损压缩。该模型参数量为 270 亿，通过压缩技术大幅降低部署成本。具体技术细节和性能数据需查看原文。",
+      "relevant": "大模型部署成本高企，模型压缩是降低推理成本和硬件门槛的关键技术方向。9 倍压缩比若属实，将显著降低 27B 级别模型的部署门槛。",
+      "context": "随着大模型参数规模增长，推理所需的显存和算力成本成为落地瓶颈。模型量化、剪枝、蒸馏等压缩技术成为研究热点，Bonsai 2 27B 是该方向的最新尝试。",
+      "source_analysis": "消息来自 Hacker News，原文链接为 prismml.com 官方博客，属于厂商自行发布的技术公告，性能声明需独立验证。",
+      "social_impact": "若压缩效果属实，可使 27B 级别模型在消费级硬件上运行，推动大模型在边缘设备和中小企业的普及。",
+      "source_text": "Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint Two months ago, we released our first Bonsai 27B models and showed that a 27B-class multimodal model could be compressed enough to run efficiently on a local device. Today, we’re releasing Ternary Bonsai 2 27B, our most capable model yet. Based on Qwen3.8 27B, Ternary Bonsai 2 27B brings stronger reasoning, coding, vision, and agentic capability to the Bonsai series while preserving the deployment profile that defines it: a dramatically smaller memory footprint, high local throughput, and better energy efficiency. Ternary Bonsai 2 27B uses ternary {−1, 0, +1} weights with FP16 group-wise scaling, for 1.76 effective bits per weight and a total model footprint of 5.9GB. The low-bit representation is applied end to end across the language model. It supports a 262K-token context window, multimodal text-and-image input, and is released under the Apache 2.0 license. Against its full-precision counterpart, Ternary Bonsai 2 27B is more than 9x smaller while retaining 98.2% of aggregate benchmark performance. At this level of retention, compression becomes a deployment unlock: nearly the same capability, in a footprint that can run in far more places. What changed from the first Bonsai 27B release Our first Bonsai 27B release was an important milestone, offering a practical way to run 27B-class intelligence on local devices. Bonsai 2 27B focuses on the next step: improving the model quality and runtime performance needed for real-world local applications. Compared with the previous Bonsai 27B generation, Bonsai 2 27B brings: - a stronger base model, Qwen3.8 27B - higher aggregate capability retention of 98.2% against the full-precision model - improved reasoning, coding, vision, and long-horizon agentic performance Higher capability at the same deployment point Across a benchmark suite spanning reasoning, math, coding, instruction following, vision, and agentic tool use, Ternary Bonsai 2 27B scores 83.9, retaining 98.2% of Qwen3.8 27B’s aggregate performance. Figure I: Benchmark scores of Ternary Bonsai 2 27B (thinking mode) compared with the full-precision Qwen3.8 27B and Qwen3.6 27B baselines. Full per-benchmark results are in the whitepaper. The key result is not only the aggregate score, but where the capability is retained. Coding agents, tool-use systems, multimodal workflows, and long-horizon tasks are particularly sensitive to model degradation because small errors can compound ov",
+      "source_title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "source_url": "https://prismml.com/news/bonsai-2-27b",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 52,
+      "title": "Bend 语言发布：通过证明机制在 CPU 和 GPU 上阻止 AI 错误",
+      "entities": [
+        {
+          "name": "Bend",
+          "explain": "一种新的编程语言，通过数学证明来防止 AI 生成代码中的错误"
+        },
+        {
+          "name": "证明机制",
+          "explain": "用数学方法验证代码正确性，而非仅靠测试"
+        }
+      ],
+      "summary": "Bend 语言正式发布，定位为通过证明机制阻止 AI 错误的编程语言，支持 CPU 和 GPU。该语言试图用形式化验证方法确保 AI 生成代码的正确性。具体语法和实现细节需查看官网。",
+      "relevant": "AI 生成代码的正确性验证是当前痛点，Bend 尝试用形式化证明从语言层面解决，若可行将改变 AI 辅助编程的可靠性标准。",
+      "context": "AI 编程助手（如 Copilot）普及后，生成代码的隐蔽错误成为新风险。传统测试无法覆盖所有情况，形式化验证被视为更可靠的替代方案，但此前多用于学术领域，Bend 试图将其工程化。",
+      "source_analysis": "消息来自 Hacker News，原文为 bend-lang.com 官网，属于项目自行发布，技术声明需社区验证。",
+      "social_impact": "若证明机制在工程上可行，可能推动 AI 生成代码在金融、医疗等高可靠性要求领域的应用。",
+      "source_text": "curl -fsSL https://bend-lang.com/install.sh | shWhen using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.bend` before committing - parallelize the code whenever possible a fast language that blocks AI mistakes via proof C speed · CUDA parallelism · Lean proofs · Python syntax In the post-AGI economy, humans will eventually stop writing and reading code, but we still need an ambiguity-free way to tell the AIs building the world around us what we want done. With laws, our intents can be much more precise than natural language. With proofs, we can verify that the AI implemented our prompts correctly. And a fast compiler runs it at speed. That's Bend - and nothing else. Bend compiles to native code. On one core, it runs nearly as fast as C. The same binary also runs on sixteen cores, or on the GPU, running up to a hundred times faster than one core. Bend's type checker is a proof checker, as in Lean and Rocq. Those can take minutes on a mid-sized codebase. Bend takes a second at most, so an AI agent can check after every change. No threads, no locks, no kernels to write. Split the work in two, and Bend spreads the calls over every core it can find, then joins them back. Now watch pow2 run on 4,096 GPU cores: How can you trust code you never read? By demanding a proof. LAWS.bend is where you declare laws. From then on, no AI can ship one line that breaks them, ever. Watch it guard a game: New feature: “Claude, make the board wrap around” Without LAWS.bend, the bug went live. With LAWS.bend, the AI had to retry until it built a wall and proved the law holds. Merging a bug is mathematically impossible: it is a theorem. LAWS.bend # LAW: no move sequence leads to victory. law you_cant_win: for moves: List<Move> # any sequence of moves board = replay(start(), moves) # replayed from the start is_won(board) == False{} # never leads to victory PROOF.bend # PROOF: you_cant_win holds. def Laws.you_cant_win(moves): # ... written by the AI LAWS.bend is AGENTS.md backed by proof. “Make no mistakes” is now type-checked. Add this to your AGENTS.md: Then, just say: \"use Bend\"! Hints: ask it to write laws for whatever should never break, and to parallelize everything you want running fast. Bend is young: if anything goes wrong, ask it to open an issue. Bend works best on the back-end, on Linux and on macOS. Enjoy! <3 Guide: GUIDE.md is the whole language; bend guide prints it. Paper: BendTT, an affine dependent type theory, Ben",
+      "source_title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "source_url": "https://bend-lang.com/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 55,
+      "title": "arXiv 论文提出无限参数 LLM：从实时数据生成和适配权重",
+      "entities": [
+        {
+          "name": "无限参数 LLM",
+          "explain": "一种理论上的大模型架构，参数量不固定，可根据实时数据动态生成"
+        },
+        {
+          "name": "arXiv",
+          "explain": "全球最大的学术预印本平台，论文未经同行评审即可发布"
+        }
+      ],
+      "summary": "arXiv 上发布一篇论文，提出“无限参数 LLM”概念，即从实时数据中生成和适配模型权重。该研究探索让模型参数量不再固定，而是根据输入数据动态调整。具体方法和实验结果需查看论文原文。",
+      "relevant": "传统 LLM 训练后权重固定，无法实时适应新数据。无限参数思路若可行，将使模型具备持续学习和实时适应能力，是架构层面的重要探索。",
+      "context": "当前 LLM 的权重在训练后即冻结，更新需重新训练或微调，成本高且滞后。该论文试图打破这一限制，让模型权重随实时数据动态变化。",
+      "source_analysis": "消息来自 Hacker News，原文为 arXiv 预印本，未经同行评审，属于学术探索性质，结论需谨慎对待。",
+      "social_impact": "若该方向取得突破，可能影响模型部署方式，使 AI 系统能实时适应环境变化，在金融交易、实时推荐等场景有潜在应用。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 16 Sep 2026] Title:Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data View PDF HTML (experimental) Abstract:The scaling laws hold that a language model grows more capable with more parameters and more training data, and Mixture-of-Experts (MoE) architectures have ridden these laws to remarkable results, activating only a fraction of an enormous stored parameter bank for each token. That success is built on static pretraining data. A deployed model faces a different world, where much of the data that would make it more useful is not in its training set but in the live interaction it is currently handling, such as the facts a user supplies or the corrections they give. A conventional model cannot learn from this data, because its weights are frozen after training. Instead, the knowledge and behaviour supplied at run time are placed in the prompt, by retrieval or instruction, and re-read on every request only to be discarded once the request ends. We ask how an architecture could learn from live interaction by writing it into its weights. Taking inspiration from MoE, we propose the \\textbf{Infinite-Parameter LLM}. A compact hypernetwork turns the data given at run time into a low-rank modulation of a shared base network, so the feed-forward weights are generated from live data rather than stored in a fixed bank. Where prior weight generators read the context once and freeze, we carry a Bayesian belief over the generator's latent code and update it online, so the effective weight is re-derived from that evolving belief as the session proceeds rather than fixed after one read. The stored footprint stays fixed, yet the weights the model can compile are effectively infinite. For the knowledge and behaviour supplied at run time, carrying them in the weights rather than the prompt is amortized in compute, frees the context window, persists across turns, and can generalise better than in-context use. We specify an evaluation protocol that tests exactly this against in-context learning and retrieval. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) G",
+      "source_title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "source_url": "https://arxiv.org/abs/2609.18842",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 50,
+      "title": "Hacker News 讨论“如何用 LLM 写作”博客文章",
+      "entities": [
+        {
+          "name": "LLM",
+          "explain": "大语言模型，如 GPT、Claude 等，能理解和生成自然语言的 AI 模型"
+        },
+        {
+          "name": "sockpuppet.org",
+          "explain": "一个个人技术博客，作者以写作和编程相关文章闻名"
+        }
+      ],
+      "summary": "Hacker News 上出现一篇题为“How to Write with an LLM”的博客文章，来自 sockpuppet.org。文章探讨如何利用大语言模型辅助写作。具体内容需访问原文查看。",
+      "relevant": "AI 辅助写作日益普及，但如何用好 LLM 而非被其替代，是写作者和知识工作者普遍关心的问题。",
+      "context": "随着 ChatGPT 等工具普及，AI 写作引发广泛讨论，涉及效率提升与创作真实性之间的平衡。该文从实践角度分享使用 LLM 写作的方法。",
+      "source_analysis": "消息来自 Hacker News，原文为个人博客 sockpuppet.org，属于个人经验分享，立场偏实用主义。",
+      "social_impact": "AI 写作工具的普及正在改变内容创作行业，此类方法论文章有助于写作者更理性地使用 AI 工具。",
+      "source_text": "How To Write With An LLM Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure like everybody else and find writing this piece weirdly unpleasant. But I’m getting over myself and getting this down because this advice is important, hard to argue with, and straightforward. Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output. So, first the bad news: you have to write for yourself. But LLMs are still extraordinarily useful. It’s just you need to use them like a copyeditor rather than a ghostwriter. So, step one of my method: write your piece. Then, step two: feed it to a good model to find flaws. But before we talk about how that works, there are two rules you need to understand. They’ll ward off LLM-creep that will knock you into the uncanny valley between expression and output and knock you out of your reader’s attention. Rule Number One: You may not use a single word an LLM suggests to you. Breaking this rule is what’s going to get you into trouble. Reason being: frontier models are supernaturally good at selecting pleasing turns of phrase. It’s sort of their whole thing. The problems with what models suggest are subtle. Think of it this way: frontier models are wedged in a mode where everything they write is a magazine headline. Headlines are good, but you’d wonder about someone who wrote an article with dozens of them. So I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule! The whole premise here is that you’re not going to reliably spot all the ways frontier models will try to turn your writing into Velveeta. Even if you like the words, even if you’re sure they’re better than what you already have, LLM-generated phrases are DQ’d. Rule Number Two: Avoid encouragement LLMs also infect your writing through influence campaigns. This is a much subtler problem, and the damage is less obvious, but it’s still a way in which LLMs will make your writing worse, and if t",
+      "source_title": "How to Write with an LLM",
+      "source_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 19,
+      "title": "Anthropic 发布 Claude 商务代理参考蓝图，覆盖购物与商家后台场景",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "开发 Claude 大模型的美国 AI 公司，以安全研究著称"
+        },
+        {
+          "name": "Claude",
+          "explain": "Anthropic 推出的大语言模型，类似 ChatGPT 的 AI 助手"
+        },
+        {
+          "name": "Claude Agent SDK",
+          "explain": "Anthropic 提供的开发工具包，让开发者用 Claude 搭建能自主执行任务的 AI 代理"
+        },
+        {
+          "name": "Managed Agents",
+          "explain": "Anthropic 托管运行的代理服务，开发者无需自己维护服务器"
+        },
+        {
+          "name": "Messages API",
+          "explain": "Anthropic 提供的对话接口，开发者通过它调用 Claude 模型"
+        }
+      ],
+      "summary": "Anthropic 在 GitHub 发布 commerce-agents 参考项目，包含两个基于 Claude 的商务代理：面向消费者的购物代理和面向商家员工的后台管理代理。每个代理只需定义一次（提示词、技能、工具契约、审批关卡），即可在 Messages API、Claude Agent SDK 和 Managed Agents 上运行，并提供零售、电商、电信、娱乐四个可运行垂直示例。项目强调所有公司品牌均为虚构，下单和商家写入操作都需人工审批。",
+      "relevant": "这是 Anthropic 官方给出的商务代理落地范式，对想在电商和零售场景部署 AI 代理的团队有直接参考价值，也反映了 AI 代理从演示走向生产审批流程的趋势。",
+      "context": "AI 代理正从聊天助手转向能执行实际业务操作的系统，但企业担心代理擅自下单或修改商品。Anthropic 借此项目展示如何在保持人工审批的前提下构建可运行的商务代理。",
+      "source_analysis": "来源为 Anthropic 官方 GitHub 仓库，属于厂商自发布的技术参考实现，立场偏向推广自家 Claude 代理生态。",
+      "social_impact": "项目明确声明所有公司、品牌、产品、人物均为虚构，唯一公司是 ACME；checkout 只渲染购物车由宿主完成，商家写入操作全部暂存待人工批准，业务规则、授权和合规由部署方负责。",
+      "source_text": "Two commerce agents built on Claude: a shopping agent a business embeds in its app for customers, and a merchant agent its staff use to run the back office. Each is defined once (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent SDK, and Managed Agents; four runnable verticals show both over the same libraries. Note Every company, brand, product, and person here is fictional; the only company is ACME. Nothing places an order, charges a card, or changes a live listing: checkout renders the cart for the host to complete, and every merchant write is staged until a person approves it. Business rules, authorization, and compliance are the deployment's. Python 3.11+ and Node 22. Clone, install, add a key, run a vertical: git clone https://github.com/anthropics/commerce-agents.git && cd commerce-agents python3 -m venv .venv && source .venv/bin/activate pip install -r requirements.txt # the seven packages and their pinned dependencies cp .env.example .env # add ANTHROPIC_API_KEY (cd examples && npm ci) # the eight web apps share one workspace python scripts/run_demo.py retail # API :8000 + storefront :3000 --merchant starts the portal instead of the storefront and --all starts both. The verticals are retail (:3000, portal :3100), travel (:3001, :3101), telecom (:3002, :3102), and entertainment (:3003, :3103); each README lists prompts to try on both surfaces. The Claude Code plugin scaffolds an agent on these packages against your systems, or reviews one you have. With the repo cloned as above (the plugin reads it as the reference): claude plugin marketplace add anthropics/commerce-agents claude plugin install commerce-builder@claude-commerce-agents claude /scaffold-commerce-agent a shopping assistant for our store The command asks about your stack, plays the plan back, and builds the project; /add-commerce-flow and /author-commerce-evals continue from there, and /review-commerce-agent starts from an agent that already exists (plugins/commerce-builder/). Each command also runs when a request matches its description, so naming it is optional. The shopping agent searches, compares, plans, fills the cart, answers order and policy questions, and remembers what a customer tells it. Its five flows are the skills in shopping-agent/skills/; a deployment implements StorefrontBackend over its catalog, cart, order, and policy systems. The merchant agent explains performance, maintains listings, acts on inventory and order alerts, prices an",
+      "source_title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "source_url": "https://github.com/anthropics/commerce-agents",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 15,
+      "title": "Human-Agent-Society 开源 Reef：面向自我改进代理的持续学习基础设施",
+      "entities": [
+        {
+          "name": "Reef",
+          "explain": "一个开源 Python 基础设施项目，帮助 AI 代理在运行中持续学习和自我改进"
+        },
+        {
+          "name": "Human-Agent-Society",
+          "explain": "发布 Reef 的 GitHub 组织，关注人类与 AI 代理协作"
+        },
+        {
+          "name": "持续学习",
+          "explain": "AI 模型在部署后继续从新数据中学习，而不是训练完就固定不变"
+        },
+        {
+          "name": "PyPI",
+          "explain": "Python 官方的软件包仓库，开发者通过它安装第三方库"
+        }
+      ],
+      "summary": "GitHub 组织 Human-Agent-Society 发布开源项目 Reef，定位为面向自我改进代理的持续学习基础设施。项目已发布到 PyPI（包名 reef-infra），要求 Python 3.12 以上，采用 Apache-2.0 许可证，并提供中英文文档和 CI 流水线。",
+      "relevant": "持续学习是让 AI 代理在生产环境中不断变强的关键能力，Reef 提供了可直接安装的基础设施，对研究自我改进代理的开发者有参考意义。",
+      "context": "当前多数 AI 代理部署后能力固定，无法从交互中积累经验。Reef 试图填补这一空白，提供让代理持续学习的底层框架。",
+      "source_analysis": "来源为项目官方 GitHub 仓库，属于开发者自发布的开源项目，暂无第三方评测。",
+      "social_impact": "项目已发布至 PyPI 并提供中英双语文档，降低了中文开发者的使用门槛。",
+      "source_text": "English | 中文 Reef is the first open-source infrastructure for continual self-improving agents. It connects agent inference, feedback, learning, and versioned delivery. Use it to train model weights with Slime and SGLang, or improve an agent's harness, including its prompts, rules, and skills. 🚀 Get started | 🗺️ Roadmap | 📣 Launch post | 💬 Join Discord | 📱 Join WeChat Group Use Reef when you want your agent to keep improving simply by learning from how you interact with your agent. Reef processes each learning cycle in four steps. The table also shows which modules implement each step. 💡 Note Reef's artifact and checkpoint functionality requires the git-lfs system package. Reef initializes Git LFS locally for its artifact repositories. We recommend uv for managing packages, and the commands below use it. uv venv && source .venv/bin/activate uv pip install reef-infra python3 -c \"import reef; print(reef.__version__)\"git lfs install git clone https://github.com/Human-Agent-Society/reef.git cd reef uv venv && source .venv/bin/activate uv pip install -e . python3 -c \"import reef; print(reef.__version__)\" Use the source checkout for development and for the training examples below. Reef supports two learning surfaces: model weights and agent harnesses. The deployment's recipe determines which surface its scenarios update. As a minimal example, start Reef as a pure inference server: uv run reef serve --inference.model-path Qwen/Qwen2.5-1.5B-Instruct The following example starts the SAO (arXiv:2607.07508) example deployment. Run it from a Reef checkout in an environment that satisfies the GPU requirements in Evolve your model. uv pip install -e \".[slime]\" && uv pip install --no-deps --group runtime export MODEL_PATH=\"Qwen/Qwen2.5-1.5B-Instruct\" export REEF_TOKEN=\"reef-local\" reef serve -c recipes/sao/examples/imo_answerbench/serve.yaml \\ --inference.model-path \"$MODEL_PATH\" \\ --reef.port \"8900\" curl -f http://127.0.0.1:8900/healthz # ready to serve Send inference requests through Reef and report a score for each response. The SAO recipe uses each eligible scored rollout to run a training step. Reef's inference endpoint is OpenAI- and Anthropic-compatible: /v1/chat/completions and /v1/messages take the provider's own request body. A request includes the x-reef-scenario header; a new name creates a scenario using the deployment's configured recipe. Requests do not select recipes. The response body uses the provider's OpenAI-compatible format. Reef adds the x-reef-agen",
+      "source_title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "source_url": "https://github.com/Human-Agent-Society/reef",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_8c81b647d047",
+      "source": "ArXiv cs.AI",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority. By decomposing manipulation into a route phase and a contact-rich moment, we locate the source of the failure. Along the route, the model cannot prioritize the safety constraint, having no notion of a clearing route and none of replanning once a chosen route becomes infeasible. At the contact, it is unaware that contact execution is bounded by the same constraint. To close this gap, we present SafeHarness, which equips the model with two obstacle-aware harnesses that enable it to prioritize the safety constraint. Obstacle-aware route planning grounds the objects as bounding boxes and draws candidate routes over them as sequences of waypoints. The agent then plans a route in advance, verifies it, r",
+      "author": "Bingxin Xu, Yuzhang Shang, Zhen Dong"
+    },
+    {
+      "id": "arxiv_06b635a038c6",
+      "source": "ArXiv cs.AI",
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "url": "https://arxiv.org/abs/2609.20820v1",
+      "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensive VLM queries in-the-loop to process only task-salient information. In this paper, we propose an alternative approach in which computationally intensive VLM queries are made during train-time to learn a lightweight latent memory that can be efficiently queried at deployment time. Our representation, which we call the \\textbf{workspace token}, is trained by (1) using a VLM to identify current and historical information necessary for completing a task, then (2) distilling these into the workspace token using a set-reconstruction decoder loss. In both simulation and hardware, we show that the workspace token can be used as a drop-in replacement for observations during deployment, enabling policies to solve memory-intensive tasks without the need for VLM reasoning in-the-loop. Interestingly, we found that workspace tokens are not only more lightweight but also lead to better policy performance.",
+      "author": "Nitish Dashora, Douglas Chen, Idan Shenfeld"
+    },
+    {
+      "id": "arxiv_5f149766ce68",
+      "source": "ArXiv cs.AI",
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "url": "https://arxiv.org/abs/2609.20817v1",
+      "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAMOS, a feed-forward model that predicts movable-part segmentation and joint parameters from a sparse, unordered set of partial point clouds. Our model jointly reasons over multiple observations and naturally supports a variable number of inputs, including a single view. To aggregate articulation cues across observations, we introduce a Multi-state Articulation Transformer with alternating state-wise and global attention. We further propose an observed articulation span objective that supervises the motion range each part exhibits across the input observations, encouraging the model to leverage the full observation set. To overcome the limited scale and diversity of existing datasets, we introduce a procedural data generator that synthesizes self-annotated assets during training. Experiments on PartNet-Mobility, ACD, and ArtiCraft-10K demonstrate consistent improvements over both feed-forward and optimization-based baselines. Project page: https://kevinqu7.github.io/famos",
+      "author": "Kevin Qu, Tao Sun, Massimiliano Viola"
+    },
+    {
+      "id": "arxiv_8d81cd8af50f",
+      "source": "ArXiv cs.AI",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-prompt interface for generation and editing through object-level color supervision. We develop a data pipeline that constructs Paint-500K from real images through object grounding, perceptual color labeling, and editing-pair synthesis. Since shadows make real-image labels only approximate colors, we complement this supervision with pure-color anchors whose pixels exactly match their paired hex values. These anchors are used only at high-noise timesteps, leaving low-noise training to natural images. We further introduce Any Color Benchmark (ACBench), comprising ACBench-T2I and ACBench-Edit, to measure object-level hex color fidelity across both tasks. On FLUX.2-4B, Paint-Anything improves ACBench-T2I and ACBench-Edit scores by 85.3% and 28.3%, respectively, relative to the base model, with ablations supporting the training recipe. It also achieves the highest average CompColor score among the compared methods.",
+      "author": "Ji Xie, Dewei Zhou, Xinyu Huang"
+    },
+    {
+      "id": "arxiv_4eb7c77db6ba",
+      "source": "ArXiv cs.AI",
+      "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+      "url": "https://arxiv.org/abs/2609.20815v1",
+      "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are essential for timely diagnosis, individualized patient management, and targeted surveillance strategies for affected families. However, public endoscopic datasets are largely organized around the individual sporadic polyp, and none links the polyposis phenotype to histopathology and germline findings at the patient level. Here, we present ERCPMP-Gx, an endoscopic, histopathological, and genomic dataset developed to support the application of artificial intelligence (AI) in the recognition, characterization, and classification of colorectal polyposis. Most procedures were performed using the Olympus EVIS X1 system with white-light endoscopy (WLE), narrow-band imaging (NBI), magnifying NBI (M-NBI), and NBI with near focus modes, yielding 160 images and accompanying video clips. Approximately eighty percent of cases represent clinically and/or genetically confirmed hereditary polyposis syndromes (PG), including familial adenomatous polyposis (FAP), Peutz-Jeghers syndrome (PJS), juvenile polyposis syndrome (JPS), and ganglioneuroma syndrome (GNS), while the remaining twenty percent comprise non-hereditary polyps and polyp-mimicking lesions with overlapping morphological features (Non-PG), included to support differential classification. Each released record is linked, w",
+      "author": "Zahra Ghaffari, Massih Bahar, Mojgan Forootan"
+    },
+    {
+      "id": "arxiv_5014d3c54b1b",
+      "source": "ArXiv cs.LG",
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "url": "https://arxiv.org/abs/2609.20821v1",
+      "summary": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influenced by superficial string similarity, and recalibration of similarity does not substantially improve the alignment.",
+      "author": "Juri Opitz, Andrianos Michail"
+    },
+    {
+      "id": "arxiv_8d81cd8af50f",
+      "source": "ArXiv cs.LG",
+      "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+      "url": "https://arxiv.org/abs/2609.20816v1",
+      "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-prompt interface for generation and editing through object-level color supervision. We develop a data pipeline that constructs Paint-500K from real images through object grounding, perceptual color labeling, and editing-pair synthesis. Since shadows make real-image labels only approximate colors, we complement this supervision with pure-color anchors whose pixels exactly match their paired hex values. These anchors are used only at high-noise timesteps, leaving low-noise training to natural images. We further introduce Any Color Benchmark (ACBench), comprising ACBench-T2I and ACBench-Edit, to measure object-level hex color fidelity across both tasks. On FLUX.2-4B, Paint-Anything improves ACBench-T2I and ACBench-Edit scores by 85.3% and 28.3%, respectively, relative to the base model, with ablations supporting the training recipe. It also achieves the highest average CompColor score among the compared methods.",
+      "author": "Ji Xie, Dewei Zhou, Xinyu Huang"
+    },
+    {
+      "id": "arxiv_388f6af8346c",
+      "source": "ArXiv cs.LG",
+      "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
+      "url": "https://arxiv.org/abs/2609.20814v1",
+      "summary": "Pretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift affect this benefit. We pretrain a surrogate on 254,909 RANS solutions from one airfoil family and fine-tune it on a new family under two target settings with matched freestream ranges: the same Spalart-Allmaras (SA) modeling and SA with added $e^N$ transition modeling. At $N=1000$, the pretrained model matches the accuracy of a model trained from scratch on $3.25\\times$ as many samples for the same-SA target, but $2.58\\times$ as many for the transition-modeled target. By $N=5000$, this ordering reverses ($1.56\\times$ versus $1.86\\times$). At $N=1000$, sampling more distinct airfoils lowers error on both targets, but only for the same-SA target is the gain increase larger than the observed draw-to-draw variation ($3.3\\times$ to $4.0\\times$). These results show that pretraining value depends jointly on target-data budget, target-data coverage, and whether source and target differ in modeled physics.",
+      "author": "Pochinapeddi Sai Bhargav, Nithin Somasekharan, Rohit Sunil Kanchi"
+    },
+    {
+      "id": "arxiv_1d012a3217bc",
+      "source": "ArXiv cs.LG",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20812v1",
+      "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBench}, an evaluation suite composed of five file-review scenarios, transcript-based coverage measurements, and registered planted defects. We evaluate eight proprietary frontier models in their own production command-line interfaces, and four open-weight models under a single fixed harness on OverclaimBench and find that 1) agents do not read all the files they were asked to review in 67.9\\% of runs; 2) among runs where not all files are read, agents are \\emph{misleading} 80.4\\% of the time (59--96\\% per model), either falsely claiming to have read all files or omitting that coverage is incomplete; 3) requiring delegation to subagents increased reading coverage, but among reviews that remained incomplete, a large majority were still misleading; and 4) agents that falsely claimed a complete review missed planted defects at about 1.8 times the rate of agents that read every file, showing that claims of completion can conceal substantive failures. Together, these results show that agents' ",
+      "author": "Nolan Smyth, Yorguin-Jose Mantilla-Ramos, Pascal Jr Tikeng Notsawo"
+    },
+    {
+      "id": "arxiv_c5924e9f1c75",
+      "source": "ArXiv cs.LG",
+      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20807v1",
+      "summary": "Reinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We derive an additive \"score centering\" correction term that stabilizes RL under TIM by canceling drift. When training models from 0.6B to 30B parameters, score centering alone matches or outperforms methods based on importance sampling under quantization, with the gap growing as the mismatch becomes more severe. Because the correction is additive, score centering also composes with importance sampling -- their composition outperforms pure importance-sampling baselines in our staleness experiments.",
+      "author": "Martin Marek, Max Ryabinin"
+    },
+    {
+      "id": "arxiv_8c81b647d047",
+      "source": "ArXiv cs.CL",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822v1",
+      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority. By decomposing manipulation into a route phase and a contact-rich moment, we locate the source of the failure. Along the route, the model cannot prioritize the safety constraint, having no notion of a clearing route and none of replanning once a chosen route becomes infeasible. At the contact, it is unaware that contact execution is bounded by the same constraint. To close this gap, we present SafeHarness, which equips the model with two obstacle-aware harnesses that enable it to prioritize the safety constraint. Obstacle-aware route planning grounds the objects as bounding boxes and draws candidate routes over them as sequences of waypoints. The agent then plans a route in advance, verifies it, r",
+      "author": "Bingxin Xu, Yuzhang Shang, Zhen Dong"
+    },
+    {
+      "id": "arxiv_5014d3c54b1b",
+      "source": "ArXiv cs.CL",
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "url": "https://arxiv.org/abs/2609.20821v1",
+      "summary": "Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influenced by superficial string similarity, and recalibration of similarity does not substantially improve the alignment.",
+      "author": "Juri Opitz, Andrianos Michail"
+    },
+    {
+      "id": "arxiv_047cbea5d152",
+      "source": "ArXiv cs.CL",
+      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
+      "url": "https://arxiv.org/abs/2609.20808v1",
+      "summary": "Hostile rhetoric toward social groups can normalize exclusion and justify mistreatment, as well as contribute to rising polarization and political violence. Efforts to moderate hostile rhetoric in online speech draw on foundational theories in social and moral psychology, and political science. However, these theories were developed largely in parallel, often propose different and sometimes conflicting accounts of how hostility develops, and have rarely been tested against each other in real discourse. The result is a fragmented understanding of the rhetorical mechanisms of hostility, without a clear sense of how they appear, and relate to each other, in real-world discourse. Using 2.86 million posts from TikTok, Truth Social, and Twitter/X during the 2024 U.S. presidential election, we model the mechanisms of six foundational theories of intergroup hostility -- boundary construction, threat construction, scapegoating, negative evaluation, dehumanization, and action orientation -- within a common empirical framework to recover the broader organization of intergroup hostility rhetoric. Structurally, we find that boundary construction and threat construction anchor the system; temporally, we find that these mechanisms tend to follow a regular ordering: boundary construction, derogation, and action orientation tend to appear early; dehumanization and threat construction later; scapegoating latest. Mapping how these theoretical frameworks actually manifest in discourse bridges lo",
+      "author": "Patrick Gerard, Julia Mendelsohn, Kristina Lerman"
+    },
+    {
+      "id": "arxiv_5316c5b3820c",
+      "source": "ArXiv cs.CL",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804v1",
+      "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluated on SWE-Bench Verified and Terminal-Bench 2.1, we evaluate 176 matched settings spanning five context-management strategies, four context-window budgets, and targeted ablations of planning and action space. We find that: (1) Context management becomes increasingly valuable as the context-window budget tightens, with most of its benefit coming from preventing context-overflow failures. (2) Staging rule-based elision before LLM-based summarization provides the strongest overall efficiency among the context-management strategies, whereas making elided content recoverable adds machinery that models rarely use and yields no accuracy gain. (3) Planning shifts from an accuracy scaffold for weaker models to a cost saver for stronger models, with little change in accuracy. (4) Predefined tools improve performance for models with weaker bash proficiency, whereas bash-capable models can operate effectively with a bash-only interface and achieve substantially lower cost, especially on command-lin",
+      "author": "Run-Ze Fan, Zihao Zhang, Simin Ma"
+    },
+    {
+      "id": "arxiv_b8ca16016f66",
+      "source": "ArXiv cs.CL",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://arxiv.org/abs/2609.20800v1",
+      "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pathways, and recombines them within a shared predictive design. We evaluate JEPA-Anything across seven domains: vision, biology, clinical trajectories, control, molecular dynamics, physical fields, and weather. Experiments span representation learning, intervention prediction, out-of-distribution generalization, and long-horizon dynamics, including 10 matched dynamics tasks, forecasting of over 1,000 clinical events, and 100-step molecular rollouts across four systems. Against matched JEPA baselines, JEPA-Anything improves reported metrics on all 10 dynamics tasks and reduces single-intervention prediction error on Interventional Pong by 34.8%. It achieves the lowest one-step and 100-step molecular errors among compared methods in all four systems. Beyond prediction, a factor-nominated biological intervention receives experimental support in cell co-cultures, patient-derived organoids, tumor fragments, and mice; latent orbital modes recover the Keplerian scaling exponent with a fitted s",
+      "author": "Taoyong Cui, Zhongyao Wang, Xinyue Xu"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+      "url": "https://huggingface.co/papers/",
+      "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance. In these contexts, compliance with rules specified in an agent's system context is a first-order legal concern. Currently, no evaluation framework systematically measures which LLM models tend to violate compliance rules, especially under pressure from a persistent user, a hurried manager, or circumstances where violation is convenient or attractive. We introduce PACT (Pressure-Applied Compliance Testing), a benchmark for rule-following under pressure in AI agents assisting employees in daily tasks across twelve regulated enterprise domains and forty-eight scenarios, each set in a realistic multi-turn conversation. Each benchmark item pairs a standing rule against a rule-violating shortcut, and applies a battery of pressures across different wordings and system-prompt modes. We construct PACT component by component under strict LLM-as-judge auditing to ensure samples are unambiguous, ungameable, and realistic enough to avoid eliciting evaluation-aware behavior. We use PACT to profile LLM compliance across six complementary metrics that create a holistic picture of an AI assistant's robustness under pressure and throughout multi-turn conversations, its transparency, and ability to correctly discern where a rule applies. We aggregate this profile into PACTScore, a reliability-weighted compliance rate over all items and modes"
+    },
+    {
+      "id": "rss_4bab79ab94e8",
+      "source": "OpenAI",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "image": ""
+    },
+    {
+      "id": "rss_d58c5942da4f",
+      "source": "OpenAI",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "image": ""
+    },
+    {
+      "id": "rss_4571d90f0354",
+      "source": "OpenAI",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "image": ""
+    },
+    {
+      "id": "rss_ff2ddc3a4215",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_171492c8248d",
+      "source": "量子位",
+      "title": "Manus重生第17天，估值居然就翻倍了",
+      "url": "https://www.qbitai.com/2026/09/491764.html",
+      "summary": "作价40亿美元推进新融资",
+      "image": ""
+    },
+    {
+      "id": "rss_e9f51beb0573",
+      "source": "量子位",
+      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "url": "https://www.qbitai.com/2026/09/491711.html",
+      "summary": "Git白学了？？？",
+      "image": ""
+    },
+    {
+      "id": "rss_83c8a92e577d",
+      "source": "量子位",
+      "title": "从“会回答”到“会办事”，vivo如何解AI手机这道题？",
+      "url": "https://www.qbitai.com/2026/09/491649.html",
+      "summary": "构建个体专属AI助理",
+      "image": ""
+    },
+    {
+      "id": "rss_3ddc9daf21fa",
+      "source": "NVIDIA",
+      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+      "summary": "A new creature-catching adventure is ready to stream from the cloud this week. Pawprint Studio’s Aniimo arrives on GeForce NOW at launch, inviting gamers to explore the vibrant continent of Idyll across supported devices. Also this week, 007 First Light receives a path-tracing update on GeForce NOW, alongside a smashing limited-time Deluxe Edition sale on [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/007_First_Light_GeForce_NOW_September_17_2026-1680x840.jpg"
+    },
+    {
+      "id": "rss_f3432ea00172",
+      "source": "NVIDIA",
+      "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+      "summary": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/nvidia-vera-rubin-delivers-up-to-3-7x-better-performance.jpeg"
+    },
+    {
+      "id": "rss_c3958d13a109",
+      "source": "NVIDIA",
+      "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+      "summary": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_181c7c0c9e19",
+      "source": "MIT科技评论AI",
+      "title": "Building the materials foundation for AI",
+      "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_72ddfac456d5",
+      "source": "MIT科技评论AI",
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "summary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_421afcdb76d6",
+      "source": "MIT科技评论AI",
+      "title": "What’s at stake in AI’s trillion-dollar gamble",
+      "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/h_16492684.jpg?w=840"
+    },
+    {
+      "id": "rss_6caf20993710",
+      "source": "TechCrunch AI",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "summary": "The round values the data center giant at $30.9 billion.",
+      "image": ""
+    },
+    {
+      "id": "rss_5330c780c020",
+      "source": "TechCrunch AI",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+      "image": ""
+    },
+    {
+      "id": "rss_ef9897331a81",
+      "source": "TechCrunch AI",
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
+      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "image": ""
+    },
+    {
+      "id": "rss_ec086b74918a",
+      "source": "HF Blog",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_1c81e0964bc3",
+      "source": "HF Blog",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_7745ee8d3237",
+      "source": "HF Blog",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1341759590",
+      "source": "GitHub Trending",
+      "title": "MengTo/threeui - Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "summary": "# ThreeUI Community\n\n> **Sponsor ThreeUI:** Linked README placements start at $500/month, with website placements from $1,500/month. [View sponsorship plans](https://threeui.com/sponsorship).\n\nThe open-source, login-free edition of ThreeUI. It uses the same application shell, layout, navigation, browse grid, search, themes, responsive behavior, component pages, live renderers, controls, variant picker, and source tabs as the main project.\n\nThe catalog is the only product-level difference: Pro and Beta components are removed. Every Community component keeps all of its free variants and controls.\n\n[Browse ThreeUI](https://threeui.com) · [View the source on GitHub](https://github.com/MengTo/threeui)\n\n![ThreeUI Community preview](assets/preview.jpg)\n\n## Sponsor ThreeUI\n\nSponsorship keeps the o",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1350984217",
+      "source": "GitHub Trending",
+      "title": "rakanki911/DLSS5-Swapper - Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/banner.png\" alt=\"DLSS 5 Swapper\" width=\"100%\">\n</p>\n\n<h1 align=\"center\">DLSS 5 Swapper</h1>\n\n<p align=\"center\">\n  Install and manage DLSS 5 Neural Rendering for compatible games and emulators.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases/latest\"><img src=\"https://img.shields.io/github/v/release/rakanki911/DLSS5-Swapper?color=8fd400&label=release\" alt=\"Latest release\"></a>\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases\"><img src=\"https://img.shields.io/github/downloads/rakanki911/DLSS5-Swapper/total?color=8fd400&label=downloads&cacheSeconds=300\" alt=\"Total downloads\"></a>\n  <img src=\"https://img.shields.io/badge/Windows-10%20%2F%2011-8fd400\" alt=\"Windows 10/11\">\n  <img src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_1349601607",
+      "source": "GitHub Trending",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348483831",
+      "source": "GitHub Trending",
+      "title": "crmne/spotifast - Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "url": "https://github.com/crmne/spotifast",
+      "summary": "# Spotifast\n\nPreviously **Fastpotify**. Same native Spotify client, now at\n[spotifast.rocks](https://spotifast.rocks/). The new name starts with version 0.8.0;\nyour existing settings and sign-ins carry over, except when\n[switching the Flatpak installation](docs/_reference/renaming.md#flatpak).\n\n**Spotify, native and fast.** Spotifast is a Spotify client written in\nRust with [egui](https://github.com/emilk/egui). It plays music through\n[librespot](https://github.com/librespot-org/librespot). It typically uses\n100–250 MB of RAM, while Spotify's desktop app often uses 600 MB to over 1 GB.\nIt runs on Linux, macOS, and Windows, starts in well under a second, and has no\nbrowser engine.\n\n**Playback needs Spotify Premium.** Free accounts can browse and search, but\ncannot play music through Spotifa",
+      "group": "community"
+    },
+    {
+      "id": "gh_1342935078",
+      "source": "GitHub Trending",
+      "title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "summary": "# 深入理解 AI Infra：量化分析与系统设计\n\n[![Build](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml/badge.svg)](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml)\n[![PDF](https://img.shields.io/badge/PDF-下载最新版-red)](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)\n[![Stars](https://img.shields.io/github/stars/bojieli/ai-infra-book?style=social)](https://github.com/bojieli/ai-infra-book)\n[![English](https://img.shields.io/badge/翻译-English-informational.svg)](book-en/)\n\n**中文** ← 当前 · [English](book-en/)\n\n> [!TIP]\n> ### 📥 [下载最新版全书 PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n>\n> **推荐下载 PDF 阅读。** 书中有大量",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348410551",
+      "source": "GitHub Trending",
+      "title": "HEJustinSun/my-girlfriend-jingtian-latex - 无描述",
+      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+      "summary": "# 我的女友景甜\n\n这是一个 5 x 8 英寸的 XeLaTeX 排版工程。\n\n## 编译\n\n需要 XeLaTeX 和标准 TeX Live 发行版：\n\n```bash\nmkdir -p build\nxelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex\nxelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex\n```\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1359648985",
+      "source": "GitHub Trending",
+      "title": "eternity4719/HowToLiveBetter - 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "summary": "<div align=\"center\">\n\n<img src=\"og.png\" alt=\"高性价比人生指南 —— 用最少的钱、时间和精力，换回最多的寿命、金钱和人身自由\" width=\"820\">\n\n# 高性价比人生指南\n\n覆盖长寿与防病、意外与急救、省钱与理财、防骗与法律红线、失业兜底、创业风险、做平台与合规、恋爱婚育、出国与技能。<br>\n513 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-513%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20334%20%C2%B7%20B%20130%20%C2%B7%20C%2049-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8E%9F%E5%A7%8B%E6%96%87%E7%8C%AE-1016%20%E6%9D%A1%E9%93%BE%E6%8E%A5-565a5f?style=flat-s",
+      "group": "community"
+    },
+    {
+      "id": "gh_1357699236",
+      "source": "GitHub Trending",
+      "title": "ashemag/human-atlas - Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "url": "https://github.com/ashemag/human-atlas",
+      "summary": "# Human Atlas\n\nAn interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.\n\n**[Explore the live demo](https://human-atlas-seven.vercel.app)**\n\n## Explore\n\n- Orbit, zoom, and select structures directly on the body.\n- Toggle individual systems or use skeleton and organ presets.\n- Move from assembled anatomy to a spaced inventory of every visible piece.\n- Search anatomical names and source identifiers.\n- Isolate a selected structure and read its details.\n- Use compact controls and detail panels on mobile.\n\n## Run locally\n\nRequires Node.js 22.13 or newer. No API keys or accounts are needed.\n\n```sh\nnpm ci\nnpm run",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1342935078",
+      "source": "GitHub AI项目",
+      "title": "bojieli/ai-infra-book - 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "summary": "# 深入理解 AI Infra：量化分析与系统设计\n\n[![Build](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml/badge.svg)](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml)\n[![PDF](https://img.shields.io/badge/PDF-下载最新版-red)](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)\n[![Stars](https://img.shields.io/github/stars/bojieli/ai-infra-book?style=social)](https://github.com/bojieli/ai-infra-book)\n[![English](https://img.shields.io/badge/翻译-English-informational.svg)](book-en/)\n\n**中文** ← 当前 · [English](book-en/)\n\n> [!TIP]\n> ### 📥 [下载最新版全书 PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf)\n>\n> **推荐下载 PDF 阅读。** 书中有大量",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1356159928",
+      "source": "GitHub AI项目",
+      "title": "Albert-Weasker/niubigeo - Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/brand/niubigeo-lockup.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/brand/niubigeo-lockup-light.svg\">\n    <img src=\"assets/brand/niubigeo-lockup-light.svg\" width=\"336\" alt=\"NiubiGEO\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Albert-Weasker/niubigeo/releases/tag/v0.2.0\"><img src=\"assets/readme/version.svg\" alt=\"NiubiGEO v0.2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"LICENSE\"><img src=\"assets/readme/license.svg\" alt=\"Apache-2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"docs/deployment/docker.md\"><img src=\"assets/readme/self-hosted.svg\" alt=\"Self-hosted\" width=\"132\" height=\"28\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/reposito",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1354701193",
+      "source": "GitHub AI项目",
+      "title": "shadcn-ui/lint - An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
+      "url": "https://github.com/shadcn-ui/lint",
+      "summary": "# @shadcn/lint\n\n**Write design system rules that agents can verify.**\n\n<img src=\"./docs/assets/cover.png\" width=\"2000\" height=\"832\" alt=\"A lint diagnostic explains why padding is not allowed on Button and suggests using an existing size.\" />\n\n`@shadcn/lint` is an [agent-first linter](#built-for-agents) for Tailwind design systems.\n\nYou define what’s allowed. When an agent breaks a rule, the error explains what’s wrong and suggests a fix based on your components, variants, and theme.\n\n**Works with your existing design system. No rewrite required.**\n\n`@shadcn/lint` works with Tailwind v4 projects (**shadcn/ui not required**). Available for both **ESLint and Oxlint**.\n\n## Table of contents\n\n- [Quickstart](#quickstart)\n- [TypeScript vs @shadcn/lint](#typescript-vs-shadcnlint)\n- [Built for agen",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1351879111",
+      "source": "GitHub AI项目",
+      "title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "summary": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/reef-logo-dark.svg\">\n  <img src=\"docs/assets/reef-logo-light.svg\" alt=\"Reef\" width=\"220\">\n</picture>\n\n<h3>Continual learning infra for self-improving agents</h3>\n\n[![CI](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml/badge.svg)](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml)\n[![PyPI package: reef-infra](https://img.shields.io/pypi/v/reef-infra?label=PyPI%3A%20reef-infra&logo=pypi&logoColor=white)](https://pypi.org/project/reef-infra/)\n[![Python](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)\n[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)\n\nEnglish | [中文](README.zh.md)\n\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/PawWork_ZhuaZhua - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "summary": "<div align=\"center\">\n\n# 爪爪 · PawWork\n\n[![license](https://img.shields.io/github/license/Player-YN/PawWork_ZhuaZhua)](LICENSE)\n[![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white)](manifest.json)\n[![unpacked](https://img.shields.io/badge/load-unpacked-111111)](#load-it)\n\nTreat the already-logged-in Chrome as a programmable computer. 爪爪 is the agent on that machine.\n\n</div>\n\n**爪爪 · 完全解放版** (`PawWork_ZhuaZhua`) is a Chrome MV3 **unpacked** extension. It runs a side-panel agent that can drive the current tab (`action`), execute guest JS against the browser (`sys` inside `run`), and keep sheet / Univer doc / site HTML artifacts in the session.\n\nNot on the Chrome Web Store. No hosted model — bring your own key.\n\n## Load it\n\n1. Clone this repo, **or** d",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1342461518",
+      "source": "GitHub AI项目",
+      "title": "ApodexAI/FrontierAgent - 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "summary": "<div align=\"center\">\n  <picture>\n    <img src=\"./assets/apodex_logo.jpeg\" width=\"30%\" alt=\"Apodex\">\n  </picture>\n</div>\n<hr>\n<br>\n\n<div align=\"center\">\n  <a href=\"https://www.apodex.ai\"><img alt=\"Online Service\" src=\"https://img.shields.io/badge/🤖%20Online_Service-Apodex_1.1-1783ff\"/></a>\n  <a href=\"https://www.apodex.com/\"><img alt=\"Homepage\" src=\"https://img.shields.io/badge/Homepage-Apodex_AI-white\"/></a>\n  <a href=\"https://platform.apodex.ai\"><img alt=\"Try Apodex API\" src=\"https://img.shields.io/badge/Try_Apodex_1.1-API_Platform-1783ff\"/></a>\n  <br>\n  <a href=\"https://huggingface.co/collections/apodex\"><img alt=\"Hugging Face\" src=\"https://img.shields.io/badge/🤗%20Hugging_Face-Apodex_AI-ffc107\"/></a>\n  <a href=\"https://discord.gg/TDJA59TCng\"><img alt=\"Discord\" src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1342876750",
+      "source": "GitHub AI项目",
+      "title": "totec448-spec/chat-on-steroids - Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
+      "url": "https://github.com/totec448-spec/chat-on-steroids",
+      "summary": "<p align=\"center\"><img src=\"docs/images/readme-hero.svg?v=2\" width=\"960\" alt=\"Turn ChatGPT into Codex-style local coding. Chat On Steroids: Your files. Your terminal. Your ChatGPT plan.\" /></p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/totec448-spec/chat-on-steroids/releases/latest/download/Chat-On-Steroids-Setup-x64.exe\"><img src=\"docs/images/download-windows.svg\" width=\"208\" height=\"56\" alt=\"Download for Windows x64\" /></a>&nbsp;\n  <a href=\"https://github.com/totec448-spec/chat-on-steroids/releases/latest/download/Chat-On-Steroids-macOS-arm64.dmg\"><img src=\"docs/images/download-macos.svg\" width=\"208\" height=\"56\" alt=\"Download for macOS Apple silicon\" /></a>&nbsp;\n  <a href=\"https://github.com/totec448-spec/chat-on-steroids/releases/latest/download/Chat-On-Steroids-Linux-x64.deb\">",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1353548665",
+      "source": "GitHub AI项目",
+      "title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "summary": "# Claude Commerce Agents\n\nTwo commerce agents built on Claude: a **shopping agent** a business embeds in its app for\ncustomers, and a **merchant agent** its staff use to run the back office. Each is defined\nonce (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent\nSDK, and Managed Agents; four runnable verticals show both over the same libraries.\n\n> [!NOTE]\n> Every company, brand, product, and person here is fictional; the only company is ACME.\n> Nothing places an order, charges a card, or changes a live listing: `checkout` renders\n> the cart for the host to complete, and every merchant write is staged until a person\n> approves it. Business rules, authorization, and compliance are the deployment's.\n\n## Quick start: run the demos\n\nPython 3.11+ and Node 22. ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349601607",
+      "source": "GitHub AI项目",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "devto_4669106",
+      "source": "Dev.to",
+      "title": "Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
+      "url": "https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5",
+      "summary": "Yesterday, we released new Gemini Live models in the Gemini API and Google AI Studio, expanding our...",
+      "author": "Thor 雷神 Schaeff"
+    },
+    {
+      "id": "devto_4676484",
+      "source": "Dev.to",
+      "title": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯",
+      "url": "https://dev.to/koda2026/how-i-built-an-ai-coding-mentor-koda-entirely-on-a-150-android-phone-2c89",
+      "summary": "Most people think you need a $2,000 MacBook and a CS degree to build an AI-powered developer tool....",
+      "author": "Harun - solo dev "
+    },
+    {
+      "id": "devto_4658227",
+      "source": "Dev.to",
+      "title": "AI Didn't Remove the Engineering Work. It Just Made It Easier to Pretend You Did.",
+      "url": "https://dev.to/dj29/ai-didnt-remove-the-engineering-work-it-just-made-it-easier-to-pretend-you-did-42m9",
+      "summary": "On September 15, India — along with Sri Lanka and Tanzania — celebrates Engineer's Day, marking the...",
+      "author": "Dhruv Jani"
+    },
+    {
+      "id": "devto_4678402",
+      "source": "Dev.to",
+      "title": "Frameworks Are Institutional Memory",
+      "url": "https://dev.to/kenwalger/frameworks-are-institutional-memory-b3l",
+      "summary": "I stored passwords in plaintext on a floppy disk in the 1980s. Recently, a coding agent made a...",
+      "author": "Ken W Alger"
+    },
+    {
+      "id": "devto_4654126",
+      "source": "Dev.to",
+      "title": "The Bottleneck Moved From Writing Code to Proving It",
+      "url": "https://dev.to/debashish_ghosal/the-bottleneck-moved-from-writing-code-to-proving-it-5bpm",
+      "summary": "The bottleneck moved, and most teams haven't noticed. It isn't writing anymore. It's proving. I...",
+      "author": "Debashish Ghosal"
+    },
+    {
+      "id": "devto_4395035",
+      "source": "Dev.to",
+      "title": "AI Agents for Business: What They Cost and Where They Fail",
+      "url": "https://dev.to/mecanik-dev/ai-agents-for-business-what-they-cost-and-where-they-fail-16e0",
+      "summary": "AI agents for business are the current version of a familiar story: a demo that works beautifully in...",
+      "author": "Mecanik1337"
+    },
+    {
+      "id": "devto_4681515",
+      "source": "Dev.to",
+      "title": "Why Agent Infrastructure Is Its Own Discipline",
+      "url": "https://dev.to/aloknecessary/why-agent-infrastructure-is-its-own-discipline-4778",
+      "summary": "Ask a platform team how they're going to run their first production agent and you'll get a confident...",
+      "author": "Alok Ranjan Daftuar"
+    },
+    {
+      "id": "devto_4681046",
+      "source": "Dev.to",
+      "title": "I Built an AI-Native Local Crawler to Audit My Clients' Websites",
+      "url": "https://dev.to/shantodotdev/i-built-an-ai-native-local-crawler-to-audit-my-clients-websites-293a",
+      "summary": "Let's be honest. Our AI coding agents can inspect our code, understand the project structure, and...",
+      "author": "KR Shanto"
+    },
+    {
+      "id": "oschina_2797cbc7f35a",
+      "source": "开源中国",
+      "title": "开源一站式智能终端 uniTerm v1.9.4 发布：跨工作区广播、SSH Kerberos / Agent 认证等 50 余项更新",
+      "url": "https://www.oschina.net/news/502575",
+      "summary": "uniTerm 是一款轻量级一站式开源终端软件。整合终端、文件传输、远程桌面、数据库客户端、容器等 5 大类协议于一身，覆盖 30+ 协议，安装包仅 14 MB；内置可自主执行的 AI Agent，能规划并执行多轮 Shell 命令。 v1.9.4 是一次面向「连接」、「文件传输」和「工作区」的深度打磨：SSH 新增 Kerberos 与 SSH Agent 认证，..."
+    },
+    {
+      "id": "oschina_66449c0d2245",
+      "source": "开源中国",
+      "title": "LinkAndroid v2.3.0 多窗口应用投屏上线，多应用并行独立操作",
+      "url": "https://www.oschina.net/news/502574",
+      "summary": "LinkAndroid v2.3.0 把投屏的范围从「整块手机屏幕」缩小到「单个应用」：每个应用独占一块虚拟屏、一个独立窗口，手机本体照常使用。 LinkAndroid 是一款基于 Electron 的 Android 手机连接桌面工具，通过 USB 或无线连接手机后，可以在电脑上完成投屏操控、文件管理、应用管理、脚本自动化等操作。 过去投屏默认镜像整..."
+    },
+    {
+      "id": "oschina_eb832a85622f",
+      "source": "开源中国",
+      "title": "Mailez 1.0.1 发布：本次发布以提升运维自动化和缺陷修复为主",
+      "url": "https://www.oschina.net/news/502573",
+      "summary": "v1.0.1 以运维自动化和缺陷修复为主：管理台新增出站网络体检、变更式健康告警、IP 封禁引擎、定时加密备份四项能力；客户端接入新增 Delta Chat 扫码登录；大信箱的批量标记、移动、删除显著提速；并修复了 15 处覆盖邮件收发、排序、部署与权限边界的缺陷。 一、新增：管理台运维四件套 1. 出站网络体检 健康页新增三项..."
+    },
+    {
+      "id": "oschina_99625f6e9121",
+      "source": "开源中国",
+      "title": "学大教育与开源中国达成战略合作，共建中国教育AI基础设施",
+      "url": "https://www.oschina.net/news/502571",
+      "summary": "9 月 17 日，学大（厦门）教育科技集团股份有限公司（股票代码：000526.SZ）与上海开源共识智能科技股份公司（开源中国）在京签署战略合作协议，双方以“场景×底座”为合作框架，把自主可控的人工智能能力引入真实教育场景，共同建设面向教育行业的人工智能基础设施与应用体系。 开源中国 CEO 徐勇，学大教育创始人、董..."
+    },
+    {
+      "id": "oschina_32ef4af05a6c",
+      "source": "开源中国",
+      "title": "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”",
+      "url": "https://www.oschina.net/news/502569/anthropic-measuring-pace-of-ai-development",
+      "summary": "&quot;我们芯片多、我们跑得快&quot;——这种话听多了就容易变成营销。Anthropic 这次换了个思路：与其互相吹，不如直接把自家实验室的内部数据拿出来，给&quot;AI 发展速度&quot;这件事定一套可以测量的指标。 它发了三份方法论性质的度量。第一份叫&quot;AI 主导研发（AI-led R&D）&quot;，借用 Epoch AI 的自动化分级（AL0 到 AL5，AL3 是 AI 协作、..."
+    },
+    {
+      "id": "hn_comment_49750434",
+      "source": "HN讨论",
+      "title": "btown 在「Hacking OpenAI」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "summary": "&gt; By 6:00 a.m. on July 25, we had confirmed local RCE through an image upload. We then placed Claude in an autonomous &#x2F;goal loop against our own Discourse Cloud instance, proxied through rce.ee&#x2F;ctf-forum to make it look like a CTF target as Opus refused write exploit for remote instances. &gt; When we checked again at 10:00 a.m., the agent had achieved RCE on Discourse Cloud and demonstrated access by reading &#x2F;etc&#x2F;hosts. Using the generated exploit script, we managed to get RCE on OpenAI’s instance. Between this and the HuggingFace hack, we&#x27;ve built systems that are so goal-oriented, and so capable, that they will do almost anything if they are convinced it is justified - or if they are playing a &quot;game&quot; where there is no goal but to win. Of course I want my software to be able to audit its own security, and to defend against attackers who have the benefits of their own agentic systems. But at a certain point, did we need it to be trained  so much  on CTF games? It feels like an entire industry watched  https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;WarGames  and ended up thinking &quot;this is a challenge, we can just build a better WOPR, of course it will know when it&#x27;s playing a game. Let&#x27;s play Global Thermonuclear War.&quot;",
+      "author": "btown"
+    },
+    {
+      "id": "hn_comment_49750433",
+      "source": "HN讨论",
+      "title": "nikcub 在「Hacking OpenAI」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "summary": "Reading the patch[0] for libheif the bug which lead to the vuln was around bounds checking for image overlays. the container can have multiple images and you can compose them in the output. heif also supports rotating, cropping, alpha channels, thumbnails and a ton of other features that a web forum where a user is uploading photos or screenshots doesn&#x27;t need. It&#x27;s a much, much larger attack surface than plain old school JPEG. I&#x27;d suggest rather than wait for the next bug to appear in this or another image lib to keeping things simple - stick to plain JPEG and handle image conversion in the client (wasm in the browser) if you really need to support users uploading iphone images. Media decoding is so hard - there have been tons of bugs in ffmpeg and imagemagick and the core libs. You really need to think about how much of it you expose via a web server [0]  https:&#x2F;&#x2F;github.com&#x2F;strukturag&#x2F;libheif&#x2F;commit&#x2F;85e21ad44eba931...",
+      "author": "nikcub"
+    },
+    {
+      "id": "hn_comment_49750602",
+      "source": "HN讨论",
+      "title": "sams99 在「Hacking OpenAI」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "summary": "Update on the Discourse side, we now run all external binaries, including magick via a landlock sandbox. The gem we use is here:  https:&#x2F;&#x2F;github.com&#x2F;discourse&#x2F;ruby-landlock  highly recommend all Rubyists out there consider this. We are also in the process of moving away from Magick to Vips (which also runs in a sandbox, not in process) HEIF is patched, but I doubt this is the last buffer overflow in HEIF, I will not be surprised if in the upcoming weeks or months someone will discover something in libpng or some other native image library. Given where stuff is at, defense in depth is critical. Another thing worth mentioning to all self hosters, always be updating! The rate of CVEs this year across all open source software is through the roof, self hosting now is double scary, you need to have some routines setup to update monthly if not weekly.",
+      "author": "sams99"
+    },
+    {
+      "id": "hn_comment_49750117",
+      "source": "HN讨论",
+      "title": "oefrha 在「Hacking OpenAI」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "summary": "Unsandboxed ImageMagick is known for being a security nightmare even back when PHP ruled the world (not saying sandboxing is a panacea either, it just requires a different and potentially harder exploit to develop a full chain). Difference is it&#x27;s easier than ever to turn vulnerabilities into full compromises. At some point we&#x27;ll have to replace all parsers with something at least as safe as  https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;wuffs  right? Otherwise ImageMagick and co. will just keep giving.",
+      "author": "oefrha"
+    },
+    {
+      "id": "hn_comment_49749989",
+      "source": "HN讨论",
+      "title": "usernomdeguerre 在「Hacking OpenAI」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "summary": "&gt;...researchers found a bug in the way that the community-discussion forum Discourse processed certain image files. The researchers had access to a special version of Claude Opus 4.8...\n&gt;At first, it didn’t work. That evening, however, Anthropic released Opus 5 and by the next day, Claude had found a way to exploit the bug... Is this speed of capability because hacking is almost entirely machine verifiable, thus training quicker&#x2F;deeper than other domains?",
+      "author": "usernomdeguerre"
+    },
+    {
+      "id": "hn_comment_49747390",
+      "source": "HN讨论",
+      "title": "simonw 在「Bonsai 2 27B: Near-Lossless Compression 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746618",
+      "summary": "If you want to try out out the GGUFs from  https:&#x2F;&#x2F;huggingface.co&#x2F;prism-ml&#x2F;Ternary-Bonsai-2-27B-gguf#th...  be aware that you need Prism&#x27;s llama.cpp fork to get them to work, from  https:&#x2F;&#x2F;github.com&#x2F;PrismML-Eng&#x2F;llama.cpp&#x2F;releases&#x2F;tag&#x2F;prism-...  This should work:     cd &#x2F;tmp\n\n  # Get the Prism macOS runtime\n  curl -fL https:&#x2F;&#x2F;github.com&#x2F;PrismML-Eng&#x2F;llama.cpp&#x2F;releases&#x2F;download&#x2F;prism-b10685-7dffb15&#x2F;llama-prism-b10685-7dffb15-bin-macos-arm64.tar.gz -o bonsai-runtime.tar.gz\n  tar -xzf bonsai-runtime.tar.gz\n\n  # Get the ~5.95 GB GGUF model:\n  curl -fL https:&#x2F;&#x2F;huggingface.co&#x2F;prism-ml&#x2F;Ternary-Bonsai-2-27B-gguf&#x2F;resolve&#x2F;main&#x2F;Ternary-Bonsai-2-27B-PTQ1_0.gguf -o Ternary-Bonsai-2-27B-PTQ1_0.gguf\n\n  # Run the server, I used port 8331\n  .&#x2F;llama-prism-b10685-7dffb15&#x2F;llama-server \\\n    -m Ternary-Bonsai-2-27B-PTQ1_0.gguf \\\n    --port 8331 -ngl 99 -fa on -c 32768\n  \nThen open http:&#x2F;&#x2F;localhost:8331 for the (very good) baked in llama-server web UI... or run a prompt via the API like this:     uvx llm openai endpoint http:&#x2F;&#x2F;127.0.0.1:8331&#x2F;v1 \\\n    --model bonsai-2-27b --responses hi\n  \nThat&#x27;s running at ~20 token&#x2F;second for me on an M5 Pro (after a server restart I got 44 token&#x2F;second, not sure why), but I&#x27;m pretty sure something isn&#x27;t working right, on startup the server said &quot;ggml_metal_devic",
+      "author": "simonw"
+    },
+    {
+      "id": "hn_comment_49747481",
+      "source": "HN讨论",
+      "title": "miffy900 在「Bonsai 2 27B: Near-Lossless Compression 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746618",
+      "summary": "I really wish people would stop saying N times smaller than something when making a comparison; that makes no sense - it&#x27;s 1&#x2F;9th (11.11%) the size. You don&#x27;t get a smaller quantity by multiplying by a number greater than 1.0. You could instead reverse the subjects being compared - &quot;the original model is 9x bigger than this new smaller, efficient model&quot; or some such. That makes sense. I keep seeing this being used when people talk about efficiency or performance gains and it&#x27;s just very unintuitive language.",
+      "author": "miffy900"
+    },
+    {
+      "id": "hn_comment_49747164",
+      "source": "HN讨论",
+      "title": "Aurornis 在「Bonsai 2 27B: Near-Lossless Compression 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746618",
+      "summary": "These are small enough that you can run them entirely in the browser  https:&#x2F;&#x2F;huggingface.co&#x2F;spaces&#x2F;webml-community&#x2F;ternary-bonsai...  Remember to clear the downloaded weights afterward. Like the last model, it&#x27;s amazing they work as well as they do. Use it for any longer task and they fall apart spectacularly and in interesting ways.",
+      "author": "Aurornis"
+    },
+    {
+      "id": "hn_comment_49747732",
+      "source": "HN讨论",
+      "title": "adrian17 在「Bonsai 2 27B: Near-Lossless Compression 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746618",
+      "summary": "&gt; Ternary Bonsai 2 27B uses ternary {−1, 0, +1} weights with FP16 group-wise scaling, for 1.76 effective bits per weight If I recall correctly, a recent post [1] has shown that Q2 quants (with like 2.6 bpw) of the same base Qwen model sit at the edge between &quot;noticeably worse&quot; and Q1&#x27;s &quot;useless&quot;. I took a quick glance at Bonsai&#x27;s blog posts, and don&#x27;t really see them comparing themselves to &quot;typical&quot; quants or explaining what&#x27;s the special sauce that makes them better?  https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49611128",
+      "author": "adrian17"
+    },
+    {
+      "id": "hn_comment_49747684",
+      "source": "HN讨论",
+      "title": "danbrooks 在「Bonsai 2 27B: Near-Lossless Compression 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746618",
+      "summary": "Nice! Does anyone know how this compares to the Unsloth quantizations of this model?\n https:&#x2F;&#x2F;unsloth.ai&#x2F;docs&#x2F;models&#x2F;qwen3.8#run-qwen3.8-guide",
+      "author": "danbrooks"
+    },
+    {
+      "id": "hn_comment_49746605",
+      "source": "HN讨论",
+      "title": "LightMachine 在「Bend – A language that blocks AI mistake」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "Hi, I&#x27;m the author. HN staff: someone posted before me. Could we change the title to \n&quot;Bend - a language that blocks AI mistakes via proof and runs on GPUs&quot;? Everyone: feel free to ask any question, but I&#x27;d be highly appreciative if you could be a bit civilized and respectful this time. I&#x27;ve worked on this for 1 year, nearly 16h&#x2F;day, 7 days a week, and I&#x27;m giving it for free. You need not to use it. So, I&#x27;d be thankful if you could point occasional failures politely rather than throwing me in a lava pit. Thank you!",
+      "author": "LightMachine"
+    },
+    {
+      "id": "hn_comment_49750618",
+      "source": "HN讨论",
+      "title": "sreekanth850 在「Bend – A language that blocks AI mistake」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "I wish this can be a extension of existing languages.",
+      "author": "sreekanth850"
+    },
+    {
+      "id": "hn_comment_49750599",
+      "source": "HN讨论",
+      "title": "txhwind 在「Bend – A language that blocks AI mistake」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "I&#x27;m interested in how to integrate formal verification with existing software libraries. For example,  https:&#x2F;&#x2F;github.com&#x2F;verus-lang&#x2F;verus  integrates proof with macro in Rust. What&#x27;s the plan for Bend?",
+      "author": "txhwind"
+    },
+    {
+      "id": "hn_comment_49749199",
+      "source": "HN讨论",
+      "title": "mccoyb 在「Bend – A language that blocks AI mistake」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "My read on this, after ingesting a good amount of content on the history, is: - this Bend is not really related to the old Bend (only in name) - this Bend doesn&#x27;t really have anything to do with interaction combinators - this Bend is a QTT, with a change to affinity which enforces a good performance property for GPUs - the &quot;higher order at comptime&quot; is neat, reminds me of Andras Kovacs&#x27; work on 2ltt and staging in dependently typed languages. - this Bend is likely to be good at &quot;balanced recursive computations on ADT&quot;, and can parallelize them ... but won&#x27;t be as good as CUDA or e.g. Futhark on dense rectangular array computations - performance needs improvement in the scheduler, to possibly help with balanced work (looking at the n queens and symbolic regression numbers)? How are you going to handle search or synthesis over irregular structures (SupaGen)?",
+      "author": "mccoyb"
+    },
+    {
+      "id": "hn_comment_49749040",
+      "source": "HN讨论",
+      "title": "meghanto 在「Bend – A language that blocks AI mistake」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "Gotta say, having followed Taelin on this project since mid 2023, this was not the response I expected when this language first dropped. It&#x27;s interesting how cosmetics drive discussion, and how HN comments are weirdly divided in a very dismissive or skeptical camp and those acting incredulous and offended at the reaction of the former. What I expected instead was a lot more discussion about use cases, benchmarking, possibilities, limitations (that aren&#x27;t about git history) and the scope of future development.",
+      "author": "meghanto"
+    },
+    {
+      "id": "hn_49749656",
+      "source": "Hacker News",
+      "title": "Hacking OpenAI",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "summary": ""
+    },
+    {
+      "id": "hn_49747070",
+      "source": "Hacker News",
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49746618",
+      "source": "Hacker News",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "summary": ""
+    },
+    {
+      "id": "hn_49746163",
+      "source": "Hacker News",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49710447",
+      "source": "Hacker News",
+      "title": "Diplodocus, Long Thought Exclusively American, Turns Up in Spain",
+      "url": "https://www.sci.news/paleontology/spanish-diplodocus-15064.html",
+      "summary": ""
+    },
+    {
+      "id": "hn_49746628",
+      "source": "Hacker News",
+      "title": "How Uber Protects Against Retry Storms",
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49743483",
+      "source": "Hacker News",
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "summary": ""
+    },
+    {
+      "id": "hn_49740260",
+      "source": "Hacker News",
+      "title": "The American Religion of Self-Storage Facilities",
+      "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+      "summary": "https:&#x2F;&#x2F;archive.ph&#x2F;F77tj"
+    }
+  ],
+  "generated_at": "2026-09-18 14:00"
+}
