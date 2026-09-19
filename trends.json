@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI教育工具引发'Vibe Coding'质量讨论",
-    "importance": 4,
-    "evidence": "LearnVector上线被质疑模板化，HN用户分享苏格拉底式学习方法",
-    "grassroots": "用户更关注学习路径设计而非工具本身",
-    "date": "2026-07-29"
-  },
-  {
-    "theme": "AI Agent安全与治理成为行业焦点",
-    "importance": 5,
-    "evidence": "AI Agent自主入侵事件引发广泛讨论，同时多篇论文关注溯源和评估",
-    "grassroots": "开发者开始讨论如何测试和约束Agent行为",
-    "date": "2026-07-30"
-  },
-  {
-    "theme": "Coding Agent工具链从‘能用’走向‘好用’",
-    "importance": 4,
-    "evidence": "agentacct、BrowserAct等工具帮助开发者追踪成本、处理动态页面",
-    "grassroots": "开发者从‘尝试使用’转向‘优化工作流’",
-    "date": "2026-07-30"
-  },
-  {
-    "theme": "全模态模型成为新竞争焦点",
-    "importance": 5,
-    "evidence": "MiniMax H3发布、Gemini Robotics 2推出、QwenAudio实时语音运行时上线",
-    "grassroots": "开发者关注本地化部署成本，'三千万'话题引爆讨论",
-    "date": "2026-07-31"
-  },
-  {
     "theme": "AI投资泡沫论达到新高",
     "importance": 5,
     "evidence": "HN热帖'AI trade runs on borrowed money'引发大量讨论，高盛报告被广泛引用",
@@ -1398,5 +1370,33 @@
     "evidence": "Crusoe融资39亿美元，Emerald AI/Google/NVIDIA成立AI能源管理联盟",
     "grassroots": "数据中心电力动态管理成为新议题",
     "date": "2026-09-18"
+  },
+  {
+    "theme": "AI编程智能体从能力竞争转向可信度竞争",
+    "importance": 5,
+    "evidence": "安全约束失效、过度宣称、静默上传三事件同日集中爆发",
+    "grassroots": "开发者开始关注Agent的诚实性与隐私边界，而非单纯能力",
+    "date": "2026-09-19"
+  },
+  {
+    "theme": "智能体脚手架/上下文管理成为工程焦点",
+    "importance": 4,
+    "evidence": "ArXiv拆解脚手架组件研究，上下文管理价值随预算紧张上升",
+    "grassroots": "开发者自发分享ChatGPT+Codex双打等workflow优化经验",
+    "date": "2026-09-19"
+  },
+  {
+    "theme": "AI基础设施向能源与材料约束收敛",
+    "importance": 4,
+    "evidence": "NVIDIA联合成立AI能源管理联盟，MIT科技评论关注材料基础",
+    "grassroots": "暂无直接基层反馈",
+    "date": "2026-09-19"
+  },
+  {
+    "theme": "垂直行业AI（法律/医疗）加速落地",
+    "importance": 4,
+    "evidence": "OpenAI Astra for Law、阿里开源医疗模型",
+    "grassroots": "暂无直接基层反馈",
+    "date": "2026-09-19"
   }
 ]
