@@ -1,40 +1,5 @@
 [
   {
-    "theme": "Agent评估与安全审计成为新基础设施",
-    "importance": 4,
-    "evidence": "OSReward提出CUA标准化评估、AISPA系统提示词审计、OpenAI发布codex-security",
-    "grassroots": "开发者反馈'Agent评估比模型评估难得多'——Dev.to",
-    "date": "2026-08-01"
-  },
-  {
-    "theme": "开源模型本地化部署需求激增",
-    "importance": 4,
-    "evidence": "Kimi K3开源+deltafin单设备运行方案、掘金热议本地部署成本",
-    "grassroots": "'三千万足矣'——掘金用户计算Kimi K3本地部署成本",
-    "date": "2026-08-01"
-  },
-  {
-    "theme": "开源大模型本地化部署",
-    "importance": 5,
-    "evidence": "Kimi K3开源后24小时内出现多个部署方案，GitHub趋势榜前10占3席",
-    "grassroots": "开发者算账后老板沉默，成本仍是核心门槛",
-    "date": "2026-08-02"
-  },
-  {
-    "theme": "Agent评估体系重构",
-    "importance": 4,
-    "evidence": "Dev.to多篇高赞文章讨论评估失真问题，OSReward论文提出标准化评估",
-    "grassroots": "开发者直言'池化比较测的是调度器'",
-    "date": "2026-08-02"
-  },
-  {
-    "theme": "小模型专用任务崛起",
-    "importance": 4,
-    "evidence": "125M模型在医疗脱敏任务上比14B模型快40倍",
-    "grassroots": "数据不出机器的隐私优势成为关键卖点",
-    "date": "2026-08-02"
-  },
-  {
     "theme": "中国开源大模型Max级冲锋",
     "importance": 5,
     "evidence": "Qwen3.8-Max开源2.4万亿参数权重，MiniMax H3直接开源33B全模态",
@@ -1398,5 +1363,40 @@
     "evidence": "MIT 科技评论讨论材料基础，NVIDIA 联合成立 AI 能源管理联盟",
     "grassroots": "暂无",
     "date": "2026-09-20"
+  },
+  {
+    "theme": "智能体记忆与判断层工程化",
+    "importance": 5,
+    "evidence": "Designer-RSI、MDL论文与Jev判断层同日出现",
+    "grassroots": "开发者晒Jev改造Codex/BrowserUse提速截图，项目几天破万星",
+    "date": "2026-09-21"
+  },
+  {
+    "theme": "编程Agent训练环境自动化",
+    "importance": 4,
+    "evidence": "CodeMidas仅用源码构造RL环境",
+    "grassroots": "暂无直接一手反馈",
+    "date": "2026-09-21"
+  },
+  {
+    "theme": "小模型强效路线",
+    "importance": 4,
+    "evidence": "Qwen-Image-2.1仅7B、Step 5 Preview激活27B",
+    "grassroots": "量子位实测称Step 5 Preview'真有点猛'",
+    "date": "2026-09-21"
+  },
+  {
+    "theme": "Agent编排与隔离标准化",
+    "importance": 4,
+    "evidence": "Google AX编排器引发HN热议",
+    "grassroots": "开发者讨论'工作笔记本+隔离Agent盒子'是否成新标准",
+    "date": "2026-09-21"
+  },
+  {
+    "theme": "AI成本与能源约束",
+    "importance": 4,
+    "evidence": "NVIDIA联合成立AI能源管理联盟AEMA",
+    "grassroots": "开发者用ChatGPT+Codex混合工作流省token",
+    "date": "2026-09-21"
   }
 ]
