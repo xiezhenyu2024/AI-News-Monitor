@@ -1,0 +1,716 @@
+{
+  "key": "2026-09-21-evening",
+  "date": "2026-09-21",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 17,
+      "title": "H5N1禽流感在澳大利亚蔓延至海洋哺乳动物和野生动物",
+      "entities": [
+        {
+          "name": "H5N1",
+          "explain": "一种高致病性禽流感病毒毒株，原本主要在鸟类间传播，近年来开始感染哺乳动物"
+        },
+        {
+          "name": "小企鹅",
+          "explain": "一种体型最小的企鹅品种，主要分布在澳大利亚南部和新西兰沿海"
+        },
+        {
+          "name": "赤狐",
+          "explain": "一种广泛分布于全球的狐狸，是H5N1在澳大利亚首次记录感染的哺乳动物"
+        }
+      ],
+      "summary": "H5N1禽流感正在澳大利亚东南部快速传播，已感染小企鹅、喜鹊、凤头燕鸥和鹈鹕等多种野生鸟类。维多利亚州首席生物多样性官员James Todd警告，繁殖季节鸟类聚集将加速病毒向哺乳动物传播。8月底，H5N1已首次传染给一只赤狐，标志着疫情进一步扩大。",
+      "relevant": "H5N1跨物种传播至哺乳动物引发全球公共卫生担忧，可能增加病毒变异并传染人类的风险。",
+      "context": "H5N1禽流感近年来在全球范围内持续扩散，已从亚洲蔓延至欧洲、美洲和南极地区。澳大利亚此前相对未受严重影响，但此次疫情表明病毒已在该大陆野生动物中广泛扎根。",
+      "source_analysis": "Mongabay是一家专注环境与保护新闻的非营利媒体，报道立场偏向生态保护与生物多样性议题。",
+      "social_impact": "疫情威胁澳大利亚多种濒危鸟类种群，并可能对畜牧业和公共卫生体系造成连锁影响。",
+      "source_text": "H5N1 avian influenza is spreading rapidly across southeastern Australia owing to infected wild bird species, including little penguins, magpies, crested terns and pelicans. Bird aggregations during breeding seasons will likely accelerate transmission to mammals, said Victoria’s chief biodiversity officer James Todd. In late August, H5N1 jumped to a mammal, a red fox (Vulpes vulpes), in Adelaide, South Australia. Acting chief veterinary officer Cameron Bell said that while wild foxes generally do not spread the virus directly, scavenging pests risk moving infected carcasses across habitats, according to media reports. In September, state authorities confirmed H5N1 in an Australian sea lion (Neophoca cinerea) and a common dolphin (Delphinus delphis). South Australian Environment Minister Emily Bourke said that the sea lion — a critically endangered species currently declining by 2% a year — was recovering from a shark attack when it succumbed to the virus, reports ABC Australia. Cetacean researcher Mike Bossley is concerned about how quickly a dolphin contracted the disease. In a news report, he called it both “shocking … and very worrying.” Bourke added that South Australia has recorded bird flu in another mammal species, long-nosed fur seals (Arctocephalus forsteri) and confirmed the nation’s first pelican case on the Yorke Peninsula. “The first confirmed H5N1 death recorded for [the Australian sea lion] in Australia marks a significant and worrying moment for Australian wildlife,” Bill Bateman, associate professor of behavioral ecology at Curtin University, Australia, wrote in The Conversation. He added that the evolving H5N1 strain can invade a mammal’s central nervous system, causing severe brain inflammation. The way marine mammals contract the virus is likely from birds, Bateman wrote. Sick or dead seabirds can infect coastal breeding grounds, he added, either when animals eat them or come into contact with bodily fluids or contaminated water and substrate. While there’s no “real way” to stop the spread of H5N1 now that it’s here, Bateman noted that there are ways to reduce its impact. There is a way to limit exposure, he said. “Removing carcasses safely is crucial, as it removes these viral reservoirs, and stops it getting into Australia’s many scavenging animals.” Along South Australia’s Fleurieu Peninsula, volunteers with the Victor Harbor Dolphin Watch Group are on the lookout for dolphins exhibiting abnormal swimming or neurological symptoms. Bat",
+      "source_title": "H5N1 bird flu jumps to marine mammals and wildlife in Australia",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/h5n1-bird-flu-jumps-to-marine-mammals-and-wildlife-in-australia/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "巴西大选胶着，亚马逊保护成果面临倒退风险",
+      "entities": [
+        {
+          "name": "亚马逊雨林",
+          "explain": "全球最大的热带雨林，被称为'地球之肺'，对全球气候调节至关重要"
+        },
+        {
+          "name": "巴西大选",
+          "explain": "巴西总统选举，结果将决定未来数年亚马逊保护政策的走向"
+        }
+      ],
+      "summary": "随着南美洲多国政治右转，巴西即将举行的选举结果可能使亚马逊雨林失去现有的保护领导者。选情胶着，若右翼候选人获胜，近年来的环保成果可能被逆转。",
+      "relevant": "亚马逊雨林的存亡直接关系到全球气候变化，巴西政策转向将影响全球减排目标。",
+      "context": "近年来巴西在卢拉政府领导下大幅减少了亚马逊砍伐，但南美地区整体政治风向转向右翼，巴西选举结果将决定这些保护成果能否延续。",
+      "source_analysis": "Mongabay长期关注热带雨林保护，报道倾向于支持环保政策和原住民权益。",
+      "social_impact": "亚马逊雨林覆盖约550万平方公里，其保护状况影响全球数亿人的气候安全。",
+      "source_text": "- Under President Lula, Amazon deforestation dropped to a 10-year low, but experts warn a victory by Senator Flávio Bolsonaro could reinstate policies favoring agribusiness and mining. - Enforcement rollbacks could have tangible effects on deforestation spikes, Indigenous land invasions, new illegal roads in reclaimed forests, and expanded river dredging that spreads mercury contamination. - As neighboring right-wing governments reshape regional dynamics, the election will also determine Brazil’s stance in international climate diplomacy and its adherence to global environmental targets. As voters in Brazil prepare to head to the polls on Oct. 4, forest guardians and environmental analysts are bracing for a high-stakes presidential contest that could abruptly shift the nation’s environmental policy. The election presents a stark choice between maintaining current conservation strategies, experts say, or risking a policy U-turn that could reverse recent progress in lowering deforestation rates across the Amazon rainforest and other biomes. The election is shaping up to be a tight race between left-wing President Luiz Inácio Lula da Silva, seeking a fourth non-consecutive term, and Senator Flávio Bolsonaro, the eldest son of former far-right President Jair Bolsonaro (2019-2022), who was arrested and blocked from running for office after being sentenced in a failed coup d’ètat trial. According to polls, the two are very likely to face off in a runoff election scheduled for Oct. 25. Lula’s administration managed to drop deforestation in the Amazon to its lowest level in a decade — Brazil holds 60% of the biome. However, experts and conservationists warn that these gains are fragile, hanging by a thread that could snap if Flávio Bolsonaro brings back his father’s policies, favoring agribusiness and mining, and slashing Indigenous rights and support. In a detailed analysis of the candidates’ environmental platforms, the Climate Observatory, a prominent coalition of Brazilian civil society organizations, concluded that issues related to climate and the environment are receiving far less attention than necessary. The exception is Lula’s plans, where the only area of concern is energy — which was to be expected due to recent support from the president for oil drilling on the Amazon shore. “The platforms of the other candidates are all much weaker on the environmental agenda, with some being absolutely unacceptable,” Suely Araujo, public policy coordinator at the Cl",
+      "source_title": "Tight Brazil election challenges fragile gains for Amazon conservation",
+      "source_url": "https://news.mongabay.com/2026/09/tight-brazil-election-challenges-fragile-gains-for-amazon-conservation/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "加拿大魁北克驯鹿濒临灭绝，联邦拨款2500万加元却仍无保护方案",
+      "entities": [
+        {
+          "name": "林地驯鹿",
+          "explain": "一种生活在北美北方森林中的驯鹿亚种，被原住民视为关键物种"
+        },
+        {
+          "name": "关键物种",
+          "explain": "生态学概念，指对生态系统结构和功能有决定性影响的物种，其消失会引发连锁反应"
+        },
+        {
+          "name": "第一民族",
+          "explain": "加拿大原住民族群的统称，其传统领地上生活着驯鹿种群"
+        }
+      ],
+      "summary": "魁北克林地驯鹿数量十年间锐减约一半，该省拥有加拿大15%的林地驯鹿种群。联邦政府承诺五年内拨款2500万加元用于保护，另拨1500万加元给第一民族社区，但省政府至今未出台具体保护策略。原住民、研究人员和环保组织多年来批评省政府不作为。",
+      "relevant": "驯鹿是加拿大北方森林生态系统的关键物种，其存亡反映政府环保执行力与联邦-省级协调的困境。",
+      "context": "魁北克省政府长期因林业利益而拖延驯鹿保护策略的制定，联邦政府近期与魁省达成协议，试图施压省政府采取行动。",
+      "source_analysis": "《卫报》野生动物栏目，报道立场偏向环境保护和原住民权益。",
+      "social_impact": "魁北克林地驯鹿数量已降至十年前的一半，涉及第一民族传统生计和文化权益。",
+      "source_text": "The caribou of Quebec are at breaking point. The province, home to 15% of Canada’s population of woodland caribou, has seen numbers crash to about half of what they were a decade ago. For years, local First Nations people, researchers and environmental groups have criticised the provincial government’s lack of action on protecting caribou, an animal considered a keystone species by Indigenous peoples. A recently announced agreement between the federal and Quebec governments has raised hopes that the province will finally be compelled to release a protection strategy. The federal government has committed C$25m (£13m) to the province for caribou over five years, with an additional C$15m for the First Nations communities on whose land the herds live. But one detail of the announcement has caused concern: the continued reliance on maternity pens. Pregnant caribou have been rounded up and enclosed in pens in the hopes that the secure environment will give them and their calves a better chance of survival. But experts say this cannot be a longterm solution. Quebec has herds throughout the province, the majority of which are woodland caribou. There are 13 woodland herds, with 6,800 to 8,900 animals in total. A caribou’s average lifespan is 10 to 15 years; females have a single calf a year, with fewer than half usually surviving their first year. The woodland herds were listed in Canada’s 2003 Species at Risk Act, but 12 of the herds are at risk of extinction in the next 20 years, says Prof Martin-Hugues St-Laurent, an animal ecologist at the University of Quebec at Rimouski. The new funding agreement focuses on only the three most critically endangered herds: in Val d’Or, Charlevoix and Gaspésie. The six remaining animals of the Val d’Or herd were placed in a protective pen in 2020, and hopes were high that the animals would breed and thrive in safety, ready for rerelease. But by summer 2026, the herd had grown by just one animal. The Charlevoix herd was penned in 2022 and numbers 48 animals; the Gaspésie herd was penned in 2023 and has 20 animals. Currently, the Val d’Or and Charlevoix herds are penned throughout the year, while it is intended that some of the Gaspésie caribou will be released every few years. Seven were released this year to join the small number of wild caribou, the first reintroduction since the animals were penned. “When you do not have any confidence that those animals will be able to survive in the wild because you have not solved the prob",
+      "source_title": "Millions of dollars in funding but still no plan: can Quebec save its caribou from extinction?",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/21/millions-of-dollars-in-funding-but-still-no-plan-can-quebec-save-its-caribou-from-extinction",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "全球变暖引发英国野火，摧毁重要鸟类栖息地",
+      "entities": [
+        {
+          "name": "RSPB Abernethy保护区",
+          "explain": "英国皇家鸟类保护协会在苏格兰凯恩戈姆山区的自然保护区，是多种珍稀鸟类的家园"
+        },
+        {
+          "name": "黑琴鸡",
+          "explain": "一种英国本土濒危鸟类，栖息于荒原和森林边缘"
+        },
+        {
+          "name": "松鸡",
+          "explain": "欧洲最大的松鸡科鸟类，英国种群数量持续下降"
+        }
+      ],
+      "summary": "今年夏天，苏格兰凯恩戈姆、萨福克海岸和新森林地区发生大规模野火，摧毁了大量重要鸟类栖息地。7月中旬首场火灾烧毁了RSPB Abernethy保护区大部分区域，威胁黑琴鸡、松鸡及苏格兰交嘴雀等珍稀物种。居民一度被疏散，火势最终被控制。",
+      "relevant": "气候变化正将野火风险从传统干旱地区扩展至英国，对已濒危的鸟类种群造成叠加打击。",
+      "context": "英国今年经历了异常炎热干燥的夏季，为野火提供了条件。凯恩戈姆山区此前很少发生大规模火灾，此次事件被视为气候变化影响的直接体现。",
+      "source_analysis": "《卫报》Weatherwatch栏目，关注气候变化对自然环境的影响，立场倾向气候行动。",
+      "social_impact": "野火影响了英国最濒危鸟类的核心栖息地，部分物种可能面临局部灭绝风险。",
+      "source_text": "Major wildfires this summer in the Cairngorms, along the Suffolk coast and in the New Forest have destroyed huge swathes of important bird habitats, affecting the populations of some of our most threatened and specialised species. The first to break out, in mid-July, destroyed much of the RSPB’s Abernethy reserve, home to declining species such as black grouse and capercaillie, as well as scarce songbirds including Scottish crossbill and crested tit. Fortunately it was brought under control before it reached the village of Nethy Bridge, whose residents were briefly evacuated. In late July, there was a devastating wildfire at Dunwich Heath, on the edge of the RSPB’s showpiece Minsmere reserve in east Suffolk. Here, much of the lowland heath – one of Britain’s most globally important habitats – was totally destroyed. Three key heathland species – woodlark, Dartford warbler and nightjar – may not now return for many years. Finally, in early August, part of the New Forest – where the same three heathland species also breed – was also destroyed by a major fire. Lowland heath is especially vulnerable to wildfires as the habitat is mainly found in the warmest and driest parts of southern and eastern England. All these examples of habitat destruction and the loss of species are the consequence of the particularly hot and dry summer; itself a direct result of a rapidly heating world.",
+      "source_title": "Weatherwatch: wildfires driven by global heating destroy UK bird habitats",
+      "source_url": "https://www.theguardian.com/news/2026/sep/21/wildfires-driven-by-global-heating-destroy-uk-bird-habitats-weatherwatch",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "英国多塞特海草床通过生态系泊装置五年内显著恢复",
+      "entities": [
+        {
+          "name": "海草床",
+          "explain": "生长在浅海海底的开花植物群落，是重要的海洋生态系统，为多种海洋生物提供栖息地"
+        },
+        {
+          "name": "生态系泊",
+          "explain": "一种替代传统船锚的固定装置，可避免锚链刮伤海底海草"
+        },
+        {
+          "name": "海马",
+          "explain": "一种小型海洋鱼类，依赖海草床生存，在英国属于受保护物种"
+        }
+      ],
+      "summary": "研究显示，英国多塞特郡Studland湾的海草床通过安装'生态系泊'装置，传统船锚造成的海底疤痕在五年内几乎完全消失。海草恢复带动了海马、鳗鱼和螃蟹等海洋生物数量增加，成为英国最珍贵水下栖息地恢复的成功案例。",
+      "relevant": "该案例证明简单的技术替代方案即可在较短时间内修复海洋生态，为全球海草床保护提供可复制经验。",
+      "context": "Studland湾的海草床长期因传统船锚抛投而遭到破坏，生态系泊装置的设计初衷是在不影响船只停泊的前提下保护海底植被。",
+      "source_analysis": "《卫报》野生动物栏目，报道立场偏向环境保护和生态修复。",
+      "social_impact": "海草床是全球高效的碳汇之一，其恢复对应对气候变化和维持海洋生物多样性具有重要意义。",
+      "source_text": "One of the UK’s most precious underwater habitats – Dorset’s seagrass meadows – is recovering thanks to “eco moorings” designed to prevent the seabed being ripped up, a study has revealed. Scars caused by traditional anchors in some areas of seagrass in Studland Bay have almost entirely vanished, which is boosting the number of seahorses that thrive in the submerged meadows. The Studland Bay Marine Partnership, which includes a wide range of organisations including conservationists and boating enthusiasts, hopes the findings could help protect and restore seagrass in other busy marine environments around the UK. Seagrass meadows are considered one of the world’s most valuable ecosystems because, as well as supporting creatures such as seahorses, they store carbon and help protect coastlines from erosion. They are declining globally due to pressures including pollution, coastal development and the climate emergency. The meadows at Studland Bay are particularly at risk because the spot is so popular with leisure boaters. Research conducted by Kira Dunn, as part of her masters degree at the University of Southampton, analysed data collected since eco-moorings were installed by the partnership in 2021. In the area where 10 trial eco-moorings were installed five years ago, bare patches in the seagrass shrank by an average of 94% between 2021 and 2025. In a second study area, where traditional chain moorings remained until 2023, the scars reduced by 65%. Dunn said: “The results clearly show that seagrass is recovering in areas where physical disturbance has been removed. It’s incredibly encouraging to see how quickly this important habitat can regenerate when given the opportunity.” David Brown, the chair of the Studland Bay Marine Partnership steering group and lead ecologist for the National Trust, said: “The impact has been beyond our expectations, and thanks to robust monitoring and research, we have the science to prove how the eco-moorings benefit seagrass and all the species that rely on it.” Studland Bay was designated a marine conservation zone in 2019 and is home to one of the UK’s largest seagrass meadows, supporting numerous marine species including the protected spiny seahorse and the occasionally recorded short-snouted seahorse. Since eco-moorings were introduced volunteer divers who monitor seahorses have reported increases in numbers. Other creatures spotted in the seagrass include conger eels, spider crabs and corkwing wrasse. Eco-moorings consi",
+      "source_title": "‘Incredibly encouraging’: healing the scars of traditional anchors in Dorset’s seagrass meadows",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/21/seagrass-eco-mooring-dorset-seahorses",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "印度科学家完成四种亚洲犀鸟参考基因组测序",
+      "entities": [
+        {
+          "name": "犀鸟",
+          "explain": "一种大型鸟类，以巨大的喙和独特的筑巢行为闻名，主要分布在亚洲和非洲热带森林"
+        },
+        {
+          "name": "参考基因组",
+          "explain": "一个物种的标准化基因序列图谱，是遗传学研究和保护生物学的基础工具"
+        },
+        {
+          "name": "NCF",
+          "explain": "自然保护基金会，印度迈索尔的一家野生动物保护研究机构"
+        },
+        {
+          "name": "CCMB",
+          "explain": "细胞与分子生物学中心，印度海得拉巴的政府科研机构"
+        }
+      ],
+      "summary": "印度自然保护基金会和细胞与分子生物学中心的研究人员为四种受威胁的亚洲犀鸟物种组装了高质量参考基因组，包括大犀鸟等。这是首次对这些物种进行系统性基因组研究，有望揭示其遗传历史和种群未来。",
+      "relevant": "基因组数据可帮助制定更科学的犀鸟保护策略，评估种群遗传多样性并预测其对环境变化的适应能力。",
+      "context": "亚洲犀鸟因栖息地丧失和偷猎而数量急剧下降，但此前缺乏基因组层面的研究数据，限制了保护措施的精准性。",
+      "source_analysis": "Mongabay India由特约撰稿人报道，专注南亚环境与保护议题。",
+      "social_impact": "四种犀鸟均为受威胁物种，基因组研究为东南亚和南亚的犀鸟保护提供了关键科学基础。",
+      "source_text": "Researchers from India have generated reference genomes for four threatened species of Asian hornbills, reports contributor Nikhil Sreekandan for Mongabay India. The scientists from the Nature Conservation Foundation (NCF) in Mysore and the CSIR–Centre for Cellular and Molecular Biology (CCMB) in Hyderabad assembled high-quality genomes for threatened Asian hornbill species including the great hornbill (Buceros bicornis), rufous-necked hornbill (Aceros nipalensis), Malabar pied hornbill (Anthracoceros coronatus), and wreathed hornbill (Rhyticeros undulatus). Prior to this study, whole-genome information was available for only two of the 32 Asian hornbill species. The research team used two types of genetic sequencing to create genetic maps for each of the species; together short- and long-read DNA sequencing helped researchers minimize errors. “A genome is the complete genetic structure of an organism, [and] a reference genome is a baseline genome for a particular species,” said Pooja Pawar, corresponding author of the study and a doctoral researcher at NCF. Pawar said that genomic tools allow scientists to examine species histories across the region and over time. “I could go back in time, to when the species originated or diverged from its sister species, and not restrict [my research] to the Western Ghats or northeast India.” The team used statistical modeling to trace changes in hornbill populations over time, and discovered that climatic instability during the Pleistocene epoch (2.5 million to 11,000 years ago) reduced the effective population sizes of all four species. Among them, the widely distributed wreathed hornbill had a higher effective population size than the other three. Meghana Natesh, a conservation geneticist at WWF India who wasn’t involved in the study, said genomics also allows researchers to understand the genetic variation in populations. “Genetic variation or diversity is crucial to the adaptive potential and long-term resilience of populations,” she said. Therefore, the findings provide a foundational tool for evaluating population resilience and informing conservation management. “By comparing their genomes, we can attribute differences in their characteristics to the structural and functional variations within their genomes,” Pawar said. Read the full story by Nikhil Sreekandan here. Banner image: The rufous-necked hornbill is found in dense forests in northeastern India, with some of the highest numbers in Arunachal Pradesh sta",
+      "source_title": "New study reveals the genetic history – and possible future – of four Asian hornbills",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/new-study-reveals-the-genetic-history-and-possible-future-of-four-asian-hornbills/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "黑洞像被敲响的钟：振动后归于寂静，几乎遗忘自身历史",
+      "entities": [
+        {
+          "name": "黑洞",
+          "explain": "宇宙中引力极强的天体，连光都无法逃脱，由大质量恒星坍缩形成"
+        },
+        {
+          "name": "黑洞铃宕",
+          "explain": "两个黑洞合并后产生的时空振动，类似被敲响的钟声逐渐衰减"
+        }
+      ],
+      "summary": "Aeon杂志刊文探讨黑洞的'宇宙失忆'现象：当黑洞像被敲响的钟一样振动后，会逐渐归于寂静，几乎遗忘自身几乎全部历史。文章由Richard Dyer撰写，探讨这一现象背后的物理学原理及其令人费解的深层含义。",
+      "relevant": "黑洞信息悖论是理论物理学最深刻的难题之一，涉及量子力学与广义相对论的根本矛盾。",
+      "context": "根据霍金的理论，黑洞会通过辐射缓慢蒸发，但这一过程是否摧毁落入黑洞的物质信息，至今仍是未解之谜。",
+      "source_analysis": "Aeon是一家专注哲学、科学和文化深度文章的在线杂志，立场偏向学术思辨。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 20 minute listen It is 9 am on a warm July Sunday in Cambridge, as I head towards a café in the city centre. The bells of Great St Mary’s church play the familiar melody of the Cambridge Quarters. The sound, now often associated with the chimes of Big Ben in London, was first composed here in 1793. The quarters, named for the melody at each quarter-hour, are an immediately recognisable reminder of the passage of time. Each bell produces a note: a wave with a characteristic frequency that travels through the air and reaches our ears. A hammer strikes the bell, and it oscillates, pushing air molecules back and forth. Those jostling molecules reach our ears and we hear a musical note. Then the bell settles, gives up its energy, and returns to silence. My research here at the University of Cambridge often brings me back to the ringing of a bell. I don’t study the physics of sound, but I do focus on a remarkably similar process, taking place throughout the Universe. I am interested in another object that also rings: a black hole. As I sit down with a coffee, I open my laptop to a wavy signal that gradually fades to a flat line. Two black holes have finished merging – a frenzied process of coalescence – leaving an extremely brief wiggle originating from the remnant black hole. Much like the struck bell, this leftover black hole is ringing in a process called ringdown, and it’s consistent across every merger I investigate. Ringdown allows physicists to test their theories of gravity: did Albert Einstein really have the last word? Just as an off-sounding note from a bell might indicate a design flaw, a discrepancy in the frequencies of a ringing black hole could be the first crack in our understanding of gravity. That’s the scientific rationale for studying ringdown, but what fascinates me equally is what happens next. After the black hole rings, it settles into silence. In that moment, lasting only a few milliseconds, the power and intensity of the merger are lost. From the exterior, almost all of that history suddenly becomes inaccessible, and what is left is featureless. The black hole settles into a simple, peaceful object of pure spacetime, with no trace of the violence that just happened. In some respects, the black holes forget. It seems counterintuitive that something so chaotically created can become so simple. Why do black holes seem to forget their violent histories? These strange objects, scattered throughout the Universe, are unli",
+      "source_title": "Cosmic amnesia",
+      "source_url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "印尼迁都之际，科学家争分夺秒记录雨林声音",
+      "entities": [
+        {
+          "name": "印尼新首都",
+          "explain": "印度尼西亚计划将首都从雅加达迁至婆罗洲的努桑塔拉，以缓解雅加达的拥堵和下沉问题"
+        },
+        {
+          "name": "声景生态学",
+          "explain": "通过记录和分析自然环境中的声音来研究生态系统健康的新兴学科"
+        }
+      ],
+      "summary": "随着印度尼西亚在婆罗洲建设新首都努桑塔拉，大片热带雨林面临被砍伐的命运。Aeon视频记录了科学家和保护人士正在与时间赛跑，赶在雨林消失之前保存其独特的声音景观。",
+      "relevant": "声音记录不仅是文化遗产的保存，也为未来生态恢复提供了基线数据。",
+      "context": "印尼政府于2019年宣布迁都计划，新首都选址位于婆罗洲加里曼丹省的森林区域，引发了对热带雨林大规模砍伐的担忧。",
+      "source_analysis": "Aeon视频栏目，内容偏向人文与科学交叉的深度纪录。",
+      "social_impact": "婆罗洲雨林是全球生物多样性最丰富的生态系统之一，迁都工程可能导致大面积森林丧失。",
+      "source_text": "For Abidin, a Balik elder who lives in East Kalimantan in Borneo, Indonesia, the sounds of nature aren’t merely a backdrop but a vital part of how he navigates the world. But as the rainforest around him has become more developed, the calls of creatures once heard everywhere have grown scarce. And that process is speeding up. To relieve Indonesia’s capital city of Jakarta, which is sinking due to overdevelopment and vulnerable to climate change, the government is building a new one, Nusantara, close to Abidin’s home. The noise of construction and city life is beginning to overpower the soundscape he relies on, and researchers suspect they may already be pushing wildlife away. In this short documentary, the US director Leah Varjacques traces an effort to record the sounds of the rainforest before they’re altered forever. The film follows Abidin working with a research team that includes Wendy Erb, a bioacoustic scientist from the Cornell Lab of Ornithology in New York, to collect audio from caves, treetops and everywhere in between. In doing so, they hope to create a record for posterity so that the rainforest’s soundscapes – and the culture and ancestral knowledge embedded within them – are never fully erased.",
+      "source_title": "Sound guardians",
+      "source_url": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "马尔科姆·格拉德威尔新书《美国杀戮方式》遭卫报批评：可读性强但未触及核心问题",
+      "entities": [
+        {
+          "name": "马尔科姆·格拉德威尔",
+          "explain": "加拿大裔美国畅销书作家，以《引爆点》《异类》等通俗社会学著作闻名"
+        },
+        {
+          "name": "《美国杀戮方式》",
+          "explain": "格拉德威尔2026年出版的新书，调查美国枪支文化"
+        },
+        {
+          "name": "卫报",
+          "explain": "英国左倾主流媒体，以文化评论和书评著称"
+        }
+      ],
+      "summary": "卫报书评人对格拉德威尔新书《美国杀戮方式》给出负面评价，认为这本关于美国枪支文化的调查虽然可读性强，但未能深入探讨更根本的问题。评论者以自身在印第安纳州与共和党人共进晚餐时被问及伦敦穆斯林市长和枪支管制的经历开篇，暗示美国枪支辩论中存在的认知偏差。",
+      "relevant": "格拉德威尔是全球最具影响力的通俗社科作家之一，他的新书选择美国枪支文化这一高度政治化的话题，必然引发广泛关注和争议。",
+      "context": "格拉德威尔此前以《引爆点》《异类》等书建立了通俗社会学写作的声誉，此次转向美国枪支文化这一敏感议题。卫报书评人从自身跨文化经历出发，认为该书未能回应枪支辩论背后的深层问题。",
+      "source_analysis": "卫报是英国左倾媒体，其书评版块通常对涉及美国社会问题的作品持批判性自由派立场，此次评论也体现了这一倾向。",
+      "social_impact": "美国枪支暴力每年导致数万人死亡，枪支管制是美國政治中最分裂的议题之一，格拉德威尔的介入可能影响公众讨论的走向。",
+      "source_text": "Once, while having a steak dinner with Republicans in a small town in Indiana, the man sitting opposite me asked: “How do you cope in London, when Muslims elected that mayor and you have all that gun control?” I’d been in enough such situations to know that there was no “winning” a conversation that starts like this and so did my best to playfully bat the question away. “Well, the Muslims didn’t elect a mayor – Londoners elected a Muslim mayor,” I said. “And we don’t talk much about gun control for the same reason we don’t talk about polar bear control: we don’t have many polar bears and we don’t have many guns.” The quip didn’t land. The table looked at me somewhat bemused. The local party leader leaned over to help dig me out. “They don’t have freedom,” he explained. “They don’t understand freedom.” In the two decades I spent reporting from America – 12 years as a correspondent for this paper – gun culture was one of two major issues that was difficult to translate (the other was health care). After every high-profile mass shooting, editors in London would ask whether this would finally prompt gun control, while in the US the sale of guns would go up as people “sought protection” from the next shooter. Malcolm Gladwell’s The American Way of Killing will not help the translation much. Gladwell, who grew up in Canada, sets out to ask why: “a young boy like me can grow up [in one place] without any first-hand experience of lethal violence at all, [while] in another a young man can bury more than a dozen of his closest friends by his 30th birthday … What is so different about the United States?” It’s a big question. And if there’s one thing Gladwell loves, it is big questions. He is the bestselling author of several popular books including The Tipping Point, which seeks to pinpoint the process by which individual choices turn into social epidemics; Blink, which investigates how we make informed decisions through our unconscious; and Outliers, which seeks to explain success and talent through graft. His method is to blend a breezy, readable writing style with a kind of Socratic, analytical approach that revels in its lack of ideological commitment; exquisite writing and pitch perfect story underpinned by moral ambivalence, which presents its findings as both mould-breaking and iconoclastic. As social commentary his books are witty, vivid and accessible, providing the kind of nuggets that do well at dinner parties so long as nobody there is remotely impacted b",
+      "source_title": "The American Way of Killing by Malcolm Gladwell review – wide of the mark",
+      "source_url": "https://www.theguardian.com/books/2026/sep/21/the-american-way-of-killing-by-malcolm-gladwell-review-wide-of-the-mark",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "德里克·奥乌苏新作《康复之家》获卫报好评：以亲身经历呈现独特诚实的心理健康书写",
+      "entities": [
+        {
+          "name": "德里克·奥乌苏",
+          "explain": "英国作家，以亲身经历为基础进行文学创作，这是他的第三部小说"
+        },
+        {
+          "name": "《康复之家》",
+          "explain": "奥乌苏的第三部小说，讲述一位年轻作家在精神健康危机后入住康复机构的故事"
+        },
+        {
+          "name": "边缘型人格障碍",
+          "explain": "一种以情绪不稳定、人际关系冲突和自我认同困难为特征的精神疾病"
+        }
+      ],
+      "summary": "卫报书评高度评价德里克·奥乌苏的第三部小说《康复之家》，称其以第一手经验为基础，对艺术、精神脆弱和信仰进行了感人至深的思考。小说主角贾马尔是一位年轻小说家，在精神崩溃后住进康复之家，此前曾服药过量、酗酒并被诊断为边缘型人格障碍。作者在序言中要求读者先听小红莓乐队的《Zombie》两到四遍。",
+      "relevant": "心理健康是当代社会日益关注的议题，奥乌苏以亲身经历为基础的书写为这一领域提供了罕见的第一人称视角。",
+      "context": "奥乌苏此前已出版两部作品，此次将自身的精神健康经历转化为小说创作。康复之家是一种替代住院的居住式康复机构，在英国精神卫生体系中扮演重要角色。",
+      "source_analysis": "卫报书评版块对具有社会关怀和多元背景的作家通常持支持态度，此次评论体现了对心理健康议题文学化呈现的肯定。",
+      "social_impact": "英国精神卫生服务体系长期面临资源不足问题，边缘型人格障碍患者常遭遇污名化，该书可能推动公众对心理健康问题的理解。",
+      "source_text": "“What’s in your head?” Dolores O’Riordan’s raw, plaintive refrain loops through the Cranberries’ 1994 hit Zombie. A protest song about the Troubles could, on paper, hardly seem further removed from Derek Owusu’s third novel, about a young writer recovering from a mental health crisis. But in an author’s note before The Recovery House begins, Owusu instructs the reader to listen to the song “at least two to four times before going beyond this page”. Gradually it becomes clear that the song’s central question is one Owusu’s protagonist asks in various forms throughout the novel. Can we ever fully understand what is going on in our own heads? We meet Jamal, a young novelist who has woken up in a recovery house – a residential alternative to hospital admission – after a breakdown. It transpires that he has overdosed, is an alcoholic, and has been diagnosed with borderline personality disorder. He is in a frazzled, frantic state, initially less interested in getting better than in piecing together how he got there. The house itself is hardly a sanctuary in the conventional sense: Jamal finds a single bed with protruding springs, dead cockroaches in the nightstand and restless corridors in which people in various states of distress move around one another. Jamal’s nurses watch him; he watches them back. Owusu knows the world he is writing about – he spent a summer in a recovery house himself after a mental health crisis, and there is an intimacy to the way he renders this suspended, in-between place. Writing is both Jamal’s vocation and his illness. Like Owusu, he has published two books and won an award for his first; the expectations surrounding the third have become unbearable, and he eventually remembers that it was the attempt to write it that precipitated his breakdown. He comes to the frightening realisation that “the thing that inspired me is the thing that’s trying to kill me”. His frustration with the world of publishing is also evident: “why does everyone in this industry want something from you even though we’re all very aware that things usually take time.” A woman staying in the room below Jamal sings Zombie’s chorus in the night, over and over, until he finds himself singing it too, flooding his mind in interstitial moments. The singer, Joy, eventually slips a pen and paper beneath his door, something the nurses have refused him for fear of what writing will provoke. From there, they develop a tender, almost soulmate-like friendship, which becomes",
+      "source_title": "The Recovery House by Derek Owusu review – a uniquely honest view of mental health",
+      "source_url": "https://www.theguardian.com/books/2026/sep/21/the-recovery-house-by-derek-owusu-review-a-uniquely-honest-view-of-mental-health",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "卫报评选雷切尔·卡斯克十部最佳作品：从《Outline》三部曲到新作《M的一生》",
+      "entities": [
+        {
+          "name": "雷切尔·卡斯克",
+          "explain": "英国作家，以自传体小说和关于女性经验的争议性书写闻名"
+        },
+        {
+          "name": "《M的一生》",
+          "explain": "卡斯克最新小说，讲述一位作家为一位酷似娜塔莉·波特曼的电影明星撰写传记"
+        },
+        {
+          "name": "自传体小说",
+          "explain": "以作者自身经历为素材、模糊虚构与非虚构边界的小说类型"
+        }
+      ],
+      "summary": "卫报文化版评选了雷切尔·卡斯克的十部最佳作品并排名。榜单涵盖她从早期机智的社会喜剧到《Outline》三部曲以来的冷峻自传体小说，最新作品《M的一生》被描述为对空虚名气的扁平化抽象肖像。评论提到《纽约时报》将其评价为“精致、世界主义、自我严肃”。",
+      "relevant": "卡斯克是当代英国最具争议性和影响力的作家之一，她的创作转向反映了自传体小说在当代文学中的演变。",
+      "context": "卡斯克早期以《拯救阿格尼斯》等社会喜剧成名，2014年《Outline》开启了她向冷峻自传体小说的转型，此后作品持续引发关于女性经验、离婚和母职的公共讨论。",
+      "source_analysis": "卫报文化版对卡斯克的态度复杂，既认可其文学地位，又对其“冷峻”风格保持批判距离，此次排名体现了这种矛盾立场。",
+      "social_impact": "卡斯克的作品长期引发关于女性写作、自传伦理和名人文化的公共辩论，其新作涉及对名人身份的审视，可能再次激起讨论。",
+      "source_text": "10 Life of M (2026) In Cusk’s headline-grabbing latest, a writer invents the biography of a film star who sounds very like Natalie Portman. Set in the now standard late-Cusk sans serif typeface (no frivolous flourishes!), Life of M serves up observations on fame in a light fictional coating. “To always be playing a part is to have no home.” Having made her name as a devilishly good creator of brainy social comedies, Cusk’s pivot to wintry autofiction since the Outline trilogy appears to have reached its logical conclusion in this flat, abstracted portrait of empty celebrity. The New York Times called it “rarefied, cosmopolitan, self-serious”. Sample line: “Everything I did or said in her company was false. It was as if I was acting, while M came across as authentic and real.” 9 The Lucky Ones (2003) A collection of stories about diverse characters who are linked by the influence of a newspaper columnist. They start weakly – Cusk struggles to embody a working-class female prisoner – but improve once she turns her caustic eye to ski trips and lawyers. The short form enables Cusk to show a narrative strength we don’t always see. Sample line: “Jane and Thomas were ironing out their lives in preparation for parenthood, starching and folding and putting away their youth, their excitement, their spontaneity.” 8 Saving Agnes (1993) After a cracking first line (“The house, like the party, was subsiding”), Cusk’s cheerfully comic debut tickles the reader throughout, as Agnes Day looks for love in contemporary London. Published to acclaim (and a Whitbread award) when Cusk was 26, it has a young writer’s weakness for using elaborate locutions as a shortcut to comedy, but there’s energy on every page, and her phrasing is always perfect: Agnes’s friend Merlin has “a salary for which Elizabeth Bennet would have left Darcy’s dinner burning in the oven”. Sample line: “Like a mirror he gave back nothing but what was already there; smash it and he would be gone, leaving her with nothing but a rearranged face and a few years of bad luck.” 7 The Temporary (1995) Cusk’s sparky second novel is a romantic dramedy. Two Londoners – publishing temp Francine and posh Ralph – bond over a dried-out risotto “like a dish of planetary matter brought back by an alien”. Francine’s house moves frustrate her mother (“You’ve quite ruined my new address book, what with all the crossings-out”); then Ralph wants to move on too. “I thought she understood it was just a temporary thing.” The story b",
+      "source_title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
+      "source_url": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "哲学家马西莫·皮柳奇在Aeon撰文：西塞罗的“或然论”教导我们应自信但永不确定",
+      "entities": [
+        {
+          "name": "西塞罗",
+          "explain": "古罗马政治家、演说家和哲学家，以折衷主义哲学和拉丁语散文著称"
+        },
+        {
+          "name": "或然论",
+          "explain": "一种认识论立场，认为我们应基于可能性而非确定性来形成信念"
+        },
+        {
+          "name": "马西莫·皮柳奇",
+          "explain": "纽约城市大学哲学教授，斯多葛主义现代推广者，著有《如何成为斯多葛主义者》"
+        }
+      ],
+      "summary": "哲学家马西莫·皮柳奇在Aeon发表文章，以古罗马思想家西塞罗的生平和思想为例，阐述“或然论”的认识论立场：我们应当对自己的信念保持自信，但永远不应达到确定的程度。文章将西塞罗视为这一哲学传统的典范。",
+      "relevant": "在信息过载和极端立场盛行的时代，西塞罗式的怀疑主义提供了一种平衡自信与谦逊的思维框架。",
+      "context": "西塞罗是古罗马最重要的哲学家之一，其折衷主义认识论融合了学园派怀疑主义和斯多葛主义。皮柳奇长期致力于将古代哲学应用于现代生活。",
+      "source_analysis": "Aeon是专注于哲学、科学和文化长文的数字杂志，以学术深度和公共可读性并重著称，作者皮柳奇是斯多葛主义在现代最活跃的推广者之一。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 22 minute listen How tightly should you hold your beliefs? You face the question several times a week without noticing. Hold them too loosely and you don’t stand for anything, hold them too tightly and you become the sort of person no argument can reach. Most of us swing between the two and have no vocabulary for the ground in between. A Roman lawyer worked one out, under pressure far worse than anything we are likely to face, and it is still the best answer available. The time is early 45 BCE, the place a villa near Lucrine Lake, northwest of Naples, in southern Italy. One of the most fascinating and controversial figures in the entirety of Western history, Marcus Tullius Cicero, is finishing writing a book that will be known as the Academica, where he explains the nature of sceptical philosophy and why it is so crucial not just to the advancement of human knowledge, but to living a good life. It is a strange moment to retire into one’s villa to write. The Roman Republic, so beloved by Cicero, is about to be destroyed by aspiring autocrats: Julius Caesar, a longtime friend and now a political opponent, has declared himself dictator for life, a move that will soon lead to his assassination on the Ides of March 44 BCE. On the personal front, Cicero has recently divorced Terentia, his wife of 30 years, and a few months ago his beloved daughter Tullia died from complications following childbirth. You would think a man whose private and public worlds are collapsing so dramatically would hardly have the focus to write philosophy. Yet for Cicero such writing is a form of therapy, and the treatises he produces will influence medieval Christians, Renaissance authors, and the Founders of the American Republic. Cicero managed all this because of his adopted philosophy, ‘Academic Skepticism’, so-called because it characterised, for the period from 266 to 90 BCE, the Academy originally founded by Plato. He used to be treated as a mere populariser, a gifted Roman relaying Greek ideas he did not really own, but scholars abandoned that uncharitable verdict decades ago as it became clear that Cicero argued and decided among his sources rather than simply transcribing them. He also built a Latin philosophical vocabulary from scratch, and much of the abstract terminology of European thought descends from his coinages. On the question that mattered most to his own school – whether a sceptic may hold opinions, and on what terms – his position was his own ",
+      "source_title": "He was probably right",
+      "source_url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "弗兰克·劳埃德·赖特的秘密副业：日本艺术品经销商身份如何塑造其建筑风格",
+      "entities": [
+        {
+          "name": "弗兰克·劳埃德·赖特",
+          "explain": "美国最著名的建筑师之一，以流水别墅和古根海姆博物馆等作品闻名"
+        },
+        {
+          "name": "浮世绘",
+          "explain": "日本江户时代的木版画艺术，对19世纪欧洲印象派产生深远影响"
+        }
+      ],
+      "summary": "Open Culture刊文揭示，美国建筑大师弗兰克·劳埃德·赖特在职业生涯中曾秘密从事日本艺术品经销以补贴收入。文章探讨了这段副业如何深刻影响了他的建筑美学，包括对空间流动性和自然元素的处理。赖特虽享有数十年盛名，但常面临财务困境。",
+      "relevant": "这段历史揭示了跨文化艺术交流如何塑造了20世纪最重要的建筑作品之一，也展现了艺术家经济压力与创作之间的复杂关系。",
+      "context": "赖特在20世纪初多次面临财务危机，通过经销日本浮世绘等艺术品获取收入。他对日本艺术的痴迷始于1893年芝加哥世博会，此后多次访问日本并设计了帝国饭店。",
+      "source_analysis": "Open Culture是一个专注于文化教育资源的聚合网站，内容偏向知识普及和趣味发现，立场中立。",
+      "social_impact": "",
+      "source_text": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his death. But if they’ve encountered one another in the afterlife, they’ve certainly discussed one subject above all others: their shared appreciation for Japanese woodblock prints. Here on Open Culture, we’ve previously featured the collection of 500 such works of art that van Gogh left behind. At the end of Wright’s life in 1959, he owned about 6,000, many of which his estate had to sell to pay both Japanese art dealers and American tax collectors. We could say that Wright died as he lived, advanced age having not evidently diminished either his financial recklessness or his obsession with ukiyo‑e. The masters of that classical “art of the floating world” like Hokusai and Hiroshige were among his favorite artists of any kind. When still a teenager, Wright went to work for the architect Joseph Silsbee, who’d built a chapel for his uncle. “Silsbee’s cousin, Ernest Fenollosa, happened to be the world’s leading Western expert on Japanese art at the time,” writes Kevin Nute at The Conversation. It isn’t certain how well the young Wright knew Fenollosa — or indeed when he began collecting ukiyo‑e, writes Frank Lloyd Wright and the Art of Japan author Julia Meech-Pekarik, though he may have seen both Hokusai and Hiroshige’s works at the World’s Columbian Exposition in Chicago in 1893, “about the time he opened his practice in Oak Park.” Eight years later, “Wright made his first voyage to Japan in pursuit of prints, and he did indeed return with enough expertise to stage an exhibition of his own Hiroshige collection at the Art Institute of Chicago in March of 1906.” He returned for two months in 1913, making it clear that he was only interested in using that time to acquire more prints. Later, while working on the Imperial Hotel between 1917 and 1922, he spent a total of more than three years there, later writing that “the pursuit of the Japanese print became my constant recreation while in Tokio,” a quest whose “adventures and excursions would take place at night or sometimes call for a journey by day to distant places.” This positioned him well to take on a sideline as a dealer (or as he liked to call himself, a merchant) of Japan",
+      "source_title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "source_url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "数百期德国新艺术运动杂志《青年》开放下载：见证1896至1940年德国文化变迁",
+      "entities": [
+        {
+          "name": "《青年》杂志",
+          "explain": "德国新艺术运动（Jugendstil）的代表性杂志，1896年创刊，推动了德国现代设计运动"
+        },
+        {
+          "name": "一体化",
+          "explain": "纳粹1933年上台后推行的政策，将德国社会各领域强制纳入纳粹意识形态控制"
+        },
+        {
+          "name": "新艺术运动",
+          "explain": "19世纪末20世纪初的装饰艺术运动，强调有机线条和自然形式"
+        }
+      ],
+      "summary": "Open Culture报道，数百期德国新艺术运动杂志《青年》（1896-1940）现已开放下载。文章指出，该杂志的出版历程跨越了德国从帝国到魏玛共和国再到纳粹时期的历史变迁，1933年的“一体化”政策使德国在一夜之间发生彻底转变。",
+      "relevant": "这批杂志是研究德国现代设计史和20世纪政治文化变迁的重要一手资料，免费开放下载具有学术和公共教育价值。",
+      "context": "《青年》杂志是德国新艺术运动的旗舰出版物，其名称直接催生了德语中“Jugendstil”一词。杂志从1896年创刊至1940年停刊，完整经历了德国从帝制到纳粹的剧烈政治变革。",
+      "source_analysis": "Open Culture是文化教育资源的聚合平台，此次报道属于资源推荐性质，立场中立。",
+      "social_impact": "该杂志的数字化开放使全球研究者和公众可免费获取20世纪初德国视觉文化的一手资料，有助于理解艺术与政治权力的关系。",
+      "source_text": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum writes. “Culture, the economy, education, and law all came under Nazi control.” Those artists and organizations that were not purged had their essential character changed to reflect an entirely different set of artistic and political values. One publication, especially, serves as an example of the Nazification of culture. The arts journal Jugend (Youth), writes Messy Nessy Chic, “had been turned largely into propaganda” between 1933 and 1940, its final year. But prior to the regime’s takeover, Jugend showcased the most avant-garde, “degenerate” artists of the era, and might have been “the ‘brainiest’ periodical of the day,” as one critic wrote in a 1904 issue of The Yale Literary Magazine. “There is no magazine published in England or in this country which is at all like it.” You can take a look yourself—browse, search, and download hundreds of scanned issues of Jugend at the University of Heidelberg’s digital archive, thousands of pages in PDF form, spanning the magazine’s forty-four-year history. You can also see images at Flickr. As in England, France, Austria, and the U.S., the Art Nouveau movement in Germany emerged from a whirlwind of post-Impressionist painting, Orientalist motifs, folk art, modernist art and advertising, book illustration, and graphic and industrial design. Appropriately, given its perch on the threshold of a new century, Art Nouveau looked both backward—to the medieval, gothic, and Romantic—and forward toward a more modernist, urbane, and urbanized sensibility. So influential was Jugend that Art Nouveau in Germany became known as Jugendstil. The Oxford Critical and Cultural History of Modernist Magazines writes, “Among Jugend’s most important qualities—indeed, an essential aspect of Art Nouveau and its German equivalent Jugendstil—was its brilliant escapism.” Founded in 1896 by writer Georg Hirth, the magazine was “from the start a venue to promote the new cultural Renaissance without recourse to the established ‘vintage’ art.” (See its very first cover right above.) Jugendstil was primarily based in Munich, where most of its artists, designers, and writers lived and worked, ",
+      "source_title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "source_url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "贝叶挂毯在大英博物馆展出：沉浸式深度解读这件中世纪刺绣杰作",
+      "entities": [
+        {
+          "name": "贝叶挂毯",
+          "explain": "一幅长约70米的中世纪刺绣作品，描绘1066年诺曼征服英格兰的历史事件"
+        },
+        {
+          "name": "诺曼征服",
+          "explain": "1066年诺曼底公爵威廉入侵并征服英格兰的历史事件，改变了英国的语言、法律和统治阶层"
+        },
+        {
+          "name": "大英博物馆",
+          "explain": "位于伦敦的世界顶级综合性博物馆，收藏全球各地文物"
+        }
+      ],
+      "summary": "随着贝叶挂毯在大英博物馆展出，Deep Down History推出了一期深度沉浸式解读节目，讲述这件中世纪刺绣的全貌。挂毯长约70米，以刺绣形式记录了导致1066年诺曼征服英格兰的一系列事件，是中世纪最非凡的存世文物之一。",
+      "relevant": "贝叶挂毯极少外借展出，此次在大英博物馆亮相是难得的公共文化事件，沉浸式解读为无法亲临的观众提供了替代体验。",
+      "context": "贝叶挂毯通常保存在法国贝叶，此次在大英博物馆展出属于罕见的文化交流。挂毯创作于11世纪，以连环画形式描绘了哈罗德二世与威廉公爵之间的权力斗争。",
+      "source_analysis": "Open Culture推荐了Deep Down History的解读内容，属于文化资源推荐，立场中立。",
+      "social_impact": "贝叶挂毯是欧洲中世纪最重要的视觉史料之一，其展出和数字化解读有助于公众理解英法两国共同的历史根源。",
+      "source_text": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, culminating in the Battle of Hastings. This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…” Enjoy! Related Content The Story Told on the Famous Bayeux Tapestry Explained from Start to Finish Behold a Creative Animation of the Bayeux Tapestry How England First Became England: An Animated History The Bayeux Tapestry Animated The Entire History of the British Isles Animated: 42,000 BCE to Today Construct Your Own Bayeux Tapestry with This Free Online App",
+      "source_title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "source_url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "Pitchfork重温《逍遥骑士》原声带：一代人的电台金曲，听起来像一个正在消逝的梦",
+      "entities": [
+        {
+          "name": "《逍遥骑士》",
+          "explain": "1969年上映的美国公路电影，由丹尼斯·霍珀执导、彼得·方达主演，被视为反文化运动的标志性作品"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名音乐评论网站，以深度乐评和评分体系在独立音乐界具有重要影响力"
+        }
+      ],
+      "summary": "Pitchfork在其每周经典专辑回顾栏目中重新审视了1969年电影《逍遥骑士》的原声带。评论称这张原声带汇集了当时电台热门歌曲，整体听感“像一个正在消逝的梦”，捕捉了美国反文化运动末期的时代情绪。",
+      "relevant": "《逍遥骑士》原声带是电影音乐史上的里程碑，它开创了用流行歌曲而非传统配乐来构建电影叙事的先河。",
+      "context": "《逍遥骑士》1969年上映，讲述两个摩托车手穿越美国的旅程，成为反文化时代的文化符号。原声带收录了Steppenwolf、The Byrds等乐队的歌曲，与电影主题高度契合。",
+      "source_analysis": "Pitchfork以独立音乐和经典专辑的深度评论著称，其回顾栏目通常带有怀旧和重新评价的视角，立场偏向独立音乐文化。",
+      "social_impact": "《逍遥骑士》原声带影响了此后数十年的电影音乐制作方式，使“歌曲驱动型”原声带成为好莱坞标准做法之一。",
+      "source_text": "The story could scarcely be more simple: two committed patriots off to find America. The iconic, oft-referenced sequence in 1969’s psychedelic biker opera Easy Rider features the film’s twinned anti-heroes, Billy and Wyatt, tearing down a sprawling U.S. highway astride two choppers at some impossible speed, soundtracked by one of the greatest badass statements of purpose rock’n’roll ever yielded: Steppenwolf’s “Born to Be Wild.” It’s a song that perfectly bisects the dueling hippie impulses between the communitarian and utopian, and the hedonistically self-fascinated, a painful cleavage which was coming to the fore just as Easy Rider hit screens in July 1969. Can you picture it? Set against the monster rock riffs of lead guitarist Michael Monarch, singer John Kay’s edict to “take the world in a love embrace” sits nervously alongside the tune’s insinuating thirst for danger: “I like smoke and lightning/Heavy metal thunder.” This is the dichotomy that would define both the film and the soundtrack, the pastoral, pacific drop-out resistance of the Summer of Love running directly into the fraught entropy of an ersatz movement losing steam and beginning to cannibalize itself. It’s an image of such pure lawless liberation, from blue-to-red-state America, I’m not sure we’ve ever fully recovered. It’s way more “don’t tread on me” than “come on people now, smile on your brother.” In my mind—and I’ve seen the movie many, many times—I always think this is how Easy Rider starts. No score yet, be the first to add. The actual first scene in Easy Rider is intensely uneasy, a tenuous south-of-the-border drug deal that has all the hallmarks of a classic Treasure of the Sierra Madre-style misunderstanding. But no. Peter Fonda and Dennis Hopper—the film’s titular motorcycle muses—manage to fence what looks like a bumper crop of coke to a louche-looking drug connect played by Phil Spector, who sends them off with generational cash in exchange. So, the first song you hear in the movie is not Steppenwolf’s epochal nature-call, but rather their cover version of Hoyt Axton’s sad and cynical “The Pusher.” Soon enough, our heroes are unleashed, furious and stoned, on the now-decommissioned highways of 1969. But they’d never outrun the slow creeping blues of the first Steppenwolf song, even as Hopper’s Billy and Fonda’s Wyatt lit out to what was ostensibly their last deal gone down. Some sage once opined, “To live outside the law you must be honest.” Wyatt and Billy are never honest ",
+      "source_title": "Easy Rider (Music From the Soundtrack)",
+      "source_url": "https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "Beck发布新专辑《Ride Lonesome》，被视为《Morning Phase》的精神续作",
+      "entities": [
+        {
+          "name": "Beck",
+          "explain": "美国知名音乐人，风格横跨另类摇滚、民谣、放克和电子，代表作有《Loser》《Morning Phase》等"
+        },
+        {
+          "name": "Morning Phase",
+          "explain": "Beck于2014年发行的专辑，风格忧郁内敛，曾获格莱美年度专辑奖"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分和深度乐评著称，对独立和另类音乐有重要影响力"
+        }
+      ],
+      "summary": "Beck推出新专辑《Ride Lonesome》，Pitchfork将其定位为2014年获奖专辑《Morning Phase》的精神续作。新作融合了乡村民谣创作风格与轻柔迷幻的西海岸摇滚，但评论指出专辑中的布鲁斯元素显得略显灰暗沉闷。",
+      "relevant": "Beck是横跨多个年代的格莱美获奖音乐人，他的新专辑动向对另类音乐圈有较高关注度。",
+      "context": "Beck上一张广受好评的专辑《Morning Phase》发行于2014年并获格莱美年度专辑。此后他推出了风格迥异的《Colors》（2017）和《Hyperspace》（2019），此次回归内敛风格被评论界视为回到《Morning Phase》的路线。",
+      "source_analysis": "Pitchfork以独立音乐深度评论著称，倾向于推崇实验性和情感深度兼备的作品，对主流化风格转变常持保留态度。",
+      "social_impact": "",
+      "source_text": "Beck rose to fame in the early 1990s as an absurdist poet who mashed together blues, folk, and hip-hop while getting crazy with the Cheez Whiz. For most of his career, that was the default Beck, the real Beck. But is that right? According to the forthcoming book The Last Temptation of Beck, he used to crash stages between sets, usually when one band was breaking down and the other was plugging in, and he’d play a few songs on acoustic guitar and harmonica for a captive audience. Some of those songs were straight-faced covers of blues standards and some were straight-faced originals, and they were generally received by a chattering crowd who were more confused than amused. It was only when Beck started rapping non sequiturs that the bystanders shut up and took notice. That was the first Beck we paid attention to, the one with the leafblower and Stormtrooper helmet, the one who announced himself on the Bong Load 7\" of “Loser,” a surprise hit that caught even him off guard. The 1990s chose that Beck from several different mutations he was tinkering with at the time, and when he veered from that persona it came as a surprise. Mutations in 1998 and Sea Change in 2002 were both noteworthy for their attempts to express something personal in a more straightforward musical mode—the manchild growing up, abandoning irony and shenanigans—but those albums were just warm-ups for 2014’s Morning Phase, when Beck went full country-rock for a record that sounded like waking up after a dark night of the soul. Fans old and new embraced this new version of Beck, and none of his subsequent albums have landed with quite the same impact. Morning Phase reintroduced him as a commercially viable artist and even nabbed the Album of the Year Grammy. No score yet, be the first to add. Maybe a follow-up like Ride Lonesome was inevitable. After the more upbeat Colors in 2017 and Hyperspace in 2019, Beck once again picks up his acoustic guitar and dons his floppy folksinger hat. This version of Beck plies low-key musings about isolation and emotional alienation and arranges them in a way that balances loping country-folk with buoyant French pop (the bass is a lead instrument) and ’60s West Coast rock. With most of the musicians from Sea Change and Morning Phase returning, the songs settle comfortably into a familiar sound and a familiar version of Beck, right down to the relentless midtempo plod and the syrupy strings. Beck retreads rather than reconsiders those ideas, which makes Ride Lo",
+      "source_title": "Ride Lonesome",
+      "source_url": "https://pitchfork.com/reviews/albums/beck-ride-lonesome/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "Rebecca Black发行第二张专辑《Age of the Exhibitionist》，转向俱乐部舞曲风格",
+      "entities": [
+        {
+          "name": "Rebecca Black",
+          "explain": "美国流行歌手，2011年因争议性病毒视频《Friday》走红，此后持续转型为独立流行音乐人"
+        },
+        {
+          "name": "Age of the Exhibitionist",
+          "explain": "Rebecca Black的第二张录音室专辑，以窥视幻想为主题，风格为适合俱乐部播放的舞曲流行"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分和深度乐评著称"
+        }
+      ],
+      "summary": "Rebecca Black发布第二张专辑《Age of the Exhibitionist》，Pitchfork评价其构建了一个窥视主义的幻想世界，音乐以耐听的俱乐部舞曲流行为基底，同时保留了足够的怪诞元素使作品保持趣味性。",
+      "relevant": "Rebecca Black从网络争议人物到严肃流行音乐人的转型一直受到关注，这张专辑是她音乐道路上的又一重要节点。",
+      "context": "Rebecca Black在2011年因《Friday》MV被全网嘲讽而走红，此后她逐步转型，2021年发行首张专辑《Rebecca Black Was Here》，获得评论界一定认可。此次第二张专辑延续了她向成熟流行音乐人转型的轨迹。",
+      "source_analysis": "Pitchfork对流行舞曲通常持审慎态度，但倾向于认可具有独特个性的作品，此次评价整体偏正面。",
+      "social_impact": "",
+      "source_text": "You could draw a map of the pseudo-Los Angeles pulsing through Age of the Exhibitionist. Begin in Anaheim, the sunburnt suburb and birthplace of pop artist Rebecca Black. Take the freeway to the laundromat that’s actually an underground queer club; hit the dancefloor where you can watch “your best friend go French with Miss Black.” Hell, there’s even a mansion, maybe tucked away somewhere in the Hills. Black’s second album, created with producers including Nightfeelings (Kim Petras’ Detour), Oscar Scheller (Kelela, PinkPantheress), and atlgrandma (ADÉLA, The Hellp), is full of these secret pleasure dens. It’s a giddy electro-pop concoction with frisky, hedonistic dreams, though even the most freaked-up tracks—“Exhibitionism,” “Miss Delicious,” “Waschesalon”—feel less like full-throated anthems to sexual liberation than digicam snapshots of that night you hit the sex clubs with your friends. Age of the Exhibitionist is not the radical sexual fantasia of Erotica, nor the sensuous, tortured introspection of LP1-era FKA twigs, though Black does evoke something similar in the skeletal seductions of “Corsetry”: “Pain will make the idol.” Despite the album’s title and many gestures to kink—exhibitionism! femdom! gunplay! bondage!—it seems unlikely to kickstart anyone’s sexual awakening. But that’s no reason you can’t bump it in the Uber on the way to the dungeon. Much like a good dancefloor makeout session, where you can get away with not knowing someone’s name as long as the mood is right, Age of the Exhibitionist skimps on the story to focus on durably constructed pop and voyeuristic fun. Small surprises reveal the music’s playful curiosity: the juicy bass that becomes a squelchy puddle and a squirming maw of ecstasy in “Hot Wet Delirious,” the soaring helium-pumped “I wouldn’t mind”’s in “Michael.” that suggest a body lost in pleasure, the woozy trip-hop comedown of “Backstage Baby Interlude.” No score yet, be the first to add. You’ll recognize some stars at this club: There’s dashes of Britney and older Gaga in “Metamorphia,” a “Fergalicious” interpolation in “Miss Delicious,” and “Hot Wet Delirious” sounds like Kylie Minogue emerging from a K-hole in a West Hollywood warehouse. The album’s reverence of its idols may invite criticism, but it also showcases Black’s dexterity as a DJ, with each song twisting through multiple transformations. “Anaheim Star” is a new-age Gwen Stefani cheerleader chant for 30 seconds before it mutates into something else, all chip",
+      "source_title": "Age of the Exhibitionist",
+      "source_url": "https://pitchfork.com/reviews/albums/rebecca-black-age-of-the-exhibitionist/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "纽约黑金属乐队Krallice发行新专辑《Scour Order》，首次拥抱怀旧风格",
+      "entities": [
+        {
+          "name": "Krallice",
+          "explain": "纽约实验黑金属乐队，以复杂编曲和不断突破流派边界著称，成立于2007年"
+        },
+        {
+          "name": "黑金属",
+          "explain": "一种起源于1980年代斯堪的纳维亚的重金属子流派，以高速演奏、失真吉他、尖叫式唱腔和阴暗氛围为特征"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分和深度乐评著称"
+        }
+      ],
+      "summary": "纽约实验黑金属乐队Krallice发行新专辑《Scour Order》。Pitchfork评论指出，这支以无止境实验著称的乐队此次罕见地拥抱了怀旧情绪，放下包袱尽情释放，乐队自身也乐在其中。",
+      "relevant": "Krallice在黑金属和前卫金属圈内享有极高声誉，此次风格转向对关注实验金属的乐迷而言是一个值得注意的变化。",
+      "context": "Krallice成军十余年来以不断推翻自身风格著称，从传统黑金属到前卫死亡金属再到氛围实验均有涉猎。此次《Scour Order》被评论视为乐队首次主动回望早期风格的作品。",
+      "source_analysis": "Pitchfork长期关注金属和实验音乐领域，对Krallice此前作品多有正面评价，此次评论语气轻松积极。",
+      "social_impact": "",
+      "source_text": "Krallice, as a rule, do not look back. The prolific New York quartet has long been identified with the experimental black metal movement—that is, black metal carried out as a series of experiments, yielding a rich body of empirical evidence that’s been folded into their ever-evolving sound. Lev Weinstein has drummed on each of the band’s albums since 2008’s introductory Krallice, but that’s been their only true constant. Mick Barr, Colin Marston, and Nicholas McMaster have all switched instruments and traded off on vocal and songwriting duties. Dave Edwardson from Neurosis was welcomed into the fold for a few albums. Synthesizers showed up one day and, for stretches, supplanted the guitars entirely. Every step Krallice have taken has felt like a step into the unknown, until now. Scour Order, the band’s synth-free 16th full-length, returns the band to its original configuration, with Barr and Marston on guitar and McMaster on bass. It plays like Krallice’s first-ever concession to nostalgia. That isn’t a bad thing. Krallice might come off like nerdy purveyors of what was once called “thinking man’s metal,” but on their first few albums, they stacked flurries of frenetic guitar riffs and barrages of blasting drums into songs that were engaged with black metal’s original texts. Before Krallice, Barr and Marston were best known for playing in obtuse, math-y instrumental bands; they teamed up because they thought it would be fun to channel Darkthrone. As they drifted from those founding principles, the music, while always compelling, could occasionally lose some of its blood-pumping immediacy. Scour Order returns black metal to the core of Krallice. Its songs are tightly wound and doggedly riff-oriented, the sense of spaciousness on the synth-era albums all but obliterated. The compositional cleverness and destabilizing use of counterpoint that have always buoyed Krallice’s music is still evident, but it’s also clear that they’re having a blast just letting it rip. No score yet, be the first to add. That feeling arrives early and doesn’t let up. Opening track “Agonal Shining” builds to a magisterial peak, with trebly, ascending riffs darting through the gaps left in Weinstein and McMaster’s tricky rhythmic interplay. Then, at the five-minute mark, the guitarists hold onto a quavering high note while Weinstein pushes the tempo. When the riffage returns, it’s in thrash time, with Barr and Marston galloping at full speed for the remainder of the song, trading crun",
+      "source_title": "Scour Order",
+      "source_url": "https://pitchfork.com/reviews/albums/krallice-scour-order/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "波特兰音乐人Emma Ruth Rundle发行新专辑《These Killing Times》，展现罕见的乐观情绪",
+      "entities": [
+        {
+          "name": "Emma Ruth Rundle",
+          "explain": "美国波特兰的创作歌手和吉他手，风格融合后摇滚、民谣和末日金属，以沉重忧郁的创作著称"
+        },
+        {
+          "name": "These Killing Times",
+          "explain": "Emma Ruth Rundle的新专辑，延续其末日阴郁风格但注入了新的动力感"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分和深度乐评著称"
+        }
+      ],
+      "summary": "波特兰音乐人Emma Ruth Rundle发行新专辑《These Killing Times》，在全球重型音乐领域展开了广泛的合作。Pitchfork评论指出，她在这张末日般阴郁的创作中捕捉到了一种新的动力感，甚至带有乐观色彩。",
+      "relevant": "Emma Ruth Rundle是重型音乐与独立民谣交叉领域的重要声音，此次专辑中的情绪转变值得关注。",
+      "context": "Emma Ruth Rundle此前以《Marked for Death》（2016）和《On Dark Horses》（2018）等专辑确立了沉重忧郁的创作风格，并曾与Thou等乐队合作。此次新专辑在延续暗色基调的同时呈现出情绪上的转变。",
+      "source_analysis": "Pitchfork对Emma Ruth Rundle此前作品多有正面评价，此次评论关注其创作情绪的微妙变化。",
+      "social_impact": "",
+      "source_text": "Emma Ruth Rundle is discovering that there’s more to life than loneliness. Across a decade-plus of solo recordings, the Portland-based singer-songwriter has typically favored sounds of desolation and solitude. She’s treated sparse arrangements of downtuned guitars and hermetic piano chords—occasionally punctured by trudging percussion or thorny distortion—as an abandoned landscape to wander, offering meditations on trauma, death, and destruction. Her songs have often been full of the downcast thoughts you can let yourself become consumed by when you spend too long inside your own head, something that Rundle admits she’s naturally predisposed to doing. “There was a period where… I romanticized the isolated artistic hermit lifestyle a little too hard,” she said in a recent interview. “It did me more harm than good.” As Rundle worked on her new album These Killing Times, she was once again confronted with a world that disappointed her. Press materials say the record was written in early 2025 during “yet another climate disaster,” a statement that could refer to any number of cataclysmic events. But this time, when confronting the darkness, she decided she didn’t want to do it alone. Rundle worked with a hefty list of collaborators from around the world of heavy music—including avant-rock guitarist Nick Reinhart, drummer Jess Gowrie (who’s played with Chelsea Wolfe and metal band Horseneck), Baroness guitarist Gina Gleason, and her frequent collaborator Troy Zeigler, among many others. This isn’t the first time Rundle has worked with friends; she once made a memorably bleak album with the ultraprolific Louisiana metal band Thou. Still, the communitarian effort seems to have given her new energy and perspective. No score yet, be the first to add. These Killing Times cuts a particularly stark contrast to her last album, 2021’s Engine of Hell, whose stoically introspective songs bore the marks of the process that birthed them in a remote cottage in rural Wales. Make no mistake, the songs on this album are still real downers: The tempos rarely rise above a trudge, nearly every song is wrapped in distortion, and Rundle sings of pain, torture, and violence. Still, there’s a sense of momentum and propulsion—occasionally even playfulness—that Rundle has rarely reached for. “Enough,” which starts with a creeping guitar line that recalls Red House Painters at their most melancholic, builds toward grinding sludge-metal riffs and harmonized guitar heroics that feel unchar",
+      "source_title": "These Killing Times",
+      "source_url": "https://pitchfork.com/reviews/albums/emma-ruth-rundle-these-killing-times/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_3a9f3db6d5fb",
+      "source": "Pitchfork",
+      "title": "Ride Lonesome",
+      "url": "https://pitchfork.com/reviews/albums/beck-ride-lonesome/",
+      "summary": "The blues sound a little gray on Beck’s new album, a spiritual sequel to Morning Phase blending country-folk songwriting and gently psychedelic West Coast rock.",
+      "image": ""
+    },
+    {
+      "id": "rss_5fa11177a5c9",
+      "source": "Pitchfork",
+      "title": "Age of the Exhibitionist",
+      "url": "https://pitchfork.com/reviews/albums/rebecca-black-age-of-the-exhibitionist/",
+      "summary": "The pop singer’s second album constructs a voyeuristic fantasy out of durable, club-friendly dance-pop with enough eccentricities to keep things interesting.",
+      "image": ""
+    },
+    {
+      "id": "rss_ac4685903aae",
+      "source": "Pitchfork",
+      "title": "Scour Order",
+      "url": "https://pitchfork.com/reviews/albums/krallice-scour-order/",
+      "summary": "Amid a career of ceaseless experimentation, the New York black metal band finally gives into nostalgia. They’re having a blast just letting it rip.",
+      "image": ""
+    },
+    {
+      "id": "rss_e6e95150e2f5",
+      "source": "Pitchfork",
+      "title": "These Killing Times",
+      "url": "https://pitchfork.com/reviews/albums/emma-ruth-rundle-these-killing-times/",
+      "summary": "Casting a wide collaborative net across the world of heavy music, the Portland musician captures a newfound sense of momentum, even optimism, in her doomy, downcast songwriting.",
+      "image": ""
+    },
+    {
+      "id": "rss_01fa6c9696da",
+      "source": "Pitchfork",
+      "title": "Easy Rider (Music From the Soundtrack)",
+      "url": "https://pitchfork.com/reviews/albums/various-artists-easy-rider-music-from-the-soundtrack/",
+      "summary": "Each Sunday, Pitchfork takes an in-depth look at a significant album from the past, and any record not in our archives is eligible. Today, we revisit the blockbuster soundtrack for the 1969 biker classic: a generational bounty of radio hits that, taken together, sounds like a dying dream.",
+      "image": ""
+    },
+    {
+      "id": "rss_29741bfcce0b",
+      "source": "Open Culture",
+      "title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "summary": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, [&#8230;]",
+      "image": "https://i.ytimg.com/vi/WnJgym1oIJU/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_4dcfd92bdb55",
+      "source": "Open Culture",
+      "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "summary": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum [&#8230;]",
+      "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg"
+    },
+    {
+      "id": "rss_92eef24704c9",
+      "source": "Open Culture",
+      "title": "Frank Lloyd Wright’s Secret Career as a Japanese Art Dealer & How It Shaped His Architecture",
+      "url": "https://www.openculture.com/2026/09/frank-lloyd-wrights-secret-career-as-a-japanese-art-dealer.html",
+      "summary": "Frank Lloyd Wright was often strapped for cash. In that respect, he had something in common with Vincent van Gogh, who passed most of his much shorter life in more dire circumstances. Unlike Wright, who enjoyed decades of fame at the pinnacle of the American architectural profession, van Gogh remained practically unknown until after his [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/08083915/19.jpg.jpeg"
+    },
+    {
+      "id": "rss_39f3ae23555a",
+      "source": "Aeon",
+      "title": "Sound guardians",
+      "url": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
+      "summary": "As Indonesia builds a new capital city, the race is on to preserve the sounds of the rainforest before they vanish forever - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/350652a0-e6ac-4a1d-b013-736fa59eeda5/sound-guardians-landscape.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_0f63ed48dd3c",
+      "source": "Aeon",
+      "title": "He was probably right",
+      "url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
+      "summary": "Cicero’s life and thought are a testament to the idea of probabilia: we should be confident in our beliefs, but never certain - by Massimo Pigliucci Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/ab30ee1c-11a9-4d4d-a7a0-fd34b45891e5/esssay-gettyimages-527618704.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_8380cc521c8b",
+      "source": "Aeon",
+      "title": "Cosmic amnesia",
+      "url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
+      "summary": "A black hole rings like a struck bell, then settles into silence, forgetting almost everything about its history. Why? - by Richard Dyer Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/899acddb-5f08-456f-b901-015a75d5199e/essay-artgw250114_simonnet_2400.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_fb33ce406f61",
+      "source": "卫报书籍",
+      "title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
+      "url": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
+      "summary": "From an abstract portrait of an actor who might be Natalie Portman to a groundbreaking work of autofiction, we rate the best from the coolly controversial author In Cusk’s headline-grabbing latest, a&nbsp;writer&nbsp;invents the biography of a film star who sounds very like Natalie Portman. Set in the now standard late-Cusk sans&nbsp;serif typeface (no frivolous flourishes!), Life of M serves up observations on fame in&nbsp;a light fictional coating. “To always be playing a part is to have no home.” Having made her name as a devilishly good creator of&nbsp;brainy social comedies, Cusk’s pivot to wintry autofiction since the Outline trilogy appears to have reached its logical conclusion in this flat, abstracted portrait of empty celebrity. The New York Times called it “rarefied, cosmopolitan, self-serious”. Sample line: “Everything I did or said in her company was false. It was as if I&nbsp;was acting, while M came across as authentic and real.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5aa0a91d6f40",
+      "source": "卫报书籍",
+      "title": "The American Way of Killing by Malcolm Gladwell review – wide of the mark",
+      "url": "https://www.theguardian.com/books/2026/sep/21/the-american-way-of-killing-by-malcolm-gladwell-review-wide-of-the-mark",
+      "summary": "Gladwell’s highly readable investigation into US gun culture fails to engage with the bigger questions Once, while having a steak dinner with Republicans in a small town in Indiana, the man sitting opposite me asked: “How do you cope in London, when Muslims elected that mayor and you have all that gun control?” I’d been in enough such situations to know that there was no “winning” a conversation that starts like this and so did my best to playfully bat the question away. “Well, the Muslims didn’t elect a mayor – Londoners elected a Muslim mayor,” I said. “And we don’t talk much about gun control for the same reason we don’t talk about polar bear control: we don’t have many polar bears and we don’t have many guns.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fb0a4e76d88d",
+      "source": "卫报书籍",
+      "title": "The Recovery House by Derek Owusu review – a uniquely honest view of mental health",
+      "url": "https://www.theguardian.com/books/2026/sep/21/the-recovery-house-by-derek-owusu-review-a-uniquely-honest-view-of-mental-health",
+      "summary": "Writing from firsthand experience, the author offers an affecting meditation on art, mental fragility and faith “What’s in your head?” Dolores O’Riordan’s raw, plaintive refrain loops through the Cranberries’ 1994 hit Zombie. A protest song about the Troubles could, on paper, hardly seem further removed from Derek Owusu’s third novel, about a young writer recovering from a mental health crisis. But in an author’s note before The Recovery House begins, Owusu instructs the reader to listen to the song “at least two to four times before going beyond this page”. Gradually it becomes clear that the song’s central question is one Owusu’s protagonist asks in various forms throughout the novel. Can we ever fully understand what is going on in our own heads? We meet Jamal, a young novelist who has woken up in a recovery house – a residential alternative to hospital admission – after a breakdown. It transpires that he has overdosed, is an alcoholic, and has been diagnosed with borderline personality disorder. He is in a frazzled, frantic state, initially less interested in getting better than in piecing together how he&nbsp;got there. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_6f30919ba697",
+      "source": "Mongabay",
+      "title": "New study reveals the genetic history – and possible future – of four Asian hornbills",
+      "url": "https://news.mongabay.com/short-article/2026/09/new-study-reveals-the-genetic-history-and-possible-future-of-four-asian-hornbills/",
+      "summary": "Researchers from India have generated reference genomes for four threatened species of Asian hornbills, reports contributor Nikhil Sreekandan for Mongabay India. The scientists from the Nature Conservation Foundation (NCF) in Mysore and the CSIR–Centre for Cellular and Molecular Biology (CCMB) in Hyderabad assembled high-quality genomes for threatened Asian hornbill species including the great hornbill (Buceros [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/21080458/Rufous_Necked_Hornbill_Facts_01-1536x1024-1-768x512.jpg"
+    },
+    {
+      "id": "rss_f0e0f1244f14",
+      "source": "Mongabay",
+      "title": "Tight Brazil election challenges fragile gains for Amazon conservation",
+      "url": "https://news.mongabay.com/2026/09/tight-brazil-election-challenges-fragile-gains-for-amazon-conservation/",
+      "summary": "As South America turns right, Brazil’s vote could leave the Amazon without conservation leaders.",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/08/18210229/Curvas_do_Parque_Nacional_de_Anavilhanas-768x512.jpg"
+    },
+    {
+      "id": "rss_24003e636e0b",
+      "source": "Mongabay",
+      "title": "H5N1 bird flu jumps to marine mammals and wildlife in Australia",
+      "url": "https://news.mongabay.com/short-article/2026/09/h5n1-bird-flu-jumps-to-marine-mammals-and-wildlife-in-australia/",
+      "summary": "H5N1 avian influenza is spreading rapidly across southeastern Australia owing to infected wild bird species, including little penguins, magpies, crested terns and pelicans. Bird aggregations during breeding seasons will likely accelerate transmission to mammals, said Victoria’s chief biodiversity officer James Todd. In late August, H5N1 jumped to a mammal, a red fox (Vulpes vulpes), in [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/21051504/Common_Dolphin_23716626394_optimized_4000-768x512.jpg"
+    },
+    {
+      "id": "rss_504fb4c64c97",
+      "source": "卫报野生动物",
+      "title": "‘Incredibly encouraging’: healing the scars of traditional anchors in Dorset’s seagrass meadows",
+      "url": "https://www.theguardian.com/environment/2026/sep/21/seagrass-eco-mooring-dorset-seahorses",
+      "summary": "Eco-moorings help to restore seagrass in just five years, boosting sealife such as seahorses, eels and crabs One of the UK’s most precious underwater habitats – Dorset’s seagrass meadows – is recovering thanks to “eco moorings” designed to prevent the seabed being ripped up, a study has revealed. Scars caused by traditional anchors in some areas of seagrass in Studland Bay have almost entirely vanished, which is boosting the number of seahorses that thrive in the submerged meadows. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_da78fa831e56",
+      "source": "卫报野生动物",
+      "title": "Millions of dollars in funding but still no plan: can Quebec save its caribou from extinction?",
+      "url": "https://www.theguardian.com/environment/2026/sep/21/millions-of-dollars-in-funding-but-still-no-plan-can-quebec-save-its-caribou-from-extinction",
+      "summary": "The Canadian government has committed C$25m to try to rescue the caribou in the province – but there is no agreement on how best to save the keystone species The caribou of Quebec are at breaking point. The province, home to 15% of Canada’s population of woodland caribou, has seen numbers crash to about half of what they were a decade ago. For years, local First Nations people, researchers and environmental groups have criticised the provincial government’s lack of action on protecting caribou, an animal considered a keystone species by Indigenous peoples. A recently announced agreement between the federal and Quebec governments has raised hopes that the province will finally be compelled to release a protection strategy. The federal government has committed C$25m (£13m) to the province for caribou over five years, with an additional C$15m for the First Nations communities on whose land the herds live. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fa3273bbda8a",
+      "source": "卫报野生动物",
+      "title": "Weatherwatch: wildfires driven by global heating destroy UK bird habitats",
+      "url": "https://www.theguardian.com/news/2026/sep/21/wildfires-driven-by-global-heating-destroy-uk-bird-habitats-weatherwatch",
+      "summary": "Hot and dry summer created conditions for fires in Scotland and England that tore through vital wildlife areas Major wildfires this summer in the Cairngorms, along the Suffolk coast and in the New Forest have destroyed huge swathes of important bird habitats, affecting the populations of some of our most threatened and specialised species. The first to break out, in mid-July, destroyed much of the RSPB ’s Abernethy reserve, home to declining species such as black grouse and capercaillie, as well as scarce songbirds including Scottish crossbill and crested tit. Fortunately it was brought under control before it reached the village of Nethy Bridge, whose residents were briefly evacuated. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-21 21:40"
+}
