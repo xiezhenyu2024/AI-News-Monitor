@@ -1,0 +1,704 @@
+{
+  "key": "2026-09-22-evening",
+  "date": "2026-09-22",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 6,
+  "cards": [
+    {
+      "item_id": 16,
+      "title": "秘鲁亚马逊马采斯原住民因干旱、疫病与国家忽视陷入严重健康危机",
+      "entities": [
+        {
+          "name": "马采斯人（Matsés）",
+          "explain": "生活在秘鲁亚马逊地区的原住民群体，其中部分族群直到近年才与外界建立稳定接触，对传染病缺乏免疫力。"
+        },
+        {
+          "name": "近期接触族群（recently contacted）",
+          "explain": "指与主流社会接触时间很短的原住民群体，因缺乏对常见病原体的免疫，一旦暴发疫情往往死亡率极高。"
+        },
+        {
+          "name": "Mongabay",
+          "explain": "一家专注于环境与保育议题的非营利新闻机构，常深入报道热带雨林和原住民议题。"
+        }
+      ],
+      "summary": "气候变化导致的干旱、传染病暴发与政府长期忽视三重因素叠加，使秘鲁亚马逊地区的马采斯原住民陷入严重健康紧急状态。Mongabay记者Aimee Gabay前往马采斯领地调查环境威胁，却发现当地社区正遭受严重疫情冲击，医疗资源严重不足。",
+      "relevant": "原住民健康危机往往被国际社会忽视，而气候变化对偏远地区的影响尤为致命，此报道揭示了环境危机与人道危机的交叉点。",
+      "context": "马采斯人是秘鲁亚马逊地区近年才与外界建立较稳定接触的原住民群体，对传染病缺乏免疫力。随着气候变化加剧干旱，水源和食物供应恶化，同时政府公共卫生投入不足，疫情一旦暴发便难以控制。",
+      "source_analysis": "Mongabay为专注环境与保育议题的非营利新闻机构，报道立场倾向关注原住民权益和环境保护，常对政府和工业开发持批评态度。",
+      "social_impact": "马采斯社区正遭受严重疫情冲击，具体感染和死亡数据尚未在摘要中披露，但报道形容为'严重健康紧急状态'，影响范围涉及整个马采斯领地。",
+      "source_text": "A worsening convergence of drought driven by climate change, epidemic disease, and state neglect is creating a severe health emergency for the Indigenous Matsés people in the Peruvian Amazon. Mongabay staff writer Aimee Gabay traveled to Matsés territory to investigate the environmental threats to the region. Instead, she found Matsés communities suffering from severe outbreaks of malaria and hepatitis B, she tells host Mike DiGirolamo in a recent episode of the Mongabay Newscast. “When I arrived, interview after interview, I was asking questions about environmental threats, and people were like, ‘Well, people are dying on the streets’,” Gabay says. “And it got to the point where I was like I’m asking the wrong questions here.” According to Gabay, the Matsés officially initiated contact with evangelical missionaries in 1969 to escape escalating violence from rubber tappers, loggers and military bombardments. However, the contact exposed them to infectious diseases. Roberto Necca Tumio Unan, a Matsés elder born before contact was initiated, told Gabay that entire families began dying shortly after contact from diseases previously unknown to them. “They don’t have the immunological defenses to be able to fight these diseases that maybe, for us, we are constantly exposed to,” Gabay says. Now, the health crisis is compounded by droughts in the Amazon. Low river levels restrict boat navigation, the primary transit route in the roadless region, preventing healthcare workers from entering remote villages and blocking sick villagers from reaching medical care. Matsés chief Leo Chuma Teca Beso told Gabay that he traveled to Iquitos in northeastern Peru and capital Lima to plead for state intervention, reporting that sick community members are dying on streets due to advanced hepatitis B complications such as cirrhosis. While Peru’s Ministry of Health (MINSA) previously reported zero hepatitis B deaths among the Matsés, chief Leo said this figure reflects a lack of testing. Civil society health brigades have only screened around 20% of the population so far, identifying 17 hepatitis B cases, according to the health ministry. Gabay says that MINSA officials cited budget constraints and geographic remoteness as reasons for the delays in healthcare aid and support. The Matsés territory lies within the 16-million-hectare (40-million-acre) Yavari-Tapiche territorial corridor, where several other Indigenous groups live in isolation. Gabay says if the Indigenous people are",
+      "source_title": "Drought and state neglect deepen health crisis for Peru’s recently contacted Matsés",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/drought-and-state-neglect-deepen-health-crisis-for-perus-recently-contacted-matses/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "英国北部首次发现黄蜂蜘蛛，被视为气候变化'难民'",
+      "entities": [
+        {
+          "name": "黄蜂蜘蛛（Argiope bruennichi）",
+          "explain": "一种原产于欧洲大陆、北非和亚洲的蜘蛛，身上有黑黄相间条纹，会织出带有神秘图案的网，并有吃掉配偶的习性。"
+        },
+        {
+          "name": "柴郡（Cheshire）",
+          "explain": "英格兰西北部的一个郡，位于英国北部，此前并非黄蜂蜘蛛的常见分布区。"
+        },
+        {
+          "name": "切斯特动物园（Chester Zoo）",
+          "explain": "英国著名动物园兼保育机构，参与野生动物监测和保护工作。"
+        }
+      ],
+      "summary": "保育人员在英格兰柴郡一片再野化田野中首次发现一只成年雌性黄蜂蜘蛛。这种原产于欧洲大陆的蜘蛛此前极少出现在英国北部和西部，其北移被视为气候变暖导致物种迁移的'气候难民'现象，可能对本地物种构成威胁。",
+      "relevant": "物种因气候变暖向高纬度迁移是全球趋势，黄蜂蜘蛛的北移是这一趋势的直观例证，也引发对本地生态平衡的担忧。",
+      "context": "黄蜂蜘蛛原产于欧洲大陆、北非和亚洲，在英国北部和西部极为罕见。随着全球气温上升，适宜其生存的区域向北扩展，切斯特动物园的保育人员在柴郡再野化田野中偶然发现了这只蜘蛛。",
+      "source_analysis": "《卫报》野生动物栏目长期关注生物多样性和气候变化议题，报道立场倾向强调气候危机的生态影响。",
+      "social_impact": "黄蜂蜘蛛北移被视为'令人担忧的趋势'，可能威胁英国本地物种，但具体生态影响尚需进一步研究。",
+      "source_text": "She is an unlikely harbinger of the climate emergency: a venomous black and yellow spider who spins mysterious patterns in her webs and eats her mates for breakfast. Native to mainland Europe, north Africa and Asia, the Argiope bruennichi – commonly known as a wasp spider – is rarely seen in the north and west of Britain. But a fully grown female has been spotted in Cheshire for the first time by conservationists from Chester zoo, who stumbled across the large, brightly striped arachnid in a rewilded field. The species, which mimics a wasp to deter predators, is thought to be the latest “climate refugee” extending its range northwards as the planet heats. Females can grow to about 2cm in body length, making it one of the largest spiders found in the UK. “You know your big, chunky house spiders – the ones you think are massive and frighten the life out of you in your living room? A female wasp spider is probably a bit bigger than those,” said Scott Wilson, head of field programmes at the zoo. Although they are not dangerous to humans, they often attack and cannibalise their mates during or after copulation. Males usually reach only about a quarter of the length of the females and studies have found that up to 80% die after their first mating attempt while the rest die after their second. Their body then provides the female with valuable protein as she produces her eggs. It is not yet known how the spread of the wasp spider, which was also revealed to be moving west into counties such as Worcestershire, Herefordshire and Warwickshire last week, will affect local ecosystems in the north. “That’s quite often the risk with these ecological shifts – we don’t know what the implications will be,” said Wilson. The spider recorded in Cheshire was discovered on the Chester zoo estate during a routine “bioblitz” to monitor biodiversity on 80 hectares of land being set aside for nature. An expert from the British Arachnological Society later confirmed it was the first recorded sighting of the species in the county. “It was quite easy to spot,” said Wilson. “It’s a really big, colourful spider and the webs are huge and distinctive … They have this thick zigzag, which some people think is there to reflect UV light and attract insects, but nobody really knows.” The wider zoo estate, which includes wet meadows,grasslands, woodlands and orchards, already supports a diverse range of important UK species, such as great crested newts, badgers and harvest mice. It also hosts ne",
+      "source_title": "Wasp spider seen in north of England latest ‘climate refugee’ amid global heating",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/22/wasp-spider-climate-refugee-north-of-england",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "新纪录片《How Deep Is Your Love》揭示太平洋深海生态，聚焦受采矿威胁的克拉里昂-克利珀顿区",
+      "entities": [
+        {
+          "name": "克拉里昂-克利珀顿区（Clarion Clipperton Zone）",
+          "explain": "位于夏威夷和墨西哥之间的太平洋深海区域，生物多样性丰富，海底富含矿产结核，是工业深海采矿的热点目标。"
+        },
+        {
+          "name": "Isis",
+          "explain": "纪录片中使用的深海遥控潜水机器人，需5小时下潜3英里到达海底。"
+        },
+        {
+          "name": "伦敦自然历史博物馆（NHM）",
+          "explain": "英国著名科研机构，纪录片中研究团队的所属单位。"
+        }
+      ],
+      "summary": "一部名为《How Deep Is Your Love》的纪录片将在英国部分影院上映，通过科学家团队和水下机器人Isis的视角探索太平洋深海生态。影片聚焦克拉里昂-克利珀顿区，该区域生物多样性丰富但正面临工业深海采矿的威胁。",
+      "relevant": "深海采矿与生态保护的矛盾日益尖锐，该片以影像方式让公众了解深海生态的脆弱性和采矿的潜在影响。",
+      "context": "克拉里昂-克利珀顿区是太平洋深海生物多样性热点，海底富含矿产结核，吸引工业采矿关注。伦敦自然历史博物馆的研究团队航行12天抵达该区域，用机器人Isis探索海底生态，纪录片记录了这一过程。",
+      "source_analysis": "《卫报》野生动物栏目报道，该栏目长期关注环境与保育议题，立场倾向支持生态保护、警惕工业开发对自然的破坏。",
+      "social_impact": "影片将在英国部分影院上映，有望提升公众对深海采矿议题的关注，但具体影响范围尚待观察。",
+      "source_text": "A magical film that explores the wonders of the deep sea through the eyes of a team of scientists and an underwater robot called Isis will be shown in selected cinemas across the UK next month. The documentary, How Deep Is Your Love, offers a playful, irreverent and bittersweet look at our anthropocentric view of Earth, as it switches perspective from humans to deep sea animals and back again. It follows a research team from the Natural History Museum (NHM) in London, who sail for 12 days to reach a remote region called the Clarion Clipperton Zone, a biodiversity-rich area of the Pacific between Hawaii and Mexico. It takes Isis five hours to make the 3-mile (5km) descent to the bottom of this harsh world, where sunlight cannot penetrate, and where nodules rich in minerals mark it out as a hotspot for industrial mining. It is a race against time for the scientists to identify new species before deep sea mining threatens to wipe out fragile ecosystems for ever. Scientists estimate that only 0.001% of the deep sea floor – categorised by some as more than 500 metres below the sea’s surface, where sunlight fades to total darkness – has been observed by humans. The film is an ode, says director Eleanor Mortimer, to the taxonomists and biologists who spend “hours and hours counting the legs of a minuscule animal you can’t even see with the naked eye” and to the strange creatures of the abyssal plain, of which we know so little. Even when painstakingly identified, and DNA collected, it can take up to 14 years to name a species, Mortimer says. “It’s the challenge of the deep sea,” says Mortimer, who shares the scientists’ desire to demystify life in the deep. “Most people never go there, and yet it’s a huge part of our planet we need to connect with. That was the motive behind the film. I want people to fall in love with the deep sea, I want people to connect with it.” She became “obsessed” with the region, but could not work out how to make a film until, by chance, she met Muriel Rabone, the film’s science adviser and co-producer, who told Mortimer about the NHM team. “Their love and curiosity and excitement have become infectious,” says Mortimer. Most of the film takes place at sea, or at the International Seabed Authority (ISA) in Jamaica, which regulates activities in the seabed beyond national jurisdiction. While How Deep Is Your Love does not shy away from complex questions of humanity’s ever-swelling appetite for nature’s resources, it is neither an activist",
+      "source_title": "Meet Barbie Pig: new documentary reveals the wonders of life on the Pacific seabed",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/22/meet-barbie-pig-new-documentary-reveals-the-wonders-of-life-on-the-pacific-seabed",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "克里斯蒂安娜·菲格雷斯获首届简·古道尔地球奖章",
+      "entities": [
+        {
+          "name": "简·古道尔（Jane Goodall）",
+          "explain": "著名灵长类动物学家和保育主义者，以研究黑猩猩闻名，2025年10月去世，享年91岁，生前是Mongabay顾问委员会成员。"
+        },
+        {
+          "name": "克里斯蒂安娜·菲格雷斯（Christiana Figueres）",
+          "explain": "前联合国气候变化框架公约执行秘书，主导推动《巴黎协定》的达成。"
+        },
+        {
+          "name": "简·古道尔地球奖章",
+          "explain": "为纪念古道尔而设立的新奖项，表彰'将科学、勇气与责任融为一体'的人士。"
+        }
+      ],
+      "summary": "前联合国气候负责人克里斯蒂安娜·菲格雷斯被授予首届简·古道尔地球奖章，该奖旨在表彰融合科学、勇气与责任的人士。古道尔是著名灵长类动物学家和保育主义者，2025年10月去世，享年91岁，生前也是Mongabay顾问委员会成员。",
+      "relevant": "古道尔是20世纪最具影响力的保育人物之一，该奖项的设立延续了她的精神遗产，也凸显气候与保育议题的延续性。",
+      "context": "简·古道尔于2025年10月去世，享年91岁。为纪念她的保育贡献，设立了简·古道尔地球奖章，首届获奖者为推动《巴黎协定》的前联合国气候负责人菲格雷斯。",
+      "source_analysis": "Mongabay为专注环境与保育议题的非营利新闻机构，古道尔生前是其顾问委员会成员，报道带有纪念和致敬性质。",
+      "social_impact": "该奖项旨在表彰融合科学、勇气与责任的人士，同时报道提及'打击虚假信息'，反映保育领域面临的信息环境挑战。",
+      "source_text": "Former United Nations climate chief Christiana Figueres has been named the recipient of the inaugural Jane Goodall Earth Medal, which honors those who “unite science, courage and responsibility.” Goodall, a primatologist, conservationist and a persistent voice of hope, died in October 2025 at the age of 91. She also served on Mongabay’s advisory council. The Jane Goodall Earth Medal was awarded by the board of the Starmus Festival, an international gathering celebrating science, space, and the arts. This year, the festival will take place from Oct. 17-22 in Spain. Figueres, who served as executive secretary of the U.N. Framework Convention on Climate Change (UNFCCC) and led negotiations for the 2015 Paris climate agreement, discussed the award on the Mongabay Newscast hosted by Mike DiGirolamo. Figueres told DiGirolamo that Goodall was “an absolute giant” to her very last day. “And the fact that a medal has been made in her honor, and that I will debut that, is just an unbelievable honor.” Astrophysicist and Starmus co-founder Garik Israelian, who joined the podcast, said that advisory board members Brian May — astrophysicist and guitarist for the rock band Queen — and fellow musician Peter Gabriel together conceived the idea for the Jane Goodall Earth Medal. Israelian added that May “was very active in protecting animals” through his foundation Save Me, while Gabriel works closely on human rights causes. The upcoming Starmus Festival centers on the theme of “The Search for Truth,” addressing information integrity in what political ecologist Bram Buscher previously characterized on the newscast as a “post-truth era.” During the episode, both Figueres and Israelian said that social media platforms rely on engagement-driven algorithms that prioritize profit over scientific facts. “We are swimming in both disinformation and misinformation all the time without even knowing it,” Figueres said, calling their expansion an abuse of free speech. “The fact that we choose to consume more misinformation and disinformation than science-based, truth-based information is to me the root of the problem of why these companies do what they do with algorithms,” she added. Israelian said the way to counter this is through education. “It’s much harder to lead very educated, very knowledgeable people to this route of using misinformation and … to inform them completely wrong things,” Israelian said. “But also limiting the power of tech companies. Those who do social media, to li",
+      "source_title": "Honoring Jane Goodall’s conservation legacy and combatting misinformation",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/honoring-jane-goodalls-conservation-legacy-and-combatting-misinformation/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "研究：巴厘岛萨努尔旅游业有望逆转珊瑚衰退",
+      "entities": [
+        {
+          "name": "萨努尔（Sanur）",
+          "explain": "巴厘岛的一个沿海城镇，面朝龙目海峡，是巴厘岛旅游业最早兴起的地区之一，自1920年代起吸引艺术家和游客。"
+        },
+        {
+          "name": "珊瑚衰退",
+          "explain": "指珊瑚礁因海水升温、污染、过度开发等原因导致大面积白化和死亡的现象。"
+        }
+      ],
+      "summary": "一项研究显示，巴厘岛旅游热点萨努尔的旅游业有潜力逆转当地珊瑚衰退趋势。萨努尔是巴厘岛旅游业的发源地，当地经济至今仍依赖游客收入，研究认为旅游业若能合理管理，可成为珊瑚保护的积极力量。",
+      "relevant": "旅游业通常被视为珊瑚礁破坏的原因之一，该研究提出旅游业也可成为保护力量，为可持续旅游与生态保护的结合提供了新思路。",
+      "context": "萨努尔自1920年代起就是巴厘岛旅游业的中心，当地经济高度依赖游客。珊瑚礁因多种因素持续衰退，研究者探讨旅游业是否能通过管理转型成为珊瑚恢复的推动力。",
+      "source_analysis": "Mongabay为专注环境与保育议题的非营利新闻机构，报道倾向关注生态保护与可持续发展的结合。",
+      "social_impact": "萨努尔当地经济仍依赖游客收入，研究结果若被采纳，可能影响当地旅游管理和珊瑚保护政策的走向。",
+      "source_text": "- A new study in Bali found that coral reefs continue to decline at one of the island’s major tourism hubs, despite multiple efforts to rehabilitate them. - Reef restoration initiatives often take place without first addressing the underlying drivers of coral decline such as sediment runoff and wastewater discharge, the study found. - The study points to uncoordinated governance systems that result in overlapping responsibilities, slow and bureaucratic decision-making and wasted resources as driving the problems. - The researchers recommend a more coherent and collaborative approach to reef protection, and underscore the paradoxical role of tourism: While it exacerbates threats to reefs, it also offers a viable way of promoting, implementing and funding potential solutions. Sanur is where tourism took off in Bali. A coastal town overlooking the Lombok Strait where the Pacific Ocean flows into the Indian Ocean, artists and travelers began frequenting its shores in the 1920s. Today, the local economy still depends on income from visitors seeking its sun-kissed sands and cozy waters that hold the promise of encounters with all manner of tropical marine life. But new research indicates all is not well with Sanur’s precious marine ecosystems. Its coral reefs are steadily degrading, despite multiple efforts to rehabilitate them by planting coral fragments or building artificial reefs. The recent study, published in Ocean & Coastal Management, found reef restoration initiatives in Sanur often take place without first addressing the primary drivers of coral decline, such as sediment runoff and wastewater discharge. “People see the visible impact on the coral reef, so they feel it’s urgent to do something about it there,” study lead author Min Chung, a master’s student at the University of Tokyo, told Mongabay in an interview. “But in reality, and efficiency wise, it’s obviously more effective to address the more fundamental drivers [of coral loss].” By analyzing reef health data and interviews with 18 stakeholders who have influence over the use and management of Sanur’s reefs, Chung and her colleagues identified complex and competing interests between many different groups, from government agencies, local authorities and community organizations to academics, fishers and tourism operators. “There are differing views on how to preserve coral reefs and the role tourism should play in the area,” Chung said, noting stakeholders variously view reefs as tourism attracti",
+      "source_title": "Tourism has the potential to reverse coral decline at Bali travel hotspot: Study",
+      "source_url": "https://news.mongabay.com/2026/09/tourism-has-potential-to-slow-coral-decline-at-bali-travel-hotspot-study/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "科学家发现毒蝇伞被包装成糖果出售，揭示法律漏洞与危险剂量问题",
+      "entities": [
+        {
+          "name": "毒蝇伞（Amanita muscaria）",
+          "explain": "一种常见的红色带白斑蘑菇，含有精神活性成分，可致幻，但剂量不当可能引发严重中毒甚至危及生命。"
+        },
+        {
+          "name": "Eric Leas",
+          "explain": "本文作者，一位在市场上发现毒蝇伞被当作糖果出售并展开调查的科学家。"
+        }
+      ],
+      "summary": "科学家Eric Leas在市场上发现毒蝇伞蘑菇被包装成糖果出售，随即展开调查，揭示了相关法律漏洞和危险剂量问题。毒蝇伞含有精神活性成分，剂量不当可能导致严重中毒，但其作为食品或补充剂销售却缺乏有效监管。",
+      "relevant": "毒蝇伞产品在监管灰色地带流通，消费者可能在不知情的情况下摄入危险剂量，此调查揭示了食品安全监管的漏洞。",
+      "context": "毒蝇伞是一种含有精神活性成分的蘑菇，近年来其提取物或干制品被作为'合法致幻剂'或膳食补充剂在市场上销售。Eric Leas在发现其被包装成糖果出售后，开始调查背后的法律和健康风险。",
+      "source_analysis": "Aeon是一家以哲学、科学和文化长文为主的数字杂志，本文为科学家Eric Leas撰写的调查性文章，立场倾向揭示监管漏洞和公共健康风险。",
+      "social_impact": "毒蝇伞产品以糖果形式销售，消费者尤其是青少年可能在不知情下摄入危险剂量，具体影响范围尚待进一步调查。",
+      "source_text": "Listen to this essay 28 minute listen In late summer 2023, I found myself in a smoke shop looking at a package of ‘magic mushroom’ gummies. That phrase, magic mushrooms, usually calls to mind one type of mushroom: those containing psilocybin, the compound showing promise as a therapy for depression, addiction and other psychopathologies. But these gummies were not psilocybin. Instead, the packaging described Amanita muscaria, the red-capped, white-spotted toadstool of fairy-tale forests, iPhone keyboards and Super Mario. I knew a little about the folklore of Amanita muscaria. I had first seen it discussed in an episode of the show Hamilton’s Pharmacopeia (2016-21), which begins with a claim I now hear often: that Amanita muscaria may be among the oldest human intoxicants. The New York banker-turned-ethnomycologist R Gordon Wasson, whose Life magazine essay from 1957 introduced psilocybin mushrooms to a mass Western audience, certainly took this idea seriously. In his book Soma: Divine Mushroom of Immortality (1968), he argued that the Vedic soma – a ritual drink in ancient Indian religions – was made from Amanita muscaria. The mushroom has also been linked, sometimes carefully and sometimes wildly, to the origins of Santa Claus, Viking berserkers and even Christianity. Some believe its other name, ‘fly agaric’, stems from its use as a natural pesticide for house flies; the word muscaria is also derived from the Latin word musca, meaning fly. Some scholars have linked Amanita muscaria to Lewis Carroll’s mushroom scene in Alice’s Adventures in Wonderland (1865), in which the Caterpillar tells Alice that ‘one side’ of the mushroom will make her taller and the other shorter, though Carroll does not identify a species. But I wasn’t standing in that smoke shop holding one of these products as a folklorist or looking to lose myself in Carroll’s ‘golden afternoon’. I am a public-health scientist, and my questions were pragmatic: what exactly was in this package? Could it hurt someone? Were these products legal? The first thing I did was what I usually do. I went to the scientific literature. And down the rabbit hole I tumbled. Although manufacturers use the term ‘magic mushrooms’, the main psychoactive compound in Amanita muscaria is not pharmacologically interchangeable with psilocybin; the two drugs do not act on the brain in the same way. The body converts psilocybin into psilocin, the substance that actually produces its psychedelic effects. Psilocin switches ",
+      "source_title": "Toadstools and toxins",
+      "source_url": "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "数字达达图书馆上线，在线保存达达主义原始出版物",
+      "entities": [
+        {
+          "name": "达达主义（Dada）",
+          "explain": "20世纪初兴起的反艺术实验运动，以荒诞、反叛和挑战传统审美为特征，对后世艺术影响深远。"
+        },
+        {
+          "name": "数字达达图书馆",
+          "explain": "一个在线档案项目，旨在保存和公开展示达达主义运动的原始出版物。"
+        },
+        {
+          "name": "西奥多·阿多诺（Theodor Adorno）",
+          "explain": "法兰克福学派批判理论家，曾提出大众文化是机械化、平庸的意识形态宣传的观点。"
+        }
+      ],
+      "summary": "数字达达图书馆上线，在线保存达达主义这一实验性反艺术运动的原始出版物。文章借此反思批判理论家阿多诺关于大众文化平庸化的观点，指出即使是最大胆的颠覆性艺术也常被主流文化驯化和删改。",
+      "relevant": "达达主义作为反艺术运动，其原始出版物在数字时代得以保存和公开，为研究20世纪先锋艺术提供了珍贵资料。",
+      "context": "达达主义是20世纪初的反艺术实验运动，其出版物多为限量发行、难以保存。数字达达图书馆项目将这些原始资料数字化并在线公开，文章借此讨论先锋艺术被主流文化驯化的问题。",
+      "source_analysis": "Open Culture是一家专注文化、艺术和教育资源的网站，报道立场倾向推广免费文化和教育资源。",
+      "social_impact": "该数字档案使公众可免费访问达达主义原始出版物，有助于艺术史研究和先锋文化的传播。",
+      "source_text": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global mega-corporate industries don’t need to censor what they don’t like; they only need to buy it, rebrand it, or price it out of reach. So what? Why do we need challenging, independent art when we have endless entertainment? Is the concept a nostalgic, elitist, Eurocentric idea? Artists have justified the need for art since antiquity, with poetic and logical arguments of every kind. But Dada artists of the early 20th century broke ranks, building their movement on the insight that no defense could possibly mean anything when it came to art’s purpose, especially in the face of the technocratic slaughter of World War I. When the hyperrationalism of modernity led to mass death and destruction, the only humane response was to declare war on rationalization—to “destroy the hoaxes of reason,” as French artist Jean Arp put it. “For the disillusioned artists of the Dada movement,” the Museum of Modern Art explains, “the war merely confirmed the degradation of social structures that led to such violence: corrupt and nationalist politics, repressive social values, and unquestioning conformity of culture and thought.” Dada took a combative stance against, for one thing, the insistence that art justify its existence to win establishment approval. “All activity is vain,” declared poet Tristan Tzara in his 1918 “Dada Manifesto,” including the “monetary system, pharmaceutical product, or a bare leg advertising the ardent sterile spring…. The beginnings of Dada were not the beginnings of art, but of disgust” with the ossified culture of the “nice, nice bourgeois,” who would preserve at any cost “the possibility of wallowing in cushions and good things to eat.” “And so Dada,” wrote Tzara, “was born of a need for independence, of a distrust toward unity.” Such declarations aside, the movement was decidedly unified in its aims. “For us, art is not an end in itself,” poet Hugo Ball wrote. “It is an opportunity for the true perception and criticism of the times we live in.” This critique required new experimental techniques that deformed and repurposed the technologies of mass culture. The undertaking would not have been possible without a Dada publ",
+      "source_title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "source_url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "卫报图片编辑精选全球每日照片：机器人时装模特与海龟同游",
+      "entities": [
+        {
+          "name": "《卫报》图片编辑",
+          "explain": "负责从全球新闻图片中挑选每日最佳照片的编辑团队。"
+        }
+      ],
+      "summary": "《卫报》图片编辑精选了来自全球的每日照片，内容包括机器人时装模特和与海龟一起自由潜水的画面。这是该报每日图片精选栏目的一部分。",
+      "relevant": "",
+      "context": "这是《卫报》每日图片精选栏目，由图片编辑从全球新闻图片中挑选当日最佳照片，涵盖科技、自然、人文等多元主题。",
+      "source_analysis": "《卫报》为英国主流媒体，图片栏目由专业图片编辑选片，立场倾向呈现多元化的全球视觉新闻。",
+      "social_impact": "",
+      "source_text": "Robot fashion models and freediving with turtles: photos of the day – Tuesday The Guardian’s picture editors select photographs from around the world Nantong, China A group of international milliners gather to watch a novel robotic catwalk display at the fifth 920 Hat carnival. Photograph: VCG/Getty Images Tue 22 Sep 2026 07.47 EDT Last modified on Tue 22 Sep 2026 08.28 EDT Explore more on these topics",
+      "source_title": "Robot fashion models and freediving with turtles: photos of the day – Tuesday",
+      "source_url": "https://www.theguardian.com/news/gallery/2026/sep/22/robot-fashion-models-and-freediving-with-turtles-photos-of-the-day-tuesday",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "印尼迁都努山塔拉，雨林声音正被抢录保存",
+      "entities": [
+        {
+          "name": "Aeon",
+          "explain": "一家专注哲学、科学与社会议题的英文数字杂志，以深度长文和视频著称"
+        },
+        {
+          "name": "努山塔拉（Nusantara）",
+          "explain": "印尼正在婆罗洲雨林中从零建造的新首都，用以取代下沉中的雅加达"
+        }
+      ],
+      "summary": "印尼正在婆罗洲热带雨林中建设新首都努山塔拉，大规模开发将改变当地生态。Aeon发布视频记录一群声音采集者与研究者赶在雨林声景消失前进行录音保存的行动，试图为即将被推土机覆盖的生态留下声音档案。",
+      "relevant": "迁都不仅是城市规划问题，也意味着不可逆的生态与文化损失，声音保存是一种常被忽视的记录方式。",
+      "context": "雅加达因地面沉降和拥堵被决定放弃首都地位，印尼2019年宣布在婆罗洲东加里曼丹省建设新都努山塔拉，工程自2022年起大规模推进，直接占用大片热带雨林。",
+      "source_analysis": "Aeon以人文与生态视角著称，倾向关注现代化进程中被牺牲的非物质遗产，此视频属于其环保与声音文化系列。",
+      "social_impact": "涉及婆罗洲雨林这一全球生物多样性热点区域，迁都工程影响范围达数千公顷，当地原住民与野生动物栖息地面临直接威胁。",
+      "source_text": "For Abidin, a Balik elder who lives in East Kalimantan in Borneo, Indonesia, the sounds of nature aren’t merely a backdrop but a vital part of how he navigates the world. But as the rainforest around him has become more developed, the calls of creatures once heard everywhere have grown scarce. And that process is speeding up. To relieve Indonesia’s capital city of Jakarta, which is sinking due to overdevelopment and vulnerable to climate change, the government is building a new one, Nusantara, close to Abidin’s home. The noise of construction and city life is beginning to overpower the soundscape he relies on, and researchers suspect they may already be pushing wildlife away. In this short documentary, the US director Leah Varjacques traces an effort to record the sounds of the rainforest before they’re altered forever. The film follows Abidin working with a research team that includes Wendy Erb, a bioacoustic scientist from the Cornell Lab of Ornithology in New York, to collect audio from caves, treetops and everywhere in between. In doing so, they hope to create a record for posterity so that the rainforest’s soundscapes – and the culture and ancestral knowledge embedded within them – are never fully erased.",
+      "source_title": "Sound guardians",
+      "source_url": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "哲学家撰文：西塞罗的\"或然论\"教我们自信而不确定",
+      "entities": [
+        {
+          "name": "西塞罗（Cicero）",
+          "explain": "古罗马政治家、演说家和哲学家，以融合希腊哲学与罗马实践著称"
+        },
+        {
+          "name": "probabilia（或然论）",
+          "explain": "西塞罗的哲学立场，认为人应持有确信但非绝对确定的信念，接近现代怀疑主义"
+        },
+        {
+          "name": "Massimo Pigliucci",
+          "explain": "当代哲学家，斯多葛主义研究者与推广者，常在Aeon等媒体撰文"
+        }
+      ],
+      "summary": "哲学家Massimo Pigliucci在Aeon撰文，借西塞罗的生平与思想阐述\"probabilia\"（或然论）：人应当对自己的信念保持信心，但永远不应自认为绝对确定。文章将这一古典立场与当代的极端确信和教条主义对照。",
+      "relevant": "在信息极化和立场先行的时代，西塞罗式的\"有信心的怀疑\"提供了一种可操作的思考姿态。",
+      "context": "西塞罗生活在罗马共和国末期，其哲学著作大量转述希腊学园派的怀疑主义传统，主张在缺乏确定知识时依据\"似真性\"行动。",
+      "source_analysis": "Aeon长期刊载哲学与思想类长文，作者Pigliucci是斯多葛主义代表人物，文章带有明显的古典哲学普及与当代应用倾向。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 22 minute listen How tightly should you hold your beliefs? You face the question several times a week without noticing. Hold them too loosely and you don’t stand for anything, hold them too tightly and you become the sort of person no argument can reach. Most of us swing between the two and have no vocabulary for the ground in between. A Roman lawyer worked one out, under pressure far worse than anything we are likely to face, and it is still the best answer available. The time is early 45 BCE, the place a villa near Lucrine Lake, northwest of Naples, in southern Italy. One of the most fascinating and controversial figures in the entirety of Western history, Marcus Tullius Cicero, is finishing writing a book that will be known as the Academica, where he explains the nature of sceptical philosophy and why it is so crucial not just to the advancement of human knowledge, but to living a good life. It is a strange moment to retire into one’s villa to write. The Roman Republic, so beloved by Cicero, is about to be destroyed by aspiring autocrats: Julius Caesar, a longtime friend and now a political opponent, has declared himself dictator for life, a move that will soon lead to his assassination on the Ides of March 44 BCE. On the personal front, Cicero has recently divorced Terentia, his wife of 30 years, and a few months ago his beloved daughter Tullia died from complications following childbirth. You would think a man whose private and public worlds are collapsing so dramatically would hardly have the focus to write philosophy. Yet for Cicero such writing is a form of therapy, and the treatises he produces will influence medieval Christians, Renaissance authors, and the Founders of the American Republic. Cicero managed all this because of his adopted philosophy, ‘Academic Skepticism’, so-called because it characterised, for the period from 266 to 90 BCE, the Academy originally founded by Plato. He used to be treated as a mere populariser, a gifted Roman relaying Greek ideas he did not really own, but scholars abandoned that uncharitable verdict decades ago as it became clear that Cicero argued and decided among his sources rather than simply transcribing them. He also built a Latin philosophical vocabulary from scratch, and much of the abstract terminology of European thought descends from his coinages. On the question that mattered most to his own school – whether a sceptic may hold opinions, and on what terms – his position was his own ",
+      "source_title": "He was probably right",
+      "source_url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "贝叶挂毯在大英博物馆展出，深度纪录片同步上线",
+      "entities": [
+        {
+          "name": "贝叶挂毯（Bayeux Tapestry）",
+          "explain": "一幅长约70米的中世纪刺绣作品，描绘1066年诺曼征服英格兰的历史事件"
+        },
+        {
+          "name": "大英博物馆",
+          "explain": "位于伦敦的世界级博物馆，收藏全球历史文物"
+        },
+        {
+          "name": "Deep Down History",
+          "explain": "一个专注历史深度解读的内容平台，制作沉浸式历史讲解视频"
+        }
+      ],
+      "summary": "贝叶挂毯目前正在大英博物馆展出，历史内容平台Deep Down History推出深度沉浸式视频，完整讲述这幅70米长刺绣的来龙去脉——它记录了1066年诺曼征服英格兰的全过程，是中世纪最重要的存世文物之一。",
+      "relevant": "贝叶挂毯极少外借展出，此次在大英博物馆亮相是难得的文化事件，配套的深度解读降低了公众理解门槛。",
+      "context": "贝叶挂毯通常保存在法国诺曼底的贝叶博物馆，此次借展至伦敦大英博物馆，属于英法之间的重要文物交流项目。",
+      "source_analysis": "Open Culture是专注文化、教育与艺术资源的聚合网站，倾向推荐免费或可公开获取的高质量文化内容。",
+      "social_impact": "挂毯长约70米，描绘了从爱德华忏悔者去世到黑斯廷斯战役的完整叙事，是研究11世纪英格兰与诺曼底关系的一级史料。",
+      "source_text": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, culminating in the Battle of Hastings. This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…” Enjoy! Related Content The Story Told on the Famous Bayeux Tapestry Explained from Start to Finish Behold a Creative Animation of the Bayeux Tapestry How England First Became England: An Animated History The Bayeux Tapestry Animated The Entire History of the British Isles Animated: 42,000 BCE to Today Construct Your Own Bayeux Tapestry with This Free Online App",
+      "source_title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "source_url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "德国新艺术运动杂志《Jugend》数百期电子版开放下载",
+      "entities": [
+        {
+          "name": "Jugend",
+          "explain": "1896年创办的德国慕尼黑周刊，是新艺术运动（Jugendstil）得名的来源"
+        },
+        {
+          "name": "Gleichschaltung",
+          "explain": "德语\"一体化\"，指1933年纳粹上台后对德国社会各领域的强制协调与控制"
+        },
+        {
+          "name": "美国大屠杀纪念馆",
+          "explain": "位于华盛顿的官方机构，负责大屠杀历史的研究、记录与教育"
+        }
+      ],
+      "summary": "Open Culture推荐可免费下载的《Jugend》杂志数百期电子版。该刊1896至1940年在慕尼黑发行，是德国新艺术运动的标志性刊物。文章同时借\"Gleichschaltung\"（一体化）概念，说明1933年纳粹如何在一夜之间重塑德国社会，该杂志的命运也嵌入这一历史转折。",
+      "relevant": "一份跨越帝国、魏玛与纳粹时期的艺术杂志，其视觉档案与政治命运是理解20世纪德国文化史的直观切口。",
+      "context": "《Jugend》以插画和装饰艺术闻名，推动了德国新艺术风格；1933年纳粹推行Gleichschaltung，对媒体、艺术与出版实施全面管控，该刊最终于1940年停刊。",
+      "source_analysis": "Open Culture为文化资源聚合平台，文章引述美国大屠杀纪念馆的表述，立场偏向历史教育与警示。",
+      "social_impact": "杂志存续44年，跨越德国从帝制到纳粹的剧烈变迁，其数字化开放使公众可直接接触一手视觉史料。",
+      "source_text": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum writes. “Culture, the economy, education, and law all came under Nazi control.” Those artists and organizations that were not purged had their essential character changed to reflect an entirely different set of artistic and political values. One publication, especially, serves as an example of the Nazification of culture. The arts journal Jugend (Youth), writes Messy Nessy Chic, “had been turned largely into propaganda” between 1933 and 1940, its final year. But prior to the regime’s takeover, Jugend showcased the most avant-garde, “degenerate” artists of the era, and might have been “the ‘brainiest’ periodical of the day,” as one critic wrote in a 1904 issue of The Yale Literary Magazine. “There is no magazine published in England or in this country which is at all like it.” You can take a look yourself—browse, search, and download hundreds of scanned issues of Jugend at the University of Heidelberg’s digital archive, thousands of pages in PDF form, spanning the magazine’s forty-four-year history. You can also see images at Flickr. As in England, France, Austria, and the U.S., the Art Nouveau movement in Germany emerged from a whirlwind of post-Impressionist painting, Orientalist motifs, folk art, modernist art and advertising, book illustration, and graphic and industrial design. Appropriately, given its perch on the threshold of a new century, Art Nouveau looked both backward—to the medieval, gothic, and Romantic—and forward toward a more modernist, urbane, and urbanized sensibility. So influential was Jugend that Art Nouveau in Germany became known as Jugendstil. The Oxford Critical and Cultural History of Modernist Magazines writes, “Among Jugend’s most important qualities—indeed, an essential aspect of Art Nouveau and its German equivalent Jugendstil—was its brilliant escapism.” Founded in 1896 by writer Georg Hirth, the magazine was “from the start a venue to promote the new cultural Renaissance without recourse to the established ‘vintage’ art.” (See its very first cover right above.) Jugendstil was primarily based in Munich, where most of its artists, designers, and writers lived and worked, ",
+      "source_title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "source_url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "《卫报》盘点蕾切尔·卡斯克十本最佳作品",
+      "entities": [
+        {
+          "name": "蕾切尔·卡斯克（Rachel Cusk）",
+          "explain": "英国作家，以《Outline》三部曲等自传体小说闻名，风格冷峻、争议性强"
+        },
+        {
+          "name": "自传体小说（autofiction）",
+          "explain": "以作者自身经历为素材但以小说形式呈现的写作类型"
+        },
+        {
+          "name": "《Life of M》",
+          "explain": "卡斯克最新小说，讲述一位作家为一位酷似娜塔莉·波特曼的影星写传记"
+        }
+      ],
+      "summary": "《卫报》文化版发布蕾切尔·卡斯克十本最佳作品排名。文章重点评述其新作《Life of M》——讲述一位作家为酷似娜塔莉·波特曼的影星撰写传记，延续《Outline》三部曲以来的冷感自传体风格。《纽约时报》评价该书\"高冷、世界主义、自我严肃\"。",
+      "relevant": "卡斯克是当代英语文学中最具争议也最具影响力的作家之一，这份榜单提供了进入其作品的路径。",
+      "context": "卡斯克早期以《Saving Agnes》等机智社会喜剧成名，2014年起《Outline》三部曲转向剥离情节的自传体写作，引发关于\"自小说\"边界的持续争论。",
+      "source_analysis": "《卫报》文化版，评论风格偏文学批评与公众趣味结合，对卡斯克持既欣赏又保留的态度。",
+      "social_impact": "",
+      "source_text": "10 Life of M (2026) In Cusk’s headline-grabbing latest, a writer invents the biography of a film star who sounds very like Natalie Portman. Set in the now standard late-Cusk sans serif typeface (no frivolous flourishes!), Life of M serves up observations on fame in a light fictional coating. “To always be playing a part is to have no home.” Having made her name as a devilishly good creator of brainy social comedies, Cusk’s pivot to wintry autofiction since the Outline trilogy appears to have reached its logical conclusion in this flat, abstracted portrait of empty celebrity. The New York Times called it “rarefied, cosmopolitan, self-serious”. Sample line: “Everything I did or said in her company was false. It was as if I was acting, while M came across as authentic and real.” 9 The Lucky Ones (2003) A collection of stories about diverse characters who are linked by the influence of a newspaper columnist. They start weakly – Cusk struggles to embody a working-class female prisoner – but improve once she turns her caustic eye to ski trips and lawyers. The short form enables Cusk to show a narrative strength we don’t always see. Sample line: “Jane and Thomas were ironing out their lives in preparation for parenthood, starching and folding and putting away their youth, their excitement, their spontaneity.” 8 Saving Agnes (1993) After a cracking first line (“The house, like the party, was subsiding”), Cusk’s cheerfully comic debut tickles the reader throughout, as Agnes Day looks for love in contemporary London. Published to acclaim (and a Whitbread award) when Cusk was 26, it has a young writer’s weakness for using elaborate locutions as a shortcut to comedy, but there’s energy on every page, and her phrasing is always perfect: Agnes’s friend Merlin has “a salary for which Elizabeth Bennet would have left Darcy’s dinner burning in the oven”. Sample line: “Like a mirror he gave back nothing but what was already there; smash it and he would be gone, leaving her with nothing but a rearranged face and a few years of bad luck.” 7 The Temporary (1995) Cusk’s sparky second novel is a romantic dramedy. Two Londoners – publishing temp Francine and posh Ralph – bond over a dried-out risotto “like a dish of planetary matter brought back by an alien”. Francine’s house moves frustrate her mother (“You’ve quite ruined my new address book, what with all the crossings-out”); then Ralph wants to move on too. “I thought she understood it was just a temporary thing.” The story b",
+      "source_title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
+      "source_url": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "A.K.布莱克莫尔新作《Doom Painting》重述1381年农民起义",
+      "entities": [
+        {
+          "name": "A.K. Blakemore",
+          "explain": "英国诗人兼小说家，此前以诗集和小说《The Manningtree Witches》知名"
+        },
+        {
+          "name": "农民起义（Peasants' Revolt）",
+          "explain": "1381年英格兰平民因人头税爆发的大规模反抗，席卷英格兰南部"
+        },
+        {
+          "name": "doom painting",
+          "explain": "中世纪教堂墙上描绘\"末日审判\"的壁画，书名借以暗示不可避免的清算"
+        }
+      ],
+      "summary": "《卫报》书评介绍A.K.布莱克莫尔第三部小说《Doom Painting》。小说以1381年英格兰农民起义为题材，用多视角叙事覆盖起义的16天，视角包括少年国王理查二世、廷臣、起义平民，甚至一只海豚和一匹逃逸的马。书评称其语言丰富、野心极大。",
+      "relevant": "以文学方式重访英国历史上最著名的底层反抗，对理解税收不公与阶级冲突有现实映照。",
+      "context": "1381年，英格兰因反复征收人头税引发暴动，起义者攻入伦敦，烧毁债务记录、杀死压迫者，最终被镇压。小说书名取自中世纪教堂的\"末日审判\"壁画。",
+      "source_analysis": "《卫报》书评版，评价积极，称其\"鲁莽地野心勃勃\"，属推荐性评论。",
+      "social_impact": "",
+      "source_text": "AK Blakemore’s third novel tells the story of the Peasants’ Revolt of 1381, when commoners of all classes – not only peasants, but merchants, servants, smugglers, and some local lords and officials – rebelled at the imposition of a poll tax and rampaged through southern England, burning records of debts, killing their oppressors and laying waste to their homes. The book closely follows the events of the rebellion’s 16 days, employing a vast array of points of view, including the young king Richard II, several of his courtiers, dozens of elements of the rebellious Commons, a porpoise and a runaway horse. The title suggests the novel’s portrayal of these events as an inevitable reckoning; a “doom painting” was a picture of the Last Judgment on the wall of a medieval church. As a book of this scope must be, it’s a doorstopper. As any novel by Blakemore will be, it’s dazzlingly rich in lexical glamour, and this is likely to be any reader’s lasting impression of the book. Sometimes it feels as if the author is out to use every word in the English language in a startling, aestheticised, puckish way that expands both the word and the world. The result can be joyously silly. Who else would give us slugs that “blurb their elementary forms from out of the undergrowth to begin a dank and toothless festa”, or “lunar-brilliantined mud”? But there is also gravity and passion here, especially when she intimately imagines the lives of the commoners: “they rise, to fry eggs in butter and pork fat; they rise, to whet knives on scarred stone; they rise, to braid the manes of their draught horses; they rise, to count arrows; they rise, setting aside their glitchy dreams of hairy stars and blue-skinned devils; they rise, fearful and powerful, into the bright day.” The cheekily anachronistic appearance of “glitchy” in this medieval scene is typical of Blakemore’s method. All forms of language, high and low, archaic and modern, are here. Her use of detail to convey a historical scene is also extraordinary: the barber’s chair where “a crowd has gathered beneath the ribboned pole to watch the draining of a cyst”; the brewer with “a grotty beard, chlorotic with hops, [that] hangs down almost to his belt”; or “the horseflies waltzing over the liquefying flesh of severed heads”. Blakemore is less successful in the traditional novelistic areas of plot and character. The primary figure throughout is legendary rebel leader Wat Tyler. Historical accounts of Wat are few and unreliable, so",
+      "source_title": "Doom Painting by AK Blakemore review – a dazzling epic of the Peasants’ Revolt",
+      "source_url": "https://www.theguardian.com/books/2026/sep/22/doom-painting-by-ak-blakemore-review-a-dazzling-epic-of-the-peasants-revolt",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "凯特·莫斯新书《Autumn》书写西萨塞克斯的季节与乡愁",
+      "entities": [
+        {
+          "name": "凯特·莫斯（Kate Mosse）",
+          "explain": "英国畅销小说家，代表作《Labyrinth》，也是女性文学奖项的创办者"
+        },
+        {
+          "name": "西萨塞克斯（West Sussex）",
+          "explain": "英格兰南部郡，莫斯成长与长期居住的地方"
+        }
+      ],
+      "summary": "《卫报》书评介绍凯特·莫斯新书《Autumn》，这是以四季为主题的系列之一，作者书写自己深爱的西萨塞克斯的季节流转、地方传说与风景。系列此前已有迈克尔·莫波格写德文郡的春、瓦尔·麦克德米德写苏格兰的冬，伯纳丁·埃瓦里斯托将写夏。",
+      "relevant": "在地方感日益稀薄的时代，这类\"作家与故乡\"的写作提供了一种缓慢、具体的观察方式。",
+      "context": "该系列由出版社策划，邀请知名作家书写与自己有深厚个人联结的英国地方景观，按四季分册推出。莫斯在Fishbourne村长大，现居奇切斯特。",
+      "source_analysis": "《卫报》书评版，语气温和偏欣赏，强调作者与地方的情感纽带。",
+      "social_impact": "",
+      "source_text": "Kate Mosse’s new book is a love-song to West Sussex, part of a series designed to bring out its authors’ personal connections to a home landscape. It began last year, with Michael Morpurgo welcoming spring in Devon, where he has lived – at the farm that inspired War Horse – for over 50 years; and then Val McDermid celebrating winter in Scotland, where she grew up and still lives. Bernardine Evaristo will explore summer soon – but, meanwhile, we have Mosse, also deeply and endearingly rooted in her chosen patch. Mosse grew up in the village of Fishbourne. She now lives in Chichester, where she got to know her husband when they revised for A-levels in the shadow of the Bishop’s Palace, and held hands when she turned 17 on the day of the city’s annual Sloe Fair. Twenty-three years later, they celebrated her 40th there, with their children. Today, they live with his 90-something mother Granny Rosie – also “Sussex to her bones” – who remembers watching cattle herded in fields where a supermarket now stands. In Granny Rosie’s youth, “the link between tradition and the natural world was present in every part of everyday life”, and that connection is the real focus of Mosse’s book. She has spent nearly all of her 65 years in Sussex. Her Languedoc trilogy was inspired by her time in the Aude city of Carcassonne, but it was Sussex that gave her a taste for the combination of landscape, history and storytelling that drives her books. The county’s folklore and countryside informed her gothic thriller The Taxidermist’s Daughter, and it was the backdrop for her memoir about family care-giving, An Extra Pair of Hands. Autumn gives us more of it. Walking under oak trees, Mosse pictures far off days when oaks were the only road signs. In her garden, she tells us that the Romans called wild cyclamen “earth truffle”, “believing that ill spells were ineffective where they were found”. If there is, at times, a touch of the guide-book in her telling, she wins your heart by the sheer joy she takes in the details. Mosse sets out what Sussex gave other writers, too. William Blake drafted Jerusalem in Felpham, then threw a drunk soldier out of his garden and was tried in Chichester for sedition (all because the soldier claimed he insulted the king). He was acquitted, but “never set foot in Sussex again”. John Keats was inspired by Chichester’s architecture to write The Eve of St Agnes; Hilaire Belloc became Sussex’s unofficial poet laureate; and James Joyce lived in Bognor Regis wh",
+      "source_title": "Autumn by Kate Mosse review – tender reflections on time and place",
+      "source_url": "https://www.theguardian.com/books/2026/sep/22/autumn-by-kate-mosse-review-tender-reflections-on-time-and-place",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "英国先锋电子音乐人Actress发行第十张专辑《Radical Frame》",
+      "entities": [
+        {
+          "name": "Actress",
+          "explain": "英国电子音乐制作人Darren Cunningham的化名，以实验性techno和抽象节奏著称"
+        },
+        {
+          "name": "avant-techno",
+          "explain": "先锋电子舞曲分支，保留techno骨架但强调实验、噪音与非常规结构"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名音乐评论网站，以评分体系对独立与实验音乐影响较大"
+        }
+      ],
+      "summary": "Pitchfork评论英国先锋电子制作人Actress的第十张专辑《Radical Frame》。评论形容这张专辑充满抑郁的电子史诗、扭曲的口语片段和自毁式说唱赞歌，称这位制作人在第十张专辑中显得\"异常易怒、尖锐\"。",
+      "relevant": "Actress是过去十五年英国实验电子音乐的关键人物，第十张专辑标志其创作进入新阶段。",
+      "context": "Actress自2000年代末在伦敦厂牌Werk Discs起步，作品以粗糙音色和抽象舞曲结构闻名，长期在实验电子与俱乐部音乐之间游走。",
+      "source_analysis": "Pitchfork乐评，立场为专业音乐批评，评论基调偏描述性，未给出明确褒贬结论。",
+      "social_impact": "",
+      "source_text": "Actress’ music comes in fits and starts. That’s true of the songs themselves—which might be 20-minute slabs of ambient-leaning electronics or one-minute gasps of sharp, diffident funk—and for the way he releases them, with full LP campaigns punctuated by breadcrumb trails, short films, and download-only albums in between. His music follows its own strange, self-referential logic: Track titles are only vaguely comprehensible, and conceptual inspirations like chess and Milton’s Paradise Lost are flattened into his bit-crushed, hermetically-sealed sound world. The artist born Darren Cunningham is one of the most instantly recognizable electronic producers going, with a style—lo-fi, filtered, looping, limping—that has served him well for over 20 years. Enter Radical Frame, his 10th album. It’s brittle and uneven, beginning with two songs under 30 seconds long and ending with a 16-minute collaboration with Manchester rapper-poet Rainy Miller. Radical Frame is good, but it makes you work for it. The album is immediately disorienting. The first track is a manipulated voice saying “The Experiment,” stretching across the stereo spectrum as though it were being squeezed through a sieve. That’s followed by a five-second tune with a deep voice intoning,“Gimme the fuckin money, man.” From there it swings into one of the most brutal Actress tracks in recent memory: “Live By You” begins as a hard-edged yet melancholy UK rap track with CASISDEAD before Cunningham throws the whole thing down the garbage disposal, with rapidfire handclaps and harsh static swallowing up the MC’s voice. Then comes “Overchord,” with a nice piano intro and a soulful, vibrato-soaked vocal performance that feels dangerously close to veering off key before the track turns into one of those awkward house beats that Actress does so well, the voice resurfacing every once in a while like an especially persistent earworm. No score yet, be the first to add. Radical Frame is also difficult, which seems to be on purpose. It’s presented with a provocative quote from American cultural theorist Fred Moten: “The idea of the black avant-garde exists, as it were, oxymoronically—as if black, on the one hand, and avant-garde, on the other hand, each depends for its coherence on the exclusion of the other.” Actress has always taken pains to stress the avant-garde nature of his own music, and avant-garde history seems to weigh heavily on Radical Frame: The way the voice swoons and melts on “The Experiment” reminds ",
+      "source_title": "Radical Frame",
+      "source_url": "https://pitchfork.com/reviews/albums/actress-radical-frame/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "Beck 发布新专辑《Ride Lonesome》，被视为《Morning Phase》的精神续作",
+      "entities": [
+        {
+          "name": "Beck",
+          "explain": "美国知名另类摇滚/多流派音乐人，代表作《Loser》《Morning Phase》，曾获格莱美年度专辑奖"
+        },
+        {
+          "name": "Morning Phase",
+          "explain": "Beck 2014年发行的专辑，风格沉静忧郁，获格莱美年度专辑奖"
+        },
+        {
+          "name": "Ride Lonesome",
+          "explain": "Beck 的新专辑，融合乡村民谣创作与轻柔迷幻的西海岸摇滚"
+        }
+      ],
+      "summary": "Beck 发行新专辑《Ride Lonesome》，被 Pitchfork 描述为《Morning Phase》的精神续作。专辑融合乡村民谣式创作与轻柔迷幻的西海岸摇滚，但评论认为其中的布鲁斯元素显得灰暗沉闷，整体评价偏保留。",
+      "relevant": "Beck 是格莱美年度专辑得主，《Morning Phase》的续作身份让这张专辑受到广泛关注，评论走向也影响歌迷预期。",
+      "context": "Beck 在2014年凭《Morning Phase》获得格莱美年度专辑后，一直未推出风格相近的完整作品。此次《Ride Lonesome》回归该专辑的沉静路线，被评论界视为其创作脉络的延续。",
+      "source_analysis": "Pitchfork 是知名独立音乐评论媒体，以严苛评分著称，此次评论用词'blues sound a little gray'暗示评价偏负面。",
+      "social_impact": "",
+      "source_text": "Beck rose to fame in the early 1990s as an absurdist poet who mashed together blues, folk, and hip-hop while getting crazy with the Cheez Whiz. For most of his career, that was the default Beck, the real Beck. But is that right? According to the forthcoming book The Last Temptation of Beck, he used to crash stages between sets, usually when one band was breaking down and the other was plugging in, and he’d play a few songs on acoustic guitar and harmonica for a captive audience. Some of those songs were straight-faced covers of blues standards and some were straight-faced originals, and they were generally received by a chattering crowd who were more confused than amused. It was only when Beck started rapping non sequiturs that the bystanders shut up and took notice. That was the first Beck we paid attention to, the one with the leafblower and Stormtrooper helmet, the one who announced himself on the Bong Load 7\" of “Loser,” a surprise hit that caught even him off guard. The 1990s chose that Beck from several different mutations he was tinkering with at the time, and when he veered from that persona it came as a surprise. Mutations in 1998 and Sea Change in 2002 were both noteworthy for their attempts to express something personal in a more straightforward musical mode—the manchild growing up, abandoning irony and shenanigans—but those albums were just warm-ups for 2014’s Morning Phase, when Beck went full country-rock for a record that sounded like waking up after a dark night of the soul. Fans old and new embraced this new version of Beck, and none of his subsequent albums have landed with quite the same impact. Morning Phase reintroduced him as a commercially viable artist and even nabbed the Album of the Year Grammy. No score yet, be the first to add. Maybe a follow-up like Ride Lonesome was inevitable. After the more upbeat Colors in 2017 and Hyperspace in 2019, Beck once again picks up his acoustic guitar and dons his floppy folksinger hat. This version of Beck plies low-key musings about isolation and emotional alienation and arranges them in a way that balances loping country-folk with buoyant French pop (the bass is a lead instrument) and ’60s West Coast rock. With most of the musicians from Sea Change and Morning Phase returning, the songs settle comfortably into a familiar sound and a familiar version of Beck, right down to the relentless midtempo plod and the syrupy strings. Beck retreads rather than reconsiders those ideas, which makes Ride Lo",
+      "source_title": "Ride Lonesome",
+      "source_url": "https://pitchfork.com/reviews/albums/beck-ride-lonesome/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "丹麦音乐人 Agnes Obel 发行新专辑《The Meaning of Flowers》",
+      "entities": [
+        {
+          "name": "Agnes Obel",
+          "explain": "丹麦创作型歌手和钢琴家，以空灵嗓音和极简编曲闻名，代表作《Riverside》"
+        },
+        {
+          "name": "The Meaning of Flowers",
+          "explain": "Agnes Obel 的新专辑，以精致的人声旋律和神秘感为核心特色"
+        }
+      ],
+      "summary": "丹麦音乐人 Agnes Obel 推出新专辑《The Meaning of Flowers》，Pitchfork 评价其以精致的人声旋律和持久的神秘感为主导，兼具超凡脱俗与深沉质朴的双重气质，整体评价积极。",
+      "relevant": "Agnes Obel 是北欧独立音乐代表人物，新专辑延续其标志性风格并获得乐评肯定，值得关注北欧民谣/古典流行方向的听众留意。",
+      "context": "Agnes Obel 此前以《Philharmonics》《Aventine》等专辑建立了空灵钢琴民谣的独特风格。新专辑《The Meaning of Flowers》延续这一路线，进一步探索人声旋律与神秘氛围的结合。",
+      "source_analysis": "Pitchfork 评论用'exquisite''profoundly earthy'等正面措辞，显示对该专辑持肯定态度。",
+      "social_impact": "",
+      "source_text": "For music that is so unashamedly beautiful, there is something distinctly unnerving about The Meaning of Flowers, the fifth studio album from Danish singer-songwriter, instrumentalist, and producer Agnes Obel. The record, Obel’s first since 2020’s Myopia, reflects her experience of pregnancy and motherhood, with influences including Hannah Arendt, Danish pop music from the 1980s, and the soundtrack to Don’t Look Down. So far, so human. But The Meaning of Flowers wraps a deep humanity in feelings that are simultaneously otherworldly and profoundly earthy. Like the work of Enya, Clannad, or even Deep Forest, The Meaning of Flowers feels older than time, like music that has been excavated from a cave, or perhaps beamed from the stars. Central to this is Obel’s voice, which has a thick, almost smudged beauty that sits intriguingly between childlike innocence, aged wisdom, and the motherly hum of a warm synthesiser tone. Some of her vocals have been pitch-shifted, but it says a lot of their velvety, viscous quality that it is hard to distinguish between voice and effect. The massed backing vocals on “Laymelli” dissolve into the song’s synthesised string rush like a lazy river meeting the sea. No score yet, be the first to add. Similar to Cocteau Twins’ Elizabeth Fraser, the meaning of the words in Obel’s music is sacrificed to tone, creating a kind of primordial superfeeling that goes beyond language. Obel is singing in English—and the lyrics are poetic, when you decipher them—but most of the time you would struggle to recognize their origin, with only the rare phrase raising its head from the soup. Shorn of language, much of the music’s emotional impact relies on the vocal melodies. And they are frequently exquisite—see, for example, the casual turns and pointillist touches on “Laymelli,” the birdlike swoops and exhausted melancholy on the gorgeous “Gemini,” or the early morning film noir of the mysterious “Jenn’s on the Way,” a song whose faintly panicky air suggests, perhaps unintentionally, that Jenn may have nefarious intentions. Beneath this, the music lays the perfect bed. The Meaning of Flowers, which is notably more electronic than Myopia, was recorded in Obel’s home studio in Berlin, with the producer contributing voice, piano, synth, and samples and guest musicians chipping in. Soft synth textures and sampled harps are very much to the fore—think Enya in her ’80s pomp or Kate Bush at her most electronic—as pianos peak through their fingers and percus",
+      "source_title": "The Meaning of Flowers",
+      "source_url": "https://pitchfork.com/reviews/albums/agnes-obel-the-meaning-of-flowers/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "The Drin 发行双专辑《I Lost My Way for Centuries》，转向模拟乐器编制",
+      "entities": [
+        {
+          "name": "The Drin",
+          "explain": "一支独立乐队，由 Dylan McCartney 等人组成，风格涉及实验电子与后朋克"
+        },
+        {
+          "name": "Dylan McCartney",
+          "explain": "The Drin 乐队核心成员"
+        },
+        {
+          "name": "I Lost My Way for Centuries",
+          "explain": "The Drin 的新双专辑，从阴郁电子转向以模拟乐器为主"
+        }
+      ],
+      "summary": "The Drin 在核心成员 Dylan McCartney 带领下发行双专辑《I Lost My Way for Centuries》，从以往的阴郁电子转向以模拟乐器为主的编制。专辑篇幅庞大但易于接受，将唱片收藏家的经典参照注入当代的不安感。",
+      "relevant": "这张双专辑标志着乐队从电子向模拟器乐的显著转型，对关注独立实验摇滚的听众具有参考价值。",
+      "context": "The Drin 此前以阴郁电子风格为人所知。此次新作在编制上大幅转向模拟乐器，同时保持双专辑的庞大体量，是乐队创作方向的一次重要调整。",
+      "source_analysis": "Pitchfork 评论用'sprawling yet accessible'形容专辑，整体语气中性偏正面。",
+      "social_impact": "",
+      "source_text": "Perhaps it’s just a strange coincidence that the leader of the Drin bears a name that reads like a stage-alias mash-up of two of the most iconic artists of the 1960s. But while Dylan McCartney’s band deploys a brand of sinister, post-industrial psych-rock that doesn’t feel reverentially retro, his artistic ethos could best be described as a case of Dylan vs. McCartney: He’s both the ragged raconteur gazing wearily out at our cruel world, and the ambitious, console-savvy alchemist seeking to transcend it. Since launching the Drin with a home-recorded cassette in the pandemic-clouded summer of 2020, McCartney has effectively built the project into a Buckeye State version of the Brian Jonestown Massacre. His prolific rate of output mirrors Anton Newcombe’s mid-’90s hot streak and occupies a similarly fluid position on the spectrum between jangle and drone, replacing BJM’s California-cult aura with a hardened Rust Belt resilience. McCartney has since surrounded himself with a proper six-piece band, simultaneously sustaining membership in fellow Cincinnati-scene pillars the Serfs and Crime of Passing. But all the while, the Drin have stayed true to his original mandate, tapping a deep well of record-collector touchstones (from classic and kosmiche rock to post-punk and dub to goth and neofolk) and reanimating them with a contemporary sense of unease—nostalgia as a gateway to dystopia. No score yet, be the first to add. For an industrious artist like McCartney, a double album is less a dramatic level-up than an inevitability. Clocking in at 23 songs and 75 minutes, I Lost My Way for Centuries is certainly the Drin’s most sprawling statement to date, but it’s also the most accessible on-ramp into McCartney’s psyche. And for such a wide-ranging record, there’s remarkably little fat. They don’t pad the tracklist with extended noise experiments or free-form jams; rather, each track functions as a challenge to work within compact pop-song parameters while still retaining the band’s improvisatory, wandering spirit. McCartney’s densely layered approach remains, but instead of plunging his melodies into a murky pool of doomy basslines, lo-tech electronics, and dubbed-out tape manipulations, he weaves thick tapestries from mostly organic instrumentation: guitars, drums, brass, shakers, and the occasional bouzouki. No matter what form the Drin take—renaissance-faire folkies (“...And They All Strummed”), garage-quaking neanderthals (“Cannery Action”), harmonica-honking Har",
+      "source_title": "I Lost My Way for Centuries",
+      "source_url": "https://pitchfork.com/reviews/albums/the-drin-i-lost-my-way-for-centuries/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "洛杉矶乐队 After 发行首张专辑《Fell Asleep in the Sun》，被评形式大于内容",
+      "entities": [
+        {
+          "name": "After",
+          "explain": "来自洛杉矶的一支乐队，风格致敬2000年代 trip-hop、软摇滚和碎拍流行"
+        },
+        {
+          "name": "trip-hop",
+          "explain": "一种起源于1990年代英国的电子音乐流派，节奏缓慢、氛围阴郁，代表艺人如 Massive Attack"
+        },
+        {
+          "name": "breakbeat pop",
+          "explain": "以碎拍节奏为基础的流行音乐风格，常见于1990年代末至2000年代的电子流行"
+        }
+      ],
+      "summary": "洛杉矶乐队 After 发行首张专辑《Fell Asleep in the Sun》，精准复刻2000年代 trip-hop、软摇滚与碎拍流行的声音。Pitchfork 认为专辑表面悦耳，但内容浅薄，令人失望。",
+      "relevant": "作为一支新乐队的首张专辑，其复古定位和评论界'形式大于内容'的评价，反映了当下复古潮流中常见的创作困境。",
+      "context": "After 是一支新晋洛杉矶乐队，首张专辑选择致敬2000年代的 trip-hop 和软摇滚等风格。Pitchfork 在评论中指出，这种精确的复古致敬虽然听觉上悦耳，但缺乏深度。",
+      "source_analysis": "Pitchfork 评论用'superficially pretty but frustratingly shallow'直接给出负面判断，立场明确。",
+      "social_impact": "",
+      "source_text": "Graham Epstein and Justine Dorsey are a match made in platonic-friendship heaven. The members of After—their anachronistic “trip-pop” band—were born on the same day in 1995; Epstein told The Cut that his pickup line after they matched on Hinge was “Do you like Creed?”; she listens to Addison Rae and he likes French Canadian black metal, but you know what, they both love Coldplay. They might’ve met in search of romance, but they were destined to be besties and creative collaborators: the musical equivalent of Delaney Rowe’s 2000s rom-com parody, which blew up on TikTok for its spot-on satire of its era. It’s cute, it’s endearing, it’s something. Like Rowe, After went viral last year for being scarily good at imitating ’00s media. The difference is that the L.A. duo admirably sees itself as above a gimmick; their mission, they told Rolling Stone, is to make you “miss a memory you never had.” Into this state-of-the-art cocktail of zillenial yesterday, they pour the pure ephemera of new-millennium breakbeat pop, the heartfelt edginess of Bush-era mall rock, and the fantastical normalcy of a Tucsan mom’s adult-contemporary CD collection. On their full-length debut, Fell Asleep in the Sun, After continue to survey these sounds and feelings—but beyond pretty, era-accurate production, they can’t muster the conviction or atmosphere to really take us there. This is a set of nebulous love songs whose melancholic narrative is spoiled by flat lyricism and unfulfilling pop arrangements. No score yet, be the first to add. As on their prior EPs, After’s ideas sound fascinating in theory but fail in execution. Epstein described the genesis of the duo’s songwriting process to The Cut: Dorsey would sing over drum loops from Akira Yamaoka’s macabre Silent Hill soundtracks, then he’d fit them with dramatic string arrangements. It’s exactly what we hear on opener “Take Me to Sunrise,” a song that could be about unrequited love or the album’s main theme of taking refuge in the past. Either way, the music offers little substance. Dorsey’s lyrics describe almost nothing about this “place [she’s] been before,” only that it’s “far away” and that we could totally “stay there if you want to.” Epstein and collaborator Jackson Shanks’ production should be there to fill in the blanks, but the stale acoustic shuffle doesn’t get the boost from those strings that it should—they’re hastily shoved into the hook and sour Dorsey’s gorgeous self-duet at the end. “Breathe Your Air” hits the Yamao",
+      "source_title": "Fell Asleep in the Sun",
+      "source_url": "https://pitchfork.com/reviews/albums/after-fell-asleep-in-the-sun/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_2bd4ced0ec7c",
+      "source": "Pitchfork",
+      "title": "Radical Frame",
+      "url": "https://pitchfork.com/reviews/albums/actress-radical-frame/",
+      "summary": "Depressive electro epics, mangled bursts of spoken word, self-destructing rap anthems: The UK avant-techno producer sounds unusually prickly on his 10th album.",
+      "image": ""
+    },
+    {
+      "id": "rss_8d84738be23c",
+      "source": "Pitchfork",
+      "title": "Fell Asleep in the Sun",
+      "url": "https://pitchfork.com/reviews/albums/after-fell-asleep-in-the-sun/",
+      "summary": "The Los Angeles band’s note-perfect reverence for 2000s trip-hop, soft rock, and breakbeat pop makes for a superficially pretty but frustratingly shallow debut LP.",
+      "image": ""
+    },
+    {
+      "id": "rss_00457d245fd3",
+      "source": "Pitchfork",
+      "title": "I Lost My Way for Centuries",
+      "url": "https://pitchfork.com/reviews/albums/the-drin-i-lost-my-way-for-centuries/",
+      "summary": "On a sprawling yet accessible double album that trades murky electronics for mostly analog instruments, Dylan McCartney and co. inject record-collector touchstones with a contemporary sense of unease.",
+      "image": ""
+    },
+    {
+      "id": "rss_f442f56cd845",
+      "source": "Pitchfork",
+      "title": "The Meaning of Flowers",
+      "url": "https://pitchfork.com/reviews/albums/agnes-obel-the-meaning-of-flowers/",
+      "summary": "Dominated by exquisite vocal melodies and an abiding sense of mystery, the Danish musician’s new album is simultaneously otherworldly and profoundly earthy.",
+      "image": ""
+    },
+    {
+      "id": "rss_3a9f3db6d5fb",
+      "source": "Pitchfork",
+      "title": "Ride Lonesome",
+      "url": "https://pitchfork.com/reviews/albums/beck-ride-lonesome/",
+      "summary": "The blues sound a little gray on Beck’s new album, a spiritual sequel to Morning Phase blending country-folk songwriting and gently psychedelic West Coast rock.",
+      "image": ""
+    },
+    {
+      "id": "rss_f7df0aff8aa5",
+      "source": "Open Culture",
+      "title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "summary": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global [&#8230;]",
+      "image": "https://cdn8.openculture.com/2019/11/06222249/Dada1.jpg"
+    },
+    {
+      "id": "rss_29741bfcce0b",
+      "source": "Open Culture",
+      "title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "summary": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, [&#8230;]",
+      "image": "https://i.ytimg.com/vi/WnJgym1oIJU/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_4dcfd92bdb55",
+      "source": "Open Culture",
+      "title": "Download Hundreds of Issues of Jugend, Germany’s Pioneering Art Nouveau Magazine (1896–1940)",
+      "url": "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html",
+      "summary": "It’s an ungainly word for English speakers, which is maybe why we do not hear it often: Gleichschaltung. Yet the concept remains central for a clear view of what happened to Germany in the 1930s. In 1933, the nation completely transformed, seemingly overnight, through “a concerted policy of ‘coordination’ (Gleichschaltung),” the U.S. Holocaust Memorial Museum [&#8230;]",
+      "image": "https://cdn8.openculture.com/2017/08/31225608/Jugend4.jpg"
+    },
+    {
+      "id": "rss_31deaeaf27e2",
+      "source": "Aeon",
+      "title": "Toadstools and toxins",
+      "url": "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies",
+      "summary": "When I found the mushroom Amanita muscaria being sold in candy wrappers, I uncovered legal loopholes, dangerous dosages and more - by Eric Leas Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/1b09c0ee-fda1-4d33-9012-32b332155b78/essay-gettyimages-1432926045.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_39f3ae23555a",
+      "source": "Aeon",
+      "title": "Sound guardians",
+      "url": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
+      "summary": "As Indonesia builds a new capital city, the race is on to preserve the sounds of the rainforest before they vanish forever - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/350652a0-e6ac-4a1d-b013-736fa59eeda5/sound-guardians-landscape.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_0f63ed48dd3c",
+      "source": "Aeon",
+      "title": "He was probably right",
+      "url": "https://aeon.co/essays/a-good-sceptic-has-more-than-doubt-and-less-than-certainty",
+      "summary": "Cicero’s life and thought are a testament to the idea of probabilia: we should be confident in our beliefs, but never certain - by Massimo Pigliucci Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/ab30ee1c-11a9-4d4d-a7a0-fd34b45891e5/esssay-gettyimages-527618704.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_c2b39d05ecdc",
+      "source": "卫报书籍",
+      "title": "Doom Painting by AK Blakemore review – a dazzling epic of the Peasants’ Revolt",
+      "url": "https://www.theguardian.com/books/2026/sep/22/doom-painting-by-ak-blakemore-review-a-dazzling-epic-of-the-peasants-revolt",
+      "summary": "This recklessly ambitious doorstopper follows the 16 days of England’s medieval uprising from a vast array of viewpoints, and in startlingly rich prose AK Blakemore’s third novel tells the story of the Peasants’ Revolt of 1381, when commoners of all classes – not only peasants, but merchants, servants, smugglers, and some local lords and officials – rebelled at the imposition of a poll tax and rampaged through southern England, burning records of debts, killing their oppressors and laying waste to their homes. The book closely follows the events of the rebellion’s 16 days, employing a vast array of points of view, including the young king Richard II, several of his courtiers, dozens of elements of the rebellious Commons, a porpoise and a runaway horse. The title suggests the novel’s portrayal of these events as an inevitable reckoning; a “doom painting” was a picture of the Last Judgment on the wall of a medieval church. As a book of this scope must be, it’s a doorstopper. As any novel by Blakemore will be, it’s dazzlingly rich in lexical glamour, and this is likely to be any reader’s lasting impression of the book. Sometimes it feels as if the author is out to use every word in the English language in a startling, aestheticised, puckish way that expands both the word and the world. The result can be joyously silly. Who else would give us slugs that “blurb their elementary forms from out of the undergrowth to begin a dank and toothless festa ”, or “lunar-brilliantined mud”? But there is also gravity and passion here, especially when she intimately imagines the lives of the commoners: “they rise, to fry eggs in butter and pork fat; they rise, to whet knives on scarred stone; they rise, to braid the manes of their draught horses; they rise, to count arrows; they rise, setting aside their glitchy dreams of hairy stars and blue-skinned devils; they rise, fearful and powerful, into the bright day.” The cheekily anachronistic appearance of “glitchy” in this medieval scene",
+      "image": ""
+    },
+    {
+      "id": "rss_48531c54428e",
+      "source": "卫报书籍",
+      "title": "Autumn by Kate Mosse review – tender reflections on time and place",
+      "url": "https://www.theguardian.com/books/2026/sep/22/autumn-by-kate-mosse-review-tender-reflections-on-time-and-place",
+      "summary": "The author of Labyrinth on the turning of the seasons and the lore and landscape of her beloved Sussex Kate Mosse’s new book is a love-song to West Sussex, part of a series designed to bring out its authors’ personal connections to a&nbsp;home landscape. It began last year, with Michael Morpurgo welcoming spring in Devon, where he has lived – at the farm that inspired War Horse – for over 50 years; and then Val McDermid celebrating winter in Scotland, where she grew up and still lives . Bernardine Evaristo will explore summer soon – but, meanwhile, we have Mosse, also deeply and endearingly rooted in her chosen patch. Mosse grew up in the village of&nbsp;Fishbourne. She now lives in Chichester, where she got to know her&nbsp;husband when they revised for A-levels in the shadow of the Bishop’s Palace, and held hands when she turned 17 on the day of the city’s annual Sloe Fair. Twenty-three years later, they celebrated her 40th there, with their children. Today, they live with his 90-something mother Granny Rosie – also “Sussex to her bones” –&nbsp;who remembers watching cattle herded in fields where a supermarket now stands. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_fb33ce406f61",
+      "source": "卫报书籍",
+      "title": "Celebrity, sex and motherhood misery: the 10 best books by Rachel Cusk … ranked!",
+      "url": "https://www.theguardian.com/culture/2026/sep/21/books-story-ranked",
+      "summary": "From an abstract portrait of an actor who might be Natalie Portman to a groundbreaking work of autofiction, we rate the best from the coolly controversial author In Cusk’s headline-grabbing latest, a&nbsp;writer&nbsp;invents the biography of a film star who sounds very like Natalie Portman. Set in the now standard late-Cusk sans&nbsp;serif typeface (no frivolous flourishes!), Life of M serves up observations on fame in&nbsp;a light fictional coating. “To always be playing a part is to have no home.” Having made her name as a devilishly good creator of&nbsp;brainy social comedies, Cusk’s pivot to wintry autofiction since the Outline trilogy appears to have reached its logical conclusion in this flat, abstracted portrait of empty celebrity. The New York Times called it “rarefied, cosmopolitan, self-serious”. Sample line: “Everything I did or said in her company was false. It was as if I&nbsp;was acting, while M came across as authentic and real.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_35f0a96c77f5",
+      "source": "Mongabay",
+      "title": "Honoring Jane Goodall’s conservation legacy and combatting misinformation",
+      "url": "https://news.mongabay.com/short-article/2026/09/honoring-jane-goodalls-conservation-legacy-and-combatting-misinformation/",
+      "summary": "Former United Nations climate chief Christiana Figueres has been named the recipient of the inaugural Jane Goodall Earth Medal, which honors those who “unite science, courage and responsibility.” Goodall, a primatologist, conservationist and a persistent voice of hope, died in October 2025 at the age of 91. She also served on Mongabay’s advisory council. The [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/22102030/Jane-Goodall-Hopecast-2560-2048x1152-1-768x512.jpg"
+    },
+    {
+      "id": "rss_bf6ff0b964c7",
+      "source": "Mongabay",
+      "title": "Drought and state neglect deepen health crisis for Peru’s recently contacted Matsés",
+      "url": "https://news.mongabay.com/short-article/2026/09/drought-and-state-neglect-deepen-health-crisis-for-perus-recently-contacted-matses/",
+      "summary": "A worsening convergence of drought driven by climate change, epidemic disease, and state neglect is creating a severe health emergency for the Indigenous Matsés people in the Peruvian Amazon. Mongabay staff writer Aimee Gabay traveled to Matsés territory to investigate the environmental threats to the region. Instead, she found Matsés communities suffering from severe outbreaks [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/22045335/contacted-Indigenous-Matses-7-1-768x512.jpg"
+    },
+    {
+      "id": "rss_0e499f9b97ae",
+      "source": "Mongabay",
+      "title": "Tourism has the potential to reverse coral decline at Bali travel hotspot: Study",
+      "url": "https://news.mongabay.com/2026/09/tourism-has-potential-to-slow-coral-decline-at-bali-travel-hotspot-study/",
+      "summary": "Sanur is where tourism took off in Bali. A coastal town overlooking the Lombok Strait where the Pacific Ocean flows into the Indian Ocean, artists and travelers began frequenting its shores in the 1920s. Today, the local economy still depends on income from visitors seeking its sun-kissed sands and cozy waters that hold the promise [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/21153916/Image-by-Anett-SzasziOcean-Image-Bank-768x512.jpg"
+    },
+    {
+      "id": "rss_708c595c1972",
+      "source": "卫报野生动物",
+      "title": "Wasp spider seen in north of England latest ‘climate refugee’ amid global heating",
+      "url": "https://www.theguardian.com/environment/2026/sep/22/wasp-spider-climate-refugee-north-of-england",
+      "summary": "The Argiope bruennichi , spotted in Cheshire for first time, part of worrying trend that could threaten native species She is an unlikely harbinger of the climate emergency: a venomous black and yellow spider who spins mysterious patterns in her webs and eats her mates for breakfast. Native to mainland Europe, north Africa and Asia, the Argiope bruennichi – commonly known as a wasp spider – is rarely seen in the north and west of Britain. But a fully grown female has been spotted in Cheshire for the first time by conservationists from Chester zoo, who stumbled across the large, brightly striped arachnid in a rewilded field. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_2230a208d287",
+      "source": "卫报野生动物",
+      "title": "Robot fashion models and freediving with turtles: photos of the day – Tuesday",
+      "url": "https://www.theguardian.com/news/gallery/2026/sep/22/robot-fashion-models-and-freediving-with-turtles-photos-of-the-day-tuesday",
+      "summary": "The Guardian’s picture editors select photographs from around the world Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_60f877f49128",
+      "source": "卫报野生动物",
+      "title": "Meet Barbie Pig: new documentary reveals the wonders of life on the Pacific seabed",
+      "url": "https://www.theguardian.com/environment/2026/sep/22/meet-barbie-pig-new-documentary-reveals-the-wonders-of-life-on-the-pacific-seabed",
+      "summary": "A magical new film captures the secret life of the deep sea in a stretch of the ocean at risk from industrial mining A magical film that explores the wonders of the deep sea through the eyes of a team of scientists and an underwater robot called Isis will be shown in selected cinemas across the UK next month. The documentary, How Deep Is Your Love, offers a playful, irreverent and bittersweet look at our anthropocentric view of Earth, as it switches perspective from humans to deep sea animals and back again. It follows a research team from the Natural History Museum (NHM) in London, who sail for 12 days to reach a remote region called the Clarion Clipperton Zone, a biodiversity-rich area of the Pacific between Hawaii and Mexico. It takes Isis five hours to make the 3-mile (5km) descent to the bottom of this harsh world, where sunlight cannot penetrate, and where nodules rich in minerals mark it out as a hotspot for industrial mining. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-22 21:40"
+}
