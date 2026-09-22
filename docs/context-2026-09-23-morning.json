@@ -1,0 +1,756 @@
+{
+  "key": "2026-09-23-morning",
+  "date": "2026-09-23",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "特朗普在联合国演讲中威胁要“消灭”伊朗",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统，在联合国大会上发表强硬讲话"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "每年9月在纽约举行的全球领导人峰会，各国元首集中发言"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，长期与美国在核问题等方面对立"
+        }
+      ],
+      "summary": "美国总统特朗普在联合国大会演讲中表示，他必须决定是与伊朗达成和平协议，还是对其采取“消灭”级别的极端行动。与此同时，美伊官员在会场间隙进行了会面。这一表态打破了联大通常聚焦全球和谐的传统基调。",
+      "relevant": "特朗普的措辞将美伊关系推向高度紧张，直接影响中东局势和全球能源市场稳定。",
+      "context": "特朗普在联大发表演讲，正值美伊关系持续紧张之际。他公开表示面临“达成协议还是消灭伊朗”的抉择，显示美方对伊政策可能走向极端。",
+      "source_analysis": "BBC报道，立场相对中立，侧重事实陈述和现场反应。",
+      "social_impact": "联大本是全球领导人呼吁和平的场合，特朗普的强硬表态引发其他领导人对国际深度分裂的担忧。",
+      "source_text": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines - Published President Donald Trump has told the United Nations General Assembly he faces a \"big decision\" on whether to strike Iran again or pursue a peace deal. A single member of Iran's delegation watched on during the president's speech on Tuesday in New York, in which he said he could \"annihilate\" the Islamic Republic if the conflict went unresolved. Before a standing-room-only audience, Trump also rejected \"global government\", vowed to broker peace between Russia and Ukraine and ensure the US wins the artificial intelligence race. His comments came on a day of high-level diplomacy. He has been meeting more than a dozen world leaders as wars in the Middle East and Ukraine test his foreign policy agenda. Trump began by touting his accomplishments on the economy, immigration, the border and tackling violent crime, in remarks that sounded more pitched to voters in November's US midterm elections than the diplomats in Manhattan. He spent much of his address justifying the war with Iran, which has spiked global oil prices while dragging down his approval ratings since the US and Israel launched the military action in February. Trump's tone contrasted with remarks earlier by UN Secretary General António Guterres, who warned global divisions were deepening and underscored the \"interdependence\" of the world's peoples. The US president argued that the conflict had prevented Tehran from obtaining a nuclear weapon and demonstrated the value of what he described as peace through strength - ultimatums rather than deal-making or compromise. \"Will a deal be made with Iran that lets them rebuild and create a far greater country than it ever was before?\" he said. \"Or do I annihilate the Islamic Republic and do it quickly, never giving them a chance to kill and destroy people and countries again? Do I drive them into hell?\" Trump said he believed an Iran deal, which has so far eluded him, would come right after November's elections. The remarks were indicative of his foreign-policy strategy of coercive diplomacy - threatening overwhelming force while keeping negotiations open. Trump later told reporters that American officials had had a \"very productive\" three-hour meeting with the Iranian delegation on the sidelines of the general assembly. Iran state TV confirmed that Foreign Minister Abbas Araghchi had met US Special Envoy to the Middle East Steve Witkoff, although there was no comment f",
+      "source_title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
+      "source_url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "联大现场：特朗普威胁伊朗之际，多国领导人警告世界深度分裂",
+      "entities": [
+        {
+          "name": "联合国大会",
+          "explain": "全球领导人年度聚会，通常用于发表和平与合作声明"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，在联大发表对伊朗强硬讲话"
+        }
+      ],
+      "summary": "在联合国大会一般性辩论中，特朗普表示必须决定是与伊朗达成协议还是“消灭”伊朗。与此同时，多位其他国家领导人警告全球分歧正在加深。这一场景与联大通常聚焦全球和谐的基调形成鲜明对比。",
+      "relevant": "反映当前国际秩序裂痕加深，多边机制面临严峻考验。",
+      "context": "联大一般性辩论正在进行，特朗普的伊朗表态成为焦点，其他领导人对全球分裂发出警告，显示国际社会在重大安全议题上难以达成共识。",
+      "source_analysis": "《纽约时报》实时报道，立场偏自由派，关注多边主义和国际合作。",
+      "social_impact": "世界领导人普遍担忧国际体系分裂加剧，联大作为多边对话平台的有效性受到质疑。",
+      "source_text": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions。President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony.",
+      "source_title": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+      "source_url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "美国与丹麦达成防务协议，将在格陵兰建两座军事基地",
+      "entities": [
+        {
+          "name": "格陵兰",
+          "explain": "世界最大岛屿，丹麦的半自治领地，地处北极战略要地"
+        },
+        {
+          "name": "丹麦",
+          "explain": "北欧国家，对格陵兰拥有主权"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "协议签署的场合，各国领导人聚集的年度峰会"
+        }
+      ],
+      "summary": "美国与丹麦在联合国大会期间签署防务协议，美国将在格陵兰建设两座军事基地。协议同时重申丹麦对格陵兰的主权。此举强化了美国在北极地区的军事存在。",
+      "relevant": "北极地区战略竞争加剧，美国扩大军事部署可能引发俄罗斯等国关注，也涉及格陵兰主权和自治问题。",
+      "context": "特朗普此前曾公开表示想“购买”格陵兰，引发丹麦和格陵兰方面不满。此次防务协议在尊重丹麦主权的前提下，实现了美国在格陵兰的军事存在扩展。",
+      "source_analysis": "BBC报道，立场中立，侧重协议内容和主权确认。",
+      "social_impact": "格陵兰地处北极航道关键位置，军事基地建设将改变北极地缘格局，影响当地居民和自治政府的态度。",
+      "source_text": "US to build two military bases in Greenland under new deal with Denmark - Published The US, Denmark and Greenland have signed a defence deal that allows Washington to build two new military bases in the Arctic territory, while reaffirming Copenhagen's sovereignty over it. Before a signing ceremony at the UN General Assembly in New York, US President Donald Trump said \"we will immediately begin the process of developing a large military presence in the appropriate locations\". Danish PM Mette Frederiksen said the deal was \"good for the US, Denmark and Greenland\" and also for Europe and Nato, while Greenland's PM Jens-Frederik Nielsen said it was a \"win-win-win\". The three leaders then inked the deal, seemingly ending more than a year of tension over the Arctic territory. Trump had threatened to \"take\" the semi-autonomous Arctic territory over what he said were national security concerns, citing its strategic defence location and its mineral wealth. His rhetoric prompted outcry from Greenlanders, Danes and European leaders who issued a joint statement saying his words \"undermine transatlantic relations and risk a dangerous downward spiral\". The deal amends and updates a 1951 defence agreement between Denmark and the US. The new pact says the US \"shall be allowed to establish an additional Defence Area at Narsarsuaq and Mestersvig\" - referring to locations in Greenland's south and east. Narsarsuaq is a former civilian airport and World War Two base. It has deep-water access and a large runway which US military engineers were recently surveying, the US North Command confirmed to the BBC. The Mestersvig outpost is remote, far less developed, and used by a Danish naval dog sled unit. The \"modalities and technical details\" of the bases are yet to be confirmed, and according to the deal, must be mutually agreed by all parties, This means the US security arrangements are not unfettered and Greenland and Denmark's approval is still needed. Washington currently operates its Pituffik Space Base in Greenland's north-west, and the new deal allows the US to \"modernise and expand its activities\" there. It also says that \"no state that is not a member of Nato shall be allowed to establish its own manned or unmanned military installations in Greenland nor shall they be allowed a persistent presence of military forces in Greenland\". Although the militaries of non-Nato countries are now explicitly barred from the island, it was highly unlikely that non-allied troops would have",
+      "source_title": "US to build two military bases in Greenland under new deal with Denmark",
+      "source_url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "泽连斯基称乌克兰准备与俄罗斯达成能源停火",
+      "entities": [
+        {
+          "name": "泽连斯基",
+          "explain": "乌克兰总统，领导乌克兰抵抗俄罗斯入侵"
+        },
+        {
+          "name": "能源停火",
+          "explain": "双方停止攻击对方的能源基础设施，如电站、油库等"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "泽连斯基发表上述表态的场合"
+        }
+      ],
+      "summary": "乌克兰总统泽连斯基在联合国大会间隙对记者表示，如果俄罗斯停止攻击乌克兰能源设施，基辅也准备停止对俄能源基础设施的打击。他希望能在冬季到来前结束战争。",
+      "relevant": "能源停火若实现，将是俄乌冲突降级的重要信号，也有助于缓解冬季能源危机。",
+      "context": "俄乌冲突持续，双方此前频繁攻击对方能源基础设施，导致大量平民在冬季面临断电断暖。泽连斯基在联大期间释放停火信号，显示乌方对冬季局势的担忧。",
+      "source_analysis": "France24报道，立场偏西方，关注乌克兰方面的和平意愿。",
+      "social_impact": "能源停火直接关系到数百万乌克兰和俄罗斯民众的冬季供暖和用电安全。",
+      "source_text": "Zelensky says Ukraine is ready for an energy ceasefire with Russia On the sidelines of the UN General Assembly in New York on Tuesday, Ukraine's President Volodymyr Zelensky told journalists that Kyiv is ready to halt strikes on Russian energy infrastructure if Moscow does the same, with hopes to end the war before winter. Ukraine is ready to halt strikes on Russian energy sites if Moscow agrees to do likewise, President Volodymyr Zelensky said Tuesday, adding both Kyiv and Washington want the war to end before winter. \"We are ready for any kind of format of energy ceasefire\" if Russia agrees to \"not attack our energy system,\" Zelensky told journalists on the sidelines of the UN General Assembly in New York. The Ukrainian leader however said he did not know Moscow's position, expressing hope that the \"American side will find a way ... to bring them to any kind of negotiations.\" To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Efforts led by Washington to broker a deal to end the hostilities – which have raged since Russia launched its all-out invasion of Ukraine in February 2022 – have stalled in recent months as the United States has shifted focus to its war against Iran. Russia and Ukraine have for months been engaged in intensifying long-range strikes targeting a growing number of civilian sites, including factories, warehouses and energy and port infrastructure, as well as ships in the Black Sea. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. US President Donald Trump, who met with Zelensky in New York on Tuesday, said last week that Ukraine and Russia had agreed not to target each other's energy facilities, a day after he chastised Kyiv for hitting Russian oil refineries. Zelensky described the Tuesday meeting with Trump as \"positive and productive,\" saying in a post on X that \"both the US and Ukraine want to see this senseless Russian war ended before winter.\" (FRANCE 24 with AFP)",
+      "source_title": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
+      "source_url": "https://www.france24.com/en/europe/20260922-zelensky-says-ukraine-is-ready-for-an-energy-ceasefire-with-russia",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "习近平访美将与特朗普会谈，议程涵盖芬太尼、稀土、AI芯片等",
+      "entities": [
+        {
+          "name": "习近平",
+          "explain": "中国国家主席"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统"
+        },
+        {
+          "name": "芬太尼前体",
+          "explain": "制造芬太尼的化学原料，美国指责中国是其主要来源"
+        },
+        {
+          "name": "稀土",
+          "explain": "制造高科技产品和武器所需的关键矿物，中国是全球最大供应国"
+        },
+        {
+          "name": "AI芯片",
+          "explain": "用于人工智能计算的高端半导体，美国对华实施出口限制"
+        }
+      ],
+      "summary": "据塔斯社报道，中国国家主席习近平访美与特朗普会谈的议程包括：芬太尼前体管控、相互暂停措施、稀土供应、美国关税、中国获取先进AI芯片及其他高科技产品，以及美国对台军售等议题。",
+      "relevant": "中美领导人会晤涉及贸易、科技、安全等多个核心领域，成果将影响全球供应链和地缘政治格局。",
+      "context": "中美关系在贸易战、科技封锁、台海问题等方面持续紧张。此次访问是在双方寻求管控分歧的背景下进行的，议程覆盖面广，显示两国试图在多领域进行谈判。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，立场偏向俄方视角，可能关注中美互动对俄罗斯的影响。",
+      "social_impact": "会谈结果将直接影响全球稀土供应、半导体产业链和芬太尼滥用危机等跨国问题。",
+      "source_text": "BEIJING, September 23. /TASS/. Chinese President Xi Jinping begins his first state visit to the United States in 11 years on September 23 , with talks with US President Donald Trump expected to focus on stabilizing bilateral ties. The agenda includes fentanyl precursors, mutual moratoriums expiring November 10, rare earth supplies, US tariffs, China’s access to advanced artificial intelligence chips and other high-tech products, and US arms supplies to Taiwan. The sides also agreed to launch an artificial intelligence dialogue to prevent escalation. Trump may seek greater Chinese purchases of US goods, while China is expected to seek lower US tariffs. The sides are discussing tariff reductions covering about $30 billion in goods for each side. The leaders are also expected to discuss the Ukraine crisis, US-Iran tensions, Strait of Hormuz shipping, sanctions, space militarization, US missile systems in Japan and Washington’s Pax Silica technology alliance, as well as \"constructive strategic stability.\" Further talks may take place at the Asia-Pacific Economic Cooperation summit in November and G20 summit in December.",
+      "source_title": "Xi Jinping’s visit to US: what to expect from talks with Trump?",
+      "source_url": "https://tass.com/world/2191357",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "特朗普称美国正在研究更严厉的对俄制裁法案",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国总统"
+        },
+        {
+          "name": "对俄制裁",
+          "explain": "美国针对俄罗斯的经济惩罚措施，如冻结资产、限制贸易等"
+        }
+      ],
+      "summary": "美国总统特朗普表示，美国正在研究一项更严厉的对俄制裁法案，并强调“这是一项非常严厉的法案”。这表明美方可能进一步加大对俄罗斯的经济压力。",
+      "relevant": "对俄制裁升级将影响全球能源市场、俄罗斯经济以及俄乌冲突走向。",
+      "context": "俄乌冲突持续，美国此前已对俄罗斯实施多轮制裁。特朗普此番表态显示美方可能进一步收紧制裁力度，尽管他此前曾对制裁效果表示怀疑。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道美方制裁动向时可能带有俄方关注视角。",
+      "social_impact": "更严厉制裁可能进一步削弱俄罗斯经济，但也可能推高全球能源价格，影响欧洲和新兴市场。",
+      "source_text": "UNITED NATIONS, September 22. /TASS/. The US presidential administration is studying the possibility of using a law tightening sanctions on Russian and Iranian oil and gas exports, dubbed \"hell sanctions\" in the media, US leader Donald Trump said while answering reporters' questions ahead of a meeting with Vladimir Zelensky on the sidelines of the 81st session of the UN General Assembly in New York. \"That's something we're certainly studying. It's a very severe bill,\" Trump said when asked about the possibility of applying the law. Asked whether he intended to raise the issue of possible secondary sanctions against Russia's trading partners at a meeting with Chinese President Xi Jinping, Trump replied: \"Probably.\" \"We're going to talk about a lot. It's going to be a great meeting, and we're going to have a look,\" he added. On September 18, Trump signed into law legislation passed by the US Congress to tighten sanctions on Russia. The legislation was principally authored by US Senator Lindsey Graham, who died on July 11. It provides for sanctions against Russia's senior political and military leadership and state-owned companies, as well as secondary restrictions against Russia's trading partners. Under the legislation, the United States may impose 100% tariffs on countries that are major purchasers of Russian oil and gas. It also provides for tougher sanctions on Iran.",
+      "source_title": "US studying tougher Russia sanctions law — Trump",
+      "source_url": "https://tass.com/economy/2191351",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "北约视频被误传为“对俄战争宣传”，实为2024年周年纪念片",
+      "entities": [
+        {
+          "name": "北约",
+          "explain": "北大西洋公约组织，西方军事联盟，成员国包括美国和多数欧洲国家"
+        },
+        {
+          "name": "混合威胁",
+          "explain": "指通过网络攻击、虚假信息、破坏活动等非传统手段进行的敌对行动"
+        }
+      ],
+      "summary": "一段北约视频在网上被错误地描述为“战争宣传”，有用户指责北约发布“宣传片”为即将与俄罗斯开战做准备。但该视频并非新片，北约于2024年7月为纪念成立75周年而发布，被剥离了原始语境后传播。此事发生之际，欧洲领导人正警告俄罗斯混合威胁加剧。",
+      "relevant": "虚假信息传播加剧公众对北约与俄罗斯冲突的恐慌，凸显信息战在俄乌冲突中的角色。",
+      "context": "欧洲多国近期警告俄罗斯通过网络攻击、无人机和破坏活动等混合手段威胁欧洲安全。在此背景下，一段旧视频被重新包装传播，误导公众认为北约在准备战争。",
+      "source_analysis": "France24的“真相或假象”栏目专门核查网络虚假信息，立场偏向事实核查和揭穿谣言。",
+      "social_impact": "虚假信息在社交媒体上病毒式传播，可能加剧公众恐慌和反北约情绪，影响欧洲安全舆论环境。",
+      "source_text": "Viral NATO video falsely framed as ‘war propaganda’ against Russia To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: A viral NATO video is being falsely framed online as “war propaganda”, with users accusing the Alliance of sharing a “promotional video” designed to prepare the public for imminent war with Russia. But the footage is not new: NATO published it in July 2024 for its 75th anniversary, and it’s been stripped of its original context. The claim comes as European leaders warn of growing Russian hybrid threats, including alleged drone, cyber and sabotage activity. Vedika Bahl explains in Truth or Fake. Moscow is facing growing accusations of targeting NATO countries with its hybrid campaign, as a growing number of European leaders have warned Russia may be preparing attacks to test the Alliance’s commitment to supporting Ukraine. But amid those tensions, a different claim is spreading online: that NATO is preparing the public for an imminent war with Russia. Pro-Kremlin accounts have been sharing a video they describe as NATO “propaganda” or “promotional material” for a future conflict with Moscow, and some posts have been viewed hundreds of thousands of times, if not millions. The video was also shared by the Russian embassy in the Netherlands, which accused NATO of trying to “inspire the youth to be ready to die for the elites”. It was also amplified in the United States by conspiracy theorist Alex Jones, who made further “white genocide” claims about the video’s portrayal of diversity. However the video is not new footage, and it wasn’t produced to promote an impending war with Russia. The video was created to celebrate the Alliance’s 75th anniversary, and NATO published the video on its official social media accounts in July 2024, ahead of a summit in Washington marking the date. The footage has since been downloaded, stripped of that context and recirculated online as supposed evidence that NATO is preparing the public for war with Russia. Whilst the video is being misinterpreted online, it does not mean tensions between NATO countries and Russia are not intensifying. European leaders have increasingly warned of late about Russian hybrid threats and possible attempts to test NATO’s commitment to supporting Ukraine. Last week, Polish Prim",
+      "source_title": "Viral NATO video falsely framed as ‘war propaganda’ against Russia",
+      "source_url": "https://www.france24.com/en/viral-nato-video-falsely-framed-as-war-propaganda-against-russia-1",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "加密支持的“数字国家”Praxis与乌拉圭签约，将建实体城市",
+      "entities": [
+        {
+          "name": "Praxis",
+          "explain": "总部位于纽约的加密支持“数字国家”项目，试图建立新型社区"
+        },
+        {
+          "name": "乌拉圭",
+          "explain": "南美洲国家，以稳定政治和开放经济著称"
+        },
+        {
+          "name": "数字国家",
+          "explain": "一种由加密货币和区块链技术驱动、试图建立自治社区的理念"
+        }
+      ],
+      "summary": "总部位于纽约、由加密货币支持的“数字国家”项目Praxis在经历全球巡回推广后，与乌拉圭签署协议，将在该国建设一座实体城市。这是该科技乌托邦运动首次获得实际落地地点。",
+      "relevant": "该项目代表科技乌托邦理念从虚拟走向现实，引发对主权、治理和加密货币社区模式的关注。",
+      "context": "Praxis是一个试图用加密货币和区块链技术建立自治“数字国家”的项目，此前在全球多地寻找落脚点。乌拉圭以其稳定的政治环境和开放态度成为首个签约地点。",
+      "source_analysis": "《纽约时报》报道，立场偏自由派，对科技乌托邦运动持观察和审视态度。",
+      "social_impact": "若项目落地，将测试加密货币治理模式在现实中的可行性，也可能引发关于主权和税收的法律争议。",
+      "source_text": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay。After a sprawling world tour, Praxis, a New York-based, crypto-backed “digital nation,” has signed a deal to build a physical city in Uruguay.",
+      "source_title": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay",
+      "source_url": "https://www.nytimes.com/2026/09/22/world/americas/praxis-uruguay-colonia-tech-utopia.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "特朗普政府与多国达成秘密遣返协议，数千移民被送往陌生国度",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国现任总统，推行强硬移民政策"
+        },
+        {
+          "name": "秘密遣返协议",
+          "explain": "美国与数十个国家私下达成的不公开协议，将移民强制送往第三国"
+        },
+        {
+          "name": "USAID",
+          "explain": "美国国际开发署，负责对外援助的政府机构"
+        }
+      ],
+      "summary": "《卫报》深度调查揭露，特朗普政府与数十个国家达成秘密协议，将数千名移民强制遣送至他们从未听说过的国家。一名伊朗女性在戴着手铐的飞机上才发现自己被送往非洲一个她不知道存在的国家。这些'武力展示'行动耗费美国纳税人数百万美元。",
+      "relevant": "涉及美国移民政策的合法性与人道主义争议，以及纳税人的巨额支出",
+      "context": "特朗普政府上台后推行大规模驱逐移民政策，由于部分移民的原籍国拒绝接收，美国转而与第三国达成秘密协议将移民送往这些国家。",
+      "source_analysis": "《卫报》为英国左倾媒体，长期对特朗普移民政策持批评立场，此次以深度调查形式报道。",
+      "social_impact": "数千名移民被遣送至陌生国家，涉及数十个国家的秘密协议，耗费美国纳税人数百万美元。",
+      "source_text": "Nika’s story No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Their destination was Central African Republic (CAR), a country few of them had even heard of. Nika, a 32-year-old Iranian woman, recalled how the handcuffs dug into her wrists. She begged the officers to loosen them, but they did not. Other passengers had it worse, she said. Some of the men were restrained in black and yellow body wraps, as if mummified, after resisting orders to get on the plane. Nika, who had fled Iran 18 months earlier after protesting against its regime, had imagined the US as a place of sanctuary. Iran was already one of the most repressive countries in the world when she left, and its horrors had only deepened since then: security forces gunned down thousands of other demonstrators this year, then Donald Trump’s administration launched the war there. After more than a year locked up in a US immigration detention centre, Nika, whose name the Guardian has changed to protect her family in Iran, was granted legal protections and freed on a judge’s orders. Within two weeks, the Department of Homeland Security had rearrested her, and days later she was on the plane heading 7,000 miles east. “They never told me they were going to deport me [to] this country,” she told the Guardian. “I don’t know anything about Africa.” The Department of State warns US citizens not to travel to CAR because it says it is too dangerous. Nika spends most of her days there under a form of self-imprisonment, too scared to venture out from her small bedroom as she waits for an answer to the question on which her life depends: will she be sent back to Iran, and to a regime that could kill her? Nika is one of more than 25,000 people deported by the Trump administration to countries that are not their own. About 20,000 people have been bussed to Mexico, according to a count by Refugees International and Human Rights First. And more than 5,000 others have been put on flights to countries in Africa, Latin America, the Caribbean and central Asia to which they have no connection, and then, often, returned to the countries where US immigration judges had ruled their lives or liberty were at risk. Human rights lawyers describe these so-called third-country national arrangements as part of a “show ",
+      "source_title": "Banished to alien lands: Trump’s secret deportation deals",
+      "source_url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "报告警告：美国退出援助项目后非洲医疗体系'承受日益加剧的压力'",
+      "entities": [
+        {
+          "name": "USAID",
+          "explain": "美国国际开发署，美国负责对外援助的主要政府机构"
+        },
+        {
+          "name": "Accra Reset",
+          "explain": "发布该报告的机构，关注非洲发展的政策研究组织"
+        },
+        {
+          "name": "全球南方",
+          "explain": "泛指非洲、拉美、亚洲等发展中国家和地区"
+        }
+      ],
+      "summary": "一份新报告警告称，美国退出关键援助项目使非洲和全球南方的医疗体系'承受日益加剧的压力'。报告指出，特朗普政府削减USAID等项目的资金，加上新冠疫情和全球生活成本上涨，使该地区医疗改革面临'新的紧迫性'。报告呼吁非洲国家自主掌控卫生发展。",
+      "relevant": "美国援助削减对全球公共卫生的影响深远，涉及非洲数亿人的医疗可及性",
+      "context": "特朗普政府大幅削减对外援助预算，USAID首当其冲，导致依赖美援的非洲国家医疗项目面临资金断裂。",
+      "source_analysis": "《卫报》报道，该报对特朗普政府削减援助持批评态度；报告来源为Accra Reset，倾向倡导非洲自主发展。",
+      "social_impact": "影响范围覆盖非洲及全球南方多个国家，涉及基础医疗服务、疫情防控等多个领域。",
+      "source_text": "The United States’ withdrawal from key aid programs has put healthcare in Africa and the Global South “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. The report, titled A Sovereign Future For Health, was created by the Accra Reset, a global health initiative led by John Dramani Mahama, Ghana’s president, that believes countries in Africa and the wider global south should have greater control over their health development rather than being dependent on aid from western countries and international institutions. A key statistic cited by Mahama and Accra Reset is that Africa produces less than 1% of its vaccines while carrying about 25% of the global disease burden. The report cites how abrupt changes to global health financing, such as the US withdrawal from several global health initiatives, forced countries within the global south to urgently restructure their finances. The report points to the Trump administration’s decision to dissolve USAID, which pushed Nigeria to absorb the 28,000 health workers who were previously employed by the agency at a cost of $200m. External financing for health in Africa contracted by close to 70% between 2021 and 2025, the report notes, meaning that African countries historically dependent on aid were forced to adapt quickly. The withdrawal of the US Emergency Plan for Aids Relief (Pepfar) funding for South Africa, which provided over $400m a year annually and is credited with saving 26m lives globally since 2003, led to HIV clinics closing across the country. That left 1.4 million people living with HIV to face uncertainty about their treatment. Such funding cuts caused “severe and devastating” disruption globally, according to research presented at the 26th International Aids Conference in Brazil earlier this year. At the World Health Assembly in May, Mahama said Ghana lost $78m following the closure of USAID programs which affected maternal healthcare, the treatment of malaria, nutrition and HIV/Aids interventions. The initiative’s latest report, published on Monday, comes amid these major cuts to international aid and growing pressure on countries to take greater ownership of their health systems. Mahama refers to these aid cuts as a clear example that donor dependency ",
+      "source_title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "美国参议员：特朗普在格陵兰问题谈判中损害了美国的信誉",
+      "entities": [
+        {
+          "name": "珍妮·沙欣",
+          "explain": "美国民主党参议员，来自新罕布什尔州"
+        },
+        {
+          "name": "格陵兰",
+          "explain": "世界最大岛屿，丹麦自治领地，特朗普曾提出购买意向"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国现任总统"
+        }
+      ],
+      "summary": "美国参议员珍妮·沙欣表示，特朗普在格陵兰问题上的威胁和霸凌言论让美国付出了代价，损害了美国在谈判中的信誉。沙欣批评特朗普的处理方式破坏了盟友间的信任。",
+      "relevant": "反映特朗普外交风格对美国国际信誉和盟友关系的负面影响",
+      "context": "特朗普此前多次表达对格陵兰的兴趣，甚至不排除使用经济或军事手段，引发丹麦和格陵兰方面的强烈不满。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道美国内部对特朗普的批评，可能带有凸显美国盟友关系裂痕的倾向。",
+      "social_impact": "",
+      "source_text": "WASHINGTON, September 23. /TASS/. The administration of Donald Trump undermined allies’ trust in the United States during negotiations on a deal concerning Greenland, senior Democratic member of the US Senate Foreign Relations Committee Jeanne Shaheen (New Hampshire) stated. \"After months of threatening our NATO Ally Denmark and disregarding the will of the Greenlandic people, President Trump has reached a 'deal' that essentially returns the US-Greenland defense relationship to where it was before. But President Trump’s threats and bullying rhetoric on this issue have come at a cost: the United States is now viewed with skepticism and increased distrust by some of our closest allies,\" Shaheen said in a statement on X. According to her, \"that has damaged America’s trade relationships and undermined the NATO Alliance.\" As Shaheen noted, the United States \"has real work to do to rebuild trust with Denmark, Greenland and our allies across Europe.\" Earlier, Trump said that the US and Denmark had reached an agreement on Washington taking control of Greenland’s security. He said that the US would immediately begin to increase its military presence on the Arctic island. The agreement was signed on the sidelines of the 81st session of the UN General Assembly in New York by US President Donald Trump, as well as the Prime Ministers of Denmark and Greenland, Mette Frederiksen and Jens·Frederik Nielsen.",
+      "source_title": "Trump undermined trust in US during negotiations on Greenland deal — senator",
+      "source_url": "https://tass.com/world/2191363",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "联合国秘书长古特雷斯在最后一次联大演讲中呼吁'建立在相互依存基础上的世界'",
+      "entities": [
+        {
+          "name": "安东尼奥·古特雷斯",
+          "explain": "联合国秘书长，葡萄牙政治家，2017年上任"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国最高决策机构，每年秋季举行世界领导人峰会"
+        },
+        {
+          "name": "相互依存",
+          "explain": "古特雷斯倡导的理念，指各国应合作而非孤立"
+        }
+      ],
+      "summary": "联合国秘书长古特雷斯在最后一次向联合国大会发表讲话时，呼吁建立'一个建立在相互依存基础上的世界'。他敦促各国领导人共同应对气候变化、战争、不平等和人工智能崛起等一系列严峻挑战。",
+      "relevant": "古特雷斯任内最后一次联大演讲，其呼吁多边主义的立场与当前国际分裂趋势形成鲜明对比",
+      "context": "古特雷斯即将结束联合国秘书长任期，此次为他在年度世界领导人峰会上的告别演讲，全球面临多重危机叠加。",
+      "source_analysis": "法国24台为法国公共国际新闻频道，立场偏向多边主义和国际合作。",
+      "social_impact": "",
+      "source_text": "Guterres pleads for 'world built on interdependence' in final General Assembly address UN Secretary-General Antonio Guterres pleaded for “a world built on interdependence” Tuesday as he made his final address to the annual gathering of world leaders convening to face a formidable menu of challenges, from climate change and war to inequality and the rise of artificial intelligence. In a no-nonsense farewell speech, UN Secretary-General Antonio Guterres urged global leaders Tuesday to respond to the defining challenge today: Will the world continue on its path to fragmentation, or cooperate to tackle the existential threats from climate crisis, runaway artificial intelligence and intensifying inequalities? Read more'No peace without justice,' Macron tells UN General Assembly The UN leader has long implored leaders not to give up on cooperation and shared decision-making in the face of accelerating global challenges and increasing great-powers competition. Tuesday’s message at the UN General Assembly took on additional urgency because he leaves office at the end of this year. “The fault lines in our world are widening,” he said, citing raging wars, rising temperatures and artificial intelligence, among other matters. Instead of letting the future continue to veer toward fragmentation, transactionalism and mistrust, he called for “a world built on interdependence – and sustained by a dense web of economic, political, social and technological connections”. His speech opened the main portion of the world's biggest diplomatic meeting of the year. Leaders from the UN's 193 member countries address each other and the international community and air their hopes, plans and grievances. Guterres also rebuked might-makes-right thinking, telling superpowers to recognise “that their power isn’t so super”. Recent years have made it clear that “military power alone cannot secure peace,” he said. Yet about an hour after Guterres spoke, US President Donald Trump offered a different and equally frank view of power. Read moreIran, AI and the ICC: Trump makes threats, touts policies at UN General Assembly “While others have promised strength, I have used it to make America the most powerful country in the world,” Trump said, touting his country's economic, technological and military footprint. He reiterated his view that the UN has “great potential” but rebuked it for what he called “imposing the far-left agenda of globalist bureaucrats”. He went on to criticise such bodies as t",
+      "source_title": "Guterres pleads for 'world built on interdependence' in final General Assembly address",
+      "source_url": "https://www.france24.com/en/americas/20260922-un-secretary-general-guterres-calls-for-interdependence-in-final-general-assembly-address",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "英国首相伯纳姆期待在首次会晤中与特朗普找到'共同点'",
+      "entities": [
+        {
+          "name": "安迪·伯纳姆",
+          "explain": "英国首相，工党政治家，曾任大曼彻斯特市长"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国现任总统"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国年度世界领导人峰会，在纽约举行"
+        }
+      ],
+      "summary": "英国首相安迪·伯纳姆在纽约与特朗普首次会面，表示期待找到'共同点'。伯纳姆还将在联合国大会上发表演讲，预计重点聚焦人工智能议题。",
+      "relevant": "英美领导人首次会晤，关系两国未来外交走向",
+      "context": "伯纳姆作为英国新首相首次出席联合国大会，借此机会与特朗普进行双边会晤，英美关系在特朗普第二任期内面临重新定位。",
+      "source_analysis": "BBC为英国公共广播机构，报道立场相对中立。",
+      "social_impact": "",
+      "source_text": "Burnham expects to find 'common ground' with Trump in first meeting - Published Andy Burnham said he expects to find \"common ground\" with Donald Trump at the pair's first face-to-face meeting on Tuesday. The prime minister and US president are in New York City for the annual gathering of world leaders at the United Nations. The two men have spoken by phone twice since Burnham became prime minister in July, with Downing Street saying those calls established a \"productive relationship\". \"We've found a connection. So, I will go with where I feel it's right, to meet him where he is at, and search for that common ground, which I'm sure we'll find,\" the prime minister told reporters on his flight to the US, adding \"I'm looking forward to it.\" Asked about the state of the relationship between the UK and US, the prime minister said he believes it is \"as strong as it's ever been\". Burnham has travelled to New York with his wife, Marie-France van Heel, for a day of diplomacy and a speech to the UN General Assembly, which is expected to focus on the opportunities and dangers associated with artificial intelligence (AI). He said: \"I will be making the case for closer international co-operation on AI, a just and lasting peace in Ukraine, and renewed efforts to bring an end to the conflict in the Middle East because what happens abroad impacts each and every one of us at home.\" The prime minister will also announce the start of work on a new AI and Autonomy partnership between the UK and the US, focused on protecting critical national infrastructure using AI tech. Lib Dem leader Sir Ed Davey is expected to criticise this plan at the final day of his party's conference, saying it \"doesn't come close to meeting the scale of the threat\" and \"only risks making us more dependent on a Trump administration in the pocket of the tech bros\". He will also call for a global pause on superintelligent AI and propose a new International AI Safety Agency. His criticisms come after a series of stark warnings from the AI industry about the technology's possible dangers. Torpedo exercise For a new British prime minister, the first meeting with a US president has always been a pivotal encounter, but officials are well aware of the added jeopardy of a public appearance alongside the most unpredictable president in American history. In advance of the meeting, the UK revealed that the UK and the US have, for the first time, fired an American torpedo from a British undersea drone in a military",
+      "source_title": "Burnham expects to find 'common ground' with Trump in first meeting",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "特朗普在首次会晤后称赞英国首相伯纳姆是'天生的商人'",
+      "entities": [
+        {
+          "name": "安迪·伯纳姆",
+          "explain": "英国首相，工党政治家"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国现任总统"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国年度世界领导人峰会"
+        }
+      ],
+      "summary": "美国总统特朗普与英国首相安迪·伯纳姆在联合国大会期间首次会面，特朗普会后称赞伯纳姆是'天生的商人'。此次会晤在联大边会期间举行，双方讨论了双边关系议题。",
+      "relevant": "特朗普对伯纳姆的正面评价可能预示英美关系回暖",
+      "context": "伯纳姆刚就任英国首相不久，此次联大是其国际舞台首秀，与特朗普的会面备受关注。",
+      "source_analysis": "《纽约时报》为美国主流大报，对特朗普报道通常持审慎批评立场。",
+      "social_impact": "",
+      "source_text": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting。Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday.",
+      "source_title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
+      "source_url": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "西班牙外长：尽管本国企业有合同，西班牙将拒绝俄罗斯LNG",
+      "entities": [
+        {
+          "name": "何塞·曼努埃尔·阿尔瓦雷斯",
+          "explain": "西班牙外交大臣"
+        },
+        {
+          "name": "LNG",
+          "explain": "液化天然气，一种冷却至液态便于运输的天然气"
+        },
+        {
+          "name": "欧盟",
+          "explain": "欧洲政治经济联盟，已对俄罗斯实施多轮制裁"
+        }
+      ],
+      "summary": "西班牙外交大臣阿尔瓦雷斯表示，尽管西班牙企业持有俄罗斯液化天然气合同，马德里仍将遵守欧盟此前通过的相关限制措施，拒绝俄罗斯LNG。",
+      "relevant": "体现欧盟对俄能源制裁的执行力度及成员国企业的合同困境",
+      "context": "欧盟因俄乌冲突对俄罗斯实施多轮制裁，包括能源领域限制，但部分成员国企业此前已签订长期合同。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道此事可能意在凸显欧盟内部制裁对自身企业的损害。",
+      "social_impact": "",
+      "source_text": "WASHINGTON, September 23. /TASS/. The Spanish authorities intend to ban imports of Russian liquefied natural gas from January 1, 2027, despite existing contracts held by Spanish companies for supplies of Russian energy resources, Spanish Foreign Minister Jose Manuel Albares said. Speaking at the Atlantic Council in Washington [recognized as an undesirable organization in Russia], he noted that Madrid would comply with the relevant restrictions previously adopted by the European Union. \"In fact, these sanctions could not have been introduced without Spain’s consent, as some Spanish companies have existing contracts. As you know, LNG supply contracts are concluded years in advance. These are very long-term contracts. This is not something that can be decided at the last minute, which is why they remain in force for decades. We intend to comply with the requirements of the new sanctions,\" the minister said. He added that Spain has some of the largest LNG storage and processing capacities. \"This also opens up opportunities for the rest of Europe. We can help them with LNG supplies from reliable partners, such as the United States,\" the Spanish foreign minister said. EU ban on Russian gas On January 26, the EU Council finalized a complete ban on Russian LNG supplies to the EU effective January 1, 2027, and on pipeline gas from September 30, 2027. The ban on LNG imports under short-term contracts came into effect on April 25, 2026, while short-term pipeline gas contracts were set to expire by June 17, 2026. Meanwhile, Russian President Vladimir Putin stated that, given the EU’s intention to completely phase out Russian gas, Russia could prematurely exit the European market on its own initiative and redirect supplies to other, more interested buyers. Russian Deputy Prime Minister Alexander Novak announced that Russian companies would soon redirect a portion of LNG supplies from Europe to friendly nations, including China, India, Thailand, and the Philippines, without waiting for further EU restrictions. According to TASS calculations, Russia was the second-largest exporter of LNG to the EU by value in 2025, behind the US. Its share stood at 16.1% (or 16.2% of the combined value of LNG and pipeline gas purchases). In terms of volume, Russia accounted for roughly 14% of the EU’s LNG imports (12.1% of total gas supplies, including pipeline gas). Russia’s total supplies to Europe last year amounted to 38 billion cubic meters, with LNG accounting for just over 20 bill",
+      "source_title": "Spain to reject Russian LNG despite its companies’ contracts — foreign minister",
+      "source_url": "https://tass.com/economy/2191361",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "俄罗斯外长将在联合国大会高级别周启动工作日程",
+      "entities": [
+        {
+          "name": "谢尔盖·拉夫罗夫",
+          "explain": "俄罗斯外交部长，长期担任该职"
+        },
+        {
+          "name": "玛丽亚·扎哈罗娃",
+          "explain": "俄罗斯外交部发言人"
+        },
+        {
+          "name": "联合国大会高级别周",
+          "explain": "每年9月联合国大会期间各国领导人集中出席的一周"
+        }
+      ],
+      "summary": "俄罗斯外长拉夫罗夫将在联合国大会高级别周开始其工作日程。俄外交部发言人扎哈罗娃表示，联合国仍是'不可或缺且最具代表性的多边外交平台'。",
+      "relevant": "俄罗斯在俄乌冲突背景下仍积极参与联合国外交，展示其未被国际孤立",
+      "context": "俄乌冲突持续，西方对俄制裁不断加码，俄罗斯通过联合国平台寻求外交空间。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道立场与俄政府一致，强调联合国平台重要性。",
+      "social_impact": "",
+      "source_text": "UNITED NATIONS, September 23. /TASS/. Russian Foreign Minister Sergey Lavrov will lead the Russian delegation beginning his working program on September 23 at the high-level week of the 81st session of the UN General Assembly in New York, with an address scheduled for September 26. Russian Foreign Ministry Spokeswoman Maria Zakharova confirmed his schedule is \"maximally packed.\" Russia's position will focus on strengthening multipolarity, building equal and indivisible Eurasian security, countering colonialism, reforming the global financial architecture, combating terrorism, and disarmament. Zakharova said the UN remains \"an indispensable and most representative universal platform for multilateral diplomacy.\" A meeting with US Secretary of State Marco Rubio is scheduled for Lavrov's first day. He will also meet with Serbian President Aleksandar Vucic and UN Secretary-General Antonio Guterres, with over 30 meetings planned with representatives from Algeria, Brazil, India, Iran, Cuba, and others, as well as the OSCE, IAEA, and UN General Assembly President. The upcoming change of UN secretary-general will be a key topic, with Rebeca Grynspan receiving the most support in the latest Security Council straw poll.",
+      "source_title": "Russian foreign minister to begin working program at UN General Assembly high-level week",
+      "source_url": "https://tass.com/politics/2191355",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "被美国驱逐至赤道几内亚的两名男子在拘留酒店遭捆绑殴打",
+      "entities": [
+        {
+          "name": "赤道几内亚",
+          "explain": "位于非洲中西部的小国，由长期执政的总统奥比昂统治，人权记录恶劣"
+        },
+        {
+          "name": "Hotel Bamy",
+          "explain": "位于赤道几内亚首都马拉博郊区的酒店，约30名被美国驱逐者被关押在此"
+        },
+        {
+          "name": "特朗普政府驱逐政策",
+          "explain": "美国将移民遣送至第三国的做法，即使这些人并非来自该国"
+        }
+      ],
+      "summary": "据目击者和人权律师称，两名被特朗普政府驱逐至赤道几内亚的男子在马拉博郊区的Bamy酒店内被捆绑、头套袋子、殴打并被推下楼梯，随后被送往监狱。约30名从美国被驱逐者仍被困在该酒店。被拘留者认为，这两人因向媒体和人权倡导者透露酒店内的恶劣条件和暴力而遭到报复。",
+      "relevant": "揭示美国将移民驱逐至第三国后可能面临的严重人权侵害，引发对特朗普驱逐政策的国际关注。",
+      "context": "特朗普政府将来自埃及和厄立特里亚等国的移民驱逐至赤道几内亚，尽管他们与该国并无关联。这些人被临时关押在马拉博的酒店中，等待进一步安置。",
+      "source_analysis": "《卫报》长期关注移民权利和人权议题，报道立场倾向于批评美国政府的驱逐政策。",
+      "social_impact": "约30名被驱逐者仍被困酒店，人权组织对拘留条件和暴力行为发出警报。",
+      "source_text": "Two men that the Trump administration expelled to Equatorial Guinea were bound, fitted with bags over their heads, beaten and pushed down a flight of stairs, all in plain view of other US deportees, according to witnesses and human rights lawyers. The men – one from Egypt and one from Eritrea – were then taken to a prison. About 30 detainees from the US remain trapped at a hotel in the outskirts of the coastal city of Malabo after being deported from the US. Detainees have said they believe the men were beaten for telling the press and human rights advocates about the poor conditions and violence inside the hotel, and that they are haunted by flashbacks and terrified they will be retaliated against next. Human rights advocates and experts have warned for months that conditions at the Hotel Bamy – a run-down establishment that has served as a detention center for US deportees – are dangerous. The US has sent at least 66 people from different African countries, Cuba and Brazil to Equatorial Guinea, which has received $7.5m as part of a deal to cooperate with the US deportation program. The Trump administration has pursued dozens of similar deals with countries to take in immigrants that the US cannot deport directly to their home countries, where judges have deemed they would face torture or persecution. In the past, the US government allowed those people to live and work in the US indefinitely. The Trump administration, however, has sought instead to expel them to third countries where they have no ties, do not speak the local language and have no legal status – trapping them in limbo. Advocates have been especially concerned for deportees sent to Equatorial Guinea, where the authoritarian government is notorious for human rights abuses, including torture, according to the US state department. Detainees held at Hotel Bamy have told the Guardian that armed guards keep watch over them 24/7, and that they have not been provided any medical care or even fresh clothes since arriving there. One of the detainees, who has a severe stomach hernia that requires visits to the hospital to drain his stomach due to excessive fluid build-up, said he has been unable to see a doctor since arriving at Hotel Bamy. Other detainees have managed to obtain medication for HIV, diabetes and other conditions via human rights lawyers, but remain fearful that access to medications will be arbitrarily cut off. The two men who were tortured – Ahmed Soliman, 31, of Egypt, and Samson Birh",
+      "source_title": "Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "斯里兰卡法院判处15人有罪，涉2019年复活节连环爆炸案",
+      "entities": [
+        {
+          "name": "复活节周日爆炸案",
+          "explain": "2019年斯里兰卡发生的针对教堂和酒店的连环自杀式炸弹袭击，造成270余人死亡"
+        },
+        {
+          "name": "斯里兰卡",
+          "explain": "南亚岛国，2019年爆炸案是其历史上最严重的恐怖袭击之一"
+        }
+      ],
+      "summary": "斯里兰卡法院裁定15名男子有罪，他们被控协调策划了2019年复活节周日针对三座教堂和三座豪华酒店的自杀式炸弹袭击，该袭击造成270多人死亡。这是斯里兰卡历史上最严重的恐怖袭击事件之一。",
+      "relevant": "为2019年震惊世界的恐怖袭击事件伸张正义，也是斯里兰卡司法系统处理重大恐怖案件的重要里程碑。",
+      "context": "2019年4月21日复活节周日，斯里兰卡多地教堂和酒店遭自杀式炸弹袭击，造成270余人死亡、数百人受伤。袭击被指与当地极端组织有关。",
+      "source_analysis": "BBC报道，立场中立，注重事实陈述。",
+      "social_impact": "袭击造成270余人死亡，是斯里兰卡自内战结束以来最严重的恐怖事件，对当地宗教和族群关系产生深远影响。",
+      "source_text": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings - Published Sri Lanka's High Court has given long jail sentences to 15 men charged with plotting the 2019 Easter Sunday bomb attacks that killed 270 people and injured more than 500. Those found guilty include Naufer Moulavi, who prosecutors said masterminded the suicide bombings. Nine other men were acquitted. The co-ordinated blasts at three churches and three luxury hotels were the deadliest in Sri Lanka since the end of its civil war in 2009. Forty-five foreigners were among the dead. All the bombers who carried out the attacks died in the blasts. Investigators have previously blamed the bombings on Islamist extremists, and the 25 men indicted were from Sri Lanka's Muslim minority. One died in custody. The 15 defendants on Tuesday were each given prison terms ranging from 200 to 260 years. The court in the capital Colombo also ordered the confiscation of their all movable and immovable assets. The accused, who had been charged with more than 23,000 offences, were handcuffed in pairs and brought to the court in two prison buses. Most of those killed were Sri Lankans, many of whom were children. They included celebrity chef Shantha Mayadunne and her daughter, an entire young family of five, at least eight members of staff from the hotels targeted and five members of the same family from the western Sri Lankan city of Negombo. The foreigners who died included 11 Indians, eight Britons and five Americans. Among the dead there were also citizens of Australia, Bangladesh, China, Denmark, Japan, the Netherlands, Portugal, Spain, Sweden, Switzerland and Turkey. Three of Danish billionaire Anders Holch Povlsen's children died in the attack on the Shangri-La hotel, while the family had been holidaying there. 'Intelligence lapse' In the wake of the attacks, Sri Lankan authorities pointed to a \"major intelligence lapse\". Its parliament heard that a tip-off from India about the attacks was not properly shared with the authorities. In 2023, the Supreme Court ordered former president Maithripala Sirisena to pay millions in compensation to the victims of the bombings, after finding him responsible for national security failures that led to the attacks. Last month, two former senior officials were sentenced to death for criminal negligence that led to the bombings. Death sentences are usually commuted to life in prison in Sri Lanka due to a decades-old moratorium on executions. For years, Sri Lankans ha",
+      "source_title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "斯里兰卡法院裁定15人策划复活节爆炸案罪名成立",
+      "entities": [
+        {
+          "name": "复活节2019爆炸案",
+          "explain": "2019年斯里兰卡针对教堂和酒店的自杀式炸弹袭击，造成300余人死亡"
+        },
+        {
+          "name": "斯里兰卡法院",
+          "explain": "斯里兰卡的司法审判机构，负责审理重大刑事案件"
+        }
+      ],
+      "summary": "斯里兰卡法院裁定15名男子策划了一系列针对酒店和教堂的自杀式炸弹袭击罪名成立，该袭击发生在2019年复活节，造成300余人死亡。法院认定他们协调实施了这一系列袭击。",
+      "relevant": "为2019年造成300余人死亡的恐怖袭击事件追究责任，是斯里兰卡司法进程中的重要一步。",
+      "context": "2019年复活节周日，斯里兰卡三座教堂和三座豪华酒店遭自杀式炸弹袭击，造成300余人死亡。袭击被指与当地极端组织有关。",
+      "source_analysis": "《纽约时报》报道，立场中立，注重事实陈述。",
+      "social_impact": "袭击造成300余人死亡，是斯里兰卡历史上最严重的恐怖袭击之一。",
+      "source_text": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks。A court found 15 men guilty of coordinating a series of suicide bombings in hotels and churches, which killed more than 300 people.",
+      "source_title": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
+      "source_url": "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "埃塞俄比亚多个反叛组织联合对抗政府",
+      "entities": [
+        {
+          "name": "埃塞俄比亚",
+          "explain": "东非国家，近年经历多次内战和冲突，政治局势动荡"
+        },
+        {
+          "name": "反叛组织联盟",
+          "explain": "由六个反叛组织组成的联合阵线，指控总理独裁"
+        }
+      ],
+      "summary": "六个埃塞俄比亚反叛组织宣布成立联合阵线，共同对抗政府，指控总理阿比·艾哈迈德实行独裁统治。这一联盟的成立发生在一个已经饱受战争创伤的国家。",
+      "relevant": "埃塞俄比亚多个反叛组织联合可能加剧该国冲突，对地区稳定构成新的威胁。",
+      "context": "埃塞俄比亚近年经历提格雷战争等多次冲突，总理阿比·艾哈迈德因处理国内冲突方式受到批评。多个反叛组织此前各自为战，现宣布联合。",
+      "source_analysis": "《纽约时报》报道，立场中立，注重事实陈述。",
+      "social_impact": "埃塞俄比亚已饱受战争创伤，反叛组织联合可能进一步加剧国内冲突。",
+      "source_text": "Ethiopian Rebel Groups Join Forces Against the Government。Half a dozen groups, accusing the prime minister of being dictatorial, announced the formation of a coalition in a country already scarred by war.",
+      "source_title": "Ethiopian Rebel Groups Join Forces Against the Government",
+      "source_url": "https://www.nytimes.com/2026/09/22/world/africa/ethiopia-rebel-alliance.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_b441abd744f9",
+      "source": "BBC",
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
+      "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+      "summary": "In his speech, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
+      "image": ""
+    },
+    {
+      "id": "rss_36728f59a614",
+      "source": "BBC",
+      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
+      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
+      "summary": "In New York, the prime minister will also deliver a speech to the UN General Assembly expected to be focused on AI.",
+      "image": ""
+    },
+    {
+      "id": "rss_34df41796e8a",
+      "source": "BBC",
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
+      "image": ""
+    },
+    {
+      "id": "rss_5d8760ffc792",
+      "source": "BBC",
+      "title": "How Ceuta, football and Israel are shaping Morocco's election",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss",
+      "summary": "Young voters are being courted with football slogans, promises of jobs and anti-Israel rallying calls.",
+      "image": ""
+    },
+    {
+      "id": "rss_6a1633742542",
+      "source": "BBC",
+      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
+      "summary": "Three churches and three luxury hotels were targeted in the 2019 attacks which killed 270.",
+      "image": ""
+    },
+    {
+      "id": "rss_94b7e293c253",
+      "source": "France24",
+      "title": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
+      "url": "https://www.france24.com/en/europe/20260922-zelensky-says-ukraine-is-ready-for-an-energy-ceasefire-with-russia",
+      "summary": "On the sidelines of the UN General Assembly in New York on Tuesday, Ukraine's President Volodymyr Zelensky told journalists that Kyiv is ready to halt strikes on Russian energy infrastructure if Moscow does the same, with hopes to end the war before winter.",
+      "image": "https://s.france24.com/media/display/8fc1ad66-b6cd-11f1-9bea-557acd7c815c/w:1024/p:16x9/2026-09-22T185321Z-294428292-RC2IONAPQIAG-RTRMADP-3-UN-ASSEMBLY-ZELENSKIY-TRUMP.jpg"
+    },
+    {
+      "id": "rss_39dd4a2d46c7",
+      "source": "France24",
+      "title": "Guterres pleads for 'world built on interdependence' in final General Assembly address",
+      "url": "https://www.france24.com/en/americas/20260922-un-secretary-general-guterres-calls-for-interdependence-in-final-general-assembly-address",
+      "summary": "UN Secretary-General Antonio Guterres pleaded for “a world built on interdependence” Tuesday as he made his final address to the annual gathering of world leaders convening to face a formidable menu of challenges, from climate change and war to inequality and the rise of artificial intelligence.",
+      "image": "https://s.france24.com/media/display/ea1e1384-b697-11f1-8e11-557acd7c815c/w:1024/p:16x9/2026-09-22T130946Z-751559590-RC2DONAJFJ4B-RTRMADP-3-UN-ASSEMBLY.jpg"
+    },
+    {
+      "id": "rss_404252438cdf",
+      "source": "France24",
+      "title": "French government scales up targeted fuel price relief",
+      "url": "https://www.france24.com/en/tv-shows/business/20260922-french-government-scales-up-targeted-fuel-price-relief",
+      "summary": "Under pressure to help businesses and workers cope with soaring fuel prices, the French government has announced it will expand targeted energy relief for those most affected. The new measures will cost €450 million, bringing the total so far to €1.4 billion. Meanwhile, as French president Emmanuel Macron calls for allowing more biofuels to be added to diesel, we speak with an expert on the potential environmental impact of a rapid ramp-up in biofuel use.",
+      "image": "https://s.france24.com/media/display/8a15ad1e-b6c7-11f1-9a2a-557acd7c815c/w:1024/p:16x9/capture-7310295556ab2ea935571e0-15059456.jpg"
+    },
+    {
+      "id": "rss_004f1c5d9cb9",
+      "source": "France24",
+      "title": "Viral NATO video falsely framed as ‘war propaganda’ against Russia",
+      "url": "https://www.france24.com/en/viral-nato-video-falsely-framed-as-war-propaganda-against-russia-1",
+      "summary": "A viral NATO video is being falsely framed online as “war propaganda”, with users accusing the Alliance of sharing a “promotional video” designed to prepare the public for imminent war with Russia. But the footage is not new: NATO published it in July 2024 for its 75th anniversary, and it’s been stripped of its original context. The claim comes as European leaders warn of growing Russian hybrid threats, including alleged drone, cyber and sabotage activity. Vedika Bahl explains in Truth or Fake.",
+      "image": "https://s.france24.com/media/display/2579b26c-b6c5-11f1-a667-4d220c210a04/w:1024/p:16x9/capture-15120144666ab2e68f813325-23240503.jpg"
+    },
+    {
+      "id": "rss_ae2a2292b7ce",
+      "source": "France24",
+      "title": "US refusing to give Sudan's de facto leader visa for UN",
+      "url": "https://www.france24.com/en/us-refusing-to-give-sudan-s-de-facto-leader-visa-for-un",
+      "summary": "In tonight's edition, the United States is withholding a visa for Sudanese army chief al-Burhan ahead of his scheduled UN appearance. Also, Ghana’s beefing up its drugs authority in the wake of major drug busts in France, Belgium and South Africa. And it’s back-to-school season in Ivory Coast.",
+      "image": "https://s.france24.com/media/display/0e378640-b6c2-11f1-8a88-e554abee39f5/w:1024/p:16x9/capture-10838219656ab2e15fe7a857-34442302.jpg"
+    },
+    {
+      "id": "rss_222c7e34512b",
+      "source": "TASS Russia",
+      "title": "Trump undermined trust in US during negotiations on Greenland deal — senator",
+      "url": "https://tass.com/world/2191363",
+      "summary": "According to Jeanne Shaheen, Donald Trump’s threats and bullying rhetoric on Greenland issue have come at a cost",
+      "image": ""
+    },
+    {
+      "id": "rss_938235a417be",
+      "source": "TASS Russia",
+      "title": "Spain to reject Russian LNG despite its companies’ contracts — foreign minister",
+      "url": "https://tass.com/economy/2191361",
+      "summary": "Spanish Foreign Minister Jose Manuel Albares noted that Madrid would comply with the relevant restrictions previously adopted by the European Union",
+      "image": ""
+    },
+    {
+      "id": "rss_5f77ccffda67",
+      "source": "TASS Russia",
+      "title": "Xi Jinping’s visit to US: what to expect from talks with Trump?",
+      "url": "https://tass.com/world/2191357",
+      "summary": "The agenda includes fentanyl precursors, mutual moratoriums, rare earth supplies, US tariffs, China’s access to advanced artificial intelligence chips and other high-tech products, and US arms supplies to Taiwan",
+      "image": ""
+    },
+    {
+      "id": "rss_eef95c269666",
+      "source": "TASS Russia",
+      "title": "Russian foreign minister to begin working program at UN General Assembly high-level week",
+      "url": "https://tass.com/politics/2191355",
+      "summary": "Russian Foreign Ministry Spokeswoman Maria Zakharova pointed out that the UN remains \"an indispensable and most representative universal platform for multilateral diplomacy\"",
+      "image": ""
+    },
+    {
+      "id": "rss_865930a4c113",
+      "source": "TASS Russia",
+      "title": "US studying tougher Russia sanctions law — Trump",
+      "url": "https://tass.com/economy/2191351",
+      "summary": "Donald Trump stressed that \"it's a very severe bill\"",
+      "image": ""
+    },
+    {
+      "id": "rss_201ce59a7407",
+      "source": "纽约时报",
+      "title": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+      "url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+      "summary": "President Trump said he must decide whether to make a deal or “annihilate” Iran, in a gathering where world leaders typically focus on declarations of global harmony.",
+      "image": ""
+    },
+    {
+      "id": "rss_050672fdd7d5",
+      "source": "纽约时报",
+      "title": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
+      "url": "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
+      "summary": "A court found 15 men guilty of coordinating a series of suicide bombings in hotels and churches, which killed more than 300 people.",
+      "image": ""
+    },
+    {
+      "id": "rss_4507cf2f11b1",
+      "source": "纽约时报",
+      "title": "Trump Praises Burnham as ‘Natural Business Person’ After First Meeting",
+      "url": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html",
+      "summary": "Prime Minister Andy Burnham of Britain met with President Trump for the first time on the sidelines of the U.N. General Assembly on Tuesday.",
+      "image": ""
+    },
+    {
+      "id": "rss_b0e4d44df8e4",
+      "source": "纽约时报",
+      "title": "Ethiopian Rebel Groups Join Forces Against the Government",
+      "url": "https://www.nytimes.com/2026/09/22/world/africa/ethiopia-rebel-alliance.html",
+      "summary": "Half a dozen groups, accusing the prime minister of being dictatorial, announced the formation of a coalition in a country already scarred by war.",
+      "image": ""
+    },
+    {
+      "id": "rss_8cf32d8a1b96",
+      "source": "纽约时报",
+      "title": "Tech-Utopian Movement Praxis Says It Has Found a Home in Uruguay",
+      "url": "https://www.nytimes.com/2026/09/22/world/americas/praxis-uruguay-colonia-tech-utopia.html",
+      "summary": "After a sprawling world tour, Praxis, a New York-based, crypto-backed “digital nation,” has signed a deal to build a physical city in Uruguay.",
+      "image": ""
+    },
+    {
+      "id": "rss_4c53d4b64ed9",
+      "source": "卫报",
+      "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "summary": "Accra Reset’s report states countries in the region and global south should take greater control of their health development after USAID debacle The United States’ withdrawal from key aid programs has put healthcare in Africa and the Global South “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_eeb5d81313cc",
+      "source": "卫报",
+      "title": "Banished to alien lands: Trump’s secret deportation deals",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "summary": "After a plane journey in shackles, an Iranian woman found herself in the middle of Africa in a country she did not know existed. She is one of thousands deported from the US on the back of shadowy deals made with dozens of countries. An in-depth investigation reveals the ‘show of force’ costing American taxpayers millions No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_20c6644ea72b",
+      "source": "卫报",
+      "title": "Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say",
+      "url": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+      "summary": "Group trapped at Hotel Bamy after US removal as rights groups sound alarm over poor conditions and violence Two men that the Trump administration expelled to Equatorial Guinea were bound, fitted with bags over their heads, beaten and pushed down a flight of stairs, all in plain view of other US deportees, according to witnesses and human rights lawyers. The men – one from Egypt and one from Eritrea – were then taken to a prison. About 30 detainees from the US remain trapped at a hotel in the outskirts of the coastal city of Malabo after being deported from the US. Detainees have said they believe the men were beaten for telling the press and human rights advocates about the poor conditions and violence inside the hotel, and that they are haunted by flashbacks and terrified they will be retaliated against next. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_c1b0019ef37b",
+      "source": "卫报",
+      "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died",
+      "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+      "summary": "Police fire teargas as protests break out in city of Minna after deaths of suspected illegal goldminers, many of whom were children Survivors from a prison cell in Nigeria where 37 suspected illegal goldminers died while in the custody of a paramilitary group this week have recounted their panic and struggle for breath, as police on Friday fired teargas at people protesting against the deaths and imposed an overnight curfew in the city of Minna. The victims – many of whom were children – were found dead on Thursday in the cells of the Nigeria Security and Civil Defence Corps (NSCDC), which had raided suspected illegal goldmines and ⁠locked up dozens of miners in the city, the state capital of the mineral-rich state of Niger. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a39b8f8e486d",
+      "source": "卫报",
+      "title": "British woman who was kidnapped in Malawi rescued by police after shootout",
+      "url": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
+      "summary": "Four of Nusrat Osman’s alleged abductors were killed during rescue after she was taken from outside her home last week A British woman kidnapped in Malawi last week has been rescued by police after a shootout in which four of her alleged abductors were killed. Nusrat Osman was abducted outside her home in the southern city of Blantyre on 11 September at about 12.30pm. Police had offered a reward of 30m Malawi kwacha (£12,950) for information leading to her rescue and the arrest of the perpetrators. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-23 07:30"
+}
