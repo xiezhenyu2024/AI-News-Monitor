@@ -1,0 +1,1454 @@
+{
+  "key": "2026-09-22-afternoon",
+  "date": "2026-09-22",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 21,
+      "title": "Google DeepMind 发布 AlphaGenome Atlas，绘制人类基因组90亿个单碱基变异的预测效应图谱",
+      "entities": [
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "Google DeepMind 开发的基因组预测图谱，能预测人类DNA中每一个单字母变化对分子的影响"
+        },
+        {
+          "name": "单碱基变异",
+          "explain": "DNA序列中单个字母（A/T/C/G）的改变，是遗传病和个体差异的重要来源"
+        },
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究机构，曾开发AlphaGo、AlphaFold等著名AI系统"
+        }
+      ],
+      "summary": "Google DeepMind 发布 AlphaGenome Atlas，覆盖人类基因组中约90亿个单碱基变异的分子效应预测。该图谱旨在帮助研究人员快速评估任意DNA字母变化的潜在功能影响，加速遗传病研究和药物靶点发现。",
+      "relevant": "这是AI在基因组学领域最大规模的预测性图谱之一，可能大幅降低实验验证成本，推动精准医学发展。",
+      "context": "此前AlphaFold解决了蛋白质结构预测问题，但DNA变异的功能影响预测仍是难题。AlphaGenome Atlas将AI预测能力从蛋白质扩展到全基因组变异层面。",
+      "source_analysis": "来源为Google DeepMind官方博客，属于第一方发布，立场为技术推广与学术贡献。",
+      "social_impact": "覆盖90亿个变异位点，若验证有效，将极大加速罕见病诊断和药物研发，惠及全球遗传病患者。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform (detailed in our paper) containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Googl",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "阿里云栖大会公布全模态模型进展：Qwen4与下一代视频模型均在训练中",
+      "entities": [
+        {
+          "name": "Qwen4",
+          "explain": "阿里巴巴通义千问系列大模型的第四代版本，支持文本、图像、音频等多种模态"
+        },
+        {
+          "name": "全模态模型",
+          "explain": "能同时理解和生成文本、图片、音频、视频等多种类型内容的AI模型"
+        },
+        {
+          "name": "云栖大会",
+          "explain": "阿里巴巴每年举办的云计算与AI技术大会，是阿里发布重要技术进展的主要场合"
+        }
+      ],
+      "summary": "9月22日2026云栖大会开幕，阿里巴巴公布大模型最新进展：全模态模型Qwen4和下一代视频模型均在训练中。这标志着阿里在多模态AI领域持续加码，试图缩小与OpenAI、Google等国际领先者的差距。",
+      "relevant": "阿里是中国大模型第一梯队，Qwen系列开源生态影响力大，其全模态进展直接影响国内AI应用开发者的技术选型。",
+      "context": "阿里此前已发布Qwen系列多个版本，在开源社区积累大量用户。此次云栖大会是年度技术汇报节点，全模态和视频生成是当前AI竞争最激烈的方向。",
+      "source_analysis": "量子位报道，为国内AI行业垂直媒体，对阿里技术进展持正面关注态度。",
+      "social_impact": "全模态模型若落地，将推动电商、客服、内容创作等阿里核心业务场景的AI化升级。",
+      "source_text": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中 9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。 9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。在大语言模型LLM领域，Qwen3.8-Max在编程（Coding）和办公（Cowork）领域表现强劲，发布后斩获Artificial Analysis Agentic智能体第一、CodeArena前端编程第一；基于下一代架构的Qwen4已投入训练，未来Qwen4.5、Qwen5等后续版本模型参数将扩展至5到10万亿。在多模态领域，Qwen-Image-3.1性能有望逼近最强GPT-Image 系列，跻身全球前列；Qwen-Audio-3.1在ASR、TTS以及Realtime三个核心语音赛道均位列国际第一梯队、国内第一，超越Gemini 3.1 TTS等国际顶尖模型；世界模型HappyOyster-2.0-Preview全新亮相，推动世界模型从实验室走向真实可用；视频生成模型Wan3.0斩获Artificial Analysis 文生视频与视频编辑双榜第一，同时，下一代视频模型也在训练中，拥有更强的生成力、控制力和理解力，推动AI从工具走向创作智能。 在最新的Artificial Analysis全球大模型排行榜上，Qwen3.8-Max从40提升到45分 阿里巴巴是最早布局AI大模型的中国科技公司。从2019年起，阿里就开始着手AI大模型研究，陆续推出千问Qwen大语言模型系列，和万相Wan及HappyHorse等多模态模型系列。进入2026年，阿里大模型发布全面提速，最近1个多月时间，仅Qwen3.8系列就陆续更新迭代出4个不同模型及重大版本，性能和性价比均进入全球前沿水平，成为当前最受企业和全球AI开发者社区关注的中国模型之一。2026云栖大会上，阿里公布了大模型自我进化（RSI）已初步进入模型训练、推理及模型芯片协同等环节中，这一前沿技术探索加速了Qwen系列模型的迭代升级。 传统模型迭代通常是一条单向流水线，研究员从评测或用户反馈中发现问题，准备一批数据，完成一次训练，然后发布新模型。像这样的工作会持续重复循环，下一轮新模型仍要从人工分析重新开始。现在，Qwen3.8-Max可以通过自主搭建训练流程、构造训练数据，并自主设计实验、定位缺陷，在人类完全“零参与”的情况下持续迭代超1个月，完成33轮有效迭代。基于RSI、后训练等系列技术创新，Qwen3.8-Max的新版本在Artificial Analysis上的得分提升12.5%到45分，与Claude、GPT等顶尖模型属于前沿梯队。此外，千问RSI探索还不断延展，向上支撑推理自主优化，向下协同芯模联合创新：在推理优化上，Qwen3.8在从未见过的平头哥新款GPU上，自主适配优化了下代架构的Qwen3.8-Flash新模型的SGlang推理框架，实现单实例推理吞吐量提升 96%。在芯片模型协同设计上，Qwen3.8仅基于一份真实的总线模块规范，自主展开前端、验证、后端的全链路自迭代，在自主运行超60小时、调用EDA工具超万次后，完成了减少42%面积的物理实现优化、标准单元数降低29%，功耗降低59.5%。 追求更高智能并加速自我进化，是Qwen最重要的北极星目标。本届云栖大会，阿里公布了大语言模型系列技术进展。在架构优化方面，Qwen3.8-Flash（详见技术博客）提前开源下一代千问大模型架构，通过注意力机制和模型内信息传递机制等核心技术创新，在实现前沿模型性能的同时，将训练成本骤降近90%，同时依托于极少的参数激活，将推理计算效率推至全新的帕累托前沿，成为行业性价比“斩杀线”模型。在模态扩充方面（详见技术博客），全模态模型Qwen3.8-Omni-Flash正式亮相，将视频、音频、图片和文字等不同模态高效纳入统一理解框架中，为大模型开辟全新的思考分区。在参数扩展方面，参数越大依然能带来更强的性能，未来千问大模型总参数量将扩展至5万亿甚至10万亿的规模。这些技术创新将成为新一代千问大模型的基石，据介绍，Qwen4模型正采用全新架构展开训练，Qwen4.5、Qwen5均在稳步推进中。 追求极致性价比、推动实现AI普惠，是Qwen的另一个北极星目标。Qwen3.8系列模型中，Qwen3.8-Max被Arena评为前沿编程模型中性价比最高的模型之一，相较Qwen3.7的Token调用数提升12倍，进入全栈开发、自动化运营、法律文书、投研分析、工程设计、科学研究等真实场景；Qwen3.8-Flash通过结构创新，开启了缓存命中输入低至每百万Tokens0.1元的全新时代；Qwen3.8-27B被全球开发者誉为“本地Opus4.6”，将智能密度压缩到配备消费级显卡的电脑也能跑的极致程度，把智能和性价比“斩杀”到新水平。事实上，全世界的企业和开发者都在用阿里大模型来探索AI应用落地。比如，硅谷AI独角兽Perplexity基于Qwen3.8打造本地Agent，知名互联网公司爱彼迎Airbnb CEO布莱恩·切斯基称公司正“大量依赖阿里巴巴的千问模型”，并直言“比OpenAI更好更便宜”；“美国版小红书”Pinterest也用Qwen来搭建了自己的AI购物助手和聊天机器人，其CEO比尔·雷迪直言使用Qwen的成本不到Anthropic、OpenAI等同类闭源模型的8%；路透社也为降低对Claude等闭源模型的依赖并减少长期使用成本，基于Qwen开发自有模型。 Qwen3.8系列模型均面向全球开源，短短一个月，Qwen3.8相关模型已下载超5600万次，衍生模型超1900个，其中Qwen3.8-27B超过DeepSeek-R1、Meta-Llama3.1等热门模型，成为Hugging Face历史上最受欢迎大模型全球第一。截至目前，阿里已开源460多个千问大模型，Qwen模型的整体下载量超30亿次，衍生模型超30万个，Hugging Face官方报告指出，Qwen已成为全",
+      "source_title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
+      "source_url": "https://www.qbitai.com/2026/09/493625.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数规模",
+      "entities": [
+        {
+          "name": "Qwen4.5",
+          "explain": "阿里巴巴通义千问系列的下一个版本，介于Qwen4和Qwen5之间"
+        },
+        {
+          "name": "5-10T参数",
+          "explain": "5到10万亿个模型参数，是目前主流大模型（千亿级）的数十倍，代表极大算力投入"
+        },
+        {
+          "name": "阿里研究员",
+          "explain": "阿里巴巴AI研究团队的研究人员，具体姓名未在摘要中披露"
+        }
+      ],
+      "summary": "阿里研究员在云栖大会相关场合透露，Qwen4.5之后的模型版本（包括Qwen5）将扩展至5-10T参数规模。这意味着阿里计划将模型体量提升一个数量级以上，进入超大规模模型竞争。",
+      "relevant": "参数规模直接关联模型能力上限，5-10T级别将挑战训练成本和推理效率的极限，也反映阿里对AGI路线的投入决心。",
+      "context": "当前主流大模型参数多在千亿级，万亿级模型仅有少数公司尝试。阿里此前Qwen系列以开源和中等规模为主，此次透露的扩展计划是战略级转向。",
+      "source_analysis": "量子位报道，信息来自研究员非正式透露，非官方正式发布，需谨慎看待。",
+      "social_impact": "超大规模模型训练需要巨量算力和能源，可能进一步推高AI行业的资本门槛和能耗争议。",
+      "source_text": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数 未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。 9月22日，阿里巴巴在云栖大会上公布了大模型一系列进展，大模型递归自我改进（RSI）已初步进入模型训练、推理及芯模协同等环节中，基于新一代架构的Qwen4已在训练中，未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。同时，视频生成模型、语音模型、图像模型、世界模型、音乐模型以及全模态模型等均在当天或近期推出新版本。 追求更高智能，Qwen加速自我进化 大模型正走向自我迭代，本届云栖大会，阿里系统展示了千问大模型自我进化的最新探索成果。 在模型自我训练上，Qwen3.8-Max通过自主搭建训练流程、构造训练数据，并自主设计实验、定位缺陷，在人类完全“零参与”的情况下持续迭代超1个月，完成33轮有效迭代。基于RSI、后训练等系列技术联合优化，Qwen3.8-Max新版本在Artificial Analysis上的得分从40涨至45分，与Claude、GPT最强模型同处第一阵营，领先于GLM5.3、Kimi-K3等所有国产模型。 在推理优化上，Qwen3.8-Max在从未见过的平头哥新款GPU上，自主适配优化了下代架构的Qwen3.8-Flash新模型的推理框架，实现单实例推理吞吐量提升 96%。 在芯片模型协同设计上，Qwen3.8-Max仅基于一份真实的总线模块规范，自主展开前端、验证、后端的全链路自迭代，在自主运行超60小时、调用EDA工具超万次后，完成了减少42%面积的物理实现优化。 图说：Qwen LLM项目负责人刘大一恒表示，Scaling是迈向ASI的关键路径，Qwen4.5、Qwen5参数规模计划迈向5到10T 大会现场，阿里展示了大模型核心领域的系列技术创新。在架构优化方面，Qwen3.8-Flash提前开源下一代千问大模型架构，通过注意力机制和模型内信息传递机制等核心技术创新，在实现前沿模型性能的同时，训练成本骤降近90%；同时依托于极少的参数激活，将推理计算效率推至全新的帕累托前沿，成为行业性价比“斩杀线”模型。在模态扩充方面，全模态模型Qwen3.8-Omni正式亮相，将音视频等不同模态高效纳入统一理解框架中，为大模型开辟全新的思考分区。在参数扩展方面，参数越大依然能带来更强的性能，未来千问大模型总参数量将扩展至5万亿甚至10万亿的规模。这些技术创新将成为新一代千问大模型的基石，据介绍，Qwen4模型正采用全新架构展开训练，Qwen4.5、Qwen5均在稳步推进中。 在不断探索大模型性能前沿的同时，阿里还通过“全模态”“全尺寸”的大模型开源，与全球开发者和企业共享前沿的AI技术红利。在全球最大的AI开源社区Hugging Face中，Qwen3.8-27B模型超越DeepSeek-R1、Meta-Llama3.1等史上热门模型，斩获该平台历史上最受欢迎（Most Likes）的开源大模型。公开数据显示，阿里已开源460余个Qwen大模型，Qwen开源模型下载量突破30亿次，衍生模型数超30万个，稳居全球第一开源模型家族。 视听生成模型升级，全新视频生成模型拟11月发布 在最富创意的视觉生成领域，阿里正通过视觉生成模型的持续迭代升级，让AI创造出更好的作品，让用户享受到更好的体验。 图像生成模型Qwen-Image-3.1亮相，它面向电商、创意、设计等真实商用场景全新优化升级，将原本数小时的视觉设计压缩至秒级交付，水准堪比专业设计师，还支持图像精准编辑。 音乐生成模型Happy Shrimp 1.1 版本发布，在音乐表现、人声质量、多语种演唱及指令理解四个专业维度进一步提升，支持百余种曲风与十余种主流语言，覆盖人声歌曲与纯音乐两大生成场景。 世界模型最新版本HappyOyster 2.0 Preview亮相，通过对模型架构、训练方法和数据体系的全面升级，显著提升了智能实时交互、记忆能力、实时响应、物理规律遵循等核心能力，让世界模型真正从实验室走向真实可用。 图说：阿里巴巴ATH技术副总裁，淘天集团首席科学家郑波在云栖大会现场提到， 三年内会出现一个原生全模态统一模型，体验将不再受限于模态的边界 全新的下一代视频生成模型也将于11月发布，朝着更长、更可控、更完整、更智能的方向演进：在更长的时间里，新模型仍然能保持一致性，创作者可精准掌控人物、场景与镜头；同时，模型能具备导演级的创作思维，从生成单个镜头迈向理解完整叙事。 下代语音模型发布，Qwen落地多款智能终端 当前，语音正发展成为AI与人之间更自然的交互入口，Qwen模型也在手机、AI眼镜、桌面机器人等硬件领域落地。 语音模型家族Qwen-Audio-3.1全新升级，包含语音转写（ASR）、语音合成（TTS）和实时语音交互（Realtime）三大系列。 基于下代架构的音频理解模型Qwen-Audio-3.1-ASR-Next全新发布，它能够理解人物情绪、音乐、环境声与机械声，完成声音描述、事件定位、音频问答与推理，让“这段录音中人的情绪怎样”这样的问题能够被理解和准确回答。 同时，音频创作模型Qwen-Audio-3.1-TTS-Next全新亮相，它采用全新架构，可根据一段脚本，直接生成融合对白和环境声的完整音频，极大提高有声书、影视剧和播客等专业创作的效率。 Qwen-Audio-3.1-Realtime实时交互能力再提升，能够边听、边想、边说，并进一步增强多语言交互、角色扮演和共情能力。目前，该系列模型已应用于千问办公和Qoder，并接入QwenNote A2随身助理、QwenNote Eva桌面机器人和千问AI眼镜等硬件产品。 此外，同声传译模型Qwen3.8-LiveTranslate首次登场，人类同传平均时延在4秒以上，但该模型可将时延压缩至不到2.5秒。据了解，新模型已接入千问AI眼镜、QwenNote A2、钉钉耳机等AI硬件。 阿里大模型加速走向终端。AI手机全栈解决方案Qwen Intellig",
+      "source_title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
+      "source_url": "https://www.qbitai.com/2026/09/493629.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 33,
+      "title": "OpenAI成立数学顾问小组，其AI已解决100多个开放数学问题",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "开发ChatGPT和GPT系列模型的人工智能公司"
+        },
+        {
+          "name": "数学顾问小组",
+          "explain": "由独立数学家组成的咨询团体，负责审查和沟通AI产出的数学成果"
+        },
+        {
+          "name": "开放数学问题",
+          "explain": "数学界尚未解决、公开悬赏或公认的未解难题"
+        }
+      ],
+      "summary": "OpenAI成立数学与人工智能独立顾问小组，背景是其AI系统已解决超过100个开放数学问题。TechCrunch报道称，该小组无权减缓或改变OpenAI正在进行的数学研究方向，仅负责审查和对外沟通。",
+      "relevant": "AI解决开放数学问题是AI能力边界的重要信号，但顾问小组无实权引发对AI研究治理有效性的质疑。",
+      "context": "OpenAI近期在数学推理方向投入加大，AI产出大量数学结果需要专业验证。成立顾问小组是对外回应可信度质疑的举措，但权限设计显示其更偏向公关而非治理。",
+      "source_analysis": "TechCrunch为科技媒体，报道带有一定审视立场，特别指出顾问小组缺乏实权。",
+      "social_impact": "若AI真能解决100+开放问题，将深刻改变数学研究范式，但验证和归属问题尚待解决。",
+      "source_text": "On Monday, OpenAI announced a new independent advisory group hosted at the Institute for Advanced Study in Princeton, New Jersey. Called the Advisory Group on Mathematics and Artificial Intelligence, the group is meant to give mathematicians more input into the company’s math-oriented research. “This group will serve as a bridge to the mathematical community and broader public, giving mathematicians a voice in how we move forward,” the post reads. The announcement comes after the abrupt publication of a solution to the Navier-Stokes Millennium Prize problem. As part of the announcement of the new group, OpenAI also claims that the same internal model has resolved more than 100 additional open problems across most areas of mathematics. Many prominent mathematicians have taken issue with the frenzied pace of those results. Earlier this month, 25 Fields Medal-winning mathematicians signed an open letter arguing that AI labs are threatening their intellectual work as they seek to one-up each other with solutions to famous math problems. True to its name, OpenAI’s new group will mostly serve in an advisory capacity, assessing the significance of new results and coordinating their release. While members won’t be paid, they can offer unsolicited advice, go public with their views, and control their own membership, giving them a measure of independence from the company. However, the group won’t be given leeway to slow down or redirect OpenAI’s ongoing mathematical research. As the blog post puts it, “the group will not be responsible for advising us on how to pace our internal progress on mathematics.” The Institute for Advanced Study emphasized this point in its own announcement. “Although we will give advice, we do not have decision making power at any AI company, and the responsibility for the decisions made by any company will rest with that company,” said the institute in a press release. Nine prominent mathematicians have been named as initial members of the group. Notably, only one of the members — IAS’s Camillo De Lellis — also signed the Fields Medalists’ letter.",
+      "source_title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "source_url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "source_name": "TechCrunch AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "OpenAI官方宣布成立数学与人工智能顾问小组",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "开发ChatGPT和GPT系列模型的人工智能公司"
+        },
+        {
+          "name": "数学与人工智能顾问小组",
+          "explain": "独立专家组，负责指导AI数学成果的审查和对外沟通"
+        }
+      ],
+      "summary": "OpenAI官方宣布与独立的数学与人工智能顾问小组合作，指导新兴AI数学成果的审查和沟通。该小组旨在为AI产出的数学结果提供独立验证和传播规范，回应外界对AI数学能力可信度的关注。",
+      "relevant": "这是OpenAI对AI数学成果治理的官方表态，与TechCrunch报道形成互补，展示其主动建立外部审查机制的姿态。",
+      "context": "随着AI在数学领域产出增多，如何验证和传播这些成果成为行业问题。OpenAI选择与独立数学家合作，试图建立可信度框架。",
+      "source_analysis": "来源为OpenAI官方博客，属第一方发布，立场为主动披露和塑造正面形象。",
+      "social_impact": "为AI辅助数学研究建立审查先例，可能影响其他AI实验室的类似治理实践。",
+      "source_text": "Advisory Group on Mathematics and Artificial Intelligence On August 28, we began training a new internal model. In addition to resolving the Navier–Stokes Millennium Prize problem, this model has now resolved more than 100 long-standing open problems across most areas of mathematics. The pace of its progress in mathematics has surprised the mathematicians within OpenAI. This has led to internal discussions on the best way to inform the community of the rapid progress to prepare and adapt the field. Mathematics is a fundamental science, and novel discoveries may result in a wide range of applications. That makes the promise of these capabilities substantial, and their responsible development and deployment important beyond mathematics itself. We recognize this and are working through how broader deployment of math-related AI capabilities can be done responsibly. In a recent open letter “A Severe Misalignment of AI in Mathematics(opens in a new window),” mathematicians raise concerns about the negative externalities of solving open problems as a benchmark for new AI systems. Their criticisms highlight the need for thoughtful engagement of AI companies with the math community. To that end, we’re working with mathematicians who have established an independent mathematics advisory group. This group will serve as a bridge to the mathematical community and broader public, giving mathematicians a voice in how we move forward. The group will advise on the review and communication of emerging results: they will help OpenAI assess their significance, advise on how to coordinate their dissemination, and advise on academic and professional standards of mathematical research. It will also advise on how our tools can support mathematical research and learning. We want to put capable tools in mathematicians’ hands so they can pursue the questions they know best and develop new ideas. The group will operate independently from OpenAI. The group will have the freedom to offer advice we have not requested, comment on OpenAI’s impact on mathematics, and make its advice public. Its value depends on its members being able to exercise their own judgement and challenge ours. Its members will not be paid by OpenAI, and the group can change its membership as it sees fit. Importantly, the group will not be responsible for advising us on how to pace our internal progress on mathematics. Working with this group is a first step. There are difficult questions ahead about how AI can suppo",
+      "source_title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "entities": [
+        {
+          "name": "Gemini 3.8 Live",
+          "explain": "Google DeepMind 的Gemini系列大模型新版本，主打实时交互能力"
+        },
+        {
+          "name": "Extended Thinking",
+          "explain": "扩展思考模式，让模型在回答前进行更长时间的推理，提升复杂问题表现"
+        },
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下人工智能研究机构，Gemini系列模型的开发者"
+        }
+      ],
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 两个新版本。Live版本强调实时交互，Extended Thinking版本则强化深度推理能力，面向需要复杂思考的任务场景。",
+      "relevant": "Gemini系列是OpenAI GPT的主要竞争对手，此次更新显示Google在实时交互和深度推理两个方向同时推进。",
+      "context": "Gemini此前已迭代多个版本，Live和Extended Thinking是功能分化策略，分别对标实时应用和复杂推理场景。",
+      "source_analysis": "来源为Google DeepMind官方博客，属第一方发布，立场为产品推广。",
+      "social_impact": "实时交互与深度推理的分化，反映AI模型正从通用型向场景专用型演进。",
+      "source_text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Updated September 17, 2026 Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. On ServiceNow’s EVA-Bench, a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early ver",
+      "source_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "Higgsfield AI 借助GPT-6 Astra一天内上线新视频功能",
+      "entities": [
+        {
+          "name": "Higgsfield AI",
+          "explain": "一家专注于AI视频生成的初创公司"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI的第六代GPT模型，Astra为具体版本代号"
+        },
+        {
+          "name": "视频广告创作",
+          "explain": "利用AI自动生成视频广告内容，面向中小企业营销需求"
+        }
+      ],
+      "summary": "Higgsfield AI 利用OpenAI的GPT-6 Astra，在一天内开发并上线新的视频功能，帮助小企业更轻松地制作视频广告。该案例展示了GPT-6 Astra在加速产品开发和创意工具落地方面的能力。",
+      "relevant": "这是OpenAI官方宣传的客户案例，展示GPT-6 Astra的实际商业价值，也反映AI视频生成赛道竞争激烈。",
+      "context": "OpenAI发布GPT-6 Astra后，需要展示其实际应用效果。Higgsfield AI作为视频AI初创公司，成为其快速开发能力的证明案例。",
+      "source_analysis": "来源为OpenAI官方博客，属客户案例宣传，立场为展示GPT-6 Astra的商业价值。",
+      "social_impact": "若小企业能低成本快速制作视频广告，将降低营销门槛，冲击传统视频制作行业。",
+      "source_text": "Higgsfield AI ships new video features in a day with GPT‑6 Astra With GPT‑6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster. Higgsfield AI(opens in a new window) helps creatives complete video workflows end to end with AI. Its mission is to make creative storytelling more accessible to professionals around the world, including small businesses using video ads to sell. GPT‑6 Astra supports both sides of that mission: improving ad creation for customers and accelerating feature development inside Higgsfield. “We are very excited about GPT-6 Astra helping us to deliver new exploration features just within a day. And this now can be done by just one engineer.” Creating ads with Higgsfield can start with a simple request, such as “Take my top-performing ad and generate 100 new variations.” With GPT‑6 selected, the workflow turns that request into new creative directions for an existing ad to generate variations, such as customizing the ads for different countries. For small businesses, this makes it easier to explore different versions of an ad through a single prompt. “Higgsfield also enables smaller businesses to sell more products by generating ads using video AI. And this is where we have seen major improvements with the GPT-6 model.” Inside Higgsfield, GPT‑6 Astra helps a single engineer deliver new features within a day. Alex attributes that speed to Astra’s long-horizon task planning, its ability to plan work across multiple steps, and the close collaboration between Higgsfield’s creative team and engineers. With GPT‑6 Astra, Higgsfield brings new creative tools to market faster and helps small businesses turn ideas into video ads that showcase their products.",
+      "source_title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "source_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "OpenAI发布AI标准建设路径，呼吁全球协调评估与治理",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "开发ChatGPT和GPT系列模型的人工智能公司"
+        },
+        {
+          "name": "AI标准",
+          "explain": "关于AI安全、评估、报告和治理的全球性技术规范和政策框架"
+        }
+      ],
+      "summary": "OpenAI发布文章，提出构建下一阶段AI标准的路径，呼吁全球协调评估、报告和治理机制以提升安全性。该文是OpenAI在AI治理议题上的政策表态，试图主导全球AI标准制定的话语权。",
+      "relevant": "AI标准制定是各国政府和国际组织当前博弈焦点，OpenAI作为头部公司主动提出框架，意在影响规则走向。",
+      "context": "随着AI能力快速提升，各国监管碎片化问题突出。OpenAI此前已多次呼吁国际协调，此次提出具体路径。",
+      "source_analysis": "来源为OpenAI官方博客，属政策倡导，立场为主动参与并塑造全球AI治理规则。",
+      "social_impact": "若全球AI标准协调推进，将影响各国AI企业的合规成本和跨境业务模式。",
+      "source_text": "Building standards for the next phase of AI Our mission is to ensure that artificial general intelligence benefits all of humanity. As outlined recently by Sam Altman and Jakub Pachocki, we prioritize our work towards this mission with three main goals: - Navigate the next period of AI progress, by building an automated AI researcher, iterating with it on the alignment problem, and finding ways for people to remain part of the self-improvement loop. - Deliver the benefits of scientific progress and economic growth that very intelligent machines enable. - Empower everyone individually with a personal AGI. AI is accelerating our own research and engineering, and AI-enabled research has led to advances in mathematics, including the Navier-Stokes Millennium Problem. This progress holds great promise for our other two goals, which could lead to important discoveries in medicine, broadly accessible health care, and economic empowerment for small businesses and individual entrepreneurs everywhere. AI is advancing across many companies and countries, and progress across the field changes the opportunities and challenges facing everyone. Alongside its other benefits, capable, aligned AI will be an important part of how we navigate this transition—strengthening defenses, advancing alignment research, and helping people understand and guide the next stages of AI development. Navigating this transition safely requires alignment research to keep pace with these capabilities so that the systems we and others build remain aligned with human values and under human control. This becomes increasingly important as AI systems grow more capable and autonomous, including as they take on more of AI research and development itself. Making continued AI progress safe and beneficial will require both advances in alignment research and shared standards to guide development across labs and countries. Automated AI research can involve varying degrees of human supervision. As AI systems take on more of the work of developing successive generations of AI, they can increasingly drive a process of recursive self-improvement (RSI), even while people remain involved. As this process becomes more automated, the pace of AI progress could accelerate rapidly. We believe automated AI research will yield models that directly enhance people’s lives. It can bring down the cost of advanced intelligence so that people worldwide can benefit. Automated research could also help us substantially improve a",
+      "source_title": "Building standards for the next phase of AI",
+      "source_url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind 发布 WeatherNext 3，号称最先进的全球天气 AI 模型",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究机构，开发过 AlphaGo、AlphaFold 等知名 AI 系统"
+        },
+        {
+          "name": "WeatherNext 3",
+          "explain": "DeepMind 推出的第三代全球天气预测 AI 模型，用机器学习替代传统数值天气预报方法"
+        },
+        {
+          "name": "全球天气 AI 模型",
+          "explain": "利用人工智能技术预测全球范围内天气状况的计算模型，相比传统物理模拟方法通常更快"
+        }
+      ],
+      "summary": "Google DeepMind 发布 WeatherNext 3，称其为目前最先进、最准确的全球天气 AI 模型。该模型是 WeatherNext 系列的第三代产品，延续了用 AI 方法提升天气预报精度和速度的方向。具体技术细节和性能对比数据需查阅官方博客原文。",
+      "relevant": "AI 天气预报是近年来大模型落地科学计算的重要方向，DeepMind 的天气模型已被用于实际气象预报业务，可能影响全球气象行业格局。",
+      "context": "DeepMind 此前已推出 GraphCast、WeatherNext 等 AI 天气预测模型，逐步验证了 AI 在中期天气预报上可超越传统数值方法。WeatherNext 3 是该系列的迭代升级，旨在进一步提升全球预报精度。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属于第一方发布，立场为宣传自家技术成果，性能声明需第三方验证。",
+      "social_impact": "更准确的天气预报可应用于防灾减灾、农业规划、航空调度等领域，但具体影响范围取决于模型的公开可用性和实际部署情况。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "Hugging Face 论文提出仅用 1% token 即可高效完成在线策略蒸馏",
+      "entities": [
+        {
+          "name": "在线策略蒸馏（OPD）",
+          "explain": "一种让小型学生模型在自己生成的输出上接受大型教师模型指导的训练方法，用于提升小模型能力"
+        },
+        {
+          "name": "信息效率比（IER）",
+          "explain": "论文提出的新指标，基于信噪比分解来衡量梯度估计的相对误差，用于判断哪些 token 值得接受教师指导"
+        },
+        {
+          "name": "token",
+          "explain": "语言模型处理文本的基本单位，可以是一个词、一个字或词的一部分"
+        },
+        {
+          "name": "反向 KL 散度",
+          "explain": "衡量两个概率分布差异的数学指标，在蒸馏训练中用于约束学生模型向教师模型靠拢"
+        }
+      ],
+      "summary": "该研究针对稀疏在线策略蒸馏中梯度估计噪声问题，提出信息效率比（IER）指标，基于信噪比分解评估每个 token 的梯度估计可靠性。结合 IER 与现有 token 选择策略后，在数学和医学推理任务上，仅用 0.1%–1% 的 token 预算即可匹配甚至超越全量 OPD 的效果。",
+      "relevant": "大幅降低蒸馏训练的计算成本，使小模型高效获取大模型能力成为可能，对资源受限场景下的模型训练有直接价值。",
+      "context": "在线策略蒸馏通常对所有 token 都施加教师监督，但学生模型生成的轨迹中并非每个 token 都能从教师指导中获益，部分 token 的梯度估计噪声大反而有害。此前方法仅关注 token 的'有用性'，忽略了梯度估计的可靠性。",
+      "source_analysis": "论文发布在 Hugging Face Papers 平台，为学术预印本，尚未标注同行评审状态。",
+      "social_impact": "若方法可推广，将显著降低大模型蒸馏训练的算力门槛，对中小团队和学术界的模型研发有积极意义。",
+      "source_text": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation。Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A candidate-set approximation enables token selection based on IER and its combination with existing usefulness scores, while retaining the sampled reverse-KL training objective. On mathematical and medical reasoning tasks, adding IER improves existing selectors in multiple settings, with sparse configurations matching or exceeding full OPD without token selection at small token budgets of 0.1\\%--1\\%. These results support accounting for both usefulness and gradient-estimation reliability when allocating sparse supervision. Our code is available at https://github.com/BruceSheng1202/IER-OPD.",
+      "source_title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+      "source_url": "https://huggingface.co/papers/",
+      "source_name": "Hugging Face",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "Critical-State RL：诊断多轮工具调用中哪些状态真正值得训练",
+      "entities": [
+        {
+          "name": "Critical-State RL",
+          "explain": "论文提出的强化学习方法，用于识别多轮交互中哪些模型调用状态是真正可训练的"
+        },
+        {
+          "name": "多轮工具使用",
+          "explain": "AI 模型在完成任务时需要多次调用外部工具（如搜索、计算器）的交互模式"
+        },
+        {
+          "name": "嵌套采样",
+          "explain": "一种统计采样技术，用于分离动作相关的奖励变化与后续交互带来的随机噪声"
+        },
+        {
+          "name": "BFCL v4",
+          "explain": "Berkeley Function Calling Leaderboard 第四版，评估大模型工具调用能力的公开基准测试"
+        }
+      ],
+      "summary": "论文提出 Critical-State RL 方法，解决多轮工具调用中奖励变化无法区分'当前动作好坏'与'后续随机性'的问题。该方法通过嵌套采样分离动作相关奖励变化与延续噪声，在诊断选定的状态上用上下文赌博机训练优化策略。在 BFCL v4 基准上，诊断选定的状态训练效果优于替代状态。",
+      "relevant": "多轮工具调用是 AI Agent 的核心能力，精准定位可训练状态可大幅提升训练效率和 Agent 可靠性。",
+      "context": "多轮工具调用任务中，一次失败可能仅源于某一次模型调用出错，但最终奖励是所有轮次的综合结果，导致无法直接判断哪一步该被强化或惩罚。现有方法仅看奖励变化，容易将后续随机性误判为当前动作的问题。",
+      "source_analysis": "论文发布于 ArXiv cs.LG 板块，为学术预印本。",
+      "social_impact": "提升 Agent 工具调用的训练效率，有助于推动 AI Agent 在真实业务场景中的可靠部署。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 21 Sep 2026] Title:Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use View PDF HTML (experimental) Abstract:Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested sampling to separate action-dependent reward variation from continuation noise and optimizes the policy at the selected states using contextual-bandit training. Experiments on the Berkeley Function Calling Leaderboard (BFCL) v4 compare training at diagnostic-selected states with training at alternative states. For missing-function tasks, the diagnostic selects the response after the tool becomes available; for missing-argument tasks, it selects the response before the missing argument is supplied. Training the selected responses improves performance, including about 14 percentage points on the missing-function task, while training the alternatives leaves performance flat or worse. We further apply the recipe across models and tasks, including logged repeat-call avoidance and memory management. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted ou",
+      "source_title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "source_url": "https://arxiv.org/abs/2609.24985v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "Critical-State RL：诊断多轮工具调用中哪些状态真正值得训练",
+      "entities": [
+        {
+          "name": "Critical-State RL",
+          "explain": "论文提出的强化学习方法，用于识别多轮交互中哪些模型调用状态是真正可训练的"
+        },
+        {
+          "name": "多轮工具使用",
+          "explain": "AI 模型在完成任务时需多次调用外部工具的交互模式"
+        },
+        {
+          "name": "嵌套采样",
+          "explain": "一种统计采样技术，用于分离动作相关的奖励变化与后续交互带来的随机噪声"
+        },
+        {
+          "name": "BFCL v4",
+          "explain": "Berkeley Function Calling Leaderboard 第四版，评估大模型工具调用能力的公开基准"
+        }
+      ],
+      "summary": "论文提出 Critical-State RL 方法，解决多轮工具调用中奖励变化无法区分'当前动作好坏'与'后续随机性'的问题。该方法通过嵌套采样分离动作相关奖励变化与延续噪声，在诊断选定的状态上用上下文赌博机训练优化策略。在 BFCL v4 基准上，诊断选定的状态训练效果优于替代状态。",
+      "relevant": "多轮工具调用是 AI Agent 的核心能力，精准定位可训练状态可大幅提升训练效率和 Agent 可靠性。",
+      "context": "多轮工具调用任务中，一次失败可能仅源于某一次模型调用出错，但最终奖励是所有轮次的综合结果，导致无法直接判断哪一步该被强化或惩罚。现有方法仅看奖励变化，容易将后续随机性误判为当前动作的问题。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本，与 #6 为同一论文在不同分类下的收录。",
+      "social_impact": "提升 Agent 工具调用的训练效率，有助于推动 AI Agent 在真实业务场景中的可靠部署。",
+      "source_text": "Computer Science > Machine Learning [Submitted on 21 Sep 2026] Title:Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use View PDF HTML (experimental) Abstract:Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested sampling to separate action-dependent reward variation from continuation noise and optimizes the policy at the selected states using contextual-bandit training. Experiments on the Berkeley Function Calling Leaderboard (BFCL) v4 compare training at diagnostic-selected states with training at alternative states. For missing-function tasks, the diagnostic selects the response after the tool becomes available; for missing-argument tasks, it selects the response before the missing argument is supplied. Training the selected responses improves performance, including about 14 percentage points on the missing-function task, while training the alternatives leaves performance flat or worse. We further apply the recipe across models and tasks, including logged repeat-call avoidance and memory management. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) IArxiv Recommender (What is IArxiv?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted ou",
+      "source_title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "source_url": "https://arxiv.org/abs/2609.24985v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "onPanda：通过 token 级修正将 LLM 对齐数据标注时间缩短 52%",
+      "entities": [
+        {
+          "name": "onPanda",
+          "explain": "论文提出的交互式标注工具，通过 token 级修正高效生成 LLM 对齐数据"
+        },
+        {
+          "name": "在线策略数据",
+          "explain": "由模型自身生成（而非人工从头编写）的训练数据，能保持模型的输出分布特征"
+        },
+        {
+          "name": "SFT",
+          "explain": "监督微调，用标注数据对预训练大模型进行有监督训练以提升特定任务表现"
+        },
+        {
+          "name": "token 级修正",
+          "explain": "标注者定位模型输出中第一个不合适的 token，替换或修改后让模型从该位置继续生成"
+        }
+      ],
+      "summary": "论文提出 onPanda 交互式标注工具，核心机制为 token 级修正：标注者定位第一个不合适的 token 并修正，系统截断后续内容并从修正处继续生成，循环直至满意。小规模对照实验显示，相比人工后期编辑，onPanda 将中位标注时间缩短 52%，且生成数据保留了模型采样分布，适合构建在线策略 SFT 和偏好数据。",
+      "relevant": "LLM 对齐训练高度依赖高质量标注数据，降低标注成本可加速模型迭代，尤其对 Agent 轨迹标注有实用价值。",
+      "context": "传统 LLM 对齐数据标注通常需要人工重写模型输出，耗时且容易偏离模型自身分布。在线策略数据要求数据尽量由模型生成，但纯模型输出质量不足，需要人工介入修正。",
+      "source_analysis": "论文发布于 ArXiv cs.LG 板块，为学术预印本。",
+      "social_impact": "标注效率提升可降低 LLM 对齐训练的人力成本，使更多团队能参与高质量对齐数据的构建。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 21 Sep 2026] Title:onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction View PDF HTML (experimental) Abstract:We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate-correct-continue loop until a satisfactory response is obtained. This mechanism lets annotators precisely steer model outputs at low cost: a small controlled study suggests that onPanda reduces median annotation time by 52% over manual post-editing. Since the vast majority of tokens in the final response are generated by the model itself, the resulting data largely preserves the model's sampling distribution and is well suited for constructing on-policy SFT and preference data. Furthermore, the token-level corrections recorded during annotation provide fine-grained supervision with precise positions and naturally paired positive--negative samples. onPanda also connects to external tools and harnesses, enabling interactive trajectory annotation in realistic environments. In addition, we release Panda-CVL, a dataset annotated with onPanda, together with a benchmark for token-level correction. Current browse context: cs.CL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXi",
+      "source_title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "source_url": "https://arxiv.org/abs/2609.24983v1",
+      "source_name": "ArXiv cs.LG",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "onPanda：通过 token 级修正将 LLM 对齐数据标注时间缩短 52%",
+      "entities": [
+        {
+          "name": "onPanda",
+          "explain": "论文提出的交互式标注工具，通过 token 级修正高效生成 LLM 对齐数据"
+        },
+        {
+          "name": "在线策略数据",
+          "explain": "由模型自身生成（而非人工从头编写）的训练数据，能保持模型的输出分布特征"
+        },
+        {
+          "name": "SFT",
+          "explain": "监督微调，用标注数据对预训练大模型进行有监督训练以提升特定任务表现"
+        },
+        {
+          "name": "token 级修正",
+          "explain": "标注者定位模型输出中第一个不合适的 token，替换或修改后让模型从该位置继续生成"
+        }
+      ],
+      "summary": "论文提出 onPanda 交互式标注工具，核心机制为 token 级修正：标注者定位第一个不合适的 token 并修正，系统截断后续内容并从修正处继续生成，循环直至满意。小规模对照实验显示，相比人工后期编辑，onPanda 将中位标注时间缩短 52%，且生成数据保留了模型采样分布，适合构建在线策略 SFT 和偏好数据。",
+      "relevant": "LLM 对齐训练高度依赖高质量标注数据，降低标注成本可加速模型迭代，尤其对 Agent 轨迹标注有实用价值。",
+      "context": "传统 LLM 对齐数据标注通常需要人工重写模型输出，耗时且容易偏离模型自身分布。在线策略数据要求数据尽量由模型生成，但纯模型输出质量不足，需要人工介入修正。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本，与 #7 为同一论文在不同分类下的收录。",
+      "social_impact": "标注效率提升可降低 LLM 对齐训练的人力成本，使更多团队能参与高质量对齐数据的构建。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 21 Sep 2026] Title:onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction View PDF HTML (experimental) Abstract:We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate-correct-continue loop until a satisfactory response is obtained. This mechanism lets annotators precisely steer model outputs at low cost: a small controlled study suggests that onPanda reduces median annotation time by 52% over manual post-editing. Since the vast majority of tokens in the final response are generated by the model itself, the resulting data largely preserves the model's sampling distribution and is well suited for constructing on-policy SFT and preference data. Furthermore, the token-level corrections recorded during annotation provide fine-grained supervision with precise positions and naturally paired positive--negative samples. onPanda also connects to external tools and harnesses, enabling interactive trajectory annotation in realistic environments. In addition, we release Panda-CVL, a dataset annotated with onPanda, together with a benchmark for token-level correction. Current browse context: cs.CL References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXi",
+      "source_title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "source_url": "https://arxiv.org/abs/2609.24983v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "DolphinBench：首个通过任务完成度评估 Agent 记忆能力的基准",
+      "entities": [
+        {
+          "name": "DolphinBench",
+          "explain": "论文提出的 Agent 记忆评估基准，通过任务完成度而非问答准确率来测试记忆系统"
+        },
+        {
+          "name": "Agent 记忆",
+          "explain": "AI Agent 在长期交互中存储和回忆历史信息的能力，是其执行复杂任务的基础"
+        },
+        {
+          "name": "Pareto 前沿",
+          "explain": "在多目标优化中，无法在不牺牲某一指标的情况下改善另一指标的最优状态集合"
+        },
+        {
+          "name": "知识工作 persona",
+          "explain": "模拟知识工作者角色的虚拟用户画像，每个包含约 50 万 token 的历史消息"
+        }
+      ],
+      "summary": "论文提出 DolphinBench 基准，直接通过 Agent 的任务完成度评估记忆能力，而非传统对话问答格式。基准包含三个知识工作 persona，每个约 50 万 token 历史消息和 200 个任务，所有任务经验证需历史信息才能成功。评估要求同时报告成本、延迟和准确率，以映射 Agent 记忆的 Pareto 前沿。",
+      "relevant": "现有记忆基准多为问答形式且只考核准确率，导致记忆系统可通过不合理的时间和成本换取高分，DolphinBench 填补了这一评估空白。",
+      "context": "当前 AI Agent 越来越多地依赖长期记忆执行真实任务，但主流记忆基准以对话问答为主，问题本身已暗示需要检索哪条信息，且不考核成本与延迟，无法反映真实场景中的记忆效率。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本。",
+      "social_impact": "为 Agent 记忆系统提供更贴近实际的评估标准，推动行业关注记忆方案的成本效益而非仅追求准确率。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 21 Sep 2026] Title:DolphinBench: Mapping the Pareto Frontier of Agent Memory View PDF HTML (experimental) Abstract:Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without the relevant history, requiring success with it and failure without it. Finally, we require all evaluations to report total cost and latency alongside accuracy, which enables us to evaluate agent memory systems holistically. No existing memory benchmark combines all three. The dataset and evaluation code are available at this https URL. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+      "source_url": "https://arxiv.org/abs/2609.24971v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 37,
+      "title": "HF 博客：你的 Agent 通过了任务测试，但它能稳定复现吗？",
+      "entities": [
+        {
+          "name": "Agent 一致性",
+          "explain": "AI Agent 在多次执行同一任务时能否稳定获得相同或相近结果的能力"
+        },
+        {
+          "name": "IBM Research",
+          "explain": "IBM 公司的研究部门，该博客的作者方"
+        },
+        {
+          "name": "ALTK Evolve",
+          "explain": "IBM 提出的 Agent 一致性评估与改进框架，博客标题中提及的工具"
+        }
+      ],
+      "summary": "Hugging Face 博客刊文讨论 AI Agent 的一致性问题：Agent 在一次任务中表现优异，不代表它能稳定复现同样结果。文章由 IBM Research 撰写，介绍其 A LTK Evolve 框架，用于评估和提升 Agent 在重复执行任务时的一致性。具体方法和数据需查阅博客原文。",
+      "relevant": "Agent 可靠性是其在生产环境中落地的关键瓶颈，一次性成功与可复现成功之间的差距直接影响用户信任和部署决策。",
+      "context": "随着 AI Agent 在编程、客服、数据分析等场景中广泛应用，业界发现 Agent 在基准测试中得分高并不等于实际使用中稳定可靠，同一任务多次运行结果可能差异显著。",
+      "source_analysis": "消息来自 Hugging Face 博客平台，由 IBM Research 撰写，属于企业研究团队的官方技术博客，立场为推广其 A LTK Evolve 框架。",
+      "social_impact": "Agent 一致性评估若成为行业标准，将推动 Agent 开发从追求单次最优表现转向追求稳定可靠，影响企业级 AI 部署的评估体系。",
+      "source_text": "Your Agent Aced the Task. Will It Do It Again? That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper. Most benchmarks hide this variability behind an average. On AppWorld, a ReAct agent using GPT-4.1 succeeded on 77.4% of runs across five repetitions. But it succeeded in all five runs for only 53.0% of tasks — a 24.4-point consistency gap. Most benchmarks report the first number. We built a way to measure the second — and improve it. In an earlier post, we introduced ALTK-Evolve — a system that turns an agent's own past trajectories into reusable guidelines, distilled automatically and injected back at inference time. It measurably improves task success, but those results only asked the average-case question too. This post introduces consistency guidelines, a new guideline type in altk-evolve built on top of a diagnostic tool we call the Consistency Analyzer, that targets this gap directly. TL;DR - Accuracy hides an unreliability problem. A ReAct agent (GPT-4.1 on AppWorld test_normal ) that succeeds 77.4% of the time on average succeeds on all 5 repeated runs for only 53.0% of tasks — a 24.4-point consistency gap. On hard tasks it reaches 30 points. - We built a diagnostic for exactly this. The Consistency Analyzer resamples an agent's own recorded trajectory to find flip-prone decision points — steps where the model was one token-sample away from doing something different. It needs one trace and no ground truth — it resamples each decision point in that trace with a single call requesting k completions (k=5 by default), rather than re-running the task end-to-end. - Turning that diagnosis into guidelines halves the gap — from 24.4pp to 12.0pp (same-task Pass⁵ +16.0pp, similar-task +13.0pp), without costing anything in average accuracy. - Full methodology and evaluations are in the technical report on arXiv. The Metric Almost Nobody Reports Standard agent evaluation reports Mean@k: run a benchmark k times, average the pass rate. Often k=3, sometimes just 1. It's the number on every leaderboard, and it's what \"77% accurate\" means in practice. Mean@k answers \"how good is this agent, on average?\" It does not answer the question a real user cares about: will it still be good if I ask this exact question again? For that y",
+      "source_title": "Your Agent Aced the Task. Will It Do It Again?",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 29,
+      "title": "SpaceXAI 发布 Grok 4.7，性能对标 Claude 但价格仅为三分之一",
+      "entities": [
+        {
+          "name": "SpaceXAI",
+          "explain": "原名 xAI，马斯克创立的人工智能公司，后更名为 SpaceXAI"
+        },
+        {
+          "name": "Grok 4.7",
+          "explain": "SpaceXAI 最新发布的大语言模型，官方称最擅长编码和知识工作"
+        },
+        {
+          "name": "Claude",
+          "explain": "Anthropic 公司开发的大语言模型系列，是 Grok 的主要竞争对手"
+        },
+        {
+          "name": "CursorBench 4.0",
+          "explain": "专门测试 AI 模型处理长时间编码任务能力的基准测试"
+        }
+      ],
+      "summary": "SpaceXAI（原 xAI）发布 Grok 4.7，官方称其为最擅长编码和知识工作的模型，速度是同级模型的两倍、价格便宜一半。该模型与 Grok 4.6 同价同步，直接对标 Claude 系列，被解读为 AI 模型价格战的开场。",
+      "relevant": "AI 大模型竞争进入价格战阶段，Grok 4.7 以三分之一价格对标 Claude，可能引发行业定价连锁反应。",
+      "context": "xAI 此前已发布 Grok 4.6，此次更名 SpaceXAI 后推出 4.7 版本，在编码基准 CursorBench 4.0 上展示竞争力，意在抢占 Claude 的编码和知识工作市场份额。",
+      "source_analysis": "开源中国报道，该媒体偏向技术社区视角，报道风格中立，侧重产品参数和价格对比。",
+      "social_impact": "AI 模型价格战可能降低企业使用大模型的门槛，加速 AI 在编码和知识工作领域的普及。",
+      "source_text": "SpaceXAI 发布 Grok 4.7：跟 Claude Fable 同榜，价格砍到三分之一。SpaceXAI（改名的 xAI）发布了 Grok 4.7，官方口径是&quot;最擅长编码和知识工作的模型&quot;——比同级模型快两倍、便宜一半。这句话与其说是技术宣言，不如说是价格战的开场白：它和 Grok 4.6 同价同步，直接对标的就是 Claude 那几家。 论据藏在榜单里。CursorBench 4.0 是专门压长时编码任务的基准，Grok 4.7 官方给的宣传数据...",
+      "source_title": "SpaceXAI 发布 Grok 4.7：跟 Claude Fable 同榜，价格砍到三分之一",
+      "source_url": "https://www.oschina.net/news/502663/x-ai-grok-4-7",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 30,
+      "title": "小米开源 MiMo-V2.6 系列全模态模型，公开 6 天 RL 训练全过程",
+      "entities": [
+        {
+          "name": "MiMo-V2.6",
+          "explain": "小米开发的大语言模型系列，包含 Pro 和 Flash 两个版本，支持全模态（文本、图像等）"
+        },
+        {
+          "name": "Live RL",
+          "explain": "实时强化学习，一种让模型在训练过程中持续从反馈中学习的技术"
+        },
+        {
+          "name": "全模态",
+          "explain": "指模型能同时处理文本、图像、音频等多种类型的数据"
+        },
+        {
+          "name": "Artificial Analysis",
+          "explain": "一个独立评测 AI 模型性能的第三方机构"
+        }
+      ],
+      "summary": "小米正式开源 MiMo-V2.6 系列，包含 Pro 和 Flash 两个原生全模态模型。此次发布重点在于公开了 6 天 Live RL 训练的完整过程、成本、技术报告及 RL 代码和训练环境。MiMo-V2.6-Pro 在 Artificial Analysis 榜单上表现突出。",
+      "relevant": "小米全面开源模型训练过程和 RL 代码，在国内开源圈较为罕见，可能推动 AI 训练透明化和社区协作。",
+      "context": "小米此前已在开源模型领域有所布局，MiMo 系列已有一定知名度。此次发布旨在通过公开训练细节和代码，展示技术实力并吸引开发者社区。",
+      "source_analysis": "开源中国报道，该媒体关注开源技术动态，报道侧重开源内容和训练细节。",
+      "social_impact": "全面开源训练过程和 RL 代码有助于降低 AI 研究门槛，促进国内开源 AI 生态发展。",
+      "source_text": "Xiaomi MiMo-V2.6 系列正式发布，大规模扩展 RL 并全面开源。小米开源了 MiMo-V2.6 系列，Pro 和 Flash 两个原生全模态模型一起放出。 这名字在国内开源圈已经不算陌生，但这次发布的重点不在模型本身，而在它背后那 6 天的 Live RL 训练——官方把整个训练过程、成本、技术报告连同 RL 代码和训练环境一起开源了。 一段话说清楚这次发到了什么位置：MiMo-V2.6-Pro 在 Artificial A...",
+      "source_title": "Xiaomi MiMo-V2.6 系列正式发布，大规模扩展 RL 并全面开源",
+      "source_url": "https://www.oschina.net/news/502662/xiaomi-mimo-v2-6",
+      "source_name": "开源中国",
+      "group": "community"
+    },
+    {
+      "item_id": 19,
+      "title": "Anthropic 发布 Claude 商业代理参考蓝图，覆盖零售、电信等行业",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "开发 Claude 大语言模型的 AI 公司，专注于 AI 安全和可控性"
+        },
+        {
+          "name": "Claude Agent SDK",
+          "explain": "Anthropic 提供的开发工具包，帮助开发者基于 Claude 构建 AI 代理"
+        },
+        {
+          "name": "购物代理",
+          "explain": "嵌入企业应用中的 AI 助手，帮助客户完成购物流程"
+        },
+        {
+          "name": "商家代理",
+          "explain": "供企业员工使用的 AI 助手，帮助管理后台运营"
+        }
+      ],
+      "summary": "Anthropic 在 GitHub 发布 commerce-agents 项目，提供构建购物代理和商家代理的参考蓝图。每个代理通过提示、技能、工具契约和门控定义一次，即可在 Messages API、Claude Agent SDK 和 Managed Agents 上运行，包含零售、电商、电信和娱乐四个可运行垂直案例。",
+      "relevant": "为开发者提供了基于 Claude 构建商业 AI 代理的标准框架，可能加速 AI 在企业商业场景中的落地。",
+      "context": "随着 AI 代理在企业中的应用需求增长，Anthropic 推出参考架构帮助开发者快速构建购物和商家代理，所有示例均为虚构，不涉及真实交易。",
+      "source_analysis": "GitHub AI 项目，由 Anthropic 官方发布，内容为技术参考蓝图，立场中立。",
+      "social_impact": "为商业 AI 代理开发提供标准化参考，可能推动零售、电信等行业的 AI 应用标准化。",
+      "source_text": "Two commerce agents built on Claude: a shopping agent a business embeds in its app for customers, and a merchant agent its staff use to run the back office. Each is defined once (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent SDK, and Managed Agents; four runnable verticals show both over the same libraries. Note Every company, brand, product, and person here is fictional; the only company is ACME. Nothing places an order, charges a card, or changes a live listing: checkout renders the cart for the host to complete, and every merchant write is staged until a person approves it. Business rules, authorization, and compliance are the deployment's. Python 3.11+ and Node 22. Clone, install, add a key, run a vertical: git clone https://github.com/anthropics/commerce-agents.git && cd commerce-agents python3 -m venv .venv && source .venv/bin/activate pip install -r requirements.txt # the seven packages and their pinned dependencies cp .env.example .env # add ANTHROPIC_API_KEY (cd examples && npm ci) # the eight web apps share one workspace python scripts/run_demo.py retail # API :8000 + storefront :3000 --merchant starts the portal instead of the storefront and --all starts both. The verticals are retail (:3000, portal :3100), travel (:3001, :3101), telecom (:3002, :3102), and entertainment (:3003, :3103); each README lists prompts to try on both surfaces. The Claude Code plugin scaffolds an agent on these packages against your systems, or reviews one you have. With the repo cloned as above (the plugin reads it as the reference): claude plugin marketplace add anthropics/commerce-agents claude plugin install commerce-builder@claude-commerce-agents claude /scaffold-commerce-agent a shopping assistant for our store The command asks about your stack, plays the plan back, and builds the project; /add-commerce-flow and /author-commerce-evals continue from there, and /review-commerce-agent starts from an agent that already exists (plugins/commerce-builder/). Each command also runs when a request matches its description, so naming it is optional. The shopping agent searches, compares, plans, fills the cart, answers order and policy questions, and remembers what a customer tells it. Its five flows are the skills in shopping-agent/skills/; a deployment implements StorefrontBackend over its catalog, cart, order, and policy systems. The merchant agent explains performance, maintains listings, acts on inventory and order alerts, prices an",
+      "source_title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "source_url": "https://github.com/anthropics/commerce-agents",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 15,
+      "title": "Human-Agent-Society 发布 Reef：面向自我改进代理的持续学习基础设施",
+      "entities": [
+        {
+          "name": "Reef",
+          "explain": "一个开源基础设施项目，用于支持 AI 代理的持续学习和自我改进"
+        },
+        {
+          "name": "持续学习",
+          "explain": "让 AI 模型在部署后仍能不断学习新知识，而不是训练完就固定不变"
+        },
+        {
+          "name": "自我改进代理",
+          "explain": "能够根据自身表现自动调整和优化行为的 AI 代理"
+        }
+      ],
+      "summary": "Human-Agent-Society 团队发布 Reef，一个面向自我改进 AI 代理的持续学习基础设施。项目已在 PyPI 发布为 reef-infra 包，支持 Python 3.12+，采用 Apache-2.0 开源协议，并在 GitHub 上获得 Trending 关注。",
+      "relevant": "持续学习是 AI 代理从实验室走向实际应用的关键瓶颈，Reef 提供了开源解决方案。",
+      "context": "当前 AI 代理大多在部署后无法持续学习，Reef 旨在解决这一问题，提供训练、评估和部署的完整基础设施。",
+      "source_analysis": "GitHub AI 项目，由 Human-Agent-Society 团队发布，属于开源社区项目。",
+      "social_impact": "降低持续学习 AI 代理的开发门槛，可能推动自适应 AI 系统的发展。",
+      "source_text": "English | 中文 Reef is the first open-source infrastructure for continual self-improving agents. It connects agent inference, feedback, learning, and versioned delivery. Use it to train model weights with Slime and SGLang, or improve an agent's harness, including its prompts, rules, and skills. 🚀 Get started | 🗺️ Roadmap | 📣 Launch post | 💬 Join Discord | 📱 Join WeChat Group Use Reef when you want your agent to keep improving simply by learning from how you interact with your agent. Reef processes each learning cycle in four steps. The table also shows which modules implement each step. 💡 Note Reef's artifact and checkpoint functionality requires the git-lfs system package. Reef initializes Git LFS locally for its artifact repositories. We recommend uv for managing packages, and the commands below use it. uv venv && source .venv/bin/activate uv pip install reef-infra python3 -c \"import reef; print(reef.__version__)\"git lfs install git clone https://github.com/Human-Agent-Society/reef.git cd reef uv venv && source .venv/bin/activate uv pip install -e . python3 -c \"import reef; print(reef.__version__)\" Use the source checkout for development and for the training examples below. Reef supports two learning surfaces: model weights and agent harnesses. The deployment's recipe determines which surface its scenarios update. As a minimal example, start Reef as a pure inference server: uv run reef serve --inference.model-path Qwen/Qwen2.5-1.5B-Instruct The following example starts the SAO (arXiv:2607.07508) example deployment. Run it from a Reef checkout in an environment that satisfies the GPU requirements in Evolve your model. uv pip install -e \".[slime]\" && uv pip install --no-deps --group runtime export MODEL_PATH=\"Qwen/Qwen2.5-1.5B-Instruct\" export REEF_TOKEN=\"reef-local\" reef serve -c recipes/sao/examples/imo_answerbench/serve.yaml \\ --inference.model-path \"$MODEL_PATH\" \\ --reef.port \"8900\" curl -f http://127.0.0.1:8900/healthz # ready to serve Send inference requests through Reef and report a score for each response. The SAO recipe uses each eligible scored rollout to run a training step. Reef's inference endpoint is OpenAI- and Anthropic-compatible: /v1/chat/completions and /v1/messages take the provider's own request body. A request includes the x-reef-scenario header; a new name creates a scenario using the deployment's configured recipe. Requests do not select recipes. The response body uses the provider's OpenAI-compatible format. Reef adds the x-reef-agen",
+      "source_title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "source_url": "https://github.com/Human-Agent-Society/reef",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 8,
+      "title": "Z.ai 发布 ZCode 编程代理工作台，支持桌面、浏览器和终端",
+      "entities": [
+        {
+          "name": "Z.ai",
+          "explain": "智谱 AI 的海外品牌，开发大语言模型和 AI 编程工具"
+        },
+        {
+          "name": "ZCode",
+          "explain": "Z.ai 推出的 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent"
+        },
+        {
+          "name": "Agent CLI",
+          "explain": "命令行界面工具，允许开发者在终端中直接使用 AI 代理"
+        }
+      ],
+      "summary": "Z.ai 在 GitHub 发布 ZCode，一个 AI 编程工作台，提供 Electron 桌面应用、浏览器界面和终端 Agent 三种入口。仓库包含客户端、后端服务、共享 UI 以及 Agent CLI 与运行时源码，支持简体中文和英文。",
+      "relevant": "AI 编程工具竞争加剧，ZCode 以多入口和开源方式切入市场。",
+      "context": "Z.ai 此前已推出大语言模型，ZCode 是其向 AI 编程工具领域的延伸，旨在为开发者提供统一的 AI 编程工作台。",
+      "source_analysis": "GitHub Trending 项目，由 zai-org 官方发布，属于开源项目。",
+      "social_impact": "为开发者提供新的 AI 编程工具选择，可能推动 AI 辅助编程的普及。",
+      "source_text": "简体中文 | English ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。 准备 Git、Node.js 24.14.0 和 pnpm 10.33.2，版本以 mise.toml 为准。以下开发和打包命令均在仓库根目录执行。 pnpm bootstrap pnpm bootstrap 安装 workspace 依赖、准备桌面本地运行资源，再执行 build:bootstrap。 Agent CLI 与运行时源码位于 apps/zcode-cli/，作为普通目录随本仓库一起克隆，无需单独拉取或初始化 Git submodule。 根据需要选择其他初始化或构建入口： 默认 bootstrap 跳过远程资源准备，适合本地桌面开发。使用远程工作区或验证远程发行资源时，再运行对应准备命令。 pnpm dev:desktop # 使用测试环境 pnpm dev:desktop:test pnpm dev:desktop 默认等同于 pnpm dev:desktop:prod，使用生产服务配置。启动脚本会准备本地运行资源、构建桌面 Agent，再启动 Electron 和源码监听。 需要独立开发数据目录时，可设置 ZCODE_DATA_BASE_DIR。例如在 macOS / Linux 中： ZCODE_DATA_BASE_DIR=\"$HOME/.zcode-dev-home\" pnpm dev:desktop:test 先执行 pnpm bootstrap:with-remote 准备远程资源（mock-cdn），再 pnpm dev:desktop；连接远程项目时资源选择「本地下载后上传」。开发态资源取自本地 packages/desktop/mock-cdn 和本地构建产物，经 SFTP 上传到远程，不访问 CDN。 修改 Web 或后端源码时，使用开发模式： pnpm dev:web # 指定后端工作区（macOS / Linux） ZCODE_SERVER_WORKSPACE=/path/to/project pnpm dev:web 该命令同时启动 Web 开发服务器（默认 http://localhost:5173）和后端（默认 http://localhost:3030）；浏览器访问前者。/ws 和一般 /api 请求代理到本地后端，/api/v1/oauth/token 单独代理到当前配置的产品服务。 Agent 源码修改后，执行 pnpm --filter @zcode/cli... build 并重启服务。需要验证完整发行包时，按下方“ZCode 命令行版”打包章节解压运行。 命令行发行包包含 TUI、Web 和 Agent，统一使用 zcode 启动：无参数进入 TUI；第一个参数为 --web 时启动 Web；其他参数交给现有 Agent CLI 处理。两种模式都在本机运行，无需 Electron。 # 默认进入终端交互界面 zcode # 启动 Web 界面 zcode --web # 指定项目和端口，不自动打开浏览器 zcode --web --workspace /path/to/project --port 3030 --no-open # 查看 CLI 或 Web 参数 zcode --help zcode --web --help Web 模式默认工作目录为当前目录，监听 127.0.0.1，默认不启用访问令牌，自动选择空闲端口并打开浏览器。访问终端输出的地址，按 Ctrl+C 停止服务。局域网访问可使用 --host 0.0.0.0；监听非本机地址时默认生成访问令牌，使用终端输出的带令牌链接。可通过 --token 指定令牌或 --no-token 关闭令牌认证。 直接启动通用 Web 服务的 HTTP 入口时，通过 ZCODE_SERVER_AUTH_TOKEN 配置 API／WebSocket 认证；通过程序接口创建服务时，使用 authToken 选项。 构建方式见下方打包章节。pnpm build:zcode 只生成发行包，不会替换 PATH 中已有的 zcode。如果命令仍指向旧安装或其他源码目录，macOS / Linux 可用 command -v zcode 检查，Windows 可用 where.exe zcode 检查。 直接开发 TUI 或 Agent 时，运行源码入口： pnpm --filter @zcode/cli dev --help pnpm --filter @zcode/cli dev # 构建 CLI 及其 workspace 依赖 pnpm --filter @zcode/cli... build node apps/zcode-cli/packages/cli/dist/zcode.cjs --help 这个入口直接运行 Agent CLI，不经过发行包的 --web 分流。开发 Web 用 pnpm dev:web；验证统一的 zcode 命令，用下方解压后的 bin/zcode.mjs。 根目录 .env.example 提供服务地址与构建配置示例，可按需复制到 .env，本地覆盖放入 .env.local。Desktop 的开发环境通过 dev:desktop:test / dev:desktop:prod 选择。 运行时变量可在启动命令的环境中显式设置。随客户端发布的默认配置见 config/README.md。 第三方声明生成、发行校验流程及声明在发行物中的位置见 third-party/README.md。 pnpm bundle:desktop # 指定目标平台与 CPU 架构 pnpm bundle:desktop -- --os win --arch x64 pnpm bundle:desktop -- --",
+      "source_title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "source_url": "https://github.com/zai-org/ZCode",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 46,
+      "title": "Claude 多个模型出现服务错误率升高",
+      "entities": [
+        {
+          "name": "Claude",
+          "explain": "Anthropic 公司开发的大语言模型系列"
+        },
+        {
+          "name": "Claude Status",
+          "explain": "Anthropic 官方服务状态页面，用于通报系统故障和维护信息"
+        }
+      ],
+      "summary": "Claude 官方状态页面显示，多个模型出现错误率升高的情况。Anthropic 已确认该问题并正在调查中。",
+      "relevant": "Claude 是广泛使用的 AI 模型，服务中断可能影响大量开发者和企业用户。",
+      "context": "Claude 作为主流 AI 模型之一，其服务稳定性直接影响依赖其 API 的应用。此次错误率升高可能由基础设施或模型部署问题引起。",
+      "source_analysis": "Hacker News 转载，原始信息来自 Claude 官方状态页面，属于官方通报。",
+      "social_impact": "服务中断可能影响依赖 Claude API 的开发者和企业，具体影响范围待官方进一步通报。",
+      "source_text": "This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Posted Sep 22, 2026 - 02:35 UTC Monitoring We have seen success rates return to normal across affected models, and are monitoring closely to ensure no further issues. Posted Sep 22, 2026 - 02:11 UTC Update We are continuing to work to resolve errors affecting some models. At this time, requests to Claude Fable 5 and 5.1 and Mythos 5 and 5.1 have returned to normal success rates. We are working to resolve remaining errors affecting Claude Opus 5, and will provide an additional update shortly. Posted Sep 22, 2026 - 01:35 UTC Identified We have identified the cause of elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and are working on a fix. We will provide an update as soon as possible. Posted Sep 22, 2026 - 01:17 UTC Investigating We are investigating elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5. We will provide an update as soon as possible. Posted Sep 22, 2026 - 00:57 UTC This incident affected: claude.ai, Claude API (api.anthropic.com), Claude Code, and Claude Cowork. Subscribe to updates for Elevated errors for multiple models via email and/or text message. You'll receive email notifications when incidents are updated, and text message notifications whenever Claude creates or resolves an incident.",
+      "source_title": "Claude Status – Elevated errors for multiple models",
+      "source_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 45,
+      "title": "AI 编程导致 CI 成为瓶颈，Linear 重构 CI 流程应对",
+      "entities": [
+        {
+          "name": "CI",
+          "explain": "持续集成，一种软件开发实践，每次代码变更后自动构建和测试"
+        },
+        {
+          "name": "Linear",
+          "explain": "一家开发项目管理工具的公司，以高效工程实践著称"
+        }
+      ],
+      "summary": "Linear 发文称 AI 编程工具大幅提升了代码产出速度，导致持续集成（CI）流程成为瓶颈。为此 Linear 重新设计了 CI 流程以跟上 AI 编程的节奏。",
+      "relevant": "AI 编程工具普及后，传统 CI 流程可能无法应对代码提交频率的激增，Linear 的实践为行业提供了参考。",
+      "context": "随着 AI 编程助手（如 Claude、Copilot）的广泛使用，开发者提交代码的频率和数量显著增加，传统 CI 系统面临压力。",
+      "source_analysis": "Hacker News 转载，原始来源为 Linear 官方博客，属于企业技术实践分享。",
+      "social_impact": "反映了 AI 编程工具对软件开发流程的连锁影响，可能推动 CI 工具和流程的升级。",
+      "source_text": "AI coding has made CI a bottleneck, so we reworked ours to keep up Earlier this year, I opened Linear to find that Tuomas, our CTO, had assigned an issue to me, titled “CI costs are high.” While I was at it, he also wanted me to make CI faster. Agents have made it exponentially faster to ship code, but validating those changes hasn’t quite kept up at the same rate. Every PR still has to pass through CI, so as development accelerates, CI becomes a bottleneck, driving up infrastructure costs and leaving developers and agents waiting longer for feedback. In our pursuit to make CI more performant at Linear, we optimized for how long a PR waits on CI and how much runner time it consumes. Despite our test suites almost quadrupling since the start of the year, we brought pull request wait time down from more than 6 minutes to just over 5, while cutting runner time per test roughly in half. Broadly, we improved CI in four ways: - Upgraded infrastructure and tooling - Optimized the jobs that gate other work - Reduced repeated setup - Made test execution more efficient Linear’s codebase is primarily TypeScript, but many of these optimizations apply across languages and toolchains. Upgraded infrastructure and tooling Some of our earliest gains required almost no optimization of CI itself. Moving our workloads off GitHub Actions to third-party runners with faster CPUs, higher-performance storage, and better cache infrastructure gave us faster machines to run the same pipeline on. In a like-for-like comparison of the two days either side of the switch, jobs ran 34% faster on average, with some workloads like tsc dropping 52%. Separately, modernizing our toolchain also paid off. Switching to tsgo, the native TypeScript compiler, cut the weekly median of the tsc check by 73%, large enough to move the bottleneck off of typechecking entirely. Lint without the type checker Linting was another early target. A handful of our custom lint rules depended on TypeScript type information, either to enforce a restriction or apply an autofix. That meant every lint run had to build the full type graph before evaluating those rules, making linting one of our most memory-intensive CI jobs. We rewrote the rules to use static analysis over the abstract syntax tree, identifying function-like constructs and guard patterns without type information. That let ESLint drop TypeScript entirely, reducing API lint time by 68%, and full-repository lint time by 55%. Memory usage dropped substantially",
+      "source_title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "source_url": "https://linear.app/now/ci-bottleneck-reworked",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 44,
+      "title": "Transformer 可视化解释工具发布，帮助理解 AI 核心架构",
+      "entities": [
+        {
+          "name": "Transformer",
+          "explain": "一种神经网络架构，是 GPT、Claude 等大语言模型的核心基础"
+        },
+        {
+          "name": "PoloClub",
+          "explain": "佐治亚理工学院的数据可视化研究实验室"
+        }
+      ],
+      "summary": "PoloClub 发布 Transformer Explainer，一个交互式可视化工具，帮助用户直观理解 Transformer 架构的工作原理。该工具通过可视化方式展示注意力机制、前馈网络等核心组件。",
+      "relevant": "Transformer 是当前 AI 大模型的基础架构，可视化工具可降低学习门槛，帮助更多人理解 AI 原理。",
+      "context": "Transformer 架构自 2017 年提出以来已成为 AI 领域的主流，但其内部机制对非专业人士仍较难理解，该工具旨在解决这一问题。",
+      "source_analysis": "Hacker News 转载，原始来源为 PoloClub 实验室，属于学术教育类项目。",
+      "social_impact": "有助于 AI 教育和科普，降低公众理解大模型原理的门槛。",
+      "source_text": "What is a Transformer? Transformer is a neural network architecture that has fundamentally changed the approach to Artificial Intelligence. Transformer was first introduced in the seminal paper \"Attention is All You Need\" in 2017 and has since become the go-to architecture for deep learning models, powering text-generative models like OpenAI's GPT, Meta's Llama, and Google's Gemini. Beyond text, Transformer is also applied in audio generation, image recognition, protein structure prediction, and even game playing, demonstrating its versatility across numerous domains. Fundamentally, text-generative Transformer models operate on the principle of next-token prediction: given a text prompt from the user, what is the most probable next token (a word or part of a word) that will follow this input? The core innovation and power of Transformers lie in their use of self-attention mechanism, which allows them to process entire sequences and capture long-range dependencies more effectively than previous architectures. GPT-2 family of models are prominent examples of text-generative Transformers. Transformer Explainer is powered by the GPT-2 (small) model which has 124 million parameters. While it is not the latest or most powerful Transformer model, it shares many of the same architectural components and principles found in the current state-of-the-art models making it an ideal starting point for understanding the basics. Transformer Architecture Every text-generative Transformer consists of these three key components: - Embedding: Text input is divided into smaller units called tokens, which can be words or subwords. These tokens are converted into numerical vectors called embeddings, which capture the semantic meaning of words. - Transformer Block is the fundamental building block of the model that processes and transforms the input data. Each block includes: - Attention Mechanism, the core component of the Transformer block. It allows tokens to communicate with other tokens, capturing contextual information and relationships between words. - MLP (Multilayer Perceptron) Layer, a feed-forward network that operates on each token independently. While the goal of the attention layer is to route information between tokens, the goal of the MLP is to refine each token's representation. - Output Probabilities: The final linear and softmax layers transform the processed embeddings into probabilities, enabling the model to make predictions about the next token in a sequence",
+      "source_title": "Transformers Explained Visually",
+      "source_url": "https://poloclub.github.io/transformer-explainer/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 1,
+      "title": "browser-use 发布 Jev Ultrafast：号称最快最便宜的网页 AI 代理",
+      "entities": [
+        {
+          "name": "browser-use",
+          "explain": "一个开源项目团队，专注于让 AI 自动操作浏览器的工具开发"
+        },
+        {
+          "name": "Jev Ultrafast",
+          "explain": "browser-use 与 TypeSafe 合作推出的网页自动化 AI 代理，能理解自然语言指令并自动操作网页"
+        },
+        {
+          "name": "TypeSafe",
+          "explain": "提供 Jev 决策引擎的公司，负责让 AI 代理快速选择操作和页面元素"
+        },
+        {
+          "name": "Browser Use Cloud",
+          "explain": "browser-use 提供的云端服务，用户无需本地部署即可使用网页 AI 代理"
+        }
+      ],
+      "summary": "browser-use 团队发布了 Jev Ultrafast，一款号称最快最便宜的网页 AI 代理。它采用动态索引动作空间，由 TypeSafe 的 Jev 引擎选择操作和元素，仅在需要输入文本时调用小型 LLM。在 Google Flights 上完成苏黎世到伦敦的搜索仅需 7.1 秒，包含文本生成和页面加载等待时间。",
+      "relevant": "网页 AI 代理是当前自动化领域的热门方向，7.1 秒完成复杂网页操作展示了极高的效率，可能大幅降低 AI 网页自动化的成本和延迟门槛。",
+      "context": "当前网页 AI 代理普遍依赖大型语言模型逐步推理，速度慢、成本高。browser-use 与 TypeSafe 合作，通过将决策与文本生成分离，用专用引擎替代通用 LLM 做操作决策，从而实现速度突破。",
+      "source_analysis": "消息来自 GitHub Trending 项目页面，由 browser-use 团队自行发布，带有明显的产品推广性质，性能数据为团队自测结果。",
+      "social_impact": "Browser Use Cloud 已开放等待名单，表明该技术正从开源项目向商业化云服务过渡，可能影响网页自动化、RPA 等行业格局。",
+      "source_text": "Important The Browser Use Cloud waitlist is open. Get early access to ultrafast browser agents in the cloud. Join the waitlist → A browser agent with a dynamic, indexed action space. Give it one goal. TypeSafe's Jev picks an operation and an element. A small LLM writes text only when the operation is TYPE_TEXT. Zürich → London on Google Flights in 7.1 seconds. One natural-language goal, actual text generation, and loading waits included. Watch the MP4 · Measurements · Read the loop Every observation produces a new element table: [1] button Change ticket type · Round trip [2] combobox Where from? · San Francisco [3] combobox Where to? · empty [4] textbox Departure · empty ... The operations are CLICK, TYPE_TEXT, SELECT, SCROLL_UP, SCROLL_DOWN, WAIT, DONE, and BLOCKED. Only supported operations and targets are offered. one TypeSafe request ┌───────────────────────────┐ page → element table → operation │ │ click_target │ │ type_text_target │ │ select_target, if present │ └─────────────┬─────────────┘ use the matching target │ CLICK [7] ─────┤──→ browser TYPE_TEXT [3] ─────┘ ↓ small LLM → text → browser Target questions are speculative. If the operation is CLICK, only click_target can execute. Two decisions, one network round trip. Each target head contains only compatible elements. Native dropdown choices carry an observed element/option index. There are no site-specific action scripts or prepared field strings in the policy. The Flights example supplies a goal and independently verifies the outcome. The screenshot renderer adds labels afterward; it does not drive the browser. git clone https://github.com/browser-use/jev-ultrafast.git cd jev-ultrafast uv sync cp .env.example .env # Add TYPESAFE_API_KEY and TEXT_MODEL_API_KEY. uv run jev Open http://127.0.0.1:8766 and click Start demo → Run automatically. The inspector shows numbered elements, operation probabilities, target probabilities, and executed actions. Choose next pauses before execution. Chrome connects through Browser Harness, installed by uv sync. Run uv run browser-harness --doctor if it needs connecting. Allow remote debugging in Chrome when prompted. TEXT_MODEL_API_KEY is an OpenRouter key in the example configuration. The current demo uses inception/mercury-2.5 with reasoning disabled. Gemini, GLM, and DeepSeek can also use the OpenAI-compatible text helper; configure the appropriate model, endpoint, and reasoning setting. from jev_ultrafast import Agent with Agent( \"https://www.google.com/trav",
+      "source_title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "source_url": "https://github.com/browser-use/jev-ultrafast",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 11,
+      "title": "Z.ai 开源 ZCode：AI 编程工作台，含桌面应用、浏览器界面和终端 Agent",
+      "entities": [
+        {
+          "name": "Z.ai",
+          "explain": "一家 AI 公司，开发大语言模型和 AI 编程工具"
+        },
+        {
+          "name": "ZCode",
+          "explain": "Z.ai 推出的 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent 三种使用方式"
+        },
+        {
+          "name": "Electron",
+          "explain": "一种用网页技术开发桌面应用的开源框架，VS Code 等知名软件都基于它构建"
+        },
+        {
+          "name": "Agent CLI",
+          "explain": "命令行界面下的 AI 代理工具，开发者可在终端中直接调用 AI 辅助编程"
+        }
+      ],
+      "summary": "Z.ai 在 GitHub 上开源了 ZCode 项目，定位为 AI 编程工作台。该仓库包含客户端、后端服务、共享 UI 以及 Agent CLI 与运行时源码，提供桌面应用（基于 Electron）、浏览器界面和终端 Agent 三种入口，支持开发者以不同方式使用 AI 辅助编程。",
+      "relevant": "AI 编程工具竞争激烈，ZCode 以开源+多入口的方式切入，可能吸引希望自部署或定制 AI 编程环境的开发者。",
+      "context": "随着 Claude Code、Cursor 等 AI 编程工具兴起，各家公司纷纷推出自己的 AI 编程助手。Z.ai 作为大模型公司，通过开源 ZCode 进入这一赛道，提供从桌面到终端的完整工具链。",
+      "source_analysis": "消息来自 GitHub 项目仓库，由 Z.ai 官方发布，属于产品开源公告，信息以功能介绍为主。",
+      "social_impact": "项目提供飞书社群和 Discord 社区入口，显示其重视中文开发者生态，可能对国内 AI 编程工具市场产生影响。",
+      "source_text": "简体中文 | English ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。 准备 Git、Node.js 24.14.0 和 pnpm 10.33.2，版本以 mise.toml 为准。以下开发和打包命令均在仓库根目录执行。 pnpm bootstrap pnpm bootstrap 安装 workspace 依赖、准备桌面本地运行资源，再执行 build:bootstrap。 Agent CLI 与运行时源码位于 apps/zcode-cli/，作为普通目录随本仓库一起克隆，无需单独拉取或初始化 Git submodule。 根据需要选择其他初始化或构建入口： 默认 bootstrap 跳过远程资源准备，适合本地桌面开发。使用远程工作区或验证远程发行资源时，再运行对应准备命令。 pnpm dev:desktop # 使用测试环境 pnpm dev:desktop:test pnpm dev:desktop 默认等同于 pnpm dev:desktop:prod，使用生产服务配置。启动脚本会准备本地运行资源、构建桌面 Agent，再启动 Electron 和源码监听。 需要独立开发数据目录时，可设置 ZCODE_DATA_BASE_DIR。例如在 macOS / Linux 中： ZCODE_DATA_BASE_DIR=\"$HOME/.zcode-dev-home\" pnpm dev:desktop:test 先执行 pnpm bootstrap:with-remote 准备远程资源（mock-cdn），再 pnpm dev:desktop；连接远程项目时资源选择「本地下载后上传」。开发态资源取自本地 packages/desktop/mock-cdn 和本地构建产物，经 SFTP 上传到远程，不访问 CDN。 修改 Web 或后端源码时，使用开发模式： pnpm dev:web # 指定后端工作区（macOS / Linux） ZCODE_SERVER_WORKSPACE=/path/to/project pnpm dev:web 该命令同时启动 Web 开发服务器（默认 http://localhost:5173）和后端（默认 http://localhost:3030）；浏览器访问前者。/ws 和一般 /api 请求代理到本地后端，/api/v1/oauth/token 单独代理到当前配置的产品服务。 Agent 源码修改后，执行 pnpm --filter @zcode/cli... build 并重启服务。需要验证完整发行包时，按下方“ZCode 命令行版”打包章节解压运行。 命令行发行包包含 TUI、Web 和 Agent，统一使用 zcode 启动：无参数进入 TUI；第一个参数为 --web 时启动 Web；其他参数交给现有 Agent CLI 处理。两种模式都在本机运行，无需 Electron。 # 默认进入终端交互界面 zcode # 启动 Web 界面 zcode --web # 指定项目和端口，不自动打开浏览器 zcode --web --workspace /path/to/project --port 3030 --no-open # 查看 CLI 或 Web 参数 zcode --help zcode --web --help Web 模式默认工作目录为当前目录，监听 127.0.0.1，默认不启用访问令牌，自动选择空闲端口并打开浏览器。访问终端输出的地址，按 Ctrl+C 停止服务。局域网访问可使用 --host 0.0.0.0；监听非本机地址时默认生成访问令牌，使用终端输出的带令牌链接。可通过 --token 指定令牌或 --no-token 关闭令牌认证。 直接启动通用 Web 服务的 HTTP 入口时，通过 ZCODE_SERVER_AUTH_TOKEN 配置 API／WebSocket 认证；通过程序接口创建服务时，使用 authToken 选项。 构建方式见下方打包章节。pnpm build:zcode 只生成发行包，不会替换 PATH 中已有的 zcode。如果命令仍指向旧安装或其他源码目录，macOS / Linux 可用 command -v zcode 检查，Windows 可用 where.exe zcode 检查。 直接开发 TUI 或 Agent 时，运行源码入口： pnpm --filter @zcode/cli dev --help pnpm --filter @zcode/cli dev # 构建 CLI 及其 workspace 依赖 pnpm --filter @zcode/cli... build node apps/zcode-cli/packages/cli/dist/zcode.cjs --help 这个入口直接运行 Agent CLI，不经过发行包的 --web 分流。开发 Web 用 pnpm dev:web；验证统一的 zcode 命令，用下方解压后的 bin/zcode.mjs。 根目录 .env.example 提供服务地址与构建配置示例，可按需复制到 .env，本地覆盖放入 .env.local。Desktop 的开发环境通过 dev:desktop:test / dev:desktop:prod 选择。 运行时变量可在启动命令的环境中显式设置。随客户端发布的默认配置见 config/README.md。 第三方声明生成、发行校验流程及声明在发行物中的位置见 third-party/README.md。 pnpm bundle:desktop # 指定目标平台与 CPU 架构 pnpm bundle:desktop -- --os win --arch x64 pnpm bundle:desktop -- --",
+      "source_title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "source_url": "https://github.com/zai-org/ZCode",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_9b91773229af",
+      "source": "ArXiv cs.AI",
+      "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+      "url": "https://arxiv.org/abs/2609.25001v1",
+      "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different horizons for diverse model families. GameHorizon Suite consists of three components. First, GameHorizon-Annotator is a scalable and automated annotation pipeline for multi-horizon instructions. Second, utilizing the pipeline, we construct GameHorizon-Data, the first large-scale AAA gameplay dataset with temporally aligned videos, player actions, and multi-horizon instructions. It comprises 5,000 hours of recordings from 21 games, collected by 100 human expert players. Third, we build GameHorizon-Bench with reproducible offline and stepwise online testing. The offline track enables reproducible evaluation using thousands of standardized questions organized into three primary tasks and a series of diagnostic variants, while the online track tests whether offline scores reflect actual gameplay capabilities and localizes failures to specific steps within long-horizon gameplay. Based on our GameHorizon Suite, we evaluate 47 models through more than one million model invocations, revealing ",
+      "author": "Yiran Wang, Xingyilang Yin, Junfu Pu"
+    },
+    {
+      "id": "arxiv_364be72301be",
+      "source": "ArXiv cs.AI",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "url": "https://arxiv.org/abs/2609.24984v1",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-based correspondences. By combining this memory with recent temporal context and few-step distillation, WorldCrafter enables streaming scene exploration from a single input image or text prompt. Experiments across static and dynamic scenes show substantial gains in long-horizon consistency and camera-control accuracy while preserving visual quality during minute-scale exploration.",
+      "author": "Wangbo Yu, Kunhao Liu, Wenbo Hu"
+    },
+    {
+      "id": "arxiv_c284f8e6304a",
+      "source": "ArXiv cs.AI",
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "url": "https://arxiv.org/abs/2609.24976v1",
+      "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We present DexTacWAM, a visuo-tactile WAM that encodes each fingertip independently, aggregates the resulting features through a finger- and pose-aware tactile compressor, and injects the tactile latent into a video diffusion world model for joint visuo-tactile world modeling. Across six contact-rich dexterous manipulation tasks on a 22-DoF bimanual platform, DexTacWAM achieves the highest score on every task, averaging 70.6 versus 38.0 for the strongest baseline. Ablations attribute the gain to modeling contact evolution as part of the predicted world state rather than tactile conditioning alone: removing tactile world modeling reduces the four-task mean from 74.7 to 26.6 while keeping the same tactile features and action expert. After four hours of tactile-encoder adaptation with a frozen pretrained vision VAE, our continual vision-to-touch learning extends the pretrained video model to touch using roughly 100 demonstrations per task without tactile midtraining, while retaining visual prediction quality within 0.5 dB of vision-only counterparts. The compressor retains 89.4% of pre-fusion contact recall while enabling 2.26x faster training and 1.29x faster inference. Together, these r",
+      "author": "Haoran Yuan, Zekai Wang, Boning Shao"
+    },
+    {
+      "id": "arxiv_d5d82e232164",
+      "source": "ArXiv cs.AI",
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "url": "https://arxiv.org/abs/2609.24974v1",
+      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time guidance and transferring the behaviors it induces into model weights, so that its gains survive under a single fixed target harness. The challenge is that the two harnesses differ in action space and available information, so guidance from the optimized harness cannot serve directly as supervision for the target one. We introduce Harness-Zero, which enables harness distillation through agent-as-harness. Guided by the optimized harness, a harnessing agent corrects student responses before execution in the target harness's action space, turning harness guidance into training demonstrations. Fine-tuning on the resulting trajectories internalizes harness-induced behavior into the model, so the specialized harness can be removed at deployment. Our experiments spanning knowledge work, tool use, and science domains show that: (1) For frontier LLMs using the same evolved harness, agent-as-harness outperforms code-as-harness. (2) With the specialized harness removed at deployment, Harness-Zero im",
+      "author": "Haoran Ye, Yuxing Lu, Haonan Dong"
+    },
+    {
+      "id": "arxiv_855d93d72818",
+      "source": "ArXiv cs.AI",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2609.24972v1",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while pr",
+      "author": "Peng Xia, Rujun Han, Zifeng Wang"
+    },
+    {
+      "id": "arxiv_19dfebb22960",
+      "source": "ArXiv cs.LG",
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "url": "https://arxiv.org/abs/2609.24985v1",
+      "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested sampling to separate action-dependent reward variation from continuation noise and optimizes the policy at the selected states using contextual-bandit training. Experiments on the Berkeley Function Calling Leaderboard (BFCL) v4 compare training at diagnostic-selected states with training at alternative states. For missing-function tasks, the diagnostic selects the response after the tool becomes available; for missing-argument tasks, it selects the response before the missing argument is supplied. Training the selected responses improves performance, including about 14 percentage points on the missing-function task, while training the alternatives leaves performance flat or worse. We further apply the recipe across models and tasks, including logged repeat-call avoidance and memory management.",
+      "author": "Zixiang Chen, Wenting Zhao, Zhepeng Cen"
+    },
+    {
+      "id": "arxiv_e3f8991b91f4",
+      "source": "ArXiv cs.LG",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://arxiv.org/abs/2609.24983v1",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate-correct-continue loop until a satisfactory response is obtained. This mechanism lets annotators precisely steer model outputs at low cost: a small controlled study suggests that onPanda reduces median annotation time by 52% over manual post-editing. Since the vast majority of tokens in the final response are generated by the model itself, the resulting data largely preserves the model's sampling distribution and is well suited for constructing on-policy SFT and preference data. Furthermore, the token-level corrections recorded during annotation provide fine-grained supervision with precise positions and naturally paired positive--negative samples. onPanda also connects to external tools and harnesses, enabling interactive trajectory annotation in realistic environments. In addition, we release Panda-CVL, a dataset annotated with onPanda, together with a benchmark for token-level correction.",
+      "author": "Lei Yang, Mengyin Liu, Jia Wang"
+    },
+    {
+      "id": "arxiv_7de517fde57f",
+      "source": "ArXiv cs.LG",
+      "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+      "url": "https://arxiv.org/abs/2609.24979v1",
+      "summary": "On-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel method for personalizing on-device LLMs. It trains a hypernetwork to map a user's context tokens to a low-rank adaptation (`LoRA') well-suited to that user. Once the trained common artifacts are deployed to users' devices, each user uses the hypernetwork to synthesize (entirely on device) a personalized LoRA. This approach blends the benefits while avoiding the drawbacks of two existing approaches to LLM customization: in-context learning (`ICL') and parameter-efficient fine-tuning (`PEFT'). Like ICL (and unlike PEFT), the on-device phase of our approach is computationally feasible, requiring only forward passes through neural networks. Like PEFT (and unlike ICL), our approach modifies the `target' base LLM via weights (the LoRA), avoiding negative consequences (e.g. increased latency) associated with extending the input sequence. Our approach is particularly well-suited to the mobile device regime. Apart from the on-device compute and latency benefits mentioned, it also requires minimal",
+      "author": "Sean Augenstein, Li Ding, Jihwan Lee"
+    },
+    {
+      "id": "arxiv_855d93d72818",
+      "source": "ArXiv cs.LG",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2609.24972v1",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while pr",
+      "author": "Peng Xia, Rujun Han, Zifeng Wang"
+    },
+    {
+      "id": "arxiv_aafc671860c8",
+      "source": "ArXiv cs.LG",
+      "title": "Rare Event Estimation via Iterative Unalignment",
+      "url": "https://arxiv.org/abs/2609.24969v1",
+      "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Monte Carlo is computationally prohibitive in this regime, and constructing effective importance sampling (IS) proposals requires coordinated changes to a context-dependent chain of conditional distributions. We develop a new IS method that perturbs the original model's weights to construct the proposal. The proposal is itself a differentiably parameterized language model, enabling gradient-based search over weight space. We formulate an objective that combines a differentiable surrogate for event amplification and an adaptive regularization scheme that dynamically balances amplification against estimator stability. We evaluate our approach on $\\sim$120M and $\\sim$2.6B models across three event families spanning 300+ rare events as rare as $10^{-9}$, with reference probabilities computed with $<10\\%$ relative standard error. In our most verifiable settings, we observe that our IS estimator achieves over $800\\times$ compute-weighted efficiency gains over naive Monte Carlo for events with pr",
+      "author": "Hanming Yang, Daksh Mittal, Jing Dong"
+    },
+    {
+      "id": "arxiv_19dfebb22960",
+      "source": "ArXiv cs.CL",
+      "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+      "url": "https://arxiv.org/abs/2609.24985v1",
+      "summary": "Multi-turn tool-use failures can hinge on a single model call, yet reward variation alone does not reveal which call would benefit from training. When rewards depend on later interactions, their variation can reflect downstream randomness rather than differences between the current actions. We introduce Critical-State RL to identify trainable states in multi-turn interactions. Given task-defined candidate calls and local rewards, the method assesses whether each reward captures the action's effect on task success and whether improvement over a reference policy is possible. It then uses nested sampling to separate action-dependent reward variation from continuation noise and optimizes the policy at the selected states using contextual-bandit training. Experiments on the Berkeley Function Calling Leaderboard (BFCL) v4 compare training at diagnostic-selected states with training at alternative states. For missing-function tasks, the diagnostic selects the response after the tool becomes available; for missing-argument tasks, it selects the response before the missing argument is supplied. Training the selected responses improves performance, including about 14 percentage points on the missing-function task, while training the alternatives leaves performance flat or worse. We further apply the recipe across models and tasks, including logged repeat-call avoidance and memory management.",
+      "author": "Zixiang Chen, Wenting Zhao, Zhepeng Cen"
+    },
+    {
+      "id": "arxiv_e3f8991b91f4",
+      "source": "ArXiv cs.CL",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://arxiv.org/abs/2609.24983v1",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates everything after that position and continues generation from the corrected prefix, repeating this locate-correct-continue loop until a satisfactory response is obtained. This mechanism lets annotators precisely steer model outputs at low cost: a small controlled study suggests that onPanda reduces median annotation time by 52% over manual post-editing. Since the vast majority of tokens in the final response are generated by the model itself, the resulting data largely preserves the model's sampling distribution and is well suited for constructing on-policy SFT and preference data. Furthermore, the token-level corrections recorded during annotation provide fine-grained supervision with precise positions and naturally paired positive--negative samples. onPanda also connects to external tools and harnesses, enabling interactive trajectory annotation in realistic environments. In addition, we release Panda-CVL, a dataset annotated with onPanda, together with a benchmark for token-level correction.",
+      "author": "Lei Yang, Mengyin Liu, Jia Wang"
+    },
+    {
+      "id": "arxiv_d5d82e232164",
+      "source": "ArXiv cs.CL",
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "url": "https://arxiv.org/abs/2609.24974v1",
+      "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time guidance and transferring the behaviors it induces into model weights, so that its gains survive under a single fixed target harness. The challenge is that the two harnesses differ in action space and available information, so guidance from the optimized harness cannot serve directly as supervision for the target one. We introduce Harness-Zero, which enables harness distillation through agent-as-harness. Guided by the optimized harness, a harnessing agent corrects student responses before execution in the target harness's action space, turning harness guidance into training demonstrations. Fine-tuning on the resulting trajectories internalizes harness-induced behavior into the model, so the specialized harness can be removed at deployment. Our experiments spanning knowledge work, tool use, and science domains show that: (1) For frontier LLMs using the same evolved harness, agent-as-harness outperforms code-as-harness. (2) With the specialized harness removed at deployment, Harness-Zero im",
+      "author": "Haoran Ye, Yuxing Lu, Haonan Dong"
+    },
+    {
+      "id": "arxiv_855d93d72818",
+      "source": "ArXiv cs.CL",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2609.24972v1",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while pr",
+      "author": "Peng Xia, Rujun Han, Zifeng Wang"
+    },
+    {
+      "id": "arxiv_8209615dc140",
+      "source": "ArXiv cs.CL",
+      "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+      "url": "https://arxiv.org/abs/2609.24971v1",
+      "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that evaluates memory directly through an agent's task completion. DolphinBench includes three knowledge-work personas with roughly 500k tokens of user messages per persona and evaluates agents on tasks that depend on information from that history. We verify all 200 tasks per persona by running an agent with and without the relevant history, requiring success with it and failure without it. Finally, we require all evaluations to report total cost and latency alongside accuracy, which enables us to evaluate agent memory systems holistically. No existing memory benchmark combines all three. The dataset and evaluation code are available at https://dolphinbench.ai.",
+      "author": "Soumil Rathi, Deshraj Yadav, Taranjeet Singh"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in information geometry and propose an information-efficiency ratio (IER) based on a signal-to-noise decomposition. IER characterizes relative gradient estimation error under an optimal scalar baseline. A candidate-set approximation enables token selection based on IER and its combination with existing usefulness scores, while retaining the sampled reverse-KL training objective. On mathematical and medical reasoning tasks, adding IER improves existing selectors in multiple settings, with sparse configurations matching or exceeding full OPD without token selection at small token budgets of 0.1\\%--1\\%. These results support accounting for both usefulness and gradient-estimation reliability when allocating sparse supervision. Our code is available at https://github.com/BruceSheng1202/IER-OPD."
+    },
+    {
+      "id": "rss_9fab90a17e2b",
+      "source": "OpenAI",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "image": ""
+    },
+    {
+      "id": "rss_384ea818decd",
+      "source": "OpenAI",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "image": ""
+    },
+    {
+      "id": "rss_79042b6d5376",
+      "source": "OpenAI",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "image": ""
+    },
+    {
+      "id": "rss_ff2ddc3a4215",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_29696fb0e56a",
+      "source": "量子位",
+      "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
+      "url": "https://www.qbitai.com/2026/09/493629.html",
+      "summary": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。",
+      "image": ""
+    },
+    {
+      "id": "rss_a510a90115f7",
+      "source": "量子位",
+      "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
+      "url": "https://www.qbitai.com/2026/09/493625.html",
+      "summary": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。",
+      "image": ""
+    },
+    {
+      "id": "rss_c76d7c5922b5",
+      "source": "量子位",
+      "title": "2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远",
+      "url": "https://www.qbitai.com/2026/09/493510.html",
+      "summary": "“潮起之时，靠岸相见”",
+      "image": ""
+    },
+    {
+      "id": "rss_41ca5692fc93",
+      "source": "NVIDIA",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_c1366f5b7532",
+      "source": "NVIDIA",
+      "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_17e9a2f1c773",
+      "source": "NVIDIA",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_17445bf5e460",
+      "source": "MIT科技评论AI",
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technology Review&#160;and&#160;Times of San Diego. Journalists in both newsrooms spent the past&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Map-thumbnail-16_9-2.png"
+    },
+    {
+      "id": "rss_1618ae756ebe",
+      "source": "MIT科技评论AI",
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/AP21194653997791.jpg?w=840"
+    },
+    {
+      "id": "rss_ce53b4c0b50a",
+      "source": "MIT科技评论AI",
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses.&#160; As he walked through the desert in southern New Mexico that morning, he was within range of three surveillance towers. Newly installed&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/site-bernal-death.jpg"
+    },
+    {
+      "id": "rss_0c105504469c",
+      "source": "TechCrunch AI",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "image": ""
+    },
+    {
+      "id": "rss_dcaf387623bf",
+      "source": "TechCrunch AI",
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "image": ""
+    },
+    {
+      "id": "rss_6bc19a65e176",
+      "source": "TechCrunch AI",
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+      "summary": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
+      "image": ""
+    },
+    {
+      "id": "rss_52616a9ef628",
+      "source": "HF Blog",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_f7305d34a6ef",
+      "source": "HF Blog",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_ec086b74918a",
+      "source": "HF Blog",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1373655162",
+      "source": "GitHub Trending",
+      "title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "summary": "<img src=\"docs/banner.svg\" alt=\"Jev Ultrafast · Browser Use × TypeSafe\" width=\"100%\" />\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n<a href=\"docs/demo.mp4\"><img src=\"docs/demo.gif\" alt=\"A real Google Flights se",
+      "group": "community"
+    },
+    {
+      "id": "gh_1375382253",
+      "source": "GitHub Trending",
+      "title": "NandhaKishorM/laya - 无描述",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/logo-lockup-dark.png\" />\n    <img src=\"https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/logo-lockup.png\" alt=\"Laya\" width=\"330\" />\n  </picture>\n</p>\n\n**Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.\n\n<div align=\"center\">\n\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15d4Yv__KHeHjshVb-6PRTfqVllxih2S3?usp=sharing)\n[![PyPI version](ht",
+      "group": "community"
+    },
+    {
+      "id": "gh_1359648985",
+      "source": "GitHub Trending",
+      "title": "eternity4719/HowToLiveBetter - 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "summary": "<div align=\"center\">\n\n<img src=\"og.png\" alt=\"高性价比人生指南 —— 用最少的钱、时间和精力，换回最多的寿命、金钱和人身自由\" width=\"820\">\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。<br>\n601 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-601%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20407%20%C2%B7%20B%20144%20%C2%B7%20C%2050-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8",
+      "group": "community"
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1350984217",
+      "source": "GitHub Trending",
+      "title": "rakanki911/DLSS5-Swapper - Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/banner.png\" alt=\"DLSS 5 Swapper\" width=\"100%\">\n</p>\n\n<h1 align=\"center\">DLSS 5 Swapper</h1>\n\n<p align=\"center\">\n  Install and manage DLSS 5 Neural Rendering for compatible games and emulators.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases/latest\"><img src=\"https://img.shields.io/github/v/release/rakanki911/DLSS5-Swapper?color=8fd400&label=release\" alt=\"Latest release\"></a>\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases\"><img src=\"https://img.shields.io/github/downloads/rakanki911/DLSS5-Swapper/total?color=8fd400&label=downloads&cacheSeconds=300\" alt=\"Total downloads\"></a>\n  <img src=\"https://img.shields.io/badge/Windows-10%20%2F%2011-8fd400\" alt=\"Windows 10/11\">\n  <img src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_1374005005",
+      "source": "GitHub Trending",
+      "title": "tamaratran/fast-jev-compaction - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "summary": "# fast-jev-compaction\n\nClaude Code plugin that replaces the compaction summary with Jev decisions:\nevery tool call and result is scored in one fast request, stale ones are\ndropped or truncated, everything kept stays verbatim. Also usable as an npm\nlibrary.\n\n## What and why\n\nMost context compaction asks an LLM to summarize old turns. A summary is\nlossy: a file path, exact error, constraint, or command can disappear even when\nit matters later. This library never rewrites anything. It only deletes tool\ncalls and tool results Jev says are no longer needed, and it asks Jev while\nshowing it the whole conversation. User and assistant text stays verbatim and\nin order.\n\nThe repository is both an npm package (`src/`) and a Claude Code plugin\n(`hooks/`, `.claude-plugin/`) that uses the package to rep",
+      "group": "community"
+    },
+    {
+      "id": "gh_1378288598",
+      "source": "GitHub Trending",
+      "title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "summary": "# ZCode\n\n<div align=\"center\">\n  <img src=\"public/logo/icons/1024x1024.png\" alt=\"ZCode\" width=\"128\" height=\"128\" />\n</div>\n<p align=\"center\">\n  <a href=\"https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=47ag983c-8fcb-4d6d-814b-5395193a712c&amp;qr_code=true\">飞书社群</a> ·\n  <a href=\"https://discord.gg/z9aBcQXZQ3\">Discord</a>\n</p>\n<p align=\"center\">\n  简体中文 | <a href=\"README.en.md\">English</a>\n</p>\n\nZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。\n\n| 入口                 | 用途                                                           | 开发命令                       |\n| -------------------- | -------------------------------------------------------------- | ------------------------------ |\n| Desktop              | Electron 桌面应用                            ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1349601607",
+      "source": "GitHub Trending",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1356159928",
+      "source": "GitHub Trending",
+      "title": "Albert-Weasker/niubigeo - Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/brand/niubigeo-lockup.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/brand/niubigeo-lockup-light.svg\">\n    <img src=\"assets/brand/niubigeo-lockup-light.svg\" width=\"336\" alt=\"NiubiGEO\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Albert-Weasker/niubigeo/releases/tag/v0.2.0\"><img src=\"assets/readme/version.svg\" alt=\"NiubiGEO v0.2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"LICENSE\"><img src=\"assets/readme/license.svg\" alt=\"Apache-2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"docs/deployment/docker.md\"><img src=\"assets/readme/self-hosted.svg\" alt=\"Self-hosted\" width=\"132\" height=\"28\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/reposito",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1378288598",
+      "source": "GitHub AI项目",
+      "title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "summary": "# ZCode\n\n<div align=\"center\">\n  <img src=\"public/logo/icons/1024x1024.png\" alt=\"ZCode\" width=\"128\" height=\"128\" />\n</div>\n<p align=\"center\">\n  <a href=\"https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=47ag983c-8fcb-4d6d-814b-5395193a712c&amp;qr_code=true\">飞书社群</a> ·\n  <a href=\"https://discord.gg/z9aBcQXZQ3\">Discord</a>\n</p>\n<p align=\"center\">\n  简体中文 | <a href=\"README.en.md\">English</a>\n</p>\n\nZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。\n\n| 入口                 | 用途                                                           | 开发命令                       |\n| -------------------- | -------------------------------------------------------------- | ------------------------------ |\n| Desktop              | Electron 桌面应用                            ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1356159928",
+      "source": "GitHub AI项目",
+      "title": "Albert-Weasker/niubigeo - Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/brand/niubigeo-lockup.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/brand/niubigeo-lockup-light.svg\">\n    <img src=\"assets/brand/niubigeo-lockup-light.svg\" width=\"336\" alt=\"NiubiGEO\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Albert-Weasker/niubigeo/releases/tag/v0.2.0\"><img src=\"assets/readme/version.svg\" alt=\"NiubiGEO v0.2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"LICENSE\"><img src=\"assets/readme/license.svg\" alt=\"Apache-2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"docs/deployment/docker.md\"><img src=\"assets/readme/self-hosted.svg\" alt=\"Self-hosted\" width=\"132\" height=\"28\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/reposito",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1354701193",
+      "source": "GitHub AI项目",
+      "title": "shadcn-ui/lint - An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
+      "url": "https://github.com/shadcn-ui/lint",
+      "summary": "# @shadcn/lint\n\n**Write design system rules that agents can verify.**\n\n<img src=\"./docs/assets/cover.png\" width=\"2000\" height=\"832\" alt=\"A lint diagnostic explains why padding is not allowed on Button and suggests using an existing size.\" />\n\n`@shadcn/lint` is an [agent-first linter](#built-for-agents) for Tailwind design systems.\n\nYou define what’s allowed. When an agent breaks a rule, the error explains what’s wrong and suggests a fix based on your components, variants, and theme.\n\n**Works with your existing design system. No rewrite required.**\n\n`@shadcn/lint` works with Tailwind v4 projects (**shadcn/ui not required**). Available for both **ESLint and Oxlint**.\n\n## Table of contents\n\n- [Quickstart](#quickstart)\n- [TypeScript vs @shadcn/lint](#typescript-vs-shadcnlint)\n- [Built for agen",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1351879111",
+      "source": "GitHub AI项目",
+      "title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "summary": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/reef-logo-dark.svg\">\n  <img src=\"docs/assets/reef-logo-light.svg\" alt=\"Reef\" width=\"220\">\n</picture>\n\n<h3>Continual learning infra for self-improving agents</h3>\n\n[![CI](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml/badge.svg)](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml)\n[![PyPI package: reef-infra](https://img.shields.io/pypi/v/reef-infra?label=PyPI%3A%20reef-infra&logo=pypi&logoColor=white)](https://pypi.org/project/reef-infra/)\n[![Python](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)\n[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)\n\n<a href=\"https://trendshift.io",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/BrowserKitten - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/BrowserKitten",
+      "summary": "<div align=\"center\">\n\n# 爪爪 · PawWork\n\n[![license](https://img.shields.io/github/license/Player-YN/PawWork_ZhuaZhua)](LICENSE)\n[![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white)](manifest.json)\n[![unpacked](https://img.shields.io/badge/load-unpacked-111111)](#load-it)\n\nTreat the already-logged-in Chrome as a programmable computer. 爪爪 is the agent on that machine.\n\n</div>\n\n**爪爪 · 完全解放版** (`PawWork_ZhuaZhua`) is a Chrome MV3 **unpacked** extension. It runs a side-panel agent that can drive the current tab (`action`), execute guest JS against the browser (`sys` inside `run`), and keep sheet / Univer doc / site HTML artifacts in the session.\n\nNot on the Chrome Web Store. No hosted model — bring your own key.\n\n## Load it\n\n1. Clone this repo, **or** d",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1379574728",
+      "source": "GitHub AI项目",
+      "title": "jev-chat/jev-chat-jarvis - 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "summary": "# Jev 聊天助手 (Jev Chat Assistant)\n\n**装在手机上的「对话副驾」：你在任何聊天 App 里聊天，它在旁边读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。**\n\n已在 **微信、QQ、X（Twitter 私信）** 三个平台真机跑通，飞书采集已接入。一套内核，一个 App 一个几十行的适配器。\n\n**联系 / 反馈 / 合作：请公众号私信**（二维码见文末）。 官网：[chatjevs.com](https://chatjevs.com)\n\n<p align=\"center\">\n  <img src=\"docs/images/overlay.png\" width=\"300\" alt=\"悬浮窗：聊天上方的 Jev 分析面板\" />\n  &nbsp;&nbsp;&nbsp;\n  <img src=\"docs/images/settings.png\" width=\"300\" alt=\"设置页\" />\n</p>\n<p align=\"center\"><sub>左：悬浮窗——危险等级、对方真实意图、Jev 排好序的 3 条候选回复，复制或填入。右：设置页。</sub></p>\n\n## 亮点\n\n- **一套内核，多平台。** 微信 8.0.78、QQ 9.3.50、X 12.25 真机验证，读消息 → 判断 → 候选 → 填入整条链全通。新增一个 App 只需实现一个 `ChatAppAdapter`，其余全部复用。\n- **非侵入。** 不 hook、不改包、不走任何 App 的接口或账号、不读数据库，只用系统无障碍服务读「屏幕上正在显示的对话」。微信这种混淆节点的也能读到。\n- **看得懂，不止会写。** 用 [TypeSafe Jev](https://typesafe.ai/) 判断模型一次给出：对方真实意图、危险等级（1–9）、对方要什么、该不",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1373655162",
+      "source": "GitHub AI项目",
+      "title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "summary": "<img src=\"docs/banner.svg\" alt=\"Jev Ultrafast · Browser Use × TypeSafe\" width=\"100%\" />\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n<a href=\"docs/demo.mp4\"><img src=\"docs/demo.gif\" alt=\"A real Google Flights se",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1353548665",
+      "source": "GitHub AI项目",
+      "title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "summary": "# Claude Commerce Agents\n\nTwo commerce agents built on Claude: a **shopping agent** a business embeds in its app for\ncustomers, and a **merchant agent** its staff use to run the back office. Each is defined\nonce (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent\nSDK, and Managed Agents; four runnable verticals show both over the same libraries.\n\n> [!NOTE]\n> Every company, brand, product, and person here is fictional; the only company is ACME.\n> Nothing places an order, charges a card, or changes a live listing: `checkout` renders\n> the cart for the host to complete, and every merchant write is staged until a person\n> approves it. Business rules, authorization, and compliance are the deployment's.\n\n## Quick start: run the demos\n\nPython 3.11+ and Node 22. ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349601607",
+      "source": "GitHub AI项目",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "devto_4702045",
+      "source": "Dev.to",
+      "title": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+      "summary": "I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...",
+      "author": "Sylwia Laskowska"
+    },
+    {
+      "id": "devto_4707980",
+      "source": "Dev.to",
+      "title": "Where Trust in Automated Review Actually Comes From",
+      "url": "https://dev.to/pixel-wraith/where-trust-in-automated-review-actually-comes-from-5fgb",
+      "summary": "There's a tempting fix for the moment your team stops trusting its AI code review...add a second AI...",
+      "author": "Jake Lundberg"
+    },
+    {
+      "id": "devto_4706624",
+      "source": "Dev.to",
+      "title": "Building Bivack: A Cloud Dev Sandbox for Coding Agents on AWS Lambda MicroVMs",
+      "url": "https://dev.to/gunnargrosch/building-bivack-a-cloud-dev-sandbox-for-coding-agents-on-aws-lambda-microvms-24o6",
+      "summary": "I wanted to run coding agents somewhere other than my laptop. Bivack gives each user a per-user AWS Lambda MicroVM with a persistent home on Amazon S3 Files, reachable from a browser terminal or a VS Code workbench. Here is how it works and what I learned building it.",
+      "author": "Gunnar Grosch"
+    },
+    {
+      "id": "devto_4712078",
+      "source": "Dev.to",
+      "title": "How to Keep AI-Generated Code Maintainable After 6 Months",
+      "url": "https://dev.to/robertadam987_/how-to-keep-ai-generated-code-maintainable-after-6-months-3ha4",
+      "summary": "AI can help you write code incredibly fast. That part is no longer surprising. The harder question...",
+      "author": "Robert Adamson"
+    },
+    {
+      "id": "devto_4712050",
+      "source": "Dev.to",
+      "title": "Managing the Hidden Overhead of AI Software Engineering",
+      "url": "https://dev.to/sizzlebop/managing-the-hidden-overhead-of-ai-software-engineering-179a",
+      "summary": "There is a scene that is becoming more and more common in software development right now. You have...",
+      "author": "Jessica Doering"
+    },
+    {
+      "id": "devto_4710366",
+      "source": "Dev.to",
+      "title": "Real Talk: You Don't Miss Engineering. You Miss Typing",
+      "url": "https://dev.to/georgekobaidze/real-talk-you-dont-miss-engineering-you-miss-typing-1bc3",
+      "summary": "A Sci-Fi Scenario Come True As a kid, when I watched sci-fi movies about computers with...",
+      "author": "Giorgi Kobaidze"
+    },
+    {
+      "id": "devto_4711523",
+      "source": "Dev.to",
+      "title": "Your agent's cost problem isn't the model. It's the steps you never measured.",
+      "url": "https://dev.to/tokenlat/your-agents-cost-problem-isnt-the-model-its-the-steps-you-never-measured-38ag",
+      "summary": "A few weeks back I watched an agentic pipeline burn a month of budget in three days. The instinct...",
+      "author": "TokenLat"
+    },
+    {
+      "id": "devto_4711238",
+      "source": "Dev.to",
+      "title": "Why 'monitoring' isn't enough for AI agents — and how I made delegation cryptographically verifiable",
+      "url": "https://dev.to/kironovlazizdel/why-monitoring-isnt-enough-for-ai-agents-and-how-i-made-delegation-cryptographically-verifiable-5bad",
+      "summary": "The problem nobody talks about with AI agents We're rushing to give AI agents autonomy. An...",
+      "author": "kironovlaziz-del"
+    },
+    {
+      "id": "oschina_9af0fdfaeab6",
+      "source": "开源中国",
+      "title": "SpaceXAI 发布 Grok 4.7：跟 Claude Fable 同榜，价格砍到三分之一",
+      "url": "https://www.oschina.net/news/502663/x-ai-grok-4-7",
+      "summary": "SpaceXAI（改名的 xAI）发布了 Grok 4.7，官方口径是&quot;最擅长编码和知识工作的模型&quot;——比同级模型快两倍、便宜一半。这句话与其说是技术宣言，不如说是价格战的开场白：它和 Grok 4.6 同价同步，直接对标的就是 Claude 那几家。 论据藏在榜单里。CursorBench 4.0 是专门压长时编码任务的基准，Grok 4.7 官方给的宣传数据..."
+    },
+    {
+      "id": "oschina_6667b81f722b",
+      "source": "开源中国",
+      "title": "Xiaomi MiMo-V2.6 系列正式发布，大规模扩展 RL 并全面开源",
+      "url": "https://www.oschina.net/news/502662/xiaomi-mimo-v2-6",
+      "summary": "小米开源了 MiMo-V2.6 系列，Pro 和 Flash 两个原生全模态模型一起放出。 这名字在国内开源圈已经不算陌生，但这次发布的重点不在模型本身，而在它背后那 6 天的 Live RL 训练——官方把整个训练过程、成本、技术报告连同 RL 代码和训练环境一起开源了。 一段话说清楚这次发到了什么位置：MiMo-V2.6-Pro 在 Artificial A..."
+    },
+    {
+      "id": "oschina_e3b5a0948646",
+      "source": "开源中国",
+      "title": "有人拿 Jev 给聊天软件配了个“AI 副驾”——读懂对方意图，但不替你发",
+      "url": "https://www.oschina.net/news/502660",
+      "summary": "TypeSafe 最近开源了他们叫 &quot;System One Model&quot; 的东西——Jev，一个放弃字符串生成、直接输出类型安全概率化决策的模型，专为软件里的分类/路由/打分这类活儿而生。 当然，把 Jev 理解成&quot;一次函数调用级别的智能&quot;最直观：输入非结构化状态，输出类型安全的概率化决策，像句代码一样直接塞进软件里用。和主流 LLM 最大的..."
+    },
+    {
+      "id": "oschina_4cad9a95ee7c",
+      "source": "开源中国",
+      "title": "DjangoAdmin 敏捷开发框架 Flask+EleVue 版本 v2.8.2 发布",
+      "url": "https://www.oschina.net/news/502655",
+      "summary": "v2.8.2 更新内容： 1、大版本全新重构； 基于 Flask、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。内置精细化到按钮及方法级别的 RBAC 权限管控体系，集成用户管理、角色管理、权限菜单、部门管理、职级岗位、系统日志、数据字典、系统参数、行政区划、任务调度等..."
+    },
+    {
+      "id": "oschina_fa2c73cf2cee",
+      "source": "开源中国",
+      "title": "灵界 OS 5.0 稳定版 · 开箱教程上线",
+      "url": "https://www.oschina.net/news/502654",
+      "summary": "这次更新，加了一个开箱教程。 之前新用户进来，桌面一堆按钮，不知道从哪开始。所以这次做了个完整的首次体验流程： 更新内容： · 欢迎动画：进入系统时先看到「你好」「欢迎使用 灵界OS」 · 初次设置： · 语言选择（中文 / English） · 年龄确认（未满 18 周岁会停住，保护未成年人） · 免责约定（看完点「我同意..."
+    },
+    {
+      "id": "hn_comment_49796945",
+      "source": "HN讨论",
+      "title": "est 在「Transformers Explained Visually」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792342",
+      "summary": "It seem that everyone is getting into details of how transformers work, but I am more interested in why other setups didn&#x27;t work. Or is it?",
+      "author": "est"
+    },
+    {
+      "id": "hn_comment_49793694",
+      "source": "HN讨论",
+      "title": "andblac 在「Transformers Explained Visually」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792342",
+      "summary": "Nicely done. For me the most fascinating thing about attention heads is the place where Attention matrix is already computed and is getting multiplied by Value vector. It behaves exactly like pushing Value vector through Dense layer of ordinary network where Attention matrix forms weights of that layer. So attention head is trained to construct this small single layer network dynamically during inference from Key and Query. And that&#x27;s the point. That&#x27;s rarely underlined in explanations of LLMs architecture and for me it&#x27;s quite amazing that it works so well. This mechanism easy to observe in this particular visualization if you click through it.",
+      "author": "andblac"
+    },
+    {
+      "id": "hn_comment_49794044",
+      "source": "HN讨论",
+      "title": "robrenaud 在「Transformers Explained Visually」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792342",
+      "summary": "Regarding the temperature explanation: &gt; &quot;Instead of picking the highest-probability token, we can use different selection strategies to balance safety and creativity in the generated text&quot;. Safety is definitely the wrong word here. Temperature 0 generated text actually has a weird &quot;lack of surprise&quot; character that makes it seem artificial. [1] &gt; &quot;high-probability texts can be dull or repetitive. Humans use language as a means of communicating information, aiming to do so in a simultaneously efficient and error-minimizing manner; in fact, psycholinguistics research suggests humans choose each word in a string with this subconscious goal in mind.&quot; I&#x27;d completely drop the dropout explanation.  It&#x27;s just not part of the modern recipe anymore, AFAICT. As for the ambitious goal of explaining transformers with a single interactive visualization, I just have a hard time imagining a person is going to newly understand both word embeddings (word2vec blew my mind in 2014) and also gain an understanding of attention. I am making my own visualizations for a presentation on &quot;Full Bandwidth Transformers&quot;[2] that I am giving tomorrow at the Deep Learning Study Group (SF) (on zoom for the non-locals)[3].  It&#x27;s not meant to be stand alone&#x2F;context free, but I&#x27;d love some feedback.  https:&#x2F;&#x2F;rrenaud.github.io&#x2F;fullbandwidth_transformer_viz&#x2F;  [1]  https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2202.00666  \n[2]  h",
+      "author": "robrenaud"
+    },
+    {
+      "id": "hn_comment_49793453",
+      "source": "HN讨论",
+      "title": "utopcell 在「Transformers Explained Visually」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792342",
+      "summary": "Great site, intuitive description. I also found [1] very useful in the past. [1]  https:&#x2F;&#x2F;bbycroft.net&#x2F;llm",
+      "author": "utopcell"
+    },
+    {
+      "id": "hn_comment_49795938",
+      "source": "HN讨论",
+      "title": "noncovalence 在「Transformers Explained Visually」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792342",
+      "summary": "Hm, I wonder why my laptop is suddenly pulling about 5 fps while I&#x27;m just browsing HN? The nefarious &quot;2.2 GB RAM usage within 10 seconds&quot; tab open in the background:",
+      "author": "noncovalence"
+    },
+    {
+      "id": "hn_comment_49793761",
+      "source": "HN讨论",
+      "title": "torben-friis 在「AI coding has made CI a bottleneck, so w」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "Here&#x27;s my constant question: Everyone&#x27;s going so fast that they keep hitting walls. Review, CI, product asking for things, whatever. Why have we not seen an improvements in products? While every post and thread feels like a 90&#x27;s wall street office, the new android and iphone ship with fewer features than usual. No indie guys come up with a linux-sized alternative OS. Switch 2 remains unhacked. Windows takes 3 seconds to show the right click menu. Is everyone just running full speed in circles or something?",
+      "author": "torben-friis"
+    },
+    {
+      "id": "hn_comment_49792937",
+      "source": "HN讨论",
+      "title": "aliclark 在「AI coding has made CI a bottleneck, so w」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "In my case it&#x27;s not the CI that&#x27;s the bottleneck. It&#x27;s the human testing side. Does it work, sure. But does it actually do the thing we want (and more importantly) does it do it in a way our customers will understand and actually like?",
+      "author": "aliclark"
+    },
+    {
+      "id": "hn_comment_49795270",
+      "source": "HN讨论",
+      "title": "dgroshev 在「AI coding has made CI a bottleneck, so w」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "I suspect a substantial part of this is an avalanche of useless testing. If you even review PRs still: when was the last time you didn&#x27;t just skip over tests? And if you ever looked at tests in an LLM-heavy PR, how many of those tests tested something useful, and not just built-ins and trivial behaviours? There&#x27;s at least some awareness in the industry of how LLMs generate a lot of boilerplate in business logic. It feels like we&#x27;re much less aware of how much of it is in tests.",
+      "author": "dgroshev"
+    },
+    {
+      "id": "hn_comment_49792988",
+      "source": "HN讨论",
+      "title": "classictraffic 在「AI coding has made CI a bottleneck, so w」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "&gt; Moving our workloads off GitHub Actions to third-party runners with faster CPUs, higher-performance storage, and better cache infrastructure gave us faster machines to run the same pipeline on Yeah, was not surprised to read this. Actions is convenient if you already use GitHub, but it can also be pretty slow. Given reliability is also a major issue with GitHub these days I expect to see more orgs moving to different pipelines",
+      "author": "classictraffic"
+    },
+    {
+      "id": "hn_comment_49792936",
+      "source": "HN讨论",
+      "title": "algesten 在「AI coding has made CI a bottleneck, so w」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "Good thing Linear has been finished for a long time doesn&#x27;t need more features, so AI coding can go slow. Oh damn, it&#x27;s busy becoming the next Jira :(",
+      "author": "algesten"
+    },
+    {
+      "id": "hn_49792342",
+      "source": "Hacker News",
+      "title": "Transformers Explained Visually",
+      "url": "https://poloclub.github.io/transformer-explainer/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49792067",
+      "source": "Hacker News",
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "summary": ""
+    },
+    {
+      "id": "hn_49795579",
+      "source": "Hacker News",
+      "title": "Claude Status – Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "summary": ""
+    },
+    {
+      "id": "hn_49778467",
+      "source": "Hacker News",
+      "title": "Epoll and Kqueue: How Operating Systems Learned to Wait Efficiently",
+      "url": "https://thecodinggopher.substack.com/p/epoll-and-kqueue-how-operating-systems",
+      "summary": ""
+    },
+    {
+      "id": "hn_49791997",
+      "source": "Hacker News",
+      "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49791647",
+      "source": "Hacker News",
+      "title": "Frontier AI on Your Own Hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49771389",
+      "source": "Hacker News",
+      "title": "Paper Models of Polyhedra",
+      "url": "https://www.polyhedra.net/en/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49787142",
+      "source": "Hacker News",
+      "title": "Python Workers are now generally available",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-09-22 14:00"
+}
