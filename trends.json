@@ -1,33 +1,5 @@
 [
   {
-    "theme": "文本生成范式可能从离散token转向连续潜空间",
-    "importance": 4,
-    "evidence": "AURORA-LM和GradCuit两篇论文同日发布",
-    "grassroots": "暂无基层反馈，学术界讨论中",
-    "date": "2026-08-04"
-  },
-  {
-    "theme": "推理时扩展成为LLM能力提升的核心路径",
-    "importance": 5,
-    "evidence": "ArXiv同日两篇论文系统研究TTS，涵盖评测框架与训练方法",
-    "grassroots": "开发者关注推理时扩展的算力成本，期待更高效的实现",
-    "date": "2026-08-05"
-  },
-  {
-    "theme": "端侧大模型推理进入实用化前夜",
-    "importance": 4,
-    "evidence": "Kimi-K3单CPU运行与Gemma 4在MacBook上2GB内存推理同日出现",
-    "grassroots": "开发者反馈本地部署延迟更低、数据可控，但速度仍是瓶颈",
-    "date": "2026-08-05"
-  },
-  {
-    "theme": "AI编程Agent从'能用'转向'用好'",
-    "importance": 4,
-    "evidence": "开发者开始审计Agent的待办清单、自建终端助手、优化多Agent协作",
-    "grassroots": "开发者关注Agent的状态管理、安全边界与效率优化",
-    "date": "2026-08-05"
-  },
-  {
     "theme": "长程推理Agent Runtime成为AI新基建",
     "importance": 5,
     "evidence": "ArXiv同日4篇相关论文，GitHub多个Agent harness项目上榜",
@@ -1398,5 +1370,33 @@
     "evidence": "OpenAI 成立数学顾问组并发布全球 AI 标准路径，NVIDIA 强调物理 AI 全层安全",
     "grassroots": "TechCrunch 点出顾问组'无减速权'，治理约束力存疑",
     "date": "2026-09-22"
+  },
+  {
+    "theme": "前沿模型竞争转向性价比与缓存成本",
+    "importance": 5,
+    "evidence": "GPT-6 Sol/Luna 降价 50%，Opus 5.5 缓存读取降 60%，双方同日发布",
+    "grassroots": "开发者直接列价格表对比，感叹'这种价格下谁还用得起 Claude'",
+    "date": "2026-09-23"
+  },
+  {
+    "theme": "双模型分工与上下文压缩成为开发者标配工程手段",
+    "importance": 4,
+    "evidence": "codex-with-chatgpt、fast-jev-compaction、CliffCompaction 集中出现",
+    "grassroots": "开发者从'用哪个模型'转向'怎么组合模型和压缩上下文'",
+    "date": "2026-09-23"
+  },
+  {
+    "theme": "智能体安全从模型层转向工具生态层",
+    "importance": 4,
+    "evidence": "A2M 揭示 MCP 语义供应链攻击，恶意调用率 93.6%",
+    "grassroots": "暂无基层反馈，但企业部署需警惕",
+    "date": "2026-09-23"
+  },
+  {
+    "theme": "多智能体规模化与自组织架构",
+    "importance": 4,
+    "evidence": "Agensh 支持 1024 个 Agent 无中心编排，Grow the Harness 固化控制决策",
+    "grassroots": "开发者关注如何降低中心编排瓶颈",
+    "date": "2026-09-23"
   }
 ]

@@ -1,0 +1,1470 @@
+{
+  "key": "2026-09-23-afternoon",
+  "date": "2026-09-23",
+  "session": "afternoon",
+  "label": "☀️ 午间技术",
+  "source_count": 17,
+  "cards": [
+    {
+      "item_id": 18,
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna 两款新模型",
+      "entities": [
+        {
+          "name": "GPT-6 Sol",
+          "explain": "OpenAI 新推出的旗舰级大语言模型，主打最强能力"
+        },
+        {
+          "name": "GPT-6 Luna",
+          "explain": "OpenAI 同期推出的轻量级模型，主打低成本高效率"
+        },
+        {
+          "name": "OpenAI",
+          "explain": "开发 ChatGPT 的美国人工智能公司"
+        }
+      ],
+      "summary": "OpenAI 正式发布 GPT-6 系列的两款模型 Sol 和 Luna，分别面向不同场景：Sol 侧重前沿智能与最强能力，Luna 则在能力与成本之间取得平衡，面向日常工作任务。两款模型共同构成 GPT-6 的产品矩阵，覆盖从高端到普惠的不同需求。",
+      "relevant": "GPT-6 是 OpenAI 的下一代主力模型，其发布直接影响全球 AI 应用生态和开发者选型。",
+      "context": "此前 GPT-5 系列已在推理和编程等任务上广泛应用，业界对下一代模型的期待集中在能力提升与成本下降两个方向。OpenAI 此次以双模型策略同时回应这两点需求。",
+      "source_analysis": "消息来自 OpenAI 官方博客，属于第一方发布，内容以产品介绍为主，不含第三方评测。",
+      "social_impact": "双模型策略意味着企业用户可按任务复杂度灵活选择，有望进一步压低 AI 应用的推理成本。",
+      "source_text": "Introducing GPT‑6 Sol and Luna More ways to bring frontier intelligence into the work you do every day. Earlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets. That’s why we’re expanding the GPT‑6 universe with GPT‑6 Sol and GPT‑6 Luna. GPT‑6 Astra introduced a new generation of intelligence—these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency. We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models. The GPT‑6 models lead across the cost–intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale. Improvements in caching and inference let us serve these models at lower cost, and we’re passing those savings directly on to users and customers by reducing API prices for Sol and Luna by 50% compared with their GPT‑5.6 promotional pricing. Together, these improvements make advanced AI practical for more everyday tasks and applications at scale. Prices are per 1 million tokens. GPT‑6 Astra continues to be our best model across the board. Choose it when you want the best results and an uncompromising experience. GPT‑6 Sol and Luna bring intelligence upgrades and cost efficiency to the models you already know and use across capabilities most useful for getting complex work done. GPT‑6 Sol can take on difficult work tasks while giving you more room to iterate with higher usage limits and lower cost, offering more intelligence and better results versus similarly priced competitor models. On AutomationBench, a test of business workflows across apps, GPT‑6 Sol at xhigh effort outperforms Claude Opus 5 at max effort at just 9% of Opus 5’s cost per task. At high effort, GPT‑6 Luna improves on its predecessor by 5.4 percentage points at 58% lower cost per task. GPT‑6 Sol also exceeds Claude Fable 5.1 at far lower cost, and even bests low-effort GPT‑6 Astra. On Agents’ Last Exam, which evaluates agents on complex professional workflows, GPT‑6 Sol at max effort scores 56.4%, above Claude Opus 5’s highest score in the evaluation at 60% lower cost per task. The usefulness of an answer depends on ",
+      "source_title": "Introducing GPT-6 Sol and Luna",
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 与 Live Extended Thinking",
+      "entities": [
+        {
+          "name": "Gemini 3.8 Live",
+          "explain": "Google 的实时交互版 Gemini 模型，主打低延迟对话与多模态响应"
+        },
+        {
+          "name": "Extended Thinking",
+          "explain": "一种让模型在回答前进行更长时间推理的模式，用于处理复杂问题"
+        },
+        {
+          "name": "Google DeepMind",
+          "explain": "Google 旗下的人工智能研究机构，负责 Gemini 系列模型研发"
+        }
+      ],
+      "summary": "Google DeepMind 推出 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 两个版本。Live 版本面向实时交互场景，Extended Thinking 版本则在回答前进行更深入的推理，适合复杂任务。这是 Gemini 在实时能力和深度推理两条路线上的同步升级。",
+      "relevant": "Gemini 是 GPT 系列最主要的竞争对手之一，此次更新直接对标 OpenAI 的实时与推理产品线。",
+      "context": "Gemini 系列此前已推出多个版本，实时交互和深度推理是当前大模型竞争的两个核心方向。Google 此次将两者整合进同一版本号，显示其产品线正在收敛。",
+      "source_analysis": "消息来自 Google DeepMind 官方博客，属第一方发布，原文摘要为空，具体能力细节需查阅原文。",
+      "social_impact": "实时模型与深度推理模型的同步迭代，将加速语音助手、实时翻译等场景的体验升级。",
+      "source_text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Updated September 17, 2026 Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. On ServiceNow’s EVA-Bench, a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early ver",
+      "source_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "Claude Opus 5.5 发布：68万行代码一天迁完，API 降价20%",
+      "entities": [
+        {
+          "name": "Claude Opus 5.5",
+          "explain": "Anthropic 公司推出的旗舰级大语言模型最新版本"
+        },
+        {
+          "name": "缓存读取价",
+          "explain": "调用 API 时读取已缓存内容的计费价格，通常远低于重新计算的价格"
+        },
+        {
+          "name": "Anthropic",
+          "explain": "开发 Claude 系列模型的美国 AI 公司，OpenAI 的主要竞争对手之一"
+        }
+      ],
+      "summary": "Anthropic 发布 Claude Opus 5.5，主打大规模代码迁移能力，宣称可在一天内完成 68 万行代码的迁移工作。API 价格整体打八折，其中缓存读取价格下调 60%，大幅降低高频调用场景的成本。",
+      "relevant": "代码迁移是企业级 AI 落地的核心场景之一，价格下调直接影响开发者的模型选型决策。",
+      "context": "Claude 系列此前已在编程和长文本处理上建立口碑，Anthropic 持续以性价比和代码能力作为差异化竞争点。此次降价发生在各大模型厂商密集发布新版本的竞争窗口期。",
+      "source_analysis": "消息来自量子位，为国内 AI 科技媒体，报道倾向偏正面，侧重突出性能与价格优势。",
+      "social_impact": "缓存读取价下调 60% 对高频调用 API 的企业用户影响显著，可能引发其他厂商跟进降价。",
+      "source_text": "Claude Opus 5.5突袭！68万行代码一天迁完，API价格打8折 缓存读取价砍了60% 梦晨 听雨 发自 凹非寺 量子位 | 公众号QbitAI Claude最新旗舰Opus 5.5跑分登顶！ 在代码、知识工作、计算机操作等多项基准测试中拿下第一的同时，输出速度也比Opus 5快了30%以上。 这暂停得好好的前沿，怎么不到两周又被推进了。 那CEO Dario Amodei发表的“放缓前沿”公开信算什么？ 算他能发。 这届模型开始拿代码当画笔 目前看到比较新颖的测试是用纯代码生成图像，SVG鹈鹕骑自行车已经被刷爆了，这次是更复杂的Python渲染。 类似的能力可以扩展成用纯js代码生成渲染视频。 多项跑分登顶，API价格打8折 他们说任务成本降4成，但API价格并没有直接打6折。 Opus 5.5的输入、输出价格分别是每百万Token 4美元和20美元，相比Opus 5下降20%。 再加上完成同一任务需要的步骤和Token更少，Anthropic测算，典型任务的总成本可以下降40%。 真正下狠手的是缓存读取价。这一项从Opus 5的每百万Token 0.50美元，直接降到0.20美元，砍了60%。 做Agent编程的都知道，长对话和大型代码任务需要反复读取上下文，缓存读取经常占据成本的大头。相比账面上的API单价，这一刀可能更有实际体感。 另外还有一个Fast mode，输出速度最高可达标准模式的2.5倍，价格也翻倍至每百万输入Token 8美元、输出Token 40美元，适合对延迟特别敏感的场景。 订阅用户也加量了，Pro、Max、Team和按席位收费的企业版，五小时使用限额都会提高；Anthropic还提供了一次可以暂存、由用户自行选择时间使用的rate limit reset。 具体看跑分，目前最新鲜的榜就是Terminal-Bench 4.0了，衡量模型处理复杂命令行任务的能力。 Opus 5.5拿下66.4%，上一代Opus 5是52.3%，OpenAI的GPT-6 Astra是57.9%，Claude自家的Fable 5.1是55.8%。 已经明显拉开差距。 在另一项编程基准FrontierCode v1.1上，Opus 5.5以54.4%超过GPT-6 Astra的53.3%，差距就没那么明显了。 而且推理effort开中档效果反而更好。 Opus 5.5在默认effort，也就是中档设置下，反而跑出了54.6%，超过表中其他模型的最高成绩，也略高于自己开到最高档时的54.4%。 到了这个能力水平，0.2个百分点基本已经落在波动范围里。 Anthropic自己也承认，跑分差距越来越难准确反映真实使用体验，他们内部使用时，Opus 5.5和Fable 5.1的差距就没有榜单看起来这么大。 另一项CursorBench 4.0，测的是来自真实Cursor会话的多文件模糊任务。 最高effort下，Opus 5.5拿到57.8%，比Fable 5.1的51.8%高6分，比GPT-5.6 Sol的41.7%高16.1分。 如果看性价比，Opus 5.5在默认中档设置下得分52.5%，依然领先GPT-5.6 Sol的最高成绩约11分，单项任务成本只有后者的三分之一左右。 Opus 5.5特别强调在大规模代码库级别的任务上有明显提升。 早期测试者曾用它迁移68万行代码，不到一天完成。换成人类工程团队，预计至少需要数周。 还有一位测试者用它审计并修复一个20万行代码库，耗时不到3小时。同样的任务，Opus 5花了超过20小时，使用的Token数量还是它的2.5倍。 在一项内部测试中，Anthropic让Opus 5.5和Fable 5.1分别将HAProxy从C语言重写成Rust。HAProxy是一款被广泛使用的Web流量负载均衡软件。 两个版本都通过了HAProxy自身几乎全部回归测试，但Opus 5.5只用了9.5小时，Fable 5.1用了12小时，前者的成本低了51%。 Anthropic还让模型优化一个Web应用所有页面的加载速度。Opus 5.5在40次测试中成功了39次；Opus 5虽然也缩短了加载时间，但改进幅度更小，还改变了应用原本的行为。 知识工作方面同样值得关注。 在覆盖44个职业的真实工作能力评估GDPval-AA v2.1中，Opus 5.5得分1846 Elo，Fable 5.1是1735，Opus 5是1708。 在默认effort设置下，Opus 5.5的得分就超过了GPT-6 Astra在最高effort下的表现，单项任务成本大约只有后者的五分之一。 投资公司Walleye Capital反馈，Opus 5.5在最低设置下，就基本完成了他们的量化研究评测任务。 把effort调高后，它还发现评测指令里的分钟索引存在一个off-by-one错误，并主动修正。 模型甚至特意备注：这样处理是正确的，但可能会导致自己被评分器扣分。 Walleye称，此前测试过的所有模型，都没有发现并处理这个问题。 还有个明显变化在于：Opus 5.5说话的方式变了。 以前Opus 5虽然也能找到答案，但很快就会钻进代码块、时间线和区间定义里，用户需要自己从大量技术细节中提炼结论。 Opus 5.5会先把最重要的信息摆出来，再解释原因。 官网展示了一个billing系统Bug的对比。Opus 5找到问题后，马上开始解释代码改动和时间区间；Opus 5.5开头就把账算清楚了： 额外减少的9.92美元来自一个Bug，免费层调整只占1.50美元。 随后它才说明，究竟是哪次代码重构把每个月最后一天的大部分用量漏掉了。 一位早期测试者的评价是： It writes the way I do（它写东西的方式跟我一样）。 Anthropic还特意强调，表达清楚不只是文风升级。模型把关键信息放在前面、减少术语和特异性表达，人类检查其结论和操作过程也会更加容易，这本身就是一项安全收益。 和Fable一个级别",
+      "source_title": "Claude Opus 5.5突袭！68万行代码一天迁完，API价格打8折",
+      "source_url": "https://www.qbitai.com/2026/09/496221.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "OpenAI 为 GPT-6 改进提示缓存机制",
+      "entities": [
+        {
+          "name": "提示缓存（Prompt Caching）",
+          "explain": "把重复使用的提示内容缓存起来，避免每次重新计算，从而降低延迟和费用"
+        },
+        {
+          "name": "缓存命中率",
+          "explain": "请求中成功命中已有缓存的比例，越高越省钱省时间"
+        },
+        {
+          "name": "断点（Breakpoints）",
+          "explain": "开发者手动指定缓存位置的控制点，用于精细管理缓存策略"
+        }
+      ],
+      "summary": "OpenAI 为 GPT-6 推出改进版提示缓存功能，提升了缓存命中率，新增诊断工具和显式断点控制。开发者可以更精细地管理缓存策略，从而降低调用延迟和成本。",
+      "relevant": "缓存优化直接关系到 API 使用成本，对高频调用 GPT-6 的开发者是实质性利好。",
+      "context": "提示缓存是大模型 API 的常见优化手段，此前的实现存在命中率不稳定、缺乏调试手段等问题。GPT-6 的这次更新针对这些痛点做了系统性改进。",
+      "source_analysis": "消息来自 OpenAI 官方博客，属第一方技术发布，内容偏工程实现说明。",
+      "social_impact": "缓存命中率提升和成本下降，有助于推动更多企业将 GPT-6 用于生产环境的高频调用场景。",
+      "source_text": "Better prompt caching for GPT‑6 Higher cache hit rates and new tools to help persistent agents run faster and cost less. GPT‑6 enables persistent agents to work for hours on complex tasks, from refactoring codebases to producing well-researched documents and presentations. The applications behind these agents make a series of API requests that build on one another, often carrying forward the same instructions, tool definitions, and context from earlier turns. OpenAI caches that shared context to reuse computation across requests, reducing response times and giving developers discounts of up to 90% on cached input tokens. With the GPT‑6 family, we launched an improved prompt caching system that delivers higher cache hit rates by default. We now give cache discounts for eligible shared prefixes reused within a 30-minute window. We’re also introducing new tools to help developers monitor cache performance, diagnose misses, and choose how much of a prompt to cache. The new Prompt Caching Dashboard(opens in a new window) shows how much of your application’s input is served from cache. Track hit rates over time and use the input composition chart to compare cached and uncached tokens. These views help you spot drops in cache hits and evaluate how changes to your application impact caching performance. When you see an unexpected cache miss, use the prompt caching diagnostics tool(opens in a new window) to understand what happened. Compare a request with a recent response to identify changes to the model, tools, settings, or input that prevented reuse. The estimated number of affected tokens helps you assess the size of the impact and decide how you can optimize your integration to maximize cache hit rates. { \"prompt_cache_diagnostics\": { \"type\": \"cache_miss\", \"reason\": \"tools_changed\", \"comparison_reusable_tokens\": 5629, \"cache_missed_tokens\": 5629 } } Choose what to cache. Explicit cache breakpoints let you choose which prompt prefixes to reuse. The refreshed prompt caching guide(opens in a new window) explains how to use them, how long cached prefixes remain eligible, and how changes to tools and inputs affect reuse. Adjust reasoning effort without breaking cache. On GPT‑6 models, you can now change reasoning effort(opens in a new window) between responses without breaking cache. Raise effort for a harder task or lower it for a routine follow-up by appending a configuration_update while leaving request-level reasoning effort unchanged. This lets you adjust how ",
+      "source_title": "Better prompt caching for GPT-6",
+      "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "GPT-6 Astra 生成 3D 内容刷屏，3D 生成竞争规则生变",
+      "entities": [
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI GPT-6 系列中具备 3D 生成能力的模型版本"
+        },
+        {
+          "name": "3D 生成",
+          "explain": "利用 AI 直接生成三维模型或场景，替代传统手工建模"
+        }
+      ],
+      "summary": "GPT-6 Astra 的 3D 生成能力在社交平台引发广泛关注，量子位评论认为 3D 生成的竞争规则已经改变，行业进入下半场。文章指出，此前 3D 生成的竞争焦点在于模型能否生成，如今转向生成质量和可用性。",
+      "relevant": "3D 生成是游戏、影视、电商等行业的关键技术，大模型厂商的入局可能重塑整个产业链。",
+      "context": "3D 生成此前主要由专业工具和垂直 AI 公司主导，通用大模型厂商的介入改变了竞争格局。GPT-6 Astra 的生成效果在社交平台刷屏，成为这一变化的标志性事件。",
+      "source_analysis": "消息来自量子位，为国内 AI 科技媒体，文章带有行业评论性质，观点偏前瞻判断。",
+      "social_impact": "若通用大模型能稳定生成高质量 3D 内容，传统 3D 建模工具和外包市场将面临冲击。",
+      "source_text": "GPT-6 Astra搓3D刷屏后，3D生成的竞争规则变了 下半场开始了 听雨 发自 凹非寺 量子位 | 公众号QbitAI 谁还没有被GPT-6 Astra搓3D的案例狠狠刷屏啊！ 写代码、调Blender、搭场景，甚至从零做出一款3D游戏。 过去要在专业软件里折腾半天的活儿，现在一句话就能让Agent接手。 △图源：小红书 不过吧，GPT-6 Astra的表现，也让3D生成行业突然多了一个问题： 通用大模型自己都能建模了，专业3D生成模型还有用吗？ 事实上，GPT-6 Astra擅长理解目标、拆解任务，也能通过代码和基础几何体完成机械结构、工业零件等模型。 但遇到人体、动物和复杂道具等曲面丰富、细节密集的对象，还需要专业3D生成模型提供更完整的几何、网格和材质。 通用模型负责「想清楚怎么做」，专业3D模型负责「把复杂模型做好」。 这也意味着，3D生成正在迎来下一代用户：Agent。 过去，3D生成产品主要服务人类创作者。行业竞争围绕「Production-Ready」展开，谁能生成质量更高、更可控，也更容易进入生产管线的资产，谁就更有优势。 当Agent开始接管创作任务，评价标准又多了一层。 模型质量仍然是基础，但3D能力还要能够被Agent理解和调用。面对不同输入，系统需要自己判断建模路径；资产生成之后，还要支持Agent继续编辑、拆分和加工。 这也是3D生成在Agent时代的竞争新标准——Agent-Ready。 它代表的变化，是3D生成从一个等待人操作的单点工具，转向Agent工作流中的专业能力。 人可以直接在产品里发起创作，外部Agent也可以根据任务需要调用3D生成，并继续推进后续流程。 但当3D工具的用户从人扩展到Agent，新的问题也来了：Agent能否看懂输入素材，选对建模路径，并在模型生成后继续修改？ 国际领先的3D生成大模型公司影眸Hyper3D今日上线的Agentic Mode，正是沿这条路线展开。 Agent会参与输入整理、参考图分析和建模路径选择，接管了建模过程中的更多专业判断，并围绕创作目标持续推进任务。 生成的Low-poly N-GONS模型还可以继续进行参数化调整、调用动画预设和增强材质。 从Production-Ready到Agent-Ready，3D生成竞争的重点正在从「能不能生成可用资产」，扩展到「能不能让Agent把专业3D能力真正用起来」。 图别整理了，直接一股脑丢进去 Agentic Mode在自动优化输入上有怎样的表现？ 第一轮，我先准备了5张不同产品图。 主角都是同一台复古桌面风扇，但每张图提供的信息不太一样。 第一张是产品正面照，能看到深青色机身、奶油色扇叶和黄铜支架；第二张绕到背后，露出了电机外壳、散热孔和电源线。 第三张只拍网罩、转轴和扇叶根部；第四张是一张杂乱的桌面照，风扇旁还堆着电脑、书、杯子和植物。 最后还有一张规格卡，文字描述了扇叶数量、材料和零部件颜色。 常规的多图生3D，最佳输入通常是一组提前整理好的参考图：主体一致，角度互补，背景尽量干净。 部分工具虽然已经支持背景去除和图片增强，但遇到场景图、局部特写和文字卡混在一起，用户往往还是要先挑图、裁图，甚至指定不同视角。 这里，我直接把5张图一口气输入给了Agentic Mode，看看它能做成什么样。 图片上传后，Agentic Mode没有立刻开始生成，界面下方先滚动起了一连串分析过程。 仔细查看，它先沿着物体边缘识别整体轮廓，再判断不同图片的拍摄角度，区分真实结构与光影，再寻找机身与局部零件之间的边界。 单张图片里看不清的信息，则会从其他参考图中补全。比如正面照能看清扇叶和网罩，但电机有多厚、背面长什么样，还得结合后侧图判断。 据影眸Hyper3D介绍，这一过程中，系统还会按需增强输入素材。用户无需提前筛选标准主图，也不用手动裁掉场景背景，再反复尝试不同的图片组合。 整个过程没花多久，一台完整的复古桌面风扇就出现在了我的工作台里。 出来一看，我还挺意外——桌面照里那些电脑、杯子、书，压根没跑进模型里。 它自动把主体和背景分了家，还把5张图里的信息拼到了一起：正面的扇叶网罩、背面的电机散热孔、特写里的转轴细节，一台完整的风扇就这么出来了。 这也是Agentic Mode这次更新的一大重点，模型在处理输入上不是简单把多张图堆在一起，而是先理解、自主筛选和组织参考信息，再进入生成。 对于Low-poly N-GONS生成的模型，Agentic Mode提供了可以用自然语言驱动的参数化调整、动画预设、材质增强等后续编辑功能，为用户提供了创作的延伸可能性。 嫌底座太宽，拉窄一点；支柱太矮，直接抬高。深青色搪瓷机身、黑色橡胶电源线和缎面黄铜支架随你挑，都可以单独换颜色、改质感。 甚至连怎么动都准备好了，开关循环、左右扫风、向上送风，点一下就能运行～ 小物体玩熟了，难度直接拉满——这次输入的不是单个物体，而是一张完整的住宅建筑图纸。 正面、侧面和背面立面图挤在一起，还有一张带房间布局的平面图，密密麻麻标着尺寸和材料说明。 对于普通图像生成模型来说，它看到的可能只是一张线条和数字堆成的复杂图片。 想把它变成3D模型，还得先理解不同图纸之间的关系：平面图决定房间和墙体位置，立面图提供门窗、楼层与屋顶结构，尺寸标注则约束各部分比例。 这次依然没有提示词，只上传图纸，剩下的交给Agentic Mode处理。 结果它自己读完了整套图——平面图管房间布局、立面图管门窗屋顶、尺寸标注管比例大小，全给理清楚了，直接就出了3D模型。 右侧同样有一整套参数化调整面板，建筑的结构、材质都能继续改。 这一轮考验的能力，和前面的风扇不太一样。上一轮的难点，是从一堆杂乱资料中找出共同主体，再把不同图片里的信息拼到一起。 这一次，素材本身已经整理成了建筑图纸，难点变成了读懂这套专业表达：哪些是平面布局，哪些是不同方向的立面，尺寸标注又该如何约束模型结构。 两轮试下来，我感觉Agentic Mode最不一样的地方就在于：无论是杂乱",
+      "source_title": "GPT-6 Astra搓3D刷屏后，3D生成的竞争规则变了",
+      "source_url": "https://www.qbitai.com/2026/09/496170.html",
+      "source_name": "量子位",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "Flash-dLLM：为扩散语言模型提速的免训练推理框架",
+      "entities": [
+        {
+          "name": "扩散语言模型（dLLM）",
+          "explain": "一种非自回归的文本生成模型，与逐字生成的 GPT 类模型原理不同，可并行生成文本"
+        },
+        {
+          "name": "KV 缓存",
+          "explain": "缓存注意力计算中的键值对，避免重复计算，是大模型推理加速的核心手段"
+        },
+        {
+          "name": "并行解码",
+          "explain": "同时生成多个 token 而非逐个生成，用于提升推理速度"
+        }
+      ],
+      "summary": "研究者提出 Flash-dLLM，一个免训练的推理加速框架，专为扩散语言模型设计。该框架识别出 GPU 显存 I/O 是 KV 缓存场景下的主要瓶颈，通过 I/O 感知的融合缓存内核减少冗余内存搬运，并结合 KV 缓存驱动的草稿-验证机制实现高效并行解码。",
+      "relevant": "扩散语言模型被视为自回归模型的潜在替代方案，但推理效率一直是其落地的主要障碍。",
+      "context": "扩散语言模型能并行生成文本，理论上比逐字生成的自回归模型更快，但缺乏有效的 KV 缓存和并行解码机制，实际部署效率反而不理想。此前研究通常将缓存和解码分开优化，忽略了二者联合使用时的 I/O 瓶颈。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本，未经同行评审。",
+      "social_impact": "若该框架能显著降低扩散语言模型的推理成本，将推动这一技术路线从研究走向实际部署。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 22 Sep 2026] Title:Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs View PDF HTML (experimental) Abstract:Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and parallel token verification are jointly applied. In this work, we introduce $\\textbf{Flash-dLLM}$, a training-free inference acceleration framework for fast and memory-efficient dLLMs. Flash-dLLM first identifies GPU memory I/O as a dominant bottleneck in KV-cache-enabled dLLM inference and addresses it with an I/O-aware fused KV-cache kernel that reduces redundant memory movement. Building on this optimized cache mechanism, Flash-dLLM further proposes an efficient KV-cache-driven draft-and-verify decoding strategy, where the dLLM itself serves as both drafter and verifier without requiring an auxiliary model. This unified design enables faster decoding while preserving generation quality and improving scalability to longer sequences and larger batch size. Extensive experiments on mathematical reasoning and code-generation benchmarks demonstrate that Flash-dLLM consistently outperforms existing state-of-the-art dLLM acceleration methods in both inference speed and memory efficiency. In particular, it achieves $5.1\\times$ and $11.0\\times$ speedups over prior strongest baseline Elastic-Cache on GSM8K and HumanEval, respectively. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projec",
+      "source_title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "source_url": "https://arxiv.org/abs/2609.26796v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "新研究：用强化学习训练概念生成器，提升大模型推理探索效率",
+      "entities": [
+        {
+          "name": "重复采样（Repeated Sampling）",
+          "explain": "让模型对同一问题生成多个答案，从中挑选正确的一个，是目前提升推理准确率的主流方法"
+        },
+        {
+          "name": "概念生成器",
+          "explain": "一个小模型，负责在解题前生成思路、提示或策略，引导大模型作答"
+        },
+        {
+          "name": "强化学习",
+          "explain": "通过奖励信号训练模型做出更优决策的机器学习方法"
+        }
+      ],
+      "summary": "研究者指出，当前大模型处理难题时依赖的重复采样策略存在缺陷：由于只在局部解码噪声中探索，容易产生大量近似重复的答案而非真正不同的思路。论文提出在语义层面引导探索，先采样问题相关的概念、提示或策略，再据此生成答案，并用强化学习训练一个小型概念生成器，使其生成的概念能最大化下游大模型的解题成功率。",
+      "relevant": "该研究针对的是大模型推理的核心瓶颈——如何在有限算力下探索更多有效解法。",
+      "context": "随着测试时计算（test-time compute）成为提升推理能力的主流思路，如何高效利用这些计算资源成为关键问题。重复采样虽然简单，但探索效率低下，浪费大量算力在相似答案上。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本，未经同行评审。",
+      "social_impact": "若能以更少采样次数达到更高准确率，将直接降低大模型推理的算力成本。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 22 Sep 2026] Title:Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning View PDF HTML (experimental) Abstract:Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or strategies and then conditioning answer generation on them. We refine this into a simple, more exploratory procedure that emits many diverse concepts in a single trajectory, and evaluate it on hard problems where repeated sampling struggles. We then go a step further and make concept generation trainable: a small concept generator is optimized with reinforcement learning so that its concepts maximize the downstream success of a larger, frozen answer generator. On hard mathematical reasoning problems, the trained concept generator substantially improves the answer generator's pass@k over naive repeated sampling at the same answer generation allocation, surpasses concepts drawn from much larger untuned models, and transfers to answer generators it was never trained against, including a model from a different family. A small model can thus be trained into an effective, reusable search policy for a much larger one. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of o",
+      "source_title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "source_url": "https://arxiv.org/abs/2609.26704v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "Agensh：无需中央调度器，将多智能体系统扩展至 1024 个",
+      "entities": [
+        {
+          "name": "多智能体系统",
+          "explain": "由多个 AI 智能体协同完成任务的系统，类似一个 AI 团队分工合作"
+        },
+        {
+          "name": "中央调度器（Orchestrator）",
+          "explain": "负责给各个智能体分配任务、协调进度的核心组件，是传统多智能体系统的瓶颈"
+        },
+        {
+          "name": "Agensh",
+          "explain": "论文提出的自组织多智能体框架，不依赖中央调度器"
+        }
+      ],
+      "summary": "研究者提出 Agensh，一个可扩展的自组织多智能体框架，取消了中央调度器。并发工作单元通过多智能体协作循环，异步地收集上下文、认领并自分配子任务、执行动作、共享发现、验证结果并合并进展。框架由共享工作区、消息接口和共享上下文三部分组成，实验评估其扩展至 1024 个智能体的能力。",
+      "relevant": "多智能体系统的扩展性瓶颈长期制约其在复杂任务上的应用，去中心化是可能的突破方向。",
+      "context": "现有多智能体框架大多依赖中央调度器分配任务，当智能体数量增加时，调度器成为性能和协调瓶颈。Agensh 试图通过自组织机制绕开这一限制。",
+      "source_analysis": "论文发布于 ArXiv cs.CL 板块，为学术预印本，未经同行评审。",
+      "social_impact": "若千级智能体协作可行，将为大规​​模自动化任务（如软件工程、科研协作）提供新的技术路径。",
+      "source_text": "Computer Science > Computation and Language [Submitted on 22 Sep 2026] Title:Agensh: Scaling Organizational Intelligence to 1,024 Agents View PDF HTML (experimental) Abstract:A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, continuously gathering context, claiming and self-assigning sub-tasks, taking action and sharing findings, verifying results, and merging progress in an asynchronous manner. The loop is supported by the agentic organization infrastructure comprising three components: a shared workspace holds proposed, ongoing, and completed work; a message interface lets workers communicate; and shared context retains reusable findings and work intentions. To test the scalability of Agensh, we evaluate it on the five hardest ProgramBench tasks with GPT-5.6-sol (high). Scaling from 1 to 128 agents raises the mean final test-pass rate from 19.31% to 28.78%, an approximately 49% relative improvement. Larger organizations reach comparable test-pass rates earlier. On pandoc, scaling from 1 to 1,024 agents raises the final test-pass rate from 33.89% to 55.06%. Worker trajectories further show that different forms of self-organized cooperation gradually emerges and standardizes as the organization grows. These results reveal the number of agents as a new scaling dimension for multi-agent organizations to expand the frontier of general intelligence, offering a practical solution for complex tasks under hard latency constraints or time budgets. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE R",
+      "source_title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "source_url": "https://arxiv.org/abs/2609.26781v1",
+      "source_name": "ArXiv cs.CL",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "研究揭示MCP生态供应链风险：A2M框架可劫持AI代理，恶意工具调用率高达93.6%",
+      "entities": [
+        {
+          "name": "MCP",
+          "explain": "Model Context Protocol，一种让AI代理从第三方服务器选择和使用工具的标准协议"
+        },
+        {
+          "name": "A2M",
+          "explain": "Attraction-to-Manipulation，一种两阶段黑盒攻击框架，通过优化工具元数据和返回结果来劫持AI代理"
+        },
+        {
+          "name": "LiveMCPBench",
+          "explain": "一个用于评估MCP代理安全性的基准测试平台"
+        },
+        {
+          "name": "GLM-4.6",
+          "explain": "智谱AI开发的大语言模型，此处作为攻击测试的目标模型"
+        }
+      ],
+      "summary": "研究者提出A2M框架，通过优化工具元数据（吸引阶段）和利用执行轨迹精炼恶意返回（操纵阶段），对使用MCP协议的AI代理实施黑盒劫持。在LiveMCPBench上，针对GLM-4.6的测试显示恶意工具调用率达93.6%，认知拒绝服务攻击下token成本增至32.4倍，信息窃取等场景平均攻击成功率达74.4%，且可迁移至其他四个模型。",
+      "relevant": "随着AI代理广泛采用MCP协议调用第三方工具，语义供应链攻击成为现实威胁，该研究揭示了协议层面的系统性安全漏洞。",
+      "context": "MCP协议允许AI代理通过语义匹配从第三方服务器选择工具，但攻击者可控制工具元数据和输出内容，从而在代理决策链中注入恶意行为。现有安全研究尚未充分覆盖这一攻击面。",
+      "source_analysis": "来自ArXiv预印本，未经同行评审，但提供了详细的实验数据和可复现的攻击框架。",
+      "social_impact": "攻击成功率和成本放大效应表明，MCP生态中的AI代理面临严重的供应链安全风险，可能影响依赖第三方工具的企业级AI部署。",
+      "source_text": "Computer Science > Cryptography and Security [Submitted on 22 Sep 2026] Title:A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem View PDF HTML (experimental) Abstract:Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a macro-average malicious tool invocation rate of 93.6% across four scenarios, increase weighted token costs to 32.4$\\times$ the benign baseline under Cognitive Denial of Service, and attain a mean attack success rate of 74.4% across Information Exfiltration, Environment Integrity Compromise, and Reasoning Derailment. Transfer to four other models without re-optimization yields corresponding macro-averages of 63.6%, 2.7$\\times$, and 24.5%. These findings motivate stronger tool vetting and runtime isolation in MCP ecosystems. Code is publicly available at this https URL. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What is Huggingface?) ScienceCast (What is ScienceCast?) Demos Recommenders and Search Tools Influence Flower (What are Influence Flowers?) CORE Recommender (What is CORE?) arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.",
+      "source_title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "source_url": "https://arxiv.org/abs/2609.26761v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 34,
+      "title": "Snorkel AI完成3.5亿美元E轮融资，估值达35亿美元，AI训练数据需求爆发",
+      "entities": [
+        {
+          "name": "Snorkel AI",
+          "explain": "一家成立七年的初创公司，提供数据即服务（data-as-a-service）平台，帮助企业构建和标注AI训练数据"
+        },
+        {
+          "name": "Series E",
+          "explain": "E轮融资，通常用于成熟期公司扩张或上市前准备"
+        }
+      ],
+      "summary": "Snorkel AI宣布完成3.5亿美元E轮融资，估值从之前的水平翻三倍至35亿美元。该公司采用数据即服务模式，帮助企业高效生成和标注AI训练数据，本轮融资将用于扩展业务以满足市场对高质量训练数据日益增长的需求。",
+      "relevant": "AI模型能力提升越来越依赖高质量训练数据，数据标注和合成数据赛道成为资本关注焦点，Snorkel AI的估值飙升反映了这一趋势。",
+      "context": "随着大模型竞争加剧，企业对领域特定、高质量训练数据的需求激增，传统人工标注成本高、效率低，Snorkel AI以编程化数据标注切入市场。",
+      "source_analysis": "TechCrunch报道，科技创投媒体，通常对融资消息持中立报道立场。",
+      "social_impact": "35亿美元估值和3.5亿美元融资规模显示AI数据服务市场正在快速膨胀，可能推动更多资本进入数据标注和合成数据领域。",
+      "source_text": "Snorkel AI, a startup that helps AI labs and corporations build training datasets and simulated environments, has raised a $350 million Series E at a $3.5 billion valuation. The new round, which was led by Insight Partners and S32, valued the seven-year-old startup at nearly triple the $1.3 billion valuation it garnered when it raised $100 million in a Series D 17 months ago. Existing investors, including Addition, Lightspeed, Greylock, GV, and Wells Fargo, also participated in the round. While Snorkel originally provided software for data-labeling automation, it shifted last year to providing customers with completed datasets, an offering it calls data-as-a-service. Rather than operating purely as a human expert marketplace, Snorkel relies on a hybrid approach, using its software and models to generate data synthetically alongside subject matter experts. Snorkel says its current annualized revenue run rate now stands at $375 million, an eighteenfold increase over the last 12 months. That growth is fueled by AI labs’ insatiable appetite for high-end training data. Other data companies positioning themselves as AI data labs have seen a similar explosion in growth. Mercor’s gross annualized revenue has climbed to $2 billion, Handshake hit the $1 billion milestone earlier this year, and TechCrunch reported that Micro1 has scaled to $500 million. Since these companies pay out roughly 60% to 70% of their top-line income directly to the domain specialists doing the work, it’s important to note that their actual net annual revenue is substantially lower than those headline gross figures. Given that Snorkel sells reinforcement learning (RL) environments and complete datasets rather than human labor, payments to its human experts are accounted for in its cost of goods sold rather than headline-generating annualized revenue numbers, according to the company. Snorkel launched commercially in 2019 following four years of research by co-founder and CEO Alex Ratner and his team at a Stanford AI lab.",
+      "source_title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "source_url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "source_name": "TechCrunch AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "SWE-Serve：首个面向生产推理服务的AI代理工程基准发布，含53个SGLang真实任务",
+      "entities": [
+        {
+          "name": "SWE-Serve",
+          "explain": "一个评估AI代理在生产推理工程任务上表现的基准测试集"
+        },
+        {
+          "name": "SGLang",
+          "explain": "一个开源的高性能大语言模型推理服务框架"
+        },
+        {
+          "name": "H100",
+          "explain": "英伟达推出的高性能GPU，常用于AI训练和推理"
+        }
+      ],
+      "summary": "研究者发布SWE-Serve基准，用于评估AI代理在生产推理工程中的能力。该基准包含53个源自SGLang近期生产变更的仓库级任务，覆盖六大推理工程类别，每个任务在CPU或单张H100 GPU上执行，并通过隐藏的功能和回归测试（含端到端服务测试）进行评估。",
+      "relevant": "现有基准要么不针对推理工程，要么只关注孤立的内核生成，SWE-Serve填补了仓库级生产推理功能实现的评估空白。",
+      "context": "实现一个推理功能往往需要跨服务栈协调模型支持、运行时执行和公共API等多处修改，但此前缺乏针对这一场景的系统性基准。",
+      "source_analysis": "来自ArXiv预印本，由研究者提出，基准任务源自真实生产变更，具有较高实践相关性。",
+      "social_impact": "为AI代理在推理工程领域的应用提供了标准化评估工具，可能推动代理在MLOps和推理优化场景的落地。",
+      "source_text": "Computer Science > Artificial Intelligence [Submitted on 22 Sep 2026] Title:SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving View PDF HTML (experimental) Abstract:We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance optimization rather than repository-scale production feature implementation. SWE-Serve provides 53 repository-grounded tasks derived from recent production changes to SGLang, spanning six inference engineering families. Each task executes on either CPU or a single GPU (H100) and is evaluated with hidden functional and regression tests, including, where applicable, end-to-end (E2E) serving tests and calibrated performance gates. Executable no-op and oracle controls, adversarial verifier review, and closed-book execution support task validity and evaluation integrity. Across 11 models and 31 model-effort configurations, the best-performing configuration achieves 75% mean pass@1. SWE-Serve exposes a substantial gap between completing tasks locally and achieving production correctness. On 19 tasks with end-to-end coverage, model-serving E2E tests reject roughly one-third of patches that pass every other test (45.9% under the verifier versus 69.4% with E2E tests excluded from scoring), with pass rate increasing for each model's best-performing configuration. By making the production correctness gap directly measurable, SWE-Serve enables the field to track whether future agents move beyond completing tasks locally to achieving production correctness. References & Citations Loading... Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?) CatalyzeX Code Finder for Papers (What is CatalyzeX?) DagsHub (What is DagsHub?) Gotit.pub (What is GotitPub?) Hugging Face (What",
+      "source_title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "source_url": "https://arxiv.org/abs/2609.26777v1",
+      "source_name": "ArXiv cs.AI",
+      "group": "industry"
+    },
+    {
+      "item_id": 36,
+      "title": "Transformers库现已支持运行llama.cpp量化模型",
+      "entities": [
+        {
+          "name": "Transformers",
+          "explain": "Hugging Face开发的开源库，提供预训练模型的标准接口，是NLP领域最广泛使用的工具库之一"
+        },
+        {
+          "name": "llama.cpp",
+          "explain": "一个用C++编写的开源推理引擎，支持在消费级硬件上高效运行量化后的大语言模型"
+        },
+        {
+          "name": "量化",
+          "explain": "将模型权重从高精度（如FP16）转换为低精度（如4位整数）以减少内存占用和加速推理的技术"
+        }
+      ],
+      "summary": "Hugging Face宣布Transformers库现在可以直接运行llama.cpp格式的量化模型。这意味着用户可以在Transformers生态中无缝使用llama.cpp的高效量化推理能力，无需转换格式或切换工具链。",
+      "relevant": "llama.cpp是本地部署量化模型的主流工具，Transformers是其最大竞争对手生态，两者互通降低了用户在不同工具间切换的成本。",
+      "context": "此前Transformers和llama.cpp使用不同的模型格式和量化方案，用户需要在两者之间转换。此次集成打通了两个生态。",
+      "source_analysis": "来自Hugging Face官方博客，属于产品发布公告，立场为推广自身生态。",
+      "social_impact": "降低了量化模型的使用门槛，可能促进更多开发者在本地设备上部署和运行大语言模型。",
+      "source_text": "Transformers now runs llama.cpp quants from_pretrained, and start generating on your own machine. Running AI models on your laptop has become much easier, and llama.cpp has been a big part of that. Its inference engine powers local AI tools such as Ollama, LM Studio, and Jan. Alongside projects like MLX, it has helped make local inference a practical option for everyday use. A recent example of what local AI can feel like: This is where we are right now. And i’m not gonna lie it feels pretty magical 🧙♀️ Qwen3.6 27B running inside of Pi coding agent via Llama.cpp on the MacBook Pro For non-trivial tasks on the @huggingface codebases, this feels very, very close to hitting the latest Opus in Claude… pic.twitter.com/lsIxLoUneU GGUF, developed by the llama.cpp team, is a widely used format for local inference. The team also shares quantized checkpoints under ggml-org on the Hub. Publishers such as Unsloth, LM Studio Community, and bartowski also provide ready-to-use GGUF checkpoints in a range of quantizations, so users can pick the version that fits their machine. GGUF models have been downloaded millions of times. We want to make it easier to run these models locally with transformers, too. Compatibility is only useful if the model is pleasant to run. To bring performance close to llama.cpp, we're reusing its underlying ggml kernels through the kernels library, and reducing overhead in generate. Our initial focus is local inference on Apple Silicon, starting with the Qwen3.5 architecture. What is the GGUF file format? GGUF packages model weights and metadata, including tokenizer information and an optional chat template, in one file. It supports different quantization levels, letting you trade some precision for a smaller memory footprint. Variants such as Q4_K_M mix tensor precisions, using mostly 4-bit weights while keeping sensitive tensors at higher precision. Here's how quantization changes the file size of Unsloth's Qwen3.5-4B: We suggest starting with Q4_K_M, then trying Q5_K_M or Q6_K if you have more memory available. More aggressive quantization can help larger models fit, but the quality tradeoff depends on the model and the task. Evaluate it on the work you actually want the model to do. The Hub's GGUF documentation describes the available quantization types. Load GGUF with transformers To get started, you need: - An Apple Silicon Mac. - A PyTorch version supported by the published ggml-quantization kernel builds, usually the two latest PyTorch r",
+      "source_title": "Transformers now runs llama.cpp quants",
+      "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 37,
+      "title": "oMLX创建者Jun Kim加入Hugging Face，支持MLX社区发展",
+      "entities": [
+        {
+          "name": "Jun Kim",
+          "explain": "oMLX项目的创建者和维护者，oMLX是一个基于苹果MLX框架的开源项目"
+        },
+        {
+          "name": "MLX",
+          "explain": "苹果公司推出的机器学习框架，专为Apple Silicon芯片优化，可在Mac上高效运行AI模型"
+        },
+        {
+          "name": "Hugging Face",
+          "explain": "全球最大的开源AI模型和数据集托管平台"
+        }
+      ],
+      "summary": "oMLX项目创建者兼维护者Jun Kim宣布加入Hugging Face，将致力于支持MLX社区的发展。此举表明Hugging Face正在加强对苹果MLX生态的投入，推动在Apple Silicon设备上的AI模型部署和运行。",
+      "relevant": "MLX是苹果生态中运行AI模型的关键框架，Hugging Face吸纳其核心开发者意味着对Mac本地AI推理的重视。",
+      "context": "随着Apple Silicon芯片性能提升，在Mac上本地运行大模型的需求增长，MLX框架和oMLX等项目填补了这一生态位。",
+      "source_analysis": "来自Hugging Face官方博客，属于人事公告，立场为展示对MLX社区的支持。",
+      "social_impact": "可能加速MLX生态的工具链完善和社区增长，推动更多AI模型在苹果设备上的本地化部署。",
+      "source_text": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community MLX is Apple's framework for local AI, especially optimized for Apple Silicon. We are big MLX supporters since it was the Christmas present from Awni and Angelos in 2023, and proud that Hugging Face is the Hub where people find MLX models and contribute their own. Usage of open, local AI is accelerating, and we believe in a healthy ecosystem where people can find the tools that work for them. What is the impact for oMLX? Stability, and hopefully faster development! Graduating from a side job to a fully maintained and funded project will allow Jun to better guide the contributors and build for the long-term. oMLX stays Apache 2.0, and Jun keeps leading it as before. What is the impact for MLX at large? Our end goal is to unblock the community to run local AI in any shape or form, and provide the tools and building blocks to make that happen. We expect oMLX to serve as a testbed for new ideas, while leveraging the foundational work of the dependencies it already relies upon, such as mlx-lm or mlx-vlm. We believe that strong modeling and inference libraries help the community, so we'd love to upstream work to wherever it makes sense. We have been collaborating with many projects mlx-lm, mlx-vlm, LMStudio, and we hope we can strengthen the relationship with Cheng, Prince, Yagil, and their teams to better serve the community together. Concretely, one focus area is the quick transition from a transformers model definition to a reference MLX implementation that can be consumed by different engines, so each one can focus on the unique features they provide. The transformers library has become the reference for ML model definitions, we want to streamline the process to make new transformers models run on MLX. We are incredibly excited about the future. Welcome, Jun! 🙌",
+      "source_title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "source_url": "https://huggingface.co/blog/omlx",
+      "source_name": "HF Blog",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "Google DeepMind 发布 AlphaGenome Atlas，绘制人类基因组90亿个单字母DNA变异的预测效应图谱",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究公司，开发了AlphaGo、AlphaFold等著名AI系统"
+        },
+        {
+          "name": "AlphaGenome Atlas",
+          "explain": "一张预测性地图，能预测人类基因组中每一个单字母DNA变化对分子层面的影响"
+        },
+        {
+          "name": "单字母DNA变异",
+          "explain": "DNA序列中一个碱基（A/T/C/G）被另一个替换，是最基本的基因突变形式"
+        }
+      ],
+      "summary": "Google DeepMind 发布 AlphaGenome Atlas，覆盖人类基因组中90亿个单字母DNA变异的分子效应预测。该图谱旨在帮助研究人员快速评估基因变异的功能影响，加速遗传病研究和药物靶点发现。",
+      "relevant": "这是迄今规模最大的基因组变异效应预测图谱，有望大幅降低遗传学研究的实验成本和时间。",
+      "context": "人类基因组中大量单字母变异与疾病相关，但逐一实验验证成本极高。AlphaGenome Atlas 利用AI预测这些变异的分子效应，填补了实验数据与基因组信息之间的空白。",
+      "source_analysis": "来源为 Google DeepMind 官方博客，属于第一方发布，立场为技术推广。",
+      "social_impact": "覆盖90亿个变异位点，若被广泛采用，可能显著加速精准医学和遗传诊断领域的进展。",
+      "source_text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. Today, we are introducing AlphaGenome Atlas: a platform (detailed in our paper) containing predictions for the effects of 9 billion single-nucleotide variants — every single-letter change possible — in the human genome. It is the most comprehensive catalogue of how genetic mutations affect molecular biology, and it is available for academic research through an intuitive and free-to-use website portal. DNA is the language of life. Mastering it is a grand challenge that could transform our ability to understand biology and treat disease. But progress has been limited by a fundamental problem: interpreting how genetic variations impact biology at a molecular level. With roughly 9 billion possible single-letter mutations in the human genome, testing each one in the lab is practically impossible. Google DeepMind has already made progress on this challenge with AlphaGenome, an artificial intelligence (AI) model that can predict how genetic variants impact biological processes. AlphaGenome is helpful for analyzing specific variants and has found widespread use in research, but we wanted to show researchers a big-picture view of variants across the entire genome. By precomputing AlphaGenome’s predictions at scale, we have created an easily accessible resource that vastly expands the model's reach. Just as an atlas is a collection of maps, linking together features of the land like altitude and location, AlphaGenome Atlas charts the molecular effects of DNA variants across the genome. To help scientists quickly find the most impactful genetic changes, we are also releasing the AlphaGenome Variant Impact (AVI) score. The AVI combines the strengths of AlphaGenome and AlphaMissense — our model for predicting the impact of protein-altering DNA variants — condensing both models’ predictions into a single number. Now, researchers can rapidly rank variants and interpret their molecular effects at the same time. Our trusted external collaborators have already used AlphaGenome Atlas to identify and experimentally verify key variants in unsolved rare disease research and find rare variants associated with common traits. AlphaGenome Atlas is available today through an intuitive website portal, our AlphaGenome API, and as a skill in Googl",
+      "source_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 27,
+      "title": "NVIDIA 发布 Isaac ROS 5.0，推动智能体化开源机器人开发",
+      "entities": [
+        {
+          "name": "NVIDIA",
+          "explain": "全球领先的GPU和AI计算公司，在机器人仿真和训练领域有重要布局"
+        },
+        {
+          "name": "Isaac ROS",
+          "explain": "NVIDIA基于ROS构建的GPU加速软件包集合，用于机器人感知、推理和行动"
+        },
+        {
+          "name": "ROS",
+          "explain": "机器人操作系统（Robot Operating System），一个开源的机器人软件开发框架，由Open Robotics维护"
+        }
+      ],
+      "summary": "NVIDIA 发布 Isaac ROS 5.0，这是一套基于ROS开源框架的GPU加速软件包集合，旨在帮助开发者构建能在动态环境中感知、推理和行动的智能体化机器人应用。新版本强调物理AI模型和工具链的集成。",
+      "relevant": "机器人开发正从传统编程向AI智能体范式转变，NVIDIA此举意在巩固其在物理AI基础设施中的核心地位。",
+      "context": "ROS是机器人开发的主流开源框架，但原生工具在AI推理和GPU加速方面能力有限。NVIDIA通过Isaac ROS将GPU加速能力引入ROS生态，5.0版本进一步强化了智能体化开发支持。",
+      "source_analysis": "来源为 NVIDIA 官方博客，属于第一方产品发布，立场为技术推广。",
+      "social_impact": "开源机器人开发工具链的升级可能降低中小团队开发智能机器人的门槛。",
+      "source_text": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at the ROSCon conference in Toronto, Canada — helps humans and AI agents build robots together. The release introduces new agentic workflows and platform support to help developers build, customize and deploy robotics applications faster. ROS provides the open source foundation for much of modern robotics development, giving developers common tools, libraries and standards for building and connecting robot applications. NVIDIA Isaac ROS brings NVIDIA accelerated computing, physical AI models and production-ready libraries to the nearly 1.3 million ROS users, helping developers build high-performance robotics applications using free, familiar, open source tools. Bringing AI Agents Into Robotics Development AI agents are changing how software is built, helping developers automate repetitive tasks, navigate complex codebases and move from ideas to working applications faster. Isaac ROS 5.0 brings these capabilities to robotics development. Isaac ROS 5.0 introduces support for ROS Lyrical and Ubuntu 24.04, giving developers a path to adopt the latest ROS platform while continuing to accelerate demanding robotics workloads with NVIDIA accelerated computing. NVIDIA worked with the Open Source Robotics Alliance to contribute a standard data-handling interface to ROS Lyrical that helps robotics software work efficiently across different computing hardware, including GPUs. Available to the entire ROS community, it gives developers a consistent way to accelerate demanding robotics applications, with CUDA providing a working example for GPU acceleration. New NVIDIA Isaac skills for setup and manipulation provide reusable workflows that developers and AI agents can use to complete robotics development tasks. Agent-ready documentation also makes it easier for AI agents to understand Isaac ROS tools and workflows, turning developer intent into working applications faster. Some skills go beyond assisting with individual coding tasks. A new FoundationStereo fine-tuning skill enables an AI agent to help adapt a stereo perception model to a developer’s cameras, environment and robotics application, so developers can easily achieve more",
+      "source_title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "source_name": "NVIDIA",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "Google DeepMind 发布 WeatherNext 3，号称最先进、最准确的全球天气AI模型",
+      "entities": [
+        {
+          "name": "Google DeepMind",
+          "explain": "谷歌旗下的人工智能研究公司，在科学计算和预测领域有多个突破性成果"
+        },
+        {
+          "name": "WeatherNext",
+          "explain": "Google DeepMind开发的全球天气AI预测模型系列，利用机器学习进行气象预报"
+        }
+      ],
+      "summary": "Google DeepMind 发布 WeatherNext 3，称其为目前最先进且最准确的全球天气AI模型。该模型旨在提升全球天气预报的精度和时效性。",
+      "relevant": "AI天气预测正在挑战传统数值天气预报方法，WeatherNext 3的发布可能进一步推动气象预报的AI化。",
+      "context": "传统天气预报依赖大规模数值模拟，计算成本高。Google DeepMind此前已推出GraphCast等AI天气模型，WeatherNext 3是该系列的迭代升级。",
+      "source_analysis": "来源为 Google DeepMind 官方博客，属于第一方发布，立场为技术推广。",
+      "social_impact": "更准确的全球天气预测对农业、防灾、能源调度等领域有直接影响。",
+      "source_text": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model Every day, the weather influences billions of decisions. Some are as simple as grabbing an umbrella before heading out the door, but others are far more consequential. Wind, rain, and extreme weather events, like heatwaves and droughts, have cascading impacts across agriculture, global supply chains, clean energy production, and national economies. In recent years, AI has revolutionized weather forecasting, using historical records to make faster and more accurate predictions than traditional methods. Yet predicting highly local and rapidly changing weather has remained a challenge. Previous models often lacked sufficient spatial resolution, and struggled to incorporate real-time weather data from sources like satellites. Today, Google DeepMind and Google Research are introducing WeatherNext 3, the most advanced and accurate global weather model to date, according to independent live evaluations by Brightband. Our model learns directly from real-time observations, enabling it to provide timely and more localized predictions for the weather events that impact people the most. By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide. Rapid weather prediction at unprecedented resolution A forecast's utility often comes down to detail and how finely it resolves both time and space. WeatherNext 3 generates hourly forecasts at multiple spatial resolutions, maintaining physical consistency from broad global wind patterns all the way down to local topography. With WeatherNext 3, we can visualize key surface variables — like temperature and moisture — at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables, like wind speed, at 25 kilometers. Overall, this provides a global weather picture roughly five times sharper than our previous model, WeatherNext 2, which produced forecasts on a 25-kilometer grid in 6-hour increments. Figure 1: The end-to-end WeatherNext 3 system architecture. The model ingests live 1-hour geostationary satellite mosaics alongside traditional historical analysis to feed a single, flexible Functional Generative Network (FGN) mesh transformer. It outputs dense gridded fields, discrete cyclone tracks, and predicts station-level sparse coordinates natively. Figure 2: Comparison of 2-meter temperature forecasts over the UK. We",
+      "source_title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_name": "Google DeepMind",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "OpenAI 称 Parallel 借助 GPT-6 Astra 将研究时间和成本减半",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "全球领先的AI研究公司，开发了ChatGPT和GPT系列模型"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI推出的新一代大语言模型，Astra为其代号"
+        },
+        {
+          "name": "Parallel",
+          "explain": "一家使用AI智能体进行劳动力市场数据研究的公司"
+        }
+      ],
+      "summary": "OpenAI 发布案例称，Parallel 公司使用 GPT-6 Astra 驱动其AI智能体进行劳动力市场数据的研究与综合，相比此前模型，研究时间缩短一半，成本也降低一半。",
+      "relevant": "这是OpenAI展示GPT-6 Astra在真实企业场景中降本增效能力的案例，反映大模型在企业研究自动化中的商业化进展。",
+      "context": "Parallel利用AI智能体自动化劳动力市场研究，此前依赖旧版模型。升级到GPT-6 Astra后，其在效率和成本上获得显著改善。",
+      "source_analysis": "来源为 OpenAI 官方博客，属于第一方案例宣传，立场为产品推广。",
+      "social_impact": "若企业研究自动化成本持续下降，可能影响数据分析、咨询等行业的人力结构。",
+      "source_text": "Parallel cut research time and cost in half with GPT‑6 Astra GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models. 50% Less time to complete research tasks 50% Code cost reduction Parallel(opens in a new window) builds developer infrastructure for AI agents that do knowledge work over the web. Its tools support everything from web grounding for voice agents to research for financial institutions and legal customers, combining frontier models with web search. For Parallel’s longest-running research tasks, getting a high-quality answer typically meant using a bigger model with extended reasoning, which consumed more time and resources. The company has seen a major improvement in time and cost with GPT‑6 Astra. “With Astra, we’ve demonstrated that you can get the same high-quality research much, much faster with fewer research calls and less tokens.” In one test of GPT‑6 Astra, Parallel asked its agent to research six different labor-market statistics across four states over six months. The agent had to search across multiple websites, collect information, and compile the findings into a single research report. GPT‑6 Astra was able to complete the work in half the time of prior models, with roughly 50% code cost reduction, while delivering the same quality of research. Parallel also observed that GPT‑6 Astra made more focused searches and took fewer steps to reach a useful result. “Astra issued more targeted search queries and focused on the ultimate task better, incorporating its world knowledge compared to previous models.” The increased efficiency also makes it more practical for Parallel to divide research among multiple agents. GPT‑6 Astra can delegate specific research tasks to sub-agents, allowing work to happen simultaneously and reducing the time spent moving through a single sequence of searches. Parallel now has a better path from a complex question to a researched answer, with less time waiting, lower costs, and more room to tackle demanding research tasks at scale.",
+      "source_title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "source_name": "OpenAI",
+      "group": "industry"
+    },
+    {
+      "item_id": 53,
+      "title": "五角大楼承认过度依赖AI导致伊朗学校遭导弹误击",
+      "entities": [
+        {
+          "name": "五角大楼",
+          "explain": "美国国防部所在地，代指美国军事决策核心机构"
+        },
+        {
+          "name": "AI辅助目标识别",
+          "explain": "用人工智能自动分析卫星图像、情报数据来推荐打击目标，替代人工判断"
+        },
+        {
+          "name": "Bloomberg",
+          "explain": "彭博社，美国知名财经新闻机构，以深度调查报道著称"
+        }
+      ],
+      "summary": "五角大楼承认，在一次针对伊朗的军事行动中，因过度依赖AI辅助目标识别系统，导致一枚导弹误击了一所学校。事件暴露出军方在实战中将AI推荐目标直接用于打击决策、缺乏足够人工复核的严重问题。",
+      "relevant": "这是AI军事应用造成平民伤亡的罕见官方承认案例，将引发全球对自主武器系统和AI军事伦理的激烈讨论。",
+      "context": "近年来美军加速将AI引入情报分析和目标推荐流程，以加快打击决策速度。此次事件发生在美伊军事紧张背景下，AI系统将学校误判为军事目标，而人工审核环节未能拦截错误。",
+      "source_analysis": "彭博社以深度调查和数据可视化报道著称，该报道基于军方内部文件和调查结果，立场偏向问责与透明度。",
+      "social_impact": "事件涉及平民伤亡，可能影响美国国内对AI军事化的立法讨论，并加剧国际社会对AI武器管控的呼声。",
+      "source_text": "Pentagon says overreliance on AI contributed to missile strike on Iran school。https:&#x2F;&#x2F;archive.ph&#x2F;0V37g",
+      "source_title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "source_url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 51,
+      "title": "OpenAI GPT-6 Astra破解了自2005年以来无人解出的Enigma密文",
+      "entities": [
+        {
+          "name": "Enigma",
+          "explain": "二战时期德国使用的加密机器，其密文破译曾是盟军情报战的关键"
+        },
+        {
+          "name": "GPT-6 Astra",
+          "explain": "OpenAI发布的第六代大语言模型的一个版本，代号Astra"
+        },
+        {
+          "name": "MVUEH密文",
+          "explain": "一个自2005年起悬赏征解的Enigma加密挑战题，此前无人成功破解"
+        }
+      ],
+      "summary": "OpenAI的GPT-6 Astra成功破解了一段自2005年以来一直无人解出的Enigma加密信息。该密文是密码学社区长期悬赏的挑战题，此前人类专家和传统计算方法均未能攻克。",
+      "relevant": "如果属实，这标志着大语言模型在密码分析领域展现出超越传统方法的潜力，也引发对AI双重用途的担忧。",
+      "context": "该Enigma密文由密码学爱好者社区于2005年发布，作为公开挑战题，近二十年来未被破解。GPT-6 Astra是OpenAI最新发布的模型版本之一。",
+      "source_analysis": "消息来自密码学社区网站Cryptocellar，属于小众专业信源，尚需独立验证。",
+      "social_impact": "若被证实，将引发对AI在密码破译和网络安全领域能力的广泛关注。",
+      "source_text": "On 15 September 2026, Carter Leffer contacted me to request validation of a break of the German Army Enigma message MVUEH of 10 July 1941. The message, which was sent by a radio station with the tactical callsign 2ny, was received by the radio station of the SS-Totenkopf Quartiermeister, Ib. Ib received the message at 17:30 on 10 July 1941 and logged the message as Nr. 172 in its log of incoming messages for July 1941. Since 2005, the message has resisted all attempts to break it. On 9 June 2017, Alex Shovkoplyas succeeded in breaking another unbroken message from this day, Nr. 173, SIPVX. However, the Enigma key he recovered for the message differed slightly from the daily Enigma key for 10 July 1941 used for all other messages from this day. The SIPVX key used the same wheel order, 512, as the daily key, but the plug connections (Stecker) and ring setting (Ringstellung) differed. However, the new key did not allow us to break the MVUEH message. After Carter Leffer sent the MVUEH break details, it was immediately clear he had found the correct key and plaintext. The MVUEH key turns out to be completely different from the other keys from 10 July 1941; even the wheel order differs: 253 instead of 512 for the other two keys. More surprising is that the plaintext is almost identical to the plaintext for message Nr. 173, SIPVX. The two messages differ in length by twelve letters. MVUEH is 82 letters long, while SIPVX has 94 letters. This difference is due to a mistake when enciphering the word Bitte in MVUEH, which resulted in Btte, and to the sender’s signature, Waschbusch, being repeated in the SIPVX message. An analysis of the break revealed that the transcription of the MVUEH ciphertext from the original message form contained several errors, and the break revealed that the Enigma’s left-hand wheel makes a turnover at the 72nd letter. A turnover of the Enigma’s left-hand wheel, which rarely occurs, is known to complicate a break. These factors may have prevented an earlier break. However, the most astonishing thing about this break is that the GPT–6 Astra did it entirely on its own. Carter Leffer only directed GPT–6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and it also quickly suspected that the plaintext of Nr. 173, SIPVX, might be related to the plaintext of the unbr",
+      "source_title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "source_url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 48,
+      "title": "OpenAI发布GPT-6系列模型Sol和Luna",
+      "entities": [
+        {
+          "name": "GPT-6",
+          "explain": "OpenAI第六代大语言模型，ChatGPT的底层技术"
+        },
+        {
+          "name": "Sol和Luna",
+          "explain": "GPT-6系列下的两个不同版本模型，可能分别针对不同能力或场景优化"
+        }
+      ],
+      "summary": "OpenAI正式发布GPT-6系列，包含Sol和Luna两个模型版本。这是OpenAI在通用人工智能竞赛中的最新一代旗舰产品，预计将在推理、多模态等能力上大幅提升。",
+      "relevant": "GPT-6的发布将重新定义大模型能力天花板，直接影响全球AI产业竞争格局。",
+      "context": "OpenAI此前已发布GPT-4、GPT-5系列，行业竞争激烈，Anthropic、Google等对手持续追赶。GPT-6的发布是OpenAI维持领先地位的关键动作。",
+      "source_analysis": "消息来自OpenAI官方发布页面，属于一手官方信源。",
+      "social_impact": "新模型发布将影响数百万开发者和企业的技术选型，也可能引发新一轮AI监管讨论。",
+      "source_text": "Introducing GPT‑6 Sol and Luna More ways to bring frontier intelligence into the work you do every day. Earlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets. That’s why we’re expanding the GPT‑6 universe with GPT‑6 Sol and GPT‑6 Luna. GPT‑6 Astra introduced a new generation of intelligence—these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency. We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models. The GPT‑6 models lead across the cost–intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale. Improvements in caching and inference let us serve these models at lower cost, and we’re passing those savings directly on to users and customers by reducing API prices for Sol and Luna by 50% compared with their GPT‑5.6 promotional pricing. Together, these improvements make advanced AI practical for more everyday tasks and applications at scale. Prices are per 1 million tokens. GPT‑6 Astra continues to be our best model across the board. Choose it when you want the best results and an uncompromising experience. GPT‑6 Sol and Luna bring intelligence upgrades and cost efficiency to the models you already know and use across capabilities most useful for getting complex work done. GPT‑6 Sol can take on difficult work tasks while giving you more room to iterate with higher usage limits and lower cost, offering more intelligence and better results versus similarly priced competitor models. On AutomationBench, a test of business workflows across apps, GPT‑6 Sol at xhigh effort outperforms Claude Opus 5 at max effort at just 9% of Opus 5’s cost per task. At high effort, GPT‑6 Luna improves on its predecessor by 5.4 percentage points at 58% lower cost per task. GPT‑6 Sol also exceeds Claude Fable 5.1 at far lower cost, and even bests low-effort GPT‑6 Astra. On Agents’ Last Exam, which evaluates agents on complex professional workflows, GPT‑6 Sol at max effort scores 56.4%, above Claude Opus 5’s highest score in the evaluation at 60% lower cost per task. The usefulness of an answer depends on ",
+      "source_title": "GPT-6 Sol and Luna",
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 50,
+      "title": "Anthropic发布Claude Opus 5.5",
+      "entities": [
+        {
+          "name": "Anthropic",
+          "explain": "美国AI公司，由前OpenAI成员创立，主打AI安全，开发Claude系列模型"
+        },
+        {
+          "name": "Claude Opus 5.5",
+          "explain": "Anthropic旗下最强模型系列Opus的最新版本，面向高复杂度任务"
+        }
+      ],
+      "summary": "Anthropic发布Claude Opus 5.5，这是其旗舰模型Opus系列的最新迭代版本。新版本预计在推理能力、编码性能和性价比方面均有提升，直接对标OpenAI的GPT-6系列。",
+      "relevant": "Claude与GPT-6在同一天发布，标志着AI头部厂商竞争进入白热化阶段。",
+      "context": "Anthropic的Claude系列在企业市场和编程辅助领域表现强劲，Opus是其最高端产品线。此次发布紧随OpenAI GPT-6，形成正面竞争态势。",
+      "source_analysis": "消息来自Anthropic官方发布页面，属于一手官方信源。",
+      "social_impact": "企业用户和开发者将获得更多高性能模型选择，价格竞争可能进一步降低AI使用成本。",
+      "source_text": "We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier. It was tested before release by external evaluators, including Frontier Design and METR. On our automated behavioral audit, the most comprehensive alignment test we run, Opus 5.5 is the strongest-performing model we’ve tested to date. It also comes with the safeguards we’ve developed for our most capable models. Here are some of the improvements you can expect from Opus 5.5: Performance. Opus 5.5 is a major step up from Opus 5. It’s the new leading model, and early testers saw large jumps in performance on their most complex work. One tester completed a 680,000-line code migration in less than a day—work that would have taken an engineering team weeks. It’s good at finding and fixing inefficiencies in software: when we asked it to cut load times across every page of a web app, Opus 5.5 succeeded 39 of 40 times, while Opus 5 made smaller improvements that also altered the app’s behavior. A different tester had several Claude models build a game from a single prompt; Opus 5.5 scored higher than any other model on the strength of its graphics and polish. Safety. Opus 5.5 achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands of simulated scenarios. It is much less likely than recent models to take hard-to-reverse actions or act outside the boundaries it’s been given, and it’s more resistant than Opus 5 to prompt injection. We’ve also broadened our alignment testing to cover longer tasks, impossible tasks, and scenarios modeled on real incidents, though it still has limits. Full details of our evaluation are available in the Opus 5.5 System Card. Because Opus 5.5 is comparable to Claude Mythos 5.1 in biology and cybersecurity, we’re deploying it with safeguards similar to those on Claude Fable 5.1. Vetted organizations can apply today to our Life Sciences Verification Program to use Opus 5.5 for biology research. In the coming weeks we will also be expanding access to our Cyber Verification Program, and verified cybersecurity practitioners will be able to use Opus 5.5 for their work. Cost and speed. Opus 5.5 requires less compute to serve than Opus 5, and its pricing reflects that. Our tests show that at default settings it will ",
+      "source_title": "Claude Opus 5.5",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 52,
+      "title": "Artificial Analysis发布Claude Opus 5.5性能与价格分析",
+      "entities": [
+        {
+          "name": "Artificial Analysis",
+          "explain": "独立AI模型评测机构，提供各模型的性能、速度和价格对比数据"
+        },
+        {
+          "name": "Claude Opus 5.5",
+          "explain": "Anthropic最新发布的旗舰AI模型"
+        }
+      ],
+      "summary": "独立评测机构Artificial Analysis发布了Claude Opus 5.5的智能水平、性能和价格分析报告。该报告提供了与竞品的横向对比数据，帮助用户评估其性价比。",
+      "relevant": "第三方独立评测为开发者和企业选择AI模型提供了客观参考依据。",
+      "context": "Claude Opus 5.5刚由Anthropic发布，市场需要独立的性能验证数据来评估其实际表现。Artificial Analysis是业内公认的模型评测基准来源之一。",
+      "source_analysis": "Artificial Analysis是独立第三方评测机构，不隶属于任何AI厂商，数据相对客观。",
+      "social_impact": "评测数据将直接影响开发者的模型选型决策和企业的AI采购预算分配。",
+      "source_text": "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) Intelligence, Performance & Price Analysis Model summary Speed Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) is amongst the leading models in intelligence, but somewhat expensive when comparing to other models of similar price. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) scores 58 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 25). When evaluating the Intelligence Index, it generated 260M tokens, which is very verbose in comparison to the median of 88M. Pricing for Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) is $4.00 per 1M input tokens (somewhat expensive, median: $2.00) and $20.00 per 1M output tokens (somewhat expensive, median: $10.00). In total, it cost $8708.20 to evaluate Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) on the Intelligence Index. Metrics are compared against models of the same class: - Non-reasoning models → compared only with other non-reasoning models - Reasoning models → compared across both reasoning and non-reasoning - Open weights models → compared only with other open weights models of the same size class: - Tiny: ≤4B parameters - Small: 4B–40B parameters - Medium: 40B–150B parameters - Large: >150B parameters - Proprietary models → compared across proprietary and open weights models of the same price range, using a blended 3:1 input/output price ratio: - <$0.15 per 1M tokens - $0.15–$1 per 1M tokens - >$1 per 1M tokens Highlights Speed IntelligenceUpdated Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index by Open Weights / Proprietary Measures the performance of models on specific capabilities and industries Artificial Analysis Finance & Accounting Index Intelligence Evaluations Agentic knowledge work, (Elo-500)/2000 Agentic real-world work tasks, (Elo-500)/2000 Agentic SaaS workflows Agentic coding & terminal use Coding Reasoning & knowledge Professional document reasoning, All-pass Physics reasoning Knowledge 1 - hallucination rate Long context reasoning Legal agentic work, criterion pass rate Agentic business operations Quantitative analysis on spreadsheets & documents Agentic tool use Kubernetes incident root-cause analysis Visual reasoning Medical long context reasoning AA-Briefcase v1.1Update",
+      "source_title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "source_url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 26,
+      "title": "开发者实测：Opus 5.5缓存读取降价60%，重新计算Text-to-SQL架构成本",
+      "entities": [
+        {
+          "name": "缓存读取",
+          "explain": "AI模型API的一种计费方式，读取之前已缓存的内容比重新计算便宜得多"
+        },
+        {
+          "name": "Text-to-SQL",
+          "explain": "将自然语言问题自动转换为SQL数据库查询语句的技术"
+        },
+        {
+          "name": "Dev.to",
+          "explain": "面向软件开发者的技术博客和社区平台"
+        }
+      ],
+      "summary": "一位开发者在Dev.to上分享了Claude Opus 5.5发布后对其Text-to-SQL架构的成本重算。Opus 5.5将缓存读取价格降至每百万token 0.20美元，比之前便宜60%，显著改变了AI应用的成本结构。",
+      "relevant": "对构建AI应用的开发者而言，缓存成本大幅下降可能改变架构设计决策，使更多场景在经济上可行。",
+      "context": "Claude Opus 5.5于前一天发布，其缓存读取定价大幅下调。该开发者此前已构建了基于Claude的Text-to-SQL系统，需要根据新价格重新评估架构选择。",
+      "source_analysis": "Dev.to是开发者社区平台，该文章为个人开发者的一手实测经验分享，立场中立但属于个人观点。",
+      "social_impact": "缓存成本降低60%意味着高频调用AI的生产级应用运营成本将大幅下降，可能加速AI在企业中的落地。",
+      "source_text": "TL;DR: Claude Opus 5.5 came out yesterday with cache reads at $0.20 per million tokens, 60% cheaper than Opus 5. I redid the cost math for my text-to-SQL CRM assistant. For one design choice, the cost gap between \"retrieve only the relevant schema\" and \"send the whole schema every time, cached\" shrank from 2.1x to 1.2x. At that point the choice stops being about cost and becomes about accuracy. The migration guide also has two breaking changes that hit text-to-SQL setups directly. Some context: how Aria picks the schema to send A few months ago I wrote about Aria, an AI assistant that lets CRM agents ask questions in plain English and get answers from live SQL. The core trick is RAG over the schema, not over the data. A Python pipeline writes a plain-English description of every table, column and enum value in the CRM (~90 docs in total). When an agent asks a question, I embed the question, run a pgvector search over those docs, and send only the top 5 to the model along with the question. Here's why I built it that way: - Cost. I didn't want to pay for the whole semantic layer on every request. - Focus. I reasoned that a model shown 5 relevant tables writes better SQL than one shown all 15. Opus 5.5's pricing mostly takes away reason #1. That leaves reason #2, which I never actually measured. The pricing change that matters here Most of the headlines are about the 20% cut on input and output. For a schema-heavy workload, though, cache reads matter most. They used to cost 0.1x the input price and now cost 0.05x. The napkin math These are my assumptions. Plug in your own numbers: - 800 questions/day (40 agents × ~20 questions, which is roughly the load I described in my last post) - Full semantic layer: ~20k tokens (~90 docs × ~220 tokens) - Top-5 retrieval: ~1.1k tokens per question - ~10 cache writes/day. The default cache lives 5 minutes, and every hit refreshes it for free. 800 questions over a 9-hour workday is about 1.5 per minute, so the cache stays warm most of the day and only goes cold at the start of the day or after lunch. I'm only counting the schema part of the prompt, because that's the only part that differs between the two designs. Option A: retrieve top 5, no caching (the retrieved docs change on every question, so there's no stable prefix to cache) Option B: send the full semantic layer on every request as a cached prefix Per question on Opus 5.5, that's $0.0044 vs $0.0053. Over a 22-working-day month, it's about $77 vs $92. On Opus 5, \"j",
+      "source_title": "Opus 5.5 Made Cache Reads 60% Cheaper. I Redid the Math on My Text-to-SQL Architecture",
+      "source_url": "https://dev.to/rakno/opus-55-made-cache-reads-60-cheaper-i-redid-the-math-on-my-text-to-sql-architecture-4jjb",
+      "source_name": "Dev.to",
+      "group": "community"
+    },
+    {
+      "item_id": 55,
+      "title": "Interconnects分析：当前开源AI模型的权力格局",
+      "entities": [
+        {
+          "name": "开源模型",
+          "explain": "权重公开、任何人可自由下载和部署的AI模型，如Llama、Mistral等"
+        },
+        {
+          "name": "Interconnects",
+          "explain": "由AI研究员Nathan Lambert主笔的知名AI行业分析通讯"
+        }
+      ],
+      "summary": "AI行业分析通讯Interconnects发布文章，分析当前开源AI模型领域的竞争格局和权力分布。文章探讨了Meta、Mistral、阿里等主要开源模型提供方之间的实力对比和趋势变化。",
+      "relevant": "开源与闭源模型的竞争是AI行业的核心议题之一，直接影响技术民主化和商业格局。",
+      "context": "近年来开源模型能力快速逼近闭源模型，Meta的Llama系列、中国的Qwen等模型引发广泛关注。该分析旨在梳理当前各方实力对比。",
+      "source_analysis": "Interconnects由Nathan Lambert主笔，他是AI领域知名研究员，分析通常深入且立场偏向开源生态。",
+      "social_impact": "开源模型的格局变化影响全球AI技术的可及性和中小企业的技术选择空间。",
+      "source_text": "I was recently invited to brief a group of Congressional members and staff on the state of open-weight models in the lens of U.S.-China competition. I’m sharing my prepared remarks as a state of the union on open models that is accessible to a broader audience. Recap: What is an open source v. open-weight vs. closed model? Open language models are AI models where their weights are publicly available for inspection or downstream use. These are most often contrasted to so-called “closed” AI models. Closed models offer access only through Application Programming Interfaces (APIs) that developers can use to directly query a model, like GPT-4 or Claude Opus 4.5, or through products, like ChatGPT and Claude Code. Open language models primarily are bucketed into two categories, open-weight and open-source models. Open-weight models are the most common form, such as popular models like Meta’s Llama, Alibaba’s Qwen, Google’s Gemma, or DeepSeek’s models. These models are governed by licenses, governing documents dictating what is allowed with downstream use, and are often accompanied by inference code in libraries such as Transformers, VLLM, SGLANG, etc. Since about April 2025, Chinese AI companies have been the clear leader in open-weight models. True “open-source” models are similar to these, as they include the weights, licenses, and inference code, but they also include the complete information needed to reproduce the model – the training code and training data. The most prominent open-source models have been built in the United States, led recently by the Allen Institute for AI’s Olmo models that I helped build in my recent 2.5 years there. The other prominent open-source models are also built by American non-profit organizations, including OpenAthena’s Marin models and EleutherAI’s Pythia models. Open-weight, open-source, and every other label for a model – including closed models primarily offered via an API – exist on a spectrum. For example, Nvidia’s Nemotron models are far more open than most open-weight models, releasing large quantities of their training data under permissive licenses, but they’re not fully open-source because they do not release all of the data. Closed models also exist on a spectrum based on what information the API reveals and the terms of use. The state of competition between American and Chinese open-weight models (unit economics, technical capabilities, etc.) We are living in a world where GLM-5.2 and Kimi K3, some of the latest, l",
+      "source_title": "The current balance of power in open models",
+      "source_url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source_name": "Hacker News",
+      "group": "community"
+    },
+    {
+      "item_id": 19,
+      "title": "Anthropic开源Commerce Agents参考架构，助力构建购物和商家AI代理",
+      "entities": [
+        {
+          "name": "Claude Agent SDK",
+          "explain": "Anthropic提供的开发工具包，帮助开发者用Claude构建自主AI代理"
+        },
+        {
+          "name": "购物代理",
+          "explain": "嵌入商家App中帮消费者完成选购的AI助手"
+        },
+        {
+          "name": "商家代理",
+          "explain": "帮商家员工管理后台运营（如库存、订单）的AI助手"
+        }
+      ],
+      "summary": "Anthropic在GitHub发布Commerce Agents开源项目，提供构建购物代理和商家代理的参考架构。项目包含零售、电商、电信和娱乐四个可运行的垂直示例，所有写操作需人工审批后才生效。",
+      "relevant": "这是Anthropic向企业级AI代理应用场景扩展的重要一步，为开发者提供了可直接参考的落地蓝图。",
+      "context": "AI代理（Agent）是当前行业热点，但企业在电商等场景落地时缺乏安全可控的参考实现。Anthropic通过开源项目展示如何在保证安全审批的前提下构建商业代理。",
+      "source_analysis": "消息来自GitHub官方仓库，属于Anthropic官方开源项目，立场为推广其技术生态。",
+      "social_impact": "降低了企业构建AI商业代理的技术门槛，可能加速AI在零售和电商领域的应用落地。",
+      "source_text": "Two commerce agents built on Claude: a shopping agent a business embeds in its app for customers, and a merchant agent its staff use to run the back office. Each is defined once (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent SDK, and Managed Agents; four runnable verticals show both over the same libraries. Note Every company, brand, product, and person here is fictional; the only company is ACME. Nothing places an order, charges a card, or changes a live listing: checkout renders the cart for the host to complete, and every merchant write is staged until a person approves it. Business rules, authorization, and compliance are the deployment's. Python 3.11+ and Node 22. Clone, install, add a key, run a vertical: git clone https://github.com/anthropics/commerce-agents.git && cd commerce-agents python3 -m venv .venv && source .venv/bin/activate pip install -r requirements.txt # the seven packages and their pinned dependencies cp .env.example .env # add ANTHROPIC_API_KEY (cd examples && npm ci) # the eight web apps share one workspace python scripts/run_demo.py retail # API :8000 + storefront :3000 --merchant starts the portal instead of the storefront and --all starts both. The verticals are retail (:3000, portal :3100), travel (:3001, :3101), telecom (:3002, :3102), and entertainment (:3003, :3103); each README lists prompts to try on both surfaces. The Claude Code plugin scaffolds an agent on these packages against your systems, or reviews one you have. With the repo cloned as above (the plugin reads it as the reference): claude plugin marketplace add anthropics/commerce-agents claude plugin install commerce-builder@claude-commerce-agents claude /scaffold-commerce-agent a shopping assistant for our store The command asks about your stack, plays the plan back, and builds the project; /add-commerce-flow and /author-commerce-evals continue from there, and /review-commerce-agent starts from an agent that already exists (plugins/commerce-builder/). Each command also runs when a request matches its description, so naming it is optional. The shopping agent searches, compares, plans, fills the cart, answers order and policy questions, and remembers what a customer tells it. Its five flows are the skills in shopping-agent/skills/; a deployment implements StorefrontBackend over its catalog, cart, order, and policy systems. The merchant agent explains performance, maintains listings, acts on inventory and order alerts, prices an",
+      "source_title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "source_url": "https://github.com/anthropics/commerce-agents",
+      "source_name": "GitHub AI项目",
+      "group": "community"
+    },
+    {
+      "item_id": 1,
+      "title": "browser-use 发布 Jev Ultrafast：7.1 秒完成 Google Flights 订票的网页智能体",
+      "entities": [
+        {
+          "name": "browser-use",
+          "explain": "一家专注于浏览器自动化 AI 智能体的开源项目团队"
+        },
+        {
+          "name": "Jev Ultrafast",
+          "explain": "browser-use 与 TypeSafe 合作开发的高速网页智能体，用动态索引动作空间替代传统逐步推理"
+        },
+        {
+          "name": "TypeSafe",
+          "explain": "提供 Jev 决策引擎的公司，负责为智能体选择操作和页面元素"
+        },
+        {
+          "name": "Browser Use Cloud",
+          "explain": "browser-use 推出的云端浏览器智能体服务，目前开放候补名单"
+        }
+      ],
+      "summary": "browser-use 联合 TypeSafe 发布 Jev Ultrafast，号称最快最便宜的网页智能体。它采用动态索引动作空间，由 TypeSafe 的 Jev 选择操作和元素，仅在需要输入文字时调用小型 LLM。实测在 Google Flights 上从苏黎世到伦敦的订票任务仅需 7.1 秒，包含文本生成和加载等待时间。Browser Use Cloud 候补名单同步开放。",
+      "relevant": "网页智能体的速度和成本是当前 AI Agent 落地的核心瓶颈，7.1 秒完成真实订票任务若可复现，将显著推动浏览器自动化在电商、旅行等场景的商业化。",
+      "context": "传统网页智能体通常依赖大模型逐步推理每个操作，速度慢且 token 消耗高。browser-use 此前已推出浏览器自动化框架，此次与 TypeSafe 合作，用 Jev 决策引擎替代逐步推理，大幅压缩延迟和成本。",
+      "source_analysis": "信息来自 GitHub 项目 README，属于项目方自述，性能数据未经第三方验证，带有推广 Browser Use Cloud 候补名单的商业动机。",
+      "social_impact": "若网页智能体速度提升到秒级，将影响在线旅行、电商比价、表单填写等大量重复性网页操作场景的劳动力替代进程。",
+      "source_text": "Important The Browser Use Cloud waitlist is open. Get early access to ultrafast browser agents in the cloud. Join the waitlist → A browser agent with a dynamic, indexed action space. Give it one goal. TypeSafe's Jev picks an operation and an element. A small LLM writes text only when the operation is TYPE_TEXT. Zürich → London on Google Flights in 7.1 seconds. One natural-language goal, actual text generation, and loading waits included. Watch the MP4 · Measurements · Read the loop Every observation produces a new element table: [1] button Change ticket type · Round trip [2] combobox Where from? · San Francisco [3] combobox Where to? · empty [4] textbox Departure · empty ... The operations are CLICK, TYPE_TEXT, SELECT, SCROLL_UP, SCROLL_DOWN, WAIT, DONE, and BLOCKED. Only supported operations and targets are offered. one TypeSafe request ┌───────────────────────────┐ page → element table → operation │ │ click_target │ │ type_text_target │ │ select_target, if present │ └─────────────┬─────────────┘ use the matching target │ CLICK [7] ─────┤──→ browser TYPE_TEXT [3] ─────┘ ↓ small LLM → text → browser Target questions are speculative. If the operation is CLICK, only click_target can execute. Two decisions, one network round trip. Each target head contains only compatible elements. Native dropdown choices carry an observed element/option index. There are no site-specific action scripts or prepared field strings in the policy. The Flights example supplies a goal and independently verifies the outcome. The screenshot renderer adds labels afterward; it does not drive the browser. git clone https://github.com/browser-use/jev-ultrafast.git cd jev-ultrafast uv sync cp .env.example .env # Add TYPESAFE_API_KEY and TEXT_MODEL_API_KEY. uv run jev Open http://127.0.0.1:8766 and click Start demo → Run automatically. The inspector shows numbered elements, operation probabilities, target probabilities, and executed actions. Choose next pauses before execution. Chrome connects through Browser Harness, installed by uv sync. Run uv run browser-harness --doctor if it needs connecting. Allow remote debugging in Chrome when prompted. TEXT_MODEL_API_KEY is an OpenRouter key in the example configuration. The current demo uses inception/mercury-2.5 with reasoning disabled. Gemini, GLM, and DeepSeek can also use the OpenAI-compatible text helper; configure the appropriate model, endpoint, and reasoning setting. from jev_ultrafast import Agent with Agent( \"https://www.google.com/trav",
+      "source_title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "source_url": "https://github.com/browser-use/jev-ultrafast",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    },
+    {
+      "item_id": 6,
+      "title": "Z.ai 开源 ZCode：覆盖桌面、浏览器和终端的 AI 编程工作台",
+      "entities": [
+        {
+          "name": "Z.ai",
+          "explain": "智谱 AI 旗下的海外品牌，提供大模型和 AI 编程工具"
+        },
+        {
+          "name": "ZCode",
+          "explain": "Z.ai 推出的 AI 编程工作台，包含桌面应用、浏览器界面和终端 Agent"
+        },
+        {
+          "name": "Agent CLI",
+          "explain": "命令行形式的 AI 编程助手，可在终端中直接调用"
+        }
+      ],
+      "summary": "Z.ai 在 GitHub 开源 ZCode，定位为 AI 编程工作台，提供 Electron 桌面应用、浏览器界面和终端 Agent 三种入口。仓库包含客户端、后端服务、共享 UI 以及 Agent CLI 与运行时源码。项目同时提供飞书社群和 Discord 社区支持。",
+      "relevant": "AI 编程工具竞争激烈，ZCode 以多入口开源策略切入，可能吸引开发者基于其运行时构建自定义编程 Agent。",
+      "context": "Z.ai 此前主要提供大模型 API，ZCode 是其向 AI 编程工具链延伸的产品。当前 Cursor、Claude Code、GitHub Copilot 等已占据市场，ZCode 以开源和多端覆盖作为差异化。",
+      "source_analysis": "信息来自 GitHub 仓库 README，属于项目方自述，未披露性能基准或与竞品的对比数据。",
+      "social_impact": "开源 AI 编程工作台降低了开发者构建自定义编程 Agent 的门槛，可能加速 AI 辅助编程在中小团队中的普及。",
+      "source_text": "简体中文 | English ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。 准备 Git、Node.js 24.14.0 和 pnpm 10.33.2，版本以 mise.toml 为准。以下开发和打包命令均在仓库根目录执行。 pnpm bootstrap pnpm bootstrap 安装 workspace 依赖、准备桌面本地运行资源，再执行 build:bootstrap。 Agent CLI 与运行时源码位于 apps/zcode-cli/，作为普通目录随本仓库一起克隆，无需单独拉取或初始化 Git submodule。 根据需要选择其他初始化或构建入口： 默认 bootstrap 跳过远程资源准备，适合本地桌面开发。使用远程工作区或验证远程发行资源时，再运行对应准备命令。 pnpm dev:desktop # 使用测试环境 pnpm dev:desktop:test pnpm dev:desktop 默认等同于 pnpm dev:desktop:prod，使用生产服务配置。启动脚本会准备本地运行资源、构建桌面 Agent，再启动 Electron 和源码监听。 需要独立开发数据目录时，可设置 ZCODE_DATA_BASE_DIR。例如在 macOS / Linux 中： ZCODE_DATA_BASE_DIR=\"$HOME/.zcode-dev-home\" pnpm dev:desktop:test 先执行 pnpm bootstrap:with-remote 准备远程资源（mock-cdn），再 pnpm dev:desktop；连接远程项目时资源选择「本地下载后上传」。开发态资源取自本地 packages/desktop/mock-cdn 和本地构建产物，经 SFTP 上传到远程，不访问 CDN。 修改 Web 或后端源码时，使用开发模式： pnpm dev:web # 指定后端工作区（macOS / Linux） ZCODE_SERVER_WORKSPACE=/path/to/project pnpm dev:web 该命令同时启动 Web 开发服务器（默认 http://localhost:5173）和后端（默认 http://localhost:3030）；浏览器访问前者。/ws 和一般 /api 请求代理到本地后端，/api/v1/oauth/token 单独代理到当前配置的产品服务。 Agent 源码修改后，执行 pnpm --filter @zcode/cli... build 并重启服务。需要验证完整发行包时，按下方“ZCode 命令行版”打包章节解压运行。 命令行发行包包含 TUI、Web 和 Agent，统一使用 zcode 启动：无参数进入 TUI；第一个参数为 --web 时启动 Web；其他参数交给现有 Agent CLI 处理。两种模式都在本机运行，无需 Electron。 # 默认进入终端交互界面 zcode # 启动 Web 界面 zcode --web # 指定项目和端口，不自动打开浏览器 zcode --web --workspace /path/to/project --port 3030 --no-open # 查看 CLI 或 Web 参数 zcode --help zcode --web --help Web 模式默认工作目录为当前目录，监听 127.0.0.1，默认不启用访问令牌，自动选择空闲端口并打开浏览器。访问终端输出的地址，按 Ctrl+C 停止服务。局域网访问可使用 --host 0.0.0.0；监听非本机地址时默认生成访问令牌，使用终端输出的带令牌链接。可通过 --token 指定令牌或 --no-token 关闭令牌认证。 直接启动通用 Web 服务的 HTTP 入口时，通过 ZCODE_SERVER_AUTH_TOKEN 配置 API／WebSocket 认证；通过程序接口创建服务时，使用 authToken 选项。 构建方式见下方打包章节。pnpm build:zcode 只生成发行包，不会替换 PATH 中已有的 zcode。如果命令仍指向旧安装或其他源码目录，macOS / Linux 可用 command -v zcode 检查，Windows 可用 where.exe zcode 检查。 直接开发 TUI 或 Agent 时，运行源码入口： pnpm --filter @zcode/cli dev --help pnpm --filter @zcode/cli dev # 构建 CLI 及其 workspace 依赖 pnpm --filter @zcode/cli... build node apps/zcode-cli/packages/cli/dist/zcode.cjs --help 这个入口直接运行 Agent CLI，不经过发行包的 --web 分流。开发 Web 用 pnpm dev:web；验证统一的 zcode 命令，用下方解压后的 bin/zcode.mjs。 根目录 .env.example 提供服务地址与构建配置示例，可按需复制到 .env，本地覆盖放入 .env.local。Desktop 的开发环境通过 dev:desktop:test / dev:desktop:prod 选择。 运行时变量可在启动命令的环境中显式设置。随客户端发布的默认配置见 config/README.md。 第三方声明生成、发行校验流程及声明在发行物中的位置见 third-party/README.md。 pnpm bundle:desktop # 指定目标平台与 CPU 架构 pnpm bundle:desktop -- --os win --arch x64 pnpm bundle:desktop -- --",
+      "source_title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "source_url": "https://github.com/zai-org/ZCode",
+      "source_name": "GitHub Trending",
+      "group": "community"
+    }
+  ],
+  "items": [
+    {
+      "id": "arxiv_abff887ff6b9",
+      "source": "ArXiv cs.AI",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://arxiv.org/abs/2609.26780v1",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attribution and relational understanding in multi-party dialogue, and state reconstruction from interleaved histories. To address both, we propose $\\textbf{SpeakerMem-R1}$: its dual-track memory stores speaker-labeled verbatim messages and derived states organized into person-level and group-level views, then combines evidence from both tracks by entity, event, and time at query time. To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO. On GroupMemBench, SocialMemBench, and EverMemBench, SpeakerMem-R1 achieves binary accuracies of 47.9%, 69.2%, and 61.9%, respectively. On the publicly reported EverMemBench leaderboard from EverMind-AI, we achieves 62.33%, the best reported result among the latest state-of-the-art frameworks. It also achieves 70.85% on all 1,986 LoCoMo",
+      "author": "Haobo Zheng, Tan Tang, Yan Chen"
+    },
+    {
+      "id": "arxiv_7b82eb2e7936",
+      "source": "ArXiv cs.AI",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2609.26779v1",
+      "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performance--cost trade-off of test-time scaling more efficient, adding over 10 percentage points on Terminal-Bench for less than the cost of two full-context runs. Under parallel test-time scaling, CliffCompaction lets Kimi K2.6 match Opus 4.7, and exceed Opus 4.6 and GPT-5.3 Codex at lower cost. The key to CliffCompaction's effectiveness is that it keeps compacted information faithful by only truncating or dropping content, never rephrasing or rewriting it. We never compact a compaction---each pass operates only on original content, and prior compacted output is discarded, preventing context drift from accumulating. These properties sustain continual learning over sessions exceeding a million tokens: on KernelBench, CliffCompaction reaches CUDA kernel speedups of $2.23\\times$ after 200 steps and $3.58\\times$ after 400 steps, surpassing specialized search algorithms and trained agents despite being a general-purpose compaction technique. We open-source a scaffold-agnostic API-proxy implementati",
+      "author": "Trang Nguyen, Eulrang Cho, Bingqing Chen"
+    },
+    {
+      "id": "arxiv_221eca3fc69f",
+      "source": "ArXiv cs.AI",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "url": "https://arxiv.org/abs/2609.26777v1",
+      "summary": "We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks. Dedicated inference benchmarks, meanwhile, focus primarily on isolated kernel generation or performance optimization rather than repository-scale production feature implementation. SWE-Serve provides 53 repository-grounded tasks derived from recent production changes to SGLang, spanning six inference engineering families. Each task executes on either CPU or a single GPU (H100) and is evaluated with hidden functional and regression tests, including, where applicable, end-to-end (E2E) serving tests and calibrated performance gates. Executable no-op and oracle controls, adversarial verifier review, and closed-book execution support task validity and evaluation integrity. Across 11 models and 31 model-effort configurations, the best-performing configuration achieves 75% mean pass@1. SWE-Serve exposes a substantial gap between completing tasks locally and achieving production correctness. On 19 tasks with end-to-end coverage, model-serving E2E tests reject roughly one-third of patches that pass",
+      "author": "Jennifer Williams, Dave Farris, Jeff Farris"
+    },
+    {
+      "id": "arxiv_ae87ed089226",
+      "source": "ArXiv cs.AI",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "url": "https://arxiv.org/abs/2609.26761v1",
+      "summary": "Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, direct attacks optimized and evaluated on GLM-4.6 achieve a macro-average malicious tool invocation rate of 93.6% across four scenarios, increase weighted token costs to 32.4$\\times$ the benign baseline under Cognitive Denial of Service, and attain a mean attack success rate of 74.4% across Information Exfiltration, Environment Integrity Compromise, and Reasoning Derailment. Transfer to four other models without re-optimization yields corresponding macro-averages of 63.6%, 2.7$\\times$, and 24.5%. These findings motivate stronger tool vetting and runtime isolation in MCP ecosystems. Code is publicly available at https://github.com/Lilaizhen/A2M.",
+      "author": "Laizhen Li, Xuan Wang, Peicheng Zhao"
+    },
+    {
+      "id": "arxiv_ce333d5ec78e",
+      "source": "ArXiv cs.AI",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "url": "https://arxiv.org/abs/2609.26760v1",
+      "summary": "Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes fixed model and tool interfaces but encodes no task-solving controller. Function-level execution traces localize each failure to a bounded code surface, an optimizer repairs a window of failures jointly, and a success-first held-out gate rolls back repair sequences that harm prior capability. Accepted edits accumulate in one shared harness, allowing its control structure to emerge from task feedback. Across BrowseComp-Plus and WebArena-Verified with three deployment models from 4B to 120B parameters, Growing Harness achieves the highest mean success in five of six benchmark-model settings and trails the best mean by 0.7 pp. in the sixth. Relative to a Tool-Calling agent, it reduces LLM calls by 76.0-91.8% and deployed-agent inference cost by 74.4-98.6%. On WebArena-Verified, its success remains 44.7-45.3% across model scales, whereas Tool-Calling falls to 6.7% with the 4B model. Ablations show that trace-local edits, joint repair, and gate-based rollback each improve final success. These ",
+      "author": "Laizhen Li, Jiarui Li, Juanjuan Zhao"
+    },
+    {
+      "id": "arxiv_3a975cc57d58",
+      "source": "ArXiv cs.LG",
+      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
+      "url": "https://arxiv.org/abs/2609.26783v1",
+      "summary": "We study decentralized partially observable team decision problems with low-rank latent dynamics and unknown system models. The proposed framework combines team-theoretic equivalence with low-rank model representations to address cooperative decision-making in partially observable Markov decision processes without prior knowledge of the transition model. Each team member makes decisions based on local private information and delayed common information shared across the team. Using only this available information, each member learns an approximate low-rank Markov decision process and applies least-squares value iteration to compute its policy. This yields a fully decentralized learning and planning algorithm that requires neither a centralized coordinator nor centralized training. We show that the resulting member-side solutions approximate the centralized team solution: despite partial observability, unknown dynamics, and delayed common information, each member recovers the corresponding component of an approximate team-optimal policy. We further establish finite-sample performance guarantees and derive a corresponding sample-complexity bound for the proposed algorithm.",
+      "author": "Xiaoxing Ren, Thomas Parisini, Andreas A. Malikopoulos"
+    },
+    {
+      "id": "arxiv_abff887ff6b9",
+      "source": "ArXiv cs.LG",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://arxiv.org/abs/2609.26780v1",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attribution and relational understanding in multi-party dialogue, and state reconstruction from interleaved histories. To address both, we propose $\\textbf{SpeakerMem-R1}$: its dual-track memory stores speaker-labeled verbatim messages and derived states organized into person-level and group-level views, then combines evidence from both tracks by entity, event, and time at query time. To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO. On GroupMemBench, SocialMemBench, and EverMemBench, SpeakerMem-R1 achieves binary accuracies of 47.9%, 69.2%, and 61.9%, respectively. On the publicly reported EverMemBench leaderboard from EverMind-AI, we achieves 62.33%, the best reported result among the latest state-of-the-art frameworks. It also achieves 70.85% on all 1,986 LoCoMo",
+      "author": "Haobo Zheng, Tan Tang, Yan Chen"
+    },
+    {
+      "id": "arxiv_7b82eb2e7936",
+      "source": "ArXiv cs.LG",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2609.26779v1",
+      "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the performance--cost trade-off of test-time scaling more efficient, adding over 10 percentage points on Terminal-Bench for less than the cost of two full-context runs. Under parallel test-time scaling, CliffCompaction lets Kimi K2.6 match Opus 4.7, and exceed Opus 4.6 and GPT-5.3 Codex at lower cost. The key to CliffCompaction's effectiveness is that it keeps compacted information faithful by only truncating or dropping content, never rephrasing or rewriting it. We never compact a compaction---each pass operates only on original content, and prior compacted output is discarded, preventing context drift from accumulating. These properties sustain continual learning over sessions exceeding a million tokens: on KernelBench, CliffCompaction reaches CUDA kernel speedups of $2.23\\times$ after 200 steps and $3.58\\times$ after 400 steps, surpassing specialized search algorithms and trained agents despite being a general-purpose compaction technique. We open-source a scaffold-agnostic API-proxy implementati",
+      "author": "Trang Nguyen, Eulrang Cho, Bingqing Chen"
+    },
+    {
+      "id": "arxiv_21583ee728f9",
+      "source": "ArXiv cs.LG",
+      "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+      "url": "https://arxiv.org/abs/2609.26751v1",
+      "summary": "Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. We present EquivSVA, a formally verified dataset organized around behavior families. Each family contains four structurally distinct RTL implementations of the same externally ob- servable behavior, shared interface-level gold properties, three controlled mutants, and formal-validation evidence. EquivSVA contains 120 behavior families across 12 cat- egories, 480 reference RTL implementations, 914 gold properties, and 360 mutants. Every final family passes a fixed 17-job validation suite covering RTL equivalence, gold-property proofs, property reachability, mutant dis- tinguishability, and gold-property checks on mutants. We also provide fixed family-safe train, development, and test splits. As a small demonstration of the analyses en- abled by the dataset, we evaluate the publicly released, Apache-2.0-licensed Qwen2.5-Coder-7B-Instruct model on the held-out test split. Of 293 interface-only generated properties, 93 are formally sound, and the number of sound properties varies across eq",
+      "author": "FNU Aditi"
+    },
+    {
+      "id": "arxiv_d36b18727c76",
+      "source": "ArXiv cs.LG",
+      "title": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping",
+      "url": "https://arxiv.org/abs/2609.26748v1",
+      "summary": "Clustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local centers, which are ranked by their representativeness. Each local center induces a group of similar points, with group-level similarity measured by a proposed nonparametric metric called group-level local similarity. To guide merging, we incorporate the bottleneck path idea from graph theory, which forms the basis of our adaptive merging criterion. Based on this criterion, we design a single agglomeration rule in which a group is either absorbed by a neighbor it reaches better than itself or bonded to a neighbor that both sides find more reachable than their own background, every merge being additionally required to be carried by a contact stronger than a configuration-model null expects. The rule automatically estimates the number of clusters and decides when to stop merging. Experiments on synthetic and real data show that A-DLCC produces interpretable clustering results without parameter tuning.",
+      "author": "Siyi Wang, Alexandre Leblanc, Paul D. McNicholas"
+    },
+    {
+      "id": "arxiv_f8b2faeb950b",
+      "source": "ArXiv cs.CL",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2609.26796v1",
+      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching and parallel decoding in isolation, overlooking the I/O bottlenecks that arise when cache reuse and parallel token verification are jointly applied. In this work, we introduce $\\textbf{Flash-dLLM}$, a training-free inference acceleration framework for fast and memory-efficient dLLMs. Flash-dLLM first identifies GPU memory I/O as a dominant bottleneck in KV-cache-enabled dLLM inference and addresses it with an I/O-aware fused KV-cache kernel that reduces redundant memory movement. Building on this optimized cache mechanism, Flash-dLLM further proposes an efficient KV-cache-driven draft-and-verify decoding strategy, where the dLLM itself serves as both drafter and verifier without requiring an auxiliary model. This unified design enables faster decoding while preserving generation quality and improving scalability to longer sequences and larger batch size. Extensive experiments on mathematical reasoning and code-generation benchmarks demonstrate that Flash-dLLM consistently outperforms existing state-of-the-art dLLM acceleration methods in both inference speed and memory efficiency. I",
+      "author": "Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen"
+    },
+    {
+      "id": "arxiv_c2c41dc7332e",
+      "source": "ArXiv cs.CL",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://arxiv.org/abs/2609.26781v1",
+      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers execute a multi-agent cooperation loop, continuously gathering context, claiming and self-assigning sub-tasks, taking action and sharing findings, verifying results, and merging progress in an asynchronous manner. The loop is supported by the agentic organization infrastructure comprising three components: a shared workspace holds proposed, ongoing, and completed work; a message interface lets workers communicate; and shared context retains reusable findings and work intentions. To test the scalability of Agensh, we evaluate it on the five hardest ProgramBench tasks with GPT-5.6-sol (high). Scaling from 1 to 128 agents raises the mean final test-pass rate from 19.31% to 28.78%, an approximately 49% relative improvement. Larger organizations reach comparable test-pass rates earlier. On pandoc, scaling from 1 to 1,024 agents raises the final test-pass rate from 33.89% to 55.06%. Worker trajectories further show that different forms of self-organized cooperation gradually emerges and standardizes as the organization grows. Thes",
+      "author": "Zhihao Zhan, Ting Song, Li Dong"
+    },
+    {
+      "id": "arxiv_abff887ff6b9",
+      "source": "ArXiv cs.CL",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://arxiv.org/abs/2609.26780v1",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attribution and relational understanding in multi-party dialogue, and state reconstruction from interleaved histories. To address both, we propose $\\textbf{SpeakerMem-R1}$: its dual-track memory stores speaker-labeled verbatim messages and derived states organized into person-level and group-level views, then combines evidence from both tracks by entity, event, and time at query time. To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO. On GroupMemBench, SocialMemBench, and EverMemBench, SpeakerMem-R1 achieves binary accuracies of 47.9%, 69.2%, and 61.9%, respectively. On the publicly reported EverMemBench leaderboard from EverMind-AI, we achieves 62.33%, the best reported result among the latest state-of-the-art frameworks. It also achieves 70.85% on all 1,986 LoCoMo",
+      "author": "Haobo Zheng, Tan Tang, Yan Chen"
+    },
+    {
+      "id": "arxiv_02b2562ac8f2",
+      "source": "ArXiv cs.CL",
+      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2609.26704v1",
+      "summary": "Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or strategies and then conditioning answer generation on them. We refine this into a simple, more exploratory procedure that emits many diverse concepts in a single trajectory, and evaluate it on hard problems where repeated sampling struggles. We then go a step further and make concept generation trainable: a small concept generator is optimized with reinforcement learning so that its concepts maximize the downstream success of a larger, frozen answer generator. On hard mathematical reasoning problems, the trained concept generator substantially improves the answer generator's pass@k over naive repeated sampling at the same answer generation allocation, surpasses concepts drawn from much larger untuned models, and transfers to answer generators it was never trained against, including a model from a different family. A small model can thus be trained into an effective, reusable search policy for a much larger one.",
+      "author": "Ismail Labiad, Matthieu Kowalski, Marc Schoenauer"
+    },
+    {
+      "id": "arxiv_c9365a66473f",
+      "source": "ArXiv cs.CL",
+      "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+      "url": "https://arxiv.org/abs/2609.26693v1",
+      "summary": "A coding agent must emit a valid tool call--a parseable invocation of a tool in the provided schema--before the harness can execute its chosen action. We study how local serving stacks affect this protocol step and show that measured outcomes can depend on the serving layer rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: some models are accepted and return calls as text, some return native tool_calls, while Phi-3 and Gemma-3 are rejected before inference. In our harness, rejection and retry exhaustion are not preserved as structured failure metadata, so downstream analysis can misclassify them as model non-calls and naively report 0% fidelity. Adding a text tool list while retaining the native channel recovers much of the measured fidelity for accepted models, whereas a uniform text protocol reduces fidelity for Llama-3.2, which has native tool-call support. Cross-stack probes on Ollama, llama.cpp, vLLM, and SGLang show different handling of the same request. Constrained decoding removes parse failures but can induce non-termination, and turn-pooled versus per-instance estimates differ by up to about 55 points. We conclude with a checklist for treating serving behavior as part of the evaluation protocol.",
+      "author": "Lijuan Tang, Yuemeng Zheng"
+    },
+    {
+      "id": "hf_d41d8cd98f00",
+      "source": "Hugging Face",
+      "title": "Lean Pool: An AI-Maintained Archive of Formalized Mathematics",
+      "url": "https://huggingface.co/papers/",
+      "summary": "Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents."
+    },
+    {
+      "id": "rss_dac738adf77f",
+      "source": "OpenAI",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "image": ""
+    },
+    {
+      "id": "rss_bf91b537b4f8",
+      "source": "OpenAI",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "image": ""
+    },
+    {
+      "id": "rss_ad5aab844085",
+      "source": "OpenAI",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "image": ""
+    },
+    {
+      "id": "rss_ff2ddc3a4215",
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_be486d71cec2",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "image": ""
+    },
+    {
+      "id": "rss_9def8edf83db",
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_662db54266bf",
+      "source": "量子位",
+      "title": "GPT-6 Astra搓3D刷屏后，3D生成的竞争规则变了",
+      "url": "https://www.qbitai.com/2026/09/496170.html",
+      "summary": "下半场开始了",
+      "image": ""
+    },
+    {
+      "id": "rss_b5e22fe1888d",
+      "source": "量子位",
+      "title": "Claude Opus 5.5突袭！68万行代码一天迁完，API价格打8折",
+      "url": "https://www.qbitai.com/2026/09/496221.html",
+      "summary": "缓存读取价砍了60%",
+      "image": ""
+    },
+    {
+      "id": "rss_c9630c198da5",
+      "source": "量子位",
+      "title": "刷视频也能教会机器人干活！1200亿tokens人类动作预训练，误差按幂律下降",
+      "url": "https://www.qbitai.com/2026/09/496129.html",
+      "summary": "押注互联网里的人类经验",
+      "image": ""
+    },
+    {
+      "id": "rss_dccb6d40f45d",
+      "source": "NVIDIA",
+      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png"
+    },
+    {
+      "id": "rss_ddc076cb8b90",
+      "source": "NVIDIA",
+      "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at [&#8230;]",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/09/intrinsic-roscon-960x943.jpg"
+    },
+    {
+      "id": "rss_41ca5692fc93",
+      "source": "NVIDIA",
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "summary": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing [&#8230;]",
+      "image": ""
+    },
+    {
+      "id": "rss_adc12754e090",
+      "source": "MIT科技评论AI",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_0078d060456a",
+      "source": "MIT科技评论AI",
+      "title": "Don’t be fooled by this summer of AI hype",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
+      "image": ""
+    },
+    {
+      "id": "rss_17445bf5e460",
+      "source": "MIT科技评论AI",
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technology Review&#160;and&#160;Times of San Diego. Journalists in both newsrooms spent the past&#8230;",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/Map-thumbnail-16_9-2.png"
+    },
+    {
+      "id": "rss_53ab1128b34e",
+      "source": "TechCrunch AI",
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "url": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+      "image": ""
+    },
+    {
+      "id": "rss_78a1537d6a00",
+      "source": "TechCrunch AI",
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "image": ""
+    },
+    {
+      "id": "rss_1cbc7decc459",
+      "source": "TechCrunch AI",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "image": ""
+    },
+    {
+      "id": "rss_71c23df3fda4",
+      "source": "HF Blog",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_9fb94c7d801d",
+      "source": "HF Blog",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "rss_b33d5adb95ae",
+      "source": "HF Blog",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "summary": "",
+      "image": ""
+    },
+    {
+      "id": "gh_1373655162",
+      "source": "GitHub Trending",
+      "title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "summary": "<img src=\"docs/banner.svg\" alt=\"Jev Ultrafast · Browser Use × TypeSafe\" width=\"100%\" />\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n<a href=\"docs/demo.mp4\"><img src=\"docs/demo.gif\" alt=\"A real Google Flights se",
+      "group": "community"
+    },
+    {
+      "id": "gh_1375382253",
+      "source": "GitHub Trending",
+      "title": "NandhaKishorM/laya - 无描述",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/logo-lockup-dark.png\" />\n    <img src=\"https://raw.githubusercontent.com/NandhaKishorM/laya/main/assets/logo-lockup.png\" alt=\"Laya\" width=\"330\" />\n  </picture>\n</p>\n\n**Multilingual, non-autoregressive System 1 decision engine.** Typed decisions over 100+ languages in a single forward pass — 33 ms — trained with reinforcement learning against strictly proper scoring rules (RLCD), with a router that picks the right checkpoint per request.\n\n<div align=\"center\">\n\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15d4Yv__KHeHjshVb-6PRTfqVllxih2S3?usp=sharing)\n[![PyPI version](ht",
+      "group": "community"
+    },
+    {
+      "id": "gh_1359648985",
+      "source": "GitHub Trending",
+      "title": "eternity4719/HowToLiveBetter - 按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "summary": "<div align=\"center\">\n\n<img src=\"og.png\" alt=\"高性价比人生指南 —— 用最少的钱、时间和精力，换回最多的寿命、金钱和人身自由\" width=\"820\">\n\n# 高性价比人生指南\n\n讲怎么活得久、怎么少生病，出了意外怎么救。讲怎么少花冤枉钱，哪些事会让人被骗、摊上官司。讲没工作没钱时能去领什么，开店、开公司、做网站要办什么手续。也讲恋爱结婚生孩子、出国和学手艺。<br>\n601 条建议，每条写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件。\n\n不用全做：这是按性价比排好的备选单，不是任务清单——挑走一两条就算数，作者自己也没做到其中大部分。\n\n[![在线检索](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E6%A3%80%E7%B4%A2-%E7%82%B9%E8%BF%99%E9%87%8C%E6%89%93%E5%BC%80-3451b2?style=flat-square)](https://eternity4719.github.io/HowToLiveBetter/)\n[![条目](https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-601%20%E6%9D%A1-18794e?style=flat-square)](#目录)\n[![证据分级](https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-A%20407%20%C2%B7%20B%20146%20%C2%B7%20C%2048-915930?style=flat-square)](#证据分级)\n[![原始文献](https://img.shields.io/badge/%E5%8",
+      "group": "community"
+    },
+    {
+      "id": "gh_1354310030",
+      "source": "GitHub Trending",
+      "title": "lnkiai/m3e-canvas - Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "summary": "<p align=\"center\">\n  <img src=\"app/icon.svg\" width=\"72\" alt=\"\" />\n</p>\n\n<h1 align=\"center\">M3E Canvas</h1>\n\n<p align=\"center\">\n  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://lnkiai.github.io/m3e-canvas/\"><img alt=\"Live demo\" src=\"https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml\"><img alt=\"Deploy\" src=\"https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg\" /></a>\n  <a href=\"https://github.com/lnkiai/m3e-canvas/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/lnkia",
+      "group": "community"
+    },
+    {
+      "id": "gh_1348577064",
+      "source": "GitHub Trending",
+      "title": "sapientinc/PRAXIST - Autonomous research system for measurable, computer-executable research.",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/assets/brand/praxist-banner.svg\" alt=\"Praxist\" width=\"800\">\n</p>\n\n<h1 align=\"left\">Praxist: meet your personal R&amp;D team</h1>\n\n<p align=\"center\">\n  <a href=\"../../actions/workflows/ci.yml\"><img src=\"../../actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://praxist.sapient.inc/en/docs\"><img src=\"https://img.shields.io/badge/docs-open-334155\" alt=\"Documentation\"></a>\n  <a href=\"https://arxiv.org/abs/2608.25955\"><img src=\"https://img.shields.io/badge/arXiv-2608.25955-B31B1B.svg\" alt=\"arXiv paper\"></a>\n  <a href=\"https://discord.gg/sapient\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white\" alt=\"Discord\"></a>\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB\" alt=\"Python 3.11+\">\n</p>\n",
+      "group": "community"
+    },
+    {
+      "id": "gh_1378288598",
+      "source": "GitHub Trending",
+      "title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "summary": "# ZCode\n\n<div align=\"center\">\n  <img src=\"public/logo/icons/1024x1024.png\" alt=\"ZCode\" width=\"128\" height=\"128\" />\n</div>\n<p align=\"center\">\n  <a href=\"https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=47ag983c-8fcb-4d6d-814b-5395193a712c&amp;qr_code=true\">飞书社群</a> ·\n  <a href=\"https://discord.gg/z9aBcQXZQ3\">Discord</a>\n</p>\n<p align=\"center\">\n  简体中文 | <a href=\"README.en.md\">English</a>\n</p>\n\nZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。\n\n| 入口                 | 用途                                                           | 开发命令                       |\n| -------------------- | -------------------------------------------------------------- | ------------------------------ |\n| Desktop              | Electron 桌面应用                            ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1374005005",
+      "source": "GitHub Trending",
+      "title": "tamaratran/fast-jev-compaction - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "summary": "# fast-jev-compaction\n\nClaude Code plugin that replaces the compaction summary with Jev decisions:\nevery tool call and result is scored in one fast request, stale ones are\ndropped or truncated, everything kept stays verbatim. Also usable as an npm\nlibrary.\n\n## What and why\n\nMost context compaction asks an LLM to summarize old turns. A summary is\nlossy: a file path, exact error, constraint, or command can disappear even when\nit matters later. This library never rewrites anything. It only deletes tool\ncalls and tool results Jev says are no longer needed, and it asks Jev while\nshowing it the whole conversation. User and assistant text stays verbatim and\nin order.\n\nThe repository is both an npm package (`src/`) and a Claude Code plugin\n(`hooks/`, `.claude-plugin/`) that uses the package to rep",
+      "group": "community"
+    },
+    {
+      "id": "gh_1350984217",
+      "source": "GitHub Trending",
+      "title": "rakanki911/DLSS5-Swapper - Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/11/12, Vulkan, OpenGL, DirectDraw and emulators. In-game F8 overlay, automatic backups, and a community page showing what works on your games and your graphics card.",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "summary": "<p align=\"center\">\n  <img src=\"docs/banner.png\" alt=\"DLSS 5 Swapper\" width=\"100%\">\n</p>\n\n<h1 align=\"center\">DLSS 5 Swapper</h1>\n\n<p align=\"center\">\n  Install and manage DLSS 5 Neural Rendering for compatible games and emulators.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases/latest\"><img src=\"https://img.shields.io/github/v/release/rakanki911/DLSS5-Swapper?color=8fd400&label=release\" alt=\"Latest release\"></a>\n  <a href=\"https://github.com/rakanki911/DLSS5-Swapper/releases\"><img src=\"https://img.shields.io/github/downloads/rakanki911/DLSS5-Swapper/total?color=8fd400&label=downloads&cacheSeconds=300\" alt=\"Total downloads\"></a>\n  <img src=\"https://img.shields.io/badge/Windows-10%20%2F%2011-8fd400\" alt=\"Windows 10/11\">\n  <img src=\"https://img.shields.i",
+      "group": "community"
+    },
+    {
+      "id": "gh_1349601607",
+      "source": "GitHub Trending",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "gh_1377211520",
+      "source": "GitHub Trending",
+      "title": "mizorewww/laya-mlx - Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "summary": "# Laya-MLX\n\n![Laya MLX playing Snake — actual decisions, original speed](https://raw.githubusercontent.com/mizorewww/laya-mlx/main/docs/assets/snake-demo.gif)\n\n**Open-weight typed decisions, running natively on Apple Silicon.**\n\n**13.4 ms** median end-to-end for a short English typed decision. **7.4 ms** with the multilingual checkpoint. **0 output tokens.** Local MLX inference, with no PyTorch, Transformers runtime, or cloud API.\n\n[中文](https://github.com/mizorewww/laya-mlx/blob/main/README.zh-CN.md) · [Benchmarks](https://github.com/mizorewww/laya-mlx/blob/main/BENCHMARKS.md) · [Snake demo](https://github.com/mizorewww/laya-mlx/blob/main/docs/SNAKE_DEMO.md) · [Hugging Face weights](https://huggingface.co/aac6fef/laya-mlx)\n\nThe GIF is an original-speed render of a real local Snake run. Eve",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1378288598",
+      "source": "GitHub AI项目",
+      "title": "zai-org/ZCode - Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "summary": "# ZCode\n\n<div align=\"center\">\n  <img src=\"public/logo/icons/1024x1024.png\" alt=\"ZCode\" width=\"128\" height=\"128\" />\n</div>\n<p align=\"center\">\n  <a href=\"https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=47ag983c-8fcb-4d6d-814b-5395193a712c&amp;qr_code=true\">飞书社群</a> ·\n  <a href=\"https://discord.gg/z9aBcQXZQ3\">Discord</a>\n</p>\n<p align=\"center\">\n  简体中文 | <a href=\"README.en.md\">English</a>\n</p>\n\nZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。\n\n| 入口                 | 用途                                                           | 开发命令                       |\n| -------------------- | -------------------------------------------------------------- | ------------------------------ |\n| Desktop              | Electron 桌面应用                            ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1356159928",
+      "source": "GitHub AI项目",
+      "title": "Albert-Weasker/niubigeo - Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "summary": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/brand/niubigeo-lockup.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/brand/niubigeo-lockup-light.svg\">\n    <img src=\"assets/brand/niubigeo-lockup-light.svg\" width=\"336\" alt=\"NiubiGEO\">\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/Albert-Weasker/niubigeo/releases/tag/v0.2.0\"><img src=\"assets/readme/version.svg\" alt=\"NiubiGEO v0.2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"LICENSE\"><img src=\"assets/readme/license.svg\" alt=\"Apache-2.0\" width=\"172\" height=\"28\"></a>\n  <a href=\"docs/deployment/docker.md\"><img src=\"assets/readme/self-hosted.svg\" alt=\"Self-hosted\" width=\"132\" height=\"28\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/reposito",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1373687654",
+      "source": "GitHub AI项目",
+      "title": "Mak5er/AirCard - Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "url": "https://github.com/Mak5er/AirCard",
+      "summary": "# AirCard 🎴\n\n> **Apple Wallet Card Skinner & Lockscreen Passcode Themer for iOS 18+ (No Jailbreak Required)**  \n> **Tested on iOS 27 release.**\n> Powered by the `airlift` AirTraffic sync exploit.\n\n<p align=\"left\">\n  <a href=\"https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y\"><img src=\"https://img.shields.io/badge/Donate-PayPal-00457C?style=flat-square&logo=paypal\" alt=\"Donate with PayPal\" /></a>\n</p>\n\n---\n\n## Features\n- 🎨 **Custom Card Skins:** Assign custom artwork, textures, or bank logos to Apple Pay and Wallet cards.\n- 🔢 **Lock Screen Passcode Themes (.passthm):** Apply custom keypad button artwork from popular `.passthm` themes directly to iOS 18+ lockscreen.\n- 🧩 **Passcode Theme Creator:** Create custom themes from a single wallpaper (Seamless Poster Slicing) or build key",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349253750",
+      "source": "GitHub AI项目",
+      "title": "Nanako0129/sepia - De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "summary": "# sepia\n\n**English** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)\n\n[![behavioral eval](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/behavioral-eval.yml) [![version consistency](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml/badge.svg)](https://github.com/Nanako0129/sepia/actions/workflows/version-consistency.yml) [![release](https://img.shields.io/github/v/release/Nanako0129/sepia)](https://github.com/Nanako0129/sepia/releases/latest) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\n> De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; profess",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1379574728",
+      "source": "GitHub AI项目",
+      "title": "jev-chat/jev-chat-jarvis - 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "summary": "<div align=\"center\">\n\n<img src=\"docs/images/logo.png\" width=\"150\" alt=\"Jev 聊天助手\" />\n\n# Jev 聊天助手\n\n**装在手机上的「对话副驾」：你在任何聊天 App 里聊天，它在旁边读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。**\n\n[![Stars](https://img.shields.io/github/stars/jev-chat/jev-chat-jarvis?style=flat-square&logo=github&label=Stars)](https://github.com/jev-chat/jev-chat-jarvis/stargazers)\n[![Forks](https://img.shields.io/github/forks/jev-chat/jev-chat-jarvis?style=flat-square&logo=github&label=Forks)](https://github.com/jev-chat/jev-chat-jarvis/forks)\n[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.3-1f6feb?style=flat-square)](CHANGELOG.md)\n[![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](#快速开始)\n[![License](https://img.shields.io/github/license/jev-chat/jev-chat-jarvis?st",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1351879111",
+      "source": "GitHub AI项目",
+      "title": "Human-Agent-Society/reef - Continual learning infra for self-improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "summary": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/reef-logo-dark.svg\">\n  <img src=\"docs/assets/reef-logo-light.svg\" alt=\"Reef\" width=\"220\">\n</picture>\n\n<h3>Continual learning infra for self-improving agents</h3>\n\n[![CI](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml/badge.svg)](https://github.com/Human-Agent-Society/reef/actions/workflows/ci.yml)\n[![PyPI package: reef-infra](https://img.shields.io/pypi/v/reef-infra?label=PyPI%3A%20reef-infra&logo=pypi&logoColor=white)](https://pypi.org/project/reef-infra/)\n[![Python](https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white)](pyproject.toml)\n[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)\n\n<a href=\"https://trendshift.io",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349507889",
+      "source": "GitHub AI项目",
+      "title": "Player-YN/BrowserKitten - Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/BrowserKitten",
+      "summary": "<div align=\"center\">\n\n# 爪爪 · PawWork\n\n[![license](https://img.shields.io/github/license/Player-YN/PawWork_ZhuaZhua)](LICENSE)\n[![Chrome MV3](https://img.shields.io/badge/Chrome-MV3-4285F4?logo=googlechrome&logoColor=white)](manifest.json)\n[![unpacked](https://img.shields.io/badge/load-unpacked-111111)](#load-it)\n\nTreat the already-logged-in Chrome as a programmable computer. 爪爪 is the agent on that machine.\n\n</div>\n\n**爪爪 · 完全解放版** (`PawWork_ZhuaZhua`) is a Chrome MV3 **unpacked** extension. It runs a side-panel agent that can drive the current tab (`action`), execute guest JS against the browser (`sys` inside `run`), and keep sheet / Univer doc / site HTML artifacts in the session.\n\nNot on the Chrome Web Store. No hosted model — bring your own key.\n\n## Load it\n\n1. Clone this repo, **or** d",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1373655162",
+      "source": "GitHub AI项目",
+      "title": "browser-use/jev-ultrafast - Fastest and cheapest web agent",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "summary": "<img src=\"docs/banner.svg\" alt=\"Jev Ultrafast · Browser Use × TypeSafe\" width=\"100%\" />\n\n# Jev Ultrafast ⚡\n\n> [!IMPORTANT]\n> **The Browser Use Cloud waitlist is open.** Get early access to ultrafast browser agents in the cloud.\n> **[Join the waitlist →](https://browser-use.com/ultrafast?utm_source=github&utm_medium=readme&utm_campaign=jev-ultrafast)**\n\n**A browser agent with a dynamic, indexed action space.**\n\nGive it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.\n\n**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.\n\n<a href=\"docs/demo.mp4\"><img src=\"docs/demo.gif\" alt=\"A real Google Flights se",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1353548665",
+      "source": "GitHub AI项目",
+      "title": "anthropics/commerce-agents - Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "summary": "# Claude Commerce Agents\n\nTwo commerce agents built on Claude: a **shopping agent** a business embeds in its app for\ncustomers, and a **merchant agent** its staff use to run the back office. Each is defined\nonce (prompt, skills, tool contracts, gates) and runs on the Messages API, the Claude Agent\nSDK, and Managed Agents; four runnable verticals show both over the same libraries.\n\n> [!NOTE]\n> Every company, brand, product, and person here is fictional; the only company is ACME.\n> Nothing places an order, charges a card, or changes a live listing: `checkout` renders\n> the cart for the host to complete, and every merchant write is staged until a person\n> approves it. Business rules, authorization, and compliance are the deployment's.\n\n## Quick start: run the demos\n\nPython 3.11+ and Node 22. ",
+      "group": "community"
+    },
+    {
+      "id": "gh_ai_1349601607",
+      "source": "GitHub AI项目",
+      "title": "XiaoDuoYa/codex-with-chatgpt - ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "summary": "# Codex with ChatGPT\n\n> ChatGPT thinks. Codex works.\n> ChatGPT 负责思考，Codex 负责干活。\n\n> [!IMPORTANT]\n> **遇到问题？** 请先向 Codex 发送 **「更新 Codex with ChatGPT」** 并重试。更新到最新版本可以解决大多数已知问题。  \n> **Having trouble?** First ask Codex to **“Update Codex with ChatGPT”** and try again. Updating to the latest version resolves most known issues.\n\n## The problem · 解决什么问题\n\n**中文** — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的\nAPI 额度做规划和 Review。本项目把\"思考\"交给你已付费的网页版 ChatGPT，\nCodex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。\n\n**EN** — ChatGPT Plus/Pro web quota sits idle while your coding agent burns\nscarce API/Codex tokens on planning and review. This project moves the\nthinking to the subscription you already pay for; Codex only executes.\nNo API keys, no reverse proxy — official web UI plus a read-only MCP bridge.\n\n## What it is ",
+      "group": "community"
+    },
+    {
+      "id": "devto_4635437",
+      "source": "Dev.to",
+      "title": "We All Have a \"Serious Work\" AI and a \"Just Vibing\" AI. When Did That Happen?",
+      "url": "https://dev.to/dj29/we-all-have-a-serious-work-ai-and-a-just-vibing-ai-when-did-that-happen-5fl2",
+      "summary": "Hi Guys!!! As you know I wasn't good for well, a week and Now..... Let's Dive In!!! I never...",
+      "author": "Dhruv Jani"
+    },
+    {
+      "id": "devto_4702045",
+      "source": "Dev.to",
+      "title": "What If Your AI Agent Never Had to Leave the Browser? (Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/what-if-your-ai-agent-never-had-to-leave-the-browser-demo--5g",
+      "summary": "I haven't written anything lately because, honestly, I just didn't have the headspace for it. There...",
+      "author": "Sylwia Laskowska"
+    },
+    {
+      "id": "devto_4718517",
+      "source": "Dev.to",
+      "title": "The swarm that kept coming back",
+      "url": "https://dev.to/hiper2d/the-swarm-that-kept-coming-back-7ie",
+      "summary": "The more I watch and read about the Hugging Face incident, the more it fascinates me. 1,200 agents...",
+      "author": "Aliaksei Zelianouski"
+    },
+    {
+      "id": "devto_4713279",
+      "source": "Dev.to",
+      "title": "Two Weeks In: A 15-Year QA Veteran, Back to Being the New Guy",
+      "url": "https://dev.to/xulingfeng/two-weeks-in-a-15-year-qa-veteran-back-to-being-the-new-guy-39g3",
+      "summary": "I started last Monday. Today it's been exactly two weeks. Here's the funny part. I've spent 15...",
+      "author": "xulingfeng"
+    },
+    {
+      "id": "devto_4720736",
+      "source": "Dev.to",
+      "title": "AI Is Writing More of the Code — But Developers Are Becoming Responsible for More Than Ever",
+      "url": "https://dev.to/robertadam987_/ai-is-writing-more-of-the-code-but-developers-are-becoming-responsible-for-more-than-ever-55ni",
+      "summary": "AI is writing more code. That part is obvious now. Developers can ask an agent to: create a...",
+      "author": "Robert Adamson"
+    },
+    {
+      "id": "devto_4721006",
+      "source": "Dev.to",
+      "title": "Opus 5.5 Made Cache Reads 60% Cheaper. I Redid the Math on My Text-to-SQL Architecture",
+      "url": "https://dev.to/rakno/opus-55-made-cache-reads-60-cheaper-i-redid-the-math-on-my-text-to-sql-architecture-4jjb",
+      "summary": "TL;DR: Claude Opus 5.5 came out yesterday with cache reads at $0.20 per million tokens, 60% cheaper...",
+      "author": "Onkar Deokate"
+    },
+    {
+      "id": "devto_4720738",
+      "source": "Dev.to",
+      "title": "I made my agent prove every quote against the source document",
+      "url": "https://dev.to/chanadev/i-made-my-agent-prove-every-quote-against-the-source-document-1700",
+      "summary": "This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content ...",
+      "author": "Archana"
+    },
+    {
+      "id": "devto_4721129",
+      "source": "Dev.to",
+      "title": "DevDocs — A Developer Agent Grounded in Real Documentation",
+      "url": "https://dev.to/adhithyan_b_5d2daadc216e4/devdocs-a-developer-agent-grounded-in-real-documentation-4kd7",
+      "summary": "DevDocs — A Developer Agent Grounded in Real Documentation This is a submission for the...",
+      "author": "Adhithyan B"
+    },
+    {
+      "id": "oschina_f58d25ed86e2",
+      "source": "开源中国",
+      "title": "一个基于 Rust 和 egui 开发的跨平台 SSH 客户端应用",
+      "url": "https://www.oschina.net/news/502696",
+      "summary": "SSH Client 一个基于 Rust 和 egui 开发的跨平台 SSH 客户端应用。 程序界面 功能特性 多会话管理：支持同时打开多个 SSH 会话标签页 终端模拟：完整的 VT100/ANSI 终端模拟，支持256色 SFTP 文件传输：支持文件上传、下载、目录浏览 内置编辑器：支持语法高亮的文本编辑器 端口转发：支持本地、远程和 SOCKS5 代理端口转..."
+    },
+    {
+      "id": "oschina_53fe4175e55d",
+      "source": "开源中国",
+      "title": "微语 4.6.0 发布，开源智能客服",
+      "url": "https://www.oschina.net/news/502695",
+      "summary": "基于AI全新打造的一款开源企业级多租户团队协作工具，集成多种功能于一体：企业即时通讯IM、在线客服、知识库、客户之声、工单系统、AI对话、工作流、呼叫中心、视频客服、开放平台。提供智能文字客服（在线客服）、智能语音客服（热线客服）、智能外呼、智能营销、智能质检等完整解决方案。 语言 / Language: 中文 | En..."
+    },
+    {
+      "id": "oschina_d4c70a38ed52",
+      "source": "开源中国",
+      "title": "一机双形态！麒麟100双模式开启国产PC新体验",
+      "url": "https://www.oschina.net/news/502694",
+      "summary": "平板与笔记本电脑（以下简称“PC”），两款设备你都有吗？ 虽然功能相似，但两者还不能互相替代：平板触控顺手却难以承载专业办公，PC生产力强却笨重不便。移动应用在大屏、键鼠环境下适配不佳，平板更像“放大版手机界面”的体验，让用户在移动办公场景始终缺一台“既能当平板、又能当PC”的设备。 OpenAtom openKylin..."
+    },
+    {
+      "id": "oschina_6bb7ccd8faa7",
+      "source": "开源中国",
+      "title": "技术第6篇，多语言智能生态架构实战：55873 七国语言原生保真 + 可控智能翻译体系",
+      "url": "https://www.oschina.net/news/502693",
+      "summary": "做多语言 AI 平台的朋友，是不是也遇到过这些问题？ 翻译篡改原文怎么办？小语种安全审核怎么做？数据出境合规怎么解决？语音自动转写的隐私风险怎么控制？ 今天给大家拆解 55873 生态系统「多语言智能生态」的完整架构 —— 从原文保真、前端 UI 多语言切换、聊天智能翻译、语音隐私保护、多语言安全适配到文脉守护七语..."
+    },
+    {
+      "id": "oschina_96dee6ae61d8",
+      "source": "开源中国",
+      "title": "EasyGoAdmin 敏捷开发框架 Gin+Layui 版本 v3.1.2 发布",
+      "url": "https://www.oschina.net/news/502692",
+      "summary": "v3.1.2 更新内容： 1、修复近期用户反馈的问题； 一款 Go 语言基于 Gin、Xorm、Layui、MySQL 等框架精心打造的一款模块化、高性能、企业级的敏捷开发框架，本着简化开发、提升开发效率的初衷触发，框架自研了一套个性化的组件，实现了可插拔的组件式开发方式：单图上传、多图上传、下拉选择、开关按钮、单选按钮、多选按..."
+    },
+    {
+      "id": "hn_comment_49806126",
+      "source": "HN讨论",
+      "title": "simonw 在「GPT-6 Sol and Luna」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49805509",
+      "summary": "GPT-6 Luna being half the price of GPT-5.6 Luna is a really big deal. Here&#x27;s GPT-6 Luna pelicans:  https:&#x2F;&#x2F;tools.simonwillison.net&#x2F;markdown-svg-renderer?url=ht...  And GPT-6 Sol:  https:&#x2F;&#x2F;tools.simonwillison.net&#x2F;markdown-svg-renderer?url=ht...  Scroll to the bottom for the GPT-6 Sol max one:  https:&#x2F;&#x2F;tools.simonwillison.net&#x2F;markdown-svg-renderer?url=ht...  For comparison, here are the pelicans I got for GPT-6 Astra:  https:&#x2F;&#x2F;tools.simonwillison.net&#x2F;markdown-svg-renderer?url=ht...  - I still like the Astra Max one best. Here&#x27;s a comparison grid showing all of the GPT-6 and GPT-5.6 pelicans at all effort levels:  https:&#x2F;&#x2F;static.simonwillison.net&#x2F;static&#x2F;2026&#x2F;gpt-6-and-5.6.h...  The grid is actually really interesting, because it shows that the 5.6 family default to brighter colors than the 6 family.",
+      "author": "simonw"
+    },
+    {
+      "id": "hn_comment_49805803",
+      "source": "HN讨论",
+      "title": "m_fayer 在「GPT-6 Sol and Luna」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49805509",
+      "summary": "I&#x27;ve been working with agents all year, but 5.6 Sol was some sort of sweet spot for me. Something about how it communicated verbally and its engineering instincts just clicked for me, and I was able to somehow predict it and jam with it. Like a colleague you click with. It&#x27;s the first model I&#x27;ve gotten attached to. I&#x27;m concerned that whatever model supercedes it, while technically better, just won&#x27;t feel quite as natural to work with. And this makes me feel very professionally vulnerable to the labs. I miss the days when my crucial tooling came from companies as reliable and predictable as, say, Jetbrains.",
+      "author": "m_fayer"
+    },
+    {
+      "id": "hn_comment_49805972",
+      "source": "HN讨论",
+      "title": "jeffnash 在「GPT-6 Sol and Luna」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49805509",
+      "summary": "At this point, the deciding factors for me between Claude Code 20x and Codex Pro 20x are: 1&#x2F; Usage limits: downstream of input&#x2F;output cost, but resets and obscure windows and odd 20x plan &#x2F; 5x plan != 4x usage math throw a wrench into it. Winner right now is Codex by a mile, especially when you factor in the fact that ChatGPT usage (even 6 Astra Pro) is essentially unmetered on the 20x plan. Always a bummer when asking if I should see a doctor about a rash means I can&#x27;t code as much. It&#x27;s also is a godsend if you use an MCP like oracle to automate the process of calling the Pro model on particularly tough problems, giving better planning results or deeper code analysis without burning usage. 2&#x2F; Context window in the harness. Claude Code wins on this. There used to be a toml file workaround for Codex to extend the GPT context window to 1m, but this stopped working on the plans and only on per-token billing (ETA: noname120 pointed out this is no longer the case and it can be enabled again [1]). 252k is just not enough. Codex&#x27;s compaction is very good, fwiw, but it happens so frequently that even a model as powerful as Astra sometimes loses the plot on long-running tasks. 3&#x2F; Ability to use the plan outside of the official harness. Codex wins. Anthropic does shit like bills requests as extra usage if it sees a hermes.md in a commit. I&#x27;ve subscription hopped a bunch, and at times I&#x27;ve had both, but I keep coming back to Codex becau",
+      "author": "jeffnash"
+    },
+    {
+      "id": "hn_comment_49808412",
+      "source": "HN讨论",
+      "title": "leokennis 在「GPT-6 Sol and Luna」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49805509",
+      "summary": "From the perspective of “an average person”, ChatGPT is delivering fantastic products. - For general chat and web search, occasional image editing, small coding work, document review etc. ChatGPT Plus is basically limitless and “just works” since 5.6. I’ve yet to give it some task it cannot do. - When given sensible instructions, it hardly annoys with weird phrasing, glazing, or annoying constructs. - The apps are very good (ignoring the initially terrible Codex app) It’s easily my best spent $23 a month.",
+      "author": "leokennis"
+    },
+    {
+      "id": "hn_comment_49805615",
+      "source": "HN讨论",
+      "title": "pookieinc 在「GPT-6 Sol and Luna」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49805509",
+      "summary": "I don&#x27;t see how anyone can be using Claude with prices like this, it&#x27;s pretty incredible what the OpenAI team is doing, w.r.t model quality and pricing.     Prices per 1M tokens     Claude Opus 5.5    Claude Opus 5\n   Cache reads              $0.20              $0.50\n   Input tokens             $4                 $5\n   Output tokens            $20                $25\n   Cache writes             $5                 $6.25\n\n\n  \nModel Input Output Price reduction GPT‑6 Sol\nvs. GPT‑5.6 Sol $4 → $2 $20 → $10 50% cheaper GPT‑6 Luna\nvs. GPT‑5.6 Luna $0.20 → $0.10 $1.20 → $0.50 50% cheaper",
+      "author": "pookieinc"
+    },
+    {
+      "id": "hn_comment_49804199",
+      "source": "HN讨论",
+      "title": "sailingparrot 在「Claude Opus 5.5」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49803892",
+      "summary": "&gt; Claude Opus 5.5 is our first release since we called for pacing the frontier. Interesting how the very first line is used to remind the reader of their call to pace the frontier just last week, and everything else after that line is to demonstrate with very specific numbers how they absolutely are not pacing.",
+      "author": "sailingparrot"
+    },
+    {
+      "id": "hn_comment_49804160",
+      "source": "HN讨论",
+      "title": "GodelNumbering 在「Claude Opus 5.5」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49803892",
+      "summary": "Finally that price drop      Prices per 1M tokens     Claude Opus 5.5    Claude Opus 5\n   Cache reads              $0.20              $0.50\n   Input tokens             $4                 $5\n   Output tokens            $20                $25\n   Cache writes             $5                 $6.25\n\n  \nOpus 5 is the model with highest spend on openrouter ( https:&#x2F;&#x2F;openrouter.ai&#x2F;rankings#task-spend ) and it seems plausible that Opus 5 is&#x2F;was the highest spend model in the world, and certainly Anthropic&#x27;s biggest moneymaker. If you are forced to reduce price despite raising capabilities, that certainly tells something about the market, and potentially about Anthropic future profitability too, since this model is their biggest topline contributor",
+      "author": "GodelNumbering"
+    },
+    {
+      "id": "hn_comment_49804718",
+      "source": "HN讨论",
+      "title": "mcintyre1994 在「Claude Opus 5.5」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49803892",
+      "summary": "&gt; Communication. Opus 5.5 communicates more naturally than prior models. Early testers found its writing clearer and easier to follow, which addresses some of the common feedback we heard about Opus 5. It puts the most important information up front, and its style makes it a better work partner over long sessions. As one early tester put it, “it writes the way I do.” In our own use, this has made Opus 5.5’s work easier to follow and check—which is a safety benefit as well as a practical one. I think this is what I&#x27;m most interested in. I mostly moved to Astra because I just can&#x27;t work all day with the Claude Opus 5&#x2F;Fable writing style. I don&#x27;t think Astra is a better model, but it&#x27;s the first OpenAI one that seemed good enough to me. Definitely keen to try Opus 5.5 and see if this claim is real.",
+      "author": "mcintyre1994"
+    },
+    {
+      "id": "hn_comment_49807348",
+      "source": "HN讨论",
+      "title": "wg0 在「Claude Opus 5.5」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49803892",
+      "summary": "No thanks. I&#x27;m good with DeepSeek v4.1 set to high. It is a relentlessly &quot;hardworking&quot; dirt cheap model. Told it to convert a products page (that had two different fonts based on language) from two columns layout to 5 columns on desktop and 2 columns on mobile ensuring typography is readable. My man went into spawning sub agent which failed to drive chrome so it wrote its own chrome driver protocol server in Typescript then generated a prototype website then downloaded the images and rendered each variation in a directory taking 100+ screenshots analyzing the typography depth and then delivering detailed report and then writing the whole thing with new page layout testing it again with several dozen screenshots using its driver and then saying all good and all really was good and whole thing took 25 minutes or so (including double visual validation) because it generates token at an incredible speed. Total cost of the above? $0.07 cents. PS: It generates token at such a blazing fast speed that you can&#x27;t recognize the words as they are being added and can&#x27;t read it without scrolling and pausing even if you&#x27;re Jimmy Carter.",
+      "author": "wg0"
+    },
+    {
+      "id": "hn_comment_49804862",
+      "source": "HN讨论",
+      "title": "simonw 在「Claude Opus 5.5」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49803892",
+      "summary": "Here are pelicans for thinking levels low, medium, high, and xhigh:  https:&#x2F;&#x2F;tools.simonwillison.net&#x2F;markdown-svg-renderer?url=ht...  All four levels have a correctly shaped bicycle frame. The differences between the pelicans aren&#x27;t huge, but the xhigh one has a better beak. I haven&#x27;t managed to get one for level &quot;max&quot; yet, it hit the limit of 128,000 cap for output tokens while it was still reasoning about the question! Max started its thinking trace like this: &gt; This is a classic test request, so I want to plan out a well-composed pelican with its distinctive beak and pouch riding a bicycle with proper wheels, frame, and pedals, set against a simple sky and ground backdrop. So that failed attempt on max cost me $2.56. I ran this using my llm-anthropic plugin:     uv tool install llm\n  llm install llm-anthropic --upgrade\n  llm keys set anthropic\n  # paste key here\n\n  llm -m claude-opus-5.5 -o thinking_effort low &quot;Generate an SVG of a pelican riding a bicycle&quot;\n\n  # Then to save the markdown logs\n  llm logs -cu &gt; logs-with-usage.md",
+      "author": "simonw"
+    },
+    {
+      "id": "hn_comment_49811539",
+      "source": "HN讨论",
+      "title": "novia 在「Transit rewards (Waymo pays you to take 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49811065",
+      "summary": "Waymo pays you $2.85 in Waymo credit to take the train (Waymo takes $2.85 off your next ride if you take the train) I live in East Bay, and I often take gratuitous Waymo trips all the way across the city to Embarcadero Station to ride BART back home. I do this because I like seeing the pretty skyscrapers and the bustling city and the pretty townhomes painted interesting colors. They may want to rethink their reward structure a bit to avoid paying out to people like me.",
+      "author": "novia"
+    },
+    {
+      "id": "hn_comment_49811510",
+      "source": "HN讨论",
+      "title": "dcrazy 在「Transit rewards (Waymo pays you to take 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49811065",
+      "summary": "Meanwhile, the 47 Muni bus that connects the Van Ness transit corridor to Caltrain has been “suspended” since 2020, and the extension of Caltrain to the transit center is still unfunded. I appreciate solutions that meet us where we are, but it’s depressing that we don’t seem to actually have the will to make a sustainable, integrated mass transit plan.",
+      "author": "dcrazy"
+    },
+    {
+      "id": "hn_comment_49812049",
+      "source": "HN讨论",
+      "title": "HaloZero 在「Transit rewards (Waymo pays you to take 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49811065",
+      "summary": "It seems odd that they want you to pay for transit with your visa. That excludes a lot of travelers who might have passes on their transit cards. Less common in the Bay since all our transit providers are different but I used to pay monthly for the Muni + Local BART pass all the time when I lived in SF.",
+      "author": "HaloZero"
+    },
+    {
+      "id": "hn_comment_49811909",
+      "source": "HN讨论",
+      "title": "raz32dust 在「Transit rewards (Waymo pays you to take 」下的评论",
+      "url": "https://news.ycombinator.com/item?id=49811065",
+      "summary": "Nice idea. But too many ifs and buts, and it&#x27;s too little to really change habits. Besides, waymo&#x27;s main issue seems to be supply right now. I can never get one when I need it. I wish the government would rather invest in better public last mile connectivity programs or higher frequency trains and buses.",
+      "author": "raz32dust"
+    },
+    {
+      "id": "hn_49805509",
+      "source": "Hacker News",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49811065",
+      "source": "Hacker News",
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "url": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "summary": ""
+    },
+    {
+      "id": "hn_49803892",
+      "source": "Hacker News",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": ""
+    },
+    {
+      "id": "hn_49801324",
+      "source": "Hacker News",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": ""
+    },
+    {
+      "id": "hn_49804316",
+      "source": "Hacker News",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "summary": ""
+    },
+    {
+      "id": "hn_49806430",
+      "source": "Hacker News",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "summary": "https:&#x2F;&#x2F;archive.ph&#x2F;0V37g"
+    },
+    {
+      "id": "hn_49805748",
+      "source": "Hacker News",
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "summary": "https:&#x2F;&#x2F;github.com&#x2F;unreallabsai&#x2F;unreal-agent"
+    },
+    {
+      "id": "hn_49808816",
+      "source": "Hacker News",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "summary": ""
+    }
+  ],
+  "generated_at": "2026-09-23 14:00"
+}
