@@ -1,0 +1,732 @@
+{
+  "key": "2026-09-25-morning",
+  "date": "2026-09-25",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 21,
+      "title": "提格雷武装发动新攻势并组建反政府联盟，埃塞俄比亚濒临内战重启",
+      "entities": [
+        {
+          "name": "提格雷人民解放阵线（TPLF）",
+          "explain": "埃塞俄比亚北部提格雷地区的政党和武装组织，曾长期主导国家政治，2020-2022年与联邦政府爆发全面战争"
+        },
+        {
+          "name": "阿比·艾哈迈德",
+          "explain": "埃塞俄比亚现任总理，2019年诺贝尔和平奖得主，2020年对提格雷发动军事行动"
+        },
+        {
+          "name": "阿法尔和阿姆哈拉",
+          "explain": "埃塞俄比亚北部两个州，与提格雷州相邻，是当前战事蔓延的地区"
+        }
+      ],
+      "summary": "提格雷武装力量向邻接的阿法尔和阿姆哈拉州发动攻势，并联合其他反政府力量组建新联盟，目标推翻阿比·艾哈迈德政府。双方互相指责对方破坏停火。2020至2022年的内战已造成约60万人死亡，外界担忧大规模冲突将再度爆发。",
+      "relevant": "埃塞俄比亚是非洲人口第二大国，若再次陷入全面内战，将引发严重的人道主义危机并动摇整个非洲之角的地缘稳定。",
+      "context": "2022年埃塞俄比亚联邦政府与TPLF签署和平协议结束了两年内战，但协议核心条款（如武装解除、领土争议）执行不力，双方信任持续恶化，最终导致提格雷方面重新发动军事行动。",
+      "source_analysis": "《卫报》长期关注非洲冲突与人道议题，报道倾向对阿比政府持批评立场，强调平民伤亡和战争风险。",
+      "social_impact": "上一轮内战已致约60万人死亡，数百万人流离失所。新一轮攻势可能波及阿法尔和阿姆哈拉等邻近州，影响数百万平民。",
+      "source_text": "There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. On Sunday, seven armed groups from around the country, including the TPLF, announced the formation of the Ethiopian Peoples’ Forces Alliance for Survival, aimed at deposing the government in Addis Ababa. Then, on Wednesday, the TPLF seized control of three airports from federal police. The state-owned carrier, Ethiopian Airlines, said it had suspended flights to the region “due to the current situation”. The TPLF also launched attacks into Afar and Amhara. A humanitarian source in Afar told Agence France-Presse there were heavy artillery attacks by the group on Thursday as they attempted to take control of the town of Yallo, near the Tigrayan border. Flights to the historic Ethiopian town of Lalibela were also suspended on Thursday because of nearby fighting, while people in Tigray stocked up on food and cash, with one resident telling Reuters that people there feared they could face siege conditions similar to those during the previous war. A resident of Adigrat, a city close to the Eritrean border, described panic-buying and shops emptying. “Food shortages are worsening as market shelves sit empty … Essential medicines remain scarce and astronomically expensive,” he told Reuters. “Daily survival has become a constant calculation.” The TPLF’s vice-president, Amanuel Assefa, told AFP: “We are in the situation of full-blown war now.” He confirmed Tigrayan forces were fighting alongside local armed groups in Afar and Amhara. The group took control of Abala, also on the Tigray-Afar border, on Wednesday, a foreign security source based in Ethiopia told AFP, while a TPLF source said they had seized several other towns in Afar. The foreign security source also said there was fighting around the Amhara town of Weldiya – one of the few routes to the capital. In its first public comments on the fighting, Ethiopia’s army said on Thursday it had foiled the attacks and killed, wounded or captured more than 500 enemy fighters. Analysts say th",
+      "source_title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "source_url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "调查揭露特朗普政府与多国秘密达成驱逐协议，数千移民被送往陌生国度",
+      "entities": [
+        {
+          "name": "USAID（美国国际开发署）",
+          "explain": "美国政府负责对外援助的机构，特朗普政府已大幅削减其项目和预算"
+        },
+        {
+          "name": "秘密驱逐协议",
+          "explain": "美国与数十个国家私下达成的安排，将移民遣送至这些国家，而非其原籍国"
+        }
+      ],
+      "summary": "《卫报》深度调查揭露，特朗普政府与数十个国家达成秘密协议，将数千名移民驱逐至他们从未听说过的第三国。一名伊朗女性在戴着手铐的飞机上才通过座位屏幕得知目的地是非洲某国。这些行动耗费美国纳税人数百万美元，被批评为'武力展示'。",
+      "relevant": "该调查揭示了美国移民政策的重大转变——将移民遣送至与原籍无关的第三国，引发国际法和人权方面的严重争议。",
+      "context": "特朗普政府上台后大幅收紧移民政策，在遣返原籍国拒绝接收的情况下，转而与第三国谈判达成接收协议，将移民送往非洲等地。这一做法绕过了常规遣返程序的法律审查。",
+      "source_analysis": "《卫报》以调查报道见长，对特朗普政府移民政策持批评立场，此报道基于对当事人的采访和文件调查。",
+      "social_impact": "数千名移民被遣送至陌生国家，面临语言不通、无社会关系网络、法律地位不明等困境。行动耗费美国纳税人数百万美元。",
+      "source_text": "Nika’s story No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Their destination was Central African Republic (CAR), a country few of them had even heard of. Nika, a 32-year-old Iranian woman, recalled how the handcuffs dug into her wrists. She begged the officers to loosen them, but they did not. Other passengers had it worse, she said. Some of the men were restrained in black and yellow body wraps, as if mummified, after resisting orders to get on the plane. Nika, who had fled Iran 18 months earlier after protesting against its regime, had imagined the US as a place of sanctuary. Iran was already one of the most repressive countries in the world when she left, and its horrors had only deepened since then: security forces gunned down thousands of other demonstrators this year, then Donald Trump’s administration launched the war there. After more than a year locked up in a US immigration detention centre, Nika, whose name the Guardian has changed to protect her family in Iran, was granted legal protections and freed on a judge’s orders. Within two weeks, the Department of Homeland Security had rearrested her, and days later she was on the plane heading 7,000 miles east. “They never told me they were going to deport me [to] this country,” she told the Guardian. “I don’t know anything about Africa.” The Department of State warns US citizens not to travel to CAR because it says it is too dangerous. Nika spends most of her days there under a form of self-imprisonment, too scared to venture out from her small bedroom as she waits for an answer to the question on which her life depends: will she be sent back to Iran, and to a regime that could kill her? Nika is one of more than 25,000 people deported by the Trump administration to countries that are not their own. About 20,000 people have been bussed to Mexico, according to a count by Refugees International and Human Rights First. And more than 5,000 others have been put on flights to countries in Africa, Latin America, the Caribbean and central Asia to which they have no connection, and then, often, returned to the countries where US immigration judges had ruled their lives or liberty were at risk. Human rights lawyers describe these so-called third-country national arrangements as part of a “show ",
+      "source_title": "Banished to alien lands: Trump’s secret deportation deals",
+      "source_url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "内塔尼亚胡在联合国演讲中为以色列军事行动辩护，多国代表集体退场",
+      "entities": [
+        {
+          "name": "本雅明·内塔尼亚胡",
+          "explain": "以色列总理，长期执政的右翼领导人，当前因加沙战争面临国际压力"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国最高级别的全体会议，每年9月各国领导人齐聚纽约发表演讲"
+        }
+      ],
+      "summary": "以色列总理内塔尼亚胡在联合国大会发表演讲，为以色列在中东的军事行动辩护，并将退场的代表称为'道德懦夫'。数十名外交官在他登台时集体走出会场，以示对以色列军事行动的抗议。",
+      "relevant": "联合国大会上的集体退场是罕见的外交抗议形式，反映出国际社会对以色列加沙军事行动的分歧日益加深。",
+      "context": "自2023年10月哈马斯袭击以色列以来，以军在加沙的军事行动已持续近一年，造成大量平民伤亡，多国对其行动合法性提出质疑。内塔尼亚胡此次演讲旨在在国际舞台上为以色列立场争取支持。",
+      "source_analysis": "BBC报道以事实陈述为主，中立呈现事件经过，未明显偏向任何一方。",
+      "social_impact": "数十国代表退场显示以色列在国际社会中的孤立程度加深，可能影响其后续外交空间和军事行动的國際合法性。",
+      "source_text": "Netanyahu defends Israeli military action as delegates walk out before UN speech - Published Israeli Prime Minister Benjamin Netanyahu has fiercely defended his country's military campaigns in Iran, Gaza and elsewhere in the Middle East in a speech to the UN General Assembly. After dozens of delegates walked out in protest as he took to the stage, Netanyahu vowed to continue fighting: \"We're going to win. We have no other choice.\" In response to the walkout, he said: \"If there are any other moral cowards who haven't left the hall, please do so now.\" The Israeli leader also rejected accusations that Israel is committing genocide in Gaza. Hours earlier, in a recorded message Palestinian President Mahmoud Abbas told the UN that Israeli policies - in particular the illegal expansion of Jewish settlements in the occupied West Bank - threatened \"the very life and existence of the Palestinian people on their homeland\". He also said it jeopardised the two-state solution, which is an internationally backed formula for peace between Israel and the Palestinians. Abbas said that Palestinians were being subjected to \"killing, destruction, starvation and attempts at displacement, as well as a genocidal war\" in Gaza by the Israeli military. The Palestinian leader was addressing the annual gathering via a video link because had been denied a US entry visa. Netanyahu, who is subject to an International Criminal Court arrest warrant for alleged war crimes, launched scathing attacks on nations and leaders who have criticised him. \"They accuse Israel, tiny Israel, of colonialism - some colonialism. And who's accusing us? Among them are people in Britain and in France. For God's sake, they invented the term,\" he said. He went on to label Turkish President Recep Tayyip Erdogan a \"tyrant\", accusing him of supporting the Palestinian armed group Hamas. Erdogan told the UN on Tuesday that the injustices faced by those in Gaza and the West Bank \"deeply offends the conscience of humanity\". New York City's left-wing mayor Zohran Mamdani - who had previously vowed to arrest Netanyahu but later said he did not have the authority to do so - was also criticised by the Israeli leader. \"Since you were elected mayor of this city, many Jews no longer feel safe in New York,\" the Israeli prime minister said. In a statement, Mamdani's office said Netanyahu \"used his speech to repeat baseless lies meant to sanitize his genocide of Palestinians\". Netanyahu also thanked US President Donald Trump fo",
+      "source_title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "内塔尼亚胡联大演讲猛烈抨击批评者，数十名代表退场抗议",
+      "entities": [
+        {
+          "name": "佐兰·马姆达尼",
+          "explain": "纽约市市长，内塔尼亚胡在演讲中点名攻击的对象"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国最高级别的全体会议，各国领导人每年9月齐聚纽约"
+        }
+      ],
+      "summary": "内塔尼亚胡在联合国大会发表强硬演讲，为以色列在中东各地的军事行动辩护，同时攻击纽约市长马姆达尼等批评者。数十名代表在他登台时集体退场。演讲凸显以色列与联合国多数成员国之间的深刻裂痕。",
+      "relevant": "内塔尼亚胡在演讲中攻击美国国内政治人物（纽约市长），显示以色列与美国地方政府层面的关系也在恶化。",
+      "context": "加沙战争持续近一年，以色列在联合国的处境日益孤立。内塔尼亚胡选择在联大这一全球最大外交舞台上采取强硬姿态，而非寻求缓和。",
+      "source_analysis": "《纽约时报》以'好斗'形容内塔尼亚胡的演讲，报道侧重其攻击性言辞和现场反应，立场偏向自由派读者群。",
+      "social_impact": "数十名代表退场是联大近年来罕见的外交抗议场面，反映以色列在国际多边舞台上的孤立加剧。",
+      "source_text": "U.N. Live Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel。In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of the hall as he took the podium.",
+      "source_title": "U.N. Live Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel",
+      "source_url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "特朗普与习近平白宫会晤，但AI合作前景依然渺茫",
+      "entities": [
+        {
+          "name": "习近平",
+          "explain": "中国国家主席，中国最高领导人"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，2025年重返白宫后推行对华竞争与交易并行的政策"
+        },
+        {
+          "name": "海军陆战队一号",
+          "explain": "美国总统专用的直升机，用于短途出行"
+        }
+      ],
+      "summary": "美国总统特朗普在白宫椭圆形办公室与中国国家主席习近平举行会谈。特朗普亲自带习近平参观白宫，包括海军陆战队一号直升机和新建停机坪。尽管会晤气氛友好，但双方在人工智能领域的合作前景依然不被看好。",
+      "relevant": "中美作为全球AI两大强国，其合作或对抗将决定全球AI治理格局。此次会晤虽展示个人外交，但实质性合作未见突破。",
+      "context": "中美关系在贸易、技术、台海等问题上持续紧张。特朗普以个人化外交风格著称，此次以高规格接待习近平，但双方在AI等关键技术领域的竞争态势未变。",
+      "source_analysis": "France24为法国公共国际新闻频道，报道侧重会晤的象征性场面，对AI合作前景持审慎态度。",
+      "social_impact": "中美AI合作若持续停滞，将加速全球技术阵营分化，影响AI标准制定、芯片供应链和全球科技治理。",
+      "source_text": "Trump and Xi meet, but hopes for AI cooperation stay slim To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Chinese President Xi Jinping and US President Donald Trump have been holding talks in the Oval Office at the White House today. President Donald Trump gave the visiting leader of communist China a personal tour of several of his favorite White House features. He took him aboard the Marine One helicopter, presented the new granite landing pad he had built for it, and pointed out the massive adjacent construction site where a ballroom will eventually stand. It's been a busy schedule for the two leaders that will culimate in a state dinner which will be attended by CEOs of top AI companies, including OpenAI's Sam Altman and Elon Musk. Well earlier Xi told his US counterpart that AI must remain “under human control”. It comes as AI leaders have sounded the alarm in recent weeks that the technology is too fast. Meanwhile China and the United States are locked in an A.I. race, Trump has dismissed calls for stricter controls, claiming AI fears are a “hoax”.",
+      "source_title": "Trump and Xi meet, but hopes for AI cooperation stay slim",
+      "source_url": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "法官下令后白宫恢复被特朗普封禁媒体的采访权限",
+      "entities": [
+        {
+          "name": "CNN",
+          "explain": "美国主流有线新闻频道，长期被特朗普批评为'假新闻'"
+        },
+        {
+          "name": "Politico",
+          "explain": "美国政治新闻媒体，专注国会和白宫报道"
+        },
+        {
+          "name": "MS NOW",
+          "explain": "原MSNBC，美国左倾有线新闻频道，更名为MS NOW"
+        }
+      ],
+      "summary": "在联邦法官下达命令后，白宫恢复了CNN、Politico和MS NOW等媒体的采访权限。此前这些媒体的工作人员被拒绝进入白宫采访。此举被视为对新闻自由的一次司法胜利。",
+      "relevant": "白宫限制特定媒体采访权限涉及宪法第一修正案新闻自由问题，司法介入具有重要判例意义。",
+      "context": "特朗普政府此前以各种理由禁止部分批评他的媒体进入白宫采访，引发新闻自由争议。相关媒体提起诉讼后，联邦法官裁定白宫必须恢复其采访权限。",
+      "source_analysis": "BBC以中立立场报道司法裁决结果，未对特朗普政府或媒体任何一方做明显倾向性评价。",
+      "social_impact": "此案确立了对白宫限制媒体采访权的司法审查标准，可能影响未来政府与媒体关系的边界。",
+      "source_text": "White House restores access to media outlets banned by Trump after judge's order - Published CNN, Politico and MS NOW are back in the White House, hours after a federal judge ruled President Donald Trump's ban on the three news outlets was probably unconstitutional and ordered their access immediately restored. The outlets sought an emergency court hearing to regain entry accusing the White House in a court filing of having \"repeatedly violated\" the judge's ruling by turning away their journalists. The hearing was called off after access was restored. Trump initially said he barred the outlets because of \"fake news\". The White House later cited national security. But in his overnight ruling, Judge Timothy Kelly cast doubt on the claim about national security concerns. The chaotic standoff limited some TV coverage as Trump welcomed Chinese President Xi Jinping to the White House ahead of a state dinner later. Judge Kelly ruled the ban on the outlets should be temporarily lifted because it \"likely violated their constitutional due process rights\". CNN, Politico and MS Now all reported being denied entry to the White House on Thursday morning, prompting their request for an emergency hearing. In response, the director of White House Operations said in a court filing that the press passes and confiscated badges had been restored by 09:45. Shortly afterwards, all three outlets said they were allowed back in. However, networks including Fox News, NBC, CBS and ABC, which pulled out in solidarity, have yet to confirm they will resume broadcast coverage from the White House. - Judge dismisses Trump lawsuit against Iowa newspaper and pollster over 2024 race - Published8 hours ago Judge Kelly ruled CNN, Politico and MS NOW were \"likely to succeed\" in showing the White House had not exercised \"adequate due process\" in the ban. The judge also rejected the argument that national security concerns underpinned the exclusion, pointing out the president made no mention of this in his initial announcement. \"The record lacks factual support for defendants' contention that the revocation of plaintiffs' hard passes will in fact protect national security,\" Kelly wrote. He ordered the immediate return of the outlets' press passes and a halt to enforcement of the ban for 14 days. In a court filing on Tuesday, the US Department of Justice had accused the news outlets of threatening national security with their coverage. Government lawyers cited stories about missile stockpiles, the",
+      "source_title": "White House restores access to media outlets banned by Trump after judge's order",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "澳大利亚选择在联合国大会舞台披露OpenAI安全漏洞",
+      "entities": [
+        {
+          "name": "OpenAI",
+          "explain": "开发ChatGPT的人工智能公司，全球最具影响力的AI企业之一"
+        },
+        {
+          "name": "联合国大会",
+          "explain": "联合国最高级别全体会议，各国领导人每年9月齐聚纽约"
+        }
+      ],
+      "summary": "澳大利亚在联合国大会上宣布发现OpenAI存在安全漏洞。澳大利亚此前已实施严格的社交媒体限制，并提出对算法和智能眼镜的管控方案。选择联大这一全球最大政治舞台公布此事，显示其推动AI国际监管的意图。",
+      "relevant": "澳大利亚将AI安全漏洞提升至联合国层面，可能推动形成AI安全事件的国际通报机制和监管框架。",
+      "context": "澳大利亚近年来在科技监管方面走在前列，已通过未成年人社交媒体禁令并提议算法透明度要求。此次在联大披露OpenAI漏洞，是其将国内监管议程推向国际舞台的举措。",
+      "source_analysis": "BBC报道侧重澳大利亚选择联大作为披露场合的战略考量，未对OpenAI漏洞本身的技术细节做深入分析。",
+      "social_impact": "若AI安全漏洞成为国际议题，可能加速全球AI监管协调，影响OpenAI等公司的国际运营合规成本。",
+      "source_text": "Why Australia chose the world's biggest political stage to reveal OpenAI hack - Published Australia made a dramatic revelation on Wednesday during the United Nations General Assembly. Rogue AI agents had hacked one of its government bodies - the first known incident of its kind in the world. Private data, but not sensitive information, was taken from Medicare, Australia's universal healthcare scheme. The breach happened in June, but OpenAI says it only became aware of it in August - and then took until 10 September to alert Australia's government, by sending an email to an address used by researchers and academics to alert authorities to concerns of vulnerabilities. While worrying, the timing of the incident is somewhat of a gift for Australia. A middle power that doesn't usually get as much of a platform as its influential allies, the country wants to be seen as punching above its weight on one of the most defining issues of our time - big tech regulation. In the past year alone, it has implemented the world's strictest social media ban, announced what it says are the world's strongest algorithm controls, floated the possibility of \"world-leading\" limits on smart glasses, and is now the first government to confront AI firms over a rogue attack on its data. It's entirely possible other governments have been the victim of rogue AI agents. Former Australian government cybersecurity adviser Alastair MacGibbon told the BBC he'd heard whispers that several others have been notified of similar recent breaches by OpenAI agents. \"Some have chosen to not be public – that's every government's choice on how it wants to handle these things,\" the CyberCX chief strategy officer said. \"The [Australian] government chose a time to release this to gain maximum publicity which is their wont to do.\" Revealing a data breach can of course be a risky strategy for governments - it leaves them vulnerable to criticism that their security systems aren't up to scratch. But the fact that no sensitive information was leaked put Australia in a stronger position to use the incident. \"Nobody has died,\" says the University of Queensland's associate professor Michael Noetel, who studies AI risks. \"This is another canary in the coal mine. This sort of loss-of-control incident, even though it's minor now, is what CEOs are worried about getting worse over time.\" Though Australia has made a name for itself by taking a stand against social media companies, taking up the AI mantle now is another ",
+      "source_title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "source_url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "报告警告：美国退出援助项目后非洲医疗体系'压力日增'",
+      "entities": [
+        {
+          "name": "USAID",
+          "explain": "美国国际开发署，负责对外援助的政府机构，特朗普政府已大幅削减其项目"
+        },
+        {
+          "name": "Accra Reset",
+          "explain": "发布该报告的研究机构，名称暗示其关注全球南方国家的自主发展议题"
+        }
+      ],
+      "summary": "一份新报告警告，美国退出关键援助项目后，非洲和全球南方的医疗体系正承受越来越大压力。报告指出，特朗普政府削减USAID等项目、新冠疫情及全球生活成本上涨，使该地区医疗改革变得'更加紧迫'。报告呼吁非洲国家自主掌控卫生发展。",
+      "relevant": "美国是全球最大双边援助国，其退出将直接冲击依赖援助的非洲国家医疗体系，可能导致疾病防控和基础医疗服务的严重倒退。",
+      "context": "特朗普政府上台后大幅削减对外援助预算，USAID多个项目被终止。非洲许多国家的医疗体系长期依赖美国援助，突然断供造成资金和服务缺口。",
+      "source_analysis": "《卫报》报道倾向关注全球南方国家利益，引用Accra Reset报告呼吁非洲自主发展，对美国削减援助持批评态度。",
+      "social_impact": "非洲多国医疗体系面临资金缺口，可能影响艾滋病、疟疾、结核病等疾病的防控项目，波及数百万患者。",
+      "source_text": "The United States’ withdrawal from key aid programs has put healthcare in Africa and the global south “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. The report, titled A Sovereign Future For Health, was created by the Accra Reset, a global health initiative led by John Dramani Mahama, Ghana’s president, that believes countries in Africa and the wider global south should have greater control over their health development rather than being dependent on aid from western countries and international institutions. A key statistic cited by Mahama and Accra Reset is that Africa produces less than 1% of its vaccines while carrying about 25% of the global disease burden. The report cites how abrupt changes to global health financing, such as the US withdrawal from several global health initiatives, forced countries within the global south to urgently restructure their finances. The report points to the Trump administration’s decision to dissolve USAID, which pushed Nigeria to absorb the 28,000 health workers who were previously employed by the agency at a cost of $200m. External financing for health in Africa contracted by close to 70% between 2021 and 2025, the report notes, meaning that African countries historically dependent on aid were forced to adapt quickly. The withdrawal of the US Emergency Plan for Aids Relief (Pepfar) funding for South Africa, which provided over $400m a year annually and is credited with saving 26m lives globally since 2003, led to HIV clinics closing across the country. That left 1.4 million people living with HIV to face uncertainty about their treatment. Such funding cuts caused “severe and devastating” disruption globally, according to research presented at the 26th International Aids Conference in Brazil earlier this year. At the World Health Assembly in May, Mahama said Ghana lost $78m after the closure of USAID programs which affected maternal healthcare, the treatment of malaria, nutrition and HIV/Aids interventions. The initiative’s latest report, published on Monday, comes amid these major cuts to international aid and growing pressure on countries to take greater ownership of their health systems. Mahama refers to these aid cuts as a clear example that donor dependency is n",
+      "source_title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "埃塞俄比亚提格雷武装与政府军爆发全面战争",
+      "entities": [
+        {
+          "name": "提格雷",
+          "explain": "埃塞俄比亚北部的一个地区，2020-2022年曾与中央政府打过一场惨烈内战"
+        },
+        {
+          "name": "提格雷人民解放阵线（TPLF）",
+          "explain": "提格雷地区的主导政治军事力量，曾长期掌控埃塞俄比亚中央政权"
+        }
+      ],
+      "summary": "埃塞俄比亚北部提格雷地区武装与联邦政府之间的紧张局势升级为\"全面战争\"，当地居民开始恐慌性抢购物资。此前双方已持续数月对峙，外界担忧2022年停火协议可能彻底破裂。",
+      "relevant": "提格雷战争曾造成数十万人死亡，若全面冲突重启，将引发新一轮严重人道主义危机，并 destabilize 整个非洲之角地区。",
+      "context": "2022年埃塞俄比亚联邦政府与提格雷武装签署和平协议，结束了两年内战。但此后双方关系持续恶化，停火协议执行受阻，近期紧张局势再度升级。",
+      "source_analysis": "France24是法国国际新闻频道，报道立场偏向西方主流视角，关注人道主义议题。",
+      "social_impact": "提格雷地区居民已开始恐慌性抢购物资，若冲突全面爆发，可能导致大规模平民伤亡和流离失所。",
+      "source_text": "Tigray rebels in 'full-blown' war with government Africa To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: 14:03 min From the show Reading time 1 min In tonight's edition, Tigrayans in northern Ethiopia start panic buying supplies in the rush to stock up amidst fears that months of tensions have finally tipped over into full-blown conflict. Also, power cuts return to Senegal. And Yemis Alade, the Nigerian superstar, is out with a new album and speaks to France 24. Advertising Related keywords",
+      "source_title": "Tigray rebels in 'full-blown' war with government",
+      "source_url": "https://www.france24.com/en/tigray-rebels-in-full-blown-war-with-government",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "沙特称击落胡塞武装射向沙特的六枚弹道导弹",
+      "entities": [
+        {
+          "name": "胡塞武装",
+          "explain": "也门的什叶派武装组织，受伊朗支持，长期与沙特领导的联军作战"
+        },
+        {
+          "name": "弹道导弹",
+          "explain": "一种按抛物线轨迹飞行、用于打击远距离目标的导弹"
+        }
+      ],
+      "summary": "沙特军方发言人表示，伊朗支持的也门胡塞武装向沙特城市发射了六枚弹道导弹，沙特成功将其击落。这是一次重大的跨境袭击事件，标志着也门冲突再度升级。",
+      "relevant": "此次袭击是胡塞武装对沙特本土的又一次重大跨境打击，可能引发沙特报复性空袭，进一步加剧中东紧张局势。",
+      "context": "也门内战自2014年爆发以来，胡塞武装与沙特支持的也门政府持续交战。胡塞武装多次向沙特境内发射导弹和无人机，沙特则领导联军对也门进行空袭。",
+      "source_analysis": "纽约时报是美国主流大报，报道立场偏中间偏自由派，消息来源为沙特军方发言人。",
+      "social_impact": "六枚弹道导弹射向沙特城市，若未被拦截可能造成大量平民伤亡，地区安全形势严峻。",
+      "source_text": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says。The Iran-backed militia in Yemen fired six ballistic missiles at Saudi cities, a military spokesman said. It was a major cross-border attack.",
+      "source_title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
+      "source_url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "印度亿万富翁旗下支付公司计划在伦敦上市，目标估值90亿美元",
+      "entities": [
+        {
+          "name": "Airtel Money",
+          "explain": "Airtel Africa旗下的移动支付业务，在非洲多国运营"
+        },
+        {
+          "name": "Sunil Bharti Mittal",
+          "explain": "印度亿万富翁，Bharti Airtel电信集团创始人"
+        },
+        {
+          "name": "伦敦证券交易所",
+          "explain": "英国主要的股票交易市场，近年来面临上市公司流失的困境"
+        }
+      ],
+      "summary": "印度亿万富翁Sunil Bharti Mittal控制的Airtel Money宣布计划在伦敦证券交易所上市，目标估值90亿美元，将成为近年来英国最大的IPO之一。这对近期上市公司不断流失的伦敦市场是一剂强心针。",
+      "relevant": "伦敦股市近年面临上市荒，多家公司选择赴美或其他市场上市。Airtel Money若成功上市，可能提振市场信心，吸引更多企业选择伦敦。",
+      "context": "伦敦证券交易所近年来遭遇一系列公司退市或选择其他市场上市的打击，市场地位受到纽约、香港等交易所的挑战。Airtel Money的上市计划被视为对伦敦市场的重要信任投票。",
+      "source_analysis": "卫报是英国左倾大报，其专栏作家Nils Pratley对伦敦上市荒持谨慎态度，认为这不一定意味着危机结束。",
+      "social_impact": "Airtel Money在非洲多国运营移动支付业务，上市后将进一步扩大其在非洲金融科技领域的影响力。",
+      "source_text": "A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange. Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures. The company is understood to be hoping to raise about $800m (£601m) from the initial public offering (IPO) and is targeting a valuation of $8bn to $9bn, which would make it one of London’s largest listings in recent years. Airtel Money has 53 million monthly active users across 13 countries in sub-Saharan Africa, including Uganda, Zambia and the Democratic Republic of Congo. It operates through a network of branches and kiosks, which enable customers to load money on to their phones, withdraw cash and access other money services, and the company generated revenues of just under $1.4bn in the last financial year. Airtel Money’s parent company is Airtel Africa, a telecoms provider that is part of the Indian conglomerate Bharti Enterprises, which is ultimately controlled by the billionaire Sunil Bharti Mittal. Airtel Africa is already listed on the FTSE 100 but said it wanted Airtel Money to be listed separately. “From a company perspective, [the listing] gives us flexibility for the future,” said Airtel Money’s chief executive, Ian Ferrao. “We evaluated multiple [stock] exchanges, including the Middle East because we’ve got a headquarters in Dubai, along with European and North American exchanges. Ultimately, shareholders felt that London was the right choice. We still believe there is deep capital available … all the global institutional investors are here.” Ferrao added: “Most importantly there’s a deep understanding of emerging markets in the London market and Africa specifically.” Airtel Money said it would announce more details about the float in early October, including the indicative price range and number of shares to be offered, with final pricing to follow later in the month. Airtel Africa had originally targeted a listing in the first six months of 2026 but delayed it to the second half of the year, blaming unfavourable market conditions as a result of the US-Israeli war on Iran. Several other companies also pushed back planned IPOs amid the market volatility caused by the conflict. Airtel Africa owns just under 78% of Airtel Money and will remain a long-term investor after the I",
+      "source_title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "source_url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "塔利班称巴基斯坦空袭阿富汗致四名平民死亡",
+      "entities": [
+        {
+          "name": "塔利班",
+          "explain": "阿富汗当前的执政武装组织，2021年重新掌权"
+        },
+        {
+          "name": "巴基斯坦",
+          "explain": "阿富汗邻国，长期与阿富汗在边境安全和武装组织问题上存在矛盾"
+        }
+      ],
+      "summary": "塔利班方面称，巴基斯坦对阿富汗境内目标发动空袭，造成四名平民死亡。巴基斯坦表示打击了10个目标，并强调行动\"严格限于已确认的军事目标\"。双方对伤亡性质各执一词。",
+      "relevant": "巴基斯坦与阿富汗塔利班政权关系持续紧张，此次跨境空袭可能进一步恶化两国关系，影响地区稳定。",
+      "context": "巴基斯坦长期指责阿富汗塔利班政权庇护巴基斯坦塔利班（TTP）等武装组织，后者在巴基斯坦境内发动多起袭击。此次空袭是巴基斯坦对跨境武装威胁的军事回应。",
+      "source_analysis": "BBC是英国公共广播机构，报道以中立著称，此处引用了塔利班和巴基斯坦双方的说法。",
+      "social_impact": "四名平民死亡，若冲突持续，边境地区平民将面临更大安全威胁。",
+      "source_text": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says - Published Afghanistan's Taliban government said a wave of Pakistani air strikes had killed four civilians in the latest escalation between the two sides. The strikes hit provinces including Kandahar, the Taliban's base of power, sources told the BBC. A resident told AFP news agency they heard a jet, followed by a large explosion and then a fire in the city. Pakistan said its forces had struck 10 targets in Afghanistan, without specifying their locations, adding the strikes were \"strictly limited to identified military objectives\". It's the second wave of Pakistani air strikes on Afghan territory in the past week, and comes after a deadly attack on a police facility in Pakistan on 18 September. In a statement, the Taliban said there would be an \"appropriate response\" following the attack, while Pakistan said any further \"provocative act\" would be responded to. Taliban government spokesman Zabihullah Mujahid said the attacks were in Afghanistan's Kandahar, Paktia and Khost provinces. In Paktia, an official said jets had bombed the Afghan Armed Forces' 203 Mansouri Corps, which is controlled by the Taliban, without providing any information on casualties. In Khost, a spokesman said houses were damaged in the strikes, with no casualties reported. Abdullah, a local eyewitness, told Reuters news agency the strikes happened around midnight. \"People were shouting, and there was panic all around,\" he said. \"Afterwards, the village elder arrived and called out to the houses, asking if anyone was killed. Thankfully, no one was killed.\" Another local, Salamat Khan, told Reuters that \"there is no military base here, nor are there any military personnel\", adding \"there are only the homes of ordinary civilians\". Zabihullah Mujahid labelled the attack as \"reckless, careless, and hostile\", and said it \"will have adverse consequences for the Pakistani military\". Pakistan's Information Minister Attaullah Tarar said the strikes were \"deliberate, precise, calibrated, and proportionate, and strictly limited to identified military objectives directly linked to the attempted attacks against Pakistan\". The Taliban and Pakistan had enjoyed three months of relative calm, until fighting reignited following an attack on a mosque at a police compound in north-western Pakistan last week, which killed at least 31 people, according to AFP. A group linked to Tehreek-e-Taliban Pakistan (TTP), which has waged a violent",
+      "source_title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "马克龙否认CIA曾通报法国关于俄罗斯无人机袭击情报",
+      "entities": [
+        {
+          "name": "马克龙",
+          "explain": "法国总统"
+        },
+        {
+          "name": "CIA",
+          "explain": "美国中央情报局，美国主要对外情报机构"
+        },
+        {
+          "name": "Yanbu",
+          "explain": "沙特红海沿岸港口城市，重要的石油出口枢纽"
+        }
+      ],
+      "summary": "法国总统马克龙否认西班牙《世界报》关于CIA曾警告欧洲政府可能遭受来自地中海的俄罗斯无人机袭击的报道。他同时宣布法国将向沙特派遣部队和防御系统，协助保护红海港口城市Yanbu。",
+      "relevant": "此事涉及美法情报共享的信任问题，同时法国向沙特派兵标志着其中东军事部署的扩大。",
+      "context": "西班牙《世界报》此前报道称CIA曾向欧洲多国政府通报俄罗斯可能从地中海发动无人机袭击。马克龙在电视采访中否认法国情报部门收到过此类通报，并借此机会宣布对沙特的安全承诺。",
+      "source_analysis": "France24是法国国际新闻频道，报道立场偏向西方主流视角，此处直接引述马克龙的电视采访内容。",
+      "social_impact": "法国向沙特派兵保护Yanbu港，显示欧洲国家在中东安全事务中的军事介入加深。",
+      "source_text": "Macron says 'CIA did not inform French services' of possible Russian drone attacks French President Emmanuel Macron on Thursday denied a report by Spanish newspaper El Mundo that the US Central Intelligence Agency had warned European governments of possible Russian drone attacks from the Mediterranean. He also said in a primetime TV interview that France will send troops and defence systems to Saudi Arabia to help protect the Red Sea port city of Yanbu. France will send troops and defence systems to Saudi Arabia to help protect the Red Sea port city of Yanbu, which is key for energy transport, French President Emmanuel Macron said on Thursday. Macron also said a US ban on diesel exports, which the White House has denied is under consideration, would be \"catastrophic\", both globally and for the US economy. Read moreFrance to send 'military means' to protect key Saudi oil port Macron was speaking in a wide-ranging primetime television interview on the international situation, in which he also warned about possible Russian attacks on French soil. Facing growing pressure at home over high energy prices, Macron sought to assure the French that France had adequate gas and oil supplies as winter approaches. He said Paris was actively working to ensure flows were not disrupted. Crude oil prices have surged recently as the main alternative route for Saudi oil exports through Yanbu has come under missile attacks from Yemen's Iran-backed Houthis. \"We are going to send military resources, that is to say, soldiers, radar systems and defence systems, to protect this site – not to get us involved in any conflicts, but to protect this site,\" Macron told TF1 and France 2 TV. Russian threat Macron dismissed a report by Spanish newspaper El Mundo that the US Central Intelligence Agency had warned European governments about the threat of potential drone attacks from the Mediterranean. \"I can deny it. The CIA did not inform French services,\" he said. Still, Macron said Russia is multiplying hostile and criminal acts against European countries, and France could face strikes similar to the failed attack in Leipzig. Germany said Russia was responsible for an attempted drone attack in August on the Leipzig airport. Macron gathered French party chiefs at the Elysee last week to brief them on the growing threat from Russia. He later said he had ordered his government to draw up a plan to protect critical infrastructure against drone and cyber attacks. Macron said Moscow was seeking ",
+      "source_title": "Macron says 'CIA did not ​inform French services' of possible Russian drone attacks",
+      "source_url": "https://www.france24.com/en/france/20260924-macron-says-cia-did-not-inform-french-services-of-possible-russian-drone-attacks",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "伊朗总统称若与美国达成协议，愿放弃高浓缩铀",
+      "entities": [
+        {
+          "name": "Masoud Pezeshkian",
+          "explain": "伊朗现任总统，相对温和派政治人物"
+        },
+        {
+          "name": "高浓缩铀",
+          "explain": "铀浓缩度达到60%以上的核材料，可用于制造核武器，是伊核问题的核心争议点"
+        }
+      ],
+      "summary": "伊朗总统Pezeshkian在接受福克斯新闻采访时表示，如果与美国达成协议，伊朗愿意在国际法框架内放弃高浓缩铀。这是伊朗方面就核问题释放的最新谈判信号。",
+      "relevant": "伊朗核问题是中东安全的核心议题，若美伊能达成协议，将显著缓解地区紧张局势并可能解除对伊朗的制裁。",
+      "context": "美国对伊朗实施严厉制裁，重点打击其石油出口和航空业。伊朗核计划一直是美伊关系的核心矛盾，此前多轮谈判未能达成最终协议。",
+      "source_analysis": "TASS是俄罗斯官方通讯社，报道立场偏向俄罗斯官方视角，此处引述伊朗总统接受美国福克斯新闻采访的内容。",
+      "social_impact": "若协议达成并解除制裁，将缓解伊朗国内经济压力，恢复其与国际社会的正常贸易往来。",
+      "source_text": "NEW YORK, September 25. /TASS/. Reaching an agreement with the United States may lead Iran to giving up its highly enriched uranium, Iranian President Masoud Pezeshkian told Fox News in an interview on Thursday. When asked whether Tehran was ready to give up its uranium enriched to 60% if a deal with Washington is concluded, the president replied: \"Yes. Within the framework of the international law, based on the Nuclear Non-Proliferation Treaty, we will comply with everything required of us.\"",
+      "source_title": "Iran may give up its highly enriched uranium if deal with US reached — president",
+      "source_url": "https://tass.com/world/2192475",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "美国制裁导致伊朗航空和陆路交通陷入混乱",
+      "entities": [
+        {
+          "name": "美国对伊制裁",
+          "explain": "美国对伊朗实施的经济和金融限制措施，重点打击石油、航空等关键行业"
+        },
+        {
+          "name": "迪拜",
+          "explain": "阿联酋最大城市，中东最重要的商业和金融中心之一"
+        }
+      ],
+      "summary": "由于美国加强对伊朗航空业的制裁，伊朗与阿联酋之间的航班已暂停，德黑兰实际上被切断了与迪拜这一地区重要商业枢纽的空中联系。同时，伊朗与土耳其边境出现严重拥堵，陆路运输难以填补航空中断的缺口。",
+      "relevant": "制裁正在实质性切断伊朗与外界的经济联系，对伊朗民众生活和商业活动造成直接影响。",
+      "context": "美国持续加大对伊朗的经济施压，最新一轮制裁针对伊朗航空业。阿联酋作为伊朗重要的贸易中转站，航班暂停对伊朗经济影响显著。",
+      "source_analysis": "France24是法国国际新闻频道，报道立场偏向西方主流视角。",
+      "social_impact": "伊朗与迪拜航班中断、土耳其边境严重拥堵，直接影响伊朗的进出口贸易和民众出行。",
+      "source_text": "Iran sees air, land travel chaos as US sanctions bite To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Flights between Iran and the United Arab Emirates have been suspended, following tighter US sanctions on Iran's aviation industry. The move effectively cuts Tehran off from Dubai, one of the region's most important commercial hubs. There are also huge backups near Iran's border with Turkey, as overland shipping routes struggle to fill the gaps. Also in this edition - Donald Trump and Xi Jinping hail strong ties between the US and China as they discuss AI, trade, and energy.",
+      "source_title": "Iran sees air, land travel chaos as US sanctions bite",
+      "source_url": "https://www.france24.com/en/iran-sees-air-land-travel-chaos-as-us-sanctions-bite",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "哥伦比亚宣布与伊朗断绝外交关系",
+      "entities": [
+        {
+          "name": "哥伦比亚",
+          "explain": "南美洲国家，美国在拉美的重要盟友"
+        },
+        {
+          "name": "伊朗",
+          "explain": "中东国家，长期与美国及其盟友关系紧张"
+        }
+      ],
+      "summary": "哥伦比亚政府宣布与伊朗断绝外交关系，指控德黑兰与\"国际恐怖组织存在推定联系\"。这是拉美国家与伊朗关系急剧恶化的最新案例。",
+      "relevant": "哥伦比亚是拉美重要国家，断交决定可能影响地区地缘政治格局，并进一步孤立伊朗。",
+      "context": "哥伦比亚长期与美国保持紧密安全合作关系，而伊朗被美国及其盟友指控支持恐怖组织。此次断交反映了两国关系持续恶化的结果。",
+      "source_analysis": "TASS是俄罗斯官方通讯社，报道立场偏向俄罗斯官方视角，可能对伊朗持相对同情态度。",
+      "social_impact": "断交将影响两国间的外交、贸易和人员往来，进一步加剧伊朗在国际上的孤立。",
+      "source_text": "MEXICO, September 25. /TASS/. The government of Colombia has made the decision to sever diplomatic ties with Iran, accusing Tehran of \"presumed ties to international terrorist groups.\" \"The Ministry of Foreign Affairs, on behalf of the Government of Colombia, announces that <…> it has formally severed diplomatic relations with the Islamic Republic of Iran,\" reads a statement, published by the country’s Foreign Ministry. The decision was made \"taking into account the Iranian government’s presumed ties to international terrorist groups and other narco-terrorist organizations that threaten the country’s security.\"",
+      "source_title": "Colombia severs diplomatic relations with Iran — Foreign Ministry",
+      "source_url": "https://tass.com/world/2192473",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "教皇访问巴黎，预计数十万人参加巨型弥撒",
+      "entities": [
+        {
+          "name": "教皇",
+          "explain": "天主教会的最高领袖，全球约13亿天主教徒的精神导师"
+        },
+        {
+          "name": "巴黎",
+          "explain": "法国首都，欧洲重要的政治、文化中心，拥有大量天主教信众"
+        },
+        {
+          "name": "弥撒",
+          "explain": "天主教中最核心的宗教仪式，信徒聚集进行祈祷和领圣体"
+        }
+      ],
+      "summary": "教皇访问巴黎，此行高潮是一场预计超过50万人参加的巨型弥撒。数十万人预计将涌入巴黎参与这一宗教盛事。这是教皇此次法国之行最受瞩目的公开活动。",
+      "relevant": "教皇的大规模公开活动往往涉及重大安保挑战和城市交通管制，同时反映欧洲天主教信仰的现状与影响力。",
+      "context": "教皇正在对法国进行访问，巴黎是其行程的重要一站。此次巨型弥撒是访问的核心公开活动，预计吸引超过50万信众参加。",
+      "source_analysis": "BBC报道，作为英国公共广播机构，其报道风格以事实陈述为主，立场相对中立。",
+      "social_impact": "预计超过50万人参加弥撒，将对巴黎的安保、交通和公共秩序产生显著影响。",
+      "source_text": "Hundreds of thousands expected in Paris for Pope's visit - Published Pope Leo XIV embarks on a four-day visit to France on Friday, with the highpoint being a giant Mass attended by more than half a million people in central Paris. For Saturday's afternoon celebration, an altar has been built on the Place de la Concorde and a large area around the Champs-Élysées sealed off by police. Some 600,000 Catholic faithful are expected to cram the avenue up to the Arc de Triomphe and beyond. Large crowds are also due at other stages in the Pope's itinerary, reflecting an enthusiasm that the Church attributes to growing spiritual thirst among the French and other Europeans. President Emmanuel Macron will greet the Pope at Orly airport on Friday morning, and then hold talks with him at the Élysée Palace on geopolitical issues and artificial intelligence (AI). He will also deliver a speech with the Pope in Metz. However, the president will not be at any of the Pope's Masses, largely to avoid breaching France's strict separation of state and religion. Instead, the Champs-Élysées Mass will be attended by his wife Brigitte and Prime Minister Sébastien Lecornu. Several candidates for next year's presidential election are also due, including Marine Le Pen of the nationalist right, centrists Edouard Philippe and Gabriel Attal, and conservative Bruno Retailleau. There were reports of tensions between Macron and the Vatican team sent to make arrangements, with the president allegedly frustrated in his wish for a more ceremonial aspect to the visit. This was dismissed this week by Élysée officials, who said it was customary to offer a visiting head of state – which the Pope is – a range of high-profile events, such as a cavalry escort down the Champs-Élysées. But they said it was never expected that the Pope would actually take the offer up. They did confirm that Pope Leo turned down Macron's idea of a meeting with artisans who helped rebuild the fire-devastated Notre-Dame cathedral. This was because his agenda was too tight, they said. After a Popemobile ride through crowds to Notre-Dame cathedral on Friday afternoon, Pope Leo XIV will be joined in the evening by 80,000 young people at the Stade de France in northern Paris. On Sunday 150,000 have signed up to attend mass in the Pyrenean sanctuary of Lourdes. On Monday the Pope will be in Metz, in northeast France, where he will pay tribute to Robert Schuman (1886-1963), a founding father of the European Union and a fervent Cat",
+      "source_title": "Hundreds of thousands expected in Paris for Pope's visit",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "病毒视频声称丹麦用《Send in the Clowns》嘲讽卢比奥，事实核查揭示真相",
+      "entities": [
+        {
+          "name": "Marco Rubio",
+          "explain": "美国国务卿，特朗普政府核心外交官员"
+        },
+        {
+          "name": "Send in the Clowns",
+          "explain": "美国歌手Judy Collins的经典歌曲，歌名意为'让小丑上场吧'，常被用来讽刺荒诞局面"
+        },
+        {
+          "name": "格陵兰",
+          "explain": "世界最大岛屿，丹麦自治领地，特朗普曾提出购买引发争议"
+        },
+        {
+          "name": "事实核查",
+          "explain": "对网络流传信息进行验证，确认其真实性的新闻工作方式"
+        }
+      ],
+      "summary": "一段病毒视频声称丹麦官员在美国国务卿卢比奥抵达格陵兰签约仪式时播放了讽刺歌曲《Send in the Clowns》，引发丹麦'嘲讽'特朗普政府的说法。France24核查多路直播后确认歌曲确实播放且视频未被篡改，但丹麦否认刻意选择该音乐，联合国也表示未组织该活动。没有证据表明丹麦故意选曲。",
+      "relevant": "事件涉及美丹关系、格陵兰地缘政治以及社交媒体虚假信息传播，反映了当前国际外交中的舆论战现象。",
+      "context": "特朗普曾提出购买格陵兰岛引发丹麦不满。卢比奥作为美国国务卿出席格陵兰相关签约仪式时，现场播放了《Send in the Clowns》，该歌曲名称被解读为对美方的讽刺。",
+      "source_analysis": "France24是法国国际新闻频道，其事实核查栏目对视频真实性进行了独立验证，立场偏向澄清事实而非煽动情绪。",
+      "social_impact": "视频在社交媒体上广泛传播，加剧了美丹之间的舆论紧张，也凸显了短视频时代外交事件被放大解读的风险。",
+      "source_text": "‘Send in the Clowns’: Viral video fuels claims Denmark trolled Trump and Rubio To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Issued on: Modified: A viral video claims Danish officials played Judy Collins’ “Send in the Clowns” as US Secretary of State Marco Rubio arrived for a Greenland signing ceremony, sparking claims of Danish “trolling”. Our checks of separate livestreams confirm the song really played and the video was not manipulated. Denmark has denied choosing the music, while the UN says it did not organise the event. Whilst the song was real, there is no evidence Denmark selected it deliberately. Vedika Bahl fact-checks. On the sidelines of the UN General Assembly, the United States, Denmark and Greenland signed a deal Tuesday to expand Washington’s military presence in the Arctic territory. The agreement came after months of diplomatic tensions over Greenland, with Denmark also seeking to reaffirm its control over the island. But an unusual song played before the signing has sparked a wave of speculation online. A video circulating widely on social media claims Danish officials deliberately played Judy Collins’ version of the classic Broadway song “Send in the Clowns” as US Secretary of State Marco Rubio arrived. The clip has amassed more than a million views in a single post on X, with the footage also widely shared on Bluesky, Threads, Facebook and Instagram. The song’s lyrics include the line: “Where are the clowns? Send in the clowns. Don't bother, they're here.” Social media users quickly interpreted the music as a deliberate dig at the US delegation, with some praising Denmark for what they described as “epic trolling”. Others questioned whether the footage was genuine, while some went further, sharing AI-generated images depicting members of the US delegation as clowns. The speculation raised a key question: did the song actually play at the ceremony, and if so, was it deliberately chosen by Denmark? We checked footage from multiple livestreams of the event. The original viral video carries the watermark of US-based outlet MAGNO News. In its Facebook livestream, just before the 11-minute mark, Rubio and other delegates can be seen entering as “Send in the Clowns” plays in the background. The Guardian’s livestream, filmed from a different a",
+      "source_title": "‘Send in the Clowns’: Viral video fuels claims Denmark trolled Trump and Rubio",
+      "source_url": "https://www.france24.com/en/send-in-the-clowns-viral-video-fuels-claims-denmark-trolled-trump-and-rubio-1",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "海地政府聘请罗杰·斯通游说特朗普政府，合同价值近80万美元",
+      "entities": [
+        {
+          "name": "罗杰·斯通",
+          "explain": "美国政治说客，特朗普的长期密友和政治顾问，曾因通俄门相关罪名被定罪后获特赦"
+        },
+        {
+          "name": "海地",
+          "explain": "加勒比海岛国，长期面临政治动荡和贫困问题，大量侨民居住在美国"
+        },
+        {
+          "name": "驱逐保护",
+          "explain": "允许外国公民暂时留在美国免于被遣返的法律保护措施"
+        }
+      ],
+      "summary": "海地政府聘请特朗普密友罗杰·斯通进行游说，合同价值近80万美元。此举发生在数十万海地人失去驱逐保护数周之后。海地政府希望通过斯通影响特朗普政府的移民政策。",
+      "relevant": "此事揭示了外国政府如何通过与美国政治圈关系密切的人物来影响美国政策，也反映了海地移民面临的困境。",
+      "context": "数十万海地移民此前依据临时保护身份等项目免于被遣返，但该保护被取消。海地政府随后聘请与特朗普关系密切的斯通进行游说，试图影响相关政策。",
+      "source_analysis": "纽约时报报道，该报以调查性报道著称，对特朗普政府相关政策持审视态度。",
+      "social_impact": "数十万海地移民失去驱逐保护，面临被遣返风险，海地本身局势动荡难以接收大量归国人员。",
+      "source_text": "Haiti Turns to Roger Stone To Lobby Trump Administration。The Haitian government hired Mr. Stone, a confidant of President Trump, weeks after hundreds of thousands of Haitians lost deportation protection. The contract is worth nearly $800,000, a document shows.",
+      "source_title": "Haiti Turns to Roger Stone To Lobby Trump Administration",
+      "source_url": "https://www.nytimes.com/2026/09/24/world/americas/haiti-roger-stone-migration.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "加拿大总理卡尼称将考虑连任，取决于美加关系状况",
+      "entities": [
+        {
+          "name": "马克·卡尼",
+          "explain": "加拿大总理，前央行行长，以经济管理能力著称"
+        },
+        {
+          "name": "美加贸易战",
+          "explain": "美国对加拿大加征关税引发的双边贸易冲突"
+        },
+        {
+          "name": "连任",
+          "explain": "政治人物在完成一届任期后再次竞选同一职位"
+        }
+      ],
+      "summary": "加拿大总理卡尼表示将考虑竞选第二任期，但取决于美加关系的状况。他正在努力打破加拿大对美国的依赖，同时承认加拿大人将因贸易战感受到痛苦。",
+      "relevant": "美加贸易战直接影响两国经济和民生，卡尼的去留决定将对加拿大对美政策走向产生重要影响。",
+      "context": "特朗普政府对加拿大加征关税，引发贸易战。卡尼正试图减少加拿大对美国的经济依赖，但这一转型过程预计将给加拿大民众带来经济阵痛。",
+      "source_analysis": "纽约时报报道，该报对特朗普贸易政策持批评立场，关注其对盟友国家的影响。",
+      "social_impact": "美加贸易战影响两国间每年数千亿美元的贸易额，加拿大经济高度依赖对美出口，转型阵痛将波及大量就业和产业。",
+      "source_text": "Carney Says He Would Consider a Second Term, Depending on State of U.S.-Canada Relations。As he tries to break Canada’s dependence on the United States, Prime Minister Mark Carney said he knows Canadians will feel pain from the trade war.",
+      "source_title": "Carney Says He Would Consider a Second Term, Depending on State of U.S.-Canada Relations",
+      "source_url": "https://www.nytimes.com/2026/09/24/world/canada/carney-economy-trade-war.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_33042b1a0f4e",
+      "source": "BBC",
+      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+      "image": ""
+    },
+    {
+      "id": "rss_2798a2c6b8c8",
+      "source": "BBC",
+      "title": "White House restores access to media outlets banned by Trump after judge's order",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "summary": "CNN, Politico and MS NOW were allowed back into the White House after some of their staff were earlier turned away.",
+      "image": ""
+    },
+    {
+      "id": "rss_14d16c223206",
+      "source": "BBC",
+      "title": "Hundreds of thousands expected in Paris for Pope's visit",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+      "summary": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
+      "image": ""
+    },
+    {
+      "id": "rss_28c4a78520ed",
+      "source": "BBC",
+      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+      "image": ""
+    },
+    {
+      "id": "rss_f9a674e507fb",
+      "source": "BBC",
+      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
+      "summary": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
+      "image": ""
+    },
+    {
+      "id": "rss_ffee0b598cf1",
+      "source": "France24",
+      "title": "Trump and Xi meet, but hopes for AI cooperation stay slim",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim",
+      "summary": "Chinese President Xi Jinping and US President Donald Trump have been holding talks in the Oval Office at the White House today. President Donald Trump gave the visiting leader of communist China a personal tour of several of his favorite White House features. He took him aboard the Marine One helicopter, presented the new granite landing pad he had built for it, and pointed out the massive adjacent construction site where a ballroom will eventually stand.",
+      "image": "https://s.france24.com/media/display/1c3e4596-b814-11f1-bfbf-0fb9a8008200/w:1024/p:16x9/2026-09-23T225034Z-690498338-RC2APNA2RVRP-RTRMADP-3-USA-CHINA.jpg"
+    },
+    {
+      "id": "rss_29db7ce6aa38",
+      "source": "France24",
+      "title": "‘Send in the Clowns’: Viral video fuels claims Denmark trolled Trump and Rubio",
+      "url": "https://www.france24.com/en/send-in-the-clowns-viral-video-fuels-claims-denmark-trolled-trump-and-rubio-1",
+      "summary": "A viral video claims Danish officials played Judy Collins’ “Send in the Clowns” as US Secretary of State Marco Rubio arrived for a Greenland signing ceremony, sparking claims of Danish “trolling”. Our checks of separate livestreams confirm the song really played and the video was not manipulated. Denmark has denied choosing the music, while the UN says it did not organise the event. Whilst the song was real, there is no evidence Denmark selected it deliberately. Vedika Bahl fact-checks.",
+      "image": "https://s.france24.com/media/display/ebcfbc70-b857-11f1-b38e-c959b9d22ec6/w:1024/p:16x9/ANGL260924-2220-Live-CS2220.jpg"
+    },
+    {
+      "id": "rss_c26201286b6c",
+      "source": "France24",
+      "title": "Macron says 'CIA did not ​inform French services' of possible Russian drone attacks",
+      "url": "https://www.france24.com/en/france/20260924-macron-says-cia-did-not-inform-french-services-of-possible-russian-drone-attacks",
+      "summary": "French President Emmanuel Macron on Thursday denied a report by Spanish newspaper El Mundo that the US Central Intelligence Agency had warned European governments of possible Russian drone attacks from the Mediterranean. He also said in a primetime TV interview that France will send troops and defence systems to Saudi Arabia to help protect the Red Sea port city of Yanbu.",
+      "image": "https://s.france24.com/media/display/8e756596-b84f-11f1-a08d-852b23529bb9/w:1024/p:16x9/000-C9B32J2.jpg"
+    },
+    {
+      "id": "rss_7b07951ce448",
+      "source": "France24",
+      "title": "Iran sees air, land travel chaos as US sanctions bite",
+      "url": "https://www.france24.com/en/iran-sees-air-land-travel-chaos-as-us-sanctions-bite",
+      "summary": "Flights between Iran and the United Arab Emirates have been suspended, following tighter US sanctions on Iran's aviation industry. The move effectively cuts Tehran off from Dubai, one of the region's most important commercial hubs. There are also huge backups near Iran's border with Turkey, as overland shipping routes struggle to fill the gaps. Also in this edition - Donald Trump and Xi Jinping hail strong ties between the US and China as they discuss AI, trade, and energy.",
+      "image": "https://s.france24.com/media/display/b36b9184-b856-11f1-95b9-11fa9f8a3b4f/w:1024/p:16x9/capture-7725897766ab58841cb11c4-10270280.jpg"
+    },
+    {
+      "id": "rss_2ffbed35bcdb",
+      "source": "France24",
+      "title": "Tigray rebels in 'full-blown' war with government",
+      "url": "https://www.france24.com/en/tigray-rebels-in-full-blown-war-with-government",
+      "summary": "In tonight's edition, Tigrayans in northern Ethiopia start panic buying supplies in the rush to stock up amidst fears that months of tensions have finally tipped over into full-blown conflict. Also, power cuts return to Senegal. And Yemis Alade, the Nigerian superstar, is out with a new album and speaks to France 24.",
+      "image": "https://s.france24.com/media/display/bce64688-b855-11f1-b7ff-91cf9f3cd539/w:1024/p:16x9/capture-6857433396ab586a440a986-82786000.jpg"
+    },
+    {
+      "id": "rss_a261e478d208",
+      "source": "TASS Russia",
+      "title": "Iran may give up its highly enriched uranium if deal with US reached — president",
+      "url": "https://tass.com/world/2192475",
+      "summary": "Masoud Pezeshkian told Fox News that Tehran would comply with the deal with Washington within the framework of international law",
+      "image": ""
+    },
+    {
+      "id": "rss_ca22d68a316e",
+      "source": "TASS Russia",
+      "title": "Colombia severs diplomatic relations with Iran — Foreign Ministry",
+      "url": "https://tass.com/world/2192473",
+      "summary": "The government of Colombia accused Tehran of \"presumed ties to international terrorist groups\"",
+      "image": ""
+    },
+    {
+      "id": "rss_20cf941f078e",
+      "source": "TASS Russia",
+      "title": "Lavrov meets with Malian counterpart at UN Headquarters",
+      "url": "https://tass.com/politics/2192467",
+      "summary": "The sides reaffirmed their commitment \"to deepening political dialogue based on mutual trust and coordinating their efforts at the UN,\" the Russian Foreign Ministry said",
+      "image": ""
+    },
+    {
+      "id": "rss_dd51c5b2fe72",
+      "source": "TASS Russia",
+      "title": "Lavrov, Panamanian foreign minister outline prospects of boosting bilateral ties",
+      "url": "https://tass.com/politics/2192463",
+      "summary": "The sides also discussed cooperation between Russia and Panama at multilateral platforms",
+      "image": ""
+    },
+    {
+      "id": "rss_fffe9493d406",
+      "source": "TASS Russia",
+      "title": "Russian, Nicaraguan top diplomats confirm readiness to boost bilateral ties",
+      "url": "https://tass.com/politics/2192461",
+      "summary": "Sergey Lavrov reaffirmed Russia’s support for the Nicaraguan government’s efforts to defend national sovereignty",
+      "image": ""
+    },
+    {
+      "id": "rss_6604674e3554",
+      "source": "纽约时报",
+      "title": "Haiti Turns to Roger Stone To Lobby Trump Administration",
+      "url": "https://www.nytimes.com/2026/09/24/world/americas/haiti-roger-stone-migration.html",
+      "summary": "The Haitian government hired Mr. Stone, a confidant of President Trump, weeks after hundreds of thousands of Haitians lost deportation protection. The contract is worth nearly $800,000, a document shows.",
+      "image": ""
+    },
+    {
+      "id": "rss_b7bc62d85553",
+      "source": "纽约时报",
+      "title": "U.N. Live Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel",
+      "url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
+      "summary": "In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of the hall as he took the podium.",
+      "image": ""
+    },
+    {
+      "id": "rss_3b34aee3aebd",
+      "source": "纽约时报",
+      "title": "Carney Says He Would Consider a Second Term, Depending on State of U.S.-Canada Relations",
+      "url": "https://www.nytimes.com/2026/09/24/world/canada/carney-economy-trade-war.html",
+      "summary": "As he tries to break Canada’s dependence on the United States, Prime Minister Mark Carney said he knows Canadians will feel pain from the trade war.",
+      "image": ""
+    },
+    {
+      "id": "rss_21c5541dc044",
+      "source": "纽约时报",
+      "title": "Police in Poland Arrest Ukrainian Citizen Over Fatal Stabbing",
+      "url": "https://www.nytimes.com/2026/09/24/world/europe/poland-stabbing-ukrainian-attacker.html",
+      "summary": "The police arrested a Ukrainian citizen on suspicion of carrying out the knife attack, which came as the two countries are trying to steady relations soured by old antagonisms.",
+      "image": ""
+    },
+    {
+      "id": "rss_02c86031f54d",
+      "source": "纽约时报",
+      "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
+      "url": "https://www.nytimes.com/2026/09/24/world/middleeast/saudi-arabia-houthi-missile-attack-yemen-war.html",
+      "summary": "The Iran-backed militia in Yemen fired six ballistic missiles at Saudi cities, a military spokesman said. It was a major cross-border attack.",
+      "image": ""
+    },
+    {
+      "id": "rss_2e7923f290b1",
+      "source": "卫报",
+      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed government There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_c8c84fd647e1",
+      "source": "卫报",
+      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "summary": "Sunil Bharti Mittal’s Airtel Money targets $9bn IPO in boost for ailing UK stock market Nils Pratley: Does this mark the end of London’s listing drought? Not yet A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange . Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5a58864aec04",
+      "source": "卫报",
+      "title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+      "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+      "summary": "Arrest of Shadrack Sibiya comes as country reels from cases of femicide and alleged police corruption and criminality One of South Africa’s most senior police officers has been charged with raping an 18-year-old woman and grooming a 16-year-old girl, as the country’s police face allegations of corruption and failing to tackle violence against women and girls. Shadrack Sibiya, who was already suspended from his role as deputy national police commissioner over allegations he interfered with political killings investigations, was arrested on Monday. He is facing charges of rape, people trafficking, promoting the sexual grooming of a child and two counts of grooming a child. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_4c53d4b64ed9",
+      "source": "卫报",
+      "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "summary": "Accra Reset’s report states countries in the region and global south should take greater control of their health development after USAID debacle The United States’ withdrawal from key aid programs has put healthcare in Africa and the global south “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_eeb5d81313cc",
+      "source": "卫报",
+      "title": "Banished to alien lands: Trump’s secret deportation deals",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "summary": "After a plane journey in shackles, an Iranian woman found herself in the middle of Africa in a country she did not know existed. She is one of thousands deported from the US on the back of shadowy deals made with dozens of countries. An in-depth investigation reveals the ‘show of force’ costing American taxpayers millions No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-25 07:30"
+}
