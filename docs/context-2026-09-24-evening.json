@@ -1,0 +1,764 @@
+{
+  "key": "2026-09-24-evening",
+  "date": "2026-09-24",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 22,
+      "title": "南非沙丁鱼大规模死亡，企鹅生存与渔民生计陷入两难",
+      "entities": [
+        {
+          "name": "沙丁鱼（pilchards）",
+          "explain": "一种小型海洋鱼类，被称为'海洋能量棒'，是企鹅、海豚、鲸鱼等众多海洋生物的主要食物来源"
+        },
+        {
+          "name": "Saldanha Bay",
+          "explain": "南非西海岸的一个海湾，是重要的渔业港口"
+        },
+        {
+          "name": "南非企鹅",
+          "explain": "又称非洲企鹅，生活在南非和纳米比亚海岸，目前属于濒危物种"
+        }
+      ],
+      "summary": "自7月28日起，南非西海岸Saldanha Bay附近渔民发现大量死沙丁鱼漂浮海面，随后死鱼陆续被冲上开普敦附近海滩。数周内，从纳米比亚Henties Bay到南非东开普省Mbotyi，跨越2600公里海岸线均出现类似报告。沙丁鱼是企鹅等物种的关键食物来源，但关闭渔业让种群恢复将导致数百万美元的经济损失，使企鹅保护与渔民 livelihood 之间矛盾激化。",
+      "relevant": "沙丁鱼是南部非洲海洋生态系统的基石物种，其大规模死亡可能引发生态链连锁反应，同时暴露了濒危物种保护与沿海社区经济生存之间的深层矛盾。",
+      "context": "沙丁鱼是南部非洲海洋食物链的核心环节，近年来种群数量持续下降。此次大规模死亡事件横跨2600公里海岸线，原因尚在调查中，但可能与海洋温度变化、缺氧或疾病有关。南非企鹅作为濒危物种，高度依赖沙丁鱼为食，而当地渔民同样以捕捞沙丁鱼为生。",
+      "source_analysis": "卫报野生动物栏目报道，该媒体在环境议题上通常持生态保护优先立场，关注人类活动对野生动物的影响。",
+      "social_impact": "事件影响范围跨越南非和纳米比亚两国2600公里海岸线。若关闭沙丁鱼渔业，将直接影响数千渔民家庭生计，涉及数百万美元经济损失；若不干预，南非企鹅可能加速走向灭绝。",
+      "source_text": "It began on 28 July, when fishers near Saldanha Bay on the west coast of South Africa reported seeing dead sardines (also known as pilchards) floating at sea. Then, in early August, more dead sardines began washing up on beaches near Cape Town. In the weeks that followed, similar reports came in from places across a vast area spanning 2,600km (1,600 miles) of coastline, such as Henties Bay in Namibia and Mbotyi in the Eastern Cape province of South Africa. Sardines, sometimes described as “the energy bars of the sea”, are a key food source for seabirds – including the critically endangered African penguin, which only feeds on sardines and anchovies – seals, common dolphins and other fish. Meanwhile, the commercial sardine fishery contributes billions of rands and thousands of jobs to South Africa’s economy. “We’ve never had an event of this scale,” says Dr Janet Coetzee, of the Department of Forestry, Fisheries and the Environment, a scientist who specialises in small pelagic fish. “We are taking it very seriously. The minister got involved from the start, establishing a high-level task team comprising local management authorities, scientists, the fishing industry and municipalities to oversee a coordinated response.” Dead fish were sent for testing, and pilchard herpesvirus (PHV) was quickly identified as the primary culprit. The virus is specific to sardines and is not a threat to humans or animals who eat infected fish. While the source is still to be confirmed, it is likely that it was brought to South Africa via imported frozen pilchards used by the canning industry or as bait by commercial fishers. While herpesvirus is endemic in some sardine populations, naive populations are especially vulnerable to the virus. A paper published in 2016 did not detect PHV in South African sardines and cautioned against importing frozen sardines to South Africa for precisely this reason. There is a precedent. A PHV epidemic in Oceania, probably caused by importing sardines as feed for offshore bluefin tuna farms, in 1995 (and another in 1998-99) killed up to 60% of affected populations. Eventually the Australian population developed herd immunity, but it took years for the numbers to recover. Against this backdrop, the South African task team met in early September to chart a way forward. A group of 12 scientists (who do not sit on the task team) representing several universities and conservation NGOs prepared a document calling for an immediate halt to commercial sa",
+      "source_title": "Mass sardine die-off pits survival of South Africa’s penguins against fishers’ livelihoods",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/24/mass-sardine-die-off-pits-survival-of-south-africas-penguins-against-fishers-livelihoods",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "英国开发商'现金换垃圾'税费被削减，诺福克湖区生态保护引质疑",
+      "entities": [
+        {
+          "name": "诺福克湖区（Norfolk Broads）",
+          "explain": "英国具有特殊科学价值的湿地保护区，被誉为'英国的威尼斯'，是重要的野生动植物栖息地"
+        },
+        {
+          "name": "环境交付计划（EDPs）",
+          "explain": "英国政府推出的机制，允许开发商通过缴纳费用来抵消建筑项目对环境的损害，以换取建房许可"
+        },
+        {
+          "name": "'现金换垃圾'税费",
+          "explain": "批评者对EDPs的讽刺性称呼，指开发商用钱'买通'环境破坏的许可"
+        }
+      ],
+      "summary": "卫报独家披露，英国政府允许在诺福克湖区保护区建造近16000套住房的开发商税费被大幅削减，每套房减少数万英镑。批评者指出，削减后的税费远不足以覆盖缓解环境损害的实际成本。部长们称EDPs是促进住房增长与自然保护的'双赢'方案，但环保人士认为这是以牺牲保护区生态为代价换取开发。",
+      "relevant": "该事件揭示了英国住房危机与生态保护之间的政策张力，EDPs机制是否真正能实现'双赢'还是沦为开发商的'通行证'，对全球类似生态补偿机制具有参考意义。",
+      "context": "英国面临严重住房短缺，政府推出环境交付计划（EDPs）以加快建房审批。诺福克湖区是英国最重要的湿地保护区之一，政府允许在此区域建造近16000套住房，但要求开发商缴纳环境补偿费。卫报调查发现该费用已被大幅削减。",
+      "source_analysis": "卫报独家报道，该媒体在环境议题上倾向批评政府开发政策，关注生态保护与商业利益的冲突。",
+      "social_impact": "涉及近16000套住房的开发计划，每套房税费削减数万英镑，总削减金额可能达数亿英镑。若补偿费不足以覆盖生态修复成本，诺福克湖区湿地生态将面临不可逆损害。",
+      "source_text": "A new levy on developers to allow almost 16,000 homes to be built in the environmentally protected Norfolk Broads has been cut by tens of thousands of pounds per house, the Guardian can reveal. Ministers say the government’s environmental delivery plans (EDPs) were created to unblock housing growth across the country and are a “win-win” for development and nature. They allow environmental damage to protected habitats and species to be overlooked as long as developers pay into a nature restoration fund, which is used for conservation actions at a later date designed to address the impacts. Once the first instalment of the fee is paid, work can start immediately. Labelled by critics as “cash to trash”, the first EDP was published last week by the government’s nature adviser, Natural England. It allows 15,780 houses to be built within the Norfolk Broads, a heavily protected wetland network of 60 shallow lakes and winding rivers that is home to some of England’s rarest species. The published plan, which is open for consultation for 28 days, states that the developer will pay £2,675 per house – £42m in total – into the nature restoration fund to cover compensatory actions including fenland creation and restoration, a change in use of agricultural land to semi-natural habitat, catch-dyke restoration and deer management. But a previous draft of the EDP, seen by the Guardian, set the levy much higher. Ecologists said this was to properly reflect the realistic costs of mitigating the increased nutrient pollution from increased sewage pollution and urban run-off into protected chalk stream rivers – the Wensum, Bure and Yare – caused by the development. The fee was to be between £5,400 and £60,500 per house, depending on the scale of total nutrient pollution that the development would cause. The fenlands, marshes, bogs and mires of the Broads are a biodiversity hotspot, home to more than a quarter of the rarest wildlife in the UK such as the otter, cuckoo and fen orchid. Natural England acknowledges that the new homes will cause environmental harm in the form of physical, chemical, hydrological and biological damage to the habitats and rare species in the Broads from increased nitrogen and phosphorus pollution. But the EDP states that the payment of the levy and the conservation actions it funds “will materially outweigh the negative effect of the maximum amount of development on the conservation status of each identified environmental feature”. Critics point out tha",
+      "source_title": "‘Cash to trash’ levy on house developers too low to offset damage to Norfolk Broads, say critics",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/24/cash-to-trash-levy-house-developers-too-low-offset-nature-damage",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "印尼Ungaran山地热项目遭社区反对，担忧威胁水源与农业",
+      "entities": [
+        {
+          "name": "Ungaran山",
+          "explain": "位于印尼中爪哇省的一座火山，周边社区以农业为生"
+        },
+        {
+          "name": "PLN",
+          "explain": "印尼国家电力公司，负责全国电力供应"
+        },
+        {
+          "name": "地热能",
+          "explain": "利用地球内部热量发电的可再生能源，印尼因火山众多而储量丰富"
+        }
+      ],
+      "summary": "印尼中爪哇省Ungaran山附近社区居民强烈反对政府重启地热发电项目，称该项目可能威胁当地水源和农业生计。此前8月，印尼能源与矿产资源部批准国家电力公司PLN推进该项目。这是印尼推动地热能源扩张过程中遭遇的最新地方阻力。",
+      "relevant": "印尼是全球地热资源最丰富的国家之一，正大力推动可再生能源转型，但地方社区的反对凸显了能源开发与环境保护、社区权益之间的紧张关系。",
+      "context": "印尼政府为减少对化石燃料依赖，积极推动地热发电。Ungaran山地热项目此前曾被搁置，2026年8月能源部批准PLN重启。当地社区担心钻井和管道建设会破坏地下水系统，影响灌溉和饮用水供应。",
+      "source_analysis": "Mongabay是专注环境与生态保护的独立新闻机构，报道立场倾向于关注社区权益和生态影响。",
+      "social_impact": "项目涉及中爪哇省Ungaran山周边多个农业社区的水源安全和生计。若项目推进，可能影响数千农民的灌溉用水；若搁置，则影响印尼可再生能源目标进度。",
+      "source_text": "- Indonesia’s push to expand geothermal power is facing resistance from communities around Mount Ungaran in Central Java province, where a long-running dispute over the proposed project has resurfaced. - The government says further exploration is needed to determine whether the area can support a commercially viable power plant, with electricity generation targeted for 2031. - Residents and civil society groups have raised concerns about potential impacts on water resources, farming livelihoods, the environment, and cultural heritage. - Questions over public consultation and differing estimates of the area’s potential electricity output have added to the debate over the project’s future. YOGYAKARTA, Indonesia — Communities living near Mount Ungaran in Indonesia’s Central Java province have slammed plans to revive a geothermal power project there, saying it could threaten water supplies and farming livelihoods. The latest opposition follows a decision in August by the Ministry of Energy and Mineral Resources allowing the state-owned electricity utility, PLN, to conduct geothermal exploration and development at Mount Ungaran. Local opposition to the plans began in 2008, shortly after the ministry first designated Ungaran, an active volcano, as a geothermal working area. The latest decision has revived the long-running dispute between the government and local communities. Rahman, coordinator of the Semarang Menggugat Alliance (ASM), said communities around Mount Ungaran depended on farming and local water sources, and feared the project could affect both. “We can already make a living from farming,” Rahman, a resident of Bawen subdistrict, said in early September. “If geothermal development goes ahead, we are concerned that our water sources could decline or become polluted, affecting agriculture.” Indonesia sits in one of the most seismically active zones in the world, which gives it massive potential to generate electricity from geothermal energy: an estimated 23.2 gigawatts, according to the latest data from the Ministry of Energy and Mineral Resources. The ministry describes Indonesia as having the world’s largest geothermal resource potential, ahead of countries including the United States and the Philippines. But the country’s total installed geothermal capacity is a fraction of its potential, at about 2.78 GW as of August 2026. That means barely an eighth of the country’s estimated geothermal potential has been tapped for electricity generation. The mi",
+      "source_title": "Indonesia’s geothermal push runs into local fears at Mount Ungaran",
+      "source_url": "https://news.mongabay.com/2026/09/indonesias-geothermal-push-runs-into-local-fears-at-mount-ungaran/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "气候危机推动新昆虫物种迁入英国，生态学家发现北非昆虫现身",
+      "entities": [
+        {
+          "name": "Knepp Estate",
+          "explain": "位于英国西萨塞克斯郡的著名再野化庄园，以生态修复实验闻名"
+        },
+        {
+          "name": "Graeme Lyons",
+          "explain": "英国昆虫学家，参与追踪新迁入昆虫物种"
+        },
+        {
+          "name": "马特·菲尔普斯（Matt Phelps）",
+          "explain": "Knepp Estate的生态学家，首次发现异常昆虫鸣声"
+        }
+      ],
+      "summary": "英国正经历迁徙昆虫数量激增，部分昆虫来自北非等遥远地区。7月一个闷热傍晚，生态学家Matt Phelps在Knepp Estate散步时听到一种英国本土生物无法发出的尖锐鸣声，随后与昆虫学家Graeme Lyons追踪调查。这一现象被认为是气候变暖推动昆虫向北扩张的结果。",
+      "relevant": "昆虫迁徙模式的变化是气候危机的直接生物指标，新物种迁入可能重塑英国生态系统，既带来生物多样性增加的机遇，也可能引发生态失衡风险。",
+      "context": "全球变暖导致昆虫栖息地向北扩展，英国作为温带岛国，近年来记录到越来越多来自南欧和北非的昆虫物种。Knepp Estate是英国著名的再野化项目所在地，生态学家在此长期监测物种变化。",
+      "source_analysis": "卫报野生动物栏目报道，该媒体在气候议题上持科学共识立场，关注气候变化对生物多样性的影响。",
+      "social_impact": "昆虫迁徙范围变化影响整个生态系统，包括授粉、害虫控制和食物链。新物种迁入可能对英国农业和本土生态产生长期影响。",
+      "source_text": "It was a stifling evening in July and Matt Phelps was out for a stroll, when a piercing, whirring noise stopped him in his tracks. As an ecologist, Phelps knows his fauna – and he could think of no UK creature that could emit such a sound. “It was like the classic sound effect of a cricket in a film, a beeping sort of little trilling sound,” said Phelps, who works at Knepp Estate in West Sussex. He returned with entomologist Graeme Lyons to track it down. But the sound, though incredibly loud, “seemed to be all around us … it was very ventriloquial”. The duo hunted for three hours. Night fell before they realised their quarry was, said Phelps, “literally below the ground where we stood”. Sure enough, in a crack in the parched clay they made the first identification of a Verge (or Bordeaux) cricket (Eumodicogryllus bordigalensis) in the British Isles. Once they announced it, other reports poured in. “It turns out there’s been this wave of them right at the moment when there was an enormous wildfire in Bordeaux,” said Phelps. “And it made you think: have some of these things fled the flames of southern Europe?” Verge crickets are just one of many “first sightings” of insects on the UK mainland this summer. It’s been an “extraordinary flood”, he said. And it’s not just the professionals who are finding them. Jackie Harmer, a retired secretary from North Cheshire, was one week into her new hobby of moth-trapping when she found an odd-looking creature native to the Iberian peninsula, Odice pergrata – a first for the UK. And David Cousins, a city trader who collects moths by night at his home in north Essex, opened his box one June dawn to find a white moth with bluish markings. “I just knew it was something really unusual,” he said. It turned out to be not just a new moth but “a completely undiscovered genus in Britain”. In north Africa and southern Europe it’s known as a spotted seal moth (Enolmis acanthella). Then there’s Olly Mkeown, 18, in Truro, who didn’t even leave his room to discover what were pronounced in August to be the UK mainland’s first breeding praying mantises. “I sat at my table doing some work and then one was crawling across my keyboard – and then I saw one on top of the chair and then I just started spotting loads all around the tables, chairs and then some on the walls as well,” he said. McKeown’s sighting has subsequently been trumped by reports of others that predate his, in places such as the New Forest. The Cornwall Wildlife Trust sai",
+      "source_title": "Big-eyed bugs and praying mantises: climate crisis drives new visitors to UK shores",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/24/world-warms-up-insects-moving-northwards-uk",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "马拉维Chia泻湖漂浮杂草泛滥，威胁农业与渔业生计",
+      "entities": [
+        {
+          "name": "Chia Lagoon",
+          "explain": "马拉维最大的泻湖，是当地重要的灌溉和渔业资源"
+        },
+        {
+          "name": "漂浮杂草",
+          "explain": "在水面快速繁殖的水生植物，会阻塞水道、消耗水中氧气"
+        }
+      ],
+      "summary": "马拉维最大泻湖Chia Lagoon出现大量漂浮杂草，阻塞水道，导致农民和渔民难以进入农田和捕鱼区。雨季结束已七个月，原本吸收季节性水分的农田仍被淹没，玉米和水稻灌溉生产受到严重影响。",
+      "relevant": "该事件反映了气候变化和水质富营养化对非洲内陆渔业和农业社区的双重打击，直接影响当地粮食安全和生计。",
+      "context": "马拉维是非洲东南部内陆国家，Chia Lagoon是该国最大泻湖，周边社区依赖泻湖进行灌溉和捕鱼。漂浮杂草泛滥通常与水体富营养化（化肥流入）和水温升高有关，雨季结束后水位未正常消退加剧了问题。",
+      "source_analysis": "Mongabay是专注环境与生态保护的独立新闻机构，报道立场关注发展中国家社区的环境权益。",
+      "social_impact": "泻湖周边农民和渔民生计受到直接威胁，玉米和水稻灌溉受阻可能引发局部粮食短缺。马拉维本就是粮食不安全国家，此事件加剧了当地粮食危机风险。",
+      "source_text": "A mass of floating weeds at Chia Lagoon, Malawi’s largest, is choking out waterways and livelihoods as farmers and fishers struggle to access fields and fishing areas. Seven months after the rainy season ended in Malawi, fields that once absorbed seasonal water at the lagoon are submerged, frustrating irrigated maize and rice production, according to farmers. Fishers also said it’s now hard to access fishing grounds as the weeds are blocking boat routes. “We have never seen anything like this,” said Ali Maulidi, who leads an association of more than 1,000 fishers in Nkhotakota district in central Malawi where the lagoon is located. “Due to waterlogged soils, matured cassava has rotted in some fields,” Maulidi told Mongabay in a phone interview. The lagoon, on the western shoreline of Lake Malawi, drains into the lake through a narrow channel. Communities said weeds and debris started collecting where the outlet begins in February, pushing the water back into the lagoon and flooding agricultural fields. Chia Lagoon covers 1,700 hectares (4,200 acres) and directly supports more than 7,800 households through rice, cassava and maize farming as well as fishing and bird hunting. The larger river network supports more than 55,000 agriculturalists. In December 2025, the lagoon was recognized as a Key Biodiversity Area because of its abundant bird, fish, plant, reptile and amphibian species. “We don’t understand what is happening here; but we’re worried because it’s greatly affecting us,” Maulidi said. Scientists too don’t fully understand why the weeds are accumulating now, but they have also suffered its impact. Early in the year, a team of researchers, including Tiwonge Mzumara-Gawa, an ecologist at Malawi University of Science and Technology, struggled to access parts of the lagoon for their study on land use in the watershed. The study hasn’t been published yet and it wasn’t focused on the weeds, but it could still help explain what’s going on. Mzumara-Gawa said the surrounding landscape is facing severe deforestation, farmland expansion and settlement growth. And farmers have encroached on the boundaries of the lagoon. “It’s like this place should be wetland and nobody should be cultivating here. But people are cultivating there and … contributing to all of this silt that’s coming into the marsh. So that is my greater theory,” she told Mongabay in a phone interview. Mzumara-Gawa said the catchment has been degraded enough that floodwater from two waves of flo",
+      "source_title": "Floating weeds threaten farming and fishing at Malawi’s Chia Lagoon",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/floating-weeds-threaten-farming-and-fishing-at-malawis-chia-lagoon/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "评论：生物多样性信用市场不应照搬碳市场模式",
+      "entities": [
+        {
+          "name": "生物多样性信用（biodiversity credits）",
+          "explain": "一种新兴市场机制，通过交易'生物多样性单位'来资助生态保护项目"
+        },
+        {
+          "name": "碳市场",
+          "explain": "将碳排放权作为可交易商品的市场，核心是将碳排放简化为一个可交易的'吨'单位"
+        },
+        {
+          "name": "可验证性（verifiability）",
+          "explain": "指一项生态保护成果能否被独立、持续地核实和确认"
+        }
+      ],
+      "summary": "Mongabay发表评论文章，主张生物多样性信用市场不应复制碳市场的做法——将一切简化为单一可交易单位。作者认为，生物多样性信用应以'声明能否被持续、独立验证'作为成功标准，而非追求一个优雅的单一数字。",
+      "relevant": "生物多样性信用是新兴的生态融资工具，其设计方向将决定全球生态保护资金的效率和可信度。若照搬碳市场模式，可能重蹈碳信用'漂绿'和验证困难的覆辙。",
+      "context": "碳市场因碳信用质量参差不齐、验证困难、'漂绿'等问题广受批评。随着生物多样性信用市场兴起，政策制定者和环保人士正在争论是否应借鉴碳市场经验，还是另辟蹊径。",
+      "source_analysis": "Mongabay评论文章，作者立场倾向于批判碳市场模式，主张生物多样性保护应注重实质验证而非市场化简化。",
+      "social_impact": "生物多样性信用市场若设计不当，可能导致数亿美元生态保护资金流向无效项目，延误全球生物多样性保护目标。",
+      "source_text": "- The biodiversity credit market should stop trying to copy the carbon market’s method of reducing everything to one tradable unit, a new op-ed argues. - Instead, these credits should be measured by how continuously and independently a claim can be verified, since their benefit cannot be expressed as simply as carbon credits can. - “A hectare of mangrove forest is not interchangeable with a hectare of grassland: pretending otherwise is closer to a category error than a measurement gap, and I suspect it is the real reason estimates of this market vary by a factor of 80,” the author writes. - This article is a commentary. The views expressed are those of the author, not necessarily of Mongabay. Here is the argument I want to make plainly, before anything else: the biodiversity credit market should stop trying to copy carbon’s trick of reducing everything to one tradable unit, and should instead measure its own success by how continuously and independently a claim can be verified. Chasing a single elegant number, the way carbon markets did with metric tons of carbon dioxide equivalent (tCO2e), is not what this field should be racing toward. It may, in fact, be the wrong goal altogether. The clearest evidence for this sits in plain view, in numbers that most people read as an embarrassment rather than as information. Every few months, a new market research report tells us exactly how large the global biodiversity credit market is. The trouble is, no two reports agree. One puts the 2025 market at roughly $90 million. Another, published around the same time, puts it at $7.1 billion. A third lands somewhere near $5.7 billion. These are not small rounding-off differences. They are the same year, the same broad market, and estimates that differ by a factor of nearly 80. Most commentary treats this gap as a sign that the data are still catching up with a young market, but I read it differently. The disagreement is not a data problem waiting for better satellites to fix. It is telling us something true about biodiversity that the carbon market never had to reckon with. Carbon succeeded, commercially speaking, because it found one clean unit. The tCO2e behaves the same whether it was avoided in Assam or Amazonas. That fungibility is precisely what let carbon markets scale into the billions, and it is why so many people now assume biodiversity simply needs its own version of the same trick: one tidy number that a hectare of restored mangrove and a hectare of protected ",
+      "source_title": "Biodiversity credits shouldn’t copy the carbon market playbook (commentary)",
+      "source_url": "https://news.mongabay.com/2026/09/biodiversity-credits-shouldnt-copy-the-carbon-market-playbook-commentary/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "数字达达图书馆上线：在线保存实验性反艺术运动的原始出版物",
+      "entities": [
+        {
+          "name": "达达主义（Dada）",
+          "explain": "20世纪初兴起的反艺术运动，以荒诞、反传统和挑衅为特征，深刻影响了现代艺术"
+        },
+        {
+          "name": "Theodor Adorno",
+          "explain": "德国批判理论家，法兰克福学派代表人物，以批判大众文化著称"
+        },
+        {
+          "name": "数字达达图书馆",
+          "explain": "一个在线档案项目，收集和数字化达达主义运动的原始出版物"
+        }
+      ],
+      "summary": "数字达达图书馆上线，在线保存达达主义运动的原始出版物。文章以批判理论家Adorno关于大众文化是'机械化宣传'的观点为引，指出即使最具颠覆性的艺术也常被主流文化驯化和删改，而该数字档案旨在保存达达主义原始出版物的原貌。",
+      "relevant": "达达主义是20世纪最具颠覆性的艺术运动之一，其原始出版物记录了反艺术运动的真实面貌。数字档案为研究者和公众提供了接触原始材料的渠道，对抗文化记忆被'驯化'的趋势。",
+      "context": "达达主义诞生于一战期间的苏黎世，反对理性主义和资产阶级价值观。其出版物多为限量发行的小册子和杂志，散落各地，难以获取。数字达达图书馆将这些原始材料数字化并免费在线开放。",
+      "source_analysis": "Open Culture是专注文化、艺术和教育资源的网站，报道立场倾向于推广免费文化和知识开放获取。",
+      "social_impact": "为全球研究者和艺术爱好者提供免费访问达达主义原始文献的渠道，有助于对抗文化记忆被主流叙事'驯化'和删改的趋势。",
+      "source_text": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global mega-corporate industries don’t need to censor what they don’t like; they only need to buy it, rebrand it, or price it out of reach. So what? Why do we need challenging, independent art when we have endless entertainment? Is the concept a nostalgic, elitist, Eurocentric idea? Artists have justified the need for art since antiquity, with poetic and logical arguments of every kind. But Dada artists of the early 20th century broke ranks, building their movement on the insight that no defense could possibly mean anything when it came to art’s purpose, especially in the face of the technocratic slaughter of World War I. When the hyperrationalism of modernity led to mass death and destruction, the only humane response was to declare war on rationalization—to “destroy the hoaxes of reason,” as French artist Jean Arp put it. “For the disillusioned artists of the Dada movement,” the Museum of Modern Art explains, “the war merely confirmed the degradation of social structures that led to such violence: corrupt and nationalist politics, repressive social values, and unquestioning conformity of culture and thought.” Dada took a combative stance against, for one thing, the insistence that art justify its existence to win establishment approval. “All activity is vain,” declared poet Tristan Tzara in his 1918 “Dada Manifesto,” including the “monetary system, pharmaceutical product, or a bare leg advertising the ardent sterile spring…. The beginnings of Dada were not the beginnings of art, but of disgust” with the ossified culture of the “nice, nice bourgeois,” who would preserve at any cost “the possibility of wallowing in cushions and good things to eat.” “And so Dada,” wrote Tzara, “was born of a need for independence, of a distrust toward unity.” Such declarations aside, the movement was decidedly unified in its aims. “For us, art is not an end in itself,” poet Hugo Ball wrote. “It is an opportunity for the true perception and criticism of the times we live in.” This critique required new experimental techniques that deformed and repurposed the technologies of mass culture. The undertaking would not have been possible without a Dada publ",
+      "source_title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "source_url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "1936年达利穿潜水服演讲差点窒息：超现实主义的真实上演",
+      "entities": [
+        {
+          "name": "萨尔瓦多·达利（Salvador Dalí）",
+          "explain": "西班牙超现实主义艺术家，以荒诞、梦幻和挑衅性的作品与行为闻名"
+        },
+        {
+          "name": "超现实主义（Surrealism）",
+          "explain": "20世纪初艺术运动，探索梦境、潜意识和非理性，达利是其代表人物"
+        },
+        {
+          "name": "潜水服",
+          "explain": "达利在1936年伦敦演讲时穿着的装备，象征'潜入潜意识深处'"
+        }
+      ],
+      "summary": "1936年，超现实主义艺术家萨尔瓦多·达利在伦敦穿着全套潜水服发表演讲，差点窒息。文章以此为切入点，探讨英国文化中'正常与怪诞并存'的特质，以及达利如何用身体行为将超现实主义从画布延伸到现实生活。",
+      "relevant": "达利的潜水服演讲是艺术史上最著名的行为艺术事件之一，体现了超现实主义不仅是一种艺术风格，更是一种生活方式和挑衅姿态。",
+      "context": "1936年，达利受邀在伦敦发表演讲。他选择穿潜水服出场，声称要'潜入潜意识深处'。由于潜水服密封且无供氧设备，他在演讲过程中几乎窒息，需旁人紧急帮助才脱险。",
+      "source_analysis": "Open Culture是专注文化、艺术和教育资源的网站，报道立场倾向于推广艺术史趣闻和免费文化资源。",
+      "social_impact": "该事件成为艺术史上经久不衰的传奇，展示了艺术家如何用极端行为挑战公众对艺术和理性的认知边界。",
+      "source_text": "Many a foreigner has visited England and found it an unexpectedly surreal place. Some of that effect has to do with encountering familiar icons — Big Ben, double-decker Routemaster buses, Marmite — in cold, damp reality. More of it may be induced by the country’s simultaneously thoroughgoing cultures of normality and eccentricity, an endless source of inspiration for Monty Python’s Flying Circus and much other British comedy since. Yet England came relatively late to Surrealism, or rather, Surrealism came late to England. When the International Surrealist Exhibition opened at the New Burlington Galleries behind London’s Royal Academy in the summer of 1936, the Manchester Evening News decried it as “a travesty of everything that’s decent.” Naturally, the show was a smash hit. On display was work by artists including Pablo Picasso, René Magritte, Max Ernst, Alexander Calder, Giorgio de Chirico, Marcel Duchamp, Alberto Giacometti, Paul Klee, Man Ray, and Salvador Dalí, who turned up in person to deliver a lecture on “Authentic Paranoiac Phantoms.” In order to “descend to the subconscious” with a properly Surrealist literalism, he rented a diving suit and helmet from a local outfitter for his appearance. (You can see an actual image from 1936 here.) “The diving suit had extremely heavy lead shoes which I could barely lift,” he writes in his autobiography, as translated by Haakon Chevalier. “I therefore had to walk very slowly, leaning on friends who helped to move me, as though I were completely paralyzed, and thus I appeared before the audience holding two luxurious white Russian wolfhounds on a leash.” Only after he’d been talking for a few minutes did Dalí realize that “it would be impossible for me to deliver my speech through the glass window of my helmet. Moreover, I had been shut up in this thing for ten minutes and became heated from the exertions I had made in walking across the stage to reach my chair, so that I was dripping with perspiration, and felt faint and on the point of suffocating.” With the technician who’d screwed the helmet on in the first place nowhere to be found, his wife Gala and friend Edward James worked desperately to free him, eventually taking a hammer to the bolts. “At each blow I thought I would faint.” When Dalí finally emerged, the audience, having assumed it had all been an act, “was impressed by my really deathly pallor, which constituted the accurate gauge of that Dalinian dramatic element which never fails to attend my mo",
+      "source_title": "When Salvador Dalí Gave a Surrealist Lecture in a Diving Suit … and Almost Suffocated (1936)",
+      "source_url": "https://www.openculture.com/2026/09/when-salvador-dali-gave-a-surrealist-lecture-in-a-diving-suit-and-almost-suffocated-1936.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "哲学家玛莎·努斯鲍姆荣获2026年克鲁格奖",
+      "entities": [
+        {
+          "name": "玛莎·努斯鲍姆",
+          "explain": "美国当代著名哲学家，以研究正义、能力理论（capabilities approach）和人文教育闻名，曾任芝加哥大学教授"
+        },
+        {
+          "name": "克鲁格奖",
+          "explain": "由美国国会图书馆颁发的终身成就奖，表彰在人文与社会科学领域做出卓越贡献的学者，奖金丰厚，被视为人文学科的诺贝尔奖"
+        },
+        {
+          "name": "国会图书馆",
+          "explain": "美国国家级图书馆与研究机构，隶属国会，负责颁发克鲁格奖等学术荣誉"
+        }
+      ],
+      "summary": "美国国会图书馆本周宣布，将2026年约翰·W·克鲁格奖授予哲学家玛莎·努斯鲍姆，以表彰她在人文研究领域的终身成就。努斯鲍姆以正义论、能力理论和人文教育研究著称，是当代最具影响力的公共哲学家之一。",
+      "relevant": "克鲁格奖是人文学科最高荣誉之一，努斯鲍姆获奖反映了学术界对公共哲学和跨学科人文研究的持续重视。",
+      "context": "克鲁格奖由国会图书馆于2003年设立，每两年颁发一次，旨在表彰在人文与社会科学领域做出杰出贡献的学者。努斯鲍姆此前已获多项国际学术荣誉，此次获奖进一步巩固了她在当代哲学界的地位。",
+      "source_analysis": "Daily Nous是哲学学术界知名的新闻博客，专注于报道哲学界的招聘、奖项和学术动态，立场中立，面向专业哲学读者。",
+      "social_impact": "",
+      "source_text": "The Library of Congress announced this week that it is awarding the 2026 John W. Kluge Prize for the Achievement in the Study of Humanity to Martha Nussbaum (University of Chicago). The $500,000 prize “recognizes individuals whose outstanding scholarship in the humanities and social sciences has shaped public affairs and civil society.” It is awarded every other year. The winner delivers a lecture and “may remain in residence at the Library of Congress for a short time thereafter, and will be expected to have some informal interaction with members of the United States Congress.” In the prize announcement, Acting Librarian of Congress Robert R. Newlen said, “In addition to the breadth and depth of her scholarship, Martha Nussbaum exemplifies a spirit of intellectual openness and a willingness to engage with thinkers with vastly different opinions. Her student roundtables at the University of Chicago do just that, bringing together those with varied ideological viewpoints and encouraging them to explore ideas that may not match their own.” A list of previous winners of the Kluge prize is here.",
+      "source_title": "Nussbaum Wins Kluge Prize",
+      "source_url": "https://dailynous.com/nussbaum-wins-kluge-prize/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "Pitchfork批评Miley Cyrus新专辑《Bass Persuades》缺乏新意",
+      "entities": [
+        {
+          "name": "Miley Cyrus",
+          "explain": "美国流行歌手、演员，曾以迪士尼童星出道，后转型为流行乐坛具有争议性和话题度的艺人"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名音乐评论网站，以严苛的评分体系和深度乐评著称，对独立和主流音乐均有广泛影响力"
+        },
+        {
+          "name": "Bass Persuades",
+          "explain": "Miley Cyrus于2026年发行的新专辑，具体风格和曲目信息在评论中被描述为短小且缺乏灵感"
+        }
+      ],
+      "summary": "Pitchfork发布了对Miley Cyrus新专辑《Bass Persuades》的评论，认为这张专辑虽然展现了Cyrus标志性的嗓音和个性，但整体短小、缺乏灵感，听起来一发行就已过时。评论对专辑的评价偏负面。",
+      "relevant": "Pitchfork的评论对流行音乐市场具有风向标意义，负面评价可能影响专辑的口碑和商业表现。",
+      "context": "Miley Cyrus在经历多年风格转型后，于2026年推出新专辑《Bass Persuades》。Pitchfork作为权威乐评媒体，其评价常被视为衡量专辑艺术价值的重要参考。",
+      "source_analysis": "Pitchfork以严苛、独立的音乐评论著称，倾向于推崇创新和实验性作品，对主流流行专辑常持批判态度。",
+      "social_impact": "",
+      "source_text": "Miley Cyrus might be pop music’s staunchest contrarian. When critics begged her to tone it down after the 2013 VMAs, she dropped an acid Day-Glo vanity project with a Tibetan singing bowl instrumental and track titles like “Fucking Fucked Up” and “I’m So Drunk.” And for as long as we’ve demanded she turn it up a notch, she’s been trying to settle down. “We never get to see ourselves sleeping peacefully next to the ones that we love,” she lamented on the Miley Cyrus & Her Dead Petz outlier “Lighter,” hinting at where she wanted to go even amid the most dubious aesthetic swerve of her career: next to you in Malibu, basically. Whether she’s playing a party animal, a psychonaut, or a retro rock provocateur, the impulse driving Cyrus has always been more staid than it appears. She never wanted the party to last forever. On Bass Persuades, Cyrus’ follow-up to 2025’s turgid and Pink Floyd-“inspired” Something Beautiful, it appears she’s stopped in her tracks. Cyrus has gushed about the domestic bliss she’s found these days, happily sober and engaged to frequent collaborator Maxx Morando. At least Something Beautiful was a big swing-and-miss; Bass Persuades barely leaves an impression. Shuffling through the diluted glam-rock and disco-pop schmaltz that has weighed her down since 2020’s Plastic Hearts, Bass Persuades wonders why today’s “kids don’t want to dance,” then gives them absolutely nothing to dance to. No score yet, be the first to add. Cyrus has thankfully culled her collaborators post-Something Beautiful, but the cadre she’s kept could care less about building back better. Kid Harpoon and Michael Pollack, the same duo who helped churn out “Flowers,” return at steamroller force, flattening any and all signs of fun. “REDLIGHTS” shoots for ABBA and lands like something off their immersive museum’s waiting room soundtrack, coating Cyrus’ knockout timbre in an unnecessary robotic sheen. “Let’s Get Married” is yet another Bruno Mars-minded clunker, devoid of passion. Can’t she cut these jokers and her ever-present fiancé creatively loose? Does Morando need to be the fourth-chair producer on almost every song, not including a clumsy tearjerker about living in his orbit? (It’s called “Orbit.”) Like Rihanna, Cyrus wields a star quality that speaks for itself: She does not need to (nor, frankly, should she) write her own songs. But neither should these guys. Sometimes, Cyrus sways toward more compelling perspectives. “Different Religion” reunites her with Model/Ac",
+      "source_title": "Bass Persuades",
+      "source_url": "https://pitchfork.com/reviews/albums/miley-cyrus-bass-persuades/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "贝叶挂毯在英国博物馆展出，Open Culture推出深度沉浸式解读",
+      "entities": [
+        {
+          "name": "贝叶挂毯",
+          "explain": "一幅长约70米的中世纪刺绣作品，描绘了1066年诺曼征服英格兰的历史事件，是现存最重要的中世纪文物之一"
+        },
+        {
+          "name": "英国博物馆",
+          "explain": "位于伦敦的世界顶级综合性博物馆，收藏大量历史文物，此次展出贝叶挂毯"
+        },
+        {
+          "name": "Deep Down History",
+          "explain": "一个专注于深度历史内容的自媒体或平台，此次与Open Culture合作推出贝叶挂毯的专题解读"
+        },
+        {
+          "name": "诺曼征服",
+          "explain": "1066年诺曼底公爵威廉入侵并征服英格兰的历史事件，深刻改变了英国的政治、语言和文化格局"
+        }
+      ],
+      "summary": "贝叶挂毯目前正在英国博物馆展出，Open Culture推荐了Deep Down History制作的深度沉浸式解读内容，全面讲述这幅70米长刺绣作品背后的完整故事——从1066年诺曼征服英格兰的历史背景到挂毯本身的制作与流传。",
+      "relevant": "贝叶挂毯是极少数保存至今的中世纪大型刺绣文物，此次展出和配套解读为公众提供了难得的近距离了解中世纪历史的机会。",
+      "context": "贝叶挂毯创作于11世纪，记录了诺曼底公爵威廉征服英格兰的全过程。它平时保存在法国贝叶，此次在英国博物馆展出属于罕见的文化交流活动，Open Culture借此机会推荐了相关深度内容。",
+      "source_analysis": "Open Culture是一个专注于文化、教育和艺术资源的聚合网站，立场偏向文化推广和教育普及，内容以推荐优质文化资源为主。",
+      "social_impact": "",
+      "source_text": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, culminating in the Battle of Hastings. This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…” Enjoy! Related Content The Story Told on the Famous Bayeux Tapestry Explained from Start to Finish Behold a Creative Animation of the Bayeux Tapestry How England First Became England: An Animated History The Bayeux Tapestry Animated The Entire History of the British Isles Animated: 42,000 BCE to Today Construct Your Own Bayeux Tapestry with This Free Online App",
+      "source_title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "source_url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "Aeon视频回顾英国最后一艘大型飞艇R101的兴衰",
+      "entities": [
+        {
+          "name": "R101飞艇",
+          "explain": "英国在20世纪20年代建造的大型硬式飞艇，旨在实现帝国航空连接，1930年首航即坠毁，终结了英国的飞艇雄心"
+        },
+        {
+          "name": "Aeon",
+          "explain": "一个专注于哲学、科学和文化深度内容的数字媒体平台，以长篇 essays 和视频著称"
+        },
+        {
+          "name": "兴登堡号",
+          "explain": "1937年坠毁的德国著名飞艇，其灾难性事故标志着商业飞艇时代的终结"
+        }
+      ],
+      "summary": "Aeon发布视频，讲述了英国最后一艘大型飞艇R101的工程奇迹与悲剧性结局。R101曾承载英国主导天空的梦想，但在1930年首航法国途中坠毁，造成48人死亡，彻底终结了英国的飞艇计划。",
+      "relevant": "R101的故事是技术雄心与安全风险之间张力的经典案例，对理解早期航空史和技术决策有重要参考价值。",
+      "context": "20世纪20年代，各国竞相发展大型飞艇用于远程航空。英国建造R101以连接其全球帝国领土，但在首航中因结构问题和恶劣天气坠毁，比兴登堡号灾难早七年。",
+      "source_analysis": "Aeon以深度、跨学科的文化和科学内容著称，倾向于从哲学和社会角度审视历史事件，视频内容通常具有反思性。",
+      "social_impact": "",
+      "source_text": "In this short video, Bill Hammack, an engineer and professor at the University of Illinois Urbana-Champaign, details the extraordinary making and tragic ending of the British airship known as R101. Conceived in 1924 and first flown in 1929, R101 was intended to fly a regular route from England to India. Hammack uses archival images and his own deep research to trace the engineering and history of this remarkable vessel, which the British government planned as the flagship of a fleet that would criss-cross its then-sprawling empire. Those ambitious plans were abandoned after the airship crashed in France in October 1930, killing 48 of the 54 people on board. Hammack offers a riveting peek into a brief moment in aviation history – one ended for good by the crash of the Hindenburg in 1937 – when it appeared as if commercial airships might become a regular sight in skies across the world. The video accompanies Hammack’s book Fatal Flight: The True Story of Britain’s Last Great Airship (2017), which is available as a free audiobook at his website. R.101 airship parked in Cardington, UK. Image by the Royal Aeronautical Society Before the Hindenburg there was R101 – Britain’s ill-fated airship Video by Engineer Guy videoHistory of technology Trawling for secrets in haunting films recovered from the bottom of the sea 11 minutes videoSports and games Up, up and away! Fly above the clouds in a glider over the Shropshire Hills 4 minutes videoWar and peace A war meteorologist’s riveting account of how the Allies averted a D-Day disaster 6 minutes videoHistory of technology Remarkable historical footage is locked behind paywalls. It’s time to set it free 4 minutes videoEngineering How an ancient curiosity evolved to power the modern world 11 minutes videoMeaning and the good life The world turns vivid, strange and philosophical for one plane crash survivor 16 minutes videoThe ancient world Archeological discoveries animate the life of the warrior queen who took on Rome 6 minutes videoAstronomy In her dreams, the first Briton in space revisits staggering views of the Earth 3 minutes videoSocial psychology ‘The order could come at any moment’: two kamikaze pilots tell their story 8 minutes",
+      "source_title": "Britain’s last great airship",
+      "source_url": "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "Aeon刊文探讨土地伦理：从农场到荒野的关怀之道",
+      "entities": [
+        {
+          "name": "土地伦理",
+          "explain": "一种环境哲学理念，主张人类对土地、动植物和生态系统负有道德责任，源自生态学家奥尔多·利奥波德的思想"
+        },
+        {
+          "name": "Craig Maier",
+          "explain": "文章作者，一位关注草原生态和农业伦理的写作者，具体身份为草原爱好者"
+        },
+        {
+          "name": "Aeon",
+          "explain": "专注于哲学、科学和文化深度内容的数字媒体平台"
+        }
+      ],
+      "summary": "Aeon发表Craig Maier的文章，探讨了土地伦理的实践意义。文章主张，关怀地球需要我们在农场、家庭、人类邻居和野生动物邻居之间做出具体的、亲密的选择，而非抽象的环境口号。",
+      "relevant": "在气候变化和生物多样性丧失加剧的背景下，土地伦理为个人和社区如何参与生态保护提供了哲学框架。",
+      "context": "土地伦理概念由奥尔多·利奥波德在1949年提出，强调人与土地之间的伦理关系。Craig Maier以草原爱好者的视角，结合农业实践，重新审视这一理念在当代的应用。",
+      "source_analysis": "Aeon以发表深度哲学和文化 essays 著称，立场偏向人文主义和跨学科思考，常邀请学者和写作者从个人经验出发探讨普遍议题。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 29 minute listen Forty iron rectangles, each one blunt as a piano key, rotate into a blurring fury that hides the eight-foot-long shaft at the heart of the flail chopper. I am perched atop several tons of iron, with 80 horsepower at my command. This part of farming is straightforward – even a mechanically challenged tree-hugger like me can manage to depress the clutch, shift into second, and ease the throttle forward. The tractor’s tall, deeply treaded tires churn, revolving into a smooth spin. Everything is spinning: fans, belts, alternator, the driveshaft, axles. I don’t understand the mechanism fully, yet the tractor and chopper and I are propelled forward across the knee-high whiskers of a coarsely bearded cornfield. It is Indian summer in southern Wisconsin. My wife and I and our young son live here on her family’s farm. Both of us are employed off the farm, but on weekends and many evenings I am an apprentice to my father-in-law, David. Today, we are taking advantage of a brief period of warm, dry weather. Winter is approaching, and I could be spending the day beside our woodsplitter – the gasoline-sipping, hydraulically heroic mechanism that makes it possible to put up several cords of firewood quickly each year – but that work can wait until the cool, sunny days of fall are shoved aside by the relentless spin of the earth into darkness, sleet, snow and frozen ground. The wall of tall green corn that stood here this summer has been transformed by fall and harvest. Little is standing after the field was stripped by a seed-combing combine. The mechanical tornado flails so loudly behind me: wailing against the air, grinding off the root-buttressed corn-stalk stumps, sucking up spent leaves and stripped cobs. In my wake, dry corn litter passes through the chopper like water compelled into frothy turbulence, falling again into an even, silent surface that hides so much activity below. No time to waste – the weather is expected to hold for another day, and I need to cover the field before the light fails this afternoon. Tomorrow, David will rake this chewed-up detritus into windrows and then come back for another round to bale them up. While it is good to leave some of this thatch on the field – to keep a roof over the soil and guard against erosion by wind and rain – we can afford to borrow some of this, which also makes good straw. Wherever livestock are gathered in close quarters, their waste can produce concentrations of ammonia a",
+      "source_title": "Where a land ethic blooms",
+      "source_url": "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "Aeon视频探讨美国西部主题公园如何消费虚构的过去",
+      "entities": [
+        {
+          "name": "美国西部",
+          "explain": "指19世纪美国向西扩张的历史时期，在流行文化中常被浪漫化为牛仔、印第安人和边疆生活的象征"
+        },
+        {
+          "name": "Aeon",
+          "explain": "专注于哲学、科学和文化深度内容的数字媒体平台"
+        },
+        {
+          "name": "老西部主题公园",
+          "explain": "以美国西部拓荒时代为背景的旅游景点，游客可体验牛仔文化、枪战表演等，但呈现的往往是虚构或美化的历史"
+        }
+      ],
+      "summary": "Aeon发布视频，探讨了美国西部主题公园的文化现象。视频指出，无论是电影神话还是对“更简单时代”的怀旧，踏入美国西部主题公园对游客具有不可否认的吸引力，但游客所体验的其实是一个从未存在过的过去。",
+      "relevant": "该视频揭示了历史消费与怀旧文化如何塑造公众对过去的认知，对理解美国文化中的神话建构有启发意义。",
+      "context": "美国西部主题公园自20世纪中叶兴起，依托好莱坞西部片的神话体系，为游客提供沉浸式体验。Aeon视频以此为例，分析怀旧如何被商业化和虚构化。",
+      "source_analysis": "Aeon的视频内容通常具有批判性和反思性，倾向于从文化研究角度解构流行现象，立场偏学术和人文主义。",
+      "social_impact": "",
+      "source_text": "‘Who wants a pistol? Raise your hand.’ At the Trail Dust Town theme park in Tucson, Arizona, visitors step out of their normal lives and into the city’s past. Or, more accurately, a funhouse mirror of the past that plays up the cowboy romance and tamps down the drudgery and poverty to cultivate a good ol’ time. Over the course of a day, the US directors Sue Ding and Sarah Garrahan capture visitors enjoying the park’s many attractions, including shooting games, live shows, rides and, of course, the opportunity to cosplay as sheriffs, outlaws and saloon girls in the old-timey photography studio. Throughout, park guests discuss what draws them to Trail Dust Town. Whether it’s movie mythos, a longing for a simpler, ‘less political’ era, or just the fun of escapism, there’s an undeniable allure in stepping into a romanticised past that never quite existed.",
+      "source_title": "How the West was fun",
+      "source_url": "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "Daily Nous发布在线哲学资源每周更新",
+      "entities": [
+        {
+          "name": "Daily Nous",
+          "explain": "哲学学术界知名的新闻博客，报道哲学界的招聘、奖项、资源更新等动态"
+        },
+        {
+          "name": "在线哲学资源",
+          "explain": "指斯坦福哲学百科全书、互联网哲学百科全书等在线学术工具，以及哲学播客和开放获取论文"
+        }
+      ],
+      "summary": "Daily Nous发布了最新一期的在线哲学资源每周更新，汇总了哲学在线资源的新增和修订条目、新书评论、新播客节目以及近期发表的开放获取论文。",
+      "relevant": "对于哲学研究者和学生而言，这是跟踪学术动态和获取免费资源的实用汇总。",
+      "context": "Daily Nous定期整理哲学领域的在线资源更新，帮助学者和学生及时了解学术工具和文献的最新变化。",
+      "source_analysis": "Daily Nous是哲学学术界的专业新闻博客，内容以服务哲学社区为主，立场中立。",
+      "social_impact": "",
+      "source_text": "This is the report on new and revised entries at online philosophy resources, new reviews of philosophy books, new podcast episodes, recently published open access philosophy books, and more. This edition covers last week and the week before. (If we missed something, let us know.) Stanford Encyclopedia of Philosophy New: - Moral Learning by Tamar Kushnir and Shaun Nichols. - Afḍal al-Dīn al-Khūnajī by Behnam Zolghadr. - Ernst Mach by Pietro Gori and Luca Guzzardi. Revised: - Gabriel (-Honoré) Marcel by Brian Treanor and Brendan Sweetman. - Kūkai by John Krummel. - Nicholas of Autrecourt by Hans Thijssen. - Henri Poincaré by Gerhard Heinzmann and David Stump. - Quantum Field Theory by Meinard Kuhlmann. - Quantum-Bayesian and Pragmatist Views of Quantum Theory by Richard Healey. - Bernard Bosanquet by William Sweet. - Basil [Cardinal] Bessarion by Eva Del Soldato. - Self-Defense by Helen Frowe and Jonathan Parry. - Godfrey of Fontaines by Tobias Hoffmann and John Wippel. - Impartiality by Troy Jollimore. - Ludwig Wittgenstein by Anat Biletzki and Anat Matar. - Metaepistemology by J. Adam Carter and Ernest Sosa. - Physicalism by Daniel Stoljar. - Higher-Order Evidence by Sophie Horowitz. - The Kyoto School by Bret W. Davis. Internet Encyclopedia of Philosophy ∅ 1000-Word Philosophy - Philosophy of Science: What is Science and How Does It Work? by Tiina Carita Rosenqvist. BJPS Short Reads - Getting to Basecamp with Everettian Quantum Mechanics by Jake Khawaja. Podcasts & Other Media Recently Published Open Access Philosophy Books ∅ Book Reviews* - Transcendence for Beginners: Life Writing and Philosophy by Clare Carlisle is reviewed by Oliver Rice at Los Angeles Review of Books. - Deflating Mental Representations by Frances Egan is reviewed by Christopher S. Hill at Notre Dame Philosophical Reviews. - Being and Time: An Annotated Translation by Martin Heidegger, translated by Cyril Welch, is reviewed by Ian Cooper at The Times Literary Supplement. - Skepticism and Fallibilism by Jonathan L. Kvanvig is reviewed by Bernhard Salow at Notre Dame Philosophical Reviews. - The Diversity of Morals by Steven Lukes is reviewed by Simone Gubler at the Times Literary Supplement. - Phases of Objects by Justin Mooney is reviewed by Chad Carmichael and Daniel Z. Korman at Notre Dame Philosophical Reviews. - From Human Reasoning to Belief: An Empirical Account by Joshua Mugg is reviewed by Aliya Rumana at Notre Dame Philosophical Reviews. - Philosophy for an Ending World by T",
+      "source_title": "Online Philosophy Resources Weekly Update",
+      "source_url": "https://dailynous.com/online-philosophy-resources-weekly-update-440/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "Daily Nous网站经历严重错误后恢复运行",
+      "entities": [
+        {
+          "name": "Daily Nous",
+          "explain": "哲学学术界知名的新闻博客，报道哲学界动态"
+        },
+        {
+          "name": "critical error",
+          "explain": "WordPress等网站系统常见的严重错误提示，通常导致网站无法访问"
+        }
+      ],
+      "summary": "Daily Nous发文称网站已恢复。此前该网站遭遇“严重错误”并宕机超过一天，而就在前一天，网站还在发布关于如何应对AI风险的文章。",
+      "relevant": "",
+      "context": "Daily Nous是一个依赖WordPress运行的哲学新闻博客，此次宕机由技术故障引起，具体原因未在摘要中说明。",
+      "source_analysis": "Daily Nous是哲学学术界的专业新闻博客，此次为网站运营者发布的恢复通知。",
+      "social_impact": "",
+      "source_text": "One day, I’m posting here about how to address AI risks, the next, Daily Nous suffers from a “critical error” and goes down for over a week. Coincidence? Or evidence that the AI’s thought I was onto something? Yes I know it was the former… probably. What happened? Daily Nous and its server were hacked. This isn’t the first time the site has had problems. A month earlier, the site was subject to what looks like some kind of attack. And at several times over recent years, various types of malware have infected the site, causing assorted difficulties. I employ security and clean-up services, but they face an increasing number and variety of threats. Meanwhile, the site has been aging—it’s over 14 years old—with some of its components becoming outdated, mutually incompatible, and difficult or impossible to update. It had slowed down a bit, too. So when this last hack occurred, my technical consultant, John Hunt, recommended the site be rebuilt: taken apart, inspected piece by piece, problem elements fixed or replaced if necessary, and then put back together again, with even more security. “But what if we have to replace all of the pieces?” I asked. “Will it still be the same blog?” I wish I could say that the reason it has taken so long to get DN up and running again is that we were distracted by the metaphysics of blogular identity over time. But what really happened is that we just did what John recommended. And by “we” I mean mostly John. At the start of the process we thought it would only take a few days, but as it continued, various further issues were discovered that needed addressing. The result is not really a redesign of the site. It should look roughly the same as it did before (despite that we had to ditch the original “theme”–the code that gave the site its look). But there are some functional improvements, and the site should run a little faster than it used to. We haven’t finished putting everything back on the site just yet. Some posts that had embedded videos or spreadsheets may be missing them, for example. The Heap of Links is, fittingly enough, disordered at the moment. The ad placements aren’t quite right. Some settings may still have to be properly adjusted. And we may yet notice some mistakes we need to correct. So things aren’t perfect yet, but, as you may have noticed over the years, I subscribe to the idea that one shouldn’t let the perfect be the enemy of the blog. You’ve all been quite patient. Thanks for that. And it seems you’ve a",
+      "source_title": "Back",
+      "source_url": "https://dailynous.com/back/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "2026年布克奖短名单公布：两位前获奖者再度入围，六部作品角逐5万英镑奖金",
+      "entities": [
+        {
+          "name": "布克奖",
+          "explain": "英语文学界最具影响力的年度小说奖之一，奖金5万英镑，每年颁给一部在英国或爱尔兰出版的长篇小说"
+        },
+        {
+          "name": "马龙·詹姆斯",
+          "explain": "牙买加作家，2015年凭《七次谋杀简史》获布克奖，此次凭《消失者》再度入围"
+        },
+        {
+          "name": "道格拉斯·斯图尔特",
+          "explain": "苏格兰作家，2020年凭《舒吉·贝恩》获布克奖，此次再度入围短名单"
+        },
+        {
+          "name": "伊丽莎白·斯特劳特",
+          "explain": "美国作家，曾获普利策小说奖，以《奥利芙·基特里奇》等作品闻名"
+        },
+        {
+          "name": "M·约翰·哈里森",
+          "explain": "英国知名科幻与思辨小说作家，风格独特，在类型文学界享有盛誉"
+        }
+      ],
+      "summary": "2026年布克奖短名单揭晓，六部作品入围，包括两位前获奖者马龙·詹姆斯和道格拉斯·斯图尔特，以及普利策奖得主伊丽莎白·斯特劳特、科幻名家M·约翰·哈里森、小说家兼诗人卢克·肯纳德和新人丽贝卡·佩里。詹姆斯入围作品《消失者》以艾滋病时代的牙买加为背景，共640页，为名单中最长。最终获奖者将于11月9日公布。",
+      "relevant": "布克奖短名单是英语文学界年度焦点，前获奖者与新面孔同台竞争，反映当代小说创作趋势与多元声音。",
+      "context": "布克奖每年评选一次，先公布长名单再缩减为短名单，最终从短名单中选出获奖者。今年短名单既有往届冠军回归，也有首次入围的新人，竞争格局多元。",
+      "source_analysis": "《卫报》书籍版报道，立场中立，侧重文学新闻与短名单亮点介绍，附带评委玛丽·比尔德的分析链接。",
+      "social_impact": "布克奖对图书销量和作家知名度有显著提升作用，短名单公布后入围作品通常迎来销量激增。",
+      "source_text": "This year’s Booker prize shortlist features some very familiar names – previous winners Marlon James and Douglas Stuart are in the running once more, along with Pulitzer winner Elizabeth Strout and prominent British speculative fiction writer M John Harrison. Novelist and poet Luke Kennard and debut novelist Rebecca Perry are also in contention for the £50,000 prize, the winner of which will be announced on Monday 9 November. James, the Jamaican writer who took home the prize in 2015 for A Brief History of Seven Killings, was shortlisted this time for The Disappearers. Set in Aids-era Jamaica, the novel centres around an attack on a group of queer men rehearsing John Herbert’s prison-set play Fortune and Men’s Eyes. Coming in at 640 pages, it’s the longest on the list. Stuart won in 2020 for Shuggie Bain; this time, he’s nominated for John of John, which tells the story of John-Calum Macleod’s homecoming to the Outer Hebrides. The book is an “ardent exploration of the half-lives of queer men condemned to love, pine and suffer in silence”, wrote Yagnishsing Dawoor in a Guardian review. Strout, who won the 2009 Pulitzer prize for her novel Olive Kitteridge, was previously longlisted for the Booker in 2016 for My Name is Lucy Barton, and shortlisted in 2022 for Oh William! This year, she is shortlisted for The Things We Never Say, which departs from the well-known cast of characters in her previous novels to introduce the history teacher Artie Dam, whose comfortable life on the Massachusetts coast is threatened by a secret, and by the realities of a changing US. Harrison, who judged the prize in 2022, is shortlisted for The End of Everything, a post-apocalyptic novel set in an unnamed Kent coastal town. The book, “as its title suggests, is about everything”, wrote Michel Faber in the Guardian. “It burrows deep into our psyches – into the psyche of our civilisation – and exposes the terrifying insecurity of life right now.” The shortlisted books “took risks”, and they “could not be replicated by artificial intelligence – these are very human books”, said the writer Raymond Antrobus, who is on this year’s judging panel alongside the chair Mary Beard, Pulp frontman Jarvis Cocker, the writer Patricia Lockwood, and Guardian journalist Rebecca Liu. Kennard made the list for Black Bag, his comic campus novel about an actor in his late 30s who takes a job involving attending lectures in a black leather bag as part of a psychological experiment. Completing the shortli",
+      "source_title": "Previous winners Marlon James and Douglas Stuart shortlisted for Booker prize",
+      "source_url": "https://www.theguardian.com/books/2026/sep/22/booker-prize-shortlist-pulitzer-previous-winners",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "艾米莉·圣约翰·曼德尔新作《Exit Party》获评：以平行世界探讨危机后美国的自由与稳定",
+      "entities": [
+        {
+          "name": "艾米莉·圣约翰·曼德尔",
+          "explain": "加拿大作家，代表作《第十一站》为后末日题材畅销小说，曾获多项文学奖"
+        },
+        {
+          "name": "《Exit Party》",
+          "explain": "曼德尔第七部小说，通过两个可能的未来世界探讨稳定与自由的代价"
+        },
+        {
+          "name": "《第十一站》",
+          "explain": "曼德尔2014年出版的后末日小说，讲述流感疫情后幸存者剧团的故事，被改编为HBO剧集"
+        },
+        {
+          "name": "《玻璃酒店》",
+          "explain": "曼德尔2019年小说，以豪华度假村为背景，探讨逃离与陷阱的主题"
+        }
+      ],
+      "summary": "《卫报》书评对曼德尔新作《Exit Party》给予好评，称其通过两个平行未来世界探讨稳定是否必须以自由为代价。书评指出，曼德尔从早期古怪主角的另类故事，逐渐演变为具有全球视野和政治共鸣的小说家。新作与前作《歌手的枪》《玻璃酒店》有松散关联，但无需阅读前作即可享受。",
+      "relevant": "曼德尔是当代重要小说家，新作延续其对危机后社会的思考，对关注文学与政治议题的读者具有吸引力。",
+      "context": "曼德尔此前作品《第十一站》和《玻璃酒店》均获广泛好评，新作《Exit Party》是她第七部小说，延续了其对美国社会危机的关注。",
+      "source_analysis": "《卫报》书评，立场偏自由派，赞赏曼德尔的政治关怀和叙事野心，评价积极。",
+      "social_impact": "曼德尔作品拥有广泛读者群，新作出版可能引发关于自由与稳定、危机后社会重建的公共讨论。",
+      "source_text": "In her second novel, 2009’s The Singer’s Gun, Emily St John Mandel tells the story of Anton Waker, a young man desperate to make a break from his criminal family. His plans are thwarted by his cousin Ari, whose hard-nosed talent for operating outside the law has become a way of life. A decade later in The Glass Hotel, a painting called Swan Dive that hangs in the lobby of the luxury retreat stands as a symbol of escape from a trap that is closing. You will not need to have read either of these earlier novels to enjoy Mandel’s seventh, Exit Party, though their loose intertwining of narrative threads will provide extra pleasure and a sense of homecoming for those who have. It is also interesting to observe Mandel’s evolution from a writer of quirky tales of offbeat protagonists to a novelist whose world-spanning, politically resonant narratives now attract a wide and devoted following. Exit Party begins five years into our future, in 2031. Ari Waker has just come out of prison after serving an 18-year sentence for the attempted murder by contract killing of her cousin Anton. Much has changed while she has been inside: a second civil war has devastated lives and blighted the economy, and the United States as such has ceased to exist. As the novel opens, the newly inaugurated independent State of California is celebrating the end of violence and the lifting of curfews. Ari and her flatmate Gloria have been invited to a party at the home of Gloria’s friend, Kareem. Ari has the feeling that she is meant to be there; she has experienced such premonitions before, and learned to trust them. Arriving at Kareem’s home, she has the sense that something strange is happening. A woman she’s never met before addresses her as Ibari – the name that is legally hers but never used. A painting disappears from the wall. Someone else talks of “extra people” and of the party being “a door that swings both ways”. “There’s something wrong with this party,” mumbles Kareem, before stepping out into the night and walking away. Kareem never returns. But Ari does not have time to dwell on the incident. Forced back on her own resources, she spends the next few years working menial jobs, all the time with the underlying sense that there is a different future waiting for her, if she can only reach it: “It wasn’t that she thought she deserved more than what she had … it was just that she’d once had a considerable amount of money, her own business, and a beautiful apartment in a tower in New",
+      "source_title": "Exit Party by Emily St John Mandel review – alternate visions of post-crisis America",
+      "source_url": "https://www.theguardian.com/books/2026/sep/24/exit-party-by-emily-st-john-mandel-review-alternate-visions-of-post-crisis-america",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "新书《英国奴隶贩子》揭示奴隶贸易如何深度嵌入现代英国根基",
+      "entities": [
+        {
+          "name": "威廉·A·佩蒂格鲁",
+          "explain": "历史学者，本书作者，研究英国奴隶贸易的历史学家"
+        },
+        {
+          "name": "《英国奴隶贩子》",
+          "explain": "佩蒂格鲁新书，论证奴隶贸易对英国现代社会的深远影响"
+        },
+        {
+          "name": "改革党",
+          "explain": "英国右翼政党，2026年4月宣布停止向寻求奴隶制赔偿国家发放签证的政策"
+        },
+        {
+          "name": "齐亚·优素福",
+          "explain": "改革党内政事务发言人，发表声明称英国不是过去种族不满的提款机"
+        }
+      ],
+      "summary": "《卫报》书评介绍威廉·A·佩蒂格鲁新书《英国奴隶贩子》，该书论证奴隶贸易深度嵌入英国根基：90%被运往美洲的非洲奴隶乘坐英国船只，奴隶贩子的行为以至今仍有回响的方式改变了英国。书评批评改革党等势力试图淡化英国在奴隶贸易中的角色，称本书为“严峻而重要”的历史著作。",
+      "relevant": "奴隶制赔偿与殖民历史争论在英国持续升温，本书提供历史证据回应政治争议，对理解当代英国种族与政治议题有重要意义。",
+      "context": "英国近年围绕奴隶制赔偿和殖民历史展开激烈政治辩论，改革党等右翼势力反对赔偿，本书在此背景下出版，以历史研究回应争议。",
+      "source_analysis": "《卫报》书评，立场偏自由派，明确批评改革党立场，赞赏本书揭示历史真相的勇气。",
+      "social_impact": "90%被运往美洲的非洲奴隶乘坐英国船只，奴隶贸易对英国经济、社会结构影响深远，本书可能推动公众对殖民历史与赔偿问题的进一步讨论。",
+      "source_text": "One tedious aspect of Britain’s post-imperial melancholia is the number of amateur historians who would rather we stopped going on about our role in the slave trade. Isn’t it all in the past? Weren’t we the first to abolish it anyway? In April, the Reform party announced a new policy of halting visas to people from countries seeking slavery reparations from Britain. “The United Kingdom is not an ATM for ethnic grievances from the past,” the party’s home affairs spokesperson, Zia Yusuf, said. Unfortunately for those who would rather forget, the slave trade, as William Pettigrew argues in this grimly important book, can be found “in the depths of Britain’s grain”. Ninety per cent of the enslaved Africans transported to America went on British ships, and slave traders’ actions transformed Britain in ways that still resonate today. The erasure of this history began with the abolitionists, who quickly realised that identifying and shaming slave traders might harm their cause. They chose instead to argue that abolition would confirm Britain’s superior moral righteousness. Lauding abolition obscured what Pettigrew calls “slave gain”: Britain’s gigantic profiting from the trade. Wilkie Collins and Charles Dickens, in a jointly authored article of 1857, blithely suggested that the gains of slavery had evaporated “as the Arabian Wizard’s money turned to leaves”. Thus began a general tendency to downplay Britain’s role, offshoring slavery’s causes and effects to the Americas or localising them to port cities such as Bristol and Liverpool. Since April 2021, Pettigrew has led a group of nine academic historians identifying all the known investors – about 13,000 of them – who financed Britain’s brutal trafficking of 3.3 million enslaved Africans, of whom about half a million died during the Atlantic crossing. The traffic began in the 1560s with a syndicate of city merchants, naval and state officials. It soon earned royal approval, because of the role it played in humiliating the Spanish, increasing influence in the New World, establishing a foothold in west Africa, and enlarging the royal purse. After the Glorious Revolution of 1688, English slave merchants loosened their ties with the monarchy and embraced a free market. The trade expanded beyond political and commercial elites, and out from London to the regions. Bristol and Liverpool shared out the trade in the 18th century, the latter perfecting and industrialising it. In Pettigrew’s account, hardly an event in thi",
+      "source_title": "Britain’s Slave Traders by William A Pettigrew review – the inconvenient truth",
+      "source_url": "https://www.theguardian.com/books/2026/sep/23/britains-slave-traders-by-william-a-pettigrew-review-the-inconvenient-truth",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "洛杉矶说唱歌手Az Chike在Kendrick Lamar助力下发布新专辑《No Rest for the Wicked》",
+      "entities": [
+        {
+          "name": "Az Chike",
+          "explain": "洛杉矶说唱歌手，以多变风格和抓耳副歌著称"
+        },
+        {
+          "name": "Kendrick Lamar",
+          "explain": "美国著名说唱歌手，普利策奖得主，本专辑中担任A&R（艺人发掘与制作指导）"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名音乐评论网站，以独立和另类音乐评论著称，评分对音乐界有重要影响"
+        }
+      ],
+      "summary": "Pitchfork对Az Chike新专辑《No Rest for the Wicked》给予好评，称其在Kendrick Lamar的A&R协助下展现了多面性和抓耳副歌能力。专辑在愤怒、张扬与内省之间自如平衡，被认为是Az Chike迄今最成熟的作品。",
+      "relevant": "Kendrick Lamar的参与为专辑带来高度关注，Az Chike作为洛杉矶新生代说唱歌手，此专辑可能成为其突破性作品。",
+      "context": "Az Chike此前在洛杉矶地下说唱圈积累知名度，此次获得Kendrick Lamar的A&R支持，标志其进入主流视野。",
+      "source_analysis": "Pitchfork以独立音乐评论著称，评分严格，此次评价积极，显示专辑在专业乐评界获得认可。",
+      "social_impact": "",
+      "source_text": "AZ Chike’s No Rest for the Wicked is proof of the maxim that it takes 10 years to become an overnight sensation. The Los Angeles rapper stepped into the national spotlight in 2024 at Kendrick Lamar’s Juneteenth Pop Out, then turned up on Kendrick’s “Peekaboo,” on GNX, later that year. But anyone who did their research would have quickly figured out that Chike, who by 2024 had eight projects under his belt, had been rapping since 2013. His new album No Rest For the Wicked affirms why he was already “next before GNX,” as he raps on opener “Mercy.” Over 14 tracks, AZ Chike takes on the risky task of making a “something for everybody” rap album. Tracks like “God’s Favorite” and “Hateful + Grateful” steep the project in contemporary L.A. gangster-rap swing, while “Lamb Truck Keys” and “Negative” polish that raw aesthetic with a mainstream sheen. Elsewhere, he explores a pair of Tyler, the Creator’s synthy soundscapes, tackles sensual minimalism on “Need Your Love,” and heads to the trap on “Packed Up.” No score yet, be the first to add. AZ Chike recently told Bootleg Kev that Kendrick gave him A&R-like advice on sequencing the album, and it shows: The opening stretch does a particularly good job of showcasing the rapper’s versatility. He bursts out the gate on “Mercy,” gets flashy on “Lamb Truck Keys,” reflects on L.A. on “Skyrockets,” talks cash shit on “God’s Favorite,” woos a girl on “Need Your Love,” then swings for the fences with Tyler, the Creator on “Look Like My Mama” before the album’s first interlude. His progression across that opening salvo looks a little like the Vince McMahon meme tracking the wrestling promoter’s ascending degrees of euphoria. Southern California is full of snarling, artfully offbeat rappers in the lineage of the late Drakeo the Ruler, 03 Greedo, and Shoreline Mafia. AZ Chike is a card-carrying New West member, who uses his L.A. accent and lively delivery to splosh a variety of vocal tones over No Rest For the Wicked’s beats. He’s in his groove, channeling dog-on-a-leash fury on the album’s most impassioned moments, but knows how to rein it in and let melody lead him on the Tyler tracks and “Negative.” And he’s outright hushed on “Need Your Love,” where he and JMSN have the obligatory “for the ladies” moment without sounding banal or like creeps. On the subdued “Wonder,” he gradually turns up the temperature with each verse, raising his energy a couplet at a time. AZ Chike sets himself apart from his peers with that balanced app",
+      "source_title": "No Rest for the Wicked",
+      "source_url": "https://pitchfork.com/reviews/albums/az-chike-no-rest-for-the-wicked/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_32f84e09a6a5",
+      "source": "Pitchfork",
+      "title": "Bass Persuades",
+      "url": "https://pitchfork.com/reviews/albums/miley-cyrus-bass-persuades/",
+      "summary": "Miley Cyrus has a distinctive voice, outsize charisma, and an infamous weird streak, but her short, uninspired new album sounds dated on arrival.",
+      "image": ""
+    },
+    {
+      "id": "rss_39b8761e6037",
+      "source": "Pitchfork",
+      "title": "No Rest for the Wicked",
+      "url": "https://pitchfork.com/reviews/albums/az-chike-no-rest-for-the-wicked/",
+      "summary": "With A&R assistance from Kendrick Lamar, the L.A. rapper shows off his versatility and knack for hooks on an album that effortlessly balances fury, swagger, and introspection.",
+      "image": ""
+    },
+    {
+      "id": "rss_504630560538",
+      "source": "Pitchfork",
+      "title": "Melodie",
+      "url": "https://pitchfork.com/reviews/albums/slow-pulp-melodie/",
+      "summary": "The Midwest indie rock band returns with a new wave-influenced album that explores our innate desire to understand and be understood.",
+      "image": ""
+    },
+    {
+      "id": "rss_a00717cb4d16",
+      "source": "Pitchfork",
+      "title": "Dogma",
+      "url": "https://pitchfork.com/reviews/albums/kim-ximya-dogma/",
+      "summary": "The combative Korean rapper leans into club music on his first album in six years, wrapping rhythmically inventive bilingual refrains around tough, futuristic beats.",
+      "image": ""
+    },
+    {
+      "id": "rss_a6f38b4233d8",
+      "source": "Pitchfork",
+      "title": "GET MEAN",
+      "url": "https://pitchfork.com/reviews/albums/boy-harsher-get-mean/",
+      "summary": "On its major-label debut, the industrial-dance duo embraces brighter tones and wider vistas, but traces of the group’s claustrophobic murk remain.",
+      "image": ""
+    },
+    {
+      "id": "rss_81b53153f923",
+      "source": "Open Culture",
+      "title": "When Salvador Dalí Gave a Surrealist Lecture in a Diving Suit … and Almost Suffocated (1936)",
+      "url": "https://www.openculture.com/2026/09/when-salvador-dali-gave-a-surrealist-lecture-in-a-diving-suit-and-almost-suffocated-1936.html",
+      "summary": "Many a foreigner has visited England and found it an unexpectedly surreal place. Some of that effect has to do with encountering familiar icons — Big Ben, double-decker Routemaster buses, Marmite — in cold, damp reality. More of it may be induced by the country’s simultaneously thoroughgoing cultures of normality and eccentricity, an endless source [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/22224804/dalidiving2.jpeg"
+    },
+    {
+      "id": "rss_f7df0aff8aa5",
+      "source": "Open Culture",
+      "title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "summary": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global [&#8230;]",
+      "image": "https://cdn8.openculture.com/2019/11/06222249/Dada1.jpg"
+    },
+    {
+      "id": "rss_29741bfcce0b",
+      "source": "Open Culture",
+      "title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "summary": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, [&#8230;]",
+      "image": "https://i.ytimg.com/vi/WnJgym1oIJU/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_db7966ec66c4",
+      "source": "Aeon",
+      "title": "Britain’s last great airship",
+      "url": "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship",
+      "summary": "The remarkable engineering and tragic demise of the vessel that would end Britain’s dream to dominate the skies - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/f74fe38c-14fa-4732-899f-b4cf68298cdd/britains-last-great-airship-landscape-1-v4.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_823a3852646a",
+      "source": "Aeon",
+      "title": "Where a land ethic blooms",
+      "url": "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic",
+      "summary": "Caring for this planet entails decisions that are intimate, about our farms, our homes, our human and our wild neighbours - by Craig Maier Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/1cd4dc38-6c0f-44aa-85b0-49959f51226b/essay-grassland-ag-2.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_2e41ec64036b",
+      "source": "Aeon",
+      "title": "How the West was fun",
+      "url": "https://aeon.co/videos/at-an-old-west-theme-park-tourists-play-in-a-past-that-never-existed",
+      "summary": "Be it movie mythos or nostalgia for a ‘simpler’ time, there’s an undeniable allure in stepping into the American West - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/612f4f2f-7bbf-4d8e-bb92-a36e4b09d558/how-the-west-was-fun-landscape-1.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_a134585190d8",
+      "source": "Daily Nous",
+      "title": "Nussbaum Wins Kluge Prize",
+      "url": "https://dailynous.com/nussbaum-wins-kluge-prize/",
+      "summary": "The Library of Congress announced this week that it is awarding the 2026 John W. Kluge Prize for the Achievement in the Study of Humanity [&#8230;] The post Nussbaum Wins Kluge Prize appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/Nussbaum-Martha-2026-1024x703.jpg"
+    },
+    {
+      "id": "rss_333b00cc7be0",
+      "source": "Daily Nous",
+      "title": "Online Philosophy Resources Weekly Update",
+      "url": "https://dailynous.com/online-philosophy-resources-weekly-update-440/",
+      "summary": "This is the report on new and revised entries at online philosophy resources, new reviews of philosophy books, new podcast episodes, recently published open access [&#8230;] The post Online Philosophy Resources Weekly Update appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/weekly-update-logo-2023.png"
+    },
+    {
+      "id": "rss_589aebd0dd1c",
+      "source": "Daily Nous",
+      "title": "Back",
+      "url": "https://dailynous.com/back/",
+      "summary": "One day, I&#8217;m posting here about how to address AI risks, the next, Daily Nous suffers from a &#8220;critical error&#8221; and goes down for over [&#8230;] The post Back appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/nuts-bolts-DN-1024x612.jpg"
+    },
+    {
+      "id": "rss_564fc295388f",
+      "source": "卫报书籍",
+      "title": "Exit Party by Emily St John Mandel review – alternate visions of post-crisis America",
+      "url": "https://www.theguardian.com/books/2026/sep/24/exit-party-by-emily-st-john-mandel-review-alternate-visions-of-post-crisis-america",
+      "summary": "Is the price of stability necessarily the loss of freedom? Two possible future worlds are linked in the new novel from the author of Station Eleven In her second novel, 2009’s The&nbsp;Singer’s Gun, Emily St John Mandel tells the story of Anton Waker, a young man desperate to make a break from his criminal family. His plans are thwarted by his cousin Ari, whose hard-nosed talent for operating outside the law has become a way of life. A decade later in The Glass Hotel , a painting called Swan Dive that hangs in the lobby of the luxury retreat stands as a symbol of escape from a trap that is closing. You will not need to have read either of these earlier novels to enjoy Mandel’s seventh, Exit Party, though their loose intertwining of narrative threads will provide extra pleasure and a sense of homecoming for those who have. It is also interesting to observe Mandel’s evolution from a writer of quirky tales of offbeat protagonists to a novelist whose world-spanning, politically resonant narratives now attract a wide and devoted following. Exit Party begins five years into our&nbsp;future, in 2031. Ari Waker has just come out of prison after serving an 18-year sentence for the attempted murder by contract killing of her cousin Anton. Much has changed while she has been inside: a second civil war has devastated lives and blighted the economy, and the United States as such has ceased to exist. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_f0746cd24641",
+      "source": "卫报书籍",
+      "title": "Previous winners Marlon James and Douglas Stuart shortlisted for Booker prize",
+      "url": "https://www.theguardian.com/books/2026/sep/22/booker-prize-shortlist-pulitzer-previous-winners",
+      "summary": "The two authors are in the running for the £50,000 award alongside a Pulitzer winner, a science fiction legend, a comic writer and a debut novelist • Booker judge Mary Beard on this year’s shortlist This year’s Booker prize shortlist features some very familiar names – previous winners Marlon James and Douglas Stuart are in the running once more, along with Pulitzer winner Elizabeth Strout and prominent British speculative fiction writer M John Harrison. Novelist and poet Luke Kennard and debut novelist Rebecca Perry are also in contention for the £50,000 prize, the winner of which will be announced on Monday 9 November. James, the Jamaican writer who took home the prize in 2015 for A Brief History of Seven Killings, was shortlisted this time for The Disappearers . Set in Aids-era Jamaica, the novel centres around an attack on a group of queer men rehearsing John Herbert’s prison-set play Fortune and Men’s Eyes. Coming in at 640 pages, it’s the longest on the list. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_2cd972127c62",
+      "source": "卫报书籍",
+      "title": "Britain’s Slave Traders by William A Pettigrew review – the inconvenient truth",
+      "url": "https://www.theguardian.com/books/2026/sep/23/britains-slave-traders-by-william-a-pettigrew-review-the-inconvenient-truth",
+      "summary": "This revelatory history shows just how deeply embedded slavery is in the foundations of modern Britain One tedious aspect of Britain’s post-imperial melancholia is the&nbsp;number of amateur historians who would rather we stopped going on about our role in the&nbsp;slave trade. Isn’t it all in the past? Weren’t we the first to abolish it anyway? In April, the Reform party announced a new policy of halting visas to people from countries seeking slavery reparations from Britain. “The United Kingdom is not an&nbsp;ATM for ethnic grievances from the&nbsp;past,” the party’s home affairs spokesperson, Zia&nbsp;Yusuf, said. Unfortunately for those who would&nbsp;rather forget, the slave trade, as&nbsp;William Pettigrew argues in this grimly important book, can be found “in the depths of Britain’s grain”. Ninety per cent of the enslaved Africans transported to America went on British ships, and slave traders’ actions transformed Britain in ways that still resonate today. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5dce18c822c7",
+      "source": "Mongabay",
+      "title": "Biodiversity credits shouldn’t copy the carbon market playbook (commentary)",
+      "url": "https://news.mongabay.com/2026/09/biodiversity-credits-shouldnt-copy-the-carbon-market-playbook-commentary/",
+      "summary": "Here is the argument I want to make plainly, before anything else: the biodiversity credit market should stop trying to copy carbon&#8217;s trick of reducing everything to one tradable unit, and should instead measure its own success by how continuously and independently a claim can be verified. Chasing a single elegant number, the way carbon [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/10/12125135/8.-Habenaria-criniferaNasrilatha-768x512.jpg"
+    },
+    {
+      "id": "rss_e460ca5c3a8c",
+      "source": "Mongabay",
+      "title": "Indonesia’s geothermal push runs into local fears at Mount Ungaran",
+      "url": "https://news.mongabay.com/2026/09/indonesias-geothermal-push-runs-into-local-fears-at-mount-ungaran/",
+      "summary": "YOGYAKARTA, Indonesia — Communities living near Mount Ungaran in Indonesia’s Central Java province have slammed plans to revive a geothermal power project there, saying it could threaten water supplies and farming livelihoods. The latest opposition follows a decision in August by the Ministry of Energy and Mineral Resources allowing the state-owned electricity utility, PLN, to [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/24124550/7488ea4d-a47b-4173-8648-2d577f41d37a-768x512.jpg"
+    },
+    {
+      "id": "rss_93ce37e13045",
+      "source": "Mongabay",
+      "title": "Floating weeds threaten farming and fishing at Malawi’s Chia Lagoon",
+      "url": "https://news.mongabay.com/short-article/2026/09/floating-weeds-threaten-farming-and-fishing-at-malawis-chia-lagoon/",
+      "summary": "A mass of floating weeds at Chia Lagoon, Malawi’s largest, is choking out waterways and livelihoods as farmers and fishers struggle to access fields and fishing areas. Seven months after the rainy season ended in Malawi, fields that once absorbed seasonal water at the lagoon are submerged, frustrating irrigated maize and rice production, according to [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/23230335/chia-1-768x512.jpg"
+    },
+    {
+      "id": "rss_a6723a1e5cc0",
+      "source": "卫报野生动物",
+      "title": "Big-eyed bugs and praying mantises: climate crisis drives new visitors to UK shores",
+      "url": "https://www.theguardian.com/environment/2026/sep/24/world-warms-up-insects-moving-northwards-uk",
+      "summary": "Britain has seen an explosion of migrating insects – in some cases from as far as northern Africa It was a stifling evening in July and Matt Phelps was out for a stroll, when a piercing, whirring noise stopped him in his tracks. As an ecologist, Phelps knows his fauna – and he could think of no UK creature that could emit such a sound. “It was like the classic sound effect of a cricket in a film, a beeping sort of little trilling sound,” said Phelps, who works at Knepp Estate in West Sussex. He returned with entomologist Graeme Lyons to track it down. But the sound, though incredibly loud, “seemed to be all around us … it was very ventriloquial”. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_7bc32e9025a1",
+      "source": "卫报野生动物",
+      "title": "Mass sardine die-off pits survival of South Africa’s penguins against fishers’ livelihoods",
+      "url": "https://www.theguardian.com/environment/2026/sep/24/mass-sardine-die-off-pits-survival-of-south-africas-penguins-against-fishers-livelihoods",
+      "summary": "Known as the ‘energy bars of the sea’ the fish are a key food source for many species, but closing fisheries to allow numbers to recover would cost millions It began on 28 July, when fishers near Saldanha Bay on the west coast of South Africa reported seeing dead sardines (also known as pilchards) floating at sea. Then, in early August, more dead sardines began washing up on beaches near Cape Town. In the weeks that followed, similar reports came in from places across a vast area spanning 2,600km (1,600 miles) of coastline , such as Henties Bay in Namibia and Mbotyi in the Eastern Cape province of South Africa. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_b5f8573e161d",
+      "source": "卫报野生动物",
+      "title": "‘Cash to trash’ levy on house developers too low to offset damage to Norfolk Broads, say critics",
+      "url": "https://www.theguardian.com/environment/2026/sep/24/cash-to-trash-levy-house-developers-too-low-offset-nature-damage",
+      "summary": "Exclusive: Levy that allows almost 16,000 houses to be built on Norfolk Broads will not cover cost of mitigating environmental damage, critics say A new levy on developers to allow almost 16,000 homes to be built in the environmentally protected Norfolk Broads has been cut by tens of thousands of pounds per house, the Guardian can reveal. Ministers say the government’s environmental delivery plans (EDPs) were created to unblock housing growth across the country and are a “win-win” for development and nature. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-24 21:40"
+}
