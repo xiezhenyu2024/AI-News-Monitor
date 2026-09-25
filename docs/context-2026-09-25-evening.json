@@ -1,0 +1,748 @@
+{
+  "key": "2026-09-25-evening",
+  "date": "2026-09-25",
+  "session": "evening",
+  "label": "🌙 晚间速览",
+  "source_count": 7,
+  "cards": [
+    {
+      "item_id": 19,
+      "title": "新全球地图记录40年海洋高温与酸化极端事件",
+      "entities": [
+        {
+          "name": "The Blob",
+          "explain": "2014-2015年出现在太平洋的一场大规模海洋热浪，因范围巨大、持续时间长而得名"
+        },
+        {
+          "name": "海洋热浪",
+          "explain": "海水温度异常升高的现象，可持续数周至数年，对海洋生态造成严重破坏"
+        },
+        {
+          "name": "海洋酸化",
+          "explain": "海水吸收过多二氧化碳后pH值下降的现象，会损害珊瑚、贝类等海洋生物"
+        },
+        {
+          "name": "Mongabay",
+          "explain": "一家专注环境与自然保护新闻的非营利国际新闻机构"
+        }
+      ],
+      "summary": "新发布的全球地图首次系统呈现了过去40年间海洋高温和酸化的极端事件。其中2014至2015年的海洋热浪\"The Blob\"尤为严重，温暖了比美国和墨西哥面积总和还大的太平洋海域，引发有毒藻华、渔业崩溃，导致数百万海鸟死亡，鲸鱼和海獭尸体被冲上阿拉斯加海岸。",
+      "relevant": "海洋热浪和酸化是气候变化对海洋最直接的冲击，这些地图为科学家和政策制定者提供了长期趋势的可视化依据，有助于评估生态损失和制定保护措施。",
+      "context": "随着全球变暖加剧，海洋吸收了大部分多余热量，极端海洋热浪和酸化事件日益频繁。此前缺乏长期、全球尺度的可视化数据，这项新研究填补了这一空白。",
+      "source_analysis": "Mongabay是一家以环境报道为核心的非营利新闻机构，立场倾向于关注生态保护和气候变化议题。",
+      "social_impact": "The Blob事件直接导致阿拉斯加渔业崩溃和大量海洋生物死亡，影响范围覆盖整个东北太平洋，凸显了气候变化对海洋生态系统的毁灭性打击。",
+      "source_text": "- Using satellite data and water samples taken by ships over the last 40 years, researchers employed machine learning to untangle the history of marine heat waves hitting simultaneously with acidification events. - They found that these compound events happen more frequently than would be expected by chance, attributing them to ocean physics that allow marine heat waves to become unusually acidic in some regions. - The resulting database captured some “double-hit” heat-acidity events that have been largely ignored in the scientific literature, such as a massive 2016 event in the Southern Pacific Ocean that lasted eight months. - Experts say more research is urgently needed to better understand how these compound events affect marine life and fisheries. Between 2014 and 2015, a marine heatwave known as “The Blob” warmed an area of the Pacific Ocean larger than the United States and Mexico combined. The massive event fueled toxic algae blooms, collapsed fisheries, killed off millions of emaciated seabirds, sent dead fin whales (Balaenoptera physalus) and sea otters washing up on Alaska and British Columbia coasts, and dotted California shores with starving sea lions. Though best known as a marine heat wave, The Blob was also an extreme acidification event. Yet occurrences of these compound heat-acidity extreme events remain poorly understood. A new study, published in the journal AGU Advances in August, provides a detailed look at the frequency, intensity and duration of these compound events during the last four decades. The study reveals an understudied aspect of marine heat waves that could have implications for the developing 2026-2027 “super” El Niño, in which waters in the equatorial Pacific become unusually warm due to changing wind patterns. Researchers from the Swiss Federal Institute of Technology (ETH Zurich) found compound heat-acidity events across the globe happen together “more frequently than would be expected by chance,” they wrote. Instead, the researchers attributed their occurrence to underlying ocean physics that allow marine heat waves to become unusually acidic in some regions. These events are mostly short-lived and small, with 67% of the 500 identified events lasting less than three months and extending to an average size of around 500,000 square kilometers (193,051 square miles). A few, however, lasted much longer — 20 months, in the most extreme case — and spread across a far greater area. The researchers found heat-acidity events ",
+      "source_title": "New global maps chart 40 years of ocean heat and acidification extremes",
+      "source_url": "https://news.mongabay.com/2026/09/new-global-maps-chart-40-years-of-ocean-heat-and-acidification-extremes/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "新研究评估AI的哲学能力，Sebastian Thrun参与",
+      "entities": [
+        {
+          "name": "Sebastian Thrun",
+          "explain": "斯坦福大学兼职教授、计算机科学家和企业家，参与过Waymo、Google X、Google街景等知名项目"
+        },
+        {
+          "name": "Daily Nous",
+          "explain": "一个面向哲学学术界的新闻与讨论网站，报道哲学界动态和资源"
+        }
+      ],
+      "summary": "一项新研究探讨了人工智能在哲学领域的表现能力。斯坦福大学兼职教授、知名计算机科学家和企业家Sebastian Thrun参与了该项目。Thrun此前参与创建了Waymo自动驾驶、Google X实验室和Google街景等重大项目。",
+      "relevant": "AI是否具备哲学推理能力是当前人工智能与哲学交叉领域的热点问题，涉及机器能否进行伦理判断、逻辑思辨等核心议题。",
+      "context": "随着大语言模型能力快速提升，学界开始系统评估AI在人文社科领域的能力边界。Daily Nous作为哲学界新闻平台报道了这一研究动态。",
+      "source_analysis": "Daily Nous是哲学学术社区的新闻聚合平台，主要面向哲学研究者和教师群体。",
+      "social_impact": "",
+      "source_text": "Sebastian Thrun, a computer scientist, entrepreneur, and adjunct professor at Stanford University (whose projects have included Waymo, Google X, Google Street View, and more) has launched a study to evaluate “the capabilities and limitations of AI systems for writing English-language philosophy.” Called PhilosophyBench, the study is focused on “whether AI can generate novel philosophical ideas and develop them clearly with depth and sophistication, not merely summarize existing views or apply existing philosophical theories.” The advisory board for the study includes philosophers Ned Block, Nancy Cartwright Ruth Chang, Kit Fine, Gideon Rosen, Jonathan Schaffer, Crispin Wright, and Linda Zagzebski, as well as computer scientists. The project involves developing “an independent academic benchmark against which claims about capabilities in AI philosophical reasoning and writing can be evaluated. If a new AI model comes out and claims are made about its philosophical capabilities, we hope that this study will provide an independent methodology that can judge those claims.” The questions to be addressed by the project include (according to its FAQ): - Can an AI generate novel philosophical ideas and develop them clearly with depth and sophistication? - Can an AI generate essays that could be accepted to a philosophy journal, or earn admission to a leading philosophy PhD program? - To what extent does providing human philosophy BAs and PhDs access to AI tools change the quality of the philosophical writing that they produce (this is called an “uplift” study)? - Given that many frontier AI models are already pre-trained on an extensive set of philosophical work across human history, what limitations, if any, prevent frontier AI models from producing philosophical work at the quality level of the best philosophical work in human history? - When AIs write philosophy, are there any patterns in how they write that reveal anything about AI alignment, particularly when AIs are asked to produce novel arguments? - What, if anything, might the philosophical capabilities of current AI systems tell us about how future AI systems might develop? The project is currently looking for people with philosophical training to help with the project (“professional philosophers, graduate students, or advanced philosophy undergraduates, as demonstrated through formal education or other appropriate evidence”). Further details are at the PhilosophyBench site.",
+      "source_title": "New Study on AI’s Philosophical Skills",
+      "source_url": "https://dailynous.com/new-study-on-ais-philosophical-skills/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "哈贝马斯：一位愿意改变自己观点的协商民主捍卫者",
+      "entities": [
+        {
+          "name": "Jürgen Habermas",
+          "explain": "德国当代最重要的哲学家和社会理论家之一，以协商民主理论和公共领域理论闻名"
+        },
+        {
+          "name": "协商民主",
+          "explain": "一种民主理论，认为政治决策应通过理性讨论和公共协商来达成，而非仅仅依靠投票"
+        },
+        {
+          "name": "Aeon",
+          "explain": "一家在线哲学与文化杂志，发表深度思想类文章"
+        }
+      ],
+      "summary": "Aeon杂志刊文探讨哲学家哈贝马斯的真理观与其思想转变的关系。文章作者Emilie Prattico指出，哈贝马斯作为协商民主的坚定捍卫者，以身作则践行了协商民主的要求——他从不害怕改变自己的立场。",
+      "relevant": "在公共讨论日益极化的时代，哈贝马斯愿意根据理性论证修正自身观点的态度，为如何在分歧中保持开放提供了思想典范。",
+      "context": "哈贝马斯是协商民主理论的核心人物，其理论强调通过理性沟通达成共识。这篇文章以其思想转变为例，说明其理论并非僵化教条，而是与实践一致。",
+      "source_analysis": "Aeon是一家以哲学、科学和文化深度评论为主的在线杂志，立场偏学术和思想性。",
+      "social_impact": "",
+      "source_text": "Listen to this essay 22 minute listen Jürgen Habermas died on 14 March 2026, in the German town of Starnberg, aged 96. Every fall, from the mid-1990s into the late-2000s, he would come to Northwestern University in Evanston, Illinois to teach and give talks, a visit that a dedicated group of students looked forward to every fall term. The year that has stayed with me is 2004, when he taught what he’d spelled out in Between Facts and Norms (1992), his opus applying his theory to democratic politics. Law, philosophy, history, political science: students spanned many disciplines to come watch the famous German scholar every week, dressed in Wrangler jeans and a tweed jacket, expose his theory of deliberative politics in his unmistakable nasal voice, thick German accent, and impeccable English. Max Weber and the Frankfurt School, which were intimate to him, since he’d been Theodor Adorno’s research assistant in the 1950s, came to life in his speech and then in schemas and figures in chalk as he theorised about them. I understood almost none of it at first: words I’d read were coming to life in the room, spoken by their author, and still not resolving into sense. After several lectures, the shape came into focus: this wasn’t just Between Facts and Norms being rebuilt in public, but decades of work arriving at a single place. Since The Theory of Communicative Action (1981), Habermas had been arguing that reason survives in modern life only as something people do together, that is, by giving each other reasons and staying open to being moved by them, rather than by force, money or tradition. Between Facts and Norms was that idea turned toward law and democracy directly: a state counts as legitimate only when its laws could in principle be justified to everyone bound by them, through exactly that kind of open exchange. I’d watched that argument take root in a decades-long intellectual history. Thinking is a practice, it involves owing each other explanations, questions, answers. It is not a fast process, and doing it in public, out loud, in front of a room, is what makes it worthwhile. I attended all of Habermas’s seminars during my time at Northwestern with great interest and, to be honest, a sense of awe. One day, the topic of the weekly seminar was inclusion, and I had argued, with the timid conviction of a green graduate student, that deliberative publics ought to be designed for inclusion, and that entry into these publics required that members accept the ter",
+      "source_title": "Reasoning together",
+      "source_url": "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "数字达达图书馆上线：在线保存达达主义原始出版物",
+      "entities": [
+        {
+          "name": "达达主义",
+          "explain": "20世纪初兴起的反艺术运动，以荒诞、反传统和挑衅为特征，旨在颠覆既有艺术观念"
+        },
+        {
+          "name": "Theodor Adorno",
+          "explain": "德国批判理论家，法兰克福学派代表人物，以对大众文化的批判著称"
+        },
+        {
+          "name": "数字达达图书馆",
+          "explain": "一个将达达主义原始出版物数字化的在线档案项目"
+        }
+      ],
+      "summary": "数字达达图书馆正式上线，将达达主义这一实验性反艺术运动的原始出版物在线归档。文章指出，即使是最大胆的颠覆性艺术也常被主流文化驯化和删改，而这一数字档案有助于保存达达主义的原始面貌。",
+      "relevant": "数字档案让公众得以直接接触历史上最具颠覆性的艺术运动之一的原始材料，避免其被主流叙事过滤或改写。",
+      "context": "达达主义诞生于一战期间，以反战和反传统为核心。其出版物多为限量发行的小册子和杂志，原件稀少且分散，数字化有助于保护和传播。",
+      "source_analysis": "Open Culture是一个致力于分享免费文化教育资源的网站，内容涵盖艺术、文学、电影等领域。",
+      "social_impact": "",
+      "source_text": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global mega-corporate industries don’t need to censor what they don’t like; they only need to buy it, rebrand it, or price it out of reach. So what? Why do we need challenging, independent art when we have endless entertainment? Is the concept a nostalgic, elitist, Eurocentric idea? Artists have justified the need for art since antiquity, with poetic and logical arguments of every kind. But Dada artists of the early 20th century broke ranks, building their movement on the insight that no defense could possibly mean anything when it came to art’s purpose, especially in the face of the technocratic slaughter of World War I. When the hyperrationalism of modernity led to mass death and destruction, the only humane response was to declare war on rationalization—to “destroy the hoaxes of reason,” as French artist Jean Arp put it. “For the disillusioned artists of the Dada movement,” the Museum of Modern Art explains, “the war merely confirmed the degradation of social structures that led to such violence: corrupt and nationalist politics, repressive social values, and unquestioning conformity of culture and thought.” Dada took a combative stance against, for one thing, the insistence that art justify its existence to win establishment approval. “All activity is vain,” declared poet Tristan Tzara in his 1918 “Dada Manifesto,” including the “monetary system, pharmaceutical product, or a bare leg advertising the ardent sterile spring…. The beginnings of Dada were not the beginnings of art, but of disgust” with the ossified culture of the “nice, nice bourgeois,” who would preserve at any cost “the possibility of wallowing in cushions and good things to eat.” “And so Dada,” wrote Tzara, “was born of a need for independence, of a distrust toward unity.” Such declarations aside, the movement was decidedly unified in its aims. “For us, art is not an end in itself,” poet Hugo Ball wrote. “It is an opportunity for the true perception and criticism of the times we live in.” This critique required new experimental techniques that deformed and repurposed the technologies of mass culture. The undertaking would not have been possible without a Dada publ",
+      "source_title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "source_url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "1936年达利穿潜水服演讲差点窒息",
+      "entities": [
+        {
+          "name": "Salvador Dalí",
+          "explain": "西班牙超现实主义艺术家，以梦幻怪诞的绘画和行为艺术闻名"
+        },
+        {
+          "name": "超现实主义",
+          "explain": "20世纪初的艺术与文学运动，强调潜意识、梦境和非理性"
+        },
+        {
+          "name": "潜水服",
+          "explain": "达利为一场演讲穿着的重型铜制潜水装备，象征潜入潜意识深处"
+        }
+      ],
+      "summary": "1936年，超现实主义艺术家达利在伦敦一场演讲中身穿全套铜制潜水服登台，以此象征潜入潜意识深处。然而潜水服密封过严导致他几乎窒息，最终不得不被紧急打开头盔解救。这一事件成为艺术史上著名的行为艺术轶事。",
+      "relevant": "这是艺术史上最荒诞也最著名的演讲事件之一，体现了达利将日常生活转化为超现实主义表演的一贯风格。",
+      "context": "达利当时正在伦敦参加超现实主义展览，他选择用潜水服作为演讲服装，意在表达\"潜入潜意识\"的理念，但实际执行时几乎酿成事故。",
+      "source_analysis": "Open Culture是一个分享免费文化资源的网站，文章引用了美国国会图书馆和摄影师Carl Van Vechten的图片资料。",
+      "social_impact": "",
+      "source_text": "Image by Library of Congress/Carl Van Vechten, via Wikimedia Commons Many a foreigner has visited England and found it an unexpectedly surreal place. Some of that effect has to do with encountering familiar icons — Big Ben, double-decker Routemaster buses, Marmite — in cold, damp reality. More of it may be induced by the country’s simultaneously thoroughgoing cultures of normality and eccentricity, an endless source of inspiration for Monty Python’s Flying Circus and much other British comedy since. Yet England came relatively late to Surrealism, or rather, Surrealism came late to England. When the International Surrealist Exhibition opened at the New Burlington Galleries behind London’s Royal Academy in the summer of 1936, the Manchester Evening News decried it as “a travesty of everything that’s decent.” Naturally, the show was a smash hit. On display was work by artists including Pablo Picasso, René Magritte, Max Ernst, Alexander Calder, Giorgio de Chirico, Marcel Duchamp, Alberto Giacometti, Paul Klee, Man Ray, and Salvador Dalí, who turned up in person to deliver a lecture on “Authentic Paranoiac Phantoms.” In order to “descend to the subconscious” with a properly Surrealist literalism, he rented a diving suit and helmet from a local outfitter for his appearance. (You can see an actual image from 1936 here.) “The diving suit had extremely heavy lead shoes which I could barely lift,” he writes in his autobiography, as translated by Haakon Chevalier. “I therefore had to walk very slowly, leaning on friends who helped to move me, as though I were completely paralyzed, and thus I appeared before the audience holding two luxurious white Russian wolfhounds on a leash.” Only after he’d been talking for a few minutes did Dalí realize that “it would be impossible for me to deliver my speech through the glass window of my helmet. Moreover, I had been shut up in this thing for ten minutes and became heated from the exertions I had made in walking across the stage to reach my chair, so that I was dripping with perspiration, and felt faint and on the point of suffocating.” With the technician who’d screwed the helmet on in the first place nowhere to be found, his wife Gala and friend Edward James worked desperately to free him, eventually taking a hammer to the bolts. “At each blow I thought I would faint.” When Dalí finally emerged, the audience, having assumed it had all been an act, “was impressed by my really deathly pallor, which constituted the accurate gaug",
+      "source_title": "When Salvador Dalí Gave a Surrealist Lecture in a Diving Suit … and Almost Suffocated (1936)",
+      "source_url": "https://www.openculture.com/2026/09/when-salvador-dali-gave-a-surrealist-lecture-in-a-diving-suit-and-almost-suffocated-1936.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "贝叶挂毯深度沉浸式解读项目发布",
+      "entities": [
+        {
+          "name": "贝叶挂毯",
+          "explain": "一幅长约70米的中世纪刺绣作品，描绘了1066年诺曼征服英格兰的历史事件"
+        },
+        {
+          "name": "诺曼征服",
+          "explain": "1066年诺曼底公爵威廉率军征服英格兰，改变英国历史进程的重大事件"
+        },
+        {
+          "name": "Deep Down History",
+          "explain": "一个制作历史深度解读内容的项目"
+        }
+      ],
+      "summary": "随着贝叶挂毯在大英博物馆展出，Deep Down History推出了一项深度沉浸式解读项目，全面讲述这幅70米长刺绣作品背后的完整故事。该挂毯记录了1066年诺曼征服英格兰的历史事件，是中世纪最珍贵的存世文物之一。",
+      "relevant": "贝叶挂毯在大英博物馆展出是重要的文化事件，沉浸式解读有助于公众理解这件中世纪杰作的历史和艺术价值。",
+      "context": "贝叶挂毯平时保存在法国贝叶，此次在大英博物馆展出属于罕见的文化交流活动。Deep Down History借此机会制作了深度解读内容。",
+      "source_analysis": "Open Culture是一个分享免费文化教育资源的网站，内容涵盖艺术、历史等领域。",
+      "social_impact": "",
+      "source_text": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, culminating in the Battle of Hastings. This video tells the Tapestry’s story in full, using Charles Stothard’s early colour reproduction, presented here as a seamless scroll for the first time. We follow Harold Godwinson’s fateful journey from Edward the Confessor’s court to Normandy, his later seizure of the Crown, and William the Conqueror’s invasion. Beyond its political messaging, the Tapestry is also bursting with medieval history, including jokes, fascinating technical details, and a warning for those who break their promises…” Enjoy! Related Content The Story Told on the Famous Bayeux Tapestry Explained from Start to Finish Behold a Creative Animation of the Bayeux Tapestry How England First Became England: An Animated History The Bayeux Tapestry Animated The Entire History of the British Isles Animated: 42,000 BCE to Today Construct Your Own Bayeux Tapestry with This Free Online App",
+      "source_title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "source_url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "source_name": "Open Culture",
+      "group": "industry"
+    },
+    {
+      "item_id": 14,
+      "title": "哲学教学资源网站TeachPhilosophy101更新",
+      "entities": [
+        {
+          "name": "TeachPhilosophy101",
+          "explain": "一个免费的哲学教学资源集合网站，提供课程规划和教学方法的建议"
+        },
+        {
+          "name": "Daily Nous",
+          "explain": "面向哲学学术界的新闻与讨论网站"
+        }
+      ],
+      "summary": "免费哲学教学资源网站TeachPhilosophy101近期完成更新。该网站为哲学教师提供课程规划、教学方法等方面的资源和思路，是哲学教学领域的一个实用工具。",
+      "relevant": "哲学教学资源的更新对高校哲学教师具有实用价值，尤其是在课程设计和教学方法创新方面。",
+      "context": "TeachPhilosophy101长期为哲学教育工作者提供免费资源，此次更新增加了新的教学材料和思路。",
+      "source_analysis": "Daily Nous是哲学学术社区的新闻平台，主要面向哲学研究者和教师。",
+      "social_impact": "",
+      "source_text": "TeachPhilosophy101, a free and helpful collection of resources and ideas for teaching philosophy, has recently been updated. Its materials cover course planning, how to use class time, student assessment, challenges, and much more. TeachPhilosophy101 was created by John Immerwahr (Villanova) and previously revamped by Erin Tarver (Emory). Recently David Sackris (Arapahoe Community College) took over as editor of the site, making further changes and adding additional resources. Some of those new resources come by way of an arrangement with the Philosophy Documentation Center and the journal, Teaching Philosophy, to provide free access to any articles in the journal that are linked to on the TeachPhilosophy101 site. It’s very much worth checking out. And if you’d like to contribute materials or ideas for TeachPhilosophy101 , email Professor Sackris.",
+      "source_title": "Philosophy Teaching Resource Updated",
+      "source_url": "https://dailynous.com/philosophy-teaching-resource-updated/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "Daily Nous发布Mini-Heap链接合集",
+      "entities": [
+        {
+          "name": "Mini-Heap",
+          "explain": "Daily Nous网站的一个栏目，汇总网络上与哲学相关的各类链接和资讯"
+        },
+        {
+          "name": "Heap of Links",
+          "explain": "Daily Nous维护的一个网络链接收藏库，收集哲学相关的网络内容"
+        }
+      ],
+      "summary": "Daily Nous网站发布了新一期的Mini-Heap栏目，汇总了近期积累的哲学相关网络链接。该栏目通常在链接收藏库中积累若干新条目后发布，内容涵盖网络上的哲学资讯和讨论。",
+      "relevant": "",
+      "context": "Mini-Heap是Daily Nous的常规栏目，定期汇总哲学领域的网络动态，方便读者一站式获取信息。",
+      "source_analysis": "Daily Nous是哲学学术社区的新闻聚合平台。",
+      "social_impact": "",
+      "source_text": "New links… - A political theorist and a comedian discuss the American presidency — “The Oath and the Office” is the podcast of Corey Brettschneider & John Fugelsang - An “evidence revolution” has taken place in medicine and other fields over the past 50 years — but, as Benjamin Santos Genta asks, there’s still the question: “what counts as good scientific evidence?” - “Behind the scenes at Ethics” — editor Douglas Portmore shares how the journal works - “Cambridge philosophy gave Scruton a sense of the distinction between real thinking and fake thinking… a sense of when a conclusion had been too easily won” — a look at the early years of Roger Scruton - “Once students see language in an Aristotelian way, nobody talks about what a chatbot thinks or feels.” — when teaching students about LLMs, don’t forget they know almost nothing about that second “L” - Effective altruism may seem “bonkers” to some, but “what do our elders propose as a replacement? Aristotle? Arendt? Marx? A life in community? A life of the mind? Worst of all, more dialogue?” — Harry Levov, a student, attends an Effective Altruism conference - The theme of the 33rd edition of Artissima, a contemporary art festival in Turin, is inspired by Martha Nussbaum — the theme: “the flexible, acrobatic body” of “art, guided by fancy – the forward projection of fantasy” Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may be of interest to philosophers. The Heap of Links consists partly of suggestions from readers; if you find something online that you think would be of interest to the philosophical community, please send it in for consideration for the Heap. Thank you. Previous edition.",
+      "source_title": "Mini-Heap",
+      "source_url": "https://dailynous.com/mini-heap-4/",
+      "source_name": "Daily Nous",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "孟加拉国罗兴亚难民营因大规模涌入而面临日益严重的山体滑坡风险",
+      "entities": [
+        {
+          "name": "罗兴亚人",
+          "explain": "缅甸的一个穆斯林少数民族，长期遭受迫害，大量逃往邻国孟加拉国避难。"
+        },
+        {
+          "name": "考克斯巴扎尔",
+          "explain": "孟加拉国东南部的一个地区，与缅甸接壤，是全球最大的难民营所在地。"
+        },
+        {
+          "name": "Teknaf和Ukhiya",
+          "explain": "考克斯巴扎尔地区内的两个乡，罗兴亚难民营主要集中在这里。"
+        }
+      ],
+      "summary": "据孟加拉国政府9月16日发布的报告，过去几个月又有超过15万罗兴亚人逃离缅甸迫害，进入考克斯巴扎尔地区的33个难民营。这些营地占地约24平方公里，官方登记人数已达117万余人，密集的人口和脆弱的地质条件使营地面临越来越严重的山体滑坡威胁。",
+      "relevant": "罗兴亚难民危机是当今世界最严重的人道主义危机之一，难民营的环境恶化可能引发更大规模的灾难。",
+      "context": "2017年以来，缅甸军方对罗兴亚人进行大规模镇压，导致数十万人逃往孟加拉国。难民营建立在砍伐森林后的山坡上，雨季时极易发生滑坡。",
+      "source_analysis": "Mongabay是一家专注于环境与保育新闻的非营利媒体，报道立场偏向环保和人道主义。",
+      "social_impact": "难民营官方登记人数超过117万，新涌入15万人，营地面积仅24平方公里，人口密度极高，滑坡可能造成大规模伤亡。",
+      "source_text": "- Amid recurring landslides, a growing number of Rohingya refugees in Bangladesh are being forced to adapt to increasingly limited camp space. - The refugee management authorities warn that expansions of Rohingya camps will accelerate further destruction of forests and biodiversity. - A study recommends protection of the vulnerable hill slopes, but authorities cite fund shortages as a major obstacle. According to a report by the Bangladeshi government, released on Sept. 16, more than 150,000 Rohingya people fleeing persecution in Myanmar have entered the country’s 33 Rohingya camps in Teknaf and Ukhiya areas of Cox’s Bazar in the last few months. The camps, spread across roughly 24 square kilometers (9.2 square miles), officially host 1,170,978 dwellers — more than (more than 124,300 people per square mile) — making the densely packed settlements increasingly congested and vulnerable to collapse as new arrivals continue to enter the limited space, according to the report by the Office of the Refugee Relief and Repatriation Commissioner (RRRC). Several studies show that the camps, built on sandy hill slopes after large areas of reserved forest were cleared, are also highly vulnerable to natural disasters. Every year, heavy monsoon downpours trigger landslides in Rohingya camps. This year, between July 4 and 19, more than 200 landslides occurred in the Rohingya camps, killing at least 15 people, including five adolescent girls. Mohammed Mizanur Rahman, the refugee relief and repatriation commissioner, told Mongabay on Sept. 8, “The refugee community demands camp expansion with continued influx from Myanmar. But any expansion means destruction of new forests and hills, and Bangladesh cannot afford it anymore.” The Rohingya influx in 2017 initially caused a total destruction of 1,502 hectares (3,713 acres) of forest lands in Cox’s Bazar to accommodate the makeshift refugee settlements. Two years later, the country’s Forest Department reported that the Rohingya settlements severely damaged biodiversity and depleted more than 3,230 hectares (8,000 acres) of reserved forest in Cox’s Bazar. A 2020 study that analyzed landscape changes in Ukhiya noted that slope cutting and road and stair construction in the elevated part of Kutupalong, the largest refugee camp network in the world, were increasing the risk of landslides and flooding across several camps. Mapping vulnerable slope units in the Kutupalong camps, a 2025 study found that 109 of the 1,726 studied slope ",
+      "source_title": "Bangladesh’s Rohingya refugee camps become increasingly vulnerable to landslides",
+      "source_url": "https://news.mongabay.com/2026/09/bangladeshs-rohingya-refugee-camps-become-increasingly-vulnerable-to-landslides/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "特朗普签署休闲钓鱼行政令，环保人士警告这是对鱼类和海洋生态系统的‘馈赠’",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，现任总统，以放松环境监管著称。"
+        },
+        {
+          "name": "休闲钓鱼",
+          "explain": "以娱乐为目的的钓鱼活动，区别于商业捕捞。"
+        },
+        {
+          "name": "国家海洋渔业局",
+          "explain": "美国负责管理海洋渔业资源的联邦机构。"
+        }
+      ],
+      "summary": "特朗普签署行政令《恢复美国咸水垂钓与休闲》，要求联邦机构优先考虑休闲钓鱼，并重新审视渔业管理的科学标准和环境法规。国家海洋渔业局称赞该命令将稳定美国1.2万亿美元的户外休闲经济，但环保倡导者警告这是对鱼类和海洋生态系统的‘馈赠’，可能削弱海洋保护。",
+      "relevant": "该行政令可能大幅改变美国海洋渔业管理方向，影响海洋生态系统健康和数百万依赖渔业的生计。",
+      "context": "特朗普政府一直致力于放松环境监管，此次行政令是其最新举措，旨在优先满足休闲钓鱼产业的需求，而非商业捕捞或生态保护。",
+      "source_analysis": "《卫报》是英国左倾媒体，其野生动物栏目通常持环保立场，报道中引用了环保倡导者的批评。",
+      "social_impact": "美国户外休闲经济规模达1.2万亿美元，休闲钓鱼是其中重要部分，但放松监管可能对海洋生态造成长期损害。",
+      "source_text": "Donald Trump’s latest fishing order is raising new concerns about US marine protections, as it directs federal agencies to prioritize recreational fishing while reconsidering the scientific standards and environmental regulations that govern American fisheries. The National Marine Fisheries Service hailed last Thursday’s order, Restoring American Saltwater Angling and Recreation, telling the Guardian: “By addressing long-standing flaws in federal data collection, streamlining permitting, and expanding marine habitats, this action delivers long-overdue stability to America’s $1.2tn outdoor recreation economy.” However, conservation advocates say the order marks another step by the Trump administration away from science-based marine management and conservation. “That progress is now being dismantled, bit by bit,” said Lance Morgan, president of the Marine Conservation Institute, adding: “The current administration has moved to gut most ocean protections, threatening to take the US from a global leader in marine conservation to nearly a bystander.” The order directs the commerce department to review fisheries guidelines under the Magnuson-Stevens Act, the primary 1976 law that governs marine fisheries management in US federal waters. The review of the guidelines should “ensure they appropriately account for the … recreational fishery”, the order says. Gib Brogan, senior campaign director at Oceana, said the review is not inherently unusual. However, according to Brogan, the concern is how the Trump administration could reinterpret the standards. “The concern comes in the way that this administration has been implementing the bedrock environmental and conservation laws,” Brogan said. “We’re very concerned about how this administration will attempt to reinterpret things like overfishing and rebuilding, or what constitutes ‘best available science’,” he added, pointing to language used by Trump administration officials. The order also directs the interior department to establish a program facilitating the conversion of decommissioned offshore oil and gas structures into permanent artificial reefs. Kristen Monsell, oceans legal director and senior attorney at the Center for Biological Diversity, called the provision “a handout to the oil industry”, saying that it is “another blatant demonstration of Trump’s desire to let the oil industry avoid any responsibility for the mess it continues to leave in our oceans”. “Offshore platforms were never designed to function ",
+      "source_title": "Trump’s executive order on recreational fishing is a ‘giveaway of fish and ocean ecosystem’, advocates warn",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/25/recreational-fishing-trump-executive-order",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "阿根廷海岸偏远海底峡谷发现塑料和橡胶垃圾",
+      "entities": [
+        {
+          "name": "海底峡谷",
+          "explain": "位于海底的陡峭谷地，通常比周围海床深，是深海生态系统的一部分。"
+        },
+        {
+          "name": "Diego Urteaga",
+          "explain": "阿根廷贝尔纳迪诺·里瓦达维亚自然科学博物馆的海洋生物学家，该研究的合著者。"
+        }
+      ],
+      "summary": "一项最新研究在阿根廷海岸外的偏远深海峡谷中发现了塑料垃圾，包括一个缠绕在海底的塑料袋。这是塑料污染已蔓延至地球上最偏远角落的最新证据，表明人类活动对深海生态系统的影响远超此前认知。",
+      "relevant": "塑料污染已到达最偏远的深海环境，凸显全球塑料危机的严重性和紧迫性。",
+      "context": "深海峡谷通常远离人类活动，被认为是原始环境。但近年来多项研究发现，塑料垃圾已通过洋流和下沉作用到达深海。",
+      "source_analysis": "Mongabay是专注于环境与保育新闻的非营利媒体，报道立场偏向环保。",
+      "social_impact": "全球每年有数百万吨塑料进入海洋，深海峡谷成为塑料污染的最终归宿之一，可能危害深海生物。",
+      "source_text": "Plastic waste has been found in the most remote places — including, now, a deep-sea canyon off the coast of Argentina, according to a recent study. “The very first item spotted was a plastic bag entangled on the seafloor,” said Diego Urteaga, study co-author and a marine biologist at Argentina’s Bernardino Rivadavia Museum of Natural Science, told Mongabay by email. “Seeing something so clearly associated with human activity lying on the seafloor at more than 1,000 meters [3,281 feet] depth was striking.” Urteaga and his colleagues used a remotely operated vehicle (ROV), equipped with high-definition cameras, to survey the Mar Del Plata Submarine Canyon in the southwestern Atlantic. The V-shaped canyon is located about 250 kilometers (155 miles) off Argentina’s coast. The study was originally designed to document the canyon’s biodiversity and habitats, but the “litter became impossible to ignore,” Urteaga said. Over 17 dives, the team observed 29 pieces of litter — mostly plastic, some rubber, including an isolated plastic tissue-paper packaging at a depth of 3,814 m (12,513 ft). “I was particularly surprised by the variety of objects we found,” Urteaga said. “They included fishing gear, plastic bags and wrappers, a plastic cup, and even a rubber boot.” The litter didn’t exist in isolation. Researchers observed marine organisms attached to it, including a sea star on a plastic bag and a fishing rope colonized by organisms, Urteaga said. “These observations are interesting because they show that litter does not simply disappear after reaching the deep sea: It can remain there and become part of the physical environment experienced by benthic organisms,” he said. Urteaga added that it’s still unclear whether the interactions between the organisms and litter are “neutral, harmful, or occasionally beneficial.” Some estimates suggest that roughly 80% of marine litter originates on land and is carried to sea by rivers. However, the researchers suspect that most of the litter in the Mar Del Plata Submarine Canyon came from offshore activities, including fishing. This is because the canyon is far from Argentina’s coast and the litter is dominated by plastic and fishing-related materials such as ropes and lines. “[T]he overall composition provides evidence for a substantial contribution from activities at sea,” Urteaga said. “In the case of fishing-related debris, preventing gear loss and improving the recovery and disposal of damaged or unwanted fishing gear could",
+      "source_title": "Plastic and rubber litter found in remote submarine canyon off Argentina’s coast",
+      "source_url": "https://news.mongabay.com/short-article/2026/09/plastic-and-rubber-litter-found-in-remote-submarine-canyon-off-argentinas-coast/",
+      "source_name": "Mongabay",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "玛格丽特·阿特伍德以百万加元捐赠设立鸟类生物学教席，呼吁保护鸟类和乐观面对未来",
+      "entities": [
+        {
+          "name": "玛格丽特·阿特伍德",
+          "explain": "加拿大著名小说家、诗人，代表作《使女的故事》。"
+        },
+        {
+          "name": "Graeme Gibson",
+          "explain": "阿特伍德的已故伴侣，作家和鸟类爱好者。"
+        },
+        {
+          "name": "鸟类生物学教席",
+          "explain": "大学中专门从事鸟类生物学研究的教授职位。"
+        }
+      ],
+      "summary": "加拿大著名作家玛格丽特·阿特伍德为纪念已故伴侣格雷姆·吉布森对鸟类的热爱，向一所大学捐赠100万加元，设立鸟类生物学教席。她在采访中表达了对鸟类保护和未来的乐观态度，称‘希望是一种内置特征’。",
+      "relevant": "知名公众人物通过捐赠推动鸟类保护研究，提升公众对生物多样性危机的关注。",
+      "context": "阿特伍德和吉布森长期热爱鸟类，在加拿大皮利岛共同建立了鸟类观测站。吉布森于2019年去世。",
+      "source_analysis": "《卫报》是英国左倾媒体，其野生动物栏目通常关注环保和保育议题。",
+      "social_impact": "100万加元捐赠将支持鸟类生物学研究，有助于理解和保护鸟类种群。",
+      "source_text": "If she could be any bird, Margaret Atwood would transform into a raven. “They’re very smart. They’re social, playful and just a very successful bird,” she says while seated in a corner of a bird observatory in the Lake Erie Islands archipelago. “They’re quite an intelligent problem solver.” The observatory, which she set up with her late partner, Graeme Gibson, is located on the west shore of Pelee Island – the southernmost community in Canada – and is so new that there are no lightbulbs in a handful of lamps. Pelee sits at the nexus of two important migration routes, making it a destination for birds travelling thousands of kilometres each year. Ravens are not among its regular visitors – only one was spotted in recent memory, in 2023 – but Atwood likes the old Inuit joke about them. A hunter arrives at a place he has never camped before, and asks a raven where to spend the night. “The raven says, ‘The base of that hill is a good place,’ and so he sets up his little tent there,” says Atwood. “In the middle of the night, a boulder rolls down the hill and crushes him. And the raven, as he’s enjoying the feast, says, ‘Works every time.’” The bestselling Canadian author, whose prophetic works of speculative fiction have won countless awards, has blurred the lines that separate humans and birds both in her work and, at times, in her life. She and Gibson, also a novelist, once dressed up for a party as Odin’s ravens, Thought and Memory. They wore black gloves and fashioned beaks from black construction paper. Gibson died in 2019. In his final years, vascular dementia overtook his ability to journal about the birds. Still, he would watch them daily. “Our back yard feeder and our birdbath were attracting only sparrows and robins and grackles and the occasional pigeon, but he didn’t care: every bird was worthy of attention,” Atwood wrote in a foreword to Gibson’s book, The Bedside Book of Birds. “‘I no longer know their names,’ he told a friend of ours. ‘But then, they don’t know my name either.’” Now, Gibson’s legacy is about to help expand humanity’s understanding of birds. On Friday the University of Western Ontario announced that Atwood had donated C$1m (£540,000) to celebrate her late partner’s love of birds. The gift will create the Graeme Gibson chair in avian biology, with the goal of better understanding the fundamental processes that shape how birds move, adapt and behave in an environment undergoing profound transformation. Atwood has championed many ca",
+      "source_title": "‘Hope is a built-in characteristic’: Margaret Atwood on birds, conservation and optimism for the future",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/25/margaret-atwood-birds-conservation-optimistic-future",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "英国最后一艘大型飞艇R101的工程奇迹与悲剧结局",
+      "entities": [
+        {
+          "name": "R101",
+          "explain": "英国在20世纪20年代建造的大型硬式飞艇，旨在实现远程航空旅行。"
+        },
+        {
+          "name": "飞艇",
+          "explain": "一种比空气轻的航空器，由气囊提供浮力，曾被视为未来航空的方向。"
+        }
+      ],
+      "summary": "Aeon发布视频，讲述英国最后一艘大型飞艇R101的工程奇迹与悲剧性结局。R101旨在实现英国主导天空的梦想，但最终在1930年坠毁，终结了英国的飞艇雄心。",
+      "relevant": "回顾航空史上的重要失败，反思技术野心与安全之间的平衡。",
+      "context": "20世纪20-30年代，飞艇是远程航空的主要工具。英国建造R101以竞争跨大西洋航线，但技术问题和恶劣天气导致其坠毁。",
+      "source_analysis": "Aeon是一家专注于哲学、科学和文化的数字杂志，以深度视频和文章著称。",
+      "social_impact": "R101坠毁造成48人死亡，是当时最严重的航空灾难之一，加速了飞艇时代的终结。",
+      "source_text": "In this short video, Bill Hammack, an engineer and professor at the University of Illinois Urbana-Champaign, details the extraordinary making and tragic ending of the British airship known as R101. Conceived in 1924 and first flown in 1929, R101 was intended to fly a regular route from England to India. Hammack uses archival images and his own deep research to trace the engineering and history of this remarkable vessel, which the British government planned as the flagship of a fleet that would criss-cross its then-sprawling empire. Those ambitious plans were abandoned after the airship crashed in France in October 1930, killing 48 of the 54 people on board. Hammack offers a riveting peek into a brief moment in aviation history – one ended for good by the crash of the Hindenburg in 1937 – when it appeared as if commercial airships might become a regular sight in skies across the world. The video accompanies Hammack’s book Fatal Flight: The True Story of Britain’s Last Great Airship (2017), which is available as a free audiobook at his website. R.101 airship parked in Cardington, UK. Image by the Royal Aeronautical Society Before the Hindenburg there was R101 – Britain’s ill-fated airship Video by Engineer Guy videoHistory of technology Trawling for secrets in haunting films recovered from the bottom of the sea 11 minutes videoSports and games Up, up and away! Fly above the clouds in a glider over the Shropshire Hills 4 minutes videoWar and peace A war meteorologist’s riveting account of how the Allies averted a D-Day disaster 6 minutes videoHistory of technology Remarkable historical footage is locked behind paywalls. It’s time to set it free 4 minutes videoEngineering How an ancient curiosity evolved to power the modern world 11 minutes videoMeaning and the good life The world turns vivid, strange and philosophical for one plane crash survivor 16 minutes videoThe ancient world Archeological discoveries animate the life of the warrior queen who took on Rome 6 minutes videoAstronomy In her dreams, the first Briton in space revisits staggering views of the Earth 3 minutes videoSocial psychology ‘The order could come at any moment’: two kamikaze pilots tell their story 8 minutes",
+      "source_title": "Britain’s last great airship",
+      "source_url": "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "草原爱好者探寻农耕土地伦理：关爱地球从农场和家园开始",
+      "entities": [
+        {
+          "name": "土地伦理",
+          "explain": "一种认为人类对土地、动植物负有道德责任的哲学观念，由奥尔多·利奥波德提出。"
+        },
+        {
+          "name": "Craig Maier",
+          "explain": "文章作者，草原爱好者，探讨农耕与自然的关系。"
+        }
+      ],
+      "summary": "Aeon发表文章，作者Craig Maier以草原爱好者的视角，探讨如何建立一种农耕土地伦理。文章认为，关爱地球涉及我们与农场、家园以及人类和野生邻居之间的亲密决策。",
+      "relevant": "在环境危机加剧的背景下，重新思考人类与土地的关系具有现实意义。",
+      "context": "现代农业对土地造成巨大压力，作者通过个人经历和哲学思考，呼吁建立更可持续的土地伦理。",
+      "source_analysis": "Aeon是专注于哲学、科学和文化的数字杂志，文章通常具有思想深度。",
+      "social_impact": "土地伦理的讨论有助于推动可持续农业和生态保护。",
+      "source_text": "Listen to this essay 29 minute listen Forty iron rectangles, each one blunt as a piano key, rotate into a blurring fury that hides the eight-foot-long shaft at the heart of the flail chopper. I am perched atop several tons of iron, with 80 horsepower at my command. This part of farming is straightforward – even a mechanically challenged tree-hugger like me can manage to depress the clutch, shift into second, and ease the throttle forward. The tractor’s tall, deeply treaded tires churn, revolving into a smooth spin. Everything is spinning: fans, belts, alternator, the driveshaft, axles. I don’t understand the mechanism fully, yet the tractor and chopper and I are propelled forward across the knee-high whiskers of a coarsely bearded cornfield. It is Indian summer in southern Wisconsin. My wife and I and our young son live here on her family’s farm. Both of us are employed off the farm, but on weekends and many evenings I am an apprentice to my father-in-law, David. Today, we are taking advantage of a brief period of warm, dry weather. Winter is approaching, and I could be spending the day beside our woodsplitter – the gasoline-sipping, hydraulically heroic mechanism that makes it possible to put up several cords of firewood quickly each year – but that work can wait until the cool, sunny days of fall are shoved aside by the relentless spin of the earth into darkness, sleet, snow and frozen ground. The wall of tall green corn that stood here this summer has been transformed by fall and harvest. Little is standing after the field was stripped by a seed-combing combine. The mechanical tornado flails so loudly behind me: wailing against the air, grinding off the root-buttressed corn-stalk stumps, sucking up spent leaves and stripped cobs. In my wake, dry corn litter passes through the chopper like water compelled into frothy turbulence, falling again into an even, silent surface that hides so much activity below. No time to waste – the weather is expected to hold for another day, and I need to cover the field before the light fails this afternoon. Tomorrow, David will rake this chewed-up detritus into windrows and then come back for another round to bale them up. While it is good to leave some of this thatch on the field – to keep a roof over the soil and guard against erosion by wind and rain – we can afford to borrow some of this, which also makes good straw. Wherever livestock are gathered in close quarters, their waste can produce concentrations of ammonia a",
+      "source_title": "Where a land ethic blooms",
+      "source_url": "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic",
+      "source_name": "Aeon",
+      "group": "industry"
+    },
+    {
+      "item_id": 23,
+      "title": "本周野生动物摄影：小型虎猫、后院熊和粉色海参",
+      "entities": [
+        {
+          "name": "虎猫",
+          "explain": "一种小型野生猫科动物，分布于美洲，身上有类似虎的斑纹。"
+        },
+        {
+          "name": "海参",
+          "explain": "一种海洋无脊椎动物，身体呈长条状，是海底生态系统的重要清道夫。"
+        }
+      ],
+      "summary": "《卫报》野生动物栏目发布本周全球最佳野生动物照片，包括一只小型虎猫、出现在后院的熊，以及一只粉色褶皱海参。这些照片展示了自然界的多样性和美丽。",
+      "relevant": "通过摄影展示生物多样性，提升公众对野生动物的关注和保护意识。",
+      "context": "《卫报》每周精选全球野生动物摄影，记录自然界的精彩瞬间。",
+      "source_analysis": "《卫报》是英国左倾媒体，其野生动物栏目通常关注环保和保育议题。",
+      "social_impact": "野生动物摄影有助于公众了解并关注濒危物种和生态保护。",
+      "source_text": "Week in wildlife: a tiny tiger-cat, backyard bears and a frilly pink sea cucumber This week’s best wildlife photographs from around the world A leopardus tilcayo cat, the first new wild feline species to be identified in more than 100 years. Photograph: Fernando Faciole/National Geographic/Reuters A family of black bears take a dip in a backyard pool in Los Angeles, California, US. Video footage showed them playing in the water and doing a passable dog-paddle. In California, bears and humans are coming into closer contact as communities expand and the climate crisis affects the bears’ food sources Photograph: Poolbearlife via Instagram This brilliant shot of a short-eared owl giving the camera a Kate Moss stare won gold in the Birds in Flight category of the Bird photographer of the year 2026 award. Ivan Sjögren caught the owl hunting over the salt marshes of the Fraser River delta in British Columbia, Canada. “This was a magical evening, with five owls feeding around me as dusk fell,” he saidPhotograph: Ivan Sjögren Say hello to Barbie Pig, a new type of sea cucumber discovered on the deep-sea floor by a team from the Natural History Museum in London. The frilly-footed fuchsia beauty was filmed by a robot on the Pacific seabed, 5km deep, in an area called the Clarion-Clipperton Zone. A documentary opening next month, How Deep Is Your Love, gives a scientist’s-eye view of the astonishingly biodiverse region An anhinga takes flight at Green Cay wetlands in Boynton Beach, Florida, US. Nicknamed snakebirds because they swim with only their long necks visible above the water, anhingas do not have waterproof feathers. This trait helps them easily sink to hunt underwater for up to two minutes, but forces them to dry off by stretching out their wings for 15-20 minutes after each divePhotograph: Ronen Tivony/NurPhoto/Shutterstock It’s time to meet the bears of Fat Bear Week 2026. The annual Fat Bear Week competition is run by Katmai national park in Alaska, US and is returning for its 13th year. People can vote for the brown bear that they feel has put on the most weight ahead of their winter hibernation, by comparing photos from early and late summerPhotograph: Guy Runco/Katmai Conservancy/AP A grey fox in its den at a wildlife rehabilitation facility in El Santuario, Colombia. The species is about the same size as a red fox but with shorter legs, and shares the same mischievous expression. This one is about to be released into its natural habitat following five ",
+      "source_title": "Week in wildlife: a tiny tiger-cat, backyard bears and a frilly pink sea cucumber",
+      "source_url": "https://www.theguardian.com/environment/gallery/2026/sep/25/week-in-wildlife-a-tiny-tiger-cat-backyard-bears-and-a-frilly-pink-sea-cucumber",
+      "source_name": "卫报野生动物",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "爱尔兰乐队Gilla Band发行第四张专辑《Pugnello》，将噪音朋克与舞曲推向极致",
+      "entities": [
+        {
+          "name": "Gilla Band",
+          "explain": "爱尔兰噪音朋克乐队，原名Girl Band，以实验性和激烈的声音著称。"
+        },
+        {
+          "name": "Pugnello",
+          "explain": "Gilla Band的第四张专辑，名称可能源自意大利语，意为‘拳头’或‘击打’。"
+        }
+      ],
+      "summary": "Pitchfork评论爱尔兰乐队Gilla Band的第四张专辑《Pugnello》，称其将标志性的噪音朋克与舞曲融合推向极致，乐队在专辑中变得更响亮、更原始、更有趣，同时也更有条理。",
+      "relevant": "对于关注实验音乐和噪音朋克的听众，这是一张备受期待的专辑。",
+      "context": "Gilla Band此前已发行三张专辑，以激烈的现场表演和独特的声音风格积累了一批忠实粉丝。",
+      "source_analysis": "Pitchfork是美国知名音乐媒体，以独立和实验音乐评论著称，评分具有影响力。",
+      "social_impact": "专辑获得Pitchfork好评，可能提升乐队在国际上的知名度。",
+      "source_text": "When the speakers are throbbing and rattling, spitting a filthy squeal, threatening to split open—do you bolt out of the room or step closer? If you ever attend a Gilla Band show, you will know instantly which their fans prefer. Discomfort is the baseline goal for a band that weaponizes its instruments to such earsplitting magnitudes that they rarely resemble the tried tools of rock music: guitar, bass, drums. “The trick,” bassist Daniel Fox said in a recent interview with Pitchfork, “is to be louder than everyone else.” This is a wild but typical understatement from the humble Irish quartet, which also comprises vocalist Dara Kiely, guitarist Alan Duggan Borges, and drummer Adam Faulkner. Volume—blown out to extremes or dampened before a deafening blast—in no way explains Gilla Band’s precision as songwriters, producers, or engineers. What may sound like chaos is the product of meticulous layering and sonic manipulation that smudges the lines between post-punk, noise, no wave, industrial, and techno. On their exhilarating fourth album, Pugnello, Gilla Band sharpen their implements and go in for the kill. Sure, Pugnello is loud, but it’s the nasty textures, the colliding rhythms, the gnarled vocals, the dense details that affirm Gilla Band’s mastery of dissonance. It’s their most methodical and charged album to date. Not long after they formed in 2011, Gilla Band began experimenting with a bracing concoction of noise-punk and dance music. In 2013, they released “Why They Hide Their Bodies Under My Garage,” a cover of the post-dubstep single by English DJ Blawan. The original simmers for six minutes at a steady pace and decibel level; Gilla Band stretch it, torque it, and spike it with pedal-warped guitar that sounds more like a feat of extreme knob-wringing. Watching them perform it live is a study in tension and release, dynamics they wield like classical conductors or spring break DJs. Gilla Band withhold the drop for a torturous length of time, whipping the crowd into a frenzy of potential energy. Just before they kick up the volume and crash-land on the beat, they pull back to near silence, a single fret slide bridging the gap. It accounts for maybe one whole second, but that tiny bit of space is what sends limbs into motion. No score yet, be the first to add. Gilla Band very pointedly understand their effect on the human body, whether it’s a squirm, a shudder, or a thrash. On their 2022 LP, Most Normal, they achieved a pitch of feedback so subtle and ",
+      "source_title": "Pugnello",
+      "source_url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "83岁英国作家罗斯·特雷梅恩新作出版，坦言同代小说家正在凋零",
+      "entities": [
+        {
+          "name": "罗斯·特雷梅恩",
+          "explain": "英国畅销小说家，1943年出生，代表作包括《恢复》《路边的路》，曾获惠特布雷德小说奖"
+        },
+        {
+          "name": "达芙妮·杜穆里埃",
+          "explain": "英国著名小说家，代表作《蝴蝶梦》（Rebecca），以悬疑浪漫风格闻名"
+        },
+        {
+          "name": "格兰塔20位最佳英国青年小说家",
+          "explain": "1983年文学杂志《格兰塔》评选的权威榜单，捧红了包括马丁·艾米斯、萨尔曼·拉什迪在内的一代作家"
+        },
+        {
+          "name": "马丁·艾米斯",
+          "explain": "英国著名讽刺小说家，2023年去世，代表作《伦敦场地》《金钱》"
+        },
+        {
+          "name": "萨尔曼·拉什迪",
+          "explain": "《撒旦诗篇》作者，2022年在美国遭刺杀受伤，长期面临死亡威胁"
+        }
+      ],
+      "summary": "83岁的英国作家罗斯·特雷梅恩在最新小说（以达芙妮·杜穆里埃为主角）出版之际，撰文回顾70年写作生涯。她指出1983年格兰塔评选的20位最佳英国青年小说家中已有6人去世，包括马丁·艾米斯；萨尔曼·拉什迪遭刺杀、朱利安·巴恩斯患血癌。她反思年迈作家是否仍被读者需要，并明确表示自己没有停笔的打算。",
+      "relevant": "这是一位亲历英国文学黄金时代的作家对同代人集体命运的深情回望，涉及文学传承、衰老与创作力的关系，对关注当代英国文学和老龄化议题的读者有共鸣。",
+      "context": "特雷梅恩的最新小说以《蝴蝶梦》作者达芙妮·杜穆里埃为题材，借新书出版契机，她撰文回顾自己从1983年入选格兰塔榜单至今的写作历程，并直面同代作家相继离世或患病的现实。",
+      "source_analysis": "《卫报》书籍版，该报文化版面以深度文学评论和作家访谈著称，倾向自由派人文视角，常关注作家群体的生存状态与代际更替。",
+      "social_impact": "1983年格兰塔20人榜单中已有6人去世，折射出战后英国文学一代的集体谢幕；同时引发对高龄创作者社会价值与读者代际更替的讨论。",
+      "source_text": "My generation of writers is dying. Of Granta’s fabled list of 20 Best of Young British Novelists, 1983, six are gone, including our most princely satirist, Martin Amis. We’re all approaching birthdays where the cake is too small for the candles. Some of us are wounded: Salman Rushdie by an attacker’s knife, Julian Barnes lives with blood cancer, others with the fatal hurt of being forgotten. But what’s the likely fate of those of us who are surviving – for now? Do readers still love us? When Barnes announced that he was signing off because of illness, was he also intuiting that the younger generations had heard enough from us old birds and geezers who were young when Sean Connery had dimples, when David Hockney first coloured his hair yellow? The answer is probably “yes”. But here’s what I believe: contrary to what publishers hope and expect, serious writers don’t think obsessively about readers, or even about sales, royalties and prizes. What we talk to each other about, what we dream of, what we can’t live without is the work itself. When I endured a terrifying procedure for pancreatic cancer in 2019 and contemplated the likelihood of dying in Addenbrooke’s hospital, I spent wide-awake nights mourning not only the people I love and the places that are precious to me, but the end of storytelling. Ideas for stories have peopled my life since the age of 12, when I wrote my first play at boarding school. My existence devoid of these would definitely feel what Amis once called “thin”. From interviews Hockney gave towards the end of his 88 years, when yellow had turned to white, we gleaned a fine understanding of the elderly artist’s unflagging commitment to a day-by-day engagement with his art. The simplicity of the Hockney philosophy – “I wake up. And I go to work” – enabled him to rival Picasso with the vastness and variety of his output. He lived and breathed painting. The idea that he would suddenly stop doing this he would surely have thought plain stupid, and I’m with him on that. Though there can be a falling-off in the work of artists and writers as they age, this is by no means inevitable; the reasons for keeping on are not too hard to find. Certainly I’m getting towards the end of my life, but why should what remains of it be stricken by the loss of the one constant that has kept me company for 70 years, since that first little school play? To those who might imagine me in “retirement” tending my garden in Norfolk, existing only through this and thr",
+      "source_title": "‘My generation of novelists is dying’: Rose Tremain on 70 years of writing, and late-life inspiration",
+      "source_url": "https://www.theguardian.com/books/2026/sep/25/my-generation-of-novelists-is-dying-rose-tremain-on-70-years-of-writing-and-late-life-inspiration",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "新书《Can't Get You Out of My Head》深度剖析凯莉·米洛五十年流行传奇",
+      "entities": [
+        {
+          "name": "凯莉·米洛",
+          "explain": "澳大利亚流行歌手，从肥皂剧《邻居》出道，横跨五个十年创下英国排行榜纪录，代表作《Can't Get You Out of My Head》"
+        },
+        {
+          "name": "迈克尔·克拉格",
+          "explain": "英国音乐记者，本书作者，曾为《卫报》《观察家报》等撰写流行音乐报道"
+        },
+        {
+          "name": "Stock Aitken Waterman",
+          "explain": "1980-90年代英国著名流行音乐制作团队，以流水线式舞曲制造了大量热门单曲，凯莉早期作品即出自他们之手"
+        },
+        {
+          "name": "凯文·基利安",
+          "explain": "已故旧金山诗人，曾出版一整本诗集致敬凯莉·米洛，文中引用了他关于'承认自己是凯莉粉丝会有焦虑感'的观点"
+        }
+      ],
+      "summary": "音乐记者迈克尔·克拉格出版新书，深入剖析凯莉·米洛的流行音乐生涯。书中指出尽管凯莉拥有横跨五个十年的破纪录榜单成绩，但因肥皂剧出身和早期作品的甜腻风格，她在流行乐坛的地位常显得比其他艺人更不稳固。作者认为凯莉凭借敏锐的自我意识和不断突破的意愿，成为一位'伟大的统一者'。",
+      "relevant": "凯莉·米洛是少数横跨五个十年仍保持影响力的流行偶像，本书提供了理解流行文化中'高雅与通俗'张力、以及女性艺人如何维持长久职业生涯的案例。",
+      "context": "凯莉·米洛自1980年代从澳洲肥皂剧出道，经历Stock Aitken Waterman时期的甜腻舞曲、1990年代独立转型、2000年代《Fever》等专辑的'帝国时期'，至今仍活跃。本书是在她持续走红背景下出版的深度传记式评论。",
+      "source_analysis": "《卫报》音乐/书籍版，该报文化评论通常持左翼人文立场，对流行文化持严肃分析态度，倾向于肯定大众文化的社会意义。",
+      "social_impact": "凯莉·米洛在英国单曲榜拥有多项纪录，是流行文化中少有的跨代际女性偶像；本书引发的讨论涉及粉丝文化中的身份焦虑与流行音乐评价体系中的性别偏见。",
+      "source_text": "‘There’s an anxiety in declaring oneself a Kylie fan,” wrote the late San Francisco poet Kevin Killian (who nonetheless once published an entire collection devoted to the singer). Despite her remarkable longevity, with record-breaking chart success across five decades, Kylie’s place in the pop firmament has often felt more precarious than that of other artists, perhaps because of her past as a soap star, and the schmaltz of some of her early material with Stock Aitken Waterman. But she has always displayed a canny self-awareness, alongside a willingness to push the envelope. It’s evident in her knowing rendition of I Should Be So Lucky as a bad poem at the Royal Albert Hall in 1996, and her many collaborations with experimental dance producers. Then there’s her instinct for giving fans what they want: inarguable bangers, like those of her 2000s imperial phase, that also possess an offbeat, idiosyncratic quality, true of Can’t Get You Out of My Head and of her 2023 viral hit, Padam Padam. Michael Cragg’s illuminating new book explores Kylie’s multiple selves, her talent for shapeshifting, and the question of why she has been persistently underrated. He makes the case that the most easily maligned aspects of her music – frivolity without subtext, fun without an underlying seriousness – are precisely what makes it so pleasurable and available for camp reclamation, its apparent disposability capable of being recast as a virtue. The Aussie girl next door is thus a different kind of gay icon to club kid Madonna, a grittier figure who looms large here, and whose own acts of reinvention have been considered not just the work of an entertainer, but of an auteur. This comparison is also a matter of taste, of course; in a particularly juicy quote included in the chapter on Kylie’s appeal among gay audiences, singer Rufus Wainwright describes her “as the anti-Madonna. She is what she is and there is no attempt to make quasi-intellectual statements to substantiate it. She is the gay shorthand for joy.” As to what makes a gay icon, Cragg nimbly tackles the question by including a committee of different voices on the subject, just as he threads his chapters through with interviews. These generate intriguing discoveries and esoteric insights from people as diverse as textile designers, academics and film-makers, all of whose work has been informed by Kylie in some way. While this can slightly disrupt the flow of the book, it also captures the communal ethos that is key to",
+      "source_title": "Can’t Get You Out of My Head by Michael Cragg review – what’s the secret of Kylie’s genius?",
+      "source_url": "https://www.theguardian.com/music/2026/sep/25/cant-get-you-out-of-my-head-by-michael-cragg-review-whats-the-secret-of-kylies-genius",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "卫报犯罪小说综述：露西·弗利执笔首部马普尔小姐续作领衔五本新书",
+      "entities": [
+        {
+          "name": "露西·弗利",
+          "explain": "英国畅销悬疑小说家，代表作《宾客名单》（The Guest List），擅长封闭空间群像悬疑"
+        },
+        {
+          "name": "马普尔小姐",
+          "explain": "阿加莎·克里斯蒂笔下的老年女侦探，以观察力和对人性的洞察破案，是英国推理文学的标志性人物"
+        },
+        {
+          "name": "珍妮丝·哈莱特",
+          "explain": "英国推理小说家，以《上诉》系列闻名，擅长书信体/文件体叙事"
+        },
+        {
+          "name": "威廉·博伊德",
+          "explain": "英国小说家，代表作《任何一个人类心脏》，作品横跨文学与类型小说"
+        },
+        {
+          "name": "T·杰罗尼莫·约翰逊",
+          "explain": "美国作家，以实验性叙事和种族议题书写著称"
+        },
+        {
+          "name": "伊娃·比约格·埃吉斯多蒂尔",
+          "explain": "冰岛犯罪小说家，'福尔克'系列作者，北欧黑色小说代表人物之一"
+        }
+      ],
+      "summary": "《卫报》综述五本近期犯罪与惊悚小说。最受关注的是露西·弗利执笔的首部马普尔小姐续作《大阿尔卑斯酒店谋杀案》，将马普尔从战后英国圣玛丽米德搬到瑞士阿尔卑斯山豪华酒店。评论指出弗利做出可嘉尝试，但四线叙事稀释了悬念，马普尔直到中段才真正开始调查。其余四本包括哈莱特、博伊德、约翰逊和埃吉斯多蒂尔的新作。",
+      "relevant": "阿加莎·克里斯蒂遗产委员会首次授权续写马普尔小姐系列，是推理文学界的标志性事件，对经典IP续写、女性侦探形象的当代改编有参考意义。",
+      "context": "阿加莎·克里斯蒂去世后，其遗产委员会此前已授权续写多部波洛小说（如苏菲·汉娜执笔），马普尔小姐续写尚属首次。露西·弗利作为当代畅销悬疑作家被选中执笔，新书将故事背景从战后英国搬到当代瑞士。",
+      "source_analysis": "《卫报》书籍版犯罪小说月度综述，该栏目定期由专职评论人撰写，立场偏向文学性与类型小说的平衡，对续写经典IP持审慎态度。",
+      "social_impact": "阿加莎·克里斯蒂作品全球销量超过20亿册，马普尔小姐续写消息在推理读者群体中关注度极高，涉及经典IP商业化与文学遗产保护的持续争论。",
+      "source_text": "Murder at the Grand Alpine Hotel by Lucy Foley (HarperCollins, £22) This, the first Miss Marple continuation novel, must have been a more difficult undertaking than a new Hercule Poirot; furnished by Christie with a cartoonist’s worth of exaggerated traits, the Belgian detective is surely easier to bring off the page than the unassuming but observant elderly spinster. Foley makes a commendable attempt, removing Miss Marple from the postwar austerity of St Mary Mead to the comparative luxury of the Swiss Alps. Although we are introduced to the unnamed body in the gondola cabin at the start, an immediate backward shift for a two-day lead-up means Miss Marple has little actual detecting to do until about halfway through the proceedings. Employing four narrators rather dilutes things, as well as necessitating a considerable amount of Murder of Roger Ackroyd-style withholding of information, but Foley’s Miss M shows her true colours when – of course – the hotel gets cut off from the outside world, and provides a solution worthy of the Queen of Crime herself. The Silent Appeal by Janice Hallett (Viper, £20) Bestseller Hallett’s latest novel reunites us with amateur dramatic group the Fairway Players, first encountered in her debut novel, The Appeal. This time the play is The Hollow, dramatised by Agatha Christie from her novel of the same name, and, as before, lawyers Charlotte and Femi are called upon to review the mountain of emails, online messages and police reports through which the story is told, in order to figure out exactly what happened. All we know at the start is that “a brutal murder was committed” and Hallett slowly but expertly ratchets up the tension as clashes over casting, power plays, marital suspicions and distrust of newcomers create an entire gallery of potential murderers and murderees. The epistolatory method may not be for everyone, but Hallett excels at the form – these missives are variously funny, sinister, heartfelt and thoroughly human in their relatable pettiness – and the plot is well up to her usual standard. Cold Sunset by William Boyd (Viking, £20) Boyd’s third novel to feature British travel-writer-cum-spy Gabriel Dax takes place in 1964. Initially on the trail of a wartime double agent for the Soviet Union, who operated out of Bletchley Park, our man is then sent to Moscow in order to exfiltrate repentant double agent Kit Caldwell, who promises to offer up secrets in return for sanctuary back in Blighty. Naturally, none of th",
+      "source_title": "The best recent crime and thrillers – review roundup",
+      "source_url": "https://www.theguardian.com/books/2026/sep/25/the-best-recent-and-thrillers-review-roundup",
+      "source_name": "卫报书籍",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "Jae Stephens发布大厂牌首专《AUDACITY》，从碧昂丝粉丝蜕变为流行创作歌手",
+      "entities": [
+        {
+          "name": "Jae Stephens",
+          "explain": "洛杉矶流行歌手兼词曲作者，曾是碧昂丝的狂热粉丝，现签约大厂牌发行首张专辑"
+        },
+        {
+          "name": "Pitchfork",
+          "explain": "美国知名独立音乐评论网站，以严苛评分和深度乐评著称，对流行音乐有重要影响力"
+        }
+      ],
+      "summary": "洛杉矶歌手Jae Stephens发行大厂牌首张专辑《AUDACITY》。Pitchfork评论指出，这位从碧昂丝粉丝转型为流行词曲作者的歌手，在专辑中展现了多变的声线、俏皮的幽默感以及对Top 40流行音乐的深入研究。",
+      "relevant": "这是又一位从粉丝文化中成长起来的流行新星案例，反映当代流行音乐创作中'粉丝转正'的趋势，对关注流行音乐新人动态的读者有价值。",
+      "context": "Jae Stephens此前以独立身份创作并积累了一批作品，此次签约大厂牌后推出首张正式专辑，标志其从幕后词曲作者向台前艺人的转型。",
+      "source_analysis": "Pitchfork以独立音乐和流行音乐的严肃评论著称，评分体系在乐迷中有较高参考价值，对主流流行专辑通常持分析性而非吹捧态度。",
+      "social_impact": "",
+      "source_text": "Pursuing sex and love as a highly accomplished and beautiful woman—a baddie—is hard work. People will call you conceited simply for having high standards, partners might act intimidated or jealous of your success, and what about the guys you’ll have to beat off with a stick when they get too attached? Such are the problems Jae Stephens confronts on her stellar major label debut, AUDACITY. Born in Dallas and raised in Los Angeles, Stephens is a Beyoncé Tumblr stan turned self-taught pop artist. She found early success as a songwriter, helping to pen tracks for the likes of Normani, Ashanti, and Jennifer Lopez, but she’s been releasing music under her own name since 2017. On 2024’s SELLOUT EP, she hit her stride with flirty, neotraditional tracks that nodded to the rhinestone shine of 2000s-era radio R&B and established her persona as an ultra-confident, playfully misandrist diva. AUDACITY speaks boldly about relationships in the voice of a woman who isn’t embarrassed to say that she’s the prize. No score yet, be the first to add. Stephens is a pop student in a way that a former stan would be, and AUDACITY reads from an encyclopedia of acclaimed Black pop artists and producers: the percussive snap of opener “Crush” recalls Janet Jackson’s new-jack-swingy “Nasty.” “Gymnastics” and “Expensive & Difficult” feel closer to Timbaland’s shuddering pop production of the 2000s and the distorted dancefloor blur of Danja’s work on Blackout. Ashanti’s “Foolish” and Willow’s “Whip My Hair” both get name-checked on “B4U.” “I Miss the City” features a blinging harp melody akin to Brandy’s “All in Me,” produced by Darkchild. She may have grown her bawdy style and pop star image through fandom, but Stephens brings her own brazen personality and winking, trollish humor. Songwriting, she recently told Rolling Stone, is “the one place I’m allowed to be the villain. I’m allowed to say what I want, and the listener can decide if I’m serious or not.” On “Expensive and Difficult,” she sings that she likes “bringing home the bacon/But I’ll still spend yours, that’s reparations.” She’s practically training sexual partners like show dogs on songs like “Attaboy!” and “Sugar Trap,” but she’s not always as tough as she talks. In the album’s softer moments, Stephens sings about conflict and vulnerability without breaking character. On “I Miss the City,” she sheds a partner who tried to control her and returns to her old life, where she and her friends can club to their heart’s content. Sh",
+      "source_title": "AUDACITY",
+      "source_url": "https://pitchfork.com/reviews/albums/jae-stephens-audacity/",
+      "source_name": "Pitchfork",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_cd9b56d65519",
+      "source": "Pitchfork",
+      "title": "Pugnello",
+      "url": "https://pitchfork.com/reviews/albums/gilla-band-pugnello/",
+      "summary": "Exploding its signature blend of noise-punk and dance music to masterful extremes, the Irish band gets louder, rawer, funnier, and more methodical on its exhilarating fourth album.",
+      "image": ""
+    },
+    {
+      "id": "rss_db545a04ccb2",
+      "source": "Pitchfork",
+      "title": "AUDACITY",
+      "url": "https://pitchfork.com/reviews/albums/jae-stephens-audacity/",
+      "summary": "A Beyoncé stan turned pop songwriter, the L.A.-based singer steps out with a major label debut that highlights her versatile vocals, winking humor, and close study of the Top 40.",
+      "image": ""
+    },
+    {
+      "id": "rss_cf89b73917f7",
+      "source": "Pitchfork",
+      "title": "Everyone Gets Everything They Want",
+      "url": "https://pitchfork.com/reviews/albums/tom-morello-everyone-gets-everything-they-want/",
+      "summary": "The Rage Against the Machine guitarist’s towering legacy and sincere political convictions are at painful odds with the sanitized blues-rawk and tedious folk poetry on his new solo album.",
+      "image": ""
+    },
+    {
+      "id": "rss_fa08f41ea223",
+      "source": "Pitchfork",
+      "title": "Happiness Anytime",
+      "url": "https://pitchfork.com/reviews/albums/leon-bridges-happiness-anytime/",
+      "summary": "The retro R&B singer surrenders to the groove on a versatile and rhythmic new album that keeps the momentum going without ever really getting anywhere.",
+      "image": ""
+    },
+    {
+      "id": "rss_32f84e09a6a5",
+      "source": "Pitchfork",
+      "title": "Bass Persuades",
+      "url": "https://pitchfork.com/reviews/albums/miley-cyrus-bass-persuades/",
+      "summary": "Miley Cyrus has a distinctive voice, outsize charisma, and an infamous weird streak, but her short, uninspired new album sounds dated on arrival.",
+      "image": ""
+    },
+    {
+      "id": "rss_81b53153f923",
+      "source": "Open Culture",
+      "title": "When Salvador Dalí Gave a Surrealist Lecture in a Diving Suit … and Almost Suffocated (1936)",
+      "url": "https://www.openculture.com/2026/09/when-salvador-dali-gave-a-surrealist-lecture-in-a-diving-suit-and-almost-suffocated-1936.html",
+      "summary": "Image by Library of Congress/Carl Van Vechten, via Wikimedia Commons Many a foreigner has visited England and found it an unexpectedly surreal place. Some of that effect has to do with encountering familiar icons — Big Ben, double-decker Routemaster buses, Marmite — in cold, damp reality. More of it may be induced by the country’s [&#8230;]",
+      "image": "https://cdn8.openculture.com/2026/09/24100153/diving.png"
+    },
+    {
+      "id": "rss_f7df0aff8aa5",
+      "source": "Open Culture",
+      "title": "The Digital Dada Library: Discover the Archive That Preserves the Original Publications of the Experimental Anti-Art Movement Online",
+      "url": "https://www.openculture.com/2026/09/digital-dada-library.html",
+      "summary": "Critical theorists like Theodor Adorno may have overreached in claiming that all mass culture is mediocre, mechanized propaganda made to justify the status quo. But that doesn’t mean they were entirely wrong. Over and over we see even the most subversive art, literature, film, and music has a way of being tamed and Bowdlerized. Global [&#8230;]",
+      "image": "https://cdn8.openculture.com/2019/11/06222249/Dada1.jpg"
+    },
+    {
+      "id": "rss_29741bfcce0b",
+      "source": "Open Culture",
+      "title": "An In-Depth, Immersive Journey Through the Bayeux Tapestry",
+      "url": "https://www.openculture.com/2026/09/an-in-depth-immersive-journey-through-the-bayeux-tapestry.html",
+      "summary": "With the Bayeux Tapestry now on display at the British Museum, Deep Down History presents a deep dive into the embroidery’s full story: “The Bayeux Tapestry is one of the most remarkable survivals of the Middle Ages — a 70 metre embroidered account of the events leading to the Norman Conquest of England in 1066, [&#8230;]",
+      "image": "https://i.ytimg.com/vi/WnJgym1oIJU/maxresdefault.jpg"
+    },
+    {
+      "id": "rss_ac5e370ee166",
+      "source": "Aeon",
+      "title": "Reasoning together",
+      "url": "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind",
+      "summary": "Jürgen Habermas, the great defender of deliberative democracy, lived up to its demands: he never feared changing his mind - by Emilie Prattico Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/d19c6cf8-eddc-49ec-a4c1-4c20fb6cd93e/essay-v2-2a2b9x3.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_db7966ec66c4",
+      "source": "Aeon",
+      "title": "Britain’s last great airship",
+      "url": "https://aeon.co/videos/before-the-hindenburg-there-was-r101-britains-ill-fated-airship",
+      "summary": "The remarkable engineering and tragic demise of the vessel that would end Britain’s dream to dominate the skies - by Aeon Video Watch on Aeon",
+      "image": "https://images.aeonmedia.co/images/f74fe38c-14fa-4732-899f-b4cf68298cdd/britains-last-great-airship-landscape-1-v4.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_823a3852646a",
+      "source": "Aeon",
+      "title": "Where a land ethic blooms",
+      "url": "https://aeon.co/essays/a-prairie-enthusiast-in-search-of-a-farming-land-ethic",
+      "summary": "Caring for this planet entails decisions that are intimate, about our farms, our homes, our human and our wild neighbours - by Craig Maier Read on Aeon",
+      "image": "https://images.aeonmedia.co/images/1cd4dc38-6c0f-44aa-85b0-49959f51226b/essay-grassland-ag-2.jpg?width=1200&quality=75&format=auto"
+    },
+    {
+      "id": "rss_11e8334eacf2",
+      "source": "Daily Nous",
+      "title": "New Study on AI’s Philosophical Skills",
+      "url": "https://dailynous.com/new-study-on-ais-philosophical-skills/",
+      "summary": "Sebastian Thrun, a computer scientist, entrepreneur, and adjunct professor at Stanford University (whose projects have included Waymo, Google X, Google Street View, and more) has [&#8230;] The post New Study on AI’s Philosophical Skills appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/ascii-thinker-iapetus11-1024x660.png"
+    },
+    {
+      "id": "rss_a28d1f419493",
+      "source": "Daily Nous",
+      "title": "Mini-Heap",
+      "url": "https://dailynous.com/mini-heap-4/",
+      "summary": "New links&#8230; Mini-Heap posts usually appear when several new items accumulate in the Heap of Links, a collection of items from around the web that may [&#8230;] The post Mini-Heap appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2022/01/miniheap-7-darkmode-compatible-1024x622.png"
+    },
+    {
+      "id": "rss_a1ae1a37e9da",
+      "source": "Daily Nous",
+      "title": "Philosophy Teaching Resource Updated",
+      "url": "https://dailynous.com/philosophy-teaching-resource-updated/",
+      "summary": "TeachPhilosophy101, a free and helpful collection of resources and ideas for teaching philosophy, has recently been updated. Its materials cover course planning, how to use [&#8230;] The post Philosophy Teaching Resource Updated appeared first on Daily Nous .",
+      "image": "https://dailynous.com/wp-content/uploads/2026/09/Henri-Florence-Struttura.png"
+    },
+    {
+      "id": "rss_559683ff17ff",
+      "source": "卫报书籍",
+      "title": "‘My generation of novelists is dying’: Rose Tremain on 70 years of writing, and late-life inspiration",
+      "url": "https://www.theguardian.com/books/2026/sep/25/my-generation-of-novelists-is-dying-rose-tremain-on-70-years-of-writing-and-late-life-inspiration",
+      "summary": "As her latest novel about Daphne du Maurier is published, the bestselling author reflects on age and creativity – and why at 83 she has no plans to stop My generation of writers is dying. Of&nbsp;Granta’s fabled list of 20 Best of Young British Novelists, 1983, six&nbsp;are gone, including our most princely satirist, Martin Amis. We’re all approaching birthdays where the cake is too small&nbsp;for the candles. Some of us are&nbsp;wounded: Salman Rushdie by an attacker’s knife, Julian Barnes lives with blood cancer, others with the fatal hurt of being forgotten. But what’s the likely fate of those of&nbsp;us who are surviving – for now? Do&nbsp;readers still love us? When Barnes announced that he was signing off&nbsp;because of illness, was he also intuiting that the younger generations had heard enough from us old birds and geezers who were young when Sean Connery had dimples, when David Hockney first coloured his hair&nbsp;yellow? Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_20c8457ad90c",
+      "source": "卫报书籍",
+      "title": "The best recent crime and thrillers – review roundup",
+      "url": "https://www.theguardian.com/books/2026/sep/25/the-best-recent-and-thrillers-review-roundup",
+      "summary": "Murder at the Grand Alpine Hotel by Lucy Foley; The Silent Appeal by Janice Hallett; Cold Sunset by William Boyd; The Occidental Book of the Dead by T Geronimo Johnson and The Last Tenant by Eva Björg Ægisdóttir Murder at the Grand Alpine Hotel by Lucy Foley (HarperCollins, £22) This, the first Miss Marple continuation novel, must have been a more difficult undertaking than a new Hercule Poirot; furnished by Christie with a cartoonist’s worth of exaggerated traits, the Belgian detective is surely easier to bring off the page than the unassuming but observant elderly spinster. Foley makes a commendable attempt, removing Miss Marple from the postwar austerity of St Mary Mead to the comparative luxury of the Swiss Alps. Although we are introduced to the unnamed body in the gondola cabin at the start, an immediate backward shift for a two-day lead-up means Miss Marple has little actual detecting to do until about halfway through the proceedings. Employing four narrators rather dilutes things, as well as necessitating a considerable amount of Murder of Roger Ackroyd-style withholding of information, but Foley’s Miss M shows her true colours when – of course – the hotel gets cut off from the outside world, and provides a solution worthy of the Queen of Crime herself. The Silent Appeal by Janice Hallett (Viper, £20) Bestseller Hallett’s latest novel reunites us with amateur dramatic group the Fairway Players, first encountered in her debut novel, The Appeal. This time the play is The Hollow, dramatised by Agatha Christie from her novel of the same name, and, as before, lawyers Charlotte and Femi are called upon to review the mountain of emails, online messages and police reports through which the story is told, in order to figure out exactly what happened. All we know at the start is that “a brutal murder was committed” and Hallett slowly but expertly ratchets up the tension as clashes over casting, power plays, marital suspicions and distrust of newcomers create an entire",
+      "image": ""
+    },
+    {
+      "id": "rss_954259cd8f7a",
+      "source": "卫报书籍",
+      "title": "Can’t Get You Out of My Head by Michael Cragg review – what’s the secret of Kylie’s genius?",
+      "url": "https://www.theguardian.com/music/2026/sep/25/cant-get-you-out-of-my-head-by-michael-cragg-review-whats-the-secret-of-kylies-genius",
+      "summary": "The pop star emerges as a great unifier in this in-depth yet heartfelt portrait of an Aussie icon ‘There’s an anxiety in declaring oneself a Kylie fan,” wrote the late San Francisco poet Kevin Killian (who nonetheless once published an entire collection devoted to the singer). Despite her remarkable longevity, with record-breaking chart success across five decades, Kylie’s place in the pop firmament has often felt more precarious than that of other artists, perhaps because of her past as a soap star, and the schmaltz of some of her early material with Stock Aitken&nbsp;Waterman. But she has always displayed a canny self-awareness, alongside a willingness to push the envelope. It’s evident in her knowing rendition of I&nbsp;Should Be So Lucky as a bad poem at&nbsp;the Royal Albert Hall in 1996, and&nbsp;her many collaborations with experimental dance producers. Then&nbsp;there’s her instinct for giving fans what they want: inarguable bangers, like those of her 2000s imperial phase, that also possess an offbeat, idiosyncratic quality, true of Can’t Get You Out of My Head and of her 2023 viral hit, Padam Padam. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_6388f20c9c5c",
+      "source": "Mongabay",
+      "title": "Bangladesh’s Rohingya refugee camps become increasingly vulnerable to landslides",
+      "url": "https://news.mongabay.com/2026/09/bangladeshs-rohingya-refugee-camps-become-increasingly-vulnerable-to-landslides/",
+      "summary": "According to a report by the Bangladeshi government, released on Sept. 16, more than 150,000 Rohingya people fleeing persecution in Myanmar have entered the country’s 33 Rohingya camps in Teknaf and Ukhiya areas of Cox’s Bazar in the last few months. The camps, spread across roughly 24 square kilometers (9.2 square miles), officially host 1,170,978 [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/25114122/rohingya-camp-in-monsoon-2-768x512.jpg"
+    },
+    {
+      "id": "rss_dce193e13f24",
+      "source": "Mongabay",
+      "title": "New global maps chart 40 years of ocean heat and acidification extremes",
+      "url": "https://news.mongabay.com/2026/09/new-global-maps-chart-40-years-of-ocean-heat-and-acidification-extremes/",
+      "summary": "Between 2014 and 2015, a marine heatwave known as “The Blob” warmed an area of the Pacific Ocean larger than the United States and Mexico combined. The massive event fueled toxic algae blooms, collapsed fisheries, killed off millions of emaciated seabirds, sent dead fin whales (Balaenoptera physalus) and sea otters washing up on Alaska and [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/25101034/a.-BANNER-da65bd48-4b5b-4ca7-9598-ea1df2f84852Original-768x512.jpg"
+    },
+    {
+      "id": "rss_937bd18dd05a",
+      "source": "Mongabay",
+      "title": "Plastic and rubber litter found in remote submarine canyon off Argentina’s coast",
+      "url": "https://news.mongabay.com/short-article/2026/09/plastic-and-rubber-litter-found-in-remote-submarine-canyon-off-argentinas-coast/",
+      "summary": "Plastic waste has been found in the most remote places — including, now, a deep-sea canyon off the coast of Argentina, according to a recent study. “The very first item spotted was a plastic bag entangled on the seafloor,” said Diego Urteaga, study co-author and a marine biologist at Argentina’s Bernardino Rivadavia Museum of Natural [&#8230;]",
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/09/25101854/2Examples-of-marine-litter-Argentina-canyon-768x512.jpg"
+    },
+    {
+      "id": "rss_742cada72d42",
+      "source": "卫报野生动物",
+      "title": "‘Hope is a built-in characteristic’: Margaret Atwood on birds, conservation and optimism for the future",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/sep/25/margaret-atwood-birds-conservation-optimistic-future",
+      "summary": "Canadian novelist has celebrated her late partner’s love of birds with a C$1m gift to a university to establish the Graeme Gibson chair in avian biology If she could be any bird, Margaret Atwood would transform into a raven. “They’re very smart. They’re social, playful and just a very successful bird,” she says while seated in a corner of a bird observatory in the Lake Erie Islands archipelago. “They’re quite an intelligent problem solver.” The observatory, which she set up with her late partner, Graeme Gibson, is located on the west shore of Pelee Island – the southernmost community in Canada – and is so new that there are no lightbulbs in a handful of lamps. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_bd2c21717780",
+      "source": "卫报野生动物",
+      "title": "Trump’s executive order on recreational fishing is a ‘giveaway of fish and ocean ecosystem’, advocates warn",
+      "url": "https://www.theguardian.com/us-news/2026/sep/25/recreational-fishing-trump-executive-order",
+      "summary": "Federal agencies told to prioritize recreational fishing and to reconsider scientific standards as well as regulations Donald Trump’s latest fishing order is raising new concerns about US marine protections, as it directs federal agencies to prioritize recreational fishing while reconsidering the scientific standards and environmental regulations that govern American fisheries. The National Marine Fisheries Service hailed last Thursday’s order, Restoring American Saltwater Angling and Recreation , telling the Guardian: “By addressing long-standing flaws in federal data collection, streamlining permitting, and expanding marine habitats, this action delivers long-overdue stability to America’s $1.2tn outdoor recreation economy.” Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_9abbb09a7866",
+      "source": "卫报野生动物",
+      "title": "Week in wildlife: a tiny tiger-cat, backyard bears and a frilly pink sea cucumber",
+      "url": "https://www.theguardian.com/environment/gallery/2026/sep/25/week-in-wildlife-a-tiny-tiger-cat-backyard-bears-and-a-frilly-pink-sea-cucumber",
+      "summary": "This week’s best wildlife photographs from around the world Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-25 21:40"
+}
