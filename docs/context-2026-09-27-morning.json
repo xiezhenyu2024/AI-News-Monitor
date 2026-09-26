@@ -1,0 +1,752 @@
+{
+  "key": "2026-09-27-morning",
+  "date": "2026-09-27",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 1,
+      "title": "特朗普拒绝伊朗提出的七天重开霍尔木兹海峡协议",
+      "entities": [
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "全球最重要的石油运输通道，位于波斯湾出口，全球约五分之一的石油经此运输"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，此处指其对伊朗协议的态度"
+        },
+        {
+          "name": "伊朗外长",
+          "explain": "伊朗外交事务最高负责人，此处代表伊朗政府对美方表态作出回应"
+        }
+      ],
+      "summary": "特朗普拒绝了伊朗提出的在七天内重新开放霍尔木兹海峡的协议方案。伊朗外长确认已注意到特朗普的表态，但表示德黑兰仍在等待调解方的最终意见。此举意味着美伊围绕这一关键石油通道的紧张对峙短期内难以缓解。",
+      "relevant": "霍尔木兹海峡是全球能源命脉，任何封锁或冲突都会直接冲击国际油价和全球供应链。",
+      "context": "此前美伊关系持续紧张，霍尔木兹海峡的通航安全成为双方博弈焦点。伊朗提出以七天为期限重开海峡的协议，但特朗普明确拒绝，伊朗则等待中间调解方的进一步表态。",
+      "source_analysis": "BBC报道，立场相对中立，以事实陈述为主。",
+      "social_impact": "霍尔木兹海峡若持续受阻，将影响全球约20%的石油运输量，可能推高国际油价并加剧全球通胀压力。",
+      "source_text": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days - Published US President Donald Trump has rejected an Iranian proposal to reopen the Strait of Hormuz to commercial shipping within a week. He told reporters at the White House that Tehran \"want to make a deal where they open the Strait immediately because they're losing so badly\". In a post on Telegram, Iran's Foreign Minister Abbas Araghchi acknowledged Trump's comments, but said Tehran would wait for an official response from mediators. On Friday, Araghchi had told reporters at the UN in New York that an agreement could be reached \"if the necessary conditions are met\" and that these were contained in a memorandum of understanding (MOU) signed by the two countries in June. The vital waterway through which around a fifth of the world's gas and oil supply usually flows has been effectively closed since the outbreak of war in February. \"I'm rejecting their deal,\" Trump said on Saturday, adding that the US already had \"total control\" of the strait, with \"massive amounts of oil\" passing through it. \"They want to make a deal, and I think that's fine. I like making a deal, too. But that deal would not be acceptable,\" he added. Araghchi wrote that Trump \"has made many good statements, as well as many contradictory ones, which unfortunately we hear frequently.\" He added that he would await the \"definitive views\" of mediators, and that Tehran \"will make a decision based on that.\" On Friday the Wall Street Journal, external cited officials as saying Trump was sceptical that Iran would meet his demands and had told his staff that he saw a renewed bombing campaign as probable. Iran responded to US and Israeli air strikes, beginning in late February, by attacking Israel and US bases in the Gulf and Arab Gulf allies of the US - as well as blocking the Strait of Hormuz. Its closure has caused wild fluctuations of energy prices. The economic effects have also increased pressure on Trump to find a way of ending the conflict - particularly as the US heads towards Congressional elections in November. Araghchi told reporters on Friday: \"If the necessary conditions are met, the strait can be reopened, a normal maritime passage restored within seven days,\" He added that \"the actions that the United States should take are not new. They are all already in the MOU... The choice now rests with the United States.\" Iranian President Masoud Pezeshkian, meanwhile, told CBS News, the BBC's US partner: \"We had previously r",
+      "source_title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "source_url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "提格雷武装发动新攻势，埃塞俄比亚面临内战重燃风险",
+      "entities": [
+        {
+          "name": "提格雷人民解放阵线（TPLF）",
+          "explain": "埃塞俄比亚北部提格雷地区的政治和军事组织，曾与中央政府爆发大规模内战"
+        },
+        {
+          "name": "阿比·艾哈迈德",
+          "explain": "埃塞俄比亚总理，2019年诺贝尔和平奖得主，当前面临提格雷武装的挑战"
+        },
+        {
+          "name": "阿法尔和阿姆哈拉",
+          "explain": "埃塞俄比亚北部两个州，与提格雷地区相邻，是此次军事行动的目标区域"
+        }
+      ],
+      "summary": "提格雷武装力量向邻近的阿法尔和阿姆哈拉州发动攻势，并组建了旨在推翻阿比·艾哈迈德政府的新反叛联盟。双方互相指责对方挑起冲突，外界对埃塞俄比亚重返全面内战的担忧急剧升温。2020至2022年的内战曾造成约60万人死亡。",
+      "relevant": "埃塞俄比亚是非洲人口第二大国，若再次陷入内战将引发严重的人道主义危机和地区动荡。",
+      "context": "2020至2022年，埃塞俄比亚政府军与TPLF爆发惨烈内战，造成约60万人死亡。战后双方关系持续紧张，此次提格雷武装发动新攻势并组建反政府联盟，标志着和平进程严重倒退。",
+      "source_analysis": "《卫报》报道，立场偏自由派，关注人道主义议题。",
+      "social_impact": "前次内战已致约60万人死亡，若冲突全面重启，将波及数百万平民，并可能引发大规模难民潮涌向邻国。",
+      "source_text": "There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. On Sunday, seven armed groups from around the country, including the TPLF, announced the formation of the Ethiopian Peoples’ Forces Alliance for Survival, aimed at deposing the government in Addis Ababa. Then, on Wednesday, the TPLF seized control of three airports from federal police. The state-owned carrier, Ethiopian Airlines, said it had suspended flights to the region “due to the current situation”. The TPLF also launched attacks into Afar and Amhara. A humanitarian source in Afar told Agence France-Presse there were heavy artillery attacks by the group on Thursday as they attempted to take control of the town of Yallo, near the Tigrayan border. Flights to the historic Ethiopian town of Lalibela were also suspended on Thursday because of nearby fighting, while people in Tigray stocked up on food and cash, with one resident telling Reuters that people there feared they could face siege conditions similar to those during the previous war. A resident of Adigrat, a city close to the Eritrean border, described panic-buying and shops emptying. “Food shortages are worsening as market shelves sit empty … Essential medicines remain scarce and astronomically expensive,” he told Reuters. “Daily survival has become a constant calculation.” The TPLF’s vice-president, Amanuel Assefa, told AFP: “We are in the situation of full-blown war now.” He confirmed Tigrayan forces were fighting alongside local armed groups in Afar and Amhara. The group took control of Abala, also on the Tigray-Afar border, on Wednesday, a foreign security source based in Ethiopia told AFP, while a TPLF source said they had seized several other towns in Afar. The foreign security source also said there was fighting around the Amhara town of Weldiya – one of the few routes to the capital. In its first public comments on the fighting, Ethiopia’s army said on Thursday it had foiled the attacks and killed, wounded or captured more than 500 enemy fighters. Analysts say th",
+      "source_title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "source_url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 18,
+      "title": "习近平在峰会上以赞扬、警告和战时历史试图动摇特朗普对台日立场",
+      "entities": [
+        {
+          "name": "习近平",
+          "explain": "中国国家主席，此处指其在峰会中试图影响美国对亚洲盟友的支持"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，峰会另一方，其亚洲政策立场成为中方游说目标"
+        },
+        {
+          "name": "战时历史",
+          "explain": "指二战期间中美同盟抗日的历史，中方以此作为外交叙事工具"
+        }
+      ],
+      "summary": "在与中国领导人的会谈中，习近平运用赞扬、警告和二战历史等叙事手段，试图动摇特朗普对美国在亚洲角色的立场，尤其针对美国对台湾和日本的支持。报道称中方在峰会中采取了多层次的游说策略。",
+      "relevant": "中美峰会的走向直接影响台海局势和东亚安全格局，美国对台日安全承诺的任何松动都将产生深远影响。",
+      "context": "特朗普政府时期美国对亚洲盟友的安全承诺一直是中美博弈的核心议题。此次峰会中，习近平试图通过历史叙事和战略警告来影响特朗普对台湾和日本的立场。",
+      "source_analysis": "《纽约时报》报道，立场偏自由派，对特朗普政府持批评态度，报道视角侧重美国利益。",
+      "social_impact": "",
+      "source_text": "At Summit, Xi Sought to Tilt Trump’s Stance on America’s Place in Asia。In his talks with President Trump, the Chinese leader used praise, warnings and wartime history to challenge American support for Taiwan and Japan.",
+      "source_title": "At Summit, Xi Sought to Tilt Trump’s Stance on America’s Place in Asia",
+      "source_url": "https://www.nytimes.com/2026/09/26/world/asia/summit-xi-trump-taiwan-japan.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "印度亿万富翁旗下支付公司Airtel Money计划在伦敦上市，目标估值90亿美元",
+      "entities": [
+        {
+          "name": "Airtel Money",
+          "explain": "Airtel Africa旗下的移动支付业务，在非洲多国运营"
+        },
+        {
+          "name": "苏尼尔·巴尔蒂·米塔尔",
+          "explain": "印度亿万富翁，Airtel Africa的最终控制人，电信巨头Bharti Airtel创始人"
+        },
+        {
+          "name": "伦敦证券交易所",
+          "explain": "英国主要股票交易市场，近年因多家公司出走而面临上市荒"
+        }
+      ],
+      "summary": "印度亿万富翁苏尼尔·巴尔蒂·米塔尔控制的Airtel Money宣布计划在伦敦证券交易所上市，目标估值达90亿美元，有望成为近年来英国最大规模的IPO之一。此举为持续萎缩、面临公司接连出走的伦敦市场带来提振。",
+      "relevant": "伦敦作为全球金融中心的地位近年受到严重挑战，此次大型IPO被视为对英国资本市场信心的重要测试。",
+      "context": "伦敦证券交易所近年经历了一系列公司退市和上市荒，市场信心低迷。Airtel Money作为非洲领先的移动支付业务，选择此时在伦敦上市，被视为对英国资本市场的一剂强心针。",
+      "source_analysis": "《卫报》报道，其专栏作家Nils Pratley对伦敦上市荒是否就此终结持谨慎态度。",
+      "social_impact": "Airtel Money业务覆盖多个非洲国家，上市后预计估值达90亿美元，将成为近年来伦敦最大IPO之一。",
+      "source_text": "A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange. Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures. The company is understood to be hoping to raise about $800m (£601m) from the initial public offering (IPO) and is targeting a valuation of $8bn to $9bn, which would make it one of London’s largest listings in recent years. Airtel Money has 53 million monthly active users across 13 countries in sub-Saharan Africa, including Uganda, Zambia and the Democratic Republic of Congo. It operates through a network of branches and kiosks, which enable customers to load money on to their phones, withdraw cash and access other money services, and the company generated revenues of just under $1.4bn in the last financial year. Airtel Money’s parent company is Airtel Africa, a telecoms provider that is part of the Indian conglomerate Bharti Enterprises, which is ultimately controlled by the billionaire Sunil Bharti Mittal. Airtel Africa is already listed on the FTSE 100 but said it wanted Airtel Money to be listed separately. “From a company perspective, [the listing] gives us flexibility for the future,” said Airtel Money’s chief executive, Ian Ferrao. “We evaluated multiple [stock] exchanges, including the Middle East because we’ve got a headquarters in Dubai, along with European and North American exchanges. Ultimately, shareholders felt that London was the right choice. We still believe there is deep capital available … all the global institutional investors are here.” Ferrao added: “Most importantly there’s a deep understanding of emerging markets in the London market and Africa specifically.” Airtel Money said it would announce more details about the float in early October, including the indicative price range and number of shares to be offered, with final pricing to follow later in the month. Airtel Africa had originally targeted a listing in the first six months of 2026 but delayed it to the second half of the year, blaming unfavourable market conditions as a result of the US-Israeli war on Iran. Several other companies also pushed back planned IPOs amid the market volatility caused by the conflict. Airtel Africa owns just under 78% of Airtel Money and will remain a long-term investor after the I",
+      "source_title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "source_url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "报告警告：美国退出援助项目后非洲医疗体系承受越来越大压力",
+      "entities": [
+        {
+          "name": "USAID",
+          "explain": "美国国际开发署，负责美国对外援助的主要政府机构"
+        },
+        {
+          "name": "Accra Reset",
+          "explain": "发布该报告的机构，关注非洲发展和医疗政策改革"
+        },
+        {
+          "name": "全球南方",
+          "explain": "泛指非洲、拉美、南亚等发展中国家和地区"
+        }
+      ],
+      "summary": "Accra Reset发布报告警告，美国退出关键援助项目后，非洲和全球南方的医疗体系正承受越来越大压力。报告指出，特朗普政府削减USAID等项目资金，加上新冠疫情和全球生活成本上涨，使该地区医疗改革变得更为紧迫。报告呼吁非洲国家自主掌控卫生发展。",
+      "relevant": "美国是全球最大双边援助国，其退出将直接导致非洲多国医疗系统出现资金缺口，影响数亿人健康。",
+      "context": "特朗普政府大幅削减对外援助预算，USAID多个项目被终止。叠加新冠疫情冲击和全球生活成本上涨，非洲医疗体系面临多重压力，报告呼吁地区国家转向自主发展模式。",
+      "source_analysis": "《卫报》报道，立场偏自由派，关注人道主义和发展议题。",
+      "social_impact": "美国削减援助影响非洲及全球南方多个国家的医疗服务，涉及数亿依赖援助人口的健康保障。",
+      "source_text": "The United States’ withdrawal from key aid programs has put healthcare in Africa and the global south “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. The report, titled A Sovereign Future For Health, was created by the Accra Reset, a global health initiative led by John Dramani Mahama, Ghana’s president, that believes countries in Africa and the wider global south should have greater control over their health development rather than being dependent on aid from western countries and international institutions. A key statistic cited by Mahama and Accra Reset is that Africa produces less than 1% of its vaccines while carrying about 25% of the global disease burden. The report cites how abrupt changes to global health financing, such as the US withdrawal from several global health initiatives, forced countries within the global south to urgently restructure their finances. The report points to the Trump administration’s decision to dissolve USAID, which pushed Nigeria to absorb the 28,000 health workers who were previously employed by the agency at a cost of $200m. External financing for health in Africa contracted by close to 70% between 2021 and 2025, the report notes, meaning that African countries historically dependent on aid were forced to adapt quickly. The withdrawal of the US Emergency Plan for Aids Relief (Pepfar) funding for South Africa, which provided over $400m a year annually and is credited with saving 26m lives globally since 2003, led to HIV clinics closing across the country. That left 1.4 million people living with HIV to face uncertainty about their treatment. Such funding cuts caused “severe and devastating” disruption globally, according to research presented at the 26th International Aids Conference in Brazil earlier this year. At the World Health Assembly in May, Mahama said Ghana lost $78m after the closure of USAID programs which affected maternal healthcare, the treatment of malaria, nutrition and HIV/Aids interventions. The initiative’s latest report, published on Monday, comes amid these major cuts to international aid and growing pressure on countries to take greater ownership of their health systems. Mahama refers to these aid cuts as a clear example that donor dependency is n",
+      "source_title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 15,
+      "title": "普京特使称俄罗斯与德国可联合重启北溪管道",
+      "entities": [
+        {
+          "name": "基里尔·德米特里耶夫",
+          "explain": "俄罗斯总统普京的对外投资特使，负责经济合作事务"
+        },
+        {
+          "name": "北溪管道",
+          "explain": "从俄罗斯经波罗的海向德国输送天然气的海底管道，2022年遭破坏后停运"
+        },
+        {
+          "name": "AfD（德国选择党）",
+          "explain": "德国右翼政党，主张恢复与俄罗斯的能源合作"
+        }
+      ],
+      "summary": "普京特使德米特里耶夫表示，俄罗斯和德国可以联合重启北溪天然气管道。他称德国选择党（AfD）是代表德国人民的声音，为德国能源主权、繁荣、和平与合作而奋斗。此番表态正值欧洲能源格局持续调整之际。",
+      "relevant": "北溪管道重启涉及欧洲能源安全和地缘政治格局，尤其在俄乌冲突背景下高度敏感。",
+      "context": "北溪管道2022年遭破坏后停运，欧洲大幅减少对俄能源依赖。德米特里耶夫此番表态借助德国选择党的立场，试图推动俄德能源合作恢复。",
+      "source_analysis": "TASS（塔斯社）为俄罗斯官方通讯社，报道立场亲俄政府，引用俄方官员表态为主。",
+      "social_impact": "",
+      "source_text": "MOSCOW, September 26. /TASS/. Russia and Germany could jointly restart the Nord Stream gas pipeline that was sabotaged four years ago, special presidential envoy and Russian Direct Investment Fund (RDIF) CEO Kirill Dmitriev argued. \"All true. Jointly we will reopen Nord Stream. AfD is the voice of German people that fights for German energy sovereignty, prosperity, peace and cooperation,\" he wrote in an English-language post on X. Dmitriev was commenting on a remark on the same social media platform from Tino Chrupalla, co-chairman of the Alternative for Germany (AfD) party, who proposed conducting an international probe into the sabotage on Nord Stream and Nord Stream 2 pipelines as he also insisted that the two pipelines be repaired and reopened. On September 26, 2022, unprecedented damage was recorded on three strings of the Nord Stream pipelines and the never-commissioned Nord Stream 2 pipeline. The Russian Prosecutor General’s Office opened a criminal case over an act of international terrorism.",
+      "source_title": "Putin’s envoy says Russia, Germany could reopen Nord Stream jointly",
+      "source_url": "https://tass.com/politics/2193489",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "加沙地带七名巴勒斯坦人在以色列袭击中丧生",
+      "entities": [
+        {
+          "name": "加沙地带",
+          "explain": "巴勒斯坦沿海地区，长期处于以色列封锁和军事冲突之中"
+        },
+        {
+          "name": "谢赫拉德万",
+          "explain": "加沙城北部的一个居民区，此次袭击受害者来源地之一"
+        },
+        {
+          "name": "努塞拉特难民营",
+          "explain": "加沙中部的一个巴勒斯坦难民营，此次袭击受害者另一来源地"
+        }
+      ],
+      "summary": "据加沙卫生部门消息，七名巴勒斯坦人在以色列的袭击中丧生。大部分遇难者来自谢赫拉德万居民区和努塞拉特难民营，以色列军队在这些地区进行了密集火力打击。",
+      "relevant": "加沙冲突持续造成平民伤亡，国际社会对当地人道主义状况的关注不断升级。",
+      "context": "以色列与哈马斯在加沙的冲突持续，以军在多个人口密集区域展开军事行动，导致平民伤亡不断增加。",
+      "source_analysis": "TASS（塔斯社）为俄罗斯官方通讯社，报道视角倾向巴勒斯坦方面，引用加沙卫生部门数据。",
+      "social_impact": "七名平民丧生，大部分来自居民区和难民营，反映加沙平民在冲突中面临严重安全威胁。",
+      "source_text": "BEIRUT, September 27. /TASS/. The death toll from Israeli army strikes on the Gaza Strip over the past 48 hours has reached seven, with another 38 people wounded, according to a report by the Palestinian enclave's Health Ministry posted on the X social media platform. According to the ministry, the bodies of seven killed residents were brought to Gaza hospitals, and medical aid was provided to 38 wounded individuals, including women and children. Most of the victims were brought from the Sheikh Radwan neighborhood and the Nuseirat refugee camp, where Israeli forces had been conducting intense fire. Since the start of the truce on October 11, 2025, 1,415 people have been killed and another 4,953 wounded during Israeli airstrikes and artillery shelling, the ministry said. The total death toll from the escalation of the conflict in Gaza since October 2023 has risen to 74,016, with the number of injured reaching 175,068, the ministry added.",
+      "source_title": "Seven Palestinians killed in Gaza Strip during Israeli attacks — Health Ministry",
+      "source_url": "https://tass.com/world/2193499",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 12,
+      "title": "以色列战机对黎巴嫩南部山区发动系列空袭",
+      "entities": [
+        {
+          "name": "真主党",
+          "explain": "黎巴嫩什叶派武装和政治组织，以色列的主要地区对手之一"
+        },
+        {
+          "name": "杰贝勒·拉菲、雷汉和萨朱德高地",
+          "explain": "黎巴嫩南部的山区地带，真主党在此设有军事设施"
+        },
+        {
+          "name": "地下掩体",
+          "explain": "真主党在山區修建的地下军事设施，用于储存武器和指挥作战"
+        }
+      ],
+      "summary": "以色列战机对黎巴嫩南部山区发动了一系列密集空袭，目标包括真主党的地下掩体、指挥所和仓库。空袭集中在杰贝勒·拉菲、雷汉和萨朱德高地。此举标志着以色列对真主党的军事行动进一步升级。",
+      "relevant": "以色列与真主党的冲突升级可能引发更大范围的地区战争，涉及黎巴嫩、伊朗等多方势力。",
+      "context": "以色列与真主党之间的紧张关系持续升级，以军此前已对黎巴嫩南部多处目标实施打击。此次空袭针对真主党在山区的军事基础设施，显示冲突正在扩大。",
+      "source_analysis": "TASS（塔斯社）为俄罗斯官方通讯社，报道侧重军事行动细节，立场倾向批评以色列。",
+      "social_impact": "",
+      "source_text": "BEIRUT, September 27. /TASS/. Israeli Air Force fighter jets resumed attacks on Saturday against mountainous areas near the Lebanese towns of Jezzine and Nabatieh, located north of the Litani River. According to the Janoubia news portal, intense airstrikes targeted underground shelters, command posts, and depots belonging to the Shiite organization Hezbollah on the heights of Jebel al-Rafi, Rayhan, and Sajoud. The portal reports that the resistance forces' largest outpost in this southern region is situated in the mountainous Iqlim al-Tuffah area. Following the destruction of Hezbollah's underground infrastructure on the Ali al-Taher heights on September 10, the Israeli command intends to focus its strikes on this sector. Ground operations are expected to follow the massive bombardment of Iqlim al-Tuffah. Currently, ahead of a new escalation in hostilities, a rotation of Israeli forces stationed in the buffer zone in southern Lebanon is underway. According to the portal, powerful explosions rocked the towns of Majdal Zoun and Mays al-Jabal on Saturday afternoon as they came under Israeli artillery fire. Artillery shells also struck the town of Zawtar al-Sharqiyah. Local authorities reported damage to residential homes and other structures, but no casualties were reported.",
+      "source_title": "Israeli aircraft launch series of strikes on mountainous areas in southern Lebanon",
+      "source_url": "https://tass.com/world/2193497",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "特朗普政府与多国达成秘密驱逐协议，数千移民被送往陌生国度",
+      "entities": [
+        {
+          "name": "特朗普",
+          "explain": "美国前总统，任内推行强硬移民政策，大规模驱逐无证移民"
+        },
+        {
+          "name": "秘密驱逐协议",
+          "explain": "美国与数十个国家私下达成的协议，将移民遣送至第三国而非其原籍国"
+        },
+        {
+          "name": "卫报",
+          "explain": "英国知名左倾调查性新闻媒体，以深度报道著称"
+        }
+      ],
+      "summary": "卫报深度调查揭露，特朗普政府与数十个国家达成秘密协议，将数千名移民驱逐至他们从未听说过的第三国。一名伊朗女性在戴着手铐的飞机上被送往非洲一个她不知道存在的国家。这些行动耗费美国纳税人数百万美元，被批评为'武力展示'。",
+      "relevant": "涉及美国移民政策的合法性与人道主义争议，揭示秘密外交协议对个人命运的深远影响，引发对政府透明度和纳税人资金使用的质疑。",
+      "context": "特朗普政府执政期间推行大规模驱逐移民政策，由于部分移民的原籍国拒绝接收，美国转而与第三国达成秘密协议将其遣送。这些协议此前未被公开披露。",
+      "source_analysis": "卫报是英国左倾调查性媒体，长期批评特朗普政策，报道立场倾向于揭露政府行为中的人道主义问题。",
+      "social_impact": "数千名移民被遣送至陌生国家，美国纳税人为此支付数百万美元，涉及数十个国家的秘密外交安排。",
+      "source_text": "Nika’s story No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Their destination was Central African Republic (CAR), a country few of them had even heard of. Nika, a 32-year-old Iranian woman, recalled how the handcuffs dug into her wrists. She begged the officers to loosen them, but they did not. Other passengers had it worse, she said. Some of the men were restrained in black and yellow body wraps, as if mummified, after resisting orders to get on the plane. Nika, who had fled Iran 18 months earlier after protesting against its regime, had imagined the US as a place of sanctuary. Iran was already one of the most repressive countries in the world when she left, and its horrors had only deepened since then: security forces gunned down thousands of other demonstrators this year, then Donald Trump’s administration launched the war there. After more than a year locked up in a US immigration detention centre, Nika, whose name the Guardian has changed to protect her family in Iran, was granted legal protections and freed on a judge’s orders. Within two weeks, the Department of Homeland Security had rearrested her, and days later she was on the plane heading 7,000 miles east. “They never told me they were going to deport me [to] this country,” she told the Guardian. “I don’t know anything about Africa.” The Department of State warns US citizens not to travel to CAR because it says it is too dangerous. Nika spends most of her days there under a form of self-imprisonment, too scared to venture out from her small bedroom as she waits for an answer to the question on which her life depends: will she be sent back to Iran, and to a regime that could kill her? Nika is one of more than 25,000 people deported by the Trump administration to countries that are not their own. About 20,000 people have been bussed to Mexico, according to a count by Refugees International and Human Rights First. And more than 5,000 others have been put on flights to countries in Africa, Latin America, the Caribbean and central Asia to which they have no connection, and then, often, returned to the countries where US immigration judges had ruled their lives or liberty were at risk. Human rights lawyers describe these so-called third-country national arrangements as part of a “show ",
+      "source_title": "Banished to alien lands: Trump’s secret deportation deals",
+      "source_url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "联合国发布与以色列定居点有业务往来的公司新名单，以色列强烈谴责",
+      "entities": [
+        {
+          "name": "联合国",
+          "explain": "最具代表性的国际组织，负责维护国际和平与安全"
+        },
+        {
+          "name": "以色列定居点",
+          "explain": "以色列在1967年占领的约旦河西岸等巴勒斯坦领土上建立的犹太人社区，国际法认定其非法"
+        },
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦领土的一部分，自1967年以来被以色列军事占领"
+        }
+      ],
+      "summary": "联合国发布了更新后的公司数据库，列出在以色列占领的约旦河西岸定居点有业务往来的企业。以色列谴责该数据库是推进'抹黑运动'的'政治工具'。此举可能对这些公司的国际声誉和业务产生影响。",
+      "relevant": "联合国名单可能影响被列入企业的国际业务和声誉，同时反映国际社会在巴以问题上的持续分歧。",
+      "context": "联合国人权理事会此前通过决议要求建立该数据库，旨在追踪在以色列定居点运营的企业。以色列及其盟友美国一直反对此举，认为其具有政治偏见。",
+      "source_analysis": "纽约时报是国际主流媒体，报道立场相对中立，此处引用了以色列官方的谴责表态。",
+      "social_impact": "数据库涉及多家跨国企业，可能影响其在国际市场的运营和投资决策。",
+      "source_text": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements。Israel condemned the database of firms tied to activity in the occupied West Bank as a “political tool” to advance “a smear campaign.”",
+      "source_title": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements",
+      "source_url": "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "以色列首位女总检察长成为内塔尼亚胡议程的最大阻碍",
+      "entities": [
+        {
+          "name": "加利·巴哈拉夫-米亚拉",
+          "explain": "以色列首位女性总检察长，负责监督政府行为的合法性"
+        },
+        {
+          "name": "内塔尼亚胡",
+          "explain": "以色列总理，长期执政，推动司法改革以削弱司法对政府权力的制约"
+        },
+        {
+          "name": "总检察长",
+          "explain": "政府首席法律顾问和公诉负责人，负责审查政府决策的合法性"
+        }
+      ],
+      "summary": "纽约时报报道以色列首位女性总检察长加利·巴哈拉夫-米亚拉，她多次阻止内塔尼亚胡政府削弱司法权力制约的努力。她被支持者视为捍卫法治的英雄，被政府支持者视为公敌。她的立场对以色列司法独立和政府权力平衡至关重要。",
+      "relevant": "以色列司法独立与政府权力扩张的博弈，关系到以色列民主制度的走向，也影响内塔尼亚胡推动的司法改革进程。",
+      "context": "内塔尼亚胡政府自2023年起推动司法改革，试图削弱最高法院和总检察长的权力，引发以色列国内大规模抗议。巴哈拉夫-米亚拉作为总检察长多次出具法律意见阻止政府相关举措。",
+      "source_analysis": "纽约时报以人物特写形式呈现，标题'英雄还是公敌'体现以色列社会在此问题上的深刻分裂。",
+      "social_impact": "以色列社会因司法改革问题严重分裂，大规模抗议持续数月，影响该国政治稳定和社会凝聚力。",
+      "source_text": "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu’s Agenda.。Gali Baharav-Miara, Israel’s first female attorney general, has stopped many of the government’s efforts to remove constraints on its power.",
+      "source_title": "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu’s Agenda.",
+      "source_url": "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "巴基斯坦用1500多个集装箱封锁首都伊斯兰堡阻止抗议",
+      "entities": [
+        {
+          "name": "伊斯兰堡",
+          "explain": "巴基斯坦首都，政治中心"
+        },
+        {
+          "name": "集装箱路障",
+          "explain": "巴基斯坦当局用大型货运集装箱作为临时墙体封锁道路，阻止抗议者进入首都"
+        },
+        {
+          "name": "巴基斯坦正义运动党",
+          "explain": "巴基斯坦前总理伊姆兰·汗创立的政党，其支持者常发起抗议活动"
+        }
+      ],
+      "summary": "巴基斯坦当局在首都伊斯兰堡部署超过1500个集装箱作为路障，封锁通往首都的主要道路，以阻止反对派抗议者进入。这种类似俄罗斯方块的迷宫式封锁严重阻碍了首都的交通和人员流动。",
+      "relevant": "反映巴基斯坦政治紧张局势加剧，政府以极端手段限制抗议权利，引发对公民自由和民主表达的担忧。",
+      "context": "巴基斯坦前总理伊姆兰·汗被监禁后，其支持者多次发起全国性抗议要求释放他。政府采取封锁首都的极端措施来阻止抗议集会。",
+      "source_analysis": "纽约时报报道，以'俄罗斯方块式迷宫'的比喻突出封锁的荒诞性和规模。",
+      "social_impact": "1500多个集装箱封锁首都，严重影响数百万居民的日常出行和经济活动。",
+      "source_text": "A Tetris-Like Maze Blocks Protests in Pakistan’s Capital。Pakistani authorities have barricaded Islamabad with more than 1,500 shipping containers to stop opposition protesters, choking off access to the capital.",
+      "source_title": "A Tetris-Like Maze Blocks Protests in Pakistan’s Capital",
+      "source_url": "https://www.nytimes.com/2026/09/26/world/asia/pakistan-protest-islamabad-containers.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "雅典旅游区爆炸致6人死亡，疑因燃气泄漏",
+      "entities": [
+        {
+          "name": "雅典",
+          "explain": "希腊首都，著名旅游城市，拥有卫城等古迹"
+        },
+        {
+          "name": "燃气泄漏",
+          "explain": "天然气或液化气管道破损导致气体外泄，遇火源可引发爆炸"
+        }
+      ],
+      "summary": "希腊雅典旅游区发生爆炸，摧毁一栋建筑，造成6人死亡。官员表示爆炸可能由燃气泄漏引起。事发地点靠近卫城，是游客密集区域，爆炸震动了周边街区。",
+      "relevant": "发生在著名旅游区，可能影响希腊旅游业形象，同时引发对城市燃气基础设施安全的关注。",
+      "context": "雅典部分区域基础设施老化，燃气管道维护问题长期存在。此次爆炸发生在游客密集的卫城周边区域，引发对城市安全的担忧。",
+      "source_analysis": "纽约时报报道，引述官方初步判断，信息较为简洁。",
+      "social_impact": "6人死亡，事发旅游区，可能对雅典旅游业和城市基础设施安全审查产生短期影响。",
+      "source_text": "Six Dead After Explosion in Athens Tourist District。Officials said a gas leak might have caused the blast, which destroyed a building and rattled a part of the Greek capital that draws many visitors.",
+      "source_title": "Six Dead After Explosion in Athens Tourist District",
+      "source_url": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "雅典卫城附近建筑爆炸致6死，含1名英国人和4名美国人",
+      "entities": [
+        {
+          "name": "卫城",
+          "explain": "雅典最著名的古代遗址，希腊旅游标志性景点"
+        },
+        {
+          "name": "燃气爆炸",
+          "explain": "燃气积聚后遇火源引发的爆炸，常导致建筑结构性破坏"
+        }
+      ],
+      "summary": "雅典卫城附近一栋建筑发生疑似燃气爆炸，造成6人死亡，其中包括1名英国公民、4名美国人和1名希腊公民。爆炸摧毁了建筑并震动了周边区域。官员正在调查爆炸原因。",
+      "relevant": "涉及多国公民伤亡，引发国际关注，同时凸显旅游城市基础设施安全隐患。",
+      "context": "爆炸发生在雅典卫城附近的旅游区，该区域游客密集。初步调查指向燃气泄漏，但具体原因仍在调查中。",
+      "source_analysis": "BBC报道，侧重确认遇难者国籍信息，引述官方消息。",
+      "social_impact": "6人死亡含多国公民，事件引发国际社会对雅典旅游安全的关注。",
+      "source_text": "British national among six dead in building explosion close to Acropolis in Athens - Published Six people have died, including a British national, in an explosion that destroyed a building containing a holiday rental property in the historic centre of Athens. The blast on Friday happened in the Plaka area of the Greek capital, a neighbourhood close to tourist sites such as the Acropolis. Four American holidaymakers were among the dead, along with a UK national and Greek national - reportedly an elderly couple who lived in the same building. Pictures from the scene on Saturday showed emergency service workers searching through rubble, with a gas leak the suspected cause of the blast. All six bodies had been recovered by Saturday afternoon. Athens Mayor Haris Doukas said: \"We are talking about an incredible disaster.\" The tourists were confirmed to be missing when they did not arrive for their flight at Athens airport later on Friday, news agency Reuters reported citing local police. The three-storey building completely collapsed due to the force of the blast, with neighbouring buildings damaged and debris scattered across the road. Local media reported people were injured by material scattered across nearby streets and some buildings needed to be evacuated. Excavators and thermal imaging cameras have been used at the scene to search for survivors. The explosion happened on a small road situated between two of Athens' most visited sites - the Acropolis and the Temple of Olympian Zeus. A UK Foreign Office spokesperson said: \"We are aware of a suspected explosion in Athens and are in touch with the local authorities.\" Get in touch Are you in the area? If it is safe to do so you can share your experiences here",
+      "source_title": "British national among six dead in building explosion close to Acropolis in Athens",
+      "source_url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "东北风暴袭击美国东海岸，纽约和新泽西宣布紧急状态",
+      "entities": [
+        {
+          "name": "东北风暴",
+          "explain": "北美东海岸常见的强风暴，伴随强风、暴雨和洪水，多发于秋冬季节"
+        },
+        {
+          "name": "紧急状态",
+          "explain": "政府宣布的非常状态，可调动紧急资源、实施交通管制和疏散措施"
+        }
+      ],
+      "summary": "一场强大的东北风暴袭击美国东海岸，导致纽约和新泽西州宣布进入紧急状态。从缅因州到弗吉尼亚州，数千万人处于风暴影响范围内。风暴带来严重洪水和强风，多地交通受阻。",
+      "relevant": "影响范围覆盖美国东海岸数千万人口，涉及多个主要城市，可能造成重大经济损失和人员安全威胁。",
+      "context": "东北风暴是北美东海岸常见的灾害性天气系统，此次风暴强度较大，影响范围从缅因州延伸至弗吉尼亚州，覆盖美国人口最密集的区域之一。",
+      "source_analysis": "BBC报道，信息以气象预警和官方应急响应为主。",
+      "social_impact": "数千万人受影响，纽约和新泽西宣布紧急状态，从缅因到弗吉尼亚的广大区域面临洪水威胁。",
+      "source_text": "Nor'easter brings flooding as New York and New Jersey declare emergency - Published Tens of millions of people across the north-eastern US are in the path of a powerful storm bringing coastal flooding, power cuts, travel chaos and cancelled stadium events. The so-called nor'easter is bringing \"dangerous coastal flooding and beach conditions, strong winds and heavy rainfall\" to areas including New York City and Boston on Saturday, the US National Weather Service (NWS) said. States of emergency have been declared in New York and New Jersey, both of which faced a coastal deluge in some areas. Rain and strong winds are forecast from Virginia to Maine. Ed Sheeran's much-awaited Boston concert was among events called off due to the weather. The nor'easter caused widespread power cuts. More than 100,000 households, nearly all in the northeast US, have lost electricity, according to tracker PowerOutage. The Federal Aviation Administration recommended air passengers check with airlines about their flight status. More than 2,400 flights have been delayed and another 1,199 grounded, according to FlightAware. Saturday's full moon is projected to worsen coastal flooding. Streets and homes were inundated with floodwater in the coastal New Jersey communities of Surf City and Manasquan on Saturday. \"I urge all New Jerseyans to take this storm seriously, stay alert and follow local guidance,\" Governor Mikie Sherrill said. NWS said in its alert: \"Prepare immediately for significant inundation in low-lying areas near the shore, including roads underwater and impacts to homes and businesses.\" In New York, officials are warning of wind gusts of up to 55mph (86km/h) throughout the weekend, leading to downed trees and power lines. \"Don't travel if you don't have to,\" NYC Mayor Zohran Mamdani told residents in a video message. \"Do not drive or walk through floodwater.\" In the Boston area, the Red Sox moved the last game in their series against the Chicago Cubs to Sunday afternoon in Florida. A professional football match between Red Bull New York and St Louis City SC was also cancelled. Nor is the Global Citizen Festival concert in New York City's Central Park, which was to be headlined by Lauryn Hill, Wyclef Jean and John Legend, going ahead. Sheeran's concert at the Gillette Stadium in the Boston area was cancelled for safety reasons, the venue said. Related topics - Published1 day ago",
+      "source_title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 13,
+      "title": "乌军过去24小时对顿涅茨克人民共和国居民点发动31次攻击",
+      "entities": [
+        {
+          "name": "顿涅茨克人民共和国",
+          "explain": "俄罗斯支持的乌克兰东部分离地区，2022年被俄方宣布吞并，国际社会普遍不承认"
+        },
+        {
+          "name": "TASS",
+          "explain": "俄罗斯官方通讯社，立场与俄罗斯政府高度一致"
+        }
+      ],
+      "summary": "据塔斯社报道，乌克兰武装力量在过去24小时内对顿涅茨克人民共和国的居民点发动了31次攻击。三栋住宅楼、客运车辆、专业机械和三处民用基础设施遭到损坏。",
+      "relevant": "反映俄乌冲突持续对平民和民用设施造成损害，但需注意信源为俄罗斯官方媒体，信息可能存在偏向。",
+      "context": "俄乌冲突持续进行中，顿涅茨克地区是双方交火的前线区域之一。俄方定期发布乌军攻击平民目标的报告，乌方则否认以平民为目标。",
+      "source_analysis": "塔斯社为俄罗斯官方通讯社，报道立场与俄罗斯政府一致，倾向于强调乌方对平民的伤害，信息需结合其他信源交叉验证。",
+      "social_impact": "民用基础设施和住宅受损，但具体伤亡人数未在摘要中提及。",
+      "source_text": "DONETSK, September 27. /TASS/. The Ukrainian armed forces carried out 31 attacks on settlements in the Donetsk People's Republic over the past 24 hours, wounding one civilian, the regional government’s department for recording Ukraine’s war crimes reported. \"Thirty-one armed attacks by Ukrainian formations were recorded, and reports were received regarding the wounding of one civilian. Three residential buildings, passenger cars, specialized machinery, and three civilian infrastructure facilities sustained damage,\" the statement said. The department also said that it had received additional information regarding two civilians wounded in Konstantinovka on September 20, four in Gorlovka, and one in the Telmanovo municipal district on September 25.",
+      "source_title": "Ukrainian forces launched 31 attacks on DPR settlements over past 24 hours",
+      "source_url": "https://tass.com/politics/2193495",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "教皇利奥十四世在巴黎市中心举行露天弥撒，80万人参加",
+      "entities": [
+        {
+          "name": "教皇利奥十四世",
+          "explain": "现任天主教教宗，全球天主教徒的精神领袖"
+        },
+        {
+          "name": "露天弥撒",
+          "explain": "在户外举行的天主教宗教仪式，通常吸引大量信徒参加"
+        },
+        {
+          "name": "马萨比耶勒岩洞",
+          "explain": "位于法国卢尔德的著名天主教朝圣地，传说圣母玛利亚曾在此显灵"
+        }
+      ],
+      "summary": "据梵蒂冈估计，超过80万人聚集在巴黎市中心参加教皇利奥十四世主持的露天弥撒。这是教皇为期四天对法国进行使徒访问的第二天活动。此前他还在卢尔德著名的马萨比耶勒岩洞祈祷，该地是全球天主教徒的重要朝圣地。",
+      "relevant": "这是近年来欧洲规模最大的宗教集会之一，显示天主教在法国仍具有强大的社会动员力，也体现新教皇利奥十四世的高人气。",
+      "context": "教皇利奥十四世正在对法国进行为期四天的使徒访问，巴黎露天弥撒是此次访问的核心公开活动之一，吸引了来自法国及世界各地的天主教信徒。",
+      "source_analysis": "France24是法国国际新闻频道，报道立场偏向欧洲视角，对教皇访法持正面关注态度。",
+      "social_impact": "80万人参加的大规模集会，对巴黎交通、安保和公共资源造成显著影响，同时也展示了宗教活动在世俗化欧洲仍能引发巨大社会关注。",
+      "source_text": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris More than 800,000 people filled the streets of central Paris to hear Pope Leo XIV say Mass on Saturday, according to Vatican estimates. The pontiff rounded out the second day of his four-day apostolic visit to France by praying at the Grotto of Massabielle in Lourdes, a renowned pilgrimage site for Catholics from across the world. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. Pope Leo XIV on Saturday rode along the Champs-Élysées in the \"popemobile\" and celebrated an open-air Mass in front of hundreds of thousands in Paris, before flying to the holy pilgrimage site of Lourdes in southern France. The leader of the world's 1.4 billion Catholics is on a four-day trip to France, an officially secular country with deep Catholic roots, on the first official papal visit there in nearly two decades. In the highlight of the visit's second day, the 71-year-old pope led believers in a Mass at Place de la Concorde, where a giant white canopy had been erected to serve as a makeshift altar. \"It is truly good and pleasant when brothers and sisters come together and glorify the greatness of God,\" said Pope Leo, dressed in white liturgical vestments. Read more'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris Over more than two kilometres, some 800,000 people had gathered all the way beyond the Arc de Triomphe, the Vatican said. The city centre was sealed off for the service, with helicopters circling overhead and snipers positioned on rooftops. \"It's one time in history to see the pope,\" said Aline Riziki, 41, who was born in the Democratic Republic of Congo and who has lived in France for 11 years. \"I dropped everything to come here and see him, to pray for peace in the east\" of her homeland, wracked by conflict for decades, she said. 'We're sharing this with her' Jeanne de Montagnac, 29, came with her husband and two-year-old girl, who was perched on his shoulders. \"We're happy that, even if she won't remember it, we're sharing this with her,\" she said, a small golden cross dangling over her jumper. \"It's an important moment for us to be surrounded by other people who also have faith.\" The first US pontiff was visiting France seven months before voters",
+      "source_title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+      "source_url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "BBC报道：约70万人聚集巴黎参加教皇露天弥撒",
+      "entities": [
+        {
+          "name": "教皇利奥十四世",
+          "explain": "现任天主教教宗，全球约13亿天主教徒的精神领袖"
+        },
+        {
+          "name": "露天弥撒",
+          "explain": "在户外公共场所举行的天主教宗教仪式"
+        }
+      ],
+      "summary": "据BBC报道，约70万人聚集在巴黎市中心参加教皇利奥十四世主持的露天弥撒。教皇在活动中赞扬了年轻人的'活力与奉献精神'，并向在场信众发表讲话和祈祷。",
+      "relevant": "不同媒体对同一事件的参与人数报道存在差异（BBC称70万，梵蒂冈称80万），反映大型集会人数统计的复杂性。",
+      "context": "教皇利奥十四世正在对法国进行使徒访问，巴黎露天弥撒是此次访问的重要公开活动，吸引了大量天主教信徒和公众参与。",
+      "source_analysis": "BBC是英国公共广播机构，报道风格相对中立，此处引用的是约70万人的估计数字，与梵蒂冈官方估计的80万略有出入。",
+      "social_impact": "约70万人参加的大型宗教集会，是巴黎近年来规模最大的公共活动之一，对城市安保和交通管理构成重大挑战。",
+      "source_text": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris - Published Pope Leo XIV has praised the \"enthusiasm, energy and commitment\" young people bring to the Catholic Church as dense crowds attended an open-air Mass in Paris. An estimated 700,000 people had gathered for the Mass celebrated by the Pope from a special altar on the Place de la Concorde, on the second day of his four-day visit to France. It began after the pontiff rode down the Champs-Élysées Avenue waving to crowds from his open-topped popemobile. Many senior politicians attended the Mass. On Friday, the Pope met French President Emmanuel Macron. During Saturday's Mass, the Pope told worshippers that Catholics should not keep their faith to themselves but \"let it overflow so that those you meet may be refreshed\". The leader of the Catholic Church also addressed young people in his speech, describing them as \"today's Church\". \"How beautiful it is to see your enthusiasm, energy and commitment, and the joy you bring to Christian communities,\" he said. After being welcomed by Macron on Friday, the Pope was joined by 80,000 young people at the Stade de France in northern Paris. Macron did not attend Saturday's event and will not be at any of the Pope's Masses during his visit, largely to avoid appearing to breach France's strict rules on the separation of Church and state. But the Mass was attended by Macron's wife Brigitte and French Prime Minister Sébastien Lecornu. Several candidates for next year's presidential election also attended. Marine Le Pen of the hard-right National Rally party and conservative Bruno Retailleau were both pictured at the Place de la Concorde ahead of the event, while centrists Édouard Philippe and Gabriel Attal were also spotted. Earlier on Saturday, the Pope met migrants and volunteers as he visited the Maison Bakhita centre, an association supporting refugees, and praised the organisation for inviting \"us to see those who are invisible\". He also stressed the \"fundamental role of women in building a civilisation of love\". The Pope issued a warning about the dangers of artificial intelligence (AI) at the start of his visit to France on Friday. Leo cautioned against \"losing our humanity amid a paradise of machines\" in wide-ranging remarks to Church and state officials at the Élysée Palace. Large crowds are expected throughout the remainder of the pontiff's trip, which the Church believes reflects a growing spirituality among the French and ot",
+      "source_title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+      "source_url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "教皇利奥十四世在巴黎大型弥撒上直接对话青年，称其为'今日的教会'",
+      "entities": [
+        {
+          "name": "教皇利奥十四世",
+          "explain": "现任天主教教宗"
+        },
+        {
+          "name": "协和广场",
+          "explain": "巴黎市中心著名广场，此次弥撒举办地"
+        },
+        {
+          "name": "法兰西体育场",
+          "explain": "位于巴黎北郊的大型体育场，教皇此前在此举行青年守夜活动"
+        }
+      ],
+      "summary": "在巴黎协和广场举行的大型弥撒中，教皇利奥十四世直接向天主教青年发表讲话，称他们为'今日的教会'。教皇在访法期间积极与年轻人互动，此前一天还在法兰西体育场举行了青年守夜活动。",
+      "relevant": "教皇主动向青年群体示好，反映天主教会面对年轻信徒流失问题时的应对策略，试图通过青年参与来振兴教会。",
+      "context": "教皇利奥十四世正在对法国进行为期四天的访问，期间特别安排了多场面向青年的活动，旨在加强教会与年轻一代的联系。",
+      "source_analysis": "France24通过视频报道形式呈现，侧重教皇与青年互动的画面和直接引语，立场偏向正面展示教皇形象。",
+      "social_impact": "教皇对青年的直接呼吁，可能影响法国年轻天主教徒的宗教参与度，也引发社会对宗教在青年群体中影响力的讨论。",
+      "source_text": "Pope Leo XIV addresses youth at giant Paris Mass。🇫🇷 🇻🇦 During #Pope Leo XIV's giant Mass at the Place de la Concorde in #Paris on Saturday, he spoke directly to Catholic youth, calling them the \"Church of today\". The pontiff made efforts to connect with young people during his visit, holding a youth vigil at the Stade de #France on Friday.",
+      "source_title": "Pope Leo XIV addresses youth at giant Paris Mass",
+      "source_url": "https://www.france24.com/en/video/20260926-pope-leo-xiv-addresses-youth-at-giant-paris-mass",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "France24现场报道：60万人聚集香榭丽舍大街参加教皇弥撒",
+      "entities": [
+        {
+          "name": "香榭丽舍大街",
+          "explain": "巴黎最著名的标志性大道，此次弥撒的主要举办区域"
+        },
+        {
+          "name": "教皇利奥十四世",
+          "explain": "现任天主教教宗"
+        },
+        {
+          "name": "Stella Elgersma",
+          "explain": "France24记者，负责现场报道此次弥撒"
+        }
+      ],
+      "summary": "France24记者Stella Elgersma在巴黎现场报道，教皇利奥十四世于9月26日在香榭丽舍大街举行露天弥撒，吸引约60万信众参加。这是世界最大规模的户外弥撒之一。",
+      "relevant": "不同媒体对参加人数的估计从60万到80万不等，反映大型活动的媒体报道差异，也说明此次弥撒的规模确实空前。",
+      "context": "教皇利奥十四世对法国进行使徒访问，巴黎露天弥撒是核心活动，选址香榭丽舍大街这一标志性地点，具有强烈的象征意义。",
+      "source_analysis": "France24为法国国际新闻频道，以视频形式进行现场报道，记者亲临现场，报道带有第一手观察视角。",
+      "social_impact": "60万人聚集在香榭丽舍大街，是巴黎历史上罕见的大规模集会，对城市交通、安保和公共秩序产生重大影响。",
+      "source_text": "Pope Leo XIV 600,000 people gather for Mass on the Champs-Élysées。🇻🇦👀How do you get into one of the largest outdoor Mass in the world? Pope Leo XIV celebrated an open-air Mass in front of hundreds of thousands of faithful on Saturday, September 26, in Paris. France 24’s Stella Elgersma was there to tell you more! #Pope #France #LeoXIV",
+      "source_title": "Pope Leo XIV 600,000 people gather for Mass on the Champs-Élysées",
+      "source_url": "https://www.france24.com/en/video/20260926-pope-leo-xiv-600-000-people-gather-for-mass-on-the-champs-%C3%A9lys%C3%A9es",
+      "source_name": "France24",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_00526465a409",
+      "source": "BBC",
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "summary": "Iran's foreign minister acknowledges Trump's comments, but adds that Tehran is waiting for the \"definitive views\" of mediators.",
+      "image": ""
+    },
+    {
+      "id": "rss_84d3eb48480d",
+      "source": "BBC",
+      "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
+      "summary": "Around 700,000 people gathered in central Paris to hear the Catholic leader speak and offer prayer.",
+      "image": ""
+    },
+    {
+      "id": "rss_e7efa2b1d8a2",
+      "source": "BBC",
+      "title": "British national among six dead in building explosion close to Acropolis in Athens",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+      "summary": "Four Americans and a Greek national are among those killed in a suspected gas explosion, officials said.",
+      "image": ""
+    },
+    {
+      "id": "rss_15039a1f8371",
+      "source": "BBC",
+      "title": "German town bans 'stumbling stone' memorials to Nazi victims",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&at_campaign=rss",
+      "summary": "Germany's education minister has branded the ban on the small brass memorial plaques a \"scandal\".",
+      "image": ""
+    },
+    {
+      "id": "rss_e6378878f333",
+      "source": "BBC",
+      "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+      "summary": "Tens of millions of people from Maine to Virginia are in the path of the powerful storm.",
+      "image": ""
+    },
+    {
+      "id": "rss_b5616f2d080b",
+      "source": "France24",
+      "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+      "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+      "summary": "More than 800,000 people filled the streets of central Paris to hear Pope Leo XIV say Mass on Saturday, according to Vatican estimates. The pontiff rounded out the second day of his four-day apostolic visit to France by praying at the Grotto of Massabielle in Lourdes, a renowned pilgrimage site for Catholics from across the world.",
+      "image": "https://s.france24.com/media/display/a5d75a5a-b9cb-11f1-98e4-91cf9f3cd539/w:1024/p:16x9/000-C9F84HC.jpg"
+    },
+    {
+      "id": "rss_f3fd5e116dea",
+      "source": "France24",
+      "title": "Maricarmen Vs The ‘Vultures’: A “social tragedy” mobilising Spaniards",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20260926-maricarmen-vs-the-vultures-a-social-tragedy-mobilising-spaniards",
+      "summary": "Protests are ongoing in Madrid right now, with many demonstrators holding signs and banners that read “Maricarmen vs the Vultures”. “Maricarmen, you are not alone.” Or “Ni una Maricarmen más.” Not one more Maricarmen.",
+      "image": "https://s.france24.com/media/display/823a6b58-b9cd-11f1-bc0b-8f3418d01115/w:1024/p:16x9/SPAIN-HOUSING-EVICTION-000-C9FJ6W7.jpg"
+    },
+    {
+      "id": "rss_06c92bf43ebe",
+      "source": "France24",
+      "title": "Pope Leo XIV addresses youth at giant Paris Mass",
+      "url": "https://www.france24.com/en/video/20260926-pope-leo-xiv-addresses-youth-at-giant-paris-mass",
+      "summary": "🇫🇷 🇻🇦 During #Pope Leo XIV's giant Mass at the Place de la Concorde in #Paris on Saturday, he spoke directly to Catholic youth, calling them the \"Church of today\". The pontiff made efforts to connect with young people during his visit, holding a youth vigil at the Stade de #France on Friday.",
+      "image": "https://s.france24.com/media/display/349f5534-b9cd-11f1-977d-555a0aff87a4/w:1024/p:16x9/pope-youth.png"
+    },
+    {
+      "id": "rss_4d0a9e68c7b6",
+      "source": "France24",
+      "title": "Thousands march in Madrid to protest eviction of 87-year-old woman",
+      "url": "https://www.france24.com/en/europe/20260926-thousands-march-in-madrid-to-protest-eviction-of-87-year-old-woman",
+      "summary": "The eviction of 87-year-old Maricarmen Abascal on Wednesday sparked a thousands-strong protest in the streets of Madrid Saturday, with demonstrators calling for greater protection for tenants. Widespread anger at rising housing costs have put pressure on centre-left Prime Minister Pedro Sanchez, whose government is expected to approve a package of pro-tenant measures in its next cabinet meeting.",
+      "image": "https://s.france24.com/media/display/484addf2-b9cc-11f1-b153-91cf9f3cd539/w:1024/p:16x9/f9113121b07943e7c37808516612e5cf6957826e.jpg"
+    },
+    {
+      "id": "rss_c8e6cb1aabb0",
+      "source": "France24",
+      "title": "Pope Leo XIV 600,000 people gather for Mass on the Champs-Élysées",
+      "url": "https://www.france24.com/en/video/20260926-pope-leo-xiv-600-000-people-gather-for-mass-on-the-champs-%C3%A9lys%C3%A9es",
+      "summary": "🇻🇦👀How do you get into one of the largest outdoor Mass in the world? Pope Leo XIV celebrated an open-air Mass in front of hundreds of thousands of faithful on Saturday, September 26, in Paris. France 24’s Stella Elgersma was there to tell you more! #Pope #France #LeoXIV",
+      "image": "https://s.france24.com/media/display/6ff23eb4-b9c1-11f1-8f21-555a0aff87a4/w:1024/p:16x9/Image-1-6.jpg"
+    },
+    {
+      "id": "rss_2d8458df10b7",
+      "source": "TASS Russia",
+      "title": "Seven Palestinians killed in Gaza Strip during Israeli attacks — Health Ministry",
+      "url": "https://tass.com/world/2193499",
+      "summary": "Most of the victims were brought from the Sheikh Radwan neighborhood and the Nuseirat refugee camp, where Israeli forces had been conducting intense fire",
+      "image": ""
+    },
+    {
+      "id": "rss_898c8bfa06a2",
+      "source": "TASS Russia",
+      "title": "Israeli aircraft launch series of strikes on mountainous areas in southern Lebanon",
+      "url": "https://tass.com/world/2193497",
+      "summary": "Intense airstrikes targeted underground shelters, command posts, and depots belonging to the Shiite organization Hezbollah on the heights of Jebel al-Rafi, Rayhan, and Sajoud",
+      "image": ""
+    },
+    {
+      "id": "rss_2c0cc246e27c",
+      "source": "TASS Russia",
+      "title": "Ukrainian forces launched 31 attacks on DPR settlements over past 24 hours",
+      "url": "https://tass.com/politics/2193495",
+      "summary": "Three residential buildings, passenger cars, specialized machinery, and three civilian infrastructure facilities sustained damage",
+      "image": ""
+    },
+    {
+      "id": "rss_6c64eff481d1",
+      "source": "TASS Russia",
+      "title": "Ex-Russian sports minister Kolobkov elected FIDE vice-president",
+      "url": "https://tass.com/sports/2193493",
+      "summary": "Kazakhstan’s Timur Turlov was elected president of the global chess body",
+      "image": ""
+    },
+    {
+      "id": "rss_5189dc6d4d7f",
+      "source": "TASS Russia",
+      "title": "Putin’s envoy says Russia, Germany could reopen Nord Stream jointly",
+      "url": "https://tass.com/politics/2193489",
+      "summary": "Kirill Dmitriev noted that AfD is the voice of German people that fights for German energy sovereignty, prosperity, peace and cooperation",
+      "image": ""
+    },
+    {
+      "id": "rss_0f0245d1a5ce",
+      "source": "纽约时报",
+      "title": "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu’s Agenda.",
+      "url": "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
+      "summary": "Gali Baharav-Miara, Israel’s first female attorney general, has stopped many of the government’s efforts to remove constraints on its power.",
+      "image": ""
+    },
+    {
+      "id": "rss_e297c291df4f",
+      "source": "纽约时报",
+      "title": "A Tetris-Like Maze Blocks Protests in Pakistan’s Capital",
+      "url": "https://www.nytimes.com/2026/09/26/world/asia/pakistan-protest-islamabad-containers.html",
+      "summary": "Pakistani authorities have barricaded Islamabad with more than 1,500 shipping containers to stop opposition protesters, choking off access to the capital.",
+      "image": ""
+    },
+    {
+      "id": "rss_9458eab9fa1d",
+      "source": "纽约时报",
+      "title": "At Summit, Xi Sought to Tilt Trump’s Stance on America’s Place in Asia",
+      "url": "https://www.nytimes.com/2026/09/26/world/asia/summit-xi-trump-taiwan-japan.html",
+      "summary": "In his talks with President Trump, the Chinese leader used praise, warnings and wartime history to challenge American support for Taiwan and Japan.",
+      "image": ""
+    },
+    {
+      "id": "rss_f57b6eacb43d",
+      "source": "纽约时报",
+      "title": "U.N. Releases New List of Companies It Says Do Business With Israeli Settlements",
+      "url": "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
+      "summary": "Israel condemned the database of firms tied to activity in the occupied West Bank as a “political tool” to advance “a smear campaign.”",
+      "image": ""
+    },
+    {
+      "id": "rss_a8b4d595a708",
+      "source": "纽约时报",
+      "title": "Six Dead After Explosion in Athens Tourist District",
+      "url": "https://www.nytimes.com/2026/09/25/world/europe/athens-tourists-explosion.html",
+      "summary": "Officials said a gas leak might have caused the blast, which destroyed a building and rattled a part of the Greek capital that draws many visitors.",
+      "image": ""
+    },
+    {
+      "id": "rss_2e7923f290b1",
+      "source": "卫报",
+      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed government There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_c8c84fd647e1",
+      "source": "卫报",
+      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "summary": "Sunil Bharti Mittal’s Airtel Money targets $9bn IPO in boost for ailing UK stock market Nils Pratley: Does this mark the end of London’s listing drought? Not yet A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange . Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5a58864aec04",
+      "source": "卫报",
+      "title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+      "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+      "summary": "Arrest of Shadrack Sibiya comes as country reels from cases of femicide and alleged police corruption and criminality One of South Africa’s most senior police officers has been charged with raping an 18-year-old woman and grooming a 16-year-old girl, as the country’s police face allegations of corruption and failing to tackle violence against women and girls. Shadrack Sibiya, who was already suspended from his role as deputy national police commissioner over allegations he interfered with political killings investigations, was arrested on Monday. He is facing charges of rape, people trafficking, promoting the sexual grooming of a child and two counts of grooming a child. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_4c53d4b64ed9",
+      "source": "卫报",
+      "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+      "summary": "Accra Reset’s report states countries in the region and global south should take greater control of their health development after USAID debacle The United States’ withdrawal from key aid programs has put healthcare in Africa and the global south “under growing strain” a new report warns. The report says the Trump administration’s cuts to programs such as US Agency for International Development (USAID), as well as the Covid-19 pandemic and rising costs of living globally have brought “new urgency” for the need to reform healthcare in the region. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_eeb5d81313cc",
+      "source": "卫报",
+      "title": "Banished to alien lands: Trump’s secret deportation deals",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+      "summary": "After a plane journey in shackles, an Iranian woman found herself in the middle of Africa in a country she did not know existed. She is one of thousands deported from the US on the back of shadowy deals made with dozens of countries. An in-depth investigation reveals the ‘show of force’ costing American taxpayers millions No one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only when the seat-back video screens finally showed a map that the 18 migrants worked it out. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-27 07:30"
+}
