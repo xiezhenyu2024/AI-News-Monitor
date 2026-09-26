@@ -1,33 +1,5 @@
 [
   {
-    "theme": "AI代码的法律与伦理边界加速划定",
-    "importance": 4,
-    "evidence": "Oracle禁止AI代码进OpenJDK、Meta被判赔5.67亿美元",
-    "grassroots": "开发者讨论'AI写代码算谁的'，企业开始制定AI代码使用规范",
-    "date": "2026-08-08"
-  },
-  {
-    "theme": "开源模型与闭源模型的竞争进入白热化",
-    "importance": 4,
-    "evidence": "DeepSeek-V4-Flash正式版发布、Kimi-K3开源、OpenAI免费开放Luna",
-    "grassroots": "掘金用户反馈'Codex接入DeepSeek-V4-Flash丝滑的一批'",
-    "date": "2026-08-08"
-  },
-  {
-    "theme": "Agent评估与安全成为行业焦点",
-    "importance": 5,
-    "evidence": "AV-AIVAT降本74倍、MCP拦截器上线、OpenAI发布codex-security，三个独立信源同日指向同一方向",
-    "grassroots": "开发者开始关注Agent的'可管性'而非仅'可用性'",
-    "date": "2026-08-09"
-  },
-  {
-    "theme": "开源Agent基础设施竞争白热化",
-    "importance": 4,
-    "evidence": "xAI grok-build 24K星、吴恩达openworker 13K星、小米MiMo-Code 11K星同日出现在GitHub Trending",
-    "grassroots": "开发者面临选择困难：Agent框架太多，标准未定",
-    "date": "2026-08-09"
-  },
-  {
     "theme": "大模型价格战进入调整期",
     "importance": 4,
     "evidence": "DeepSeek宣布涨价、OpenAI免费无限用Luna，两种策略分化",
@@ -1398,5 +1370,33 @@
     "evidence": "DeepSeek PCIe吞吐翻近7倍、小米MiMo-V3 HySparse2降低Prefill与KV Cache",
     "grassroots": "暂无直接基层反馈，但中小团队自建推理的成本预期正在被重估",
     "date": "2026-09-25"
+  },
+  {
+    "theme": "Agent 可信度与可观测性成为核心议题",
+    "importance": 5,
+    "evidence": "ArXiv 论文证实 Agent 可篡改轨迹，HN 和 MIT 科技评论持续讨论 OpenAI 入侵事件，Casbin Gateway 新增外发监测",
+    "grassroots": "开发者从'Agent 能做什么'转向'Agent 做了什么、我能不能信'",
+    "date": "2026-09-26"
+  },
+  {
+    "theme": "编程 Agent 从代码生成扩展到机器人控制",
+    "importance": 4,
+    "evidence": "RAPID、Rolling-WAM、Coding Agents for TAMP 三篇论文同日发布",
+    "grassroots": "开发者开始尝试用 Agent 控制物理世界，但反馈显示仍需人类兜底",
+    "date": "2026-09-26"
+  },
+  {
+    "theme": "Jev 类决策模型生态快速形成",
+    "importance": 4,
+    "evidence": "kev 可训练模型家族、fast-jev-compaction 插件、Ollaya 平台、Jev 包装器博客",
+    "grassroots": "开发者用 Jev 做上下文压缩和路由决策，但对其抗干扰能力存疑",
+    "date": "2026-09-26"
+  },
+  {
+    "theme": "开发者角色从写代码转向验证与决策",
+    "importance": 4,
+    "evidence": "Dev.to 多篇讨论 AI 写代码、AI 审代码后开发者的价值",
+    "grassroots": "开发者自嘲'只剩点合并按钮'，但也在探索判断力这一新护城河",
+    "date": "2026-09-26"
   }
 ]
