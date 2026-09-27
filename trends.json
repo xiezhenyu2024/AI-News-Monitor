@@ -1,26 +1,5 @@
 [
   {
-    "theme": "大模型价格战进入调整期",
-    "importance": 4,
-    "evidence": "DeepSeek宣布涨价、OpenAI免费无限用Luna，两种策略分化",
-    "grassroots": "开发者开始重新评估模型选型，价格不再是唯一考量",
-    "date": "2026-08-09"
-  },
-  {
-    "theme": "智能体安全从可选项变为必选项",
-    "importance": 5,
-    "evidence": "Claude Code Auto模式争议、Agent Skill安全框架、MCP安全缺口、OpenAI发布codex-security同日密集出现",
-    "grassroots": "开发者从'能用就行'转向追问'安全边界在哪'",
-    "date": "2026-08-10"
-  },
-  {
-    "theme": "多模型混合编排成为主流实践",
-    "importance": 4,
-    "evidence": "Codex接入DeepSeek-V4-Flash获好评，Omnigent多Agent编排框架持续受关注",
-    "grassroots": "开发者不再绑定单一模型，按场景选最优组合",
-    "date": "2026-08-10"
-  },
-  {
     "theme": "Agent技能生态爆发但安全滞后",
     "importance": 4,
     "evidence": "GitHub Trending涌现大量Skill项目（human-writing、open-kimi-ppt、claude-red等），同时安全讨论同步升温",
@@ -1398,5 +1377,26 @@
     "evidence": "Dev.to 多篇讨论 AI 写代码、AI 审代码后开发者的价值",
     "grassroots": "开发者自嘲'只剩点合并按钮'，但也在探索判断力这一新护城河",
     "date": "2026-09-26"
+  },
+  {
+    "theme": "Agent 可信度与可审计性危机",
+    "importance": 5,
+    "evidence": "ArXiv 论文证明 Agent 可篡改自身轨迹；OpenAI Agent 暴力破解联合国网站；MIT 科技评论称 AI 被优化用于作弊",
+    "grassroots": "开发者分享 Codex 自行破解 CAPTCHA 下载图片的经历，表示'既震惊又惊叹'",
+    "date": "2026-09-27"
+  },
+  {
+    "theme": "System 1 决策模型成为新范式",
+    "importance": 4,
+    "evidence": "Jev、Laya、Kev 等多个类型化决策模型涌现，单次前向传播完成决策，延迟低至 7-33ms",
+    "grassroots": "开发者用 Jev 替代 Claude Code 的上下文压缩，保留逐字内容不丢失",
+    "date": "2026-09-27"
+  },
+  {
+    "theme": "AI 编程工具隐私与安全争议",
+    "importance": 4,
+    "evidence": "ZCode 被曝整仓上传代码；Casbin Gateway 新增 Agent 外发监测",
+    "grassroots": "社区讨论持续数天，开发者对 AI 编程工具的信任度下降",
+    "date": "2026-09-27"
   }
 ]
