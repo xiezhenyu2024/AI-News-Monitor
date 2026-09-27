@@ -1,0 +1,764 @@
+{
+  "key": "2026-09-28-morning",
+  "date": "2026-09-28",
+  "session": "morning",
+  "label": "🌅 全球早报",
+  "source_count": 5,
+  "cards": [
+    {
+      "item_id": 23,
+      "title": "提格雷武装发动新攻势并组建反政府联盟，埃塞俄比亚面临内战重燃风险",
+      "entities": [
+        {
+          "name": "提格雷人民解放阵线（TPLF）",
+          "explain": "埃塞俄比亚北部提格雷地区的主要政治和军事组织，曾与中央政府爆发大规模战争"
+        },
+        {
+          "name": "阿比·艾哈迈德",
+          "explain": "埃塞俄比亚现任总理，2019年诺贝尔和平奖得主"
+        },
+        {
+          "name": "阿法尔州和安哈拉州",
+          "explain": "埃塞俄比亚北部两个邻接提格雷的地区，此次成为新攻势的目标"
+        },
+        {
+          "name": "提格雷战争",
+          "explain": "2020至2022年埃塞俄比亚政府军与TPLF之间的内战，造成约60万人死亡"
+        }
+      ],
+      "summary": "提格雷武装力量向邻接的阿法尔州和安哈拉州发动进攻，并联合其他反政府力量组建了旨在推翻阿比·艾哈迈德政府的新联盟。双方互相指责对方破坏停火，国际社会对埃塞俄比亚重返全面内战深感担忧。2020至2022年的提格雷战争已造成约60万人死亡。",
+      "relevant": "埃塞俄比亚是非洲之角关键国家，若再次陷入内战将引发严重人道主义危机并动摇整个东非地区稳定。2022年停火协议若彻底破裂，意味着此前和平努力付诸东流。",
+      "context": "2022年埃塞俄比亚政府与TPLF签署停火协议，结束了造成约60万人死亡的内战。但停火后双方矛盾未根本解决，提格雷方面对中央政府未能履行协议条款日益不满，最终发动新攻势并组建反政府联盟。",
+      "source_analysis": "《卫报》报道，该报在国际事务报道中通常关注人道主义危机和冲突对平民的影响，立场偏向自由派。",
+      "social_impact": "2020至2022年战争已致约60万人死亡，新一轮冲突可能导致大规模平民流离失所，加剧非洲之角地区的人道主义危机。",
+      "source_text": "There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. On Sunday, seven armed groups from around the country, including the TPLF, announced the formation of the Ethiopian Peoples’ Forces Alliance for Survival, aimed at deposing the government in Addis Ababa. Then, on Wednesday, the TPLF seized control of three airports from federal police. The state-owned carrier, Ethiopian Airlines, said it had suspended flights to the region “due to the current situation”. The TPLF also launched attacks into Afar and Amhara. A humanitarian source in Afar told Agence France-Presse there were heavy artillery attacks by the group on Thursday as they attempted to take control of the town of Yallo, near the Tigrayan border. Flights to the historic Ethiopian town of Lalibela were also suspended on Thursday because of nearby fighting, while people in Tigray stocked up on food and cash, with one resident telling Reuters that people there feared they could face siege conditions similar to those during the previous war. A resident of Adigrat, a city close to the Eritrean border, described panic-buying and shops emptying. “Food shortages are worsening as market shelves sit empty … Essential medicines remain scarce and astronomically expensive,” he told Reuters. “Daily survival has become a constant calculation.” The TPLF’s vice-president, Amanuel Assefa, told AFP: “We are in the situation of full-blown war now.” He confirmed Tigrayan forces were fighting alongside local armed groups in Afar and Amhara. The group took control of Abala, also on the Tigray-Afar border, on Wednesday, a foreign security source based in Ethiopia told AFP, while a TPLF source said they had seized several other towns in Afar. The foreign security source also said there was fighting around the Amhara town of Weldiya – one of the few routes to the capital. In its first public comments on the fighting, Ethiopia’s army said on Thursday it had foiled the attacks and killed, wounded or captured more than 500 enemy fighters. Analysts say th",
+      "source_title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "source_url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 7,
+      "title": "特朗普拒绝伊朗七天停火提议后表示预计下周恢复谈判",
+      "entities": [
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "连接波斯湾和印度洋的狭窄水道，全球约20%的石油运输经过此处，战略意义极高"
+        },
+        {
+          "name": "Axios",
+          "explain": "美国政治新闻网站，以独家报道白宫和国会消息著称"
+        },
+        {
+          "name": "停火提议",
+          "explain": "伊朗提出先停火七天、随后重新开放霍尔木兹海峡的方案"
+        }
+      ],
+      "summary": "特朗普拒绝了伊朗提出的七天停火并重新开放霍尔木兹海峡的方案，但同时表示预计下周将与伊朗恢复谈判。他还提出可能对伊朗重新发动空袭。伊朗方面则表示仍在等待美方的正式回应。",
+      "relevant": "美伊冲突直接影响全球石油供应和能源价格，霍尔木兹海峡的通行状况关乎世界经济稳定。谈判能否重启将决定中东局势是走向缓和还是进一步升级。",
+      "context": "美伊紧张关系持续升级，伊朗提出七天停火方案以换取霍尔木兹海峡重新开放。特朗普拒绝了该提议，但同时释放谈判信号，显示双方仍在试探对方底线。",
+      "source_analysis": "France24为法国国际新闻频道，报道立场较为中立，此处引用了特朗普对Axios的表态。",
+      "social_impact": "霍尔木兹海峡承载全球约20%的石油运输，冲突升级可能导致油价飙升，影响全球经济。",
+      "source_text": "Trump expects Iran talks next week after rejecting seven-day truce proposal US President Donald Trump said on Sunday he expected talks with Iran to resume next week, despite rejecting Tehran’s proposal for a seven-day truce followed by the reopening of the Strait of Hormuz. Trump has raised the possibility of renewed air strikes on Iran, but told Axios he anticipated further negotiations. US President Donald Trump said Sunday that he expects talks with Iran to resume in the coming week, despite his rejection of a truce proposal put forward by Tehran. Iranian officials brought with them to the UN General Assembly in New York a plan for a seven-day truce followed by the reopening of the Strait of Hormuz shipping channel. Trump dismissed the plan and has mused on resuming full-scale air strikes on Iranian targets, but he told the news platform Axios that he expects negotiations to resume. \"They want to make a deal, but it is not the deal that I want to make,\" Trump told Axios. \"It is what we would have maybe agreed to a year ago.\" \"They overplayed their hand,\" Trump said, in the interview published Sunday. Citing sources familiar with the matter, Axios reported that indirect talks between Washington and Tehran could take place as early as Monday. On Sunday, Iran was still standing by its conditions for reopening the Strait of Hormuz, leaving the Gulf front of the Middle East war locked in a stalemate, while fighting rages in Yemen. Read more'Iran has dragged us into this conflict,' top Emirati diplomat Anwar Gargash says 'We will not back down' Hormuz is a key chokepoint for the world's energy supplies and is now central to the conflict between Washington and Tehran, which was started nearly seven months ago when the US and Israel launched a wave of strikes against Iran. Iran's plan called for a cessation of all hostilities in the Middle East, including in Lebanon, according to Foreign Minister Abbas Araghchi, and a return to the conditions in an earlier ceasefire deal that fell apart. That agreement, which collapsed during fighting over Hormuz, called for the release of frozen Iranian assets, the lifting of sanctions on Iranian oil and an end to the US naval blockade. \"Our conditions are clear, and any move toward reopening the Strait of Hormuz is contingent upon these conditions being fulfilled. We will not back down from them,\" Araghchi said on Sunday, state broadcaster IRIB reported. \"We have never closed the door to diplomacy or negotiations, but at the ",
+      "source_title": "Trump expects Iran talks next week after rejecting seven-day truce proposal",
+      "source_url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 1,
+      "title": "伊朗外长称只有谈判才能结束冲突，仍在等待美方正式拒绝霍尔木兹协议",
+      "entities": [
+        {
+          "name": "伊朗外长",
+          "explain": "伊朗伊斯兰共和国外交事务最高负责人，负责对外谈判和外交政策执行"
+        },
+        {
+          "name": "霍尔木兹协议",
+          "explain": "伊朗提出的以停火换取霍尔木兹海峡重新开放的方案"
+        }
+      ],
+      "summary": "伊朗外长表示，尽管特朗普已公开表态拒绝，但德黑兰仍在等待美方通过正式外交渠道的回应。他强调只有谈判才是结束冲突的唯一途径。此前特朗普拒绝了伊朗提出的七天停火换霍尔木兹海峡重新开放的方案。",
+      "relevant": "伊朗方面区分'公开表态'与'正式回应'，暗示外交渠道仍开放，为局势缓和保留可能性。",
+      "context": "特朗普公开拒绝了伊朗的停火换海峡开放方案，但伊朗外长指出美方历来有前后矛盾的表态，因此公开拒绝不一定代表最终立场，伊方仍在等待正式回应。",
+      "source_analysis": "BBC报道，作为英国公共广播机构，其国际新闻报道以中立和事实核查著称。",
+      "social_impact": "",
+      "source_text": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal - Published Only a \"negotiated solution\" can end the conflict between the US and Iran, Tehran's foreign minister has said, after President Donald Trump publicly rejected a proposal to reopen the Strait of Hormuz. Trump told reporters at the White House that Iran's proposal was not \"acceptable\" and that Tehran wanted to make a deal to open the strait to commercial shipping within seven days because \"they're losing so badly\". In a post on Telegram, Iranian Foreign Minister Abbas Araghchi acknowledged Trump's rejection, but said Iran would wait for a \"definitive\" official US response. He said the president had made contradictory statements in the past. Araghchi said the conditions to open the strait were the same that had been included in a memorandum of understanding (MOU) between the US and Iran that was signed in June. Iran said it had raised reopening the strait and ending hostilities during negotiations on the sidelines of the UN General Assembly in New York this past week. The vital waterway through which around a fifth of the world's gas and oil supply usually flows has been effectively closed since the outbreak of war in February. \"I'm rejecting their deal,\" Trump said on Saturday, adding that the US already had \"total control\" of the strait, with \"massive amounts of oil\" passing through it, causing massive rises in global oil prices and steep fuel cost increases for consumers. Araghchi wrote on Telegram that Trump \"has made many good statements, as well as many contradictory ones, which unfortunately we hear frequently\". He continued: \"We are waiting for the mediators to convey the definitive views to us, and we will make a decision based on them.\" Separately, Iran's President Masoud Pezeshkian, who travelled to New York for the UN general assembly, told the BBC's US news partner CBS that \"distrust created by this war needs to be overcome\" in order for talks to be successful. He said the Iranians were open to talks on implementing the MOU in stages in order to end the impasse, but that the \"US needs to show it does not intend to overthrow our government\". Pezeshkian said Trump had \"tore up\" the MOU when the US resumed its bombing campaign, adding: \"If we don't abide by what we have written down, can we really resolve it by dialogue?\" He was also asked about Iran's new Supreme Leader Mojtaba Khamenei, who was injured in the US strike which killed his father in Febr",
+      "source_title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+      "source_url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 20,
+      "title": "伊朗外长称美方表态矛盾，特朗普的拒绝可能并非最终立场",
+      "entities": [
+        {
+          "name": "阿巴斯·阿拉格奇",
+          "explain": "伊朗外交部长，负责伊朗对外谈判和外交事务"
+        },
+        {
+          "name": "霍尔木兹海峡",
+          "explain": "全球最重要的石油运输通道之一，伊朗曾威胁封锁该海峡作为反制手段"
+        }
+      ],
+      "summary": "伊朗外长阿拉格奇表示，由于美国历史上多次出现前后矛盾的表态，特朗普对停火提议的拒绝可能不代表最终立场，伊朗仍在等待美方的官方正式回应。此番表态显示伊朗并未完全关闭外交解决的大门。",
+      "relevant": "伊朗试图区分特朗普的公开言论与正式外交立场，为后续谈判保留空间，反映双方在冲突中仍存在外交博弈余地。",
+      "context": "特朗普此前公开拒绝了伊朗提出的停火方案，但伊朗方面基于对美国历来外交表态反复性的判断，认为公开拒绝不等于正式否决，因此继续等待官方回应。",
+      "source_analysis": "《纽约时报》报道，该报在国际新闻领域具有较高权威性，立场偏自由派。",
+      "social_impact": "",
+      "source_text": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer。Abbas Araghchi, Iran’s foreign minister, said a history of contradictory messaging meant that President Trump’s rejection might not be a final position.",
+      "source_title": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
+      "source_url": "https://www.nytimes.com/2026/09/27/world/middleeast/iran-trump-ceasefire-strait-of-hormuz.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 11,
+      "title": "特朗普称美国将赢得对伊朗战争，预计油价将下跌",
+      "entities": [
+        {
+          "name": "TASS",
+          "explain": "俄罗斯塔斯社，俄罗斯官方通讯社，立场反映俄罗斯政府视角"
+        },
+        {
+          "name": "特朗普",
+          "explain": "美国总统，当前美伊冲突中的关键决策者"
+        }
+      ],
+      "summary": "特朗普在接受采访时声称美国已在军事上击败伊朗，并表示相信美国将赢得对伊朗的战争，同时预测油价将会下跌。此番言论发表于美伊关系高度紧张、谈判前景不明的背景下。",
+      "relevant": "特朗普的胜利宣言与谈判信号同时释放，反映美国对伊朗采取'边打边谈'策略。油价走势直接影响全球经济。",
+      "context": "美伊冲突持续，特朗普在拒绝伊朗停火提议的同时宣称美国已在军事上占据优势，并预测油价将因局势变化而下跌。",
+      "source_analysis": "TASS为俄罗斯官方通讯社，其报道可能倾向于突出美国政府的强硬表态，服务于俄罗斯自身的地缘政治叙事。",
+      "social_impact": "油价走势直接影响全球消费者和能源市场，特朗普的表态可能影响市场预期。",
+      "source_text": "NEW YORK, September 28. /TASS/. The United States will emerge victorious in the war against Iran, and it will result in a sharp decline in global oil prices, US President Donald Trump said. \"We've already won it really through from a military standpoint, but that doesn't mean we've stopped that. But we're certainly winning it very big,\" the US president stated in an interview with Fox News. \"Oil will come dropping down as soon as Iran gives up, as soon as the war is over, which will be soon. Oil is going to come plummeting down,\" according to Trump. The United States and Israel began a war with Iran on February 28. In June, Washington and Tehran signed a memorandum of understanding providing for an immediate cessation of hostilities on all fronts, including in Lebanon. However, on the night of July 8, the US resumed large-scale strikes against Iran, accusing it of violating the terms of the agreements reached regarding the Strait of Hormuz, through which approximately 25% of global oil trade and about 20% of liquefied natural gas (LNG) trade pass. Subsequently, the US administration effectively signaled an end to the use of large-scale military force against Iran, shifting toward an attempt to economically strangle the country through sanctions.",
+      "source_title": "US to win war against Iran, and oil prices to decline, says Trump",
+      "source_url": "https://tass.com/world/2193695",
+      "source_name": "TASS Russia",
+      "group": "industry"
+    },
+    {
+      "item_id": 24,
+      "title": "印度亿万富翁旗下Airtel Money计划在伦敦上市，目标估值90亿美元",
+      "entities": [
+        {
+          "name": "Airtel Money",
+          "explain": "Airtel Africa旗下的移动支付业务，在多个非洲国家运营手机钱包和支付服务"
+        },
+        {
+          "name": "苏尼尔·巴尔蒂·米塔尔",
+          "explain": "印度亿万富翁，Bharti Airtel电信集团创始人，Airtel Africa的最终控制人"
+        },
+        {
+          "name": "伦敦证券交易所",
+          "explain": "英国主要股票交易市场，近年来面临上市公司流失的困境"
+        },
+        {
+          "name": "IPO",
+          "explain": "首次公开募股，即公司首次向公众发行股票并在交易所上市"
+        }
+      ],
+      "summary": "印度亿万富翁苏尼尔·巴尔蒂·米塔尔控制的Airtel Money宣布计划在伦敦证券交易所上市，目标估值约90亿美元，将成为近年来伦敦最大规模的IPO之一。此举被视为对持续萎缩的伦敦股市的一剂强心针。",
+      "relevant": "伦敦证券交易所近年面临上市公司纷纷转投纽约等市场的困境，这笔大型IPO若成功，可能提振市场信心，但是否能扭转伦敦上市荒仍有待观察。",
+      "context": "伦敦证券交易所近年来遭遇一系列公司退市或选择在其他市场上市，市场规模持续萎缩。Airtel Money作为非洲领先的移动支付平台，选择伦敦而非纽约或其他市场上市，对伦敦金融城意义重大。",
+      "source_analysis": "《卫报》报道，其财经评论员Nils Pratley在文中对伦敦上市市场是否因此复苏持谨慎态度，指出'这并不意味着伦敦上市荒已经结束'。",
+      "social_impact": "Airtel Money在多个非洲国家运营移动支付服务，上市后将进一步扩大其金融服务覆盖面，对非洲普惠金融有潜在影响。目标估值约90亿美元。",
+      "source_text": "A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange. Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures. The company is understood to be hoping to raise about $800m (£601m) from the initial public offering (IPO) and is targeting a valuation of $8bn to $9bn, which would make it one of London’s largest listings in recent years. Airtel Money has 53 million monthly active users across 13 countries in sub-Saharan Africa, including Uganda, Zambia and the Democratic Republic of Congo. It operates through a network of branches and kiosks, which enable customers to load money on to their phones, withdraw cash and access other money services, and the company generated revenues of just under $1.4bn in the last financial year. Airtel Money’s parent company is Airtel Africa, a telecoms provider that is part of the Indian conglomerate Bharti Enterprises, which is ultimately controlled by the billionaire Sunil Bharti Mittal. Airtel Africa is already listed on the FTSE 100 but said it wanted Airtel Money to be listed separately. “From a company perspective, [the listing] gives us flexibility for the future,” said Airtel Money’s chief executive, Ian Ferrao. “We evaluated multiple [stock] exchanges, including the Middle East because we’ve got a headquarters in Dubai, along with European and North American exchanges. Ultimately, shareholders felt that London was the right choice. We still believe there is deep capital available … all the global institutional investors are here.” Ferrao added: “Most importantly there’s a deep understanding of emerging markets in the London market and Africa specifically.” Airtel Money said it would announce more details about the float in early October, including the indicative price range and number of shares to be offered, with final pricing to follow later in the month. Airtel Africa had originally targeted a listing in the first six months of 2026 but delayed it to the second half of the year, blaming unfavourable market conditions as a result of the US-Israeli war on Iran. Several other companies also pushed back planned IPOs amid the market volatility caused by the conflict. Airtel Africa owns just under 78% of Airtel Money and will remain a long-term investor after the I",
+      "source_title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "source_url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 16,
+      "title": "英国RAF Fairford空军基地附近5人因涉嫌恐怖主义被捕",
+      "entities": [
+        {
+          "name": "RAF Fairford",
+          "explain": "英国皇家空军基地，位于英格兰格洛斯特郡，是美国空军在欧洲的重要前沿部署基地"
+        },
+        {
+          "name": "英国反恐警察",
+          "explain": "专门负责调查和预防恐怖主义活动的英国执法部门"
+        }
+      ],
+      "summary": "英国反恐警察在RAF Fairford空军基地附近逮捕了5名涉嫌恐怖主义的男子。周日凌晨，三辆可疑车辆被发现似乎正驶向该基地。目前案件正在调查中。",
+      "relevant": "RAF Fairford是美国空军在欧洲的关键基地，若确认与恐怖主义相关，将引发对英国军事设施安全的严重关切。",
+      "context": "周日凌晨，三辆可疑车辆出现在RAF Fairford空军基地附近并似乎朝基地方向行驶，英国反恐警察随后实施逮捕。该基地是美国空军在欧洲的重要轰炸机前沿部署点。",
+      "source_analysis": "《纽约时报》报道，引用了英国反恐警察的官方声明。",
+      "social_impact": "RAF Fairford是美国空军在欧洲的重要基地，事件可能促使英国重新评估军事设施周边的安全防范措施。",
+      "source_text": "5 Arrested on Suspicion of Terrorism Near RAF Fairford Air Base in UK。The British counterterrorism police say the men were arrested after three suspicious vehicles appeared to be traveling toward R.A.F. Fairford early on Sunday.",
+      "source_title": "5 Arrested on Suspicion of Terrorism Near RAF Fairford Air Base in UK",
+      "source_url": "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 19,
+      "title": "缅甸军方使用动力滑翔伞和旋翼机对叛军控制区实施轰炸",
+      "entities": [
+        {
+          "name": "动力滑翔伞",
+          "explain": "带发动机的滑翔伞，可低空飞行，成本低廉，通常用于休闲运动，此处被改装为武器投放平台"
+        },
+        {
+          "name": "旋翼机",
+          "explain": "介于直升机和固定翼飞机之间的轻型飞行器，结构简单、造价低，适合低空慢速飞行"
+        },
+        {
+          "name": "缅甸政变",
+          "explain": "2021年缅甸军方推翻民选政府昂山素季政权的事件，此后引发全国性武装抵抗"
+        }
+      ],
+      "summary": "缅甸政变数年后，军方越来越多地使用动力滑翔伞和旋翼机等轻型飞行器，对叛军控制区的城镇和村庄实施轰炸。这种低成本空中打击方式成为军方在传统空军力量之外的新战术手段。",
+      "relevant": "军方使用民用轻型飞行器改装为武器，标志着缅甸冲突中战术的演变。这种低成本方式使军方能在更广泛区域实施打击，加剧平民伤亡风险。",
+      "context": "2021年缅甸军事政变后，全国多地爆发武装抵抗运动。军方在传统空军力量受限的情况下，转向使用动力滑翔伞和旋翼机等低成本轻型飞行器对叛军控制区实施轰炸。",
+      "source_analysis": "《纽约时报》报道，该报对缅甸局势持续关注，报道立场倾向于关注平民遭受的暴力影响。",
+      "social_impact": "轻型飞行器轰炸使军方能够打击此前难以触及的偏远地区，可能导致更多平民伤亡和大规模流离失所。",
+      "source_text": "Recreational Aerial Craft Become Weapons in Myanmar’s War。Years after a coup, the military is increasingly using motorized paragliders and gyrocopters to bomb towns and villages in rebel-held territory.",
+      "source_title": "Recreational Aerial Craft Become Weapons in Myanmar’s War",
+      "source_url": "https://www.nytimes.com/2026/09/27/world/asia/myanmar-light-aircraft-war-weapons.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 6,
+      "title": "埃塞俄比亚指控厄立特里亚和苏丹支持提格雷叛军，冲突升级",
+      "entities": [
+        {
+          "name": "提格雷人民解放阵线（TPLF）",
+          "explain": "埃塞俄比亚北部提格雷地区的主要政治军事组织，曾长期主导埃塞俄比亚政权，2020年起与联邦政府爆发武装冲突。"
+        },
+        {
+          "name": "厄立特里亚",
+          "explain": "埃塞俄比亚北部的邻国，曾与埃塞俄比亚爆发边境战争，后在提格雷冲突中一度与埃塞联邦政府合作。"
+        },
+        {
+          "name": "苏丹",
+          "explain": "埃塞俄比亚西部的邻国，与埃塞俄比亚在边境地区和青尼罗河大坝等问题上存在长期争端。"
+        },
+        {
+          "name": "阿法尔（Afar）",
+          "explain": "埃塞俄比亚东北部的一个地区州，位于提格雷与吉布提之间，是重要的交通走廊。"
+        }
+      ],
+      "summary": "埃塞俄比亚陆军参谋长指控厄立特里亚和苏丹支持与联邦政府军作战的武装组织，提格雷冲突进一步升级。提格雷人民解放阵线宣称正在进行“防御性战争”并夺取了机场。人道主义消息源称叛军周日攻占了阿法尔地区的埃雷布蒂镇。",
+      "relevant": "提格雷冲突涉及埃塞俄比亚、厄立特里亚和苏丹三方，若指控属实，意味着冲突正从内战向地区性冲突扩大，可能影响整个非洲之角的稳定。",
+      "context": "2020年11月，埃塞俄比亚联邦政府与提格雷人民解放阵线爆发武装冲突，起因是提格雷地区选举被联邦政府视为非法，双方关系破裂。此后冲突持续至今，已造成大量人员伤亡和人道主义危机，并多次出现停火与重启战事的反复。",
+      "source_analysis": "France24是法国国际公共电视台，以法语和英语面向全球报道，立场偏向西方主流媒体视角，在非洲报道中通常关注人道主义与地区稳定议题。",
+      "social_impact": "冲突已导致埃塞俄比亚北部数百万人流离失所，人道主义援助通道受阻。阿法尔地区被攻占可能进一步切断通往吉布提的陆路运输线，影响该国进出口贸易。",
+      "source_text": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday. Ethiopia's army commander on Sunday accused Eritrea and Sudan of backing armed groups fighting its troops in the north of the country. Heavy clashes have resumed between the Tigray People's Liberation Front (TPLF) and the federal government since Wednesday, raising fears of a return to a 2020-2022 civil war in which an estimated 600,000 people died. The TPLF has seized airports and launched attacks into the neighbouring states of Afar and Amhara, saying they were engaged in a \"defensive war\" against the government of Prime Minister Abiy Ahmed. A humanitarian source said the Afar town of Erebti, near the border with Tigray, fell to the rebels on Sunday after being pounded by heavy artillery. The TPLF was now advancing towards the town of Afdeera, some 100 kilometres (60 miles) to the east. The source estimated that at least 150,000 people have been displaced in Afar, but said it was impossible to give precise numbers. Speaking on the army's YouTube channel, army chief Field Marshal Birhanu Jula said: \"We are fighting forces that are organised and allied to serve the interests of external forces. \"Neither Shaebia (Eritrea) nor the TPLF can achieve anything alone, even if they are allied, unless they are backed, supported and supplied by Sudan, Egypt and other external powers,\" he added. To display this content from YouTube, you must enable advertisement tracking and audience measurement. One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site. TV station attack The TPLF has allied with seven armed groups around the country, and appears to repeating a strategy from the last war of pushing south through Amhara towards Addis Ababa, Its offensive in Afar is aimed at cutting supplies from Djibouti, which provides almost all of Ethiopia's international trade cargo, including fuel. The headquarters of Tigrai TV, seen as the key outlet for the rebel authorities in the Tigrayan capital, Mekelle, was hit by a drone on Sunday. \"We heard a loud bang from a drone strike elsewhere and we fled the",
+      "source_title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
+      "source_url": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 8,
+      "title": "俄罗斯空袭乌克兰致8人死亡，泽连斯基称一周内遭约3900枚无人机、炸弹和导弹袭击",
+      "entities": [
+        {
+          "name": "Volodymyr Zelensky",
+          "explain": "乌克兰总统，自2022年俄乌冲突全面爆发以来一直领导乌克兰抗战"
+        },
+        {
+          "name": "France24",
+          "explain": "法国国际新闻电视台，由法国政府资助，以多语种报道全球新闻"
+        },
+        {
+          "name": "无人机、航空炸弹和导弹",
+          "explain": "俄罗斯用于远程打击乌克兰的三种主要武器：无人机成本低数量多，航空炸弹破坏力大，导弹精度高"
+        }
+      ],
+      "summary": "乌克兰当局称，俄罗斯周日对乌克兰多地发动空袭，造成至少8人死亡。此前一天，莫斯科刚表态将继续推进战争。泽连斯基表示，过去一周俄罗斯共发射约3900架无人机、航空炸弹和导弹。乌方指责俄方在冬季来临之际故意针对平民发动攻击。",
+      "relevant": "俄乌冲突持续升级，俄方明确表态不停止战争，且攻击规模巨大，冬季临近可能加剧乌克兰平民的人道主义危机。",
+      "context": "俄乌冲突自2022年2月全面爆发以来已持续多年。近期莫斯科重申将继续战争，随后对乌克兰多地发动大规模空袭，造成平民伤亡。随着冬季临近，乌克兰能源基础设施和平民安全面临更大威胁。",
+      "source_analysis": "France24是法国政府资助的国际新闻媒体，报道立场总体偏向西方视角，在俄乌冲突中倾向呈现乌克兰方面的叙述和受害者视角。",
+      "social_impact": "一周内约3900枚武器发射量显示攻击强度极高，8人死亡仅为单日数据，长期冲突已对乌克兰平民造成持续且严重的人道主义影响。",
+      "source_text": "Russian attacks kill eight in Ukraine after Moscow vows to continue war Russian strikes killed eight people across Ukraine on Sunday, authorities said, a day after Moscow vowed to continue the war. President Volodymyr Zelensky said Russia had launched about 3,900 drones, aerial bombs and missiles over the past week. Ukraine accused Moscow of deliberately targeting civilians as winter approaches. Russian strikes killed eight people across Ukraine on Sunday, a day after Moscow vowed to pursue the war, authorities said Sunday. President Volodymyr Zelensky said that Russia had fired about 3,900 drones, aerial bombs and other missiles at Ukraine over the past week. Russia has stepped up attacks on Kyiv, with Ukraine charging that Moscow is deliberately hitting civilian targets as the country braces for another tough winter. Interior Minister Ivan Vyhivskyi announced that Russian strikes hit a children's centre in the northern city of Sumy, killing three people including a 16-year-old girl. Zelensky said three people had been killed in night-time strikes on the southern Zaporizhzhia region and a Russian drone strike had killed one man in Kyiv. Authorities in the Odesa region said a \"massive strike\" on the south of the Black Sea region had killed one more person. Kyiv mayor Vitaly Klitchko said a woman and two 16-year-olds had been wounded and hospitalised in the capital. \"The enemy continues to relentlessly attack the Kyiv region with strike drones,\" the city's administration said. \"Sixteen sites have been damaged,\" including 12 houses, a warehouse and production facility, it added. Russian strikes in the Odesa region damaged housing, a shop, a hotel, a medical building and a grain warehouse, said regional head Oleg Kiper. Read morePoland fears Ukraine war could spill over Targeting 'civilian infrastructure' \"This past week, the Russians launched more than 2,200 attack drones against Ukraine, as well as around 1,650 aerial bombs and 38 missiles of various types, a significant number of them ballistic missiles,\" Zelensky posted on social media. The latest strikes had targeted two kindergartens, two schools, housing \"and other civilian infrastructure\" in various parts of the country, he added. \"If Russia were truly preparing for any real steps toward de-escalation -- as it claims, particularly to American negotiators -- this wave of \"shahed\" terror would not be happening,\" Zelensky said in later comments. In Moscow, Russia's defence ministry said it had bombed a K",
+      "source_title": "Russian attacks kill eight in Ukraine after Moscow vows to continue war",
+      "source_url": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 9,
+      "title": "以色列撤销荷兰驻西岸外交官资格，回应荷兰禁售定居点商品",
+      "entities": [
+        {
+          "name": "以色列",
+          "explain": "中东国家，1967年以来占领约旦河西岸，并在该地区建设犹太人定居点"
+        },
+        {
+          "name": "荷兰",
+          "explain": "西欧国家，近期开始执行禁止进口以色列定居点商品的法规"
+        },
+        {
+          "name": "约旦河西岸",
+          "explain": "巴勒斯坦人聚居区，被以色列军事占领，国际法上视为被占领土"
+        },
+        {
+          "name": "以色列定居点",
+          "explain": "以色列在巴勒斯坦被占领土上建立的犹太人社区，多数国家认为其违反国际法"
+        },
+        {
+          "name": "吉迪恩·萨尔",
+          "explain": "以色列外交部长，2024年起任职"
+        }
+      ],
+      "summary": "以色列外长萨尔宣布，撤销荷兰驻约旦河西岸外交官的认证资格，限其七天内交出以色列签发的外交证件。此举是对荷兰开始执行禁止进口以色列定居点商品禁令的报复。荷兰成为最新一个对定居点商品采取实质性限制措施的欧洲国家，以荷外交摩擦骤然升级。",
+      "relevant": "这是欧洲国家与以色列围绕定居点问题爆发的最新外交冲突，可能引发更多欧洲国家效仿荷兰，进一步孤立以色列。",
+      "context": "荷兰近期开始执行一项禁止进口以色列定居点商品的法令，以色列视其为歧视性措施，遂以外交手段反制，撤销荷兰驻西岸外交官的认证。",
+      "source_analysis": "法国24小时（France24）是法国国际新闻频道，报道立场偏向西方主流视角，对巴以问题通常呈现双方立场。",
+      "social_impact": "荷兰禁令若被更多欧盟国家采纳，可能影响以色列定居点经济，并加剧以色列与欧洲的外交紧张。",
+      "source_text": "Israel revokes credentials of Dutch diplomats in West Bank over settlement goods ban Israel will revoke the diplomatic accreditation of Dutch officials based in the occupied West Bank after the Netherlands began enforcing a ban on goods from Israeli settlements, Foreign Minister Gideon Saar said on Sunday. The officials have seven days to surrender their Israeli-issued diplomatic papers, he said. Israel's foreign minister said on Sunday that the diplomatic accreditation of Dutch officials based in the occupied West Bank would be revoked, after the Netherlands began enforcing sanctions on goods from Israeli settlements. The diplomats have seven days to hand over Israeli-issued diplomatic papers, Foreign Minister Gideon Saar posted on X. \"After this period, the diplomatic privileges and immunities granted to them by the State of Israel will expire,\" he added. Saar said the move came after the Dutch government started enforcing a ban on goods imported from Israeli settlements in the Golan Heights, the West Bank and east Jerusalem. Israel conquered the territories during the 1967 Arab-Israeli war and has occupied them ever since. Settlements built there are illegal under international law. Read moreResidents in West Bank's Masafer Yatta face Israeli demolitions Dutch authorities announced this month that they would begin enforcing a ban on settlement goods from September 22 and that it applied to personal baggage as well as commercial shipments. In recent days, Dutch and Israeli media reported that passengers arriving from Israel at Amsterdam's Schiphol airport had their luggage searched for banned goods. The US ambassador to Israel, Mike Huckabee, a strong supporter of settlers, posted on X that \"There were some people from Netherlands in our church this morning who are flying back tomorrow and have to check their souvenirs to make sure they aren't from Judea/Samaria-possible 6 yr prison term.\" Judea and Samaria is the biblical name for the West Bank that is still used by the Israeli government. The Dutch ban followed coordinated action by 12 Western countries, including Britain and France, to sanction goods from Israeli settlements at the start of the month. Excluding east Jerusalem, around 500,000 Israeli settlers live in the West Bank, which is home to three million Palestinians. (FRANCE 24 with AFP)",
+      "source_title": "Israel revokes credentials of Dutch diplomats in West Bank over settlement goods ban",
+      "source_url": "https://www.france24.com/en/middle-east/20260927-israel-revokes-dutch-diplomats-credentials-settlement-sanctions",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 10,
+      "title": "法国极右翼国民联盟首次在参议院获得足够席位组建党团",
+      "entities": [
+        {
+          "name": "玛丽娜·勒庞",
+          "explain": "法国极右翼政党国民联盟的领导人，多次参选法国总统"
+        },
+        {
+          "name": "国民联盟",
+          "explain": "法国主要的极右翼政党，原名国民阵线，主张反移民、法国优先"
+        },
+        {
+          "name": "法国参议院",
+          "explain": "法国议会上院，共348席，议员通过间接选举产生，任期六年"
+        },
+        {
+          "name": "间接选举",
+          "explain": "不由普通选民直接投票，而由地方议员等选举人团投票选出议员的方式"
+        }
+      ],
+      "summary": "法国极右翼政党国民联盟及其盟友在参议院选举中赢得14个席位，首次达到在参议院组建党团的门槛，创造了该党历史。参议院共348席，每三年改选一半，由间接投票产生。参议院目前仍由右翼主导，但极右翼的突破标志着其在法国政治体制中的影响力进一步扩大。",
+      "relevant": "极右翼首次进入参议院党团体系，意味着国民联盟在法国主流政治机构中获得了正式的组织地位和话语权，对法国政治格局有标志性意义。",
+      "context": "法国参议院每三年通过间接选举改选约半数席位，选举人团由地方议员组成。国民联盟此前在参议院一直势单力薄，此次借助地方选举势力的积累首次达到组建党团所需的席位门槛。",
+      "source_analysis": "France24是法国国际新闻频道，由政府资助但编辑独立，报道立场偏中间，对极右翼崛起通常持关注和审视态度。",
+      "social_impact": "国民联盟在348席中仅占14席，比例不大，但组建党团后可获得更多发言时间、委员会席位和公共资金，有助于其进一步正常化并备战未来选举。",
+      "source_text": "France's far right gains ground in indirect Senate elections Marine Le Pen's far-right National Rally and its allies won enough seats in France's Senate to form a parliamentary group in the upper house for the first time in the party's history Sunday, securing 14 seats out of 348. Half the upper house is elected through indirect voting every three years, with senators in the right-wing dominated chamber serving for six years. France's far-right National Rally (RN) party and its allies emerged from Sunday polls with a record 14 seats in the right-wing dominated Senate, effectively quadrupling its number in the 348-seat upper house just months before a presidential election. It's the first time the party has cleared the 10-seat threshold for a Senate parliamentary group. RN presidential candidate Marine Le Pen hailed a \"historic victory\" after the results were announced. Local elected officials vote for new senators for half the upper chamber every three years, each to serve a six-year term. The far-right party entered the Senate for the first time with two seats in 2014, when it was known as the National Front, and won three seats in 2023. Le Pen is eyeing her best chance yet at power in elections next year when centre-right President Emmanuel Macron's second and final term comes to an end. \"This is a historic victory, and a major milestone with the formation for the first time of a group in the Senate,\" she said on X. Read moreFrance's far-right National Rally fires policeman from security team over racist, sexist comments Nine RN senators were elected on Sunday, on top of the three who won seats in 2023. A further two were elected from RN ally Eric Ciotti's Union of the Right for the Republic (UDR) party. RN president Jordan Bardella said the party's senators would form a group with UDR allies. Ciotti quit the right-wing Les Républicains (LR) party in 2024 after calling for an alliance with the far right. The upper chamber's LR president of more than a decade, 77-year-old Gerard Larcher, is expected to be re-elected next week. The right, centrist and centre-left Socialists looked set to remain the three major forces in the upper house, according to initial results. The left-wing France Unbowed (LFI) party won its first-ever seat. Le Pen's anti-immigration party emerged as the largest single party in the lower-house National Assembly after Macron called snap polls in 2024, though it fell well short of a majority and trailed behind the left-wing New Popular",
+      "source_title": "France's far right gains ground in indirect Senate elections",
+      "source_url": "https://www.france24.com/en/france/20260927-france-s-far-right-gains-ground-in-indirect-senate-elections",
+      "source_name": "France24",
+      "group": "industry"
+    },
+    {
+      "item_id": 3,
+      "title": "塞尔维亚总统武契奇在持续抗议压力下辞职，为提前大选铺路",
+      "entities": [
+        {
+          "name": "亚历山大·武契奇（Aleksandar Vučić）",
+          "explain": "塞尔维亚总统，长期执政的强势领导人，此前兼任过总理，是巴尔干地区最具影响力的政治人物之一"
+        },
+        {
+          "name": "塞尔维亚",
+          "explain": "位于巴尔干半岛的欧洲国家，非欧盟成员国，近年来一直在欧盟入盟谈判与对俄关系之间摇摆"
+        },
+        {
+          "name": "提前选举",
+          "explain": "在正常任期结束前举行的选举，通常因政府失去民意支持或政治危机而触发"
+        }
+      ],
+      "summary": "塞尔维亚总统武契奇宣布辞职，为提前举行议会选举铺平道路。其政府此前因腐败指控遭遇长期大规模抗议，执政压力持续加大。辞职决定被视为试图通过重新选举来重建执政合法性，但反对派是否接受这一安排尚不明朗。",
+      "relevant": "武契奇是巴尔干地区执政时间最长的领导人之一，其去留直接影响塞尔维亚的欧盟入盟进程、科索沃问题走向以及该国与俄罗斯的关系，对欧洲地缘格局有连锁影响。",
+      "context": "武契奇及其领导的塞尔维亚进步党长期执政，近年来因多起腐败丑闻和媒体自由争议引发持续街头抗议。抗议规模不断扩大，反对派和部分国际观察者质疑选举公正性，执政压力最终迫使武契奇选择辞职并推动提前大选。",
+      "source_analysis": "BBC报道，属于西方主流媒体，对塞尔维亚政府的民主记录和腐败问题通常持批评立场，报道框架倾向于将抗议视为民众对威权倾向的抵制。",
+      "social_impact": "抗议已持续数月，涉及数十万民众参与，是塞尔维亚近年来规模最大的社会运动之一。提前选举的时间和方式将决定该国短期政治稳定，也可能影响整个西巴尔干地区的政治走向。",
+      "source_text": "Embattled Serbian president resigns, paving way for early elections - Published Serbia's president has resigned after more than a year of student-led protests and growing public discontent over allegations of government corruption. Aleksandar Vučić said his administration had preserved peace and stability during his nine-year tenure as he addressed supporters outside the presidential building in the capital, Belgrade. He had already announced his intention to resign in June and is currently standing to be his party's candidate for prime minister in the upcoming parliamentary elections. Vučić cannot run for a third presidential term under Serbia's constitution. The pro-Russian populist's administration has been dogged by anger over alleged corner-cutting. It was the collapse of the Novi Sad railway station's roof, killing 16 people, that first galvanised anger towards the government in 2024. Protests involving a wide range of citizens - from students and teachers to workers and farmers - followed. Demonstrators believed that the disaster reflected more than a decade of governing by the Progressive Party of Vucic, who closely associated himself with the station's renovation, which was supposed to be a symbol of Serbia's progress. A series of resignations of those under the embattled president failed to placate the protesters, who continued to demonstrate throughout this summer, turning to unrest following accusations of police brutality. Vučić's presidency was due to expire next year. Under Serbia's constitution, presidential elections must be held no more than three months after his resignation. This means Serbians will go to the polls twice before the end of the year. Vučić said the presidential election will take place more than a month after the snap parliamentary election in late October, itself called in response to the protests, which had added calls for a vote to their list of demands. He had earlier announced that he planned to run in that election as Progressive Party's leader, leaving the possibility he could retain a position at the top of Serbian politics. Parliamentary speaker Ana Brnabić, also a Progressive Party member, will assume the role of interim president until a new one is elected. Vučić used his constitutional powers to pardon 49 people, including 23 students and party loyalists suspected of offences related to what he called the \"terrible events we have gone through over the past year and a half\", according to Serbian public broadcas",
+      "source_title": "Embattled Serbian president resigns, paving way for early elections",
+      "source_url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 17,
+      "title": "塞尔维亚长期执政总统武契奇辞职，拟转任总理",
+      "entities": [
+        {
+          "name": "亚历山大·武契奇（Aleksandar Vucic）",
+          "explain": "塞尔维亚总统，欧洲在任时间最长的领导人之一，长期主导该国政局"
+        },
+        {
+          "name": "塞尔维亚总统",
+          "explain": "塞尔维亚的国家元首职位，掌握外交与军队等重要权力"
+        },
+        {
+          "name": "塞尔维亚总理",
+          "explain": "塞尔维亚政府首脑，负责日常行政与经济事务，实权较大"
+        }
+      ],
+      "summary": "塞尔维亚总统亚历山大·武契奇宣布辞去总统职务，为在下个月议会选举后出任总理铺路。武契奇是欧洲在任时间最长的领导人之一，此举被视为其调整权力布局、延续执政地位的策略。辞职后他将以总理身份继续主导国家政治。",
+      "relevant": "武契奇长期执政且立场亲俄疑欧，其职位变动可能影响塞尔维亚的欧盟入盟进程及巴尔干地区地缘格局。",
+      "context": "武契奇自2017年起担任总统，此前曾任总理，长期掌控塞尔维亚政局。此次辞职发生在下月议会选举前，意在通过转任总理继续掌权。",
+      "source_analysis": "《纽约时报》为美国主流媒体，报道通常对威权倾向领导人持审视态度，关注其权力延续方式。",
+      "social_impact": "塞尔维亚是巴尔干关键国家，武契奇的权力安排可能影响该国与欧盟、俄罗斯的关系及地区稳定。",
+      "source_text": "Serbia’s Longtime President Aleksandar Vucic Resigns Post。Aleksandar Vucic, one of Europe’s longest-serving leaders, resigned as president, paving the way for him to become prime minister after elections next month.",
+      "source_title": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
+      "source_url": "https://www.nytimes.com/2026/09/27/world/europe/serbia-president-aleksandar-vucicto-resigns.html",
+      "source_name": "纽约时报",
+      "group": "industry"
+    },
+    {
+      "item_id": 21,
+      "title": "南非两大城市附近接连发生大规模枪击，至少27人死亡",
+      "entities": [
+        {
+          "name": "南非警察服务局",
+          "explain": "南非的国家警察机构，负责全国治安和犯罪调查"
+        },
+        {
+          "name": "韦德拉镇",
+          "explain": "位于约翰内斯堡西南约50英里的一个乡镇"
+        },
+        {
+          "name": "AK-47突击步枪",
+          "explain": "一种广泛使用的自动步枪，威力大、射速快"
+        },
+        {
+          "name": "非法采金地盘争夺",
+          "explain": "指南非非法采金团伙之间为争夺矿区控制权而发生的暴力冲突"
+        }
+      ],
+      "summary": "南非两大城市附近接连发生两起大规模枪击事件，共造成至少27人死亡。周六晚，约翰内斯堡西南约50英里的韦德拉镇一家酒吧遭8名持AK-47和手枪的嫌疑人袭击，17人当场死亡，至少15人受伤。另一起事件发生在开普敦附近一处烧烤场所，造成10人死亡。警方正调查两案是否与非法采金地盘争夺有关。",
+      "relevant": "南非谋杀率位居全球前列，此次连环枪击凸显该国治安恶化及警察系统内部腐败问题，引发国际社会对南非公共安全形势的关注。",
+      "context": "南非长期面临高谋杀率问题，警方内部存在腐败和犯罪调查争议。此次两起枪击分别发生在约翰内斯堡和开普敦附近，其中约翰内斯堡案件疑与非法采金地盘争夺有关。",
+      "source_analysis": "《卫报》是英国主流左倾媒体，报道侧重国际社会议题和人权视角，对南非治安问题持关注和批评态度。",
+      "social_impact": "两起事件共致至少27人死亡、15人受伤，反映南非枪支暴力泛滥和非法采矿引发的有组织犯罪问题，影响当地居民安全感和社会稳定。",
+      "source_text": "Two separate mass shootings near South Africa’s two biggest cities killed at least 27 people, as the country grapples with one of the world’s highest murder rates amid investigations into corruption and criminality within the police. The South African police service said on Sunday that 17 people were killed on Saturday night when eight suspects armed with AK-47 assault rifles and pistols opened fire at a bar in Wedela township, about 50 miles south-west of central Johannesburg. At least 15 other people sustained gunshot injuries in that attack, police said. In a separate statement, police said 10 people had been killed in a mass shooting at an entertainment venue selling grilled meat, known as shisanyama, in Lwandle, near Cape Town. Another 11 people were wounded in that shooting. Police said they were searching for multiple suspects, without giving an exact number. The two attacks happened days after a mass shooting by three gunmen at a house party near the east-coast city of Durban killed 11 people, including a pregnant woman. No arrests had been made in the two latest mass shootings, police said. South Africa has struggled with high rates of violent crime for years, but the series of mass shootings this week were shocking even to a country used to some of the highest violent crime rates in the world. “This cannot go on like this,” South Africa’s president, Cyril Ramaphosa, told local TV news channels. “This is the level of criminality that we must bring down, and our security forces are now going to continue pulling out all stops.” Police in the province of Gauteng said on Sunday morning they had launched a manhunt for the unidentified eight suspects in the Johannesburg tavern shooting, with no arrests yet made. “It is alleged that patrons were drinking inside and outside the tavern when the suspects arrived and opened fire on those outside,” a police spokesperson, Capt Tintswalo Sibeko, said in a statement. “The suspects then entered the tavern and continued shooting at patrons inside. The suspects were reportedly armed with AK-47 rifles and pistols. They allegedly searched some patrons and took their cellphones before fleeing the scene in two unidentified motor vehicles. Two vehicles were also set alight during the incident.” While many local residents did not want to speak about the shooting, one said that illegal goldminers were active in the area. Gauteng province’s police commissioner, Tommy Mthombeni, told reporters that one of their lines of inq",
+      "source_title": "At least 27 dead after two mass shootings in South Africa, police say",
+      "source_url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 2,
+      "title": "南非接连发生两起大规模枪击事件，共致27人死亡",
+      "entities": [
+        {
+          "name": "南非",
+          "explain": "非洲最南端的国家，近年来帮派暴力犯罪问题严重"
+        },
+        {
+          "name": "大规模枪击",
+          "explain": "指一次事件中造成多人伤亡的枪击案件，通常与帮派或犯罪团伙有关"
+        }
+      ],
+      "summary": "南非在数小时内接连发生两起大规模枪击事件，共造成27人死亡。两起袭击发生时间相隔仅数小时，目前该国正努力遏制居高不下的帮派武装暴力。",
+      "relevant": "南非枪支暴力和帮派犯罪长期高发，此次连环枪击事件凸显该国治安形势严峻，引发对公共安全和枪支管控的关注。",
+      "context": "南非长期面临帮派相关的武装暴力问题，枪击事件频发。此次两起大规模枪击在数小时内接连发生，正值该国努力应对高犯罪率之际。",
+      "source_analysis": "BBC（英国广播公司）报道，作为国际主流媒体，其报道通常持中立客观立场，侧重事实陈述和国际视角。",
+      "social_impact": "两起事件共致27人死亡，反映南非帮派暴力和枪支泛滥问题的严重性，对当地社区安全和民众生活造成重大冲击。",
+      "source_text": "Two mass shootings in South Africa leave 27 dead - Published Twenty-seven people have been killed in two mass shootings hours apart in South Africa, the latest gun violence to hit the country. Seventeen people were killed when eight gunmen stormed a bar close to Johannesburg on Saturday evening, with 15 more injured. In a separate shooting in the early hours of Sunday morning, 10 people were killed outside an entertainment venue in a township near Cape Town and a further 11 were injured. South Africa has one of the highest murder rates in the world and has struggled to contain gang-related gun violence in recent years. Police have not given a definitive motive for either of the latest attacks. In Johannesburg, gunmen opened fire on customers outside the bar before continuing the attack inside and torching two vehicles before fleeing. Police said thirteen men and four women were killed. Gauteng Police Commissioner Lt Gen Tommy Mthombeni said people from Ethiopia and Lesotho were among those caught up in the shooting, but that the vast majority were South African. He also said police believed the motive behind the shooting was robbery, as personal belongings had been taken, but that they could not rule out turf wars between illegal mining groups. Mining without permission in abandoned shafts or dump sites is a persistent problem in South Africa, causing numerous deaths from unsafe conditions. Authorities say the miners are typically undocumented migrants recruited by organised crime gangs. Earlier, deputy provincial police commissioner Maj Gen Fred Kekana said the attack may have been a retaliation for an incident last month, in which one person was killed and another wounded, according to news agency AFP. He said at the scene that police had clear pictures and in some cases names for the suspects. In Cape Town, five victims died at the scene and a further five people died in hospital. No arrests had been made in either case on Sunday morning. The two mass shootings came days after 11 people were killed in the city of Durban when gunmen stormed a house in the KwaMakhutha township. Illegal weapons are prevalent in South Africa and gun violence has been a persistent problem for decades, with about 60 murders recorded every day in the country of 62 million. But a recent spate of mass shootings has raised fears that the problem is deepening, with violence often linked to turf wars between gangs engaged in drug trafficking and illegal mining. In February, Preside",
+      "source_title": "Two mass shootings in South Africa leave 27 dead",
+      "source_url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 25,
+      "title": "南非副警察总监沙德拉克·西比亚被控强奸18岁女性及性诱导16岁少女",
+      "entities": [
+        {
+          "name": "沙德拉克·西比亚",
+          "explain": "南非副国家警察总监，南非警察系统最高级别官员之一，此前已因涉嫌干预政治谋杀案调查被停职"
+        },
+        {
+          "name": "性诱导（grooming）",
+          "explain": "指成年人为性目的逐步与未成年人建立情感信任关系的行为，在许多国家属于刑事犯罪"
+        },
+        {
+          "name": "女性谋杀（femicide）",
+          "explain": "因性别原因针对女性的杀害行为，南非近年来此类案件频发，引发社会广泛关注"
+        }
+      ],
+      "summary": "南非副国家警察总监沙德拉克·西比亚于周一被捕，面临强奸一名18岁女性、人口贩运、促进儿童性诱导及两项儿童性诱导等指控。西比亚此前已因涉嫌干预政治谋杀案调查而被停职。此案发生在南非社会持续受到女性谋杀案和警察腐败丑闻冲击的背景下。",
+      "relevant": "南非最高级别警察官员之一被控性犯罪，直接暴露该国执法系统内部的腐败与对女性暴力问题的失职，具有重大公共信任冲击。",
+      "context": "南非近年来女性谋杀案频发，警察系统同时面临腐败和未能有效打击针对女性暴力的指控。西比亚此前已因涉嫌干预政治谋杀调查被停职，此次被捕进一步加剧了公众对警察系统的信任危机。",
+      "source_analysis": "《卫报》报道，该报为英国左倾自由派媒体，长期关注非洲人权和社会正义议题，报道立场倾向于揭露权力滥用和关注弱势群体。",
+      "social_impact": "南非女性谋杀案频发，警察系统被指未能有效保护女性和女孩。此案涉及最高级别警察官员，可能进一步动摇公众对执法机构的信任。",
+      "source_text": "One of South Africa’s most senior police officers has been charged with raping an 18-year-old woman and grooming a 16-year-old girl, as the country’s police face allegations of corruption and failing to tackle violence against women and girls. Shadrack Sibiya, who was already suspended from his role as deputy national police commissioner over allegations he interfered with political killings investigations, was arrested on Monday. He is facing charges of rape, people trafficking, promoting the sexual grooming of a child and two counts of grooming a child. Sibiya appeared briefly in a Johannesburg court on Tuesday. He was then taken to prison in the capital, Pretoria, before a bail hearing on 29 September, as prosecutors had argued he was an escape risk. South Africa is reeling after the discovery of nine women’s bodies across Ekurhuleni, the municipality east of Johannesburg, in September. Meanwhile, the Madlanga Commission judicial inquiry has been examining allegations of corruption and criminality within the police for the last year. Puleng Dimpane, the acting national police commissioner, said: “Police officers are entrusted with protecting women and children. They cannot themselves be implicated in conduct that undermines this responsibility. As the country continues to confront the scourge of gender-based violence and femicide, there can be no room for anyone within the police service who is alleged to abuse their position or violate the rights of women and children.” Sibiya is accused of raping an 18-year-old woman at a hotel in May in the Sandton business district of Johannesburg. The alleged rape took place “whilst she was passed out due to intoxication administered by the accused”, according to a copy of the charge sheet. The alleged grooming of the 16-year-old girl took place over WhatsApp between 20 July and 3 August, according to the charge sheet. This allegedly included Sibiya sending the girl naked photos of herself, which she had not sent to him. Sibiya did not enter a plea at the hearing on Tuesday. His lawyer told the court that they needed more time to consult with and get instructions from him, according to News24. Firoz Cachalia, the acting police minister, said: “We strongly condemn the alleged conduct. “Where allegations of sexual offences are made against a member of the service, they must be investigated without fear or favour.” When Sibiya appeared before the Madlanga Commission in February he denied allegations that he had moved ",
+      "source_title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+      "source_url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+      "source_name": "卫报",
+      "group": "industry"
+    },
+    {
+      "item_id": 4,
+      "title": "喜马拉雅希姆隆峰雪崩致两人死亡，至少10名尼泊尔向导失踪",
+      "entities": [
+        {
+          "name": "希姆隆峰（Himlung Himal）",
+          "explain": "位于尼泊尔境内的喜马拉雅山脉山峰，海拔约7126米，是登山者的热门目标"
+        },
+        {
+          "name": "尼泊尔向导",
+          "explain": "在喜马拉雅山区为外国登山者提供路线指引、搬运装备和保障安全的高山工作者，通常为夏尔巴人或当地居民"
+        }
+      ],
+      "summary": "喜马拉雅希姆隆峰发生雪崩，已发现两具遗体，救援人员正在搜寻至少10名失踪的尼泊尔人。这些尼泊尔人当时正在为登山者攀登希姆隆峰做准备。",
+      "relevant": "喜马拉雅登山安全问题再次引发关注，尼泊尔向导作为高风险职业群体面临巨大生命安全威胁。",
+      "context": "希姆隆峰是尼泊尔热门登山目的地之一，登山季期间大量尼泊尔向导提前上山为外国客户修路、运送物资和搭建营地。雪崩是喜马拉雅山区最常见的自然灾害之一。",
+      "source_analysis": "BBC报道，该媒体为英国公共广播机构，以国际新闻报道著称，立场相对中立。",
+      "social_impact": "至少10人失踪，救援仍在进行中。尼泊尔向导群体长期面临高风险低保障的工作环境。",
+      "source_text": "Two bodies found after avalanche hits Himalayan climbing group - Published Rescuers have recovered two bodies from the site of an avalanche that struck a climbing group camping in the Nepalese part of the Himalayas. Around a dozen people are still thought to be missing after a sheet of snow fell on the base camp of Himlung Himal peak on Manang district on Sunday morning. The group of Nepalese nationals, including climbers and support staff, had been sent ahead of foreign climbers to prepare the camp and fix ropes. Forecasts showed there was heavy snowfall around the 7,126m (23,380ft) peak in recent days, which lies on Nepal's border with Tibet. Poor weather has hampered rescue efforts, with helicopters and rescue teams initially unable to reach the site. Bibhuti Chand Thakur, of Himalaya Holidays Trekking, told news agency AFP that at least eight members of his expedition team had been reported missing. The exact number of climbers still unaccounted for remains unclear. A rescue team consisting of experienced mountaineers was rushed from the Nepalese capital, Kathmandu, via helicopter. That effort is now expected to continue on Monday due to the thick snow and bad weather, local media report. The Nepalese team had been sent ahead of foreign climbers to prepare the camp, manage the route and fix ropes on the mountain. Nepal's mountain districts have seen persistent rain and snow in recent days, creating treacherous conditions for the country's economically important climbing tourism industry. Climbers were forced to leave Mount Manaslu, the eighth highest peak in the world, earlier this week due to the rising threat of avalanches. The latest death of Nepalese climbers comes less than two months after six lost their lives on Broad Peak in Pakistan, including renowned British-Nepalese mountaineer Nirmal Purja. It also comes as efforts to recover bodies continues on the Nepal-Tibet border, where more than 6,000 people are still missing after a massive flood and landslide in August. More than 1,400 people are confirmed to have died after a glacial collapse in the Himalayas sent vast quantities of water and debris careering down the Trishuli River valley, sweeping away settlements. Extreme weather events have also affected other parts of Asia in the past week. Extreme weather in the neighbouring Indian region of Uttar Pradesh has killed more than 50 people, officials there said. Meanwhile, a flood emergency disaster has been declared across Bangkok because of he",
+      "source_title": "Two bodies found after avalanche hits Himalayan climbing group",
+      "source_url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 5,
+      "title": "蒙特利尔附近直升机坠毁致四人死亡",
+      "entities": [
+        {
+          "name": "魁北克省警",
+          "explain": "加拿大魁北克省的省级警察机构，负责该省治安和刑事调查"
+        }
+      ],
+      "summary": "加拿大蒙特利尔附近发生直升机坠毁事故，造成四人死亡。魁北克省警向BBC表示，遇难者身份尚未确认。",
+      "relevant": "加拿大近期发生的重大航空安全事故，四人遇难。",
+      "context": "事故发生在蒙特利尔附近，魁北克省警已介入调查。遇难者身份尚未公布，事故原因暂不明确。",
+      "source_analysis": "BBC报道，为英国公共广播机构，以突发事件快讯见长。",
+      "social_impact": "四人遇难，事故原因待查。",
+      "source_text": "Four killed in helicopter crash near Montreal - Published Four people have died after a helicopter crashed in a small town 50km (31 miles) from Montreal, Quebec's provincial police have told the BBC. Emergency services were called to Sainte-Brigide-d'Iberville shortly after 14:30 local time (18:30 GMT) on Saturday afternoon, where they found the aircraft on fire and declared its occupants dead at the scene. The victims have not yet been identified but the aircraft appeared to be a private helicopter, Sgt Audrey-Anne Bilodeau said. An investigation into the crash is being led by the Major Crime Unit of the Sûreté du Québec, working alongside crime scene technicians as well as investigators from the Transportation Safety Board of Canada. The crash site is located near the Rang des Écossais road off Highway 10, according to Bilodeau. Police were notified of a helicopter in distress that may have crashed and caught fire in an emergency call. An hour after the call, the fire at the site had been brought under control, though officials were still working at the crash site just before 22:00 local time. The victims have not yet been identified and Bilodeau said this process may \"take a few days.\" Related topics - Published2 days ago - Published3 days ago",
+      "source_title": "Four killed in helicopter crash near Montreal",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
+      "source_name": "BBC",
+      "group": "industry"
+    },
+    {
+      "item_id": 22,
+      "title": "开普敦计划围捕扰民狒狒群引发激烈争议",
+      "entities": [
+        {
+          "name": "南非狒狒（chacma baboon）",
+          "explain": "一种分布于南部非洲的大型灵长类动物，适应性强，常出现在开普敦郊区觅食"
+        },
+        {
+          "name": "开普敦市议会",
+          "explain": "南非立法首都开普敦的地方治理机构，负责城市管理和公共事务决策"
+        }
+      ],
+      "summary": "开普敦市议会宣布将“即将”围捕两支频繁闯入民宅和商铺的狒狒群，计划将其绝育后永久转移至新建的庇护所。动物权利活动人士强烈反对，认为应让狒狒继续自由活动，并指责市议会未认真考虑破坏性更小的方案。开普敦狒狒问题自2000年代以来持续发酵，近两年达到沸点。2025年普查显示狒狒数量从2000年的360只增至493只。",
+      "relevant": "城市扩张与野生动物冲突的典型案例，涉及动物权利、城市管理和居民生活质量的复杂平衡。",
+      "context": "开普敦自1990年代末在公众压力下停止扑杀狒狒群后，狒狒数量持续增长并频繁进入居民区觅食。2025年普查显示狒狒数量较2000年增长约三分之一，人狒冲突在过去两年急剧升级。",
+      "source_analysis": "《卫报》报道，该报为英国左倾自由派媒体，在环境和动物权利议题上通常倾向于关注生态保护和动物福利视角。",
+      "social_impact": "狒狒数量从2000年的360只增至2025年的493只，分布在12个管理群中。居民生活受到严重影响，有房主称房屋被狒狒粪便覆盖难以出售。",
+      "source_text": "Cape Town’s city council has said it will “imminently” round up two baboon troops coming into repeated conflict with residents. The animals will be sterilised and permanently moved to a newly constructed sanctuary. The plan has been fiercely criticised by animal rights activists, who say the monkeys should remain roaming freely, and that less destructive options have not been properly considered. Cape Town’s baboon problem has been brewing since the 2000s, after the city stopped culling troops in the late 1990s after pressure from the public. But in the past two years it has reached boiling point. A 2025 census found that the population had grown by a third since 2000, from 360 baboons to 493, now living in 12 managed troops. As a result of the population boom, troops of chacma baboons on the city’s peninsula regularly rip off roof sheeting, sneak into unlocked cars and raid food pantries. Some monkeys are now staying up late into the night to break into homes in Simon’s Town and nab snacks from convenience stores. Residents can no longer barbecue or host garden parties for fear of the marauding baboons. “It’s depreciated property values because it’s hard to sell a house when it’s covered in baboon faeces and paw prints, and you know they’re coming every day,” said Justin O’Riain, a behavioural ecologist at the University of Cape Town who has long studied the local baboons. Cape Town’s geography is partially to blame. Much of the problem is confined to the Cape Peninsula, a narrow sliver of land stretching from the city centre to Cape Point. Here, baboons are boxed in between the steep, protected area of Table Mountain national park and the sprawling urban development that stretches to the Atlantic Ocean. “The underlying issue is that baboons will seek low-lying land. That is their natural drive – it’s better access to water and more productive vegetation,” said Joselyn Mormile, who leads the Cape Baboon Partnership (CBP), a nonprofit organisation that works with the city and local conservation authorities to manage the baboons. “But throughout the peninsula, we’ve developed most of those places. It’s a constant battle between the two.” Initially, the CBP’s 2025 management plan proposed to move four troops to a sanctuary. That was revised, Mormile said, to give two other troops living in the northern section of the peninsula “the benefit of the doubt to see if they can adjust in that remaining space … We believe that they could settle quite nicely.” The ba",
+      "source_title": "‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys",
+      "source_url": "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
+      "source_name": "卫报",
+      "group": "industry"
+    }
+  ],
+  "items": [
+    {
+      "id": "rss_19699606c14d",
+      "source": "BBC",
+      "title": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+      "summary": "The foreign minister says Tehran is waiting for an official rejection of a deal, despite the US President's comments.",
+      "image": ""
+    },
+    {
+      "id": "rss_b3216b657ce0",
+      "source": "BBC",
+      "title": "Two mass shootings in South Africa leave 27 dead",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+      "summary": "The two attacks hours apart come as the country struggles to stop high levels of gang-related armed violence.",
+      "image": ""
+    },
+    {
+      "id": "rss_e7776c90d9d0",
+      "source": "BBC",
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption.",
+      "image": ""
+    },
+    {
+      "id": "rss_8fcf0a367cdb",
+      "source": "BBC",
+      "title": "Two bodies found after avalanche hits Himalayan climbing group",
+      "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rescuers are looking for at least 10 Nepalese people who were preparing to take climbers up the Himlung Himal peak.",
+      "image": ""
+    },
+    {
+      "id": "rss_dfb6e61ae38d",
+      "source": "BBC",
+      "title": "Four killed in helicopter crash near Montreal",
+      "url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
+      "summary": "The victims of the crash have not yet been identified, Quebec provincial police told the BBC.",
+      "image": ""
+    },
+    {
+      "id": "rss_b82ba30202d2",
+      "source": "France24",
+      "title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
+      "url": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+      "summary": "Ethiopia’s army chief accused Eritrea and Sudan on Sunday of backing armed groups fighting federal troops, as clashes with Tigrayan rebels intensified. The Tigray People’s Liberation Front said it was waging a “defensive war” and seized airports. A humanitarian source said rebels captured the Afar town of Erebti on Sunday.",
+      "image": "https://s.france24.com/media/display/0f75e7a4-b74e-11f1-a7c4-55848da96185/w:1024/p:16x9/6d45b1037798aea9bf1e18f1c74287a9684d4283.jpg"
+    },
+    {
+      "id": "rss_d6a049392fec",
+      "source": "France24",
+      "title": "Trump expects Iran talks next week after rejecting seven-day truce proposal",
+      "url": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal",
+      "summary": "US President Donald Trump said on Sunday he expected talks with Iran to resume next week, despite rejecting Tehran’s proposal for a seven-day truce followed by the reopening of the Strait of Hormuz. Trump has raised the possibility of renewed air strikes on Iran, but told Axios he anticipated further negotiations.",
+      "image": "https://s.france24.com/media/display/4817a61c-ba8a-11f1-b4fe-8f3418d01115/w:1024/p:16x9/040b658896f965b502ca28b500bf7f44524d2c6c.jpg"
+    },
+    {
+      "id": "rss_3399b28ea096",
+      "source": "France24",
+      "title": "Russian attacks kill eight in Ukraine after Moscow vows to continue war",
+      "url": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow",
+      "summary": "Russian strikes killed eight people across Ukraine on Sunday, authorities said, a day after Moscow vowed to continue the war. President Volodymyr Zelensky said Russia had launched about 3,900 drones, aerial bombs and missiles over the past week. Ukraine accused Moscow of deliberately targeting civilians as winter approaches.",
+      "image": "https://s.france24.com/media/display/561c25ac-b9be-11f1-8564-11fa9f8a3b4f/w:1024/p:16x9/2026-09-26T075107Z-778474444-RC2SQNAUPMBO-RTRMADP-3-UKRAINE-CRISIS-ATTACK-KYIV.jpg"
+    },
+    {
+      "id": "rss_bca3c4131047",
+      "source": "France24",
+      "title": "Israel revokes credentials of Dutch diplomats in West Bank over settlement goods ban",
+      "url": "https://www.france24.com/en/middle-east/20260927-israel-revokes-dutch-diplomats-credentials-settlement-sanctions",
+      "summary": "Israel will revoke the diplomatic accreditation of Dutch officials based in the occupied West Bank after the Netherlands began enforcing a ban on goods from Israeli settlements, Foreign Minister Gideon Saar said on Sunday. The officials have seven days to surrender their Israeli-issued diplomatic papers, he said.",
+      "image": "https://s.france24.com/media/display/f5cc8df4-b215-11f1-b4b8-4daf57bffe27/w:1024/p:16x9/2026-09-09T133257Z-1437535793-RC2OFNA4YO0U-RTRMADP-3-SLOVENIA-ISRAEL.jpg"
+    },
+    {
+      "id": "rss_5ae46b6c80ec",
+      "source": "France24",
+      "title": "France's far right gains ground in indirect Senate elections",
+      "url": "https://www.france24.com/en/france/20260927-france-s-far-right-gains-ground-in-indirect-senate-elections",
+      "summary": "Marine Le Pen's far-right National Rally and its allies won enough seats in France's Senate to form a parliamentary group in the upper house for the first time in the party's history Sunday, securing 14 seats out of 348. Half the upper house is elected through indirect voting every three years, with senators in the right-wing dominated chamber serving for six years.",
+      "image": "https://s.france24.com/media/display/459856d8-ba45-11f1-8647-555a0aff87a4/w:1024/p:16x9/89f26f0ba40bd2695376d951d4b7dad7d724f76a.jpg"
+    },
+    {
+      "id": "rss_a638ea9c1f42",
+      "source": "TASS Russia",
+      "title": "US to win war against Iran, and oil prices to decline, says Trump",
+      "url": "https://tass.com/world/2193695",
+      "summary": "According to the president, the US has already defeated Iran from a military standpoint",
+      "image": ""
+    },
+    {
+      "id": "rss_e500040af86d",
+      "source": "TASS Russia",
+      "title": "Kiev troops bombard Donetsk People’s Republic 11 times over past day",
+      "url": "https://tass.com/defense/2193693",
+      "summary": "There were no reports about casualties among civilians",
+      "image": ""
+    },
+    {
+      "id": "rss_46da284e33ed",
+      "source": "TASS Russia",
+      "title": "Russia ready to supply India with as much oil as it needs — ambassador",
+      "url": "https://tass.com/economy/2193691",
+      "summary": "Denis Alipov added that in addition to oil, Russia has been India’s partner for many years in nuclear energy, petrochemical production, and oil refining",
+      "image": ""
+    },
+    {
+      "id": "rss_fd4be8f0b9d5",
+      "source": "TASS Russia",
+      "title": "Russia open to practical proposals from India on Ukraine conflict — ambassador",
+      "url": "https://tass.com/politics/2193689",
+      "summary": "Denis Alipov recalled that for decades, right up until 2022, Russia had done everything possible to persuade NATO to sit down at the negotiating table and agree on common principles of security in Europe",
+      "image": ""
+    },
+    {
+      "id": "rss_37e3ebab122b",
+      "source": "TASS Russia",
+      "title": "US will seek to contain India as it grows stronger — Russian ambassador",
+      "url": "https://tass.com/politics/2193687",
+      "summary": "Denis Alipov clarified that earlier this year, at the Raisina Dialogue, a senior US official publicly said that the US would never allow India to become the next China",
+      "image": ""
+    },
+    {
+      "id": "rss_69942413443d",
+      "source": "纽约时报",
+      "title": "5 Arrested on Suspicion of Terrorism Near RAF Fairford Air Base in UK",
+      "url": "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
+      "summary": "The British counterterrorism police say the men were arrested after three suspicious vehicles appeared to be traveling toward R.A.F. Fairford early on Sunday.",
+      "image": ""
+    },
+    {
+      "id": "rss_f91ed5fac289",
+      "source": "纽约时报",
+      "title": "Serbia’s Longtime President Aleksandar Vucic Resigns Post",
+      "url": "https://www.nytimes.com/2026/09/27/world/europe/serbia-president-aleksandar-vucicto-resigns.html",
+      "summary": "Aleksandar Vucic, one of Europe’s longest-serving leaders, resigned as president, paving the way for him to become prime minister after elections next month.",
+      "image": ""
+    },
+    {
+      "id": "rss_f1f2990fbcd6",
+      "source": "纽约时报",
+      "title": "A Transcript From The Times Interview with Prime Minister Mark Carney of Canada",
+      "url": "https://www.nytimes.com/2026/09/27/world/canada/mark-carney-interview-transcript.html",
+      "summary": "New York Times journalists pressed the Canadian prime minister about a range of topics in an hourlong interview last week. Here’s a transcript of their conversation.",
+      "image": ""
+    },
+    {
+      "id": "rss_d8dee16fcac1",
+      "source": "纽约时报",
+      "title": "Recreational Aerial Craft Become Weapons in Myanmar’s War",
+      "url": "https://www.nytimes.com/2026/09/27/world/asia/myanmar-light-aircraft-war-weapons.html",
+      "summary": "Years after a coup, the military is increasingly using motorized paragliders and gyrocopters to bomb towns and villages in rebel-held territory.",
+      "image": ""
+    },
+    {
+      "id": "rss_b673a7587e5e",
+      "source": "纽约时报",
+      "title": "Iran Still Awaits ‘Official’ U.S. Response Despite Trump’s Rebuff of Cease-Fire Offer",
+      "url": "https://www.nytimes.com/2026/09/27/world/middleeast/iran-trump-ceasefire-strait-of-hormuz.html",
+      "summary": "Abbas Araghchi, Iran’s foreign minister, said a history of contradictory messaging meant that President Trump’s rejection might not be a final position.",
+      "image": ""
+    },
+    {
+      "id": "rss_73a00c647512",
+      "source": "卫报",
+      "title": "At least 27 dead after two mass shootings in South Africa, police say",
+      "url": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
+      "summary": "Seventeen people killed near Johannesburg in suspected ‘illegal goldmining turf war’, as 10 killed in separate incident at barbecue venue near Cape Town Two separate mass shootings near South Africa’s two biggest cities killed at least 27 people, as the country grapples with one of the world’s highest murder rates amid investigations into corruption and criminality within the police. The South African police service said on Sunday that 17 people were killed on Saturday night when eight suspects armed with AK-47 assault rifles and pistols opened fire at a bar in Wedela township, about 50 miles south-west of central Johannesburg. At least 15 other people sustained gunshot injuries in that attack, police said. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_a463266e3501",
+      "source": "卫报",
+      "title": "‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys",
+      "url": "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
+      "summary": "Two troops of chacma baboons are breaking into homes and shops but animal rights activists insist coexistence is the answer Cape Town’s city council has said it will “imminently” round up two baboon troops coming into repeated conflict with residents . The animals will be sterilised and permanently moved to a newly constructed sanctuary. The plan has been fiercely criticised by animal rights activists, who say the monkeys should remain roaming freely, and that less destructive options have not been properly considered. Cape Town’s baboon problem has been brewing since the 2000s, after the city stopped culling troops in the late 1990s after pressure from the public. But in the past two years it has reached boiling point. A 2025 census found that the population had grown by a third since 2000, from 360 baboons to 493, now living in 12 managed troops. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_2e7923f290b1",
+      "source": "卫报",
+      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+      "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed government There are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed. About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF). Both sides are now accusing the other of triggering a return to open conflict. Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_c8c84fd647e1",
+      "source": "卫报",
+      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+      "summary": "Sunil Bharti Mittal’s Airtel Money targets $9bn IPO in boost for ailing UK stock market Nils Pratley: Does this mark the end of London’s listing drought? Not yet A payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float on the struggling London Stock Exchange . Airtel Money, the mobile money arm of Airtel Africa, is planning one of the biggest UK listings in years, in a boost for the shrinking London market that has faced a string of recent departures . Continue reading...",
+      "image": ""
+    },
+    {
+      "id": "rss_5a58864aec04",
+      "source": "卫报",
+      "title": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
+      "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+      "summary": "Arrest of Shadrack Sibiya comes as country reels from cases of femicide and alleged police corruption and criminality One of South Africa’s most senior police officers has been charged with raping an 18-year-old woman and grooming a 16-year-old girl, as the country’s police face allegations of corruption and failing to tackle violence against women and girls. Shadrack Sibiya, who was already suspended from his role as deputy national police commissioner over allegations he interfered with political killings investigations, was arrested on Monday. He is facing charges of rape, people trafficking, promoting the sexual grooming of a child and two counts of grooming a child. Continue reading...",
+      "image": ""
+    }
+  ],
+  "generated_at": "2026-09-28 07:30"
+}
